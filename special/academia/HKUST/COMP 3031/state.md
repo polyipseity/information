@@ -39,7 +39,7 @@ tags:
 > ```
 <!--SR:!2026-12-01,252,330!2026-11-17,241,330-->
 
-{@{This rewriting}@} is {@{deterministic}@}, so if {@{a program terminates it always yields the same result}@}. {@{The Church–Rosser theorem}@} guarantees that {@{any two valid rewrite sequences converge to the same value}@}. A concrete illustration uses {@{`iterate` and `square`}@}: <!--SR:!2027-01-05,276,330!2026-11-11,236,330!2026-12-31,272,330!2027-01-02,273,330!2026-12-24,266,330!2026-12-02,253,330-->
+{@{This rewriting}@} is {@{deterministic}@}, so if {@{a program terminates it always yields the same result}@}. {@{The Church–Rosser theorem}@} guarantees that {@{any two valid rewrite sequences converge to the same value}@}. A concrete illustration uses {@{`iterate` and `square`}@}: <!--SR:!2027-01-05,276,330!fsrs,2029-09-29T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-11T00:00:00.000Z!2026-12-31,272,330!2027-01-02,273,330!2026-12-24,266,330!2026-12-02,253,330-->
 
 > [!example] __rewrite of `iterate`__
 >
@@ -75,7 +75,7 @@ tags:
 >     else throw new IllegalArgumentException("insufficient funds")
 > ```
 >
-> {@{The field `balance`}@} is mutated by {@{`deposit` and `withdraw`}@}, so {@{two calls to the same object can produce different results}@}. <!--SR:!2026-12-15,259,330!2026-12-15,259,330!2026-12-22,264,330!2026-11-11,236,330!2026-11-21,244,330!2026-11-20,243,330-->
+> {@{The field `balance`}@} is mutated by {@{`deposit` and `withdraw`}@}, so {@{two calls to the same object can produce different results}@}. <!--SR:!2026-12-15,259,330!2026-12-15,259,330!2026-12-22,264,330!fsrs,2029-09-29T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-11T00:00:00.000Z!2026-11-21,244,330!2026-11-20,243,330-->
 
 {@{Scala objects}@} are {@{instances of classes}@}, therefore an instance that {@{contains a mutable field is (usually; see below) stateful}@}. {@{A proxy class}@} delegating to {@{another stateful object also carries state}@}: <!--SR:!2026-11-29,251,330!2026-11-23,246,330!2026-11-30,251,330!2027-01-05,276,330!2027-01-04,275,330-->
 
@@ -121,7 +121,7 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 > var x: String = "abc"
 > x = "hi"  // fails if `val` instead of `var` is used
 > ```
-<!--SR:!2026-11-11,236,330!2027-01-04,275,330-->
+<!--SR:!fsrs,2029-09-29T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-11T00:00:00.000Z!2027-01-04,275,330-->
 
 ## operational equivalence
 
@@ -140,7 +140,7 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 > // S':  x.deposit(30); x.withdraw(20)
 > ```
 >
-> If we define {@{`val y = x`}@}, {@{no test can distinguish them}@}; they are {@{operationally the same}@}. <!--SR:!2026-12-04,255,330!2026-11-11,236,330!2026-12-19,262,330!2027-01-03,274,330!2026-12-16,259,330!2026-11-29,251,330-->
+> If we define {@{`val y = x`}@}, {@{no test can distinguish them}@}; they are {@{operationally the same}@}. <!--SR:!2026-12-04,255,330!fsrs,2029-09-29T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-11T00:00:00.000Z!2026-12-19,262,330!2027-01-03,274,330!2026-12-16,259,330!2026-11-29,251,330-->
 
 {@{The λ‑calculus substitution model}@} replaces {@{a variable by its defining expression}@}. It works for {@{immutable values but fails when mutable state is involved}@}, because replacing {@{a reference with another object changes behaviour}@}. <!--SR:!2026-11-13,237,330!2026-11-13,237,330!2026-11-16,240,330!2026-11-12,237,330-->
 
@@ -153,6 +153,6 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 > val y = x          // y refers to the same account
 > // Substituting y with BankAccount() would change the program
 > ```
-<!--SR:!2026-12-31,272,330!2026-11-11,236,330!2026-12-20,263,330!2026-11-11,236,330-->
+<!--SR:!2026-12-31,272,330!fsrs,2029-09-29T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-11T00:00:00.000Z!2026-12-20,263,330!fsrs,2029-09-29T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-11T00:00:00.000Z-->
 
 {@{A model more robust than the substitution model}@} introduces {@{a store that tracks mutable objects}@}, but this adds {@{considerable complexity}@}. <!--SR:!2026-11-22,245,330!2026-12-20,262,330!2026-12-23,265,330-->

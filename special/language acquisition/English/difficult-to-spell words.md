@@ -27,7 +27,7 @@ A word can have {@{many meanings}@}, in a {@{phenomenon known as _polysemy_}@}. 
 - [accommodate](https://en.wiktionary.org/wiki/accommodate) ::@:: \(a\_e\) To adapt. <!--SR:!2027-10-28,1008,344!2029-05-23,1258,304-->
 - [accumulate](https://en.wiktionary.org/wiki/accumulate) ::@:: \(a\_e\) To gradually increase in quantity. <!--SR:!2031-09-01,2136,352!2031-05-04,2141,394-->
 - [acquisition](https://en.wiktionary.org/wiki/acquisition) ::@:: \(a\_n\) The act or processing of acquiring. <!--SR:!2027-12-30,748,436!2027-12-29,747,436-->
-- [altitude](https://en.wiktionary.org/wiki/altitude) ::@:: \(a\_e\) Height of a location from a reference point, usually [sea level](../../../general/sea%20level.md). <!--SR:!2026-11-11,729,324!2027-02-11,798,324-->
+- [altitude](https://en.wiktionary.org/wiki/altitude) ::@:: \(a\_e\) Height of a location from a reference point, usually [sea level](../../../general/sea%20level.md). <!--SR:!fsrs,2034-06-03T00:00:00.000Z,2761,2760.90731231,1,2,11,0,0,2026-11-11T00:00:00.000Z!2027-02-11,798,324-->
 - [aluminium](https://en.wiktionary.org/wiki/aluminium) ::@:: \(a\_m\) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, longer spelling. <!--SR:!2032-04-05,2258,330!2027-04-28,654,330-->
 - [aluminum](https://en.wiktionary.org/wiki/aluminum) ::@:: \(a\_m\) A [chemical element](../../../general/chemical%20element.md) (_symbol_ Al) of [atomic number](../../../general/atomic%20number.md) 13, shorter spelling. <!--SR:!2031-02-24,1965,330!2030-02-26,1644,310-->
 - [ambiguous](https://en.wiktionary.org/wiki/ambiguous) ::@:: \(a\_s\) Open to multiple interpretations. <!--SR:!2032-06-10,2443,416!2027-07-19,958,396-->

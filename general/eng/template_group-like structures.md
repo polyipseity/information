@@ -45,7 +45,7 @@ tags:
 > - partial magma ::@:: (none) <!--SR:!2029-04-21,1219,350!2029-04-16,1216,350-->
 > - semigroupoid ::@:: associative <!--SR:!2027-08-23,620,250!2026-12-04,309,250-->
 > - small category ::@:: associative, identity <!--SR:!2027-06-08,608,310!2029-08-31,1324,350-->
-> - groupoid ::@:: associative, identity, divisible <!--SR:!2026-11-11,496,310!2028-01-16,668,250-->
+> - groupoid ::@:: associative, identity, divisible <!--SR:!fsrs,2032-01-01T00:00:00.000Z,1877,1877.19345695,1,2,10,0,0,2026-11-11T00:00:00.000Z!2028-01-16,668,250-->
 > - commutative groupoid ::@:: associative, identity, divisible, commutative <!--SR:!2027-04-01,483,230!2027-06-06,608,310-->
 > - magma ::@:: total <!--SR:!2029-10-05,1345,350!fsrs,2028-02-21T05:24:14.944Z,626,625.50511792,1,2,8,0,0,2026-06-05T05:24:14.944Z-->
 > - commutative magma ::@:: total, commutative <!--SR:!2029-10-05,1345,350!2028-08-25,953,330-->

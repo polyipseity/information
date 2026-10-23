@@ -335,7 +335,7 @@ The content is in teaching order. Extra information and corrections are included
         - Ancient Greek philosopher examples ::@:: Socrates (469–399 BC), Plato (428–348 BC), Aristotle (384–322 BC) <!--SR:!2029-06-30,1295,300!2029-04-14,1347,360-->
             - Socrates (469–399 BC) ::@:: Credited as one of the founders of Western philosophy; Plato's teacher <!--SR:!2030-01-01,1578,380!2028-04-27,1061,360-->
             - Plato (428–348 BC) thinking ::@:: Earth at the center of the universe; all natural motions are perfectly circular; all celestial objects are perfect spheres <!--SR:!2027-11-09,940,360!2029-12-18,1508,340-->
-            - Aristotle (384–322 BC) thinking ::@:: five elements: _earth_, _water_, _air_, _fire_, _quintessence_; moving objects spontaneously come to rest without external driving force <!--SR:!2027-01-18,660,340!2026-11-11,612,340-->
+            - Aristotle (384–322 BC) thinking ::@:: five elements: _earth_, _water_, _air_, _fire_, _quintessence_; moving objects spontaneously come to rest without external driving force <!--SR:!2027-01-18,660,340!fsrs,2033-09-11T00:00:00.000Z,2496,2495.93975469,1,2,10,0,0,2026-11-11T00:00:00.000Z-->
         - Ancient Greek philosophy & science ::@:: Ancient Greek philosophy based their thinking on philosophical reasoning, including apparent perfection, which is not necessarily science. <!--SR:!2027-05-20,804,360!2031-05-26,2023,400-->
 - [model](../../../../general/model.md)
     - models of nature ::@:: models that explain the nature <!--SR:!2032-09-17,2416,400!2030-08-11,1789,400-->

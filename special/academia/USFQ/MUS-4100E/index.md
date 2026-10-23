@@ -241,7 +241,7 @@ The content is in teaching order.
     - jazz / Why moved to New York City? ::@:: largest city; largest number of immigrants: 6M Italians, 4M Jews, 4M Irish, Great Migration, etc.; has Harlem; recording center (not Los Angeles): had special labels for black and other minority artists <!--SR:!fsrs,2032-12-25T00:00:00.000Z,2258,2258.22586073,1,2,10,0,0,2026-10-20T00:00:00.000Z!2031-08-05,1889,398-->
 - [Black Swan Records](../../../../general/Black%20Swan%20Records.md) (1921–1924) ::@:: first record company owned by African Americans; everyone working, from top to bottom, were black; give fair treatment to black artists: Ethel Waters, James P. Johnson, etc. <!--SR:!2031-04-09,1790,398!fsrs,2030-07-09T00:00:00.000Z,1388,1387.71000849,1,2,10,0,0,2026-09-20T00:00:00.000Z-->
 - [big band](../../../../general/big%20band.md)
-    - big band / originators ::@:: Fletcher Henderson, Paul Whiteman, etc. <!--SR:!fsrs,2033-03-30T00:00:00.000Z,2334,2333.93861993,1,2,10,0,0,2026-11-08T00:00:00.000Z!2026-11-11,513,398-->
+    - big band / originators ::@:: Fletcher Henderson, Paul Whiteman, etc. <!--SR:!fsrs,2033-03-30T00:00:00.000Z,2334,2333.93861993,1,2,10,0,0,2026-11-08T00:00:00.000Z!fsrs,2033-04-14T00:00:00.000Z,2346,2345.86098564,1,2,10,0,0,2026-11-11T00:00:00.000Z-->
 - [Fletcher Henderson](Fletcher%20Henderson.md) ::@:: an arranger, convinced Louis Armstrong to play in his band in 1924, and other band leaders started taking this feeling of "swing"; went to New York City to study chemistry originally <!--SR:!2027-03-11,537,338!2027-08-18,707,358-->
     - Fletcher Henderson / influence ::@:: started the swing era (first used "swing" to describe how Louis Armstrong played); influenced Benny Goodman, Count Baise, Duke Ellington, Paul Whiteman, and every other big band leaders; brought rural south African sounds to his band and introduced it to White America <!--SR:!2026-11-18,520,398!2031-02-15,1759,398-->
     - Fletcher Henderson / performance ::@:: performed at Roseland ballroom (fancy white dance hall), Savoy (first integrated dance hall) <!--SR:!2030-08-27,1630,398!fsrs,2033-01-19T00:00:00.000Z,2278,2278.18510575,1,2,10,0,0,2026-10-25T00:00:00.000Z-->
@@ -359,7 +359,7 @@ The content is in teaching order.
 - datetime: 2025-02-19T08:30:00-05:00/2025-02-19T09:50:00-05:00, PT1H20M
     - local: 2025-02-19T21:30:00+08:00/2025-02-19T22:50:00+08:00, PT1H20M
 - swing music
-    - swing music / singers ::@:: When big bands went on tours, they often had singers. Sometimes one. Sometimes many. Includes both men and women. <!--SR:!2026-11-11,498,402!2027-08-08,728,422-->
+    - swing music / singers ::@:: When big bands went on tours, they often had singers. Sometimes one. Sometimes many. Includes both men and women. <!--SR:!fsrs,2033-02-13T00:00:00.000Z,2286,2286.16188359,1,2,10,0,0,2026-11-11T00:00:00.000Z!2027-08-08,728,422-->
         - swing music / singers / examples (popular) ::@:: Billie Holiday, Cab Calloway, Ella Fitzgerald, Frank Sinatra <!--SR:!2027-02-08,544,402!2027-06-08,675,422-->
 - [scat singing](../../../../general/scat%20singing.md) ::@:: vocal improvisation with wordless vocables, nonsense syllables or without words at all <!--SR:!2026-12-15,520,402!2027-06-23,690,422-->
     - scat singing / made popular by ::@:: "Heebie Jeebies" (1926) — Louis Armstrong; the legend was he dropped the sheet music while recording <!--SR:!2027-08-02,723,422!fsrs,2030-09-01T00:00:00.000Z,1409,1408.56208782,1,2,10,0,0,2026-10-23T00:00:00.000Z-->

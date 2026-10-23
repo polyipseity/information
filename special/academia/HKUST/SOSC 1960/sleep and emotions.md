@@ -21,7 +21,7 @@ Flashcards for this section are as follows:
 - how emotion changes when sleep is missing ::@:: Emotion is louder without sleep and quieter after it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - what emotional reactivity depends on ::@:: How much sleep the brain has had. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - what becomes more reactive without sleep ::@:: The amygdala, the part of the brain that generates strong emotional reactions. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
-- what the prefrontal cortex does without sleep ::@:: It loses the link to the amygdala. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-10T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-10T00:00:00.000Z-->
+- what the prefrontal cortex does without sleep ::@:: It loses the link to the amygdala. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-23T00:00:00.000Z,12,11.6874828,1,2,2,0,0,2026-11-11T00:00:00.000Z-->
 - what sleep does for the day's emotional experiences ::@:: It takes in the day's difficult experiences and soothes them, so that the next day copes. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ## emotional reactivity under sleep loss

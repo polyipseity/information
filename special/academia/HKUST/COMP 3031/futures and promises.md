@@ -22,7 +22,7 @@ tags:
 
 ## motivation
 
-When a function has to wait {@{for an I/O operation or a remote service}@}, {@{blocking the current thread}@} would {@{waste resources and stall other work}@}. Futures allow the calling code to {@{proceed while the computation runs in parallel}@}, improving {@{responsiveness and throughput on multi‑core machines}@}. They also make it easier to express {@{concurrent workflows without explicit thread management}@}. <!--SR:!2026-12-16,262,330!2026-11-19,248,330!2026-12-06,255,330!2026-11-11,241,330!fsrs,2029-09-27T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-05T00:00:00.000Z!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z-->
+When a function has to wait {@{for an I/O operation or a remote service}@}, {@{blocking the current thread}@} would {@{waste resources and stall other work}@}. Futures allow the calling code to {@{proceed while the computation runs in parallel}@}, improving {@{responsiveness and throughput on multi‑core machines}@}. They also make it easier to express {@{concurrent workflows without explicit thread management}@}. <!--SR:!2026-12-16,262,330!2026-11-19,248,330!2026-12-06,255,330!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z!fsrs,2029-09-27T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-05T00:00:00.000Z!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z-->
 
 ### continuation-passing style
 
@@ -66,7 +66,7 @@ Apart from being ugly to {@{compose asynchronous steps (_callback hell_)}@}, CPS
 >
 > Because `k` is executed {@{concurrently by two invocations of `makeCoffee`}@}, {@{the shared variable `firstCoffee`}@} can be {@{updated in any order}@}. <!--SR:!2027-01-22,293,330!2026-12-18,264,330!2026-11-19,248,330!2026-12-01,251,330!2027-01-19,289,330!2027-01-01,275,330-->
 
-Because `k` is executed {@{concurrently by two invocations of `makeCoffee`}@}, {@{the shared variable `firstCoffee`}@} can be {@{updated in any order}@}. Without synchronization, {@{the resulting read—write pairs}@} may be {@{inconsistent or even lost}@}, illustrating why {@{CPS code that mutates external state is fragile when run asynchronously}@}. <!--SR:!2026-12-16,263,330!2026-11-11,241,330!2026-12-11,259,330!2027-01-23,293,330!2027-01-23,294,330!2027-01-13,285,330-->
+Because `k` is executed {@{concurrently by two invocations of `makeCoffee`}@}, {@{the shared variable `firstCoffee`}@} can be {@{updated in any order}@}. Without synchronization, {@{the resulting read—write pairs}@} may be {@{inconsistent or even lost}@}, illustrating why {@{CPS code that mutates external state is fragile when run asynchronously}@}. <!--SR:!2026-12-16,263,330!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z!2026-12-11,259,330!2027-01-23,293,330!2027-01-23,294,330!2027-01-13,285,330-->
 
 Moreover, {@{exceptions thrown inside callbacks}@} are not {@{caught by surrounding `try/catch` blocks unless explicitly handled inside the callback}@}. <!--SR:!2026-12-11,259,330!2027-01-01,275,330-->
 
@@ -166,7 +166,7 @@ Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}
 
 `Future` offers {@{a small but expressive set of combinators}@} that lift {@{ordinary functions into the asynchronous world and compose several futures together}@}. The API is intentionally analogous to {@{the standard collection operations}@}, which makes reasoning {@{about pipelines straightforward}@}. These transformation operators let developers write {@{clear, linear‑looking code while still exploiting concurrency}@} (and {@{parallelism if the execution context is parallel}@}) and {@{failure handling}@} that `Future` provides. <!--SR:!2026-12-01,251,330!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!2026-11-25,253,330!2027-01-23,293,330!2026-12-06,255,330!2027-01-22,293,330!fsrs,2029-08-29T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-10-30T00:00:00.000Z-->
 
-{@{`map`}@} applies {@{a pure function to the value produced by a `Future`}@}. If {@{the original future fails}@}, the resulting one {@{propagates the failure unchanged}@}. <!--SR:!2026-12-15,261,330!2027-01-13,285,330!2027-01-12,284,330!2026-11-11,241,330-->
+{@{`map`}@} applies {@{a pure function to the value produced by a `Future`}@}. If {@{the original future fails}@}, the resulting one {@{propagates the failure unchanged}@}. <!--SR:!2026-12-15,261,330!2027-01-13,285,330!2027-01-12,284,330!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z-->
 
 > [!example] __`Future.map`__
 >

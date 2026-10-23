@@ -56,7 +56,7 @@ Flashcards for this section are as follows:
 - what the damaged-model comparison is worth running for ::@:: A manipulation no brain could receive made the error visible. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - what a model is best at ::@:: Diagnosing a process. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - what the damaged-model comparison does not establish ::@:: That the brain uses the same decomposition as the model. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
-- what could produce the same asymmetry in another model ::@:: A model that splits the process into different parts. <!--SR:!fsrs,2026-11-10T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what could produce the same asymmetry in another model ::@:: A model that splits the process into different parts. <!--SR:!fsrs,2026-11-23T00:00:00.000Z,12,11.6874828,1,2,2,0,0,2026-11-11T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 
 ## references
 

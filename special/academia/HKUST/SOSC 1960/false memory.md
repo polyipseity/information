@@ -16,7 +16,7 @@ False recognition phenomena suggest recoding during encoding: a stimulus semanti
 
 Flashcards for this section are as follows:
 
-- what DRM stands for ::@:: Deese, Roediger, and McDermott, the researchers whose names give the paradigm its name. <!--SR:!fsrs,2026-11-10T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what DRM stands for ::@:: Deese, Roediger, and McDermott, the researchers whose names give the paradigm its name. <!--SR:!fsrs,2026-11-23T00:00:00.000Z,12,11.6874828,1,2,2,0,0,2026-11-11T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - what the DRM paradigm is ::@:: A procedure in which people study a list built from one theme word and later recognize the theme word as if it had been shown, although it never appeared. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - what false recognition phenomena suggest about encoding ::@:: That recoding happens during encoding: a semantically or perceptually similar or related stimulus feels already encountered, as in the DRM effect. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - where taste and sweet sit in a fifteen-word list of sweet-related words ::@:: Taste is on the list and sweet is absent from it, so recognizing sweet as a list word is false recognition. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
@@ -29,7 +29,7 @@ Pragmatic inference is a second route to false recognition. After reading "The k
 
 Flashcards for this section are as follows:
 
-- how pragmatic inference produces a false recognition ::@:: Reading "The karate champion hit the cinder block" leaves "The karate champion broke the cinder block" feeling read, although only the hitting was written; the breaking was inferred. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-10T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-10T00:00:00.000Z-->
+- how pragmatic inference produces a false recognition ::@:: Reading "The karate champion hit the cinder block" leaves "The karate champion broke the cinder block" feeling read, although only the hitting was written; the breaking was inferred. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-23T00:00:00.000Z,12,11.6874828,1,2,2,0,0,2026-11-11T00:00:00.000Z-->
 
 ## references
 

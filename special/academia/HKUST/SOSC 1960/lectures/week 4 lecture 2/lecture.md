@@ -98,7 +98,7 @@ Prediction error is the difference between the expected outcome and the actual o
 
 Flashcards for this section are as follows:
 
-- what separates extinction, spontaneous recovery, and renewal ::@:: What brings the extinguished response back: nothing, the passage of time, or a change of context. <!--SR:!fsrs,2026-11-10T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what separates extinction, spontaneous recovery, and renewal ::@:: What brings the extinguished response back: nothing, the passage of time, or a change of context. <!--SR:!fsrs,2026-11-23T00:00:00.000Z,12,11.6874828,1,2,2,0,0,2026-11-11T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - what spontaneous recovery shows about extinction ::@:: Extinction suppresses the learned association rather than erasing it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - how strong a recovered response is ::@:: Usually weaker than the original, and it fades quickly once the CS keeps appearing without the US. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - how spontaneous recovery differs from renewal ::@:: Spontaneous recovery is driven by the passage of time; renewal is driven by a change in environment. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

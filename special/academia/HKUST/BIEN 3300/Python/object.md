@@ -35,7 +35,7 @@ The above object stored under `name_object` is also called {@{an _instance_ of t
 
 ## attribute
 
-Note that Python attributes are not {@{declared inside the class}@}. Instead, they are {@{assigned in the [constructor](#constructor)}@}. <!--SR:!2028-02-27,666,330!2026-11-11,311,340-->
+Note that Python attributes are not {@{declared inside the class}@}. Instead, they are {@{assigned in the [constructor](#constructor)}@}. <!--SR:!2028-02-27,666,330!fsrs,2030-08-26T00:00:00.000Z,1384,1383.86311253,1,2,9,0,0,2026-11-11T00:00:00.000Z-->
 
 ## method
 

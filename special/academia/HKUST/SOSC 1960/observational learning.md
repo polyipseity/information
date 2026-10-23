@@ -19,7 +19,7 @@ Four stages sit between watching and repeating: attention, retention, initiation
 Flashcards for this section are as follows:
 
 - what the learner watches, and where the consequences land ::@:: A learner watches what other people do, and the consequences can fall on someone else or not appear at all. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
-- other name for observational learning ::@:: Social learning theory, in Bandura's 1977 account. <!--SR:!fsrs,2026-11-10T00:10:00.000Z,0,2.3065,2.11810397,1,1,0,1,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- other name for observational learning ::@:: Social learning theory, in Bandura's 1977 account. <!--SR:!fsrs,2026-11-23T00:00:00.000Z,12,11.6874828,1,2,2,0,0,2026-11-11T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - what the two conditionings require ::@:: The behaviour reinforced has to be the learner's own. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - social model ::@:: An authority a learner watches and tries to copy. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
 - what the four stages being separate buys ::@:: Each stage can break on its own, and each one calls for a different remedy. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->

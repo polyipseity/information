@@ -109,7 +109,7 @@ Actors process {@{each message _sequentially_}@}, so {@{no explicit locks are ne
 
 {@{An _actor_}@} is an object that {@{possesses identity, a behavior, and communicates only by sending messages asynchronously}@}. It does not {@{expose its internal state to other actors}@}; instead, it receives {@{messages via an `ActorRef`}@} and reacts {@{according to its own logic}@}. The model was formalised by {@{Hewitt et al. in 1973 as a universal modular framework for artificial intelligence}@}. <!--SR:!2026-12-25,271,330!2026-12-20,267,330!2026-12-18,265,330!2026-11-27,255,330!2027-01-03,278,330!2027-01-17,287,330-->
 
-{@{The core of Scala’s actor implementation}@} is {@{the trait `Actor`}@}. Its {@{single abstract member `receive`}@} defines how it {@{handles incoming messages}@}: <!--SR:!2027-01-02,277,330!fsrs,2029-08-14T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-10-27T00:00:00.000Z!2026-12-12,258,330!2026-11-11,241,330-->
+{@{The core of Scala’s actor implementation}@} is {@{the trait `Actor`}@}. Its {@{single abstract member `receive`}@} defines how it {@{handles incoming messages}@}: <!--SR:!2027-01-02,277,330!fsrs,2029-08-14T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-10-27T00:00:00.000Z!2026-12-12,258,330!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z-->
 
 > [!example] __Scala `Actor` trait__
 >
@@ -239,7 +239,7 @@ When {@{an actor receives a message}@} it may: {@{send other messages}@}; {@{cre
 > context.stop(self)
 > ```
 >
-> After this call {@{the actor’s mailbox is drained and its resources are reclaimed}@}. Actors may also be stopped externally through {@{`system.actorOf(Props[MyActor])` followed by `system.stop(actor)`}@}. <!--SR:!2026-11-24,252,330!2026-11-11,241,330!2026-11-27,255,330!2027-01-14,285,330-->
+> After this call {@{the actor’s mailbox is drained and its resources are reclaimed}@}. Actors may also be stopped externally through {@{`system.actorOf(Props[MyActor])` followed by `system.stop(actor)`}@}. <!--SR:!2026-11-24,252,330!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z!2026-11-27,255,330!2027-01-14,285,330-->
 
 {@{These primitives}@} give actors {@{a well‑defined lifecycle that fits naturally into the asynchronous, message‑driven model}@}. <!--SR:!2026-12-02,252,330!2027-01-13,286,330-->
 
@@ -320,7 +320,7 @@ In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two oper
 >   case object Failed
 > }
 > ```
-<!--SR:!2026-11-22,251,330!2026-11-24,252,330!2026-11-11,241,330-->
+<!--SR:!2026-11-22,251,330!2026-11-24,252,330!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z-->
 
 {@{The actor itself}@} keeps {@{a mutable balance}@} and replies with {@{`Done` or `Failed`}@}. When it {@{receives a `Withdraw`}@}, the amount is checked {@{against the current balance}@}; if insufficient, it signals {@{failure}@}. <!--SR:!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!fsrs,2029-10-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-07T00:00:00.000Z!2027-01-06,278,330!2027-01-15,288,330!2027-01-03,278,330!2027-01-06,281,330-->
 
@@ -386,7 +386,7 @@ In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two oper
 - _at-least-once_: ::@:: the sender repeats until it receives an acknowledgment, so the message is delivered one or more times. <!--SR:!2027-01-17,290,330!2027-01-13,284,330-->
 - _exactly-once_: ::@:: the system guarantees that only the first reception is processed, typically by combining at‑least‑once delivery with idempotent handlers or persistent state. <!--SR:!2026-11-28,249,330!2027-01-05,280,330-->
 
-One may rely on {@{business logic}@} to {@{ignore duplicates}@}. {@{Akka actors}@} provide {@{persistence primitives}@} that let {@{a message be stored and replayed}@}, enabling {@{exactly‑once processing}@} when coupled with {@{unique correlation IDs}@}. <!--SR:!fsrs,2029-09-27T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-05T00:00:00.000Z!2026-11-11,241,330!2027-01-19,291,330!2026-11-26,254,330!fsrs,2029-09-22T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-04T00:00:00.000Z!2027-01-19,291,330!2027-01-07,279,330-->
+One may rely on {@{business logic}@} to {@{ignore duplicates}@}. {@{Akka actors}@} provide {@{persistence primitives}@} that let {@{a message be stored and replayed}@}, enabling {@{exactly‑once processing}@} when coupled with {@{unique correlation IDs}@}. <!--SR:!fsrs,2029-09-27T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-05T00:00:00.000Z!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z!2027-01-19,291,330!2026-11-26,254,330!fsrs,2029-09-22T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-04T00:00:00.000Z!2027-01-19,291,330!2027-01-07,279,330-->
 
 > [!example] __reliable transfer using IDs__
 >

@@ -62,7 +62,7 @@ However, {@{sorting}@} requires {@{an ordering relation `<`}@}, which {@{does no
 > sort(ints)((x, y) => x < y)
 > sort(strings)((s1, s2) => s1.compareTo(s2) < 0)
 > ```
-<!--SR:!2026-11-22,296,349!2026-11-11,281,349!2027-01-23,344,349!2026-11-17,287,349!2026-12-28,325,349!2026-11-21,291,349-->
+<!--SR:!2026-11-22,296,349!fsrs,2030-06-08T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-11T00:00:00.000Z!2027-01-23,344,349!2026-11-17,287,349!2026-12-28,325,349!2026-11-21,291,349-->
 
 Scala provides {@{the `scala.math.Ordering` trait}@} to {@{represent the sorting function}@}: <!--SR:!2026-12-22,320,349!2027-01-22,343,349-->
 
@@ -344,7 +344,7 @@ For {@{another example}@} of {@{recursive `given` resolution}@}, {@{pairs}@} can
 
 When a method expects {@{an implicit of type `T` \(e.g. `Ordering[Int]` in the above example\)}@}, the compiler looks for {@{a _`given` instance_ that}@}: \(annotation: 2 items: {@{compatible, visible}@}\) <!--SR:!2026-12-01,301,349!2027-01-30,351,349!2027-01-01,328,349-->
 
-- compatible ::@:: Has a compatible type. <!--SR:!2026-12-04,304,349!2026-11-11,281,349-->
+- compatible ::@:: Has a compatible type. <!--SR:!2026-12-04,304,349!fsrs,2030-06-08T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-11T00:00:00.000Z-->
 - visibility ::@:: Is visible in the current scope (lexical, imports, parameters) or defined in a companion object associated with `T`. <!--SR:!fsrs,2029-10-31T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-10-05T00:00:00.000Z!2027-01-26,347,349-->
 
 If {@{exactly one suitable instance exists}@} it is {@{used}@}; otherwise {@{compilation fails}@} due to {@{no instance found}@} or {@{ambiguity}@} if {@{there is more than one _most specific_ instance}@}. It will {@{search in \(in no particular order\)}@}: \(annotation: 3 items: {@{lexical scope, companion objects, enclosing objects}@}\) <!--SR:!fsrs,2029-10-22T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-10-03T00:00:00.000Z!2027-01-01,328,349!2026-11-25,295,349!2026-12-19,317,349!2027-01-21,342,349!2027-01-19,340,349!2027-01-02,329,349!2026-12-11,311,349-->
@@ -370,7 +370,7 @@ In Scala {@{a _type class_}@} is {@{a generic trait}@} that declares {@{operatio
 
 {@{Type classes}@} turn {@{a type into a value}@} by providing {@{a trait and concrete instances}@}. They enable {@{_ad-hoc polymorphism_}@}: {@{different implementations}@} for {@{different types}@}. <!--SR:!2026-11-17,287,349!2026-12-11,311,349!2027-01-18,339,349!2026-11-27,297,349!2027-01-21,342,349!2026-11-27,297,349-->
 
-{@{Other languages}@} adopt {@{similar concepts}@}: {@{Haskell}@}'s {@{built-in type classes}@}, {@{Rust}@}'s {@{traits}@}, and {@{emerging features}@} in {@{Agda, Lean, and OCaml}@}. In {@{Scala}@} {@{the mechanism is realized}@} through {@{contextual parameters (`using`) and implicit resolution}@}, giving programmers {@{fine-grained control over polymorphic behaviour}@}. <!--SR:!2026-11-11,281,349!2026-11-22,292,349!2026-12-21,319,349!2026-12-03,303,349!fsrs,2030-06-04T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-07T00:00:00.000Z!2026-11-15,285,349!2027-01-24,345,349!2026-12-06,306,349!2026-12-28,325,349!2027-01-24,345,349!2027-01-22,343,349!2027-01-31,352,349-->
+{@{Other languages}@} adopt {@{similar concepts}@}: {@{Haskell}@}'s {@{built-in type classes}@}, {@{Rust}@}'s {@{traits}@}, and {@{emerging features}@} in {@{Agda, Lean, and OCaml}@}. In {@{Scala}@} {@{the mechanism is realized}@} through {@{contextual parameters (`using`) and implicit resolution}@}, giving programmers {@{fine-grained control over polymorphic behaviour}@}. <!--SR:!fsrs,2030-06-08T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-11T00:00:00.000Z!2026-11-22,292,349!2026-12-21,319,349!2026-12-03,303,349!fsrs,2030-06-04T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-07T00:00:00.000Z!2026-11-15,285,349!2027-01-24,345,349!2026-12-06,306,349!2026-12-28,325,349!2027-01-24,345,349!2027-01-22,343,349!2027-01-31,352,349-->
 
 ### type class pattern
 
@@ -416,7 +416,7 @@ With {@{such `given` instances}@} in scope {@{a polymorphic method}@} can be wri
 
 ### retroactive extension
 
-{@{A type class}@} can be {@{implemented for a data type}@} without {@{modifying its definition}@}. For example, {@{a rational number type}@}: <!--SR:!2026-11-29,299,349!2027-01-29,350,349!2026-11-16,286,349!2026-11-11,285,349-->
+{@{A type class}@} can be {@{implemented for a data type}@} without {@{modifying its definition}@}. For example, {@{a rational number type}@}: <!--SR:!2026-11-29,299,349!2027-01-29,350,349!2026-11-16,286,349!fsrs,2030-06-24T00:00:00.000Z,1321,1320.72713296,1,2,9,0,0,2026-11-11T00:00:00.000Z-->
 
 > [!example] __retroactively extending `Rational`__
 >

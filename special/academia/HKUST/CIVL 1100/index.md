@@ -120,7 +120,7 @@ The content is in teaching order.
     - soil load ::@:: [§ lateral load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!fsrs,2032-08-13T01:45:50.502Z,2260,2260.22733814,1,2,10,0,0,2026-06-06T01:45:50.502Z!2029-03-24,1391,370-->
     - water load ::@:: [§ hydrostatic load](../../../../general/structural%20load.md#lateral%20load) <!--SR:!2030-03-01,1663,370!2027-10-21,949,341-->
     - [§ thermal load](../../../../general/structural%20load.md#thermal%20load)
-    - earthquake load ::@:: [§ seismic load](../../../../general/structural%20load.md#seismic%20load) <!--SR:!2026-11-11,647,330!2029-10-19,1549,361-->
+    - earthquake load ::@:: [§ seismic load](../../../../general/structural%20load.md#seismic%20load) <!--SR:!fsrs,2033-10-22T00:00:00.000Z,2537,2536.81467027,1,2,10,0,0,2026-11-11T00:00:00.000Z!2029-10-19,1549,361-->
 - [structural system](../../../../general/structural%20system.md)
     - [§ high-rise buildings](../../../../general/structural%20system.md#high-rise%20buildings)
     - [§ classification](../../../../general/structural%20system.md#classification)
