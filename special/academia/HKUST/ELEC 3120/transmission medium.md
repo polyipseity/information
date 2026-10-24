@@ -21,8 +21,8 @@ A transmission medium is the means by which information travels from a sender to
 
 Flashcards for this section are as follows:
 
-- transmission medium: what is it? ::@:: A transmission medium is the means by which information travels from a sender to a receiver.
-- data transmission: what is it? ::@:: The process of sending digital or analog data over a communication medium to one or more devices.
+- transmission medium: what is a transmission medium? ::@:: The means by which information travels from a sender to a receiver.
+- data transmission: what is data transmission? ::@:: The process of sending digital or analog data over a communication medium to one or more devices.
 
 ## media
 
@@ -47,7 +47,7 @@ Data encoding is the process of applying a specific code to data, converting it 
 
 Flashcards for this section are as follows:
 
-- data encoding: what is it? ::@:: Applying a specific code to data so that it becomes an equivalent form the medium carries.
+- data encoding: what is data encoding? ::@:: Applying a specific code to data so that it becomes an equivalent form the medium carries.
 - what does the encoding decide? ::@:: How much data each signal state carries.
 - how many values did the beacon towers encode? ::@:: Two: light meant danger, darkness meant safe.
 - why does a quipu carry more per signal than a beacon tower? ::@:: A knot can be tied in many patterns, not just two.

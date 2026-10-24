@@ -29,26 +29,48 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 ## children
 
 - [assignments/](assignments/index.md)
+- [CUBIC TCP](CUBIC%20TCP.md)
+- [Domain Name System](Domain%20Name%20System.md)
 - [Dynamic Adaptive Streaming over HTTP](Dynamic%20Adaptive%20Streaming%20over%20HTTP.md)
 - [HTTP](HTTP.md)
+- [IP address](IP%20address.md)
 - [Mathis equation](Mathis%20equation.md)
 - [TCP congestion control](TCP%20congestion%20control.md)
 - [TCP loss recovery](TCP%20loss%20recovery.md)
+- [acknowledgement (data networks)](acknowledgement%20(data%20networks).md)
 - [adaptive bitrate streaming](adaptive%20bitrate%20streaming.md)
 - [agent execution loop](agent%20execution%20loop.md)
 - [answering a question](answering%20a%20question.md)
+- [anycast](anycast.md)
 - [bandwidth (computing)](bandwidth%20(computing).md)
+- [bandwidth-delay product](bandwidth-delay%20product.md)
 - [buffer-based rate adaptation](buffer-based%20rate%20adaptation.md)
 - [computer network](computer%20network.md)
+- [congestion collapse](congestion%20collapse.md)
+- [congestion control](congestion%20control.md)
+- [fair queuing](fair%20queuing.md)
+- [fairness measure](fairness%20measure.md)
 - [flow control (data)](flow%20control%20(data).md)
+- [go-back-N ARQ](go-back-N%20ARQ.md)
 - [head-of-line blocking](head-of-line%20blocking.md)
 - [language model access](language%20model%20access.md)
+- [max-min fairness](max-min%20fairness.md)
 - [media segmentation](media%20segmentation.md)
+- [`midterm examination cheatsheet.pdf`](midterm%20examination%20cheatsheet.pdf)
+- [`midterm examination cheatsheet.typ`](midterm%20examination%20cheatsheet.typ)
+- [network calculus](network%20calculus.md)
 - [network delay](network%20delay.md)
 - [packet loss](packet%20loss.md)
 - [progressive download](progressive%20download.md)
+- [round-trip time](round-trip%20time.md)
+- [selective repeat ARQ](selective%20repeat%20ARQ.md)
 - [sliding window protocol](sliding%20window%20protocol.md)
+- [stop-and-wait ARQ](stop-and-wait%20ARQ.md)
+- [token bucket](token%20bucket.md)
+- [transmission control protocol](transmission%20control%20protocol.md)
 - [transmission medium](transmission%20medium.md)
+- [transport layer](transport%20layer.md)
+- [user datagram protocol](user%20datagram%20protocol.md)
 - [vibe coding](vibe%20coding.md)
 - [video bitrate](video%20bitrate.md)
 - [video on demand](video%20on%20demand.md)
@@ -156,7 +178,7 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 
 - datetime: 2026-09-04T15:00:00+08:00/2026-09-04T15:50:00+08:00, PT50M
 - venue: Rm 2504, Lift 25-26
-- status: unscheduled
+- status: no class
 
 ## week 2 lecture 1
 
@@ -245,7 +267,45 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 
 - datetime: 2026-09-18T09:00:00+08:00/2026-09-18T10:20:00+08:00, PT1H20M
 - venue: LTL, CYT Bldg
-- topic: video streaming, continued
+- topic: transport model
+- [transport layer](transport%20layer.md)
+    - [§ limits of the network layer](transport%20layer.md#limits%20of%20the%20network%20layer)
+    - [§ multiplexing and demultiplexing](transport%20layer.md#multiplexing%20and%20demultiplexing)
+        - [§ ports](transport%20layer.md#ports)
+    - [§ sockets](transport%20layer.md#sockets)
+    - [§ service model](transport%20layer.md#service%20model)
+    - [§ protocol family](transport%20layer.md#protocol%20family)
+- [user datagram protocol](user%20datagram%20protocol.md)
+    - [§ header](user%20datagram%20protocol.md#header)
+        - [§ byte order](user%20datagram%20protocol.md#byte%20order)
+        - [§ checksum](user%20datagram%20protocol.md#checksum)
+    - [§ applications without recovery](user%20datagram%20protocol.md#applications%20without%20recovery)
+    - [§ uses](user%20datagram%20protocol.md#uses)
+- [stop-and-wait ARQ](stop-and-wait%20ARQ.md)
+    - [§ sender rules](stop-and-wait%20ARQ.md#sender%20rules)
+    - [§ receiver rules](stop-and-wait%20ARQ.md#receiver%20rules)
+    - [§ transmission outcomes](stop-and-wait%20ARQ.md#transmission%20outcomes)
+    - [§ timer choice](stop-and-wait%20ARQ.md#timer%20choice)
+    - [§ sequence numbers](stop-and-wait%20ARQ.md#sequence%20numbers)
+    - [§ throughput](stop-and-wait%20ARQ.md#throughput)
+- [go-back-N ARQ](go-back-N%20ARQ.md)
+    - [§ pipelining](go-back-N%20ARQ.md#pipelining)
+    - [§ sender rules](go-back-N%20ARQ.md#sender%20rules)
+    - [§ cumulative acknowledgement](go-back-N%20ARQ.md#cumulative%20acknowledgement)
+    - [§ partial acknowledgement](go-back-N%20ARQ.md#partial%20acknowledgement)
+    - [§ timers](go-back-N%20ARQ.md#timers)
+    - [§ recovery](go-back-N%20ARQ.md#recovery)
+    - [§ receiver rules](go-back-N%20ARQ.md#receiver%20rules)
+- [selective repeat ARQ](selective%20repeat%20ARQ.md)
+    - [§ sender rules](selective%20repeat%20ARQ.md#sender%20rules)
+    - [§ partial acknowledgement](selective%20repeat%20ARQ.md#partial%20acknowledgement)
+    - [§ receiver buffer](selective%20repeat%20ARQ.md#receiver%20buffer)
+    - [§ sequence number space](selective%20repeat%20ARQ.md#sequence%20number%20space)
+    - [§ stuck window](selective%20repeat%20ARQ.md#stuck%20window)
+- [acknowledgement (data networks)](acknowledgement%20(data%20networks).md)
+    - [§ basic acknowledgement](acknowledgement%20(data%20networks).md#basic%20acknowledgement)
+    - [§ cumulative acknowledgement](acknowledgement%20(data%20networks).md#cumulative%20acknowledgement)
+    - [§ cost of a gap](acknowledgement%20(data%20networks).md#cost%20of%20a%20gap)
 
 ## week 3 tutorial 1
 
@@ -257,13 +317,56 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 
 - datetime: 2026-09-21T13:30:00+08:00/2026-09-21T14:50:00+08:00, PT1H20M
 - venue: LTL, CYT Bldg
-- topic: transport model
+- topic: TCP basics
+- [transmission control protocol](transmission%20control%20protocol.md)
+    - [§ byte stream](transmission%20control%20protocol.md#byte%20stream)
+    - [§ header](transmission%20control%20protocol.md#header)
+        - [§ flag bits](transmission%20control%20protocol.md#flag%20bits)
+        - [§ byte order](transmission%20control%20protocol.md#byte%20order)
+    - [§ sequence numbers](transmission%20control%20protocol.md#sequence%20numbers)
+        - [§ sequence space consumption](transmission%20control%20protocol.md#sequence%20space%20consumption)
+        - [§ wraparound](transmission%20control%20protocol.md#wraparound)
+        - [§ initial sequence number](transmission%20control%20protocol.md#initial%20sequence%20number)
+    - [§ connection setup](transmission%20control%20protocol.md#connection%20setup)
+        - [§ handshake numbers](transmission%20control%20protocol.md#handshake%20numbers)
+        - [§ SYN loss](transmission%20control%20protocol.md#SYN%20loss)
+    - [§ connection teardown](transmission%20control%20protocol.md#connection%20teardown)
+        - [§ maximum segment lifetime](transmission%20control%20protocol.md#maximum%20segment%20lifetime)
+        - [§ four segments](transmission%20control%20protocol.md#four%20segments)
+        - [§ simultaneous close](transmission%20control%20protocol.md#simultaneous%20close)
+        - [§ lost teardown segments](transmission%20control%20protocol.md#lost%20teardown%20segments)
+        - [§ half close](transmission%20control%20protocol.md#half%20close)
+        - [§ reset](transmission%20control%20protocol.md#reset)
+    - [§ connection states](transmission%20control%20protocol.md#connection%20states)
+        - [§ eleven states](transmission%20control%20protocol.md#eleven%20states)
+        - [§ opening transitions](transmission%20control%20protocol.md#opening%20transitions)
+        - [§ closing transitions](transmission%20control%20protocol.md#closing%20transitions)
+        - [§ state diagram](transmission%20control%20protocol.md#state%20diagram)
+        - [§ whole conversation](transmission%20control%20protocol.md#whole%20conversation)
+- [round-trip time](round-trip%20time.md)
+    - [§ measuring a round trip](round-trip%20time.md#measuring%20a%20round%20trip)
+    - [§ smoothing](round-trip%20time.md#smoothing)
+    - [§ deviation](round-trip%20time.md#deviation)
+    - [§ timeout interval](round-trip%20time.md#timeout%20interval)
+- [acknowledgement (data networks)](acknowledgement%20(data%20networks).md)
+    - [§ selective acknowledgement](acknowledgement%20(data%20networks).md#selective%20acknowledgement)
+    - [§ page fetch](acknowledgement%20(data%20networks).md#page%20fetch)
+    - [§ later refinements](acknowledgement%20(data%20networks).md#later%20refinements)
 
 ## week 4 lecture 2
 
 - datetime: 2026-09-25T09:00:00+08:00/2026-09-25T10:20:00+08:00, PT1H20M
 - venue: LTL, CYT Bldg
-- topic: TCP basics
+- topic: TCP basics, continued
+- [flow control (data)](flow%20control%20(data).md)
+    - [§ receive window](flow%20control%20(data).md#receive%20window)
+    - [§ sending window](flow%20control%20(data).md#sending%20window)
+- [bandwidth-delay product](bandwidth-delay%20product.md)
+    - [§ pipe volume](bandwidth-delay%20product.md#pipe%20volume)
+    - [§ window sizing](bandwidth-delay%20product.md#window%20sizing)
+    - [§ round trip against one-way delay](bandwidth-delay%20product.md#round%20trip%20against%20one-way%20delay)
+    - [§ congestion window](bandwidth-delay%20product.md#congestion%20window)
+    - [§ ACK clocking](bandwidth-delay%20product.md#ACK%20clocking)
 
 ## week 4 tutorial 1
 
@@ -276,12 +379,49 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 - datetime: 2026-09-28T13:30:00+08:00/2026-09-28T14:50:00+08:00, PT1H20M
 - venue: LTL, CYT Bldg
 - topic: congestion control
+- [congestion control](congestion%20control.md)
+    - [§ hidden capacity](congestion%20control.md#hidden%20capacity)
+    - [§ costs of congestion](congestion%20control.md#costs%20of%20congestion)
+- [congestion collapse](congestion%20collapse.md)
+    - [§ 1986 collapse](congestion%20collapse.md#1986%20collapse)
+    - [§ repair in the end hosts](congestion%20collapse.md#repair%20in%20the%20end%20hosts)
+- [network delay](network%20delay.md)
+    - [§ queueing delay](network%20delay.md#queueing%20delay)
 
 ## week 5 lecture 2
 
 - datetime: 2026-10-02T09:00:00+08:00/2026-10-02T10:20:00+08:00, PT1H20M
 - venue: LTL, CYT Bldg
 - topic: congestion control, continued
+- [TCP congestion control](TCP%20congestion%20control.md)
+    - [§ congestion window](TCP%20congestion%20control.md#congestion%20window)
+    - [§ slow start](TCP%20congestion%20control.md#slow%20start)
+    - [§ congestion avoidance](TCP%20congestion%20control.md#congestion%20avoidance)
+        - [§ sawtooth](TCP%20congestion%20control.md#sawtooth)
+        - [§ AIMD convergence](TCP%20congestion%20control.md#aimd%20convergence)
+    - [§ fast recovery](TCP%20congestion%20control.md#fast%20recovery)
+    - [§ limits](TCP%20congestion%20control.md#limits)
+    - [§ Reno state machine](TCP%20congestion%20control.md#reno%20state%20machine)
+- [congestion control](congestion%20control.md)
+    - [§ algorithm space](congestion%20control.md#algorithm%20space)
+        - [§ convergence](congestion%20control.md#convergence)
+    - [§ approaches](congestion%20control.md#approaches)
+- [Mathis equation](Mathis%20equation.md)
+    - [§ average window](Mathis%20equation.md#average%20window)
+    - [§ high bandwidth problem](Mathis%20equation.md#high%20bandwidth%20problem)
+- [CUBIC TCP](CUBIC%20TCP.md)
+    - [§ window growth](CUBIC%20TCP.md#window%20growth)
+    - [§ loss response](CUBIC%20TCP.md#loss%20response)
+    - [§ long fat paths](CUBIC%20TCP.md#long%20fat%20paths)
+- [fairness measure](fairness%20measure.md)
+    - [§ Jain's fairness index](fairness%20measure.md#Jain's%20fairness%20index)
+        - [§ expectation form](fairness%20measure.md#expectation%20form)
+        - [§ variance form](fairness%20measure.md#variance%20form)
+    - [§ two-flow split](fairness%20measure.md#two-flow%20split)
+    - [§ limits of an index](fairness%20measure.md#limits%20of%20an%20index)
+        - [§ equal demand](fairness%20measure.md#equal%20demand)
+        - [§ unequal demand](fairness%20measure.md#unequal%20demand)
+        - [§ low scores from two causes](fairness%20measure.md#low%20scores%20from%20two%20causes)
 - ELEC 3120 / [homework 1](assignments/homework%201/index.md)
 - ELEC 3120 / [checkpoint 1](assignments/checkpoint%201/index.md)
 
@@ -296,12 +436,34 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 - datetime: 2026-10-05T13:30:00+08:00/2026-10-05T14:50:00+08:00, PT1H20M
 - venue: LTL, CYT Bldg
 - topic: queue management
+- [max-min fairness](max-min%20fairness.md)
+    - [§ mice and elephants](max-min%20fairness.md#mice%20and%20elephants)
+    - [§ water filling](max-min%20fairness.md#water%20filling)
+    - [§ work conservation](max-min%20fairness.md#work%20conservation)
+- [fair queuing](fair%20queuing.md)
+    - [§ per-flow queues](fair%20queuing.md#per-flow%20queues)
+    - [§ packet sizes](fair%20queuing.md#packet%20sizes)
+    - [§ virtual time](fair%20queuing.md#virtual%20time)
+        - [§ virtual clock](fair%20queuing.md#virtual%20clock)
+        - [§ earliest finish time](fair%20queuing.md#earliest%20finish%20time)
+        - [§ comparison with CPU scheduling](fair%20queuing.md#comparison%20with%20CPU%20scheduling)
+    - [§ approximation](fair%20queuing.md#approximation)
+    - [§ weights](fair%20queuing.md#weights)
 
 ## week 6 lecture 2
 
 - datetime: 2026-10-09T09:00:00+08:00/2026-10-09T10:20:00+08:00, PT1H20M
 - venue: LTL, CYT Bldg
-- topic: IP and DNS
+- topic: queue management, continued
+- [token bucket](token%20bucket.md)
+    - [§ traffic envelope](token%20bucket.md#traffic%20envelope)
+    - [§ burst size](token%20bucket.md#burst%20size)
+    - [§ deployment](token%20bucket.md#deployment)
+- [network calculus](network%20calculus.md)
+    - [§ arrival curve](network%20calculus.md#arrival%20curve)
+    - [§ service curve](network%20calculus.md#service%20curve)
+    - [§ reading the gap](network%20calculus.md#reading%20the%20gap)
+    - [§ worked bound](network%20calculus.md#worked%20bound)
 - ELEC 3120 / [checkpoint 2](assignments/checkpoint%202/index.md)
 
 ## week 6 tutorial 1
@@ -314,13 +476,39 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 
 - datetime: 2026-10-12T13:30:00+08:00/2026-10-12T14:50:00+08:00, PT1H20M
 - venue: LTL, CYT Bldg
-- topic: BGP
+- topic: internet protocol
+- [computer network](computer%20network.md)
+    - [§ interconnection challenges](computer%20network.md#interconnection%20challenges)
+- [IP address](IP%20address.md)
+    - [§ IPv4](IP%20address.md#IPv4)
+    - [§ masks](IP%20address.md#masks)
+    - [§ IPv6](IP%20address.md#IPv6)
+    - [§ obtaining an address](IP%20address.md#obtaining%20an%20address)
 
 ## week 7 lecture 2
 
 - datetime: 2026-10-16T09:00:00+08:00/2026-10-16T10:20:00+08:00, PT1H20M
 - venue: LTL, CYT Bldg
-- topic: midterm review
+- topic: domain name system
+- [Domain Name System](Domain%20Name%20System.md)
+    - [§ names instead of numbers](Domain%20Name%20System.md#names%20instead%20of%20numbers)
+    - [§ hierarchical namespace](Domain%20Name%20System.md#hierarchical%20namespace)
+        - [§ top-level domains](Domain%20Name%20System.md#top-level%20domains)
+    - [§ zones](Domain%20Name%20System.md#zones)
+        - [§ zone cuts and delegation](Domain%20Name%20System.md#zone%20cuts%20and%20delegation)
+        - [§ root servers](Domain%20Name%20System.md#root%20servers)
+    - [§ resolution](Domain%20Name%20System.md#resolution)
+        - [§ caching](Domain%20Name%20System.md#caching)
+    - [§ resource records](Domain%20Name%20System.md#resource%20records)
+        - [§ record types](Domain%20Name%20System.md#record%20types)
+        - [§ zone file syntax](Domain%20Name%20System.md#zone%20file%20syntax)
+        - [§ delegation in the parent zone](Domain%20Name%20System.md#delegation%20in%20the%20parent%20zone)
+    - [§ message format](Domain%20Name%20System.md#message%20format)
+    - [§ indirection](Domain%20Name%20System.md#indirection)
+- [anycast](anycast.md)
+    - [§ mechanism](anycast.md#mechanism)
+    - [§ root servers](anycast.md#root%20servers)
+    - [§ trade-offs](anycast.md#trade-offs)
 - ELEC 3120 / [homework 2](assignments/homework%202/index.md)
 
 ## week 7 tutorial 1
@@ -462,6 +650,8 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 - format:
     - calculator: \[missing\]
     - cheatsheet: \[missing\]
+        - [`midterm examination cheatsheet.pdf`](midterm%20examination%20cheatsheet.pdf)
+        - [`midterm examination cheatsheet.typ`](midterm%20examination%20cheatsheet.typ)
     - open book: \[missing\]
     - open notes: \[missing\]
     - questions: \[missing\]
