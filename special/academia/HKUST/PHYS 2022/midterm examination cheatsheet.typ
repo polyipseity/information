@@ -1,6 +1,6 @@
 // PHYS 2022 midterm examination cheatsheet
 // Generated from the course notes; equations copied from the notes' KaTeX.
-#set document(title: "PHYS 2022 midterm examination cheatsheet", author: "polyipseity")
+#set document(title: "PHYS 2022 midterm examination cheatsheet")
 #set page(
   paper: "a4",
   margin: (x: 7mm, y: 8mm),
