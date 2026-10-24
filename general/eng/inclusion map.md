@@ -25,7 +25,7 @@ In {@{[mathematics](mathematics.md)}@}, if {@{$A$ is a [subset](subset.md) of $B
 
 {@{A "hooked arrow"}@} \([U+](Unicode.md){@{21AA ↪ RIGHTWARDS ARROW WITH HOOK}@}\)<sup>[\[2\]](#^ref-2)</sup> is sometimes {@{used in place of the function arrow above to denote an inclusion map}@}; thus: {@{$$\iota :A\hookrightarrow B.$$}@} \(However, some authors {@{use this hooked arrow for any [embedding](embedding.md)}@}.\) <!--SR:!2029-06-01,1244,350!2027-07-05,653,290!2027-11-08,785,330!2028-01-26,835,330!2029-03-16,1185,350-->
 
-{@{This and other analogous [injective](injective.md) functions<sup>[\[3\]](#^ref-3)</sup> from [substructures](substructure%20(mathematics).md)}@} are sometimes called {@{__natural injections__}@}. <!--SR:!2026-11-12,488,310!2029-09-15,1330,350-->
+{@{This and other analogous [injective](injective.md) functions<sup>[\[3\]](#^ref-3)</sup> from [substructures](substructure%20(mathematics).md)}@} are sometimes called {@{__natural injections__}@}. <!--SR:!fsrs,2031-12-07T00:00:00.000Z,1851,1850.63457733,1,2,10,0,0,2026-11-12T00:00:00.000Z!2029-09-15,1330,350-->
 
 Given {@{any [morphism](morphism.md) $f$ between [objects](object%20(category%20theory).md) $X$ and $Y$}@}, if {@{there is an inclusion map $\iota :A\to X$ into the [domain](domain%20of%20a%20function.md) $X$}@}, then one can form {@{the [restriction](restriction%20(mathematics).md) $f\circ \iota$ of $f$}@}. In many instances, one can also construct {@{a canonical inclusion into the [codomain](codomain.md) $R\to Y$}@} known as {@{the [range](range%20of%20a%20function.md) of $f$}@}. <!--SR:!2029-09-04,1321,350!2029-03-01,1174,350!2029-02-11,1161,350!2028-01-13,825,330!2029-09-10,1327,350-->
 

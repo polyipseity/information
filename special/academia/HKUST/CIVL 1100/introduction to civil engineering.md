@@ -459,7 +459,7 @@ testing materials
 - logistics→::@::←planning <!--SR:!2028-02-13,967,314!2030-12-03,1854,355-->
 - planning→::@::←procuring materials <!--SR:!2027-04-19,815,337!2026-12-10,675,297-->
 - procuring materials→::@::←quality assurance <!--SR:!fsrs,2031-09-22T00:00:00.000Z,1906,1906.17552838,1.48000044,2,10,0,0,2026-07-04T00:00:00.000Z!2027-07-08,836,301-->
-- quality assurance→::@::←quality control <!--SR:!2026-11-12,742,377!2027-06-11,879,372-->
+- quality assurance→::@::←quality control <!--SR:!fsrs,2035-09-20T00:00:00.000Z,3234,3233.87317646,1,2,11,0,0,2026-11-12T00:00:00.000Z!2027-06-11,879,372-->
 - quality control→::@::←safety engineering <!--SR:!fsrs,2030-07-22T00:00:00.000Z,1398,1398.47416317,3.57914087,2,10,0,0,2026-09-23T00:00:00.000Z!2026-12-04,557,255-->
 - safety engineering→::@::←scheduling <!--SR:!2028-07-27,1158,340!2031-02-03,1909,360-->
 - scheduling→::@::←surveying building site <!--SR:!2031-06-29,1851,281!2031-11-09,2103,340-->

@@ -267,7 +267,7 @@ The content is in teaching order.
 - [swing time](../../../../general/swing%20time.md) ::@:: (in jazz) unequal division of the beat (usually 2:1); opposite is straight; makes the beat feel bouncy <!--SR:!2027-07-27,690,358!2028-05-18,947,378-->
 - [swing era](../../../../general/swing%20era.md)/big band era (1933–1947) ::@:: large ensembles (big bands) playing complex arrangements with emphasis on dancing <!--SR:!2031-05-19,1811,398!fsrs,2033-02-22T00:00:00.000Z,2305,2304.65850073,1,2,10,0,0,2026-11-01T00:00:00.000Z-->
 - [swing dancing](../../../../general/swing%20(dance).md) (1920s–1940s) ::@:: multiple forms of dancing that became popular during the swing era; because dancing was incredibly popular and demand for dance bands was high <!--SR:!2031-04-13,1794,398!fsrs,2033-01-29T00:00:00.000Z,2286,2286.16188359,1,2,10,0,0,2026-10-27T00:00:00.000Z-->
-    - swing dancing / popular forms ::@:: Charleston, Foxtrot, Jitterbug, Lindi-Hop <!--SR:!2031-04-10,1791,398!2026-11-12,514,398-->
+    - swing dancing / popular forms ::@:: Charleston, Foxtrot, Jitterbug, Lindi-Hop <!--SR:!2031-04-10,1791,398!fsrs,2033-04-19T00:00:00.000Z,2350,2349.83313843,1,2,10,0,0,2026-11-12T00:00:00.000Z-->
 - [Lindi-Hop](../../../../general/Lindy%20Hop.md)
     - Lindi-Hop / name ::@:: named after Charles Lindberg <!--SR:!2031-04-15,1795,398!fsrs,2033-01-24T00:00:00.000Z,2282,2282.17391221,1,2,10,0,0,2026-10-26T00:00:00.000Z-->
 - [jazz](../../../../general/jazz.md)

@@ -79,7 +79,7 @@ One would notice that {@{some reasonable instructions are missing}@}. This is an
 
 \(__this course__: For this course, {@{you do not need to know _branch delay slots_}@}. That is, you write in {@{MIPS without branch delay slots, which MARS simulate by default}@}. But you do need to know that {@{if there is a branch, the PC will need be _flushed_}@}, which allures to that {@{nPC instead of PC is updated by branching instructions}@}.\) <!--SR:!2027-01-16,520,401!fsrs,2032-09-23T00:00:00.000Z,2146,2145.97655349,1,2,10,0,0,2026-11-08T00:00:00.000Z!2027-01-11,480,392!2028-08-10,874,445-->
 
-The program counter {@{cannot be read or written directly}@}. However, it can be indirectly read {@{using `jal`, where the PC of the `jal` instruction _plus 8_ \(for MARS and this course, use _plus 4_\) is saved to `$ra`}@}. It is indirectly written {@{by executing instructions, or branching and jump instructions}@}. <!--SR:!2026-11-12,464,401!fsrs,2032-09-18T00:00:00.000Z,2142,2141.95223489,1,2,10,0,0,2026-11-07T00:00:00.000Z!fsrs,2032-09-03T00:00:00.000Z,2130,2129.87276382,1,2,10,0,0,2026-11-04T00:00:00.000Z-->
+The program counter {@{cannot be read or written directly}@}. However, it can be indirectly read {@{using `jal`, where the PC of the `jal` instruction _plus 8_ \(for MARS and this course, use _plus 4_\) is saved to `$ra`}@}. It is indirectly written {@{by executing instructions, or branching and jump instructions}@}. <!--SR:!fsrs,2032-10-01T00:00:00.000Z,2150,2149.99976191,1,2,10,0,0,2026-11-12T00:00:00.000Z!fsrs,2032-09-18T00:00:00.000Z,2142,2141.95223489,1,2,10,0,0,2026-11-07T00:00:00.000Z!fsrs,2032-09-03T00:00:00.000Z,2130,2129.87276382,1,2,10,0,0,2026-11-04T00:00:00.000Z-->
 
 ### operands
 
@@ -402,7 +402,7 @@ A problem with PC-relative addressing is that {@{the branch target may be too fa
 
 When {@{an interrupt occurs}@}, control {@{jumps to a predefeined address containing instructions to handle the interrupt}@}. {@{The address of the interrupted instruction}@} is {@{saved to an _exception program counter_ \(EPC\)}@}, so that {@{the interrupt handler can _choose_ to resume the interrupted code using `jr` \(jump register\)}@}. <!--SR:!2026-12-04,484,401!fsrs,2032-06-14T00:00:00.000Z,2065,2065.28037757,1,2,10,0,0,2026-10-19T00:00:00.000Z!2027-01-16,523,401!fsrs,2032-08-04T00:00:00.000Z,2106,2105.68415047,1,2,10,0,0,2026-10-29T00:00:00.000Z!2026-12-06,490,401-->
 
-A common interruption cause is {@{signed integer overflow in arithmetic operations, e.g. `add`, `addi`, and `subi`}@}. Note that {@{their unsigned counterparts, e.g. `addu`, `addiu`, and `subu`, do _not_ interrupt even if there are \(unsigned\) integer overflows}@}. <!--SR:!2026-11-12,467,401!fsrs,2030-12-11T00:00:00.000Z,1638,1637.66089873,1,2,9,0,0,2026-06-17T00:00:00.000Z-->
+A common interruption cause is {@{signed integer overflow in arithmetic operations, e.g. `add`, `addi`, and `subi`}@}. Note that {@{their unsigned counterparts, e.g. `addu`, `addiu`, and `subu`, do _not_ interrupt even if there are \(unsigned\) integer overflows}@}. <!--SR:!fsrs,2032-10-13T00:00:00.000Z,2162,2162.0629296,1,2,10,0,0,2026-11-12T00:00:00.000Z!fsrs,2030-12-11T00:00:00.000Z,1638,1637.66089873,1,2,9,0,0,2026-06-17T00:00:00.000Z-->
 
 ## floating point
 

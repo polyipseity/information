@@ -41,7 +41,7 @@ When all investors are rational, risk‑averse and hold the same expectations, t
 CAPM rests on a handful of simplifying assumptions: perfect competition, one-period horizon, full market participation, and homogeneous expectations.
 
 1. _Perfect competition_ ::@:: – many price‑taking investors. <!--SR:!2027-01-03,276,330!2027-01-25,294,330-->
-2. _One-period horizon_ ::@:: – all decisions occur in a single period; long‑term effects are ignored (myopic behavior). <!--SR:!2026-11-18,247,330!2026-11-12,242,330-->
+2. _One-period horizon_ ::@:: – all decisions occur in a single period; long‑term effects are ignored (myopic behavior). <!--SR:!2026-11-18,247,330!fsrs,2029-10-23T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-11-12T00:00:00.000Z-->
 3. _Full market participation_ ::@:: – every relevant asset, including risk‑free securities, is tradable and can be borrowed or lent at the same rate without taxes or transaction costs. <!--SR:!2027-01-03,276,330!fsrs,2029-09-17T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-03T00:00:00.000Z-->
 4. _Homogeneous expectations_ ::@:: – investors agree on expected returns, variances, and covariances of all assets. <!--SR:!2026-11-23,251,330!2027-01-25,294,330-->
 

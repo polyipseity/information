@@ -62,7 +62,7 @@ tags:
 {@{Every retraction is an epimorphism (annotation: $h_1 \circ f = h_2 \circ f \implies h_1 \circ (f \circ g) = h_2 \circ (f \circ g) \implies h_1 = h_2$)}@}, and {@{every section is a monomorphism (annotation: $f \circ h_1 = f \circ h_2 \implies (g \circ f) \circ h_1 = (g \circ f) \circ h_2 \implies h_1 = h_2$)}@}. Furthermore, the following three statements are equivalent: (annotation: the statements are equivalent to {@{isomorphism}@}) <!--SR:!2026-12-13,494,310!2026-12-29,503,310!2029-01-25,1154,350-->
 
 - (annotation: isomorphism & retraction) ::@:: _f_ is a monomorphism and a retraction; (annotation: we just need to additionally prove that $g \circ f = 1_a$: $f \circ g = 1_b \implies f \circ (g \circ f) = f \circ 1_a \implies g \circ f = 1_a$) <!--SR:!2027-11-08,782,330!2027-03-28,557,310-->
-- (annotation: isomorphism & section) ::@:: _f_ is an epimorphism and a section; (annotation: we just need to additionally prove that $f \circ g = 1_b$: $g \circ f = 1_a \implies (f \circ g) \circ f = 1_b \circ f \implies f \circ g = 1_b$) <!--SR:!2029-02-14,1169,350!2026-11-12,499,310-->
+- (annotation: isomorphism & section) ::@:: _f_ is an epimorphism and a section; (annotation: we just need to additionally prove that $f \circ g = 1_b$: $g \circ f = 1_a \implies (f \circ g) \circ f = 1_b \circ f \implies f \circ g = 1_b$) <!--SR:!2029-02-14,1169,350!fsrs,2032-01-12T00:00:00.000Z,1887,1887.14020451,1,2,10,0,0,2026-11-12T00:00:00.000Z-->
 - (annotation: isomorphism) ::@:: _f_ is an isomorphism. <!--SR:!2029-06-15,1258,350!2029-07-18,1284,350-->
 
 ## functors

@@ -27,7 +27,7 @@ The subtraction of {@{a matrix __A__ by another matrix __B__ of the same size}@}
 
 #### transposition
 
-The _transpose_ of {@{an _m_-by-_n_ matrix __A__}@} is {@{the _n_-by-_m_ matrix denoted by __A__<sup>T</sup>, __A__<sup>tr</sup>, or <sup>t</sup>__A__}@}. It is formed by {@{swapping the row index with the column index for every element of __A__}@}: {@{$$\left(\mathbf{A}^{\text{T} }\right)_{j, i} = \mathbf{A}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}@} <!--SR:!2027-06-20,841,330!2028-09-23,1215,350!2029-04-17,1374,350!2026-11-12,672,330-->
+The _transpose_ of {@{an _m_-by-_n_ matrix __A__}@} is {@{the _n_-by-_m_ matrix denoted by __A__<sup>T</sup>, __A__<sup>tr</sup>, or <sup>t</sup>__A__}@}. It is formed by {@{swapping the row index with the column index for every element of __A__}@}: {@{$$\left(\mathbf{A}^{\text{T} }\right)_{j, i} = \mathbf{A}_{i, j} \qquad \text{where }1 \le i \le m\text{ and }1 \le j \le n$$}@} <!--SR:!2027-06-20,841,330!2028-09-23,1215,350!2029-04-17,1374,350!fsrs,2034-01-16T00:00:00.000Z,2622,2622.39831045,1,2,10,0,0,2026-11-12T00:00:00.000Z-->
 
 ### matrix multiplication
 

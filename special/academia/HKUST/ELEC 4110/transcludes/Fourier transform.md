@@ -132,7 +132,7 @@ From this, {@{various relationships are apparent}@}, for example<!-- markdown se
 
 In particular, if {@{$f$ is __real__}@}, then {@{${\widehat {f} }$ is [conjugate symmetric](../../../../../general/eng/even%20and%20odd%20functions.md#complex-valued%20functions)}@} \(aka {@{[Hermitian function](../../../../../general/eng/hermitian%20function.md)}@}\): {@{$${\widehat {f} }(-\xi )={\bigl (}{\widehat {f} }(\xi ){\bigr )}^{*}.$$}@} <!--SR:!2027-02-25,366,359!2027-05-01,421,378!2027-04-26,417,378!2027-02-16,362,376-->
 
-If {@{$f$ is purely imaginary}@}, then {@{${\widehat {f} }$ is [odd symmetric](../../../../../general/eng/even%20and%20odd%20functions.md#complex-valued%20functions)}@}: {@{$${\widehat {f} }(-\xi )=-({\widehat {f} }(\xi ))^{*}.$$}@} <!--SR:!2027-02-07,352,359!2027-02-27,368,359!2026-11-12,263,339-->
+If {@{$f$ is purely imaginary}@}, then {@{${\widehat {f} }$ is [odd symmetric](../../../../../general/eng/even%20and%20odd%20functions.md#complex-valued%20functions)}@}: {@{$${\widehat {f} }(-\xi )=-({\widehat {f} }(\xi ))^{*}.$$}@} <!--SR:!2027-02-07,352,359!2027-02-27,368,359!fsrs,2030-02-16T00:00:00.000Z,1192,1192.4186424,1,2,9,0,0,2026-11-12T00:00:00.000Z-->
 
 #### real and imaginary parts
 
@@ -180,7 +180,7 @@ See {@{[Pontryagin duality](../../../../../general/eng/Pontryagin%20duality.md)}
 
 - Main article: ::@:: [Convolution theorem](../../../../../general/eng/convolution%20theorem.md) <!--SR:!2027-04-28,419,378!2027-04-09,404,381-->
 
-The Fourier transform translates {@{between [convolution](../../../../../general/eng/convolution.md) and multiplication of functions}@}. If {@{_f_\(_x_\) and _g_\(_x_\)}@} are {@{integrable functions with Fourier transforms _f̂_\(_ξ_\) and _ĝ_\(_ξ_\)}@} respectively, then {@{the Fourier transform of the convolution}@} is {@{given by the product of the Fourier transforms _f̂_\(_ξ_\) and _ĝ_\(_ξ_\)}@} \(under {@{other conventions for the definition of the Fourier transform}@} {@{a constant factor may appear}@}\). <!--SR:!2027-04-15,408,378!2026-11-12,279,339!2027-05-17,436,381!2027-05-25,443,381!2027-05-16,436,381!2027-04-23,416,381!2027-02-21,363,359-->
+The Fourier transform translates {@{between [convolution](../../../../../general/eng/convolution.md) and multiplication of functions}@}. If {@{_f_\(_x_\) and _g_\(_x_\)}@} are {@{integrable functions with Fourier transforms _f̂_\(_ξ_\) and _ĝ_\(_ξ_\)}@} respectively, then {@{the Fourier transform of the convolution}@} is {@{given by the product of the Fourier transforms _f̂_\(_ξ_\) and _ĝ_\(_ξ_\)}@} \(under {@{other conventions for the definition of the Fourier transform}@} {@{a constant factor may appear}@}\). <!--SR:!2027-04-15,408,378!fsrs,2030-04-20T00:00:00.000Z,1255,1255.15643202,1,2,9,0,0,2026-11-12T00:00:00.000Z!2027-05-17,436,381!2027-05-25,443,381!2027-05-16,436,381!2027-04-23,416,381!2027-02-21,363,359-->
 
 This means that if: {@{$$h(x)=(f*g)(x)=\int _{-\infty }^{\infty }f(y)g(x-y)\,dy,$$}@} where {@{∗ denotes the convolution operation}@}, then: {@{$${\widehat {h} }(\xi )={\widehat {f} }(\xi )\,{\widehat {g} }(\xi ).$$}@} <!--SR:!2027-02-01,348,359!2027-03-28,395,381!2027-06-06,453,381-->
 

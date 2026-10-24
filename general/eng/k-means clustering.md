@@ -15,7 +15,7 @@ tags:
 
 Assuming that we have $k$ clusters, {@{make $k$ initial means}@}. Repeat the following two steps: <!--SR:!fsrs,2034-04-19T00:00:00.000Z,2741,2741.08360271,1,2,10,0,0,2026-10-17T00:00:00.000Z-->
 
-1. __assignment step__ ::@:: Assign each observation to the nearest mean, using the (squared) [Euclidean distance](Euclidean%20distance.md). If there are two or more means of the same distance, arbitrarily choose one of them. <!--SR:!2026-11-12,719,333!2028-08-02,1224,353-->
+1. __assignment step__ ::@:: Assign each observation to the nearest mean, using the (squared) [Euclidean distance](Euclidean%20distance.md). If there are two or more means of the same distance, arbitrarily choose one of them. <!--SR:!fsrs,2034-07-23T00:00:00.000Z,2810,2809.6039863,1,2,10,0,0,2026-11-12T00:00:00.000Z!2028-08-02,1224,353-->
 2. __update step__ ::@:: Recalculate means (or [centroids](centroid.md)) using the assigned observations. <!--SR:!2033-03-05,2467,330!2029-10-22,1537,330-->
 
 The algorithm has converged {@{when the assignments no longer change}@}, but the resulting clusters are {@{not guaranteed to be the optimum}@}. <!--SR:!fsrs,2032-05-24T00:00:00.000Z,2146,2146.42444516,1,2,10,0,0,2026-07-09T00:00:00.000Z!2027-03-07,809,330-->

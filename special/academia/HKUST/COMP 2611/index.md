@@ -364,7 +364,7 @@ The content is in teaching order.
 - [register file](../../../../general/register%20file.md) ::@:: an array of processor registers in a central processing unit (CPU) <!--SR:!2027-07-10,690,411!2027-05-22,651,411-->
     - register file / implementation ::@:: fast static RAMs with multiple ports <!--SR:!2027-05-13,645,411!2027-04-04,610,411-->
 - [counter](../../../../general/counter%20(digital).md) ::@:: a device which stores (and sometimes displays) the number of times a particular event or process has occurred, often in relationship to a clock <!--SR:!2027-04-03,609,411!2027-05-24,653,411-->
-    - counter / synchronous 2-bit counter ::@:: The counter has 2 gated D latches, each linked to an output. The output cycles through 00, 01, 10, and 11. Its input has the clock only.  <p> The 2 required combinational logic gates are the NOT gate and XOR gate. <!--SR:!2026-11-12,487,391!2027-06-10,668,411-->
+    - counter / synchronous 2-bit counter ::@:: The counter has 2 gated D latches, each linked to an output. The output cycles through 00, 01, 10, and 11. Its input has the clock only.  <p> The 2 required combinational logic gates are the NOT gate and XOR gate. <!--SR:!fsrs,2033-01-01T00:00:00.000Z,2242,2242.24024358,1,2,10,0,0,2026-11-12T00:00:00.000Z!2027-06-10,668,411-->
         - counter / synchronous 2-bit counter / hints ::@:: truth table/transition table → K-map → logic simplification → circuit design <!--SR:!2027-04-30,636,411!2027-07-06,691,411-->
 
 ## week 4 lecture 2

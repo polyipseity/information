@@ -52,7 +52,7 @@ Proposed on {@{the cusp of the [First Industrial Revolution](Industrial%20Revolu
 
 ## example
 
-{@{A common example of diminishing returns}@} is {@{choosing to hire more people on a factory floor}@} to {@{alter current manufacturing and production capabilities}@}. Given that {@{the capital on the floor \(e.g. manufacturing machines, pre-existing technology, warehouses\) is held constant}@}, {@{increasing from one employee to two employees}@} is, {@{theoretically, going to more than double production possibilities}@} and this is called {@{__increasing returns__}@}. <!--SR:!2027-04-15,522,401!2027-04-12,520,401!2027-03-18,500,401!2027-05-03,538,401!2027-03-26,505,401!2026-11-12,372,381!2028-09-16,862,450-->
+{@{A common example of diminishing returns}@} is {@{choosing to hire more people on a factory floor}@} to {@{alter current manufacturing and production capabilities}@}. Given that {@{the capital on the floor \(e.g. manufacturing machines, pre-existing technology, warehouses\) is held constant}@}, {@{increasing from one employee to two employees}@} is, {@{theoretically, going to more than double production possibilities}@} and this is called {@{__increasing returns__}@}. <!--SR:!2027-04-15,522,401!2027-04-12,520,401!2027-03-18,500,401!2027-05-03,538,401!2027-03-26,505,401!fsrs,2031-09-22T00:00:00.000Z,1775,1774.93281313,1,2,10,0,0,2026-11-12T00:00:00.000Z!2028-09-16,862,450-->
 
 If {@{50 people are employed}@}, {@{at some point, increasing the number of employees by two percent \(from 50 to 51 employees\)}@} would {@{increase output by two percent}@} and this is called {@{__constant returns__}@}. <!--SR:!2027-04-02,511,401!2027-04-01,510,401!2026-11-21,378,381!2028-09-15,861,450-->
 

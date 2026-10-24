@@ -27,7 +27,7 @@ tags:
 
 ## substitution model
 
-{@{The λ‑calculus}@} treats {@{a program as a series of substitutions}@}. {@{A function application `f(v)`}@} is rewritten by replacing {@{the formal parameter with the actual argument in the body}@}: <!--SR:!2026-11-12,237,330!2027-01-02,273,330!2026-12-30,271,330!2026-11-29,251,330-->
+{@{The λ‑calculus}@} treats {@{a program as a series of substitutions}@}. {@{A function application `f(v)`}@} is rewritten by replacing {@{the formal parameter with the actual argument in the body}@}: <!--SR:!fsrs,2029-10-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-12T00:00:00.000Z!2027-01-02,273,330!2026-12-30,271,330!2026-11-29,251,330-->
 
 > [!example] __substitution rule__
 >
@@ -54,11 +54,11 @@ tags:
 > // → 9
 > ```
 >
-> {@{The sequence}@} ends with {@{the same result regardless of the order}@} in which {@{sub‑expressions are reduced}@}. <!--SR:!2026-11-22,245,330!2026-11-29,251,330!2026-12-20,263,330!2026-11-12,237,330!2026-12-04,255,330-->
+> {@{The sequence}@} ends with {@{the same result regardless of the order}@} in which {@{sub‑expressions are reduced}@}. <!--SR:!2026-11-22,245,330!2026-11-29,251,330!2026-12-20,263,330!fsrs,2029-10-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-12-04,255,330-->
 
 ## statefulness
 
-{@{A _stateful object_}@} is one whose {@{behaviour depends on a history of updates}@}. Typical implementations use {@{mutable variables (`var`) or private fields that can be changed by methods}@}. <!--SR:!fsrs,2029-09-09T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-11-07T00:00:00.000Z!2026-11-12,237,330!2026-11-23,246,330-->
+{@{A _stateful object_}@} is one whose {@{behaviour depends on a history of updates}@}. Typical implementations use {@{mutable variables (`var`) or private fields that can be changed by methods}@}. <!--SR:!fsrs,2029-09-09T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-11-07T00:00:00.000Z!fsrs,2029-10-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-11-23,246,330-->
 
 > [!example] __`BankAccount`__
 >
@@ -125,7 +125,7 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 
 ## operational equivalence
 
-{@{_Referential transparency_}@} relies on {@{immutable values}@}. When {@{`val x = E; val y = E` where `E` is an expression}@} holds, the two bindings are {@{considered identical}@}. {@{Mutable assignments}@} break {@{this property: different objects created with the same expression may behave differently}@}. <!--SR:!2026-12-17,260,330!2026-11-12,237,330!2026-12-15,259,330!2026-12-31,272,330!2026-11-12,237,330!2026-11-16,240,330-->
+{@{_Referential transparency_}@} relies on {@{immutable values}@}. When {@{`val x = E; val y = E` where `E` is an expression}@} holds, the two bindings are {@{considered identical}@}. {@{Mutable assignments}@} break {@{this property: different objects created with the same expression may behave differently}@}. <!--SR:!2026-12-17,260,330!fsrs,2029-10-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-12-15,259,330!2026-12-31,272,330!fsrs,2029-10-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-11-16,240,330-->
 
 {@{Two definitions `x` and `y` are _operationally equivalent_}@} if {@{every possible sequence of operations applied to them yields indistinguishable results}@}. A test consists of executing {@{a program fragment `S` that uses `x` and `y`}@}, then creating {@{a copy `S'` where all occurrences of `y` are replaced by `x`}@}. If {@{the outcomes differ}@}, the two values are {@{not equivalent}@}. <!--SR:!2026-12-14,258,330!2026-12-15,259,330!2026-11-14,238,330!2027-01-03,274,330!2026-11-13,237,330!2026-11-15,239,330-->
 
@@ -142,7 +142,7 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 >
 > If we define {@{`val y = x`}@}, {@{no test can distinguish them}@}; they are {@{operationally the same}@}. <!--SR:!2026-12-04,255,330!fsrs,2029-09-29T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-11T00:00:00.000Z!2026-12-19,262,330!2027-01-03,274,330!2026-12-16,259,330!2026-11-29,251,330-->
 
-{@{The λ‑calculus substitution model}@} replaces {@{a variable by its defining expression}@}. It works for {@{immutable values but fails when mutable state is involved}@}, because replacing {@{a reference with another object changes behaviour}@}. <!--SR:!2026-11-13,237,330!2026-11-13,237,330!2026-11-16,240,330!2026-11-12,237,330-->
+{@{The λ‑calculus substitution model}@} replaces {@{a variable by its defining expression}@}. It works for {@{immutable values but fails when mutable state is involved}@}, because replacing {@{a reference with another object changes behaviour}@}. <!--SR:!2026-11-13,237,330!2026-11-13,237,330!2026-11-16,240,330!fsrs,2029-10-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-12T00:00:00.000Z-->
 
 > [!example] __substitution failure__
 >

@@ -29,7 +29,7 @@ We want to write {@{code that is _modular_}@} by {@{abstracting over the "contex
 - mutable globals ::@:: Flexible but unsafe. Risk of interference \(e.g. race conditions\). <!--SR:!2026-12-20,318,349!2026-11-20,290,349-->
 - monkey patch ::@:: Powerful and dynamic. Can break code and debugging. <!--SR:!2027-01-28,349,349!2026-11-25,295,349-->
 - dependency injection ::@:: Encapsulates configuration. Relies on bytecode rewriting and opaque. Frameworks include Guice, Spring, etc. <!--SR:!2026-11-23,293,349!2026-11-19,293,349-->
-- functional context ::@:: Normally, values and types infer types but not values, e.g. inferring type parameters. With `using`, types are used to infer values. Those values provide "context". <!--SR:!2027-01-24,345,349!2026-11-12,282,349-->
+- functional context ::@:: Normally, values and types infer types but not values, e.g. inferring type parameters. With `using`, types are used to infer values. Those values provide "context". <!--SR:!2027-01-24,345,349!fsrs,2030-06-13T00:00:00.000Z,1309,1308.66035919,1,2,9,0,0,2026-11-12T00:00:00.000Z-->
 
 ### higher-order functions
 
@@ -89,7 +89,7 @@ Scala provides {@{the `scala.math.Ordering` trait}@} to {@{represent the sorting
 
 ## `using`
 
-To {@{reduce boilerplate}@} {@{the `ord` argument}@} can be declared {@{_implicit_ via a `using` clause}@}: <!--SR:!2026-12-05,305,349!2026-11-12,286,349!2026-12-16,314,349-->
+To {@{reduce boilerplate}@} {@{the `ord` argument}@} can be declared {@{_implicit_ via a `using` clause}@}: <!--SR:!2026-12-05,305,349!fsrs,2030-06-29T00:00:00.000Z,1325,1324.74576884,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-12-16,314,349-->
 
 > [!example] __parameterized sort with implicit ordering__
 >
@@ -308,7 +308,7 @@ Since {@{the actual names of `given` instances}@} are {@{irrelevant to resolutio
 >
 > {@{An `Ordering[List[A]]` exists}@} only when {@{an `Ordering[A]` is available}@}. <!--SR:!2027-03-20,393,370!2027-04-01,404,370!2027-03-20,394,368!2027-03-01,378,368!2027-03-05,380,367!2027-03-07,384,367-->
 
-In {@{some sense}@}, {@{conditional `given`}@} {@{pattern matches on types and their type parameters}@}. In the example above, {@{`listOrdering[A]`}@} pattern matches on {@{`T` in `Ordering[T]`}@} for {@{the pattern `List[A]` in `Ordering[List[A]]`}@}. <!--SR:!2026-12-05,305,349!2027-01-25,346,349!fsrs,2029-10-27T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-10-04T00:00:00.000Z!2026-11-12,282,349!2026-12-06,306,349!2026-12-08,308,349-->
+In {@{some sense}@}, {@{conditional `given`}@} {@{pattern matches on types and their type parameters}@}. In the example above, {@{`listOrdering[A]`}@} pattern matches on {@{`T` in `Ordering[T]`}@} for {@{the pattern `List[A]` in `Ordering[List[A]]`}@}. <!--SR:!2026-12-05,305,349!2027-01-25,346,349!fsrs,2029-10-27T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2030-06-13T00:00:00.000Z,1309,1308.66035919,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-12-06,306,349!2026-12-08,308,349-->
 
 ### recursive `given` resolution
 

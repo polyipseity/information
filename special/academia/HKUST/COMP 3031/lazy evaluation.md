@@ -72,7 +72,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 > val xs1 = ??? #:: LazyList.empty          // a single-element list (head unspecified)
 > val xs2 = 1 #:: (??? : LazyList[Int])     // head is 1, tail unspecified
 > ```
-<!--SR:!2026-11-27,299,345!2026-11-12,287,330!2027-01-15,338,345!fsrs,2030-04-07T00:00:00.000Z,1256,1256.09108905,1,2,9,0,0,2026-10-29T00:00:00.000Z-->
+<!--SR:!2026-11-27,299,345!fsrs,2030-04-13T00:00:00.000Z,1248,1248.19227538,1,2,9,0,0,2026-11-12T00:00:00.000Z!2027-01-15,338,345!fsrs,2030-04-07T00:00:00.000Z,1256,1256.09108905,1,2,9,0,0,2026-10-29T00:00:00.000Z-->
 
 {@{The companion object}@} also offers {@{a range constructor}@} that is {@{lazy by default}@}: <!--SR:!2026-12-15,312,345!2026-11-24,296,345!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z-->
 
@@ -133,7 +133,7 @@ Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is acc
 >
 > Because {@{the recursive call `tail.filter(p)`}@} is wrapped in {@{a by-name parameter and memoised}@}, only {@{as many elements as needed are examined}@}—e.g., retrieving {@{the first prime from a huge range}@} requires evaluating {@{just enough of the list to find that prime}@}, leaving {@{the rest unevaluated}@}. <!--SR:!2027-04-07,409,371!2027-03-11,387,371!2027-03-12,388,371!2027-03-29,401,371!2027-03-23,396,371!2027-04-12,413,371!2027-04-09,410,371!2027-04-06,408,371!2027-04-03,405,371!2027-03-30,402,371!2027-03-11,386,371!2027-04-08,409,371!2027-03-15,390,371!2027-04-01,404,371!2027-03-28,400,371-->
 
-{@{A noteworthy exception}@} is {@{the cons operator `::`}@}.  When used with {@{a lazy list}@}, {@{`x :: xs`}@} always {@{produces a strict `List`, not a lazy one}@}. Scala provides {@{`#::` as an alternative}@} that {@{preserves laziness}@}: <!--SR:!2027-01-13,336,345!2026-11-22,294,345!2027-01-10,334,345!2026-11-12,287,345!2026-12-30,325,345!2027-01-20,342,345!2026-12-07,306,345-->
+{@{A noteworthy exception}@} is {@{the cons operator `::`}@}.  When used with {@{a lazy list}@}, {@{`x :: xs`}@} always {@{produces a strict `List`, not a lazy one}@}. Scala provides {@{`#::` as an alternative}@} that {@{preserves laziness}@}: <!--SR:!2027-01-13,336,345!2026-11-22,294,345!2027-01-10,334,345!fsrs,2030-06-16T00:00:00.000Z,1312,1311.80058773,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-12-30,325,345!2027-01-20,342,345!2026-12-07,306,345-->
 
 > [!example] __`#::` preserves laziness__
 >

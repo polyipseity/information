@@ -20,7 +20,7 @@ Suppose {@{$C$ is a [small category](small%20category.md#small%20and%20large%20c
 
 In {@{a completely analogous way}@}, one can also {@{consider the category of all _contravariant_ functors from $C$ to $D$}@}; we write this as {@{Funct\($C^{\text{op} },D$\)}@}. <!--SR:!2029-08-27,1320,350!2029-09-20,1337,350!2029-09-09,1331,350-->
 
-If {@{$C$ and $D$ are both [preadditive categories](preadditive%20category.md)}@} \(i.e. {@{their morphism sets are [abelian groups](abelian%20group.md) and the composition of morphisms is [bilinear](bilinear%20operator.md)}@}\), then we can {@{consider the category of all [additive functors](additive%20functor.md#additive%20functors) from $C$ to $D$}@}, denoted by {@{Add\($C$,$D$\)}@}. <!--SR:!2027-10-09,768,330!2027-01-23,541,290!2026-11-12,504,310!2029-09-07,1329,350-->
+If {@{$C$ and $D$ are both [preadditive categories](preadditive%20category.md)}@} \(i.e. {@{their morphism sets are [abelian groups](abelian%20group.md) and the composition of morphisms is [bilinear](bilinear%20operator.md)}@}\), then we can {@{consider the category of all [additive functors](additive%20functor.md#additive%20functors) from $C$ to $D$}@}, denoted by {@{Add\($C$,$D$\)}@}. <!--SR:!2027-10-09,768,330!2027-01-23,541,290!fsrs,2032-01-29T00:00:00.000Z,1904,1903.70258774,1,2,10,0,0,2026-11-12T00:00:00.000Z!2029-09-07,1329,350-->
 
 ## examples
 
