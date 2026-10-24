@@ -478,7 +478,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [palatalization](palatalization%20(phonetics).md):@:\[ʲ\] <!--SR:!2032-12-28,2715,381-->
 - [voiced palatal fricative](voiced%20palatal%20fricative.md):@:\[ʝ\] <!--SR:!fsrs,2028-03-22T00:00:00.000Z,599,599.44477648,7.32539087,2,9,0,0,2026-08-01T00:00:00.000Z-->
 - [voiced palatal plosive](voiced%20palatal%20plosive.md):@:\[ɟ\] <!--SR:!2027-05-13,978,341-->
-- [voiced palatal implosive](voiced%20palatal%20implosive.md):@:\[ʄ\] <!--SR:!2026-11-13,813,351-->
+- [voiced palatal implosive](voiced%20palatal%20implosive.md):@:\[ʄ\] <!--SR:!fsrs,2031-04-16T00:00:00.000Z,1615,1614.88477347,4.48359968,2,11,0,0,2026-11-13T00:00:00.000Z-->
 - [voiceless velar plosive](voiceless%20velar%20plosive.md):@:\[k\] <!--SR:!fsrs,2032-04-30T00:00:00.000Z,2075,2074.86024251,2.15556587,2,11,0,0,2026-08-25T00:00:00.000Z-->
 - [voiced alveolar lateral approximant](voiced%20alveolar%20lateral%20approximant.md):@:\[l\] <!--SR:!2029-12-24,1547,334-->
 - [velarized alveolar lateral approximant](velarized%20alveolar%20lateral%20approximant.md):@:\[ɫ\] <!--SR:!2030-07-30,1851,371-->
@@ -968,7 +968,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [close central unrounded vowel](close%20central%20unrounded%20vowel.md):@:[Russian](Russian%20language.md) _т**ы**_ \[t̪ɨ\] "you" <!--SR:!fsrs,2027-04-25T00:00:00.000Z,169,169.30811077,9.97047151,2,9,0,0,2026-11-07T00:00:00.000Z-->
 - [voiced palatal approximant](voiced%20palatal%20approximant.md):@:[English](English%20language.md) _**y**ou_ \[juː\] <!--SR:!fsrs,2027-02-02T00:00:00.000Z,96,96.30046533,9.95572941,2,8,0,0,2026-10-29T00:00:00.000Z-->
 - [palatalization](palatalization%20(phonetics).md):@:[Irish](Irish%20language.md) _**be**o_ \[bʲoː\] "alive" <!--SR:!2027-01-06,580,238-->
-- [voiced palatal fricative](voiced%20palatal%20fricative.md):@:[Spanish](Spanish%20language.md) _sa**y**o_ \[ˈsäʝo̞\] "smock" <!--SR:!fsrs,2026-11-13T00:00:00.000Z,55,54.5853494,9.96562598,2,8,0,0,2026-09-19T00:00:00.000Z-->
+- [voiced palatal fricative](voiced%20palatal%20fricative.md):@:[Spanish](Spanish%20language.md) _sa**y**o_ \[ˈsäʝo̞\] "smock" <!--SR:!fsrs,2027-01-16T00:00:00.000Z,64,64.03174091,9.96240929,2,9,0,0,2026-11-13T00:00:00.000Z-->
 - [voiced palatal plosive](voiced%20palatal%20plosive.md):@:[Irish](Irish%20language.md) _Gaeil**g**e_ \[ˈɡeːlʲɟə\] "[Irish language](Irish%20language.md)" <!--SR:!fsrs,2026-11-26T00:00:00.000Z,64,63.69946779,9.95572941,2,8,0,0,2026-09-23T00:00:00.000Z-->
 - [voiced palatal implosive](voiced%20palatal%20implosive.md):@:[Swahili](Swahili%20language.md) _**j**ana_ \[ʄana\] "yesterday" <!--SR:!fsrs,2028-09-27T00:00:00.000Z,747,747.34097591,7.43777837,2,10,0,0,2026-09-11T00:00:00.000Z-->
 - [voiceless velar plosive](voiceless%20velar%20plosive.md):@:[English](English%20language.md) _**k**iss_ \[kʰɪs\] <!--SR:!2027-02-27,519,199-->

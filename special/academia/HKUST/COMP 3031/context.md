@@ -120,7 +120,7 @@ The compiler also infers {@{the type argument `T` from the argument list}@}. If 
 
 ### `using` syntax
 
-In Scala, {@{an implicit parameter}@} is introduced through {@{a `using` clause in the method signature}@}: <!--SR:!2026-11-27,297,349!2026-11-13,283,349-->
+In Scala, {@{an implicit parameter}@} is introduced through {@{a `using` clause in the method signature}@}: <!--SR:!2026-11-27,297,349!fsrs,2030-06-18T00:00:00.000Z,1313,1312.68438221,1,2,9,0,0,2026-11-13T00:00:00.000Z-->
 
 > [!example] __`using` in method__
 >
@@ -277,7 +277,7 @@ To refer to {@{an instance directly without using `using`}@}, you may {@{use `su
 
 ### importing `given`s
 
-There are {@{three forms of import}@} to {@{import `given`s}@}: \(annotation: 3 items: {@{by name, by type, by wildcard}@}\) <!--SR:!2026-11-13,283,349!2026-12-25,322,349!2027-01-27,348,349-->
+There are {@{three forms of import}@} to {@{import `given`s}@}: \(annotation: 3 items: {@{by name, by type, by wildcard}@}\) <!--SR:!fsrs,2030-06-18T00:00:00.000Z,1313,1312.68438221,1,2,9,0,0,2026-11-13T00:00:00.000Z!2026-12-25,322,349!2027-01-27,348,349-->
 
 - by name ::@:: `import scala.math.Ordering.Int` <!--SR:!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2027-01-26,347,349-->
 - by type ::@:: using the `given` keyword, e.g., `import scala.math.Ordering.{given Ordering[Int]}`, `import scala.math.Ordering.{given Ordering[?]}` <!--SR:!2026-11-18,288,349!2026-12-08,308,349-->
@@ -353,11 +353,11 @@ If {@{exactly one suitable instance exists}@} it is {@{used}@}; otherwise {@{com
 - companion objects ::@:: Companion objects of `T`, its super-classes, its type arguments, super-classes of its type arguments, etc. <!--SR:!2026-12-17,315,349!fsrs,2029-10-31T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-10-05T00:00:00.000Z-->
 - enclosing objects ::@:: For inner classes, outer enclosing objects. <!--SR:!2027-01-30,351,349!2026-11-28,298,349-->
 
-{@{This mechanism}@} allows {@{libraries}@} to provide {@{default behaviours}@} that can be {@{overridden locally without changing every call site}@}. <!--SR:!2026-12-21,319,349!2026-12-26,323,349!2026-11-15,285,349!2026-11-13,287,349-->
+{@{This mechanism}@} allows {@{libraries}@} to provide {@{default behaviours}@} that can be {@{overridden locally without changing every call site}@}. <!--SR:!2026-12-21,319,349!2026-12-26,323,349!2026-11-15,285,349!fsrs,2030-07-04T00:00:00.000Z,1329,1328.76280435,1,2,9,0,0,2026-11-13T00:00:00.000Z-->
 
 If, after {@{searching the above scopes}@}, {@{more than one candidate exists}@}, the compiler selects {@{the _most specific_ one}@}. {@{A candidate is _more specific_ than another}@} when {@{at least one of the following 4 items hold}@}: \(annotation: 4 items: {@{lexical scope, hierarchy, subtyping, generic instance}@}\) <!--SR:!2026-12-27,324,349!fsrs,2029-09-04T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-09-24T00:00:00.000Z!fsrs,2029-04-03T00:00:00.000Z,960,960.02764612,1,2,9,0,0,2026-08-17T00:00:00.000Z!2027-01-02,329,349!2027-06-04,457,391!2027-05-31,454,391-->
 
-- specificity: lexical scope ::@:: A definition that is in a closer lexical scope is more specific; or <!--SR:!2026-12-14,312,349!2026-11-13,283,349-->
+- specificity: lexical scope ::@:: A definition that is in a closer lexical scope is more specific; or <!--SR:!2026-12-14,312,349!fsrs,2030-06-18T00:00:00.000Z,1313,1312.68438221,1,2,9,0,0,2026-11-13T00:00:00.000Z-->
 - specificity: hierarchy ::@:: A definition that is in a subclass is more specific than one that in a superclass. <!--SR:!fsrs,2028-07-21T00:00:00.000Z,672,672.22887022,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!2027-01-29,350,349-->
 - specificity: subtyping ::@:: A definition that has a type that is a subclass of the type of the other definition is more specific. <!--SR:!2027-01-02,329,349!2027-01-25,346,349-->
 - specificity: generic instance ::@:: A definition that has a type that is a generic instance \(e.g. `Type[Int]`\) of the type of the other definition \(e.g. `Type[T]` where `T` is generic\) is more specific. <!--SR:!fsrs,2028-08-04T00:00:00.000Z,682,682.35993219,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!2026-12-31,327,349-->

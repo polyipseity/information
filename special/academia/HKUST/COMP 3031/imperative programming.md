@@ -38,7 +38,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 >
 > In Scala, {@{every expression}@} evaluates {@{to a value}@}. For {@{a `while` loop}@}, it always evaluates to {@{the `Unit` value `()`}@}. <!--SR:!2027-01-04,281,330!2026-11-27,255,330!2026-12-08,259,330!2026-11-28,251,330!2026-12-19,268,330-->
 
-{@{The `while` loop}@} can be implemented as {@{a function that receives the condition and the body, both by name}@}, so they are {@{re‑evaluated each iteration}@}. This function is {@{tail‑recursive and uses constant stack space}@}. <!--SR:!fsrs,2029-09-08T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-11-02T00:00:00.000Z!2026-12-29,276,330!2026-11-13,243,330!2026-12-20,268,330-->
+{@{The `while` loop}@} can be implemented as {@{a function that receives the condition and the body, both by name}@}, so they are {@{re‑evaluated each iteration}@}. This function is {@{tail‑recursive and uses constant stack space}@}. <!--SR:!fsrs,2029-09-08T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-11-02T00:00:00.000Z!2026-12-29,276,330!fsrs,2029-10-28T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-13T00:00:00.000Z!2026-12-20,268,330-->
 
 > [!example] __`whileDo` implementation__
 >
@@ -131,7 +131,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 > ```
 <!--SR:!2026-11-28,251,330!fsrs,2029-09-03T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-11-01T00:00:00.000Z!fsrs,2029-08-19T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-10-28T00:00:00.000Z!2026-12-11,261,330-->
 
-{@{Wires}@} are {@{first‑class values}@}. They expose {@{three operations: `getSignal`, `setSignal`, and `addAction`}@}. {@{`getSignal` and `setSignal`}@} respectively {@{gets and sets the wire's current state}@}. {@{`addAction`}@} adds an action to {@{run whenever the wire state changes}@}. {@{A function}@} can assemble {@{gates into larger components}@}: <!--SR:!2026-11-27,255,330!2026-12-22,270,330!2026-11-27,255,330!2026-12-02,254,330!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z!2026-12-07,258,330!2026-11-13,243,330!2026-12-16,265,330!2027-01-03,280,330-->
+{@{Wires}@} are {@{first‑class values}@}. They expose {@{three operations: `getSignal`, `setSignal`, and `addAction`}@}. {@{`getSignal` and `setSignal`}@} respectively {@{gets and sets the wire's current state}@}. {@{`addAction`}@} adds an action to {@{run whenever the wire state changes}@}. {@{A function}@} can assemble {@{gates into larger components}@}: <!--SR:!2026-11-27,255,330!2026-12-22,270,330!2026-11-27,255,330!2026-12-02,254,330!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z!2026-12-07,258,330!fsrs,2029-10-28T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-13T00:00:00.000Z!2026-12-16,265,330!2027-01-03,280,330-->
 
 > [!example] __half‑adder construction__
 >
@@ -164,7 +164,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 > ```
 <!--SR:!2026-11-28,251,330!2027-01-04,281,330!2026-11-14,244,330!2026-12-07,258,330-->
 
-{@{An `afterDelay` call}@} inserts {@{an event into a sorted list}@}; {@{the `run` method}@} repeatedly executes {@{the earliest event until the agenda is empty}@}. {@{Wires react to signal changes}@} by executing {@{all attached actions}@}, which may in turn schedule {@{further events}@}, thereby producing {@{the discrete‑event dynamics of the circuit}@}. <!--SR:!2027-01-20,294,330!2026-11-13,242,330!2027-01-15,290,330!2026-12-06,257,330!2027-01-16,290,330!2026-12-12,262,330!2026-12-23,271,330!2027-01-14,289,330-->
+{@{An `afterDelay` call}@} inserts {@{an event into a sorted list}@}; {@{the `run` method}@} repeatedly executes {@{the earliest event until the agenda is empty}@}. {@{Wires react to signal changes}@} by executing {@{all attached actions}@}, which may in turn schedule {@{further events}@}, thereby producing {@{the discrete‑event dynamics of the circuit}@}. <!--SR:!2027-01-20,294,330!fsrs,2029-10-24T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-11-13T00:00:00.000Z!2027-01-15,290,330!2026-12-06,257,330!2027-01-16,290,330!2026-12-12,262,330!2026-12-23,271,330!2027-01-14,289,330-->
 
 {@{The simulator}@} also offers {@{_probes_}@} that print {@{a wire’s value whenever it changes}@}, making it easy to {@{observe a circuit’s behaviour}@}. <!--SR:!2026-11-15,245,330!2026-12-28,275,330!2026-12-26,273,330!2027-01-13,288,330-->
 

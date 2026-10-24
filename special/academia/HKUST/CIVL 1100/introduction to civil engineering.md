@@ -742,7 +742,7 @@ tunnel
 
 - _(begin)_→::@::←embankment <!--SR:!2030-01-19,1577,340!2030-01-18,1664,400-->
 - embankment→::@::←pile foundation <!--SR:!2032-09-22,2392,360!2027-04-14,785,360-->
-- pile foundation→::@::←shallow foundation <!--SR:!2027-01-16,739,337!2026-11-13,678,355-->
+- pile foundation→::@::←shallow foundation <!--SR:!2027-01-16,739,337!fsrs,2034-09-12T00:00:00.000Z,2860,2859.59717916,1,2,10,0,0,2026-11-13T00:00:00.000Z-->
 - shallow foundation→::@::←tunnel <!--SR:!2029-09-20,1475,341!2028-09-26,1035,252-->
 - tunnel→::@::←_(end)_ <!--SR:!2027-08-10,937,370!2031-01-08,1805,337-->
 
@@ -916,7 +916,7 @@ polypropylene fiber reinforced concrete
 - artificial stone→::@::←cellular concrete <!--SR:!2032-10-22,2365,340!2029-10-08,1528,355-->
 - cellular concrete→::@::←engineered cement composite <!--SR:!2030-03-18,1558,290!2033-03-13,2475,350-->
 - engineered cement composite→::@::←fly ash concrete <!--SR:!2032-06-08,2283,357!2029-10-17,1506,340-->
-- fly ash concrete→::@::←polypropylene fiber reinforced concrete <!--SR:!2026-11-13,591,280!2028-10-09,1152,335-->
+- fly ash concrete→::@::←polypropylene fiber reinforced concrete <!--SR:!fsrs,2032-03-23T00:00:00.000Z,1957,1957.04469888,2.48061549,2,10,0,0,2026-11-13T00:00:00.000Z!2028-10-09,1152,335-->
 - polypropylene fiber reinforced concrete→::@::←_(end)_ <!--SR:!2029-10-26,1588,392!2029-01-24,1194,320-->
 
 <!--/pytextgen-->

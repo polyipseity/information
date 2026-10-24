@@ -25,7 +25,7 @@ In {@{many search problems}@} one only needs {@{a small fragment of a potentiall
 
 ## lazy list
 
-In Scala {@{a _lazy list_}@} ({@{`scala.collection.immutable.LazyList`}@}, formerly {@{`Stream`}@}) is {@{an immutable, potentially infinite sequence}@} whose elements are {@{evaluated only when they are required}@}. The concept was introduced to support {@{combinatorial search and other problems}@} where constructing {@{the entire collection would be wasteful or impossible}@}. <!--SR:!2026-11-13,288,345!fsrs,2030-03-15T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-11-06T00:00:00.000Z!2027-01-05,330,345!fsrs,2030-05-12T00:00:00.000Z,1284,1283.98912067,1,2,9,0,0,2026-11-05T00:00:00.000Z!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z!2026-11-22,294,345!2026-11-25,297,345-->
+In Scala {@{a _lazy list_}@} ({@{`scala.collection.immutable.LazyList`}@}, formerly {@{`Stream`}@}) is {@{an immutable, potentially infinite sequence}@} whose elements are {@{evaluated only when they are required}@}. The concept was introduced to support {@{combinatorial search and other problems}@} where constructing {@{the entire collection would be wasteful or impossible}@}. <!--SR:!fsrs,2030-06-21T00:00:00.000Z,1316,1315.76672047,1,2,9,0,0,2026-11-13T00:00:00.000Z!fsrs,2030-03-15T00:00:00.000Z,1225,1225.46601476,1,2,9,0,0,2026-11-06T00:00:00.000Z!2027-01-05,330,345!fsrs,2030-05-12T00:00:00.000Z,1284,1283.98912067,1,2,9,0,0,2026-11-05T00:00:00.000Z!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z!2026-11-22,294,345!2026-11-25,297,345-->
 
 ### lazy list properties
 
@@ -104,7 +104,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 
 ### lazy list operations
 
-{@{Most standard collection methods}@} are {@{available on lazy lists}@}.  For example, to find {@{the second prime number}@} between {@{1000 and 10&nbsp;000}@} one can write: <!--SR:!2026-11-23,295,345!2026-11-13,288,345!fsrs,2030-04-27T00:00:00.000Z,1272,1272.04354713,1,2,9,0,0,2026-11-02T00:00:00.000Z!2026-12-29,325,345-->
+{@{Most standard collection methods}@} are {@{available on lazy lists}@}.  For example, to find {@{the second prime number}@} between {@{1000 and 10&nbsp;000}@} one can write: <!--SR:!2026-11-23,295,345!fsrs,2030-06-21T00:00:00.000Z,1316,1315.76672047,1,2,9,0,0,2026-11-13T00:00:00.000Z!fsrs,2030-04-27T00:00:00.000Z,1272,1272.04354713,1,2,9,0,0,2026-11-02T00:00:00.000Z!2026-12-29,325,345-->
 
 > [!example] __lazily finding prime numbers__
 >
@@ -241,7 +241,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 >
 > {@{Both approaches \(`nats.map`, `nats.filter`\)}@} generate {@{each multiple of 4 on demand}@}; however, {@{the `map` version}@} typically {@{produces values faster}@} because it {@{evaluates less elements and avoids the extra filtering step}@}. <!--SR:!2027-03-10,386,371!2027-04-09,410,371!2027-03-15,390,371!2027-03-14,389,371!2027-04-04,407,371!2027-03-17,391,371!2027-03-15,390,371!2027-03-22,395,371-->
 
-{@{Many standard operations}@} {@{terminate only}@} when they {@{encounter a finite amount of data}@}. Evaluating {@{`nats.size` or `nats.toList`}@} requires {@{evaluating all elements}@}, which is {@{infinite}@}, so it {@{diverges–never terminates}@}. Compare to {@{`nats.drop(1).take(10).toList`}@}, which {@{converges, i.e. terminates, and returns `List(1, 2, ..., 10)`}@}. Therefore, only {@{operations that request a finite prefix of the list}@} {@{terminate}@}. <!--SR:!2026-12-30,325,345!2026-12-02,303,345!2026-12-30,325,345!2026-12-07,307,345!2026-11-19,291,345!2026-11-19,294,330!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-30,325,345!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z!2026-11-13,288,345!2027-01-15,338,345-->
+{@{Many standard operations}@} {@{terminate only}@} when they {@{encounter a finite amount of data}@}. Evaluating {@{`nats.size` or `nats.toList`}@} requires {@{evaluating all elements}@}, which is {@{infinite}@}, so it {@{diverges–never terminates}@}. Compare to {@{`nats.drop(1).take(10).toList`}@}, which {@{converges, i.e. terminates, and returns `List(1, 2, ..., 10)`}@}. Therefore, only {@{operations that request a finite prefix of the list}@} {@{terminate}@}. <!--SR:!2026-12-30,325,345!2026-12-02,303,345!2026-12-30,325,345!2026-12-07,307,345!2026-11-19,291,345!2026-11-19,294,330!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-30,325,345!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z!fsrs,2030-06-21T00:00:00.000Z,1316,1315.76672047,1,2,9,0,0,2026-11-13T00:00:00.000Z!2027-01-15,338,345-->
 
 ### infinite sequence examples
 

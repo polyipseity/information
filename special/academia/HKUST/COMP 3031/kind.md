@@ -145,7 +145,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >     def map[U](f: T => U): F[U]
 > ```
 >
-> Intuitively, given {@{a function `T => U` in the original context}@}, `map` applies {@{the same function in the `Functor` context `F[_]`}@}. <!--SR:!2026-12-20,268,330!fsrs,2029-02-28T00:00:00.000Z,860,860.36514366,1,2,9,0,0,2026-10-22T00:00:00.000Z!2026-12-30,276,330!2026-11-13,243,330-->
+> Intuitively, given {@{a function `T => U` in the original context}@}, `map` applies {@{the same function in the `Functor` context `F[_]`}@}. <!--SR:!2026-12-20,268,330!fsrs,2029-02-28T00:00:00.000Z,860,860.36514366,1,2,9,0,0,2026-10-22T00:00:00.000Z!2026-12-30,276,330!fsrs,2029-10-28T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-13T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

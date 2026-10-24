@@ -48,7 +48,7 @@ Because Lisp was originally {@{an intermediate language for compilers}@}, it con
 > )
 > (factorial 10) ;; → 3628800
 > ```
-<!--SR:!2026-11-13,235,330!2026-12-25,267,340-->
+<!--SR:!fsrs,2029-09-27T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-13T00:00:00.000Z!2026-12-25,267,340-->
 
 ### Lisp data
 

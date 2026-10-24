@@ -274,7 +274,7 @@ The content is in teaching order.
     - jazz / 1920s–1930s ::@:: transitioned from novelty/silly to national craze <!--SR:!fsrs,2030-07-01T00:00:00.000Z,1382,1382.49131002,1,2,10,0,0,2026-09-18T00:00:00.000Z!fsrs,2032-11-15T00:00:00.000Z,2234,2234.24126267,1,2,10,0,0,2026-10-04T00:00:00.000Z-->
 - [big band](../../../../general/big%20band.md) ::@:: a type of musical ensemble of jazz music that usually consists of ten or more musicians with four sections: saxophones, trumpets, trombones, and a rhythm section <!--SR:!fsrs,2032-12-30T00:00:00.000Z,2262,2262.21980759,1,2,10,0,0,2026-10-21T00:00:00.000Z!fsrs,2031-04-14T00:00:00.000Z,1719,1718.82780688,1,2,10,0,0,2026-07-30T00:00:00.000Z-->
     - big bands / sections ::@:: brass: trombones, trumpets <br/> rhythm: bass, drums, guitar, piano <br/> woodwinds: saxophones <!--SR:!fsrs,2031-06-20T00:00:00.000Z,1771,1770.8569414,1,2,10,0,0,2026-08-14T00:00:00.000Z!2031-02-23,1767,398-->
-    - big bands / changes ::@:: an arranger became essential, more people meant more organization needed, popular songs that many people knew became important as bands were traveling <!--SR:!2026-11-13,515,398!2026-11-22,524,398-->
+    - big bands / changes ::@:: an arranger became essential, more people meant more organization needed, popular songs that many people knew became important as bands were traveling <!--SR:!fsrs,2033-04-24T00:00:00.000Z,2354,2353.80431035,1,2,10,0,0,2026-11-13T00:00:00.000Z!2026-11-22,524,398-->
 - [swing music](../../../../general/swing%20music.md)
     - swing music / vs. New Orleans jazz
 - assignment: (none)
@@ -389,7 +389,7 @@ The content is in teaching order.
     - stride / vs. ragtime ::@:: The former has more harmony (chords), is improvised, and started later than the latter. The former was from the East Coast (New York City), while the latter was from the Midwest (St. Louis). <!--SR:!2026-12-28,533,402!2026-12-03,514,402-->
     - stride / originator ::@:: James P. Johnson (largely forgotten) <!--SR:!2027-06-24,691,422!2027-08-16,735,422-->
     - stride / players ::@:: Art Tatum, Fats Waller <!--SR:!2027-09-11,753,422!2027-08-25,741,422-->
-- [James P. Johnson](../../../../general/James%20P.%20Johnson.md) (1894–1955) ::@:: from New Jersey; father of stride piano, and responsible for popularizing the Charleston dance <!--SR:!2027-07-03,699,422!2026-11-13,499,402-->
+- [James P. Johnson](../../../../general/James%20P.%20Johnson.md) (1894–1955) ::@:: from New Jersey; father of stride piano, and responsible for popularizing the Charleston dance <!--SR:!2027-07-03,699,422!fsrs,2033-02-19T00:00:00.000Z,2290,2290.14865099,1,2,10,0,0,2026-11-13T00:00:00.000Z-->
     - James P. Johnson / later life ::@:: Had a stroke in the 1940s and could not play after that, and was largely forgotten. <!--SR:!fsrs,2032-07-20T00:00:00.000Z,2126,2125.84414965,1,2,10,0,0,2026-09-24T00:00:00.000Z!2026-12-30,535,402-->
     - James P. Johnson / works ::@:: "The Charleston" (1923) — James P. Johnson <!--SR:!2027-08-26,742,422!2027-07-27,717,422-->
 - [Fats Waller](../../../../general/Fats%20Waller.md) (1904–1943) ::@:: composer, pianist, singer; he continued the tradition of stride piano in the 1920s, and was a pure entertainer <!--SR:!2026-12-26,531,402!2026-12-04,515,402-->

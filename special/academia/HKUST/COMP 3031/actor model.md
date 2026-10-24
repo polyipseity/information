@@ -225,7 +225,7 @@ Actors are not {@{instantiated directly with `new`}@}. The runtime supplies {@{a
 >
 > {@{The returned value}@} is an {@{`ActorRef`}@}. Other actors use this reference to send {@{messages with the asynchronous operator `!`}@}. <!--SR:!fsrs,2029-10-23T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-12-03,253,330!2026-11-15,245,330!2027-01-16,289,330!2027-01-05,277,330-->
 
-{@{Instantiating actors with `new`}@} would bypass {@{the actor framework’s bookkeeping}@}: the runtime would not assign {@{a unique `ActorRef`}@}, nor would it be able to schedule {@{the actor on another machine}@}. Using {@{the context’s `actorOf`}@} delegates {@{creation, life‑cycle management, and potential distribution}@} to the framework. <!--SR:!2026-11-13,243,330!2026-12-05,255,330!2026-11-13,243,330!2026-12-29,274,330!2026-11-16,246,330!2026-11-29,250,330-->
+{@{Instantiating actors with `new`}@} would bypass {@{the actor framework’s bookkeeping}@}: the runtime would not assign {@{a unique `ActorRef`}@}, nor would it be able to schedule {@{the actor on another machine}@}. Using {@{the context’s `actorOf`}@} delegates {@{creation, life‑cycle management, and potential distribution}@} to the framework. <!--SR:!fsrs,2029-10-28T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-13T00:00:00.000Z!2026-12-05,255,330!fsrs,2029-10-28T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-13T00:00:00.000Z!2026-12-29,274,330!2026-11-16,246,330!2026-11-29,250,330-->
 
 When {@{an actor receives a message}@} it may: {@{send other messages}@}; {@{create or stop actors}@}; or {@{change its own behaviour with `context.become`}@}. These capabilities let an actor orchestrate {@{complex workflows without shared mutable data}@}. <!--SR:!2026-12-23,269,330!2027-01-03,278,330!2027-01-08,280,330!2027-01-03,278,330!2026-12-15,263,330-->
 
@@ -490,7 +490,7 @@ When {@{several messages are sent to the same recipient}@} they keep {@{the orde
 >       children -= sender()
 >       if (children.isEmpty) context.parent ! Result(cache)
 > ```
-<!--SR:!2026-12-31,273,330!2026-11-13,243,330!2026-12-15,263,330!2027-01-20,292,330!2027-01-11,285,330-->
+<!--SR:!2026-12-31,273,330!fsrs,2029-10-28T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-13T00:00:00.000Z!2026-12-15,263,330!2027-01-20,292,330!2027-01-11,285,330-->
 
 Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A controller}@} that aborts {@{all unfinished getters after a fixed delay}@} is shown; {@{the timeout message}@} is sent to {@{the controller itself}@}, preserving {@{encapsulation}@}. <!--SR:!2026-12-03,253,330!2026-12-30,275,330!2026-12-24,268,330!2027-01-20,290,330!2026-11-30,251,330!2026-12-16,263,330-->
 
