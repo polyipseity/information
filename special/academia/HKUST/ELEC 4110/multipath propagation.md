@@ -46,7 +46,7 @@ If {@{$T_{\max}$ and $T_{\min}$}@} denote {@{the largest and smallest significan
 
 Defined statistically as {@{the maximum frequency separation $\Delta f$}@} for which {@{the magnitude of the correlation coefficient between two frequency responses remains above a chosen threshold}@}: {@{$$p(\Delta f)\;=\; \frac{\mathbb{E}\!\left[H(f)\,H^{*}(f-\Delta f)\right]} {\sqrt{\mathbb{E}[|H(f)|^2]\,\mathbb{E}[|H(f-\Delta f)|^2]} } \;\geq\; \text{threshold}.$$}@} {@{Typical thresholds}@} are {@{0.9 (90% correlation) or 0.5 (50% correlation)}@}.
 
-Often approximated by {@{$$B_c \approx \frac 1 {\alpha \sigma_d} \,,$$}@} where {@{$\alpha$}@} depends on {@{the threshold}@}: {@{$\alpha = 50$}@} for a threshold of {@{0.9}@}, {@{$\alpha = 5$}@} for a threshold of {@{0.5}, or simply {@{$\alpha = 1$}@} for simplicity}. (annotation: __this course__: Use {@{the formula with $\alpha = 1$ for simplicity unless otherwise specified}@}.)
+Often approximated by {@{$$B_c \approx \frac 1 {\alpha \sigma_d} \,,$$}@} where {@{$\alpha$}@} depends on {@{the threshold}@}: {@{$\alpha = 50$}@} for a threshold of {@{0.9}@}, {@{$\alpha = 5$}@} for a threshold of {@{0.5}@}, or simply {@{$\alpha = 1$ for simplicity}@}. (annotation: __this course__: Use {@{the formula with $\alpha = 1$ for simplicity unless otherwise specified}@}.)
 
 ### frequency-flat fading
 

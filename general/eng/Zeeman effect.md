@@ -90,11 +90,11 @@ __Dipole-allowed Lyman-alpha transitions in the weak-field regime__
 
 > __flashcards__
 >
-> - $\left\vert{}2, 1, \frac{1}{2}, \pm\frac{1}{2}\right\rangle \to \left\vert{}1, 0, \frac{1}{2}, \pm\frac{1}{2}\right\rangle$ ::@:: $\left(\frac{2}{3}\left(\pm\frac{1}{2}\right) - 2\left(\pm\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B = \mp\frac{2}{3}\mu_{\mathrm{B} }B$
-> - $\left\vert{}2, 1, \frac{1}{2}, \pm\frac{1}{2}\right\rangle \to \left\vert{}1, 0, \frac{1}{2}, \mp\frac{1}{2}\right\rangle$ ::@:: $\left(\frac{2}{3}\left(\pm\frac{1}{2}\right) - 2\left(\mp\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B = \pm\frac{4}{3}\mu_{\mathrm{B} }B$
-> - $\left\vert{}2, 1, \frac{3}{2}, \pm\frac{3}{2}\right\rangle \to \left\vert{}1, 0, \frac{1}{2}, \pm\frac{1}{2}\right\rangle$ ::@:: $\left(\frac{4}{3}\left(\pm\frac{3}{2}\right) - 2\left(\pm\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B = \pm 1\mu_{\mathrm{B} }B$
-> - $\left\vert{}2, 1, \frac{3}{2}, \pm\frac{1}{2}\right\rangle \to \left\vert{}1, 0, \frac{1}{2}, \pm\frac{1}{2}\right\rangle$ ::@:: $\left(\frac{4}{3}\left(\pm\frac{1}{2}\right) - 2\left(\pm\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B = \mp\frac{1}{3}\mu_{\mathrm{B} }B$
-> - $\left\vert{}2, 1, \frac{3}{2}, \pm\frac{1}{2}\right\rangle \to \left\vert{}1, 0, \frac{1}{2}, \mp\frac{1}{2}\right\rangle$ ::@:: $\left(\frac{4}{3}\left(\pm\frac{1}{2}\right) - 2\left(\mp\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B = \pm\frac{5}{3}\mu_{\mathrm{B} }B$
+> - ($\lvert n, \ell, j, m_j \rangle$) $\left\vert{}2, 1, \frac{1}{2}, \pm\frac{1}{2}\right\rangle \to \left\vert{}1, 0, \frac{1}{2}, \pm\frac{1}{2}\right\rangle$ ::@:: $\left(\frac{2}{3}\left(\pm\frac{1}{2}\right) - 2\left(\pm\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B = \mp\frac{2}{3}\mu_{\mathrm{B} }B$
+> - ($\lvert n, \ell, j, m_j \rangle$) $\left\vert{}2, 1, \frac{1}{2}, \pm\frac{1}{2}\right\rangle \to \left\vert{}1, 0, \frac{1}{2}, \mp\frac{1}{2}\right\rangle$ ::@:: $\left(\frac{2}{3}\left(\pm\frac{1}{2}\right) - 2\left(\mp\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B = \pm\frac{4}{3}\mu_{\mathrm{B} }B$
+> - ($\lvert n, \ell, j, m_j \rangle$) $\left\vert{}2, 1, \frac{3}{2}, \pm\frac{3}{2}\right\rangle \to \left\vert{}1, 0, \frac{1}{2}, \pm\frac{1}{2}\right\rangle$ ::@:: $\left(\frac{4}{3}\left(\pm\frac{3}{2}\right) - 2\left(\pm\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B = \pm 1\mu_{\mathrm{B} }B$
+> - ($\lvert n, \ell, j, m_j \rangle$) $\left\vert{}2, 1, \frac{3}{2}, \pm\frac{1}{2}\right\rangle \to \left\vert{}1, 0, \frac{1}{2}, \pm\frac{1}{2}\right\rangle$ ::@:: $\left(\frac{4}{3}\left(\pm\frac{1}{2}\right) - 2\left(\pm\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B = \mp\frac{1}{3}\mu_{\mathrm{B} }B$
+> - ($\lvert n, \ell, j, m_j \rangle$) $\left\vert{}2, 1, \frac{3}{2}, \pm\frac{1}{2}\right\rangle \to \left\vert{}1, 0, \frac{1}{2}, \mp\frac{1}{2}\right\rangle$ ::@:: $\left(\frac{4}{3}\left(\pm\frac{1}{2}\right) - 2\left(\mp\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B = \pm\frac{5}{3}\mu_{\mathrm{B} }B$
 
 ## strong field \(Paschen–Back effect\)
 
@@ -123,12 +123,12 @@ __Dipole-allowed Lyman-alpha transitions in the strong-field regime__
 
 > __flashcards__
 >
-> - $\left\vert{}2, 1, 1, \frac{1}{2}\right\rangle \to \left\vert{}1, 0, 0, \frac{1}{2}\right\rangle$ ::@:: initial: $\left(1 + 2\left(\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B_z = +2\mu_{\mathrm{B} }B_z$ <br/> final: $\left(0 + 2\left(\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B_z = +\mu_{\mathrm{B} }B_z$
-> - $\left\vert{}2, 1, 0, \frac{1}{2}\right\rangle \to \left\vert{}1, 0, 0, \frac{1}{2}\right\rangle$ ::@:: initial: $\left(0 + 2\left(\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B_z = +\mu_{\mathrm{B} }B_z$ <br/> final: $\left(0 + 2\left(\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B_z = +\mu_{\mathrm{B} }B_z$
-> - $\left\vert{}2, 1, 1, -\frac{1}{2}\right\rangle \to \left\vert{}1, 0, 0, -\frac{1}{2}\right\rangle$ ::@:: initial: $\left(1 + 2\left(-\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B_z = 0$ <br/> final: $\left(0 + 2\left(-\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B_z = -\mu_{\mathrm{B} }B_z$
-> - $\left\vert{}2, 1, -1, \frac{1}{2}\right\rangle \to \left\vert{}1, 0, 0, \frac{1}{2}\right\rangle$ ::@:: initial: $\left(-1 + 2\left(\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B_z = 0$ <br/> final: $\left(0 + 2\left(\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B_z = +\mu_{\mathrm{B} }B_z$
-> - $\left\vert{}2, 1, 0, -\frac{1}{2}\right\rangle \to \left\vert{}1, 0, 0, -\frac{1}{2}\right\rangle$ ::@:: initial: $\left(0 + 2\left(-\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B_z = -\mu_{\mathrm{B} }B_z$ <br/> final: $\left(0 + 2\left(-\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B_z = -\mu_{\mathrm{B} }B_z$
-> - $\left\vert{}2, 1, -1, -\frac{1}{2}\right\rangle \to \left\vert{}1, 0, 0, -\frac{1}{2}\right\rangle$ ::@:: initial: $\left(-1 + 2\left(-\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B_z = -2\mu_{\mathrm{B} }B_z$ <br/> final: $\left(0 + 2\left(-\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B_z = -\mu_{\mathrm{B} }B_z$
+> - ($\lvert n, \ell, m_l, m_s \rangle$) $\left\vert{}2, 1, 1, \frac{1}{2}\right\rangle \to \left\vert{}1, 0, 0, \frac{1}{2}\right\rangle$ ::@:: initial: $\left(1 + 2\left(\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B_z = +2\mu_{\mathrm{B} }B_z$ <br/> final: $\left(0 + 2\left(\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B_z = +\mu_{\mathrm{B} }B_z$
+> - ($\lvert n, \ell, m_l, m_s \rangle$) $\left\vert{}2, 1, 0, \frac{1}{2}\right\rangle \to \left\vert{}1, 0, 0, \frac{1}{2}\right\rangle$ ::@:: initial: $\left(0 + 2\left(\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B_z = +\mu_{\mathrm{B} }B_z$ <br/> final: $\left(0 + 2\left(\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B_z = +\mu_{\mathrm{B} }B_z$
+> - ($\lvert n, \ell, m_l, m_s \rangle$) $\left\vert{}2, 1, 1, -\frac{1}{2}\right\rangle \to \left\vert{}1, 0, 0, -\frac{1}{2}\right\rangle$ ::@:: initial: $\left(1 + 2\left(-\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B_z = 0$ <br/> final: $\left(0 + 2\left(-\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B_z = -\mu_{\mathrm{B} }B_z$
+> - ($\lvert n, \ell, m_l, m_s \rangle$) $\left\vert{}2, 1, -1, \frac{1}{2}\right\rangle \to \left\vert{}1, 0, 0, \frac{1}{2}\right\rangle$ ::@:: initial: $\left(-1 + 2\left(\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B_z = 0$ <br/> final: $\left(0 + 2\left(\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B_z = +\mu_{\mathrm{B} }B_z$
+> - ($\lvert n, \ell, m_l, m_s \rangle$) $\left\vert{}2, 1, 0, -\frac{1}{2}\right\rangle \to \left\vert{}1, 0, 0, -\frac{1}{2}\right\rangle$ ::@:: initial: $\left(0 + 2\left(-\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B_z = -\mu_{\mathrm{B} }B_z$ <br/> final: $\left(0 + 2\left(-\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B_z = -\mu_{\mathrm{B} }B_z$
+> - ($\lvert n, \ell, m_l, m_s \rangle$) $\left\vert{}2, 1, -1, -\frac{1}{2}\right\rangle \to \left\vert{}1, 0, 0, -\frac{1}{2}\right\rangle$ ::@:: initial: $\left(-1 + 2\left(-\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B_z = -2\mu_{\mathrm{B} }B_z$ <br/> final: $\left(0 + 2\left(-\frac{1}{2}\right)\right)\mu_{\mathrm{B} }B_z = -\mu_{\mathrm{B} }B_z$
 
 ## intermediate field for j = 1/2
 
