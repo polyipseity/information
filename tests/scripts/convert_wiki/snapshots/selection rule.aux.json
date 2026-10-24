@@ -1,0 +1,951 @@
+{
+  "api_titles": [
+    "Anharmonicity",
+    "Tetrahedral",
+    "Edit section: See also",
+    "Electromagnetic",
+    "Character tables",
+    "Infrared spectroscopy",
+    "Edit section: Further reading",
+    "Symmetry",
+    "Molecule",
+    "HCl",
+    "Multipole moments",
+    "ISBN (identifier)",
+    "Singlet fission",
+    "Hdl (identifier)",
+    "LS coupling",
+    "Edit section: Vibrational spectra",
+    "Chemical reaction",
+    "Rotational spectroscopy",
+    "Chemistry",
+    "Hydrogen chloride",
+    "Coupling (physics)",
+    "Overtone band",
+    "Centrosymmetric",
+    "Hydrogen-like atom",
+    "Total angular momentum quantum number",
+    "Quantum harmonic oscillator",
+    "Forbidden transition",
+    "Edit section: Examples",
+    "Edit section: Rotational spectra",
+    "Magnetic monopole",
+    "Superselection rule",
+    "Rigid rotor",
+    "Transition dipole moment",
+    "Raman spectroscopy",
+    "Quantum mechanics",
+    "Odd functions",
+    "Parity (physics)",
+    "Atomic nucleus",
+    "Vibronic coupling",
+    "Crystal field theory",
+    "Edit section: Summary table",
+    "Point group",
+    "Cambridge University Press",
+    "Angular momentum coupling",
+    "Edit section: Angular momentum",
+    "Doi (identifier)",
+    "Spin-forbidden reactions",
+    "Propagator",
+    "Bibcode (identifier)",
+    "Vibrational spectroscopy",
+    "Edit section: Surface",
+    "Adsorption",
+    "Electric dipole transition",
+    "Quantum number",
+    "Group (mathematics)",
+    "Wave function",
+    "Product (chemistry)",
+    "Ground state",
+    "Edit section: References",
+    "German language",
+    "Physics",
+    "Rovibronic coupling",
+    "Edit section: Notes",
+    "Oxford University Press",
+    "Edit section: Electronic spectra",
+    "Rotational–vibrational coupling",
+    "Edit section: Overview",
+    "Hyperfine structure",
+    "Rotational–vibrational spectroscopy",
+    "Resonance Raman spectroscopy",
+    "Dipole",
+    "Edit section: Coupled transitions",
+    "Edit section: External links",
+    "Quantum state",
+    "Atom",
+    "Molecular vibration",
+    "Reagent",
+    "Even and odd functions",
+    "Quadrupole",
+    "Laporte rule",
+    "Azimuthal quantum number",
+    "Atomic orbitals",
+    "J-coupling",
+    "Character theory",
+    "Direct product of groups",
+    "Spin quantum number",
+    "Spin (physics)"
+  ],
+  "api_responses": [
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Vibrational spectroscopy",
+            "to": "Infrared spectroscopy"
+          },
+          {
+            "from": "HCl",
+            "to": "Hydrogen chloride"
+          },
+          {
+            "from": "Electromagnetic",
+            "to": "Electromagnetism"
+          },
+          {
+            "from": "Odd functions",
+            "to": "Even and odd functions",
+            "tofragment": "Odd functions"
+          },
+          {
+            "from": "Character tables",
+            "to": "Character table"
+          },
+          {
+            "from": "LS coupling",
+            "to": "Angular momentum coupling",
+            "tofragment": "LS coupling"
+          },
+          {
+            "from": "Tetrahedral",
+            "to": "Tetrahedron"
+          },
+          {
+            "from": "Forbidden transition",
+            "to": "Forbidden mechanism"
+          },
+          {
+            "from": "Centrosymmetric",
+            "to": "Centrosymmetry"
+          },
+          {
+            "from": "Superselection rule",
+            "to": "Superselection"
+          },
+          {
+            "from": "Multipole moments",
+            "to": "Multipole expansion"
+          },
+          {
+            "from": "ISBN (identifier)",
+            "to": "ISBN"
+          },
+          {
+            "from": "Doi (identifier)",
+            "to": "Digital object identifier"
+          },
+          {
+            "from": "Hdl (identifier)",
+            "to": "Handle System"
+          },
+          {
+            "from": "Bibcode (identifier)",
+            "to": "Bibcode"
+          }
+        ],
+        "pages": [
+          {
+            "ns": 0,
+            "title": "Edit section: Angular momentum",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Summary table",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Rotational spectra",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Examples",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Vibrational spectra",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Further reading",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: See also",
+            "missing": true
+          },
+          {
+            "pageid": 5180,
+            "ns": 0,
+            "title": "Chemistry"
+          },
+          {
+            "pageid": 6271,
+            "ns": 0,
+            "title": "Chemical reaction"
+          },
+          {
+            "pageid": 9532,
+            "ns": 0,
+            "title": "Electromagnetism"
+          },
+          {
+            "pageid": 14919,
+            "ns": 0,
+            "title": "ISBN"
+          },
+          {
+            "pageid": 15412,
+            "ns": 0,
+            "title": "Infrared spectroscopy"
+          },
+          {
+            "pageid": 19555,
+            "ns": 0,
+            "title": "Molecule"
+          },
+          {
+            "pageid": 25202,
+            "ns": 0,
+            "title": "Quantum mechanics"
+          },
+          {
+            "pageid": 30606,
+            "ns": 0,
+            "title": "Tetrahedron"
+          },
+          {
+            "pageid": 50719,
+            "ns": 0,
+            "title": "Quantum harmonic oscillator"
+          },
+          {
+            "pageid": 53741,
+            "ns": 0,
+            "title": "Symmetry"
+          },
+          {
+            "pageid": 68686,
+            "ns": 0,
+            "title": "Raman spectroscopy"
+          },
+          {
+            "pageid": 73199,
+            "ns": 0,
+            "title": "Cambridge University Press"
+          },
+          {
+            "pageid": 175470,
+            "ns": 0,
+            "title": "Magnetic monopole"
+          },
+          {
+            "pageid": 210755,
+            "ns": 0,
+            "title": "Hydrogen chloride"
+          },
+          {
+            "pageid": 422994,
+            "ns": 0,
+            "title": "Digital object identifier"
+          },
+          {
+            "pageid": 531239,
+            "ns": 0,
+            "title": "Rotational spectroscopy"
+          },
+          {
+            "pageid": 592151,
+            "ns": 0,
+            "title": "Even and odd functions"
+          },
+          {
+            "pageid": 698759,
+            "ns": 0,
+            "title": "Propagator"
+          },
+          {
+            "pageid": 872412,
+            "ns": 0,
+            "title": "Superselection"
+          },
+          {
+            "pageid": 911520,
+            "ns": 0,
+            "title": "Character table"
+          },
+          {
+            "pageid": 950012,
+            "ns": 0,
+            "title": "Coupling (physics)"
+          },
+          {
+            "pageid": 1138578,
+            "ns": 0,
+            "title": "Crystal field theory"
+          },
+          {
+            "pageid": 1138942,
+            "ns": 0,
+            "title": "Point group"
+          },
+          {
+            "pageid": 1240666,
+            "ns": 0,
+            "title": "Parity (physics)"
+          },
+          {
+            "pageid": 1243550,
+            "ns": 0,
+            "title": "Rigid rotor"
+          },
+          {
+            "pageid": 1277825,
+            "ns": 0,
+            "title": "Angular momentum coupling"
+          },
+          {
+            "pageid": 1425534,
+            "ns": 0,
+            "title": "Multipole expansion"
+          },
+          {
+            "pageid": 1633547,
+            "ns": 0,
+            "title": "Total angular momentum quantum number"
+          },
+          {
+            "pageid": 1942497,
+            "ns": 0,
+            "title": "Vibronic coupling"
+          },
+          {
+            "pageid": 3075539,
+            "ns": 0,
+            "title": "Anharmonicity"
+          },
+          {
+            "pageid": 3439285,
+            "ns": 0,
+            "title": "Forbidden mechanism"
+          },
+          {
+            "pageid": 3510274,
+            "ns": 0,
+            "title": "Centrosymmetry"
+          },
+          {
+            "pageid": 9812205,
+            "ns": 0,
+            "title": "Transition dipole moment"
+          },
+          {
+            "pageid": 11724245,
+            "ns": 0,
+            "title": "Hydrogen-like atom"
+          },
+          {
+            "pageid": 14092434,
+            "ns": 0,
+            "title": "Bibcode"
+          },
+          {
+            "pageid": 19916559,
+            "ns": 0,
+            "title": "Atomic nucleus"
+          },
+          {
+            "pageid": 22048289,
+            "ns": 0,
+            "title": "Handle System"
+          },
+          {
+            "pageid": 35080514,
+            "ns": 0,
+            "title": "Overtone band"
+          },
+          {
+            "pageid": 39352563,
+            "ns": 0,
+            "title": "Singlet fission"
+          },
+          {
+            "pageid": 53838261,
+            "ns": 0,
+            "title": "Spin-forbidden reactions"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Atomic orbitals",
+            "to": "Atomic orbital"
+          }
+        ],
+        "pages": [
+          {
+            "ns": 0,
+            "title": "Edit section: External links",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Coupled transitions",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Overview",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Electronic spectra",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Notes",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: References",
+            "missing": true
+          },
+          {
+            "ns": 0,
+            "title": "Edit section: Surface",
+            "missing": true
+          },
+          {
+            "pageid": 902,
+            "ns": 0,
+            "title": "Atom"
+          },
+          {
+            "pageid": 1206,
+            "ns": 0,
+            "title": "Atomic orbital"
+          },
+          {
+            "pageid": 8378,
+            "ns": 0,
+            "title": "Dipole"
+          },
+          {
+            "pageid": 11884,
+            "ns": 0,
+            "title": "German language"
+          },
+          {
+            "pageid": 19447,
+            "ns": 0,
+            "title": "Group (mathematics)"
+          },
+          {
+            "pageid": 22939,
+            "ns": 0,
+            "title": "Physics"
+          },
+          {
+            "pageid": 48518,
+            "ns": 0,
+            "title": "Oxford University Press"
+          },
+          {
+            "pageid": 145343,
+            "ns": 0,
+            "title": "Wave function"
+          },
+          {
+            "pageid": 184897,
+            "ns": 0,
+            "title": "Reagent"
+          },
+          {
+            "pageid": 207601,
+            "ns": 0,
+            "title": "Adsorption"
+          },
+          {
+            "pageid": 225982,
+            "ns": 0,
+            "title": "Ground state"
+          },
+          {
+            "pageid": 486436,
+            "ns": 0,
+            "title": "Rotational–vibrational spectroscopy"
+          },
+          {
+            "pageid": 527046,
+            "ns": 0,
+            "title": "Hyperfine structure"
+          },
+          {
+            "pageid": 532405,
+            "ns": 0,
+            "title": "Quantum number"
+          },
+          {
+            "pageid": 532573,
+            "ns": 0,
+            "title": "Azimuthal quantum number"
+          },
+          {
+            "pageid": 540448,
+            "ns": 0,
+            "title": "Product (chemistry)"
+          },
+          {
+            "pageid": 592151,
+            "ns": 0,
+            "title": "Even and odd functions"
+          },
+          {
+            "pageid": 691741,
+            "ns": 0,
+            "title": "Character theory"
+          },
+          {
+            "pageid": 1077261,
+            "ns": 0,
+            "title": "Spin quantum number"
+          },
+          {
+            "pageid": 1248278,
+            "ns": 0,
+            "title": "Resonance Raman spectroscopy"
+          },
+          {
+            "pageid": 1470637,
+            "ns": 0,
+            "title": "Quadrupole"
+          },
+          {
+            "pageid": 1757763,
+            "ns": 0,
+            "title": "Laporte rule"
+          },
+          {
+            "pageid": 3706015,
+            "ns": 0,
+            "title": "Direct product of groups"
+          },
+          {
+            "pageid": 3721845,
+            "ns": 0,
+            "title": "Rotational–vibrational coupling"
+          },
+          {
+            "pageid": 5197381,
+            "ns": 0,
+            "title": "Rovibronic coupling"
+          },
+          {
+            "pageid": 7902939,
+            "ns": 0,
+            "title": "J-coupling"
+          },
+          {
+            "pageid": 8864159,
+            "ns": 0,
+            "title": "Molecular vibration"
+          },
+          {
+            "pageid": 19593829,
+            "ns": 0,
+            "title": "Spin (physics)"
+          },
+          {
+            "pageid": 25211625,
+            "ns": 0,
+            "title": "Electric dipole transition"
+          },
+          {
+            "pageid": 30876419,
+            "ns": 0,
+            "title": "Quantum state"
+          }
+        ]
+      }
+    }
+  ],
+  "redirect_cache": {
+    "Vibrational spectroscopy": {
+      "to": "Infrared spectroscopy",
+      "tofragment": ""
+    },
+    "HCl": {
+      "to": "Hydrogen chloride",
+      "tofragment": ""
+    },
+    "Electromagnetic": {
+      "to": "Electromagnetism",
+      "tofragment": ""
+    },
+    "Odd functions": {
+      "to": "Even and odd functions",
+      "tofragment": "Odd functions"
+    },
+    "Character tables": {
+      "to": "Character table",
+      "tofragment": ""
+    },
+    "LS coupling": {
+      "to": "Angular momentum coupling",
+      "tofragment": "LS coupling"
+    },
+    "Tetrahedral": {
+      "to": "Tetrahedron",
+      "tofragment": ""
+    },
+    "Forbidden transition": {
+      "to": "Forbidden mechanism",
+      "tofragment": ""
+    },
+    "Centrosymmetric": {
+      "to": "Centrosymmetry",
+      "tofragment": ""
+    },
+    "Superselection rule": {
+      "to": "Superselection",
+      "tofragment": ""
+    },
+    "Multipole moments": {
+      "to": "Multipole expansion",
+      "tofragment": ""
+    },
+    "ISBN (identifier)": {
+      "to": "ISBN",
+      "tofragment": ""
+    },
+    "Doi (identifier)": {
+      "to": "Digital object identifier",
+      "tofragment": ""
+    },
+    "Hdl (identifier)": {
+      "to": "Handle System",
+      "tofragment": ""
+    },
+    "Bibcode (identifier)": {
+      "to": "Bibcode",
+      "tofragment": ""
+    },
+    "Anharmonicity": {
+      "to": "Anharmonicity",
+      "tofragment": ""
+    },
+    "Edit section: See also": {
+      "to": "Edit section: See also",
+      "tofragment": ""
+    },
+    "Infrared spectroscopy": {
+      "to": "Infrared spectroscopy",
+      "tofragment": ""
+    },
+    "Edit section: Further reading": {
+      "to": "Edit section: Further reading",
+      "tofragment": ""
+    },
+    "Symmetry": {
+      "to": "Symmetry",
+      "tofragment": ""
+    },
+    "Molecule": {
+      "to": "Molecule",
+      "tofragment": ""
+    },
+    "Singlet fission": {
+      "to": "Singlet fission",
+      "tofragment": ""
+    },
+    "Edit section: Vibrational spectra": {
+      "to": "Edit section: Vibrational spectra",
+      "tofragment": ""
+    },
+    "Chemical reaction": {
+      "to": "Chemical reaction",
+      "tofragment": ""
+    },
+    "Rotational spectroscopy": {
+      "to": "Rotational spectroscopy",
+      "tofragment": ""
+    },
+    "Chemistry": {
+      "to": "Chemistry",
+      "tofragment": ""
+    },
+    "Hydrogen chloride": {
+      "to": "Hydrogen chloride",
+      "tofragment": ""
+    },
+    "Coupling (physics)": {
+      "to": "Coupling (physics)",
+      "tofragment": ""
+    },
+    "Overtone band": {
+      "to": "Overtone band",
+      "tofragment": ""
+    },
+    "Hydrogen-like atom": {
+      "to": "Hydrogen-like atom",
+      "tofragment": ""
+    },
+    "Total angular momentum quantum number": {
+      "to": "Total angular momentum quantum number",
+      "tofragment": ""
+    },
+    "Quantum harmonic oscillator": {
+      "to": "Quantum harmonic oscillator",
+      "tofragment": ""
+    },
+    "Edit section: Examples": {
+      "to": "Edit section: Examples",
+      "tofragment": ""
+    },
+    "Edit section: Rotational spectra": {
+      "to": "Edit section: Rotational spectra",
+      "tofragment": ""
+    },
+    "Magnetic monopole": {
+      "to": "Magnetic monopole",
+      "tofragment": ""
+    },
+    "Rigid rotor": {
+      "to": "Rigid rotor",
+      "tofragment": ""
+    },
+    "Transition dipole moment": {
+      "to": "Transition dipole moment",
+      "tofragment": ""
+    },
+    "Raman spectroscopy": {
+      "to": "Raman spectroscopy",
+      "tofragment": ""
+    },
+    "Quantum mechanics": {
+      "to": "Quantum mechanics",
+      "tofragment": ""
+    },
+    "Parity (physics)": {
+      "to": "Parity (physics)",
+      "tofragment": ""
+    },
+    "Atomic nucleus": {
+      "to": "Atomic nucleus",
+      "tofragment": ""
+    },
+    "Vibronic coupling": {
+      "to": "Vibronic coupling",
+      "tofragment": ""
+    },
+    "Crystal field theory": {
+      "to": "Crystal field theory",
+      "tofragment": ""
+    },
+    "Edit section: Summary table": {
+      "to": "Edit section: Summary table",
+      "tofragment": ""
+    },
+    "Point group": {
+      "to": "Point group",
+      "tofragment": ""
+    },
+    "Cambridge University Press": {
+      "to": "Cambridge University Press",
+      "tofragment": ""
+    },
+    "Angular momentum coupling": {
+      "to": "Angular momentum coupling",
+      "tofragment": ""
+    },
+    "Edit section: Angular momentum": {
+      "to": "Edit section: Angular momentum",
+      "tofragment": ""
+    },
+    "Spin-forbidden reactions": {
+      "to": "Spin-forbidden reactions",
+      "tofragment": ""
+    },
+    "Propagator": {
+      "to": "Propagator",
+      "tofragment": ""
+    },
+    "Atomic orbitals": {
+      "to": "Atomic orbital",
+      "tofragment": ""
+    },
+    "Edit section: Surface": {
+      "to": "Edit section: Surface",
+      "tofragment": ""
+    },
+    "Adsorption": {
+      "to": "Adsorption",
+      "tofragment": ""
+    },
+    "Electric dipole transition": {
+      "to": "Electric dipole transition",
+      "tofragment": ""
+    },
+    "Quantum number": {
+      "to": "Quantum number",
+      "tofragment": ""
+    },
+    "Group (mathematics)": {
+      "to": "Group (mathematics)",
+      "tofragment": ""
+    },
+    "Wave function": {
+      "to": "Wave function",
+      "tofragment": ""
+    },
+    "Product (chemistry)": {
+      "to": "Product (chemistry)",
+      "tofragment": ""
+    },
+    "Ground state": {
+      "to": "Ground state",
+      "tofragment": ""
+    },
+    "Edit section: References": {
+      "to": "Edit section: References",
+      "tofragment": ""
+    },
+    "German language": {
+      "to": "German language",
+      "tofragment": ""
+    },
+    "Physics": {
+      "to": "Physics",
+      "tofragment": ""
+    },
+    "Rovibronic coupling": {
+      "to": "Rovibronic coupling",
+      "tofragment": ""
+    },
+    "Edit section: Notes": {
+      "to": "Edit section: Notes",
+      "tofragment": ""
+    },
+    "Oxford University Press": {
+      "to": "Oxford University Press",
+      "tofragment": ""
+    },
+    "Edit section: Electronic spectra": {
+      "to": "Edit section: Electronic spectra",
+      "tofragment": ""
+    },
+    "Rotational–vibrational coupling": {
+      "to": "Rotational–vibrational coupling",
+      "tofragment": ""
+    },
+    "Edit section: Overview": {
+      "to": "Edit section: Overview",
+      "tofragment": ""
+    },
+    "Hyperfine structure": {
+      "to": "Hyperfine structure",
+      "tofragment": ""
+    },
+    "Rotational–vibrational spectroscopy": {
+      "to": "Rotational–vibrational spectroscopy",
+      "tofragment": ""
+    },
+    "Resonance Raman spectroscopy": {
+      "to": "Resonance Raman spectroscopy",
+      "tofragment": ""
+    },
+    "Dipole": {
+      "to": "Dipole",
+      "tofragment": ""
+    },
+    "Edit section: Coupled transitions": {
+      "to": "Edit section: Coupled transitions",
+      "tofragment": ""
+    },
+    "Edit section: External links": {
+      "to": "Edit section: External links",
+      "tofragment": ""
+    },
+    "Quantum state": {
+      "to": "Quantum state",
+      "tofragment": ""
+    },
+    "Atom": {
+      "to": "Atom",
+      "tofragment": ""
+    },
+    "Molecular vibration": {
+      "to": "Molecular vibration",
+      "tofragment": ""
+    },
+    "Reagent": {
+      "to": "Reagent",
+      "tofragment": ""
+    },
+    "Even and odd functions": {
+      "to": "Even and odd functions",
+      "tofragment": ""
+    },
+    "Quadrupole": {
+      "to": "Quadrupole",
+      "tofragment": ""
+    },
+    "Laporte rule": {
+      "to": "Laporte rule",
+      "tofragment": ""
+    },
+    "Azimuthal quantum number": {
+      "to": "Azimuthal quantum number",
+      "tofragment": ""
+    },
+    "J-coupling": {
+      "to": "J-coupling",
+      "tofragment": ""
+    },
+    "Character theory": {
+      "to": "Character theory",
+      "tofragment": ""
+    },
+    "Direct product of groups": {
+      "to": "Direct product of groups",
+      "tofragment": ""
+    },
+    "Spin quantum number": {
+      "to": "Spin quantum number",
+      "tofragment": ""
+    },
+    "Spin (physics)": {
+      "to": "Spin (physics)",
+      "tofragment": ""
+    }
+  },
+  "image_metadata": {
+    "File:HCl rotiational spectrum.jpg": "An IR rotational/vibrational spectrum of HCl gas."
+  },
+  "name_map_overrides": {}
+}
