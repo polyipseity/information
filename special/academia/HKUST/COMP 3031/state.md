@@ -92,7 +92,7 @@ tags:
 
 {@{Instances of `BankAccountProxy`}@} are {@{stateful}@} because they expose {@{the mutable behaviour of the wrapped account}@}, showing that {@{statefulness is _infectious_}@}. <!--SR:!2026-12-15,259,330!2026-12-20,263,330!2026-12-25,267,330!2026-12-19,261,330-->
 
-Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on the function inputs}@}. For example, {@{a lazy list built with a mutable field to cache the `tail`}@} is either {@{stateless or stateful}@} depending if {@{the `tail` expression `tl` is stateful}@}: <!--SR:!2026-12-29,270,330!2026-11-14,238,330!2026-12-10,255,330!2026-11-14,238,330!2026-11-29,251,330-->
+Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on the function inputs}@}. For example, {@{a lazy list built with a mutable field to cache the `tail`}@} is either {@{stateless or stateful}@} depending if {@{the `tail` expression `tl` is stateful}@}: <!--SR:!2026-12-29,270,330!fsrs,2029-10-10T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-12-10,255,330!fsrs,2029-10-10T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-11-29,251,330-->
 
 > [!example] __mutable tail list implementation__
 >
@@ -127,7 +127,7 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 
 {@{_Referential transparency_}@} relies on {@{immutable values}@}. When {@{`val x = E; val y = E` where `E` is an expression}@} holds, the two bindings are {@{considered identical}@}. {@{Mutable assignments}@} break {@{this property: different objects created with the same expression may behave differently}@}. <!--SR:!2026-12-17,260,330!fsrs,2029-10-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-12-15,259,330!2026-12-31,272,330!fsrs,2029-10-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-11-16,240,330-->
 
-{@{Two definitions `x` and `y` are _operationally equivalent_}@} if {@{every possible sequence of operations applied to them yields indistinguishable results}@}. A test consists of executing {@{a program fragment `S` that uses `x` and `y`}@}, then creating {@{a copy `S'` where all occurrences of `y` are replaced by `x`}@}. If {@{the outcomes differ}@}, the two values are {@{not equivalent}@}. <!--SR:!2026-12-14,258,330!2026-12-15,259,330!2026-11-14,238,330!2027-01-03,274,330!fsrs,2029-10-05T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-13T00:00:00.000Z!2026-11-15,239,330-->
+{@{Two definitions `x` and `y` are _operationally equivalent_}@} if {@{every possible sequence of operations applied to them yields indistinguishable results}@}. A test consists of executing {@{a program fragment `S` that uses `x` and `y`}@}, then creating {@{a copy `S'` where all occurrences of `y` are replaced by `x`}@}. If {@{the outcomes differ}@}, the two values are {@{not equivalent}@}. <!--SR:!2026-12-14,258,330!2026-12-15,259,330!fsrs,2029-10-10T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-14T00:00:00.000Z!2027-01-03,274,330!fsrs,2029-10-05T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-13T00:00:00.000Z!2026-11-15,239,330-->
 
 > [!example] __operational equivalence test__
 >

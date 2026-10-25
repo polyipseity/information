@@ -79,7 +79,7 @@ The [main article](lambert%20series.md) provides {@{several more classical, or a
 
 > [!tip] tips
 >
-> - strategy for proving $$\sum _{n=1}^{\infty }{\frac {q^{n}x^{n} }{1-x^{n} } }=\sum _{n=1}^{\infty }{\frac {q^{n}x^{n^{2} } }{1-qx^{n} } }+\sum _{n=1}^{\infty }{\frac {q^{n}x^{n(n+1)} }{1-x^{n} } }$$ ::@:: Apply Maclaurin series on the three sums and rearrange the sums to become divisor sums. Rearranging the sums to become divisor sums is more complicated then it seems, and is best visualized using a grid. <!--SR:!2027-02-20,545,270!2026-11-14,481,270-->
+> - strategy for proving $$\sum _{n=1}^{\infty }{\frac {q^{n}x^{n} }{1-x^{n} } }=\sum _{n=1}^{\infty }{\frac {q^{n}x^{n^{2} } }{1-qx^{n} } }+\sum _{n=1}^{\infty }{\frac {q^{n}x^{n(n+1)} }{1-x^{n} } }$$ ::@:: Apply Maclaurin series on the three sums and rearrange the sums to become divisor sums. Rearranging the sums to become divisor sums is more complicated then it seems, and is best visualized using a grid. <!--SR:!2027-02-20,545,270!fsrs,2031-02-28T00:00:00.000Z,1567,1566.76939642,2.98092302,2,10,0,0,2026-11-14T00:00:00.000Z-->
 
 ### Bell series
 

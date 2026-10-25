@@ -136,7 +136,7 @@ Actors process {@{each message _sequentially_}@}, so {@{no explicit locks are ne
 > }
 > ```
 >
-> {@{The `count` field}@} is {@{internal to the actor}@}; {@{other actors can only influence it}@} by sending {@{the `"incr"` message}@}. <!--SR:!2026-11-14,244,330!2026-12-29,274,330!2026-11-30,251,330!2027-01-19,291,330!2026-12-18,263,330!2026-11-20,248,330!2026-12-14,262,330-->
+> {@{The `count` field}@} is {@{internal to the actor}@}; {@{other actors can only influence it}@} by sending {@{the `"incr"` message}@}. <!--SR:!fsrs,2029-11-02T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-12-29,274,330!2026-11-30,251,330!2027-01-19,291,330!2026-12-18,263,330!2026-11-20,248,330!2026-12-14,262,330-->
 
 ### actor creation
 
@@ -213,7 +213,7 @@ Actors may alter {@{their own behaviour at runtime with `context.become`}@}. Thi
 
 ### actor lifecycle
 
-Actors are not {@{instantiated directly with `new`}@}. The runtime supplies {@{a unique reference (which may live on other computers!!)}@} when {@{an actor is created}@}, and {@{the creating actor (or an `ActorSystem`)}@} performs this work through {@{the `ActorContext`}@}. <!--SR:!2026-12-24,270,330!2027-01-16,289,330!2026-12-26,272,330!2027-01-22,294,330!2026-11-14,244,330-->
+Actors are not {@{instantiated directly with `new`}@}. The runtime supplies {@{a unique reference (which may live on other computers!!)}@} when {@{an actor is created}@}, and {@{the creating actor (or an `ActorSystem`)}@} performs this work through {@{the `ActorContext`}@}. <!--SR:!2026-12-24,270,330!2027-01-16,289,330!2026-12-26,272,330!2027-01-22,294,330!fsrs,2029-11-02T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-14T00:00:00.000Z-->
 
 > [!example] __creating an actor__
 >
@@ -552,7 +552,7 @@ Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A cont
 >     if q.size > 3 then sender() ! Failed(job.url)
 >     else runNext(q :+ job)
 > ```
-<!--SR:!2026-11-15,245,330!2026-12-30,275,330!2026-11-18,247,330!2026-11-27,255,330!2026-11-14,244,330!2026-12-05,255,330-->
+<!--SR:!2026-11-15,245,330!2026-12-30,275,330!2026-11-18,247,330!2026-11-27,255,330!fsrs,2029-11-02T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-12-05,255,330-->
 
 {@{These pieces}@} together form {@{a fully non‑blocking crawler}@} that scales with {@{the number of available cores}@} and demonstrates {@{key actor‑model idioms}@}. <!--SR:!2026-12-27,272,330!2026-11-21,249,330!2027-01-21,293,330!2026-12-31,276,330-->
 

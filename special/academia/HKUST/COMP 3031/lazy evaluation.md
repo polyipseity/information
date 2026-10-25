@@ -219,7 +219,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 > def from(n: Int): LazyList[Int] = n #:: from(n + 1)
 > val nats   = from(0)                    // all natural numbers
 > ```
-<!--SR:!2026-11-24,296,345!2026-11-14,289,330!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z-->
+<!--SR:!2026-11-24,296,345!fsrs,2030-04-23T00:00:00.000Z,1256,1255.75476993,1,2,9,0,0,2026-11-14T00:00:00.000Z!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z-->
 
 ### infinite sequence operations
 
@@ -318,7 +318,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 > ```
 > <!--SR:!fsrs,2029-12-22T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-11T00:00:00.000Z!2026-11-29,300,345!2027-01-07,331,345-->
 
-Under {@{the class `Pouring`}@}, {@{all glasses and possible moves}@} are {@{generated}@}: <!--SR:!2026-11-14,289,345!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z!fsrs,2030-04-02T00:00:00.000Z,1252,1252.09840125,1,2,9,0,0,2026-10-28T00:00:00.000Z-->
+Under {@{the class `Pouring`}@}, {@{all glasses and possible moves}@} are {@{generated}@}: <!--SR:!fsrs,2030-06-26T00:00:00.000Z,1320,1319.73118852,1,2,9,0,0,2026-11-14T00:00:00.000Z!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z!fsrs,2030-04-02T00:00:00.000Z,1252,1252.09840125,1,2,9,0,0,2026-10-28T00:00:00.000Z-->
 
 > [!example] __water pouring problem encoding__
 >
@@ -404,7 +404,7 @@ In {@{many functional languages}@}, {@{laziness}@} is {@{built into the core lan
 > ```
 <!--SR:!fsrs,2028-08-12T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-11-30,302,345!2026-11-19,294,330!fsrs,2030-02-19T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-11-01T00:00:00.000Z-->
 
-However, to obtain {@{true laziness in OCaml}@} one must explicitly {@{wrap the deferred parts in functions}@}—known as {@{thunks}@}—using {@{the `Stream` module}@}. {@{An example of a lazy list of guesses in OCaml}@} would be: <!--SR:!2026-12-14,312,345!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-11-14,289,345!2027-01-18,340,345!2026-12-30,325,345-->
+However, to obtain {@{true laziness in OCaml}@} one must explicitly {@{wrap the deferred parts in functions}@}—known as {@{thunks}@}—using {@{the `Stream` module}@}. {@{An example of a lazy list of guesses in OCaml}@} would be: <!--SR:!2026-12-14,312,345!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z!fsrs,2030-06-26T00:00:00.000Z,1320,1319.73118852,1,2,9,0,0,2026-11-14T00:00:00.000Z!2027-01-18,340,345!2026-12-30,325,345-->
 
 > [!example] __OCaml lazy evaluation example__
 >

@@ -63,7 +63,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 > def repeatUntil(body: => Unit)(cond: => Boolean): Unit =
 >   body; if !cond then repeatUntil(body)(cond) else ()
 > ```
-<!--SR:!2026-11-14,243,330!2026-12-27,274,330!2026-11-16,245,330-->
+<!--SR:!fsrs,2029-10-29T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-12-27,274,330!2026-11-16,245,330-->
 
 {@{A repeat–until pattern}@} can also be expressed with {@{a pair of functions that form a fluent API}@}: <!--SR:!2026-12-01,253,330!2027-01-08,284,330-->
 
@@ -162,7 +162,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 >   def run(): Unit
 > }
 > ```
-<!--SR:!2026-11-28,251,330!2027-01-04,281,330!2026-11-14,244,330!2026-12-07,258,330-->
+<!--SR:!2026-11-28,251,330!2027-01-04,281,330!fsrs,2029-11-02T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-12-07,258,330-->
 
 {@{An `afterDelay` call}@} inserts {@{an event into a sorted list}@}; {@{the `run` method}@} repeatedly executes {@{the earliest event until the agenda is empty}@}. {@{Wires react to signal changes}@} by executing {@{all attached actions}@}, which may in turn schedule {@{further events}@}, thereby producing {@{the discrete‑event dynamics of the circuit}@}. <!--SR:!2027-01-20,294,330!fsrs,2029-10-24T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-11-13T00:00:00.000Z!2027-01-15,290,330!2026-12-06,257,330!2027-01-16,290,330!2026-12-12,262,330!2026-12-23,271,330!2027-01-14,289,330-->
 

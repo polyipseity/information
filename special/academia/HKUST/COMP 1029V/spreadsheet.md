@@ -18,7 +18,7 @@ tags:
 
 ## cell
 
-Every cell has a location. Its location is in the format of {@{`(column)(row)`, where `(column)` starts from `A` to `Z`, and then `AA` to `ZZ`, and then etc., while `(row)` starts from `1` and increases forever}@}. <!--SR:!2026-11-14,758,330-->
+Every cell has a location. Its location is in the format of {@{`(column)(row)`, where `(column)` starts from `A` to `Z`, and then `AA` to `ZZ`, and then etc., while `(row)` starts from `1` and increases forever}@}. <!--SR:!fsrs,2034-11-06T00:00:00.000Z,2914,2914.04469561,1,2,11,0,0,2026-11-14T00:00:00.000Z-->
 
 Apart from location, cells and ranges can also have {@{user-defined names}@}. You can see all names in a workbook using {@{the name manager}@}. <!--SR:!2027-02-25,841,330!2028-02-21,1151,350-->
 

@@ -69,7 +69,7 @@ Consumers of perfect substitutes {@{base their rational decision-making process 
 
 An example of perfect substitutes is {@{butter from two different producers}@}; the producer may be {@{different but their purpose and usage are the same}@}. <!--SR:!2029-07-10,1324,350!2028-08-04,1056,350-->
 
-Perfect substitutes have {@{a high cross-elasticity of demand}@}. For example, if {@{[Country Crock](Country%20Crock.md) and Imperial margarine have the same price listed for the same amount of spread}@}, but {@{one brand increases its price}@}, its sales will {@{fall by a certain amount. In response, the other brand's sales will increase by the same amount}@}. <!--SR:!2029-07-28,1338,350!2026-11-14,533,310!2030-08-14,1659,370!2030-08-10,1655,370-->
+Perfect substitutes have {@{a high cross-elasticity of demand}@}. For example, if {@{[Country Crock](Country%20Crock.md) and Imperial margarine have the same price listed for the same amount of spread}@}, but {@{one brand increases its price}@}, its sales will {@{fall by a certain amount. In response, the other brand's sales will increase by the same amount}@}. <!--SR:!2029-07-28,1338,350!fsrs,2032-05-05T00:00:00.000Z,1999,1999.39584407,1,2,10,0,0,2026-11-14T00:00:00.000Z!2030-08-14,1659,370!2030-08-10,1655,370-->
 
 #### imperfect substitutes
 

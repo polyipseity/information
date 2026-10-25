@@ -930,7 +930,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [open back unrounded vowel](open%20back%20unrounded%20vowel.md):@:[English](English%20language.md) _p**a**lm_ \[pɑ̟ːm\] <!--SR:!fsrs,2026-12-27T00:00:00.000Z,116,116.49204781,9.96552075,2,8,0,0,2026-09-02T00:00:00.000Z-->
 - [nasalized open back unrounded vowel](nasal%20vowel.md):@:[French](French%20language.md) _s**an**s_ [sɑ̃] "without" <!--SR:!fsrs,2026-12-30T00:00:00.000Z,193,193.35257046,9.46075337,2,8,0,0,2026-06-20T00:00:00.000Z-->
 - [open back rounded vowel](open%20back%20rounded%20vowel.md):@:[English](English%20language.md) _n**o**t_ \[nɒt\] <!--SR:!2027-10-11,836,224-->
-- [open-mid back unrounded vowel](open-mid%20back%20unrounded%20vowel.md):@:[English](English%20language.md) _g**u**t_ \[ɡʌt\] <!--SR:!2026-11-14,478,264-->
+- [open-mid back unrounded vowel](open-mid%20back%20unrounded%20vowel.md):@:[English](English%20language.md) _g**u**t_ \[ɡʌt\] <!--SR:!fsrs,2029-09-13T00:00:00.000Z,1034,1033.95489531,4.96525337,2,10,0,0,2026-11-14T00:00:00.000Z-->
 - [near-open front unrounded vowel](near-open%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _c**a**t_ \[kʰæt\] <!--SR:!fsrs,2026-12-25T00:00:00.000Z,160,160.09989993,9.98522837,2,8,0,0,2026-07-18T00:00:00.000Z-->
 - [voiced bilabial plosive](voiced%20bilabial%20plosive.md):@:[English](English%20language.md) _a**b**ack_ \[əˈbæk\] <!--SR:!2026-12-12,639,264-->
 - [voiced bilabial implosive](voiced%20bilabial%20implosive.md):@:[English](English%20language.md) _**b**ody_ \[ɓʌdi\] <!--SR:!fsrs,2029-02-13T00:00:00.000Z,965,964.91115952,6.64939921,2,10,0,0,2026-06-24T00:00:00.000Z-->
