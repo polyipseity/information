@@ -191,7 +191,7 @@ The two-dimensional Cartesian harmonic oscillator and the two-dimensional isotro
 
 ## _N_-dimensional isotropic harmonic oscillator
 
-The one-dimensional harmonic oscillator is readily generalizable to _N_ dimensions, where _N_ = 1, 2, 3, .... In one dimension, the position of the particle was specified by a single [coordinate](coordinate%20system.md), _x_. In _N_ dimensions, this is replaced by _N_ position coordinates, which we label _x_<sub>1</sub>, ..., _x_<sub>_N_</sub>. Corresponding to each position coordinate is a momentum; we label these _p_<sub>1</sub>, ..., _p_<sub>_N_</sub>. The [canonical commutation relations](canonical%20commutation%20relations.md) between these operators are $${\begin{aligned}{[}x_{i},p_{j}{]}&=i\hbar \delta _{i,j}\\{[}x_{i},x_{j}{]}&=0\\{[}p_{i},p_{j}{]}&=0\end{aligned} }$$
+<a id="n-dimensional harmonic oscillator"></a> The one-dimensional harmonic oscillator is readily generalizable to _N_ dimensions, where _N_ = 1, 2, 3, .... In one dimension, the position of the particle was specified by a single [coordinate](coordinate%20system.md), _x_. In _N_ dimensions, this is replaced by _N_ position coordinates, which we label _x_<sub>1</sub>, ..., _x_<sub>_N_</sub>. Corresponding to each position coordinate is a momentum; we label these _p_<sub>1</sub>, ..., _p_<sub>_N_</sub>. The [canonical commutation relations](canonical%20commutation%20relations.md) between these operators are $${\begin{aligned}{[}x_{i},p_{j}{]}&=i\hbar \delta _{i,j}\\{[}x_{i},x_{j}{]}&=0\\{[}p_{i},p_{j}{]}&=0\end{aligned} }$$
 
 The Hamiltonian for this system is $$H=\sum _{i=1}^{N}\left({p_{i}^{2} \over 2m}+{1 \over 2}m\omega ^{2}x_{i}^{2}\right).$$
 

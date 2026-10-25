@@ -736,13 +736,42 @@ class WikiHtmlConverter:
         suffix = "\n\n"
 
         def process(strings: str) -> str:
-            """Fix name casing in heading text; suppress MD024 on repeats."""
-            text = _fix_name_maybe(strings.strip(), names_map=self._names_map)
+            """Fix name casing in heading text; suppress MD024 on repeats.
+
+            Anchors in front of or behind the heading text move onto their
+            own lines so the heading itself stays plain.
+            """
+            s = strings
+            leading: list[str] = []
+            trailing: list[str] = []
+            while True:
+                m = re.match(r'\s*<a id="[^"]*"></a>\s*', s)
+                if m:
+                    leading.append(m.group(0).strip())
+                    s = s[m.end() :]
+                else:
+                    break
+            while True:
+                m = re.search(r'\s*<a id="[^"]*"></a>\s*$', s)
+                if m:
+                    trailing.insert(0, m.group(0).strip())
+                    s = s[: m.start()]
+                else:
+                    break
+            text = _fix_name_maybe(s.strip(), names_map=self._names_map)
             key = text.casefold()
+            heading = f"{prefix}{text}"
             if key in seen_heading_texts:
-                return f"<!-- markdownlint-disable-next-line MD024 -->\n{prefix}{text}"
-            seen_heading_texts.add(key)
-            return f"{prefix}{text}"
+                heading = f"<!-- markdownlint-disable-next-line MD024 -->\n{heading}"
+            else:
+                seen_heading_texts.add(key)
+            parts: list[str] = []
+            if leading:
+                parts.append("\n".join(leading))
+            parts.append(heading)
+            if trailing:
+                parts.append("\n".join(trailing))
+            return "\n\n".join(parts)
 
         return _HandlerConfig(prefix="", suffix=suffix, process_strings=process)
 
@@ -1485,6 +1514,21 @@ class WikiHtmlConverter:
 
     def _handle_span(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig | None:
         """Handle <span> elements: transparent spans render nothing of their own."""
+        # Template anchors (e.g. {{anchor|...}}) are empty spans carrying
+        # ``class="anchor"`` and an ``id``.  Emit a matching ``<a id>``
+        # definition so in-document fragment links resolve.
+        if "anchor" in classes and ele.get("id"):
+            anchor_id = _fix_name_maybe(
+                str(ele.get("id")),
+                replace_underscores=True,
+                names_map=self._names_map,
+            )
+            return _HandlerConfig(
+                full_result=True,
+                prefix="",
+                suffix="",
+                process_strings=lambda _: f'<a id="{anchor_id}"></a> ',
+            )
         return None
 
     @staticmethod
