@@ -13,6 +13,7 @@
   ],
   // Span classes whose handler emits markers, media, or block spacing.
   "opaque_span_classes_extra": [
+    "anchor",
     "hatnote",
     "mw-tmh-play",
     "navbar",

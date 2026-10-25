@@ -109,6 +109,8 @@ Both discrete \(quantized\) energies and also momentum are, classically, particl
 
 ## which slit experiments
 
+<a id="which way experiment"></a>
+
 In a "which way" experiment, particle detectors are placed at the slits to determine which slit the electron traveled through. When these detectors are inserted, quantum mechanics predicts that the interference pattern disappears because the detected part of the electron wave has changed \(loss of [coherence](coherence%20(physics).md)\).<sup>[\[2\]](#^ref-2)</sup> Many similar [proposals](Wheeler's%20delayed-choice%20experiment.md) have been made and many have been converted into experiments and tried out.<sup>[\[29\]](#^ref-29)</sup> Every single one shows the same result: as soon as electron trajectories are detected, interference disappears.
 
 A simple example of these "which way" experiments uses a [Mach–Zehnder interferometer](Mach–Zehnder%20interferometer.md), a device based on lasers and mirrors sketched below.<sup>[\[30\]](#^ref-30)</sup>

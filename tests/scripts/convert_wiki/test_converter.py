@@ -2431,7 +2431,7 @@ class TestDivHandling:
             '<table><tr><td rowspan="2">a</td><td>b</td></tr>'
             "<tr><td>c</td></tr></table>",
         )
-        assert result == ("|  |  |\n| --- | --- |\n| a | b |\n| \u200b | c |\n")
+        assert result == ("|  |  |\n| --- | --- |\n| a | b |\n| ^ | c |\n")
 
     @pytest.mark.anyio
     async def test_ragged_th_less_rows_are_padded(

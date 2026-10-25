@@ -76,6 +76,8 @@ where $t$ is {@{time}@}, $\vert \Psi (t)\rangle$ is {@{the state vector of the q
 
 To apply {@{the Schrödinger equation}@}, write down {@{the [Hamiltonian](Hamiltonian%20(quantum%20mechanics).md) for the system}@}, accounting for {@{the [kinetic](kinetic%20energy.md) and [potential](potential%20energy.md) energies}@} of {@{the particles constituting the system}@}, then insert {@{it into the Schrödinger equation}@}. {@{The resulting partial [differential equation](differential%20equation.md)}@} is solved for {@{the wave function}@}, which contains {@{information about the system}@}. In practice, {@{the square of the absolute value of the wave function at each point}@} is taken to define {@{a [probability density function](probability%20density%20function.md)}@}.<sup>[\[6\]](#^ref-6)</sup><sup>:&hairsp;78&hairsp;</sup> For example, given {@{a wave function in position space $\Psi (x,t)$ as above}@}, we have {@{$$\Pr(x,t)=|\Psi (x,t)|^{2}.$$}@}
 
+<a id="time independent equation"></a>
+
 ### time-independent equation
 
 {@{The time-dependent Schrödinger equation}@} described above predicts that {@{wave functions can form [standing waves](standing%20wave.md)}@}, called {@{[stationary states](stationary%20state.md)}@}. {@{These states}@} are {@{particularly important as their individual study}@} later simplifies {@{the task of solving the time-dependent Schrödinger equation for _any_ state}@}. {@{Stationary states}@} can also be described by {@{a simpler form of the Schrödinger equation}@}, {@{the time-independent Schrödinger equation}@}:
