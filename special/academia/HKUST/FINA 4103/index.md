@@ -308,14 +308,13 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
 
 - datetime: 2026-09-17T15:00:00+08:00/2026-09-17T16:20:00+08:00, PT1H20M
 - venue: Rm 2406, Lift 17-18
-- status: no class
-- note: a few slides from last year's second-half lectures were uploaded to Canvas
+- status: unscheduled; no class
 
 ## week 4 lecture 1
 
 - datetime: 2026-09-22T15:00:00+08:00/2026-09-22T16:20:00+08:00, PT1H20M
 - venue: Rm 2406, Lift 17-18
-- topic: order entry, sequencing, and the matching engine; market data dissemination; settlement, clearing, and delivery; market participants; the bid-ask bounce and microstructure data issues; executions inside and outside the quotes; message data
+- topic: the exchange as a system: gateways and validation, arrival order and the sequencer, the matching engine, information dissemination; the life of an order from placement to settlement: the settlement cycle, causes of delay, storage costs, clearing and post-trade services
 - [order matching system](order%20matching%20system.md)
     - [§ gateways and validation](order%20matching%20system.md#gateways%20and%20validation)
     - [§ arrival order and the sequencer](order%20matching%20system.md#arrival%20order%20and%20the%20sequencer)
@@ -333,6 +332,20 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
         - [§ obligations at settlement](settlement%20(finance).md#obligations%20at%20settlement)
         - [§ counterparty to a cleared trade](settlement%20(finance).md#counterparty%20to%20a%20cleared%20trade)
         - [§ limits of faster settlement](settlement%20(finance).md#limits%20of%20faster%20settlement)
+
+## week 4 lecture 2
+
+- datetime: 2026-09-24T15:00:00+08:00/2026-09-24T16:20:00+08:00, PT1H20M
+- venue: Rm 2406, Lift 17-18
+- topic: microstructure data issues: the bid-ask bounce, executions inside and outside the quotes, double counting, and what limit-order-book data misses; market participants: intermediaries, brokers, dealers, market making, investors, speculators and arbitrageurs, hedgers, producers, and government
+- [Roll model](Roll%20model.md)
+    - [§ bid-ask bounce](Roll%20model.md#bid-ask%20bounce)
+- [bid-ask spread](bid-ask%20spread.md)
+    - [§ executions inside and outside the quotes](bid-ask%20spread.md#executions%20inside%20and%20outside%20the%20quotes)
+- [high-frequency trading](high-frequency%20trading.md)
+    - [§ message data](high-frequency%20trading.md#message%20data)
+- [securities information processor](securities%20information%20processor.md)
+    - [§ consolidated quotation and consolidated tape](securities%20information%20processor.md#consolidated%20quotation%20and%20consolidated%20tape)
 - [financial market participants](financial%20market%20participants.md)
     - [§ intermediaries](financial%20market%20participants.md#intermediaries)
     - [§ brokers](financial%20market%20participants.md#brokers)
@@ -345,20 +358,12 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
     - [§ hedgers](financial%20market%20participants.md#hedgers)
     - [§ producers](financial%20market%20participants.md#producers)
     - [§ government](financial%20market%20participants.md#government)
-- [Roll model](Roll%20model.md)
-    - [§ bid-ask bounce](Roll%20model.md#bid-ask%20bounce)
-- [bid-ask spread](bid-ask%20spread.md)
-    - [§ executions inside and outside the quotes](bid-ask%20spread.md#executions%20inside%20and%20outside%20the%20quotes)
-- [high-frequency trading](high-frequency%20trading.md)
-    - [§ message data](high-frequency%20trading.md#message%20data)
-- [securities information processor](securities%20information%20processor.md)
-    - [§ consolidated quotation and consolidated tape](securities%20information%20processor.md#consolidated%20quotation%20and%20consolidated%20tape)
 
-## week 4 lecture 2
+## week 5 lecture 1
 
-- datetime: 2026-09-24T15:00:00+08:00/2026-09-24T16:20:00+08:00, PT1H20M
+- datetime: 2026-09-29T15:00:00+08:00/2026-09-29T16:20:00+08:00, PT1H20M
 - venue: Rm 2406, Lift 17-18
-- topic: conditional probability; the law of total probability; Bayes rule; conditional moments of normal variables; signal informativeness; order flow as a biased signal; updating as a linear regression
+- topic: probability; conditional probability; the multiplicative rule and the law of total probability; Bayes updating for discrete and continuous distributions; conditional expectation and variance of normal variables; the posterior mean and the added precision
 - [Bayes' theorem](Bayes%27%20theorem.md)
     - [§ conditional probability](Bayes%27%20theorem.md#conditional%20probability)
     - [§ law of total probability](Bayes%27%20theorem.md#law%20of%20total%20probability)
@@ -368,30 +373,25 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
     - [§ conditional moments of normal variables](Bayes%27%20theorem.md#conditional%20moments%20of%20normal%20variables)
     - [§ posterior mean as a precision-weighted average](Bayes%27%20theorem.md#posterior%20mean%20as%20a%20precision-weighted%20average)
     - [§ posterior variance as added precision](Bayes%27%20theorem.md#posterior%20variance%20as%20added%20precision)
-    - [§ derivations for jointly normal variables](Bayes%27%20theorem.md#derivations%20for%20jointly%20normal%20variables)
-- [signal informativeness](signal%20informativeness.md)
-    - [§ measuring informativeness](signal%20informativeness.md#measuring%20informativeness)
-    - [§ price efficiency](signal%20informativeness.md#price%20efficiency)
-    - [§ standardized form of a signal](signal%20informativeness.md#standardized%20form%20of%20a%20signal)
-    - [§ weight as a regression coefficient](signal%20informativeness.md#weight%20as%20a%20regression%20coefficient)
-
-## week 5 lecture 1
-
-- datetime: 2026-09-29T15:00:00+08:00/2026-09-29T16:20:00+08:00, PT1H20M
-- venue: Rm 2406, Lift 17-18
-- topic: class note 5 (trade, traders, and data issues) and class note 6 (information in financial markets (math prep))
 
 ## week 5 lecture 2
 
 - datetime: 2026-10-01T15:00:00+08:00/2026-10-01T16:20:00+08:00, PT1H20M
 - venue: Rm 2406, Lift 17-18
-- status: public holiday
+- status: unscheduled; public holiday: National Day
 
 ## week 6 lecture 1
 
 - datetime: 2026-10-06T15:00:00+08:00/2026-10-06T16:20:00+08:00, PT1H20M
 - venue: Rm 2406, Lift 17-18
-- topic: class note 6 (information in financial markets (math prep))
+- topic: signal informativeness; biased signals and their standardized form; extracting material information from the order flow; updating as a linear regression; the derivation of the joint-normal update
+- [signal informativeness](signal%20informativeness.md)
+    - [§ measuring informativeness](signal%20informativeness.md#measuring%20informativeness)
+    - [§ price efficiency](signal%20informativeness.md#price%20efficiency)
+    - [§ standardized form of a signal](signal%20informativeness.md#standardized%20form%20of%20a%20signal)
+    - [§ weight as a regression coefficient](signal%20informativeness.md#weight%20as%20a%20regression%20coefficient)
+- [Bayes' theorem](Bayes%27%20theorem.md)
+    - [§ derivations for jointly normal variables](Bayes%27%20theorem.md#derivations%20for%20jointly%20normal%20variables)
 
 ## week 6 lecture 2
 
@@ -444,7 +444,7 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
 
 - datetime: 2026-10-15T15:00:00+08:00/2026-10-15T16:20:00+08:00, PT1H20M
 - venue: Rm 2406, Lift 17-18
-- topic: why a spread exists at all: immediacy, inventory cost, and information; learning from order flow; the competitive quote and the spread; the adverse-selection decomposition; the degree of uncertainty
+- topic: why a spread exists at all: immediacy, inventory cost, and information; learning from order flow; the competitive quote and the spread; the adverse-selection decomposition
 - [Glosten–Milgrom model](Glosten–Milgrom%20model.md)
     - [§ trading game](Glosten–Milgrom%20model.md#trading%20game)
     - [§ players](Glosten–Milgrom%20model.md#players)
@@ -455,12 +455,6 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
     - [§ ask side](Glosten–Milgrom%20model.md#ask%20side)
     - [§ bid side](Glosten–Milgrom%20model.md#bid%20side)
     - [§ adverse selection](Glosten–Milgrom%20model.md#adverse%20selection)
-    - [§ spread](Glosten–Milgrom%20model.md#spread)
-    - [§ degree of uncertainty](Glosten–Milgrom%20model.md#degree%20of%20uncertainty)
-    - [§ value of the asset](Glosten–Milgrom%20model.md#value%20of%20the%20asset)
-    - [§ uncertainty of the asset](Glosten–Milgrom%20model.md#uncertainty%20of%20the%20asset)
-    - [§ amount of the asset](Glosten–Milgrom%20model.md#amount%20of%20the%20asset)
-    - [§ product of the readings](Glosten–Milgrom%20model.md#product%20of%20the%20readings)
 - [bid-ask spread](bid-ask%20spread.md)
     - [§ sources of the spread](bid-ask%20spread.md#sources%20of%20the%20spread)
     - [§ immediacy](bid-ask%20spread.md#immediacy)
@@ -471,15 +465,22 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
 
 - datetime: 2026-10-20T15:00:00+08:00/2026-10-20T16:20:00+08:00, PT1H20M
 - venue: Rm 2406, Lift 17-18
-- topic: class note 9 (information and bid-ask spread), remaining material
+- topic: the equilibrium bid-ask spread; separating the degree of uncertainty into the value, the uncertainty, and the amount of the asset; the product form; the single-period model summarized
 - note: any time left over after the material is used for an in-class office hour, where questions about the midterm can be asked individually
+- [Glosten–Milgrom model](Glosten–Milgrom%20model.md)
+    - [§ spread](Glosten–Milgrom%20model.md#spread)
+    - [§ degree of uncertainty](Glosten–Milgrom%20model.md#degree%20of%20uncertainty)
+        - [§ value of the asset](Glosten–Milgrom%20model.md#value%20of%20the%20asset)
+        - [§ uncertainty of the asset](Glosten–Milgrom%20model.md#uncertainty%20of%20the%20asset)
+        - [§ amount of the asset](Glosten–Milgrom%20model.md#amount%20of%20the%20asset)
+        - [§ product of the readings](Glosten–Milgrom%20model.md#product%20of%20the%20readings)
 
 ## week 8 lecture 2
 
 - datetime: 2026-10-22T15:00:00+08:00/2026-10-22T16:20:00+08:00, PT1H20M
 - venue: Rm 2406, Lift 17-18
-- status: no class
-- note: the midterm examination takes place at 19:00–20:00 that evening; see [midterm examination](#midterm%20examination)
+- status: unscheduled; midterm examination
+- [§ midterm examination](#midterm%20examination)
 
 ## midterm examination
 
