@@ -1114,6 +1114,7 @@ class TableConverter:
                 pass
             else:
                 tdh["colspan"] = "1"
+                tdh["data-orig-colspan"] = str(col_span)
                 navbox = any(
                     isinstance(p, Tag) and "navbox" in (p.get("class") or [])
                     for p in tdh.parents
@@ -1123,6 +1124,8 @@ class TableConverter:
                     if "style" in new_tdh.attrs:
                         del new_tdh.attrs["style"]
                     new_tdh.clear()
+                    if not navbox:
+                        new_tdh.string = "<"
                     if navbox:
                         tdh.insert_before(new_tdh)
                     else:
@@ -1147,17 +1150,26 @@ class TableConverter:
                 if (current_row := tdh.parent) is not None:
                     col_idx = current_row.index(tdh)
                     tdh["rowspan"] = "1"
+                    orig_colspan = int(str(tdh.get("data-orig-colspan", "1") or "1"))
+                    navbox = any(
+                        isinstance(p, Tag) and "navbox" in (p.get("class") or [])
+                        for p in tdh.parents
+                    )
                     for _ in range(1, row_span):
                         next_tr = current_row.find_next_sibling("tr")
                         if next_tr is None:
                             break
                         current_row = next_tr
-                        # Insert an empty cell to occupy the column position
+                        # Insert filler cells to occupy the column position(s)
                         # covered by the rowspan from a previous row.
-                        new_tdh = soup.new_tag("td")
-                        new_tdh.string = "\u200b"
-                        new_tdh["data-filler-cell"] = "true"
-                        current_row.insert(col_idx, new_tdh)
+                        marker = (
+                            "\u200b" if navbox else ("^<" if orig_colspan > 1 else "^")
+                        )
+                        for _ in range(orig_colspan):
+                            new_tdh = soup.new_tag("td")
+                            new_tdh.string = marker
+                            new_tdh["data-filler-cell"] = "true"
+                            current_row.insert(col_idx, new_tdh)
 
     @classmethod
     def _merge_header_rows(cls, ele: Tag, soup: Tag) -> None:
