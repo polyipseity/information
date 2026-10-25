@@ -1504,6 +1504,58 @@ def session_missing_topic(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
+"""Phrases that name the material a class used rather than what it taught.
+
+A ``- topic:`` records the subject of a session. ``class note 5``, ``notes #5
+and #6``, ``handout``, ``slides``, and ``the remaining material`` all narrate
+the source instead, which is the defect the notes forbid, and a topic written
+that way usually hides a session whose content was never mapped onto notes.
+"""
+_TOPIC_SOURCE_UNIT_RE = re.compile(
+    r"class\s*notes?"
+    r"|notes?\s*#"
+    r"|remaining\s+material"
+    r"|\bhandouts?\b"
+    r"|\bslides?\b"
+    r"|\blecture\s+deck\b"
+    r"|\blecture\s+recording\b",
+    re.IGNORECASE,
+)
+
+
+@RULE_REGISTRY.register()
+def session_topic_source_unit(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Flag a topic that names the source material instead of the subject.
+
+    The course ``index.md`` records what each class taught. Naming the unit
+    that carried the material states where the knowledge came from, and a
+    session described only that way usually lists no notes or sections either,
+    which is how a note's content ends up credited to a single class.
+    """
+    errors: list[ValidationMessage] = []
+    text = ctx.text
+    for header in ctx.session_headers:
+        end = _get_section_end(text, header.pos, header.heading, ctx.ast)
+        section = text[header.pos : end]
+        m = re.search(r"^(\s*-\s*topic:\s*)(.+?)\s*$", section, re.MULTILINE)
+        if m is None or not _TOPIC_SOURCE_UNIT_RE.search(m.group(2)):
+            continue
+        line, col, col_end = locate_range(
+            ctx.text, header.pos + m.start(2), len(m.group(2))
+        )
+        errors.append(
+            ValidationMessage(
+                "session_topic_source_unit",
+                f"session {header.heading!r} names the source material in its "
+                "topic; state what the class taught",
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
 @RULE_REGISTRY.register()
 def session_unscheduled_with_topic(ctx: ValidationContext) -> list[ValidationMessage]:
     """Detect sessions marked unscheduled that nevertheless declare a topic.

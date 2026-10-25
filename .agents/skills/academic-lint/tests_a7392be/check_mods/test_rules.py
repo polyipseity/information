@@ -94,6 +94,7 @@ from main_mods.rules import (
     session_missing_topic,
     session_optional_status,
     session_semester_match,
+    session_topic_source_unit,
     session_unscheduled_with_topic,
     tag_index_function,
     tag_language,
@@ -1590,6 +1591,44 @@ def test_session_topic_rules():
         assert not session_missing_topic(ctx_nc), (
             "no-class / public holiday sessions may omit topic"
         )
+
+
+def test_session_topic_source_unit():
+    """A topic naming the material is flagged; a topic naming the subject is not."""
+
+    def topic_ctx(topic: str):
+        return make_ctx(
+            "## week 1 lecture 1\n"
+            "- datetime: 2023-01-01T10:00\n"
+            "- venue: Room 1\n"
+            f"- topic: {topic}\n"
+        )
+
+    for bad in (
+        "class note 5 (trade, traders, and data issues)",
+        "class notes #5 and #6",
+        "notes #5 and #6",
+        "class note 9, remaining material",
+        "the handout and its slides",
+    ):
+        msgs = session_topic_source_unit(topic_ctx(bad))
+        assert msgs and msgs[0].rule_id == "session_topic_source_unit", (
+            f"expected a source-unit error for {bad!r}"
+        )
+
+    for good in (
+        "orders and quotes; limit and market orders",
+        "the exchange as a system: gateways, matches, sequencing",
+        "policy notes on market quality",
+    ):
+        assert not session_topic_source_unit(topic_ctx(good)), (
+            f"unexpected source-unit error for {good!r}"
+        )
+
+    # A session without a topic line is another rule's business.
+    assert not session_topic_source_unit(
+        make_ctx("## week 1 lecture 1\n- datetime: 2023-01-01T10:00\n- venue: Room 1\n")
+    )
 
 
 def test_parse_session_headers_recurrent():

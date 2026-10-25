@@ -198,6 +198,25 @@ When the input is a directory (or a glob resolving to directories), follow `.age
 4. __If no match:__ ask the user for the institution and course code, or confirm creation of a new course.
 5. __If the course is recurrent__ (`- status: recurrent` in its `index.md`), read "Recurring courses" in `academic-crud-course-index` before writing any session entry: sessions are grouped by semester, each session heading repeats the semester and sits one level deeper, and every lecture, lab, and tutorial is optional.
 
+## Session mapping (mandatory before any session entry)
+
+Lecture material reaches the course through a dated class, and a handout is not the record of what that class taught. The record is the course's module list, which pairs every class with its date, the files it posts, and usually an instructor sub-header naming the material it covers.
+
+Build the map before writing or editing a session entry, and put the result in the report:
+
+| Class | Date | Posted | Module sub-header | Sections reached |
+| --- | --- | --- | --- | --- |
+| Class 7 | 2026-09-22 | Class05_2026_handout.pdf | — | the note's platform half |
+| Class 9 | 2026-09-29 | — | "Cover notes #5 and #6" | both notes, continuing |
+
+Then:
+
+- __Credit teaching to the classes the module list names, not to the class that posted the file.__ A note spreads across every class that carries it, and each of those classes lists the sections that class reached.
+- __Never fold a whole note into the posting class.__ That makes the following classes bare topic lines and leaves their material unaccounted for.
+- __Read the sub-headers as schedule facts.__ "Cover notes #5 and #6", "Cover the remaining material in Note #9", "NO CLASS", "Holiday", and "Midterm Exam: No regular class" each fix a session's content or its `status:`; see "Which session gets which material" and "Session ordering" in `academic-crud-course-index`.
+- __A class numbering gap is not a missing week.__ Class numbers skip cancelled dates and the numbering in a handout's filename does not track the meeting count: read dates from the module list and week numbers from the term's first teaching week.
+- __A session with a topic line and no section links is a defect__, not a placeholder. Either the material was not written up yet, in which case report it, or the content sits on another session, in which case move it.
+
 ## Splitting mixed-type materials
 
 When one input contains several content types (a PDF with lecture notes followed by a problem set), split it into separate materials before classification.
