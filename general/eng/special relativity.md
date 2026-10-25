@@ -96,6 +96,8 @@ In comparing to {@{the [general theory of relativity](general%20theory%20of%20re
 
 ## traditional "two postulates" approach to special relativity
 
+<a id="postulates"></a>
+
 > "{@{Reflections of this type}@} made it {@{clear to me as long ago as shortly after 1900}@}, i.e., {@{shortly after Planck's trailblazing work}@}, that neither {@{mechanics nor electrodynamics could \(except in limiting cases\) claim exact validity}@}. Gradually I despaired of {@{the possibility of discovering the true laws by means of constructive efforts based on known facts}@}. {@{The longer and the more desperately}@} I tried, the more I came to the conviction that only {@{the discovery of a universal formal principle could lead us to assured results}@} ... How, then, could {@{such a universal principle be found}@}?"
 >
 > —&hairsp;{@{Albert Einstein: _Autobiographical Notes_}@}<sup>[\[p 2\]](#^p-2)</sup>
@@ -148,6 +150,8 @@ Since there is {@{no absolute reference frame in relativity theory}@}, {@{a conc
 From {@{the principle of relativity alone without assuming the constancy of the speed of light}@} \(i.e., using {@{the isotropy of space and the symmetry implied by the principle of special relativity}@}\) [it can be shown](derivations%20of%20the%20Lorentz%20transformations.md#from%20group%20postulates) that {@{the spacetime transformations between inertial frames}@} are {@{either Euclidean, Galilean, or Lorentzian}@}. In {@{the Lorentzian case}@}, one can then obtain {@{relativistic interval conservation and a certain finite limiting speed}@}. {@{Experiments}@} suggest that {@{this speed is the speed of light in vacuum}@}.<sup>[\[p 4\]](#^p-4)</sup><sup>[\[27\]](#^ref-27)</sup><sup>:&hairsp;511&hairsp;</sup>
 
 ## Lorentz transformation
+
+<a id="Lorentz transformation"></a>
 
 - Main article: ::@:: [Lorentz transformation](Lorentz%20transformation.md)
 
@@ -265,6 +269,8 @@ Whenever one hears {@{a statement to the effect that "moving clocks run slow"}@}
 {@{The measurements obtained from direct observation of a moving clock}@} would be {@{delayed by the finite speed of light}@}, i.e. {@{the times seen}@} would be {@{distorted by the [Doppler effect](Doppler%20effect.md)}@}. {@{Measurements of relativistic effects}@} must always be understood as {@{having been made after finite speed-of-light effects have been factored out}@}.<sup>[\[37\]](#^ref-37)</sup><sup>:&hairsp;149–152&hairsp;</sup>
 
 #### Langevin's light-clock
+
+<a id="Langevin's Light-Clock"></a>
 
 > {@{![Thought experiment devised by Paul Langevin to explain time dilation.](../../archives/Wikimedia%20Commons/Langevin%20Light%20Clock.gif)}@}
 >
@@ -716,7 +722,7 @@ Substituting {@{_γ_ and _γβ_ into the transformations}@} as {@{previously pre
 >
 > Figure 10–1. {@{Orthogonality and rotation of coordinate systems}@} compared between __left:__ {@{[Euclidean space](Euclidean%20space.md) through circular [angle](angle.md) _φ_}@}, __right:__ in {@{[Minkowski spacetime](Minkowski%20spacetime.md) through [hyperbolic angle](hyperbolic%20angle.md) _φ_}@} \({@{red lines labelled _c_}@} denote {@{the [worldlines](worldline.md) of a light signal}@}, {@{a vector is orthogonal to itself}@} if it {@{lies on this line}@}\).<sup>[\[83\]](#^ref-83)</sup>
 
-{@{The physical theory of special relativity}@} was recast by {@{[Hermann Minkowski](Hermann%20Minkowski.md) in a 4-dimensional geometry}@} now called {@{Minkowski space}@}. {@{Minkowski spacetime}@} appears to be very {@{similar to the standard 3-dimensional [Euclidean space](Euclidean%20space.md)}@}, but there is {@{a crucial difference with respect to time}@}. In {@{3D space}@}, {@{the [differential](differential%20(infinitesimal).md) of distance \(line element\) _ds_}@} is defined by {@{$$ds^{2}=d\mathbf {x} \cdot d\mathbf {x} =dx_{1}^{2}+dx_{2}^{2}+dx_{3}^{2},$$}@} where {@{_d_<!-- markdown separator -->__x__ = \(_dx_<sub>1</sub>, _dx_<sub>2</sub>, _dx_<sub>3</sub>\)}@} are {@{the differentials of the three spatial dimensions}@}. In {@{Minkowski geometry}@}, there is {@{an extra dimension with coordinate _X_<sup>0</sup> derived from time}@}, such that {@{the distance differential}@} fulfills {@{$$ds^{2}=-dX_{0}^{2}+dX_{1}^{2}+dX_{2}^{2}+dX_{3}^{2},$$}@} where {@{_d_<!-- markdown separator -->__X__ = \(_dX_<sub>0</sub>, _dX_<sub>1</sub>, _dX_<sub>2</sub>, _dX_<sub>3</sub>\)}@} are {@{the differentials of the four spacetime dimensions}@}. This suggests {@{a deep theoretical insight}@}: {@{special relativity}@} is simply {@{a [rotational symmetry](rotational%20symmetry.md) of our spacetime}@}, analogous to {@{the rotational symmetry of Euclidean space}@} \(see Fig. 10-1\).<sup>[\[84\]](#^ref-84)</sup> Just as {@{Euclidean space}@} uses {@{a [Euclidean metric](Euclidean%20metric.md)}@}, so {@{spacetime uses a [Minkowski metric](Minkowski%20metric.md#Minkowski%20metric)}@}. Basically, {@{special relativity}@} can be stated as {@{the _invariance of any spacetime interval_}@} \(that is {@{the 4D distance between any two events}@}\) when viewed from {@{_any inertial reference frame_}@}. {@{All equations and effects of special relativity}@} can be derived from this {@{rotational symmetry \(the [Poincaré group](Poincaré%20group.md)\) of Minkowski spacetime}@}.
+{@{The physical theory of special relativity}@} was recast by {@{[Hermann Minkowski](Hermann%20Minkowski.md) in a 4-dimensional geometry}@} now called {@{Minkowski space}@}. {@{Minkowski spacetime}@} appears to be very {@{similar to the standard 3-dimensional [Euclidean space](Euclidean%20space.md)}@}, but there is {@{a crucial difference with respect to time}@}. In {@{3D space}@}, {@{the [differential](differential%20(infinitesimal).md) of distance \(line element\) _ds_}@} is defined by {@{$$ds^{2}=d\mathbf {x} \cdot d\mathbf {x} =dx_{1}^{2}+dx_{2}^{2}+dx_{3}^{2},$$}@} where {@{_d_<!-- markdown separator -->__x__ = \(_dx_<sub>1</sub>, _dx_<sub>2</sub>, _dx_<sub>3</sub>\)}@} are {@{the differentials of the three spatial dimensions}@}. In {@{Minkowski geometry}@}, there is {@{an extra dimension with coordinate _X_<sup>0</sup> derived from time}@}, such that {@{the distance differential}@} fulfills {@{$$ds^{2}=-dX_{0}^{2}+dX_{1}^{2}+dX_{2}^{2}+dX_{3}^{2},$$}@} where {@{_d_<!-- markdown separator -->__X__ = \(_dX_<sub>0</sub>, _dX_<sub>1</sub>, _dX_<sub>2</sub>, _dX_<sub>3</sub>\)}@} are {@{the differentials of the four spacetime dimensions}@}. This suggests {@{a deep theoretical insight}@}: {@{special relativity}@} is simply {@{a [rotational symmetry](rotational%20symmetry.md) of our spacetime}@}, analogous to {@{the rotational symmetry of Euclidean space}@} \(see Fig. 10-1\).<sup>[\[84\]](#^ref-84)</sup> Just as {@{Euclidean space}@} uses {@{a [Euclidean metric](Euclidean%20metric.md)}@}, so {@{spacetime uses a [Minkowski metric](Minkowski%20metric.md#Minkowski%20metric)}@}. <a id="interval"></a> Basically, {@{special relativity}@} can be stated as {@{the _invariance of any spacetime interval_}@} \(that is {@{the 4D distance between any two events}@}\) when viewed from {@{_any inertial reference frame_}@}. {@{All equations and effects of special relativity}@} can be derived from this {@{rotational symmetry \(the [Poincaré group](Poincaré%20group.md)\) of Minkowski spacetime}@}.
 
 {@{The form of _ds_}@} above depends on {@{the metric and on the choices for the _X_<sup>0</sup> coordinate}@}. To make {@{the time coordinate}@} look like {@{the space coordinates}@}, it can be treated as {@{[imaginary](imaginary%20number.md): _X_<sub>0</sub> = _ict_}@} \(this is called {@{a [Wick rotation](Wick%20rotation.md)}@}\). According to {@{[Misner, Thorne and Wheeler](gravitation%20(book).md) \(1971, §2.3\)}@}, ultimately {@{the deeper understanding of both special and general relativity}@} will come from the study of {@{the Minkowski metric \(described below\)}@} and to take {@{_X_<sup>0</sup> = _ct_}@}, rather than {@{a "disguised" Euclidean metric using _ict_ as the time coordinate}@}.
 
@@ -772,7 +778,7 @@ As expected, {@{the final components of the above 4-vectors}@} are all {@{standa
 
 {@{The first postulate}@} of special relativity declares {@{the equivalency of all inertial frames}@}. {@{A physical law holding in one frame}@} must {@{apply in all frames}@}, since otherwise it would be {@{possible to differentiate between frames}@}. {@{Newtonian momenta}@} fail to behave {@{properly under Lorentzian transformation}@}, and Einstein preferred to change {@{the definition of momentum to one involving 4-vectors}@} rather than {@{give up on conservation of momentum}@}.
 
-{@{Physical laws}@} must be based on {@{constructs that are frame independent}@}. This means that {@{physical laws}@} may take {@{the form of equations connecting scalars}@}, which are {@{always frame independent}@}. However, {@{equations involving 4-vectors}@} require {@{the use of tensors with appropriate rank}@}, which themselves can be thought of as {@{being built up from 4-vectors}@}.<sup>[\[27\]](#^ref-27)</sup><sup>:&hairsp;644&hairsp;</sup> {@{General relativity}@} from the outset relies {@{heavily on 4‑vectors, and more generally tensors}@}, representing {@{physically relevant entities}@}.
+{@{Physical laws}@} must be based on {@{constructs that are frame independent}@}. This means that {@{physical laws}@} may take {@{the form of equations connecting scalars}@}, which are {@{always frame independent}@}. However, {@{equations involving 4-vectors}@} require {@{the use of tensors with appropriate rank}@}, which themselves can be thought of as {@{being built up from 4-vectors}@}.<sup>[\[27\]](#^ref-27)</sup><sup>:&hairsp;644&hairsp;</sup><a id="acceleration"></a> {@{General relativity}@} from the outset relies {@{heavily on 4‑vectors, and more generally tensors}@}, representing {@{physically relevant entities}@}.
 
 ## acceleration
 
@@ -783,6 +789,8 @@ As expected, {@{the final components of the above 4-vectors}@} are all {@{standa
 {@{Properly handling accelerating frames}@} does require {@{some care}@}, however. {@{The difference between special and general relativity}@} is that \(1\) In {@{special relativity}@}, {@{all velocities are relative}@}, but {@{acceleration is absolute}@}. \(2\) In {@{general relativity}@}, {@{all motion is relative}@}, whether {@{inertial, accelerating, or rotating}@}. To accommodate {@{this difference}@}, general relativity uses {@{curved spacetime}@}.<sup>[\[93\]](#^ref-93)</sup>
 
 In this section, we analyze {@{several scenarios}@} involving {@{accelerated reference frames}@}.
+
+<a id="Dewan–Beran–Bell spaceship paradox"></a>
 
 ### Dewan–Beran–Bell spaceship paradox
 
@@ -812,6 +820,8 @@ When the paradox was {@{new and relatively unknown}@}, even {@{professional phys
 {@{The length increase}@} can be {@{calculated with the help of the Lorentz transformation}@}. If, as illustrated in Fig. 7-5, {@{the acceleration is finished}@}, the ships will {@{remain at a constant offset in some frame ⁠$S'$}@}⁠. If {@{$x_{A}$ and $x_{B}=x_{A}+L$}@} are {@{the ships' positions in ⁠$S$}@}⁠, {@{the positions in frame $S'$}@} are:<sup>[\[95\]](#^ref-95)</sup> {@{$${\begin{aligned}x'_{A}&=\gamma \left(x_{A}-vt\right)\\x'_{B}&=\gamma \left(x_{A}+L-vt\right)\\L'&=x'_{B}-x'_{A}=\gamma L\end{aligned} }$$}@}
 
 {@{The "paradox"}@}, as it were, comes from {@{the way that Bell constructed his example}@}. In {@{the usual discussion of Lorentz contraction}@}, {@{the rest length is fixed}@} and {@{the moving length shortens as measured in frame ⁠$S$}@}⁠. As shown in Fig. 7-5, {@{Bell's example}@} asserts {@{the moving lengths $AB$ and $A'B'$ measured in frame $S$}@} to be {@{fixed}@}, thereby forcing {@{the rest frame length $A'B''$ in frame $S'$ to increase}@}.
+
+<a id="accelerated observer with horizon"></a>
 
 #### accelerated observer with horizon
 
