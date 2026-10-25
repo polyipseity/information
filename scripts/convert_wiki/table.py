@@ -1182,6 +1182,17 @@ class TableConverter:
             if not cells:
                 continue
             all_th = all(c.name == "th" for c in cells)
+            # Sidebar section headings are content labels, not part of the
+            # merged header row (e.g. "Classical coupling" must not fuse
+            # with the sidebar title).
+            is_sidebar_heading = any(
+                isinstance(c, Tag)
+                and c.name in _TD_OR_TH
+                and "sidebar-heading" in c.get_attribute_list("class")
+                for c in cells
+            )
+            if is_sidebar_heading:
+                break
             if all_th:
                 header_trs.append(tr)
                 target_tr = tr
