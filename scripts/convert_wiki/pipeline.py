@@ -6,7 +6,7 @@ The pipeline has three logical phases:
 1. **Preprocess** (``_preprocess_html``): mutate the HTML tree before
    conversion — style/CS1 cleanup, numblk table merging, adjacent math
    merging, external math punctuation normalization, sfrac replacement,
-   annotated-image cleanup.
+   annotated-image cleanup, title-box table rewriting.
 
 2. **Convert** (``WikiHtmlConverter.convert``): walk the (now-clean) HTML
    tree and emit Markdown text.  The converter must not perform tree
@@ -52,7 +52,7 @@ from .ast_utils import (
 from .converter import WikiHtmlConverter
 from .inline_context import _is_display_math_only_dl
 from .latex import LatexConverter
-from .table import _reformat_table
+from .table import _EQUATION_BOX_BODY_BLOCK_TAGS, _reformat_table
 from .template_config import _DISPLAY_MATH_CONTAINERS
 from .types import _RedirectInfo
 from .utils import _ZERO_WIDTH_CHARS_RE, _create_redirect_symlinks
@@ -832,12 +832,94 @@ def _unwrap_navbox_inline_divs(soup: BeautifulSoup | Tag) -> None:
             div.unwrap()
 
 
+def _normalized_text(ele: PageElement) -> str:
+    """Return *ele*'s text with whitespace runs collapsed."""
+    return " ".join(ele.get_text(" ", strip=True).split())
+
+
+def _is_title_box_table(table: Tag) -> bool:
+    """Return True if *table* is a header-less box titled by its first row.
+
+    Wikipedia renders ``{{math proof}}`` and related theorem boxes as a
+    ``wikitable`` with one cell per row, no header cell, and a bold title
+    alone in the first row.  Such a table has no header row to become a
+    Markdown table header, and it emits no separator row, so its rows
+    would reach the output as literal pipe paragraphs.
+    """
+    if "wikitable" not in frozenset(table.get_attribute_list("class")):
+        return False
+    if table.find("th") is not None or table.find("caption") is not None:
+        return False
+    if table.find_parent("table") is not None:
+        return False
+    rows = table.find_all("tr")
+    if len(rows) < 2:
+        return False
+    cells = [row.find_all(["td", "th"], recursive=False) for row in rows]
+    if any(len(row_cells) != 1 for row_cells in cells):
+        return False
+    title_cell = cells[0][0]
+    bold = title_cell.find_all(["b", "strong"])
+    if len(bold) != 1:
+        return False
+    return _normalized_text(title_cell) == _normalized_text(bold[0])
+
+
+def _append_box_cell_content(quote: Tag, cell: Tag, soup: BeautifulSoup | Tag) -> None:
+    """Append *cell*'s content to *quote*, wrapping inline runs in <p> tags."""
+    pending: list[PageElement] = []
+
+    def flush() -> None:
+        """Wrap the pending inline run in a paragraph and start a new run."""
+        if not pending:
+            return
+        paragraph = soup.new_tag("p")
+        for node in pending:
+            paragraph.append(node.extract())
+        quote.append(paragraph)
+        pending.clear()
+
+    for child in list(cell.children):
+        if isinstance(child, Tag) and child.name in _EQUATION_BOX_BODY_BLOCK_TAGS:
+            flush()
+            quote.append(child.extract())
+        else:
+            pending.append(child)
+    flush()
+
+
+def _rewrite_title_box_tables(soup: BeautifulSoup | Tag) -> None:
+    """Render title-box tables (e.g. ``{{math proof}}``) as blockquotes.
+
+    Without a header row a title box cannot become a Markdown table, and its
+    pipe rows used to reach the output as literal paragraphs.  The paragraph
+    parse also dropped the display-math tokens inside them, so the spacing
+    pass skipped every ``$$…$$`` span in the box body.
+
+    Moving the content into ``<blockquote class="math_proof">`` reuses the
+    box renderer: the title gets its own ``> `` line, a blank ``> `` line
+    separates it from the body, and the body parses as ordinary paragraphs.
+    """
+    for table in list(soup.find_all("table")):
+        if not _is_title_box_table(table):
+            continue
+        rows = table.find_all("tr")
+        cells = [row.find_all(["td", "th"], recursive=False) for row in rows]
+        quote = soup.new_tag("blockquote")
+        quote["class"] = "math_proof"
+        quote.append(cells[0][0].find_all(["b", "strong"])[0].extract())
+        for row_cells in cells[1:]:
+            _append_box_cell_content(quote, row_cells[0], soup)
+        table.replace_with(quote)
+
+
 def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
     """Mutate the HTML tree before conversion.
 
     All tree mutations belong here: style/CS1 cleanup, numblk table
     merging, adjacent math merging, external math punctuation
-    normalization, sfrac replacement, and annotated-image cleanup.
+    normalization, sfrac replacement, annotated-image cleanup, and
+    title-box table rewriting.
 
     The converter receives a clean tree and must not perform any
     mutations during its walk.
@@ -932,6 +1014,12 @@ def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
             "class"
         ):
             quote.append(cite.extract())
+
+    # 14. Render header-less title-box tables (e.g. ``{{math proof}}``) as
+    #     blockquotes.  Their first row is the box title, not a header, so
+    #     they cannot become Markdown tables; as pipe paragraphs they also
+    #     hid their display math from the spacing pass.
+    _rewrite_title_box_tables(soup)
 
 
 def _merge_adjacent_numblk_tables(ele: PageElement) -> None:
