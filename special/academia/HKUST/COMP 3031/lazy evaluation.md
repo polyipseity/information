@@ -49,7 +49,7 @@ In Scala {@{a _lazy list_}@} ({@{`scala.collection.immutable.LazyList`}@}, forme
 > ```Scala
 > val xs = LazyList.cons(1, LazyList.cons(2, LazyList.empty))
 > ```
-<!--SR:!2026-12-12,311,345!2026-12-20,317,345!2027-01-12,335,345!2026-11-15,290,345-->
+<!--SR:!2026-12-12,311,345!2026-12-20,317,345!2027-01-12,335,345!fsrs,2030-07-01T00:00:00.000Z,1324,1323.69389251,1,2,9,0,0,2026-11-15T00:00:00.000Z-->
 
 or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters are by-value \(eager\)}@}: <!--SR:!fsrs,2029-12-17T00:00:00.000Z,1165,1164.5679841,1,2,9,0,0,2026-10-09T00:00:00.000Z!2026-11-19,291,345!2026-12-29,325,345-->
 
@@ -147,7 +147,7 @@ Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is acc
 
 ### lazy list implementation
 
-{@{A `LazyList` implementation}@} the list is defined by {@{a trait that exposes three members}@}—{@{`isEmpty`, `head`, and `tail`}@}.  {@{The companion object}@} supplies {@{a constructor `cons(hd, tl)`}@} where {@{the tail argument is passed _by-name_ (`=> TailLazyList[T]`)}@}.  Because this parameter is {@{evaluated each time `tail` is accessed}@}, {@{repeated calls to `tail`}@} will {@{recompute the entire sublist from scratch}@}.  For instance: <!--SR:!2027-01-13,336,345!2026-12-15,313,345!2026-11-15,290,345!2026-12-11,310,345!2026-11-30,300,345!2027-01-14,337,345!2026-12-29,325,345!2027-01-05,330,345!2027-01-04,329,345-->
+{@{A `LazyList` implementation}@} the list is defined by {@{a trait that exposes three members}@}—{@{`isEmpty`, `head`, and `tail`}@}.  {@{The companion object}@} supplies {@{a constructor `cons(hd, tl)`}@} where {@{the tail argument is passed _by-name_ (`=> TailLazyList[T]`)}@}.  Because this parameter is {@{evaluated each time `tail` is accessed}@}, {@{repeated calls to `tail`}@} will {@{recompute the entire sublist from scratch}@}.  For instance: <!--SR:!2027-01-13,336,345!2026-12-15,313,345!fsrs,2030-07-01T00:00:00.000Z,1324,1323.69389251,1,2,9,0,0,2026-11-15T00:00:00.000Z!2026-12-11,310,345!2026-11-30,300,345!2027-01-14,337,345!2026-12-29,325,345!2027-01-05,330,345!2027-01-04,329,345-->
 
 > [!example] __naive `LazyList` implementation__
 >

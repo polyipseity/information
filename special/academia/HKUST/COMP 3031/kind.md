@@ -131,7 +131,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 {@{A `Monad`}@} extends {@{the more basic `Applicative`}@}, which itself refines {@{a `Functor`}@}. The hierarchy is: <!--SR:!2026-12-22,269,330!2026-11-29,251,330!2026-12-08,258,330-->
 
-- `Functor[F[_]]` ::@:: defines `map: (F[A], A => B) => F[B]`. <!--SR:!2027-01-01,277,330!2026-11-15,245,330-->
+- `Functor[F[_]]` ::@:: defines `map: (F[A], A => B) => F[B]`. <!--SR:!2027-01-01,277,330!fsrs,2029-11-07T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-15T00:00:00.000Z-->
 - `Applicative[F[_]]` ::@:: extends `Functor` and adds `pure: A => F[A]` and `ap: (F[A], F[A => B]) => F[B]`; it derives `map` from them. <!--SR:!fsrs,2027-07-28T00:00:00.000Z,361,361.05065372,3.99122837,2,8,0,0,2026-08-01T00:00:00.000Z!2026-11-23,251,330-->
 - `Monad[F[_]]` ::@:: extends `Applicative` and adds `flatMap: (F[A], A => F[B]) => F[B]`. <!--SR:!fsrs,2028-09-28T00:00:00.000Z,752,752.450798,1,2,8,0,0,2026-09-07T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z-->
 

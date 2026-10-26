@@ -471,7 +471,7 @@ return chain.from_iterable([r.value for r in results])
 - nitrate ion:@:colorless <!--SR:!2027-09-23,1392,299-->
 - nitrite ion:@:_(n/a)_ <!--SR:!2032-06-14,2246,276-->
 - hydrogencarbonate ion:@:colorless <!--SR:!2031-06-28,2573,330-->
-- hydrogensulfite ion:@:colorless <!--SR:!2026-11-15,1203,270-->
+- hydrogensulfite ion:@:colorless <!--SR:!fsrs,2033-07-27T00:00:00.000Z,2446,2446.45486477,4.74047837,2,11,0,0,2026-11-15T00:00:00.000Z-->
 - hydrogensulfate ion:@:colorless <!--SR:!2027-11-01,1341,270-->
 - permanganate ion:@:<span style="color: darkViolet; background-color: white;">deep purple</span> <!--SR:!2030-07-05,1613,250-->
 - oxide ion:@:_(n/a)_ <!--SR:!2029-04-28,1684,296-->

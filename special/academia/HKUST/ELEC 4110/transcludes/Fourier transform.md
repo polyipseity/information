@@ -95,7 +95,7 @@ The Fourier transform has {@{the following basic properties}@}:<sup>[\[15\]](#^r
 
 #### linearity
 
-\(annotation: linearity\) ::@:: $$a\ f(x)+b\ h(x)\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ a\ {\widehat {f} }(\xi )+b\ {\widehat {h} }(\xi );\quad \ a,b\in \mathbb {C}$$ <!--SR:!2027-02-17,360,359!2026-11-15,283,350-->
+\(annotation: linearity\) ::@:: $$a\ f(x)+b\ h(x)\ \ {\stackrel {\mathcal {F} }{\Longleftrightarrow } }\ \ a\ {\widehat {f} }(\xi )+b\ {\widehat {h} }(\xi );\quad \ a,b\in \mathbb {C}$$ <!--SR:!2027-02-17,360,359!fsrs,2030-06-24T00:00:00.000Z,1317,1316.87577047,1,2,9,0,0,2026-11-15T00:00:00.000Z-->
 
 #### time shifting
 

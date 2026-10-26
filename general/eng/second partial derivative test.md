@@ -50,7 +50,7 @@ In {@{the two variable case}@}, {@{$D(a,b)$ and $f_{xx}(a,b)$}@} are {@{the prin
 
 > {@{![critical points of $z = f(x, y) = (x + y) \left(xy + xy^2\right)$](../../archives/Wikimedia%20Commons/Second%20partial%20derivative%20test.png)}@}
 >
-> {@{Critical points}@} of $f(x,y)=(x+y)(xy+xy^{2})$ {@{maxima \(red\) and saddle points \(blue\)}@}. <!--SR:!2026-11-15,451,310!2029-02-11,1106,350!2029-07-30,1238,350-->
+> {@{Critical points}@} of $f(x,y)=(x+y)(xy+xy^{2})$ {@{maxima \(red\) and saddle points \(blue\)}@}. <!--SR:!fsrs,2031-08-08T00:00:00.000Z,1727,1727.12458565,1,2,10,0,0,2026-11-15T00:00:00.000Z!2029-02-11,1106,350!2029-07-30,1238,350-->
 
 To {@{find and classify the critical points of the function}@} <p> &emsp; $z=f(x,y)=(x+y)(xy+xy^{2})$, <p> we first {@{set the partial derivatives <p> &emsp; ${\frac {\partial z}{\partial x} }=y(2x+y)(y+1)$ and ${\frac {\partial z}{\partial y} }=x\left(3y^{2}+2y(x+1)+x\right)$ <p> equal to zero}@} and {@{solve the resulting equations simultaneously to find the four critical points}@} <p> &emsp; $(0,0),(0,-1),(1,-1)$ and $\left({\frac {3}{8} },-{\frac {3}{4} }\right)$. <!--SR:!2029-03-08,1128,350!2028-10-01,927,330!2029-05-05,1172,350-->
 

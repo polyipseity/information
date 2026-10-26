@@ -118,7 +118,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 
 ### circuit description language
 
-{@{A circuit}@} is built from {@{_wires_ carrying Boolean signals and _components_ that transform those signals}@}. {@{The basic gates—an inverter, an AND gate and an OR gate}@}—are the {@{building blocks for more complex structures such as half‑adders or full‑adders}@}. Each component has {@{a fixed delay}@}; its output is updated only {@{after that amount of simulated time}@}. <!--SR:!2026-11-15,244,330!2026-12-18,267,330!2026-12-03,255,330!2026-12-08,259,330!fsrs,2029-09-02T00:00:00.000Z,1036,1036.0812332,1,2,9,0,0,2026-11-01T00:00:00.000Z!2027-01-19,293,330-->
+{@{A circuit}@} is built from {@{_wires_ carrying Boolean signals and _components_ that transform those signals}@}. {@{The basic gates—an inverter, an AND gate and an OR gate}@}—are the {@{building blocks for more complex structures such as half‑adders or full‑adders}@}. Each component has {@{a fixed delay}@}; its output is updated only {@{after that amount of simulated time}@}. <!--SR:!fsrs,2029-11-03T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-15T00:00:00.000Z!2026-12-18,267,330!2026-12-03,255,330!2026-12-08,259,330!fsrs,2029-09-02T00:00:00.000Z,1036,1036.0812332,1,2,9,0,0,2026-11-01T00:00:00.000Z!2027-01-19,293,330-->
 
 > [!example] __basic gates__
 >
@@ -166,7 +166,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 
 {@{An `afterDelay` call}@} inserts {@{an event into a sorted list}@}; {@{the `run` method}@} repeatedly executes {@{the earliest event until the agenda is empty}@}. {@{Wires react to signal changes}@} by executing {@{all attached actions}@}, which may in turn schedule {@{further events}@}, thereby producing {@{the discrete‑event dynamics of the circuit}@}. <!--SR:!2027-01-20,294,330!fsrs,2029-10-24T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-11-13T00:00:00.000Z!2027-01-15,290,330!2026-12-06,257,330!2027-01-16,290,330!2026-12-12,262,330!2026-12-23,271,330!2027-01-14,289,330-->
 
-{@{The simulator}@} also offers {@{_probes_}@} that print {@{a wire’s value whenever it changes}@}, making it easy to {@{observe a circuit’s behaviour}@}. <!--SR:!2026-11-15,245,330!2026-12-28,275,330!2026-12-26,273,330!2027-01-13,288,330-->
+{@{The simulator}@} also offers {@{_probes_}@} that print {@{a wire’s value whenever it changes}@}, making it easy to {@{observe a circuit’s behaviour}@}. <!--SR:!fsrs,2029-11-07T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-15T00:00:00.000Z!2026-12-28,275,330!2026-12-26,273,330!2027-01-13,288,330-->
 
 > [!example] __circuit probe__
 >

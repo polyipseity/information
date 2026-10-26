@@ -223,7 +223,7 @@ Actors are not {@{instantiated directly with `new`}@}. The runtime supplies {@{a
 > val counter = context.actorOf(Props[Counter], "counter")
 > ```
 >
-> {@{The returned value}@} is an {@{`ActorRef`}@}. Other actors use this reference to send {@{messages with the asynchronous operator `!`}@}. <!--SR:!fsrs,2029-10-23T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-12-03,253,330!2026-11-15,245,330!2027-01-16,289,330!2027-01-05,277,330-->
+> {@{The returned value}@} is an {@{`ActorRef`}@}. Other actors use this reference to send {@{messages with the asynchronous operator `!`}@}. <!--SR:!fsrs,2029-10-23T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-12-03,253,330!fsrs,2029-11-07T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-15T00:00:00.000Z!2027-01-16,289,330!2027-01-05,277,330-->
 
 {@{Instantiating actors with `new`}@} would bypass {@{the actor framework’s bookkeeping}@}: the runtime would not assign {@{a unique `ActorRef`}@}, nor would it be able to schedule {@{the actor on another machine}@}. Using {@{the context’s `actorOf`}@} delegates {@{creation, life‑cycle management, and potential distribution}@} to the framework. <!--SR:!fsrs,2029-10-28T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-13T00:00:00.000Z!2026-12-05,255,330!fsrs,2029-10-28T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-13T00:00:00.000Z!2026-12-29,274,330!2026-11-16,246,330!2026-11-29,250,330-->
 
@@ -402,7 +402,7 @@ One may rely on {@{business logic}@} to {@{ignore duplicates}@}. {@{Akka actors}
 >   persist(Transfer(id, f, t, a)) { _ => … }   // store before sending
 > ```
 >
-> {@{The actor}@} can later replay {@{the stored record}@} if it crashes, ensuring that {@{every transfer is processed exactly once}@}. <!--SR:!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z!2026-12-21,268,330!2026-12-25,271,330!2026-12-15,263,330!2026-12-21,265,330!2026-11-15,245,330-->
+> {@{The actor}@} can later replay {@{the stored record}@} if it crashes, ensuring that {@{every transfer is processed exactly once}@}. <!--SR:!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z!2026-12-21,268,330!2026-12-25,271,330!2026-12-15,263,330!2026-12-21,265,330!fsrs,2029-11-07T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-15T00:00:00.000Z-->
 
 When {@{several messages are sent to the same recipient}@} they keep {@{the order in which they were issued}@}; this is {@{an Akka‑specific guarantee}@}. {@{Messages to different actors}@} may arrive {@{interleaved arbitrarily}@}. {@{The lack of global ordering}@} means a system must reason about {@{partial orders when composing components}@}, but {@{the single‑threaded mailbox}@} guarantees that each message is {@{processed atomically and that no two messages can be handled simultaneously by one actor}@}. <!--SR:!2026-12-16,263,330!2026-12-21,268,330!2026-12-18,263,330!2026-11-23,251,330!fsrs,2029-10-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-09T00:00:00.000Z!2026-11-22,251,330!2026-12-25,268,330!2026-11-22,251,330!2026-12-20,267,330-->
 
@@ -552,7 +552,7 @@ Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A cont
 >     if q.size > 3 then sender() ! Failed(job.url)
 >     else runNext(q :+ job)
 > ```
-<!--SR:!2026-11-15,245,330!2026-12-30,275,330!2026-11-18,247,330!2026-11-27,255,330!fsrs,2029-11-02T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-12-05,255,330-->
+<!--SR:!fsrs,2029-11-07T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-15T00:00:00.000Z!2026-12-30,275,330!2026-11-18,247,330!2026-11-27,255,330!fsrs,2029-11-02T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-12-05,255,330-->
 
 {@{These pieces}@} together form {@{a fully non‑blocking crawler}@} that scales with {@{the number of available cores}@} and demonstrates {@{key actor‑model idioms}@}. <!--SR:!2026-12-27,272,330!2026-11-21,249,330!2027-01-21,293,330!2026-12-31,276,330-->
 
@@ -562,7 +562,7 @@ Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A cont
 
 Actors are {@{_event‑driven_}@}: they wait for {@{a message in their mailbox}@} and then {@{process it}@}. Because {@{sending a message is an asynchronous operation}@}, the sender continues {@{immediately without blocking}@}. This pattern keeps {@{the system responsive even under heavy load}@} and aligns with {@{reactive streams principles where data flows through event pipelines}@}. <!--SR:!2026-12-26,272,330!2027-01-17,290,330!2027-01-04,279,330!2026-11-20,249,330!2027-01-02,277,330!2026-12-04,254,330!2026-12-10,259,330-->
 
-{@{An actor’s code}@} runs on {@{a dispatcher—a thread pool that can be shared among many actors}@}. The same dispatcher often executes {@{`Future` computations as well}@}, allowing actors to {@{off‑load work without spawning extra threads}@}. {@{Choosing an appropriate dispatcher (e.g., a bounded thread pool)}@} prevents actors from exhausting {@{system resources}@}. <!--SR:!2026-12-07,256,330!2026-12-05,255,330!2027-01-24,293,330!2026-11-15,243,330!fsrs,2029-10-23T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-12-21,265,330-->
+{@{An actor’s code}@} runs on {@{a dispatcher—a thread pool that can be shared among many actors}@}. The same dispatcher often executes {@{`Future` computations as well}@}, allowing actors to {@{off‑load work without spawning extra threads}@}. {@{Choosing an appropriate dispatcher (e.g., a bounded thread pool)}@} prevents actors from exhausting {@{system resources}@}. <!--SR:!2026-12-07,256,330!2026-12-05,255,330!2027-01-24,293,330!fsrs,2029-10-30T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-15T00:00:00.000Z!fsrs,2029-10-23T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-12-21,265,330-->
 
 Actors should expose only {@{immutable data to callers}@}. Inside an actor, {@{mutable fields may be used}@}, but they are never {@{shared with other code}@}. When an actor replies, it sends {@{a copy of its internal data rather than the original object}@}. Using {@{immutable snapshots}@} guarantees that {@{concurrent reads do not corrupt state}@}. <!--SR:!2027-01-16,289,330!2027-01-06,281,330!2026-11-22,251,330!2026-12-15,263,330!2026-12-15,260,330!2026-11-28,249,330-->
 
@@ -570,4 +570,4 @@ Actors often have {@{several logical states (e.g., idle, processing)}@}. The {@{
 
 When an actor sends {@{a blocking message to another actor}@} or starts {@{a `Future`}@}, the original actor must not read {@{its own mutable fields until the callback completes}@}. Any required data should be {@{copied into the message}@} so that it remains {@{valid during the call}@}. <!--SR:!2026-12-13,261,330!2026-11-30,251,330!2027-01-15,288,330!2027-01-09,283,330!2026-11-18,246,330-->
 
-By following {@{these guidelines}@}, {@{Scala actors}@} can form {@{robust, scalable reactive applications}@} without {@{the pitfalls of shared‑memory synchronization}@}. <!--SR:!2026-12-14,262,330!2027-01-01,274,330!2026-11-15,245,330!fsrs,2028-02-21T00:00:00.000Z,562,562.03288223,1,2,8,0,0,2026-08-08T00:00:00.000Z-->
+By following {@{these guidelines}@}, {@{Scala actors}@} can form {@{robust, scalable reactive applications}@} without {@{the pitfalls of shared‑memory synchronization}@}. <!--SR:!2026-12-14,262,330!2027-01-01,274,330!fsrs,2029-11-07T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-15T00:00:00.000Z!fsrs,2028-02-21T00:00:00.000Z,562,562.03288223,1,2,8,0,0,2026-08-08T00:00:00.000Z-->

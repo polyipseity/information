@@ -24,7 +24,7 @@ Flashcards for this section are as follows:
 - charge: which quantity is basic to electrical circuits, and how is it written? ::@:: Charge, written $q$, $Q$, or $q(t)$ when it varies with time, is the basic quantity of electrical circuits. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - signs of charge / interaction rule ::@:: like charges repel and unlike charges attract. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - charge in a circuit / energy transfer and information processing ::@:: movements of charge. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- unit of charge / name and abbreviation ::@:: the coulomb, abbreviated C, named for Charles-Augustin de Coulomb (1736-1806). <!--SR:!fsrs,2026-11-15T00:00:00.000Z,12,11.6874828,1,2,2,0,0,2026-11-03T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- unit of charge / name and abbreviation ::@:: the coulomb, abbreviated C, named for Charles-Augustin de Coulomb (1736-1806). <!--SR:!fsrs,2027-02-14T00:00:00.000Z,91,91.47185982,1,2,3,0,0,2026-11-15T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ## elementary charge
 
@@ -52,7 +52,7 @@ A system is neutral when its total net charge is zero. Neutrality is a balance o
 
 Flashcards for this section are as follows:
 
-- conservation of charge / statement ::@:: charge cannot be created or destroyed. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-15T00:00:00.000Z,12,11.6874828,1,2,2,0,0,2026-11-03T00:00:00.000Z-->
+- conservation of charge / statement ::@:: charge cannot be created or destroyed. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-02-14T00:00:00.000Z,91,91.47185982,1,2,3,0,0,2026-11-15T00:00:00.000Z-->
 - isolated system / constancy of charge by sign ::@:: the total positive charge and the total negative charge are each constant. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - conservation of charge / why both signs are tracked ::@:: creating a positive charge together with an equal negative charge would keep the net charge at zero while raising both totals. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - neutral system / condition on its total charge ::@:: the total net charge is zero: the total positive charge equals the magnitude of the total negative charge. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->

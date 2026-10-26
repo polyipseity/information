@@ -16,7 +16,7 @@ An _auction_ is a mechanism that collects bids and has a market institution set 
 
 Flashcards for this section are as follows:
 
-- what an auction is ::@:: A mechanism that collects bids and has a market institution set the price, usually to allocate an asset. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-15T00:00:00.000Z,12,11.6874828,1,2,2,0,0,2026-11-03T00:00:00.000Z-->
+- what an auction is ::@:: A mechanism that collects bids and has a market institution set the price, usually to allocate an asset. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-02-14T00:00:00.000Z,91,91.47185982,1,2,3,0,0,2026-11-15T00:00:00.000Z-->
 - why auctions suit primary markets ::@:: They handle high volume and volatility efficiently. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - assets and goods auctioned besides newly issued securities ::@:: Art, commodities, and airport slots. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - the two auction forms that matter in financial markets ::@:: The single-sided auction, in which one side of the market is fixed, and the double auction, in which both sides propose prices and quantities. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
@@ -29,7 +29,7 @@ In a single-sided auction, demand or supply is solicited at each price while the
 
 Flashcards for this section are as follows:
 
-- single-sided auction ::@:: One side of the market is fixed, and demand or supply is solicited at each price. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-15T00:00:00.000Z,12,11.6874828,1,2,2,0,0,2026-11-03T00:00:00.000Z-->
+- single-sided auction ::@:: One side of the market is fixed, and demand or supply is solicited at each price. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-02-14T00:00:00.000Z,91,91.47185982,1,2,3,0,0,2026-11-15T00:00:00.000Z-->
 - Dutch auction ::@:: The descending-clock form of a first-price auction, strategically equivalent to its sealed-bid version under independent private values. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - English auction ::@:: The ascending-outcry form of a second-price auction, strategically equivalent to its sealed-bid version under independent private values. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - third variant of a single-sided auction ::@:: The all-pay auction. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->

@@ -16,7 +16,7 @@ tags:
 
 ## open-loop power control
 
-{@{_Open-loop power control_}@} has {@{no receiver feedback}@}. The transmitter {@{estimates output power}@} from {@{local information}@}—{@{the strength of a base‑station reference signal}@}, {@{the network's transmit‑power limit}@}, and {@{fixed standard‑defined scaling factors}@}. It then {@{sets transmission power}@} so {@{the signal is decodable}@} within {@{regulatory and interference limits}@}. <!--SR:!2026-12-12,255,330!2026-12-06,250,330!2026-11-15,232,330!2026-11-30,245,330!2026-11-25,241,330!2027-02-12,288,330!2026-12-28,268,330!2026-11-24,240,330!2026-12-07,251,330!2026-12-12,255,330-->
+{@{_Open-loop power control_}@} has {@{no receiver feedback}@}. The transmitter {@{estimates output power}@} from {@{local information}@}—{@{the strength of a base‑station reference signal}@}, {@{the network's transmit‑power limit}@}, and {@{fixed standard‑defined scaling factors}@}. It then {@{sets transmission power}@} so {@{the signal is decodable}@} within {@{regulatory and interference limits}@}. <!--SR:!2026-12-12,255,330!2026-12-06,250,330!fsrs,2029-09-17T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-11-15T00:00:00.000Z!2026-11-30,245,330!2026-11-25,241,330!2027-02-12,288,330!2026-12-28,268,330!2026-11-24,240,330!2026-12-07,251,330!2026-12-12,255,330-->
 
 This method is {@{used mainly for initial access or first uplink bursts}@} (e.g., {@{PRACH in LTE}@}). With {@{no feedback loop}@}, {@{transmit power}@} depends only on {@{channel‑state information available locally}@}—{@{a quick, low‑overhead estimate}@} before {@{a link is established}@}. <!--SR:!2026-11-22,238,330!2026-12-03,247,330!2026-11-24,240,330!2027-02-16,292,330!2027-02-06,282,330!fsrs,2029-08-24T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-11-10T00:00:00.000Z!2026-12-03,247,330-->
 
@@ -24,7 +24,7 @@ The approach works only when {@{uplink and downlink see the same large‑scale f
 
 ## closed-loop power control
 
-{@{_Closed-loop power control_}@} adds {@{receiver feedback}@}. The receiver {@{measures received power (or a quality metric)}@} and {@{sends a TPC command}@} telling the transmitter to {@{increase, decrease, or hold power}@}. The transmitter {@{follows the command}@}. <!--SR:!2026-11-29,244,330!2026-11-15,232,330!2026-12-01,246,330!2027-02-14,290,330!2026-12-12,255,330!2027-02-10,286,330-->
+{@{_Closed-loop power control_}@} adds {@{receiver feedback}@}. The receiver {@{measures received power (or a quality metric)}@} and {@{sends a TPC command}@} telling the transmitter to {@{increase, decrease, or hold power}@}. The transmitter {@{follows the command}@}. <!--SR:!2026-11-29,244,330!fsrs,2029-09-17T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-11-15T00:00:00.000Z!2026-12-01,246,330!2027-02-14,290,330!2026-12-12,255,330!2027-02-10,286,330-->
 
 {@{This loop}@} runs {@{during active data transmission in most mobile systems}@} (e.g., {@{CDMA, WCDMA, LTE, Bluetooth}@}). By reacting to {@{real‑time channel and interference changes}@}, {@{closed‑loop control}@} maintains {@{target signal quality with far more precision than open‑loop}@}, at {@{the cost of additional signalling overhead}@}. <!--SR:!2026-12-05,249,330!2026-12-12,255,330!2027-01-02,272,330!2026-11-16,233,330!2026-12-01,246,330!2026-12-03,247,330!2027-02-08,284,330-->
 

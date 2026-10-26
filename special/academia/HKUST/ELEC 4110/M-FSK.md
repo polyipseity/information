@@ -26,7 +26,7 @@ Assume {@{equiprobable symbols and AWGN}@}. In {@{a coherent receiver}@}, {@{the
 
 ## error analysis
 
-Assume {@{_equiprobable_ bits and AWGN}@}. {@{The optimal detector}@} is {@{the minimum distance rule}@}. <!--SR:!2026-12-14,272,330!2026-11-15,249,330!2026-12-14,272,330-->
+Assume {@{_equiprobable_ bits and AWGN}@}. {@{The optimal detector}@} is {@{the minimum distance rule}@}. <!--SR:!2026-12-14,272,330!fsrs,2029-11-22T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-11-15T00:00:00.000Z!2026-12-14,272,330-->
 
 Project onto {@{a _unnormalized_ basis $\set{s_m(t)}$ with $M$ symbols}@}. Suppose {@{waveform $s_k(t)$ is transmitted}@}. {@{The received signal coefficients}@} are: {@{$$\mathbf y_i = \begin{cases} E_s + n_i & \text{if}~i = k \\ n_i & \text{otherwise} \,, \end{cases}$$}@} where {@{$n_i$ are iid zero-mean normal with variance $\sigma^2 = E_s \frac {N_0} 2$}@}. The detector {@{subtracts $E_s / 2$ \(equal symbol energies\) and picks the maximum}@}: {@{$$y_i = \begin{cases} \frac {E_s} 2 + n_i & \text{if}~i = k \\ n_i - \frac {E_s} 2 & \text{otherwise} \,. \end{cases}$$}@} <!--SR:!fsrs,2028-09-07T00:00:00.000Z,767,767.45801194,1,2,8,0,0,2026-08-02T00:00:00.000Z!fsrs,2029-08-04T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-10-21T00:00:00.000Z!2026-12-07,265,330!2026-12-18,276,330!2026-12-22,279,330!2026-11-22,255,330!2026-11-28,259,330-->
 
