@@ -1123,6 +1123,32 @@ class TestWikiHtmlToPlaintext:
             "| Column 1         |\n| ---------------- |\n| word $f(x)$ word |\n"
         )
 
+    @pytest.mark.anyio
+    async def test_title_box_table_becomes_blockquote(self) -> None:
+        """A header-less proof box renders as a quoted title and paragraphs."""
+        inline = (
+            '<span class="mwe-math-element mwe-math-element-inline">'
+            '<math alttext="\\mu" class="mathjax_ignore"></math></span>'
+        )
+        block = (
+            '<span class="mwe-math-element mwe-math-element-display">'
+            '<math alttext="\\mu (A)\\geq 0" class="mathjax_ignore"></math></span>'
+        )
+        result = await _convert_html(
+            '<table class="wikitable mw-collapsible"><tbody>'
+            "<tr><td><b>Proof of equivalence.</b></td></tr>"
+            f"<tr><td>Suppose that {inline} is an outer measure.</td></tr>"
+            f"<tr><td><p>One has{block}for any subset.</p></td></tr>"
+            "</tbody></table>"
+        )
+        assert result == (
+            "> __Proof of equivalence.__\n"
+            ">\n"
+            "> Suppose that $\\mu$ is an outer measure.\n"
+            ">\n"
+            "> One has $$\\mu (A)\\geq 0$$ for any subset.\n"
+        )
+
 
 # =========================================================================
 # run_pipeline — top-level orchestrator

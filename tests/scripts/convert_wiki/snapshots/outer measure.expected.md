@@ -28,8 +28,11 @@ __An alternative and equivalent definition.__<sup>[\[3\]](#^ref-3)</sup> Some te
 - _monotone_: if $A$ and $B$ are subsets of $X$ with $A\subseteq B$, then $\mu (A)\leq \mu (B)$
 - for arbitrary subsets $B_{1},B_{2},\ldots$ of $X$, $$\mu \left(\bigcup _{j=1}^{\infty }B_{j}\right)\leq \sum _{j=1}^{\infty }\mu (B_{j}).$$
 
-| __Proof of equivalence.__ |
-| Suppose that $\mu$ is an outer measure in sense originally given above. If $A$ and $B$ are subsets of $X$ with $A\subseteq B$, then by appealing to the definition with $B_{1}=B$ and $B_{j}=\varnothing$ for all $j\geq 2$, one finds that $\mu (A)\leq \mu (B)$. The third condition in the alternative definition is immediate from the trivial observation that $\cup _{j}B_{j}\subseteq \cup _{j}B_{j}$.Suppose instead that $\mu$ is an outer measure in the alternative definition. Let $A,B_{1},B_{2},\ldots$ be arbitrary subsets of $X$, and suppose that$$A\subseteq \bigcup _{j=1}^{\infty }B_{j}.$$One then has$$\mu (A)\leq \mu \left(\bigcup _{j=1}^{\infty }B_{j}\right)\leq \sum _{j=1}^{\infty }\mu (B_{j}),$$with the first inequality following from the second condition in the alternative definition, and the second inequality following from the third condition in the alternative definition. So $\mu$ is an outer measure in the sense of the original definition. |
+> __Proof of equivalence.__
+>
+> Suppose that $\mu$ is an outer measure in sense originally given above. If $A$ and $B$ are subsets of $X$ with $A\subseteq B$, then by appealing to the definition with $B_{1}=B$ and $B_{j}=\varnothing$ for all $j\geq 2$, one finds that $\mu (A)\leq \mu (B)$. The third condition in the alternative definition is immediate from the trivial observation that $\cup _{j}B_{j}\subseteq \cup _{j}B_{j}$.
+>
+> Suppose instead that $\mu$ is an outer measure in the alternative definition. Let $A,B_{1},B_{2},\ldots$ be arbitrary subsets of $X$, and suppose that $$A\subseteq \bigcup _{j=1}^{\infty }B_{j}.$$ One then has $$\mu (A)\leq \mu \left(\bigcup _{j=1}^{\infty }B_{j}\right)\leq \sum _{j=1}^{\infty }\mu (B_{j}),$$ with the first inequality following from the second condition in the alternative definition, and the second inequality following from the third condition in the alternative definition. So $\mu$ is an outer measure in the sense of the original definition.
 
 ## measurability of sets relative to an outer measure
 
@@ -47,8 +50,11 @@ The following condition is known as the "countable [additivity](sigma%20additivi
 
 - if $A_{1},A_{2},\ldots$ are $\mu$-measurable pairwise-disjoint \($A_{i}\cap A_{j}=\emptyset$ for $i\neq j$\) subsets of $X$, then one has $$\mu {\Big (}\bigcup _{j=1}^{\infty }A_{j}{\Big )}=\sum _{j=1}^{\infty }\mu (A_{j}).$$
 
-| __Proof of countable additivity.__ |
-| One automatically has the conclusion in the form "$\,\leq \,$" from the definition of outer measure. So it is only necessary to prove the "$\,\geq \,$" inequality. One has$$\mu {\Big (}\bigcup _{j=1}^{\infty }A_{j}{\Big )}\geq \mu {\Big (}\bigcup _{j=1}^{N}A_{j}{\Big )}$$for any positive number $N$, due to the second condition in the "alternative definition" of outer measure given above. Suppose \(inductively\) that$$\mu {\Big (}\bigcup _{j=1}^{N-1}A_{j}{\Big )}=\sum _{j=1}^{N-1}\mu (A_{j})$$Applying the above definition of $\mu$-measurability with $A=A_{1}\cup \cdots \cup A_{N}$ and with $E=A_{N}$, one has$${\begin{aligned}\mu {\Big (}\bigcup _{j=1}^{N}A_{j}{\Big )}&=\mu \left({\Big (}\bigcup _{j=1}^{N}A_{j}{\Big )}\cap A_{N}\right)+\mu \left({\Big (}\bigcup _{j=1}^{N}A_{j}{\Big )}\smallsetminus A_{N}\right)\\&=\mu (A_{N})+\mu {\Big (}\bigcup _{j=1}^{N-1}A_{j}{\Big )}\end{aligned} }$$which closes the induction. Going back to the first line of the proof, one then has$$\mu {\Big (}\bigcup _{j=1}^{\infty }A_{j}{\Big )}\geq \sum _{j=1}^{N}\mu (A_{j})$$for any positive integer $N$. One can then send $N$ to infinity to get the required "$\,\geq \,$" inequality. |
+> __Proof of countable additivity.__
+>
+> One automatically has the conclusion in the form "$\,\leq \,$" from the definition of outer measure. So it is only necessary to prove the "$\,\geq \,$" inequality. One has $$\mu {\Big (}\bigcup _{j=1}^{\infty }A_{j}{\Big )}\geq \mu {\Big (}\bigcup _{j=1}^{N}A_{j}{\Big )}$$ for any positive number $N$, due to the second condition in the "alternative definition" of outer measure given above. Suppose \(inductively\) that $$\mu {\Big (}\bigcup _{j=1}^{N-1}A_{j}{\Big )}=\sum _{j=1}^{N-1}\mu (A_{j})$$
+>
+> Applying the above definition of $\mu$-measurability with $A=A_{1}\cup \cdots \cup A_{N}$ and with $E=A_{N}$, one has $${\begin{aligned}\mu {\Big (}\bigcup _{j=1}^{N}A_{j}{\Big )}&=\mu \left({\Big (}\bigcup _{j=1}^{N}A_{j}{\Big )}\cap A_{N}\right)+\mu \left({\Big (}\bigcup _{j=1}^{N}A_{j}{\Big )}\smallsetminus A_{N}\right)\\&=\mu (A_{N})+\mu {\Big (}\bigcup _{j=1}^{N-1}A_{j}{\Big )}\end{aligned} }$$ which closes the induction. Going back to the first line of the proof, one then has $$\mu {\Big (}\bigcup _{j=1}^{\infty }A_{j}{\Big )}\geq \sum _{j=1}^{N}\mu (A_{j})$$ for any positive integer $N$. One can then send $N$ to infinity to get the required "$\,\geq \,$" inequality.
 
 A similar proof shows that:
 
