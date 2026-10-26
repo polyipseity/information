@@ -118,7 +118,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{Yes. Tesla uses the indirect method to produce its SCF. The key is using identical data sources; any discrepancy usually comes from different interpretations of adjustments.}@} <!--SR:!2026-11-17,304,347-->
+> - solution: {@{Yes. Tesla uses the indirect method to produce its SCF. The key is using identical data sources; any discrepancy usually comes from different interpretations of adjustments.}@} <!--SR:!fsrs,2030-09-05T00:00:00.000Z,1388,1387.89342266,1,2,9,0,0,2026-11-17T00:00:00.000Z-->
 
 ## week 5 lecture 1
 

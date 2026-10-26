@@ -39,7 +39,7 @@ Python has {@{builtin support (no libraries needed) for complex numbers}@}. The 
 
 Essentia is {@{an open-source C++ library for audio analysis and audio-based music information retrieval}@}. It is best described as {@{a collection of low-level algorithms to _extract audio features_}@} that {@{you can freely combine by yourself to achieve high-level functions}@}. It is available from {@{<https://essentia.upf.edu/>}@}. <!--SR:!2026-12-24,433,381!2026-11-22,406,381!fsrs,2032-01-19T00:00:00.000Z,1890,1890.20135798,1,2,10,0,0,2026-11-16T00:00:00.000Z!2026-12-21,430,381-->
 
-To use it, you will need to {@{follow the instructions to compile and install the library}@}. Then, the library {@{provides Python bindings}@} that allows you to {@{use algorithms in the library using Python directly instead of using C++}@}. <!--SR:!2026-11-27,410,381!2026-11-17,401,381!fsrs,2032-01-14T00:00:00.000Z,1886,1886.10251768,1,2,10,0,0,2026-11-15T00:00:00.000Z-->
+To use it, you will need to {@{follow the instructions to compile and install the library}@}. Then, the library {@{provides Python bindings}@} that allows you to {@{use algorithms in the library using Python directly instead of using C++}@}. <!--SR:!2026-11-27,410,381!fsrs,2032-01-24T00:00:00.000Z,1894,1894.29887739,1,2,10,0,0,2026-11-17T00:00:00.000Z!fsrs,2032-01-14T00:00:00.000Z,1886,1886.10251768,1,2,10,0,0,2026-11-15T00:00:00.000Z-->
 
 ## Freesound
 

@@ -45,7 +45,7 @@ Quoted spreads often {@{over-state the spreads finally paid by traders, due to "
 
 If {@{the current bid price for the EUR/USD currency pair is 1.5760 and the current offer price is 1.5763}@}, this means that {@{currently you can sell the EUR/USD at 1.5760 (annotation: 1 EUR to USD) and buy at 1.5763 (annotation: USD to 1 EUR)}@}. {@{The difference between those prices \(3 [pips](percentage%20in%20point.md)\)}@} is {@{the spread}@}. <!--SR:!2026-12-16,499,322!2027-11-30,663,282!2030-08-01,1554,362!2030-08-09,1562,362-->
 
-If {@{the USD/JPY currency pair is currently trading at 101.89/101.92}@}, that is another way of saying that {@{the bid for the USD/JPY is 101.89 and the offer is 101.92}@}. This means that currently, {@{holders of USD can sell US\$1 for 101.89 JPY and investors who wish to buy dollars can do so at a cost of 101.92 JPY per US\$1}@}. <!--SR:!2028-04-07,812,290!2028-07-19,961,342!2026-11-17,484,322-->
+If {@{the USD/JPY currency pair is currently trading at 101.89/101.92}@}, that is another way of saying that {@{the bid for the USD/JPY is 101.89 and the offer is 101.92}@}. This means that currently, {@{holders of USD can sell US\$1 for 101.89 JPY and investors who wish to buy dollars can do so at a cost of 101.92 JPY per US\$1}@}. <!--SR:!2028-04-07,812,290!2028-07-19,961,342!fsrs,2032-02-15T00:00:00.000Z,1916,1915.91696197,1,2,10,0,0,2026-11-17T00:00:00.000Z-->
 
 ### metals
 

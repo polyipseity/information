@@ -212,7 +212,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >   val return : 'a -> 'a t
 > end
 > ```
-<!--SR:!2026-12-10,259,330!2026-11-17,246,330!2027-01-23,292,330-->
+<!--SR:!2026-12-10,259,330!fsrs,2029-11-13T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-17T00:00:00.000Z!2027-01-23,292,330-->
 
 {@{The signature}@} is {@{a _module type_}@}; {@{concrete modules}@} can be passed as {@{arguments to functions that need monadic behaviour}@}. <!--SR:!2027-01-05,281,330!2027-01-10,285,330!2026-11-23,251,330!2027-01-19,286,330-->
 

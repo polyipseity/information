@@ -107,7 +107,7 @@ return chain.from_iterable([r.value for r in results])
 - [jet fuel](jet%20fuel.md):@:150 to 205 °C <!--SR:!2027-08-21,517,190-->
 - [kerosene](kerosene.md):@:205 to 260 °C <!--SR:!2026-12-18,424,170-->
 - [fuel oil](fuel%20oil.md):@:205 to 290 °C <!--SR:!2026-12-03,303,170-->
-- [diesel fuel](diesel%20fuel.md):@:260 to 315 °C <!--SR:!2026-11-17,345,170-->
+- [diesel fuel](diesel%20fuel.md):@:260 to 315 °C <!--SR:!fsrs,2028-09-21T00:00:00.000Z,674,674.43512724,7.98399827,2,9,0,0,2026-11-17T00:00:00.000Z-->
 - [paraffin wax](paraffin%20wax.md):@:370 °C or above <!--SR:!fsrs,2029-03-21T00:00:00.000Z,939,939.46745463,6.78326021,2,10,0,0,2026-08-25T00:00:00.000Z-->
 - [bitumen](bitumen.md):@:500 °C or above <!--SR:!fsrs,2032-06-25T00:00:00.000Z,2118,2117.50528625,1.78018496,2,10,0,0,2026-09-07T00:00:00.000Z-->
 

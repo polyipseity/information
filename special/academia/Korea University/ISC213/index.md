@@ -173,7 +173,7 @@ The content is in teaching order.
 - topic: information systems, organizations, strategy
 - organization
     - organization / resistance ::@:: Organizations often change slower than environments as they are _resistant_ to changes. It often causes failure of large projects. <p> The 4 factors determining resistance are information technology \(could change an organization\), organizational structure, task nature, and people. <!--SR:!2026-12-15,415,369!2026-12-03,405,369-->
-- [Porter's five forces analysis](../../../../general/Porter's%20five%20forces%20analysis.md) ::@:: industry profitability analysis <!--SR:!2026-12-11,411,369!2026-11-17,391,369-->
+- [Porter's five forces analysis](../../../../general/Porter's%20five%20forces%20analysis.md) ::@:: industry profitability analysis <!--SR:!2026-12-11,411,369!fsrs,2031-12-09T00:00:00.000Z,1848,1847.78150396,1,2,10,0,0,2026-11-17T00:00:00.000Z-->
     - Porter's five forces analysis / the forces ::@:: bargaining power of buyers, bargaining power of suppliers, threat of new entrants, threat of substitute products or services, rivalry among existing competitors  <p> \(__this course__: The midterm examination asked us to recall these exact wordings, which is different from the textbook's. The instructor has pointed this out.\) <!--SR:!2026-11-20,394,369!2026-12-05,407,369-->
     - Porter's five forces analysis / internet ::@:: The internet changes these 5 forces significantly. <!--SR:!2026-12-09,410,369!fsrs,2031-11-12T00:00:00.000Z,1827,1827.27352001,1,2,10,0,0,2026-11-11T00:00:00.000Z-->
         - Porter's five forces analysis / internet / substitutes ::@:: New forms of substitutes may be enabled by the internet. <!--SR:!2026-12-06,408,369!2026-12-13,414,369-->

@@ -504,7 +504,7 @@ The content is in teaching order.
     - note / gradient field ::@:: \(__this course__: Divergence is nonzero. Curl is zero.\) <!--SR:!2027-06-15,653,433!2028-03-06,865,453-->
     - note / rotating field ::@:: \(__this course__: Divergence is zero. Curl is nonzero.\) <!--SR:!2028-04-17,902,453!2028-03-26,882,452-->
 - [metric prefix](../../../../general/metric%20prefix.md) ::@:: It is a unit prefix that precedes a basic unit of measure to indicate a multiple or submultiple of the unit. All metric prefixes used today are decadic. Each prefix has a unique symbol that is prepended to any unit symbol. <!--SR:!2027-06-06,644,432!2028-03-29,885,453-->
-    - metric prefix / common prefixes ::@:: \(in increasing order of magnitude, each separated by 3 OoMs\) femto-/f ← pico-/p ← nano-/n ← micro-/μ ← milli-/m ← \(unit\) → kilo/k → mega/M → giga/G → tera/T → peta/P <!--SR:!2026-11-17,449,412!fsrs,2032-03-30T00:00:00.000Z,2004,2004.45937273,1,2,10,0,0,2026-10-04T00:00:00.000Z-->
+    - metric prefix / common prefixes ::@:: \(in increasing order of magnitude, each separated by 3 OoMs\) femto-/f ← pico-/p ← nano-/n ← micro-/μ ← milli-/m ← \(unit\) → kilo/k → mega/M → giga/G → tera/T → peta/P <!--SR:!fsrs,2032-08-07T00:00:00.000Z,2090,2089.53617638,1,2,10,0,0,2026-11-17T00:00:00.000Z!fsrs,2032-03-30T00:00:00.000Z,2004,2004.45937273,1,2,10,0,0,2026-10-04T00:00:00.000Z-->
 
 ## week 9 lecture 1
 
