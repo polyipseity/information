@@ -265,7 +265,7 @@ The content is in teaching order.
     - cost behavior / graph ::@:: $y$ is plotted on the vertical axis, called the _dependent variable_. $x$ is plotted on the horizontal axis, called the _independent variable_. <!--SR:!2026-12-18,523,406!2026-12-11,524,406-->
 - [scatter plot](../../../../general/scatter%20plot.md) (scattergraph) ::@:: a type of plot or mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data <!--SR:!2027-01-14,550,406!2027-01-07,543,406-->
 - cost behavior
-    - cost behavior / linear regression ::@:: scattergraph, high—low method, least squares <!--SR:!2027-01-02,538,406!2026-11-16,502,406-->
+    - cost behavior / linear regression ::@:: scattergraph, high—low method, least squares <!--SR:!2027-01-02,538,406!fsrs,2033-03-06T00:00:00.000Z,2302,2302.10323962,1,2,10,0,0,2026-11-16T00:00:00.000Z-->
         - cost behavior / linear regression / scattergraph ::@:: Graph the total cost $y$ against activity $x$ on a scatter plot. Then just intuitively draw a line through the points. <!--SR:!2026-11-25,509,406!2026-11-22,507,406-->
         - cost behavior / linear regression / high—low method ::@:: Find two data points: one with min $x$, the other with max $x$. Find the slope $b$ (unit variable cost) of the line connecting them. This will be $b$. Then find the y-intercept $a$ (fixed cost) on the line connecting them. <!--SR:!2027-01-09,545,406!2026-12-07,520,406-->
 

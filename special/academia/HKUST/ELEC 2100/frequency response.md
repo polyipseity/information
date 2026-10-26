@@ -43,7 +43,7 @@ If the question is "what does one impulse do in time?", think $h(t)$ and convolu
 Flashcards for this section are as follows:
 
 - How are the time-domain and frequency-domain zero-state viewpoints related? ::@:: Same law, different coordinates: $y(t)=x*h$ versus $Y(\omega)=H(\omega)X(\omega)$. <!--SR:!fsrs,2027-07-31T00:00:00.000Z,369,369.34507636,1,2,7,0,0,2026-07-27T00:00:00.000Z!fsrs,2027-07-20T00:00:00.000Z,360,360.40803568,1,2,7,0,0,2026-07-25T00:00:00.000Z-->
-- When is convolution more natural, when is frequency response more natural? ::@:: Convolution for support, overlap, delays, and transients; frequency response for amplification, attenuation, and phase shift of each component. <!--SR:!fsrs,2027-08-07T00:00:00.000Z,374,373.80149873,1,2,7,0,0,2026-07-29T00:00:00.000Z!fsrs,2026-11-15T05:03:02.449Z,163,162.63361781,1,2,5,0,0,2026-06-05T05:03:02.449Z-->
+- When is convolution more natural, when is frequency response more natural? ::@:: Convolution for support, overlap, delays, and transients; frequency response for amplification, attenuation, and phase shift of each component. <!--SR:!fsrs,2027-08-07T00:00:00.000Z,374,373.80149873,1,2,7,0,0,2026-07-29T00:00:00.000Z!fsrs,2029-04-03T00:00:00.000Z,869,869.48884966,1,2,6,0,0,2026-11-16T00:00:00.000Z-->
 - What bridges convolution and frequency response? ::@:: $H(\omega)=\mathcal{F}\{h(t)\}$. <!--SR:!fsrs,2027-04-29T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-12T00:00:00.000Z!fsrs,2027-08-12T00:00:00.000Z,378,378.25001087,1,2,7,0,0,2026-07-30T00:00:00.000Z-->
 
 ## complex exponentials as LTI eigenfunctions

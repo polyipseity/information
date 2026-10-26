@@ -661,7 +661,7 @@ Here is a list of common IPA letters and their pronunciations:
 - \[ɣ\]:@:[voiced velar fricative](voiced%20velar%20fricative.md) <!--SR:!fsrs,2028-05-16T00:00:00.000Z,661,660.66131274,4.02869087,2,9,0,0,2026-07-25T00:00:00.000Z-->
 - \[ɤ\]:@:[close-mid back unrounded vowel](close-mid%20back%20unrounded%20vowel.md) <!--SR:!2026-11-19,507,330-->
 - \[ʎ\]:@:[voiced palatal lateral approximant](voiced%20palatal%20lateral%20approximant.md) <!--SR:!2027-05-25,566,290-->
-- \[ɥ\]:@:[voiced labial–palatal approximant](voiced%20labial–palatal%20approximant.md) <!--SR:!2026-11-16,338,256-->
+- \[ɥ\]:@:[voiced labial–palatal approximant](voiced%20labial–palatal%20approximant.md) <!--SR:!fsrs,2029-10-31T00:00:00.000Z,1080,1079.65975051,3.68135355,2,9,0,0,2026-11-16T00:00:00.000Z-->
 - \[z\]:@:[voiced alveolar fricative](voiced%20alveolar%20fricative.md) <!--SR:!2027-07-16,895,356-->
 - \[ʒ\]:@:[voiced postalveolar fricative](voiced%20postalveolar%20fricative.md) <!--SR:!2027-07-15,905,355-->
 - \[ʑ\]:@:[voiced alveolo–palatal fricative](voiced%20alveolo–palatal%20fricative.md) <!--SR:!2029-07-28,1485,376-->
@@ -943,7 +943,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced alveolar implosive](voiced%20alveolar%20implosive.md):@:[Vietnamese](Vietnamese%20language.md) _**đ**uôi_ \[ɗuəj\] "tail" <!--SR:!2027-11-07,552,193-->
 - [voiced retroflex plosive](voiced%20retroflex%20plosive.md):@:[Swedish](Swedish%20language.md) _no**rd**_ \[nuːɖ\] "north" <!--SR:!fsrs,2026-12-03T00:00:00.000Z,49,48.83913809,9.95591256,2,9,0,0,2026-10-15T00:00:00.000Z-->
 - [voiced dental fricative](voiced%20dental%20fricative.md):@:[English](English%20language.md) _**th**is_ \[ðɪs\] <!--SR:!2027-06-27,752,233-->
-- [voiced alveolar affricate](voiced%20alveolar%20affricate.md):@:[English](English%20language.md) _**d**ay_ \[ˈd͡zeˑɪ̯\] <!--SR:!fsrs,2026-11-16T00:00:00.000Z,95,94.86917322,9.98522837,2,7,0,0,2026-08-13T00:00:00.000Z-->
+- [voiced alveolar affricate](voiced%20alveolar%20affricate.md):@:[English](English%20language.md) _**d**ay_ \[ˈd͡zeˑɪ̯\] <!--SR:!fsrs,2027-03-15T00:00:00.000Z,119,119.18733955,9.97047151,2,8,0,0,2026-11-16T00:00:00.000Z-->
 - [voiced postalveolar affricate](voiced%20postalveolar%20affricate.md):@:[English](English%20language.md) _**g**ene_ \[ˈd͡ʒiːn\] <!--SR:!2027-03-28,303,158-->
 - [voiced alveolo-palatal affricate](voiced%20alveolo-palatal%20affricate.md):@:[Polish](Polish%20language.md) _**dź**więk_ \[d͡ʑvʲɛŋk\] "sound" <!--SR:!fsrs,2026-11-26T00:00:00.000Z,46,45.74205864,9.93790175,2,9,0,0,2026-10-11T00:00:00.000Z-->
 - [voiced retroflex affricate](voiced%20retroflex%20affricate.md):@:[Polish](Polish%20language.md) _**dż**em_ \[ɖ͡ʐɛm\] "jam" <!--SR:!fsrs,2027-01-26T00:00:00.000Z,160,160.19433718,8.93627837,2,8,0,0,2026-08-19T00:00:00.000Z-->

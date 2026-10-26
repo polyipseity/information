@@ -26,7 +26,7 @@ tags:
 
 ## hints
 
-1. UML / [§ use case models](../UML.md#use%20case%20models) ::@:: _Use case modeling_ aims to capture the _system behavior_ from the user's point of view. <!--SR:!2026-11-16,290,330!2026-11-20,294,330-->
+1. UML / [§ use case models](../UML.md#use%20case%20models) ::@:: _Use case modeling_ aims to capture the _system behavior_ from the user's point of view. <!--SR:!fsrs,2030-04-29T00:00:00.000Z,1260,1259.53358194,1,2,9,0,0,2026-11-16T00:00:00.000Z!2026-11-20,294,330-->
 2. __Alternative flows__ \(if any\) ::@:: optional, variant, or exceptional paths that diverge from the basic flow. <!--SR:!2026-11-17,291,330!2026-11-19,293,330-->
 3. UML / [§ use case models](../UML.md#use%20case%20models) ::@:: _Use case modeling_ aims to capture the _system behavior_ from the user's point of view. <!--SR:!2026-11-19,293,330!2026-11-20,294,330-->
 4. UML / [§ use case specification](../UML.md#use%20case%20specification) ::@:: A detailed use case specification is structured around several key elements. The specification should remain concise yet exhaustive enough for developers, testers, and users to understand precisely what the system must do. The elements are: \(annotation: 8 items: name → description → actors → preconditions \(if any\) → flow of events → postconditions \(if any\) → alternative flows \(if any\) → special requirements \(if any\)\) <!--SR:!fsrs,2028-08-06T00:00:00.000Z,708,707.73740732,2.98092302,2,9,0,0,2026-08-29T00:00:00.000Z!2027-09-01,494,310-->

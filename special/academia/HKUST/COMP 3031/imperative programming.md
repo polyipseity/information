@@ -63,7 +63,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 > def repeatUntil(body: => Unit)(cond: => Boolean): Unit =
 >   body; if !cond then repeatUntil(body)(cond) else ()
 > ```
-<!--SR:!fsrs,2029-10-29T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-12-27,274,330!2026-11-16,245,330-->
+<!--SR:!fsrs,2029-10-29T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-12-27,274,330!fsrs,2029-11-08T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-16T00:00:00.000Z-->
 
 {@{A repeat–until pattern}@} can also be expressed with {@{a pair of functions that form a fluent API}@}: <!--SR:!2026-12-01,253,330!2027-01-08,284,330-->
 
@@ -178,6 +178,6 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 >     println(s”$name $currentTime value = ${wire.getSignal()}”)
 >   wire.addAction(probeAction)
 > ```
-<!--SR:!fsrs,2029-09-22T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-04T00:00:00.000Z!2027-01-06,282,330!fsrs,2029-09-17T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-03T00:00:00.000Z!2026-11-16,246,330-->
+<!--SR:!fsrs,2029-09-22T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-04T00:00:00.000Z!2027-01-06,282,330!fsrs,2029-09-17T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-03T00:00:00.000Z!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z-->
 
 By composing {@{gates and probes}@} one can experiment with {@{more elaborate circuits, such as a full adder or a ripple‑carry adder}@}, while keeping {@{the simulation time model explicit}@}. <!--SR:!2027-01-17,291,330!fsrs,2029-10-23T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-11-28,251,330-->

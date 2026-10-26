@@ -156,7 +156,7 @@ Actors are {@{instantiated through the actor system}@}, which supplies {@{a uniq
 > counter ! "incr"
 > ```
 >
-> Because {@{messages are queued}@}, the sender does not {@{wait for the receiver}@}; {@{this asynchronous, non‑blocking communication}@} is one of {@{the key advantages of the actor model}@}. <!--SR:!2027-01-06,281,330!2026-11-16,246,330!2026-12-05,255,330!fsrs,2029-09-06T00:00:00.000Z,1040,1039.96344033,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-20,264,330!2026-11-19,248,330!2027-01-20,292,330!2026-11-26,254,330!2026-12-02,252,330!2026-12-31,276,330-->
+> Because {@{messages are queued}@}, the sender does not {@{wait for the receiver}@}; {@{this asynchronous, non‑blocking communication}@} is one of {@{the key advantages of the actor model}@}. <!--SR:!2027-01-06,281,330!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z!2026-12-05,255,330!fsrs,2029-09-06T00:00:00.000Z,1040,1039.96344033,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-20,264,330!2026-11-19,248,330!2027-01-20,292,330!2026-11-26,254,330!2026-12-02,252,330!2026-12-31,276,330-->
 
 ### message passing
 
@@ -225,11 +225,11 @@ Actors are not {@{instantiated directly with `new`}@}. The runtime supplies {@{a
 >
 > {@{The returned value}@} is an {@{`ActorRef`}@}. Other actors use this reference to send {@{messages with the asynchronous operator `!`}@}. <!--SR:!fsrs,2029-10-23T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-12-03,253,330!fsrs,2029-11-07T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-15T00:00:00.000Z!2027-01-16,289,330!2027-01-05,277,330-->
 
-{@{Instantiating actors with `new`}@} would bypass {@{the actor framework’s bookkeeping}@}: the runtime would not assign {@{a unique `ActorRef`}@}, nor would it be able to schedule {@{the actor on another machine}@}. Using {@{the context’s `actorOf`}@} delegates {@{creation, life‑cycle management, and potential distribution}@} to the framework. <!--SR:!fsrs,2029-10-28T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-13T00:00:00.000Z!2026-12-05,255,330!fsrs,2029-10-28T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-13T00:00:00.000Z!2026-12-29,274,330!2026-11-16,246,330!2026-11-29,250,330-->
+{@{Instantiating actors with `new`}@} would bypass {@{the actor framework’s bookkeeping}@}: the runtime would not assign {@{a unique `ActorRef`}@}, nor would it be able to schedule {@{the actor on another machine}@}. Using {@{the context’s `actorOf`}@} delegates {@{creation, life‑cycle management, and potential distribution}@} to the framework. <!--SR:!fsrs,2029-10-28T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-13T00:00:00.000Z!2026-12-05,255,330!fsrs,2029-10-28T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-13T00:00:00.000Z!2026-12-29,274,330!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z!2026-11-29,250,330-->
 
 When {@{an actor receives a message}@} it may: {@{send other messages}@}; {@{create or stop actors}@}; or {@{change its own behaviour with `context.become`}@}. These capabilities let an actor orchestrate {@{complex workflows without shared mutable data}@}. <!--SR:!2026-12-23,269,330!2027-01-03,278,330!2027-01-08,280,330!2027-01-03,278,330!2026-12-15,263,330-->
 
-{@{Stopping an actor}@} releases {@{its resources and removes it from the system}@}. The usual way is to call {@{`stop` on a reference}@}, often from {@{inside the actor itself via `context.stop(self)`}@}: <!--SR:!2026-11-16,244,330!2026-11-27,255,330!2026-11-23,251,330!2026-11-19,247,330-->
+{@{Stopping an actor}@} releases {@{its resources and removes it from the system}@}. The usual way is to call {@{`stop` on a reference}@}, often from {@{inside the actor itself via `context.stop(self)`}@}: <!--SR:!fsrs,2029-11-04T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-16T00:00:00.000Z!2026-11-27,255,330!2026-11-23,251,330!2026-11-19,247,330-->
 
 > [!example] __stopping an actor__
 >
@@ -302,7 +302,7 @@ If two messages {@{arrive concurrently}@}, they are {@{queued and executed one a
 > }
 > ```
 >
-> {@{The `!` operator}@} posts {@{a message asynchronously}@}, so {@{the main actor continues immediately after sending}@}. When {@{the counter replies with an `Int`}@}, the main actor {@{prints it and then stops itself}@}. <!--SR:!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z!2027-01-03,276,330!2026-11-22,250,330!2026-11-16,246,330!2026-12-03,253,330!2026-12-08,257,330!2026-12-28,271,330!2026-11-27,255,330!2027-01-06,278,330-->
+> {@{The `!` operator}@} posts {@{a message asynchronously}@}, so {@{the main actor continues immediately after sending}@}. When {@{the counter replies with an `Int`}@}, the main actor {@{prints it and then stops itself}@}. <!--SR:!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z!2027-01-03,276,330!2026-11-22,250,330!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z!2026-12-03,253,330!2026-12-08,257,330!2026-12-28,271,330!2026-11-27,255,330!2027-01-06,278,330-->
 
 ### bank account example
 
@@ -380,7 +380,7 @@ In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two oper
 
 ## message delivery
 
-{@{Actor communication}@} is {@{asynchronous and, by its nature, unreliable}@}. {@{A send}@} may {@{drop the packet or duplicate it}@}. {@{The three classical delivery semantics}@} are: {@{_at-most-once_, _at-least-once_, and _exactly-once_}@}. <!--SR:!2026-11-16,246,330!2026-11-28,249,330!2027-01-02,275,330!2027-01-22,294,330!2026-12-26,269,330!2026-12-22,266,330-->
+{@{Actor communication}@} is {@{asynchronous and, by its nature, unreliable}@}. {@{A send}@} may {@{drop the packet or duplicate it}@}. {@{The three classical delivery semantics}@} are: {@{_at-most-once_, _at-least-once_, and _exactly-once_}@}. <!--SR:!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z!2026-11-28,249,330!2027-01-02,275,330!2027-01-22,294,330!2026-12-26,269,330!2026-12-22,266,330-->
 
 - _at-most-once_: ::@:: a single send may be dropped or delivered once; the receiver must tolerate loss. <!--SR:!2026-11-23,251,330!2027-01-09,283,330-->
 - _at-least-once_: ::@:: the sender repeats until it receives an acknowledgment, so the message is delivered one or more times. <!--SR:!2027-01-17,290,330!2027-01-13,284,330-->

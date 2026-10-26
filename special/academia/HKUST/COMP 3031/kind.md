@@ -39,7 +39,7 @@ In Scala 3, {@{a _higher‑kinded type_}@} is written {@{`F[_]`}@} and represent
 > foo[List, Int](_ :: Nil, 1)          // List(1)
 > foo[Option, String](Some(_), "fuel") // Option("fuel")
 > ```
-<!--SR:!2026-11-16,246,330!2026-11-26,254,330!2027-01-22,289,330!fsrs,2028-10-28T00:00:00.000Z,779,778.68656599,1,2,9,0,0,2026-09-10T00:00:00.000Z-->
+<!--SR:!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z!2026-11-26,254,330!2027-01-22,289,330!fsrs,2028-10-28T00:00:00.000Z,779,778.68656599,1,2,9,0,0,2026-09-10T00:00:00.000Z-->
 
 ## type functions
 
@@ -61,7 +61,7 @@ Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accep
 
 {@{A lawful monad}@} must satisfy {@{three laws: left unit, right unit, essential-associativity}@}. <!--SR:!2026-12-30,276,330!fsrs,2029-11-02T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-14T00:00:00.000Z-->
 
-- _left unit_: ::@:: `M.unit(x).flatMap(f) == f(x)` <!--SR:!2026-12-06,256,330!2026-11-16,246,330-->
+- _left unit_: ::@:: `M.unit(x).flatMap(f) == f(x)` <!--SR:!2026-12-06,256,330!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z-->
 - _right unit_: ::@:: `m.flatMap(M.unit) == m` <!--SR:!fsrs,2029-09-12T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-11-02T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z-->
 - _essential-associativity_: ::@:: `m.flatMap(f).flatMap(g) == m.flatMap(x => f(x).flatMap(g))` <!--SR:!fsrs,2027-09-27T00:00:00.000Z,379,378.55589827,5.50426382,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2029-03-05T00:00:00.000Z,864,864.05150394,1,2,9,0,0,2026-10-23T00:00:00.000Z-->
 
@@ -79,7 +79,7 @@ Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accep
 >     def map[U](f: T => U): F[U] = flatMap(f andThen unit)
 > ```
 >
-> {@{`unit`}@} {@{injects a value}@}, {@{`flatMap`}@} {@{chains computations}@}, and {@{`map`}@} is {@{derived from `flatMap`}@}. <!--SR:!2027-01-14,288,330!2026-11-16,246,330!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!2026-12-24,271,330!2026-11-16,246,330!2026-12-16,264,330!2026-11-27,255,330!2026-12-04,255,330-->
+> {@{`unit`}@} {@{injects a value}@}, {@{`flatMap`}@} {@{chains computations}@}, and {@{`map`}@} is {@{derived from `flatMap`}@}. <!--SR:!2027-01-14,288,330!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!2026-12-24,271,330!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z!2026-12-16,264,330!2026-11-27,255,330!2026-12-04,255,330-->
 
 {@{A concrete instance of `Monad`, `ListMonad`}@}, shows how {@{the abstraction works}@}: <!--SR:!fsrs,2029-02-10T00:00:00.000Z,846,845.59777468,1,2,9,0,0,2026-10-18T00:00:00.000Z!2027-01-10,285,330-->
 
@@ -161,7 +161,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >     def map[B](f: A => B): F[B] = ap(pure(f))(fa)
 > ```
 >
-> Intuitively, given {@{any type `T` (including function types)}@}, it can be lifted to {@{the `Applicative` context `F[_]`}@}. Recall that {@{`map`}@} applies {@{any given function `T => U` in the `Functor` context `F[_]`}@}, and {@{an alternative way to express this using `Applicative`}@} is to lift {@{the function to the `Applicative` context, and then apply it in said context}@}; hence {@{the need for `ap`}@}. <!--SR:!2027-01-22,291,330!2026-11-16,246,330!fsrs,2028-10-08T00:00:00.000Z,764,763.71011863,1,2,8,0,0,2026-09-05T00:00:00.000Z!2026-12-18,266,330!2026-12-28,274,330!2027-01-21,288,330!2027-01-13,287,330!2026-12-07,257,330!fsrs,2028-02-08T00:00:00.000Z,503,502.58537907,3.24197837,2,9,0,0,2026-09-23T00:00:00.000Z!fsrs,2029-09-17T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-03T00:00:00.000Z-->
+> Intuitively, given {@{any type `T` (including function types)}@}, it can be lifted to {@{the `Applicative` context `F[_]`}@}. Recall that {@{`map`}@} applies {@{any given function `T => U` in the `Functor` context `F[_]`}@}, and {@{an alternative way to express this using `Applicative`}@} is to lift {@{the function to the `Applicative` context, and then apply it in said context}@}; hence {@{the need for `ap`}@}. <!--SR:!2027-01-22,291,330!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z!fsrs,2028-10-08T00:00:00.000Z,764,763.71011863,1,2,8,0,0,2026-09-05T00:00:00.000Z!2026-12-18,266,330!2026-12-28,274,330!2027-01-21,288,330!2027-01-13,287,330!2026-12-07,257,330!fsrs,2028-02-08T00:00:00.000Z,503,502.58537907,3.24197837,2,9,0,0,2026-09-23T00:00:00.000Z!fsrs,2029-09-17T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-03T00:00:00.000Z-->
 
 {@{`Traverse`}@} extends {@{`Functor`}@}. It can transform {@{a structure of values (`F[A]`, where `F[_]` is the structure)}@} into {@{an effect of structure of new values (`G[F[B]]`, where `G[_]` is the effect and `F[_]` is the structure)}@}: <!--SR:!2027-01-10,285,330!2027-01-18,285,330!fsrs,2028-10-03T00:00:00.000Z,756,756.20650093,1,2,8,0,0,2026-09-08T00:00:00.000Z!2026-12-23,270,330-->
 
@@ -216,4 +216,4 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 {@{The signature}@} is {@{a _module type_}@}; {@{concrete modules}@} can be passed as {@{arguments to functions that need monadic behaviour}@}. <!--SR:!2027-01-05,281,330!2027-01-10,285,330!2026-11-23,251,330!2027-01-19,286,330-->
 
-{@{Other ecosystems}@} (e.g. {@{Rust}@} with {@{the `Monad` trait in libraries}@}, or {@{Kotlin’s}@} {@{`Arrow`}@}) follow {@{similar patterns}@}, but {@{Scala and Haskell}@} remain {@{the most idiomatic for higher‑kinded abstractions}@}. <!--SR:!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!fsrs,2029-09-06T00:00:00.000Z,1040,1039.96344033,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-10,255,330!2027-01-10,285,330!2026-12-09,259,330!fsrs,2029-08-19T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-10-28T00:00:00.000Z!2026-11-21,250,330!2026-11-16,245,330-->
+{@{Other ecosystems}@} (e.g. {@{Rust}@} with {@{the `Monad` trait in libraries}@}, or {@{Kotlin’s}@} {@{`Arrow`}@}) follow {@{similar patterns}@}, but {@{Scala and Haskell}@} remain {@{the most idiomatic for higher‑kinded abstractions}@}. <!--SR:!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!fsrs,2029-09-06T00:00:00.000Z,1040,1039.96344033,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-10,255,330!2027-01-10,285,330!2026-12-09,259,330!fsrs,2029-08-19T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-10-28T00:00:00.000Z!2026-11-21,250,330!fsrs,2029-11-08T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-16T00:00:00.000Z-->

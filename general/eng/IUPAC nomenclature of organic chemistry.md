@@ -429,7 +429,7 @@ Use suffixes (starts with hyphen (-)) before prefixes. Only use one suffix. Bond
 > - formula: {@{RX}@}
 > - prefix: {@{([prefix for halogen](#affixes%20for%20halogen))-, halo-}@}
 > - suffix: {@{([suffix for halogen](#affixes%20for%20halogen))}@}
-> - infix: {@{(locant)}@} <!--SR:!2026-11-16,1064,320!2033-10-31,3050,341!2030-07-23,2249,382!2028-03-22,1477,322!2036-10-14,3819,325!2030-03-19,2152,387-->
+> - infix: {@{(locant)}@} <!--SR:!fsrs,2037-04-09T00:00:00.000Z,3797,3797.2630598,1,2,11,0,0,2026-11-16T00:00:00.000Z!2033-10-31,3050,341!2030-07-23,2249,382!2028-03-22,1477,322!2036-10-14,3819,325!2030-03-19,2152,387-->
 
 <!-- markdownlint MD028 -->
 

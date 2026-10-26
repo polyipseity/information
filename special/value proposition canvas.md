@@ -216,7 +216,7 @@ find customer patterns
 - interview→::@::←capture new customer profile <!--SR:!2028-06-06,1146,329!2027-03-13,757,329-->
 - capture new customer profile→::@::←review interview, and repeat from "outline the interview" several times, like 10 times <!--SR:!fsrs,2031-07-29T00:00:00.000Z,1789,1789.38506263,2.98092302,2,10,0,0,2026-09-04T00:00:00.000Z!2027-05-19,785,309-->
 - review interview, and repeat from "outline the interview" several times, like 10 times→::@::←find customer patterns <!--SR:!2028-05-26,1054,289!2027-07-03,815,309-->
-- find customer patterns→::@::←_(end)_ <!--SR:!2029-12-07,1625,369!2026-11-16,675,329-->
+- find customer patterns→::@::←_(end)_ <!--SR:!2029-12-07,1625,369!fsrs,2034-01-22T00:00:00.000Z,2624,2624.00632723,1,2,10,0,0,2026-11-16T00:00:00.000Z-->
 
 <!--/pytextgen-->
 

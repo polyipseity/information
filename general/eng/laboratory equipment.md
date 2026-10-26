@@ -277,7 +277,7 @@ return chain.from_iterable([r.value for r in results])
 - ![volumetric flask](../../archives/Wikimedia%20Commons/10mL%20Messkolben%20mit%20Schliff%20A.jpg):@:[volumetric flask](volumetric%20flask.md) <!--SR:!fsrs,2035-07-21T11:18:47.653Z,3333,3333.18014831,1,2,11,0,0,2026-06-05T11:18:47.653Z-->
 - ![volumetric pipette/bulb pipette/belly pipette](../../archives/Wikimedia%20Commons/Vollpipetten.jpg):@:[volumetric pipette/bulb pipette/belly pipette](volumetric%20pipette.md) <!--SR:!2028-01-29,1192,290-->
 - ![wash bottle](../../archives/Wikimedia%20Commons/Lab%20wash-bottles%20water%20EtOH.jpg):@:[wash bottle](wash%20bottle.md) <!--SR:!2027-04-27,1154,350-->
-- ![watch glass](../../archives/Wikimedia%20Commons/Laboratory%20Watch%20glasses%20of%20different%20sizes%202.jpg):@:[watch glass](watch%20glass.md) <!--SR:!2026-11-16,952,330-->
+- ![watch glass](../../archives/Wikimedia%20Commons/Laboratory%20Watch%20glasses%20of%20different%20sizes%202.jpg):@:[watch glass](watch%20glass.md) <!--SR:!fsrs,2036-08-13T00:00:00.000Z,3558,3558.47844505,1,2,11,0,0,2026-11-16T00:00:00.000Z-->
 - ![weighing bottle](../../archives/Wikimedia%20Commons/Weighing%20bottles.jpg):@:[weighing bottle](weighing%20bottle.md) <!--SR:!2027-09-04,1255,350-->
 - ![wire gauze](../../archives/Wikimedia%20Commons/12.5cm%20by%2012.5cm%20Wire%20Gauze.jpg):@:[wire gauze](wire%20gauze.md) <!--SR:!2027-08-18,1241,350-->
 

@@ -124,7 +124,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{No. Stick to user requirements as closely as possible. Do not be creative.}@} <!--SR:!2026-11-16,304,340-->
+> - solution: {@{No. Stick to user requirements as closely as possible. Do not be creative.}@} <!--SR:!fsrs,2030-08-04T00:00:00.000Z,1357,1356.75558152,1,2,9,0,0,2026-11-16T00:00:00.000Z-->
 
 ---
 

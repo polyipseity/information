@@ -18,7 +18,7 @@ tags:
 
 - see: [general/direct-sequence spread spectrum](../../../../general/direct-sequence%20spread%20spectrum.md)
 
-{@{__Direct-sequence spread spectrum__ (__DSSS__)}@} transmits a data stream by {@{modulating it in the usual way—typically BPSK}@}—then {@{multiplying the baseband signal by a high‑frequency spreading sequence}@}. The result is {@{a wideband waveform}@} whose {@{spectrum is spread over many more chips than the original data bandwidth}@}. <!--SR:!2027-01-05,276,330!2026-11-16,235,330!2027-01-18,286,330!2027-01-08,278,330!2027-01-09,279,330-->
+{@{__Direct-sequence spread spectrum__ (__DSSS__)}@} transmits a data stream by {@{modulating it in the usual way—typically BPSK}@}—then {@{multiplying the baseband signal by a high‑frequency spreading sequence}@}. The result is {@{a wideband waveform}@} whose {@{spectrum is spread over many more chips than the original data bandwidth}@}. <!--SR:!2027-01-05,276,330!fsrs,2029-09-30T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-16T00:00:00.000Z!2027-01-18,286,330!2027-01-08,278,330!2027-01-09,279,330-->
 
 ## spread spectrum
 

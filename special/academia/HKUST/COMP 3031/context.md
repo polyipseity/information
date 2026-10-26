@@ -85,7 +85,7 @@ Scala provides {@{the `scala.math.Ordering` trait}@} to {@{represent the sorting
 > sort(ints)(Ordering.Int)
 > sort(strings)(Ordering.String)
 > ```
-<!--SR:!2026-12-22,320,349!2026-11-16,290,349!2027-01-24,345,349!2026-11-17,287,349-->
+<!--SR:!2026-12-22,320,349!fsrs,2030-07-19T00:00:00.000Z,1341,1340.80330866,1,2,9,0,0,2026-11-16T00:00:00.000Z!2027-01-24,345,349!2026-11-17,287,349-->
 
 ## `using`
 
@@ -171,7 +171,7 @@ Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` c
 > f(10)(using a)(using b)
 > f(10)(using a)(true)(using b)
 > ```
-<!--SR:!fsrs,2029-10-22T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-11-16,286,349!2027-01-26,347,349!2026-12-26,323,349!2026-12-20,318,349-->
+<!--SR:!fsrs,2029-10-22T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-10-03T00:00:00.000Z!fsrs,2030-07-03T00:00:00.000Z,1325,1324.74576884,1,2,9,0,0,2026-11-16T00:00:00.000Z!2027-01-26,347,349!2026-12-26,323,349!2026-12-20,318,349-->
 
 {@{Anonymous `using` clauses}@} let a method declare {@{an implicit parameter without naming it}@}; the compiler will still {@{supply and forward that instance to other methods automatically}@}. For example, <!--SR:!2027-01-17,338,349!2026-11-21,291,349!2026-11-23,297,349-->
 
@@ -366,7 +366,7 @@ Thus you can provide {@{multiple `given`s}@} and rely on Scala's rules to pick {
 
 ## type class
 
-In Scala {@{a _type class_}@} is {@{a generic trait}@} that declares {@{operations for a type `A`}@} and is instantiated by {@{`given` definitions for particular types}@}. {@{The pattern}@} is inspired by {@{Haskell's type-class mechanism}@} but expressed in Scala through {@{contextual parameters (`using`) and implicit resolution}@}. <!--SR:!fsrs,2028-09-25T00:00:00.000Z,720,720.2031195,2.49272837,2,9,0,0,2026-10-06T00:00:00.000Z!2026-11-26,296,349!2026-11-16,286,349!fsrs,2028-07-28T00:00:00.000Z,677,677.29649533,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-12-06,306,349!2026-12-31,327,349!2026-12-23,320,349-->
+In Scala {@{a _type class_}@} is {@{a generic trait}@} that declares {@{operations for a type `A`}@} and is instantiated by {@{`given` definitions for particular types}@}. {@{The pattern}@} is inspired by {@{Haskell's type-class mechanism}@} but expressed in Scala through {@{contextual parameters (`using`) and implicit resolution}@}. <!--SR:!fsrs,2028-09-25T00:00:00.000Z,720,720.2031195,2.49272837,2,9,0,0,2026-10-06T00:00:00.000Z!2026-11-26,296,349!fsrs,2030-07-03T00:00:00.000Z,1325,1324.74576884,1,2,9,0,0,2026-11-16T00:00:00.000Z!fsrs,2028-07-28T00:00:00.000Z,677,677.29649533,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-12-06,306,349!2026-12-31,327,349!2026-12-23,320,349-->
 
 {@{Type classes}@} turn {@{a type into a value}@} by providing {@{a trait and concrete instances}@}. They enable {@{_ad-hoc polymorphism_}@}: {@{different implementations}@} for {@{different types}@}. <!--SR:!2026-11-17,287,349!2026-12-11,311,349!2027-01-18,339,349!2026-11-27,297,349!2027-01-21,342,349!2026-11-27,297,349-->
 
@@ -416,7 +416,7 @@ With {@{such `given` instances}@} in scope {@{a polymorphic method}@} can be wri
 
 ### retroactive extension
 
-{@{A type class}@} can be {@{implemented for a data type}@} without {@{modifying its definition}@}. For example, {@{a rational number type}@}: <!--SR:!2026-11-29,299,349!2027-01-29,350,349!2026-11-16,286,349!fsrs,2030-06-24T00:00:00.000Z,1321,1320.72713296,1,2,9,0,0,2026-11-11T00:00:00.000Z-->
+{@{A type class}@} can be {@{implemented for a data type}@} without {@{modifying its definition}@}. For example, {@{a rational number type}@}: <!--SR:!2026-11-29,299,349!2027-01-29,350,349!fsrs,2030-07-03T00:00:00.000Z,1325,1324.74576884,1,2,9,0,0,2026-11-16T00:00:00.000Z!fsrs,2030-06-24T00:00:00.000Z,1321,1320.72713296,1,2,9,0,0,2026-11-11T00:00:00.000Z-->
 
 > [!example] __retroactively extending `Rational`__
 >

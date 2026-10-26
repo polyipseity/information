@@ -12,7 +12,7 @@ tags:
 
 - see: [general/phase-shift keying](../../../../general/phase-shift%20keying.md)
 
-{@{_M_-ary phase shift keying_ (M-PSK)}@} maps {@{$\log_2M$ bits onto one of $M$ equally spaced points}@} on {@{a unit circle in the constellation diagram}@}. The points form {@{a regular polygon}@}. {@{Amplitude stays constant}@} while {@{only phase varies}@}, so {@{M-PSK}@} is {@{immune to linear amplitude distortions}@} but {@{susceptible to phase noise and nonlinearities}@}. Increasing $M$ {@{does not increase bandwidth}@}, giving {@{high spectral efficiency}@} at the cost of {@{higher bit error rates}@}. <!--SR:!2027-01-01,289,340!2027-03-17,352,358!2027-04-09,373,365!2027-04-06,372,365!2027-05-14,403,365!2027-05-16,405,365!2027-05-07,397,365!2027-03-01,340,358!2027-01-03,291,340!2027-05-16,405,365!2027-01-14,300,340!2026-11-16,251,330-->
+{@{_M_-ary phase shift keying_ (M-PSK)}@} maps {@{$\log_2M$ bits onto one of $M$ equally spaced points}@} on {@{a unit circle in the constellation diagram}@}. The points form {@{a regular polygon}@}. {@{Amplitude stays constant}@} while {@{only phase varies}@}, so {@{M-PSK}@} is {@{immune to linear amplitude distortions}@} but {@{susceptible to phase noise and nonlinearities}@}. Increasing $M$ {@{does not increase bandwidth}@}, giving {@{high spectral efficiency}@} at the cost of {@{higher bit error rates}@}. <!--SR:!2027-01-01,289,340!2027-03-17,352,358!2027-04-09,373,365!2027-04-06,372,365!2027-05-14,403,365!2027-05-16,405,365!2027-05-07,397,365!2027-03-01,340,358!2027-01-03,291,340!2027-05-16,405,365!2027-01-14,300,340!fsrs,2029-12-01T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-16T00:00:00.000Z-->
 
 ## waveforms
 

@@ -14,7 +14,7 @@ Business {@{may not be able to satisfy all of their customers}@}. There are few 
 
 ## how
 
-A market segment is {@{a group of customers sharing the same interest, traits, and characteristics}@}. Effective segmentation requires {@{measurability}@}, {@{the ability to gather concrete information on the segment}@}; {@{substantiality}@}, {@{the profitability of the segment, affected by attractiveness or stickiness of products}@}; {@{accessibility}@}, {@{how reachable and servable the segment is}@}; and {@{actionability}@}, {@{feasibility for the company}@}. <!--SR:!2030-04-02,1575,290!2027-07-11,718,250!2026-12-03,390,366!2026-11-23,381,366!2026-12-16,400,366!2026-12-15,400,366!2026-12-04,390,366!2026-11-16,376,366!2026-11-23,382,366-->
+A market segment is {@{a group of customers sharing the same interest, traits, and characteristics}@}. Effective segmentation requires {@{measurability}@}, {@{the ability to gather concrete information on the segment}@}; {@{substantiality}@}, {@{the profitability of the segment, affected by attractiveness or stickiness of products}@}; {@{accessibility}@}, {@{how reachable and servable the segment is}@}; and {@{actionability}@}, {@{feasibility for the company}@}. <!--SR:!2030-04-02,1575,290!2027-07-11,718,250!2026-12-03,390,366!2026-11-23,381,366!2026-12-16,400,366!2026-12-15,400,366!2026-12-04,390,366!fsrs,2031-09-21T00:00:00.000Z,1770,1770.23290281,1,2,10,0,0,2026-11-16T00:00:00.000Z!2026-11-23,382,366-->
 
 ### segmentation variables
 

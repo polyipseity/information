@@ -189,7 +189,7 @@ In {@{the bivariate case}@} {@{the expression for the mutual information}@} is: 
 
 #### normally distributed and independent
 
-If $X$ and $Y$ are {@{normally distributed and [independent](statistical%20independence.md)}@}, this implies they are {@{"jointly normally distributed"}@}, i.e., {@{the pair $(X,Y)$ must have multivariate normal distribution}@}. However, {@{a pair of jointly normally distributed variables}@} need not {@{be independent \(would only be so if uncorrelated, $\rho =0$\)}@}. <!--SR:!2026-11-16,230,330!2027-08-07,450,379!2027-04-25,360,357!2027-04-21,356,357!2027-04-25,360,355-->
+If $X$ and $Y$ are {@{normally distributed and [independent](statistical%20independence.md)}@}, this implies they are {@{"jointly normally distributed"}@}, i.e., {@{the pair $(X,Y)$ must have multivariate normal distribution}@}. However, {@{a pair of jointly normally distributed variables}@} need not {@{be independent \(would only be so if uncorrelated, $\rho =0$\)}@}. <!--SR:!fsrs,2029-09-11T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-11-16T00:00:00.000Z!2027-08-07,450,379!2027-04-25,360,357!2027-04-21,356,357!2027-04-25,360,355-->
 
 #### two normally distributed random variables need not be jointly bivariate normal
 
