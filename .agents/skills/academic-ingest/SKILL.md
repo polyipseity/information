@@ -170,7 +170,7 @@ Identify the HTML source type before extraction:
 
 - __Canvas HTML__: URL contains `canvas.ust.hk`; has assignment metadata (title, due date, points, grade). Extract via `convert_canvas_submission`.
 - __Canvas announcement__: URL contains `canvas.ust.hk` and the page type is "Topic". Has a title and body but no grade or submission metadata. Extract the title and body verbatim, dropping the platform chrome ("This topic is closed for comments") and redacting an instructor or TA name the body itself contains as `\[redacted\]`; see "Announcement preservation" in `academic-crud-course-index`.
-- __PRS/iClicker HTML__: URL contains `prsmob.ust.hk/ars/`; has question text and numbered answer choices. Extract the quiz content directly; do not run `convert_canvas_submission`.
+- __PRS/iClicker HTML__: URL contains `prsmob.ust.hk/ars/`; has question text and numbered answer choices. Extract the quiz content directly; do not run `convert_canvas_submission`. The choices are the source's, so they keep the source's numbers and are never renumbered or lettered (see "Question blocks").
 - __Generic HTML__: neither pattern. Extract readable text.
 
 ### Document format handling (PDF, DOCX, PPTX)
@@ -423,7 +423,7 @@ When in-class content is not Canvas-sourced, use these templates instead of the 
 A content file (`lab.md`, `tutorial.md`, `lecture.md`) may hold several kinds of section, and the two kinds of flashcard answer to separate requirements:
 
 - __Prose + flashcards.__ Section prose, then `---`, then `Flashcards for this section are as follows:` and `::@::`/`:@:` cards. Use it for material that explains, lists, quotes, or records something.
-- __Question blocks.__ A verbatim question in a blockquote whose `- solution:`/`- explanation:` lines carry the clozes (see "PRS/iClicker quiz" below). Use it only for a question with an answer: a multiple-choice item, an exercise, or a prompt whose answer is a definable result.
+- __Question blocks.__ A question in a blockquote whose `- solution:`/`- explanation:`/`- annotation:` lines carry the clozes (see "Question blocks" below). Use it only for a question with an answer: a multiple-choice item, an exercise, or a prompt whose answer is a definable result.
 
 A section of nothing but question blocks needs no flashcard block, since each block answers itself. A section holding question blocks alongside anything else still needs the flashcard block, because the prose, lists, tables, or images around the blocks are content the reader is asked to recall. The two styles may share a section; what does not survive is a `- solution:`/`- explanation:` cloze with no blockquote question above it, or a `::@::`/`:@:` card written inside one.
 
@@ -433,7 +433,7 @@ A working prompt that asks what someone uses, remembers, or thinks is prose, not
 
 ### PRS/iClicker quiz (`<type>.md`)
 
-Use the blockquote question format, matching existing question files. Applies to labs, tutorials, and lectures with in-class PRS/iClicker quizzes.
+Use the blockquote question format of "Question blocks" below. Applies to labs, tutorials, and lectures with in-class PRS/iClicker quizzes.
 
 ```markdown
 ---
@@ -476,6 +476,8 @@ tags:
 > 3. <choice>
 > 4. <choice>
 >
+> ---
+>
 > - solution: <correct answer>
 > - explanation: <why this is correct>
 
@@ -484,15 +486,34 @@ tags:
 > <next question>
 ```
 
-One line per MC option. `solution` is required; `explanation` is optional, so remove the `- explanation:` line entirely when omitted.
+One line per choice, numbered as the source numbers it. `solution` is required; `explanation` is optional, so remove the `- explanation:` line entirely when omitted.
 
-### Cloze flashcards in question blocks
+### Question blocks
 
-Every question quote block carries clozes on its `- solution:` and `- explanation:` lines, never on the question text or the choices. One cloze per solution on the core result, formula, or decisive step; several on an explanation, one per claim or condition. Those two lines are authored text, so each acronym, abbreviation, or personal name on them carries its full form on the same line (see "Full forms on every card" in `create-flashcards`); the quoted question is verbatim and exempt.
+A question block is a blockquote whose question is its own paragraphs, followed by a `> ---` line and then the answer:
+
+```markdown
+> <question text>
+>
+> ---
+>
+> - solution: <the answer, clozed>
+> - explanation: <why it is the answer, clozed>
+```
+
+The question carries no label item. A `> - question:` line adds nothing the blockquote's own paragraph does not already say, and it reads as a field of a form rather than as a question. The `> ---` line separates the answer from the question, so the answer cannot be mistaken for another part of the question. Code sits in a fence at blockquote level, `> ``` `, never indented under a list item.
+
+The answer items are `- solution:`, `- explanation:` and `- annotation:`. `solution` is required, `explanation` carries the reasoning, and `annotation` records commentary beside the answer (a common-mistake note, a second reading).
+
+Every answer item carries clozes, never the question text or the choices. One cloze on a solution hides the core result, formula, or decisive step; several on an explanation hide one claim or condition each. A cloze hides at most 12 words of prose, because a longer one hides a whole sentence the reader cannot rebuild from what stays visible; math and code inside a cloze do not count toward that limit, so a formula may be hidden whole. Those lines are authored text, so each acronym, abbreviation, or personal name on them carries its full form on the same line (see "Full forms on every card" in `create-flashcards`); the quoted question is verbatim and exempt.
+
+A source that lists its choices gets them as a numbered list, one line per choice, inside the blockquote (`>     1. <choice>`). The choices are the source's, never the author's: a question whose source has no choices gets no list, and the numbers are digits, never letters. A source that states its choice inside the question stays that way, as `(Yes/No)` does.
 
 The closing delimiter is `}@}`, and a cloze holding LaTeX closes its math first: `{@{content $math$}@}`. For several questions, delegate cloze creation to a subagent with `create-flashcards`.
 
-Separate consecutive blockquote questions with `<!-- markdownlint MD028 -->`. Strip PRS UI chrome (navigation, error messages, "Pull down to refresh", "Your response is submitted") and keep only the question text and answer choices. Preserve LaTeX math notation.
+Separate consecutive blockquote questions with `<!-- markdownlint MD028 -->`. Strip PRS UI chrome (navigation, error messages, "Pull down to refresh", "Your response is submitted") and keep only the question text and its choices. Preserve LaTeX math notation.
+
+`academic-lint` enforces the shape: `question_block_label`, `question_block_fence_nested`, `question_block_options_unordered` and `question_block_options_lettered` reject the labelled item, the nested fence, and choices written as bullets or letters; `question_block_rule_missing` rejects a missing `> ---` in a note whose other blocks carry one; `cloze_giant` rejects a cloze past the word limit.
 
 ## Topic-note reconciliation (mandatory)
 

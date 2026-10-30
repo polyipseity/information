@@ -18,7 +18,7 @@ from pydantic_yaml import parse_yaml_raw_as
 from rich.console import Console
 from rich.text import Text
 
-from . import readability, rules, workspace
+from . import question_blocks, readability, rules, workspace
 from .changes import collect
 from .models import (
     AstNode,
@@ -43,6 +43,7 @@ from .utils import (
 RULE_REGISTRY = RuleRegistry()
 RULE_REGISTRY.include_registry(rules.RULE_REGISTRY)
 RULE_REGISTRY.include_registry(readability.RULE_REGISTRY)
+RULE_REGISTRY.include_registry(question_blocks.RULE_REGISTRY)
 
 
 """Public symbols exported by this module."""

@@ -49,6 +49,12 @@ A clean run is a shape check, not a content check, and a value that is internall
 
 In a whole-course run the warnings can come from untouched files. Re-run on the edited file to tell a pre-existing warning from an introduced one, and report the pre-existing ones instead of fixing them.
 
+## Question-block rules
+
+Six rules hold a question block to the shape documented in "Question blocks" in `academic-ingest`. `question_block_label` rejects a `- question:` item, `question_block_fence_nested` a fence indented under a list item, `question_block_options_unordered` choices written as bullets, and `question_block_options_lettered` choices numbered with letters rather than digits. A nested list under a question that is itself a list is a sub-part, not a choice list, so it stays silent; so does a roman marker such as `i.`.
+
+Two of the six carry a legacy allowance, because the older notes predate the shape and an unconditional error would fail them on the first run. `question_block_rule_missing` reports a block with no `> ---` only in a content file whose other answering blocks have one, and only when that block is the file's single deviation. `cloze_giant`, which reports a cloze hiding more than 12 words of prose, speaks only about a content file that separates question from answer in every block: at the time the rule was written, 695 of 804 answering blocks carried no separator and 226 clozes across 33 files ran past the limit, so the two allowances are what keeps the signal from drowning in that backlog.
+
 ## Options
 
 - `--json`: machine-readable output

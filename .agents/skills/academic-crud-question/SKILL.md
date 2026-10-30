@@ -60,7 +60,7 @@ tags:
 > <solution>
 ```
 
-1. __Add cloze flashcards__ to the solutions. A question page uses `{@{ }@}`, never QA format, and the clozes go on the `- solution:` and `- explanation:` lines rather than on the question text or the choices. Splitting prose from an equation, clozeing a technique name such as `{@{Swap sum order}@}`, and the per-line coverage target are in `create-flashcards`; the block layout is in "Cloze flashcards in question blocks" in `academic-ingest`.
+1. __Add cloze flashcards__ to the solutions. A question page uses `{@{ }@}`, never QA format, and the clozes go on the `- solution:`, `- explanation:` and `- annotation:` lines rather than on the question text or its choices. Splitting prose from an equation, clozeing a technique name such as `{@{Swap sum order}@}`, and the per-line coverage target are in `create-flashcards`; the block shape is in "Question blocks" in `academic-ingest`.
 2. __Create `questions/index.md`__ via `academic-crud-index` if this is the first question page.
 3. __Reconcile the topic notes.__ A problem set names far more than it develops. Start from the concepts whose solutions actually turn on, then extend, prune, or create them, or record that they are covered (see "Topic-note reconciliation (mandatory)" in `academic-ingest`). A question page is not the home of a durable concept, and a concept it only names needs no note.
 

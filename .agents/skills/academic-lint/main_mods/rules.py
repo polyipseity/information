@@ -1747,9 +1747,9 @@ def _flashcard_rule_exempt(path: Path) -> bool:
     )
 
 
-"""A blockquote list item labelled solution or explanation, the QA answer slot."""
+"""A blockquote list item labelled solution, explanation or annotation, the QA answer slot."""
 _SOLUTION_LABEL_RE = re.compile(
-    r"^[ \t]*>[ \t]*(?:-[ \t]*)?(?:solution|explanation)[ \t]*:",
+    r"^[ \t]*>[ \t]*(?:-[ \t]*)?(?:solution|explanation|annotation)[ \t]*:",
     re.IGNORECASE,
 )
 """A blockquote opening display math or an aligned environment, not a question."""
