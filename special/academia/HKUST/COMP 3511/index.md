@@ -50,17 +50,31 @@ The content is in teaching order.
 
 ## children
 
+- [labs/](labs/index.md)
+- [AGENTS](AGENTS.md)
 - [cache (computing)](cache%20(computing).md)
 - [cloud computing](cloud%20computing.md)
 - [computer multitasking](computer%20multitasking.md)
 - [computing environments](computing%20environments.md)
+- [deadlock (computer science)](deadlock%20(computer%20science).md)
+- [inter-process communication](inter-process%20communication.md)
 - [loadable kernel module](loadable%20kernel%20module.md)
 - [memory hierarchy](memory%20hierarchy.md)
 - [microkernel](microkernel.md)
 - [monolithic kernel](monolithic%20kernel.md)
+- [multilevel feedback queue](multilevel%20feedback%20queue.md)
 - [multiprocessing](multiprocessing.md)
+- [named pipe](named%20pipe.md)
 - [operating system](operating%20system.md)
+- [process (computing)](process%20(computing).md)
+- [producer–consumer problem](producer–consumer%20problem.md)
+- [pthreads](pthreads.md)
+- [readers–writers problem](readers–writers%20problem.md)
+- [scheduling (computing)](scheduling%20(computing).md)
+- [semaphore (programming)](semaphore%20(programming).md)
+- [synchronization (computer science)](synchronization%20(computer%20science).md)
 - [system call](system%20call.md)
+- [thread (computing)](thread%20(computing).md)
 - [units of information](units%20of%20information.md)
 - [virtualization](virtualization.md)
 - [von Neumann architecture](von%20Neumann%20architecture.md)
@@ -133,6 +147,27 @@ The content is in teaching order.
         - [memory hierarchy](memory%20hierarchy.md)
         - [units of information](units%20of%20information.md)
         - [von Neumann architecture](von%20Neumann%20architecture.md)
+    - operating system structures
+        - [loadable kernel module](loadable%20kernel%20module.md)
+        - [microkernel](microkernel.md)
+        - [monolithic kernel](monolithic%20kernel.md)
+        - [system call](system%20call.md)
+    - processes and threads
+        - [inter-process communication](inter-process%20communication.md)
+        - [named pipe](named%20pipe.md)
+        - [process (computing)](process%20(computing).md)
+        - [pthreads](pthreads.md)
+        - [thread (computing)](thread%20(computing).md)
+    - CPU scheduling
+        - [multilevel feedback queue](multilevel%20feedback%20queue.md)
+        - [scheduling (computing)](scheduling%20(computing).md)
+    - synchronization
+        - [producer–consumer problem](producer–consumer%20problem.md)
+        - [readers–writers problem](readers–writers%20problem.md)
+        - [semaphore (programming)](semaphore%20(programming).md)
+        - [synchronization (computer science)](synchronization%20(computer%20science).md)
+    - deadlock
+        - [deadlock (computer science)](deadlock%20(computer%20science).md)
     - parallelism
         - [multiprocessing](multiprocessing.md)
     - virtualized infrastructure
@@ -160,7 +195,7 @@ The content is in teaching order.
         - [§ interrupts](von%20Neumann%20architecture.md#interrupts)
     - [§ input and output subsystem](von%20Neumann%20architecture.md#input%20and%20output%20subsystem)
         - [§ device drivers and kernel services](von%20Neumann%20architecture.md#device%20drivers%20and%20kernel%20services)
-        - [§ programmed I/O and direct memory access](von%20Neumann%20architecture.md#programmed%20i/o%20and%20direct%20memory%20access)
+        - [§ programmed I/O and direct memory access](von%20Neumann%20architecture.md#programmed%20I/O%20and%20direct%20memory%20access)
 - [memory hierarchy](memory%20hierarchy.md)
     - [§ primary, secondary, and tertiary storage](memory%20hierarchy.md#primary,%20secondary,%20and%20tertiary%20storage)
     - [§ main memory](memory%20hierarchy.md#main%20memory)
@@ -188,6 +223,7 @@ The content is in teaching order.
 - [virtualization](virtualization.md)
     - [§ virtual machines and the hypervisor](virtualization.md#virtual%20machines%20and%20the%20hypervisor)
     - [§ system models](virtualization.md#system%20models)
+    - [§ machine switch](virtualization.md#machine%20switch)
         - [§ without virtualization](virtualization.md#without%20virtualization)
         - [§ with virtualization](virtualization.md#with%20virtualization)
     - [§ motivations for virtualization](virtualization.md#motivations%20for%20virtualization)
@@ -222,13 +258,19 @@ The content is in teaching order.
     - [§ composition](operating%20system.md#composition)
         - [§ system programs](operating%20system.md#system%20programs)
         - [§ linkers and loaders](operating%20system.md#linkers%20and%20loaders)
+    - [§ modes and protection](operating%20system.md#modes%20and%20protection)
     - [§ services](operating%20system.md#services)
         - [§ user interfaces](operating%20system.md#user%20interfaces)
 - [system call](system%20call.md)
-    - [§ API (Application Program Interface)](system%20call.md#api%20(application%20program%20interface))
-    - [§ implementation](system%20call.md#implementation)
+    - [§ API (Application Program Interface)](system%20call.md#API%20(Application%20Program%20Interface))
+        - [§ system calls behind a file copy](system%20call.md#system%20calls%20behind%20a%20file%20copy)
+        - [§ flags of open()](system%20call.md#flags%20of%20open())
+        - [§ permission bits](system%20call.md#permission%20bits)
+    - [§ system call interface](system%20call.md#system%20call%20interface)
+    - [§ mode transfer](system%20call.md#mode%20transfer)
+        - [§ walkthrough of a read()](system%20call.md#walkthrough%20of%20a%20read())
     - [§ parameter passing](system%20call.md#parameter%20passing)
-    - [§ types](system%20call.md#types)
+    - [§ categories](system%20call.md#categories)
 
 ## week 2 lecture 2
 
@@ -240,23 +282,316 @@ The content is in teaching order.
         - [§ design goals](operating%20system.md#design%20goals)
         - [§ structure](operating%20system.md#structure)
 - [monolithic kernel](monolithic%20kernel.md)
-    - [§ original UNIX structure](monolithic%20kernel.md#original%20unix%20structure)
-    - [§ Linux system structure](monolithic%20kernel.md#linux%20system%20structure)
+    - [§ original UNIX structure](monolithic%20kernel.md#original%20UNIX%20structure)
+    - [§ Linux system structure](monolithic%20kernel.md#Linux%20system%20structure)
 - [microkernel](microkernel.md)
     - [§ inter-process communication](microkernel.md#inter-process%20communication)
     - [§ advantages](microkernel.md#advantages)
     - [§ drawbacks](microkernel.md#drawbacks)
-    - [§ Mach and Darwin](microkernel.md#mach%20and%20darwin)
+    - [§ Mach and Darwin](microkernel.md#Mach%20and%20Darwin)
 - [loadable kernel module](loadable%20kernel%20module.md)
     - [§ design](loadable%20kernel%20module.md#design)
-    - [§ Linux and LKMs](loadable%20kernel%20module.md#linux%20and%20lkms)
-    - [§ Linux and LKMs](loadable%20kernel%20module.md#linux%20and%20lkms)
+    - [§ Linux and LKMs](loadable%20kernel%20module.md#Linux%20and%20LKMs)
+
+## week 3 lab 1
+
+- datetime: 2026-09-14T18:00:00+08:00/2026-09-14T19:50:00+08:00
+- venue: Lecture Theater E
+- topic: the lab environment and C programming in Linux
+- [lab 1](labs/lab%201/index.md)
+- [lab 2](labs/lab%202/index.md)
+
+## week 3 lecture 1
+
+- datetime: 2026-09-15T09:00:00+08:00/2026-09-15T10:20:00+08:00
+- venue: Rm 4619, Lift 31-32
+- topic: the process concept; process memory layout; process state; process control block; context switching
+- [process (computing)](process%20(computing).md)
+    - [§ process memory layout](process%20(computing).md#process%20memory%20layout)
+    - [§ process control block](process%20(computing).md#process%20control%20block)
+    - [§ process states and queues](process%20(computing).md#process%20states%20and%20queues)
+        - [§ state transitions](process%20(computing).md#state%20transitions)
+        - [§ ready queue and device queues](process%20(computing).md#ready%20queue%20and%20device%20queues)
+    - [§ context switch](process%20(computing).md#context%20switch)
+
+## week 3 lecture 2
+
+- datetime: 2026-09-17T09:00:00+08:00/2026-09-17T10:20:00+08:00
+- venue: Rm 4619, Lift 31-32
+- topic: process creation and termination; inter-process communication; shared memory; message passing
+- [process (computing)](process%20(computing).md)
+    - [§ process creation](process%20(computing).md#process%20creation)
+        - [§ fork() return values](process%20(computing).md#fork()%20return%20values)
+        - [§ exec() and the program image](process%20(computing).md#exec()%20and%20the%20program%20image)
+    - [§ process termination](process%20(computing).md#process%20termination)
+        - [§ wait() and the exit status](process%20(computing).md#wait()%20and%20the%20exit%20status)
+        - [§ decoding the exit status](process%20(computing).md#decoding%20the%20exit%20status)
+        - [§ zombie process](process%20(computing).md#zombie%20process)
+        - [§ orphan process](process%20(computing).md#orphan%20process)
+- [inter-process communication](inter-process%20communication.md)
+    - [§ cooperation between processes](inter-process%20communication.md#cooperation%20between%20processes)
+    - [§ shared memory](inter-process%20communication.md#shared%20memory)
+    - [§ message passing](inter-process%20communication.md#message%20passing)
+        - [§ direct and indirect communication](inter-process%20communication.md#direct%20and%20indirect%20communication)
+        - [§ synchronous and asynchronous communication](inter-process%20communication.md#synchronous%20and%20asynchronous%20communication)
+        - [§ buffering capacity](inter-process%20communication.md#buffering%20capacity)
+
+## week 4 lab 1
+
+- datetime: 2026-09-21T18:00:00+08:00/2026-09-21T19:50:00+08:00
+- venue: Lecture Theater E
+- topic: lecture review and Linux system programming; the introduction of project 1
+- [lab 3](labs/lab%203/index.md)
+
+## week 4 lecture 1
+
+- datetime: 2026-09-22T09:00:00+08:00/2026-09-22T10:20:00+08:00
+- venue: Rm 4619, Lift 31-32
+- topic: pipes; client-server communication; the thread concept
+- [inter-process communication](inter-process%20communication.md)
+    - [§ ordinary pipe](inter-process%20communication.md#ordinary%20pipe)
+        - [§ pipe() descriptors](inter-process%20communication.md#pipe()%20descriptors)
+    - [§ named pipe](inter-process%20communication.md#named%20pipe)
+    - [§ client-server communication](inter-process%20communication.md#client-server%20communication)
+        - [§ socket](inter-process%20communication.md#socket)
+        - [§ remote procedure call](inter-process%20communication.md#remote%20procedure%20call)
+- [named pipe](named%20pipe.md)
+    - [§ creating a named pipe](named%20pipe.md#creating%20a%20named%20pipe)
+    - [§ blocking open](named%20pipe.md#blocking%20open)
+    - [§ reading and writing](named%20pipe.md#reading%20and%20writing)
+    - [§ several writers](named%20pipe.md#several%20writers)
+        - [§ atomic writes and PIPE_BUF](named%20pipe.md#atomic%20writes%20and%20PIPE_BUF)
+    - [§ placement and permissions](named%20pipe.md#placement%20and%20permissions)
+- [thread (computing)](thread%20(computing).md)
+    - [§ thread components](thread%20(computing).md#thread%20components)
+    - [§ benefits of multithreading](thread%20(computing).md#benefits%20of%20multithreading)
+
+## week 4 lecture 2
+
+- datetime: 2026-09-24T09:00:00+08:00/2026-09-24T10:20:00+08:00
+- venue: Rm 4619, Lift 31-32
+- topic: multicore programming; user and kernel threads; multithreading models; threading issues
+- [thread (computing)](thread%20(computing).md)
+    - [§ concurrency and parallelism](thread%20(computing).md#concurrency%20and%20parallelism)
+    - [§ multicore programming](thread%20(computing).md#multicore%20programming)
+        - [§ design challenges](thread%20(computing).md#design%20challenges)
+        - [§ data and task parallelism](thread%20(computing).md#data%20and%20task%20parallelism)
+    - [§ user threads and kernel threads](thread%20(computing).md#user%20threads%20and%20kernel%20threads)
+    - [§ multithreading models](thread%20(computing).md#multithreading%20models)
+        - [§ many-to-one model](thread%20(computing).md#many-to-one%20model)
+        - [§ one-to-one model](thread%20(computing).md#one-to-one%20model)
+        - [§ many-to-many model](thread%20(computing).md#many-to-many%20model)
+        - [§ two-level model](thread%20(computing).md#two-level%20model)
+        - [§ lightweight process](thread%20(computing).md#lightweight%20process)
+    - [§ threading issues](thread%20(computing).md#threading%20issues)
+        - [§ fork() and exec() in a multithreaded process](thread%20(computing).md#fork()%20and%20exec()%20in%20a%20multithreaded%20process)
+        - [§ signals and their default actions](thread%20(computing).md#signals%20and%20their%20default%20actions)
+        - [§ signal delivery in a multithreaded process](thread%20(computing).md#signal%20delivery%20in%20a%20multithreaded%20process)
+        - [§ thread cancellation](thread%20(computing).md#thread%20cancellation)
+- [pthreads](pthreads.md)
+    - [§ thread handles and creation](pthreads.md#thread%20handles%20and%20creation)
+        - [§ void pointer argument](pthreads.md#void%20pointer%20argument)
+    - [§ joining and ending a thread](pthreads.md#joining%20and%20ending%20a%20thread)
+        - [§ return values](pthreads.md#return%20values)
+    - [§ synchronization](pthreads.md#synchronization)
+        - [§ mutex](pthreads.md#mutex)
+        - [§ condition variable](pthreads.md#condition%20variable)
+        - [§ signal and broadcast](pthreads.md#signal%20and%20broadcast)
+    - [§ practices](pthreads.md#practices)
+        - [§ mutex practice](pthreads.md#mutex%20practice)
+        - [§ condition practice](pthreads.md#condition%20practice)
+    - [§ building and linking](pthreads.md#building%20and%20linking)
+
+## week 5 lab 1
+
+- datetime: 2026-09-28T18:00:00+08:00/2026-09-28T19:50:00+08:00
+- venue: Lecture Theater E
+- status: no class
+
+## week 5 lecture 1
+
+- datetime: 2026-09-29T09:00:00+08:00/2026-09-29T10:20:00+08:00
+- venue: Rm 4619, Lift 31-32
+- topic: basic concepts of CPU scheduling; scheduling criteria; the dispatcher; preemptive and non-preemptive scheduling
+- [scheduling (computing)](scheduling%20(computing).md)
+    - [§ scheduling basics](scheduling%20(computing).md#scheduling%20basics)
+        - [§ CPU and I/O bursts](scheduling%20(computing).md#CPU%20and%20I/O%20bursts)
+        - [§ scheduling criteria](scheduling%20(computing).md#scheduling%20criteria)
+        - [§ dispatcher and dispatch latency](scheduling%20(computing).md#dispatcher%20and%20dispatch%20latency)
+        - [§ preemptive and non-preemptive scheduling](scheduling%20(computing).md#preemptive%20and%20non-preemptive%20scheduling)
+        - [§ long-term, medium-term and short-term schedulers](scheduling%20(computing).md#long-term,%20medium-term%20and%20short-term%20schedulers)
+
+## week 5 lecture 2
+
+- datetime: 2026-10-01T09:00:00+08:00/2026-10-01T10:20:00+08:00
+- venue: Rm 4619, Lift 31-32
+- status: public holiday: National Day
+
+## week 6 lab 1
+
+- datetime: 2026-10-05T18:00:00+08:00/2026-10-05T19:50:00+08:00
+- venue: Lecture Theater E
+- topic: named pipes and the Pthread library
+- [lab 4](labs/lab%204/index.md)
+
+## week 6 lecture 1
+
+- datetime: 2026-10-06T09:00:00+08:00/2026-10-06T10:20:00+08:00
+- venue: Rm 4619, Lift 31-32
+- topic: first-come first-served; shortest job first; shortest remaining time first; round robin; priority; multilevel queue
+- [scheduling (computing)](scheduling%20(computing).md)
+    - [§ scheduling algorithms](scheduling%20(computing).md#scheduling%20algorithms)
+        - [§ first-come, first-served scheduling](scheduling%20(computing).md#first-come,%20first-served%20scheduling)
+        - [§ shortest job first scheduling](scheduling%20(computing).md#shortest%20job%20first%20scheduling)
+        - [§ shortest remaining time first scheduling](scheduling%20(computing).md#shortest%20remaining%20time%20first%20scheduling)
+        - [§ round-robin scheduling](scheduling%20(computing).md#round-robin%20scheduling)
+        - [§ priority scheduling](scheduling%20(computing).md#priority%20scheduling)
+    - [§ queue-based scheduling](scheduling%20(computing).md#queue-based%20scheduling)
+        - [§ multilevel queue scheduling](scheduling%20(computing).md#multilevel%20queue%20scheduling)
+
+## week 6 lecture 2
+
+- datetime: 2026-10-08T09:00:00+08:00/2026-10-08T10:20:00+08:00
+- venue: Rm 4619, Lift 31-32
+- topic: multilevel feedback queue; thread and multiprocessor scheduling; real-time scheduling; algorithm evaluation
+- [multilevel feedback queue](multilevel%20feedback%20queue.md)
+    - [§ queue structure and parameters](multilevel%20feedback%20queue.md#queue%20structure%20and%20parameters)
+    - [§ three-queue trace](multilevel%20feedback%20queue.md#three-queue%20trace)
+    - [§ starvation and aging](multilevel%20feedback%20queue.md#starvation%20and%20aging)
+- [scheduling (computing)](scheduling%20(computing).md)
+    - [§ scheduling algorithms](scheduling%20(computing).md#scheduling%20algorithms)
+        - [§ next CPU burst estimation](scheduling%20(computing).md#next%20CPU%20burst%20estimation)
+    - [§ queue-based scheduling](scheduling%20(computing).md#queue-based%20scheduling)
+        - [§ multilevel feedback queue scheduling](scheduling%20(computing).md#multilevel%20feedback%20queue%20scheduling)
+    - [§ thread and multiprocessor scheduling](scheduling%20(computing).md#thread%20and%20multiprocessor%20scheduling)
+        - [§ process-contention scope and system-contention scope](scheduling%20(computing).md#process-contention%20scope%20and%20system-contention%20scope)
+        - [§ symmetric and asymmetric multiprocessing scheduling](scheduling%20(computing).md#symmetric%20and%20asymmetric%20multiprocessing%20scheduling)
+        - [§ load balancing and processor affinity](scheduling%20(computing).md#load%20balancing%20and%20processor%20affinity)
+        - [§ multicore scheduling](scheduling%20(computing).md#multicore%20scheduling)
+    - [§ real-time scheduling](scheduling%20(computing).md#real-time%20scheduling)
+        - [§ rate-monotonic scheduling](scheduling%20(computing).md#rate-monotonic%20scheduling)
+        - [§ earliest deadline first](scheduling%20(computing).md#earliest%20deadline%20first)
+    - [§ starvation and fairness](scheduling%20(computing).md#starvation%20and%20fairness)
+        - [§ starvation by policy](scheduling%20(computing).md#starvation%20by%20policy)
+    - [§ algorithm evaluation](scheduling%20(computing).md#algorithm%20evaluation)
+
+## week 7 lab 1
+
+- datetime: 2026-10-12T18:00:00+08:00/2026-10-12T19:50:00+08:00
+- venue: Lecture Theater E
+- topic: CPU scheduling review; the multilevel feedback queue project
+- [lab 5](labs/lab%205/index.md)
+
+## week 7 lecture 1
+
+- datetime: 2026-10-13T09:00:00+08:00/2026-10-13T10:20:00+08:00
+- venue: Rm 4619, Lift 31-32
+- topic: race conditions; the critical-section problem; Peterson's solution; synchronization hardware; mutex locks
+- [synchronization (computer science)](synchronization%20(computer%20science).md)
+    - [§ race conditions and the critical section](synchronization%20(computer%20science).md#race%20conditions%20and%20the%20critical%20section)
+        - [§ race conditions](synchronization%20(computer%20science).md#race%20conditions)
+        - [§ critical section problem](synchronization%20(computer%20science).md#critical%20section%20problem)
+    - [§ software and hardware support](synchronization%20(computer%20science).md#software%20and%20hardware%20support)
+        - [§ Peterson's solution](synchronization%20(computer%20science).md#Peterson's%20solution)
+        - [§ test-and-set and compare-and-swap](synchronization%20(computer%20science).md#test-and-set%20and%20compare-and-swap)
+        - [§ sketch proof of the bounded-waiting lock](synchronization%20(computer%20science).md#sketch%20proof%20of%20the%20bounded-waiting%20lock)
+        - [§ atomic variables](synchronization%20(computer%20science).md#atomic%20variables)
+    - [§ mutex locks](synchronization%20(computer%20science).md#mutex%20locks)
+        - [§ adaptive mutex](synchronization%20(computer%20science).md#adaptive%20mutex)
+
+## week 7 lecture 2
+
+- datetime: 2026-10-15T09:00:00+08:00/2026-10-15T10:20:00+08:00
+- venue: Rm 4619, Lift 31-32
+- topic: semaphores; condition variables; the producer-consumer problem; synchronization examples; readers and writers
+- [producer–consumer problem](producer–consumer%20problem.md)
+    - [§ problem statement](producer–consumer%20problem.md#problem%20statement)
+    - [§ attempt with a shared counter](producer–consumer%20problem.md#attempt%20with%20a%20shared%20counter)
+    - [§ semaphore and condition-variable solutions](producer–consumer%20problem.md#semaphore%20and%20condition-variable%20solutions)
+        - [§ mutex with two counting semaphores](producer–consumer%20problem.md#mutex%20with%20two%20counting%20semaphores)
+        - [§ mutex with conditional waiting](producer–consumer%20problem.md#mutex%20with%20conditional%20waiting)
+    - [§ unbounded buffer variant](producer–consumer%20problem.md#unbounded%20buffer%20variant)
+- [readers–writers problem](readers–writers%20problem.md)
+    - [§ reader and writer access rule](readers–writers%20problem.md#reader%20and%20writer%20access%20rule)
+    - [§ semaphore initialisation](readers–writers%20problem.md#semaphore%20initialisation)
+    - [§ reader-preference solution](readers–writers%20problem.md#reader-preference%20solution)
+        - [§ count-guarded reader access](readers–writers%20problem.md#count-guarded%20reader%20access)
+        - [§ data gate as writer lock](readers–writers%20problem.md#data%20gate%20as%20writer%20lock)
+        - [§ starvation of writers](readers–writers%20problem.md#starvation%20of%20writers)
+        - [§ comparison with the writer-preference solution](readers–writers%20problem.md#comparison%20with%20the%20writer-preference%20solution)
+    - [§ writer-preference solution](readers–writers%20problem.md#writer-preference%20solution)
+        - [§ gated reader access](readers–writers%20problem.md#gated%20reader%20access)
+        - [§ gate shutdown by a writer](readers–writers%20problem.md#gate%20shutdown%20by%20a%20writer)
+        - [§ starvation of readers](readers–writers%20problem.md#starvation%20of%20readers)
+        - [§ comparison with the reader-preference solution](readers–writers%20problem.md#comparison%20with%20the%20reader-preference%20solution)
+    - [§ reader-writer lock](readers–writers%20problem.md#reader-writer%20lock)
+- [semaphore (programming)](semaphore%20(programming).md)
+    - [§ operations](semaphore%20(programming).md#operations)
+        - [§ semaphore calls](semaphore%20(programming).md#semaphore%20calls)
+    - [§ semaphore kinds](semaphore%20(programming).md#semaphore%20kinds)
+        - [§ binary semaphore](semaphore%20(programming).md#binary%20semaphore)
+        - [§ counting semaphore](semaphore%20(programming).md#counting%20semaphore)
+        - [§ ordering use](semaphore%20(programming).md#ordering%20use)
+    - [§ blocking implementation](semaphore%20(programming).md#blocking%20implementation)
+    - [§ implementation with test-and-set](semaphore%20(programming).md#implementation%20with%20test-and-set)
+    - [§ pitfalls](semaphore%20(programming).md#pitfalls)
+- [synchronization (computer science)](synchronization%20(computer%20science).md)
+    - [§ semaphores](synchronization%20(computer%20science).md#semaphores)
+        - [§ implementation](synchronization%20(computer%20science).md#implementation)
+    - [§ condition variables](synchronization%20(computer%20science).md#condition%20variables)
+        - [§ waking waiters](synchronization%20(computer%20science).md#waking%20waiters)
+
+## week 8 lab 1
+
+- datetime: 2026-10-19T18:00:00+08:00/2026-10-19T19:50:00+08:00
+- venue: Lecture Theater E
+- status: public holiday: the day following Chung Yeung Festival
+
+## week 8 lecture 1
+
+- datetime: 2026-10-20T09:00:00+08:00/2026-10-20T10:20:00+08:00
+- venue: Rm 4619, Lift 31-32
+- topic: deadlock characterization; the resource-allocation graph; deadlock prevention
+- [deadlock (computer science)](deadlock%20(computer%20science).md)
+    - [§ system model](deadlock%20(computer%20science).md#system%20model)
+    - [§ resource-allocation graph](deadlock%20(computer%20science).md#resource-allocation%20graph)
+    - [§ wait-for graph](deadlock%20(computer%20science).md#wait-for%20graph)
+    - [§ prevention](deadlock%20(computer%20science).md#prevention)
+        - [§ mutual exclusion](deadlock%20(computer%20science).md#mutual%20exclusion)
+        - [§ hold and wait](deadlock%20(computer%20science).md#hold%20and%20wait)
+        - [§ no preemption](deadlock%20(computer%20science).md#no%20preemption)
+        - [§ circular wait](deadlock%20(computer%20science).md#circular%20wait)
+
+## week 8 lecture 2
+
+- datetime: 2026-10-22T09:00:00+08:00/2026-10-22T10:20:00+08:00
+- venue: Rm 4619, Lift 31-32
+- topic: deadlock avoidance; the banker's algorithm; deadlock detection and recovery from deadlock
+- [deadlock (computer science)](deadlock%20(computer%20science).md)
+    - [§ avoidance](deadlock%20(computer%20science).md#avoidance)
+    - [§ banker's algorithm](deadlock%20(computer%20science).md#banker's%20algorithm)
+        - [§ state structures](deadlock%20(computer%20science).md#state%20structures)
+        - [§ safety algorithm](deadlock%20(computer%20science).md#safety%20algorithm)
+        - [§ worst-case assumption](deadlock%20(computer%20science).md#worst-case%20assumption)
+        - [§ resource request](deadlock%20(computer%20science).md#resource%20request)
+        - [§ five-process walkthrough](deadlock%20(computer%20science).md#five-process%20walkthrough)
+    - [§ detection](deadlock%20(computer%20science).md#detection)
+        - [§ start state of the detection algorithm](deadlock%20(computer%20science).md#start%20state%20of%20the%20detection%20algorithm)
+        - [§ comparison with the banker's algorithm](deadlock%20(computer%20science).md#comparison%20with%20the%20banker's%20algorithm)
+    - [§ recovery](deadlock%20(computer%20science).md#recovery)
+
+## week 9 lab 1
+
+- datetime: 2026-10-26T18:00:00+08:00/2026-10-26T19:50:00+08:00
+- venue: Lecture Theater E
+- topic: synchronization review
+- [lab 6](labs/lab%206/index.md)
 
 ## midterm examination
 
-- datetime: 2026-10-29T19:00:00+08:00/2026-10-29T21:00:00+08:00
-- venue: \[missing\]
-- scope: \[missing\]
+- datetime: 2026-10-29T20:00:00+08:00/2026-10-29T22:00:00+08:00
+- venue: LTD
+- scope: the material through synchronization tools
 - format:
     - calculator: no
     - cheatsheet: \[missing\]
@@ -266,29 +601,28 @@ The content is in teaching order.
 - grade: \[missing\]
 - statistics: \[missing\]
 - breakdown: \[missing\]
-- note: \[missing\]
+- note: The examination runs 2 hours.
 - report: \[missing\]
 
 ---
 
-> __Updated Midterm Exam Schedule__
+> __Updated Midterm Exam Details__
 >
 > The midterm exam schedule:
 >
 > - Date: __29-Oct-2026 (Thu)__
-> - Time: __08:00PM - 10:00PM__
+> - Time: __08:00PM - 10:00PM__ (Note: 2 hours for the midterm exam)
 >     - _Note: The university cannot find suitable venues for 7pm-9pm_
 > - Venues:
 >     - L1 students: LTD
 >     - L2 students: LSKG012
 >     - L3 students: LTB
->
-> Please mark the schedule on your calendar. Please inform the course instructor ASAP if you have time conflict with other midterm exams.
+> - Coverage: Chapters 1-6 (up to Synchronization tools)
 
 ## final examination
 
-- datetime: \[missing\]
-- venue: \[missing\]
+- datetime: 2026-12-19T12:30:00+08:00/2026-12-19T15:00:00+08:00
+- venue: S H Ho Sports Hall
 - scope: \[missing\]
 - format:
     - calculator: no
@@ -299,5 +633,15 @@ The content is in teaching order.
 - grade: \[missing\]
 - statistics: \[missing\]
 - breakdown: \[missing\]
-- note: \[missing\]
+- note: The examination runs 2.5 hours.
 - report: \[missing\]
+
+---
+
+> __Final Exam Schedule__
+>
+> Note: Please do not mess up with the midterm exam schedule The university released the COMP3511 Final Exam schedule:
+>
+> - Date: __19-Dec-2026 (Sat)__
+> - Time: __12:30PM - 03:00PM__ (Note: We only use 2.5 hours instead of 3 hours for the final exam)
+> - Venue: S H Ho Sports Hall

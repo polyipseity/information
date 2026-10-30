@@ -10,21 +10,21 @@ tags:
 
 # computing environments
 
-What an operating system looks like depends first of all on the device it runs on. Each environment weighs performance, fairness, usability and time limits differently. A mainframe, a workstation, a phone, an appliance and a real-time controller are all computers, but they are not the same kind of computing environment.
+An operating system is shaped by the device it runs on. A mainframe, a workstation, a phone, an appliance and a real-time controller are all computers, yet each balances performance, fairness, usability and time limits differently.
 
-__Shared computers__ such as mainframes or minicomputers try to keep every user satisfied. They balance performance against fairness. __Individual systems__ such as workstations have their own resources, so performance matters more than fairness, though they may still draw on shared servers.
+__Shared computers__ such as mainframes and minicomputers aim to satisfy every user, so they trade performance against fairness. __Individual systems__ such as workstations own their resources, so performance beats fairness, though they may use a shared server.
 
-__Mobile devices__ such as smartphones have few resources. They carry sensors beside their processors. They target one interface, a touch screen or voice control such as Apple's Siri, and they are built for usability and battery life.
+__Mobile devices__ such as smartphones have few resources and sensors beside the processor. Each offers one interface: a touch screen, or voice control such as Apple's Siri. The design targets usability and battery life.
 
-Devices with little or no user interface form another environment. In __embedded systems__ the operating system is pre-installed in read-only memory (ROM), inside air conditioners, toasters, automobiles, ships and spacecraft. __Real-time systems__ go further and hold strict time limits. Computing sold as a service is a further environment, recorded in [cloud computing](cloud%20computing.md).
+In embedded systems the operating system comes installed in read-only memory (ROM), on devices with little or no user interface: air conditioners, toasters, automobiles, ships and spacecraft. __Real-time systems__ must also keep to strict time limits. Computing sold as a service is another environment: [cloud computing](cloud%20computing.md).
 
 ---
 
 Flashcards for this section are as follows:
 
-- what determines the operating system's shape ::@:: It depends first and foremost on the target devices.
-- shared computers ::@:: The system tries to keep every user satisfied, balancing performance against fairness.
-- individual systems ::@:: Workstations have their own resources, so performance beats fairness, though they may still use shared servers.
-- mobile devices ::@:: Smartphones and handhelds have few resources. They carry sensors beside their processors, and they are built for usability and battery life.
-- embedded systems ::@:: A device with little or no interface runs the system from read-only memory (ROM), in air conditioners, toasters, automobiles, ships and spacecraft.
-- real-time systems ::@:: The system works under strict time limits.
+- what an operating system's shape follows ::@:: The device it runs on decides it.
+- what a shared computer such as a mainframe balances ::@:: Performance against fairness, so that every user stays satisfied.
+- why performance beats fairness on a workstation ::@:: Workstations own their resources, though they may use a shared server.
+- mobile devices such as smartphones ::@:: A smartphone has few resources and sensors beside its processor, and its design targets usability and battery life.
+- where an embedded system keeps its operating system ::@:: Read-only memory (ROM), pre-installed on devices with little or no interface: air conditioners, toasters, automobiles, ships and spacecraft.
+- what a real-time system must meet ::@:: Strict time limits on when work finishes.

@@ -11,48 +11,48 @@ tags:
 
 # cache (computing)
 
-Caching is the most reused trick in computer systems: a small, fast store holds copies of what a large, slow store is most likely to be asked for next. Operating systems use it for memory, address translation, file blocks, file names, file directories, and network routes, so the same few ideas recur at every level: hit or miss, the hit ratio, and locality of reference.
+A cache keeps copies of what a large, slow store is most likely to be asked for next, in a small, fast store. Operating systems use one for memory, address translation, file blocks, file names, file directories, and network routes. Each level asks the same questions: whether an access hits, what fraction hit, which items are requested again.
 
-An access first checks whether the requested information is already in the cache. If it is, that is a __hit__ and the information is used directly, which is fast. If not, that is a __miss__, and the data is copied from the slower storage into the cache and used there.
+An access checks the cache first. A __hit__ means the information is there, and the data is used directly, which is fast. A __miss__ means it is absent: the data is copied from the slower storage into the cache, then used.
 
-Caching pays off whenever the frequent case becomes much faster and the infrequent case becomes much less dominant. The same structure appears at every level of the [memory hierarchy](memory%20hierarchy.md), from the caches in the processor down to those the operating system keeps for files and directories.
+Caching pays off when the frequent case gets much faster, so the infrequent case stops dominating the average. The [memory hierarchy](memory%20hierarchy.md) repeats this at every level, from the caches inside the processor down to the ones the operating system keeps for files and directories.
 
 ---
 
 Flashcards for this section are as follows:
 
-- caching definition ::@:: Copying a subset of information from slower, larger storage to faster, smaller storage, so frequent cases become faster and infrequent ones less dominant.
-- levels at which caching is performed ::@:: Caching is performed at many levels, including memory, address translation, file blocks, file names, file directories, and network routes.
-- caching inside an operating system ::@:: Whenever a subset of content needs to be stored in a faster device, caching applies; part of a file directory stored on a hard disk can also be cached in memory.
-- cache versus cached storage size ::@:: The cache is usually much smaller than the storage it caches.
-- cache hit ::@:: The information is already inside the cache, so it is used directly, which is fast.
-- cache miss ::@:: The information is not in the cache, so the data is copied in from the slower storage and used there.
+- what is caching? ::@:: Caching copies a subset of information from slower, larger storage into faster, smaller storage, so the frequent case gets faster and pulls the average down.
+- caching levels ::@:: Caching happens at memory, address translation, file blocks, file names, file directories, and network routes.
+- where an operating system caches ::@:: Caching applies wherever a subset of content must sit in a faster device, so part of a file directory on disk can be cached in memory.
+- cache size versus storage size ::@:: A cache is usually much smaller than the storage it caches.
+- cache hit ::@:: The requested information is already in the cache, so it is used directly.
+- cache miss ::@:: The information is not in the cache, so the data is copied in from the slower storage and used.
 
 ## cache management and performance
 
-Because the cache is much smaller than the storage it caches, the system must choose what to keep: cache management is choosing the cache size and the replacement policy.
+The cache is much smaller than the storage it caches, so the system must choose what to keep; cache management is that choice of cache size and replacement policy.
 
-A cache's quality is summarized by the __cache hit ratio__, the percentage of content found in the cache. The hit ratio gives the average access time, $\text{average access time} = (\text{hit ratio} \times \text{hit time}) + (\text{miss ratio} \times \text{miss time})$, where the miss ratio is the complement of the hit ratio.
+The __cache hit ratio__ is the percentage of content found in the cache. It gives the average access time, $\text{average access time} = (\text{hit ratio} \times \text{hit time}) + (\text{miss ratio} \times \text{miss time})$, where the miss ratio is the complement of the hit ratio.
 
 ---
 
 Flashcards for this section are as follows:
 
-- cache management ::@:: Because the cache is much smaller than the storage being cached, the design must decide the cache size and the replacement policy.
-- cache hit ratio ::@:: The percentage of content found in the cache; the major criterion used to judge a cache.
+- what does cache management decide? ::@:: Cache management sets the cache size and the replacement policy, which matter because the cache is smaller than the storage it caches.
+- cache hit ratio ::@:: The percentage of content found in the cache, and the main criterion for judging a cache.
 - average access time: how do $\text{hit ratio}$, $\text{hit time}$, $\text{miss ratio}$, and $\text{miss time}$ combine? ::@:: $\text{average access time} = (\text{hit ratio} \times \text{hit time}) + (\text{miss ratio} \times \text{miss time})$.
 
 ## locality of reference
 
-Caching works only because programs do not touch memory uniformly. __Temporal locality__, or locality in time, means recently accessed items are likely to be accessed again. __Spatial locality__, or locality in space, means the contiguous blocks near a recently accessed item are likely to be accessed shortly, for both data and program code.
+Caching works because programs do not touch memory uniformly. __Temporal locality__, locality in time, means an item accessed recently is likely to be accessed again. __Spatial locality__, locality in space, is the other half: contiguous blocks near a recently accessed item are likely to be accessed soon, in both data and program code.
 
-Without locality caching would not work: if every item were equally likely to be accessed, the cache would hold a uniformly random subset of the storage, and the hit chance would not improve.
+Without locality a cache would not help: if every item were equally likely to be accessed, it would hold a uniformly random subset of storage and the hit chance would not improve.
 
 ---
 
 Flashcards for this section are as follows:
 
-- temporal locality ::@:: Locality in time: items that were accessed recently are likely to be accessed again.
-- spatial locality ::@:: Locality in space: the contiguous blocks near a recently accessed item are likely to be accessed shortly, for both data and program.
-- why caching works at all ::@:: Caching works because of locality of reference; without an access-locality pattern it would never work.
-- equal-probability counterexample ::@:: If all items were equally likely to be accessed, the chance of finding a needed item would not improve.
+- what is temporal locality? ::@:: An item accessed recently is likely to be accessed again.
+- what is spatial locality? ::@:: Contiguous blocks near a recently accessed item are likely to be accessed soon, in both data and program code.
+- why does caching work at all? ::@:: Caching works because of locality of reference; without an access pattern it would not work.
+- what happens if all items are equally likely to be accessed? ::@:: The chance of finding a needed item would not improve.
