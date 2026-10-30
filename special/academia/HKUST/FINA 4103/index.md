@@ -54,6 +54,8 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
 - [market microstructure](market%20microstructure.md)
 - [market order](market%20order.md)
 - [market structure (finance)](market%20structure%20(finance).md)
+- [`midterm examination cheatsheet.pdf`](midterm%20examination%20cheatsheet.pdf)
+- [`midterm examination cheatsheet.typ`](midterm%20examination%20cheatsheet.typ)
 - [national market system](national%20market%20system.md)
 - [no-trade theorem](no-trade%20theorem.md)
 - [non-routable order](non-routable%20order.md)
@@ -490,6 +492,8 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
 - format:
     - calculator: yes (smartphones and other devices are not allowed)
     - cheatsheet: yes (one A4 sheet, both sides)
+        - [`midterm examination cheatsheet.pdf`](midterm%20examination%20cheatsheet.pdf)
+        - [`midterm examination cheatsheet.typ`](midterm%20examination%20cheatsheet.typ)
     - open book: no
     - open notes: no
     - questions: multiple choice and short-answer questions
