@@ -27,7 +27,7 @@ Flashcards for this section are as follows:
 
 Sending without waiting keeps the link busy. The window has to cover a round trip, else the sender runs dry before the first acknowledgement returns.
 
-On a $50\text{ Mbps}$ path with a $100\text{ ms}$ one-way delay, so a $200\text{ ms}$ round trip, a window of $8$ packets of $1460$ bytes moves $58{,}400$ bytes per second, eight times what [stop-and-wait](stop-and-wait%20ARQ.md) reaches on the same path.
+On a $50\text{ Mbps}$ path with $100\text{ ms}$ of propagation delay each way, so a round trip of about $200\text{ ms}$, a window of $8$ packets of $1460$ bytes moves $58{,}400$ bytes per second, eight times what [stop-and-wait](stop-and-wait%20ARQ.md) reaches on the same path.
 
 ---
 
@@ -37,7 +37,7 @@ Flashcards for this section are as follows:
 - window size: what must the window cover for the link to stay full? ::@:: One round trip of transmission at the link's rate.
 - throughput with a window of $8$: on a $50\text{ Mbps}$ path with a $200\text{ ms}$ round trip, what does go-back-N reach with a window of $8$ packets of $1460$ bytes? ::@:: $8 \times 1460 = 11{,}680$ bytes per round trip, so $11{,}680 \div 0.2\text{ s} = 58{,}400$ bytes per second. The link carries $50\text{ Mbps} = 6{,}250{,}000\text{ bytes/s}$, so that is $58{,}400 \div 6{,}250{,}000 \approx 0.9\%$ of it.
 - window to fill the path: on a $50\text{ Mbps}$ path with a $200\text{ ms}$ round trip, how many packets of $1460$ bytes fill the path? ::@:: The bandwidth-delay product is $50\text{ Mbps} \times 0.2\text{ s} = 10\text{ Mbit} = 1.25\text{ MB} = 1{,}250{,}000\text{ bytes}$, and $1{,}250{,}000 \div 1460 \approx 856$ packets.
-- stop-and-wait on the same path: on a $50\text{ Mbps}$ path with a $100\text{ ms}$ one-way delay, so a $200\text{ ms}$ round trip, what does stop-and-wait reach with packets of $1460$ bytes? ::@:: One packet per round trip, $1460 \div 0.2 = 7300$ bytes per second, and $7300 \times 8 = 58{,}400$ bytes per second with a window of $8$ packets.
+- stop-and-wait on the same path: on a $50\text{ Mbps}$ path with $100\text{ ms}$ of propagation delay each way, so a round trip of about $200\text{ ms}$, what does stop-and-wait reach with packets of $1460$ bytes? ::@:: One packet per round trip, $1460 \div 0.2 = 7300$ bytes per second, and $7300 \times 8 = 58{,}400$ bytes per second with a window of $8$ packets.
 
 ## sender rules
 
@@ -48,7 +48,7 @@ The sender sends up to $N$ packets without an acknowledgement, with a timer on e
 Flashcards for this section are as follows:
 
 - in flight: in go-back-N with window size $N$, how many unacknowledged packets may be outstanding? ::@:: Up to $N$, one timer per packet.
-- cost of one loss: on a path with a $100\text{ ms}$ one-way delay and a $250\text{ ms}$ timer, a window of $8$ packets is in flight and the first packet is lost; how many packets does go-back-N resend? ::@:: All $8$, the lost packet and the $7$ after it: $8 \times 1460 = 11{,}680$ bytes, once the timer expires.
+- cost of one loss: on a path with $100\text{ ms}$ of propagation delay each way and a $250\text{ ms}$ timer, a window of $8$ packets is in flight and the first packet is lost; how many packets does go-back-N resend? ::@:: All $8$, the lost packet and the $7$ after it: $8 \times 1460 = 11{,}680$ bytes, once the timer expires.
 
 ## cumulative acknowledgement
 

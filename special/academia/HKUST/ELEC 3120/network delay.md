@@ -14,32 +14,32 @@ tags:
 
 # network delay
 
-Delay is how long data take to cross a link, and it has two parts. One is pushing the data into the link, which the bandwidth sets. The other is a bit travelling along it, which the link's length sets. The two are independent, so a short link can be slow to load and a long one fast. A busy link adds a third delay, the wait in the queue, which no property of the link itself sets.
+Delay is how long data take to cross a link, in two parts: pushing the data into the link, which the bandwidth sets, and a bit crossing it, which the link's length sets. Neither follows from the other, so a short link can be slow and a long one fast. A busy link adds a third delay, the wait in the queue, which no property of the link sets.
 
 ---
 
 Flashcards for this section are as follows:
 
 - which two parts does link delay have, and what sets each? ::@:: The transmission delay, set by the bandwidth and the amount of data, and the propagation delay, set by the link's length.
-- third delay: which delay does a busy link add, and what sets it? ::@:: The wait in the queue, which no property of the link itself sets.
+- third delay: which delay does a busy link add, and what sets it? ::@:: The wait in the queue, which no property of the link sets.
 
 ## pipe model
 
-A link is pictured as a pipe. Its width is the bandwidth, the bits per second the link carries. Its length is the propagation delay, the time a bit takes to cross it. That is why a link comes quoted as a pair of numbers, `1 Gbps x 10 ms`, since one says nothing about the other. <p> ![link drawn as a pipe: a vertical bar at the left marks the pipe's width and a bar below marks its length](attachments/link_pipe_model.svg)
+A link is pictured as a pipe: its width is the bandwidth, the bits per second the link carries, and its length is the propagation delay, the time a bit takes to cross. That is why a link is quoted as a pair of numbers, `1 Gbps x 10 ms`, since one says nothing about the other. <p> ![link drawn as a pipe: a vertical bar at the left marks the pipe's width and a bar below marks its length](attachments/link_pipe_model.svg)
 
 ---
 
 Flashcards for this section are as follows:
 
 - pipe model: in the pipe picture of a link, what are the pipe's width and its length? <p> ![link drawn as a pipe: a vertical bar at the left marks the pipe's width and a bar below marks its length](attachments/link_pipe_model.svg) ::@:: The width is the bandwidth and the length is the propagation delay.
-- draw the pipe model: how is a link drawn, and what does each direction stand for? ::@:: A pipe, wider for more bandwidth and longer for more propagation delay. <p> ![link drawn as a pipe: a vertical bar at the left marks the pipe's width and a bar below marks its length](attachments/link_pipe_model.svg)
-- describe a link: how is a link of 1 Gbps with 10 ms of propagation delay written? ::@:: `1 Gbps x 10 ms`, one number for each direction of the pipe.
+- draw the pipe model: how is a link drawn, and what do its width and length stand for? ::@:: A pipe, wider for more bandwidth and longer for more propagation delay. <p> ![link drawn as a pipe: a vertical bar at the left marks the pipe's width and a bar below marks its length](attachments/link_pipe_model.svg)
+- describe a link: how is a link of 1 Gbps with 10 ms of propagation delay written? ::@:: `1 Gbps x 10 ms`, one number for the width and one for the length.
 - bandwidth: what does a link's bandwidth count? ::@:: The bits per second the link carries.
 - why quoted as a pair: why does one number of a link say nothing about the other? ::@:: Bandwidth and propagation delay are independent, so a fast link can be short or long.
 
 ## transmission delay
 
-Transmission delay is how long the link spends putting the data in: the amount of data divided by the bandwidth. It falls as the link gets faster and rises with the size of the packet, and it does not depend on distance, so a large file takes as long to push onto a fast link whether that link is one metre away or an ocean away. Two pictures fit it: filling a tube with marbles, and a Morse operator typing a word out. A 1500-byte segment is 12,000 bits, which takes 12 ms to push onto a 1 Mbps link, 0.12 ms onto a 100 Mbps link, and 12 microseconds onto a 1 Gbps link. Over a link with 10 ms of propagation delay, that last figure is a thousandth of the crossing time. A small packet makes the same point from the other side: a 64-byte packet is 512 bits, which takes 0.512 ms on a 1 Mbps link and half a microsecond on a 1 Gbps link.
+Transmission delay is how long the link spends putting the data in: the amount of data divided by the bandwidth. It falls as the link gets faster and rises with the size of the packet. It does not depend on distance, so a large file takes as long to push onto a fast link whether that link is one metre away or an ocean away. Filling a tube with marbles and a Morse operator typing a word out both picture it. A 1500-byte segment is 12,000 bits, which takes 12 ms onto a 1 Mbps link, 0.12 ms onto a 100 Mbps link, and 12 microseconds onto a 1 Gbps link. Over a link with 10 ms of propagation delay, that last figure is a thousandth of the crossing time. A 64-byte packet is 512 bits, which takes 0.512 ms on a 1 Mbps link and half a microsecond on a 1 Gbps link.
 
 ---
 
@@ -55,7 +55,7 @@ Flashcards for this section are as follows:
 
 ## propagation delay
 
-Propagation delay is how long a bit takes to cross the link, and in a vacuum it is the distance travelled divided by the speed of light. Real media run below that speed: each has a velocity factor, its slowdown relative to light, so electricity travels slower through copper than light travels through outer space. Pushing marbles into the tube faster does not make one roll to the far end any quicker. Light in fiber travels at about two thirds of the speed of light in a vacuum, so 3,000 km of fiber takes about 15 ms in one direction, and 10,000 km takes about 50 ms. A geostationary satellite sits about 35,786 km above the equator, and light covers that distance in about 120 ms, so a round trip through it takes about 240 ms. The International Telecommunication Union (ITU) Recommendation G.114 (2003) uses 150 ms of one-way delay as its figure for general network planning, and the satellite path at about 120 ms each way comes close to that figure.
+Propagation delay is how long a bit takes to cross the link, and in a vacuum it is the distance travelled divided by the speed of light. Real media run below that speed: each has a velocity factor, its slowdown relative to light, so electricity travels slower through copper than light travels through outer space. Pushing marbles into the tube faster does not make one roll to the far end any quicker. Light in fiber travels at about two thirds of the speed of light in a vacuum, so 3,000 km of fiber takes about 15 ms, and 10,000 km takes about 50 ms. A geostationary satellite sits about 35,786 km above the equator, which light covers in about 120 ms, so the two crossings cost about 240 ms. The International Telecommunication Union (ITU) Recommendation G.114 (2003) uses 150 ms of one-way delay as its figure for general network planning, and the satellite path at about 120 ms each way comes close to that figure.
 
 ---
 
@@ -66,16 +66,16 @@ Flashcards for this section are as follows:
 - what does propagation delay not depend on? ::@:: The amount of data; it is the time for one bit to cross.
 - fiber propagation: how long does a signal take to cross $3000$ km of fiber where light travels at two thirds of its speed in a vacuum? ::@:: 15 ms, since $3000$ km at $200000$ km/s is $0.015$ s.
 - a longer fiber run: how long does a signal take to cross $10000$ km of fiber where light travels at two thirds of its speed in a vacuum? ::@:: 50 ms, since $10000$ km at $200000$ km/s is $0.05$ s.
-- marbles against rate: does pushing the data in faster shorten the crossing? ::@:: No: pushing marbles into the tube faster does not make one roll to the far end any quicker, since the crossing time depends on the medium and the length.
+- marbles against rate: does pushing the data in faster shorten the crossing? ::@:: No: pushing marbles in faster does not make one roll to the far end any quicker; the crossing time depends on the medium and the length.
 - geostationary height: how far above the equator does a geostationary satellite sit? ::@:: About 35,786 km.
-- satellite round trip: light covers the $35786$ km to a geostationary satellite in about $120\text{ ms}$ each way, so what does a round trip cost? ::@:: About $240\text{ ms}$, since each way costs about $120\text{ ms}$.
+- satellite round trip: light covers the $35786$ km to a geostationary satellite in about $120\text{ ms}$ each way, so what does a round trip cost? ::@:: About $240\text{ ms}$ of crossing, since each way costs about $120\text{ ms}$; the segment's push time is paid once on top.
 - planning figure: which one-way delay does International Telecommunication Union (ITU) Recommendation G.114 (2003) use for general network planning, against the roughly $120\text{ ms}$ each way of a satellite path? ::@:: $150\text{ ms}$.
 
 ## queueing delay
 
 A switch sends one packet at a time, so packets that arrive together wait their turn. A packet that finds $B$ bits queued ahead of it on a link of rate $R$ waits $B/R$ seconds, the transmission time of everything in front of it.
 
-Bursts are what cost. Traffic spread evenly waits for nothing, while the same traffic arriving at one moment queues behind itself. The wait grows as load rises, since less idle time is left to absorb each burst, and it ends when the queue is full and arriving packets are dropped instead. A queue holding 1000 full-size packets on a 1 Gbps link holds 12,000,000 bits, which is 12 ms of transmission for everything waiting behind, and the same burst on a 1 Mbps link costs 12 s. The wait adds to the crossing in each direction. A path with 20 ms of propagation each way and a 12 ms queueing wait each way takes 64 ms for a round trip.
+Bursts are what cost: traffic spread evenly waits for nothing, while the same traffic arriving at one moment queues behind itself. The wait grows as load rises, since less idle time is left to absorb each burst, and it ends when the queue is full and arriving packets are dropped instead. 1000 full-size packets on a 1 Gbps link are 12,000,000 bits, which is 12 ms of transmission for everything behind, and the same burst on a 1 Mbps link costs 12 s. The wait adds to the crossing in each direction: a path with 20 ms of propagation each way and a 12 ms queueing wait each way takes 64 ms for a round trip, and the segment's own push time is paid once on top.
 
 ---
 
@@ -86,12 +86,12 @@ Flashcards for this section are as follows:
 - as load rises: what happens to queueing delay as the arrival rate approaches the link's capacity? ::@:: It climbs, since less idle time is left to absorb each burst.
 - where it ends: what happens once the queue is full? ::@:: Arriving packets are dropped instead of waiting.
 - queueing behind a burst: what does a packet behind $1000$ packets of $1500$ bytes wait on a $1\text{ Gbps}$ link? ::@:: $1000 \times 1500 \times 8 = 12000000$ bits, which the link sends at $1\text{ Gbit/s}$ in $12\text{ ms}$.
-- round trip with queueing: a path with $20\text{ ms}$ of propagation delay each way and a $12\text{ ms}$ queueing wait in each way, what is its round-trip time? ::@:: $64\text{ ms}$, since each direction costs $20 + 12 = 32\text{ ms}$.
+- round trip with queueing: a path with $20\text{ ms}$ of propagation delay each way and a $12\text{ ms}$ queueing wait in each direction, what is its round-trip time? ::@:: $64\text{ ms}$ of propagation and queueing, since each direction costs $20 + 12 = 32\text{ ms}$; the segment's push time is paid once on top.
 - the same burst on a slow link: how long does a burst of $1000$ full-size packets wait behind itself on a $1\text{ Mbps}$ link? ::@:: $12\text{ s}$, since the queue holds $12000000$ bits and the link sends them at $1\text{ Mbit/s}$.
 
 ## packet delay
 
-Packet delay is the time a packet takes to cross a link: the transmission delay plus the propagation delay, and the queueing delay too if it waits behind other traffic. On an empty queue, a packet of $N$ bits on a link of rate $R$ and latency $L$ takes $(N/R) + L$, where the latency is the propagation delay. A packet of 800 B on a 1 Mbps link with 100 ms of latency takes 6.4 ms to push in, and its last bit then needs the full latency to cross, so it reaches the far end 106.4 ms after the first bit started. A 1500-byte segment on a 1 Gbps link with 2 ms of latency takes 12 microseconds to push in and 2 ms to cross, so 2.012 ms in all. A 1460-byte segment, a 20-byte Transmission Control Protocol (TCP) header, and a 20-byte Internet Protocol version 4 header fill a 1500-byte Ethernet frame exactly.
+Packet delay is the time a packet takes to cross a link: the transmission delay plus the propagation delay, and the queueing delay too if it waits behind other traffic. On an empty queue, a packet of $N$ bits on a link of rate $R$ and latency $L$ takes $(N/R) + L$, where the latency is the propagation delay. A packet of 800 B on a 1 Mbps link with 100 ms of latency takes 6.4 ms to push in, and its last bit then needs the full latency to cross, so it reaches the far end 106.4 ms after the first bit started. A 1500-byte segment on a 1 Gbps link with 2 ms of latency takes 12 microseconds to push in and 2 ms to cross, so 2.012 ms. A 1460-byte segment, a 20-byte Transmission Control Protocol (TCP) header, and a 20-byte Internet Protocol version 4 header fill a 1500-byte Ethernet frame exactly.
 
 ---
 
@@ -102,15 +102,26 @@ Flashcards for this section are as follows:
 - the first bit against the last: why does a packet's last bit arrive more than one propagation delay after its first bit? ::@:: The last bit leaves the sender one transmission delay after the first, and both then need the same propagation delay.
 - worked case: a 6400-bit packet on a 1 Mbps link with 100 ms of latency, how long does the packet take? ::@:: 6.4 ms to push the bits in plus 100 ms to cross, so 106.4 ms.
 - packet size: which term of the packet delay does the packet size affect? ::@:: The transmission delay only.
-- with a queue in the way: while the link is idle the packet delay is $(N/R) + L$; which term joins that sum once the packet waits behind other traffic? ::@:: The queueing delay, so the packet delay becomes $(N/R) + L$ plus the wait behind the queued traffic.
+- with a queue in the way: which term joins $(N/R) + L$ once the packet waits behind other traffic? ::@:: The queueing delay, so the packet delay becomes $(N/R) + L$ plus that wait.
 - a segment on a fast link: a $1500$-byte segment on a $1\text{ Gbps}$ link with $2\text{ ms}$ of latency, how long does the packet take? ::@:: $12\,\mu\text{s}$ to push the bits in plus $2\text{ ms}$ to cross, so $2.012\text{ ms}$.
 - filling the frame: which parts fill a $1500$-byte Ethernet frame exactly? ::@:: A $1460$-byte segment, a $20$-byte Transmission Control Protocol (TCP) header and a $20$-byte Internet Protocol version 4 header.
 
+### round trip of a packet
+
+A round trip pays the packet's transmission delay once and its propagation delay in each direction, so it is not twice the one-way delay. It does not pay a second transmission delay, because the packet coming back is an acknowledgement of a few dozen bytes.
+
+A 1500-byte segment on a 1 Gbps link with 2 ms of latency takes 12 microseconds plus 2 ms to arrive, and 2 ms more to be acknowledged, so 4.012 ms. Twice its 2.012 ms packet delay would say 4.024 ms, which charges the acknowledgement a push time it does not spend.
+
+---
+
+Flashcards for this section are as follows:
+
+- packet round trip: a $1500$-byte segment crosses a $1\text{ Gbps}$ link with $2\text{ ms}$ of latency; what does its round trip cost? ::@:: $12\,\mu\text{s}$ to push in, $2\text{ ms}$ out and $2\text{ ms}$ back, so $4.012\text{ ms}$.
+- why not twice: why is a round trip shorter than twice the packet delay? ::@:: The return packet is an acknowledgement of a few dozen bytes, so its transmission delay is negligible and it pays only the crossing.
+
 ### transmission against propagation
 
-Which of the two terms dominates varies from link to link.
-
-Sending 1500 B over a datacenter link of 40 Gbps with 10 microseconds of latency costs 0.3 microseconds of transmission and 10.3 microseconds in all, so the latency dominates. The same 1500 B over a satellite link of 32 kbps with 8 s of latency costs 0.375 s of transmission and 8.375 s in all, so the transmission time is a rounding error beside the latency. A 1460-byte segment on a 10 Mbps link with 50 ms of latency takes 1.168 ms to push in and 50 ms to cross, so 51.168 ms in all, and the latency dominates there too.
+Which term dominates varies from link to link. Sending 1500 B over a datacenter link of 40 Gbps with 10 microseconds of latency costs 0.3 microseconds of transmission and 10.3 microseconds, so the latency dominates. The same 1500 B over a satellite link of 32 kbps with 8 s of latency costs 0.375 s of transmission and 8.375 s, so the transmission time is a rounding error beside the latency. A 1460-byte segment on a 10 Mbps link with 50 ms of latency takes 1.168 ms to push in and 50 ms to cross, so 51.168 ms, and the latency dominates there too.
 
 ---
 
@@ -121,7 +132,7 @@ Flashcards for this section are as follows:
 
 ## throughput and latency
 
-Which of the two numbers matters more depends on the link. Links of every kind carry both:
+Which of the two numbers matters more depends on the link. Every kind of link carries both:
 
 - a fiber between two servers in a datacenter
 - a fiber across the Pacific
@@ -130,7 +141,7 @@ Which of the two numbers matters more depends on the link. Links of every kind c
 
 These differ in width and length, not in kind.
 
-Choosing between a network that sends a lot of data slowly and one that sends a little data quickly is the choice between throughput and latency. The same choice appears between two machines: a supercomputer with no network connection, against a simple cell phone with one. On a large transfer the two numbers pull apart: a file of 1 MB takes 8 s to push onto a 1 Mbps link and 8 ms onto a 1 Gbps link, and the same file over the 32 kbps satellite link takes 250 s.
+Throughput and latency are the choice between a network that sends a lot of data slowly and one that sends a little data quickly. The same choice appears between two machines: a supercomputer with no network connection, against a simple cell phone with one. On a large transfer the two numbers pull apart: a file of 1 MB takes 8 s to push onto a 1 Mbps link and 8 ms onto a 1 Gbps link, and the same file over the 32 kbps satellite link takes 250 s.
 
 ---
 
