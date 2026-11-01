@@ -4,6 +4,7 @@ These tests cover the pure helper functions used throughout the package.
 """
 
 import logging
+import os
 from os import PathLike
 
 import pytest
@@ -15,6 +16,7 @@ from scripts.convert_wiki import table as _tbl
 from scripts.convert_wiki import utils as _mod
 from scripts.convert_wiki.stems import _stem_for_title
 from scripts.convert_wiki.symlinks import _resolve_local_target_filename
+from scripts.convert_wiki.utils import _fix_stem
 
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
@@ -1152,3 +1154,53 @@ class TestSymlinkCycleGuard:
 
         assert pointed is False
         assert "leaving real file in place" in caplog.text
+
+
+class TestFixStem:
+    """A stem is sanitised knowing that ``.md`` follows it."""
+
+    def test_trailing_dot_survives_because_the_name_ends_in_md(self) -> None:
+        assert _fix_stem("i.i.d.") == "i.i.d."
+
+    def test_trailing_space_survives_for_the_same_reason(self) -> None:
+        assert _fix_stem("Notjustmoreidlechatter ") == "Notjustmoreidlechatter "
+
+    def test_dotted_initials_and_citations_survive(self) -> None:
+        assert _fix_stem("Taylor, F. W.") == "Taylor, F. W."
+        assert _fix_stem("Q.E.D.") == "Q.E.D."
+        assert _fix_stem("0.999...") == "0.999..."
+
+    def test_illegal_characters_are_still_replaced(self) -> None:
+        assert _fix_stem("Template:Cite journal") == "Template_Cite journal"
+        assert _fix_stem("C*-algebra") == "C_-algebra"
+        assert _fix_stem("Why Socialism?") == "Why Socialism_"
+        assert _fix_stem("A: b") == "A_ b"
+
+    def test_a_device_name_is_still_suffixed(self) -> None:
+        assert _fix_stem("con") == "con_"
+        assert _fix_stem("NUL") == "NUL_"
+
+    def test_a_long_stem_keeps_the_extension_it_will_carry(self) -> None:
+        stem = _fix_stem("x" * 300)
+        assert len(stem) == 252
+        assert _fix_stem(stem) == stem
+
+    def test_an_empty_result_is_empty(self) -> None:
+        assert _fix_stem("") == ""
+        assert _fix_stem(" ") == ""
+
+
+class TestCorpusNamesAreCanonical:
+    """Every name on disk is what the corrected sanitiser would produce."""
+
+    def test_no_note_or_redirect_needs_renaming(self) -> None:
+        offenders = []
+        for root, dirs, names in os.walk("general"):
+            dirs[:] = [directory for directory in dirs if not directory.startswith(".")]
+            for name in names:
+                if not name.endswith(".md"):
+                    continue
+                stem = name.removesuffix(".md")
+                if _fix_stem(stem) != stem:
+                    offenders.append(os.path.join(root, name))
+        assert offenders == []

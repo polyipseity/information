@@ -242,11 +242,35 @@ async def _remove_redirect_symlinks(
             await redirect_file.unlink()
 
 
-def _fix_filename(name: str) -> str:
-    """Replace filesystem-unsafe characters with underscores."""
-    return pathvalidate.sanitize_filename(
-        name, platform="windows", replacement_text="_"
-    )
+"""Longest filename a Windows path component may carry."""
+_MAX_FILENAME_LENGTH = 255
+"""Extension every note carries; the stem is sanitised with it appended."""
+_STEM_SUFFIX = ".md"
+
+
+def _fix_stem(stem: str) -> str:
+    """Replace filesystem-unsafe characters in a filename stem.
+
+    The sanitiser polices a whole filename, so the suffix is appended before
+    the call and removed afterwards: a trailing dot or space is legal once
+    ``.md`` follows it (``i.i.d..md`` ends in ``d``), while a character
+    Windows forbids anywhere (``: * ? " < > |``) is still replaced.
+
+    ``pathvalidate`` truncates at 255 characters, so the stem is capped
+    first and the extension is guaranteed to survive.  A device name such as
+    ``con`` grows by one character, so the retry shortens once more.
+    """
+    limit = _MAX_FILENAME_LENGTH - len(_STEM_SUFFIX)
+    for cap in (limit, limit - 1):
+        full = pathvalidate.sanitize_filename(
+            f"{stem[:cap]}{_STEM_SUFFIX}",
+            platform="windows",
+            replacement_text="_",
+        )
+        if full.endswith(_STEM_SUFFIX):
+            return full.removesuffix(_STEM_SUFFIX)
+    msg = f"stem {stem!r} cannot keep its extension under the name limit"
+    raise ValueError(msg)
 
 
 def _strip_url_query(url: URL) -> URL:
@@ -414,7 +438,7 @@ def _markdown_fragment(fragment: str) -> str:
 
 def _markdown_link_target(page: str, fragment: str = "") -> str:
     """Build a relative Markdown link target for a given page name and fragment."""
-    return f"{_fix_filename(page).replace(' ', '%20').replace('_', '%5F')}.md{_markdown_fragment(fragment)}"
+    return f"{_fix_stem(page).replace(' ', '%20').replace('_', '%5F')}.md{_markdown_fragment(fragment)}"
 
 
 def _tag_affixes(name: str) -> tuple[str, str]:

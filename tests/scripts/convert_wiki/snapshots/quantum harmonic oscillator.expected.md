@@ -359,7 +359,7 @@ The consideration of the harmonic oscillator e.g. from the energy $E={\mathbf {p
 ## bibliography
 
 - <a id="CITEREFGriffiths2004"></a> [Griffiths, David J.](David%20Griffiths%20(physicist).md) \(2004\). _Introduction to Quantum Mechanics_ \(2nd ed.\). Prentice Hall. [ISBN](ISBN%20(identifier).md) [978-0-13-805326-0](https://en.wikipedia.org/wiki/Special:BookSources/978-0-13-805326-0).
-- <a id="CITEREFLiboff2002"></a> [Liboff, Richard L.](Liboff,%20Richard%20L.md) \(2002\). _Introductory Quantum Mechanics_. Addison–Wesley. [ISBN](ISBN%20(identifier).md) [978-0-8053-8714-8](https://en.wikipedia.org/wiki/Special:BookSources/978-0-8053-8714-8).
+- <a id="CITEREFLiboff2002"></a> [Liboff, Richard L.](Liboff,%20Richard%20L..md) \(2002\). _Introductory Quantum Mechanics_. Addison–Wesley. [ISBN](ISBN%20(identifier).md) [978-0-8053-8714-8](https://en.wikipedia.org/wiki/Special:BookSources/978-0-8053-8714-8).
 - <a id="CITEREFMüller-Kirsten2012"></a> [Müller-Kirsten, Harald J.W.](Harald%20J.W.%20Müller-Kirsten.md) \(2012\). _Introduction to Quantum Mechanics: Schrödinger Equation and Path Integral_ \(2nd ed.\). World Scientific. [ISBN](ISBN%20(identifier).md) [978-0-9810-4397-5](https://en.wikipedia.org/wiki/Special:BookSources/978-0-9810-4397-5).
 - <a id="CITEREFZwiebach2022"></a> [Zwiebach, Barton](Barton%20Zwiebach.md) \(2022\). _Mastering Quantum Mechanics: Essentials, Theory, and Applications_. MIT Press. [ISBN](ISBN%20(identifier).md) [978-0-262-04613-8](https://en.wikipedia.org/wiki/Special:BookSources/978-0-262-04613-8).
 

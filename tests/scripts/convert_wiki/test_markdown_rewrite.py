@@ -13,7 +13,7 @@ from scripts.convert_wiki.markdown_rewrite import (
     _rewrite_markdown_links,
     _rewrite_plain_span,
 )
-from scripts.convert_wiki.utils import _fix_filename, _fix_name_maybe
+from scripts.convert_wiki.utils import _fix_name_maybe, _fix_stem
 
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
@@ -154,7 +154,7 @@ class TestBuildLinkIndex:
         """The shipped name map, indexed against itself, is unambiguous."""
         index = _build_link_index(_NAMES_MAP, _NAMES_MAP)
         title, text = next(iter(_NAMES_MAP.items()))
-        assert index.stem_old[_fix_filename(text)] == _fix_filename(text)
+        assert index.stem_old[_fix_stem(text)] == _fix_stem(text)
 
     def test_empty_base_map_collides_on_the_shipped_map(self) -> None:
         """A base map that does not describe the disk is refused, not guessed.

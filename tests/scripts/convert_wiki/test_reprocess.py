@@ -253,7 +253,7 @@ class TestColonTitleReprocess:
     """A mapped title whose text contains ``:`` must reach every link.
 
     ``_encode_fragment`` drops ``:``, so an anchor never spells its key, and
-    ``_fix_filename`` maps ``:`` to ``_``, so a stem never spells one either.
+    ``_fix_stem`` maps ``:`` to ``_``, so a stem never spells one either.
     Both are resolved through the effective name map instead of guessed at.
     """
 

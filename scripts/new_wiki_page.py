@@ -16,7 +16,7 @@ from unicodedata import normalize
 import pycountry
 from asyncer import runnify
 
-from .convert_wiki.utils import _fix_filename
+from .convert_wiki.utils import _fix_stem
 
 """Exported names from this module (none: standalone script, not importable as a library)."""
 __all__ = ()
@@ -97,7 +97,7 @@ This text incorporates [content](https://{wikipedia_lang}.wikipedia.org/wiki/{wi
     # note and its mirror must carry that stem too; the raw title stays in the
     # alias and the heading.  The link target always carries the language
     # directory, so neither path can ever name the other.
-    stem = _fix_filename(name)
+    stem = _fix_stem(name)
     if not stem:
         msg = f"name has no usable filename characters: {name!r}"
         raise ValueError(msg)

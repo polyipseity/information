@@ -14,10 +14,10 @@ from .ast_utils import (
     _find_link_destination_ranges,
     _walk_tokens,
 )
-from .stems import _stem_for_title
+from .stems import _UNUSABLE_STEMS, _stem_for_title
 from .utils import (
     _encode_fragment,
-    _fix_filename,
+    _fix_stem,
     _plain_fragment,
 )
 
@@ -43,7 +43,7 @@ _ATX_HEADING_RE = re.compile(r"^(#{1,6})\s+(?P<inner>\S.*?)(?:\s*#+\s*)?$")
 
 def _encode_stem(stem: str) -> str:
     """Encode a filename stem for a markdown link target."""
-    return _fix_filename(stem).replace(" ", "%20").replace("_", "%5F")
+    return _fix_stem(stem).replace(" ", "%20").replace("_", "%5F")
 
 
 def _decode_link_stem(target: str) -> tuple[str, str]:
@@ -134,7 +134,12 @@ def _build_link_index(
     for title, text in effective_map.items():
         anchor = _encode_fragment(title)
         old_stem = _stem_for_title(title, base_map)
-        new_stem = _fix_filename(text)
+        new_stem = _fix_stem(text)
+        if new_stem in _UNUSABLE_STEMS:
+            msg = (
+                f"name map value {text!r} (from {title!r}) has no usable filename stem"
+            )
+            raise ValueError(msg)
         for layer, lookup, key, value in (
             ("plain", plain_exact, title, text),
             ("plain fold", plain_fold, _fold(title), text),
