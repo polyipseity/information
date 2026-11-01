@@ -18,7 +18,7 @@ from ..types import (
     _SymlinkAction,
     _SymlinkActionKind,
 )
-from ..utils import _find_child_exact
+from ..utils import _find_child_case_insensitive, _find_child_exact
 
 """Exported names from this module."""
 __all__ = ()
@@ -212,17 +212,23 @@ async def plan_reprocess(
         lang_dir = wiki_dir / lang_dir_name
         current_path = lang_dir / f"{stem}.md"
         new_stem = migration_map.get(stem, _stem_for_title(stem, effective_map))
+        title_text = title_for_stem.get(_stem_for_title(stem, base), new_stem)
         rewrite_path = current_path
         if new_stem != stem:
             target_path = lang_dir / f"{new_stem}.md"
             exact_target = await _find_child_exact(lang_dir, target_path.name)
             exact_current = await _find_child_exact(lang_dir, current_path.name)
-            already_renamed = (
-                exact_current is None
-                and exact_target is not None
-                and not await exact_target.is_symlink()
-            )
-            if not already_renamed:
+            if exact_current is None:
+                # No file carries the old stem, so there is nothing to rename:
+                # the note already sits at its final name under some spelling
+                # of it, and only its text moves.
+                existing = exact_target or await _find_child_case_insensitive(
+                    lang_dir, target_path.name
+                )
+                if existing is not None:
+                    rewrite_path = existing
+                    heading_updates[fspath(existing)] = title_text
+            else:
                 if (
                     exact_target is not None
                     and exact_target != exact_current
@@ -237,10 +243,10 @@ async def plan_reprocess(
                         new_stem=new_stem,
                     )
                 )
-            # The heading carries the mapped title, not the sanitised stem:
-            # a title with ``:`` sanitises to ``_`` in the filename only.
-            heading_updates[fspath(target_path)] = title_for_stem.get(stem, new_stem)
-            rewrite_path = target_path
+                # The heading carries the mapped title, not the sanitised
+                # stem: a title with ``:`` sanitises to ``_`` in the filename.
+                heading_updates[fspath(target_path)] = title_text
+                rewrite_path = target_path
         elif stem in {migration.old_stem for migration in stem_migrations}:
             heading_updates[fspath(current_path)] = migration_map.get(stem, stem)
         listed_paths.append(rewrite_path)
