@@ -1,5 +1,9 @@
 """Tests for scripts.convert_wiki.markdown_rewrite."""
 
+import os
+import re
+from urllib.parse import unquote
+
 import pytest
 
 from scripts.convert_wiki.config import _NAMES_MAP
@@ -685,3 +689,65 @@ class TestRewriteLinkTargetLegacyFragments:
         first = _rewrite_link_target(target, {}, names_map=names_map)
         second = _rewrite_link_target(first, {}, names_map=names_map)
         assert first == second
+
+
+class TestLosslessRewrite:
+    """A rewrite may repoint a link; it may never re-spell one it did not."""
+
+    def test_a_legal_unresolved_stem_keeps_its_trailing_dot(self) -> None:
+        text = "see [iid](i.i.d..md) and [iid](i.i.d..md#definition)"
+        assert _rewrite_markdown_links(text, {}, names_map={}) == text
+
+    def test_a_legal_unresolved_stem_keeps_its_trailing_space(self) -> None:
+        text = "[x](Notjustmoreidlechatter%20.md)"
+        assert _rewrite_markdown_links(text, {}, names_map={}) == text
+
+    def test_an_impossible_stem_is_left_alone_by_default(self) -> None:
+        text = "[a](C*-algebra.md) [b](Template:Cite%20journal.md)"
+        assert _rewrite_markdown_links(text, {}, names_map={}) == text
+
+    def test_an_unresolved_stem_is_not_re_sanitised(self) -> None:
+        text = "[x](Washington,%20D.C..md)"
+        assert _rewrite_markdown_links(text, {}, names_map={"zzz": "y"}) == text
+
+
+class TestRewriteNeverBreaksAWorkingLink:
+    """A rewrite may repoint a link; it may never orphan one."""
+
+    _LINK = re.compile(r"\]\(([^)\s]+\.md)(?:#[^)]*)?\)")
+
+    def test_no_working_link_is_orphaned(self) -> None:
+        """A destination that resolves today still resolves after the rewrite."""
+        index = _build_link_index(_NAMES_MAP, _NAMES_MAP)
+        orphaned: list[str] = []
+        checked = 0
+        for root, _dirs, names in os.walk("general"):
+            for name in names:
+                if not name.endswith(".md"):
+                    continue
+                path = os.path.join(root, name)
+                if os.path.islink(path):
+                    continue
+                with open(path, encoding="utf-8") as handle:
+                    text = handle.read()
+                directory = os.path.dirname(path)
+                for destination in {
+                    unquote(match[1]) for match in self._LINK.finditer(text)
+                }:
+                    if not os.path.lexists(os.path.join(directory, destination)):
+                        continue
+                    checked += 1
+                    rewritten = unquote(
+                        _rewrite_link_target(
+                            destination,
+                            {},
+                            names_map=_NAMES_MAP,
+                            index=index,
+                        )
+                    )
+                    if rewritten == destination:
+                        continue
+                    if not os.path.lexists(os.path.join(directory, rewritten)):
+                        orphaned.append(f"{path}: {destination} -> {rewritten}")
+        assert checked > 0
+        assert orphaned == []

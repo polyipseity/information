@@ -261,31 +261,44 @@ def _rewrite_link_target(
     rule.  Resolving a stem covers a mapping that only re-cases the title
     or only changes a character the filename transform sanitises, which
     produces no stem migration at all.
+
+    A destination nothing here resolves is returned exactly as written:
+    re-encoding it would repoint a link the map has no opinion about.  The
+    legacy ``Page#anchor.md`` shape is the one exception, since re-emitting
+    it would keep writing an extension before the anchor.
     """
     if index is None:
         index = _build_link_index(names_map or {}, names_map or {})
     page = target.partition("#")[0]
+    legacy = False
     if not page:
         fragment = target.removeprefix("#")
         # A bare "#" carries no fragment; leave it as written.
         if not fragment:
             return target
-        base = ""
+        stem = ""
+        new_stem = stem
     else:
         stem, fragment = _decode_link_stem(target)
-        base = f"{_encode_stem(_resolve_stem(stem, index, migrations))}.md"
-    if fragment:
-        plain_fragment = _plain_fragment(fragment)
-        new_fragment = _resolve_plain(
+        legacy = not page.endswith(".md")
+        new_stem = _resolve_stem(stem, index, migrations)
+    plain_fragment = _plain_fragment(fragment) if fragment else ""
+    new_plain = (
+        _resolve_plain(
             plain_fragment,
             index=index,
             replace_underscores=True,
         )
-        if new_fragment != plain_fragment:
-            fragment = _encode_fragment(new_fragment)
-    if not fragment:
-        return base
-    return f"{base}#{fragment}" if base else f"#{fragment}"
+        if plain_fragment
+        else ""
+    )
+    if new_stem == stem and new_plain == plain_fragment and not legacy:
+        return target
+    page_text = f"{_encode_stem(new_stem)}.md" if page else ""
+    encoded = _encode_fragment(new_plain) if new_plain != plain_fragment else fragment
+    if not encoded:
+        return page_text
+    return f"{page_text}#{encoded}" if page_text else f"#{encoded}"
 
 
 def _is_rewritable_target(url: str) -> bool:
