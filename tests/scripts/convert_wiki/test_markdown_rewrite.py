@@ -3,7 +3,8 @@
 from scripts.convert_wiki.config import _NAMES_MAP
 from scripts.convert_wiki.markdown_rewrite import (
     _align_plain_to_raw,
-    _resolve_plain_rewrite,
+    _build_link_index,
+    _resolve_plain,
     _rewrite_article_heading,
     _rewrite_link_target,
     _rewrite_markdown_headings,
@@ -66,35 +67,28 @@ class TestFixNameMaybe:
         assert result == "fourier transform"
 
 
-class TestResolvePlainRewrite:
-    """Tests for _resolve_plain_rewrite."""
+class TestResolvePlain:
+    """Tests for _resolve_plain and the lookup layers it reads."""
 
     def test_name_map_hit(self) -> None:
         """Resolve an entry present in the name map."""
         names_map = {"modern physics": "Modern physics"}
-        assert _resolve_plain_rewrite("modern physics", names_map=names_map) == (
-            "Modern physics"
+        index = _build_link_index({}, names_map)
+        assert (
+            _resolve_plain("modern physics", index=index, replace_underscores=False)
+            == "Modern physics"
         )
 
-    def test_lowercase_fallback(self) -> None:
-        """Fall back to case-insensitive match when exact key is missing."""
+    def test_folded_match(self) -> None:
+        """Fall back to a case-insensitive match when the exact key is missing."""
         names_map = {
             "Fourier transform": "Fourier transform",
             "fourier transform": "Fourier transform",
         }
-        assert _resolve_plain_rewrite("fourier transform", names_map=names_map) == (
-            "Fourier transform"
-        )
-
-    def test_migrations_on_top(self) -> None:
-        """Migration overrides the name-map result."""
-        names_map = {"modern physics": "modern physics"}
-        migrations = {"modern physics": "Modern physics"}
+        index = _build_link_index({}, names_map)
         assert (
-            _resolve_plain_rewrite(
-                "modern physics", names_map=names_map, migrations=migrations
-            )
-            == "Modern physics"
+            _resolve_plain("FOURIER transform", index=index, replace_underscores=False)
+            == "Fourier transform"
         )
 
     def test_replace_underscores_flag(self) -> None:
@@ -102,23 +96,69 @@ class TestResolvePlainRewrite:
         names_map = {
             "legendre transformation on manifolds": "Legendre transformation on manifolds"
         }
+        index = _build_link_index({}, names_map)
         assert (
-            _resolve_plain_rewrite(
+            _resolve_plain(
                 "legendre_transformation_on_manifolds",
-                names_map=names_map,
+                index=index,
                 replace_underscores=True,
             )
             == "Legendre transformation on manifolds"
         )
 
-    def test_no_migrations_returns_name_map_result(self) -> None:
-        """Passing migrations=None still returns the name-map result."""
-        names_map = {"modern physics": "Modern physics"}
+    def test_unknown_text_is_unchanged(self) -> None:
+        """A name the map does not hold is never guessed at.
+
+        The lowercase-first-char fallback used to damage every title-case
+        heading and fragment absent from the map.
+        """
+        index = _build_link_index({}, {"unrelated": "entry"})
         assert (
-            _resolve_plain_rewrite(
-                "modern physics", names_map=names_map, migrations=None
-            )
-            == "Modern physics"
+            _resolve_plain("Hubble's law", index=index, replace_underscores=False)
+            == "Hubble's law"
+        )
+
+    def test_anchor_form_matches_a_colon_key(self) -> None:
+        """The anchor form carries a colon-bearing key to its fragment."""
+        names_map = {"A: b": "a: b"}
+        index = _build_link_index({}, names_map)
+        assert _resolve_plain("A b", index=index, replace_underscores=True) == "a: b"
+
+
+class TestBuildLinkIndex:
+    """Tests for _build_link_index."""
+
+    def test_conflicting_anchor_is_dropped(self) -> None:
+        """Two keys that encode alike are reported instead of guessed at."""
+        index = _build_link_index({}, {"A: b": "x", "A b": "y"})
+        assert "A%20b" in index.ambiguous
+        assert "A%20b" not in index.anchor_exact
+        assert "A%20b" not in index.anchor_fold
+
+    def test_stem_layer_records_the_map_spelling(self) -> None:
+        """The stem layer maps the base spelling to the effective one.
+
+        The base stem is already lowercased by the ingestion fallback, so a
+        stored link finds it through the folded layer rather than by exact
+        spelling.
+        """
+        index = _build_link_index({}, {"A: b": "a: b"})
+        assert index.stem_old["a_ b"] == "a_ b"
+        assert index.stem_old_fold["a_ b"] == "a_ b"
+
+    def test_real_name_map_ambiguities_are_known(self) -> None:
+        """The shipped name map's ambiguous keys are exactly the known ones.
+
+        ``kelvin`` is the recorded ``Kelvin``/``kelvin`` mapping typo; the
+        ``Brooks Cole`` variants sanitise to one stem with two spellings.
+        Both are data problems, reported rather than guessed at, so this
+        assertion tracks the map instead of tolerating silent drift.
+        """
+        assert _build_link_index({}, _NAMES_MAP).ambiguous == (
+            "Brooks Cole",
+            "brooks Cole",
+            "brooks cole",
+            "kelvin",
         )
 
 
@@ -401,12 +441,17 @@ class TestRewriteLinkFragments:
         rewritten = _rewrite_markdown_links(text, {}, names_map=names_map)
         assert rewritten == "[x](Modern%20physics.md#Modern%20physics)"
 
-    def test_fragment_idempotent_round_trip(self) -> None:
-        """An already-canonical fragment should stay byte-identical."""
+    def test_fragment_follows_the_map_case(self) -> None:
+        """A fragment is re-cased to the map's spelling, and stays there.
+
+        The stem is already canonical, so only the anchor changes; a second
+        run must leave the result byte-identical.
+        """
         text = "[x](Schwarz's%20theorem.md#schwarz's%20theorem)"
         names_map = {"Schwarz's theorem": "Schwarz's theorem"}
         rewritten = _rewrite_markdown_links(text, {}, names_map=names_map)
-        assert rewritten == text
+        assert rewritten == "[x](Schwarz's%20theorem.md#Schwarz's%20theorem)"
+        assert _rewrite_markdown_links(rewritten, {}, names_map=names_map) == rewritten
 
     def test_fragment_and_stem_rewrite(self) -> None:
         """Both stem migration and fragment re-casing apply together."""
