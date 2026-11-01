@@ -145,9 +145,19 @@ async def plan_reprocess(
                 names_map=effective_map,
             )
 
+    def _planned_stem(stem: str) -> str:
+        """Return the stem a redirect stored as *stem* will carry.
+
+        The on-disk name can differ from the base map's spelling in letter
+        case, so both the rename and the lookup go through the canonical
+        form first; only then does a stem migration apply.
+        """
+        canonical = _stem_for_title(stem, base)
+        return migration_map.get(canonical, canonical)
+
     symlink_actions: list[_SymlinkAction] = []
     for from_stem, lang_dir, _symlink in scanned:
-        new_from_stem = migration_map.get(from_stem, from_stem)
+        new_from_stem = _planned_stem(from_stem)
         if new_from_stem != from_stem:
             symlink_actions.append(
                 _SymlinkAction(
@@ -159,10 +169,7 @@ async def plan_reprocess(
             )
 
     scanned_lookup = {
-        (
-            migration_map.get(from_stem, from_stem),
-            lang_dir.name,
-        ): (from_stem, lang_dir, symlink)
+        (_planned_stem(from_stem), lang_dir.name): (from_stem, lang_dir, symlink)
         for from_stem, lang_dir, symlink in scanned
     }
     for title, info in redirect_cache.items():

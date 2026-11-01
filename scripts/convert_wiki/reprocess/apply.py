@@ -13,6 +13,7 @@ from ..markdown_rewrite import (
     _rewrite_markdown_links,
 )
 from ..name_map_io import _reload_names_map, _save_names_map
+from ..stems import _stem_for_title
 from ..types import (
     _ReprocessPlan,
     _ReprocessReport,
@@ -64,6 +65,7 @@ async def _apply_symlink_rename(
     old_stem: str,
     new_stem: str,
     migrations: dict[str, str],
+    base: Mapping[str, str],
 ) -> bool:
     """Rename a redirect symlink and migrate its target stem when needed.
 
@@ -78,7 +80,8 @@ async def _apply_symlink_rename(
         return True
     target = str(await old_path.readlink())
     target_stem = target.removesuffix(".md") if target.endswith(".md") else target
-    new_target_stem = migrations.get(target_stem, target_stem)
+    canonical_target = _stem_for_title(target_stem, base)
+    new_target_stem = migrations.get(canonical_target, canonical_target)
     await old_path.unlink()
     old_mirror = await _find_child_exact(wiki_dir, old_name)
     if old_mirror is not None and await old_mirror.is_symlink():
@@ -222,6 +225,7 @@ async def apply_reprocess_plan(
             old_stem=action.from_stem,
             new_stem=action.to_stem,
             migrations=migrations,
+            base=plan.base_map,
         ):
             symlinks_skipped += 1
 
