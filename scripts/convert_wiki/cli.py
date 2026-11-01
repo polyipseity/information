@@ -251,8 +251,11 @@ async def _run_reprocess_maintenance(
         f"files_renamed={report.files_renamed}, "
         f"articles_rewritten={report.articles_rewritten}, "
         f"links_updated_corpus={report.links_updated_corpus}, "
+        f"symlinks_skipped={report.symlinks_skipped}, "
         f"dry_run={report.dry_run}"
     )
+    if report.ambiguous_keys:
+        print(f"Ambiguous mapping keys: {', '.join(report.ambiguous_keys)}")
     if report.changed:
         print(f"Changed: {', '.join(report.changed)}")
 

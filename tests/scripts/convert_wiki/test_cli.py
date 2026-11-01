@@ -509,7 +509,7 @@ class TestMainReprocess:
         mock_print.assert_any_call(
             "Reprocess: mappings_added=1, symlinks_created=0, symlinks_removed=0, "
             "symlinks_retargeted=0, files_renamed=0, articles_rewritten=0, "
-            "links_updated_corpus=0, dry_run=False"
+            "links_updated_corpus=0, symlinks_skipped=0, dry_run=False"
         )
         mock_print.assert_any_call("Changed: Modern physics")
 

@@ -191,6 +191,7 @@ class _ReprocessRequest:
 class _ReprocessPlan:
     """Immutable plan produced before any mutations."""
 
+    base_map: Mapping[str, str]
     effective_map: Mapping[str, str]
     new_mapping_keys: tuple[str, ...]
     stem_migrations: tuple[_StemMigration, ...]
@@ -216,3 +217,5 @@ class _ReprocessReport:
     links_updated_corpus: int
     dry_run: bool
     changed: tuple[str, ...]
+    symlinks_skipped: int = 0
+    ambiguous_keys: tuple[str, ...] = ()

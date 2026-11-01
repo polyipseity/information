@@ -119,6 +119,9 @@ async def plan_reprocess(
         effective_map=effective_map,
     )
     migration_map = _stem_migration_map(stem_migrations)
+    title_for_stem: dict[str, str] = {}
+    for title in sorted(effective_map):
+        title_for_stem.setdefault(_stem_for_title(title, base), effective_map[title])
 
     scanned = await _scan_redirect_symlinks(wiki_dir)
     expected_targets: dict[tuple[str, str], str] = {}
@@ -211,23 +214,32 @@ async def plan_reprocess(
         new_stem = migration_map.get(stem, _stem_for_title(stem, effective_map))
         rewrite_path = current_path
         if new_stem != stem:
-            target_name = f"{new_stem}.md"
-            current_name = f"{stem}.md"
-            exact_target = await _find_child_exact(lang_dir, target_name)
-            exact_current = await _find_child_exact(lang_dir, current_name)
-            if exact_target is not None and exact_target != exact_current:
-                if not await exact_target.is_symlink():
-                    msg = f"rename target already exists: {lang_dir / target_name}"
-                    raise FileExistsError(msg)
-            target_path = lang_dir / target_name
-            rename_actions.append(
-                _RenameAction(
-                    lang_dir_name=lang_dir_name,
-                    old_stem=stem,
-                    new_stem=new_stem,
-                )
+            target_path = lang_dir / f"{new_stem}.md"
+            exact_target = await _find_child_exact(lang_dir, target_path.name)
+            exact_current = await _find_child_exact(lang_dir, current_path.name)
+            already_renamed = (
+                exact_current is None
+                and exact_target is not None
+                and not await exact_target.is_symlink()
             )
-            heading_updates[fspath(target_path)] = new_stem
+            if not already_renamed:
+                if (
+                    exact_target is not None
+                    and exact_target != exact_current
+                    and not await exact_target.is_symlink()
+                ):
+                    msg = f"rename target already exists: {target_path}"
+                    raise FileExistsError(msg)
+                rename_actions.append(
+                    _RenameAction(
+                        lang_dir_name=lang_dir_name,
+                        old_stem=stem,
+                        new_stem=new_stem,
+                    )
+                )
+            # The heading carries the mapped title, not the sanitised stem:
+            # a title with ``:`` sanitises to ``_`` in the filename only.
+            heading_updates[fspath(target_path)] = title_for_stem.get(stem, new_stem)
             rewrite_path = target_path
         elif stem in {migration.old_stem for migration in stem_migrations}:
             heading_updates[fspath(current_path)] = migration_map.get(stem, stem)
@@ -240,6 +252,7 @@ async def plan_reprocess(
     )
 
     return _ReprocessPlan(
+        base_map=base,
         effective_map=effective_map,
         new_mapping_keys=new_keys,
         stem_migrations=stem_migrations,

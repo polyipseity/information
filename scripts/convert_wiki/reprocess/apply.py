@@ -6,6 +6,8 @@ from os import fspath, rename
 from anyio import Path
 
 from ..markdown_rewrite import (
+    _build_link_index,
+    _LinkIndex,
     _rewrite_article_heading,
     _rewrite_markdown_headings,
     _rewrite_markdown_links,
@@ -128,18 +130,19 @@ def _compute_rewrites(
     sources: Mapping[str, str],
     plan: _ReprocessPlan,
     migrations: Mapping[str, str],
+    index: _LinkIndex,
 ) -> dict[str, str]:
     """Compute rewritten text for targets whose content actually changes."""
     rewrites: dict[str, str] = {}
     for target, original in sources.items():
         rewritten = _rewrite_markdown_links(
-            original, migrations, names_map=plan.effective_map
+            original, migrations, names_map=plan.effective_map, index=index
         )
         heading = plan.heading_updates.get(target)
         if heading is not None:
             rewritten = _rewrite_article_heading(rewritten, heading)
         rewritten = _rewrite_markdown_headings(
-            rewritten, plan.effective_map, migrations
+            rewritten, plan.effective_map, migrations, index=index
         )
         if rewritten != original:
             rewrites[target] = rewritten
@@ -158,8 +161,9 @@ async def apply_reprocess_plan(
     """
     wiki_dir = Path(plan.wiki_dir)
     migrations = _stem_migration_map(plan.stem_migrations)
+    index = _build_link_index(plan.base_map, plan.effective_map)
     sources = await _read_rewrite_sources(plan, wiki_dir)
-    rewrites = _compute_rewrites(sources, plan, migrations)
+    rewrites = _compute_rewrites(sources, plan, migrations, index)
     listed_paths = set(plan.heading_updates)
     changed = tuple(
         dict.fromkeys(
@@ -197,6 +201,7 @@ async def apply_reprocess_plan(
             ),
             dry_run=True,
             changed=changed,
+            ambiguous_keys=index.ambiguous,
         )
 
     await _save_names_map(plan.effective_map, path=plan.name_map_path)
@@ -271,6 +276,7 @@ async def apply_reprocess_plan(
         ),
         dry_run=False,
         changed=changed,
+        ambiguous_keys=index.ambiguous,
     )
 
 
