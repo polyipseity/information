@@ -1160,32 +1160,39 @@ class TestFixStem:
     """A stem is sanitised knowing that ``.md`` follows it."""
 
     def test_trailing_dot_survives_because_the_name_ends_in_md(self) -> None:
+        """A dotted abbreviation keeps its final dot."""
         assert _fix_stem("i.i.d.") == "i.i.d."
 
     def test_trailing_space_survives_for_the_same_reason(self) -> None:
+        """A trailing space before `.md` is legal and survives."""
         assert _fix_stem("Notjustmoreidlechatter ") == "Notjustmoreidlechatter "
 
     def test_dotted_initials_and_citations_survive(self) -> None:
+        """Dotted initials survive a sanitised stem."""
         assert _fix_stem("Taylor, F. W.") == "Taylor, F. W."
         assert _fix_stem("Q.E.D.") == "Q.E.D."
         assert _fix_stem("0.999...") == "0.999..."
 
     def test_illegal_characters_are_still_replaced(self) -> None:
+        """A name Windows forbids still becomes a legal one."""
         assert _fix_stem("Template:Cite journal") == "Template_Cite journal"
         assert _fix_stem("C*-algebra") == "C_-algebra"
         assert _fix_stem("Why Socialism?") == "Why Socialism_"
         assert _fix_stem("A: b") == "A_ b"
 
     def test_a_device_name_is_still_suffixed(self) -> None:
+        """A device name is suffixed, never truncated."""
         assert _fix_stem("con") == "con_"
         assert _fix_stem("NUL") == "NUL_"
 
     def test_a_long_stem_keeps_the_extension_it_will_carry(self) -> None:
+        """A long stem loses characters, never its extension."""
         stem = _fix_stem("x" * 300)
         assert len(stem) == 252
         assert _fix_stem(stem) == stem
 
     def test_an_empty_result_is_empty(self) -> None:
+        """An empty stem stays empty."""
         assert _fix_stem("") == ""
         assert _fix_stem(" ") == ""
 
@@ -1194,6 +1201,7 @@ class TestCorpusNamesAreCanonical:
     """Every name on disk is what the corrected sanitiser would produce."""
 
     def test_no_note_or_redirect_needs_renaming(self) -> None:
+        """Every on-disk name is already what the sanitiser writes."""
         offenders = []
         for root, dirs, names in os.walk("general"):
             dirs[:] = [directory for directory in dirs if not directory.startswith(".")]

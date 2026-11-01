@@ -695,18 +695,22 @@ class TestLosslessRewrite:
     """A rewrite may repoint a link; it may never re-spell one it did not."""
 
     def test_a_legal_unresolved_stem_keeps_its_trailing_dot(self) -> None:
+        """A dotted abbreviation stays dotted."""
         text = "see [iid](i.i.d..md) and [iid](i.i.d..md#definition)"
         assert _rewrite_markdown_links(text, {}, names_map={}) == text
 
     def test_a_legal_unresolved_stem_keeps_its_trailing_space(self) -> None:
+        """A name that ends in a space before `.md` stays as written."""
         text = "[x](Notjustmoreidlechatter%20.md)"
         assert _rewrite_markdown_links(text, {}, names_map={}) == text
 
     def test_an_impossible_stem_is_left_alone_by_default(self) -> None:
+        """The rewrite never sanitises a name it did not resolve."""
         text = "[a](C*-algebra.md) [b](Template:Cite%20journal.md)"
         assert _rewrite_markdown_links(text, {}, names_map={}) == text
 
     def test_an_unresolved_stem_is_not_re_sanitised(self) -> None:
+        """A legal destination with a comma and dot is not re-spelled."""
         text = "[x](Washington,%20D.C..md)"
         assert _rewrite_markdown_links(text, {}, names_map={"zzz": "y"}) == text
 
@@ -757,11 +761,13 @@ class TestRepairIllegalNames:
     """The repair writes what the converter would have written."""
 
     def test_repair_mode_sanitises_an_article_title(self) -> None:
+        """A title loses the character Windows forbids."""
         text = "[a](C*-algebra.md) [b](Why%20Socialism%3F.md)"
         repaired = _rewrite_markdown_links(text, {}, names_map={}, repair_illegal=True)
         assert repaired == "[a](C%5F-algebra.md) [b](Why%20Socialism%5F.md)"
 
     def test_repair_mode_turns_a_namespace_link_into_its_url(self) -> None:
+        """A preserved namespace becomes its Wikipedia URL."""
         text = "[dubious](Wikipedia:Accuracy%20dispute.md#disputed%20statement)"
         repaired = _rewrite_markdown_links(text, {}, names_map={}, repair_illegal=True)
         assert repaired == (
@@ -770,41 +776,48 @@ class TestRepairIllegalNames:
         )
 
     def test_repair_mode_turns_a_wiktionary_link_into_its_url(self) -> None:
+        """An interwiki link becomes its Wiktionary URL."""
         repaired = _rewrite_markdown_links(
             "[nimm](wikt:nimm.md)", {}, names_map={}, repair_illegal=True
         )
         assert repaired == "[nimm](https://en.wiktionary.org/wiki/nimm)"
 
     def test_repair_mode_points_a_language_link_at_its_language_dir(self) -> None:
+        """A language interwiki points at the language directory."""
         repaired = _rewrite_markdown_links(
             "[x](de:Tom%20Leinster.md)", {}, names_map={}, repair_illegal=True
         )
         assert repaired == "[x](../deu/Tom%20Leinster.md)"
 
     def test_repair_mode_leaves_a_legal_stem_alone(self) -> None:
+        """A legal stem is untouched by the repair."""
         text = "[a](i.i.d..md) [b](Q.E.D..md) [c](Notjustmoreidlechatter%20.md)"
         assert (
             _rewrite_markdown_links(text, {}, names_map={}, repair_illegal=True) == text
         )
 
     def test_repair_mode_leaves_a_commented_link_alone(self) -> None:
+        """A commented destination is out of the repair's reach."""
         text = "<!-- [portal](Portal:Business.md) -->"
         assert (
             _rewrite_markdown_links(text, {}, names_map={}, repair_illegal=True) == text
         )
 
     def test_repair_mode_keeps_a_relative_path_it_can_write(self) -> None:
+        """A relative path with a legal name is untouched."""
         text = "see [a](../fra/Charles%20Bioche.md), [b](./photon%20energy.md)"
         assert (
             _rewrite_markdown_links(text, {}, names_map={}, repair_illegal=True) == text
         )
 
     def test_repair_mode_sanitises_only_the_last_component_of_a_path(self) -> None:
+        """A path keeps its directories and fixes its name."""
         repaired = _rewrite_markdown_links(
             "[a](../eng/C*-algebra.md)", {}, names_map={}, repair_illegal=True
         )
         assert repaired == "[a](../eng/C%5F-algebra.md)"
 
     def test_repair_mode_is_off_by_default(self) -> None:
+        """The repair runs only when asked."""
         text = "[a](C*-algebra.md)"
         assert _rewrite_markdown_links(text, {}, names_map={}) == text
