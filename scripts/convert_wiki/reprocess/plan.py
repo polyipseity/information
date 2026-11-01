@@ -7,6 +7,7 @@ from anyio import Path
 
 from .. import config as _cfg
 from ..api import _load_redirect_cache
+from ..markdown_rewrite import _build_link_index
 from ..name_map_io import _merge_names_maps, _new_mapping_keys
 from ..stems import _stem_for_title
 from ..symlinks import _resolve_cache_target_filename, _scan_redirect_symlinks
@@ -110,6 +111,10 @@ async def plan_reprocess(
     base = base_map if base_map is not None else _cfg._NAMES_MAP
     effective_map = _merge_names_maps(base, request.mappings)
     new_keys = _new_mapping_keys(base, effective_map)
+    # A key two titles claim differently cannot be applied, so the lookup
+    # index is built here first: planning fails before anything is decided,
+    # and a dry run reports the defect instead of a plan.
+    _build_link_index(base, effective_map)
 
     resolved_articles = [
         _resolve_article_spec(spec, wiki_dir) for spec in request.articles

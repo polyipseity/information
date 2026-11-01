@@ -333,3 +333,29 @@ class TestColonTitleReprocess:
         assert list(plan.heading_updates.values()) == ["a: b"]
         await apply_reprocess_plan(plan, dry_run=False)
         assert await (lang_dir / "A_ b.md").read_text(encoding="UTF-8") == ("# a: b\n")
+
+
+class TestCollidingNameMap:
+    """A name map that two titles claim differently stops the run early."""
+
+    @pytest.mark.anyio
+    async def test_planning_refuses_a_collision(self, tmp_path: PathLike[str]) -> None:
+        """A collision raises while planning, before any action is decided."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        await (wiki_dir / "map.jsonc").write_text("{}\n", encoding="UTF-8")
+
+        with pytest.raises(ValueError, match="name map collision"):
+            await plan_reprocess(
+                _ReprocessRequest(
+                    mappings={"A: b": "x", "A b": "y"},
+                    articles=(),
+                    update_links=False,
+                    dry_run=True,
+                    wiki_dir=wiki_dir,
+                    cache_path=wiki_dir / "cache.json",
+                    name_map_path=wiki_dir / "map.jsonc",
+                ),
+                base_map={},
+            )
