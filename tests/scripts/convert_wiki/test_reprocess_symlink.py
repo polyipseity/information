@@ -379,7 +379,8 @@ class TestCircularRedirectRefused:
         """A redirect spelled `Foo.md` still matches the migration key `foo`.
 
         The on-disk stem goes through the base map's spelling before the
-        migration lookup, so a differently-cased filename is renamed too.
+        migration lookup, so a differently-cased filename is renamed too,
+        while a target the mappings never mention keeps its spelling.
         """
         wiki_dir = AnyioPath(tmp_path)
         lang_dir = wiki_dir / "eng"
@@ -404,5 +405,40 @@ class TestCircularRedirectRefused:
 
         renamed = lang_dir / "bar.md"
         assert await renamed.is_symlink()
-        assert str(await renamed.readlink()) == "baz.md"
+        assert str(await renamed.readlink()) == "Baz.md"
         assert not await (lang_dir / "Foo.md").is_symlink()
+
+    @pytest.mark.anyio
+    async def test_map_spelling_alone_does_not_rename_a_redirect(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """A pass with no migration for a redirect leaves its name alone.
+
+        The map spells `Cornu Spiral` as `Cornu spiral`; a redirect stored as
+        `Cornu spiral.md` already matches, and one stored as `Cornu Spiral.md`
+        is not this pass's business.
+        """
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        await (lang_dir / "Cornu spiral.md").symlink_to(
+            "Cornu Spiral (curves).md", target_is_directory=False
+        )
+        base = {"Cornu Spiral": "Cornu spiral", "Cornu spiral": "Cornu spiral"}
+        map_path = wiki_dir / "map.jsonc"
+        await map_path.write_text("{}\n", encoding="UTF-8")
+
+        plan = await plan_reprocess(
+            _ReprocessRequest(
+                mappings={"Unrelated title": "unrelated title"},
+                articles=(),
+                update_links=False,
+                dry_run=True,
+                wiki_dir=wiki_dir,
+                cache_path=wiki_dir / "cache.json",
+                name_map_path=map_path,
+            ),
+            base_map=base,
+        )
+
+        assert [a for a in plan.symlink_actions if a.to_stem != a.from_stem] == []

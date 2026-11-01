@@ -55,6 +55,25 @@ def _stem_migration_map(
     return {migration.old_stem: migration.new_stem for migration in migrations}
 
 
+def _migrated_stem(
+    stem: str,
+    migrations: Mapping[str, str],
+    base: Mapping[str, str],
+) -> str:
+    """Return the stem *stem* carries once *migrations* are applied.
+
+    The on-disk spelling is kept unless a migration names it, so a redirect
+    whose name the map spells differently is not renamed by a pass that has
+    nothing to say about it.  Two spellings count as the same stem: the one
+    on disk and the one the base map's heuristic produces, which is where a
+    differently-cased filename came from.
+    """
+    for candidate in (stem, _stem_for_title(stem, base)):
+        if candidate in migrations:
+            return migrations[candidate]
+    return stem
+
+
 def _resolve_article_spec(
     spec: str,
     wiki_dir: Path,
@@ -151,14 +170,7 @@ async def plan_reprocess(
             )
 
     def _planned_stem(stem: str) -> str:
-        """Return the stem a redirect stored as *stem* will carry.
-
-        The on-disk name can differ from the base map's spelling in letter
-        case, so both the rename and the lookup go through the canonical
-        form first; only then does a stem migration apply.
-        """
-        canonical = _stem_for_title(stem, base)
-        return migration_map.get(canonical, canonical)
+        return _migrated_stem(stem, migration_map, base)
 
     symlink_actions: list[_SymlinkAction] = []
     for from_stem, lang_dir, _symlink in scanned:

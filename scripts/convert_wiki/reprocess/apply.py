@@ -13,7 +13,6 @@ from ..markdown_rewrite import (
     _rewrite_markdown_links,
 )
 from ..name_map_io import _reload_names_map, _save_names_map
-from ..stems import _stem_for_title
 from ..types import (
     _ReprocessPlan,
     _ReprocessReport,
@@ -27,7 +26,7 @@ from ..utils import (
     _point_symlink,
     _remove_redirect_symlinks,
 )
-from .plan import _stem_migration_map, plan_reprocess
+from .plan import _migrated_stem, _stem_migration_map, plan_reprocess
 
 """Exported names from this module."""
 __all__ = ()
@@ -80,8 +79,7 @@ async def _apply_symlink_rename(
         return True
     target = str(await old_path.readlink())
     target_stem = target.removesuffix(".md") if target.endswith(".md") else target
-    canonical_target = _stem_for_title(target_stem, base)
-    new_target_stem = migrations.get(canonical_target, canonical_target)
+    new_target_stem = _migrated_stem(target_stem, migrations, base)
     await old_path.unlink()
     old_mirror = await _find_child_exact(wiki_dir, old_name)
     if old_mirror is not None and await old_mirror.is_symlink():
