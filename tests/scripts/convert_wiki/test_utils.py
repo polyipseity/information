@@ -3,6 +3,7 @@
 These tests cover the pure helper functions used throughout the package.
 """
 
+import logging
 from os import PathLike
 
 import pytest
@@ -1097,3 +1098,57 @@ class TestSymlinkCycleGuard:
         assert str(await link.readlink()) == "target.md"
         after = await link.lstat()
         assert (after.st_ino, after.st_mtime_ns) == (before.st_ino, before.st_mtime_ns)
+
+    @pytest.mark.anyio
+    async def test_retarget_leaves_no_temporary_link(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """A retarget moves the new link into place and leaves no residue."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        link = lang_dir / "redirect.md"
+        await link.symlink_to("old.md", target_is_directory=False)
+
+        pointed = await _mod._point_symlink(  # noqa: SLF001
+            lang_dir, "redirect.md", "new.md"
+        )
+
+        assert pointed is True
+        assert str(await link.readlink()) == "new.md"
+        assert not await (lang_dir / ".redirect.md.link").is_symlink()
+
+    @pytest.mark.anyio
+    async def test_cycle_through_a_symlinked_directory_is_refused(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """Two spellings that reach one directory through a link fold together."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        await (wiki_dir / "alias").symlink_to("eng", target_is_directory=True)
+
+        pointed = await _mod._point_symlink(  # noqa: SLF001
+            lang_dir, "A.md", "../alias/A.md"
+        )
+
+        assert pointed is False
+        assert not await (lang_dir / "A.md").is_symlink()
+
+    @pytest.mark.anyio
+    async def test_real_file_skip_is_logged(
+        self, tmp_path: PathLike[str], caplog: pytest.LogCaptureFixture
+    ) -> None:
+        """A real file owning the name is named in the log, not just counted."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        await (lang_dir / "kept.md").write_text("content", encoding="UTF-8")
+
+        with caplog.at_level(logging.WARNING):
+            pointed = await _mod._point_symlink(  # noqa: SLF001
+                lang_dir, "kept.md", "target.md"
+            )
+
+        assert pointed is False
+        assert "leaving real file in place" in caplog.text

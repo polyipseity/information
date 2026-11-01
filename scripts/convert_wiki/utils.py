@@ -5,13 +5,13 @@ Pure helper functions with no class dependencies.
 
 import re
 from collections.abc import Collection, Mapping
-from os import PathLike, fspath
-from os.path import dirname, isabs, join, normpath
+from os import PathLike, fspath, replace
+from os.path import dirname, isabs, join, realpath, split
 from unicodedata import normalize as _normalize_unicode
 from urllib.parse import unquote
 
 import pathvalidate
-from anyio import Path
+from anyio import Path, to_thread
 from bs4 import Tag
 from yarl import URL
 
@@ -48,9 +48,12 @@ def _fold_path_key(path: str) -> str:
 
     ``os.path.normcase`` cannot be used: it is the identity function on
     POSIX, while the filesystems this must guard are case-insensitive there
-    too.
+    too.  Only the directory components are resolved, so two spellings that
+    reach the same directory through a symlink fold together while the final
+    link stays the final link the walk is about.
     """
-    return _fold_text(normpath(path))
+    parent, name = split(path)
+    return _fold_text(join(realpath(parent), name))
 
 
 async def _unlink_case_colliding_symlinks(parent: Path, name: str) -> None:
@@ -103,22 +106,18 @@ def _fix_name_maybe(
     return name
 
 
-async def _symlink_to_idempotent(
-    path: Path,
-    target: str,
-    *,
-    target_is_directory: bool = False,
-) -> None:
-    """Create _path_ → _target_ unless an equivalent symlink already exists.
+async def _replace_symlink(path: Path, target: str) -> None:
+    """Point _path_ at _target_, replacing the link that was there.
 
-      Concurrent converters may race to create the same redirect symlink; treat
-    a matching existing symlink as success and re-raise only on conflict.
+    The new link is built beside the old one and moved into place, so an
+    interruption leaves the old redirect intact instead of deleting it and
+    dying before the replacement exists.
     """
-    try:
-        await path.symlink_to(target, target_is_directory=target_is_directory)
-    except FileExistsError:
-        if not (await path.is_symlink() and str(await path.readlink()) == target):
-            raise
+    temporary = path.with_name(f".{path.name}.link")
+    if await temporary.is_symlink():
+        await temporary.unlink()
+    await temporary.symlink_to(target, target_is_directory=False)
+    await to_thread.run_sync(replace, fspath(temporary), fspath(path))
 
 
 """Upper bound on link hops followed while checking for a cycle."""
@@ -130,14 +129,15 @@ async def _symlink_would_loop(parent: Path, name: str, target: str) -> bool:
 
     The walk follows the chain that already exists from the proposed target,
     so an indirect cycle through other links is caught as well as a direct
-    self-loop.  Paths are compared case-insensitively, because the link and
-    its target name one file on a case-insensitive filesystem.  A chain that
-    revisits a path, or that outlives the hop budget, is already broken, so
-    the new link is refused rather than made unreachable.
+    self-loop.  Paths are compared case-insensitively after resolution,
+    because the link and its target name one file on a case-insensitive
+    filesystem.  A chain that revisits a path, or that outlives the hop
+    budget, is already broken, so the new link is refused rather than made
+    unreachable.
     """
     parent_path = fspath(parent)
     link_key = _fold_path_key(join(parent_path, name))
-    current = normpath(join(parent_path, target))
+    current = join(parent_path, target)
     visited = {link_key}
     for _hop in range(_MAX_SYMLINK_HOPS):
         key = _fold_path_key(current)
@@ -148,7 +148,7 @@ async def _symlink_would_loop(parent: Path, name: str, target: str) -> bool:
         if not await current_path.is_symlink():
             return False
         next_target = fspath(await current_path.readlink())
-        current = normpath(
+        current = (
             next_target if isabs(next_target) else join(dirname(current), next_target)
         )
     return True
@@ -172,11 +172,12 @@ async def _point_symlink(parent: Path, name: str, target: str) -> bool:
         occupant = await _find_child_case_insensitive(parent, name)
     if occupant is not None:
         if not await occupant.is_symlink():
+            _cfg._logger.warning("leaving real file in place: %s", occupant)
             return False
-        if str(await occupant.readlink()) != target:
-            await occupant.unlink()
+        if str(await occupant.readlink()) == target:
+            return True
     await _unlink_case_colliding_symlinks(parent, name)
-    await _symlink_to_idempotent(path, target)
+    await _replace_symlink(path, target)
     return True
 
 
