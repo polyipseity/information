@@ -22,8 +22,9 @@ from ..types import (
 from ..utils import (
     _create_redirect_symlinks,
     _find_child_exact,
+    _fold_text,
+    _point_symlink,
     _remove_redirect_symlinks,
-    _unlink_case_colliding_symlinks,
 )
 from .plan import _stem_migration_map, plan_reprocess
 
@@ -37,7 +38,7 @@ async def _apply_rename(
     lang_dir_name: str,
     old_stem: str,
     new_stem: str,
-) -> None:
+) -> bool:
     """Atomically rename an article and its top-level mirror symlink."""
     lang_dir = wiki_dir / lang_dir_name
     old_name = f"{old_stem}.md"
@@ -53,11 +54,7 @@ async def _apply_rename(
     old_mirror = await _find_child_exact(wiki_dir, old_name)
     if old_mirror is not None and await old_mirror.is_symlink():
         await old_mirror.unlink()
-    if await _find_child_exact(wiki_dir, new_name) is None:
-        await (wiki_dir / new_name).symlink_to(
-            f"{lang_dir_name}/{new_stem}.md",
-            target_is_directory=False,
-        )
+    return await _point_symlink(wiki_dir, new_name, f"{lang_dir_name}/{new_stem}.md")
 
 
 async def _apply_symlink_rename(
@@ -67,32 +64,32 @@ async def _apply_symlink_rename(
     old_stem: str,
     new_stem: str,
     migrations: dict[str, str],
-) -> None:
-    """Rename a redirect symlink and migrate its target stem when needed."""
+) -> bool:
+    """Rename a redirect symlink and migrate its target stem when needed.
+
+    A redirect whose new name would be its own target is removed instead:
+    it carries no information left, and a link to itself would resolve to
+    nothing.
+    """
     lang_dir = wiki_dir / lang_dir_name
     old_name = f"{old_stem}.md"
-    new_name = f"{new_stem}.md"
     old_path = await _find_child_exact(lang_dir, old_name)
     if old_path is None or not await old_path.is_symlink():
-        return
+        return True
     target = str(await old_path.readlink())
-    if target.endswith(".md"):
-        target_stem = target.removesuffix(".md")
-        new_target = f"{migrations.get(target_stem, target_stem)}.md"
-    else:
-        new_target = target
+    target_stem = target.removesuffix(".md") if target.endswith(".md") else target
+    new_target_stem = migrations.get(target_stem, target_stem)
     await old_path.unlink()
-    await _unlink_case_colliding_symlinks(lang_dir, new_name)
-    new_path = lang_dir / new_name
-    await new_path.symlink_to(new_target, target_is_directory=False)
     old_mirror = await _find_child_exact(wiki_dir, old_name)
     if old_mirror is not None and await old_mirror.is_symlink():
         await old_mirror.unlink()
-    if await _find_child_exact(wiki_dir, new_name) is None:
-        await (wiki_dir / new_name).symlink_to(
-            f"{lang_dir_name}/{new_stem}.md",
-            target_is_directory=False,
-        )
+    if _fold_text(new_stem) == _fold_text(new_target_stem):
+        return True
+    lang_ok = await _point_symlink(lang_dir, f"{new_stem}.md", f"{new_target_stem}.md")
+    mirror_ok = await _point_symlink(
+        wiki_dir, f"{new_stem}.md", f"{lang_dir_name}/{new_stem}.md"
+    )
+    return lang_ok and mirror_ok
 
 
 async def _read_rewrite_sources(
@@ -207,24 +204,27 @@ async def apply_reprocess_plan(
     await _save_names_map(plan.effective_map, path=plan.name_map_path)
     _reload_names_map()
 
+    symlinks_skipped = 0
     for rename_action in plan.rename_actions:
-        await _apply_rename(
+        if not await _apply_rename(
             wiki_dir,
             lang_dir_name=rename_action.lang_dir_name,
             old_stem=rename_action.old_stem,
             new_stem=rename_action.new_stem,
-        )
+        ):
+            symlinks_skipped += 1
 
     for action in plan.symlink_actions:
         if action.kind != _SymlinkActionKind.RENAME:
             continue
-        await _apply_symlink_rename(
+        if not await _apply_symlink_rename(
             wiki_dir,
             lang_dir_name=action.lang_dir_name,
             old_stem=action.from_stem,
             new_stem=action.to_stem,
             migrations=migrations,
-        )
+        ):
+            symlinks_skipped += 1
 
     symlinks_created = 0
     symlinks_removed = 0
@@ -232,22 +232,19 @@ async def apply_reprocess_plan(
     for action in plan.symlink_actions:
         lang_dir = wiki_dir / action.lang_dir_name
         match action.kind:
-            case _SymlinkActionKind.CREATE:
-                await _create_redirect_symlinks(
+            case _SymlinkActionKind.CREATE | _SymlinkActionKind.RETARGET:
+                pointed = await _create_redirect_symlinks(
                     wiki_dir,
                     lang_dir,
                     action.from_stem,
                     action.to_stem,
                 )
-                symlinks_created += 1
-            case _SymlinkActionKind.RETARGET:
-                await _create_redirect_symlinks(
-                    wiki_dir,
-                    lang_dir,
-                    action.from_stem,
-                    action.to_stem,
-                )
-                symlinks_retargeted += 1
+                if action.kind == _SymlinkActionKind.CREATE:
+                    symlinks_created += 1
+                else:
+                    symlinks_retargeted += 1
+                if not pointed:
+                    symlinks_skipped += 1
             case _SymlinkActionKind.REMOVE:
                 await _remove_redirect_symlinks(
                     wiki_dir,
@@ -276,6 +273,7 @@ async def apply_reprocess_plan(
         ),
         dry_run=False,
         changed=changed,
+        symlinks_skipped=symlinks_skipped,
         ambiguous_keys=index.ambiguous,
     )
 

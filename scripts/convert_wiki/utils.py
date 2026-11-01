@@ -5,7 +5,9 @@ Pure helper functions with no class dependencies.
 
 import re
 from collections.abc import Collection, Mapping
-from os import PathLike
+from os import PathLike, fspath
+from os.path import dirname, isabs, join, normpath
+from unicodedata import normalize as _normalize_unicode
 from urllib.parse import unquote
 
 import pathvalidate
@@ -34,6 +36,21 @@ async def _find_child_case_insensitive(parent: Path, name: str) -> Path | None:
         if entry.name != name and entry.name.lower() == name_lower:
             return entry
     return None
+
+
+def _fold_text(text: str) -> str:
+    """Return a comparison key for _text_ that ignores letter case."""
+    return _normalize_unicode("NFC", text).casefold()
+
+
+def _fold_path_key(path: str) -> str:
+    """Return a comparison key for a path that ignores letter case.
+
+    ``os.path.normcase`` cannot be used: it is the identity function on
+    POSIX, while the filesystems this must guard are case-insensitive there
+    too.
+    """
+    return _fold_text(normpath(path))
 
 
 async def _unlink_case_colliding_symlinks(parent: Path, name: str) -> None:
@@ -104,23 +121,63 @@ async def _symlink_to_idempotent(
             raise
 
 
-async def _create_symlink_unless_real_file(
-    parent: Path, name: str, target: str
-) -> None:
-    """Create ``parent/name`` → ``target`` unless a real file already occupies it.
+"""Upper bound on link hops followed while checking for a cycle."""
+_MAX_SYMLINK_HOPS = 40
 
-    A real file whose name differs from _name_ only by letter case still
-    occupies the path on a case-insensitive filesystem, so the real-file
-    invariant forbids replacing it; the symlink is skipped instead.  A
-    case-colliding symlink is replaced by the canonical name.
+
+async def _symlink_would_loop(parent: Path, name: str, target: str) -> bool:
+    """Return whether ``parent/name`` -> ``target`` would close a cycle.
+
+    The walk follows the chain that already exists from the proposed target,
+    so an indirect cycle through other links is caught as well as a direct
+    self-loop.  Paths are compared case-insensitively, because the link and
+    its target name one file on a case-insensitive filesystem.  A chain that
+    revisits a path, or that outlives the hop budget, is already broken, so
+    the new link is refused rather than made unreachable.
     """
+    parent_path = fspath(parent)
+    link_key = _fold_path_key(join(parent_path, name))
+    current = normpath(join(parent_path, target))
+    visited = {link_key}
+    for _hop in range(_MAX_SYMLINK_HOPS):
+        key = _fold_path_key(current)
+        if key in visited:
+            return True
+        visited.add(key)
+        current_path = Path(current)
+        if not await current_path.is_symlink():
+            return False
+        next_target = fspath(await current_path.readlink())
+        current = normpath(
+            next_target if isabs(next_target) else join(dirname(current), next_target)
+        )
+    return True
+
+
+async def _point_symlink(parent: Path, name: str, target: str) -> bool:
+    """Create or retarget ``parent/name`` -> ``target``, never onto a cycle.
+
+    Returns whether the path now names the intended link.  A real file that
+    occupies the name, exactly or differing only by letter case, is never
+    replaced; an existing symlink that names another target is retargeted.
+    A link that would resolve to itself, directly or through other links, is
+    refused and logged instead of written.
+    """
+    path = parent / name
+    if await _symlink_would_loop(parent, name, target):
+        _cfg._logger.warning("refusing circular symlink: %s -> %s", path, target)
+        return False
     occupant = await _find_child_exact(parent, name)
     if occupant is None:
         occupant = await _find_child_case_insensitive(parent, name)
-    if occupant is not None and not await occupant.is_symlink():
-        return
+    if occupant is not None:
+        if not await occupant.is_symlink():
+            return False
+        if str(await occupant.readlink()) != target:
+            await occupant.unlink()
     await _unlink_case_colliding_symlinks(parent, name)
-    await _symlink_to_idempotent(parent / name, target)
+    await _symlink_to_idempotent(path, target)
+    return True
 
 
 async def _create_redirect_symlinks(
@@ -128,7 +185,7 @@ async def _create_redirect_symlinks(
     wiki_lang_dir: PathLike[str],
     from_filename: str,
     to_filename: str,
-) -> None:
+) -> bool:
     """Create or retarget redirect symlinks for a renamed page.
 
     The language-directory symlink ``{from_filename}.md`` is retargeted when
@@ -138,40 +195,30 @@ async def _create_redirect_symlinks(
     if missing; an existing mirror (symlink or real file) is never touched.
     When a real file differing only in letter case occupies the
     language-directory path, no symlink is created there and the mirror is
-    left alone, since there is nothing left to mirror.
+    left alone, since there is nothing left to mirror.  Neither link is
+    written when it would resolve to itself; the return value says whether
+    both were pointed at their target.
     """
     wiki_dir_path = Path(wiki_dir)
     wiki_lang_dir_path = Path(wiki_lang_dir)
     redirect_name = f"{from_filename}.md"
-    target = f"{to_filename}.md"
-    redirect_file = await _find_child_exact(wiki_lang_dir_path, redirect_name)
-    if redirect_file is not None and await redirect_file.is_symlink():
-        if str(await redirect_file.readlink()) != target:
-            await redirect_file.unlink()
-            await _create_symlink_unless_real_file(
-                wiki_lang_dir_path, redirect_name, target
-            )
-    else:
-        await _create_symlink_unless_real_file(
-            wiki_lang_dir_path, redirect_name, target
-        )
-    if await _find_child_exact(wiki_lang_dir_path, redirect_name) is None:
-        return
+    exact = await _find_child_exact(wiki_lang_dir_path, redirect_name)
+    real_file_occupies_name = exact is not None and not await exact.is_symlink()
+    lang_ok = await _point_symlink(
+        wiki_lang_dir_path, redirect_name, f"{to_filename}.md"
+    )
+    if not lang_ok and not real_file_occupies_name:
+        # Nothing is left at the name to mirror: a real file differing only
+        # by case still owns the path, or the link was refused as circular.
+        return False
     mirror_name = redirect_name
     expected_mirror_target = str(
         wiki_lang_dir_path.relative_to(wiki_dir_path) / mirror_name
     )
-    mirror_file = await _find_child_exact(wiki_dir_path, mirror_name)
-    if mirror_file is not None and await mirror_file.is_symlink():
-        if str(await mirror_file.readlink()) != expected_mirror_target:
-            await mirror_file.unlink()
-            await _create_symlink_unless_real_file(
-                wiki_dir_path, mirror_name, expected_mirror_target
-            )
-    else:
-        await _create_symlink_unless_real_file(
-            wiki_dir_path, mirror_name, expected_mirror_target
-        )
+    return (
+        await _point_symlink(wiki_dir_path, mirror_name, expected_mirror_target)
+        and lang_ok
+    )
 
 
 async def _remove_redirect_symlinks(

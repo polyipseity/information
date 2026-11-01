@@ -18,7 +18,11 @@ from ..types import (
     _SymlinkAction,
     _SymlinkActionKind,
 )
-from ..utils import _find_child_case_insensitive, _find_child_exact
+from ..utils import (
+    _find_child_case_insensitive,
+    _find_child_exact,
+    _fold_text,
+)
 
 """Exported names from this module."""
 __all__ = ()
@@ -173,7 +177,10 @@ async def plan_reprocess(
             )
             expected = f"{expected_stem}.md"
             key = (from_stem, lang_dir_name)
-            if info.to == title or from_stem == expected_stem:
+            # A redirect that would name its own target carries nothing; it is
+            # removed rather than written as a link to itself, which the link
+            # and its target are on a case-insensitive filesystem.
+            if info.to == title or _fold_text(from_stem) == _fold_text(expected_stem):
                 if key in scanned_lookup:
                     symlink_actions.append(
                         _SymlinkAction(

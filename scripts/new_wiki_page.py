@@ -95,7 +95,8 @@ This text incorporates [content](https://{wikipedia_lang}.wikipedia.org/wiki/{wi
     # --- File paths ---
     # The converter links to the sanitised stem (``A: b`` -> ``A_ b``), so the
     # note and its mirror must carry that stem too; the raw title stays in the
-    # alias and the heading.
+    # alias and the heading.  The link target always carries the language
+    # directory, so neither path can ever name the other.
     stem = _fix_filename(name)
     if not stem:
         msg = f"name has no usable filename characters: {name!r}"

@@ -12,6 +12,7 @@ from scripts.convert_wiki.reprocess.plan import (
 )
 from scripts.convert_wiki.types import (
     _ReprocessRequest,
+    _SymlinkActionKind,
 )
 
 """Public API of this test module (empty: no symbols are exported)."""
@@ -291,3 +292,78 @@ class TestReprocessSymlinkRename:
         rewritten = await article.read_text(encoding="UTF-8")
         assert "Jean%20Le%20Rond%20d'Alembert.md" in rewritten
         assert "Jean%20le%20Rond%20d'Alembert.md" not in rewritten
+
+
+class TestCircularRedirectRefused:
+    """A redirect that would name its own target is removed, not written.
+
+    Stems are compared case-insensitively: on a case-insensitive filesystem
+    ``bar.md -> Bar.md`` is a link to itself.
+    """
+
+    @pytest.mark.anyio
+    async def test_plan_removes_a_case_only_self_redirect(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """A redirect whose target stems differ only by case is a removal."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        await (lang_dir / "Foo.md").symlink_to("stale.md", target_is_directory=False)
+        await (wiki_dir / "cache.json").write_text(
+            '{"Foo": {"to": "foo"}}\n', encoding="UTF-8"
+        )
+        map_path = wiki_dir / "map.jsonc"
+        await map_path.write_text("{}\n", encoding="UTF-8")
+
+        plan = await plan_reprocess(
+            _ReprocessRequest(
+                mappings={},
+                articles=(),
+                update_links=False,
+                dry_run=False,
+                wiki_dir=wiki_dir,
+                cache_path=wiki_dir / "cache.json",
+                name_map_path=map_path,
+            ),
+            base_map={"Foo": "Foo", "foo": "foo"},
+        )
+
+        assert [(action.kind, action.from_stem) for action in plan.symlink_actions] == [
+            (_SymlinkActionKind.REMOVE, "Foo")
+        ]
+        await apply_reprocess_plan(plan, dry_run=False)
+        assert not await (lang_dir / "Foo.md").is_symlink()
+
+    @pytest.mark.anyio
+    async def test_renaming_onto_the_target_drops_the_redirect(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """A renamed redirect that lands on its own target is removed."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        await (lang_dir / "foo.md").symlink_to("Bar.md", target_is_directory=False)
+        await (wiki_dir / "foo.md").symlink_to("eng/foo.md", target_is_directory=False)
+        map_path = wiki_dir / "map.jsonc"
+        await map_path.write_text("{}\n", encoding="UTF-8")
+
+        plan = await plan_reprocess(
+            _ReprocessRequest(
+                mappings={"Foo": "bar"},
+                articles=(),
+                update_links=False,
+                dry_run=False,
+                wiki_dir=wiki_dir,
+                cache_path=wiki_dir / "cache.json",
+                name_map_path=map_path,
+            ),
+            base_map={},
+        )
+        report = await apply_reprocess_plan(plan, dry_run=False)
+
+        assert report.symlinks_skipped == 0
+        assert not await (lang_dir / "bar.md").is_symlink()
+        assert not await (wiki_dir / "bar.md").is_symlink()
+        assert not await (lang_dir / "foo.md").is_symlink()
+        assert not await (wiki_dir / "foo.md").is_symlink()

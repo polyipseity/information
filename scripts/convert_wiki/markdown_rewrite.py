@@ -5,7 +5,6 @@ import re
 from collections.abc import Mapping, Sequence
 from dataclasses import dataclass
 from typing import Any
-from unicodedata import normalize as _normalize_unicode
 from urllib.parse import unquote
 
 from .ast_utils import (
@@ -15,7 +14,14 @@ from .ast_utils import (
     _walk_tokens,
 )
 from .stems import _stem_for_title
-from .utils import _encode_fragment, _fix_filename, _plain_fragment
+from .utils import (
+    _encode_fragment,
+    _fix_filename,
+    _plain_fragment,
+)
+from .utils import (
+    _fold_text as _fold,
+)
 
 """Exported names from this module."""
 __all__ = ()
@@ -74,11 +80,6 @@ class _LinkIndex:
     stem_old: Mapping[str, str]
     stem_old_fold: Mapping[str, str]
     ambiguous: tuple[str, ...]
-
-
-def _fold(text: str) -> str:
-    """Fold _text_ for the forgiving lookup layers."""
-    return _normalize_unicode("NFC", text).casefold()
 
 
 def _index_add(

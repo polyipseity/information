@@ -970,3 +970,130 @@ class TestPlainFragment:
     def test_plain_text_unchanged(self) -> None:
         """Plain text passes through unchanged."""
         assert _mod._plain_fragment("hello") == "hello"  # noqa: SLF001
+
+
+class TestSymlinkCycleGuard:
+    """Symlink creation must never close a cycle.
+
+    Paths are compared case-insensitively, because a link and its target
+    name one file on a case-insensitive filesystem.
+    """
+
+    @pytest.mark.anyio
+    async def test_self_loop_is_refused(self, tmp_path: PathLike[str]) -> None:
+        """A redirect onto its own stem creates nothing."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+
+        pointed = await _mod._create_redirect_symlinks(  # noqa: SLF001
+            wiki_dir, lang_dir, "loop", "loop"
+        )
+
+        assert pointed is False
+        assert not await (lang_dir / "loop.md").is_symlink()
+        assert not await (wiki_dir / "loop.md").is_symlink()
+
+    @pytest.mark.anyio
+    async def test_case_only_self_loop_is_refused(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """A target differing only by letter case names the link itself."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+
+        pointed = await _mod._create_redirect_symlinks(  # noqa: SLF001
+            wiki_dir, lang_dir, "Loop", "loop"
+        )
+
+        assert pointed is False
+        assert not await (lang_dir / "Loop.md").is_symlink()
+
+    @pytest.mark.anyio
+    async def test_indirect_cycle_is_refused(self, tmp_path: PathLike[str]) -> None:
+        """A link back into an existing chain is refused."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        await (lang_dir / "B.md").symlink_to("A.md", target_is_directory=False)
+
+        pointed = await _mod._create_redirect_symlinks(  # noqa: SLF001
+            wiki_dir, lang_dir, "A", "B"
+        )
+
+        assert pointed is False
+        assert not await (lang_dir / "A.md").is_symlink()
+
+    @pytest.mark.anyio
+    async def test_mirror_is_refused_over_a_looping_language_link(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """The mirror never points into a chain that already loops."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        await (lang_dir / "A.md").symlink_to("A.md", target_is_directory=False)
+
+        pointed = await _mod._point_symlink(  # noqa: SLF001
+            wiki_dir, "A.md", "eng/A.md"
+        )
+
+        assert pointed is False
+        assert not await (wiki_dir / "A.md").is_symlink()
+
+    @pytest.mark.anyio
+    async def test_short_chain_is_followed(self, tmp_path: PathLike[str]) -> None:
+        """A chain that ends at a real file is a legitimate target."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        await (lang_dir / "real.md").write_text("content", encoding="UTF-8")
+        await (lang_dir / "hop.md").symlink_to("real.md", target_is_directory=False)
+
+        pointed = await _mod._point_symlink(  # noqa: SLF001
+            lang_dir, "start.md", "hop.md"
+        )
+
+        assert pointed is True
+        assert await (lang_dir / "start.md").is_symlink()
+
+    @pytest.mark.anyio
+    async def test_long_chain_is_refused(self, tmp_path: PathLike[str]) -> None:
+        """A chain longer than the hop budget is not extended."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        for index in range(45):
+            await (lang_dir / f"hop{index}.md").symlink_to(
+                f"hop{index + 1}.md" if index < 44 else "missing.md",
+                target_is_directory=False,
+            )
+
+        pointed = await _mod._point_symlink(  # noqa: SLF001
+            lang_dir, "start.md", "hop0.md"
+        )
+
+        assert pointed is False
+        assert not await (lang_dir / "start.md").is_symlink()
+
+    @pytest.mark.anyio
+    async def test_correct_link_is_left_untouched(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """An already-correct link is not unlinked and recreated."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        link = lang_dir / "kept.md"
+        await link.symlink_to("target.md", target_is_directory=False)
+        before = await link.lstat()
+
+        pointed = await _mod._point_symlink(  # noqa: SLF001
+            lang_dir, "kept.md", "target.md"
+        )
+
+        assert pointed is True
+        assert str(await link.readlink()) == "target.md"
+        after = await link.lstat()
+        assert (after.st_ino, after.st_mtime_ns) == (before.st_ino, before.st_mtime_ns)
