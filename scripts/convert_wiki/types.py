@@ -218,4 +218,3 @@ class _ReprocessReport:
     dry_run: bool
     changed: tuple[str, ...]
     symlinks_skipped: int = 0
-    ambiguous_keys: tuple[str, ...] = ()

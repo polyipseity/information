@@ -302,16 +302,20 @@ class TestCircularRedirectRefused:
     """
 
     @pytest.mark.anyio
-    async def test_plan_removes_a_case_only_self_redirect(
+    async def test_plan_removes_a_redirect_that_differs_only_by_case(
         self, tmp_path: PathLike[str]
     ) -> None:
-        """A redirect whose target stems differ only by case is a removal."""
+        """A redirect whose target stem differs only by case is a removal.
+
+        ``Foo`` and ``FOO`` name one file on a case-insensitive filesystem,
+        so a redirect between them would resolve to itself.
+        """
         wiki_dir = AnyioPath(tmp_path)
         lang_dir = wiki_dir / "eng"
         await lang_dir.mkdir()
         await (lang_dir / "Foo.md").symlink_to("stale.md", target_is_directory=False)
         await (wiki_dir / "cache.json").write_text(
-            '{"Foo": {"to": "foo"}}\n', encoding="UTF-8"
+            '{"Foo": {"to": "Baar"}}\n', encoding="UTF-8"
         )
         map_path = wiki_dir / "map.jsonc"
         await map_path.write_text("{}\n", encoding="UTF-8")
@@ -326,7 +330,7 @@ class TestCircularRedirectRefused:
                 cache_path=wiki_dir / "cache.json",
                 name_map_path=map_path,
             ),
-            base_map={"Foo": "Foo", "foo": "foo"},
+            base_map={"Foo": "Foo", "Baar": "FOO"},
         )
 
         assert [(action.kind, action.from_stem) for action in plan.symlink_actions] == [

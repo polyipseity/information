@@ -1,5 +1,7 @@
 """Tests for scripts.convert_wiki.markdown_rewrite."""
 
+import pytest
+
 from scripts.convert_wiki.config import _NAMES_MAP
 from scripts.convert_wiki.markdown_rewrite import (
     _align_plain_to_raw,
@@ -11,7 +13,7 @@ from scripts.convert_wiki.markdown_rewrite import (
     _rewrite_markdown_links,
     _rewrite_plain_span,
 )
-from scripts.convert_wiki.utils import _fix_name_maybe
+from scripts.convert_wiki.utils import _fix_filename, _fix_name_maybe
 
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
@@ -79,16 +81,20 @@ class TestResolvePlain:
             == "Modern physics"
         )
 
-    def test_folded_match(self) -> None:
-        """Fall back to a case-insensitive match when the exact key is missing."""
-        names_map = {
-            "Fourier transform": "Fourier transform",
-            "fourier transform": "Fourier transform",
-        }
-        index = _build_link_index({}, names_map)
+    def test_folded_match_recovers_a_lowercased_first_character(self) -> None:
+        """The ingestion fallback damaged the first character only."""
+        index = _build_link_index({}, {"Fourier transform": "Fourier transform"})
+        assert (
+            _resolve_plain("fourier transform", index=index, replace_underscores=False)
+            == "Fourier transform"
+        )
+
+    def test_shouting_name_is_left_alone(self) -> None:
+        """Case folding stops at the first character, so an all-caps name stays."""
+        index = _build_link_index({}, {"Fourier transform": "Fourier transform"})
         assert (
             _resolve_plain("FOURIER transform", index=index, replace_underscores=False)
-            == "Fourier transform"
+            == "FOURIER transform"
         )
 
     def test_replace_underscores_flag(self) -> None:
@@ -128,12 +134,10 @@ class TestResolvePlain:
 class TestBuildLinkIndex:
     """Tests for _build_link_index."""
 
-    def test_conflicting_anchor_is_dropped(self) -> None:
-        """Two keys that encode alike are reported instead of guessed at."""
-        index = _build_link_index({}, {"A: b": "x", "A b": "y"})
-        assert "A%20b" in index.ambiguous
-        assert "A%20b" not in index.anchor_exact
-        assert "A%20b" not in index.anchor_fold
+    def test_conflicting_anchor_stops_the_run(self) -> None:
+        """Two keys that encode alike cannot be told apart, so building stops."""
+        with pytest.raises(ValueError, match="anchor lookup"):
+            _build_link_index({}, {"A: b": "x", "A b": "y"})
 
     def test_stem_layer_records_the_map_spelling(self) -> None:
         """The stem layer maps the base spelling to the effective one.
@@ -146,20 +150,21 @@ class TestBuildLinkIndex:
         assert index.stem_old["a_ b"] == "a_ b"
         assert index.stem_old_fold["a_ b"] == "a_ b"
 
-    def test_real_name_map_ambiguities_are_known(self) -> None:
-        """The shipped name map's ambiguous keys are exactly the known ones.
+    def test_real_name_map_indexes_without_collision(self) -> None:
+        """The shipped name map, indexed against itself, is unambiguous."""
+        index = _build_link_index(_NAMES_MAP, _NAMES_MAP)
+        title, text = next(iter(_NAMES_MAP.items()))
+        assert index.stem_old[_fix_filename(text)] == _fix_filename(text)
 
-        ``kelvin`` is the recorded ``Kelvin``/``kelvin`` mapping typo; the
-        ``Brooks Cole`` variants sanitise to one stem with two spellings.
-        Both are data problems, reported rather than guessed at, so this
-        assertion tracks the map instead of tolerating silent drift.
+    def test_empty_base_map_collides_on_the_shipped_map(self) -> None:
+        """A base map that does not describe the disk is refused, not guessed.
+
+        With no base spelling, ``Brooks_Cole`` falls back to the heuristic,
+        which claims the stem of ``Brooks Cole``; the two map to different
+        stems, so the index cannot decide and stops.
         """
-        assert _build_link_index({}, _NAMES_MAP).ambiguous == (
-            "Brooks Cole",
-            "brooks Cole",
-            "brooks cole",
-            "kelvin",
-        )
+        with pytest.raises(ValueError, match="stem lookup"):
+            _build_link_index({}, _NAMES_MAP)
 
 
 class TestRewritePlainSpan:
@@ -510,7 +515,7 @@ class TestRewriteArticleHeading:
 """Effective name map after the test mapping merges over the base map."""
 _EFFECTIVE = {
     "Modern physics": "Modern physics",
-    "modern physics": "modern physics",
+    "modern physics": "Modern physics",
     "Fourier transform": "Fourier transform",
     "fourier transform": "Fourier transform",
 }
@@ -529,12 +534,10 @@ class TestRewriteMarkdownHeadings:
             f"{'#' * level} Modern physics\n" for level in range(1, 7)
         )
 
-    def test_migration_required_for_lowercase_variant(self) -> None:
-        """The effective map alone keeps lowercase variants lowercase."""
+    def test_map_alone_recases_a_lowercase_variant(self) -> None:
+        """A lowercase variant follows the map without a stem migration."""
         text = "## modern physics\n"
-        assert _rewrite_markdown_headings(text, _EFFECTIVE) == text
-        rewritten = _rewrite_markdown_headings(text, _EFFECTIVE, _MIGRATIONS)
-        assert rewritten == "## Modern physics\n"
+        assert _rewrite_markdown_headings(text, _EFFECTIVE) == "## Modern physics\n"
 
     def test_proper_noun_heading_is_not_lowercased(self) -> None:
         """A heading the map does not hold keeps its case."""

@@ -5,6 +5,7 @@ import re
 from collections.abc import Mapping, Sequence
 from dataclasses import dataclass
 from typing import Any
+from unicodedata import normalize as _normalize_unicode
 from urllib.parse import unquote
 
 from .ast_utils import (
@@ -19,12 +20,22 @@ from .utils import (
     _fix_filename,
     _plain_fragment,
 )
-from .utils import (
-    _fold_text as _fold,
-)
 
 """Exported names from this module."""
 __all__ = ()
+
+
+def _fold(text: str) -> str:
+    """Fold the first character's case for the recovery layers.
+
+    The ingestion fallback only ever lowercased a name's first character, so
+    a stored name can differ from its key there and nowhere else.  Folding
+    the whole text would also pull an intentionally all-caps name
+    (``KELVIN``) into the map, which is a rewrite nobody asked for.
+    """
+    text = _normalize_unicode("NFC", text)
+    return text[:1].casefold() + text[1:]
+
 
 """Regex matching ATX heading lines (``#`` through ``######``)."""
 _ATX_HEADING_RE = re.compile(r"^(#{1,6})\s+(?P<inner>\S.*?)(?:\s*#+\s*)?$")
@@ -71,6 +82,9 @@ class _LinkIndex:
       mapping still reaches its links;
     - each ``*_fold`` layer answers when no exact spelling matches, which
       recovers a fragment the ingestion fallback already lowercased.
+
+    Two titles that project onto one key with different values make the map
+    unusable: the answer would be a guess, so building the index raises.
     """
 
     plain_exact: Mapping[str, str]
@@ -79,24 +93,31 @@ class _LinkIndex:
     anchor_fold: Mapping[str, str]
     stem_old: Mapping[str, str]
     stem_old_fold: Mapping[str, str]
-    ambiguous: tuple[str, ...]
 
 
 def _index_add(
     index: dict[str, str],
-    ambiguous: set[str],
+    *,
+    layer: str,
     key: str,
     value: str,
+    title: str,
 ) -> None:
-    """Add ``key -> value`` unless another entry claims the key differently."""
-    if key in ambiguous:
-        return
-    if key not in index:
+    """Add ``key -> value``, refusing a key two titles claim differently.
+
+    A collision cannot be resolved without guessing which title the stored
+    name means, so it stops the run before anything is written.
+    """
+    if (existing := index.get(key)) is None:
         index[key] = value
         return
-    if index[key] != value:
-        del index[key]
-        ambiguous.add(key)
+    if existing != value:
+        msg = (
+            f"name map collision in the {layer} lookup: {key!r} would be both "
+            f"{existing!r} and {value!r} (from {title!r}); "
+            f"the name map cannot be applied unambiguously"
+        )
+        raise ValueError(msg)
 
 
 def _build_link_index(
@@ -110,17 +131,19 @@ def _build_link_index(
     anchor_fold: dict[str, str] = {}
     stem_old: dict[str, str] = {}
     stem_old_fold: dict[str, str] = {}
-    ambiguous: set[str] = set()
     for title, text in effective_map.items():
-        _index_add(plain_exact, ambiguous, title, text)
-        _index_add(plain_fold, ambiguous, _fold(title), text)
         anchor = _encode_fragment(title)
-        _index_add(anchor_exact, ambiguous, anchor, text)
-        _index_add(anchor_fold, ambiguous, _fold(anchor), text)
         old_stem = _stem_for_title(title, base_map)
         new_stem = _fix_filename(text)
-        _index_add(stem_old, ambiguous, old_stem, new_stem)
-        _index_add(stem_old_fold, ambiguous, _fold(old_stem), new_stem)
+        for layer, lookup, key, value in (
+            ("plain", plain_exact, title, text),
+            ("plain fold", plain_fold, _fold(title), text),
+            ("anchor", anchor_exact, anchor, text),
+            ("anchor fold", anchor_fold, _fold(anchor), text),
+            ("stem", stem_old, old_stem, new_stem),
+            ("stem fold", stem_old_fold, _fold(old_stem), new_stem),
+        ):
+            _index_add(lookup, layer=layer, key=key, value=value, title=title)
     return _LinkIndex(
         plain_exact=plain_exact,
         plain_fold=plain_fold,
@@ -128,7 +151,6 @@ def _build_link_index(
         anchor_fold=anchor_fold,
         stem_old=stem_old,
         stem_old_fold=stem_old_fold,
-        ambiguous=tuple(sorted(ambiguous)),
     )
 
 
@@ -236,7 +258,7 @@ def _rewrite_link_target(
     produces no stem migration at all.
     """
     if index is None:
-        index = _build_link_index({}, names_map or {})
+        index = _build_link_index(names_map or {}, names_map or {})
     page = target.partition("#")[0]
     if not page:
         fragment = target.removeprefix("#")
@@ -289,7 +311,7 @@ def _rewrite_markdown_links(
     if index is None and not migrations and not names_map:
         return text
     if index is None:
-        index = _build_link_index({}, names_map or {})
+        index = _build_link_index(names_map or {}, names_map or {})
 
     parse_result, _state = _MISTUNE_PARSER.parse(text)
     del _state
@@ -374,7 +396,7 @@ def _rewrite_markdown_headings(
     if not names_map and index is None:
         return text
     if index is None:
-        index = _build_link_index({}, names_map)
+        index = _build_link_index(names_map, names_map)
 
     parse_result, _state = _MISTUNE_PARSER.parse(text)
     del _state

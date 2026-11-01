@@ -198,7 +198,6 @@ async def apply_reprocess_plan(
             ),
             dry_run=True,
             changed=changed,
-            ambiguous_keys=index.ambiguous,
         )
 
     await _save_names_map(plan.effective_map, path=plan.name_map_path)
@@ -274,7 +273,6 @@ async def apply_reprocess_plan(
         dry_run=False,
         changed=changed,
         symlinks_skipped=symlinks_skipped,
-        ambiguous_keys=index.ambiguous,
     )
 
 
