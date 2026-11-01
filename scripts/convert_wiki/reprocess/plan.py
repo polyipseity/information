@@ -170,6 +170,7 @@ async def plan_reprocess(
             )
 
     def _planned_stem(stem: str) -> str:
+        """Return the stem a redirect stored as *stem* will carry."""
         return _migrated_stem(stem, migration_map, base)
 
     symlink_actions: list[_SymlinkAction] = []
