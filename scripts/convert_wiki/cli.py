@@ -100,6 +100,14 @@ async def main() -> None:
         help="With --reprocess, rewrite link targets corpus-wide.",
     )
     parser.add_argument(
+        "--repair-illegal-names",
+        action="store_true",
+        help=(
+            "With --reprocess, repair link destinations whose names contain "
+            "characters no filesystem allows."
+        ),
+    )
+    parser.add_argument(
         "--dry-run",
         action="store_true",
         help="With --update-redirects or --reprocess, report actions without changing anything.",
@@ -118,6 +126,7 @@ async def main() -> None:
             mapping_file=args.mapping_file,
             articles=tuple(args.article),
             update_links=args.update_links,
+            repair_illegal_names=args.repair_illegal_names,
             dry_run=args.dry_run,
         )
         return
@@ -219,6 +228,7 @@ async def _run_reprocess_maintenance(
     mapping_file: Path | None,
     articles: tuple[str, ...],
     update_links: bool,
+    repair_illegal_names: bool,
     dry_run: bool,
 ) -> None:
     """Run name_map reprocess maintenance without converting HTML."""
@@ -239,6 +249,7 @@ async def _run_reprocess_maintenance(
             mappings=mappings,
             articles=articles,
             update_links=update_links,
+            repair_illegal_names=repair_illegal_names,
             dry_run=dry_run,
         )
     )
@@ -252,6 +263,7 @@ async def _run_reprocess_maintenance(
         f"articles_rewritten={report.articles_rewritten}, "
         f"links_updated_corpus={report.links_updated_corpus}, "
         f"symlinks_skipped={report.symlinks_skipped}, "
+        f"names_repaired={report.names_repaired}, "
         f"dry_run={report.dry_run}"
     )
     if report.changed:

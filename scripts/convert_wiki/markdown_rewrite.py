@@ -6,8 +6,11 @@ from collections.abc import Mapping, Sequence
 from dataclasses import dataclass
 from typing import Any
 from unicodedata import normalize as _normalize_unicode
-from urllib.parse import unquote
+from urllib.parse import quote, unquote
 
+from country_converter import convert
+
+from . import config as _cfg
 from .ast_utils import (
     _MISTUNE_PARSER,
     _collect_md_link_urls,
@@ -18,6 +21,7 @@ from .stems import _UNUSABLE_STEMS, _stem_for_title
 from .utils import (
     _encode_fragment,
     _fix_stem,
+    _markdown_fragment,
     _plain_fragment,
 )
 
@@ -244,12 +248,46 @@ def _rewrite_plain_span(raw: str, plain: str, new_plain: str) -> str:
     return rewritten
 
 
+"""Characters no Windows filename may contain anywhere."""
+_ILLEGAL_NAME_CHARACTERS = frozenset('<>:"/\\|?*')
+
+
+def _names_a_legal_file(stem: str) -> bool:
+    """Return whether *stem* can name a file at all."""
+    return not any(
+        character in _ILLEGAL_NAME_CHARACTERS or character < " " for character in stem
+    )
+
+
+def _repair_impossible_destination(stem: str, plain_fragment: str) -> str:
+    """Re-emit a destination whose name no filesystem can hold.
+
+    Mirrors the converter's own branches so a repaired link reads exactly as
+    a fresh ingestion of the same page would write it: a preserved namespace
+    becomes its external URL, a language interwiki becomes the language
+    directory's note, and anything else is the sanitised stem.
+    """
+    for prefix, url_format in _cfg._PRESERVED_PAGE_PREFIXES.items():
+        if stem.startswith(prefix):
+            remainder = quote(stem.removeprefix(prefix))
+            anchor = f"#{quote(plain_fragment, safe='')}" if plain_fragment else ""
+            return f"{url_format.format(remainder)}{anchor}"
+    head, separator, page = stem.partition(":")
+    if separator and page:
+        iso3 = str(convert(head, to="ISO3"))
+        if len(iso3) == 3 and iso3.isalpha():
+            target = f"{_encode_stem(_fix_stem(page))}.md"
+            return f"../{iso3.casefold()}/{target}{_markdown_fragment(plain_fragment)}"
+    return f"{_encode_stem(_fix_stem(stem))}.md{_markdown_fragment(plain_fragment)}"
+
+
 def _rewrite_link_target(
     target: str,
     migrations: Mapping[str, str],
     *,
     names_map: Mapping[str, str] | None = None,
     index: _LinkIndex | None = None,
+    repair_illegal: bool = False,
 ) -> str:
     """Rewrite a single markdown link target through the name map.
 
@@ -293,6 +331,8 @@ def _rewrite_link_target(
         else ""
     )
     if new_stem == stem and new_plain == plain_fragment and not legacy:
+        if repair_illegal and page and not _names_a_legal_file(stem):
+            return _repair_impossible_destination(stem, plain_fragment)
         return target
     page_text = f"{_encode_stem(new_stem)}.md" if page else ""
     encoded = _encode_fragment(new_plain) if new_plain != plain_fragment else fragment
@@ -318,6 +358,7 @@ def _rewrite_markdown_links(
     *,
     names_map: Mapping[str, str] | None = None,
     index: _LinkIndex | None = None,
+    repair_illegal: bool = False,
 ) -> str:
     """Rewrite markdown ``.md`` link targets according to _migrations_.
 
@@ -326,7 +367,7 @@ def _rewrite_markdown_links(
     mapping reaches every link that names it.  Build *index* once per run
     and pass it in; a run over a single file may omit it.
     """
-    if index is None and not migrations and not names_map:
+    if index is None and not migrations and not names_map and not repair_illegal:
         return text
     if index is None:
         index = _build_link_index(names_map or {}, names_map or {})
@@ -366,6 +407,7 @@ def _rewrite_markdown_links(
             migrations,
             names_map=names_map,
             index=index,
+            repair_illegal=repair_illegal,
         )
         if unquote(new_url) != unquote(destination):
             edits.append((dest_start, dest_end, new_url))

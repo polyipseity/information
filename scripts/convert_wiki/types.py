@@ -185,6 +185,7 @@ class _ReprocessRequest:
     wiki_dir: PathLike[str] | None = None
     cache_path: PathLike[str] | None = None
     name_map_path: PathLike[str] | None = None
+    repair_illegal_names: bool = False
 
 
 @dataclass(frozen=True)
@@ -202,6 +203,7 @@ class _ReprocessPlan:
     wiki_dir: PathLike[str]
     cache_path: PathLike[str]
     name_map_path: PathLike[str]
+    repair_illegal_names: bool = False
 
 
 @dataclass(frozen=True)
@@ -218,3 +220,4 @@ class _ReprocessReport:
     dry_run: bool
     changed: tuple[str, ...]
     symlinks_skipped: int = 0
+    names_repaired: int = 0

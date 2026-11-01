@@ -301,4 +301,5 @@ async def plan_reprocess(
         wiki_dir=wiki_dir,
         cache_path=cache_path,
         name_map_path=name_map_path,
+        repair_illegal_names=request.repair_illegal_names,
     )

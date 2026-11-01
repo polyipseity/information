@@ -751,3 +751,48 @@ class TestRewriteNeverBreaksAWorkingLink:
                         orphaned.append(f"{path}: {destination} -> {rewritten}")
         assert checked > 0
         assert orphaned == []
+
+
+class TestRepairIllegalNames:
+    """The repair writes what the converter would have written."""
+
+    def test_repair_mode_sanitises_an_article_title(self) -> None:
+        text = "[a](C*-algebra.md) [b](Why%20Socialism%3F.md)"
+        repaired = _rewrite_markdown_links(text, {}, names_map={}, repair_illegal=True)
+        assert repaired == "[a](C%5F-algebra.md) [b](Why%20Socialism%5F.md)"
+
+    def test_repair_mode_turns_a_namespace_link_into_its_url(self) -> None:
+        text = "[dubious](Wikipedia:Accuracy%20dispute.md#disputed%20statement)"
+        repaired = _rewrite_markdown_links(text, {}, names_map={}, repair_illegal=True)
+        assert repaired == (
+            "[dubious](https://en.wikipedia.org/wiki/Wikipedia:Accuracy%20dispute"
+            "#disputed%20statement)"
+        )
+
+    def test_repair_mode_turns_a_wiktionary_link_into_its_url(self) -> None:
+        repaired = _rewrite_markdown_links(
+            "[nimm](wikt:nimm.md)", {}, names_map={}, repair_illegal=True
+        )
+        assert repaired == "[nimm](https://en.wiktionary.org/wiki/nimm)"
+
+    def test_repair_mode_points_a_language_link_at_its_language_dir(self) -> None:
+        repaired = _rewrite_markdown_links(
+            "[x](de:Tom%20Leinster.md)", {}, names_map={}, repair_illegal=True
+        )
+        assert repaired == "[x](../deu/Tom%20Leinster.md)"
+
+    def test_repair_mode_leaves_a_legal_stem_alone(self) -> None:
+        text = "[a](i.i.d..md) [b](Q.E.D..md) [c](Notjustmoreidlechatter%20.md)"
+        assert (
+            _rewrite_markdown_links(text, {}, names_map={}, repair_illegal=True) == text
+        )
+
+    def test_repair_mode_leaves_a_commented_link_alone(self) -> None:
+        text = "<!-- [portal](Portal:Business.md) -->"
+        assert (
+            _rewrite_markdown_links(text, {}, names_map={}, repair_illegal=True) == text
+        )
+
+    def test_repair_mode_is_off_by_default(self) -> None:
+        text = "[a](C*-algebra.md)"
+        assert _rewrite_markdown_links(text, {}, names_map={}) == text

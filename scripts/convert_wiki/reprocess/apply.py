@@ -5,6 +5,7 @@ from os import fspath, rename
 
 from anyio import Path
 
+from ..ast_utils import _find_link_destination_ranges
 from ..markdown_rewrite import (
     _build_link_index,
     _LinkIndex,
@@ -129,12 +130,20 @@ def _compute_rewrites(
     plan: _ReprocessPlan,
     migrations: Mapping[str, str],
     index: _LinkIndex,
+    *,
+    repair_illegal: bool | None = None,
 ) -> dict[str, str]:
     """Compute rewritten text for targets whose content actually changes."""
+    if repair_illegal is None:
+        repair_illegal = plan.repair_illegal_names
     rewrites: dict[str, str] = {}
     for target, original in sources.items():
         rewritten = _rewrite_markdown_links(
-            original, migrations, names_map=plan.effective_map, index=index
+            original,
+            migrations,
+            names_map=plan.effective_map,
+            index=index,
+            repair_illegal=repair_illegal,
         )
         heading = plan.heading_updates.get(target)
         if heading is not None:
@@ -162,6 +171,17 @@ async def apply_reprocess_plan(
     index = _build_link_index(plan.base_map, plan.effective_map)
     sources = await _read_rewrite_sources(plan, wiki_dir)
     rewrites = _compute_rewrites(sources, plan, migrations, index)
+    names_repaired = 0
+    if plan.repair_illegal_names:
+        unpatched = _compute_rewrites(
+            sources, plan, migrations, index, repair_illegal=False
+        )
+        names_repaired = sum(
+            _count_changed_destinations(
+                unpatched.get(target, sources[target]), rewritten
+            )
+            for target, rewritten in rewrites.items()
+        )
     listed_paths = set(plan.heading_updates)
     changed = tuple(
         dict.fromkeys(
@@ -199,6 +219,7 @@ async def apply_reprocess_plan(
             ),
             dry_run=True,
             changed=changed,
+            names_repaired=names_repaired,
         )
 
     await _save_names_map(plan.effective_map, path=plan.name_map_path)
@@ -275,7 +296,21 @@ async def apply_reprocess_plan(
         dry_run=False,
         changed=changed,
         symlinks_skipped=symlinks_skipped,
+        names_repaired=names_repaired,
     )
+
+
+def _count_changed_destinations(original: str, repaired: str) -> int:
+    """Count link destinations the repair pass changed in one file."""
+    before = [
+        destination
+        for _start, _end, destination in _find_link_destination_ranges(original)
+    ]
+    after = [
+        destination
+        for _start, _end, destination in _find_link_destination_ranges(repaired)
+    ]
+    return sum(1 for old, new in zip(before, after, strict=True) if old != new)
 
 
 async def reprocess_articles(request: _ReprocessRequest) -> _ReprocessReport:
