@@ -51,7 +51,7 @@ __Agricultural products / Perishable goods:__ ::@:: Due to their nature of havin
 
 __Commodities produced in fixed amounts:__ ::@:: For example some commodities which depend on the machine set up, in this case at different prices in the market the commodity may be offered in the same quantity.
 
-__Supply of labour in the market:__ ::@:: The senior management/executive positions have high wages but work a few hours as compared to staff members who earn middle wage levels but work for the longest hours.<!-- <sup>\[_[according to whom?](Wikipedia:Manual%20of%20Style_Words%20to%20watch.md#unsupported%20attributions)_\]</sup> -->
+__Supply of labour in the market:__ ::@:: The senior management/executive positions have high wages but work a few hours as compared to staff members who earn middle wage levels but work for the longest hours.<!-- <sup>\[_[according to whom?](https://en.wikipedia.org/wiki/Wikipedia:Manual%20of%20Style_Words%20to%20watch#unsupported%20attributions)_\]</sup> -->
 
 ## supply function and equation
 
@@ -87,7 +87,7 @@ Note: not all assumptions that can be made for individual supply functions ::@::
 
 {@{The [law of supply](law%20of%20supply.md)}@} dictates that {@{all other things remaining equal}@}, {@{an increase in the price of the good in question results in an increase in quantity supplied}@}. In other words, {@{the supply curve slopes upwards}@}.<sup>[\[15\]](#^ref-15)</sup> However, there are {@{exceptions to the law of supply}@}. Not all {@{supply curves slope upwards}@}.<sup>[\[16\]](#^ref-16)</sup>
 
-{@{Some [heterodox economists](heterodox%20economics.md)}@}, such as {@{[Steve Keen](Steve%20Keen.md) and [Dirk Ehnts](Dirk%20Ehnts.md)}@}, dispute {@{this theory of the supply curve, arguing that the supply curve for mass produced goods is often downward-sloping}@}: as {@{production increases, unit prices go down}@}, and conversely, if {@{demand is very low, unit prices go up}@}.<sup>[\[17\]](#^ref-17)</sup><sup>[\[18\]](#^ref-18)</sup> This corresponds to {@{[economies of scale](economies%20of%20scale.md)}@}.<!-- <sup>\[_[citation needed](Wikipedia:Citation%20needed.md)_\]</sup> -->
+{@{Some [heterodox economists](heterodox%20economics.md)}@}, such as {@{[Steve Keen](Steve%20Keen.md) and [Dirk Ehnts](Dirk%20Ehnts.md)}@}, dispute {@{this theory of the supply curve, arguing that the supply curve for mass produced goods is often downward-sloping}@}: as {@{production increases, unit prices go down}@}, and conversely, if {@{demand is very low, unit prices go up}@}.<sup>[\[17\]](#^ref-17)</sup><sup>[\[18\]](#^ref-18)</sup> This corresponds to {@{[economies of scale](economies%20of%20scale.md)}@}.<!-- <sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> -->
 
 ## elasticity
 
@@ -103,7 +103,7 @@ __Excess capacity:__ ::@:: A producer who has unused capacity can quickly respon
 
 __Inventories:__ ::@:: A producer who has a supply of goods or available storage capacity can quickly respond to price changes.
 
-{@{Other [elasticities](elasticity%20(economics).md)}@} can be {@{calculated for non-price determinants of supply}@}. For example, {@{the percentage change the amount of the good supplied caused by a one percent increase in the price of a related good}@} is {@{an input elasticity of supply if the related good is an input in the production process}@}.<!-- <sup>\[_[citation needed](Wikipedia:Citation%20needed.md)_\]</sup> --> An example would be {@{the change in the supply of cookies}@} caused by {@{a one percent increase in the price of sugar}@}.
+{@{Other [elasticities](elasticity%20(economics).md)}@} can be {@{calculated for non-price determinants of supply}@}. For example, {@{the percentage change the amount of the good supplied caused by a one percent increase in the price of a related good}@} is {@{an input elasticity of supply if the related good is an input in the production process}@}.<!-- <sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> --> An example would be {@{the change in the supply of cookies}@} caused by {@{a one percent increase in the price of sugar}@}.
 
 ### elasticity along linear supply curves
 

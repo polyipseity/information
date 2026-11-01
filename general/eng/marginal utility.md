@@ -121,7 +121,7 @@ In _An Outline of the Science of Political Economy_ (1836), [Nassau William Seni
 
 In "__De la mesure de l'utilité des travaux publics__" (1844), [Jules Dupuit](Jules%20Dupuit.md) applied a conception of marginal utility to the problem of determining bridge tolls.<sup>[\[42\]](#^ref-42)</sup><sup>[\[43\]](#^ref-43)</sup>
 
-In 1854, [Hermann Heinrich Gossen](Hermann%20Heinrich%20Gossen.md) published _Die Entwicklung der Gesetze des menschlichen Verkehrs und der daraus fließenden Regeln für menschliches Handeln_, which presented a marginal utility theory and to a very large extent worked-out its implications for the behavior of a market economy. However, Gossen's work was not well received in the Germany of his time, most copies were destroyed unsold, and he was virtually forgotten until rediscovered after the so-called Marginal Revolution.<!-- <sup>[_[citation needed](Wikipedia:Citation%20needed.md)_]</sup> -->
+In 1854, [Hermann Heinrich Gossen](Hermann%20Heinrich%20Gossen.md) published _Die Entwicklung der Gesetze des menschlichen Verkehrs und der daraus fließenden Regeln für menschliches Handeln_, which presented a marginal utility theory and to a very large extent worked-out its implications for the behavior of a market economy. However, Gossen's work was not well received in the Germany of his time, most copies were destroyed unsold, and he was virtually forgotten until rediscovered after the so-called Marginal Revolution.<!-- <sup>[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_]</sup> -->
 
 ### Marginal Revolution
 
