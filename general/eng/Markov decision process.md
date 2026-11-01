@@ -102,7 +102,7 @@ In {@{this variant}@}, the steps are {@{preferentially applied to states which a
 
 ### computational complexity
 
-{@{Algorithms for finding optimal policies with [time complexity](time%20complexity.md) polynomial in the size of the problem representation}@} {@{exist for finite MDPs}@}. Thus, {@{[decision problems](decision%20problem.md) based on MDPs}@} are {@{in computational [complexity class](complexity%20class.md) [P](p%20(complexity).md)}@}.<sup>[\[12\]](#^ref-12)</sup> However, due to {@{the [curse of dimensionality](curse%20of%20dimensionality.md)}@}, {@{the size of the problem representation}@} is {@{often exponential in the number of state and action variables}@}, limiting {@{exact solution techniques to problems that have a compact representation}@}. In practice, {@{online planning techniques such as [Monte Carlo tree search](Monte%20Carlo%20tree%20search.md)}@} can {@{find useful solutions in larger problems}@}, and, in {@{theory}@}, it is possible to {@{construct online planning algorithms that can find an arbitrarily near-optimal policy with no computational complexity dependence on the size of the state space}@}.<sup>[\[13\]](#^ref-13)</sup>
+{@{Algorithms for finding optimal policies with [time complexity](time%20complexity.md) polynomial in the size of the problem representation}@} {@{exist for finite MDPs}@}. Thus, {@{[decision problems](decision%20problem.md) based on MDPs}@} are {@{in computational [complexity class](complexity%20class.md) [P](P%20(complexity).md)}@}.<sup>[\[12\]](#^ref-12)</sup> However, due to {@{the [curse of dimensionality](curse%20of%20dimensionality.md)}@}, {@{the size of the problem representation}@} is {@{often exponential in the number of state and action variables}@}, limiting {@{exact solution techniques to problems that have a compact representation}@}. In practice, {@{online planning techniques such as [Monte Carlo tree search](Monte%20Carlo%20tree%20search.md)}@} can {@{find useful solutions in larger problems}@}, and, in {@{theory}@}, it is possible to {@{construct online planning algorithms that can find an arbitrarily near-optimal policy with no computational complexity dependence on the size of the state space}@}.<sup>[\[13\]](#^ref-13)</sup>
 
 ## extensions and generalizations
 
@@ -110,7 +110,7 @@ A Markov decision process is {@{a [stochastic game](stochastic%20game.md) with o
 
 ### partial observability
 
-- Main article: [Partially observable Markov decision process](Partially%20observable%20Markov%20decision%20process.md)
+- Main article: [Partially observable Markov decision process](partially%20observable%20Markov%20decision%20process.md)
 
 The solution above assumes that {@{the state $s$ is known when action is to be taken}@}; otherwise {@{$\pi (s)$ cannot be calculated}@}. When {@{this assumption is not true}@}, the problem is called {@{a partially observable Markov decision process or POMDP}@}.
 

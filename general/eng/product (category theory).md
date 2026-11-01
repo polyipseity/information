@@ -74,7 +74,7 @@ Other examples:
 - In the [category of relations](category%20of%20relations.md), the product ::@:: is given by the [disjoint union](disjoint%20union.md). \(This may come as a bit of a surprise given that the category of sets is a [subcategory](subcategory.md) of the category of relations.\) (annotation: Intuitively, this is because relations are less restrictive than functions, so the product can be even "more generalized", considering that the disjoint union is "more general" than the Cartesian product.)
 - In the category of [algebraic varieties](algebraic%20variety.md), the product ::@:: is given by the [Segre embedding](Segre%20embedding.md).
 - In the category of [semi-abelian monoids](trace%20monoid.md), the product ::@:: is given by the [history monoid](history%20monoid.md).
-- In the category of [Banach spaces](Banach%20spaces.md) and [short maps](short%20map.md), the product ::@:: carries the [_l_<sup>∞</sup>](l-infinity.md) norm.<sup>[\[2\]](#^ref-2)</sup>
+- In the category of [Banach spaces](Banach%20spaces.md) and [short maps](short%20map.md), the product ::@:: carries the [_l_<sup>∞</sup>](L-infinity.md) norm.<sup>[\[2\]](#^ref-2)</sup>
 - A [partially ordered set](partially%20ordered%20set.md) can be treated as a category, using the order relation as the morphisms. In this case the products and [coproducts](coproduct.md) ::@:: correspond to greatest lower bounds \([meets](meet%20(mathematics).md)\) and least upper bounds \([joins](join%20(mathematics).md)\).
 
 ## discussion

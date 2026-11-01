@@ -51,7 +51,7 @@ In {@{the theory of special relativity, the two postulates}@} combine to change 
 - The [relativity of simultaneity](#relativity%20of%20simultaneity) ::@:: – events that appear simultaneous to one observer may not be simultaneous to an observer in motion<sup>[\[3\]](#^ref-3)</sup><sup>:&hairsp;49&hairsp;</sup>
 - [§ Time dilation](#time%20dilation) ::@:: – time measured between two events by observers in motion differ
 - [§ Length contraction](#length%20contraction) ::@:: – distances between two events by observers in motion differ
-- The [§ Lorentz transformation of velocities](#lorentz%20transformation%20of%20velocities) ::@:: – velocities no longer simply add
+- The [§ Lorentz transformation of velocities](#Lorentz%20transformation%20of%20velocities) ::@:: – velocities no longer simply add
 
 {@{Combined with other laws of physics}@}, {@{the two postulates of special relativity}@} predict {@{the equivalence of [mass](mass.md) and [energy](energy.md)}@}, as expressed in {@{the [mass–energy equivalence](mass–energy%20equivalence.md) formula ⁠$E=mc^{2}$}@}⁠, where {@{$c$ is the [speed of light](speed%20of%20light.md) in vacuum}@}.<sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup> Special relativity replaced {@{the conventional notion of an absolute, universal time}@} with {@{the notion of a time that is local to each observer}@}.<sup>[\[8\]](#^ref-8)</sup><sup>:&hairsp;33&hairsp;</sup> {@{Information about distant objects}@} can arrive {@{no faster than the speed of light}@} so visual observations {@{always report events that have happened in the past}@}. This effect makes {@{visual descriptions of the effects of special relativity}@} especially {@{prone to mistakes}@}.<sup>[\[9\]](#^ref-9)</sup>
 
@@ -552,7 +552,7 @@ Another example where {@{visual appearance is at odds with measurement}@} comes 
 
 ## dynamics
 
-{@{Section _[§ Consequences derived from the Lorentz transformation](#Consequences%20derived%20from%20the%20Lorentz%20transformation)_}@} dealt {@{strictly with [kinematics](kinematics.md)}@}, the study of {@{the motion of points, bodies, and systems of bodies}@} without considering {@{the forces that caused the motion}@}. This section discusses {@{masses, forces, energy and so forth}@}, and as such requires consideration of {@{physical effects beyond those encompassed by the Lorentz transformation itself}@}.
+{@{Section _[§ Consequences derived from the Lorentz transformation](#consequences%20derived%20from%20the%20Lorentz%20transformation)_}@} dealt {@{strictly with [kinematics](kinematics.md)}@}, the study of {@{the motion of points, bodies, and systems of bodies}@} without considering {@{the forces that caused the motion}@}. This section discusses {@{masses, forces, energy and so forth}@}, and as such requires consideration of {@{physical effects beyond those encompassed by the Lorentz transformation itself}@}.
 
 ### equivalence of mass and energy
 

@@ -156,7 +156,7 @@ There are {@{important statements}@} that, assuming {@{the axioms of [ZF](Zermel
 
     - \(annotation: {@{equivalent to}@} AC\) {@{Every [surjective function](surjective%20function.md)}@} has {@{a [right inverse](inverse%20function.md#left%20and%20right%20inverses)}@}.
 
-    - \(annotation: {@{equivalent to}@} AC\) {@{The [Cartesian product](Cartesian%20product.md#Infinite%20Cartesian%20products) of any family of nonempty sets}@} is {@{nonempty}@}. In other words, {@{every family of nonempty sets}@} has {@{a choice function \(_i.e._ a function which maps each of the nonempty sets to one of its elements\)}@}.
+    - \(annotation: {@{equivalent to}@} AC\) {@{The [Cartesian product](Cartesian%20product.md#infinite%20Cartesian%20products) of any family of nonempty sets}@} is {@{nonempty}@}. In other words, {@{every family of nonempty sets}@} has {@{a choice function \(_i.e._ a function which maps each of the nonempty sets to one of its elements\)}@}.
 
     - \(annotation: {@{equivalent to}@} AC\) {@{[König's theorem](König's%20theorem%20(set%20theory).md)}@}: Colloquially, {@{the sum of a sequence of cardinals}@} is {@{strictly less than the product of a sequence of larger cardinals}@}. \({@{The reason for the term "colloquially"}@} is that {@{the sum or product of a "sequence" of cardinals}@} {@{cannot itself be defined without some aspect of the axiom of choice}@}.\)
 
@@ -322,7 +322,7 @@ It is also {@{consistent with ZF + DC}@} that {@{every set of reals is [Lebesgue
 
 There are {@{models of Zermelo-Fraenkel set theory}@} in which {@{the axiom of choice is false}@}. We shall abbreviate {@{"Zermelo-Fraenkel set theory plus the negation of the axiom of choice"}@} by {@{ZF¬C}@}. For {@{certain models of ZF¬C}@}, it is possible to {@{validate the negation of some standard ZFC theorems}@}. As {@{any model of ZF¬C is also a model of ZF}@}, it is the case that for {@{each of the following statements}@}, there {@{exists a model of ZF in which that statement is true}@}.
 
-- \(annotation: {@{implies negation of}@} AC\) {@{The negation of the [weak partition principle](partition%20principle.md#Possibly%20equivalent%20implications%20of%20AC)}@}: There is {@{a set that can be partitioned into strictly more equivalence classes than the original set has elements}@}, and {@{a function whose domain is strictly smaller than its range}@}. In fact, this is {@{the case in all _known_ models}@}.
+- \(annotation: {@{implies negation of}@} AC\) {@{The negation of the [weak partition principle](partition%20principle.md#possibly%20equivalent%20implications%20of%20AC)}@}: There is {@{a set that can be partitioned into strictly more equivalence classes than the original set has elements}@}, and {@{a function whose domain is strictly smaller than its range}@}. In fact, this is {@{the case in all _known_ models}@}.
 
 - \(annotation: {@{implies negation of}@} AC\) There is {@{a function _f_ from the real numbers to the real numbers}@} such that {@{_f_ is not continuous at _a_}@}, but {@{_f_ is [sequentially continuous](sequential%20continuity.md#sequences%20and%20nets) at _a_}@}, i.e., for {@{any sequence {_x<sub>n</sub>_} converging to _a_}@}, {@{lim<sub>_n_</sub> f\(_x<sub>n</sub>_\)=f\(a\)}@}.
 

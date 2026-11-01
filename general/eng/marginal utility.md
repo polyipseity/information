@@ -91,7 +91,7 @@ Economists sought to {@{explain how prices are determined}@}, and in this pursui
 
 ### proto-marginalist approaches
 
-Perhaps the essence of a notion of diminishing marginal utility can be found in [Aristotle](aristotle.md)'s [_Politics_](Politics%20(Aristotle).md), wherein he writes
+Perhaps the essence of a notion of diminishing marginal utility can be found in [Aristotle](Aristotle.md)'s [_Politics_](Politics%20(Aristotle).md), wherein he writes
 
 > External goods have a limit, like any other instrument, and all things useful are of such a nature that where there is too much of them they must either do harm, or at any rate be of no use.<sup>[\[27\]](#^ref-27)</sup>
 
@@ -220,7 +220,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/marginal_utility)
 24. Marshall, Alfred; _Principles of Economics_, Chapter 3, Note 3. <a id="^ref-24"></a>^ref-24
 25. von Wieser, Friedrich; _Über den Ursprung und die Hauptgesetze des wirtschaftlichen Wertes_ [_The Nature and Essence of Theoretical Economics_] (1884), p. 128. <a id="^ref-25"></a>^ref-25
 26. Wieser, Friedrich von; _Der natürliche Werth_ [_Natural Value_] (1889), Book I, Chapter V, "Marginal Utility" ([HTML](http://praxeology.net/FW-NV-I-5.htm)). <a id="^ref-26"></a>^ref-26
-27. [Aristotle](aristotle.md), _Politics_, Book 7 Chapter 1. <a id="^ref-27"></a>^ref-27
+27. [Aristotle](Aristotle.md), _Politics_, Book 7 Chapter 1. <a id="^ref-27"></a>^ref-27
 28. Soudek, Josef (1952). "Aristotle's Theory of Exchange: An Inquiry into the Origin of Economic Analysis". _Proceedings of the American Philosophical Society_. __96__ (1): 45–75. [JSTOR](JSTOR.md) [3143742](https://www.jstor.org/stable/3143742). <a id="^ref-28"></a>^ref-28
 29. Kauder, Emil (1953). "Genesis of the Marginal Utility Theory from Aristotle to the End of the Eighteenth Century". _[The Economic Journal](The%20Economic%20Journal.md)_. __63__ (251): 638–50. [doi](digital%20object%20identifier.md):[10.2307/2226451](https://doi.org/10.2307%2F2226451). [JSTOR](JSTOR.md) [2226451](https://www.jstor.org/stable/2226451). <a id="^ref-29"></a>^ref-29
 30. Gordon, Barry Lewis John (1964). "Aristotle and the Development of Value Theory". _[Quarterly Journal of Economics](The%20Quarterly%20Journal%20of%20Economics.md)_. __78__ (1): 115–28. [doi](digital%20object%20identifier.md):[10.2307/1880547](https://doi.org/10.2307%2F1880547). [JSTOR](JSTOR.md) [1880547](https://www.jstor.org/stable/1880547). <a id="^ref-30"></a>^ref-30

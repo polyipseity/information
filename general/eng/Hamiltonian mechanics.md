@@ -114,9 +114,9 @@ In the case of {@{time-independent ${\mathcal {H} }$ and ⁠${\mathcal {L} }$⁠
 
 - {@{${\mathcal {H} }$ does not change}@} under {@{_point transformations_, i.e. smooth changes ${\boldsymbol {q} }\leftrightarrow {\boldsymbol {q'} }$ of space coordinates}@}. \(Follows from {@{the invariance of the energy function $E_{\mathcal {L} }$ under point transformations}@}. {@{The invariance of $E_{\mathcal {L} }$}@} can be {@{established directly}@}\).
 
-- (annotation: {@{partial time derivative}@}) {@{${\frac {\partial {\mathcal {H} } }{\partial t} }=-{\frac {\partial {\mathcal {L} } }{\partial t} }$}@}. \(See {@{_[§ Deriving Hamilton's equations](#Deriving%20Hamilton's%20equations)_}@}\).
+- (annotation: {@{partial time derivative}@}) {@{${\frac {\partial {\mathcal {H} } }{\partial t} }=-{\frac {\partial {\mathcal {L} } }{\partial t} }$}@}. \(See {@{_[§ Deriving Hamilton's equations](#deriving%20Hamilton's%20equations)_}@}\).
 
-- {@{⁠$-{\frac {\partial {\mathcal {H} } }{\partial q^{i} } }={\dot {p} }_{i}={\frac {\partial {\mathcal {L} } }{\partial q^{i} } }$⁠}@}. \(Compare {@{Hamilton's and Euler–Lagrange equations or see _[§ Deriving Hamilton's equations](#Deriving%20Hamilton's%20equations)_}@}\).
+- {@{⁠$-{\frac {\partial {\mathcal {H} } }{\partial q^{i} } }={\dot {p} }_{i}={\frac {\partial {\mathcal {L} } }{\partial q^{i} } }$⁠}@}. \(Compare {@{Hamilton's and Euler–Lagrange equations or see _[§ Deriving Hamilton's equations](#deriving%20Hamilton's%20equations)_}@}\).
 
 - {@{${\frac {\partial {\mathcal {H} } }{\partial q^{i} } }=0$ if and only if ⁠${\frac {\partial {\mathcal {L} } }{\partial q^{i} } }=0$}@}⁠. <p> {@{A coordinate for which the last equation holds}@} is called {@{_cyclic_ \(or _ignorable_\)}@}. {@{Every cyclic coordinate $q^{i}$}@} reduces {@{the number of degrees of freedom by ⁠$1$}@}⁠, causes {@{the corresponding momentum $p_{i}$ to be conserved}@}, and makes {@{Hamilton's equations [easier](Routhian%20mechanics.md) to solve}@}.
 

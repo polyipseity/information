@@ -84,7 +84,7 @@ Note that, because of {@{Einstein's summation convention}@}, {@{the position of 
 
 Consequently, {@{a general curvilinear coordinate system}@} has {@{two sets of basis vectors for every point}@}: {@{<!-- flashcard separator -->{__b__<sub>1</sub>, __b__<sub>2</sub>, __b__<sub>3</sub>} is the contravariant basis}@}, and {@{<!-- flashcard separator -->{__b__<sup>1</sup>, __b__<sup>2</sup>, __b__<sup>3</sup>} is the covariant \(a.k.a. reciprocal\) basis}@}. {@{The covariant and contravariant basis vectors types}@} have {@{identical direction for orthogonal curvilinear coordinate systems}@}, but as usual have {@{inverted units with respect to each other}@}.
 
-Note {@{the following important equality}@}: {@{$$\mathbf {b} ^{i}\cdot \mathbf {b} _{j}=\delta _{j}^{i}$$}@} wherein {@{$\delta _{j}^{i}$ denotes the [generalized Kronecker delta](Kronecker%20delta.md#Generalizations%20of%20the%20Kronecker%20delta)}@}.
+Note {@{the following important equality}@}: {@{$$\mathbf {b} ^{i}\cdot \mathbf {b} _{j}=\delta _{j}^{i}$$}@} wherein {@{$\delta _{j}^{i}$ denotes the [generalized Kronecker delta](Kronecker%20delta.md#generalizations%20of%20the%20Kronecker%20delta)}@}.
 
 > {@{__Proof__}@}
 >

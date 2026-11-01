@@ -21,9 +21,9 @@ Propositional logic is typically studied with {@{a [formal language](formal%20la
 > - [AND](logical%20conjunction.md) ::@:: $A\land B$, $A\cdot B$, $AB$, $A\&B$, $A\&\&B$
 > - [equivalent](logical%20biconditional.md) ::@:: $A\equiv B$, $A\Leftrightarrow B$, $A\leftrightharpoons B$
 > - [implies](material%20conditional.md) ::@:: $A\Rightarrow B$, $A\supset B$, $A\rightarrow B$
-> - [NAND](sheffer%20stroke.md) ::@:: $A{\overline {\land } }B$, $A\mid B$, ${\overline {A\cdot B} }$
+> - [NAND](Sheffer%20stroke.md) ::@:: $A{\overline {\land } }B$, $A\mid B$, ${\overline {A\cdot B} }$
 > - nonequivalent ::@:: $A\not \equiv B$, $A\not \Leftrightarrow B$, $A\nleftrightarrow B$
-> - [NOR](Logical%20NOR.md) ::@:: $A{\overline {\lor } }B$, $A\downarrow B$, ${\overline {A+B} }$
+> - [NOR](logical%20NOR.md) ::@:: $A{\overline {\lor } }B$, $A\downarrow B$, ${\overline {A+B} }$
 > - [NOT](negation.md) ::@:: $\neg A$, $-A$, ${\overline {A} }$, $\sim A$
 > - [OR](logical%20disjunction.md) ::@:: $A\lor B$, $A+B$, $A\mid B$, $A\parallel B$
 > - [XNOR](XNOR%20gate.md) ::@:: $A\odot B$
