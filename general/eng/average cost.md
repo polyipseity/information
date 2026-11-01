@@ -87,7 +87,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/average_cost) fro
 
 ## external links
 
-- [Long-Run Average Total Cost](http://demonstrations.wolfram.com/LongRunAverageTotalCost/) by Fiona Maclachlan, [The Wolfram Demonstrations Project](The%20Wolfram%20Demonstrations%20Project.md).
+- [Long-Run Average Total Cost](http://demonstrations.wolfram.com/LongRunAverageTotalCost/) by Fiona Maclachlan, [The Wolfram Demonstrations Project](the%20Wolfram%20Demonstrations%20Project.md).
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable MD059 -->

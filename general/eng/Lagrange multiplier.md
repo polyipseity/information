@@ -66,7 +66,7 @@ To summarize {@{$$\nabla _{x,y,\lambda }{\mathcal {L} }(x,y,\lambda )=0\iff {\be
 
 {@{The constrained extrema of _f_}@} are {@{_[critical points](critical%20point%20(mathematics).md)_ of the Lagrangian ${\mathcal {L} }$}@}, but they are not {@{necessarily _local extrema_ of ${\mathcal {L} }$ (annotation: can be _saddle points_)}@} \(see [§ Example 2](#example%202) below\).
 
-One may {@{[reformulate the Lagrangian](Hamiltonian%20mechanics.md#As%20a%20reformulation%20of%20Lagrangian%20mechanics) as a [Hamiltonian](Hamiltonian%20(control%20theory).md)}@}, in which case {@{the solutions are local minima for the Hamiltonian}@}. This is done in {@{[optimal control](optimal%20control.md) theory}@}, in the form of {@{[Pontryagin's maximum principle](Pontryagin's%20maximum%20principle.md)}@}.
+One may {@{[reformulate the Lagrangian](Hamiltonian%20mechanics.md#as%20a%20reformulation%20of%20Lagrangian%20mechanics) as a [Hamiltonian](Hamiltonian%20(control%20theory).md)}@}, in which case {@{the solutions are local minima for the Hamiltonian}@}. This is done in {@{[optimal control](optimal%20control.md) theory}@}, in the form of {@{[Pontryagin's maximum principle](Pontryagin's%20maximum%20principle.md)}@}.
 
 The fact that {@{solutions of the method of Lagrange multipliers are not necessarily extrema of the Lagrangian}@}, also {@{poses difficulties for numerical optimization}@}. This can be addressed by {@{minimizing the _magnitude_ of the gradient of the Lagrangian \(annotation: instead of finding critical points of the Lagrangian\)}@}, as {@{these minima are the same as the zeros of the magnitude \(annotation: corresponding to critical points of the Lagrangian\)}@}, as illustrated in [Example 5: Numerical optimization](#example%205).
 

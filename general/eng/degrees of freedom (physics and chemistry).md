@@ -28,8 +28,8 @@ from itertools import chain
 headers = ("type", "[monoatomic](monoatomic%20gas.md)", "[linear molecules](linear%20molecular%20geometry.md)", "[non-linear molecules](molecular%20geometry.md)",)
 table = (
   ("[translation](translation%20(geometry).md) ($x, y, z$)", "3", "3", "3",),
-  ("[rotation](rotation.md) ($x, y, z$, < 100 [K](Kelvin.md))", "0", "2", "3",),
-  ("[vibration](vibration.md) (10<sup>3</sup>~10<sup>4</sup> [K](Kelvin.md))", "0", "$2(3N - 5)$", "$2(3N - 6)$",),
+  ("[rotation](rotation.md) ($x, y, z$, < 100 [K](kelvin.md))", "0", "2", "3",),
+  ("[vibration](vibration.md) (10<sup>3</sup>~10<sup>4</sup> [K](kelvin.md))", "0", "$2(3N - 5)$", "$2(3N - 6)$",),
 )
 results = []
 async with create_task_group() as tg:
@@ -49,24 +49,24 @@ return chain.from_iterable([r.value for r in results])
 > | type                                                                     | [monoatomic](monoatomic%20gas.md) | [linear molecules](linear%20molecular%20geometry.md) | [non-linear molecules](molecular%20geometry.md) |
 > | ------------------------------------------------------------------------ | --------------------------------- | ---------------------------------------------------- | ----------------------------------------------- |
 > | [translation](translation%20(geometry).md) ($x, y, z$)                   | 3                                 | 3                                                    | 3                                               |
-> | [rotation](rotation.md) ($x, y, z$, < 100 [K](Kelvin.md))                | 0                                 | 2                                                    | 3                                               |
-> | [vibration](vibration.md) (10<sup>3</sup>~10<sup>4</sup> [K](Kelvin.md)) | 0                                 | $2(3N - 5)$                                          | $2(3N - 6)$                                     |
+> | [rotation](rotation.md) ($x, y, z$, < 100 [K](kelvin.md))                | 0                                 | 2                                                    | 3                                               |
+> | [vibration](vibration.md) (10<sup>3</sup>~10<sup>4</sup> [K](kelvin.md)) | 0                                 | $2(3N - 5)$                                          | $2(3N - 6)$                                     |
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="2bba"--><!-- The following content is generated at 2024-01-04T20:17:51.551995+08:00. Any edits will be overridden! -->
 
 - [translation](translation%20(geometry).md) ($x, y, z$):@:[monoatomic](monoatomic%20gas.md): 3, [linear molecules](linear%20molecular%20geometry.md): 3, [non-linear molecules](molecular%20geometry.md): 3
-- [rotation](rotation.md) ($x, y, z$, < 100 [K](Kelvin.md)):@:[monoatomic](monoatomic%20gas.md): 0, [linear molecules](linear%20molecular%20geometry.md): 2, [non-linear molecules](molecular%20geometry.md): 3
-- [vibration](vibration.md) (10<sup>3</sup>~10<sup>4</sup> [K](Kelvin.md)):@:[monoatomic](monoatomic%20gas.md): 0, [linear molecules](linear%20molecular%20geometry.md): $2(3N - 5)$, [non-linear molecules](molecular%20geometry.md): $2(3N - 6)$
+- [rotation](rotation.md) ($x, y, z$, < 100 [K](kelvin.md)):@:[monoatomic](monoatomic%20gas.md): 0, [linear molecules](linear%20molecular%20geometry.md): 2, [non-linear molecules](molecular%20geometry.md): 3
+- [vibration](vibration.md) (10<sup>3</sup>~10<sup>4</sup> [K](kelvin.md)):@:[monoatomic](monoatomic%20gas.md): 0, [linear molecules](linear%20molecular%20geometry.md): $2(3N - 5)$, [non-linear molecules](molecular%20geometry.md): $2(3N - 6)$
 
 <!--/pytextgen-->
 
 <!--pytextgen generate section="baa2"--><!-- The following content is generated at 2024-01-04T20:17:51.576010+08:00. Any edits will be overridden! -->
 
 - [monoatomic](monoatomic%20gas.md): 3, [linear molecules](linear%20molecular%20geometry.md): 3, [non-linear molecules](molecular%20geometry.md): 3:@:[translation](translation%20(geometry).md) ($x, y, z$)
-- [monoatomic](monoatomic%20gas.md): 0, [linear molecules](linear%20molecular%20geometry.md): 2, [non-linear molecules](molecular%20geometry.md): 3:@:[rotation](rotation.md) ($x, y, z$, < 100 [K](Kelvin.md))
-- [monoatomic](monoatomic%20gas.md): 0, [linear molecules](linear%20molecular%20geometry.md): $2(3N - 5)$, [non-linear molecules](molecular%20geometry.md): $2(3N - 6)$:@:[vibration](vibration.md) (10<sup>3</sup>~10<sup>4</sup> [K](Kelvin.md))
+- [monoatomic](monoatomic%20gas.md): 0, [linear molecules](linear%20molecular%20geometry.md): 2, [non-linear molecules](molecular%20geometry.md): 3:@:[rotation](rotation.md) ($x, y, z$, < 100 [K](kelvin.md))
+- [monoatomic](monoatomic%20gas.md): 0, [linear molecules](linear%20molecular%20geometry.md): $2(3N - 5)$, [non-linear molecules](molecular%20geometry.md): $2(3N - 6)$:@:[vibration](vibration.md) (10<sup>3</sup>~10<sup>4</sup> [K](kelvin.md))
 
 <!--/pytextgen-->
 

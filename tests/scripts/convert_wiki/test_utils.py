@@ -3,6 +3,8 @@
 These tests cover the pure helper functions used throughout the package.
 """
 
+import logging
+import os
 from os import PathLike
 
 import pytest
@@ -14,6 +16,7 @@ from scripts.convert_wiki import table as _tbl
 from scripts.convert_wiki import utils as _mod
 from scripts.convert_wiki.stems import _stem_for_title
 from scripts.convert_wiki.symlinks import _resolve_local_target_filename
+from scripts.convert_wiki.utils import _fix_stem
 
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
@@ -970,3 +973,242 @@ class TestPlainFragment:
     def test_plain_text_unchanged(self) -> None:
         """Plain text passes through unchanged."""
         assert _mod._plain_fragment("hello") == "hello"  # noqa: SLF001
+
+
+class TestSymlinkCycleGuard:
+    """Symlink creation must never close a cycle.
+
+    Paths are compared case-insensitively, because a link and its target
+    name one file on a case-insensitive filesystem.
+    """
+
+    @pytest.mark.anyio
+    async def test_self_loop_is_refused(self, tmp_path: PathLike[str]) -> None:
+        """A redirect onto its own stem creates nothing."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+
+        pointed = await _mod._create_redirect_symlinks(  # noqa: SLF001
+            wiki_dir, lang_dir, "loop", "loop"
+        )
+
+        assert pointed is False
+        assert not await (lang_dir / "loop.md").is_symlink()
+        assert not await (wiki_dir / "loop.md").is_symlink()
+
+    @pytest.mark.anyio
+    async def test_case_only_self_loop_is_refused(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """A target differing only by letter case names the link itself."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+
+        pointed = await _mod._create_redirect_symlinks(  # noqa: SLF001
+            wiki_dir, lang_dir, "Loop", "loop"
+        )
+
+        assert pointed is False
+        assert not await (lang_dir / "Loop.md").is_symlink()
+
+    @pytest.mark.anyio
+    async def test_indirect_cycle_is_refused(self, tmp_path: PathLike[str]) -> None:
+        """A link back into an existing chain is refused."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        await (lang_dir / "B.md").symlink_to("A.md", target_is_directory=False)
+
+        pointed = await _mod._create_redirect_symlinks(  # noqa: SLF001
+            wiki_dir, lang_dir, "A", "B"
+        )
+
+        assert pointed is False
+        assert not await (lang_dir / "A.md").is_symlink()
+
+    @pytest.mark.anyio
+    async def test_mirror_is_refused_over_a_looping_language_link(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """The mirror never points into a chain that already loops."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        await (lang_dir / "A.md").symlink_to("A.md", target_is_directory=False)
+
+        pointed = await _mod._point_symlink(  # noqa: SLF001
+            wiki_dir, "A.md", "eng/A.md"
+        )
+
+        assert pointed is False
+        assert not await (wiki_dir / "A.md").is_symlink()
+
+    @pytest.mark.anyio
+    async def test_short_chain_is_followed(self, tmp_path: PathLike[str]) -> None:
+        """A chain that ends at a real file is a legitimate target."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        await (lang_dir / "real.md").write_text("content", encoding="UTF-8")
+        await (lang_dir / "hop.md").symlink_to("real.md", target_is_directory=False)
+
+        pointed = await _mod._point_symlink(  # noqa: SLF001
+            lang_dir, "start.md", "hop.md"
+        )
+
+        assert pointed is True
+        assert await (lang_dir / "start.md").is_symlink()
+
+    @pytest.mark.anyio
+    async def test_long_chain_is_refused(self, tmp_path: PathLike[str]) -> None:
+        """A chain longer than the hop budget is not extended."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        for index in range(45):
+            await (lang_dir / f"hop{index}.md").symlink_to(
+                f"hop{index + 1}.md" if index < 44 else "missing.md",
+                target_is_directory=False,
+            )
+
+        pointed = await _mod._point_symlink(  # noqa: SLF001
+            lang_dir, "start.md", "hop0.md"
+        )
+
+        assert pointed is False
+        assert not await (lang_dir / "start.md").is_symlink()
+
+    @pytest.mark.anyio
+    async def test_correct_link_is_left_untouched(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """An already-correct link is not unlinked and recreated."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        link = lang_dir / "kept.md"
+        await link.symlink_to("target.md", target_is_directory=False)
+        before = await link.lstat()
+
+        pointed = await _mod._point_symlink(  # noqa: SLF001
+            lang_dir, "kept.md", "target.md"
+        )
+
+        assert pointed is True
+        assert str(await link.readlink()) == "target.md"
+        after = await link.lstat()
+        assert (after.st_ino, after.st_mtime_ns) == (before.st_ino, before.st_mtime_ns)
+
+    @pytest.mark.anyio
+    async def test_retarget_leaves_no_temporary_link(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """A retarget moves the new link into place and leaves no residue."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        link = lang_dir / "redirect.md"
+        await link.symlink_to("old.md", target_is_directory=False)
+
+        pointed = await _mod._point_symlink(  # noqa: SLF001
+            lang_dir, "redirect.md", "new.md"
+        )
+
+        assert pointed is True
+        assert str(await link.readlink()) == "new.md"
+        assert not await (lang_dir / ".redirect.md.link").is_symlink()
+
+    @pytest.mark.anyio
+    async def test_cycle_through_a_symlinked_directory_is_refused(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """Two spellings that reach one directory through a link fold together."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        await (wiki_dir / "alias").symlink_to("eng", target_is_directory=True)
+
+        pointed = await _mod._point_symlink(  # noqa: SLF001
+            lang_dir, "A.md", "../alias/A.md"
+        )
+
+        assert pointed is False
+        assert not await (lang_dir / "A.md").is_symlink()
+
+    @pytest.mark.anyio
+    async def test_real_file_skip_is_logged(
+        self, tmp_path: PathLike[str], caplog: pytest.LogCaptureFixture
+    ) -> None:
+        """A real file owning the name is named in the log, not just counted."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        await (lang_dir / "kept.md").write_text("content", encoding="UTF-8")
+
+        with caplog.at_level(logging.WARNING):
+            pointed = await _mod._point_symlink(  # noqa: SLF001
+                lang_dir, "kept.md", "target.md"
+            )
+
+        assert pointed is False
+        assert "leaving real file in place" in caplog.text
+
+
+class TestFixStem:
+    """A stem is sanitised knowing that ``.md`` follows it."""
+
+    def test_trailing_dot_survives_because_the_name_ends_in_md(self) -> None:
+        """A dotted abbreviation keeps its final dot."""
+        assert _fix_stem("i.i.d.") == "i.i.d."
+
+    def test_trailing_space_survives_for_the_same_reason(self) -> None:
+        """A trailing space before `.md` is legal and survives."""
+        assert _fix_stem("Notjustmoreidlechatter ") == "Notjustmoreidlechatter "
+
+    def test_dotted_initials_and_citations_survive(self) -> None:
+        """Dotted initials survive a sanitised stem."""
+        assert _fix_stem("Taylor, F. W.") == "Taylor, F. W."
+        assert _fix_stem("Q.E.D.") == "Q.E.D."
+        assert _fix_stem("0.999...") == "0.999..."
+
+    def test_illegal_characters_are_still_replaced(self) -> None:
+        """A name Windows forbids still becomes a legal one."""
+        assert _fix_stem("Template:Cite journal") == "Template_Cite journal"
+        assert _fix_stem("C*-algebra") == "C_-algebra"
+        assert _fix_stem("Why Socialism?") == "Why Socialism_"
+        assert _fix_stem("A: b") == "A_ b"
+
+    def test_a_device_name_is_still_suffixed(self) -> None:
+        """A device name is suffixed, never truncated."""
+        assert _fix_stem("con") == "con_"
+        assert _fix_stem("NUL") == "NUL_"
+
+    def test_a_long_stem_keeps_the_extension_it_will_carry(self) -> None:
+        """A long stem loses characters, never its extension."""
+        stem = _fix_stem("x" * 300)
+        assert len(stem) == 252
+        assert _fix_stem(stem) == stem
+
+    def test_an_empty_result_is_empty(self) -> None:
+        """An empty stem stays empty."""
+        assert _fix_stem("") == ""
+        assert _fix_stem(" ") == ""
+
+
+class TestCorpusNamesAreCanonical:
+    """Every name on disk is what the corrected sanitiser would produce."""
+
+    def test_no_note_or_redirect_needs_renaming(self) -> None:
+        """Every on-disk name is already what the sanitiser writes."""
+        offenders = []
+        for root, dirs, names in os.walk("general"):
+            dirs[:] = [directory for directory in dirs if not directory.startswith(".")]
+            for name in names:
+                if not name.endswith(".md"):
+                    continue
+                stem = name.removesuffix(".md")
+                if _fix_stem(stem) != stem:
+                    offenders.append(os.path.join(root, name))
+        assert offenders == []

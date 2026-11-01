@@ -79,8 +79,8 @@ from .types import _HandlerConfig, _RedirectInfo
 from .utils import (
     _balance_brackets,
     _encode_fragment,
-    _fix_filename,
     _fix_name_maybe,
+    _fix_stem,
     _get_image_filename,
     _markdown_fragment,
     _markdown_link_target,
@@ -823,8 +823,7 @@ class WikiHtmlConverter:
         # current page, so it renders as a fragment even when the caller
         # did not supply ``page_name`` (e.g. clipboard conversion).
         same_page = "mw-selflink-fragment" in classes or bool(
-            normalized_page
-            and _fix_filename(to_filename) == _fix_filename(normalized_page)
+            normalized_page and _fix_stem(to_filename) == _fix_stem(normalized_page)
         )
         if same_page:
             target = (
@@ -2573,8 +2572,8 @@ class WikiHtmlConverter:
             process_strings=_process_link_text,
         )
         from_filename, to_filename = (
-            _fix_filename(from_filename),
-            _fix_filename(to_filename),
+            _fix_stem(from_filename),
+            _fix_stem(to_filename),
         )
         if from_filename != to_filename:
             self._pending_redirects.append((from_filename, to_filename))
@@ -2609,9 +2608,7 @@ class WikiHtmlConverter:
             if self._page_name
             else None
         )
-        if normalized_page and _fix_filename(stem_name) == _fix_filename(
-            normalized_page
-        ):
+        if normalized_page and _fix_stem(stem_name) == _fix_stem(normalized_page):
             return f"#{_encode_fragment(new_frag)}" if new_frag else ""
         return (
             _markdown_link_target(stem_name, new_frag)

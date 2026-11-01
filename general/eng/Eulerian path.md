@@ -90,7 +90,7 @@ This algorithm may also {@{be implemented with a [deque](double-ended%20queue.md
 
 > {@{![Hamiltonian platonic graphs](../../archives/Wikimedia%20Commons/Hamiltonian%20platonic%20graphs.svg)}@}
 >
-> {@{Orthographic projections and Schlegel diagrams}@} with {@{[Hamiltonian cycles](hamiltonian%20path.md) of the vertices of the five platonic solids}@} – {@{only the octahedron has an __Eulerian path__ or cycle}@}, by {@{extending its path with the dotted one}@}
+> {@{Orthographic projections and Schlegel diagrams}@} with {@{[Hamiltonian cycles](Hamiltonian%20path.md) of the vertices of the five platonic solids}@} – {@{only the octahedron has an __Eulerian path__ or cycle}@}, by {@{extending its path with the dotted one}@}
 >
 > <!-- - [v](https://en.wikipedia.org/wiki/Template:Hamiltonian%20platonic%20graphs.svg) -->
 > <!-- - [t](https://en.wikipedia.org/wiki/Template_talk:Hamiltonian%20platonic%20graphs.svg) -->
@@ -122,7 +122,7 @@ Eulerian trails are used in {@{[bioinformatics](bioinformatics.md)}@} to {@{reco
 >
 > {@{An infinite graph with all vertex degrees equal to four}@} but {@{with no Eulerian line}@}
 
-In {@{an [infinite graph](glossary%20of%20graph%20theory.md#infinite)}@}, {@{the corresponding concept to an Eulerian trail or Eulerian cycle}@} is {@{an Eulerian line}@}, {@{a doubly-infinite trail that covers all of the edges of the graph}@}. It is {@{not sufficient for the existence of such a trail that the graph be connected and that all vertex degrees be even}@}; for instance, {@{the infinite [Cayley graph](cayley%20graph.md) shown, with all vertex degrees equal to four, has no Eulerian line}@}. {@{The infinite graphs that contain Eulerian lines}@} were {@{characterized by [Erdõs, Grünwald & Weiszfeld \(1936\)](#^CITEREFErd%C3%B5sGr%C3%BCnwaldWeiszfeld1936)}@}. For {@{an infinite graph or multigraph _G_ to have an Eulerian line}@}, it is {@{necessary and sufficient that all of the following three conditions be met}@}:<sup>[\[18\]](#^ref-18)</sup><sup>[\[19\]](#^ref-19)</sup>
+In {@{an [infinite graph](glossary%20of%20graph%20theory.md#infinite)}@}, {@{the corresponding concept to an Eulerian trail or Eulerian cycle}@} is {@{an Eulerian line}@}, {@{a doubly-infinite trail that covers all of the edges of the graph}@}. It is {@{not sufficient for the existence of such a trail that the graph be connected and that all vertex degrees be even}@}; for instance, {@{the infinite [Cayley graph](Cayley%20graph.md) shown, with all vertex degrees equal to four, has no Eulerian line}@}. {@{The infinite graphs that contain Eulerian lines}@} were {@{characterized by [Erdõs, Grünwald & Weiszfeld \(1936\)](#^CITEREFErd%C3%B5sGr%C3%BCnwaldWeiszfeld1936)}@}. For {@{an infinite graph or multigraph _G_ to have an Eulerian line}@}, it is {@{necessary and sufficient that all of the following three conditions be met}@}:<sup>[\[18\]](#^ref-18)</sup><sup>[\[19\]](#^ref-19)</sup>
 
 - _G_ is ::@:: connected.
 - _G_ has ::@:: [countable sets](countable%20set.md) of vertices and edges.

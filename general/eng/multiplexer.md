@@ -129,7 +129,7 @@ These tables show that {@{when $S_{0}=0$ then $Z=A$ but when $S_{0}=1$ then $Z=B
 
 ### list of ICs which provide multiplexing
 
-> {@{![[Signetics](signetics.md) S54S157 quad 2:1 mux](../../archives/Wikimedia%20Commons/54S157%20Signetics%208014%20package%20top.jpg)}@}
+> {@{![[Signetics](Signetics.md) S54S157 quad 2:1 mux](../../archives/Wikimedia%20Commons/54S157%20Signetics%208014%20package%20top.jpg)}@}
 >
 > {@{[Signetics](Signetics.md) S54S157}@} {@{quad 2:1 mux}@}
 

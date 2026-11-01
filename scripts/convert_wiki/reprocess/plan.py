@@ -7,6 +7,7 @@ from anyio import Path
 
 from .. import config as _cfg
 from ..api import _load_redirect_cache
+from ..markdown_rewrite import _build_link_index
 from ..name_map_io import _merge_names_maps, _new_mapping_keys
 from ..stems import _stem_for_title
 from ..symlinks import _resolve_cache_target_filename, _scan_redirect_symlinks
@@ -18,7 +19,11 @@ from ..types import (
     _SymlinkAction,
     _SymlinkActionKind,
 )
-from ..utils import _find_child_exact
+from ..utils import (
+    _find_child_case_insensitive,
+    _find_child_exact,
+    _fold_text,
+)
 
 """Exported names from this module."""
 __all__ = ()
@@ -48,6 +53,25 @@ def _stem_migration_map(
 ) -> dict[str, str]:
     """Convert stem migrations to a lookup dict."""
     return {migration.old_stem: migration.new_stem for migration in migrations}
+
+
+def _migrated_stem(
+    stem: str,
+    migrations: Mapping[str, str],
+    base: Mapping[str, str],
+) -> str:
+    """Return the stem *stem* carries once *migrations* are applied.
+
+    The on-disk spelling is kept unless a migration names it, so a redirect
+    whose name the map spells differently is not renamed by a pass that has
+    nothing to say about it.  Two spellings count as the same stem: the one
+    on disk and the one the base map's heuristic produces, which is where a
+    differently-cased filename came from.
+    """
+    for candidate in (stem, _stem_for_title(stem, base)):
+        if candidate in migrations:
+            return migrations[candidate]
+    return stem
 
 
 def _resolve_article_spec(
@@ -106,6 +130,10 @@ async def plan_reprocess(
     base = base_map if base_map is not None else _cfg._NAMES_MAP
     effective_map = _merge_names_maps(base, request.mappings)
     new_keys = _new_mapping_keys(base, effective_map)
+    # A key two titles claim differently cannot be applied, so the lookup
+    # index is built here first: planning fails before anything is decided,
+    # and a dry run reports the defect instead of a plan.
+    _build_link_index(base, effective_map)
 
     resolved_articles = [
         _resolve_article_spec(spec, wiki_dir) for spec in request.articles
@@ -119,6 +147,9 @@ async def plan_reprocess(
         effective_map=effective_map,
     )
     migration_map = _stem_migration_map(stem_migrations)
+    title_for_stem: dict[str, str] = {}
+    for title in sorted(effective_map):
+        title_for_stem.setdefault(_stem_for_title(title, base), effective_map[title])
 
     scanned = await _scan_redirect_symlinks(wiki_dir)
     expected_targets: dict[tuple[str, str], str] = {}
@@ -138,9 +169,13 @@ async def plan_reprocess(
                 names_map=effective_map,
             )
 
+    def _planned_stem(stem: str) -> str:
+        """Return the stem a redirect stored as *stem* will carry."""
+        return _migrated_stem(stem, migration_map, base)
+
     symlink_actions: list[_SymlinkAction] = []
     for from_stem, lang_dir, _symlink in scanned:
-        new_from_stem = migration_map.get(from_stem, from_stem)
+        new_from_stem = _planned_stem(from_stem)
         if new_from_stem != from_stem:
             symlink_actions.append(
                 _SymlinkAction(
@@ -152,10 +187,7 @@ async def plan_reprocess(
             )
 
     scanned_lookup = {
-        (
-            migration_map.get(from_stem, from_stem),
-            lang_dir.name,
-        ): (from_stem, lang_dir, symlink)
+        (_planned_stem(from_stem), lang_dir.name): (from_stem, lang_dir, symlink)
         for from_stem, lang_dir, symlink in scanned
     }
     for title, info in redirect_cache.items():
@@ -170,7 +202,10 @@ async def plan_reprocess(
             )
             expected = f"{expected_stem}.md"
             key = (from_stem, lang_dir_name)
-            if info.to == title or from_stem == expected_stem:
+            # A redirect that would name its own target carries nothing; it is
+            # removed rather than written as a link to itself, which the link
+            # and its target are on a case-insensitive filesystem.
+            if info.to == title or _fold_text(from_stem) == _fold_text(expected_stem):
                 if key in scanned_lookup:
                     symlink_actions.append(
                         _SymlinkAction(
@@ -209,26 +244,41 @@ async def plan_reprocess(
         lang_dir = wiki_dir / lang_dir_name
         current_path = lang_dir / f"{stem}.md"
         new_stem = migration_map.get(stem, _stem_for_title(stem, effective_map))
+        title_text = title_for_stem.get(_stem_for_title(stem, base), new_stem)
         rewrite_path = current_path
         if new_stem != stem:
-            target_name = f"{new_stem}.md"
-            current_name = f"{stem}.md"
-            exact_target = await _find_child_exact(lang_dir, target_name)
-            exact_current = await _find_child_exact(lang_dir, current_name)
-            if exact_target is not None and exact_target != exact_current:
-                if not await exact_target.is_symlink():
-                    msg = f"rename target already exists: {lang_dir / target_name}"
-                    raise FileExistsError(msg)
-            target_path = lang_dir / target_name
-            rename_actions.append(
-                _RenameAction(
-                    lang_dir_name=lang_dir_name,
-                    old_stem=stem,
-                    new_stem=new_stem,
+            target_path = lang_dir / f"{new_stem}.md"
+            exact_target = await _find_child_exact(lang_dir, target_path.name)
+            exact_current = await _find_child_exact(lang_dir, current_path.name)
+            if exact_current is None:
+                # No file carries the old stem, so there is nothing to rename:
+                # the note already sits at its final name under some spelling
+                # of it, and only its text moves.
+                existing = exact_target or await _find_child_case_insensitive(
+                    lang_dir, target_path.name
                 )
-            )
-            heading_updates[fspath(target_path)] = new_stem
-            rewrite_path = target_path
+                if existing is not None:
+                    rewrite_path = existing
+                    heading_updates[fspath(existing)] = title_text
+            else:
+                if (
+                    exact_target is not None
+                    and exact_target != exact_current
+                    and not await exact_target.is_symlink()
+                ):
+                    msg = f"rename target already exists: {target_path}"
+                    raise FileExistsError(msg)
+                rename_actions.append(
+                    _RenameAction(
+                        lang_dir_name=lang_dir_name,
+                        old_stem=stem,
+                        new_stem=new_stem,
+                    )
+                )
+                # The heading carries the mapped title, not the sanitised
+                # stem: a title with ``:`` sanitises to ``_`` in the filename.
+                heading_updates[fspath(target_path)] = title_text
+                rewrite_path = target_path
         elif stem in {migration.old_stem for migration in stem_migrations}:
             heading_updates[fspath(current_path)] = migration_map.get(stem, stem)
         listed_paths.append(rewrite_path)
@@ -240,6 +290,7 @@ async def plan_reprocess(
     )
 
     return _ReprocessPlan(
+        base_map=base,
         effective_map=effective_map,
         new_mapping_keys=new_keys,
         stem_migrations=stem_migrations,
@@ -250,4 +301,5 @@ async def plan_reprocess(
         wiki_dir=wiki_dir,
         cache_path=cache_path,
         name_map_path=name_map_path,
+        repair_illegal_names=request.repair_illegal_names,
     )

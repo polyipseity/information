@@ -173,7 +173,7 @@ When {@{the index set $T$ can be interpreted as time}@}, {@{a stochastic process
 
 Instead of modification, {@{the term __version__}@} is also used,<sup>[\[150\]](#^ref-150)</sup><sup>[\[160\]](#^ref-160)</sup><sup>[\[161\]](#^ref-161)</sup><sup>[\[162\]](#^ref-162)</sup> however {@{some authors use the term version}@} when {@{two stochastic processes have the same finite-dimensional distributions, but they may be defined on different probability spaces}@}, so {@{two processes that are modifications of each other}@}, are {@{also versions of each other, in the latter sense, but not the converse}@}.<sup>[\[163\]](#^ref-163)</sup><sup>[\[142\]](#^ref-142)</sup>
 
-If {@{a continuous-time real-valued stochastic process meets certain moment conditions on its increments}@}, then {@{the [Kolmogorov continuity theorem](kolmogorov%20continuity%20theorem.md)}@} says that {@{there exists a modification of this process that has continuous sample paths with probability one}@}, so {@{the stochastic process has a continuous modification or version}@}.<sup>[\[161\]](#^ref-161)</sup><sup>[\[162\]](#^ref-162)</sup><sup>[\[164\]](#^ref-164)</sup> The theorem can also be generalized to {@{random fields so the index set is $n$-dimensional Euclidean space<sup>[\[165\]](#^ref-165)</sup> as well as to stochastic processes with [metric spaces](metric%20space.md) as their state spaces}@}.<sup>[\[166\]](#^ref-166)</sup>
+If {@{a continuous-time real-valued stochastic process meets certain moment conditions on its increments}@}, then {@{the [Kolmogorov continuity theorem](Kolmogorov%20continuity%20theorem.md)}@} says that {@{there exists a modification of this process that has continuous sample paths with probability one}@}, so {@{the stochastic process has a continuous modification or version}@}.<sup>[\[161\]](#^ref-161)</sup><sup>[\[162\]](#^ref-162)</sup><sup>[\[164\]](#^ref-164)</sup> The theorem can also be generalized to {@{random fields so the index set is $n$-dimensional Euclidean space<sup>[\[165\]](#^ref-165)</sup> as well as to stochastic processes with [metric spaces](metric%20space.md) as their state spaces}@}.<sup>[\[166\]](#^ref-166)</sup>
 
 #### indistinguishable
 
@@ -205,7 +205,7 @@ If {@{two stochastic processes $X$ and $Y$ are independent}@}, then {@{they are 
 
 #### Skorokhod space
 
-- Main article: [Skorokhod space](càdlàg.md#skorokhod%20space)
+- Main article: [Skorokhod space](càdlàg.md#Skorokhod%20space)
 
 {@{A __Skorokhod space__, also written as __Skorohod space__}@}, is {@{a mathematical space of all the functions that are right-continuous with left limits}@}, defined on {@{some interval of the real line such as $[0,1]$ or $[0,\infty )$, and take values on the real line or on some metric space}@}.<sup>[\[179\]](#^ref-179)</sup><sup>[\[180\]](#^ref-180)</sup><sup>[\[181\]](#^ref-181)</sup> Such functions are known as {@{càdlàg or cadlag functions}@}, based on {@{the acronym of the French phrase _continue à droite, limite à gauche_}@}.<sup>[\[179\]](#^ref-179)</sup><sup>[\[182\]](#^ref-182)</sup> {@{A Skorokhod function space}@}, introduced by {@{[Anatoliy Skorokhod](Anatoliy%20Skorokhod.md)}@},<sup>[\[181\]](#^ref-181)</sup> is often denoted with {@{the letter $D$,<sup>[\[179\]](#^ref-179)</sup><sup>[\[180\]](#^ref-180)</sup><sup>[\[181\]](#^ref-181)</sup><sup>[\[182\]](#^ref-182)</sup> so the function space is also referred to as space $D$}@}.<sup>[\[179\]](#^ref-179)</sup><sup>[\[183\]](#^ref-183)</sup><sup>[\[184\]](#^ref-184)</sup> The notation of this function space can also include {@{the interval on which all the càdlàg functions are defined}@}, so, for example, {@{$D[0,1]$}@} denotes {@{the space of càdlàg functions defined on the [unit interval](unit%20interval.md) $[0,1]$}@}.<sup>[\[182\]](#^ref-182)</sup><sup>[\[184\]](#^ref-184)</sup><sup>[\[185\]](#^ref-185)</sup>
 
@@ -219,7 +219,7 @@ In the context of {@{mathematical construction of stochastic processes}@}, {@{th
 
 ### Markov processes and chains
 
-- Main article: [Markov chain](markov%20chain.md)
+- Main article: [Markov chain](Markov%20chain.md)
 
 {@{Markov processes}@} are {@{stochastic processes, traditionally in [discrete or continuous time](discrete%20time%20and%20continuous%20time.md)}@}, that have {@{the Markov property, which means the next value of the Markov process depends on the current value}@}, but {@{it is conditionally independent of the previous values of the stochastic process}@}. In other words, {@{the behavior of the process in the future is stochastically independent of its behavior in the past}@}, given {@{the current state of the process}@}.<sup>[\[191\]](#^ref-191)</sup><sup>[\[192\]](#^ref-192)</sup>
 
@@ -415,12 +415,12 @@ Another example is {@{the __[branching process](branching%20process.md)__}@},<su
 - [List of stochastic processes topics](list%20of%20stochastic%20processes%20topics.md)
 - [Covariance function](covariance%20function.md)
 - [Deterministic system](deterministic%20system.md)
-- [Dynamics of Markovian particles](Dynamics%20of%20Markovian%20particles.md)
+- [Dynamics of Markovian particles](dynamics%20of%20Markovian%20particles.md)
 - [Entropy rate](entropy%20rate.md) \(for a stochastic process\)
 - [Ergodic process](ergodic%20process.md)
 - [Gillespie algorithm](gillespie%20algorithm.md)
 - [Interacting particle system](interacting%20particle%20system.md)
-- [Markov chain](markov%20chain.md)
+- [Markov chain](Markov%20chain.md)
 - [Stochastic cellular automaton](stochastic%20cellular%20automaton.md)
 - [Random field](random%20field.md)
 - [Randomness](randomness.md)
@@ -469,7 +469,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/stochastic_proces
 10. <a id="CITEREFPaulBaschnagel2013"></a> Paul, Wolfgang; Baschnagel, Jörg \(2013\). [_Stochastic Processes: From Physics to Finance_](https://books.google.com/books?id=OWANAAAAQBAJ). [Springer Science+Business Media](Springer%20Science+Business%20Media.md). [ISBN](ISBN.md) [978-3-319-00327-6](https://en.wikipedia.org/wiki/Special:BookSources/978-3-319-00327-6). <a id="^ref-10"></a>^ref-10
 11. <a id="CITEREFDougherty1999"></a> Dougherty, Edward R. \(1999\). [_Random processes for image and signal processing_](https://books.google.com/books?id=ePxDAQAAIAAJ). [SPIE](SPIE.md) Optical Engineering Press. [ISBN](ISBN.md) [978-0-8194-2513-3](https://en.wikipedia.org/wiki/Special:BookSources/978-0-8194-2513-3). <a id="^ref-11"></a>^ref-11
 12. <a id="CITEREFBertsekas1996"></a> [Bertsekas, Dimitri P.](Dimitri%20Bertsekas.md) \(1996\). [_Stochastic Optimal Control: The Discrete-Time Case_](https://athenasc.com/socbook.html). Athena Scientific. [ISBN](ISBN.md) [1-886529-03-5](https://en.wikipedia.org/wiki/Special:BookSources/1-886529-03-5). <a id="^ref-12"></a>^ref-12
-13. <a id="CITEREFThomas M. CoverJoy A. Thomas2012"></a> Thomas M. Cover; Joy A. Thomas \(2012\). [_Elements of Information Theory_](https://books.google.com/books?id=VWq5GG6ycxMC). [John Wiley & Sons](wiley%20(publisher).md). p. 71. [ISBN](ISBN.md) [978-1-118-58577-1](https://en.wikipedia.org/wiki/Special:BookSources/978-1-118-58577-1). <a id="^ref-13"></a>^ref-13
+13. <a id="CITEREFThomas M. CoverJoy A. Thomas2012"></a> Thomas M. Cover; Joy A. Thomas \(2012\). [_Elements of Information Theory_](https://books.google.com/books?id=VWq5GG6ycxMC). [John Wiley & Sons](Wiley%20(publisher).md). p. 71. [ISBN](ISBN.md) [978-1-118-58577-1](https://en.wikipedia.org/wiki/Special:BookSources/978-1-118-58577-1). <a id="^ref-13"></a>^ref-13
 14. <a id="CITEREFBaron2015"></a> Baron, Michael \(2015\). [_Probability and Statistics for Computer Scientists_](https://books.google.com/books?id=CwQZCwAAQBAJ) \(2nd ed.\). [CRC Press](CRC%20Press.md). p. 131. [ISBN](ISBN.md) [978-1-4987-6060-7](https://en.wikipedia.org/wiki/Special:BookSources/978-1-4987-6060-7). <a id="^ref-14"></a>^ref-14
 15. <a id="CITEREFBaccelliBlaszczyszyn2009"></a> Baccelli, François; Blaszczyszyn, Bartlomiej \(2009\). [_Stochastic Geometry and Wireless Networks_](https://books.google.com/books?id=H3ZkTN2pYS4C). [Now Publishers](Now%20Publishers.md) Inc. [ISBN](ISBN.md) [978-1-60198-264-3](https://en.wikipedia.org/wiki/Special:BookSources/978-1-60198-264-3). <a id="^ref-15"></a>^ref-15
 16. <a id="CITEREFSteele2001"></a> Steele, J. Michael \(2001\). [_Stochastic Calculus and Financial Applications_](https://books.google.com/books?id=H06xzeRQgV4C). [Springer Science+Business Media](Springer%20Science+Business%20Media.md). [ISBN](ISBN.md) [978-0-387-95016-7](https://en.wikipedia.org/wiki/Special:BookSources/978-0-387-95016-7). <a id="^ref-16"></a>^ref-16

@@ -41,7 +41,7 @@ Due to {@{the nature and culture of [monopolistic](monopoly.md) companies}@}, th
 
 {@{The most popular for estimating production efficiency}@} are {@{[data envelopment analysis](data%20envelopment%20analysis.md)<sup>[\[6\]](#^ref-6)</sup> and [stochastic frontier analysis](stochastic%20frontier%20analysis.md)}@}.<sup>[\[7\]](#^ref-7)</sup>
 
-See the recent book by Sickles and Zelenyuk (2019) for comprehensive coverage of the theory<!-- <sup>[_[which?](Wikipedia:Manual%20of%20Style_Words%20to%20watch.md#unsupported%20attributions)_]</sup> --> and related estimation and many references therein.<sup>[\[8\]](#^ref-8)</sup>
+See the recent book by Sickles and Zelenyuk (2019) for comprehensive coverage of the theory<!-- <sup>[_[which?](https://en.wikipedia.org/wiki/Wikipedia:Manual%20of%20Style_Words%20to%20watch#unsupported%20attributions)_]</sup> --> and related estimation and many references therein.<sup>[\[8\]](#^ref-8)</sup>
 
 ## references
 

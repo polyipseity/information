@@ -71,7 +71,7 @@ Giffen goods were {@{first noted by [Sir Robert Giffen](Robert%20Giffen.md)}@}. 
 
 - [Ersatz](Ersatz%20good.md)
 - [substitute good](substitute%20good.md)
-- [Kuznets curve](kuznets%20curve.md)
+- [Kuznets curve](Kuznets%20curve.md)
 
 ## references
 

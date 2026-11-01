@@ -23,8 +23,8 @@ from scripts.convert_wiki.pipeline import run_pipeline
 from scripts.convert_wiki.table import _reformat_table
 from scripts.convert_wiki.types import _RedirectInfo
 from scripts.convert_wiki.utils import (
-    _fix_filename,
     _fix_name_maybe,
+    _fix_stem,
 )
 
 """Public API of this test module (empty: no symbols are exported)."""
@@ -117,10 +117,10 @@ async def _assert_redirect_symlinks(
             info.to.startswith(prefix) for prefix in config._PRESERVED_PAGE_PREFIXES
         ):
             continue
-        from_name = _fix_filename(
+        from_name = _fix_stem(
             _fix_name_maybe(title, replace_underscores=True, names_map=names_map)
         )
-        to_name = _fix_filename(
+        to_name = _fix_stem(
             _fix_name_maybe(info.to, replace_underscores=True, names_map=names_map)
         )
         if from_name != to_name:

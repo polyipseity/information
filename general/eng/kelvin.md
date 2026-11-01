@@ -7,7 +7,7 @@ tags:
   - language/in/English
 ---
 
-# Kelvin
+# kelvin
 
 > [!tip] tips
 >

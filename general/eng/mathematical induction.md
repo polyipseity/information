@@ -27,7 +27,7 @@ Despite its name, mathematical induction differs fundamentally from {@{[inductiv
 
 ## history
 
-In 370 BC, [Plato](plato.md)'s [Parmenides](parmenides%20(dialogue).md) may have contained traces of an early example of an implicit inductive proof,<sup>[\[5\]](#^ref-5)</sup> however, the earliest implicit proof by mathematical induction was written by [al-Karaji](Al-Karaji.md) around 1000 AD, who applied it to [arithmetic sequences](arithmetic%20progression.md) to prove the [binomial theorem](binomial%20theorem.md) and properties of [Pascal's triangle](pascal's%20triangle.md). Whilst the original work was lost, it was later referenced by [Al-Samawal al-Maghribi](Al-Samawal%20al-Maghribi.md) in his treatise _al-Bahir fi'l-jabr (The Brilliant in Algebra)_ in around 1150 AD.<sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup>
+In 370 BC, [Plato](Plato.md)'s [Parmenides](parmenides%20(dialogue).md) may have contained traces of an early example of an implicit inductive proof,<sup>[\[5\]](#^ref-5)</sup> however, the earliest implicit proof by mathematical induction was written by [al-Karaji](Al-Karaji.md) around 1000 AD, who applied it to [arithmetic sequences](arithmetic%20progression.md) to prove the [binomial theorem](binomial%20theorem.md) and properties of [Pascal's triangle](Pascal's%20triangle.md). Whilst the original work was lost, it was later referenced by [Al-Samawal al-Maghribi](Al-Samawal%20al-Maghribi.md) in his treatise _al-Bahir fi'l-jabr (The Brilliant in Algebra)_ in around 1150 AD.<sup>[\[6\]](#^ref-6)</sup><sup>[\[7\]](#^ref-7)</sup>
 
 Katz says in his history of mathematics
 

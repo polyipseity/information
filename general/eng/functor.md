@@ -234,7 +234,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/functor) from [Wi
 - [Stanford Encyclopedia of Philosophy](Stanford%20Encyclopedia%20of%20Philosophy.md): "[Category Theory](http://plato.stanford.edu/entries/category-theory/)" — by Jean-Pierre Marquis. Extensive bibliography.
 - [List of academic conferences on category theory](http://www.mta.ca/~cat-dist/)
 - Baez, John, 1996,"[The Tale of _n_-categories.](http://math.ucr.edu/home/baez/week73.html)" An informal introduction to higher order categories.
-- [WildCats](http://wildcatsformma.wordpress.com/) is a [category theory](category%20theory.md) package for [Mathematica](mathematica.md). Manipulation and visualization of objects, [morphisms](morphism.md), categories, functors, [natural transformations](natural%20transformation.md), [universal properties](universal%20properties.md).
+- [WildCats](http://wildcatsformma.wordpress.com/) is a [category theory](category%20theory.md) package for [Mathematica](Mathematica.md). Manipulation and visualization of objects, [morphisms](morphism.md), categories, functors, [natural transformations](natural%20transformation.md), [universal properties](universal%20properties.md).
 - [The catsters](https://www.youtube.com/user/TheCatsters), a YouTube channel about category theory.
 - [Video archive](http://categorieslogicphysics.wikidot.com/events) of recorded talks relevant to categories, logic and the foundations of physics.
 - [Interactive Web page](https://web.archive.org/web/20080916162345/http://www.j-paine.org/cgi-bin/webcats/webcats.php) which generates examples of categorical constructions in the category of finite sets.

@@ -71,7 +71,7 @@ The tree rotation renders {@{the [inorder traversal](tree%20traversal.md#inorder
 Left tree: ((A, P, B), Q, C)        Right tree: (A, P, (B, Q, C))
 ```
 
-Computing {@{one from the other is very simple}@}. The following is example [Python](python%20(programming%20language).md) code that performs that computation:
+Computing {@{one from the other is very simple}@}. The following is example [Python](Python%20(programming%20language).md) code that performs that computation:
 
 ```Python
 def right_rotation(treenode):

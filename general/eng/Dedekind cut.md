@@ -50,7 +50,7 @@ Regard {@{one Dedekind cut \(_A_, _B_\) as _less than_ another Dedekind cut \(_C
 
 ## construction of the real numbers
 
-- See also: [Construction of the real numbers § Construction by Dedekind cuts](construction%20of%20the%20real%20numbers.md#construction%20by%20Dedekind%20cuts)
+- See also: [Construction of the real numbers § Construction by Dedekind cuts](construction%20of%20the%20real%20numbers.md#Construction%20by%20Dedekind%20cuts)
 
 {@{A typical Dedekind cut of the [rational numbers](rational%20number.md) $\mathbb {Q}$}@} is given by {@{the partition $(A,B)$ with <p> $A=\{a\in \mathbb {Q} :a^{2}<2{\text{ or } }a<0\},$ <br/> $B=\{b\in \mathbb {Q} :b^{2}\geq 2{\text{ and } }b\geq 0\}.$}@}<sup>[\[4\]](#^ref-4)</sup>
 
