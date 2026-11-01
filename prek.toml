@@ -27,13 +27,13 @@ hooks = [
   { id = "detect-private-key" },
   # Archived Wikimedia media is kept byte-for-byte so its index hash still
   # verifies; text fixers would silently rewrite the download.
-  { id = "end-of-file-fixer", exclude = "^archives/Wikimedia Commons/" },
-  { id = "fix-byte-order-marker", exclude = "^archives/Wikimedia Commons/" },
+  { id = "end-of-file-fixer", exclude = "^\\.obsidian/|^archives/[^/]+/" },
+  { id = "fix-byte-order-marker", exclude = "^archives/[^/]+/" },
   { id = "name-tests-test", args = [
     "--pytest-test-first",
   ] },
   # Preserve markdown hard line breaks (common in docs)
-  { id = "trailing-whitespace", exclude = "^archives/Wikimedia Commons/", args = [
+  { id = "trailing-whitespace", exclude = "^\\.obsidian/|^archives/[^/]+/", args = [
     "--markdown-linebreak-ext=md,mdoc,mdown,mdx,mkd,mkdn,markdown,rmd",
   ] },
 ]
