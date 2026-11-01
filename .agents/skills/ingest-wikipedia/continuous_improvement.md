@@ -107,6 +107,8 @@ Add new lessons below as the skill evolves.
 - A title with `:` broke every link to it. `_encode_fragment` drops `:`,
   so a section `A: b` is anchored `#A%20b` and never spelled its key, and
   `_fix_filename` turns `:` into `_`, so the stem never spelled one either.
+  That sanitiser is now `_fix_stem`, which sees the extension the stem will
+  carry.
   Both now resolve through an index built from the base and effective name
   maps: exact key, then the anchor projection, then a case-folded lookup.
   Encoding was deliberately left alone — the anchor form is the correct one.
@@ -116,7 +118,7 @@ Add new lessons below as the skill evolves.
 - The scaffold created `general/eng/A: b.md` while the converter linked to
   `A_ b.md`, so the note existed at a filename no link could reach. The
   scaffold builds its filename, mirror, and link target from
-  `_fix_filename(title)` and keeps the raw title in the alias and heading.
+  `_fix_stem(title)` and keeps the raw title in the alias and heading.
 - Redirect symlinks had no cycle guard: `--reprocess` could plan a redirect
   onto its own stem and write `A.md -> A.md`. Every creation and retarget
   site now walks the chain that already exists from the target, comparing
@@ -145,3 +147,25 @@ Add new lessons below as the skill evolves.
   walk resolves directory components, so two spellings that reach one folder
   through a link count as the same path, and a real file that owns the name is
   logged rather than only counted.
+
+## Lessons learned (2026-11-01, third pass)
+
+- `pathvalidate.sanitize_filename` polices a whole filename, and every call
+  site passed a stem, so a title ending in a dot lost it: `i.i.d.` became
+  `i.i.d` and the link to `i.i.d..md` dangled. Sanitising `stem + ".md"` and
+  stripping the suffix keeps the dot (that name ends in `d`, which Windows
+  allows) and still rewrites `:`, `*`, and `?`. Eight working links dangled
+  because of it, and three snapshot fixtures had encoded the wrong name.
+- A corpus pass re-encoded every destination it visited, so a name no
+  mapping mentions could be re-spelled on the way through. An unresolved
+  destination is now byte-identical; only a resolved stem, the legacy
+  `Page#anchor.md` shape, and the opt-in repair change anything.
+- `--repair-illegal-names` rewrote 23 destinations in 13 files. Nineteen
+  more sat inside HTML comments and one code span, where mistune parses no
+  link, so no rewrite reaches them; those were repaired by hand, and the
+  guard test scans the text rather than the document for that reason.
+- A path carries separators by design. Testing a whole stem for forbidden
+  characters repaired sixteen working `../…` links into `..%5F..%5Fspecial…`;
+  only the component after the last `/` is a name.
+- The recasing pass measured 144 destinations across 98 files, every one a
+  casing change the map already asked for.

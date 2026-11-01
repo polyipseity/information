@@ -45,12 +45,12 @@ The script prompts for two inputs, then atomically creates the note file and a s
 
 #### Transformations applied to the article name
 
-| Output field           | How it is derived                                                                                                   | Example (`Fourier transform (disambiguation)`)                              |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| __Wikipedia URL name__ | Spaces → underscores (used for `<!-- Source: -->` comment).                                                         | `Fourier_transform_(disambiguation)`                                        |
-| __Title__              | Trailing parenthetical disambiguation is stripped via regex `\s\([^()]+\)$`.                                        | `Fourier transform`                                                         |
-| __Filename stem__      | `_fix_filename(title)`: `:`, `/`, and Windows-rejected characters become `_`; note, mirror, and links agree.        | `Fourier transform (disambiguation)`                                        |
-| __Tag name__           | Non-alphanumeric chars → `_` (except `–`/`—` → `-`). Falls back to `{title}_` if result is empty or purely numeric. | `Fourier_transform_(disambiguation)` → `Fourier_transform__disambiguation_` |
+| Output field           | How it is derived                                                                                                                                                                         | Example (`Fourier transform (disambiguation)`)                              |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| __Wikipedia URL name__ | Spaces → underscores (used for `<!-- Source: -->` comment).                                                                                                                               | `Fourier_transform_(disambiguation)`                                        |
+| __Title__              | Trailing parenthetical disambiguation is stripped via regex `\s\([^()]+\)$`.                                                                                                              | `Fourier transform`                                                         |
+| __Filename stem__      | `_fix_stem(title)`: `:`, `/`, and Windows-rejected characters become `_`, and the sanitiser sees the `.md` the stem will carry, so `i.i.d.` keeps its dot; note, mirror, and links agree. | `Fourier transform (disambiguation)`                                        |
+| __Tag name__           | Non-alphanumeric chars → `_` (except `–`/`—` → `-`). Falls back to `{title}_` if result is empty or purely numeric.                                                                       | `Fourier_transform_(disambiguation)` → `Fourier_transform__disambiguation_` |
 
 #### Language code resolution
 
@@ -244,16 +244,17 @@ __Hard rule — the report is the only verification, at every later phase.__ The
 | Fix only the article being ingested | `--mapping TITLE STEM` + `--article` |
 | Multiple title variants for one stem | repeat `--mapping TITLE STEM`, or use `--mapping-file` |
 | Same mapping affects links in other notes too | add `--update-links` |
+| A link names a file no filesystem can hold | add `--repair-illegal-names` |
 | Update name_map / symlinks only (no body edits) | `--mapping` or `--mapping-file` only (no `--article`) |
 | Preview before writing | `--dry-run` |
 
-`--mapping` and `--mapping-file` are mutually exclusive. At least one of `--mapping`, `--mapping-file`, or `--article` is required.
+`--mapping` and `--mapping-file` are mutually exclusive. At least one of `--mapping`, `--mapping-file`, `--article`, or `--update-links` is required.
 
 `--reprocess` updates `name_map.jsonc`, reconciles redirect symlinks as-if the mappings existed at ingestion, and rewrites markdown link targets, link fragments (section anchors), and section headers at all levels (`#`-`######`) — it does __not__ re-fetch Wikipedia HTML and is not a substitute for Step 3. Merge precedence: `effective_map = base_names_map | cli_pairs` (inline `--mapping`) or `base_names_map | file_mappings` (`--mapping-file`).
 
 Rewriting uses the same name-map resolution for headings, link targets, and link fragments, so all three stay in sync. Headings and link fragments are rewritten through their plain-text projection, which means a heading or anchor interrupted by inline markup (emphasis, backslash escapes) is still corrected while the markup is preserved — e.g. `### Phase space coordinates \(_p_, _q_\) and Hamiltonian _H_` becomes `### phase space coordinates \(_p_, _q_\) and Hamiltonian _H_`, and a link `Legendre%20transformation.md#legendre%20transformation%20on%20manifolds` becomes `...#Legendre%20transformation%20on%20manifolds`.
 
-One lookup index, built once per run from `base_names_map` and `effective_map`, serves all three. A name resolves by exact key, then by its anchor projection (`:` dropped, space → `%20`, so a mapping key `A: b` answers the anchor `#A%20b`), then by a lookup that folds the first character's case only, the one place the ingestion fallback damaged a name. An all-caps name is left alone, and anything unresolved stays byte-identical, because lowercasing an unknown anchor would corrupt it. A filename stem resolves through the stem the old map spells (`A_ b` for `A: b`, since `_fix_filename` replaces `:` with `_`), so a link written as `A%5F%20b.md` follows the mapping. A key that two titles claim differently stops the run before anything is written, since the map cannot be applied unambiguously and is never guessed at.
+One lookup index, built once per run from `base_names_map` and `effective_map`, serves all three. A name resolves by exact key, then by its anchor projection (`:` dropped, space → `%20`, so a mapping key `A: b` answers the anchor `#A%20b`), then by a lookup that folds the first character's case only, the one place the ingestion fallback damaged a name. An all-caps name is left alone, and anything unresolved stays byte-identical, because lowercasing an unknown anchor would corrupt it. A filename stem resolves through the stem the old map spells (`A_ b` for `A: b`, since `_fix_stem` replaces `:` with `_`), so a link written as `A%5F%20b.md` follows the mapping. A key that two titles claim differently stops the run before anything is written, since the map cannot be applied unambiguously and is never guessed at.
 
 | Invariant | Rule |
 | --------- | ---- |
@@ -265,6 +266,10 @@ One lookup index, built once per run from `base_names_map` and `effective_map`, 
 | Name map | A key two titles claim differently aborts before anything is written |
 
 Stem migration compares `_stem_for_title(title, base_map)` vs `_stem_for_title(title, effective_map)` for titles in the redirect cache, effective map, and listed articles. Example: mapping `"Modern physics": "modern physics"` → `"Modern physics": "Modern physics"` renames `general/eng/modern physics.md` to `Modern physics.md`, updates link targets, and removes the redirect symlink when from == to. That removal decision ignores letter case: a redirect named `bar` whose target is `Bar` names one file on a case-insensitive filesystem, so it is removed rather than written as a link to itself. A redirect stored under a different spelling is canonicalised through the base map before the migration lookup, so `Foo.md` follows the migration key `foo`.
+
+A destination neither the map nor the migrations resolve is returned byte-identical, and the one shape still rewritten is the legacy `Page#anchor.md`, whose extension sits before the anchor: re-encoding an unresolved name repoints a link the map says nothing about.
+
+`--repair-illegal-names` repairs the destinations the converter could never have written as a file, mirroring its own branches: a preserved namespace or an interwiki becomes the external URL a fresh ingestion links to, a language prefix becomes `<language dir>/<note>.md`, and an article title loses every character Windows forbids. Only the component after the last separator is a name, so `../eng/C*-algebra.md` keeps its directories and repairs that file alone. The flag stays off by default, since a destination nobody can resolve is still not the pass's to rename, and a destination inside an HTML comment or a code span is invisible to both paths and is repaired by hand.
 
 Apply order: persist map → symlink actions → file renames → markdown rewrites (sequential, not transactional). Add `--update-links` for corpus-wide link fixes; use `--mapping-file` for batch variant entries.
 
