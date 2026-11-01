@@ -99,3 +99,29 @@ garbled HTML.
   the forbidden symlink checks in a different shell.
 
 Add new lessons below as the skill evolves.
+
+---
+
+## Lessons learned (2026-11-01)
+
+- A title with `:` broke every link to it. `_encode_fragment` drops `:`,
+  so a section `A: b` is anchored `#A%20b` and never spelled its key, and
+  `_fix_filename` turns `:` into `_`, so the stem never spelled one either.
+  Both now resolve through an index built from the base and effective name
+  maps: exact key, then the anchor projection, then a case-folded lookup.
+  Encoding was deliberately left alone — the anchor form is the correct one.
+- Never let a rewrite fall back to lowercasing an unresolved name: that
+  corrupted unknown anchors (`#Hubble%27s%20law` became `#hubble's%20law`).
+  An unresolved name is now left byte-identical.
+- The scaffold created `general/eng/A: b.md` while the converter linked to
+  `A_ b.md`, so the note existed at a filename no link could reach. The
+  scaffold builds its filename, mirror, and link target from
+  `_fix_filename(title)` and keeps the raw title in the alias and heading.
+- Redirect symlinks had no cycle guard: `--reprocess` could plan a redirect
+  onto its own stem and write `A.md -> A.md`. Every creation and retarget
+  site now walks the chain that already exists from the target, comparing
+  paths case-insensitively (`os.path.normcase` is the identity on POSIX,
+  so it cannot be used), and refuses a link that would close a cycle. A
+  redirect renamed onto its own target is removed instead, and refusals
+  are counted in `symlinks_skipped` rather than raised, so one bad redirect
+  cannot abort an ingestion.

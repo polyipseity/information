@@ -34,7 +34,7 @@ The workflow alternates between agent-run and human-run steps. After each manual
 
 __Command__: `uv run -m scripts.new_wiki_page`
 
-The script prompts for two inputs, then atomically creates the note file and a symlink.
+The script prompts for two inputs, then atomically creates the note file and a symlink. The link target always carries the language directory (`eng/<stem>.md`), so the note and its mirror can never name each other.
 
 #### Inputs
 
@@ -49,6 +49,7 @@ The script prompts for two inputs, then atomically creates the note file and a s
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | __Wikipedia URL name__ | Spaces → underscores (used for `<!-- Source: -->` comment).                                                         | `Fourier_transform_(disambiguation)`                                        |
 | __Title__              | Trailing parenthetical disambiguation is stripped via regex `\s\([^()]+\)$`.                                        | `Fourier transform`                                                         |
+| __Filename stem__      | `_fix_filename(title)`: `:`, `/`, and Windows-rejected characters become `_`; note, mirror, and links agree.        | `Fourier transform (disambiguation)`                                        |
 | __Tag name__           | Non-alphanumeric chars → `_` (except `–`/`—` → `-`). Falls back to `{title}_` if result is empty or purely numeric. | `Fourier_transform_(disambiguation)` → `Fourier_transform__disambiguation_` |
 
 #### Language code resolution
@@ -252,14 +253,17 @@ __Hard rule — the report is the only verification, at every later phase.__ The
 
 Rewriting uses the same name-map resolution for headings, link targets, and link fragments, so all three stay in sync. Headings and link fragments are rewritten through their plain-text projection, which means a heading or anchor interrupted by inline markup (emphasis, backslash escapes) is still corrected while the markup is preserved — e.g. `### Phase space coordinates \(_p_, _q_\) and Hamiltonian _H_` becomes `### phase space coordinates \(_p_, _q_\) and Hamiltonian _H_`, and a link `Legendre%20transformation.md#legendre%20transformation%20on%20manifolds` becomes `...#Legendre%20transformation%20on%20manifolds`.
 
+One lookup index, built once per run from `base_names_map` and `effective_map`, serves all three. A name resolves by exact key, then by its anchor projection (`:` dropped, space → `%20`, so a mapping key `A: b` answers the anchor `#A%20b`), then by a case-folded lookup of both forms; anything unresolved is left byte-identical, because lowercasing an unknown anchor would corrupt it. A filename stem resolves through the stem the old map spells (`A_ b` for `A: b`, since `_fix_filename` replaces `:` with `_`), so a link written as `A%5F%20b.md` follows the mapping. Keys whose variants disagree are reported as `Ambiguous mapping keys:` and left untouched, never guessed.
+
 | Invariant | Rule |
 | --------- | ---- |
 | Real files | `.md` files are never deleted or overwritten by symlink operations |
-| Symlinks | Created, retargeted, or removed only when `from_stem != to_stem` |
+| Symlinks | Created, retargeted, or removed only when `from_stem != to_stem`, compared case-insensitively |
+| Cycles | A redirect that resolves to itself, directly or through other links, is refused and counted in `symlinks_skipped` |
 | Markdown | Link targets and section headers at all levels (`#`-`######`); flashcard `{@{...}@}` preserved |
 | Collisions | Rename collisions raise before any markdown rewrites |
 
-Stem migration compares `_stem_for_title(title, base_map)` vs `_stem_for_title(title, effective_map)` for titles in the redirect cache, effective map, and listed articles. Example: mapping `"Modern physics": "modern physics"` → `"Modern physics": "Modern physics"` renames `general/eng/modern physics.md` to `Modern physics.md`, updates link targets, and removes the redirect symlink when from == to.
+Stem migration compares `_stem_for_title(title, base_map)` vs `_stem_for_title(title, effective_map)` for titles in the redirect cache, effective map, and listed articles. Example: mapping `"Modern physics": "modern physics"` → `"Modern physics": "Modern physics"` renames `general/eng/modern physics.md` to `Modern physics.md`, updates link targets, and removes the redirect symlink when from == to. That removal decision ignores letter case: a redirect named `bar` whose target is `Bar` names one file on a case-insensitive filesystem, so it is removed rather than written as a link to itself.
 
 Apply order: persist map → symlink actions → file renames → markdown rewrites (sequential, not transactional). Add `--update-links` for corpus-wide link fixes; use `--mapping-file` for batch variant entries.
 
@@ -392,7 +396,9 @@ at all levels (`_rewrite_markdown_headings`, `replace_underscores=False`), to ev
 link target's stem (`_rewrite_link_target`, via stem migrations), and to every link
 fragment (`_rewrite_link_target`, `replace_underscores=True`), so capitalization
 fixes accepted in Step 5 propagate to already-ingested notes — including headings
-and anchors interrupted by inline markup.
+and anchors interrupted by inline markup. The lowercase-first-char fallback is
+__not__ part of this pass: rewriting an unknown name on a guess would corrupt it,
+so only a key the map holds is rewritten.
 
 __Critical__: `title` and `to` are independent inputs — `title` is the `<a>` tag's
 `title` attribute, `to` is `redirect_map[title].to`. Both go through the same
