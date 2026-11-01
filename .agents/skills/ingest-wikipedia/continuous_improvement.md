@@ -125,3 +125,23 @@ Add new lessons below as the skill evolves.
   redirect renamed onto its own target is removed instead, and refusals
   are counted in `symlinks_skipped` rather than raised, so one bad redirect
   cannot abort an ingestion.
+
+## Lessons learned (2026-11-01, second pass)
+
+- Case folding in the lookup index stops at the first character, the only
+  place the ingestion fallback damages a name. Folding the whole text pulled
+  intentionally all-caps names (`# KELVIN`) into the map, which is a rewrite
+  nobody asked for.
+- A name map that two titles claim differently cannot be applied
+  unambiguously, so the index build raises before anything is written. The
+  earlier shape — drop the colliding layer, report it after the run — let a
+  wrong link through and told the operator too late. A shipped map must
+  therefore keep every variant of one title pointing at the same value.
+- A redirect stored as `Foo.md` never matched the migration key `foo`, so a
+  capitalisation fix left the link under its old name. The on-disk stem goes
+  through the base map before the migration lookup.
+- Retargeting a symlink now builds the new link beside the old one and moves
+  it into place; unlinking first could leave the redirect missing. The cycle
+  walk resolves directory components, so two spellings that reach one folder
+  through a link count as the same path, and a real file that owns the name is
+  logged rather than only counted.
