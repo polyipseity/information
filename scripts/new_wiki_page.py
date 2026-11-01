@@ -16,6 +16,8 @@ from unicodedata import normalize
 import pycountry
 from asyncer import runnify
 
+from .convert_wiki.utils import _fix_filename
+
 """Exported names from this module (none: standalone script, not importable as a library)."""
 __all__ = ()
 
@@ -91,9 +93,16 @@ This text incorporates [content](https://{wikipedia_lang}.wikipedia.org/wiki/{wi
 """
 
     # --- File paths ---
-    note_path = lang_dir / f"{name}.md"
-    link_path = _REPO_ROOT / "general" / f"{name}.md"
-    link_target = f"{dir_code}/{name}.md"
+    # The converter links to the sanitised stem (``A: b`` -> ``A_ b``), so the
+    # note and its mirror must carry that stem too; the raw title stays in the
+    # alias and the heading.
+    stem = _fix_filename(name)
+    if not stem:
+        msg = f"name has no usable filename characters: {name!r}"
+        raise ValueError(msg)
+    note_path = lang_dir / f"{stem}.md"
+    link_path = _REPO_ROOT / "general" / f"{stem}.md"
+    link_target = f"{dir_code}/{stem}.md"
 
     # Pre-check: neither path must exist (file or symlink)
     if note_path.exists() or note_path.is_symlink():
@@ -120,6 +129,8 @@ This text incorporates [content](https://{wikipedia_lang}.wikipedia.org/wiki/{wi
                 with suppress(OSError):
                     p.unlink()
 
+    if stem != name:
+        print(f"Sanitised: {name!r} -> {stem!r}")
     print(f"Created: {note_path}")
     print(f"Symlink: {link_path} -> {link_target}")
 
