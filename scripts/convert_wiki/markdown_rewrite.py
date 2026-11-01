@@ -253,9 +253,14 @@ _ILLEGAL_NAME_CHARACTERS = frozenset('<>:"/\\|?*')
 
 
 def _names_a_legal_file(stem: str) -> bool:
-    """Return whether *stem* can name a file at all."""
+    """Return whether the stem's final component can name a file.
+
+    A relative path keeps its directories, so only the name after the last
+    separator is tested; ``/`` itself is a separator, not a character.
+    """
+    name = stem.rpartition("/")[2]
     return not any(
-        character in _ILLEGAL_NAME_CHARACTERS or character < " " for character in stem
+        character in _ILLEGAL_NAME_CHARACTERS or character < " " for character in name
     )
 
 
@@ -267,6 +272,12 @@ def _repair_impossible_destination(stem: str, plain_fragment: str) -> str:
     becomes its external URL, a language interwiki becomes the language
     directory's note, and anything else is the sanitised stem.
     """
+    directory, separator, name = stem.rpartition("/")
+    if separator:
+        target = f"{_encode_stem(_fix_stem(name))}.md"
+        return (
+            f"{quote(directory, safe='/')}/{target}{_markdown_fragment(plain_fragment)}"
+        )
     for prefix, url_format in _cfg._PRESERVED_PAGE_PREFIXES.items():
         if stem.startswith(prefix):
             remainder = quote(stem.removeprefix(prefix))

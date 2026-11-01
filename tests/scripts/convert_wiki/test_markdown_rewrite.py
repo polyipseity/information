@@ -793,6 +793,18 @@ class TestRepairIllegalNames:
             _rewrite_markdown_links(text, {}, names_map={}, repair_illegal=True) == text
         )
 
+    def test_repair_mode_keeps_a_relative_path_it_can_write(self) -> None:
+        text = "see [a](../fra/Charles%20Bioche.md), [b](./photon%20energy.md)"
+        assert (
+            _rewrite_markdown_links(text, {}, names_map={}, repair_illegal=True) == text
+        )
+
+    def test_repair_mode_sanitises_only_the_last_component_of_a_path(self) -> None:
+        repaired = _rewrite_markdown_links(
+            "[a](../eng/C*-algebra.md)", {}, names_map={}, repair_illegal=True
+        )
+        assert repaired == "[a](../eng/C%5F-algebra.md)"
+
     def test_repair_mode_is_off_by_default(self) -> None:
         text = "[a](C*-algebra.md)"
         assert _rewrite_markdown_links(text, {}, names_map={}) == text
