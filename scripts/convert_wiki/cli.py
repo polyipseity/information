@@ -241,8 +241,11 @@ async def _run_reprocess_maintenance(
         mappings = _pairs_to_map(mapping_pairs)
     else:
         mappings = {}
-    if not mappings and not articles:
-        msg = "at least one of --mapping, --mapping-file, or --article is required"
+    if not mappings and not articles and not update_links:
+        msg = (
+            "at least one of --mapping, --mapping-file, --article, or "
+            "--update-links is required"
+        )
         raise ValueError(msg)
     report = await reprocess_articles(
         _ReprocessRequest(
