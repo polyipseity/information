@@ -12,9 +12,11 @@ tags:
 
 ## definitions
 
-Ethics is a branch of philosophy that asks what we ought to do. Business ethics narrows this to how business decisions are made and how people are treated. Defining ethics precisely is hard — it refers to certain kinds of behaviours, but what counts as ethical shifts depending on context.
+Ethics is a branch of philosophy that asks what we ought to do. Business ethics narrows this to how business decisions are made and how people are treated. Defining it precisely is hard, because what counts as ethical behaviour shifts with context.
 
-> "The systematic study of reasoning about how we ought to act." — Peter Singer, 1994
+> "The systematic study of reasoning about how we ought to act." (Peter Singer, 1994)
+
+Peter Singer is an Australian moral philosopher and emeritus professor of bioethics at Princeton University.
 
 ---
 
@@ -22,60 +24,63 @@ Flashcards for this section are as follows:
 
 - Definition in business context ::@:: The application of ethical reasoning to how business decisions are made and how people are treated.
 - Peter Singer's definition of ethics ::@:: "The systematic study of reasoning about how we ought to act."
+- who Peter Singer is, and how he defined ethics ::@:: Peter Singer is an Australian moral philosopher and emeritus professor of bioethics at Princeton University, who defines ethics as the systematic study of reasoning about how we ought to act.
+- ethics ::@:: A branch of philosophy that asks what we ought to do.
 
 ## relationship between law and ethics
 
-Managers must evaluate not only what is legal, but what they, their employees, and society consider ethical. They must also consider which behaviours their stakeholders will tolerate and which they will not.
+A stakeholder is a party a business affects and depends on: employees, customers, suppliers, owners, and the surrounding community. Managers weigh what is legal against what they, their employees, and society consider ethical, and against what their stakeholders will tolerate.
 
-Legal compliance sets the floor, not the ceiling. A decision can be perfectly legal yet widely seen as unethical, and the damage to reputation and long-term performance can be just as severe as any legal penalty.
+Legality is the floor, not the ceiling. A decision can be legal and still read as unethical, and the cost to reputation and long-term performance can match a legal penalty.
 
 ---
 
 Flashcards for this section are as follows:
 
 - Law versus ethics ::@:: Legality sets the minimum; ethics demands more. A decision can be legal yet widely considered unethical, and the reputational cost can match legal penalties.
+- stakeholder ::@:: A party a business affects and depends on, such as employees, customers, suppliers, owners, and the surrounding community.
 
 ## stated values versus actual behaviour
 
-People overestimate their own ethicality. When L8-L12 students rated their honesty on a 1-10 scale, 75% put themselves at 7 or above. When rating classmates, the number dropped to 56%. The same pattern shows up in the wallet question: 97% say they would return a wallet with money in it, yet unethical conduct is routine in organisations.
+When L8-L12 students rated their honesty on a 1-10 scale, 75% put themselves at 7 or above. When they rated classmates instead, the figure dropped to 56%. Asked about returning a wallet with money in it, 97% say they would, yet unethical conduct is routine in organisations.
 
-This gap is the course's starting point. People are not inherently good or bad — the environment and the incentives they face shape how they act. That is encouraging, because changing the environment is easier than changing human nature. For future leaders, recognising the gap is the first move toward building workplaces where ethical behaviour is the default, not the exception.
-
-The course itself is discussion-based. Students work through problematic scenarios, watch how they and others respond, and build perspective through observation and reflection — not by memorising frameworks.
+People are not inherently good or bad. The environment and the incentives they face shape how they act, and changing the environment is easier than changing human nature.
 
 ---
 
 Flashcards for this section are as follows:
 
-- Self-serving bias in honesty ::@:: 75% of students rated their own honesty at 7+ out of 10, but only 56% gave classmates the same rating — people overestimate their own ethicality relative to others.
+- Self-serving bias in honesty ::@:: 75% of students rated their own honesty at 7+ out of 10, but only 56% gave classmates the same rating. People overestimate their own ethicality relative to others.
 - Stated values versus actual behaviour ::@:: 97% of students claimed they would return a wallet with money in it, yet unethical conduct is routine in organisations. What people say they would do and what they actually do diverge.
 - Environment over character ::@:: People are not inherently good or bad; the environment and incentives they face shape how they act. Changing the environment is easier than changing human nature.
 
 ## sources of ethical reasoning
 
-Students' ethical frameworks are shaped mainly by external forces. Family (44%) and society (35%) are the dominant sources, far ahead of religion (17%), personal reasoning (4%), and peer influence (1%). A strong majority (88%) believe ethics can exist without religion. The course takes these assumptions as its starting point — and then challenges them by introducing systematic ethical frameworks that demand more than intuition.
+External forces shape how most students reason about ethics: family (44%) and society (35%) lead religion (17%), personal reasoning (4%), and peers (1%). 88% believe ethics can exist without religion.
 
 ---
 
 Flashcards for this section are as follows:
 
 - Sources of ethical reasoning ::@:: Family (44%) and society (35%) are the dominant sources of ethics; religion (17%), personal reasoning (4%), and peers (1%) trail.
-- Ethics without religion ::@:: 88% of students believe ethics can exist without religion or spirituality — a secular assumption the course takes as its starting point.
+- Ethics without religion ::@:: 88% of students believe ethics can exist without religion or spirituality.
 
 ## ethical frameworks as lenses
 
-The course introduces six ethical perspectives: duty, utilitarian, virtue, caring, egoism, and justice. They are not competing answers but different lenses on the same dilemma. The ethical leadership style questionnaire shows that people have measurable preferences for certain perspectives, but no single one is best. Categories overlap, and all have merit.
+Six perspectives frame the same dilemma: duty, utilitarian, virtue, caring, egoism, and justice. They are lenses rather than competing answers, and they overlap. The ethical leadership style questionnaire measures how far a person prefers each, and no single one is best.
 
-Each perspective has a distinct focus:
+- Duty: follow rules, meet responsibilities, fulfill obligations.
+- Utilitarian: do what benefits the most people, maximising overall happiness.
+- Virtue: act from character, faithful to your own principles of goodness.
+- Caring: prioritise relationships and give special consideration to those with whom you share a personal bond.
+- Egoism: do what benefits you and assert your own interests and goals.
+- Justice: treat others fairly and distribute benefits and burdens equitably.
 
-- __Duty__: follow rules, meet responsibilities, fulfill obligations. Do what you are supposed to do.
-- __Utilitarian__: do what benefits the most people. Maximise overall happiness.
-- __Virtue__: act from character. Be faithful to your own principles of goodness.
-- __Caring__: prioritise relationships. Give special consideration to those with whom you share a personal bond.
-- __Egoism__: do what benefits you. Assert your own interests and goals.
-- __Justice__: treat others fairly. Distribute benefits and burdens equitably.
+An ethical dilemma is a situation in which every available course of action violates some ethical consideration. The choice then lies between competing goods or harms rather than between a right option and a wrong one.
 
-The self-driving car trolley problem makes this concrete. A car at 130 km/h must choose: injure two pedestrians, injure the driver and passengers, or injure one child. Each framework produces a different answer. The exercise is not about finding the right answer — it is about understanding how the lens you choose shapes the reasoning, and learning to shift between lenses when a single perspective is not enough.
+The trolley problem is a thought experiment in which a runaway trolley will kill several people unless the agent intervenes. In Peter Singer's footbridge version, five people cannot leave the track and pushing a large stranger in front of the trolley kills one to save five. In the self-driving car version, a car at 130 km/h must choose between injuring two pedestrians, its driver and passengers, or one child.
+
+Each framework answers differently. The point is to see how the chosen lens shapes the reasoning, and to switch lenses when one is not enough.
 
 ---
 
@@ -90,3 +95,6 @@ Flashcards for this section are as follows:
 - Caring ethics ::@:: Focus on relationships. Prioritise those with whom you share personal bonds.
 - Egoism ethics ::@:: Focus on self-interest. Assert your own goals.
 - Justice ethics ::@:: Focus on fairness. Distribute benefits and burdens equitably.
+- an ethical dilemma ::@:: A situation in which every available course of action violates some ethical consideration, so the choice lies between competing goods or harms rather than between a right option and a wrong one.
+- the trolley problem ::@:: A thought experiment in which a runaway trolley will kill several people unless the agent intervenes.
+- the ethical leadership style questionnaire ::@:: An instrument that measures how far a person prefers each of the six ethical perspectives. Preferences differ, and no single perspective is best.

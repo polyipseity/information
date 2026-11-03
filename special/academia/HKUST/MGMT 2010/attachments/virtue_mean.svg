@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="350" viewBox="0 0 900 350">
+  <rect width="900" height="350" fill="#ffffff"/>
+  <rect x="90.0" y="110.0" width="240.0" height="96.0" fill="#b4453f"/>
+  <text x="210.0" y="148.0" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="19" fill="#ffffff">Vice of deficiency</text>
+  <text x="210.0" y="182.0" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="24" fill="#ffffff">Cowardice</text>
+  <text x="210.0" y="86.0" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a">too little</text>
+  <rect x="330.0" y="110.0" width="240.0" height="96.0" fill="#1f6fb2"/>
+  <text x="450.0" y="148.0" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="19" fill="#ffffff">Virtue, the mean</text>
+  <text x="450.0" y="182.0" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="24" fill="#ffffff">Courage</text>
+  <text x="450.0" y="86.0" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a">the balance</text>
+  <rect x="570.0" y="110.0" width="240.0" height="96.0" fill="#b4453f"/>
+  <text x="690.0" y="148.0" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="19" fill="#ffffff">Vice of excess</text>
+  <text x="690.0" y="182.0" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="24" fill="#ffffff">Recklessness</text>
+  <text x="690.0" y="86.0" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a">too much</text>
+  <text x="450.0" y="262.0" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="17" fill="#1a1a1a">Facing danger for the right reason and in the right circumstances sits between failing to face it and ignoring it.</text>
+</svg>

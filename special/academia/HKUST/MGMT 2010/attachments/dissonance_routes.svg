@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420">
+  <rect width="1000" height="420" fill="#ffffff"/>
+  <rect x="60.0" y="150.0" width="250.0" height="110.0" rx="10" fill="#b4453f"/>
+  <text x="185.0" y="196.0" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff">Dissonance</text>
+  <text x="185.0" y="228.0" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="15" fill="#ffffff">two cognitions that conflict</text>
+  <line x1="310.0" y1="205.0" x2="470.0" y2="80.0" stroke="#4a4a4a" stroke-width="2"/>
+  <rect x="470.0" y="40.0" width="470.0" height="80.0" rx="10" fill="none" stroke="#1f6fb2" stroke-width="2"/>
+  <text x="490.0" y="87.0" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="17" fill="#1a1a1a">1. reduce the importance of the conflicting cognitions</text>
+  <line x1="310.0" y1="205.0" x2="470.0" y2="190.0" stroke="#4a4a4a" stroke-width="2"/>
+  <rect x="470.0" y="150.0" width="470.0" height="80.0" rx="10" fill="none" stroke="#1f6fb2" stroke-width="2"/>
+  <text x="490.0" y="197.0" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="17" fill="#1a1a1a">2. add consonant cognitions</text>
+  <line x1="310.0" y1="205.0" x2="470.0" y2="300.0" stroke="#4a4a4a" stroke-width="2"/>
+  <rect x="470.0" y="260.0" width="470.0" height="80.0" rx="10" fill="none" stroke="#1f6fb2" stroke-width="2"/>
+  <text x="490.0" y="307.0" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="17" fill="#1a1a1a">3. change a discrepant cognition</text>
+</svg>

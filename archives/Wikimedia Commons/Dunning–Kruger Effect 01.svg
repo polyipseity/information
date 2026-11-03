@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1236 1028" version="1.1">
+    <g id="background">
+        <rect x="0" y="0" width="1236" height="1028" stroke="none" fill="#fff"/>
+    </g>
+    <g id="curve" fill="none" stroke="#070" stroke-width="5">
+        <path d="M140.809,896C150.835,585.362 172.797,303.102 200.138,303.102C217.32,303.102 222.771,436.388 239.375,564.778C254.802,684.068 279.936,799.132 331.064,799.132C395.988,799.132 516.833,671.32 618.084,556.632C692.01,472.896 775.548,385.208 846.286,347.071C921.645,306.441 1030.85,271.318 1161.69,266.718"/>
+    </g>
+    <g id="axes" fill="none" stroke="#000" stroke-width="5">
+        <path d="M134.5,150L134.5,896.5L1183,896.5"/>
+    </g>
+    <g id="arrowheads" fill="#000" stroke="none">
+        <path d="M134.5,139.5L124.966,164.5L144.034,164.5L134.5,139.5Z"/>
+        <path d="M1199.5,896.5L1174.5,886.966L1174.5,906.035L1199.5,896.5Z"/>
+    </g>
+    <!-- THIS APPEARS IN THE GERMAN VERSION OF THIS IMAGE, BUT NOT IN THE ENGLISH VERSION >
+    <g id="bracket" fill="none" stroke="#000" stroke-width="3">
+        <path d="M295.468,732.5L310.552,732.5C319.906,732.5 327.5,724.906 327.5,715.552L327.5,413.448C327.5,404.094 319.906,396.5 310.552,396.5L295.468,396.5"/>
+    </g>
+    < -->
+    <g id="text" font-family="Arial,sans-serif" font-weight="700">
+        <g id="heading" font-size="43">
+            <switch><text x="650" y="86" text-anchor="middle" id="trsvg12-ckb" systemLanguage="ckb"><tspan id="trsvg1-ckb">کاریگەری دەنینگ-کروگەر</tspan></text><text x="650" y="86" text-anchor="middle" id="trsvg12-ca" systemLanguage="ca"><tspan id="trsvg1-ca">Efecte Dunning–Kruger</tspan></text><text x="650" y="86" text-anchor="middle" id="trsvg12-ms" systemLanguage="ms"><tspan id="trsvg1-ms">Kesan Dunning–Kruger</tspan></text><text x="650" y="86" text-anchor="middle" id="trsvg12-ar" systemLanguage="ar"><tspan id="trsvg1-ar">تأثير دانينغ-كروجر</tspan></text><text x="650" y="86" text-anchor="middle" id="trsvg12"><tspan id="trsvg1">Dunning–Kruger Effect</tspan></text></switch>
+        </g>
+        <g id="axis_labels" font-size="36">
+            <switch><text x="80" y="540" text-anchor="middle" transform="rotate(-90,80,540)" id="trsvg13-ckb" systemLanguage="ckb"><tspan id="trsvg2-ckb">متمانە بەخۆبوون</tspan></text><text x="80" y="540" text-anchor="middle" transform="rotate(-90,80,540)" id="trsvg13-ca" systemLanguage="ca"><tspan id="trsvg2-ca">Confiança en un mateix</tspan></text><text x="80" y="540" text-anchor="middle" transform="rotate(-90,80,540)" id="trsvg13-ms" systemLanguage="ms"><tspan id="trsvg2-ms">Keyakinan</tspan></text><text x="80" y="540" text-anchor="middle" transform="rotate(-90,80,540)" id="trsvg13-ar" systemLanguage="ar"><tspan id="trsvg2-ar">الثقة</tspan></text><text x="80" y="540" text-anchor="middle" transform="rotate(-90,80,540)" id="trsvg13"><tspan id="trsvg2">Confidence</tspan></text></switch>
+            <switch><text x="710" y="949" text-anchor="middle" id="trsvg14-ckb" systemLanguage="ckb"><tspan id="trsvg3-ckb">توانا</tspan></text><text x="710" y="949" text-anchor="middle" id="trsvg14-ca" systemLanguage="ca"><tspan id="trsvg3-ca">Competència en la matèria</tspan></text><text x="710" y="949" text-anchor="middle" id="trsvg14-ms" systemLanguage="ms"><tspan id="trsvg3-ms">Kelayakan</tspan></text><text x="710" y="949" text-anchor="middle" id="trsvg14-ar" systemLanguage="ar"><tspan id="trsvg3-ar">الكفائة</tspan></text><text x="710" y="949" text-anchor="middle" id="trsvg14"><tspan id="trsvg3">Competence</tspan></text></switch>
+        </g>
+        <g id="annotations" font-size="28">
+            <switch><text x="154" y="278" id="trsvg15-ckb" systemLanguage="ckb"><tspan id="trsvg4-ckb">لوتکەی "کێوی گەمژەیی"</tspan></text><text x="154" y="278" id="trsvg15-ca" systemLanguage="ca"><tspan id="trsvg4-ca">Cim de l'Estupidesa</tspan></text><text x="154" y="278" id="trsvg15-ms" systemLanguage="ms"><tspan id="trsvg4-ms">Puncak "Gunung Kebodohan"</tspan></text><text x="154" y="278" id="trsvg15-ar" systemLanguage="ar"><tspan id="trsvg4-ar">قمة جبل الغباء</tspan></text><text x="154" y="278" id="trsvg15"><tspan id="trsvg4">Peak of “Mount Stupid”</tspan></text></switch>
+            <switch><text x="688" y="554" id="trsvg16-ckb" systemLanguage="ckb"><tspan id="trsvg5-ckb">هەورازی ئەقڵگرتن</tspan></text><text x="688" y="554" id="trsvg16-ca" systemLanguage="ca"><tspan id="trsvg5-ca">Collada de la Il·lustració</tspan></text><text x="688" y="554" id="trsvg16-ms" systemLanguage="ms"><tspan id="trsvg5-ms">Cerun Pencerahan</tspan></text><text x="688" y="554" id="trsvg16-ar" systemLanguage="ar"><tspan id="trsvg5-ar">منحنى التنوير</tspan></text><text x="688" y="554" id="trsvg16"><tspan id="trsvg5">Slope of Enlightenment</tspan></text></switch>
+            <switch><text x="1151" y="238" text-anchor="end" id="trsvg17-ckb" systemLanguage="ckb"><tspan id="trsvg6-ckb">پانتایی بەردەوامی</tspan></text><text x="1151" y="238" text-anchor="end" id="trsvg17-ca" systemLanguage="ca"><tspan id="trsvg6-ca">Altiplà de la Sostenibilitat</tspan></text><text x="1151" y="238" text-anchor="end" id="trsvg17-ms" systemLanguage="ms"><tspan id="trsvg6-ms">Penara Kemapanan</tspan></text><text x="1151" y="238" text-anchor="end" id="trsvg17-ar" systemLanguage="ar"><tspan id="trsvg6-ar">هضبة الاستقرار</tspan></text><text x="1151" y="238" text-anchor="end" id="trsvg17"><tspan id="trsvg6">Plateau of Sustainability</tspan></text></switch>
+            <switch><text x="366" y="837" text-anchor="middle" id="trsvg18-ckb" systemLanguage="ckb"><tspan id="trsvg7-ckb">نشێوی بێهیوایی</tspan></text><text x="366" y="837" text-anchor="middle" id="trsvg18-ca" systemLanguage="ca"><tspan id="trsvg7-ca">Vall de la Desesperació</tspan></text><text x="366" y="837" text-anchor="middle" id="trsvg18-ms" systemLanguage="ms"><tspan id="trsvg7-ms">Lembah Keputusasaan</tspan></text><text x="366" y="837" text-anchor="middle" id="trsvg18-ar" systemLanguage="ar"><tspan id="trsvg7-ar">وادي اليأس</tspan></text><text x="366" y="837" text-anchor="middle" id="trsvg18"><tspan id="trsvg7">Valley of Despair</tspan></text></switch>
+            <!-- THIS APPEARS IN THE GERMAN VERSION OF THIS IMAGE, BUT NOT IN THE ENGLISH VERSION >
+            <text x="348" y="520">Program</text>
+            <text x="348" y="550">Termination</text>
+            <text x="348" y="580">Zone</text>
+            < -->
+        </g>
+        <g id="axis_markers" font-size="28">
+            <switch><text x="134" y="948" id="trsvg19-ckb" systemLanguage="ckb"><tspan id="trsvg8-ckb">هیچ نەزانین</tspan></text><text x="134" y="948" id="trsvg19-ca" systemLanguage="ca"><tspan id="trsvg8-ca">Ignorant</tspan></text><text x="134" y="948" id="trsvg19-ms" systemLanguage="ms"><tspan id="trsvg8-ms">Tidak tahu apa-apa pun</tspan></text><text x="134" y="948" id="trsvg19-ar" systemLanguage="ar"><tspan id="trsvg8-ar">جاهل</tspan></text><text x="134" y="948" id="trsvg19"><tspan id="trsvg8">Know nothing</tspan></text></switch>
+            <switch><text x="1175" y="948" text-anchor="end" id="trsvg20-ckb" systemLanguage="ckb"><tspan id="trsvg9-ckb">عاریف</tspan></text><text x="1175" y="948" text-anchor="end" id="trsvg20-ca" systemLanguage="ca"><tspan id="trsvg9-ca">Expert</tspan></text><text x="1175" y="948" text-anchor="end" id="trsvg20-ms" systemLanguage="ms"><tspan id="trsvg9-ms">Pakar</tspan></text><text x="1175" y="948" text-anchor="end" id="trsvg20-ar" systemLanguage="ar"><tspan id="trsvg9-ar">خبير</tspan></text><text x="1175" y="948" text-anchor="end" id="trsvg20"><tspan id="trsvg9">Guru</tspan></text></switch>
+            <switch><text x="68" y="202" text-anchor="middle" id="trsvg21-ckb" systemLanguage="ckb"><tspan id="trsvg10-ckb">بەرز</tspan></text><text x="68" y="202" text-anchor="middle" id="trsvg21-ca" systemLanguage="ca"><tspan id="trsvg10-ca">Alta</tspan></text><text x="68" y="202" text-anchor="middle" id="trsvg21-ms" systemLanguage="ms"><tspan id="trsvg10-ms">Tinggi</tspan></text><text x="68" y="202" text-anchor="middle" id="trsvg21-ar" systemLanguage="ar"><tspan id="trsvg10-ar">مرتفعة</tspan></text><text x="68" y="202" text-anchor="middle" id="trsvg21"><tspan id="trsvg10">High</tspan></text></switch>
+            <switch><text x="68" y="878" text-anchor="middle" id="trsvg22-ckb" systemLanguage="ckb"><tspan id="trsvg11-ckb">نزم</tspan></text><text x="68" y="878" text-anchor="middle" id="trsvg22-ca" systemLanguage="ca"><tspan id="trsvg11-ca">Baixa</tspan></text><text x="68" y="878" text-anchor="middle" id="trsvg22-ms" systemLanguage="ms"><tspan id="trsvg11-ms">Rendah</tspan></text><text x="68" y="878" text-anchor="middle" id="trsvg22-ar" systemLanguage="ar"><tspan id="trsvg11-ar">منخفضة</tspan></text><text x="68" y="878" text-anchor="middle" id="trsvg22"><tspan id="trsvg11">Low</tspan></text></switch>
+        </g>
+    </g>
+</svg>
