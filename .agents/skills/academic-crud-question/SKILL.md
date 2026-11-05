@@ -15,7 +15,7 @@ For multi-page question sets: `questions/<name>/index.md` with child pages.
 
 A question page for non-in-class material — a take-home problem set, an iPR set — is written to the private tree: `private/special/academia/<INSTITUTION>/<COURSE>/questions/<name>.md`, with its `attachments/` mirrored beside it. In-class exercise and quiz pages stay public, while their `attachments/` still write to the private mirror. The public `questions/index.md` links a private page with the ordinary colocated path (see "Public and private trees" in `academic-ingest`).
 
-The `##` sections inside a question page group questions by concept or question type, not by the source's layout or ordering (see "Grouping: concepts, not source layout" in `academic-crud-topic-note`).
+The `##` sections inside a question page group questions by concept or question type, not by the source's layout or ordering (see "Grouping: concepts, not source layout" in `academic-crud-topic-note`). A single quiz set that arrived as one ordered sequence is the exception: it stays one section, headed `## quiz`, in the order the quiz asked its questions, with each item answered by a question block, because that order is the material and the reader met the items in it.
 
 ## CRUD operations
 

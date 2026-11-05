@@ -429,11 +429,15 @@ A section of nothing but question blocks needs no flashcard block, since each bl
 
 A working prompt that asks what someone uses, remembers, or thinks is prose, not a question: record it as a blockquote and answer it in prose with cards instead of a `- solution:` line.
 
+A quiz set is one section for the whole set, headed `## quiz`, with its items in the order the source put them. Regrouping a set by concept belongs to a page that collects items from several sources. A set reviewed in sequence is the material itself: the reader met those questions in that order, and splitting the set discards it. A `- solution:` line states the answer itself, never the option's number or letter.
+
 `academic-lint` enforces the three halves: `header_flashcard_presence` asks for the flashcard block when a section carries non-question content, `cloze_solution_outside_question` flags a cloze solution line with no question block around it, and `qa_card_inside_question` flags a card marker inside a question block.
 
-### PRS/iClicker quiz (`<type>.md`)
+### In-class quiz (`<type>.md`)
 
-Use the blockquote question format of "Question blocks" below. Applies to labs, tutorials, and lectures with in-class PRS/iClicker quizzes.
+Use the blockquote question format of "Question blocks" below. Applies to labs, tutorials, and lectures with an in-class quiz: PRS/iClicker HTML, a Kahoot or other live review game, and a Canvas quiz page for the session. The whole set is one `## quiz` section, in the source's order.
+
+A bonus-only quiz carries no submission metadata: no `<type>.yml`, no `submission.yml`, and no metadata block in the file, because nothing was submitted and nothing was graded. The bonus rule belongs to `## logistics` in the course `index.md`, and is never repeated here.
 
 ```markdown
 ---
@@ -479,14 +483,15 @@ tags:
 > ---
 >
 > - solution: <correct answer>
-> - explanation: <why this is correct>
 
 <!-- markdownlint MD028 -->
 
 > <next question>
 ```
 
-One line per choice, numbered as the source numbers it. `solution` is required; `explanation` is optional, so remove the `- explanation:` line entirely when omitted.
+The metadata block appears only when a Canvas assignment backs the quiz. A quiz with none opens on the identity bullets and the authored lead, with no second `---` block.
+
+One line per choice, in the source's order. `solution` is required and `explanation` is optional.
 
 ### Question blocks
 
@@ -503,11 +508,11 @@ A question block is a blockquote whose question is its own paragraphs, followed 
 
 The question carries no label item. A `> - question:` line adds nothing the blockquote's own paragraph does not already say, and it reads as a field of a form rather than as a question. The `> ---` line separates the answer from the question, so the answer cannot be mistaken for another part of the question. Code sits in a fence at blockquote level, `> ``` `, never indented under a list item.
 
-The answer items are `- solution:`, `- explanation:` and `- annotation:`. `solution` is required, `explanation` carries the reasoning, and `annotation` records commentary beside the answer (a common-mistake note, a second reading).
+The answer items are `- solution:`, `- explanation:` and `- annotation:`. `solution` is required and `annotation` records commentary beside the answer (a common-mistake note, a second reading). `explanation` is optional, and most questions do not need one: on a conceptual question the solution line already carries what the reader must recall, and an explanation beside it restates the solution. Add one where the answer takes intermediate steps, as a calculation or a derivation does, or where a wrong option sits close enough that the answer alone leaves the reader unsure why it fails.
 
 Every answer item carries clozes, never the question text or the choices. One cloze on a solution hides the core result, formula, or decisive step; several on an explanation hide one claim or condition each. A cloze hides at most 12 words of prose, because a longer one hides a whole sentence the reader cannot rebuild from what stays visible; math and code inside a cloze do not count toward that limit, so a formula may be hidden whole. Those lines are authored text, so each acronym, abbreviation, or personal name on them carries its full form on the same line (see "Full forms on every card" in `create-flashcards`); the quoted question is verbatim and exempt.
 
-A source that lists its choices gets them as a numbered list, one line per choice, inside the blockquote (`>     1. <choice>`). The choices are the source's, never the author's: a question whose source has no choices gets no list, and the numbers are digits, never letters. A source that states its choice inside the question stays that way, as `(Yes/No)` does.
+A source that lists its choices gets them as a numbered list, one line per choice, inside the blockquote (`> 1. <choice>`). The choices are the source's, never the author's: a question whose source has no choices gets no list, and the numbers are digits, never letters, so a source that letters its options is renumbered. A source that states its choice inside the question stays that way, as `(Yes/No)` does.
 
 The closing delimiter is `}@}`, and a cloze holding LaTeX closes its math first: `{@{content $math$}@}`. For several questions, delegate cloze creation to a subagent with `create-flashcards`.
 

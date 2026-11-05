@@ -59,6 +59,7 @@ Look up each session in the course `index.md` for reference only. Do NOT copy sc
 When multiple source types target the same directory, assign contributions:
 
 - PRS HTML → quiz content → `<type>.md`
+- Kahoot or other live review game → one `## quiz` section in `<type>.md`, items in the order they were asked, and no component YAML when the quiz earns bonus points rather than marks
 - Canvas HTML → grade metadata → `<type>.yml` (via `convert_canvas_submission`)
 - PDF prompt files → `attachments/` (only actual media/data)
 - Definitional drawings from any source → redrawn SVG in the target's `attachments/`, embedded in the note that defines the thing, and verified against the source by looking at the render (see "Definitional drawings" in `academic-ingest` and `academic-vision`)

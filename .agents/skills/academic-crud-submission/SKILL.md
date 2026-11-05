@@ -13,7 +13,7 @@ description: Create, read, update, and delete submission-bound pages (labs, tuto
 
 `<name>` is the deliverable's own name, `lab 1` or `homework 2`, and it takes no week: a submission is not a session. A deliverable spanning several sessions keeps one directory, and every session entry that meets it links that same directory. Session content that is not a submission is named after its session heading, `week N <type> K` (see "Session types: lecture, lab, tutorial" in `academic-crud-course-index`).
 
-The `##` sections inside `lab.md`/`tutorial.md`/`lecture.md` group the session's content by sub-concept, not by the source's headings; the file names themselves stay session-bound (see "Grouping: concepts, not source layout" in `academic-crud-topic-note`).
+The `##` sections inside `lab.md`/`tutorial.md`/`lecture.md` group the session's content by sub-concept, not by the source's headings; the file names themselves stay session-bound (see "Grouping: concepts, not source layout" in `academic-crud-topic-note`). A quiz set is the exception: it keeps one `## quiz` section in the order the quiz asked its questions, since that sequence is what the session reviewed (see "In-class quiz" in `academic-ingest`).
 
 ## Public and private split
 
