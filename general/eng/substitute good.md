@@ -23,7 +23,7 @@ In [microeconomics](microeconomics.md), __substitute goods__ are {@{two goods th
 >
 > Figure 1: {@{If the price of $x_{i}$ increases, then demand for $x_{j}$ increases}@} <!--SR:!2030-10-02,1699,370!2028-11-20,1142,350-->
 
-{@{Performance characteristics}@} describe {@{what the product does for the customer; a solution to customers' needs or wants}@}.<sup>[\[3\]](#^ref-3)</sup> For example, a beverage would {@{quench a customer's thirst}@}. <!--SR:!2028-10-11,1110,350!2026-11-18,537,310!2029-03-07,1224,350-->
+{@{Performance characteristics}@} describe {@{what the product does for the customer; a solution to customers' needs or wants}@}.<sup>[\[3\]](#^ref-3)</sup> For example, a beverage would {@{quench a customer's thirst}@}. <!--SR:!2028-10-11,1110,350!fsrs,2032-05-23T00:00:00.000Z,2013,2012.54684823,1,2,10,0,0,2026-11-18T00:00:00.000Z!2029-03-07,1224,350-->
 
 {@{A product's occasion for use}@} describes {@{when, where and how it is used}@}.<sup>[\[3\]](#^ref-3)</sup> For example, orange juice and soft drinks are {@{both beverages}@} but are {@{used by consumers in different occasions \(i.e. breakfast vs during the day\)}@}. <!--SR:!2029-02-17,1210,350!2028-10-22,1119,350!2028-02-18,897,330!2027-10-20,630,410-->
 

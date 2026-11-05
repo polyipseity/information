@@ -184,7 +184,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 {@{Higher‑kinded polymorphism}@} is not common {@{outside of Scala and Haskell}@}. The following snippets illustrate {@{the two main patterns used in other mainstream languages}@}. <!--SR:!fsrs,2029-03-14T00:00:00.000Z,871,871.41762991,1,2,9,0,0,2026-10-25T00:00:00.000Z!2026-12-12,256,330!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z-->
 
-{@{In _Haskell_}@} a {@{_type class_}@} is declared with {@{`class`}@}. {@{The standard monad abstraction}@} is: <!--SR:!fsrs,2029-09-07T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-11-01T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!2027-01-03,279,330!2026-11-18,247,330-->
+{@{In _Haskell_}@} a {@{_type class_}@} is declared with {@{`class`}@}. {@{The standard monad abstraction}@} is: <!--SR:!fsrs,2029-09-07T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-11-01T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!2027-01-03,279,330!fsrs,2029-11-18T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-11-18T00:00:00.000Z-->
 
 > [!example] __Haskell monad__
 >

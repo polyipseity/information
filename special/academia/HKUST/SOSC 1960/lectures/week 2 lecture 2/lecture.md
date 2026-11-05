@@ -32,8 +32,8 @@ Google Scholar came up most often, then APA PsycInfo, EBSCO, PubMed, Scopus, Pro
 
 Flashcards for this section are as follows:
 
-- AI tool offered among the answers ::@:: Perplexity. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
-- databases the class named ::@:: Google Scholar most often, then APA PsycInfo, EBSCO, PubMed, Scopus, ProQuest, JSTOR, IEEE Xplore, ScienceDirect, and arXiv. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- AI tool offered among the answers ::@:: Perplexity. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- databases the class named ::@:: Google Scholar most often, then APA PsycInfo, EBSCO, PubMed, Scopus, ProQuest, JSTOR, IEEE Xplore, ScienceDirect, and arXiv. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
 ## reading a study for a question
 
@@ -45,9 +45,9 @@ The common answer was companionship, with a sense of purpose alongside it. That 
 
 Flashcards for this section are as follows:
 
-- how a pet helps with loneliness ::@:: Companionship, with a sense of purpose alongside it. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
-- keywords the pet question reduces to ::@:: Pets, elderly, and lonely. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
-- design the study would need next ::@:: Randomized trials. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a pet helps with loneliness ::@:: Companionship, with a sense of purpose alongside it. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- keywords the pet question reduces to ::@:: Pets, elderly, and lonely. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- design the study would need next ::@:: Randomized trials. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
 ## paraphrasing a finding
 
@@ -59,4 +59,4 @@ Most rewrites used the writer's own words and named the authors. The failures we
 
 Flashcards for this section are as follows:
 
-- how a rewrite changed the claim ::@:: A wrong year, or a partner finding widened to one about everyone. <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- how a rewrite changed the claim ::@:: A wrong year, or a partner finding widened to one about everyone. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->

@@ -32,7 +32,7 @@ Python has {@{builtin support (no libraries needed) for complex numbers}@}. The 
 - segmentation ::@:: [`numpy.array_split`](https://numpy.org/doc/stable/reference/generated/numpy.array_split.html), [`numpy.diff`](https://numpy.org/doc/stable/reference/generated/numpy.diff.html), [`numpy.split`](https://numpy.org/doc/stable/reference/generated/numpy.split.html), [`numpy.where`](https://numpy.org/doc/stable/reference/generated/numpy.where.html) <!--SR:!2027-01-01,439,381!2027-01-13,449,381-->
 - signal ::@:: [`scipy.signal`](https://docs.scipy.org/doc/scipy/reference/signal.html), [`scipy.signal.get_window`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.get_window.html), [`scipy.signal.resample`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.resample.html) <!--SR:!2027-01-26,460,381!2026-12-27,435,381-->
 - spectrum ::@:: [`numpy.absolute`](https://numpy.org/doc/stable/reference/generated/numpy.absolute.html), [`numpy.angle`](https://numpy.org/doc/stable/reference/generated/numpy.angle.html) <!--SR:!2026-12-22,431,381!2026-12-01,413,381-->
-- statistics ::@:: [`numpy.std`](https://numpy.org/doc/stable/reference/generated/numpy.std.html) <!--SR:!2026-11-18,402,381!2026-11-29,412,381-->
+- statistics ::@:: [`numpy.std`](https://numpy.org/doc/stable/reference/generated/numpy.std.html) <!--SR:!fsrs,2032-01-29T00:00:00.000Z,1898,1898.39523509,1,2,10,0,0,2026-11-18T00:00:00.000Z!2026-11-29,412,381-->
 - window ::@:: [`numpy.hamming`](https://numpy.org/doc/stable/reference/generated/numpy.hamming.html), [`scipy.signal.get_window`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.get_window.html) <!--SR:!2026-12-02,414,381!2026-12-23,432,381-->
 
 ## Essentia

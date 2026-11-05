@@ -273,7 +273,7 @@ In {@{a dataflow graph}@}, a node may have {@{several inputs}@}; in code this is
 >
 > {@{The promise’s `future` field}@} is a {@{normal `Future`}@}, so it can be {@{composed with other futures in the same dataflow network}@}. <!--SR:!2026-12-13,260,330!2026-11-24,252,330!2026-12-15,262,330!2026-12-19,265,330!fsrs,2029-09-12T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-11-02T00:00:00.000Z!2027-01-24,294,330!2027-01-22,293,330-->
 
-{@{_Lenient evaluation_}@}, which evaluates {@{an expression as soon as it becomes available but only once}@}, is essentially the same idea as {@{dataflow}@}: each node {@{runs when its inputs are ready}@}. {@{`Futures`}@} provide {@{a convenient runtime for this pattern}@} without {@{explicit scheduling or graph construction}@}; {@{the Scala compiler and the execution context}@} take care of {@{wiring the edges behind the scenes}@}. <!--SR:!2026-12-11,259,330!2027-01-16,286,330!2027-01-20,291,330!2027-01-20,290,330!2026-12-01,251,330!fsrs,2029-09-27T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-05T00:00:00.000Z!2026-12-19,264,330!2026-11-18,247,330!2027-01-21,292,330-->
+{@{_Lenient evaluation_}@}, which evaluates {@{an expression as soon as it becomes available but only once}@}, is essentially the same idea as {@{dataflow}@}: each node {@{runs when its inputs are ready}@}. {@{`Futures`}@} provide {@{a convenient runtime for this pattern}@} without {@{explicit scheduling or graph construction}@}; {@{the Scala compiler and the execution context}@} take care of {@{wiring the edges behind the scenes}@}. <!--SR:!2026-12-11,259,330!2027-01-16,286,330!2027-01-20,291,330!2027-01-20,290,330!2026-12-01,251,330!fsrs,2029-09-27T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-05T00:00:00.000Z!2026-12-19,264,330!fsrs,2029-11-18T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-11-18T00:00:00.000Z!2027-01-21,292,330-->
 
 ## execution context
 
@@ -302,7 +302,7 @@ In {@{a dataflow graph}@}, a node may have {@{several inputs}@}; in code this is
 
 ## API mitigation
 
-When {@{an existing library}@} offers {@{a callback‑based asynchronous method}@}, converting it to {@{a `Future`}@} keeps {@{the original API while giving you the full power of Scala’s concurrent collections}@}. The usual pattern is to create {@{a `Promise`, hand it to the callback}@}, and expose {@{its `future` field}@}. <!--SR:!2026-12-31,274,330!2026-11-27,255,330!2026-12-22,268,330!2027-01-22,292,330!2026-11-18,247,330!2027-01-23,294,330-->
+When {@{an existing library}@} offers {@{a callback‑based asynchronous method}@}, converting it to {@{a `Future`}@} keeps {@{the original API while giving you the full power of Scala’s concurrent collections}@}. The usual pattern is to create {@{a `Promise`, hand it to the callback}@}, and expose {@{its `future` field}@}. <!--SR:!2026-12-31,274,330!2026-11-27,255,330!2026-12-22,268,330!2027-01-22,292,330!fsrs,2029-11-18T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-11-18T00:00:00.000Z!2027-01-23,294,330-->
 
 > [!example] __Lifting callbacks to Future__
 >

@@ -22,8 +22,8 @@ Vibe coding is steering an agent in natural language instead of writing the code
 
 Flashcards for this section are as follows:
 
-- what is vibe coding? ::@:: Steering an agent in natural language instead of writing the code yourself <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-23T00:00:00.000Z,12,11.6874828,1,2,2,0,0,2026-11-11T00:00:00.000Z-->
-- vibe coding: what are the three parts of the human's job? ::@:: Defining intent, structuring work, and coordinating and reviewing <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- what is vibe coding? ::@:: Steering an agent in natural language instead of writing the code yourself <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2026-11-23T00:00:00.000Z,12,11.6874828,1,2,2,0,0,2026-11-11T00:00:00.000Z-->
+- vibe coding: what are the three parts of the human's job? ::@:: Defining intent, structuring work, and coordinating and reviewing <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
 ## git as a safety net
 
@@ -33,4 +33,4 @@ Git was built for collaborating with other humans. An agent writing your code gi
 
 Flashcards for this section are as follows:
 
-- an agent writes fast and breaks things: what does that make necessary? ::@:: Commit often <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- an agent writes fast and breaks things: what does that make necessary? ::@:: Commit often <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->

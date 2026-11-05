@@ -66,7 +66,7 @@ Methods to determine the end point include:
 
 ### equivalence and end point
 
-The _equivalence point_ is {@{the theoretical completion of titration}@}. The _end point_ is {@{the actual measured change}@}. <!--SR:!2035-06-22,3449,350!2026-11-18,1011,330-->
+The _equivalence point_ is {@{the theoretical completion of titration}@}. The _end point_ is {@{the actual measured change}@}. <!--SR:!2035-06-22,3449,350!fsrs,2037-02-24T00:00:00.000Z,3751,3751.30377948,1,2,11,0,0,2026-11-18T00:00:00.000Z-->
 
 ### back titration
 

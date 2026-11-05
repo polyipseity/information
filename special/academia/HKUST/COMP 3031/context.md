@@ -207,7 +207,7 @@ Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` c
 
 Intuitively, {@{a context bound `T : U`}@} may be interpreted as {@{the type parameter `T` "satisfying" the "trait" `U`}@}. <!--SR:!2027-03-05,381,368!2027-03-30,401,368-->
 
-More generally, {@{any definition `def f[T : {U1, ..., Un}](ps) : R`}@} \({@{_deprecated_ syntax}@}: {@{`def f[T : U1 : ... : Un](ps) : R`}@}\) is expanded to {@{`def f[T](ps)(using U1[T], ..., Un[T]) : R`}@}. {@{This transformation}@} makes {@{context bounds a convenient shorthand}@} for {@{implicit parameters without altering the generated code}@}. <!--SR:!2026-11-24,294,349!fsrs,2029-10-27T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-10-04T00:00:00.000Z!2027-01-25,346,349!2026-11-18,288,349!2026-12-01,301,349!2027-03-07,382,368!2027-02-24,375,368-->
+More generally, {@{any definition `def f[T : {U1, ..., Un}](ps) : R`}@} \({@{_deprecated_ syntax}@}: {@{`def f[T : U1 : ... : Un](ps) : R`}@}\) is expanded to {@{`def f[T](ps)(using U1[T], ..., Un[T]) : R`}@}. {@{This transformation}@} makes {@{context bounds a convenient shorthand}@} for {@{implicit parameters without altering the generated code}@}. <!--SR:!2026-11-24,294,349!fsrs,2029-10-27T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-10-04T00:00:00.000Z!2027-01-25,346,349!fsrs,2030-07-13T00:00:00.000Z,1333,1332.77803171,1,2,9,0,0,2026-11-18T00:00:00.000Z!2026-12-01,301,349!2027-03-07,382,368!2027-02-24,375,368-->
 
 ## `given`
 
@@ -273,14 +273,14 @@ To refer to {@{an instance directly without using `using`}@}, you may {@{use `su
 > ```Scala
 > def summon[T](using x: T): T = x
 > ```
-<!--SR:!2027-01-22,343,349!2026-11-24,294,349!2026-11-18,288,349-->
+<!--SR:!2027-01-22,343,349!2026-11-24,294,349!fsrs,2030-07-13T00:00:00.000Z,1333,1332.77803171,1,2,9,0,0,2026-11-18T00:00:00.000Z-->
 
 ### importing `given`s
 
 There are {@{three forms of import}@} to {@{import `given`s}@}: \(annotation: 3 items: {@{by name, by type, by wildcard}@}\) <!--SR:!fsrs,2030-06-18T00:00:00.000Z,1313,1312.68438221,1,2,9,0,0,2026-11-13T00:00:00.000Z!2026-12-25,322,349!2027-01-27,348,349-->
 
 - by name ::@:: `import scala.math.Ordering.Int` <!--SR:!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2027-01-26,347,349-->
-- by type ::@:: using the `given` keyword, e.g., `import scala.math.Ordering.{given Ordering[Int]}`, `import scala.math.Ordering.{given Ordering[?]}` <!--SR:!2026-11-18,288,349!2026-12-08,308,349-->
+- by type ::@:: using the `given` keyword, e.g., `import scala.math.Ordering.{given Ordering[Int]}`, `import scala.math.Ordering.{given Ordering[?]}` <!--SR:!fsrs,2030-07-13T00:00:00.000Z,1333,1332.77803171,1,2,9,0,0,2026-11-18T00:00:00.000Z!2026-12-08,308,349-->
 - by wildcard ::@:: via a blanket wildcard, e.g. `import scala.math.given` <!--SR:!2026-11-30,300,349!2027-01-23,344,349-->
 
 Since {@{the actual names of `given` instances}@} are {@{irrelevant to resolution}@}, {@{importing by type}@} is {@{preferred}@} because it explicitly {@{states which implicit instance you intend to use}@}. <!--SR:!2026-12-22,320,349!2027-01-02,329,349!2027-01-01,328,349!2026-11-29,299,349!2026-11-19,289,349-->
@@ -323,7 +323,7 @@ When {@{a method}@} requires {@{an instance that depends on another instance}@},
 >   sort(xs)  // uses `listOrdering[List[Int]]`, then uses `Ordering.Int` inside `listOrdering`
 > ```
 >
-> {@{The compiler}@} first finds {@{`Ordering[List[Int]]`}@}, then finds {@{`Ordering[Int]`}@}, and finally {@{builds them in reverse order}@} and {@{supplies it to `sort`}@}. <!--SR:!2027-02-28,377,367!2027-03-18,391,367!2027-03-01,379,367!2027-03-04,381,367!2026-12-25,322,349!2027-01-27,348,349!2027-01-01,328,349!2026-11-18,292,349!2027-03-06,382,368-->
+> {@{The compiler}@} first finds {@{`Ordering[List[Int]]`}@}, then finds {@{`Ordering[Int]`}@}, and finally {@{builds them in reverse order}@} and {@{supplies it to `sort`}@}. <!--SR:!2027-02-28,377,367!2027-03-18,391,367!2027-03-01,379,367!2027-03-04,381,367!2026-12-25,322,349!2027-01-27,348,349!2027-01-01,328,349!fsrs,2030-07-29T00:00:00.000Z,1349,1348.82166006,1,2,9,0,0,2026-11-18T00:00:00.000Z!2027-03-06,382,368-->
 
 For {@{another example}@} of {@{recursive `given` resolution}@}, {@{pairs}@} can be {@{ordered lexicographically}@} if {@{both components are orderable}@}: <!--SR:!2026-12-20,318,349!fsrs,2030-06-14T00:00:00.000Z,1313,1312.68438221,1,2,9,0,0,2026-11-09T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2027-01-19,340,349!2026-11-27,297,349-->
 
@@ -489,7 +489,7 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!fsrs,2029-10-2
 
 {@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}. Because {@{the mechanism is built-in}@}, Haskell's {@{type-class system}@} is {@{simpler to reason about}@} than Scala's {@{more general contextual parameters}@}. <!--SR:!2027-04-02,404,371!2027-03-22,395,371!2027-04-12,413,371!2026-12-21,301,351!2027-04-10,411,371!2027-03-23,396,371-->
 
-{@{Modern systems such as Rust}@} have adopted {@{an analogous construct}@}: the language offers {@{_traits_}@}, which are {@{essentially type classes}@}. {@{A typical Rust trait}@} that {@{mirrors `Ord`}@} looks like: <!--SR:!2026-12-24,321,349!2026-11-29,299,349!fsrs,2028-08-03T00:00:00.000Z,756,756.20650093,1,2,8,0,0,2026-07-09T00:00:00.000Z!2027-01-29,350,349!2026-11-18,292,349!2027-01-22,343,349-->
+{@{Modern systems such as Rust}@} have adopted {@{an analogous construct}@}: the language offers {@{_traits_}@}, which are {@{essentially type classes}@}. {@{A typical Rust trait}@} that {@{mirrors `Ord`}@} looks like: <!--SR:!2026-12-24,321,349!2026-11-29,299,349!fsrs,2028-08-03T00:00:00.000Z,756,756.20650093,1,2,8,0,0,2026-07-09T00:00:00.000Z!2027-01-29,350,349!fsrs,2030-07-29T00:00:00.000Z,1349,1348.82166006,1,2,9,0,0,2026-11-18T00:00:00.000Z!2027-01-22,343,349-->
 
 > [!example] __type class in Rust__
 >

@@ -58,7 +58,7 @@ tags:
 > - commutative semigroup ::@:: total, associative, commutative <!--SR:!fsrs,2027-02-03T00:00:00.000Z,218,217.84152915,7.49580362,2,8,0,0,2026-06-30T00:00:00.000Z!fsrs,2027-01-09T00:00:00.000Z,108,107.91206063,9.47803521,2,8,0,0,2026-09-23T00:00:00.000Z-->
 > - associative quasigroup ::@:: total, associative, divisible <!--SR:!fsrs,2027-11-17T00:00:00.000Z,462,462.16943899,5.48972837,2,9,0,0,2026-08-12T00:00:00.000Z!fsrs,2028-06-30T00:00:00.000Z,615,614.67799599,6.98822837,2,9,0,0,2026-10-24T00:00:00.000Z-->
 > - commutative-and-associative quasigroup ::@:: total, associative, divisible, commutative <!--SR:!2027-06-26,475,250!2027-11-11,726,270-->
-> - monoid ::@:: total, associative, identity <!--SR:!2027-09-13,660,290!2026-11-18,437,270-->
+> - monoid ::@:: total, associative, identity <!--SR:!2027-09-13,660,290!fsrs,2030-10-27T00:00:00.000Z,1439,1439.48966902,2.98092302,2,10,0,0,2026-11-18T00:00:00.000Z-->
 > - commutative monoid ::@:: total, associative, identity, commutative <!--SR:!2028-02-28,774,290!2027-08-07,549,210-->
 > - group ::@:: total, associative, identity, divisible <!--SR:!2028-03-18,878,330!2027-10-10,760,330-->
 > - abelian group ::@:: total, associative, identity, divisible, commutative <!--SR:!2029-04-16,1215,350!2029-08-30,1323,350-->

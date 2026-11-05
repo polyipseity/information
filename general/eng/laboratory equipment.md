@@ -270,7 +270,7 @@ return chain.from_iterable([r.value for r in results])
 - ![stand/retort stand/ring stand/support stand](../../archives/Wikimedia%20Commons/Retort%20stand.jpg):@:[stand/retort stand/ring stand/support stand](retort%20stand.md) <!--SR:!fsrs,2035-08-17T08:41:18.983Z,3352,3352.33255074,1,2,11,0,0,2026-06-13T08:41:18.983Z-->
 - ![test tube, boiling tube](../../archives/Wikimedia%20Commons/Two%20small%20test%20tubes%20held%20in%20spring%20clamps.jpg):@:[test tube](test%20tube.md), boiling tube <!--SR:!2028-08-07,1523,350-->
 - ![test tube brush](../../archives/Wikimedia%20Commons/Test%20tube%20brushes.jpg):@:[test tube brush](test%20tube%20brush.md) <!--SR:!2027-03-12,1117,350-->
-- ![test tube holder](../../archives/Wikimedia%20Commons/Test%20Tube%20Holder2%202015.JPG):@:[test tube holder](test%20tube%20holder.md) <!--SR:!2026-11-18,954,330-->
+- ![test tube holder](../../archives/Wikimedia%20Commons/Test%20Tube%20Holder2%202015.JPG):@:[test tube holder](test%20tube%20holder.md) <!--SR:!fsrs,2036-08-22T00:00:00.000Z,3565,3565.037103,1,2,11,0,0,2026-11-18T00:00:00.000Z-->
 - ![test tube rack](../../archives/Wikimedia%20Commons/Metal%20tube%20rack-laboratory%202.jpg):@:[test tube rack](test%20tube%20rack.md) <!--SR:!2028-01-08,1353,350-->
 - ![thermometer](../../archives/Wikimedia%20Commons/Mercury%20Thermometer.jpg):@:[thermometer](thermometer.md) <!--SR:!2028-02-20,1389,350-->
 - ![tripod](../../archives/Wikimedia%20Commons/Laboratory%20tripod.jpg):@:[tripod](tripod.md) <!--SR:!2027-02-09,1096,350-->

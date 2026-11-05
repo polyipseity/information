@@ -38,7 +38,7 @@ The corollary requires {@{$f$ to be [continuous](continuous%20function.md) on th
 
 ### second part
 
-{@{The second part}@} is sometimes called {@{the _second fundamental theorem of calculus_}@}, or {@{the __Newton-Leibniz theorem__}@}. <!--SR:!2026-11-18,737,290!fsrs,2027-10-27T15:21:59.354Z,500,499.93591326,1,2,7,0,0,2026-06-14T15:21:59.354Z!fsrs,2027-11-01T15:21:34.827Z,505,504.69081264,1,2,7,0,0,2026-06-14T15:21:34.827Z-->
+{@{The second part}@} is sometimes called {@{the _second fundamental theorem of calculus_}@}, or {@{the __Newton-Leibniz theorem__}@}. <!--SR:!fsrs,2033-08-25T00:00:00.000Z,2472,2471.52118585,1.98030797,2,11,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-10-27T15:21:59.354Z,500,499.93591326,1,2,7,0,0,2026-06-14T15:21:59.354Z!fsrs,2027-11-01T15:21:34.827Z,505,504.69081264,1,2,7,0,0,2026-06-14T15:21:34.827Z-->
 
 > {@{__second fundamental theorem of calculus__}@}
 >

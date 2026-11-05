@@ -254,7 +254,7 @@ The content is in teaching order.
 - datetime: 2025-03-03T12:00:00+08:00/2025-03-03T13:20:00+08:00
 - topic: cost behavior
 - cost behavior ::@:: It describes how total cost changes when activity changes. <!--SR:!fsrs,2032-12-11T00:00:00.000Z,2238,2238.24127719,1,2,10,0,0,2026-10-26T00:00:00.000Z!2027-01-03,539,406-->
-    - cost behavior / assumptions ::@:: We assume _unit variable costs_ and _total fixed costs_ both remain _unchanged_. The range of activity for which these holds is called the _relevant range_. There can be multiple relevant ranges. <!--SR:!2026-12-28,533,406!2026-11-18,504,406-->
+    - cost behavior / assumptions ::@:: We assume _unit variable costs_ and _total fixed costs_ both remain _unchanged_. The range of activity for which these holds is called the _relevant range_. There can be multiple relevant ranges. <!--SR:!2026-12-28,533,406!fsrs,2033-03-16T00:00:00.000Z,2310,2310.06785514,1,2,10,0,0,2026-11-18T00:00:00.000Z-->
 - variable cost
     - variable cost / cost behavior ::@:: Assume we are within the _relevant range_. Total cost of this type is proportional to activity. Per unit cost of this type is constant with regards to activity. <!--SR:!2027-01-01,537,406!2027-01-04,540,406-->
 - fixed cost

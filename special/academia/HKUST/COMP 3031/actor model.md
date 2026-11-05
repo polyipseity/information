@@ -18,7 +18,7 @@ tags:
 
 - see: [general/actor model](../../../../general/actor%20model.md)
 
-{@{The __actor model__}@} replaces {@{shared‑memory concurrency}@} with {@{isolated actors that communicate only by sending messages}@}. By treating each actor as {@{a black box that owns its own state}@}, the need for {@{locks and explicit synchronization disappears}@}, simplifying {@{reasoning about concurrent programs}@} and avoiding {@{classic pitfalls such as race conditions and deadlocks}@}. <!--SR:!2026-12-28,273,330!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!2026-12-18,265,330!2026-11-18,247,330!2027-01-09,281,330!2026-11-20,248,330!fsrs,2029-10-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-09T00:00:00.000Z-->
+{@{The __actor model__}@} replaces {@{shared‑memory concurrency}@} with {@{isolated actors that communicate only by sending messages}@}. By treating each actor as {@{a black box that owns its own state}@}, the need for {@{locks and explicit synchronization disappears}@}, simplifying {@{reasoning about concurrent programs}@} and avoiding {@{classic pitfalls such as race conditions and deadlocks}@}. <!--SR:!2026-12-28,273,330!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!2026-12-18,265,330!fsrs,2029-11-18T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-11-18T00:00:00.000Z!2027-01-09,281,330!2026-11-20,248,330!fsrs,2029-10-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-09T00:00:00.000Z-->
 
 ## motivation
 
@@ -552,7 +552,7 @@ Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A cont
 >     if q.size > 3 then sender() ! Failed(job.url)
 >     else runNext(q :+ job)
 > ```
-<!--SR:!fsrs,2029-11-07T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-15T00:00:00.000Z!2026-12-30,275,330!2026-11-18,247,330!2026-11-27,255,330!fsrs,2029-11-02T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-12-05,255,330-->
+<!--SR:!fsrs,2029-11-07T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-15T00:00:00.000Z!2026-12-30,275,330!fsrs,2029-11-18T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-11-18T00:00:00.000Z!2026-11-27,255,330!fsrs,2029-11-02T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-12-05,255,330-->
 
 {@{These pieces}@} together form {@{a fully non‑blocking crawler}@} that scales with {@{the number of available cores}@} and demonstrates {@{key actor‑model idioms}@}. <!--SR:!2026-12-27,272,330!2026-11-21,249,330!2027-01-21,293,330!2026-12-31,276,330-->
 
@@ -568,6 +568,6 @@ Actors should expose only {@{immutable data to callers}@}. Inside an actor, {@{m
 
 Actors often have {@{several logical states (e.g., idle, processing)}@}. The {@{`context.become` method}@} replaces {@{the current message handler with a new one and optionally keeps the old state}@}. {@{State‑specific logic is thus kept local}@}, reducing {@{accidental interaction with unrelated behaviours}@}. <!--SR:!2026-12-10,256,330!2026-12-25,271,330!fsrs,2029-10-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-07T00:00:00.000Z!2026-12-08,257,330!fsrs,2029-10-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-07T00:00:00.000Z-->
 
-When an actor sends {@{a blocking message to another actor}@} or starts {@{a `Future`}@}, the original actor must not read {@{its own mutable fields until the callback completes}@}. Any required data should be {@{copied into the message}@} so that it remains {@{valid during the call}@}. <!--SR:!2026-12-13,261,330!2026-11-30,251,330!2027-01-15,288,330!2027-01-09,283,330!2026-11-18,246,330-->
+When an actor sends {@{a blocking message to another actor}@} or starts {@{a `Future`}@}, the original actor must not read {@{its own mutable fields until the callback completes}@}. Any required data should be {@{copied into the message}@} so that it remains {@{valid during the call}@}. <!--SR:!2026-12-13,261,330!2026-11-30,251,330!2027-01-15,288,330!2027-01-09,283,330!fsrs,2029-11-14T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-18T00:00:00.000Z-->
 
 By following {@{these guidelines}@}, {@{Scala actors}@} can form {@{robust, scalable reactive applications}@} without {@{the pitfalls of shared‑memory synchronization}@}. <!--SR:!2026-12-14,262,330!2027-01-01,274,330!fsrs,2029-11-07T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-15T00:00:00.000Z!fsrs,2028-02-21T00:00:00.000Z,562,562.03288223,1,2,8,0,0,2026-08-08T00:00:00.000Z-->

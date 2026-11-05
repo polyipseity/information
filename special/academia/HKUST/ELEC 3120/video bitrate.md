@@ -21,8 +21,8 @@ The client plays out of a buffer, which is the store of video it has already fet
 
 Flashcards for this section are as follows:
 
-- too high or too low: which side stalls playback, and what happens on the other? ::@:: Above what the network delivers, the buffer drains faster than it fills and playback stalls; below it, network capacity goes unused and the picture is worse than it needed to be <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
-- video bitrate: bits per second of what? ::@:: Playback <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- too high or too low: which side stalls playback, and what happens on the other? ::@:: Above what the network delivers, the buffer drains faster than it fills and playback stalls; below it, network capacity goes unused and the picture is worse than it needed to be <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- video bitrate: bits per second of what? ::@:: Playback <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
 ## variable bitrate encoding
 
@@ -34,5 +34,5 @@ Variable bitrate encoding gives each segment a rate of its own.
 
 Flashcards for this section are as follows:
 
-- why does one target bitrate serve an action scene badly and a sleeping scene badly? ::@:: It is an average over the whole video, so it is too low for a scene that changes every bit and too high for one that repeats the same picture <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
-- variable bitrate encoding: what does the per-segment rate achieve? ::@:: The action scene gets the bits it needs, and the sleeping scene does not spend them <!--SR:!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-11-18T00:00:00.000Z,8,8.2956,1,2,1,0,0,2026-11-10T00:00:00.000Z-->
+- why does one target bitrate serve an action scene badly and a sleeping scene badly? ::@:: It is an average over the whole video, so it is too low for a scene that changes every bit and too high for one that repeats the same picture <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- variable bitrate encoding: what does the per-segment rate achieve? ::@:: The action scene gets the bits it needs, and the sleeping scene does not spend them <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->

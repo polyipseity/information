@@ -146,7 +146,7 @@ tags:
 
 > [!tip] tips
 >
-> - [intuition](intuition.md) ::@:: Notice that for a [continuous](continuous%20function.md) $n$-th derivative that is 0 at $c$, i.e. $f^{(n)}(c)=0$, the [sign](sign%20(mathematics).md) of the two-sided or one-sided $n+1$-th derivative at $c$ $f^{(n+1)}_\pm(c)$ determines whether $f^{(n)}$ is larger or smaller than 0 to the immediate left or right of $c$. Repeat this until the [first derivative](derivative.md) $f'$ is reached to prove [extrema](maximum%20and%20minimum.md) and the [second derivative](second%20derivative.md) $f''$ is reached to prove convexities. <!--SR:!2027-09-11,927,299!2026-11-18,693,335-->
+> - [intuition](intuition.md) ::@:: Notice that for a [continuous](continuous%20function.md) $n$-th derivative that is 0 at $c$, i.e. $f^{(n)}(c)=0$, the [sign](sign%20(mathematics).md) of the two-sided or one-sided $n+1$-th derivative at $c$ $f^{(n+1)}_\pm(c)$ determines whether $f^{(n)}$ is larger or smaller than 0 to the immediate left or right of $c$. Repeat this until the [first derivative](derivative.md) $f'$ is reached to prove [extrema](maximum%20and%20minimum.md) and the [second derivative](second%20derivative.md) $f''$ is reached to prove convexities. <!--SR:!2027-09-11,927,299!fsrs,2034-05-18T00:00:00.000Z,2738,2738.13855897,1,2,10,0,0,2026-11-18T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

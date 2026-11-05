@@ -227,7 +227,7 @@ personal assistance
 
 #### revenue streams
 
-{@{The revenue streams}@} building block show {@{how the organization generates money from customers}@}. There are two main types of revenue streams: {@{transaction, one-time payment; and recurring, recurrent payment}@}. There are [many ways to generate revenue streams](#revenue%20stream%20examples). There are also two main ways to price things: {@{fixed, pricing based on static conditions; and dynamic, pricing based on market conditions}@}. <!--SR:!2028-02-28,1009,294!2030-11-07,1836,337!2026-11-18,655,317!fsrs,2027-09-19T10:17:13.016Z,462,461.77133783,1,2,7,0,0,2026-06-14T10:17:13.016Z-->
+{@{The revenue streams}@} building block show {@{how the organization generates money from customers}@}. There are two main types of revenue streams: {@{transaction, one-time payment; and recurring, recurrent payment}@}. There are [many ways to generate revenue streams](#revenue%20stream%20examples). There are also two main ways to price things: {@{fixed, pricing based on static conditions; and dynamic, pricing based on market conditions}@}. <!--SR:!2028-02-28,1009,294!2030-11-07,1836,337!fsrs,2033-08-08T00:00:00.000Z,2455,2454.74235388,1,2,10,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-09-19T10:17:13.016Z,462,461.77133783,1,2,7,0,0,2026-06-14T10:17:13.016Z-->
 
 ##### revenue stream examples
 

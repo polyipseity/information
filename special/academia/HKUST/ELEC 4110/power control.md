@@ -32,7 +32,7 @@ For {@{closed‑loop control}@} to work, {@{feedback must be timely}@}. If {@{th
 
 ## advantages and disadvantages
 
-{@{Power control}@} is {@{simple to implement}@} and {@{handles path loss and shadowing}@}. {@{Closed‑loop schemes}@} track {@{slow fading with limited feedback overhead}@}; when {@{fading is slow enough}@}, the channel reduces to {@{a fixed‑gain AWGN link}@}, simplifying {@{modem design}@}. <!--SR:!2027-01-12,279,330!2027-02-16,292,330!2026-12-05,249,330!2026-11-25,241,330!2027-02-07,283,330!2026-11-18,235,330!2026-12-12,255,330!2026-11-24,240,330-->
+{@{Power control}@} is {@{simple to implement}@} and {@{handles path loss and shadowing}@}. {@{Closed‑loop schemes}@} track {@{slow fading with limited feedback overhead}@}; when {@{fading is slow enough}@}, the channel reduces to {@{a fixed‑gain AWGN link}@}, simplifying {@{modem design}@}. <!--SR:!2027-01-12,279,330!2027-02-16,292,330!2026-12-05,249,330!2026-11-25,241,330!2027-02-07,283,330!fsrs,2029-10-02T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-18T00:00:00.000Z!2026-12-12,255,330!2026-11-24,240,330-->
 
 Power control cannot {@{track fast Rayleigh fading}@}. {@{The feedback channel}@} adds overhead, and near {@{a cell boundary}@}, {@{higher transmit power}@} worsens {@{co‑channel interference (CCI)}@}. Power control is a poor fit for {@{fast‑fading or latency‑critical links}@}. <!--SR:!2026-12-04,248,330!2026-12-09,252,330!2026-12-07,251,330!2026-12-04,248,330!2026-11-28,243,330!2027-01-02,272,330-->
 
