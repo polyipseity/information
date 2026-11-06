@@ -18,7 +18,7 @@ tags:
 
 - see: [general/actor model](../../../../general/actor%20model.md)
 
-{@{The __actor model__}@} replaces {@{shared‑memory concurrency}@} with {@{isolated actors that communicate only by sending messages}@}. By treating each actor as {@{a black box that owns its own state}@}, the need for {@{locks and explicit synchronization disappears}@}, simplifying {@{reasoning about concurrent programs}@} and avoiding {@{classic pitfalls such as race conditions and deadlocks}@}. <!--SR:!2026-12-28,273,330!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!2026-12-18,265,330!fsrs,2029-11-18T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-11-18T00:00:00.000Z!2027-01-09,281,330!2026-11-20,248,330!fsrs,2029-10-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-09T00:00:00.000Z-->
+{@{The __actor model__}@} replaces {@{shared‑memory concurrency}@} with {@{isolated actors that communicate only by sending messages}@}. By treating each actor as {@{a black box that owns its own state}@}, the need for {@{locks and explicit synchronization disappears}@}, simplifying {@{reasoning about concurrent programs}@} and avoiding {@{classic pitfalls such as race conditions and deadlocks}@}. <!--SR:!2026-12-28,273,330!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!2026-12-18,265,330!fsrs,2029-11-18T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-11-18T00:00:00.000Z!2027-01-09,281,330!fsrs,2029-11-23T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-20T00:00:00.000Z!fsrs,2029-10-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-09T00:00:00.000Z-->
 
 ## motivation
 
@@ -74,7 +74,7 @@ Consider a bank account example where {@{two concurrent deposits update a shared
 >
 > If `transfer(a,b,x)` runs {@{concurrently with `transfer(b,a,y)`}@}, each thread holds {@{one lock and waits for the other}@}, causing {@{a deadlock}@}. <!--SR:!2026-12-14,262,330!2026-12-03,253,330!2026-12-21,268,330!2026-12-10,256,330!2027-01-16,289,330!2026-11-26,254,330-->
 
-{@{An actor version of `BankAccount`}@}, `BankActor`, removes {@{the lock}@}: <!--SR:!2026-11-20,249,330!2026-12-24,270,330-->
+{@{An actor version of `BankAccount`}@}, `BankActor`, removes {@{the lock}@}: <!--SR:!fsrs,2029-11-27T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-11-20T00:00:00.000Z!2026-12-24,270,330-->
 
 > [!example] __`BankAccount` actor__
 >
@@ -136,7 +136,7 @@ Actors process {@{each message _sequentially_}@}, so {@{no explicit locks are ne
 > }
 > ```
 >
-> {@{The `count` field}@} is {@{internal to the actor}@}; {@{other actors can only influence it}@} by sending {@{the `"incr"` message}@}. <!--SR:!fsrs,2029-11-02T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-12-29,274,330!2026-11-30,251,330!2027-01-19,291,330!2026-12-18,263,330!2026-11-20,248,330!2026-12-14,262,330-->
+> {@{The `count` field}@} is {@{internal to the actor}@}; {@{other actors can only influence it}@} by sending {@{the `"incr"` message}@}. <!--SR:!fsrs,2029-11-02T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-12-29,274,330!2026-11-30,251,330!2027-01-19,291,330!2026-12-18,263,330!fsrs,2029-11-23T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-20T00:00:00.000Z!2026-12-14,262,330-->
 
 ### actor creation
 
@@ -175,7 +175,7 @@ Actors are {@{instantiated through the actor system}@}, which supplies {@{a uniq
 > }
 > ```
 >
-> {@{The `sender()` helper}@} obtains {@{the actor that sent the current message}@}, allowing {@{a two‑way interaction}@}. <!--SR:!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2029-11-22T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-19T00:00:00.000Z!2026-12-08,257,330!2026-11-26,254,330!2026-11-20,249,330!2026-11-27,255,330-->
+> {@{The `sender()` helper}@} obtains {@{the actor that sent the current message}@}, allowing {@{a two‑way interaction}@}. <!--SR:!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2029-11-22T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-19T00:00:00.000Z!2026-12-08,257,330!2026-11-26,254,330!fsrs,2029-11-27T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-11-20T00:00:00.000Z!2026-11-27,255,330-->
 
 {@{The core of communication}@} is {@{the `!` operator}@}. It queues {@{a message for the target and returns immediately}@}: <!--SR:!2026-12-15,263,330!2026-12-04,254,330!2027-01-11,282,330-->
 
@@ -255,7 +255,7 @@ Actors expose only {@{a _mailbox_ through an `ActorRef`}@}. {@{No external code}
 > case "get" => sender() ! count          // reply to the caller with `self` implicitly
 > ```
 >
-> Because {@{messages are immutable}@}, {@{no shared data is exposed}@}. <!--SR:!2026-12-23,269,330!2026-11-20,248,330!2026-12-20,267,330!2027-01-11,285,330!2027-01-13,284,330-->
+> Because {@{messages are immutable}@}, {@{no shared data is exposed}@}. <!--SR:!2026-12-23,269,330!fsrs,2028-10-23T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-11-20T00:00:00.000Z!2026-12-20,267,330!2027-01-11,285,330!2027-01-13,284,330-->
 
 {@{The encapsulation}@} guarantees that {@{two actors cannot interfere with each other’s state}@}, eliminating {@{races}@}. Actors live in {@{separate heaps}@}; they communicate only through {@{asynchronous messages}@}, so the runtime can schedule {@{them independently without global locks}@}. <!--SR:!2026-11-22,251,330!2026-12-11,257,330!fsrs,2029-10-23T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-12-08,257,330!2026-12-23,269,330!fsrs,2029-10-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-09T00:00:00.000Z-->
 
@@ -560,7 +560,7 @@ Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A cont
 
 {@{Actors}@} are conceived as {@{replaceable workers that communicate only through messages}@}. {@{The design of an actor application}@} starts by decomposing {@{the task into independent actors}@}, drawing {@{a diagram of their interactions}@} and then wiring them together with {@{simple message types}@}. Then, following {@{the principles below}@} to implement {@{the actor application}@}. <!--SR:!2026-11-26,254,330!2027-01-20,292,330!2026-12-30,275,330!2026-12-27,270,330!2027-01-18,290,330!2026-11-21,249,330!2026-12-09,258,330!fsrs,2029-11-13T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-17T00:00:00.000Z-->
 
-Actors are {@{_event‑driven_}@}: they wait for {@{a message in their mailbox}@} and then {@{process it}@}. Because {@{sending a message is an asynchronous operation}@}, the sender continues {@{immediately without blocking}@}. This pattern keeps {@{the system responsive even under heavy load}@} and aligns with {@{reactive streams principles where data flows through event pipelines}@}. <!--SR:!2026-12-26,272,330!2027-01-17,290,330!2027-01-04,279,330!2026-11-20,249,330!2027-01-02,277,330!2026-12-04,254,330!2026-12-10,259,330-->
+Actors are {@{_event‑driven_}@}: they wait for {@{a message in their mailbox}@} and then {@{process it}@}. Because {@{sending a message is an asynchronous operation}@}, the sender continues {@{immediately without blocking}@}. This pattern keeps {@{the system responsive even under heavy load}@} and aligns with {@{reactive streams principles where data flows through event pipelines}@}. <!--SR:!2026-12-26,272,330!2027-01-17,290,330!2027-01-04,279,330!fsrs,2029-11-27T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-11-20T00:00:00.000Z!2027-01-02,277,330!2026-12-04,254,330!2026-12-10,259,330-->
 
 {@{An actor’s code}@} runs on {@{a dispatcher—a thread pool that can be shared among many actors}@}. The same dispatcher often executes {@{`Future` computations as well}@}, allowing actors to {@{off‑load work without spawning extra threads}@}. {@{Choosing an appropriate dispatcher (e.g., a bounded thread pool)}@} prevents actors from exhausting {@{system resources}@}. <!--SR:!2026-12-07,256,330!2026-12-05,255,330!2027-01-24,293,330!fsrs,2029-10-30T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-15T00:00:00.000Z!fsrs,2029-10-23T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-12-21,265,330-->
 

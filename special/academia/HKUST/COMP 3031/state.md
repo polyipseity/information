@@ -75,7 +75,7 @@ tags:
 >     else throw new IllegalArgumentException("insufficient funds")
 > ```
 >
-> {@{The field `balance`}@} is mutated by {@{`deposit` and `withdraw`}@}, so {@{two calls to the same object can produce different results}@}. <!--SR:!2026-12-15,259,330!2026-12-15,259,330!2026-12-22,264,330!fsrs,2029-09-29T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-11T00:00:00.000Z!2026-11-21,244,330!2026-11-20,243,330-->
+> {@{The field `balance`}@} is mutated by {@{`deposit` and `withdraw`}@}, so {@{two calls to the same object can produce different results}@}. <!--SR:!2026-12-15,259,330!2026-12-15,259,330!2026-12-22,264,330!fsrs,2029-09-29T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-11T00:00:00.000Z!2026-11-21,244,330!fsrs,2029-11-04T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-20T00:00:00.000Z-->
 
 {@{Scala objects}@} are {@{instances of classes}@}, therefore an instance that {@{contains a mutable field is (usually; see below) stateful}@}. {@{A proxy class}@} delegating to {@{another stateful object also carries state}@}: <!--SR:!2026-11-29,251,330!2026-11-23,246,330!2026-11-30,251,330!2027-01-05,276,330!2027-01-04,275,330-->
 

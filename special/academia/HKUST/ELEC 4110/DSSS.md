@@ -38,7 +38,7 @@ tags:
 
 ### spreading in frequency domain
 
-In {@{the frequency domain}@} {@{the spreading operation}@} can be seen as {@{a convolution between the data spectrum and the PN‑code spectrum}@}. <!--SR:!fsrs,2029-10-11T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-19T00:00:00.000Z!2026-11-20,238,330!2027-04-05,341,350-->
+In {@{the frequency domain}@} {@{the spreading operation}@} can be seen as {@{a convolution between the data spectrum and the PN‑code spectrum}@}. <!--SR:!fsrs,2029-10-11T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-19T00:00:00.000Z!fsrs,2029-10-16T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-20T00:00:00.000Z!2027-04-05,341,350-->
 
 {@{The spectrum of the _spread signal_}@} {@{occupies a band $W_s$}@} much {@{wider than the original narrowband carrier}@}. {@{A non‑spread BPSK signal}@} has {@{_passband_ bandwidth $W_{\text{non-spread} } = 1/t_b$}@}, while {@{the DSSS signal}@} has {@{_passband_ bandwidth $W_{\text{spread} } \approx 1/t_c$}@}. <!--SR:!2027-01-19,287,330!2027-01-05,276,330!2027-04-03,339,350!2027-01-15,284,330!2027-01-14,283,330!2026-12-31,272,330!2027-04-09,345,350-->
 

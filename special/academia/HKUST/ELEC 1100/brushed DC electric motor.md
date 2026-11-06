@@ -175,4 +175,4 @@ Flashcards for this section are as follows:
 
 - variable resistor effect ::@:: Smaller resistor → more voltage across motor → faster. Larger resistor → slower. <!--SR:!fsrs,2027-05-14T10:11:08.994Z,334,333.77014777,1,2,7,0,0,2026-06-14T10:11:08.994Z!2027-01-25,240,330-->
 - variable resistor drawbacks ::@:: Inefficient (heat waste at low speeds), imprecise, requires mechanical adjustment. <!--SR:!fsrs,2027-04-05T11:18:49.328Z,304,304.30256839,1,2,7,0,0,2026-06-05T11:18:49.328Z!2027-01-29,244,330-->
-- PWM ::@:: Used in the course for efficient, precise, software-controllable speed control. <!--SR:!fsrs,2027-05-15T10:11:17.097Z,335,335.28290091,1,2,7,0,0,2026-06-14T10:11:17.097Z!2026-11-20,174,310-->
+- PWM ::@:: Used in the course for efficient, precise, software-controllable speed control. <!--SR:!fsrs,2027-05-15T10:11:17.097Z,335,335.28290091,1,2,7,0,0,2026-06-14T10:11:17.097Z!fsrs,2028-12-11T00:00:00.000Z,752,752.450798,1,2,8,0,0,2026-11-20T00:00:00.000Z-->

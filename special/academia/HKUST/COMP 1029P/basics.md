@@ -217,7 +217,7 @@ return chain.from_iterable([r.value for r in results])
 
 <!--/pytextgen-->
 
-In particular, {@{`and` has a higher precedence than `or`}@}. This implies {@{`True or False and False` is `True or (False and False)`}@} instead of {@{`(True or False) and False`}@}. The former \(the correct one\) is {@{`True` while the latter \(the wrong one\) is `False`}@}. <!--SR:!2026-11-20,485,396!2027-06-01,650,416!2027-05-30,648,416!2028-08-16,806,443-->
+In particular, {@{`and` has a higher precedence than `or`}@}. This implies {@{`True or False and False` is `True or (False and False)`}@} instead of {@{`(True or False) and False`}@}. The former \(the correct one\) is {@{`True` while the latter \(the wrong one\) is `False`}@}. <!--SR:!fsrs,2033-01-01T00:00:00.000Z,2234,2234.24126267,1,2,10,0,0,2026-11-20T00:00:00.000Z!2027-06-01,650,416!2027-05-30,648,416!2028-08-16,806,443-->
 
 ## variable
 

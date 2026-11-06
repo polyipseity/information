@@ -50,7 +50,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←[adiabatic process](adiabatic%20process.md): $Q = 0$ <!--SR:!2032-09-21,2474,350!2028-05-29,1265,350-->
 - [adiabatic process](adiabatic%20process.md): $Q = 0$→::@::←[isobaric process](isobaric%20process.md): $\Delta p = 0$ <!--SR:!2033-05-28,2574,330!2028-02-20,1033,310-->
-- [isobaric process](isobaric%20process.md): $\Delta p = 0$→::@::←[isochoric process](isochoric%20process.md): $\Delta V = 0$ <!--SR:!2026-11-20,818,330!2027-06-12,990,350-->
+- [isobaric process](isobaric%20process.md): $\Delta p = 0$→::@::←[isochoric process](isochoric%20process.md): $\Delta V = 0$ <!--SR:!fsrs,2035-06-01T00:00:00.000Z,3115,3115.2066882,1,2,11,0,0,2026-11-20T00:00:00.000Z!2027-06-12,990,350-->
 - [isochoric process](isochoric%20process.md): $\Delta V = 0$→::@::←[isoenthalpic process](isoenthalpic%20process.md): $\Delta H = 0$ <!--SR:!2027-07-26,946,330!2029-02-06,1243,290-->
 - [isoenthalpic process](isoenthalpic%20process.md): $\Delta H = 0$→::@::←[isentropic process](isentropic%20process.md): [reversible](reversible%20process%20(thermodynamics).md) [adiabatic process](adiabatic%20process.md) <!--SR:!fsrs,2034-11-19T00:00:00.000Z,2924,2924.14579453,1,2,11,0,0,2026-11-17T00:00:00.000Z!fsrs,2033-08-20T00:00:00.000Z,2517,2517.44015333,1,2,10,0,0,2026-09-29T00:00:00.000Z-->
 - [isentropic process](isentropic%20process.md): [reversible](reversible%20process%20(thermodynamics).md) [adiabatic process](adiabatic%20process.md)→::@::←[isothermal process](isothermal%20process.md): $\Delta T = 0$ <!--SR:!2029-12-28,1398,270!fsrs,2033-02-13T00:00:00.000Z,2311,2311.06479839,1.98030797,2,10,0,0,2026-10-17T00:00:00.000Z-->
