@@ -169,6 +169,7 @@ Preprocess each input: read it (HTML parsed for readable text, Markdown passed t
 Identify the HTML source type before extraction:
 
 - __Canvas HTML__: URL contains `canvas.ust.hk`; has assignment metadata (title, due date, points, grade). Extract via `convert_canvas_submission`.
+- __Canvas quiz HTML__: URL contains `/quizzes/`, with a `/take` page holding the test as it was sat. Neither page is the submission record. The questions and the ticked answers come from the quiz; the grade and the submit time come from that assignment's own `/assignments/<id>/submissions/<student>` page, which `convert_canvas_submission` converts into `submission.yml`.
 - __Canvas announcement__: URL contains `canvas.ust.hk` and the page type is "Topic". Has a title and body but no grade or submission metadata. Extract the title and body verbatim, dropping the platform chrome ("This topic is closed for comments") and redacting an instructor or TA name the body itself contains as `\[redacted\]`; see "Announcement preservation" in `academic-crud-course-index`.
 - __PRS/iClicker HTML__: URL contains `prsmob.ust.hk/ars/`; has question text and numbered answer choices. Extract the quiz content directly; do not run `convert_canvas_submission`. The choices are the source's, so they keep the source's numbers and are never renumbered or lettered (see "Question blocks").
 - __Generic HTML__: neither pattern. Extract readable text.
@@ -309,7 +310,7 @@ Canvas metadata stays public however sensitive the material around it looks: the
 
 __Links ignore the split.__ A link is written exactly as if its target sat in the public tree, in both directions, and no href ever contains `private/`. A public index may link a private page and a private page may link a public note with the ordinary colocated relative path. That the pair does not resolve when followed is normal and needs no correction; links within one tree keep resolving.
 
-__Private pages tag as if public.__ Aliases and flashcard tags derive from the path after `special/academia/`, so a private page carries the same `flashcard/active/special/academia/...` tag as its public twin would, and `academic-lint` checks it against that path.
+__A private page tags inactive.__ Aliases and the flashcard tag derive from the path after `special/academia/`, so a private page carries its public twin's path with `flashcard/inactive` in place of `flashcard/active`. `academic-lint` errors on a state that contradicts the tree. Publishing flips the tag back by hand, in the same edit that moves the file.
 
 The CRUD skills name the files their own hierarchy routes; this section owns the rule.
 
@@ -507,6 +508,8 @@ A question block is a blockquote whose question is its own paragraphs, followed 
 ```
 
 The question carries no label item. A `> - question:` line adds nothing the blockquote's own paragraph does not already say, and it reads as a field of a form rather than as a question. The `> ---` line separates the answer from the question, so the answer cannot be mistaken for another part of the question. Code sits in a fence at blockquote level, `> ``` `, never indented under a list item.
+
+A source that numbers its questions keeps the numeral, escaped: `> 1\. (2pt) Consider ...`, because an unescaped numeral turns the question into an ordered list item and markdownlint reads the block's numbering as a list prefix.
 
 The answer items are `- solution:`, `- explanation:` and `- annotation:`. `solution` is required and `annotation` records commentary beside the answer (a common-mistake note, a second reading). `explanation` is optional, and most questions do not need one: on a conceptual question the solution line already carries what the reader must recall, and an explanation beside it restates the solution. Add one where the answer takes intermediate steps, as a calculation or a derivation does, or where a wrong option sits close enough that the answer alone leaves the reader unsure why it fails.
 

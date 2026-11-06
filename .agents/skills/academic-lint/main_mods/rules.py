@@ -322,6 +322,34 @@ def metadata_flash_tag(ctx: ValidationContext) -> list[ValidationMessage]:
 
 
 @RULE_REGISTRY.register()
+def flashcard_tag_state(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Require an inactive flash tag under the private tree and an active one elsewhere.
+
+    Private content is not published, so its cards stay out of the review queue
+    until the file moves to the public tree, where the tag flips back.
+    """
+    errors: list[ValidationMessage] = []
+    parts = ctx.path.parts
+    private = (
+        "special" in parts
+        and parts.index("special") > 0
+        and (parts[parts.index("special") - 1] == "private")
+    )
+    wanted = "flashcard/inactive" if private else "flashcard/active"
+    rejected = "flashcard/active" if private else "flashcard/inactive"
+    tree = "private tree" if private else "public tree"
+    for tag in ctx.data.tags or []:
+        if tag.startswith(rejected):
+            errors.append(
+                ValidationMessage(
+                    "flashcard_tag_state",
+                    f"a file in the {tree} carries '{wanted}/...', not '{tag}'",
+                )
+            )
+    return errors
+
+
+@RULE_REGISTRY.register()
 def flashcard_tag_unique(ctx: ValidationContext) -> list[ValidationMessage]:
     """Enforce that at most one flashcard activation tag exists.
 
@@ -413,8 +441,8 @@ def tag_path_flash(ctx: ValidationContext) -> list[ValidationMessage]:
 
             # convert spaces, single quotes, and double quotes to underscores
             def _clean(part: str) -> str:
-                """Normalize a path segment: spaces/quotes to underscores, collapse/trim."""
-                s = re.sub(r"[ \"']+", "_", part)
+                """Normalize a path segment: spaces, quotes and `#` to underscores, collapse/trim."""
+                s = re.sub(r"[ \"'#]+", "_", part)
                 s = re.sub(r"_+", "_", s)
                 return s.strip("_")
 
@@ -4861,7 +4889,7 @@ def cloze_solution_outside_question(ctx: ValidationContext) -> list[ValidationMe
 
 @RULE_REGISTRY.register()
 def cloze_insufficient_coverage(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Warn when cloze coverage is below 80% in a paragraph."""
+    """Warn when cloze coverage is below 85% in a paragraph."""
     errors: list[ValidationMessage] = []
     if not has_flash_tag(ctx.front):
         return errors
@@ -4879,13 +4907,13 @@ def cloze_insufficient_coverage(ctx: ValidationContext) -> list[ValidationMessag
         if _BLOCKQUOTED_SOLUTION_RE.search(body[para_start:para_end]):
             continue
         coverage = _compute_cloze_coverage(para_text)
-        if coverage is not None and coverage < 0.80:
+        if coverage is not None and coverage < 0.85:
             # Find the line number for the start of this paragraph
             line_no, col_no = locate(ctx.text, body_start + para_start)
             errors.append(
                 ValidationMessage(
                     rule_id="cloze_insufficient_coverage",
-                    msg=f"cloze coverage is {coverage:.0%} in this paragraph; target is ≥80%",
+                    msg=f"cloze coverage is {coverage:.0%} in this paragraph; target is ≥85%",
                     line=line_no,
                     col=col_no,
                 )

@@ -32,6 +32,7 @@ from main_mods.rules import (
     cloze_wrong_token,
     content_sentence_too_long,
     find_math_spans,
+    flashcard_tag_state,
     flashcard_tag_unique,
     folder_link_trailing_slash,
     header_deep_nesting,
@@ -899,6 +900,40 @@ def test_tag_path_flash_private_file_uses_public_tag():
     # the same tag from the public twin also passes
     public = Path("/repo/special/academia/HKUST/TEST/questions/take-home set 1.md")
     assert not tag_path_flash(make_ctx(txt, path=public))
+
+
+def test_flashcard_tag_state_follows_the_tree():
+    """A private file tags inactive; a public file tags active."""
+
+    public = Path("/repo/special/academia/HKUST/TEST/note.md")
+    private = Path("/repo/private/special/academia/HKUST/TEST/note.md")
+    active = "---\naliases: [a]\ntags: [flashcard/active/special/academia/HKUST/TEST/note]\n---\n"
+    inactive = "---\naliases: [a]\ntags: [flashcard/inactive/special/academia/HKUST/TEST/note]\n---\n"
+
+    assert not flashcard_tag_state(make_ctx(active, path=public))
+    assert not flashcard_tag_state(make_ctx(inactive, path=private))
+
+    public_msg = flashcard_tag_state(make_ctx(inactive, path=public))
+    assert public_msg and public_msg[0].rule_id == "flashcard_tag_state"
+    assert public_msg[0].severity is Severity.ERROR
+    assert "public tree" in public_msg[0].msg
+
+    private_msg = flashcard_tag_state(make_ctx(active, path=private))
+    assert private_msg and private_msg[0].severity is Severity.ERROR
+    assert "private tree" in private_msg[0].msg
+
+    # an untagged file is metadata_flash_tag's business, not this rule's
+    assert not flashcard_tag_state(
+        make_ctx("---\naliases: [a]\ntags: [language/in/English]\n---\n", path=private)
+    )
+
+
+def test_tag_path_flash_hashes_to_underscore():
+    """A `#` in a path segment becomes an underscore, like a space."""
+
+    path = Path("/repo/special/academia/HKUST/TEST/assignments/assignment #2/index.md")
+    txt = "---\ntags: [flashcard/inactive/special/academia/HKUST/TEST/assignments/assignment_2/index]\n---\n"
+    assert not tag_path_flash(make_ctx(txt, path=path))
 
 
 def test_mirror_base_toggles_private_segment():
@@ -2310,7 +2345,7 @@ def test_cloze_wrong_token_dollar_typos():
 
 
 def test_cloze_insufficient_coverage_rule():
-    """Cloze coverage should be flagged when below 80%."""
+    """Cloze coverage should be flagged when below 85%."""
 
     # Paragraph with ~50% coverage — insufficient warning
     bad = make_ctx(
@@ -2318,7 +2353,7 @@ def test_cloze_insufficient_coverage_rule():
     )
     msgs = cloze_insufficient_coverage(bad)
     assert msgs and any(
-        "cloze coverage is" in m.msg and "target is ≥80%" in m.msg for m in msgs
+        "cloze coverage is" in m.msg and "target is ≥85%" in m.msg for m in msgs
     )
 
     # Paragraph with ~90% coverage — no warning

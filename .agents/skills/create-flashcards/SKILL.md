@@ -45,6 +45,8 @@ Paths are relative to the note (`attachments/<name>.svg`), and alt text is a pla
 
 ## Academic conventions
 
+__Private files tag inactive.__ A file under `private/` carries `flashcard/inactive/special/academia/...` for the same path its public twin would use, so its cards stay out of the review queue until it is published. Publishing flips `inactive` to `active` in the same edit that moves the file; nothing else about the tag changes.
+
 __Private quiz archives__ (the user has confirmed a checked option is correct): prefer a short `- explanation:` bullet with clozes over a bare answer-only card, unless the question is conceptual enough that the solution line already carries the recall. Cloze the decisive method, condition, contrast, or reason; do not merely hide the same final option twice. When the question or answer depends on an embedded figure, still add the cloze-rich explanation rather than treating the image as review support. If the `Solution:` line contains the image, keep at least one cloze on that line too, so the chosen option or structural descriptor is directly quizzable.
 
 __Public quiz hints__ written as `::@::`: keep the hints in the same order as the archived/private question order. To add context, put it on the left-hand prompt: option-family cues, mutated-but-equivalent givens, or the decisive spectral, timing, or topology landmarks, without copying the official choices verbatim.
@@ -74,7 +76,7 @@ This generalises the worked-example rule above, which covers calculation cards o
 
 ## When to use
 
-Invoke the skill when the user asks to "add flashcards", "cloze this", "quizify", or similar. The target file must already exist; never create new files, and never edit submodules or private content without permission. Private academic content that the `academic-ingest` routing rule sends to `private/` (non-in-class submission artifacts and question pages) is edited in place during an ingestion; other `private/` content still needs permission. Process one paragraph or logical block at a time and display the original text for confirmation. Cloze what the block exists to establish: the definitions, the relations, the numbers a reader would be asked to recall. A claim the course only passed over gets one definitional card or none, never a set built out from the encyclopedia article behind it. Numeric facts and simple assignments may be clozed as atomic units. Never cloze a connective, a transition, or a word the reader needs as a hint, and stop at the validator's bounds rather than a higher target, 80% of the paragraph's visible characters at minimum and 98% at the most. The old 92%-per-sentence target pushed the cloze boundary onto words like "therefore" and "which", which tests the reader's memory of your phrasing rather than of the subject.
+Invoke the skill when the user asks to "add flashcards", "cloze this", "quizify", or similar. The target file must already exist; never create new files, and never edit submodules or private content without permission. Private academic content that the `academic-ingest` routing rule sends to `private/` (non-in-class submission artifacts and question pages) is edited in place during an ingestion; other `private/` content still needs permission. Process one paragraph or logical block at a time and display the original text for confirmation. Cloze what the block exists to establish: the definitions, the relations, the numbers a reader would be asked to recall. A claim the course only passed over gets one definitional card or none, never a set built out from the encyclopedia article behind it. Numeric facts and simple assignments may be clozed as atomic units. Never cloze a connective, a transition, or a word the reader needs as a hint, and stop at the validator's bounds rather than a higher target, 85% of the paragraph's visible characters at minimum and 98% at the most. The old 92%-per-sentence target pushed the cloze boundary onto words like "therefore" and "which", which tests the reader's memory of your phrasing rather than of the subject.
 
 Inline comments such as `<!-- check: ignore-line[...]: equation on left -->` are rationales for validator suppressions, not editing instructions. Never split or reflow a card because a comment mentions "left" or "right": the left-hand portion always means the text before the `::@::` or `:@:` separator, and it may be long when calculations are involved.
 
@@ -103,7 +105,7 @@ Use this process for every clozing task: it yields fine-grained clozes that keep
 
 ### 1. Assume everything needs clozing
 
-Treat every clause, equation, and factual claim in the target sentence as a candidate blank. Aim for at least 80% of each solution sentence inside clozes (target around 90%); only linking words ("so", "hence", "therefore"), articles ("the", "a"), and 1-3 hint words should remain visible. In multi-step worked solutions, every intermediate equation and every conclusion must be individually clozed.
+Treat every clause, equation, and factual claim in the target sentence as a candidate blank. Aim for at least 85% of each solution sentence inside clozes (target around 90%); only linking words ("so", "hence", "therefore"), articles ("the", "a"), and 1-3 hint words should remain visible. In multi-step worked solutions, every intermediate equation and every conclusion must be individually clozed.
 
 ### 2. Split at natural boundaries
 
@@ -135,7 +137,7 @@ Do not mix prose and equation in one cloze by default. For "The voltage is $V=..
 
 ### 4. Audit coverage
 
-Estimate the cloze-to-visible ratio for each solution line, with a hard minimum of 80% of each solution sentence inside clozes and a target around 90%. Reach the target with this hierarchy:
+Estimate the cloze-to-visible ratio for each solution line, with a hard minimum of 85% of each solution sentence inside clozes and a target around 90%. Reach the target with this hierarchy:
 
 1. __Expand__ an existing cloze to absorb important visible content around it (preferred: fewest lines rewritten).
 2. __Add__ a new cloze when uncovered content is far from any existing one.
@@ -153,7 +155,7 @@ Common failures: clozing only equations while leaving prose explanations visible
 6. __Articles left outside the cloze.__ Articles (`the`, `a`, `an`) belong to the noun phrase inside the cloze, so `{@{the device}@}` recalls better than `the {@{device}@}`. The validator warns when an article immediately precedes a cloze opening. When the word before a cloze is a label rather than an article (`Graph a {@{…}@}`), put a visible verb between them (`Graph a carries {@{…}@}`) or suppress with `<!-- check: ignore-line[cloze_article_before]: label not article -->` on the line.
 7. __Copula or auxiliary verb inside the cloze.__ Linking and auxiliary verbs (`is`, `are`, `was`, `were`, `be`, `been`, `being`, `am`, `has`, `have`, `had`) carry no tested content, so they stay visible and the cloze opens on the payload: `is {@{$5\ \text{V}$}@}`, never `{@{is $5\ \text{V}$}@}`. Hiding the verb leaves the card front an unfinished sentence; the validator rule is `cloze_opens_with_linking_verb`.
 8. __Wrong cloze tokens.__ Cloze tokens must be exactly `{@{` and `}@}`. Common typos (`@{`, `@}`, `{@}`, reversed `}@`) are malformed, and the validator reports them.
-9. __Insufficient coverage.__ A paragraph with cloze flashcards should have at least 80% of its visible characters inside cloze bodies; the validator warns below that.
+9. __Insufficient coverage.__ A paragraph with cloze flashcards should have at least 85% of its visible characters inside cloze bodies; the validator warns below that.
 10. __Excessive coverage.__ Above 98%, almost everything is hidden and too few hint words remain; leave context words visible so the reader knows what they are recalling. The validator warns above that.
 
 ## Representative examples

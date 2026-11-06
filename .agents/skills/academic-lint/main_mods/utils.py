@@ -94,7 +94,9 @@ FRONT_RE = re.compile(r"\A\s*---\s*\r?\n(.*?)\r?\n---\s*(\r?\n|$)", re.DOTALL)
 
 # flashcard tag matcher used by metadata rules
 """Regex matching the flashcard activation tag prefix in frontmatter tags."""
-FLASH_TAG_RE = re.compile(r"flashcard/active/special/academia/", re.IGNORECASE)
+FLASH_TAG_RE = re.compile(
+    r"flashcard/(?:active|inactive)/special/academia/", re.IGNORECASE
+)
 
 # Regex for ## week N lecture|lab|tutorial number headings, used by session rules.
 """Regex matching the ``YYYY term`` prefix of a recurrent course's session headings."""
@@ -389,7 +391,10 @@ def is_topic_note(ctx: ValidationContext) -> bool:
     """
     if not is_topic_note_location(ctx.path.parts, ctx.path.name):
         return False
-    return any(tag.startswith("flashcard/active") for tag in ctx.data.tags)
+    return any(
+        tag.startswith(("flashcard/active", "flashcard/inactive"))
+        for tag in ctx.data.tags
+    )
 
 
 def is_topic_note_location(parts: Sequence[str], name: str) -> bool:

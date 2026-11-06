@@ -44,7 +44,7 @@ The validator is at `.agents/skills/academic-lint/main.py`; run `academic-lint` 
 ## Cross-cutting rules
 
 - A line opens and closes with its content. `line_leading_whitespace` and `line_trailing_whitespace` report either, and a block tag counts as part of the edge, so a space just inside `<br/>` is the same defect as one just inside the line. An edge tag is legal only as one `<br/>` breaking to a line that continues the same block; `<p>` on an edge is padding.
-- Use underscore-normalized flashcard tags: `flashcard/active/special/academia/HKUST/COMP_3031`.
+- Use underscore-normalized flashcard tags: `flashcard/active/special/academia/HKUST/COMP_3031` in the public tree, and the same path with `flashcard/inactive` for a file under `private/`. Publishing a file flips `inactive` back to `active`.
   Spaces → underscores; keep consistent with institution/course code formatting.
 - Do not put instructor or TA names or email addresses in course notes. Verbatim quoted content is the exception: a name inside it is redacted as `\[redacted\]`, while anywhere else the name is omitted (see `../skills/academic-crud-course-index/SKILL.md`).
 - Course-local `AGENTS.md` files must use heading `# <course code> agent instructions` and must not contain flashcard markup.

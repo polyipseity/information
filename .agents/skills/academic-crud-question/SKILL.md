@@ -32,7 +32,7 @@ The `##` sections inside a question page group questions by concept or question 
 aliases:
   - <INSTITUTION> <COURSE> <name>
 tags:
-  - flashcard/active/special/academia/<INSTITUTION>/<COURSE>/questions/<name>
+  - flashcard/inactive/special/academia/<INSTITUTION>/<COURSE>/questions/<name>
   - language/in/English
 ---
 

@@ -25,7 +25,7 @@ A submission's artifacts write to the private tree whether its component is in-c
 | `assignment.md` | private |
 | `index.md`, `submission.yml`, `submission.pdf.yml` | public, in place |
 
-A lab or tutorial splits the same way however many components it has: every artifact a component uploaded goes private, while `index.md`, the component YAML, and the `lab.md`/`tutorial.md`/`lecture.md` content stay public.
+A lab or tutorial splits the same way however many components it has: every artifact a component uploaded goes private, while `index.md`, the component YAML, and the `lab.md`/`tutorial.md`/`lecture.md` content stay public. The split reaches the frontmatter: a private file tags `flashcard/inactive`, its public twin `flashcard/active`.
 
 An assignment's authored content never goes into `index.md`. The index keeps the Canvas metadata block and the verbatim Canvas description; the assignment itself — the problems, the specification, the requirements — is written to `assignment.md` beside it and routes private. The index links it from `## children` as `- [assignment](assignment.md)`.
 
@@ -219,6 +219,8 @@ uv run -m scripts.special.convert_canvas_submission <<< "/path/to/Canvas HTML.ht
 
 Use `lab.yml` for labs, `tutorial.yml` for tutorials, and `lecture.yml` for lectures, overwriting the existing file when present. Assignments use `submission.yml`.
 
+A quiz-delivered assignment converts from its submission detail page, `/assignments/<id>/submissions/<student>`, not from the quiz page: the quiz holds the questions and the ticked answers, while the submission page holds the grade and the submit timestamp. Nothing was uploaded, so the entry takes the bare `- submission` label, and a paper the work left behind takes `source:` (see "Submission entry model").
+
 Redact author names in the resulting YAML:
 
 ```bash
@@ -335,7 +337,7 @@ The submission entry names the artifact uploaded to Canvas. Choose the label tha
 | `- file:` | a single uploaded file (document, PDF, archive) |
 | `- folder:` | an uploaded directory tree |
 | `- URL:` | a link was submitted instead of a file |
-| `- submission` | the submission type is not yet known (no link) |
+| `- submission` | nothing was uploaded, or the submission type is unknown; the entry carries the metadata and the grade alone |
 
 These child keys nest under the entry:
 
@@ -446,7 +448,7 @@ An assignment whose authored content exceeds the Canvas record carries it in `as
 aliases:
   - <INSTITUTION> <COURSE> <name> assignment
 tags:
-  - flashcard/active/special/academia/<INSTITUTION>/<COURSE>/assignments/<name>/assignment
+  - flashcard/inactive/special/academia/<INSTITUTION>/<COURSE>/assignments/<name>/assignment
   - language/in/English
 ---
 

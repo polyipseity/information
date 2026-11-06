@@ -35,7 +35,7 @@ With no paths, the run covers both trees: `special/academia` and `private/specia
 
 ### Private files
 
-A file under `private/special/academia` validates as if it sat at its mirrored public path: flashcard tags derive from the path after `special/academia/`, so a private page carries its public twin's tag, and a children link written in colocated form resolves against the mirrored tree (see "Public and private trees" in `academic-ingest`). A target missing from both trees still warns.
+A file under `private/special/academia` validates as if it sat at its mirrored public path: flashcard tags derive from the path after `special/academia/`, and a children link written in colocated form resolves against the mirrored tree (see "Public and private trees" in `academic-ingest`). The tag state is the exception. Private content carries `flashcard/inactive`, and `flashcard_tag_state` rejects `active` there, or `inactive` under the public tree. A target missing from both trees still warns.
 
 ## Exit codes
 
