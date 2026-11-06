@@ -156,7 +156,7 @@ Actors are {@{instantiated through the actor system}@}, which supplies {@{a uniq
 > counter ! "incr"
 > ```
 >
-> Because {@{messages are queued}@}, the sender does not {@{wait for the receiver}@}; {@{this asynchronous, non‑blocking communication}@} is one of {@{the key advantages of the actor model}@}. <!--SR:!2027-01-06,281,330!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z!2026-12-05,255,330!fsrs,2029-09-06T00:00:00.000Z,1040,1039.96344033,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-20,264,330!2026-11-19,248,330!2027-01-20,292,330!2026-11-26,254,330!2026-12-02,252,330!2026-12-31,276,330-->
+> Because {@{messages are queued}@}, the sender does not {@{wait for the receiver}@}; {@{this asynchronous, non‑blocking communication}@} is one of {@{the key advantages of the actor model}@}. <!--SR:!2027-01-06,281,330!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z!2026-12-05,255,330!fsrs,2029-09-06T00:00:00.000Z,1040,1039.96344033,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-20,264,330!fsrs,2029-11-22T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-19T00:00:00.000Z!2027-01-20,292,330!2026-11-26,254,330!2026-12-02,252,330!2026-12-31,276,330-->
 
 ### message passing
 
@@ -175,7 +175,7 @@ Actors are {@{instantiated through the actor system}@}, which supplies {@{a uniq
 > }
 > ```
 >
-> {@{The `sender()` helper}@} obtains {@{the actor that sent the current message}@}, allowing {@{a two‑way interaction}@}. <!--SR:!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!2026-11-19,248,330!2026-12-08,257,330!2026-11-26,254,330!2026-11-20,249,330!2026-11-27,255,330-->
+> {@{The `sender()` helper}@} obtains {@{the actor that sent the current message}@}, allowing {@{a two‑way interaction}@}. <!--SR:!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2029-11-22T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-19T00:00:00.000Z!2026-12-08,257,330!2026-11-26,254,330!2026-11-20,249,330!2026-11-27,255,330-->
 
 {@{The core of communication}@} is {@{the `!` operator}@}. It queues {@{a message for the target and returns immediately}@}: <!--SR:!2026-12-15,263,330!2026-12-04,254,330!2027-01-11,282,330-->
 
@@ -188,7 +188,7 @@ Actors are {@{instantiated through the actor system}@}, which supplies {@{a uniq
 > counter ! "incr"
 > ```
 >
-> {@{The sender’s address}@} is passed {@{automatically}@}, so {@{the recipient can reply}@}. <!--SR:!2027-01-19,291,330!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!2027-01-12,283,330!2027-01-22,294,330!2026-11-19,247,330!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z-->
+> {@{The sender’s address}@} is passed {@{automatically}@}, so {@{the recipient can reply}@}. <!--SR:!2027-01-19,291,330!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!2027-01-12,283,330!2027-01-22,294,330!fsrs,2029-11-19T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-11-19T00:00:00.000Z!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z-->
 
 ### actor sate
 
@@ -229,7 +229,7 @@ Actors are not {@{instantiated directly with `new`}@}. The runtime supplies {@{a
 
 When {@{an actor receives a message}@} it may: {@{send other messages}@}; {@{create or stop actors}@}; or {@{change its own behaviour with `context.become`}@}. These capabilities let an actor orchestrate {@{complex workflows without shared mutable data}@}. <!--SR:!2026-12-23,269,330!2027-01-03,278,330!2027-01-08,280,330!2027-01-03,278,330!2026-12-15,263,330-->
 
-{@{Stopping an actor}@} releases {@{its resources and removes it from the system}@}. The usual way is to call {@{`stop` on a reference}@}, often from {@{inside the actor itself via `context.stop(self)`}@}: <!--SR:!fsrs,2029-11-04T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-16T00:00:00.000Z!2026-11-27,255,330!2026-11-23,251,330!2026-11-19,247,330-->
+{@{Stopping an actor}@} releases {@{its resources and removes it from the system}@}. The usual way is to call {@{`stop` on a reference}@}, often from {@{inside the actor itself via `context.stop(self)`}@}: <!--SR:!fsrs,2029-11-04T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-16T00:00:00.000Z!2026-11-27,255,330!2026-11-23,251,330!fsrs,2029-11-19T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-11-19T00:00:00.000Z-->
 
 > [!example] __stopping an actor__
 >

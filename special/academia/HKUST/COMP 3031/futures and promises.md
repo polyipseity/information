@@ -22,7 +22,7 @@ tags:
 
 ## motivation
 
-When a function has to wait {@{for an I/O operation or a remote service}@}, {@{blocking the current thread}@} would {@{waste resources and stall other work}@}. Futures allow the calling code to {@{proceed while the computation runs in parallel}@}, improving {@{responsiveness and throughput on multi‑core machines}@}. They also make it easier to express {@{concurrent workflows without explicit thread management}@}. <!--SR:!2026-12-16,262,330!2026-11-19,248,330!2026-12-06,255,330!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z!fsrs,2029-09-27T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-05T00:00:00.000Z!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z-->
+When a function has to wait {@{for an I/O operation or a remote service}@}, {@{blocking the current thread}@} would {@{waste resources and stall other work}@}. Futures allow the calling code to {@{proceed while the computation runs in parallel}@}, improving {@{responsiveness and throughput on multi‑core machines}@}. They also make it easier to express {@{concurrent workflows without explicit thread management}@}. <!--SR:!2026-12-16,262,330!fsrs,2029-11-22T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-19T00:00:00.000Z!2026-12-06,255,330!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z!fsrs,2029-09-27T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-05T00:00:00.000Z!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z-->
 
 ### continuation-passing style
 
@@ -41,7 +41,7 @@ A common early pattern is {@{_continuation-passing style_ (CPS), or more commonl
 >   }
 > ```
 >
-> The continuation {@{`c1 => ...` is invoked}@} when {@{the coffee is ready}@}. As {@{more asynchronous steps are added}@}, the code quickly becomes {@{hard to read and reason about}@}, causing {@{_callback hell_}@}. <!--SR:!2027-01-21,291,330!2026-12-28,272,330!2026-11-24,252,330!2026-12-09,256,330!2027-01-01,276,330!2026-11-27,255,330!2026-11-26,254,330!2026-11-19,248,330-->
+> The continuation {@{`c1 => ...` is invoked}@} when {@{the coffee is ready}@}. As {@{more asynchronous steps are added}@}, the code quickly becomes {@{hard to read and reason about}@}, causing {@{_callback hell_}@}. <!--SR:!2027-01-21,291,330!2026-12-28,272,330!2026-11-24,252,330!2026-12-09,256,330!2027-01-01,276,330!2026-11-27,255,330!2026-11-26,254,330!fsrs,2028-10-22T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-11-19T00:00:00.000Z-->
 
 ### drawbacks of CPS
 
@@ -64,7 +64,7 @@ Apart from being ugly to {@{compose asynchronous steps (_callback hell_)}@}, CPS
 > makeCoffee(k); makeCoffee(k)          // race if the callbacks run on different threads
 > ```
 >
-> Because `k` is executed {@{concurrently by two invocations of `makeCoffee`}@}, {@{the shared variable `firstCoffee`}@} can be {@{updated in any order}@}. <!--SR:!2027-01-22,293,330!2026-12-18,264,330!2026-11-19,248,330!2026-12-01,251,330!2027-01-19,289,330!2027-01-01,275,330-->
+> Because `k` is executed {@{concurrently by two invocations of `makeCoffee`}@}, {@{the shared variable `firstCoffee`}@} can be {@{updated in any order}@}. <!--SR:!2027-01-22,293,330!2026-12-18,264,330!fsrs,2029-11-22T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-19T00:00:00.000Z!2026-12-01,251,330!2027-01-19,289,330!2027-01-01,275,330-->
 
 Because `k` is executed {@{concurrently by two invocations of `makeCoffee`}@}, {@{the shared variable `firstCoffee`}@} can be {@{updated in any order}@}. Without synchronization, {@{the resulting read—write pairs}@} may be {@{inconsistent or even lost}@}, illustrating why {@{CPS code that mutates external state is fragile when run asynchronously}@}. <!--SR:!2026-12-16,263,330!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z!2026-12-11,259,330!2027-01-23,293,330!2027-01-23,294,330!2027-01-13,285,330-->
 

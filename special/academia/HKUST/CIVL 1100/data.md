@@ -128,7 +128,7 @@ See [Empire State Building](../../../../general/Empire%20State%20Building.md).
 
 See [Golden Gate Bridge](../../../../general/Golden%20Gate%20Bridge.md).
 
-- image ::@:: ![Golden Gate Bridge image](../../../../archives/Wikimedia%20Commons/Golden%20Gate%20Bridge%20as%20seen%20from%20Battery%20East.jpg) <!--SR:!2035-09-18,3395,436!2026-11-19,747,416-->
+- image ::@:: ![Golden Gate Bridge image](../../../../archives/Wikimedia%20Commons/Golden%20Gate%20Bridge%20as%20seen%20from%20Battery%20East.jpg) <!--SR:!2035-09-18,3395,436!fsrs,2035-10-16T00:00:00.000Z,3253,3252.84331122,1,2,11,0,0,2026-11-19T00:00:00.000Z-->
 
 ## Great Pyramid of Giza
 

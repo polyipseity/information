@@ -13,7 +13,7 @@ tags:
 
 {@{The __Planck constant__, or __Planck's constant__}@}, denoted by {@{$h$}@}, is {@{a fundamental [physical constant](physical%20constant.md) of foundational importance in [quantum mechanics](quantum%20mechanics.md)}@}: {@{a [photon's energy](photon%20energy.md)}@} is equal to {@{its [frequency](frequency.md) multiplied by the Planck constant ($E = hf$)}@}, and {@{the [wavelength](wavelength.md) of a [matter wave](matter%20mave.md)}@} equals {@{the Planck constant divided by the associated [particle](particle.md) [momentum](momentum.md) ($\lambda = h / p$)}@}. <!--SR:!2029-03-22,1324,350!2028-04-29,1065,350!fsrs,2031-02-04T00:00:00.000Z,1610,1609.86569109,2.98092302,2,10,0,0,2026-09-08T00:00:00.000Z!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-29T00:00:00.000Z,140,140.44399864,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
 
-When {@{the Planck constant}@} is expressed in {@{[SI units](International%20System%20of%20Units.md)}@}, it has {@{the exact value $$h = 6.626\,070\,15×10^{-34}\mathrm{\ J \cdot Hz^{−1} }$$}@}. <!--SR:!2029-02-28,1307,350!2028-02-06,719,230!fsrs,2026-11-19T00:00:00.000Z,69,69.45877368,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
+When {@{the Planck constant}@} is expressed in {@{[SI units](International%20System%20of%20Units.md)}@}, it has {@{the exact value $$h = 6.626\,070\,15×10^{-34}\mathrm{\ J \cdot Hz^{−1} }$$}@}. <!--SR:!2029-02-28,1307,350!2028-02-06,719,230!fsrs,2028-01-07T00:00:00.000Z,414,413.61067618,1,2,3,0,0,2026-11-19T00:00:00.000Z-->
 
 ## references
 

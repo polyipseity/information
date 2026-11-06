@@ -250,7 +250,7 @@ The content is in teaching order.
 - [Paul Whiteman](../../../../general/Paul%20Whiteman.md) ::@:: dance band leader (led the way for future dance bands), took jazz and played it his way, orchestrated jazz (like classical musicians) <!--SR:!2028-07-30,1002,378!2031-04-14,1795,398-->
     - Paul Whiteman / works ::@:: "Rhapsody in Blue - King of Jazz" (1930) — Paul Whiteman <!--SR:!2028-08-28,1025,378!2026-11-23,525,398-->
     - Paul Whiteman / controversies ::@:: stole jazz (white people stealing jazz?), but gave credits to African American musicians; tried to hire black musicians (but not very many due to racial segregation) <!--SR:!fsrs,2033-03-10T00:00:00.000Z,2318,2318.02883016,1,2,10,0,0,2026-11-04T00:00:00.000Z!2030-05-26,1552,398-->
-    - Paul Whiteman / quotes ::@:: "I tried to make a lady out of jazz"; some say this reflected he did not truly understand jazz, e.g. its improvisational nature <!--SR:!2026-11-19,521,398!fsrs,2032-10-05T00:00:00.000Z,2202,2202.20400893,1,2,10,0,0,2026-09-25T00:00:00.000Z-->
+    - Paul Whiteman / quotes ::@:: "I tried to make a lady out of jazz"; some say this reflected he did not truly understand jazz, e.g. its improvisational nature <!--SR:!fsrs,2033-05-24T00:00:00.000Z,2378,2377.61125137,1,2,10,0,0,2026-11-19T00:00:00.000Z!fsrs,2032-10-05T00:00:00.000Z,2202,2202.20400893,1,2,10,0,0,2026-09-25T00:00:00.000Z-->
 - assignment: (none)
 
 ## week 4 lecture 2

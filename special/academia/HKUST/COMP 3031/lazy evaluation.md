@@ -51,7 +51,7 @@ In Scala {@{a _lazy list_}@} ({@{`scala.collection.immutable.LazyList`}@}, forme
 > ```
 <!--SR:!2026-12-12,311,345!2026-12-20,317,345!2027-01-12,335,345!fsrs,2030-07-01T00:00:00.000Z,1324,1323.69389251,1,2,9,0,0,2026-11-15T00:00:00.000Z-->
 
-or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters are by-value \(eager\)}@}: <!--SR:!fsrs,2029-12-17T00:00:00.000Z,1165,1164.5679841,1,2,9,0,0,2026-10-09T00:00:00.000Z!2026-11-19,291,345!2026-12-29,325,345-->
+or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters are by-value \(eager\)}@}: <!--SR:!fsrs,2029-12-17T00:00:00.000Z,1165,1164.5679841,1,2,9,0,0,2026-10-09T00:00:00.000Z!fsrs,2030-07-09T00:00:00.000Z,1328,1327.65494695,1,2,9,0,0,2026-11-19T00:00:00.000Z!2026-12-29,325,345-->
 
 > [!example] __`LazyList.apply`__
 >
@@ -241,7 +241,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 >
 > {@{Both approaches \(`nats.map`, `nats.filter`\)}@} generate {@{each multiple of 4 on demand}@}; however, {@{the `map` version}@} typically {@{produces values faster}@} because it {@{evaluates less elements and avoids the extra filtering step}@}. <!--SR:!2027-03-10,386,371!2027-04-09,410,371!2027-03-15,390,371!2027-03-14,389,371!2027-04-04,407,371!2027-03-17,391,371!2027-03-15,390,371!2027-03-22,395,371-->
 
-{@{Many standard operations}@} {@{terminate only}@} when they {@{encounter a finite amount of data}@}. Evaluating {@{`nats.size` or `nats.toList`}@} requires {@{evaluating all elements}@}, which is {@{infinite}@}, so it {@{diverges–never terminates}@}. Compare to {@{`nats.drop(1).take(10).toList`}@}, which {@{converges, i.e. terminates, and returns `List(1, 2, ..., 10)`}@}. Therefore, only {@{operations that request a finite prefix of the list}@} {@{terminate}@}. <!--SR:!2026-12-30,325,345!2026-12-02,303,345!2026-12-30,325,345!2026-12-07,307,345!2026-11-19,291,345!2026-11-19,294,330!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-30,325,345!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z!fsrs,2030-06-21T00:00:00.000Z,1316,1315.76672047,1,2,9,0,0,2026-11-13T00:00:00.000Z!2027-01-15,338,345-->
+{@{Many standard operations}@} {@{terminate only}@} when they {@{encounter a finite amount of data}@}. Evaluating {@{`nats.size` or `nats.toList`}@} requires {@{evaluating all elements}@}, which is {@{infinite}@}, so it {@{diverges–never terminates}@}. Compare to {@{`nats.drop(1).take(10).toList`}@}, which {@{converges, i.e. terminates, and returns `List(1, 2, ..., 10)`}@}. Therefore, only {@{operations that request a finite prefix of the list}@} {@{terminate}@}. <!--SR:!2026-12-30,325,345!2026-12-02,303,345!2026-12-30,325,345!2026-12-07,307,345!fsrs,2030-07-09T00:00:00.000Z,1328,1327.65494695,1,2,9,0,0,2026-11-19T00:00:00.000Z!fsrs,2030-05-17T00:00:00.000Z,1275,1274.63302429,1,2,9,0,0,2026-11-19T00:00:00.000Z!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-30,325,345!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z!fsrs,2030-06-21T00:00:00.000Z,1316,1315.76672047,1,2,9,0,0,2026-11-13T00:00:00.000Z!2027-01-15,338,345-->
 
 ### infinite sequence examples
 
@@ -402,7 +402,7 @@ In {@{many functional languages}@}, {@{laziness}@} is {@{built into the core lan
 > ```Ocaml
 > let rec alternate = 0 :: 1 :: alternate
 > ```
-<!--SR:!fsrs,2028-08-12T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-11-30,302,345!2026-11-19,294,330!fsrs,2030-02-19T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-11-01T00:00:00.000Z-->
+<!--SR:!fsrs,2028-08-12T00:00:00.000Z,695,694.99996464,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-11-30,302,345!fsrs,2030-05-17T00:00:00.000Z,1275,1274.63302429,1,2,9,0,0,2026-11-19T00:00:00.000Z!fsrs,2030-02-19T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-11-01T00:00:00.000Z-->
 
 However, to obtain {@{true laziness in OCaml}@} one must explicitly {@{wrap the deferred parts in functions}@}—known as {@{thunks}@}—using {@{the `Stream` module}@}. {@{An example of a lazy list of guesses in OCaml}@} would be: <!--SR:!2026-12-14,312,345!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z!fsrs,2030-06-26T00:00:00.000Z,1320,1319.73118852,1,2,9,0,0,2026-11-14T00:00:00.000Z!2027-01-18,340,345!2026-12-30,325,345-->
 

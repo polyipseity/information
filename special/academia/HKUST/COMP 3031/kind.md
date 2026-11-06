@@ -113,7 +113,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >     case fa :: fas =>
 >       for (a <- fa; as <- sequence(fas)) yield a :: as
 > ```
-<!--SR:!2026-12-08,258,330!2026-11-19,248,330!2026-11-25,253,330-->
+<!--SR:!2026-12-08,258,330!fsrs,2029-11-22T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-19T00:00:00.000Z!2026-11-25,253,330-->
 
 {@{Example uses of `sequence`}@} assuming {@{a `Monad[Option]` instance}@}: <!--SR:!fsrs,2029-03-10T00:00:00.000Z,868,867.73563853,1,2,9,0,0,2026-10-24T00:00:00.000Z!2026-11-24,252,330-->
 

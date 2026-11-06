@@ -16,7 +16,7 @@ tags:
 
 ## waveforms
 
-For {@{an $M$-ary PSK system}@}, {@{the transmitted waveform for symbol $m\in\{0,\dots ,M-1\}$}@} is {@{$$s_m(t)=A\,\cos \!\bigl(2\pi f_c t+\varphi_m\bigr),\qquad 0\le t<T_s \,,$$}@} where {@{$\varphi_m=\frac{2\pi m}{M}$, $f_c$ is the carrier frequency, and $T_s$ is the symbol duration}@}. Usually $f_c$ is {@{a multiple of $1 / T_s$}@}. {@{The amplitude $A=\sqrt{\dfrac{2E}{T_s} }$}@} ensures each symbol has {@{the same average energy $E$}@}. <!--SR:!2027-01-04,292,340!2027-03-18,355,365!2027-01-12,283,338!2026-11-19,253,330!2027-05-05,396,365!2027-03-03,341,358!2027-05-10,400,365-->
+For {@{an $M$-ary PSK system}@}, {@{the transmitted waveform for symbol $m\in\{0,\dots ,M-1\}$}@} is {@{$$s_m(t)=A\,\cos \!\bigl(2\pi f_c t+\varphi_m\bigr),\qquad 0\le t<T_s \,,$$}@} where {@{$\varphi_m=\frac{2\pi m}{M}$, $f_c$ is the carrier frequency, and $T_s$ is the symbol duration}@}. Usually $f_c$ is {@{a multiple of $1 / T_s$}@}. {@{The amplitude $A=\sqrt{\dfrac{2E}{T_s} }$}@} ensures each symbol has {@{the same average energy $E$}@}. <!--SR:!2027-01-04,292,340!2027-03-18,355,365!2027-01-12,283,338!fsrs,2029-12-12T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-11-19T00:00:00.000Z!2027-05-05,396,365!2027-03-03,341,358!2027-05-10,400,365-->
 
 ## constellation
 

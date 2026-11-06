@@ -88,7 +88,7 @@ tags:
 >   def deposit(amount: Int): Unit = ba.deposit(amount)
 >   def withdraw(amount: Int): Int = ba.withdraw(amount)
 > ```
-<!--SR:!2026-11-19,242,330!fsrs,2029-10-15T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-15T00:00:00.000Z-->
+<!--SR:!fsrs,2029-10-30T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-11-19T00:00:00.000Z!fsrs,2029-10-15T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-15T00:00:00.000Z-->
 
 {@{Instances of `BankAccountProxy`}@} are {@{stateful}@} because they expose {@{the mutable behaviour of the wrapped account}@}, showing that {@{statefulness is _infectious_}@}. <!--SR:!2026-12-15,259,330!2026-12-20,263,330!2026-12-25,267,330!2026-12-19,261,330-->
 

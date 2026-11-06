@@ -19,7 +19,7 @@ tags:
 
 - HKUST COMP 3031
 
-Normally in Scala, {@{values \(terms\) and types}@} infer {@{types}@}, e.g. {@{inferring type parameters}@}. Sometimes you want {@{types to infer values}@} instead, called {@{_type-directed programming_}@}. This is helpful for abstracting {@{context based on types}@}. <!--SR:!2026-12-23,320,349!2026-11-19,289,349!2026-11-24,294,349!2027-01-26,347,349!2027-01-25,346,349!2026-12-30,326,349-->
+Normally in Scala, {@{values \(terms\) and types}@} infer {@{types}@}, e.g. {@{inferring type parameters}@}. Sometimes you want {@{types to infer values}@} instead, called {@{_type-directed programming_}@}. This is helpful for abstracting {@{context based on types}@}. <!--SR:!2026-12-23,320,349!fsrs,2030-07-18T00:00:00.000Z,1337,1336.79156682,1,2,9,0,0,2026-11-19T00:00:00.000Z!2026-11-24,294,349!2027-01-26,347,349!2027-01-25,346,349!2026-12-30,326,349-->
 
 ## motivation
 
@@ -28,7 +28,7 @@ We want to write {@{code that is _modular_}@} by {@{abstracting over the "contex
 - globals ::@:: Simple to use. Rigid, hard to change per module. <!--SR:!2026-12-06,306,349!2026-12-19,317,349-->
 - mutable globals ::@:: Flexible but unsafe. Risk of interference \(e.g. race conditions\). <!--SR:!2026-12-20,318,349!2026-11-20,290,349-->
 - monkey patch ::@:: Powerful and dynamic. Can break code and debugging. <!--SR:!2027-01-28,349,349!2026-11-25,295,349-->
-- dependency injection ::@:: Encapsulates configuration. Relies on bytecode rewriting and opaque. Frameworks include Guice, Spring, etc. <!--SR:!2026-11-23,293,349!2026-11-19,293,349-->
+- dependency injection ::@:: Encapsulates configuration. Relies on bytecode rewriting and opaque. Frameworks include Guice, Spring, etc. <!--SR:!2026-11-23,293,349!fsrs,2030-08-03T00:00:00.000Z,1353,1352.82828482,1,2,9,0,0,2026-11-19T00:00:00.000Z-->
 - functional context ::@:: Normally, values and types infer types but not values, e.g. inferring type parameters. With `using`, types are used to infer values. Those values provide "context". <!--SR:!2027-01-24,345,349!fsrs,2030-06-13T00:00:00.000Z,1309,1308.66035919,1,2,9,0,0,2026-11-12T00:00:00.000Z-->
 
 ### higher-order functions
@@ -283,7 +283,7 @@ There are {@{three forms of import}@} to {@{import `given`s}@}: \(annotation: 3 
 - by type ::@:: using the `given` keyword, e.g., `import scala.math.Ordering.{given Ordering[Int]}`, `import scala.math.Ordering.{given Ordering[?]}` <!--SR:!fsrs,2030-07-13T00:00:00.000Z,1333,1332.77803171,1,2,9,0,0,2026-11-18T00:00:00.000Z!2026-12-08,308,349-->
 - by wildcard ::@:: via a blanket wildcard, e.g. `import scala.math.given` <!--SR:!2026-11-30,300,349!2027-01-23,344,349-->
 
-Since {@{the actual names of `given` instances}@} are {@{irrelevant to resolution}@}, {@{importing by type}@} is {@{preferred}@} because it explicitly {@{states which implicit instance you intend to use}@}. <!--SR:!2026-12-22,320,349!2027-01-02,329,349!2027-01-01,328,349!2026-11-29,299,349!2026-11-19,289,349-->
+Since {@{the actual names of `given` instances}@} are {@{irrelevant to resolution}@}, {@{importing by type}@} is {@{preferred}@} because it explicitly {@{states which implicit instance you intend to use}@}. <!--SR:!2026-12-22,320,349!2027-01-02,329,349!2027-01-01,328,349!2026-11-29,299,349!fsrs,2030-07-18T00:00:00.000Z,1337,1336.79156682,1,2,9,0,0,2026-11-19T00:00:00.000Z-->
 
 ### conditional `given`
 

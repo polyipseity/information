@@ -659,7 +659,7 @@ Here is a list of common IPA letters and their pronunciations:
 - \[y\]:@:[close front rounded vowel](close%20front%20rounded%20vowel.md) <!--SR:!2027-01-28,441,329-->
 - \[ʏ\]:@:[near-close near-front rounded vowel](near-close%20near-front%20rounded%20vowel.md) <!--SR:!2027-06-09,617,330-->
 - \[ɣ\]:@:[voiced velar fricative](voiced%20velar%20fricative.md) <!--SR:!fsrs,2028-05-16T00:00:00.000Z,661,660.66131274,4.02869087,2,9,0,0,2026-07-25T00:00:00.000Z-->
-- \[ɤ\]:@:[close-mid back unrounded vowel](close-mid%20back%20unrounded%20vowel.md) <!--SR:!2026-11-19,507,330-->
+- \[ɤ\]:@:[close-mid back unrounded vowel](close-mid%20back%20unrounded%20vowel.md) <!--SR:!fsrs,2030-07-12T00:00:00.000Z,1331,1330.72607459,2.49272837,2,10,0,0,2026-11-19T00:00:00.000Z-->
 - \[ʎ\]:@:[voiced palatal lateral approximant](voiced%20palatal%20lateral%20approximant.md) <!--SR:!2027-05-25,566,290-->
 - \[ɥ\]:@:[voiced labial–palatal approximant](voiced%20labial–palatal%20approximant.md) <!--SR:!fsrs,2029-10-31T00:00:00.000Z,1080,1079.65975051,3.68135355,2,9,0,0,2026-11-16T00:00:00.000Z-->
 - \[z\]:@:[voiced alveolar fricative](voiced%20alveolar%20fricative.md) <!--SR:!2027-07-16,895,356-->
@@ -802,7 +802,7 @@ Here is a list of common IPA letters and their pronunciations:
 
 <!--pytextgen generate section="f9aa"--><!-- The following content is generated at 2024-02-14T16:42:37.178940+08:00. Any edits will be overridden! -->
 
-- ![open front unrounded vowel](../../archives/Wikimedia%20Commons/Open%20front%20unrounded%20vowel.ogg):@:[open front unrounded vowel](open%20front%20unrounded%20vowel.md) <!--SR:!fsrs,2026-11-19T00:00:00.000Z,62,62.05505669,9.96562598,2,8,0,0,2026-09-18T00:00:00.000Z-->
+- ![open front unrounded vowel](../../archives/Wikimedia%20Commons/Open%20front%20unrounded%20vowel.ogg):@:[open front unrounded vowel](open%20front%20unrounded%20vowel.md) <!--SR:!fsrs,2027-01-31T00:00:00.000Z,73,72.5038165,9.96240929,2,9,0,0,2026-11-19T00:00:00.000Z-->
 - ![open central unrounded vowel](../../archives/Wikimedia%20Commons/Open%20central%20unrounded%20vowel.ogg):@:[open central unrounded vowel](open%20central%20unrounded%20vowel.md) <!--SR:!fsrs,2027-05-30T05:54:18.890Z,349,348.70492644,7.47090938,2,9,0,0,2026-06-15T05:54:18.890Z-->
 - ![near-open central vowel](../../archives/Wikimedia%20Commons/Near-open%20central%20unrounded%20vowel.ogg):@:[near-open central vowel](near-open%20central%20vowel.md) <!--SR:!fsrs,2027-01-16T00:00:00.000Z,80,79.57313149,9.96891253,2,9,0,0,2026-10-28T00:00:00.000Z-->
 - ![open back unrounded vowel](../../archives/Wikimedia%20Commons/Open%20back%20unrounded%20vowel.ogg):@:[open back unrounded vowel](open%20back%20unrounded%20vowel.md) <!--SR:!fsrs,2027-03-26T00:00:00.000Z,131,131.02671979,9.97047151,2,8,0,0,2026-11-15T00:00:00.000Z-->
