@@ -24,7 +24,7 @@ tags:
 
 ---
 
-ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fundamental electronic concepts for direct current (DC) and alternating current (AC) circuits: Kirchhoff's voltage and current laws, Thevenin's and Norton's theorems, linearity and superposition, and nodal analysis. Later material covers sinusoidal steady state and phasor representation, frequency response, transfer functions and Bode plots, operational amplifiers, first-order transient analysis, and diode circuits. The course treats simple electronic circuits as functional building blocks that can be understood and used as tools.
+ELEC 2400 is an undergraduate course in electronic circuits at HKUST. It covers the fundamental concepts of direct current (DC) and alternating current (AC) circuits: Kirchhoff's voltage and current laws, Thévenin's and Norton's theorems, linearity and superposition, and nodal analysis. Later material covers sinusoidal steady state and phasor representation, frequency response, transfer functions and Bode plots, operational amplifiers, first-order transient analysis, and diode circuits. The course treats circuits as functional building blocks.
 
 ## children
 
@@ -114,10 +114,10 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
         - LA5: Rm 2133, Lift 19, 21, 22; TuesdayT17:00:00/TuesdayT19:50:00
 - note: MATH 1018 and PHYS 1154 are also accepted as prerequisite and co-requisite alternatives
 - note: tutorials start in week 1 and labs start in week 4
-- note: the five lab experiments are run in groups of two; each lab report is submitted as a PDF within the 2 hour 50 minute session and must include the demonstration code issued by the teaching assistant (TA) or teaching officer (TO), without which it scores zero
+- note: the five lab experiments run in pairs; each report is submitted as a PDF within the 2 hour 50 minute session, carries the demonstration code issued by the teaching assistant (TA) or teaching officer (TO), and scores zero without it
 - note: an experiment may be assembled at home with the lab kit before the supervised on-campus session
 - note: a late lab report loses 10% up to 5 minutes and 20% up to 10 minutes; beyond 10 minutes it scores zero
-- note: lab kits are collected in Rm 2133 during week 1 and returned at the end of the semester, and the course grade is withheld until the kit is returned
+- note: lab kits are collected in Rm 2133 during week 1 and returned at the end of the semester, when the withheld course grade is released
 - note: homework is submitted online as a PDF, may be discussed with classmates, but must be individually carried out and written up; copying another student's work is an honour-code violation, and answers without justification earn no marks
 - note: the midterm and final examinations include some questions similar to the homework
 
@@ -427,7 +427,7 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
 
 - datetime: 2026-09-22T17:00:00+08:00/2026-09-22T19:50:00+08:00, PT2H50M
 - venue: Rm 2133, Lift 19, 21, 22
-- topic: bench instruments; phase difference of a series resistor-capacitor circuit from two waveforms and from a Lissajous plot; predicting the capacitor voltage
+- topic: bench instruments; phase difference of a series resistor-capacitor circuit from two waveforms and a Lissajous plot; predicting the capacitor voltage
 - [lab](labs/week%204%20lab%201/lab.md)
     - [§ bench instruments](labs/week%204%20lab%201/lab.md#bench%20instruments)
     - [§ phase difference from two waveforms](labs/week%204%20lab%201/lab.md#phase%20difference%20from%20two%20waveforms)
@@ -501,7 +501,7 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
 
 - datetime: 2026-09-29T17:00:00+08:00/2026-09-29T19:50:00+08:00, PT2H50M
 - venue: Rm 2133, Lift 19, 21, 22
-- topic: two-channel waveforms and math mode; alternating-current readings on a digital multimeter; the loading effect of an instrument on a voltage divider; the bandwidth of a digital multimeter
+- topic: two-channel waveforms and math mode; alternating-current readings on a digital multimeter; loading effect of an instrument on a voltage divider; bandwidth of a digital multimeter
 - [lab](labs/week%205%20lab%201/lab.md)
     - [§ waveforms on two channels](labs/week%205%20lab%201/lab.md#waveforms%20on%20two%20channels)
     - [§ alternating-current readings on a multimeter](labs/week%205%20lab%201/lab.md#alternating-current%20readings%20on%20a%20multimeter)
@@ -520,7 +520,7 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
 
 - datetime: 2026-09-30T09:00:00+08:00/2026-09-30T10:20:00+08:00
 - venue: Rm 5403, Lift 17-18
-- topic: the operational amplifier; amplifier types; the loading chain of a practical voltage amplifier; decibel gain; the circuit model of an operational amplifier; ideal operational amplifier characteristics; open-loop behavior and saturation; positive and negative feedback; the unity-gain buffer
+- topic: operational amplifier; amplifier types; loading chain of a practical voltage amplifier; decibel gain; circuit model of an operational amplifier; ideal operational amplifier characteristics; open-loop behavior and saturation; positive and negative feedback; unity-gain buffer
 - [operational amplifier](operational%20amplifier.md)
     - [§ amplifier types](operational%20amplifier.md#amplifier%20types)
     - [§ loading chain of a practical voltage amplifier](operational%20amplifier.md#loading%20chain%20of%20a%20practical%20voltage%20amplifier)
@@ -561,7 +561,7 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
 
 - datetime: 2026-10-05T09:00:00+08:00/2026-10-05T10:20:00+08:00
 - venue: Rm 5403, Lift 17-18
-- topic: Feedback stability, ideal operational amplifier assumptions, and the non-inverting and inverting amplifier configurations
+- topic: feedback stability; ideal operational amplifier assumptions; non-inverting and inverting amplifier configurations
 - [operational amplifier](operational%20amplifier.md)
     - [negative feedback](negative%20feedback.md)
         - [§ feedback stability under disturbance](negative%20feedback.md#feedback%20stability%20under%20disturbance)
@@ -598,7 +598,7 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
 
 - datetime: 2026-10-07T09:00:00+08:00/2026-10-07T10:20:00+08:00
 - venue: Rm 5403, Lift 17-18
-- topic: Operational amplifier circuits: summing, difference and instrumentation amplifiers, load-independent current sources, resistance and voltage-to-current converters, multi-stage entry-point analysis, finite open-loop gain
+- topic: summing, difference and instrumentation amplifiers; load-independent current source; resistance and voltage-to-current converter; multi-stage entry-point analysis; finite open-loop gain
 - [operational amplifier](operational%20amplifier.md)
     - [inverting amplifier](inverting%20amplifier.md)
         - [§ inverting amplifier with parallel feedback](inverting%20amplifier.md#inverting%20amplifier%20with%20parallel%20feedback)
@@ -617,7 +617,7 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
 
 - datetime: 2026-10-07T15:00:00+08:00/2026-10-07T15:50:00+08:00, PT50M
 - venue: Rm 2304, Lift 17-18
-- topic: circuit model of an operational amplifier; input resistance of an operational amplifier; output resistance of an operational amplifier; ideal operational amplifier; inverting amplifier; gain with parallel feedback resistors; non-inverting amplifier
+- topic: circuit model of an operational amplifier; input resistance and output resistance of an operational amplifier; ideal operational amplifier; inverting amplifier; gain with parallel feedback resistors; non-inverting amplifier
 - [tutorial](tutorials/week%206%20tutorial%201/tutorial.md)
     - [§ circuit model of an operational amplifier](tutorials/week%206%20tutorial%201/tutorial.md#circuit%20model%20of%20an%20operational%20amplifier)
     - [§ input resistance of an operational amplifier](tutorials/week%206%20tutorial%201/tutorial.md#input%20resistance%20of%20an%20operational%20amplifier)
@@ -631,7 +631,7 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
 
 - datetime: 2026-10-12T09:00:00+08:00/2026-10-12T10:20:00+08:00
 - venue: Rm 5403, Lift 17-18
-- topic: close of the operational amplifier chapter: gain error at finite open-loop gain; digitizing an analog signal; flash analog-to-digital and digital-to-analog converters; integrator, differentiator, and the double-integrator oscillator; comparator noise response, the bistable circuit, the Schmitt trigger, hysteresis, and the square waveform generator
+- topic: gain error at finite open-loop gain; digitizing an analog signal; flash analog-to-digital and digital-to-analog converter; integrator, differentiator and double-integrator oscillator; comparator noise response, bistable circuit, Schmitt trigger, hysteresis and square waveform generator
 - [operational amplifier](operational%20amplifier.md)
     - [§ amplifier types](operational%20amplifier.md#amplifier%20types)
     - [§ loading chain of a practical voltage amplifier](operational%20amplifier.md#loading%20chain%20of%20a%20practical%20voltage%20amplifier)
@@ -715,7 +715,7 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
 
 - datetime: 2026-10-19T09:00:00+08:00/2026-10-19T10:20:00+08:00
 - venue: Rm 5403, Lift 17-18
-- topic: sinusoidal excitation and the resistor–capacitor response
+- topic: sinusoidal excitation and the resistor-capacitor response
 - [sine wave](sine%20wave.md)
     - [§ period, frequency, and angular frequency](sine%20wave.md#period,%20frequency,%20and%20angular%20frequency)
     - [§ phase, lead, and lag](sine%20wave.md#phase,%20lead,%20and%20lag)
@@ -816,11 +816,11 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
 
 ## midterm examination
 
-- datetime: \[missing\]
-- venue: \[missing\]
-- scope: \[missing\]
+- datetime: 2026-10-20T20:00:00+08:00/2026-10-20T21:30:00+08:00, PT1H30M
+- venue: Lecture Theater A and Lecture Theater B
+- scope: fundamentals; resistive networks and direct-current analysis; operational amplifiers and their circuits, direct current only, without capacitors
 - format:
-    - calculator: yes
+    - calculator: yes (simple, with no camera and no ability to solve circuits; a smartphone is not allowed)
     - cheatsheet: no
     - open book: no
     - open notes: no
@@ -828,7 +828,8 @@ ELEC 2400 is an undergraduate course in electronic circuits at HKUST covering fu
 - grade: \[missing\]
 - statistics: \[missing\]
 - breakdown: \[missing\]
-- note: \[missing\]
+- note: no equation sheet
+- note: smart glasses are not allowed
 - report: \[missing\]
 
 ## final examination
