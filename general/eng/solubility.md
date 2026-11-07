@@ -189,7 +189,7 @@ return (
 > oxides
 >
 > - general solubility: {@{<span style="color: red;">insoluble</span>}@}
-> - exception(s): {@{group I, group II (except [BeO](beryllium%20oxide.md)), NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds}@} <!--SR:!2031-05-06,2316,270!2026-11-21,292,150-->
+> - exception(s): {@{group I, group II (except [BeO](beryllium%20oxide.md)), NH<sub>4</sub><sup>+</sup>, Ba<sup>2+</sup>, Sr<sup>2+</sup>, and Tl<sup>+</sup> compounds}@} <!--SR:!2031-05-06,2316,270!fsrs,2027-12-26T00:00:00.000Z,399,399.44939813,9.23597837,2,9,0,0,2026-11-22T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -368,7 +368,7 @@ return await memorize_map(
 - [copper(II) sulfate](copper(II)%20sulfate.md):@:<span style="color: green;">soluble</span> <!--SR:!2028-04-21,1096,298-->
 - [copper(II) sulfide](copper(II)%20sulfide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2027-07-28,777,258-->
 - [lead(II) bromide](lead(II)%20bromide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!fsrs,2027-11-05T02:34:19.149Z,507,507.46351821,8.29241954,2,9,0,0,2026-06-16T02:34:19.149Z-->
-- [lead(II) chloride](lead(II)%20chloride.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2026-11-22,727,278-->
+- [lead(II) chloride](lead(II)%20chloride.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!fsrs,2031-03-25T00:00:00.000Z,1584,1583.78021814,4.44077837,2,11,0,0,2026-11-22T00:00:00.000Z-->
 - [lead(II) iodide](lead(II)%20iodide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!fsrs,2027-04-16T14:27:15.457Z,308,307.82991074,8.98461332,2,8,0,0,2026-06-12T14:27:15.457Z-->
 - [lead(II) sulfate](lead(II)%20sulfate.md):@:<span style="color: red;">insoluble</span> <!--SR:!fsrs,2027-02-25T00:00:00.000Z,251,251.45444801,8.48672837,2,8,0,0,2026-06-19T00:00:00.000Z-->
 - [lithium phosphate](lithium%20phosphate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!fsrs,2027-03-05T00:00:00.000Z,180,180.05037607,8.93627837,2,8,0,0,2026-09-06T00:00:00.000Z-->

@@ -104,7 +104,7 @@ The content is in teaching order.
 - status: online: typhoon signal 8
 - artificial intelligence
     - artificial intelligence / advantages ::@:: available always, digital assistance, faster decisions, innovation (new inventions), reduction in human errors, repetitive work helping, taking risks instead of humans <!--SR:!2027-07-04,729,330!2028-03-22,947,350-->
-    - artificial intelligence / disadvantages ::@:: high cost of creation and maintenance, lack out-of-the-box thinking, make humans lazy, unemotional, unemployment <!--SR:!2026-11-21,570,330!2029-09-07,1398,370-->
+    - artificial intelligence / disadvantages ::@:: high cost of creation and maintenance, lack out-of-the-box thinking, make humans lazy, unemotional, unemployment <!--SR:!fsrs,2033-02-11T00:00:00.000Z,2273,2272.80601985,1,2,10,0,0,2026-11-22T00:00:00.000Z!2029-09-07,1398,370-->
     - artificial intelligence / prerequisites ::@:: algorithms, data analysis, mathematics, programming, will to learn <!--SR:!2030-07-01,1632,370!2028-12-10,1170,352-->
     - artificial intelligence / periods
         - artificial intelligence / periods / 1950–1956 ::@:: birth of artificial intelligence <!--SR:!fsrs,2031-03-02T00:00:00.000Z,1704,1703.62752039,1,2,10,0,0,2026-07-02T00:00:00.000Z!fsrs,2031-06-27T00:00:00.000Z,1790,1790.02367486,1,2,10,0,0,2026-08-02T00:00:00.000Z-->

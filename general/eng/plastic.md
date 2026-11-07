@@ -115,7 +115,7 @@ return chain.from_iterable([r.value for r in results])
 - [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex:@:[hard](hardness.md), [rigid](rigidity.md), [tough](toughness.md), [transparent](transparency%20and%20translucency.md) <!--SR:!2031-10-08,2073,261-->
 - [polypropylene](polypropylene.md) (PP):@:high chemical resistance, high [melting point](melting%20point.md), low [density](density.md) <!--SR:!2027-05-02,365,150-->
 - [polystyrene](polystyrene.md) (PS):@:expanded: very low [density](density.md), [rigid](stiffness.md), non-[toxic](toxicity.md), poor [thermal conductivity](thermal%20conductivity.md), [shock](shock%20(mechanics).md)-absorbing; solid: [brittle](brittleness.md), [hard](hardness.md), [transparent](transparency%20and%20translucency.md) <!--SR:!2028-08-24,869,201-->
-- [polyvinyl chloride](polyvinyl%20chloride.md) (PVC):@:[brittle](brittleness.md), poor [electrical conductivity](electrical%20conductivity.md), [poisonous](poison.md), [rigid](stiffness.md) but can become flexible, [waterproof](waterproof.md) <!--SR:!2026-11-22,310,150-->
+- [polyvinyl chloride](polyvinyl%20chloride.md) (PVC):@:[brittle](brittleness.md), poor [electrical conductivity](electrical%20conductivity.md), [poisonous](poison.md), [rigid](stiffness.md) but can become flexible, [waterproof](waterproof.md) <!--SR:!fsrs,2028-01-19T00:00:00.000Z,423,422.65148973,9.23597837,2,9,0,0,2026-11-22T00:00:00.000Z-->
 
 <!--/pytextgen-->
 
@@ -126,7 +126,7 @@ return chain.from_iterable([r.value for r in results])
 - [high-density polyethylene](high-density%20polyethylene.md) (HDPE):@:[bottles](bottle.md), [boxes](boxes.md), [buckets](bucket.md) <!--SR:!2029-09-22,1615,274-->
 - [low-density polyethylene](low-density%20polyethylene.md) (LDPE):@:flexible cold water pipes, food wrapping films, [plastic bags](plastic%20bag.md) <!--SR:!2028-10-12,1214,230-->
 - [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET):@:[bottles](bottle.md), [clothing](clothing.md), [fibers](fiber.md), lightweight sails <!--SR:!fsrs,2027-12-15T00:00:00.000Z,419,418.74470775,9.23597837,2,9,0,0,2026-10-22T00:00:00.000Z-->
-- [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex:@:[airplane](airplane.md) windows, [goggles](goggles.md), [plastic optical fibers](plastic%20optical%20fiber.md) <!--SR:!2026-11-21,829,261-->
+- [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex:@:[airplane](airplane.md) windows, [goggles](goggles.md), [plastic optical fibers](plastic%20optical%20fiber.md) <!--SR:!fsrs,2031-07-11T00:00:00.000Z,1692,1692.45757373,5.07764087,2,11,0,0,2026-11-22T00:00:00.000Z-->
 - [polypropylene](polypropylene.md) (PP):@:[fibers](fiber.md), [food containers](food%20storage%20container.md), [ropes](rope.md) <!--SR:!2027-05-27,448,170-->
 - [polystyrene](polystyrene.md) (PS):@:expanded: [construction](construction.md), [disposable](disposable%20product.md) [cutlery](cutlery.md), [packaging](packaging%20and%20labeling.md); solid: [optical disc packaging](optical%20disc%20packaging.md), [transparent](transparency%20and%20translucency.md) [containers](container.md) <!--SR:!fsrs,2030-04-27T00:00:00.000Z,1330,1329.67395655,6.43304494,2,10,0,0,2026-09-05T00:00:00.000Z-->
 - [polyvinyl chloride](polyvinyl%20chloride.md) (PVC):@:[electrical cable](electrical%20cable.md) insulation, pipes, [waterproof](waterproof.md) [clothes](textile.md) <!--SR:!2030-01-14,1444,249-->

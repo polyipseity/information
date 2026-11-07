@@ -266,7 +266,7 @@ The content is in teaching order.
 - [scatter plot](../../../../general/scatter%20plot.md) (scattergraph) ::@:: a type of plot or mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data <!--SR:!2027-01-14,550,406!2027-01-07,543,406-->
 - cost behavior
     - cost behavior / linear regression ::@:: scattergraph, high—low method, least squares <!--SR:!2027-01-02,538,406!fsrs,2033-03-06T00:00:00.000Z,2302,2302.10323962,1,2,10,0,0,2026-11-16T00:00:00.000Z-->
-        - cost behavior / linear regression / scattergraph ::@:: Graph the total cost $y$ against activity $x$ on a scatter plot. Then just intuitively draw a line through the points. <!--SR:!2026-11-25,509,406!2026-11-22,507,406-->
+        - cost behavior / linear regression / scattergraph ::@:: Graph the total cost $y$ against activity $x$ on a scatter plot. Then just intuitively draw a line through the points. <!--SR:!2026-11-25,509,406!fsrs,2033-04-01T00:00:00.000Z,2322,2322.00772364,1,2,10,0,0,2026-11-22T00:00:00.000Z-->
         - cost behavior / linear regression / high—low method ::@:: Find two data points: one with min $x$, the other with max $x$. Find the slope $b$ (unit variable cost) of the line connecting them. This will be $b$. Then find the y-intercept $a$ (fixed cost) on the line connecting them. <!--SR:!2027-01-09,545,406!2026-12-07,520,406-->
 
 ## week 5 lecture 2
@@ -338,7 +338,7 @@ The content is in teaching order.
 - report
     - time limit ::@:: The time limit was tight, with about 10 minutes left. <!--SR:!2028-02-23,831,445!2028-04-14,875,445-->
     - one point one mark \(–8\) ::@:: This is for a sub-question of the 3rd question \(ABC costing\) about commenting on the results of ABC costing vs. traditional costing: one point one mark, and the points contain some "obvious" or "useless" points. <p> Refer to an item about "Comment on the results." above. <!--SR:!2028-04-27,884,445!2028-02-11,820,441-->
-    - extremely long dependency chains \(–12\) ::@:: This is for the 2nd question \(process costing\). Most questions in this course involve very long dependency chains of calculations. Initial calculation or copying \(this case\) errors must be avoided. <!--SR:!2026-11-21,413,401!2027-04-22,564,425-->
+    - extremely long dependency chains \(–12\) ::@:: This is for the 2nd question \(process costing\). Most questions in this course involve very long dependency chains of calculations. Initial calculation or copying \(this case\) errors must be avoided. <!--SR:!fsrs,2032-03-21T00:00:00.000Z,1946,1946.00928125,1,2,10,0,0,2026-11-22T00:00:00.000Z!2027-04-22,564,425-->
 - check
     - datetime: 2025-03-27T13:00:00+08:00/2025-03-27T15:00:00+08:00, PT2H
     - venue: Room 6032, LSKBB

@@ -60,7 +60,7 @@ In {@{the classic _observer_ pattern}@}, {@{a model publishes events to interest
 >     if a > 0 && a <= bal then { bal -= a; publish() } else throw Error()
 > }
 > ```
-<!--SR:!2027-02-15,294,330!2026-12-11,255,330!2026-11-21,240,330!2027-01-12,281,330-->
+<!--SR:!2027-02-15,294,330!2026-12-11,255,330!fsrs,2029-10-28T00:00:00.000Z,1071,1070.94788021,1,2,9,0,0,2026-11-22T00:00:00.000Z!2027-01-12,281,330-->
 
 {@{An observer that keeps the total of many bank accounts}@} can be written as {@{a single subscriber}@}. It registers {@{itself with every account}@}, computes {@{the sum on each notification and exposes it through `totalBalance`}@}. <!--SR:!2026-12-09,255,330!2027-01-23,290,330!2027-01-09,278,330!2027-02-13,292,330-->
 

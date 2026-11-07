@@ -530,7 +530,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiceless labial–velar fricative](voiceless%20labial–velar%20fricative.md):@:\[ʍ\] <!--SR:!2027-05-19,691,256-->
 - [close back unrounded vowel](close%20back%20unrounded%20vowel.md):@:\[ɯ\] <!--SR:!2027-06-27,630,330-->
 - [voiced velar approximant](voiced%20velar%20approximant.md):@:\[ɰ\] <!--SR:!fsrs,2027-03-27T00:00:00.000Z,144,144.15075301,8.48990486,2,8,0,0,2026-11-03T00:00:00.000Z-->
-- [voiceless velar fricative](voiceless%20velar%20fricative.md):@:\[x\] <!--SR:!fsrs,2026-11-21T03:37:38.558Z,159,159.23409015,6.40045673,2,7,0,0,2026-06-15T03:37:38.558Z-->
+- [voiceless velar fricative](voiceless%20velar%20fricative.md):@:\[x\] <!--SR:!fsrs,2027-10-17T00:00:00.000Z,329,329.36331826,6.38928464,2,8,0,0,2026-11-22T00:00:00.000Z-->
 - [voiceless uvular fricative](voiceless%20uvular%20fricative.md):@:\[χ\] <!--SR:!2028-06-06,739,314-->
 - [close front rounded vowel](close%20front%20rounded%20vowel.md):@:\[y\] <!--SR:!2030-04-25,1688,376-->
 - [near-close near-front rounded vowel](near-close%20near-front%20rounded%20vowel.md):@:\[ʏ\] <!--SR:!2027-07-11,640,330-->
@@ -877,7 +877,7 @@ Here is a list of common IPA letters and their pronunciations:
 - ![voiced retroflex flap](../../archives/Wikimedia%20Commons/Retroflex%20flap.ogg):@:[voiced retroflex flap](voiced%20retroflex%20flap.md) <!--SR:!fsrs,2027-04-16T00:00:00.000Z,262,261.71913173,6.83837837,2,8,0,0,2026-07-28T00:00:00.000Z-->
 - ![voiced alveolar approximant](../../archives/Wikimedia%20Commons/Alveolar%20approximant.ogg):@:[voiced alveolar approximant](voiced%20alveolar%20approximant.md) <!--SR:!fsrs,2027-01-09T00:00:00.000Z,162,161.78492142,6.97302442,2,7,0,0,2026-07-31T00:00:00.000Z-->
 - ![voiced retroflex approximant](../../archives/Wikimedia%20Commons/Retroflex%20Approximant2.ogg):@:[voiced retroflex approximant](voiced%20retroflex%20approximant.md) <!--SR:!fsrs,2027-05-01T00:00:00.000Z,172,171.85586417,7.99230689,2,8,0,0,2026-11-10T00:00:00.000Z-->
-- ![voiced uvular fricative](../../archives/Wikimedia%20Commons/Voiced%20uvular%20fricative.ogg):@:[voiced uvular fricative](voiced%20uvular%20fricative.md) <!--SR:!fsrs,2026-11-21T03:59:39.974Z,159,158.99165094,6.99791867,2,7,0,0,2026-06-15T03:59:39.974Z-->
+- ![voiced uvular fricative](../../archives/Wikimedia%20Commons/Voiced%20uvular%20fricative.ogg):@:[voiced uvular fricative](voiced%20uvular%20fricative.md) <!--SR:!fsrs,2027-07-28T00:00:00.000Z,248,248.00075242,7.99230689,2,8,0,0,2026-11-22T00:00:00.000Z-->
 - ![voiceless alveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolar%20sibilant.ogg):@:[voiceless alveolar fricative](voiceless%20alveolar%20fricative.md) <!--SR:!fsrs,2027-09-01T00:00:00.000Z,329,329.28583143,5.48972837,2,8,0,0,2026-10-07T00:00:00.000Z-->
 - ![voiceless postalveolar fricative](../../archives/Wikimedia%20Commons/Voiceless%20palato-alveolar%20sibilant.ogg):@:[voiceless postalveolar fricative](voiceless%20postalveolar%20fricative.md) <!--SR:!fsrs,2027-07-17T00:00:00.000Z,338,337.59279467,5.48972837,2,8,0,0,2026-08-13T00:00:00.000Z-->
 - ![voiceless retroflex fricative](../../archives/Wikimedia%20Commons/Voiceless%20retroflex%20sibilant.ogg):@:[voiceless retroflex fricative](voiceless%20retroflex%20fricative.md) <!--SR:!fsrs,2026-12-27T00:00:00.000Z,88,87.80306692,9.97047151,2,8,0,0,2026-09-30T00:00:00.000Z-->

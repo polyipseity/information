@@ -62,7 +62,7 @@ However, {@{sorting}@} requires {@{an ordering relation `<`}@}, which {@{does no
 > sort(ints)((x, y) => x < y)
 > sort(strings)((s1, s2) => s1.compareTo(s2) < 0)
 > ```
-<!--SR:!2026-11-22,296,349!fsrs,2030-06-08T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-11T00:00:00.000Z!2027-01-23,344,349!fsrs,2030-07-08T00:00:00.000Z,1329,1328.76280435,1,2,9,0,0,2026-11-17T00:00:00.000Z!2026-12-28,325,349!2026-11-21,291,349-->
+<!--SR:!fsrs,2030-08-18T00:00:00.000Z,1365,1364.83793445,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2030-06-08T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-11T00:00:00.000Z!2027-01-23,344,349!fsrs,2030-07-08T00:00:00.000Z,1329,1328.76280435,1,2,9,0,0,2026-11-17T00:00:00.000Z!2026-12-28,325,349!fsrs,2030-07-31T00:00:00.000Z,1347,1347.38838875,1,2,9,0,0,2026-11-22T00:00:00.000Z-->
 
 Scala provides {@{the `scala.math.Ordering` trait}@} to {@{represent the sorting function}@}: <!--SR:!2026-12-22,320,349!2027-01-22,343,349-->
 
@@ -101,7 +101,7 @@ To {@{reduce boilerplate}@} {@{the `ord` argument}@} can be declared {@{_implici
 >
 > Now {@{callers}@} need not {@{supply it explicitly \(though it could if it chooses to\)}@}; {@{the compiler}@} searches for {@{an implicit `Ordering[T]` in scope}@} and {@{supplies it automatically}@}. <!--SR:!2026-12-30,326,349!2027-01-25,346,349!2026-12-15,313,349!2027-03-03,380,368!2027-03-02,379,368!2027-03-09,385,368!2027-03-19,392,368!2027-03-14,388,368-->
 
-Now {@{callers}@} need not {@{supply it explicitly \(though it could if it chooses to\)}@}; {@{the compiler}@} searches for {@{an implicit `Ordering[T]` in scope}@} and {@{supplies it automatically}@}. {@{Calling it}@} becomes {@{simpler}@}: <!--SR:!fsrs,2029-09-19T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-09-27T00:00:00.000Z!fsrs,2029-10-03T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-09-30T00:00:00.000Z!2027-01-30,351,349!fsrs,2030-06-14T00:00:00.000Z,1313,1312.68438221,1,2,9,0,0,2026-11-09T00:00:00.000Z!2026-12-20,318,349!2027-01-31,352,349!2026-11-21,292,349-->
+Now {@{callers}@} need not {@{supply it explicitly \(though it could if it chooses to\)}@}; {@{the compiler}@} searches for {@{an implicit `Ordering[T]` in scope}@} and {@{supplies it automatically}@}. {@{Calling it}@} becomes {@{simpler}@}: <!--SR:!fsrs,2029-09-19T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-09-27T00:00:00.000Z!fsrs,2029-10-03T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-09-30T00:00:00.000Z!2027-01-30,351,349!fsrs,2030-06-14T00:00:00.000Z,1313,1312.68438221,1,2,9,0,0,2026-11-09T00:00:00.000Z!2026-12-20,318,349!2027-01-31,352,349!fsrs,2030-08-04T00:00:00.000Z,1351,1351.39526865,1,2,9,0,0,2026-11-22T00:00:00.000Z-->
 
 > [!example] __using parameterized sort with implicit ordering__
 >
@@ -156,7 +156,7 @@ However, {@{explicit passing}@} is {@{usually unnecessary}@}. If the caller {@{o
 > def f(x: Int)(using a: A, b: B) = ...
 > f(10)(using a, b)
 > ```
-<!--SR:!2026-12-26,323,349!fsrs,2029-10-08T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-10-01T00:00:00.000Z!2026-11-21,295,349!2026-11-26,296,349-->
+<!--SR:!2026-12-26,323,349!fsrs,2029-10-08T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-10-01T00:00:00.000Z!fsrs,2030-08-16T00:00:00.000Z,1363,1363.40564442,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-11-26,296,349-->
 
 Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` clauses}@} can also be {@{interleaved with ordinary parameter lists}@}, allowing {@{a mix of implicit and explicit arguments}@}: <!--SR:!2027-01-02,329,349!fsrs,2030-08-08T00:00:00.000Z,1357,1356.83314545,1,2,9,0,0,2026-11-20T00:00:00.000Z!2026-11-28,298,349!2026-12-10,310,349!2027-01-29,350,349-->
 
@@ -173,7 +173,7 @@ Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` c
 > ```
 <!--SR:!fsrs,2029-10-22T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-10-03T00:00:00.000Z!fsrs,2030-07-03T00:00:00.000Z,1325,1324.74576884,1,2,9,0,0,2026-11-16T00:00:00.000Z!2027-01-26,347,349!2026-12-26,323,349!2026-12-20,318,349-->
 
-{@{Anonymous `using` clauses}@} let a method declare {@{an implicit parameter without naming it}@}; the compiler will still {@{supply and forward that instance to other methods automatically}@}. For example, <!--SR:!2027-01-17,338,349!2026-11-21,291,349!2026-11-23,297,349-->
+{@{Anonymous `using` clauses}@} let a method declare {@{an implicit parameter without naming it}@}; the compiler will still {@{supply and forward that instance to other methods automatically}@}. For example, <!--SR:!2027-01-17,338,349!fsrs,2030-07-31T00:00:00.000Z,1347,1347.38838875,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-11-23,297,349-->
 
 > [!example] __anonymous `using` clauses__
 >
@@ -287,7 +287,7 @@ Since {@{the actual names of `given` instances}@} are {@{irrelevant to resolutio
 
 ### conditional `given`
 
-{@{A `given` instance}@} may itself {@{require an implicit argument}@}, making it {@{_conditional_ on if the implicit argument can be provided}@}. For example {@{a give instance that order lists}@} yields: <!--SR:!2026-12-02,302,349!fsrs,2030-06-28T00:00:00.000Z,1321,1320.72713296,1,2,9,0,0,2026-11-15T00:00:00.000Z!2026-11-22,292,349!2026-11-24,294,349-->
+{@{A `given` instance}@} may itself {@{require an implicit argument}@}, making it {@{_conditional_ on if the implicit argument can be provided}@}. For example {@{a give instance that order lists}@} yields: <!--SR:!2026-12-02,302,349!fsrs,2030-06-28T00:00:00.000Z,1321,1320.72713296,1,2,9,0,0,2026-11-15T00:00:00.000Z!fsrs,2030-08-02T00:00:00.000Z,1349,1348.82166006,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-11-24,294,349-->
 
 > [!example] __conditional `given`__
 >
@@ -370,7 +370,7 @@ In Scala {@{a _type class_}@} is {@{a generic trait}@} that declares {@{operatio
 
 {@{Type classes}@} turn {@{a type into a value}@} by providing {@{a trait and concrete instances}@}. They enable {@{_ad-hoc polymorphism_}@}: {@{different implementations}@} for {@{different types}@}. <!--SR:!fsrs,2030-07-08T00:00:00.000Z,1329,1328.76280435,1,2,9,0,0,2026-11-17T00:00:00.000Z!2026-12-11,311,349!2027-01-18,339,349!2026-11-27,297,349!2027-01-21,342,349!2026-11-27,297,349-->
 
-{@{Other languages}@} adopt {@{similar concepts}@}: {@{Haskell}@}'s {@{built-in type classes}@}, {@{Rust}@}'s {@{traits}@}, and {@{emerging features}@} in {@{Agda, Lean, and OCaml}@}. In {@{Scala}@} {@{the mechanism is realized}@} through {@{contextual parameters (`using`) and implicit resolution}@}, giving programmers {@{fine-grained control over polymorphic behaviour}@}. <!--SR:!fsrs,2030-06-08T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-11T00:00:00.000Z!2026-11-22,292,349!2026-12-21,319,349!2026-12-03,303,349!fsrs,2030-06-04T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-07T00:00:00.000Z!fsrs,2030-06-28T00:00:00.000Z,1321,1320.72713296,1,2,9,0,0,2026-11-15T00:00:00.000Z!2027-01-24,345,349!2026-12-06,306,349!2026-12-28,325,349!2027-01-24,345,349!2027-01-22,343,349!2027-01-31,352,349-->
+{@{Other languages}@} adopt {@{similar concepts}@}: {@{Haskell}@}'s {@{built-in type classes}@}, {@{Rust}@}'s {@{traits}@}, and {@{emerging features}@} in {@{Agda, Lean, and OCaml}@}. In {@{Scala}@} {@{the mechanism is realized}@} through {@{contextual parameters (`using`) and implicit resolution}@}, giving programmers {@{fine-grained control over polymorphic behaviour}@}. <!--SR:!fsrs,2030-06-08T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-11T00:00:00.000Z!fsrs,2030-08-02T00:00:00.000Z,1349,1348.82166006,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-21,319,349!2026-12-03,303,349!fsrs,2030-06-04T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-07T00:00:00.000Z!fsrs,2030-06-28T00:00:00.000Z,1321,1320.72713296,1,2,9,0,0,2026-11-15T00:00:00.000Z!2027-01-24,345,349!2026-12-06,306,349!2026-12-28,325,349!2027-01-24,345,349!2027-01-22,343,349!2027-01-31,352,349-->
 
 ### type class pattern
 
@@ -436,7 +436,7 @@ With {@{such `given` instances}@} in scope {@{a polymorphic method}@} can be wri
 
 ### extension methods
 
-{@{A type-class trait}@} may declare {@{_extension methods_}@} that become {@{available when an instance is in scope}@}: <!--SR:!2026-12-02,302,349!2026-11-22,292,349!2026-12-25,322,349-->
+{@{A type-class trait}@} may declare {@{_extension methods_}@} that become {@{available when an instance is in scope}@}: <!--SR:!2026-12-02,302,349!fsrs,2030-08-02T00:00:00.000Z,1349,1348.82166006,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-25,322,349-->
 
 > [!example] __type class extension methods__
 >

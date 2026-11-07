@@ -171,7 +171,7 @@ return chain.from_iterable([r.value for r in results])
 - [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md)→::@::←[safety spectacles/safety glasses/goggles](goggles.md) <!--SR:!fsrs,2027-08-17T08:41:19.939Z,430,429.62634343,8.98461332,2,9,0,0,2026-06-13T08:41:19.939Z!2028-04-30,1044,230-->
 - [safety spectacles/safety glasses/goggles](goggles.md)→::@::←[spatula](spatula.md) <!--SR:!fsrs,2032-10-30T00:00:00.000Z,2321,2321.38633079,2.98092302,2,11,0,0,2026-06-23T00:00:00.000Z!2027-06-17,1037,290-->
 - [spatula](spatula.md)→::@::←[stand/retort stand/ring stand/support stand](retort%20stand.md) <!--SR:!2031-04-01,1895,250!2027-07-23,807,270-->
-- [stand/retort stand/ring stand/support stand](retort%20stand.md)→::@::←[test tube](test%20tube.md), boiling tube <!--SR:!fsrs,2028-08-28T00:00:00.000Z,800,799.63997737,6.98338322,2,9,0,0,2026-06-20T00:00:00.000Z!2026-11-22,377,190-->
+- [stand/retort stand/ring stand/support stand](retort%20stand.md)→::@::←[test tube](test%20tube.md), boiling tube <!--SR:!fsrs,2028-08-28T00:00:00.000Z,800,799.63997737,6.98338322,2,9,0,0,2026-06-20T00:00:00.000Z!fsrs,2028-08-06T00:00:00.000Z,623,623.16538835,7.73747837,2,10,0,0,2026-11-22T00:00:00.000Z-->
 - [test tube](test%20tube.md), boiling tube→::@::←[test tube brush](test%20tube%20brush.md) <!--SR:!2028-07-27,1514,350!2028-08-13,1528,350-->
 - [test tube brush](test%20tube%20brush.md)→::@::←[test tube holder](test%20tube%20holder.md) <!--SR:!2032-08-23,2372,290!2031-02-04,1897,330-->
 - [test tube holder](test%20tube%20holder.md)→::@::←[test tube rack](test%20tube%20rack.md) <!--SR:!2027-06-05,1029,290!2029-09-27,1724,310-->
@@ -216,7 +216,7 @@ return chain.from_iterable([r.value for r in results])
 - [pipeclay triangle](pipeclay%20triangle.md):@:![pipeclay triangle](../../archives/Wikimedia%20Commons/Pipeclay%20triangle.jpg) <!--SR:!2036-03-06,3663,350-->
 - [reagent bottle](reagent%20bottle.md):@:![reagent bottle](../../archives/Wikimedia%20Commons/Dark%20bottle%20with%20ground%20glass%20plug.jpg) <!--SR:!2027-06-03,1185,350-->
 - [round-bottom(ed) flask](round-bottom%20flask.md):@:![round-bottom(ed) flask](../../archives/Wikimedia%20Commons/Verrerie-p1030896.jpg) <!--SR:!2027-10-01,1278,350-->
-- [rubber bulb](rubber%20bulb.md):@:![rubber bulb](../../archives/Wikimedia%20Commons/Rubber%20bulb%205.jpg) <!--SR:!2026-11-21,1032,350-->
+- [rubber bulb](rubber%20bulb.md):@:![rubber bulb](../../archives/Wikimedia%20Commons/Rubber%20bulb%205.jpg) <!--SR:!fsrs,2038-01-11T00:00:00.000Z,4068,4067.68418218,1,2,11,0,0,2026-11-22T00:00:00.000Z-->
 - [rubber stopper/rubber bung/rubber cork](rubber%20stopper.md):@:![rubber stopper/rubber bung/rubber cork](../../archives/Wikimedia%20Commons/Rubber%20stopper%20holes.jpg) <!--SR:!2027-08-22,1245,350-->
 - [safety spectacles/safety glasses/goggles](goggles.md):@:![safety spectacles/safety glasses/goggles](../../archives/Wikimedia%20Commons/Safety%20Goggles.jpg) <!--SR:!2027-01-15,1077,350-->
 - [spatula](spatula.md):@:![spatula](../../archives/Wikimedia%20Commons/Laboratory%20Spatula.JPG) <!--SR:!2027-01-05,1068,350-->
