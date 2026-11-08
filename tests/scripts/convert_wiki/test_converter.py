@@ -1731,6 +1731,19 @@ class TestInlineFormatting:
         assert "line1" in result and "line2" in result
 
     @pytest.mark.anyio
+    async def test_br_apple_interchange_newline_skipped(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Safari's interchange ``<br>`` should not split an emphasis span."""
+        html = (
+            '<p><b><br class="Apple-interchange-newline" />Cyclomatic '
+            "complexity</b> is a metric.</p>"
+        )
+        result = await _convert(converter, html)
+        assert "__Cyclomatic complexity__" in result
+        assert "__ Cyclomatic complexity__" not in result
+
+    @pytest.mark.anyio
     async def test_strikethrough(self, converter: WikiHtmlConverter) -> None:
         """``<s>`` should render as strikethrough."""
         result = await _convert(converter, "<s>deleted</s>")

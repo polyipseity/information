@@ -20,7 +20,7 @@ from typing import Any
 
 import pytest
 from anyio import Path
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 
 from scripts.convert_wiki.ast_utils import _MISTUNE_PARSER
 from scripts.convert_wiki.config import (
@@ -999,6 +999,102 @@ async def _convert_html(html: str, converter: WikiHtmlConverter | None = None) -
     )
 
 
+# =========================================================================
+# _preprocess_html — Parsoid math source lifting
+# =========================================================================
+
+"""Parsoid-style inline math whose LaTeX lives only in ``data-mw``.
+
+``%s`` stands in for ``body.extsrc``.  The ``<math>`` element has no
+``alttext``, matching modern Wikipedia HTML.
+"""
+_INLINE_MODERN_MATH = (
+    '<p>A set <span class="mwe-math-element mwe-math-element-inline">'
+    '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
+    '<math xmlns="http://www.w3.org/1998/Math/MathML"'
+    ' typeof="mw:Extension/math"'
+    ' data-mw=\'{"name":"math","attrs":{},"body":{"extsrc":"%s"}}\'>'
+    "<mrow><mi>S</mi></mrow></math></span></span> of paths.</p>"
+)
+
+"""Parsoid-style block math whose LaTeX lives only in ``data-mw``.
+
+``%s`` stands in for ``body.extsrc``.  The ``<math>`` element has no
+``alttext``, matching modern Wikipedia HTML.
+"""
+_BLOCK_MODERN_MATH = (
+    "<p>A set of paths"
+    '<span class="mwe-math-element mwe-math-element-block">'
+    '<span class="mwe-math-mathml-display mwe-math-mathml-a11y">'
+    '<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"'
+    ' typeof="mw:Extension/math"'
+    ' data-mw=\'{"name":"math","attrs":{"display":"block"},'
+    '"body":{"extsrc":"%s"}}\'>'
+    "<mrow><mi>M</mi></mrow></math></span></span>.</p>"
+)
+
+
+class TestPreprocessMathSource:
+    """Tests for lifting Parsoid math source into the ``alttext`` attribute.
+
+    Legacy HTML carries the LaTeX in ``alttext``; modern Parsoid carries it in
+    a ``data-mw`` JSON payload (older revisions in an
+    ``<annotation encoding="application/x-tex">`` child) and leaves ``<math>``
+    without ``alttext``, so math degraded to its bare MathML text.
+    """
+
+    def test_inline_math_alttext_from_data_mw(self) -> None:
+        """Inline math without ``alttext`` gets the source from ``data-mw``."""
+        soup = BeautifulSoup(_INLINE_MODERN_MATH % "S", "html.parser")
+        _preprocess_html(soup)
+        math = soup.find("math")
+        assert isinstance(math, Tag)
+        assert math["alttext"] == "S"
+
+    def test_block_math_alttext_from_data_mw(self) -> None:
+        """Block math without ``alttext`` gets the source from ``data-mw``."""
+        soup = BeautifulSoup(_BLOCK_MODERN_MATH % "M = E - N + 2P", "html.parser")
+        _preprocess_html(soup)
+        math = soup.find("math")
+        assert isinstance(math, Tag)
+        assert math["alttext"] == "M = E - N + 2P"
+
+    def test_annotation_fallback_without_data_mw(self) -> None:
+        """``<annotation>`` text is used when ``data-mw`` is absent."""
+        html = (
+            '<p>See <math xmlns="http://www.w3.org/1998/Math/MathML">'
+            "<semantics><mrow><mi>x</mi></mrow>"
+            '<annotation encoding="application/x-tex">x^2</annotation>'
+            "</semantics></math>.</p>"
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        _preprocess_html(soup)
+        math = soup.find("math")
+        assert isinstance(math, Tag)
+        assert math["alttext"] == "x^2"
+
+    def test_existing_alttext_is_preserved(self) -> None:
+        """A ``data-mw`` payload never overrides an existing ``alttext``."""
+        soup = BeautifulSoup(_INLINE_MODERN_MATH % "S", "html.parser")
+        math = soup.find("math")
+        assert isinstance(math, Tag)
+        math["alttext"] = R"{\displaystyle T}"
+        _preprocess_html(soup)
+        assert math["alttext"] == R"{\displaystyle T}"
+
+    @pytest.mark.anyio
+    async def test_inline_math_renders_latex(self) -> None:
+        """Modern inline math renders as ``$…$``, not as bare MathML text."""
+        result = await _convert_html(_INLINE_MODERN_MATH % "S")
+        assert result == "A set $S$ of paths.\n"
+
+    @pytest.mark.anyio
+    async def test_block_math_renders_latex(self) -> None:
+        """Modern block math renders as ``$$…$$``."""
+        result = await _convert_html(_BLOCK_MODERN_MATH % "M = E - N + 2P")
+        assert "$$M = E - N + 2P$$" in result
+
+
 class TestWikiHtmlToPlaintext:
     """Integration tests for ``wiki_html_to_plaintext``.
 
@@ -1124,6 +1220,25 @@ class TestWikiHtmlToPlaintext:
         )
 
     @pytest.mark.anyio
+    async def test_inline_math_marked_on_math_element(self) -> None:
+        """Inline marker on the ``<math>`` itself renders ``$…$``, not ``$$…$$``.
+
+        Clipboard/Safari HTML puts ``mwe-math-element-inline`` on the
+        ``<math>`` element and wraps it in a bare ``mwe-math-mathml-a11y``
+        span (see ``snapshots/cyclomatic complexity.input.html``).  The
+        single-child a11y wrapper must not demote the math to display.
+        """
+        result = await _convert_html(
+            '<p>A set <span class="mwe-math-mathml-a11y">'
+            '<math xmlns="http://www.w3.org/1998/Math/MathML"'
+            ' class="mwe-math-element mwe-math-element-inline mathjax_ignore"'
+            ' typeof="mw:Extension/math"'
+            ' data-mw=\'{"name":"math","attrs":{},"body":{"extsrc":"S"}}\'>'
+            "<mrow><mi>S</mi></mrow></math></span> of paths.</p>"
+        )
+        assert result == "A set $S$ of paths.\n"
+
+    @pytest.mark.anyio
     async def test_title_box_table_becomes_blockquote(self) -> None:
         """A header-less proof box renders as a quoted title and paragraphs."""
         inline = (
@@ -1148,6 +1263,56 @@ class TestWikiHtmlToPlaintext:
             ">\n"
             "> One has $$\\mu (A)\\geq 0$$ for any subset.\n"
         )
+
+    @pytest.mark.anyio
+    async def test_syntaxhighlight_div_becomes_fenced_code_block(self) -> None:
+        """A syntaxhighlight wrapper fences its source and stays its own block.
+
+        Parsoid renders ``<syntaxhighlight lang="c">`` as a ``<div>`` of
+        highlighted ``<span>`` fragments whose text carries no line breaks
+        (see ``snapshots/cyclomatic complexity.input.html``), while the
+        payload keeps the original source.  The fence must come from
+        ``data-mw`` and end the block, so the blockquote that follows keeps
+        its own ``> `` lines instead of merging into the code.
+        """
+        result = await _convert_html(
+            '<div class="mw-highlight mw-highlight-lang-c mw-content-ltr"'
+            ' typeof="mw:Extension/syntaxhighlight"'
+            ' data-mw=\'{"name":"syntaxhighlight","attrs":{"lang":"c"},'
+            '"body":{"extsrc":"\\nif (c1())\\n    f1();\\nelse\\n    f2();\\n"}}\'>'
+            '<pre><span class="k">if</span> <span class="p">(</span>'
+            '<span class="n">c1</span><span class="p">())</span>'
+            ' <span class="n">f1</span><span class="p">();</span></pre></div>'
+            '<blockquote class="templatequote"><p>Quoted explanation.</p></blockquote>'
+        )
+        assert result == (
+            "```c\n"
+            "if (c1())\n"
+            "    f1();\n"
+            "else\n"
+            "    f2();\n"
+            "```\n"
+            "\n"
+            "> Quoted explanation.\n"
+        )
+
+    @pytest.mark.anyio
+    async def test_syntaxhighlight_without_lang_fences_as_text(self) -> None:
+        """A lang-less ``syntaxhighlight`` still gets an info string.
+
+        Wikipedia writes ``<syntaxhighlight>`` without ``lang`` for plain
+        blocks, so ``attrs`` carries none.  Emitting a bare fence there fails
+        markdownlint MD040, hence the ``text`` default.
+        """
+        result = await _convert_html(
+            '<div class="mw-highlight mw-content-ltr"'
+            ' typeof="mw:Extension/syntaxhighlight"'
+            ' data-mw=\'{"name":"syntaxhighlight","attrs":{},'
+            '"body":{"extsrc":"\\nplain block\\n"}}\'>'
+            '<pre><span class="n">plain</span> <span class="n">block</span></pre>'
+            "</div>"
+        )
+        assert result == "```text\nplain block\n```\n"
 
 
 # =========================================================================

@@ -35,6 +35,7 @@ Related modules
 - ``pipeline``: orchestration (preprocess → convert → postprocess).
 """
 
+import json
 import re
 import unicodedata
 from collections.abc import Iterable, Mapping, MutableSet
@@ -186,6 +187,46 @@ def _collect_anchor_fragments(ele: PageElement) -> frozenset[str]:
         fragments.add(identifier)
         fragments.add(identifier.replace("_", " "))
     return frozenset(fragments)
+
+
+def _syntaxhighlight_source(ele: Tag) -> tuple[str, str] | None:
+    """Return ``(lang, source)`` for a ``syntaxhighlight`` extension wrapper.
+
+    Parsoid serialises the extension invocation as JSON in ``data-mw`` and
+    renders the highlighted source into a ``<pre>`` whose ``<span>`` fragments
+    keep the styling but not the line breaks, so the original code has to be
+    read from the payload rather than from the children.  A missing, malformed,
+    or unrelated payload yields ``None`` so the element falls back to its
+    generic handling.
+
+    The language is ``"text"`` when the payload carries none: a fence without
+    an info string is a bare ``` run, which fails markdownlint MD040.  Wikipedia
+    writes ``<syntaxhighlight>`` without ``lang`` for plain blocks, and
+    ``text`` is what the notes already use for such blocks.
+    """
+    raw = ele.get("data-mw")
+    if not raw:
+        return None
+    raw_source = str(raw)
+    # Most ``<div>`` elements on a page carry another template's payload, so
+    # discard those before paying for a JSON parse.
+    if "syntaxhighlight" not in raw_source:
+        return None
+    try:
+        data_mw = json.loads(raw_source)
+    except json.JSONDecodeError:
+        return None
+    if not isinstance(data_mw, dict) or data_mw.get("name") != "syntaxhighlight":
+        return None
+    body = data_mw.get("body")
+    if not isinstance(body, dict):
+        return None
+    source = body.get("extsrc")
+    if not isinstance(source, str):
+        return None
+    attrs = data_mw.get("attrs")
+    lang = attrs.get("lang") if isinstance(attrs, dict) else None
+    return (lang if isinstance(lang, str) and lang else "text"), source
 
 
 def _needs_marker(character: str) -> bool:
@@ -716,7 +757,15 @@ class WikiHtmlConverter:
     # --- Tag handlers ---
 
     def _handle_br(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig | None:
-        """Render a <br> tag as a newline."""
+        """Render a <br> tag as a newline, except Safari's interchange marker.
+
+        Safari's clipboard HTML opens a copied element with
+        ``<br class="Apple-interchange-newline">``.  That marker records a
+        selection boundary, not a line break, so a newline there would split
+        the enclosing emphasis span into the literal ``__ text__``.
+        """
+        if "Apple-interchange-newline" in classes:
+            return None
 
         def process(strings: str) -> str:
             """Append newline to strings."""
@@ -1607,7 +1656,29 @@ class WikiHtmlConverter:
         return _HandlerConfig(suffix=suffix)
 
     def _handle_div(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig | None:
-        """Handle <div> elements, with special handling for equation-box divs."""
+        """Handle <div> elements.
+
+        ``syntaxhighlight`` extension wrappers become fenced code blocks read
+        from their ``data-mw`` payload; ``equation-box`` divs are delegated to
+        :class:`TableConverter`; remaining classes get their own spacing and
+        wrapper (see the branches below), and everything else is block-level.
+        """
+        if (syntaxhighlight := _syntaxhighlight_source(ele)) is not None:
+            lang, source = syntaxhighlight
+
+            def _fence(strings: str) -> str:
+                """Render the extension source as a fenced code block."""
+                # The children of a highlighted block carry no line structure,
+                # so ``strings`` is dropped in favour of the original source.
+                # The fence outgrows any backtick run in the code so a literal
+                # backtick sequence cannot close it early.
+                delimiter = "```"
+                while delimiter in source:
+                    delimiter += "`"
+                code = source.strip("\n")
+                return f"{delimiter}{lang}\n{code}\n{delimiter}\n\n"
+
+            return _HandlerConfig(full_result=True, process_strings=_fence)
         if "shortdescription" in classes:
             return _HandlerConfig(suffix="\n\n")
         if "theader" in classes:
@@ -1818,7 +1889,11 @@ class WikiHtmlConverter:
 
     @staticmethod
     def _math_outer_span(math_ele: Tag) -> Tag | None:
-        """Return the ``mwe-math-element`` wrapper around a ``<math>`` tag."""
+        """Return the ``mwe-math-element`` wrapper around a ``<math>`` tag.
+
+        Newer Parsoid markup puts that class on the ``<math>`` element itself,
+        in which case the ``<math>`` is its own wrapper.
+        """
         parent: PageElement | None = math_ele
         while parent is not None:
             if isinstance(parent, Tag):
@@ -1897,8 +1972,16 @@ class WikiHtmlConverter:
         """Return the element whose substantive children drive inline/block classification."""
         outer_span = WikiHtmlConverter._math_outer_span(math_ele)
         if outer_span is not None:
-            parent = outer_span.parent
-            return parent if isinstance(parent, Tag) else None
+            container: PageElement | None = outer_span.parent
+            # Newer Parsoid markup puts ``mwe-math-element`` on the ``<math>``
+            # itself, inside a bare ``mwe-math-mathml-a11y`` span.  That span
+            # is a rendering artifact around the math, not a prose container,
+            # so classify by its parent instead.
+            while isinstance(container, Tag) and (
+                "mwe-math-mathml-a11y" in container.get_attribute_list("class")
+            ):
+                container = container.parent
+            return container if isinstance(container, Tag) else None
         parent: PageElement | None = math_ele.parent
         if not isinstance(parent, Tag):
             return None
@@ -1917,8 +2000,9 @@ class WikiHtmlConverter:
         (``mwe-math-mathml-inline`` / ``mwe-math-mathml-display``), while
         newer Parsoid markup tags the outer ``mwe-math-element`` wrapper
         (``mwe-math-element-inline`` / ``mwe-math-element-block``) and leaves
-        the parent span as ``mwe-math-mathml-a11y``.  Consult both, treating
-        an explicit outer block marker as decisive.
+        the parent span as ``mwe-math-mathml-a11y``.  Clipboard/Safari markup
+        puts the outer class on the ``<math>`` element itself.  Consult all
+        three, treating an explicit outer block marker as decisive.
         """
         parent = ele.parent
         outer_span = WikiHtmlConverter._math_outer_span(ele)
