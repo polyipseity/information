@@ -716,7 +716,15 @@ class WikiHtmlConverter:
     # --- Tag handlers ---
 
     def _handle_br(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig | None:
-        """Render a <br> tag as a newline."""
+        """Render a <br> tag as a newline, except Safari's interchange marker.
+
+        Safari's clipboard HTML opens a copied element with
+        ``<br class="Apple-interchange-newline">``.  That marker records a
+        selection boundary, not a line break, so a newline there would split
+        the enclosing emphasis span into the literal ``__ text__``.
+        """
+        if "Apple-interchange-newline" in classes:
+            return None
 
         def process(strings: str) -> str:
             """Append newline to strings."""
