@@ -23,7 +23,7 @@ Normally in Scala, {@{values \(terms\) and types}@} infer {@{types}@}, e.g. {@{i
 
 ## motivation
 
-We want to write {@{code that is _modular_}@} by {@{abstracting over the "context" in which it will run}@}. {@{Context}@} can be {@{the current configuration, security level}@}, or even {@{a user on whose behalf an operation executes}@}.  In practice this means making {@{functions and classes independent of global state \(dependent on "context"\)}@} so they can be {@{reused safely across modules}@}. There are several {@{common approaches}@}: \(annotation: 5 items: {@{globals, mutable globals, monkey patch, dependency injection, functional context}@}\)
+We want to write {@{code that is _modular_}@} by {@{abstracting over the "context" in which it will run}@}. {@{Context}@} can be {@{the current configuration, security level}@}, or even {@{a user on whose behalf an operation executes}@}.  In practice this means making {@{functions and classes independent of global state \(dependent on "context"\)}@} so they can be {@{reused safely across modules}@}. There are several {@{common approaches}@}: \(annotation: 5 items: {@{globals, mutable globals, monkey patch}@}, {@{dependency injection, functional context}@}\)
 
 - globals ::@:: Simple to use. Rigid, hard to change per module.
 - mutable globals ::@:: Flexible but unsafe. Risk of interference \(e.g. race conditions\).
@@ -507,7 +507,7 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}:
 
 > [!example] __monoid‑aware reduce__
 >
-> Uses {@{the monoid’s `unit`}@} as {@{initial value}@}, so {@{empty lists are handled}@}.  
+> Uses {@{the monoid’s `unit`}@} as {@{initial value}@}, so {@{empty lists are handled}@}.
 >
 > ```Scala
 > def reduce[T: Monoid](xs: List[T]): T =
@@ -533,7 +533,7 @@ A type may have {@{several monoid instances}@}, e.g. {@{`Int`}@} with {@{additio
 
 Using these, {@{`sum` and `product`}@} are defined by supplying {@{the appropriate instance to `reduce`}@}:
 
-> [!example] __sum and product__  
+> [!example] __sum and product__
 >
 > {@{Calls `reduce`}@} with {@{the chosen monoid}@} to implement {@{`sum` and `product`}@}.
 >
@@ -550,7 +550,7 @@ Using these, {@{`sum` and `product`}@} are defined by supplying {@{the appropria
 
 {@{There are two major ways}@} to use {@{Scala context}@}: {@{type classes and providing execution context}@}. Above, we have focused on {@{type classes}@}, which are about {@{_type_ instances of generic traits}@}. To use an instance, {@{a contextual parameter}@} is required:
 
-> [!example] __using a contextual parameter__  
+> [!example] __using a contextual parameter__
 >
 > {@{Type classes}@} are about {@{_type_ instances of generic traits}@}. To use an instance, {@{a contextual parameter}@} is required:
 >
@@ -562,11 +562,11 @@ Using these, {@{`sum` and `product`}@} are defined by supplying {@{the appropria
 
 In contrast, {@{an execution context}@} usually abstracts over {@{a simple type}@}, and provides information needed to {@{execute the current code}@}. Intuitively, {@{_type classes_, implemented using Scala contexts}@}, provide {@{_type-level_ information}@}, while {@{_execution contexts_, also implemented using Scala contexts}@}, provide {@{_runtime-level_ information}@}.
 
-### execution contexts  
+### execution contexts
 
 An example where {@{execution contexts become useful}@} is {@{parallel runtimes}@}. Parallel runtimes need {@{schedulers}@}. {@{A scheduler}@} is represented by {@{the type `ExecutionContext`}@}. {@{A default instance}@} is usually declared as
 
-> [!example] __default execution context__  
+> [!example] __default execution context__
 >
 > Parallel runtimes need {@{schedulers}@}. {@{A scheduler}@} is represented by {@{the type `ExecutionContext`}@}. {@{A default instance}@} is usually declared as
 >
@@ -578,7 +578,7 @@ An example where {@{execution contexts become useful}@} is {@{parallel runtimes}
 
 {@{Functions that run asynchronous code}@} take it as {@{a contextual parameter}@}:
 
-> [!example] __passing an execution context__  
+> [!example] __passing an execution context__
 >
 > {@{Functions that run asynchronous code}@} take it as {@{a contextual parameter}@}:
 >
@@ -601,7 +601,7 @@ Another example is {@{an expression language}@} carrying {@{its own _environment
 >   case Prod(x, y: Expr)
 >   case Var(name: String)
 >   case Let(name: String, rhs: Expr, body: Expr)
-> 
+>
 > def eval(e: Expr): Int =
 >   def recur(e: Expr)(using env: Map[String, Int]): Int = e match
 >     case Number(n)            => n
@@ -619,7 +619,7 @@ Another example is {@{an expression language}@} carrying {@{its own _environment
 
 {@{Using common types such as `Int` or `String`}@} as {@{global given instances}@} is {@{error‑prone}@}. Instead, {@{opaque types}@} hide {@{the underlying representation}@}:
 
-> [!example] __opaque type alias__  
+> [!example] __opaque type alias__
 >
 > {@{Using common types such as `Int` or `String`}@} as {@{global given instances}@} is {@{error‑prone}@}. Instead, {@{opaque types}@} hide {@{the underlying representation}@}:
 >
@@ -633,7 +633,7 @@ Another example is {@{an expression language}@} carrying {@{its own _environment
 
 Outside {@{the current scope (`Conf`)}@}, the alias is {@{an abstract type}@}; two different modules can declare {@{their own `Viewers` without clash}@}. When {@{a function requires this context}@}, it declares {@{a contextual parameter}@}:
 
-> [!example] __contextual parameter with opaque type__  
+> [!example] __contextual parameter with opaque type__
 >
 > When {@{a function requires this context}@}, it declares {@{a contextual parameter}@}:
 >
@@ -648,7 +648,7 @@ Outside {@{the current scope (`Conf`)}@}, the alias is {@{an abstract type}@}; t
 
 A method that previously {@{required an explicit `using Viewers` argument}@} can now be written as {@{a method returning a value of type `Viewers ?=> List[Paper]`}@}. The compiler infers {@{the `using` argument automatically}@}, so callers still {@{need not pass it explicitly just as before}@}.
 
-> [!example] __implicit function type__  
+> [!example] __implicit function type__
 >
 > A method that previously {@{required an explicit `using Viewers` argument}@} can now be written as {@{a method returning a value of type `Viewers ?=> List[Paper]`}@}. The compiler infers {@{the `using` argument automatically}@}, so callers still {@{need not pass it explicitly just as before}@}.
 >
@@ -660,7 +660,7 @@ A method that previously {@{required an explicit `using Viewers` argument}@} can
 
 Replacing {@{a method signature ending in `/* ... */ (using Viewers): T`}@} with {@{`/* ... */ : Viewed[T]` (where `type Viewed[T] = Viewers ?=> T`)}@} shortens {@{the syntax and keeps the same semantics}@}.
 
-> [!example] __type alias for context abstraction__  
+> [!example] __type alias for context abstraction__
 >
 > Replacing {@{a method signature ending in `/* ... */ (using Viewers): T`}@} with {@{`/* ... */ : Viewed[T]` (where `type Viewed[T] = Viewers ?=> T`)}@} shortens {@{the syntax and keeps the same semantics}@}.
 >

@@ -386,7 +386,7 @@ The stack segment is {@{automatic storage, used to store local variables in high
 
 MIPS \(MIPS I\) have {@{only one addressing mode: base + displacement}@}.
 
-\(__this course__: whole paragraph\) However, for this course, we consider addressing mode {@{to include referencing data, not just referencing memory in operands}@}. If so, we have {@{5 addressing mode}@}: {@{immediate, register, base \(+ displacement\), PC-relative, and pseudo-direct addressing}@}.
+\(__this course__: whole paragraph\) However, for this course, we consider addressing mode {@{to include referencing data, not just referencing memory in operands}@}. If so, we have {@{5 addressing mode}@}: {@{immediate, register, base \(+ displacement\)}@}, {@{PC-relative, and pseudo-direct addressing}@}.
 
 - immediate addressing ::@:: Not really an addressing mode... It refers to the 16-bit immediate field in an I instruction.
 - register addressing ::@:: Not really an addressing mode... It refers to the register fields in an R or I instruction.
