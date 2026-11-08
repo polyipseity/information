@@ -9,6 +9,7 @@ Covers all exported functions:
 * ``_separate_block_quotes`` — MD028 suppression between adjacent blockquotes
 * ``_separate_block_math`` — whitespace around ``$$…$$`` blocks
 * ``_merge_dl_after_thumb_into_list`` — thumbnail/list merging for ``<dl>`` captions
+* ``_math_source_from_data_mw`` — Parsoid ``data-mw`` source fallback
 * ``_normalize_math_source`` — TeX normalization for lifted ``data-mw`` sources
 * ``wiki_html_to_plaintext`` — post-processing after the converter
 * ``run_pipeline`` — top-level orchestrator
@@ -29,12 +30,13 @@ from scripts.convert_wiki.config import (
     _MATH_SEPARATOR_CHARACTERS,
     _UNICODE_SEPARATOR_CHARACTERS,
 )
-from scripts.convert_wiki.converter import WikiHtmlConverter
+from scripts.convert_wiki.converter import WikiHtmlConverter, _syntaxhighlight_source
 from scripts.convert_wiki.pipeline import (
     _MATH_ENV_ALIASES,
     _collect_block_math_info,
     _determine_needs_after,
     _determine_needs_before,
+    _math_source_from_data_mw,
     _merge_dl_after_thumb_into_list,
     _normalize_math_source,
     _preprocess_html,
@@ -1202,6 +1204,210 @@ class TestPreprocessMathSource:
         """Modern block math renders as ``$$…$$``."""
         result = await _convert_html(_BLOCK_MODERN_MATH % "M = E - N + 2P")
         assert "$$M = E - N + 2P$$" in result
+
+
+# =========================================================================
+# data-mw — defensive fallbacks and merge ordering
+# =========================================================================
+
+
+def _element_with_data_mw(name: str, data_mw: str | None) -> Tag:
+    """Return a ``<name>`` element whose ``data-mw`` attribute is *data_mw*."""
+    attribute = "" if data_mw is None else f" data-mw='{data_mw}'"
+    element = BeautifulSoup(f"<{name}{attribute}></{name}>", "html.parser").find(name)
+    assert isinstance(element, Tag)
+    return element
+
+
+def _math_alttexts(soup: Tag) -> list[str]:
+    """Return the ``alttext`` of every ``<math>`` in *soup*, in document order."""
+    alttexts: list[str] = []
+    for math in soup.find_all("math"):
+        assert isinstance(math, Tag)
+        alttexts.append(str(math.get("alttext", "")))
+    return alttexts
+
+
+def _inline_math_span(
+    source: str, *, classes: str = "mwe-math-element mwe-math-element-inline"
+) -> str:
+    """Return inline-math markup carrying *source* only in its ``data-mw``.
+
+    The ``<math>`` element has no ``alttext``, so nothing can read the source
+    until ``_set_math_alttext_from_data_mw`` lifts it with *classes* deciding
+    whether the span counts as inline or block math.
+    """
+    payload = json.dumps({"name": "math", "attrs": {}, "body": {"extsrc": source}})
+    return (
+        f'<span class="{classes}">'
+        '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
+        '<math xmlns="http://www.w3.org/1998/Math/MathML"'
+        ' typeof="mw:Extension/math"'
+        f" data-mw='{payload}'><mrow><mi>x</mi></mrow></math></span></span>"
+    )
+
+
+class TestDataMwDefensiveBranches:
+    """Tests for the fallback each ``data-mw`` reader takes on a bad payload.
+
+    ``_math_source_from_data_mw`` and ``_syntaxhighlight_source`` both lift a
+    Parsoid extension invocation, and both must degrade — to ``""`` and to
+    ``None`` — instead of raising, so the caller falls back to the rendered
+    MathML text or to the generic ``<div>`` handling.
+    """
+
+    @pytest.mark.parametrize(
+        "data_mw",
+        [
+            pytest.param(None, id="missing"),
+            pytest.param("{not json", id="invalid-json"),
+            pytest.param('["math"]', id="not-a-dict"),
+            pytest.param(
+                '{"name": "syntaxhighlight", "body": {"extsrc": "S"}}',
+                id="wrong-name",
+            ),
+            pytest.param('{"name": "math"}', id="missing-body"),
+            pytest.param('{"name": "math", "body": "S"}', id="non-dict-body"),
+            pytest.param(
+                '{"name": "math", "body": {"extsrc": 1}}', id="non-string-extsrc"
+            ),
+        ],
+    )
+    def test_math_source_falls_back_to_empty_string(self, data_mw: str | None) -> None:
+        """An unusable payload yields ``""`` so the annotation fallback runs."""
+        math = _element_with_data_mw("math", data_mw)
+        assert _math_source_from_data_mw(math) == ""
+
+    @pytest.mark.parametrize(
+        "data_mw",
+        [
+            pytest.param(None, id="missing"),
+            pytest.param('{"name": "syntaxhighlight", "body":', id="invalid-json"),
+            pytest.param('["syntaxhighlight"]', id="not-a-dict"),
+            pytest.param(
+                '{"name": "syntaxhighlight-extra", "body": {"extsrc": "x"}}',
+                id="wrong-name",
+            ),
+            pytest.param('{"name": "syntaxhighlight"}', id="missing-body"),
+            pytest.param(
+                '{"name": "syntaxhighlight", "body": "x"}', id="non-dict-body"
+            ),
+            pytest.param(
+                '{"name": "syntaxhighlight", "body": {"extsrc": 1}}',
+                id="non-string-extsrc",
+            ),
+        ],
+    )
+    def test_syntaxhighlight_falls_back_to_none(self, data_mw: str | None) -> None:
+        """An unusable payload yields ``None`` so the generic div handling runs.
+
+        Every payload but the missing one spells ``syntaxhighlight``, so the
+        cheap substring precheck passes and the payload parser is what rejects
+        them.
+        """
+        div = _element_with_data_mw("div", data_mw)
+        assert _syntaxhighlight_source(div) is None
+
+    @pytest.mark.parametrize(
+        "data_mw",
+        [
+            pytest.param(
+                '{"name": "syntaxhighlight", "body": {"extsrc": "x"}}',
+                id="missing-attrs",
+            ),
+            pytest.param(
+                '{"name": "syntaxhighlight", "attrs": ["lang", "c"],'
+                ' "body": {"extsrc": "x"}}',
+                id="non-dict-attrs",
+            ),
+            pytest.param(
+                '{"name": "syntaxhighlight", "attrs": {}, "body": {"extsrc": "x"}}',
+                id="empty-attrs",
+            ),
+        ],
+    )
+    def test_syntaxhighlight_without_lang_attrs_defaults_to_text(
+        self, data_mw: str
+    ) -> None:
+        """Absent or non-mapping ``attrs`` gives the ``text`` info string.
+
+        A fence without an info string fails markdownlint MD040, so the
+        language has to default rather than come back empty.
+        """
+        div = _element_with_data_mw("div", data_mw)
+        assert _syntaxhighlight_source(div) == ("text", "x")
+
+
+class TestDataMwMergeOrdering:
+    """Tests that adjacent-math merging reads a source lifted from ``data-mw``.
+
+    ``_preprocess_html`` lifts the Parsoid source into ``alttext`` before it
+    merges adjacent inline math spans, and both the ``=`` continuation guard
+    and the merged text read ``alttext``.  Every fixture below carries its TeX
+    only in ``data-mw``, so a lift placed after the merge would join empty
+    strings and drop the continuation guard.
+    """
+
+    def test_dd_merges_inline_spans_carrying_data_mw_source(self) -> None:
+        """Two adjacent inline spans in a ``<dd>`` merge into one ``alttext``."""
+        soup = BeautifulSoup(
+            f"<dl><dd>{_inline_math_span('a')} {_inline_math_span('b')}</dd></dl>",
+            "html.parser",
+        )
+        _preprocess_html(soup)
+        assert _math_alttexts(soup) == ["a b"]
+
+    def test_paragraph_merges_when_first_part_ends_with_equals(self) -> None:
+        """A trailing ``=`` plus a lifted source merges into ``a = b``.
+
+        The guard only lets the run continue while the previous part looks
+        unfinished, so the continuation is kept when it should be.
+        """
+        soup = BeautifulSoup(
+            f"<p>{_inline_math_span('a =')} {_inline_math_span('b')}</p>",
+            "html.parser",
+        )
+        _preprocess_html(soup)
+        assert _math_alttexts(soup) == ["a = b"]
+
+    def test_paragraph_keeps_parts_apart_without_trailing_equals(self) -> None:
+        """Without a trailing ``=`` the two spans stay separate.
+
+        This is where the ordering shows: the guard needs the lifted
+        ``alttext`` to see that the first part finished, so a lift placed
+        after the merge would join the spans into one.
+        """
+        soup = BeautifulSoup(
+            f"<p>{_inline_math_span('a')} {_inline_math_span('b')}</p>",
+            "html.parser",
+        )
+        _preprocess_html(soup)
+        assert _math_alttexts(soup) == ["a", "b"]
+
+    def test_run_with_block_math_is_not_merged(self) -> None:
+        """A block span in the run keeps the parts apart.
+
+        Merging would turn the block's ``$$…$$`` into one inline ``$…$`` run
+        with the neighbouring span, so the run is left untouched.
+        """
+        block = _inline_math_span(
+            "b", classes="mwe-math-element mwe-math-element-block"
+        )
+        soup = BeautifulSoup(
+            f"<dl><dd>{_inline_math_span('a')} {block}</dd></dl>", "html.parser"
+        )
+        _preprocess_html(soup)
+        assert _math_alttexts(soup) == ["a", "b"]
+
+    def test_merged_run_keeps_normalized_environment(self) -> None:
+        """The ``align`` source is aliased before the merge joins the parts."""
+        source = r"\begin{align} a \end{align}"
+        soup = BeautifulSoup(
+            f"<dl><dd>{_inline_math_span(source)} {_inline_math_span('b')}</dd></dl>",
+            "html.parser",
+        )
+        _preprocess_html(soup)
+        assert _math_alttexts(soup) == [r"\begin{aligned} a \end{aligned} b"]
 
 
 class TestWikiHtmlToPlaintext:
