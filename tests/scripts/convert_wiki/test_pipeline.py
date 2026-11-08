@@ -1314,6 +1314,35 @@ class TestWikiHtmlToPlaintext:
         )
         assert result == "```text\nplain block\n```\n"
 
+    @pytest.mark.anyio
+    async def test_syntaxhighlight_in_table_cell_becomes_inline_code(self) -> None:
+        """A syntaxhighlight cell becomes one ``<code>`` element, not a fence.
+
+        ``TableConverter.process_table_cell`` collapses every newline in a
+        cell into a ``<br/>``, so a fenced block would be mangled into one
+        cell line and break the table around it.  The payload source becomes
+        inline code whose lines are joined by ``<br/>``, with indentation as
+        entities and ``|`` encoded so the cell pass leaves both alone.
+        """
+        result = await _convert_html(
+            '<table class="wikitable"><tbody><tr><td>'
+            '<div class="mw-highlight mw-highlight-lang-c mw-content-ltr"'
+            ' typeof="mw:Extension/syntaxhighlight"'
+            ' data-mw=\'{"name":"syntaxhighlight","attrs":{"lang":"c"},'
+            '"body":{"extsrc":"if (a < b && c) {\\n    x |= 1;\\n}"}}\'>'
+            '<pre><span class="k">if</span> <span class="p">(</span>'
+            '<span class="n">a</span> <span class="o">&lt;</span>'
+            ' <span class="n">b</span> <span class="o">&amp;&amp;</span>'
+            ' <span class="n">c</span><span class="p">)</span></pre>'
+            "</div></td></tr></tbody></table>"
+        )
+        assert (
+            "<code>if (a &lt; b &amp;&amp; c) {<br/>&nbsp;&nbsp;&nbsp;&nbsp;"
+            "x &#124;= 1;<br/>}</code>"
+        ) in result
+        assert "```" not in result
+        assert " | " not in result
+
 
 # =========================================================================
 # run_pipeline — top-level orchestrator

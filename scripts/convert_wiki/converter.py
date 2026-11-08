@@ -35,6 +35,7 @@ Related modules
 - ``pipeline``: orchestration (preprocess → convert → postprocess).
 """
 
+import html
 import re
 import unicodedata
 from collections.abc import Iterable, Mapping, MutableSet
@@ -220,6 +221,25 @@ def _syntaxhighlight_source(ele: Tag) -> tuple[str, str] | None:
         return None
     lang = payload.attrs.get("lang")
     return (lang if isinstance(lang, str) and lang else "text"), source
+
+
+def _table_cell_code(source: str) -> str:
+    """Render extension source as inline code for a table cell.
+
+    ``TableConverter.process_table_cell`` collapses every newline in a cell
+    into a ``<br/>``, which would mangle a fenced block into one cell line and
+    break the table around it.  A single ``<code>`` element carries the code
+    inline instead: the lines keep their order because the breaks are
+    explicit ``<br/>`` tags, the indentation survives as entities because the
+    cell pass only expands *leading* whitespace, and each ``|`` is encoded so
+    the source can never read as a pipe-table delimiter.
+    """
+    lines: list[str] = []
+    for line in html.escape(source.strip("\n"), quote=False).split("\n"):
+        indent = line[: len(line) - len(line.lstrip(" \t"))]
+        body = line[len(indent) :].replace("|", "&#124;")
+        lines.append(indent.replace(" ", "&nbsp;").replace("\t", "&emsp;") + body)
+    return f"<code>{'<br/>'.join(lines)}</code>"
 
 
 def _needs_marker(character: str) -> bool:
@@ -1658,6 +1678,15 @@ class WikiHtmlConverter:
         """
         if (syntaxhighlight := _syntaxhighlight_source(ele)) is not None:
             lang, source = syntaxhighlight
+            if self._in_table_cell(ele):
+
+                def _cell_code(strings: str) -> str:
+                    """Render the extension source as inline code in a cell."""
+                    # ``strings`` holds the highlighted ``<span>`` text, whose
+                    # line breaks are gone, so the payload is the only source.
+                    return _table_cell_code(source)
+
+                return _HandlerConfig(full_result=True, process_strings=_cell_code)
 
             def _fence(strings: str) -> str:
                 """Render the extension source as a fenced code block."""
