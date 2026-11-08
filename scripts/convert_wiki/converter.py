@@ -35,7 +35,7 @@ Related modules
 - ``pipeline``: orchestration (preprocess → convert → postprocess).
 """
 
-import json
+import html
 import re
 import unicodedata
 from collections.abc import Iterable, Mapping, MutableSet
@@ -79,6 +79,7 @@ from .template_config import (
 from .types import _HandlerConfig, _RedirectInfo
 from .utils import (
     _balance_brackets,
+    _data_mw_payload,
     _encode_fragment,
     _fix_name_maybe,
     _fix_stem,
@@ -212,21 +213,34 @@ def _syntaxhighlight_source(ele: Tag) -> tuple[str, str] | None:
     # discard those before paying for a JSON parse.
     if "syntaxhighlight" not in raw_source:
         return None
-    try:
-        data_mw = json.loads(raw_source)
-    except json.JSONDecodeError:
+    payload = _data_mw_payload(ele, "syntaxhighlight")
+    if payload is None:
         return None
-    if not isinstance(data_mw, dict) or data_mw.get("name") != "syntaxhighlight":
-        return None
-    body = data_mw.get("body")
-    if not isinstance(body, dict):
-        return None
-    source = body.get("extsrc")
+    source = payload.body.get("extsrc")
     if not isinstance(source, str):
         return None
-    attrs = data_mw.get("attrs")
-    lang = attrs.get("lang") if isinstance(attrs, dict) else None
+    lang = payload.attrs.get("lang")
     return (lang if isinstance(lang, str) and lang else "text"), source
+
+
+def _table_cell_code(source: str) -> str:
+    """Render extension source as inline code for a table cell.
+
+    ``TableConverter.process_table_cell`` collapses every newline in a cell
+    into a ``<br/>``, which would mangle a fenced block into one cell line and
+    break the table around it.  A single ``<code>`` element carries the code
+    inline instead: the lines keep their order because the breaks are
+    explicit ``<br/>`` tags, the indentation survives as entities because the
+    cell pass only expands *leading* whitespace, ``|`` is encoded so the
+    source can never read as a pipe-table delimiter, and ``$`` is encoded so a
+    dollar in the source stays text instead of opening inline math.
+    """
+    lines: list[str] = []
+    for line in html.escape(source.strip("\n"), quote=False).split("\n"):
+        indent = line[: len(line) - len(line.lstrip(" \t"))]
+        body = line[len(indent) :].replace("|", "&#124;").replace("$", "&#36;")
+        lines.append(indent.replace(" ", "&nbsp;").replace("\t", "&emsp;") + body)
+    return f"<code>{'<br/>'.join(lines)}</code>"
 
 
 def _needs_marker(character: str) -> bool:
@@ -1659,12 +1673,23 @@ class WikiHtmlConverter:
         """Handle <div> elements.
 
         ``syntaxhighlight`` extension wrappers become fenced code blocks read
-        from their ``data-mw`` payload; ``equation-box`` divs are delegated to
-        :class:`TableConverter`; remaining classes get their own spacing and
-        wrapper (see the branches below), and everything else is block-level.
+        from their ``data-mw`` payload outside table cells, and one inline
+        ``<code>`` element inside a cell, where a fence would break the table;
+        ``equation-box`` divs are delegated to :class:`TableConverter`;
+        remaining classes get their own spacing and wrapper (see the branches
+        below), and everything else is block-level.
         """
         if (syntaxhighlight := _syntaxhighlight_source(ele)) is not None:
             lang, source = syntaxhighlight
+            if self._in_table_cell(ele):
+
+                def _cell_code(strings: str) -> str:
+                    """Render the extension source as inline code in a cell."""
+                    # ``strings`` holds the highlighted ``<span>`` text, whose
+                    # line breaks are gone, so the payload is the only source.
+                    return _table_cell_code(source)
+
+                return _HandlerConfig(full_result=True, process_strings=_cell_code)
 
             def _fence(strings: str) -> str:
                 """Render the extension source as a fenced code block."""

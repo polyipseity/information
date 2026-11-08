@@ -9,12 +9,15 @@ Covers all exported functions:
 * ``_separate_block_quotes`` — MD028 suppression between adjacent blockquotes
 * ``_separate_block_math`` — whitespace around ``$$…$$`` blocks
 * ``_merge_dl_after_thumb_into_list`` — thumbnail/list merging for ``<dl>`` captions
+* ``_math_source_from_data_mw`` — Parsoid ``data-mw`` source fallback
+* ``_normalize_math_source`` — TeX normalization for lifted ``data-mw`` sources
 * ``wiki_html_to_plaintext`` — post-processing after the converter
 * ``run_pipeline`` — top-level orchestrator
 """
 
 from __future__ import annotations
 
+import json
 from os import PathLike
 from typing import Any
 
@@ -27,12 +30,15 @@ from scripts.convert_wiki.config import (
     _MATH_SEPARATOR_CHARACTERS,
     _UNICODE_SEPARATOR_CHARACTERS,
 )
-from scripts.convert_wiki.converter import WikiHtmlConverter
+from scripts.convert_wiki.converter import WikiHtmlConverter, _syntaxhighlight_source
 from scripts.convert_wiki.pipeline import (
+    _MATH_ENV_ALIASES,
     _collect_block_math_info,
     _determine_needs_after,
     _determine_needs_before,
+    _math_source_from_data_mw,
     _merge_dl_after_thumb_into_list,
+    _normalize_math_source,
     _preprocess_html,
     _scan_and_apply,
     _separate_block_math,
@@ -40,6 +46,7 @@ from scripts.convert_wiki.pipeline import (
     run_pipeline,
     wiki_html_to_plaintext,
 )
+from scripts.convert_wiki.template_config import _DISPLAY_MATH_ENVIRONMENTS
 from scripts.convert_wiki.types import _RedirectInfo
 
 """Public API of this test module (empty: no symbols are exported)."""
@@ -1034,6 +1041,98 @@ _BLOCK_MODERN_MATH = (
 )
 
 
+class TestNormalizeMathSource:
+    """Tests for ``_normalize_math_source``.
+
+    Parsoid keeps the wikitext's newlines and indentation in ``data-mw``, and
+    Wikipedia writes display math with environments (``align``, ``eqnarray``,
+    …) that Obsidian's MathJax build does not define.
+    """
+
+    @pytest.mark.parametrize(
+        ("environment", "expected"),
+        [
+            ("align", "aligned"),
+            ("align*", "aligned"),
+            ("alignat", "alignedat"),
+            ("alignat*", "alignedat"),
+            ("gather", "gathered"),
+            ("gather*", "gathered"),
+            ("eqnarray", "aligned"),
+            ("eqnarray*", "aligned"),
+        ],
+    )
+    def test_environment_is_aliased(self, environment: str, expected: str) -> None:
+        r"""Both ``\begin`` and ``\end`` of a known environment are rewritten."""
+        source = rf"\begin{{{environment}}}a &= b\end{{{environment}}}"
+        assert _normalize_math_source(source) == (
+            rf"\begin{{{expected}}}a &= b\end{{{expected}}}"
+        )
+
+    def test_aliases_are_display_math_environments(self) -> None:
+        r"""Every normalized name is a recognized display math environment.
+
+        The converter decides display-math rendering and trailing-punctuation
+        absorption by matching ``\end{env}`` against
+        ``_DISPLAY_MATH_ENVIRONMENTS``, so a normalized name missing from that
+        list would lose both behaviours.
+        """
+        missing = sorted(
+            set(_MATH_ENV_ALIASES.values()) - set(_DISPLAY_MATH_ENVIRONMENTS)
+        )
+        assert not missing, missing
+
+    @pytest.mark.parametrize("environment", ["multline", "multline*"])
+    def test_multline_environment_is_unchanged(self, environment: str) -> None:
+        """``multline`` renders natively in MathJax 4, so its name is kept."""
+        source = rf"\begin{{{environment}}}a &= b\end{{{environment}}}"
+        assert _normalize_math_source(source) == source
+
+    def test_multline_is_a_display_math_environment(self) -> None:
+        """Both ``multline`` forms count as display math.
+
+        The normalizer keeps the name because MathJax 4 renders it natively,
+        so the display-environment list has to carry both forms or the
+        converter loses its display rendering and punctuation handling.
+        """
+        assert "multline" in _DISPLAY_MATH_ENVIRONMENTS
+        assert "multline*" in _DISPLAY_MATH_ENVIRONMENTS
+
+    def test_alignat_column_count_is_kept(self) -> None:
+        """The ``alignat`` column count stays after the rewritten environment."""
+        source = r"\begin{alignat}{2}a &= b\end{alignat}"
+        assert _normalize_math_source(source) == (
+            r"\begin{alignedat}{2}a &= b\end{alignedat}"
+        )
+
+    def test_unknown_environment_is_unchanged(self) -> None:
+        """An environment outside the alias map is left alone."""
+        source = r"\begin{equation}a = b\end{equation}"
+        assert _normalize_math_source(source) == source
+
+    def test_whitespace_collapses_to_one_space(self) -> None:
+        """Newlines, tabs, and indentation collapse, and the result is stripped."""
+        source = "\n\\begin{aligned}\n\ta &= b \\\\\n\t\tc &= d\n\\end{aligned}\n"
+        assert _normalize_math_source(source) == (
+            R"\begin{aligned} a &= b \\ c &= d \end{aligned}"
+        )
+
+    def test_percent_comment_is_removed_before_collapse(self) -> None:
+        r"""A ``%`` comment drops the rest of its line before the newlines collapse.
+
+        Collapsing first would let the comment swallow the ``\end{align}`` on
+        the following line, so the removal has to happen first.
+        """
+        source = "\\begin{align}a &= b % first row\n\\end{align}"
+        assert _normalize_math_source(source) == (
+            r"\begin{aligned}a &= b \end{aligned}"
+        )
+
+    def test_escaped_percent_is_literal(self) -> None:
+        r"""``\%`` is a literal percent, so text such as ``50\%`` survives."""
+        assert _normalize_math_source(r"\text{50\%}") == r"\text{50\%}"
+
+
 class TestPreprocessMathSource:
     """Tests for lifting Parsoid math source into the ``alttext`` attribute.
 
@@ -1082,6 +1181,43 @@ class TestPreprocessMathSource:
         _preprocess_html(soup)
         assert math["alttext"] == R"{\displaystyle T}"
 
+    def test_existing_alttext_is_not_normalized(self) -> None:
+        """An existing ``alttext`` keeps its newlines and environments."""
+        soup = BeautifulSoup(_INLINE_MODERN_MATH % "S", "html.parser")
+        math = soup.find("math")
+        assert isinstance(math, Tag)
+        existing = "\\begin{align}\n  a &= b\n\\end{align}"
+        math["alttext"] = existing
+        _preprocess_html(soup)
+        assert math["alttext"] == existing
+
+    def test_data_mw_align_environment_is_normalized(self) -> None:
+        """A multi-line ``align`` source normalizes into a single-line ``alttext``."""
+        source = "\\begin{align}\n  a &= b \\\\\n  c &= d\n\\end{align}"
+        # The attribute holds JSON, whose escapes must carry the newlines.
+        soup = BeautifulSoup(
+            _BLOCK_MODERN_MATH % json.dumps(source)[1:-1], "html.parser"
+        )
+        _preprocess_html(soup)
+        math = soup.find("math")
+        assert isinstance(math, Tag)
+        assert math["alttext"] == R"\begin{aligned} a &= b \\ c &= d \end{aligned}"
+
+    def test_annotation_source_is_normalized(self) -> None:
+        """The ``<annotation>`` fallback is normalized like ``data-mw``."""
+        html = (
+            '<p>See <math xmlns="http://www.w3.org/1998/Math/MathML">'
+            "<semantics><mrow><mi>x</mi></mrow>"
+            '<annotation encoding="application/x-tex">\n  \\begin{gather}\n'
+            "  x = 1\n  \\end{gather}\n</annotation>"
+            "</semantics></math></p>"
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        _preprocess_html(soup)
+        math = soup.find("math")
+        assert isinstance(math, Tag)
+        assert math["alttext"] == R"\begin{gathered} x = 1 \end{gathered}"
+
     @pytest.mark.anyio
     async def test_inline_math_renders_latex(self) -> None:
         """Modern inline math renders as ``$…$``, not as bare MathML text."""
@@ -1093,6 +1229,210 @@ class TestPreprocessMathSource:
         """Modern block math renders as ``$$…$$``."""
         result = await _convert_html(_BLOCK_MODERN_MATH % "M = E - N + 2P")
         assert "$$M = E - N + 2P$$" in result
+
+
+# =========================================================================
+# data-mw — defensive fallbacks and merge ordering
+# =========================================================================
+
+
+def _element_with_data_mw(name: str, data_mw: str | None) -> Tag:
+    """Return a ``<name>`` element whose ``data-mw`` attribute is *data_mw*."""
+    attribute = "" if data_mw is None else f" data-mw='{data_mw}'"
+    element = BeautifulSoup(f"<{name}{attribute}></{name}>", "html.parser").find(name)
+    assert isinstance(element, Tag)
+    return element
+
+
+def _math_alttexts(soup: Tag) -> list[str]:
+    """Return the ``alttext`` of every ``<math>`` in *soup*, in document order."""
+    alttexts: list[str] = []
+    for math in soup.find_all("math"):
+        assert isinstance(math, Tag)
+        alttexts.append(str(math.get("alttext", "")))
+    return alttexts
+
+
+def _inline_math_span(
+    source: str, *, classes: str = "mwe-math-element mwe-math-element-inline"
+) -> str:
+    """Return inline-math markup carrying *source* only in its ``data-mw``.
+
+    The ``<math>`` element has no ``alttext``, so nothing can read the source
+    until ``_set_math_alttext_from_data_mw`` lifts it with *classes* deciding
+    whether the span counts as inline or block math.
+    """
+    payload = json.dumps({"name": "math", "attrs": {}, "body": {"extsrc": source}})
+    return (
+        f'<span class="{classes}">'
+        '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
+        '<math xmlns="http://www.w3.org/1998/Math/MathML"'
+        ' typeof="mw:Extension/math"'
+        f" data-mw='{payload}'><mrow><mi>x</mi></mrow></math></span></span>"
+    )
+
+
+class TestDataMwDefensiveBranches:
+    """Tests for the fallback each ``data-mw`` reader takes on a bad payload.
+
+    ``_math_source_from_data_mw`` and ``_syntaxhighlight_source`` both lift a
+    Parsoid extension invocation, and both must degrade — to ``""`` and to
+    ``None`` — instead of raising, so the caller falls back to the rendered
+    MathML text or to the generic ``<div>`` handling.
+    """
+
+    @pytest.mark.parametrize(
+        "data_mw",
+        [
+            pytest.param(None, id="missing"),
+            pytest.param("{not json", id="invalid-json"),
+            pytest.param('["math"]', id="not-a-dict"),
+            pytest.param(
+                '{"name": "syntaxhighlight", "body": {"extsrc": "S"}}',
+                id="wrong-name",
+            ),
+            pytest.param('{"name": "math"}', id="missing-body"),
+            pytest.param('{"name": "math", "body": "S"}', id="non-dict-body"),
+            pytest.param(
+                '{"name": "math", "body": {"extsrc": 1}}', id="non-string-extsrc"
+            ),
+        ],
+    )
+    def test_math_source_falls_back_to_empty_string(self, data_mw: str | None) -> None:
+        """An unusable payload yields ``""`` so the annotation fallback runs."""
+        math = _element_with_data_mw("math", data_mw)
+        assert _math_source_from_data_mw(math) == ""
+
+    @pytest.mark.parametrize(
+        "data_mw",
+        [
+            pytest.param(None, id="missing"),
+            pytest.param('{"name": "syntaxhighlight", "body":', id="invalid-json"),
+            pytest.param('["syntaxhighlight"]', id="not-a-dict"),
+            pytest.param(
+                '{"name": "syntaxhighlight-extra", "body": {"extsrc": "x"}}',
+                id="wrong-name",
+            ),
+            pytest.param('{"name": "syntaxhighlight"}', id="missing-body"),
+            pytest.param(
+                '{"name": "syntaxhighlight", "body": "x"}', id="non-dict-body"
+            ),
+            pytest.param(
+                '{"name": "syntaxhighlight", "body": {"extsrc": 1}}',
+                id="non-string-extsrc",
+            ),
+        ],
+    )
+    def test_syntaxhighlight_falls_back_to_none(self, data_mw: str | None) -> None:
+        """An unusable payload yields ``None`` so the generic div handling runs.
+
+        Every payload but the missing one spells ``syntaxhighlight``, so the
+        cheap substring precheck passes and the payload parser is what rejects
+        them.
+        """
+        div = _element_with_data_mw("div", data_mw)
+        assert _syntaxhighlight_source(div) is None
+
+    @pytest.mark.parametrize(
+        "data_mw",
+        [
+            pytest.param(
+                '{"name": "syntaxhighlight", "body": {"extsrc": "x"}}',
+                id="missing-attrs",
+            ),
+            pytest.param(
+                '{"name": "syntaxhighlight", "attrs": ["lang", "c"],'
+                ' "body": {"extsrc": "x"}}',
+                id="non-dict-attrs",
+            ),
+            pytest.param(
+                '{"name": "syntaxhighlight", "attrs": {}, "body": {"extsrc": "x"}}',
+                id="empty-attrs",
+            ),
+        ],
+    )
+    def test_syntaxhighlight_without_lang_attrs_defaults_to_text(
+        self, data_mw: str
+    ) -> None:
+        """Absent or non-mapping ``attrs`` gives the ``text`` info string.
+
+        A fence without an info string fails markdownlint MD040, so the
+        language has to default rather than come back empty.
+        """
+        div = _element_with_data_mw("div", data_mw)
+        assert _syntaxhighlight_source(div) == ("text", "x")
+
+
+class TestDataMwMergeOrdering:
+    """Tests that adjacent-math merging reads a source lifted from ``data-mw``.
+
+    ``_preprocess_html`` lifts the Parsoid source into ``alttext`` before it
+    merges adjacent inline math spans, and both the ``=`` continuation guard
+    and the merged text read ``alttext``.  Every fixture below carries its TeX
+    only in ``data-mw``, so a lift placed after the merge would join empty
+    strings and drop the continuation guard.
+    """
+
+    def test_dd_merges_inline_spans_carrying_data_mw_source(self) -> None:
+        """Two adjacent inline spans in a ``<dd>`` merge into one ``alttext``."""
+        soup = BeautifulSoup(
+            f"<dl><dd>{_inline_math_span('a')} {_inline_math_span('b')}</dd></dl>",
+            "html.parser",
+        )
+        _preprocess_html(soup)
+        assert _math_alttexts(soup) == ["a b"]
+
+    def test_paragraph_merges_when_first_part_ends_with_equals(self) -> None:
+        """A trailing ``=`` plus a lifted source merges into ``a = b``.
+
+        The guard only lets the run continue while the previous part looks
+        unfinished, so the continuation is kept when it should be.
+        """
+        soup = BeautifulSoup(
+            f"<p>{_inline_math_span('a =')} {_inline_math_span('b')}</p>",
+            "html.parser",
+        )
+        _preprocess_html(soup)
+        assert _math_alttexts(soup) == ["a = b"]
+
+    def test_paragraph_keeps_parts_apart_without_trailing_equals(self) -> None:
+        """Without a trailing ``=`` the two spans stay separate.
+
+        This is where the ordering shows: the guard needs the lifted
+        ``alttext`` to see that the first part finished, so a lift placed
+        after the merge would join the spans into one.
+        """
+        soup = BeautifulSoup(
+            f"<p>{_inline_math_span('a')} {_inline_math_span('b')}</p>",
+            "html.parser",
+        )
+        _preprocess_html(soup)
+        assert _math_alttexts(soup) == ["a", "b"]
+
+    def test_run_with_block_math_is_not_merged(self) -> None:
+        """A block span in the run keeps the parts apart.
+
+        Merging would turn the block's ``$$…$$`` into one inline ``$…$`` run
+        with the neighbouring span, so the run is left untouched.
+        """
+        block = _inline_math_span(
+            "b", classes="mwe-math-element mwe-math-element-block"
+        )
+        soup = BeautifulSoup(
+            f"<dl><dd>{_inline_math_span('a')} {block}</dd></dl>", "html.parser"
+        )
+        _preprocess_html(soup)
+        assert _math_alttexts(soup) == ["a", "b"]
+
+    def test_merged_run_keeps_normalized_environment(self) -> None:
+        """The ``align`` source is aliased before the merge joins the parts."""
+        source = r"\begin{align} a \end{align}"
+        soup = BeautifulSoup(
+            f"<dl><dd>{_inline_math_span(source)} {_inline_math_span('b')}</dd></dl>",
+            "html.parser",
+        )
+        _preprocess_html(soup)
+        assert _math_alttexts(soup) == [r"\begin{aligned} a \end{aligned} b"]
 
 
 class TestWikiHtmlToPlaintext:
@@ -1313,6 +1653,39 @@ class TestWikiHtmlToPlaintext:
             "</div>"
         )
         assert result == "```text\nplain block\n```\n"
+
+    @pytest.mark.anyio
+    async def test_syntaxhighlight_in_table_cell_becomes_inline_code(self) -> None:
+        """A syntaxhighlight cell becomes one ``<code>`` element, not a fence.
+
+        ``TableConverter.process_table_cell`` collapses every newline in a
+        cell into a ``<br/>``, so a fenced block would be mangled into one
+        cell line and break the table around it.  The payload source becomes
+        inline code whose lines are joined by ``<br/>``, with indentation as
+        entities, ``|`` encoded against the pipe-table delimiter, and ``$``
+        encoded against inline math.
+        """
+        result = await _convert_html(
+            '<table class="wikitable"><tbody><tr><td>'
+            '<div class="mw-highlight mw-highlight-lang-c mw-content-ltr"'
+            ' typeof="mw:Extension/syntaxhighlight"'
+            ' data-mw=\'{"name":"syntaxhighlight","attrs":{"lang":"c"},'
+            '"body":{"extsrc":"if (a < b && c) {\\n    x |= 1;'
+            "\\n    // prices: $5 and $6\\n}\"}}'>"
+            '<pre><span class="k">if</span> <span class="p">(</span>'
+            '<span class="n">a</span> <span class="o">&lt;</span>'
+            ' <span class="n">b</span> <span class="o">&amp;&amp;</span>'
+            ' <span class="n">c</span><span class="p">)</span></pre>'
+            "</div></td></tr></tbody></table>"
+        )
+        assert (
+            "<code>if (a &lt; b &amp;&amp; c) {<br/>&nbsp;&nbsp;&nbsp;&nbsp;"
+            "x &#124;= 1;<br/>&nbsp;&nbsp;&nbsp;&nbsp;// prices: &#36;5 and "
+            "&#36;6<br/>}</code>"
+        ) in result
+        assert "```" not in result
+        assert " | " not in result
+        assert "$" not in result
 
 
 # =========================================================================

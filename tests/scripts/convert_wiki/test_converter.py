@@ -1743,6 +1743,23 @@ class TestInlineFormatting:
         assert "__Cyclomatic complexity__" in result
         assert "__ Cyclomatic complexity__" not in result
 
+    def test_br_appends_exactly_one_newline(self, converter: WikiHtmlConverter) -> None:
+        """``_handle_br`` should make its callback append one newline."""
+        br = BeautifulSoup("<br/>", "html.parser").br
+        assert isinstance(br, Tag)
+        config = converter._handle_br(br, frozenset())
+        assert config is not None
+        assert config.process_strings("line1") == "line1\n"
+
+    def test_br_apple_interchange_newline_returns_none(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """``_handle_br`` should return no config for Safari's marker."""
+        br = BeautifulSoup("<br/>", "html.parser").br
+        assert isinstance(br, Tag)
+        config = converter._handle_br(br, frozenset({"Apple-interchange-newline"}))
+        assert config is None
+
     @pytest.mark.anyio
     async def test_strikethrough(self, converter: WikiHtmlConverter) -> None:
         """``<s>`` should render as strikethrough."""

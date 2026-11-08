@@ -429,6 +429,77 @@ class TestGetImageFilename:
         assert result == expected
 
 
+class TestDataMwPayload:
+    """Tests for the _data_mw_payload function."""
+
+    @staticmethod
+    def _div(data_mw: str | None) -> Tag:
+        """Return a ``<div>`` whose ``data-mw`` attribute is *data_mw*."""
+        attribute = "" if data_mw is None else f" data-mw='{data_mw}'"
+        div = BeautifulSoup(f"<div{attribute}></div>", "html.parser").find("div")
+        assert isinstance(div, Tag)
+        return div
+
+    def test_valid_payload_returns_attrs_and_body(self) -> None:
+        """A payload invoking the named extension yields its attrs and body."""
+        div = BeautifulSoup(
+            '<div data-mw=\'{"name": "syntaxhighlight", '
+            '"attrs": {"lang": "python"}, '
+            '"body": {"extsrc": "print(1)"}}\'></div>',
+            "html.parser",
+        ).find("div")
+        assert isinstance(div, Tag)
+        payload = _mod._data_mw_payload(div, "syntaxhighlight")  # noqa: SLF001
+        assert payload is not None
+        assert payload.attrs == {"lang": "python"}
+        assert payload.body == {"extsrc": "print(1)"}
+
+    @pytest.mark.parametrize(
+        "data_mw",
+        [
+            pytest.param(None, id="missing"),
+            pytest.param("{not json", id="invalid-json"),
+            pytest.param('["syntaxhighlight"]', id="not-a-dict"),
+            pytest.param('{"name": "math", "body": {}}', id="wrong-name"),
+            pytest.param('{"name": "syntaxhighlight"}', id="missing-body"),
+            pytest.param(
+                '{"name": "syntaxhighlight", "body": "print(1)"}',
+                id="non-dict-body",
+            ),
+        ],
+    )
+    def test_unusable_payload_returns_none(self, data_mw: str | None) -> None:
+        """A missing, malformed, or unrelated payload yields ``None``."""
+        div = self._div(data_mw)
+        assert _mod._data_mw_payload(div, "syntaxhighlight") is None  # noqa: SLF001
+
+    @pytest.mark.parametrize(
+        "data_mw",
+        [
+            pytest.param(
+                '{"name": "syntaxhighlight", "body": {"extsrc": "x"}}',
+                id="missing-attrs",
+            ),
+            pytest.param(
+                '{"name": "syntaxhighlight", "attrs": ["lang"],'
+                ' "body": {"extsrc": "x"}}',
+                id="non-dict-attrs",
+            ),
+        ],
+    )
+    def test_unusable_attrs_becomes_empty_mapping(self, data_mw: str) -> None:
+        """A missing or non-mapping ``attrs`` yields an empty mapping.
+
+        ``_syntaxhighlight_source`` reads its ``lang`` default off ``attrs``,
+        so the substitution has to hand back a mapping it can index.
+        """
+        div = self._div(data_mw)
+        payload = _mod._data_mw_payload(div, "syntaxhighlight")  # noqa: SLF001
+        assert payload is not None
+        assert payload.attrs == {}
+        assert payload.body == {"extsrc": "x"}
+
+
 class TestBalanceBrackets:
     """Tests for the _balance_brackets function."""
 

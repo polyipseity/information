@@ -1,10 +1,14 @@
 """Utility functions for the Wikipedia HTML-to-Markdown converter.
 
-Pure helper functions with no class dependencies.
+Pure helper functions with no class dependencies, plus the ``_DataMwPayload``
+value object that both the pipeline and the converter read Parsoid's
+``data-mw`` attribute into.
 """
 
+import json
 import re
 from collections.abc import Collection, Mapping
+from dataclasses import dataclass
 from os import PathLike, fspath, replace
 from os.path import dirname, isabs, join, realpath, split
 from unicodedata import normalize as _normalize_unicode
@@ -310,6 +314,39 @@ def _get_image_filename(ele: Tag) -> str | None:
     if mwtitle := ele.get("data-mwtitle"):
         return str(mwtitle).replace("_", " ")
     return None
+
+
+@dataclass(frozen=True)
+class _DataMwPayload:
+    """An extension invocation Parsoid serialised into ``data-mw``."""
+
+    attrs: Mapping[str, object]
+    body: Mapping[str, object]
+
+
+def _data_mw_payload(ele: Tag, name: str) -> _DataMwPayload | None:
+    """Return *ele*'s ``data-mw`` payload when it invokes extension *name*.
+
+    Parsoid serialises an extension invocation as JSON in ``data-mw``, with
+    the extension name beside a ``body`` holding the invocation and an
+    optional ``attrs`` mapping of its parameters.  A missing, malformed, or
+    unrelated payload returns ``None`` so the caller falls back to whatever
+    the element rendered.
+    """
+    raw = ele.get("data-mw")
+    if raw is None:
+        return None
+    try:
+        data_mw = json.loads(str(raw))
+    except json.JSONDecodeError:
+        return None
+    if not isinstance(data_mw, dict) or data_mw.get("name") != name:
+        return None
+    body = data_mw.get("body")
+    if not isinstance(body, dict):
+        return None
+    attrs = data_mw.get("attrs")
+    return _DataMwPayload(attrs=attrs if isinstance(attrs, dict) else {}, body=body)
 
 
 """Bytes that ``Sanitizer::escapeIdInternal``'s ``legacy`` mode never escapes.

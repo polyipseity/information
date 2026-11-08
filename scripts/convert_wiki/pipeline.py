@@ -25,7 +25,6 @@ Key functions:
 - ``_preprocess_html``: all HTML tree mutations before conversion.
 """
 
-import json
 import re
 from collections.abc import Mapping, MutableMapping, MutableSet, Sequence
 from os import PathLike
@@ -56,7 +55,7 @@ from .latex import LatexConverter
 from .table import _EQUATION_BOX_BODY_BLOCK_TAGS, _reformat_table
 from .template_config import _DISPLAY_MATH_CONTAINERS
 from .types import _RedirectInfo
-from .utils import _ZERO_WIDTH_CHARS_RE, _create_redirect_symlinks
+from .utils import _ZERO_WIDTH_CHARS_RE, _create_redirect_symlinks, _data_mw_payload
 
 """Exported names from this module."""
 __all__ = ()
@@ -103,20 +102,79 @@ def _math_source_from_data_mw(math: Tag) -> str:
     payload yields an empty string so the converter falls back to reading the
     MathML text, as it did before.
     """
-    raw = math.get("data-mw")
-    if not raw:
+    payload = _data_mw_payload(math, "math")
+    if payload is None:
         return ""
-    try:
-        data_mw = json.loads(str(raw))
-    except json.JSONDecodeError:
-        return ""
-    if not isinstance(data_mw, dict) or data_mw.get("name") != "math":
-        return ""
-    body = data_mw.get("body")
-    if not isinstance(body, dict):
-        return ""
-    extsrc = body.get("extsrc")
+    extsrc = payload.body.get("extsrc")
     return extsrc if isinstance(extsrc, str) else ""
+
+
+r"""AMS align environments rewritten to the ones Obsidian can render.
+
+``\begin{align}`` and friends are not defined by MathJax's base packages, so
+the same layout is expressed with the ``aligned``-family environments instead.
+``multline`` is left unchanged because MathJax 4 renders it natively; its
+``multlined`` counterpart is not available without mathtools.
+"""
+_MATH_ENV_ALIASES: Mapping[str, str] = {
+    "align": "aligned",
+    "align*": "aligned",
+    "alignat": "alignedat",
+    "alignat*": "alignedat",
+    "gather": "gathered",
+    "gather*": "gathered",
+    "eqnarray": "aligned",
+    "eqnarray*": "aligned",
+}
+
+r"""Matches the environment name in ``\begin{env}`` and ``\end{env}``."""
+_MATH_ENV_RE = re.compile(r"\\(begin|end)\{([^{}]*)\}")
+
+
+def _strip_math_comments(source: str) -> str:
+    r"""Remove TeX ``%`` comments from each line of *source*.
+
+    Parsoid keeps wikitext comments in ``data-mw``, and collapsing the
+    newlines first would splice the commented remainder of a line into the
+    source that follows.  A ``%`` preceded by an odd number of backslashes is
+    escaped, so ``\%`` is a literal percent; ``\\%`` is a line break followed
+    by a comment because the pair consumes both backslashes.
+    """
+    stripped: list[str] = []
+    for line in source.split("\n"):
+        backslashes = 0
+        for position, character in enumerate(line):
+            if character == "\\":
+                backslashes += 1
+            elif character == "%" and backslashes % 2 == 0:
+                line = line[:position]
+                break
+            else:
+                backslashes = 0
+        stripped.append(line)
+    return "\n".join(stripped)
+
+
+def _normalize_math_source(source: str) -> str:
+    """Normalize TeX lifted from HTML into a single-line renderable source.
+
+    Parsoid's ``data-mw`` payload keeps newlines and indentation from the
+    wikitext, and Wikipedia math uses environments that Obsidian's MathJax
+    build does not define.  Rewriting the environments through
+    ``_MATH_ENV_ALIASES`` leaves their optional arguments (for example the
+    column count of ``alignat``) in place, and unknown environments pass
+    through unchanged so unfamiliar TeX keeps its original meaning.  Comments
+    are stripped first, so their text cannot survive the whitespace collapse.
+    """
+
+    def _rewrite_environment(match: re.Match[str]) -> str:
+        """Rewrite one matched environment name through ``_MATH_ENV_ALIASES``."""
+        environment = match.group(2)
+        alias = _MATH_ENV_ALIASES.get(environment, environment)
+        return f"\\{match.group(1)}{{{alias}}}"
+
+    stripped = _strip_math_comments(source)
+    return " ".join(_MATH_ENV_RE.sub(_rewrite_environment, stripped).split())
 
 
 def _set_math_alttext_from_data_mw(soup: BeautifulSoup | Tag) -> None:
@@ -126,8 +184,9 @@ def _set_math_alttext_from_data_mw(soup: BeautifulSoup | Tag) -> None:
     a ``<math>`` element carrying its source anywhere else degrades to the
     bare MathML text.  Legacy HTML provides ``alttext`` directly; modern
     Parsoid provides ``data-mw``, and older Parsoid revisions provide an
-    ``<annotation encoding="application/x-tex">`` child.  Existing
-    ``alttext`` values are never overwritten.
+    ``<annotation encoding="application/x-tex">`` child.  Lifted sources are
+    normalized by ``_normalize_math_source``; existing ``alttext`` values are
+    never overwritten and never normalized.
     """
     for math in soup.find_all("math"):
         if math.get("alttext"):
@@ -138,8 +197,9 @@ def _set_math_alttext_from_data_mw(soup: BeautifulSoup | Tag) -> None:
                 "annotation", attrs={"encoding": "application/x-tex"}
             )
             extsrc = annotation.get_text() if isinstance(annotation, Tag) else ""
-        if extsrc.strip():
-            math["alttext"] = extsrc
+        normalized = _normalize_math_source(extsrc)
+        if normalized:
+            math["alttext"] = normalized
 
 
 def _merge_adjacent_math_dd(dd: Tag) -> None:
