@@ -15,7 +15,7 @@ __all__ = ()
 _PREAMBLE_PATH = Path(".obsidian/plugins/obsidian-latex/preamble.sty")
 
 """Macros MathJax 4 does not supply, which the preamble must define."""
-_REQUIRED_DEFINITIONS = ("Eta", "argmax", "argmin")
+_REQUIRED_DEFINITIONS = ("Eta", "argmax", "argmin", "Z", "degree", "texteuro")
 
 """Macros MathJax 4 supplies natively, which the preamble must not redefine."""
 _NATIVE_MACROS = ("nobreak", "oiint", "oiiint", "AA")
@@ -35,8 +35,8 @@ def _preamble_text() -> str:
 class TestPreamblePolyfills:
     """Tests for the polyfills the preamble defines."""
 
-    def test_defines_remaining_polyfills(self) -> None:
-        r"""Should define the three remaining polyfills with ``\def``."""
+    def test_defines_required_polyfills(self) -> None:
+        r"""Should define every required polyfill with ``\def``."""
         text = _preamble_text()
         for name in _REQUIRED_DEFINITIONS:
             assert f"\\def\\{name}" in text
