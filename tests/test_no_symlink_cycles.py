@@ -72,7 +72,9 @@ async def test_detector_allows_a_forward_link(tmp_path: PathLike[str]) -> None:
 async def test_no_tracked_symlink_closes_a_cycle() -> None:
     """No tracked symlink resolves back into its own chain."""
     offenders: list[str] = []
-    for path in await _tracked_symlinks():
+    links = await _tracked_symlinks()
+    assert links, "git reported no tracked symlinks; the cycle scan is vacuous"
+    for path in links:
         target = os.readlink(path)
         if await _symlink_would_loop(path.parent, path.name, target):
             offenders.append(str(path))
