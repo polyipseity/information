@@ -9,12 +9,14 @@ Covers all exported functions:
 * ``_separate_block_quotes`` — MD028 suppression between adjacent blockquotes
 * ``_separate_block_math`` — whitespace around ``$$…$$`` blocks
 * ``_merge_dl_after_thumb_into_list`` — thumbnail/list merging for ``<dl>`` captions
+* ``_normalize_math_source`` — TeX normalization for lifted ``data-mw`` sources
 * ``wiki_html_to_plaintext`` — post-processing after the converter
 * ``run_pipeline`` — top-level orchestrator
 """
 
 from __future__ import annotations
 
+import json
 from os import PathLike
 from typing import Any
 
@@ -33,6 +35,7 @@ from scripts.convert_wiki.pipeline import (
     _determine_needs_after,
     _determine_needs_before,
     _merge_dl_after_thumb_into_list,
+    _normalize_math_source,
     _preprocess_html,
     _scan_and_apply,
     _separate_block_math,
@@ -1034,6 +1037,56 @@ _BLOCK_MODERN_MATH = (
 )
 
 
+class TestNormalizeMathSource:
+    """Tests for ``_normalize_math_source``.
+
+    Parsoid keeps the wikitext's newlines and indentation in ``data-mw``, and
+    Wikipedia writes display math with environments (``align``, ``eqnarray``,
+    …) that Obsidian's MathJax build does not define.
+    """
+
+    @pytest.mark.parametrize(
+        ("environment", "expected"),
+        [
+            ("align", "aligned"),
+            ("align*", "aligned"),
+            ("alignat", "alignedat"),
+            ("alignat*", "alignedat"),
+            ("gather", "gathered"),
+            ("gather*", "gathered"),
+            ("multline", "multlined"),
+            ("multline*", "multlined"),
+            ("eqnarray", "aligned"),
+            ("eqnarray*", "aligned"),
+        ],
+    )
+    def test_environment_is_aliased(self, environment: str, expected: str) -> None:
+        r"""Both ``\begin`` and ``\end`` of a known environment are rewritten."""
+        source = rf"\begin{{{environment}}}a &= b\end{{{environment}}}"
+        assert _normalize_math_source(source) == (
+            rf"\begin{{{expected}}}a &= b\end{{{expected}}}"
+        )
+
+    def test_alignat_column_count_is_kept(self) -> None:
+        """The ``alignat`` column count stays after the rewritten environment."""
+        source = r"\begin{alignat}{2}a &= b\end{alignat}"
+        assert _normalize_math_source(source) == (
+            r"\begin{alignedat}{2}a &= b\end{alignedat}"
+        )
+
+    def test_unknown_environment_is_unchanged(self) -> None:
+        """An environment outside the alias map is left alone."""
+        source = r"\begin{equation}a = b\end{equation}"
+        assert _normalize_math_source(source) == source
+
+    def test_whitespace_collapses_to_one_space(self) -> None:
+        """Newlines, tabs, and indentation collapse, and the result is stripped."""
+        source = "\n\\begin{aligned}\n\ta &= b \\\\\n\t\tc &= d\n\\end{aligned}\n"
+        assert _normalize_math_source(source) == (
+            R"\begin{aligned} a &= b \\ c &= d \end{aligned}"
+        )
+
+
 class TestPreprocessMathSource:
     """Tests for lifting Parsoid math source into the ``alttext`` attribute.
 
@@ -1081,6 +1134,43 @@ class TestPreprocessMathSource:
         math["alttext"] = R"{\displaystyle T}"
         _preprocess_html(soup)
         assert math["alttext"] == R"{\displaystyle T}"
+
+    def test_existing_alttext_is_not_normalized(self) -> None:
+        """An existing ``alttext`` keeps its newlines and environments."""
+        soup = BeautifulSoup(_INLINE_MODERN_MATH % "S", "html.parser")
+        math = soup.find("math")
+        assert isinstance(math, Tag)
+        existing = "\\begin{align}\n  a &= b\n\\end{align}"
+        math["alttext"] = existing
+        _preprocess_html(soup)
+        assert math["alttext"] == existing
+
+    def test_data_mw_align_environment_is_normalized(self) -> None:
+        """A multi-line ``align`` source normalizes into a single-line ``alttext``."""
+        source = "\\begin{align}\n  a &= b \\\\\n  c &= d\n\\end{align}"
+        # The attribute holds JSON, whose escapes must carry the newlines.
+        soup = BeautifulSoup(
+            _BLOCK_MODERN_MATH % json.dumps(source)[1:-1], "html.parser"
+        )
+        _preprocess_html(soup)
+        math = soup.find("math")
+        assert isinstance(math, Tag)
+        assert math["alttext"] == R"\begin{aligned} a &= b \\ c &= d \end{aligned}"
+
+    def test_annotation_source_is_normalized(self) -> None:
+        """The ``<annotation>`` fallback is normalized like ``data-mw``."""
+        html = (
+            '<p>See <math xmlns="http://www.w3.org/1998/Math/MathML">'
+            "<semantics><mrow><mi>x</mi></mrow>"
+            '<annotation encoding="application/x-tex">\n  \\begin{gather}\n'
+            "  x = 1\n  \\end{gather}\n</annotation>"
+            "</semantics></math></p>"
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        _preprocess_html(soup)
+        math = soup.find("math")
+        assert isinstance(math, Tag)
+        assert math["alttext"] == R"\begin{gathered} x = 1 \end{gathered}"
 
     @pytest.mark.anyio
     async def test_inline_math_renders_latex(self) -> None:

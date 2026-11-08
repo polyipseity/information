@@ -109,6 +109,47 @@ def _math_source_from_data_mw(math: Tag) -> str:
     return extsrc if isinstance(extsrc, str) else ""
 
 
+r"""AMS align environments rewritten to the ones Obsidian can render.
+
+``\begin{align}`` and friends are not defined by MathJax's base packages, so
+the same layout is expressed with the ``aligned``-family environments instead.
+"""
+_MATH_ENV_ALIASES: Mapping[str, str] = {
+    "align": "aligned",
+    "align*": "aligned",
+    "alignat": "alignedat",
+    "alignat*": "alignedat",
+    "gather": "gathered",
+    "gather*": "gathered",
+    "multline": "multlined",
+    "multline*": "multlined",
+    "eqnarray": "aligned",
+    "eqnarray*": "aligned",
+}
+
+r"""Matches the environment name in ``\begin{env}`` and ``\end{env}``."""
+_MATH_ENV_RE = re.compile(r"\\(begin|end)\{([^{}]*)\}")
+
+
+def _normalize_math_source(source: str) -> str:
+    """Normalize TeX lifted from HTML into a single-line renderable source.
+
+    Parsoid's ``data-mw`` payload keeps newlines and indentation from the
+    wikitext, and Wikipedia math uses environments that Obsidian's MathJax
+    build does not define.  Rewriting the environments through
+    ``_MATH_ENV_ALIASES`` leaves their optional arguments (for example the
+    column count of ``alignat``) in place, and unknown environments pass
+    through unchanged so unfamiliar TeX keeps its original meaning.
+    """
+
+    def _rewrite_environment(match: re.Match[str]) -> str:
+        environment = match.group(2)
+        alias = _MATH_ENV_ALIASES.get(environment, environment)
+        return f"\\{match.group(1)}{{{alias}}}"
+
+    return " ".join(_MATH_ENV_RE.sub(_rewrite_environment, source).split())
+
+
 def _set_math_alttext_from_data_mw(soup: BeautifulSoup | Tag) -> None:
     """Copy Parsoid math source into the ``alttext`` attribute.
 
@@ -116,8 +157,9 @@ def _set_math_alttext_from_data_mw(soup: BeautifulSoup | Tag) -> None:
     a ``<math>`` element carrying its source anywhere else degrades to the
     bare MathML text.  Legacy HTML provides ``alttext`` directly; modern
     Parsoid provides ``data-mw``, and older Parsoid revisions provide an
-    ``<annotation encoding="application/x-tex">`` child.  Existing
-    ``alttext`` values are never overwritten.
+    ``<annotation encoding="application/x-tex">`` child.  Lifted sources are
+    normalized by ``_normalize_math_source``; existing ``alttext`` values are
+    never overwritten and never normalized.
     """
     for math in soup.find_all("math"):
         if math.get("alttext"):
@@ -128,8 +170,9 @@ def _set_math_alttext_from_data_mw(soup: BeautifulSoup | Tag) -> None:
                 "annotation", attrs={"encoding": "application/x-tex"}
             )
             extsrc = annotation.get_text() if isinstance(annotation, Tag) else ""
-        if extsrc.strip():
-            math["alttext"] = extsrc
+        normalized = _normalize_math_source(extsrc)
+        if normalized:
+            math["alttext"] = normalized
 
 
 def _merge_adjacent_math_dd(dd: Tag) -> None:
