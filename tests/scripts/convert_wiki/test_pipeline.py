@@ -20,7 +20,7 @@ from typing import Any
 
 import pytest
 from anyio import Path
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 
 from scripts.convert_wiki.ast_utils import _MISTUNE_PARSER
 from scripts.convert_wiki.config import (
@@ -997,6 +997,102 @@ async def _convert_html(html: str, converter: WikiHtmlConverter | None = None) -
         refs=True,
         converter=converter,
     )
+
+
+# =========================================================================
+# _preprocess_html — Parsoid math source lifting
+# =========================================================================
+
+"""Parsoid-style inline math whose LaTeX lives only in ``data-mw``.
+
+``%s`` stands in for ``body.extsrc``.  The ``<math>`` element has no
+``alttext``, matching modern Wikipedia HTML.
+"""
+_INLINE_MODERN_MATH = (
+    '<p>A set <span class="mwe-math-element mwe-math-element-inline">'
+    '<span class="mwe-math-mathml-inline mwe-math-mathml-a11y">'
+    '<math xmlns="http://www.w3.org/1998/Math/MathML"'
+    ' typeof="mw:Extension/math"'
+    ' data-mw=\'{"name":"math","attrs":{},"body":{"extsrc":"%s"}}\'>'
+    "<mrow><mi>S</mi></mrow></math></span></span> of paths.</p>"
+)
+
+"""Parsoid-style block math whose LaTeX lives only in ``data-mw``.
+
+``%s`` stands in for ``body.extsrc``.  The ``<math>`` element has no
+``alttext``, matching modern Wikipedia HTML.
+"""
+_BLOCK_MODERN_MATH = (
+    "<p>A set of paths"
+    '<span class="mwe-math-element mwe-math-element-block">'
+    '<span class="mwe-math-mathml-display mwe-math-mathml-a11y">'
+    '<math xmlns="http://www.w3.org/1998/Math/MathML" display="block"'
+    ' typeof="mw:Extension/math"'
+    ' data-mw=\'{"name":"math","attrs":{"display":"block"},'
+    '"body":{"extsrc":"%s"}}\'>'
+    "<mrow><mi>M</mi></mrow></math></span></span>.</p>"
+)
+
+
+class TestPreprocessMathSource:
+    """Tests for lifting Parsoid math source into the ``alttext`` attribute.
+
+    Legacy HTML carries the LaTeX in ``alttext``; modern Parsoid carries it in
+    a ``data-mw`` JSON payload (older revisions in an
+    ``<annotation encoding="application/x-tex">`` child) and leaves ``<math>``
+    without ``alttext``, so math degraded to its bare MathML text.
+    """
+
+    def test_inline_math_alttext_from_data_mw(self) -> None:
+        """Inline math without ``alttext`` gets the source from ``data-mw``."""
+        soup = BeautifulSoup(_INLINE_MODERN_MATH % "S", "html.parser")
+        _preprocess_html(soup)
+        math = soup.find("math")
+        assert isinstance(math, Tag)
+        assert math["alttext"] == "S"
+
+    def test_block_math_alttext_from_data_mw(self) -> None:
+        """Block math without ``alttext`` gets the source from ``data-mw``."""
+        soup = BeautifulSoup(_BLOCK_MODERN_MATH % "M = E - N + 2P", "html.parser")
+        _preprocess_html(soup)
+        math = soup.find("math")
+        assert isinstance(math, Tag)
+        assert math["alttext"] == "M = E - N + 2P"
+
+    def test_annotation_fallback_without_data_mw(self) -> None:
+        """``<annotation>`` text is used when ``data-mw`` is absent."""
+        html = (
+            '<p>See <math xmlns="http://www.w3.org/1998/Math/MathML">'
+            "<semantics><mrow><mi>x</mi></mrow>"
+            '<annotation encoding="application/x-tex">x^2</annotation>'
+            "</semantics></math>.</p>"
+        )
+        soup = BeautifulSoup(html, "html.parser")
+        _preprocess_html(soup)
+        math = soup.find("math")
+        assert isinstance(math, Tag)
+        assert math["alttext"] == "x^2"
+
+    def test_existing_alttext_is_preserved(self) -> None:
+        """A ``data-mw`` payload never overrides an existing ``alttext``."""
+        soup = BeautifulSoup(_INLINE_MODERN_MATH % "S", "html.parser")
+        math = soup.find("math")
+        assert isinstance(math, Tag)
+        math["alttext"] = R"{\displaystyle T}"
+        _preprocess_html(soup)
+        assert math["alttext"] == R"{\displaystyle T}"
+
+    @pytest.mark.anyio
+    async def test_inline_math_renders_latex(self) -> None:
+        """Modern inline math renders as ``$…$``, not as bare MathML text."""
+        result = await _convert_html(_INLINE_MODERN_MATH % "S")
+        assert result == "A set $S$ of paths.\n"
+
+    @pytest.mark.anyio
+    async def test_block_math_renders_latex(self) -> None:
+        """Modern block math renders as ``$$…$$``."""
+        result = await _convert_html(_BLOCK_MODERN_MATH % "M = E - N + 2P")
+        assert "$$M = E - N + 2P$$" in result
 
 
 class TestWikiHtmlToPlaintext:
