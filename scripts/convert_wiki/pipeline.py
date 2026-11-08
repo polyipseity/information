@@ -143,6 +143,7 @@ def _normalize_math_source(source: str) -> str:
     """
 
     def _rewrite_environment(match: re.Match[str]) -> str:
+        """Rewrite one matched environment name through ``_MATH_ENV_ALIASES``."""
         environment = match.group(2)
         alias = _MATH_ENV_ALIASES.get(environment, environment)
         return f"\\{match.group(1)}{{{alias}}}"
