@@ -20,7 +20,7 @@ tags:
 
 > {@{__Newton's method__}@}
 >
-> Given {@{an initial guess $x_0$ of the [roots](zero%20of%20a%20function.md) of a [real-valued function](real-valued%20function.md) $f$}@}, if {@{$f$ satisfies certain assumptions and $x_0$ is close to a [root](zero%20of%20a%20function.md)}@}, {@{better [approximations](approximation.md) $x_{n+1}$ of one of the [root](zero%20of%20a%20function.md)}@} are obtained by: {@{$$x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}$$}@} <!--SR:!2028-10-11,1091,270!fsrs,2030-08-07T00:00:00.000Z,1362,1362.26824214,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-11-24,311,343!fsrs,2030-08-02T00:00:00.000Z,1358,1358.34985665,1,2,9,0,0,2026-11-13T00:00:00.000Z!2027-06-22,462,323-->
+> Given {@{an initial guess $x_0$ of the [roots](zero%20of%20a%20function.md) of a [real-valued function](real-valued%20function.md) $f$}@}, if {@{$f$ satisfies certain assumptions and $x_0$ is close to a [root](zero%20of%20a%20function.md)}@}, {@{better [approximations](approximation.md) $x_{n+1}$ of one of the [root](zero%20of%20a%20function.md)}@} are obtained by: {@{$$x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}$$}@} <!--SR:!2028-10-11,1091,270!fsrs,2030-08-07T00:00:00.000Z,1362,1362.26824214,1,2,9,0,0,2026-11-14T00:00:00.000Z!fsrs,2030-09-21T00:00:00.000Z,1397,1397.46278579,1,2,9,0,0,2026-11-24T00:00:00.000Z!fsrs,2030-08-02T00:00:00.000Z,1358,1358.34985665,1,2,9,0,0,2026-11-13T00:00:00.000Z!2027-06-22,462,323-->
 
 ## references
 

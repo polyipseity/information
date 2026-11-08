@@ -780,7 +780,7 @@ The content is in teaching order.
     - OSI model / data link
 - [data link layer](../../../../general/data%20link%20layer.md) ::@:: It is the second layer of the seven-layer OSI model of computer networking. <!--SR:!2027-01-10,406,370!2026-12-20,391,370-->
     - data link layer / description ::@:: This layer is the protocol layer that transfers data between nodes on a network segment across the physical layer. It provides the functional and procedural means to transfer data between network entities and may also provide the means to detect and possibly correct errors that can occur in the physical layer. <!--SR:!2026-12-03,377,370!2027-01-06,404,370-->
-    - data link layer / terminology ::@:: There are _nodes_. There are _links_ between nodes, representing communication channels. A packet is a _frame_, which encapsulates a _datagram_. <!--SR:!2026-11-24,370,370!2026-12-19,390,370-->
+    - data link layer / terminology ::@:: There are _nodes_. There are _links_ between nodes, representing communication channels. A packet is a _frame_, which encapsulates a _datagram_. <!--SR:!fsrs,2031-09-26T00:00:00.000Z,1767,1766.65845187,1,2,10,0,0,2026-11-24T00:00:00.000Z!2026-12-19,390,370-->
 - OSI model
     - OSI model / packet ::@:: Data are often transmitted in a group of bits. Then, each layer, starting from the top to the bottom \(excluding the physical layer\) adds additional header or trailer information, forming a packet. <!--SR:!fsrs,2031-09-11T00:00:00.000Z,1754,1754.236174,1,2,10,0,0,2026-11-22T00:00:00.000Z!2026-12-19,390,370-->
         - OSI model / packet / names ::@:: - application layer: message <br/> - transport layer: segment <br/> - network layer: datagram <br/> - data link layer: frame <!--SR:!2027-01-06,404,370!2027-01-13,409,370-->
@@ -863,7 +863,7 @@ The content is in teaching order.
     - IP address / subnetworks
         - IP address / subnetworks / organizations ::@:: The ISP allocates a portion of its allocated subnetwork to each organization. This portion is allocated by simply using more bits for the network prefix. <!--SR:!2026-12-18,390,370!2026-12-14,387,370-->
         - IP address / subnetworks / ISPs ::@:: The ICANN \(Internet Corporation for Assigned Names and Numbers\) allocates addresses, assigns domain names, manages DNS, and resolves disputes. <!--SR:!2027-01-14,411,370!fsrs,2031-05-10T00:00:00.000Z,1659,1658.56445356,1,2,9,0,0,2026-10-24T00:00:00.000Z-->
-    - IP address / IPv6 addresses ::@:: In IPv6, the address size was increased from 32 bits in IPv4 to 128 bits, thus providing up to 2<sup>128</sup> \(approximately 3.403×10<sup>38</sup>\) addresses. This is deemed sufficient for the foreseeable future. <!--SR:!2026-12-15,387,370!2026-11-24,369,370-->
+    - IP address / IPv6 addresses ::@:: In IPv6, the address size was increased from 32 bits in IPv4 to 128 bits, thus providing up to 2<sup>128</sup> \(approximately 3.403×10<sup>38</sup>\) addresses. This is deemed sufficient for the foreseeable future. <!--SR:!2026-12-15,387,370!fsrs,2031-09-22T00:00:00.000Z,1763,1762.51909974,1,2,10,0,0,2026-11-24T00:00:00.000Z-->
         - IP address / IPv6 addresses / datagram ::@:: Its datagram format also has a fixed-length 40-byte header, which helps with faster forwarding and processing. It also helps to facilitate quality of service \(QoS\). <!--SR:!2026-12-15,387,370!2027-01-18,414,370-->
 
 ## week 4 lecture 1

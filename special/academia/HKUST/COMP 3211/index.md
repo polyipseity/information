@@ -275,7 +275,7 @@ The content is in teaching order.
         - intelligent agent / aspects / action ::@:: neural network, rule-based <!--SR:!2026-11-26,507,396!fsrs,2032-09-21T00:00:00.000Z,2174,2174.1163828,1,2,10,0,0,2026-10-09T00:00:00.000Z-->
         - intelligent agent / aspects / optimization ::@:: genetic programming, gradient descent <!--SR:!2026-12-10,515,396!fsrs,2031-03-12T16:22:51.853Z,1734,1733.5039585,1,2,10,0,0,2026-06-12T16:22:51.853Z-->
 - production system
-    - production system / capabilities ::@:: goal representation, memory (e.g. How many past readings?), sensors, stopping guarantee; multi-agents? <!--SR:!2026-11-24,505,396!2026-12-13,518,396-->
+    - production system / capabilities ::@:: goal representation, memory (e.g. How many past readings?), sensors, stopping guarantee; multi-agents? <!--SR:!fsrs,2033-03-26T00:00:00.000Z,2314,2314.0489373,1,2,10,0,0,2026-11-24T00:00:00.000Z!2026-12-13,518,396-->
 - genetic programming
     - genetic programming / motivation
     - genetic programming / overview

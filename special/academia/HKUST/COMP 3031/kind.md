@@ -115,7 +115,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 > ```
 <!--SR:!2026-12-08,258,330!fsrs,2029-11-22T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-19T00:00:00.000Z!2026-11-25,253,330-->
 
-{@{Example uses of `sequence`}@} assuming {@{a `Monad[Option]` instance}@}: <!--SR:!fsrs,2029-03-10T00:00:00.000Z,868,867.73563853,1,2,9,0,0,2026-10-24T00:00:00.000Z!2026-11-24,252,330-->
+{@{Example uses of `sequence`}@} assuming {@{a `Monad[Option]` instance}@}: <!--SR:!fsrs,2029-03-10T00:00:00.000Z,868,867.73563853,1,2,9,0,0,2026-10-24T00:00:00.000Z!fsrs,2029-12-13T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-11-24T00:00:00.000Z-->
 
 > [!example] __`sequence` examples__
 >
@@ -176,7 +176,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >   def sequence[G[_]: Applicative, A](fga: F[G[A]]): G[F[A]] = traverse(fga)(id)
 > ```
 >
-> {@{Typical `sequence` implementations for other containers}@} follow {@{the same pattern}@}. For example, {@{`sequence` for the structure `List[_]`}@} is a function that converts {@{a `List[F[A]]` into `F[List[A]]`}@} for some {@{applicative type constructor `F[_]`}@}. <!--SR:!2026-12-21,268,330!2026-12-15,263,330!fsrs,2028-12-30T00:00:00.000Z,823,823.37893849,1,2,9,0,0,2026-09-29T00:00:00.000Z!2026-12-19,267,330!2027-01-10,285,330!fsrs,2029-11-27T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-11-20T00:00:00.000Z!2026-11-24,252,330!fsrs,2028-06-16T00:00:00.000Z,684,684.3807954,1,2,8,0,0,2026-08-02T00:00:00.000Z!2027-01-05,276,330-->
+> {@{Typical `sequence` implementations for other containers}@} follow {@{the same pattern}@}. For example, {@{`sequence` for the structure `List[_]`}@} is a function that converts {@{a `List[F[A]]` into `F[List[A]]`}@} for some {@{applicative type constructor `F[_]`}@}. <!--SR:!2026-12-21,268,330!2026-12-15,263,330!fsrs,2028-12-30T00:00:00.000Z,823,823.37893849,1,2,9,0,0,2026-09-29T00:00:00.000Z!2026-12-19,267,330!2027-01-10,285,330!fsrs,2029-11-27T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-11-20T00:00:00.000Z!fsrs,2029-12-13T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-11-24T00:00:00.000Z!fsrs,2028-06-16T00:00:00.000Z,684,684.3807954,1,2,8,0,0,2026-08-02T00:00:00.000Z!2027-01-05,276,330-->
 
 {@{The Cats library (<https://typelevel.org/cats>)}@} supplies {@{many such type classes}@}, allowing {@{concise and generic code across different data types}@}. <!--SR:!fsrs,2029-01-12T00:00:00.000Z,823,823.37893849,1,2,9,0,0,2026-10-12T00:00:00.000Z!2026-12-20,263,330!2026-12-25,272,330-->
 

@@ -19,7 +19,7 @@ tags:
 
 - HKUST COMP 3031
 
-Normally in Scala, {@{values \(terms\) and types}@} infer {@{types}@}, e.g. {@{inferring type parameters}@}. Sometimes you want {@{types to infer values}@} instead, called {@{_type-directed programming_}@}. This is helpful for abstracting {@{context based on types}@}. <!--SR:!2026-12-23,320,349!fsrs,2030-07-18T00:00:00.000Z,1337,1336.79156682,1,2,9,0,0,2026-11-19T00:00:00.000Z!2026-11-24,294,349!2027-01-26,347,349!2027-01-25,346,349!2026-12-30,326,349-->
+Normally in Scala, {@{values \(terms\) and types}@} infer {@{types}@}, e.g. {@{inferring type parameters}@}. Sometimes you want {@{types to infer values}@} instead, called {@{_type-directed programming_}@}. This is helpful for abstracting {@{context based on types}@}. <!--SR:!2026-12-23,320,349!fsrs,2030-07-18T00:00:00.000Z,1337,1336.79156682,1,2,9,0,0,2026-11-19T00:00:00.000Z!fsrs,2030-08-12T00:00:00.000Z,1357,1356.83314545,1,2,9,0,0,2026-11-24T00:00:00.000Z!2027-01-26,347,349!2027-01-25,346,349!2026-12-30,326,349-->
 
 ## motivation
 
@@ -207,7 +207,7 @@ Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` c
 
 Intuitively, {@{a context bound `T : U`}@} may be interpreted as {@{the type parameter `T` "satisfying" the "trait" `U`}@}. <!--SR:!2027-03-05,381,368!2027-03-30,401,368-->
 
-More generally, {@{any definition `def f[T : {U1, ..., Un}](ps) : R`}@} \({@{_deprecated_ syntax}@}: {@{`def f[T : U1 : ... : Un](ps) : R`}@}\) is expanded to {@{`def f[T](ps)(using U1[T], ..., Un[T]) : R`}@}. {@{This transformation}@} makes {@{context bounds a convenient shorthand}@} for {@{implicit parameters without altering the generated code}@}. <!--SR:!2026-11-24,294,349!fsrs,2029-10-27T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-10-04T00:00:00.000Z!2027-01-25,346,349!fsrs,2030-07-13T00:00:00.000Z,1333,1332.77803171,1,2,9,0,0,2026-11-18T00:00:00.000Z!2026-12-01,301,349!2027-03-07,382,368!2027-02-24,375,368-->
+More generally, {@{any definition `def f[T : {U1, ..., Un}](ps) : R`}@} \({@{_deprecated_ syntax}@}: {@{`def f[T : U1 : ... : Un](ps) : R`}@}\) is expanded to {@{`def f[T](ps)(using U1[T], ..., Un[T]) : R`}@}. {@{This transformation}@} makes {@{context bounds a convenient shorthand}@} for {@{implicit parameters without altering the generated code}@}. <!--SR:!fsrs,2030-08-12T00:00:00.000Z,1357,1356.83314545,1,2,9,0,0,2026-11-24T00:00:00.000Z!fsrs,2029-10-27T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-10-04T00:00:00.000Z!2027-01-25,346,349!fsrs,2030-07-13T00:00:00.000Z,1333,1332.77803171,1,2,9,0,0,2026-11-18T00:00:00.000Z!2026-12-01,301,349!2027-03-07,382,368!2027-02-24,375,368-->
 
 ## `given`
 
@@ -273,7 +273,7 @@ To refer to {@{an instance directly without using `using`}@}, you may {@{use `su
 > ```Scala
 > def summon[T](using x: T): T = x
 > ```
-<!--SR:!2027-01-22,343,349!2026-11-24,294,349!fsrs,2030-07-13T00:00:00.000Z,1333,1332.77803171,1,2,9,0,0,2026-11-18T00:00:00.000Z-->
+<!--SR:!2027-01-22,343,349!fsrs,2030-08-12T00:00:00.000Z,1357,1356.83314545,1,2,9,0,0,2026-11-24T00:00:00.000Z!fsrs,2030-07-13T00:00:00.000Z,1333,1332.77803171,1,2,9,0,0,2026-11-18T00:00:00.000Z-->
 
 ### importing `given`s
 
@@ -287,7 +287,7 @@ Since {@{the actual names of `given` instances}@} are {@{irrelevant to resolutio
 
 ### conditional `given`
 
-{@{A `given` instance}@} may itself {@{require an implicit argument}@}, making it {@{_conditional_ on if the implicit argument can be provided}@}. For example {@{a give instance that order lists}@} yields: <!--SR:!2026-12-02,302,349!fsrs,2030-06-28T00:00:00.000Z,1321,1320.72713296,1,2,9,0,0,2026-11-15T00:00:00.000Z!fsrs,2030-08-02T00:00:00.000Z,1349,1348.82166006,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-11-24,294,349-->
+{@{A `given` instance}@} may itself {@{require an implicit argument}@}, making it {@{_conditional_ on if the implicit argument can be provided}@}. For example {@{a give instance that order lists}@} yields: <!--SR:!2026-12-02,302,349!fsrs,2030-06-28T00:00:00.000Z,1321,1320.72713296,1,2,9,0,0,2026-11-15T00:00:00.000Z!fsrs,2030-08-02T00:00:00.000Z,1349,1348.82166006,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2030-08-12T00:00:00.000Z,1357,1356.83314545,1,2,9,0,0,2026-11-24T00:00:00.000Z-->
 
 > [!example] __conditional `given`__
 >

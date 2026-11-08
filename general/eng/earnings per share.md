@@ -46,7 +46,7 @@ __Basic formula__ <p> ::@:: &emsp; $\text{Earnings per share} = \frac {\text{⁠
 
 __Net income formula__ <p> ::@:: &emsp; $\text{Earnings per share} = \frac {\text{⁠net income} − \text{preferred dividends} } {\text{weighted average common shares⁠} }$ <!--SR:!2027-08-07,709,330!2028-01-01,821,330-->
 
-__Continuing operations formula__ <p> ::@:: &emsp; $\text{Earnings per share} = \frac {\text{⁠income from continuing operations} − \text{preferred dividends} } {\text{weighted average common shares⁠} }$ <!--SR:!2026-11-24,515,310!2029-05-08,1234,350-->
+__Continuing operations formula__ <p> ::@:: &emsp; $\text{Earnings per share} = \frac {\text{⁠income from continuing operations} − \text{preferred dividends} } {\text{weighted average common shares⁠} }$ <!--SR:!fsrs,2032-03-17T00:00:00.000Z,1940,1940.07334052,1,2,10,0,0,2026-11-24T00:00:00.000Z!2029-05-08,1234,350-->
 
 ## diluted earnings per share
 

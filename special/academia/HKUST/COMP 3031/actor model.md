@@ -24,7 +24,7 @@ tags:
 
 In {@{modern multicore CPUs}@}, {@{parallelism}@} is achieved by {@{running many tasks simultaneously on distinct cores}@}. {@{Traditional thread‑based approaches}@} force programmers to protect {@{shared mutable data with mutexes or semaphores}@}. Such mechanisms are {@{error‑prone}@}: {@{a missing lock}@} can cause {@{data races}@}; {@{nested locks}@} can {@{lead to deadlocks}@}. Moreover, {@{the overhead of context switching and contention}@} limits {@{scalability}@}. <!--SR:!2026-12-23,267,330!2026-12-25,268,330!2026-12-07,256,330!fsrs,2029-10-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-09T00:00:00.000Z!2027-01-11,285,330!2027-01-18,290,330!2026-12-23,269,330!2026-12-31,273,330!2027-01-23,292,330!2026-12-17,264,330!2026-11-29,250,330!2027-01-11,285,330-->
 
-Actors {@{sidestep these issues}@} by enforcing {@{_encapsulation_: an actor never exposes its internal state to other actors}@}. The only interaction is through {@{immutable messages sent asynchronously}@}. This guarantees that {@{two actors cannot interfere with each other’s data}@}, so {@{no lock is required}@}. Because sending {@{a message does not block the sender}@}, the model naturally supports {@{high‑throughput, non‑blocking systems}@}. <!--SR:!fsrs,2029-09-07T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-13,261,330!2027-01-17,290,330!fsrs,2029-09-22T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-04T00:00:00.000Z!2027-01-10,284,330!2026-11-24,252,330!fsrs,2029-08-24T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-10-29T00:00:00.000Z-->
+Actors {@{sidestep these issues}@} by enforcing {@{_encapsulation_: an actor never exposes its internal state to other actors}@}. The only interaction is through {@{immutable messages sent asynchronously}@}. This guarantees that {@{two actors cannot interfere with each other’s data}@}, so {@{no lock is required}@}. Because sending {@{a message does not block the sender}@}, the model naturally supports {@{high‑throughput, non‑blocking systems}@}. <!--SR:!fsrs,2029-09-07T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-13,261,330!2027-01-17,290,330!fsrs,2029-09-22T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-04T00:00:00.000Z!2027-01-10,284,330!fsrs,2029-12-13T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-11-24T00:00:00.000Z!fsrs,2029-08-24T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-10-29T00:00:00.000Z-->
 
 Actors provide {@{a clean abstraction for parallelism}@}: they eliminate {@{shared mutable state}@}, remove {@{lock‑based synchronization, and avoid deadlocks}@} while still allowing {@{many actors to run concurrently}@}. This makes Scala programs easier to {@{write, reason about, and scale on modern multicore hardware}@}. <!--SR:!2026-11-25,253,330!2026-11-27,255,330!2027-01-02,277,330!2027-01-09,283,330!2027-01-13,286,330-->
 
@@ -239,7 +239,7 @@ When {@{an actor receives a message}@} it may: {@{send other messages}@}; {@{cre
 > context.stop(self)
 > ```
 >
-> After this call {@{the actor’s mailbox is drained and its resources are reclaimed}@}. Actors may also be stopped externally through {@{`system.actorOf(Props[MyActor])` followed by `system.stop(actor)`}@}. <!--SR:!2026-11-24,252,330!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z!2026-11-27,255,330!2027-01-14,285,330-->
+> After this call {@{the actor’s mailbox is drained and its resources are reclaimed}@}. Actors may also be stopped externally through {@{`system.actorOf(Props[MyActor])` followed by `system.stop(actor)`}@}. <!--SR:!fsrs,2029-12-13T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-11-24T00:00:00.000Z!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z!2026-11-27,255,330!2027-01-14,285,330-->
 
 {@{These primitives}@} give actors {@{a well‑defined lifecycle that fits naturally into the asynchronous, message‑driven model}@}. <!--SR:!2026-12-02,252,330!2027-01-13,286,330-->
 
@@ -282,7 +282,7 @@ If two messages {@{arrive concurrently}@}, they are {@{queued and executed one a
 
 ## entry point
 
-{@{A minimal program}@} that creates {@{a counter}@}, sends {@{three increment messages}@}, asks for {@{the result, prints it}@}, and then {@{stops itself}@} is written as {@{an actor}@}: <!--SR:!fsrs,2029-12-07T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2029-09-17T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-03T00:00:00.000Z!2027-01-05,280,330!fsrs,2029-08-29T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-10-30T00:00:00.000Z!2026-11-24,252,330!2027-01-14,287,330-->
+{@{A minimal program}@} that creates {@{a counter}@}, sends {@{three increment messages}@}, asks for {@{the result, prints it}@}, and then {@{stops itself}@} is written as {@{an actor}@}: <!--SR:!fsrs,2029-12-07T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2029-09-17T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-03T00:00:00.000Z!2027-01-05,280,330!fsrs,2029-08-29T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-10-30T00:00:00.000Z!fsrs,2029-12-13T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-11-24T00:00:00.000Z!2027-01-14,287,330-->
 
 > [!example] __`Main` actor__
 >
@@ -320,7 +320,7 @@ In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two oper
 >   case object Failed
 > }
 > ```
-<!--SR:!fsrs,2029-12-07T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-11-24,252,330!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z-->
+<!--SR:!fsrs,2029-12-07T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2029-12-13T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-11-24T00:00:00.000Z!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z-->
 
 {@{The actor itself}@} keeps {@{a mutable balance}@} and replies with {@{`Done` or `Failed`}@}. When it {@{receives a `Withdraw`}@}, the amount is checked {@{against the current balance}@}; if insufficient, it signals {@{failure}@}. <!--SR:!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!fsrs,2029-10-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-07T00:00:00.000Z!2027-01-06,278,330!2027-01-15,288,330!2027-01-03,278,330!2027-01-06,281,330-->
 
@@ -469,7 +469,7 @@ When {@{several messages are sent to the same recipient}@} they keep {@{the orde
 > ```
 <!--SR:!2026-12-09,258,330!2026-12-29,272,330!fsrs,2029-08-19T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-10-28T00:00:00.000Z!2027-01-09,283,330!fsrs,2029-09-17T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-03T00:00:00.000Z!2026-11-30,251,330!2026-12-19,266,330-->
 
-{@{The `Controller`}@} keeps {@{a cache of already visited URLs}@} and {@{a set of running getters}@}. When {@{all children finish}@}, it reports {@{the collected links back to its parent}@}. <!--SR:!2027-01-19,289,330!2026-11-29,250,330!2026-12-12,260,330!2026-12-13,261,330!2026-11-24,252,330-->
+{@{The `Controller`}@} keeps {@{a cache of already visited URLs}@} and {@{a set of running getters}@}. When {@{all children finish}@}, it reports {@{the collected links back to its parent}@}. <!--SR:!2027-01-19,289,330!2026-11-29,250,330!2026-12-12,260,330!2026-12-13,261,330!fsrs,2029-12-13T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-11-24T00:00:00.000Z-->
 
 > [!example] __`Controller` actor__
 >

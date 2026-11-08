@@ -80,7 +80,7 @@ Different market structures will also lead to {@{different levels of social welf
 __Perfect competition:__
 
 1. There are many ::@:: buyers and sellers in the market, and there is no fixed buying and selling relationship between them. <!--SR:!2029-12-30,1456,360!2030-03-13,1522,360-->
-2. The products or services ::@:: traded in the market are all the same without any difference. <!--SR:!2026-11-24,540,310!2029-04-10,1238,358-->
+2. The products or services ::@:: traded in the market are all the same without any difference. <!--SR:!fsrs,2032-06-07T00:00:00.000Z,2022,2022.40267027,1,2,10,0,0,2026-11-24T00:00:00.000Z!2029-04-10,1238,358-->
 3. There are no barriers ::@:: to entry and exit from the market. <!--SR:!2030-01-21,1478,360!2029-11-20,1431,360-->
 4. There are no trade ::@:: secrets. <!--SR:!2030-02-24,1505,360!2030-02-23,1504,360-->
 5. Capital resources and labour are ::@:: easily transferable. <!--SR:!2029-11-13,1426,360!2029-09-03,1371,360-->

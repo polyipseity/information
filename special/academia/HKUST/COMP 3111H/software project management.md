@@ -130,7 +130,7 @@ It improves upon using {@{size (e.g. KLOC in place of FP, and where all data com
 
 ### parametric models
 
-{@{Empirical formulas}@} predict {@{effort (E) or duration (D) from measurable inputs}@}.  Examples include {@{_COCOMO_ (Constructive Cost Model) and the _Putnam Estimation Model_}@}.  They require {@{accurate input data}@} but can be {@{highly reliable when calibrated with local project history}@}. <!--SR:!2027-03-06,316,346!2027-05-05,375,363!2027-04-30,370,363!2026-11-24,252,330!2027-01-25,293,330-->
+{@{Empirical formulas}@} predict {@{effort (E) or duration (D) from measurable inputs}@}.  Examples include {@{_COCOMO_ (Constructive Cost Model) and the _Putnam Estimation Model_}@}.  They require {@{accurate input data}@} but can be {@{highly reliable when calibrated with local project history}@}. <!--SR:!2027-03-06,316,346!2027-05-05,375,363!2027-04-30,370,363!fsrs,2029-12-13T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-11-24T00:00:00.000Z!2027-01-25,293,330-->
 
 ### estimation risk mitigation
 

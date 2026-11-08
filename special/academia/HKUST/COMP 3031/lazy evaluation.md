@@ -74,7 +74,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 > ```
 <!--SR:!2026-11-27,299,345!fsrs,2030-04-13T00:00:00.000Z,1248,1248.19227538,1,2,9,0,0,2026-11-12T00:00:00.000Z!2027-01-15,338,345!fsrs,2030-04-07T00:00:00.000Z,1256,1256.09108905,1,2,9,0,0,2026-10-29T00:00:00.000Z-->
 
-{@{The companion object}@} also offers {@{a range constructor}@} that is {@{lazy by default}@}: <!--SR:!2026-12-15,312,345!2026-11-24,296,345!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z-->
+{@{The companion object}@} also offers {@{a range constructor}@} that is {@{lazy by default}@}: <!--SR:!2026-12-15,312,345!fsrs,2030-08-02T00:00:00.000Z,1347,1347.43487446,1,2,9,0,0,2026-11-24T00:00:00.000Z!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z-->
 
 > [!example] __`LazyList.range`__
 >
@@ -118,7 +118,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 
 Here {@{`filter`}@} is {@{lazily evaluated}@}; when {@{the second element is accessed}@}, it {@{filters until the second element is found}@}. Because {@{only the necessary portion of the list}@} is evaluated, this code does not build {@{a full list of all primes in that interval}@}. <!--SR:!2027-03-09,386,370!2027-02-14,367,370!2027-04-02,405,370!2027-03-07,383,370!2027-03-13,388,370!2027-03-18,392,370-->
 
-{@{Most `LazyList` operations}@} are implemented by mirroring {@{the corresponding `List` methods}@} but deferring {@{all recursive calls to the tail}@} so that they are {@{performed only when that part of the sequence is required}@}. For instance, {@{a strict `List.filter(p)`}@} builds {@{a new list in one pass}@}: it examines {@{every element}@} and appends {@{those satisfying `p`}@}, forcing {@{evaluation of the entire input list}@}. In contrast, {@{`LazyList.filter(p)`}@} constructs {@{a lazy cons cell}@} whose head is {@{the first matching element}@} and whose tail is {@{itself a lazily-filtered sublist}@}: <!--SR:!2026-11-24,296,345!2027-01-16,339,345!2026-12-05,305,345!2026-11-27,299,345!2026-12-30,325,345!2027-01-05,330,345!2026-12-14,311,345!2026-12-29,325,345!2026-12-17,315,345!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z!2027-01-05,330,345!2026-12-29,325,345!2027-01-03,328,345-->
+{@{Most `LazyList` operations}@} are implemented by mirroring {@{the corresponding `List` methods}@} but deferring {@{all recursive calls to the tail}@} so that they are {@{performed only when that part of the sequence is required}@}. For instance, {@{a strict `List.filter(p)`}@} builds {@{a new list in one pass}@}: it examines {@{every element}@} and appends {@{those satisfying `p`}@}, forcing {@{evaluation of the entire input list}@}. In contrast, {@{`LazyList.filter(p)`}@} constructs {@{a lazy cons cell}@} whose head is {@{the first matching element}@} and whose tail is {@{itself a lazily-filtered sublist}@}: <!--SR:!fsrs,2030-08-02T00:00:00.000Z,1347,1347.43487446,1,2,9,0,0,2026-11-24T00:00:00.000Z!2027-01-16,339,345!2026-12-05,305,345!2026-11-27,299,345!2026-12-30,325,345!2027-01-05,330,345!2026-12-14,311,345!2026-12-29,325,345!2026-12-17,315,345!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z!2027-01-05,330,345!2026-12-29,325,345!2027-01-03,328,345-->
 
 > [!example] __`LazyList.filter`__
 >
@@ -219,11 +219,11 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 > def from(n: Int): LazyList[Int] = n #:: from(n + 1)
 > val nats   = from(0)                    // all natural numbers
 > ```
-<!--SR:!2026-11-24,296,345!fsrs,2030-04-23T00:00:00.000Z,1256,1255.75476993,1,2,9,0,0,2026-11-14T00:00:00.000Z!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z-->
+<!--SR:!fsrs,2030-08-02T00:00:00.000Z,1347,1347.43487446,1,2,9,0,0,2026-11-24T00:00:00.000Z!fsrs,2030-04-23T00:00:00.000Z,1256,1255.75476993,1,2,9,0,0,2026-11-14T00:00:00.000Z!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z-->
 
 ### infinite sequence operations
 
-{@{Other infinite sequences}@} may be obtained by {@{mapping or filtering an infinite sequence}@}. For example, {@{the list of multiples of four}@} is expressed as: <!--SR:!2026-11-28,300,345!2026-11-24,296,345!2027-01-15,338,345-->
+{@{Other infinite sequences}@} may be obtained by {@{mapping or filtering an infinite sequence}@}. For example, {@{the list of multiples of four}@} is expressed as: <!--SR:!2026-11-28,300,345!fsrs,2030-08-02T00:00:00.000Z,1347,1347.43487446,1,2,9,0,0,2026-11-24T00:00:00.000Z!2027-01-15,338,345-->
 
 > [!example] __deriving infinite sequences__
 >
