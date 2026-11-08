@@ -1,4 +1,4 @@
-__ Cyclomatic complexity__ is a [software metric](software%20metric.md) used to indicate the [complexity of a program](programming%20complexity.md). It is a quantitative measure of the number of linearly independent [paths](path%20(graph%20theory).md) through a program's [source code](source%20code.md). It was developed by [Thomas J. McCabe, Sr.](Thomas%20J.%20McCabe,%20Sr..md) in 1976.
+__Cyclomatic complexity__ is a [software metric](software%20metric.md) used to indicate the [complexity of a program](programming%20complexity.md). It is a quantitative measure of the number of linearly independent [paths](path%20(graph%20theory).md) through a program's [source code](source%20code.md). It was developed by [Thomas J. McCabe, Sr.](Thomas%20J.%20McCabe,%20Sr..md) in 1976.
 
 Cyclomatic complexity is computed using the [control-flow graph](control-flow%20graph.md) of the program. The nodes of the [graph](directed%20graph.md) correspond to indivisible groups of commands of a program, and a [directed edge](directed%20edge.md) connects two nodes if the second command might be executed immediately after the first command. Cyclomatic complexity may also be applied to individual [functions](function%20(computer%20science).md), [modules](modular%20programming.md), [methods](method%20(computer%20science).md), or [classes](class%20(computer%20science).md) within a program.
 
@@ -12,11 +12,11 @@ One [testing](software%20testing.md) strategy, called [basis path testing](basis
 >
 > A control-flow graph of a simple program. The program begins executing at the red node, then enters a loop \(group of three nodes immediately below the red node\). Exiting the loop, there is a conditional statement \(group below the loop\) and the program exits at the blue node. This graph has nine edges, eight nodes and one [connected component](connected%20component%20(graph%20theory).md), so the program's cyclomatic complexity is 9 − 8 + 2×1 = 3.
 
-There are multiple ways to define cyclomatic complexity of a section of [source code](source%20code.md). One common way is the number of linearly independent [paths](path%20(graph%20theory).md) within it. A set S of paths is linearly independent if the edge set of any path P in S is not the union of edge sets of the paths in some subset of S/P. If the source code contained no [control flow statements](control%20flow.md) \(conditionals or decision points\) the complexity would be 1, since there would be only a single path through the code. If the code had one single-condition [IF statement](if%20statement.md#conditional-statement), there would be two paths through the code: one where the IF statement is TRUE and another one where it is FALSE. Here, the complexity would be 2. Two nested single-condition IFs, or one IF with two conditions, would produce a complexity of 3.
+There are multiple ways to define cyclomatic complexity of a section of [source code](source%20code.md). One common way is the number of linearly independent [paths](path%20(graph%20theory).md) within it. A set $S$ of paths is linearly independent if the edge set of any path $P$ in $S$ is not the union of edge sets of the paths in some subset of $S/P$. If the source code contained no [control flow statements](control%20flow.md) \(conditionals or decision points\) the complexity would be 1, since there would be only a single path through the code. If the code had one single-condition [IF statement](if%20statement.md#conditional-statement), there would be two paths through the code: one where the IF statement is TRUE and another one where it is FALSE. Here, the complexity would be 2. Two nested single-condition IFs, or one IF with two conditions, would produce a complexity of 3.
 
 Another way to define the cyclomatic complexity of a program is to look at its [control-flow graph](control-flow%20graph.md), a [directed graph](directed%20graph.md) containing the [basic blocks](basic%20block.md) of the program, with an edge between two basic blocks if control may pass from the first to the second. The complexity _M_ is then defined as<sup>[\[2\]](#^ref-2)</sup>
 
-M=E−N+2P,
+$$M = E - N + 2P,$$
 
 where
 
@@ -28,17 +28,17 @@ where
 >
 > The same function, represented using the alternative formulation where each exit point is connected back to the entry point. This graph has 10 edges, eight nodes and one [connected component](connected%20component%20(graph%20theory).md), which also results in a cyclomatic complexity of 3 using the alternative formulation \(10 − 8 + 1 = 3\).
 
-An alternative formulation of this, as originally proposed, is to use a graph in which each exit point is connected back to the entry point. In this case, the graph is [strongly connected](strongly%20connected.md). Here, the cyclomatic complexity of the program is equal to the [cyclomatic number](cyclomatic%20number.md) of its graph \(also known as the [first Betti number](Betti%20number.md#example%202%20the%20first%20Betti%20number%20in%20graph%20theory)\), which is defined as<sup>[\[2\]](#^ref-2)</sup>M=E−N+P.
+An alternative formulation of this, as originally proposed, is to use a graph in which each exit point is connected back to the entry point. In this case, the graph is [strongly connected](strongly%20connected.md). Here, the cyclomatic complexity of the program is equal to the [cyclomatic number](cyclomatic%20number.md) of its graph \(also known as the [first Betti number](Betti%20number.md#example%202%20the%20first%20Betti%20number%20in%20graph%20theory)\), which is defined as<sup>[\[2\]](#^ref-2)</sup> $$M = E - N + P.$$
 
 This may be seen as calculating the number of [linearly independent cycles](linearly%20independent%20cycle.md) that exist in the graph: those cycles that do not contain other cycles within themselves. Because each exit point loops back to the entry point, there is at least one such cycle for each exit point.
 
-For a single program \(or subroutine or method\), _P_ always equals 1; a simpler formula for a single subroutine is<sup>[\[3\]](#^ref-3)</sup>M=E−N+2.
+For a single program \(or subroutine or method\), _P_ always equals 1; a simpler formula for a single subroutine is<sup>[\[3\]](#^ref-3)</sup> $$M = E - N + 2.$$
 
 Cyclomatic complexity may be applied to several such programs or subprograms at the same time \(to all of the methods in a class, for example\). In these cases, _P_ will equal the number of programs in question, and each subprogram will appear as a disconnected subset of the graph.
 
 McCabe showed that the cyclomatic complexity of a structured program with only one entry point and one exit point is equal to the number of decision points \("if" statements or conditional loops\) contained in that program plus one. This is true only for decision points counted at the lowest, machine-level instructions.<sup>[\[4\]](#^ref-4)</sup> Decisions involving compound predicates like those found in [high-level languages](high-level%20language.md) like `IF cond1 AND cond2 THEN ...` should be counted in terms of predicate variables involved. In this example, one should count two decision points because at machine level it is equivalent to `IF cond1 THEN IF cond2 THEN ...`.<sup>[\[2\]](#^ref-2)</sup><sup>[\[5\]](#^ref-5)</sup>
 
-Cyclomatic complexity may be extended to a program with multiple exit points. In this case, it is equal toπ−s+2,where π is the number of decision points in the program and _s_ is the number of exit points.<sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup>
+Cyclomatic complexity may be extended to a program with multiple exit points. In this case, it is equal to $$\pi - s + 2,$$ where $\pi$ is the number of decision points in the program and _s_ is the number of exit points.<sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup>
 
 ### interpretation
 
@@ -57,9 +57,9 @@ An even subgraph of a graph \(also known as an [Eulerian subgraph](Eulerian%20pa
 
 The set of all even subgraphs of a graph is closed under [symmetric difference](symmetric%20difference.md), and may thus be viewed as a [vector space](vector%20space.md) over [GF\(2\)](GF(2).md). This vector space is called the [cycle space](cycle%20space.md) of the graph. The [cyclomatic number](cyclomatic%20number.md) of the graph is defined as the [dimension](dimension%20(vector%20space).md) of this space. Since GF\(2\) has two elements and the cycle space is necessarily finite, the cyclomatic number is also equal to the [2-logarithm](binary%20logarithm.md) of the number of elements in the cycle space.
 
-A [basis](basis%20(linear%20algebra).md) for the cycle space is easily constructed by first fixing a [spanning forest](glossary%20of%20graph%20theory.md#trees) of the graph, and then considering the cycles formed by one edge not in the forest and the path in the forest connecting the endpoints of that edge. These cycles form a basis for the cycle space. The cyclomatic number also equals the number of edges not in a maximal spanning forest of a graph. Since the number of edges in a maximal spanning forest of a graph is equal to the number of vertices minus the number of components, the formula E−N+P defines the cyclomatic number.<sup>[\[8\]](#^ref-8)</sup>
+A [basis](basis%20(linear%20algebra).md) for the cycle space is easily constructed by first fixing a [spanning forest](glossary%20of%20graph%20theory.md#trees) of the graph, and then considering the cycles formed by one edge not in the forest and the path in the forest connecting the endpoints of that edge. These cycles form a basis for the cycle space. The cyclomatic number also equals the number of edges not in a maximal spanning forest of a graph. Since the number of edges in a maximal spanning forest of a graph is equal to the number of vertices minus the number of components, the formula $E-N+P$ defines the cyclomatic number.<sup>[\[8\]](#^ref-8)</sup>
 
-Cyclomatic complexity can also be defined as a relative [Betti number](Betti%20number.md), the size of a [relative homology](relative%20homology.md) group:M:=b1(G,t):=rank⁡H1(G,t),
+Cyclomatic complexity can also be defined as a relative [Betti number](Betti%20number.md), the size of a [relative homology](relative%20homology.md) group: $$M := b_1(G,t) := \operatorname{rank}H_1(G,t),$$
 
 which is read as "the rank of the first [homology](homology%20(mathematics).md) group of the graph _G_ relative to the [terminal nodes](tree%20(data%20structure).md#terminology) _t_". This is a technical way of saying "the number of linearly independent paths through the flow graph from an entry to an exit", where:
 
@@ -67,9 +67,9 @@ which is read as "the rank of the first [homology](homology%20(mathematics).md) 
 - "paths" corresponds to first homology \(a path is a one-dimensional object\); and
 - "relative" means the path must begin and end at an entry \(or exit\) point.
 
-This cyclomatic complexity can be calculated. It may also be computed via absolute [Betti number](Betti%20number.md) by identifying the terminal nodes on a given component, or drawing paths connecting the exits to the entrance. The new, augmented graph G~ obtainsM=b1(G~)=rank⁡H1(G~).
+This cyclomatic complexity can be calculated. It may also be computed via absolute [Betti number](Betti%20number.md) by identifying the terminal nodes on a given component, or drawing paths connecting the exits to the entrance. The new, augmented graph $\tilde G$ obtains $$M = b_1(\tilde G) = \operatorname{rank}H_1(\tilde G).$$
 
-It can also be computed via [homotopy](homotopy.md). If a \(connected\) control-flow graph is considered a one-dimensional [CW complex](CW%20complex.md) called X, the [fundamental group](fundamental%20group.md) of X will be π1(X)≅ℤ∗n. The value of n+1 is the cyclomatic complexity. The fundamental group counts how many loops there are through the graph up to homotopy, aligning as expected.
+It can also be computed via [homotopy](homotopy.md). If a \(connected\) control-flow graph is considered a one-dimensional [CW complex](CW%20complex.md) called $X$, the [fundamental group](fundamental%20group.md) of $X$ will be $\pi_1(X) \cong \Z^{*n}$. The value of $n+1$ is the cyclomatic complexity. The fundamental group counts how many loops there are through the graph up to homotopy, aligning as expected.
 
 ## applications
 
@@ -94,11 +94,23 @@ It is useful because of two properties of the cyclomatic complexity, _M_, for a 
 - _M_ is an upper bound for the number of test cases that are necessary to achieve a complete [branch coverage](branch%20coverage.md).
 - _M_ is a lower bound for the number of paths through the control-flow graph \(CFG\). Assuming each test case takes one path, the number of cases needed to achieve [path coverage](path%20coverage.md) is equal to the number of paths that can actually be taken. But some paths may be impossible, so although the number of paths through the CFG is clearly an upper bound on the number of test cases needed for path coverage, this latter number \(of _possible_ paths\) is sometimes less than _M_.
 
-All three of the above numbers may be equal: branch coverage ≤ cyclomatic complexity ≤ number of paths.
+All three of the above numbers may be equal: branch coverage $\leq$ cyclomatic complexity $\leq$ number of paths.
 
 For example, consider a program that consists of two sequential if-then-else statements.
 
-__if__ \(c1\(\)\) f1\(\); __else__ f2\(\); __if__ \(c2\(\)\) f3\(\); __else__ f4\(\);> ![A [control flow graph](https://en.wikipedia.org/wiki/control_flow_graph) of the example function on the [cyclomatic complexity](https://en.wikipedia.org/wiki/cyclomatic_complexity) page.](../../archives/Wikimedia%20Commons/Control%20flow%20graph%20of%20function%20with%20two%20if%20else%20statements.svg)
+```c
+if (c1())
+    f1();
+else
+    f2();
+
+if (c2())
+    f3();
+else
+    f4();
+```
+
+> ![A [control flow graph](https://en.wikipedia.org/wiki/control_flow_graph) of the example function on the [cyclomatic complexity](https://en.wikipedia.org/wiki/cyclomatic_complexity) page.](../../archives/Wikimedia%20Commons/Control%20flow%20graph%20of%20function%20with%20two%20if%20else%20statements.svg)
 >
 > The control-flow graph of the source code above; the red circle is the entry point of the function, and the blue circle is the exit point. The exit has been connected to the entry to make the graph strongly connected.
 
