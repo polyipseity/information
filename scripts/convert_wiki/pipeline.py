@@ -113,6 +113,8 @@ r"""AMS align environments rewritten to the ones Obsidian can render.
 
 ``\begin{align}`` and friends are not defined by MathJax's base packages, so
 the same layout is expressed with the ``aligned``-family environments instead.
+``multline`` is left unchanged because MathJax 4 renders it natively; its
+``multlined`` counterpart is not available without mathtools.
 """
 _MATH_ENV_ALIASES: Mapping[str, str] = {
     "align": "aligned",
@@ -121,8 +123,6 @@ _MATH_ENV_ALIASES: Mapping[str, str] = {
     "alignat*": "alignedat",
     "gather": "gathered",
     "gather*": "gathered",
-    "multline": "multlined",
-    "multline*": "multlined",
     "eqnarray": "aligned",
     "eqnarray*": "aligned",
 }

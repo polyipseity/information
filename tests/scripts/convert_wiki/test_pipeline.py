@@ -1054,8 +1054,6 @@ class TestNormalizeMathSource:
             ("alignat*", "alignedat"),
             ("gather", "gathered"),
             ("gather*", "gathered"),
-            ("multline", "multlined"),
-            ("multline*", "multlined"),
             ("eqnarray", "aligned"),
             ("eqnarray*", "aligned"),
         ],
@@ -1066,6 +1064,12 @@ class TestNormalizeMathSource:
         assert _normalize_math_source(source) == (
             rf"\begin{{{expected}}}a &= b\end{{{expected}}}"
         )
+
+    @pytest.mark.parametrize("environment", ["multline", "multline*"])
+    def test_multline_environment_is_unchanged(self, environment: str) -> None:
+        """``multline`` renders natively in MathJax 4, so its name is kept."""
+        source = rf"\begin{{{environment}}}a &= b\end{{{environment}}}"
+        assert _normalize_math_source(source) == source
 
     def test_alignat_column_count_is_kept(self) -> None:
         """The ``alignat`` column count stays after the rewritten environment."""
