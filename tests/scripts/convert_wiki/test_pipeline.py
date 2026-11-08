@@ -31,6 +31,7 @@ from scripts.convert_wiki.config import (
 )
 from scripts.convert_wiki.converter import WikiHtmlConverter
 from scripts.convert_wiki.pipeline import (
+    _MATH_ENV_ALIASES,
     _collect_block_math_info,
     _determine_needs_after,
     _determine_needs_before,
@@ -43,6 +44,7 @@ from scripts.convert_wiki.pipeline import (
     run_pipeline,
     wiki_html_to_plaintext,
 )
+from scripts.convert_wiki.template_config import _DISPLAY_MATH_ENVIRONMENTS
 from scripts.convert_wiki.types import _RedirectInfo
 
 """Public API of this test module (empty: no symbols are exported)."""
@@ -1064,6 +1066,19 @@ class TestNormalizeMathSource:
         assert _normalize_math_source(source) == (
             rf"\begin{{{expected}}}a &= b\end{{{expected}}}"
         )
+
+    def test_aliases_are_display_math_environments(self) -> None:
+        r"""Every normalized name is a recognized display math environment.
+
+        The converter decides display-math rendering and trailing-punctuation
+        absorption by matching ``\end{env}`` against
+        ``_DISPLAY_MATH_ENVIRONMENTS``, so a normalized name missing from that
+        list would lose both behaviours.
+        """
+        missing = sorted(
+            set(_MATH_ENV_ALIASES.values()) - set(_DISPLAY_MATH_ENVIRONMENTS)
+        )
+        assert not missing, missing
 
     @pytest.mark.parametrize("environment", ["multline", "multline*"])
     def test_multline_environment_is_unchanged(self, environment: str) -> None:

@@ -81,10 +81,12 @@
   // LaTeX display math environments whose trailing punct belongs on the last row.
   "display_math_environments": [
     "aligned",
+    "alignedat",
     "align",
     "align*",
     "gather",
     "gather*",
+    "gathered",
     "multline",
     "split",
     "cases",
