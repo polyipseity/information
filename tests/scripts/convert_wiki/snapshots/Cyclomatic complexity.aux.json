@@ -1,0 +1,827 @@
+{
+  "api_titles": [
+    "Strongly connected",
+    "Modular programming",
+    "Path coverage",
+    "Directed edge",
+    "Doi (identifier)",
+    "Branch coverage",
+    "Complexity trap",
+    "Backtracking",
+    "S2CID (identifier)",
+    "Structured program theorem",
+    "CiteSeerX (identifier)",
+    "Software quality",
+    "Verification and validation",
+    "Fundamental group",
+    "Computer program",
+    "ISBN (identifier)",
+    "Dimension (vector space)",
+    "Function (computer science)",
+    "Homology (mathematics)",
+    "Programming complexity",
+    "Method (computer science)",
+    "Vertex (graph theory)",
+    "Les Hatton",
+    "Graph (discrete mathematics)",
+    "Computer programming",
+    "Control-flow graph",
+    "Condensation (graph theory)",
+    "Refactoring",
+    "Cycle space",
+    "Path (graph theory)",
+    "Tree (data structure)",
+    "Correlation does not imply causation",
+    "Software metric",
+    "ISSN (identifier)",
+    "Linearly independent cycle",
+    "Design predicates",
+    "Glossary of graph theory",
+    "Halstead complexity measures",
+    "Vector space",
+    "Connected component (graph theory)",
+    "Betti number",
+    "Eulerian path",
+    "Decision-to-decision path",
+    "Lines of code",
+    "White-box testing",
+    "Component (graph theory)",
+    "Symmetric difference",
+    "Basis (linear algebra)",
+    "Basic block",
+    "Directed graph",
+    "Bibcode (identifier)",
+    "Control flow",
+    "Source code",
+    "If statement",
+    "Basis path testing",
+    "Software engineering",
+    "NIST",
+    "Commercial software",
+    "Maintainability",
+    "Class (computer science)",
+    "GF(2)",
+    "ISO 26262",
+    "Static program analysis",
+    "Structured programming",
+    "High-level language",
+    "CW complex",
+    "Software testing",
+    "Binary logarithm",
+    "Relative homology",
+    "Homotopy",
+    "Essential complexity",
+    "Cyclomatic number"
+  ],
+  "api_responses": [
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Function (computer science)",
+            "to": "Function (computer programming)"
+          },
+          {
+            "from": "Lines of code",
+            "to": "Source lines of code"
+          },
+          {
+            "from": "Directed edge",
+            "to": "Directed graph"
+          },
+          {
+            "from": "Refactoring",
+            "to": "Code refactoring"
+          },
+          {
+            "from": "Complexity trap",
+            "to": "Feature creep"
+          },
+          {
+            "from": "Path coverage",
+            "to": "Code coverage"
+          },
+          {
+            "from": "Branch coverage",
+            "to": "Code coverage"
+          },
+          {
+            "from": "Strongly connected",
+            "to": "Strongly connected component"
+          },
+          {
+            "from": "Condensation (graph theory)",
+            "to": "Strongly connected component",
+            "tofragment": "Definitions"
+          },
+          {
+            "from": "Method (computer science)",
+            "to": "Method (computer programming)"
+          },
+          {
+            "from": "Linearly independent cycle",
+            "to": "Cycle basis"
+          },
+          {
+            "from": "ISBN (identifier)",
+            "to": "ISBN"
+          },
+          {
+            "from": "ISSN (identifier)",
+            "to": "ISSN"
+          },
+          {
+            "from": "Connected component (graph theory)",
+            "to": "Component (graph theory)"
+          },
+          {
+            "from": "S2CID (identifier)",
+            "to": "Semantic Scholar",
+            "tofragment": "S2CID"
+          },
+          {
+            "from": "Doi (identifier)",
+            "to": "Digital object identifier"
+          },
+          {
+            "from": "CiteSeerX (identifier)",
+            "to": "CiteSeerX"
+          },
+          {
+            "from": "Tree (data structure)",
+            "to": "Tree (abstract data type)"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 5311,
+            "ns": 0,
+            "title": "Computer programming"
+          },
+          {
+            "pageid": 5783,
+            "ns": 0,
+            "title": "Computer program"
+          },
+          {
+            "pageid": 7030,
+            "ns": 0,
+            "title": "Code coverage"
+          },
+          {
+            "pageid": 11004,
+            "ns": 0,
+            "title": "Fundamental group"
+          },
+          {
+            "pageid": 14919,
+            "ns": 0,
+            "title": "ISBN"
+          },
+          {
+            "pageid": 18420,
+            "ns": 0,
+            "title": "Basis (linear algebra)"
+          },
+          {
+            "pageid": 25871,
+            "ns": 0,
+            "title": "Code refactoring"
+          },
+          {
+            "pageid": 30806,
+            "ns": 0,
+            "title": "Tree (abstract data type)"
+          },
+          {
+            "pageid": 32370,
+            "ns": 0,
+            "title": "Vector space"
+          },
+          {
+            "pageid": 38267,
+            "ns": 0,
+            "title": "Dimension (vector space)"
+          },
+          {
+            "pageid": 39834,
+            "ns": 0,
+            "title": "Correlation does not imply causation"
+          },
+          {
+            "pageid": 43653,
+            "ns": 0,
+            "title": "Control-flow graph"
+          },
+          {
+            "pageid": 73528,
+            "ns": 0,
+            "title": "Feature creep"
+          },
+          {
+            "pageid": 142432,
+            "ns": 0,
+            "title": "Homology (mathematics)"
+          },
+          {
+            "pageid": 158949,
+            "ns": 0,
+            "title": "CiteSeerX"
+          },
+          {
+            "pageid": 187442,
+            "ns": 0,
+            "title": "Software metric"
+          },
+          {
+            "pageid": 218706,
+            "ns": 0,
+            "title": "Basic block"
+          },
+          {
+            "pageid": 232817,
+            "ns": 0,
+            "title": "Method (computer programming)"
+          },
+          {
+            "pageid": 234930,
+            "ns": 0,
+            "title": "ISSN"
+          },
+          {
+            "pageid": 238867,
+            "ns": 0,
+            "title": "Backtracking"
+          },
+          {
+            "pageid": 246223,
+            "ns": 0,
+            "title": "Component (graph theory)"
+          },
+          {
+            "pageid": 262243,
+            "ns": 0,
+            "title": "Cycle space"
+          },
+          {
+            "pageid": 262288,
+            "ns": 0,
+            "title": "Symmetric difference"
+          },
+          {
+            "pageid": 295066,
+            "ns": 0,
+            "title": "Source lines of code"
+          },
+          {
+            "pageid": 325802,
+            "ns": 0,
+            "title": "Glossary of graph theory"
+          },
+          {
+            "pageid": 325806,
+            "ns": 0,
+            "title": "Graph (discrete mathematics)"
+          },
+          {
+            "pageid": 333219,
+            "ns": 0,
+            "title": "Eulerian path"
+          },
+          {
+            "pageid": 346262,
+            "ns": 0,
+            "title": "Betti number"
+          },
+          {
+            "pageid": 422994,
+            "ns": 0,
+            "title": "Digital object identifier"
+          },
+          {
+            "pageid": 638889,
+            "ns": 0,
+            "title": "Path (graph theory)"
+          },
+          {
+            "pageid": 638899,
+            "ns": 0,
+            "title": "Vertex (graph theory)"
+          },
+          {
+            "pageid": 684680,
+            "ns": 0,
+            "title": "Strongly connected component"
+          },
+          {
+            "pageid": 768799,
+            "ns": 0,
+            "title": "White-box testing"
+          },
+          {
+            "pageid": 939133,
+            "ns": 0,
+            "title": "Modular programming"
+          },
+          {
+            "pageid": 1301906,
+            "ns": 0,
+            "title": "Software quality"
+          },
+          {
+            "pageid": 1482138,
+            "ns": 0,
+            "title": "Structured program theorem"
+          },
+          {
+            "pageid": 2814347,
+            "ns": 0,
+            "title": "Programming complexity"
+          },
+          {
+            "pageid": 7077988,
+            "ns": 0,
+            "title": "Les Hatton"
+          },
+          {
+            "pageid": 9054619,
+            "ns": 0,
+            "title": "Design predicates"
+          },
+          {
+            "pageid": 9704668,
+            "ns": 0,
+            "title": "Decision-to-decision path"
+          },
+          {
+            "pageid": 13144608,
+            "ns": 0,
+            "title": "Verification and validation"
+          },
+          {
+            "pageid": 14451712,
+            "ns": 0,
+            "title": "Halstead complexity measures"
+          },
+          {
+            "pageid": 19721986,
+            "ns": 0,
+            "title": "Directed graph"
+          },
+          {
+            "pageid": 24778911,
+            "ns": 0,
+            "title": "Cycle basis"
+          },
+          {
+            "pageid": 32177451,
+            "ns": 0,
+            "title": "Function (computer programming)"
+          },
+          {
+            "pageid": 48455863,
+            "ns": 0,
+            "title": "Semantic Scholar"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "High-level language",
+            "to": "High-level programming language"
+          },
+          {
+            "from": "If statement",
+            "to": "Conditional (computer programming)",
+            "tofragment": "conditional-statement"
+          },
+          {
+            "from": "Class (computer science)",
+            "to": "Class (programming)"
+          },
+          {
+            "from": "NIST",
+            "to": "National Institute of Standards and Technology"
+          },
+          {
+            "from": "Bibcode (identifier)",
+            "to": "Bibcode"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 7392,
+            "ns": 0,
+            "title": "Class (programming)"
+          },
+          {
+            "pageid": 21888,
+            "ns": 0,
+            "title": "National Institute of Standards and Technology"
+          },
+          {
+            "pageid": 27010,
+            "ns": 0,
+            "title": "Software engineering"
+          },
+          {
+            "pageid": 27661,
+            "ns": 0,
+            "title": "Source code"
+          },
+          {
+            "pageid": 27695,
+            "ns": 0,
+            "title": "Structured programming"
+          },
+          {
+            "pageid": 28811,
+            "ns": 0,
+            "title": "Static program analysis"
+          },
+          {
+            "pageid": 29090,
+            "ns": 0,
+            "title": "Software testing"
+          },
+          {
+            "pageid": 41347,
+            "ns": 0,
+            "title": "Maintainability"
+          },
+          {
+            "pageid": 45459,
+            "ns": 0,
+            "title": "Control flow"
+          },
+          {
+            "pageid": 189842,
+            "ns": 0,
+            "title": "High-level programming language"
+          },
+          {
+            "pageid": 212250,
+            "ns": 0,
+            "title": "Homotopy"
+          },
+          {
+            "pageid": 249992,
+            "ns": 0,
+            "title": "Binary logarithm"
+          },
+          {
+            "pageid": 353022,
+            "ns": 0,
+            "title": "CW complex"
+          },
+          {
+            "pageid": 462839,
+            "ns": 0,
+            "title": "Conditional (computer programming)"
+          },
+          {
+            "pageid": 695391,
+            "ns": 0,
+            "title": "Commercial software"
+          },
+          {
+            "pageid": 1248647,
+            "ns": 0,
+            "title": "Relative homology"
+          },
+          {
+            "pageid": 1483049,
+            "ns": 0,
+            "title": "Cyclomatic number"
+          },
+          {
+            "pageid": 2842330,
+            "ns": 0,
+            "title": "Essential complexity"
+          },
+          {
+            "pageid": 11137263,
+            "ns": 0,
+            "title": "GF(2)"
+          },
+          {
+            "pageid": 14092434,
+            "ns": 0,
+            "title": "Bibcode"
+          },
+          {
+            "pageid": 26220007,
+            "ns": 0,
+            "title": "ISO 26262"
+          },
+          {
+            "pageid": 35700658,
+            "ns": 0,
+            "title": "Basis path testing"
+          }
+        ]
+      }
+    }
+  ],
+  "redirect_cache": {
+    "Function (computer science)": {
+      "to": "Function (computer programming)",
+      "tofragment": ""
+    },
+    "Lines of code": {
+      "to": "Source lines of code",
+      "tofragment": ""
+    },
+    "Directed edge": {
+      "to": "Directed graph",
+      "tofragment": ""
+    },
+    "Refactoring": {
+      "to": "Code refactoring",
+      "tofragment": ""
+    },
+    "Complexity trap": {
+      "to": "Feature creep",
+      "tofragment": ""
+    },
+    "Path coverage": {
+      "to": "Code coverage",
+      "tofragment": ""
+    },
+    "Branch coverage": {
+      "to": "Code coverage",
+      "tofragment": ""
+    },
+    "Strongly connected": {
+      "to": "Strongly connected component",
+      "tofragment": ""
+    },
+    "Condensation (graph theory)": {
+      "to": "Strongly connected component",
+      "tofragment": "Definitions"
+    },
+    "Method (computer science)": {
+      "to": "Method (computer programming)",
+      "tofragment": ""
+    },
+    "Linearly independent cycle": {
+      "to": "Cycle basis",
+      "tofragment": ""
+    },
+    "ISBN (identifier)": {
+      "to": "ISBN",
+      "tofragment": ""
+    },
+    "ISSN (identifier)": {
+      "to": "ISSN",
+      "tofragment": ""
+    },
+    "Connected component (graph theory)": {
+      "to": "Component (graph theory)",
+      "tofragment": ""
+    },
+    "S2CID (identifier)": {
+      "to": "Semantic Scholar",
+      "tofragment": "S2CID"
+    },
+    "Doi (identifier)": {
+      "to": "Digital object identifier",
+      "tofragment": ""
+    },
+    "CiteSeerX (identifier)": {
+      "to": "CiteSeerX",
+      "tofragment": ""
+    },
+    "Tree (data structure)": {
+      "to": "Tree (abstract data type)",
+      "tofragment": ""
+    },
+    "Modular programming": {
+      "to": "Modular programming",
+      "tofragment": ""
+    },
+    "Backtracking": {
+      "to": "Backtracking",
+      "tofragment": ""
+    },
+    "Structured program theorem": {
+      "to": "Structured program theorem",
+      "tofragment": ""
+    },
+    "Software quality": {
+      "to": "Software quality",
+      "tofragment": ""
+    },
+    "Verification and validation": {
+      "to": "Verification and validation",
+      "tofragment": ""
+    },
+    "Fundamental group": {
+      "to": "Fundamental group",
+      "tofragment": ""
+    },
+    "Computer program": {
+      "to": "Computer program",
+      "tofragment": ""
+    },
+    "Dimension (vector space)": {
+      "to": "Dimension (vector space)",
+      "tofragment": ""
+    },
+    "Homology (mathematics)": {
+      "to": "Homology (mathematics)",
+      "tofragment": ""
+    },
+    "Programming complexity": {
+      "to": "Programming complexity",
+      "tofragment": ""
+    },
+    "Vertex (graph theory)": {
+      "to": "Vertex (graph theory)",
+      "tofragment": ""
+    },
+    "Les Hatton": {
+      "to": "Les Hatton",
+      "tofragment": ""
+    },
+    "Graph (discrete mathematics)": {
+      "to": "Graph (discrete mathematics)",
+      "tofragment": ""
+    },
+    "Computer programming": {
+      "to": "Computer programming",
+      "tofragment": ""
+    },
+    "Control-flow graph": {
+      "to": "Control-flow graph",
+      "tofragment": ""
+    },
+    "Cycle space": {
+      "to": "Cycle space",
+      "tofragment": ""
+    },
+    "Path (graph theory)": {
+      "to": "Path (graph theory)",
+      "tofragment": ""
+    },
+    "Correlation does not imply causation": {
+      "to": "Correlation does not imply causation",
+      "tofragment": ""
+    },
+    "Software metric": {
+      "to": "Software metric",
+      "tofragment": ""
+    },
+    "Design predicates": {
+      "to": "Design predicates",
+      "tofragment": ""
+    },
+    "Glossary of graph theory": {
+      "to": "Glossary of graph theory",
+      "tofragment": ""
+    },
+    "Halstead complexity measures": {
+      "to": "Halstead complexity measures",
+      "tofragment": ""
+    },
+    "Vector space": {
+      "to": "Vector space",
+      "tofragment": ""
+    },
+    "Betti number": {
+      "to": "Betti number",
+      "tofragment": ""
+    },
+    "Eulerian path": {
+      "to": "Eulerian path",
+      "tofragment": ""
+    },
+    "Decision-to-decision path": {
+      "to": "Decision-to-decision path",
+      "tofragment": ""
+    },
+    "White-box testing": {
+      "to": "White-box testing",
+      "tofragment": ""
+    },
+    "Component (graph theory)": {
+      "to": "Component (graph theory)",
+      "tofragment": ""
+    },
+    "Symmetric difference": {
+      "to": "Symmetric difference",
+      "tofragment": ""
+    },
+    "Basis (linear algebra)": {
+      "to": "Basis (linear algebra)",
+      "tofragment": ""
+    },
+    "Basic block": {
+      "to": "Basic block",
+      "tofragment": ""
+    },
+    "Directed graph": {
+      "to": "Directed graph",
+      "tofragment": ""
+    },
+    "High-level language": {
+      "to": "High-level programming language",
+      "tofragment": ""
+    },
+    "If statement": {
+      "to": "Conditional (computer programming)",
+      "tofragment": "conditional-statement"
+    },
+    "Class (computer science)": {
+      "to": "Class (programming)",
+      "tofragment": ""
+    },
+    "NIST": {
+      "to": "National Institute of Standards and Technology",
+      "tofragment": ""
+    },
+    "Bibcode (identifier)": {
+      "to": "Bibcode",
+      "tofragment": ""
+    },
+    "Control flow": {
+      "to": "Control flow",
+      "tofragment": ""
+    },
+    "Source code": {
+      "to": "Source code",
+      "tofragment": ""
+    },
+    "Basis path testing": {
+      "to": "Basis path testing",
+      "tofragment": ""
+    },
+    "Software engineering": {
+      "to": "Software engineering",
+      "tofragment": ""
+    },
+    "Commercial software": {
+      "to": "Commercial software",
+      "tofragment": ""
+    },
+    "Maintainability": {
+      "to": "Maintainability",
+      "tofragment": ""
+    },
+    "GF(2)": {
+      "to": "GF(2)",
+      "tofragment": ""
+    },
+    "ISO 26262": {
+      "to": "ISO 26262",
+      "tofragment": ""
+    },
+    "Static program analysis": {
+      "to": "Static program analysis",
+      "tofragment": ""
+    },
+    "Structured programming": {
+      "to": "Structured programming",
+      "tofragment": ""
+    },
+    "CW complex": {
+      "to": "CW complex",
+      "tofragment": ""
+    },
+    "Software testing": {
+      "to": "Software testing",
+      "tofragment": ""
+    },
+    "Binary logarithm": {
+      "to": "Binary logarithm",
+      "tofragment": ""
+    },
+    "Relative homology": {
+      "to": "Relative homology",
+      "tofragment": ""
+    },
+    "Homotopy": {
+      "to": "Homotopy",
+      "tofragment": ""
+    },
+    "Essential complexity": {
+      "to": "Essential complexity",
+      "tofragment": ""
+    },
+    "Cyclomatic number": {
+      "to": "Cyclomatic number",
+      "tofragment": ""
+    }
+  },
+  "image_metadata": {
+    "File:Control flow graph of function with two if else statements.svg": "A [control flow graph](https://en.wikipedia.org/wiki/control_flow_graph) of the example function on the [cyclomatic complexity](https://en.wikipedia.org/wiki/cyclomatic_complexity) page.",
+    "File:Control flow graph of function with loop and an if statement without loop back.svg": "A [control flow graph](https://en.wikipedia.org/wiki/control_flow_graph) of a simple function.",
+    "File:Control flow graph of function with loop and an if statement.svg": "A [control flow graph](https://en.wikipedia.org/wiki/control_flow_graph) with a cycle from exit to entry \\(as used in [cyclomatic complexity](https://en.wikipedia.org/wiki/cyclomatic_complexity) calculation\\)"
+  },
+  "name_map_overrides": {}
+}
