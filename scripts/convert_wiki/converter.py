@@ -35,6 +35,7 @@ Related modules
 - ``pipeline``: orchestration (preprocess → convert → postprocess).
 """
 
+import json
 import re
 import unicodedata
 from collections.abc import Iterable, Mapping, MutableSet
@@ -186,6 +187,36 @@ def _collect_anchor_fragments(ele: PageElement) -> frozenset[str]:
         fragments.add(identifier)
         fragments.add(identifier.replace("_", " "))
     return frozenset(fragments)
+
+
+def _syntaxhighlight_source(ele: Tag) -> tuple[str, str] | None:
+    """Return ``(lang, source)`` for a ``syntaxhighlight`` extension wrapper.
+
+    Parsoid serialises the extension invocation as JSON in ``data-mw`` and
+    renders the highlighted source into a ``<pre>`` whose ``<span>`` fragments
+    keep the styling but not the line breaks, so the original code has to be
+    read from the payload rather than from the children.  A missing, malformed,
+    or unrelated payload yields ``None`` so the element falls back to its
+    generic handling.
+    """
+    raw = ele.get("data-mw")
+    if not raw:
+        return None
+    try:
+        data_mw = json.loads(str(raw))
+    except json.JSONDecodeError:
+        return None
+    if not isinstance(data_mw, dict) or data_mw.get("name") != "syntaxhighlight":
+        return None
+    body = data_mw.get("body")
+    if not isinstance(body, dict):
+        return None
+    source = body.get("extsrc")
+    if not isinstance(source, str):
+        return None
+    attrs = data_mw.get("attrs")
+    lang = attrs.get("lang") if isinstance(attrs, dict) else None
+    return (lang if isinstance(lang, str) else ""), source
 
 
 def _needs_marker(character: str) -> bool:
@@ -1616,6 +1647,22 @@ class WikiHtmlConverter:
 
     def _handle_div(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig | None:
         """Handle <div> elements, with special handling for equation-box divs."""
+        if (syntaxhighlight := _syntaxhighlight_source(ele)) is not None:
+            lang, source = syntaxhighlight
+
+            def _fence(strings: str) -> str:
+                """Render the extension source as a fenced code block."""
+                # The children of a highlighted block carry no line structure,
+                # so ``strings`` is dropped in favour of the original source.
+                # The fence outgrows any backtick run in the code so a literal
+                # backtick sequence cannot close it early.
+                delimiter = "```"
+                while delimiter in source:
+                    delimiter += "`"
+                code = source.strip("\n")
+                return f"{delimiter}{lang}\n{code}\n{delimiter}\n\n"
+
+            return _HandlerConfig(full_result=True, process_strings=_fence)
         if "shortdescription" in classes:
             return _HandlerConfig(suffix="\n\n")
         if "theader" in classes:

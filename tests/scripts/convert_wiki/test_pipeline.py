@@ -1264,6 +1264,38 @@ class TestWikiHtmlToPlaintext:
             "> One has $$\\mu (A)\\geq 0$$ for any subset.\n"
         )
 
+    @pytest.mark.anyio
+    async def test_syntaxhighlight_div_becomes_fenced_code_block(self) -> None:
+        """A syntaxhighlight wrapper fences its source and stays its own block.
+
+        Parsoid renders ``<syntaxhighlight lang="c">`` as a ``<div>`` of
+        highlighted ``<span>`` fragments whose text carries no line breaks
+        (see ``snapshots/cyclomatic complexity.input.html``), while the
+        payload keeps the original source.  The fence must come from
+        ``data-mw`` and end the block, so the blockquote that follows keeps
+        its own ``> `` lines instead of merging into the code.
+        """
+        result = await _convert_html(
+            '<div class="mw-highlight mw-highlight-lang-c mw-content-ltr"'
+            ' typeof="mw:Extension/syntaxhighlight"'
+            ' data-mw=\'{"name":"syntaxhighlight","attrs":{"lang":"c"},'
+            '"body":{"extsrc":"\\nif (c1())\\n    f1();\\nelse\\n    f2();\\n"}}\'>'
+            '<pre><span class="k">if</span> <span class="p">(</span>'
+            '<span class="n">c1</span><span class="p">())</span>'
+            ' <span class="n">f1</span><span class="p">();</span></pre></div>'
+            '<blockquote class="templatequote"><p>Quoted explanation.</p></blockquote>'
+        )
+        assert result == (
+            "```c\n"
+            "if (c1())\n"
+            "    f1();\n"
+            "else\n"
+            "    f2();\n"
+            "```\n"
+            "\n"
+            "> Quoted explanation.\n"
+        )
+
 
 # =========================================================================
 # run_pipeline — top-level orchestrator
