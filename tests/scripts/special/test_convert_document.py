@@ -200,15 +200,46 @@ def test_cache_requires_images_dir(tmp_path: os.PathLike[str]) -> None:
 
 
 def test_extract_text_pdf(tmp_path: os.PathLike[str]) -> None:
-    """PDF text extraction produces a non-empty markdown file."""
-    pytest.skip("No test PDF fixture")
+    """PDF text extraction returns page-headed text."""
+    base = Path(os.fspath(tmp_path))
+    pdf_path = base / "test.pdf"
+    doc = pymupdf.open()
+    page = doc.new_page()
+    page.insert_text((72, 72), "hello world")
+    doc.save(pdf_path)
+    doc.close()
+
+    result = process_document(pdf_path, base / "output")
+
+    assert "## Page 1" in result.text
+    assert "hello world" in result.text
 
 
 def test_extract_text_docx(tmp_path: os.PathLike[str]) -> None:
-    """DOCX text extraction produces a non-empty markdown file."""
-    pytest.skip("No test DOCX fixture")
+    """DOCX text extraction joins non-empty paragraphs."""
+    base = Path(os.fspath(tmp_path))
+    docx_path = base / "test.docx"
+    document = Document()
+    document.add_paragraph("hello world")
+    document.save(str(docx_path))
+
+    result = process_document(docx_path, base / "output")
+
+    assert result.text == "hello world"
 
 
 def test_extract_text_pptx(tmp_path: os.PathLike[str]) -> None:
-    """PPTX text extraction produces a non-empty markdown file."""
-    pytest.skip("No test PPTX fixture")
+    """PPTX text extraction returns slide-headed text."""
+    base = Path(os.fspath(tmp_path))
+    pptx_path = base / "test.pptx"
+    presentation = Presentation()
+    slide = presentation.slides.add_slide(presentation.slide_layouts[5])
+    title = slide.shapes.title
+    assert title is not None
+    title.text = "hello world"
+    presentation.save(str(pptx_path))
+
+    result = process_document(pptx_path, base / "output")
+
+    assert "## Slide 1" in result.text
+    assert "hello world" in result.text
