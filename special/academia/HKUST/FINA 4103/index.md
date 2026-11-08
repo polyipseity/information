@@ -28,6 +28,7 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
 
 ## children
 
+- [assignments/](assignments/index.md)
 - [attachments/](attachments/)
 - [Bayes' theorem](Bayes%27%20theorem.md)
 - [Glosten–Milgrom model](Glosten–Milgrom%20model.md)
@@ -272,6 +273,7 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
     - [§ sweep construction](intermarket%20sweep%20order.md#sweep%20construction)
     - [§ responsibility for best price](intermarket%20sweep%20order.md#responsibility%20for%20best%20price)
     - [§ information leakage](intermarket%20sweep%20order.md#information%20leakage)
+    - [§ price of the exemption](intermarket%20sweep%20order.md#price%20of%20the%20exemption)
     - [§ observed order sizes](intermarket%20sweep%20order.md#observed%20order%20sizes)
 - [do-not-ship order](do-not-ship%20order.md)
     - [§ do-not-ship limit order](do-not-ship%20order.md#do-not-ship%20limit%20order)
@@ -372,6 +374,7 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
     - [§ Bayes' rule](Bayes%27%20theorem.md#Bayes'%20rule)
     - [§ updating on a test result](Bayes%27%20theorem.md#updating%20on%20a%20test%20result)
     - [§ updating on an asset value](Bayes%27%20theorem.md#updating%20on%20an%20asset%20value)
+    - [§ prior away from one half](Bayes%27%20theorem.md#prior%20away%20from%20one%20half)
     - [§ conditional moments of normal variables](Bayes%27%20theorem.md#conditional%20moments%20of%20normal%20variables)
     - [§ posterior mean as a precision-weighted average](Bayes%27%20theorem.md#posterior%20mean%20as%20a%20precision-weighted%20average)
     - [§ posterior variance as added precision](Bayes%27%20theorem.md#posterior%20variance%20as%20added%20precision)
@@ -462,6 +465,7 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
     - [§ immediacy](bid-ask%20spread.md#immediacy)
     - [§ inventory cost](bid-ask%20spread.md#inventory%20cost)
     - [§ information](bid-ask%20spread.md#information)
+- FINA 4103 / [homework 1](assignments/homework%201/index.md)
 
 ## week 8 lecture 1
 
@@ -486,8 +490,8 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
 
 ## midterm examination
 
-- datetime: 2026-10-22T19:00:00+08:00/2026-10-22T20:00:00+08:00
-- venue: \[missing\]
+- datetime: 2026-10-22T19:00:00+08:00/2026-10-22T21:00:00+08:00
+- venue: LSK 1007 and LSK 1009
 - scope: the first half of the course
 - format:
     - calculator: yes (smartphones and other devices are not allowed)
@@ -496,12 +500,44 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
         - [`midterm examination cheatsheet.typ`](midterm%20examination%20cheatsheet.typ)
     - open book: no
     - open notes: no
-    - questions: multiple choice and short-answer questions
+    - questions: multiple-choice questions ×17 to 20 and long questions ×2 (5 to 8 short-answer or calculation questions) in a typical year
 - grade: \[missing\]
 - statistics: \[missing\]
 - breakdown: \[missing\]
-- note: the date and time are subject to change; check the course announcements
+- note: the cheat sheet is collected after the examination; pencils and erasers are needed to fill the bubble sheets; a conflicting examination is accommodated by a make-up examination at a venue sent by email
 - report: \[missing\]
+
+---
+
+> __Midterm Exam Announcement__:
+>
+> - I have posted practice problems. The exam will cover similar material at a comparable difficulty level, but the format will be somewhat different, with more multiple-choice questions (MCQs) and fewer open-ended questions (in a typical year, about 17–20 MCQs and a couple of longer questions with 5–8 short-answer and/or calculation questions). Please allocate your time wisely.
+> - The exam covers material up to Note 5 ("Trade, Traders, and Data Issues").
+> - You may bring a calculator and a cheat sheet. Please refer to the syllabus for details. Also, note that your cheat sheet will be collected after the exam.
+> - Details on exam logistics will be announced separately by \[redacted\], so please stay tuned.
+>
+> Good luck!
+>
+> Best,
+>
+> \[redacted\]
+>
+> __Midterm Venue and Seat Plan__
+>
+> Hi Students,
+>
+> We will have our midterm exam on 22 Oct (Thu) 19:00-21:00. The venue will be at LSK 1007 and LSK 1009. Please find the seat plan and your seat number from the follwing two files:
+>
+> - Seat Plan LSK 1009.xlsx
+> - Seat Plan LSK 1007.xlsx
+>
+> For the several students who have conflicts with ISOM 3360, I have sent you the venue of make-up exam by email. Please contact me ASAP if you haven't received.
+>
+> Please be reminded to __<u>bring pencils and erasers</u>__ for filling up the bubble sheets.
+>
+> Good luck!
+>
+> \[redacted\]
 
 ## final examination
 

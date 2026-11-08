@@ -19,7 +19,9 @@ Flashcards for this section are as follows:
 
 ## speed and latency
 
-High-frequency traders operate at speeds of microseconds, millionths of a second, down to nanoseconds, billionths of a second. For scale, light travelling in a vacuum covers the distance from New York to Chicago in about 5 milliseconds. Fragmentation across venues, together with electronic trading, is what makes speed pay. A stock is quoted at many venues at once, so a quote that has gone stale at one venue can still be picked off at another until the rest of the market reacts, and the fastest firm gets there first.
+High-frequency traders operate at speeds of microseconds, millionths of a second, down to nanoseconds, billionths of a second. For scale, light travelling in a vacuum covers the distance from New York to Chicago in about 5 milliseconds. Electronic trading across fragmented venues is what makes that speed pay: a stock quoted at many venues at once can have a stale quote at one venue picked off at another before the rest of the market reacts.
+
+A faster connection earns its fee on the races it wins. Where a loss falls with probability $p$ at the current speed and $q$ with the faster one, the gain is $p - q$ times the loss a lost race carries, so a lump-sum fee above that difference leaves the trader worse off. The link changes how often the loss is paid and never its size.
 
 ---
 
@@ -27,7 +29,9 @@ Flashcards for this section are as follows:
 
 - range of speeds at which high-frequency traders operate ::@:: From microseconds, millionths of a second, down to nanoseconds, billionths of a second.
 - time light travelling in a vacuum takes from New York to Chicago ::@:: About 5 milliseconds.
-- why speed is worth paying for ::@:: A stale quote at one venue can still be picked off at another while the rest of the market has not reacted to it.
+- why speed is worth paying for ::@:: A stale quote at one venue can be picked off at another before the rest of the market reacts.
+- what a faster connection is worth in a race ::@:: The fall in the probability of losing, multiplied by the loss a lost race carries.
+- what a faster connection changes in a race ::@:: How often the loss is paid, never its size.
 
 ## arms race and overinvestment
 

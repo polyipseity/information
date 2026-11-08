@@ -122,6 +122,26 @@ Flashcards for this section are as follows:
 - asset value $V$ is $V_H$ or $V_L$ with prior $\operatorname{Pr}(V_H) = 1/2$ and the signal $S$ has precision $\delta$; why the posterior $\operatorname{Pr}(V_H\mid S_H)$ comes out equal to $\delta$ ::@:: The prior odds are one, so the posterior odds equal the likelihood ratio $\frac{\delta}{1-\delta}$ and the posterior probability is that ratio over one plus it, which is $\delta$.
 - with prior $\operatorname{Pr}(V_H) = 1/2$ on the asset value and signal precision $\delta$, what the likelihood ratio $\frac{\delta}{1-\delta}$ says about how far the belief moves, at $\delta = 0.55$ and at $\delta = 0.9$ ::@:: The ratio sets the jump, not $\delta$ exceeding $1/2$: at $0.55$ the ratio is about $1.22$ and the belief moves from $0.5$ to $0.55$, at $0.9$ the ratio is $9$ and it moves to $0.9$.
 
+### prior away from one half
+
+With $\operatorname{Pr}(V_H) = p$ and signal precision $\delta$, a good signal $S_H$ leaves $\operatorname{Pr}(V_H\mid S_H) = \frac{p\delta}{p\delta + (1-p)(1-\delta)}$. At $p = 1/2$ the $p$ and $1-p$ cancel and the expression returns $\delta$; at $p = 4/5$ it becomes $\frac{4\delta}{1 + 3\delta}$.
+
+A signal no better than a coin leaves the belief where it was. At $\delta = 1/2$ the numerator is $p$ times the denominator, so the posterior returns to $p$.
+
+A negative signal moves the belief toward $V_L$. Against the same prior, $\operatorname{Pr}(V_L\mid S_L) = \frac{(1-p)\delta}{(1-p)\delta + p(1-\delta)}$: the prior times the chance the signal is right over that product plus the chance it is wrong. The posterior on $V_H$ is the complement, $\operatorname{Pr}(V_H\mid S_L) = \frac{p(1-\delta)}{p(1-\delta) + (1-p)\delta}$.
+
+The same $\delta$ moves a belief by different amounts depending on where it started. The precision of a signal does not by itself say how far it carries one.
+
+---
+
+Flashcards for this section are as follows:
+
+- asset value $V$ with prior $\operatorname{Pr}(V_H) = p$ and a signal of precision $\delta$; write the posterior after a good signal ::@:: $\operatorname{Pr}(V_H\mid S_H) = \frac{p\delta}{p\delta + (1-p)(1-\delta)}$.
+- what the posterior $\frac{p\delta}{p\delta + (1-p)(1-\delta)}$ returns at $p = 1/2$ and at $p = 4/5$ ::@:: At $p = 1/2$ it returns $\delta$, since $p$ and $1-p$ cancel; at $p = 4/5$ it becomes $\frac{4\delta}{1 + 3\delta}$.
+- what the posterior $\frac{p\delta}{p\delta + (1-p)(1-\delta)}$ returns at $\delta = 1/2$, and why ::@:: It returns $p$: the numerator is $p/2$ and the denominator $1/2$, so a signal no better than a coin leaves the belief where it was.
+- asset value $V$ with prior $\operatorname{Pr}(V_H) = p$ and a signal of precision $\delta$; the probability the value is bad after a negative signal ::@:: $\operatorname{Pr}(V_L\mid S_L) = \frac{(1-p)\delta}{(1-p)\delta + p(1-\delta)}$, the prior times the chance the signal is right over that product plus the chance it is wrong.
+- with signal precision $\delta$ fixed, why a belief's start decides how far the signal carries it ::@:: The same $\delta$ moves a belief by different amounts depending on the prior, so the precision alone does not say how far it carries one.
+
 ## conditional moments of normal variables
 
 To infer the value of a normal random variable $v \sim N(\mu, \sigma^2)$, such as an investment return, the value itself is never observed; only its distribution is known. A noisy signal of $v$ is observed instead: $s = v + e$, where the noise follows $e \sim N(0, \sigma_e^2)$ and is independent of $v$. The signal is unbiased, $\operatorname{E}[s] = \operatorname{E}[v]$.
