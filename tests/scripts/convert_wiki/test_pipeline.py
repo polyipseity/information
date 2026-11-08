@@ -1107,6 +1107,21 @@ class TestNormalizeMathSource:
             R"\begin{aligned} a &= b \\ c &= d \end{aligned}"
         )
 
+    def test_percent_comment_is_removed_before_collapse(self) -> None:
+        r"""A ``%`` comment drops the rest of its line before the newlines collapse.
+
+        Collapsing first would let the comment swallow the ``\end{align}`` on
+        the following line, so the removal has to happen first.
+        """
+        source = "\\begin{align}a &= b % first row\n\\end{align}"
+        assert _normalize_math_source(source) == (
+            r"\begin{aligned}a &= b \end{aligned}"
+        )
+
+    def test_escaped_percent_is_literal(self) -> None:
+        r"""``\%`` is a literal percent, so text such as ``50\%`` survives."""
+        assert _normalize_math_source(r"\text{50\%}") == r"\text{50\%}"
+
 
 class TestPreprocessMathSource:
     """Tests for lifting Parsoid math source into the ``alttext`` attribute.

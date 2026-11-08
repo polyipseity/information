@@ -131,6 +131,30 @@ r"""Matches the environment name in ``\begin{env}`` and ``\end{env}``."""
 _MATH_ENV_RE = re.compile(r"\\(begin|end)\{([^{}]*)\}")
 
 
+def _strip_math_comments(source: str) -> str:
+    r"""Remove TeX ``%`` comments from each line of *source*.
+
+    Parsoid keeps wikitext comments in ``data-mw``, and collapsing the
+    newlines first would splice the commented remainder of a line into the
+    source that follows.  A ``%`` preceded by an odd number of backslashes is
+    escaped, so ``\%`` is a literal percent; ``\\%`` is a line break followed
+    by a comment because the pair consumes both backslashes.
+    """
+    stripped: list[str] = []
+    for line in source.split("\n"):
+        backslashes = 0
+        for position, character in enumerate(line):
+            if character == "\\":
+                backslashes += 1
+            elif character == "%" and backslashes % 2 == 0:
+                line = line[:position]
+                break
+            else:
+                backslashes = 0
+        stripped.append(line)
+    return "\n".join(stripped)
+
+
 def _normalize_math_source(source: str) -> str:
     """Normalize TeX lifted from HTML into a single-line renderable source.
 
@@ -139,7 +163,8 @@ def _normalize_math_source(source: str) -> str:
     build does not define.  Rewriting the environments through
     ``_MATH_ENV_ALIASES`` leaves their optional arguments (for example the
     column count of ``alignat``) in place, and unknown environments pass
-    through unchanged so unfamiliar TeX keeps its original meaning.
+    through unchanged so unfamiliar TeX keeps its original meaning.  Comments
+    are stripped first, so their text cannot survive the whitespace collapse.
     """
 
     def _rewrite_environment(match: re.Match[str]) -> str:
@@ -148,7 +173,8 @@ def _normalize_math_source(source: str) -> str:
         alias = _MATH_ENV_ALIASES.get(environment, environment)
         return f"\\{match.group(1)}{{{alias}}}"
 
-    return " ".join(_MATH_ENV_RE.sub(_rewrite_environment, source).split())
+    stripped = _strip_math_comments(source)
+    return " ".join(_MATH_ENV_RE.sub(_rewrite_environment, stripped).split())
 
 
 def _set_math_alttext_from_data_mw(soup: BeautifulSoup | Tag) -> None:
