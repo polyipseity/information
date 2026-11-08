@@ -62,7 +62,7 @@ When evaluating a support system, consider {@{lifecycle coverage}@} ({@{UML mode
 
 {@{The SDP}@} decomposes the project into {@{tasks and sub-tasks}@} to enable {@{precise planning, estimation, tracking and budgeting}@}.  {@{A typical work-breakdown structure (WBS)}@} is {@{a tree}@}: {@{each leaf node}@} represents {@{an actionable activity with a clear start, end, owner and cost estimate}@}.  {@{Estimates}@} are {@{rolled up from leaves to give total effort and budget figures}@}. <!--SR:!2027-04-22,362,363!2027-03-31,340,346!2027-05-01,371,363!2027-05-16,386,363!2027-04-27,367,363!2027-03-24,333,346!2027-05-08,378,363!2027-05-12,382,363!2027-05-19,389,363-->  
 
-For {@{effective monitoring}@} the WBS must satisfy: {@{_plannability_}@}: tasks have {@{defined durations}@}; {@{_assignability_}@}: each task can be {@{allocated to an individual or team}@}; {@{_trackability_}@}: progress is {@{measurable against a schedule and cost baseline}@}; and {@{_appropriate granularity_}@}: neither {@{too fine (unmanageable) nor too coarse (inaccurate)}@}. <!--SR:!2027-05-14,384,363!2027-04-29,369,363!2027-05-12,382,363!2027-05-11,381,363!2027-05-12,382,363!2027-05-22,392,363!2027-03-07,316,346!2027-04-28,368,363!2026-11-25,253,330-->  
+For {@{effective monitoring}@} the WBS must satisfy: {@{_plannability_}@}: tasks have {@{defined durations}@}; {@{_assignability_}@}: each task can be {@{allocated to an individual or team}@}; {@{_trackability_}@}: progress is {@{measurable against a schedule and cost baseline}@}; and {@{_appropriate granularity_}@}: neither {@{too fine (unmanageable) nor too coarse (inaccurate)}@}. <!--SR:!2027-05-14,384,363!2027-04-29,369,363!2027-05-12,382,363!2027-05-11,381,363!2027-05-12,382,363!2027-05-22,392,363!2027-03-07,316,346!2027-04-28,368,363!fsrs,2029-12-18T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-11-25T00:00:00.000Z-->  
 
 {@{An example hierarchy}@} might list {@{phases—Inception, Elaboration, Construction, Transition}@}—each subdivided into {@{Build, Requirements, Design, Implementation}@}, {@{testing, Packaging, and Installation}@} activities. <!--SR:!2027-05-21,391,363!2027-05-16,386,363!2027-05-14,384,363!2027-05-17,387,363-->
 
@@ -136,7 +136,7 @@ It improves upon using {@{size (e.g. KLOC in place of FP, and where all data com
 
 Verify that the team has {@{experience on comparable systems}@}.  Collect {@{detailed metrics (FP, LOC, error counts)}@} from previous projects to {@{calibrate models}@}.  Perform {@{multiple estimation methods}@} and {@{cross-check results}@}.  Recognise that {@{incomplete requirements inflate uncertainty}@}; aim for {@{clear scope before estimating}@}. <!--SR:!2027-03-10,319,346!2027-03-23,332,346!2027-05-18,388,363!2027-01-04,276,330!2027-05-23,393,363!2027-01-20,288,330!2027-05-13,384,363-->
 
-{@{A well-calibrated cost model}@} should predict {@{within 20% of actual costs}@} in roughly {@{70% of cases on the same set of projects}@}. <!--SR:!2026-11-25,253,330!2027-05-09,379,363!2027-04-19,359,363-->
+{@{A well-calibrated cost model}@} should predict {@{within 20% of actual costs}@} in roughly {@{70% of cases on the same set of projects}@}. <!--SR:!fsrs,2029-12-18T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-11-25T00:00:00.000Z!2027-05-09,379,363!2027-04-19,359,363-->
 
 ## metrics plan
 

@@ -27,7 +27,7 @@ We want to write {@{code that is _modular_}@} by {@{abstracting over the "contex
 
 - globals ::@:: Simple to use. Rigid, hard to change per module. <!--SR:!2026-12-06,306,349!2026-12-19,317,349-->
 - mutable globals ::@:: Flexible but unsafe. Risk of interference \(e.g. race conditions\). <!--SR:!2026-12-20,318,349!fsrs,2030-07-23T00:00:00.000Z,1341,1340.80330866,1,2,9,0,0,2026-11-20T00:00:00.000Z-->
-- monkey patch ::@:: Powerful and dynamic. Can break code and debugging. <!--SR:!2027-01-28,349,349!2026-11-25,295,349-->
+- monkey patch ::@:: Powerful and dynamic. Can break code and debugging. <!--SR:!2027-01-28,349,349!fsrs,2030-08-17T00:00:00.000Z,1361,1360.83635942,1,2,9,0,0,2026-11-25T00:00:00.000Z-->
 - dependency injection ::@:: Encapsulates configuration. Relies on bytecode rewriting and opaque. Frameworks include Guice, Spring, etc. <!--SR:!fsrs,2030-08-07T00:00:00.000Z,1353,1352.82828482,1,2,9,0,0,2026-11-23T00:00:00.000Z!fsrs,2030-08-03T00:00:00.000Z,1353,1352.82828482,1,2,9,0,0,2026-11-19T00:00:00.000Z-->
 - functional context ::@:: Normally, values and types infer types but not values, e.g. inferring type parameters. With `using`, types are used to infer values. Those values provide "context". <!--SR:!2027-01-24,345,349!fsrs,2030-06-13T00:00:00.000Z,1309,1308.66035919,1,2,9,0,0,2026-11-12T00:00:00.000Z-->
 
@@ -42,7 +42,7 @@ When {@{a method}@} needs to {@{operate over arbitrary types}@} – for example,
 > ```Scala
 > def sort[T](xs: List[T]): List[T] = ???
 > ```
-<!--SR:!2027-01-18,339,349!2026-12-05,305,349!2027-01-02,329,349!2026-11-25,295,349!2026-12-01,301,349-->
+<!--SR:!2027-01-18,339,349!2026-12-05,305,349!2027-01-02,329,349!fsrs,2030-08-17T00:00:00.000Z,1361,1360.83635942,1,2,9,0,0,2026-11-25T00:00:00.000Z!2026-12-01,301,349-->
 
 However, {@{sorting}@} requires {@{an ordering relation `<`}@}, which {@{does not exist for all types}@}.  {@{The resolution}@} is to {@{_parameterise with an ordering_ rather than just a type}@}. <!--SR:!fsrs,2029-10-13T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-12-24,321,349!2026-12-27,324,349!2026-12-08,308,349!2027-01-02,329,349-->
 
@@ -347,7 +347,7 @@ When a method expects {@{an implicit of type `T` \(e.g. `Ordering[Int]` in the a
 - compatible ::@:: Has a compatible type. <!--SR:!2026-12-04,304,349!fsrs,2030-06-08T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-11T00:00:00.000Z-->
 - visibility ::@:: Is visible in the current scope (lexical, imports, parameters) or defined in a companion object associated with `T`. <!--SR:!fsrs,2029-10-31T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-10-05T00:00:00.000Z!2027-01-26,347,349-->
 
-If {@{exactly one suitable instance exists}@} it is {@{used}@}; otherwise {@{compilation fails}@} due to {@{no instance found}@} or {@{ambiguity}@} if {@{there is more than one _most specific_ instance}@}. It will {@{search in \(in no particular order\)}@}: \(annotation: 3 items: {@{lexical scope, companion objects, enclosing objects}@}\) <!--SR:!fsrs,2029-10-22T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-10-03T00:00:00.000Z!2027-01-01,328,349!2026-11-25,295,349!2026-12-19,317,349!2027-01-21,342,349!2027-01-19,340,349!2027-01-02,329,349!2026-12-11,311,349-->
+If {@{exactly one suitable instance exists}@} it is {@{used}@}; otherwise {@{compilation fails}@} due to {@{no instance found}@} or {@{ambiguity}@} if {@{there is more than one _most specific_ instance}@}. It will {@{search in \(in no particular order\)}@}: \(annotation: 3 items: {@{lexical scope, companion objects, enclosing objects}@}\) <!--SR:!fsrs,2029-10-22T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-10-03T00:00:00.000Z!2027-01-01,328,349!fsrs,2030-08-17T00:00:00.000Z,1361,1360.83635942,1,2,9,0,0,2026-11-25T00:00:00.000Z!2026-12-19,317,349!2027-01-21,342,349!2027-01-19,340,349!2027-01-02,329,349!2026-12-11,311,349-->
 
 - lexical scope ::@:: Visible `given` instances in the lexical scope, including inherited, imported and defined instances. <!--SR:!fsrs,2030-06-09T00:00:00.000Z,1309,1308.66035919,1,2,9,0,0,2026-11-08T00:00:00.000Z!2027-01-29,350,349-->
 - companion objects ::@:: Companion objects of `T`, its super-classes, its type arguments, super-classes of its type arguments, etc. <!--SR:!2026-12-17,315,349!fsrs,2029-10-31T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-10-05T00:00:00.000Z-->
@@ -362,7 +362,7 @@ If, after {@{searching the above scopes}@}, {@{more than one candidate exists}@}
 - specificity: subtyping ::@:: A definition that has a type that is a subclass of the type of the other definition is more specific. <!--SR:!2027-01-02,329,349!2027-01-25,346,349-->
 - specificity: generic instance ::@:: A definition that has a type that is a generic instance \(e.g. `Type[Int]`\) of the type of the other definition \(e.g. `Type[T]` where `T` is generic\) is more specific. <!--SR:!fsrs,2028-08-04T00:00:00.000Z,682,682.35993219,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!2026-12-31,327,349-->
 
-Thus you can provide {@{multiple `given`s}@} and rely on Scala's rules to pick {@{the appropriate one automatically}@}. <!--SR:!2026-11-25,295,349!2026-12-30,326,349-->
+Thus you can provide {@{multiple `given`s}@} and rely on Scala's rules to pick {@{the appropriate one automatically}@}. <!--SR:!fsrs,2030-08-17T00:00:00.000Z,1361,1360.83635942,1,2,9,0,0,2026-11-25T00:00:00.000Z!2026-12-30,326,349-->
 
 ## type class
 

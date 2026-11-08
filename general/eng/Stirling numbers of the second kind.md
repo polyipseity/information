@@ -133,7 +133,7 @@ When {@{$n$ is large}@}, {@{$$k_{n}{\underset {n\to \infty }{\sim } }{\frac {n}{
 
 ### moments of the Poisson distribution
 
-If _X_ is {@{a [random variable](random%20variable.md) with a [Poisson distribution](Poisson%20distribution.md) with [expected value](expected%20value.md) λ}@}, then {@{its _n_-th [moment](moment%20(mathematics).md) is $$E(X^{n})=\sum _{k=0}^{n}\left\{ {n \atop k}\right\}\lambda ^{k}.$$}@} In particular, {@{the _n_-th moment of the Poisson distribution with expected value 1}@} is {@{precisely the number of [partitions of a set](partition%20of%20a%20set.md) of size _n_}@}, i.e., it is {@{the _n_-th [Bell number](Bell%20number.md) (this fact is [Dobiński's formula](Dobiński's%20formula.md))}@}. <!--SR:!2026-11-25,552,310!2027-05-23,483,270!2027-04-07,635,290!2030-03-30,1465,310!2027-06-01,383,376-->
+If _X_ is {@{a [random variable](random%20variable.md) with a [Poisson distribution](Poisson%20distribution.md) with [expected value](expected%20value.md) λ}@}, then {@{its _n_-th [moment](moment%20(mathematics).md) is $$E(X^{n})=\sum _{k=0}^{n}\left\{ {n \atop k}\right\}\lambda ^{k}.$$}@} In particular, {@{the _n_-th moment of the Poisson distribution with expected value 1}@} is {@{precisely the number of [partitions of a set](partition%20of%20a%20set.md) of size _n_}@}, i.e., it is {@{the _n_-th [Bell number](Bell%20number.md) (this fact is [Dobiński's formula](Dobiński's%20formula.md))}@}. <!--SR:!fsrs,2032-07-18T00:00:00.000Z,2062,2061.762926,1,2,10,0,0,2026-11-25T00:00:00.000Z!2027-05-23,483,270!2027-04-07,635,290!2030-03-30,1465,310!2027-06-01,383,376-->
 
 ### moments of fixed points of random permutations
 

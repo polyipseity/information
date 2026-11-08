@@ -75,7 +75,7 @@ The content is in teaching order.
 - [basics](basics.md)
     - [§ data type conversion](basics.md#data%20type%20conversion)
     - [§ input](basics.md#input)
-        - [basics § input](basics.md#input) / note ::@:: It seems like Jupyter automatically adds a space after the prompt... But other environments do not. Also, the prompt is optional (i.e. `input()` is okay and does not print anything before asking for user input). Lastly, `prompt` does not need to be a `str`, and other objects are accepted. This is similar to `print(...)`, except that a newline is NOT automatically printed, and it only accepts a single argument (i.e. `input("a", "b")` is NOT okay). <!--SR:!2026-11-25,613,329!2030-12-06,1790,369-->
+        - [basics § input](basics.md#input) / note ::@:: It seems like Jupyter automatically adds a space after the prompt... But other environments do not. Also, the prompt is optional (i.e. `input()` is okay and does not print anything before asking for user input). Lastly, `prompt` does not need to be a `str`, and other objects are accepted. This is similar to `print(...)`, except that a newline is NOT automatically printed, and it only accepts a single argument (i.e. `input("a", "b")` is NOT okay). <!--SR:!fsrs,2033-07-03T00:00:00.000Z,2412,2411.81890199,1,2,10,0,0,2026-11-25T00:00:00.000Z!2030-12-06,1790,369-->
 - [list](list.md)
     - [§ Python list](list.md#Python%20list)
     - [§ syntax](list.md#syntax)

@@ -72,7 +72,7 @@ Moreover, {@{exceptions thrown inside callbacks}@} are not {@{caught by surround
 
 ### CPS to direct style
 
-{@{A `Future[T]`}@} can be seen as {@{a _direct_ representation of an asynchronous computation}@} that will {@{eventually produce a value of type `T`}@}. We can transform {@{a CPS function into one that returns a `Future`}@}. <!--SR:!2027-01-04,277,330!2026-12-22,268,330!2026-12-22,268,330!2026-11-25,253,330-->
+{@{A `Future[T]`}@} can be seen as {@{a _direct_ representation of an asynchronous computation}@} that will {@{eventually produce a value of type `T`}@}. We can transform {@{a CPS function into one that returns a `Future`}@}. <!--SR:!2027-01-04,277,330!2026-12-22,268,330!2026-12-22,268,330!fsrs,2029-12-18T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-11-25T00:00:00.000Z-->
 
 > [!example] __CPS to `Future`__
 >
@@ -141,7 +141,7 @@ Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}
 > val fact: Future[Int] = Future { (1 to 10).product }
 > ```
 >
-> The result can be {@{manipulated with `fact.map(_ + 1)`}@} or {@{awaited with `Await.result(fact, 5.seconds)`}@}. <!--SR:!2026-11-25,253,330!2027-01-19,290,330!2027-01-17,288,330!2027-01-02,276,330!fsrs,2029-10-28T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-13T00:00:00.000Z-->
+> The result can be {@{manipulated with `fact.map(_ + 1)`}@} or {@{awaited with `Await.result(fact, 5.seconds)`}@}. <!--SR:!fsrs,2029-12-18T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-11-25T00:00:00.000Z!2027-01-19,290,330!2027-01-17,288,330!2027-01-02,276,330!fsrs,2029-10-28T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-13T00:00:00.000Z-->
 
 {@{The type signature of a non-concurrent pure function}@} is {@{`A => B`}@}. Returning {@{a future `Future[B]` instead of a plain value `B`}@} lifts the call into {@{asynchronous style}@}. <!--SR:!fsrs,2029-11-02T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-14T00:00:00.000Z!fsrs,2029-10-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-09T00:00:00.000Z!2026-12-14,261,330!fsrs,2029-08-19T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-10-28T00:00:00.000Z-->
 
@@ -164,7 +164,7 @@ Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}
 
 ## transformations
 
-`Future` offers {@{a small but expressive set of combinators}@} that lift {@{ordinary functions into the asynchronous world and compose several futures together}@}. The API is intentionally analogous to {@{the standard collection operations}@}, which makes reasoning {@{about pipelines straightforward}@}. These transformation operators let developers write {@{clear, linear‑looking code while still exploiting concurrency}@} (and {@{parallelism if the execution context is parallel}@}) and {@{failure handling}@} that `Future` provides. <!--SR:!2026-12-01,251,330!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!2026-11-25,253,330!2027-01-23,293,330!2026-12-06,255,330!2027-01-22,293,330!fsrs,2029-08-29T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-10-30T00:00:00.000Z-->
+`Future` offers {@{a small but expressive set of combinators}@} that lift {@{ordinary functions into the asynchronous world and compose several futures together}@}. The API is intentionally analogous to {@{the standard collection operations}@}, which makes reasoning {@{about pipelines straightforward}@}. These transformation operators let developers write {@{clear, linear‑looking code while still exploiting concurrency}@} (and {@{parallelism if the execution context is parallel}@}) and {@{failure handling}@} that `Future` provides. <!--SR:!2026-12-01,251,330!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!fsrs,2029-12-18T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-11-25T00:00:00.000Z!2027-01-23,293,330!2026-12-06,255,330!2027-01-22,293,330!fsrs,2029-08-29T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-10-30T00:00:00.000Z-->
 
 {@{`map`}@} applies {@{a pure function to the value produced by a `Future`}@}. If {@{the original future fails}@}, the resulting one {@{propagates the failure unchanged}@}. <!--SR:!2026-12-15,261,330!2027-01-13,285,330!2027-01-12,284,330!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z-->
 

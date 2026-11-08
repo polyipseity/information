@@ -232,7 +232,7 @@ Proof: {@{the last two results}@} are obtained using the result {@{$\operatornam
 
 ### marginal distributions
 
-To obtain {@{the [marginal distribution](marginal%20distribution.md) over a subset of multivariate normal random variables}@}, one only needs to drop {@{the irrelevant variables \(the variables that one wants to marginalize out\)}@} from {@{the mean vector and the covariance matrix}@}. {@{The proof for this}@} follows from {@{the definitions of multivariate normal distributions and linear algebra}@}.<sup>[\[27\]](#^ref-27)</sup> <!--SR:!2027-06-24,406,368!2026-11-25,237,330!2026-11-25,238,330!2027-08-18,462,382!2027-06-16,398,368-->
+To obtain {@{the [marginal distribution](marginal%20distribution.md) over a subset of multivariate normal random variables}@}, one only needs to drop {@{the irrelevant variables \(the variables that one wants to marginalize out\)}@} from {@{the mean vector and the covariance matrix}@}. {@{The proof for this}@} follows from {@{the definitions of multivariate normal distributions and linear algebra}@}.<sup>[\[27\]](#^ref-27)</sup> <!--SR:!2027-06-24,406,368!fsrs,2029-10-17T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-25T00:00:00.000Z!fsrs,2029-10-21T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-25T00:00:00.000Z!2027-08-18,462,382!2027-06-16,398,368-->
 
 _Example_
 

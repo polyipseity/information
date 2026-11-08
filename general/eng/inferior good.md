@@ -57,7 +57,7 @@ The substitution effect is {@{the effect that a change in relative prices of sub
 
 ### overall change in demand for an inferior good
 
-{@{The income and substitution effects}@} work {@{in opposite directions for an inferior good}@}. When {@{an inferior good's price decreases}@}, {@{the income effect reduces the quantity consumed}@}, whilst {@{the substitution effect increases the amount consumed}@}. In practice, it has been observed that {@{the substitution effect is usually larger than the income effect}@} due to {@{the small amount of gross income allocated by consumers on any given good}@}, and thus {@{the change in demand is usually insignificant in comparison to the substitution effect}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2028-12-22,1161,350!2029-02-21,1209,350!2029-07-25,1330,350!2029-07-11,1318,350!2028-11-02,1121,350!2029-01-21,1184,350!2028-12-11,1154,350!2026-11-25,540,310-->
+{@{The income and substitution effects}@} work {@{in opposite directions for an inferior good}@}. When {@{an inferior good's price decreases}@}, {@{the income effect reduces the quantity consumed}@}, whilst {@{the substitution effect increases the amount consumed}@}. In practice, it has been observed that {@{the substitution effect is usually larger than the income effect}@} due to {@{the small amount of gross income allocated by consumers on any given good}@}, and thus {@{the change in demand is usually insignificant in comparison to the substitution effect}@}.<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2028-12-22,1161,350!2029-02-21,1209,350!2029-07-25,1330,350!2029-07-11,1318,350!2028-11-02,1121,350!2029-01-21,1184,350!2028-12-11,1154,350!fsrs,2032-06-08T00:00:00.000Z,2022,2022.40267027,1,2,10,0,0,2026-11-25T00:00:00.000Z-->
 
 ## Giffen goods
 

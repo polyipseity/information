@@ -94,7 +94,7 @@ In {@{practical usage}@}, this transformation is often directly performed by {@{
 - [Gray code](gray%20code.md) – ::@:: Ordering of binary values, used for positioning and error correction <!--SR:!2029-07-22,1266,350!2028-11-06,1065,350-->
 - [Kronecker delta](Kronecker%20delta.md) – ::@:: Mathematical function of two variables; outputs 1 if they are equal, 0 otherwise <!--SR:!2029-01-25,1131,350!2029-07-19,1263,350-->
 - [Indicator vector](indicator%20vector.md)
-- [Serial decimal](serial%20decimal.md) – ::@:: computer numeric representation is one in which ten bits are reserved for each digit <!--SR:!2028-01-30,831,330!2026-11-25,492,310-->
+- [Serial decimal](serial%20decimal.md) – ::@:: computer numeric representation is one in which ten bits are reserved for each digit <!--SR:!2028-01-30,831,330!fsrs,2032-01-02T00:00:00.000Z,1864,1863.92035088,1,2,10,0,0,2026-11-25T00:00:00.000Z-->
 - [Single-entry vector](single-entry%20vector.md) – ::@:: Concept in mathematics <!--SR:!2029-04-07,1183,350!2028-12-27,1108,350-->
 - [Unary numeral system](unary%20numeral%20system.md) – ::@:: Base-1 numeral system <!--SR:!2027-12-03,778,330!2029-06-28,1242,350-->
 - [Uniqueness quantification](uniqueness%20quantification.md) – ::@:: Logical property of being the one and only object satisfying a condition <!--SR:!2027-07-09,677,330!2029-08-09,1283,350-->

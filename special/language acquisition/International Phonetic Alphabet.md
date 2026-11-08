@@ -976,7 +976,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [velarized alveolar lateral approximant](velarized%20alveolar%20lateral%20approximant.md):@:[English](English%20language.md) _fee**l**_ \[fiːɫ\] <!--SR:!2026-12-13,259,220-->
 - [voiceless alveolar lateral fricative](voiceless%20alveolar%20lateral%20fricative.md):@:[Welsh](Welsh%20language.md) _tege**ll**_ \[ˈtɛɡɛɬ\] "kettle" <!--SR:!fsrs,2027-02-11T00:00:00.000Z,121,121.39559012,9.97047151,2,8,0,0,2026-10-13T00:00:00.000Z-->
 - [voiced retroflex lateral approximant](voiced%20retroflex%20lateral%20approximant.md):@:[French](French%20language.md) _be**ll**e jambe_ \[bɛɭ ʒɑ̃b\] "beautiful leg" <!--SR:!fsrs,2026-12-14T00:00:00.000Z,58,58.02819422,9.96240929,2,8,0,0,2026-10-17T00:00:00.000Z-->
-- [voiced alveolar lateral flap](voiced%20alveolar%20lateral%20flap.md):@:[Japanese](Japanese%20language.md) 六/_**r**oku_ \[ɺo̞kɯ̟ᵝ\] "six" <!--SR:!fsrs,2026-11-25T00:00:00.000Z,97,97.30482974,9.98522837,2,7,0,0,2026-08-20T00:00:00.000Z-->
+- [voiced alveolar lateral flap](voiced%20alveolar%20lateral%20flap.md):@:[Japanese](Japanese%20language.md) 六/_**r**oku_ \[ɺo̞kɯ̟ᵝ\] "six" <!--SR:!fsrs,2027-03-27T00:00:00.000Z,122,122.06217062,9.97047151,2,8,0,0,2026-11-25T00:00:00.000Z-->
 - [voiced alveolar lateral fricative](voiced%20alveolar%20lateral%20fricative.md):@:[Zulu](Zulu%20language.md) _uku**dl**a_ \[úɠù:ɮá\] "to eat" <!--SR:!fsrs,2027-01-08T00:00:00.000Z,66,65.50232831,9.85426032,2,10,0,0,2026-11-03T00:00:00.000Z-->
 - [voiced velar lateral approximant](voiced%20velar%20lateral%20approximant.md):@:[English](English%20language.md) _midd**l**e_ \[ˈmɪɾʟ̩\] <!--SR:!2027-05-05,366,201-->
 - [voiced bilabial nasal](voiced%20bilabial%20nasal.md):@:[English](English%20language.md) _hi**m**_ \[hɪm\] <!--SR:!2031-11-21,2117,301-->
@@ -1019,7 +1019,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced labiodental approximant](voiced%20labiodental%20approximant.md):@:[Finnish](Finnish%20language.md) _**v**au**v**a_ \[ˈʋɑu̯ʋɑ\] "baby" <!--SR:!fsrs,2027-11-01T00:00:00.000Z,413,412.8838615,6.94813018,2,9,0,0,2026-09-14T00:00:00.000Z-->
 - [voiced labial–velar approximant](voiced%20labial–velar%20approximant.md):@:[English](English%20language.md) _**w**eep_ \[wiːp\] <!--SR:!fsrs,2027-02-16T06:00:54.778Z,246,246.22881531,6.91330337,2,8,0,0,2026-06-15T06:00:54.778Z-->
 - [labialization](labialization.md):@:[English](English%20language.md) _**r**eed_ \[ɹʷiːd\] <!--SR:!fsrs,2027-03-24T00:00:00.000Z,232,232.40716728,7.66255337,2,8,0,0,2026-08-04T00:00:00.000Z-->
-- [voiceless labial–velar fricative](voiceless%20labial–velar%20fricative.md):@:[English](English%20language.md) _**wh**ine_ \[ʍaɪ̯n\] <!--SR:!fsrs,2026-11-25T00:00:00.000Z,68,68.10177298,9.95572941,2,8,0,0,2026-09-18T00:00:00.000Z-->
+- [voiceless labial–velar fricative](voiceless%20labial–velar%20fricative.md):@:[English](English%20language.md) _**wh**ine_ \[ʍaɪ̯n\] <!--SR:!fsrs,2027-02-20T00:00:00.000Z,87,87.04708486,9.94100205,2,9,0,0,2026-11-25T00:00:00.000Z-->
 - [close back unrounded vowel](close%20back%20unrounded%20vowel.md):@:[Turkish](Turkish%20language.md) _s**ı**ğ_ \[sɯː\] "shallow" <!--SR:!2027-04-02,500,212-->
 - [voiced velar approximant](voiced%20velar%20approximant.md):@:[Irish](Irish%20language.md) _n**ao**i_ \[n̪ˠɰiː\] "nine" <!--SR:!fsrs,2027-01-26T00:00:00.000Z,86,86.41471584,9.96891253,2,9,0,0,2026-11-01T00:00:00.000Z-->
 - [voiceless velar fricative](voiceless%20velar%20fricative.md):@:[German](German%20language.md) _Bu**ch**_ \[buːx\] "book" <!--SR:!2026-12-08,218,170-->
@@ -1036,7 +1036,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced retroflex fricative](voiced%20retroflex%20fricative.md):@:[Russian](Russian%20language.md) _**ж**ена_ \[ʐɨ̞ˈna\] "wife" <!--SR:!fsrs,2026-12-24T00:00:00.000Z,46,45.85515108,9.94114448,2,11,0,0,2026-11-08T00:00:00.000Z-->
 - [voiceless dental fricative](voiceless%20dental%20fricative.md):@:[English](English%20language.md) _**th**in_ \[θɪn\] <!--SR:!2028-02-13,900,250-->
 - [voiceless bilabial fricative](voiceless%20bilabial%20fricative.md):@:[Japanese](Japanese%20language.md) 腐敗/_**f**uhai_ \[ɸɯhai\] "decay" <!--SR:!fsrs,2027-02-20T00:00:00.000Z,125,124.99339372,9.47803521,2,8,0,0,2026-10-18T00:00:00.000Z-->
-- [glottal stop](glottal%20stop.md):@:[English](English%20language.md) _uh-oh_ \[ˈɐʔəʊ\] <!--SR:!2026-11-25,538,230-->
+- [glottal stop](glottal%20stop.md):@:[English](English%20language.md) _uh-oh_ \[ˈɐʔəʊ\] <!--SR:!fsrs,2029-09-12T00:00:00.000Z,1022,1021.61817749,6.23897837,2,10,0,0,2026-11-25T00:00:00.000Z-->
 - [voiced pharyngeal fricative](voiced%20pharyngeal%20fricative.md):@:[Arabic](Arabic%20language.md) _عَقْرَب/ʿaqrab_ \[ʕaqrab\] "scorpion" <!--SR:!fsrs,2027-02-18T00:00:00.000Z,154,154.42098045,9.98522837,2,8,0,0,2026-09-17T00:00:00.000Z-->
 - [tenuis dental click](tenuis%20dental%20click.md):@:[English](English%20language.md) _**tut**-**tut**_ \[ˈǀˈǀ\] <!--SR:!2028-12-21,1069,270-->
 - [tenuis alveolar lateral click](tenuis%20alveolar%20lateral%20click.md):@:[English](English%20language.md) _**tchick**_ \[ˈǁ\] <!--SR:!fsrs,2028-02-11T00:00:00.000Z,479,479.05627889,6.98822837,2,9,0,0,2026-10-20T00:00:00.000Z-->

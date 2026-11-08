@@ -28,7 +28,7 @@ Among {@{the eleven students receiving the maximum score for solving this proble
 
 ## standard Vieta jumping
 
-The concept of {@{__standard Vieta jumping__}@} is {@{a [proof by contradiction](proof%20by%20contradiction.md), and consists of the following four steps}@}:<sup>[\[7\]](#^ref-7)</sup> (annotation: 4 steps: {@{assumption → minimality → substitution → contradiction}@}) <!--SR:!2027-01-28,273,330!2026-11-25,236,330!2027-02-01,277,330-->
+The concept of {@{__standard Vieta jumping__}@} is {@{a [proof by contradiction](proof%20by%20contradiction.md), and consists of the following four steps}@}:<sup>[\[7\]](#^ref-7)</sup> (annotation: 4 steps: {@{assumption → minimality → substitution → contradiction}@}) <!--SR:!2027-01-28,273,330!fsrs,2029-10-13T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-25T00:00:00.000Z!2027-02-01,277,330-->
 
 1. (annotation: assumption) ::@:: Assume toward a contradiction that some solution \(_a_<sub>1</sub>, _a_<sub>2</sub>, ...\) exists that violates the given requirements. <!--SR:!2027-01-24,269,330!2026-12-14,250,330-->
 2. (annotation: minimality) ::@:: Take the minimal such solution according to some definition of minimality. <!--SR:!2027-01-29,274,330!2026-12-05,245,330-->
@@ -46,7 +46,7 @@ __Example__
 
 ## constant descent Vieta jumping
 
-The method of {@{__constant descent Vieta jumping__}@} is used when we wish to prove {@{a statement regarding a constant _k_ having something to do with the relation between _a_ and _b_}@}. Unlike {@{standard Vieta jumping}@}, constant descent is not {@{a proof by contradiction, and it consists of the following four steps}@}:<sup>[\[10\]](#^ref-10)</sup> (annotation: 4 steps: {@{equality case → quadratic → smaller root → base case}@}) <!--SR:!2026-11-25,237,330!2027-01-28,273,330!2027-02-06,282,330!2027-02-03,279,330!2026-12-16,253,330-->
+The method of {@{__constant descent Vieta jumping__}@} is used when we wish to prove {@{a statement regarding a constant _k_ having something to do with the relation between _a_ and _b_}@}. Unlike {@{standard Vieta jumping}@}, constant descent is not {@{a proof by contradiction, and it consists of the following four steps}@}:<sup>[\[10\]](#^ref-10)</sup> (annotation: 4 steps: {@{equality case → quadratic → smaller root → base case}@}) <!--SR:!fsrs,2029-10-17T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-25T00:00:00.000Z!2027-01-28,273,330!2027-02-06,282,330!2027-02-03,279,330!2026-12-16,253,330-->
 
 1. (annotation: equality case) ::@:: The equality case is proven so that it may be assumed that _a_ \> _b_. <!--SR:!2027-01-15,260,330!2026-12-16,253,330-->
 2. (annotation: quadratic) ::@:: _b_ and _k_ are fixed and the expression relating _a_, _b_, and _k_ is rearranged to form a quadratic with coefficients in terms of _b_ and _k_, one of whose roots is _a_. The other root, _x_<sub>2</sub> is determined using Vieta's formulas. <!--SR:!2027-02-14,290,330!2027-02-15,291,330-->

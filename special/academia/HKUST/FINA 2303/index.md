@@ -578,7 +578,7 @@ The content is in teaching order.
         - bond / terminology / indenture, covenant ::@:: An indenture is a formal debt agreement that establishes the terms of a bond issue, while covenants are the clauses of such an agreement. <!--SR:!2027-11-19,775,435!2027-10-20,750,435-->
         - bond / terminology / maturity date ::@:: final payment date <!--SR:!2027-11-24,779,434!2027-09-09,725,432-->
         - bond / terminology / term ::@:: duration from issuing date to maturity date <!--SR:!2027-12-10,793,433!2027-11-17,774,435-->
-        - bond / terminology / face value, par value, principal ::@:: notational amount to compute coupon payments <!--SR:!2027-09-03,720,432!2026-11-25,480,414-->
+        - bond / terminology / face value, par value, principal ::@:: notational amount to compute coupon payments <!--SR:!2027-09-03,720,432!fsrs,2032-12-17T00:00:00.000Z,2214,2214.22574091,1,2,10,0,0,2026-11-25T00:00:00.000Z-->
         - bond / terminology / coupon rate ::@:: interest to compute coupon payments based on the face value; often expressed as APR <!--SR:!2027-12-14,796,433!2027-12-11,794,434-->
         - bond / terminology / coupon payment ::@:: coupon rate × face value / \# coupon payments annually <!--SR:!2027-12-13,796,434!2027-12-08,792,435-->
     - bond / market price ::@:: It is the present value of all future cash flows. "Dirty" includes accrued interest, while "clean" excludes it. <p> \(__this course__: We use the "clean" one for simplicity.\) <!--SR:!2027-11-25,780,435!2027-10-27,756,435-->

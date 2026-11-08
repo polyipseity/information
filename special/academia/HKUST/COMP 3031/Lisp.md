@@ -342,7 +342,7 @@ The evaluator uses {@{these operations during evaluation}@}: every time it {@{en
 > ```
 <!--SR:!2026-12-27,268,340!2027-03-27,332,340!2027-03-26,331,340!2027-03-21,326,340-->
 
-{@{Special forms}@}, which includes {@{`def`, `val`, `if`, `quote`, and `lambda`}@} are {@{handled explicitly}@}; all other lists are {@{treated as ordinary function applications}@}. <!--SR:!2027-03-16,321,340!2026-12-22,263,340!2026-11-25,245,330!2027-02-26,303,340-->
+{@{Special forms}@}, which includes {@{`def`, `val`, `if`, `quote`, and `lambda`}@} are {@{handled explicitly}@}; all other lists are {@{treated as ordinary function applications}@}. <!--SR:!2027-03-16,321,340!2026-12-22,263,340!fsrs,2029-11-17T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-25T00:00:00.000Z!2027-02-26,303,340-->
 
 {@{__`val`__}@} introduces {@{a new binding that is visible for the rest of the expression}@}. It evaluates {@{its body in an environment extended with the new pair}@}. <!--SR:!2027-02-25,302,340!2027-02-21,298,340!2027-03-08,313,340-->
 

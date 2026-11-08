@@ -142,7 +142,7 @@ return chain.from_iterable([r.value for r in results])
 <!--pytextgen generate section="b81237"--><!-- The following content is generated at 2024-01-04T20:17:52.174780+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←[Bunsen burner](Bunsen%20burner.md) <!--SR:!2028-03-07,1151,310!2027-10-17,1291,350-->
-- [Bunsen burner](Bunsen%20burner.md)→::@::←[Liebig condenser](Liebig%20condenser.md) <!--SR:!2026-11-25,959,330!2027-12-18,1340,350-->
+- [Bunsen burner](Bunsen%20burner.md)→::@::←[Liebig condenser](Liebig%20condenser.md) <!--SR:!fsrs,2036-09-14T00:00:00.000Z,3581,3581.42685964,1,2,11,0,0,2026-11-25T00:00:00.000Z!2027-12-18,1340,350-->
 - [Liebig condenser](Liebig%20condenser.md)→::@::←[beaker](beaker.md) <!--SR:!2032-06-08,2553,330!2028-01-26,1368,350-->
 - [beaker](beaker.md)→::@::←[burette](burette.md) <!--SR:!2029-10-24,1369,250!fsrs,2036-06-29T00:00:00.000Z,3526,3525.66144161,1,2,11,0,0,2026-11-03T00:00:00.000Z-->
 - [burette](burette.md)→::@::←[burette clamp](burette%20clamp.md) <!--SR:!2031-02-16,1904,330!2027-05-07,1162,350-->
