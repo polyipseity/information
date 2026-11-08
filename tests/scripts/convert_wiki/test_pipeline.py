@@ -1088,6 +1088,16 @@ class TestNormalizeMathSource:
         source = rf"\begin{{{environment}}}a &= b\end{{{environment}}}"
         assert _normalize_math_source(source) == source
 
+    def test_multline_is_a_display_math_environment(self) -> None:
+        """Both ``multline`` forms count as display math.
+
+        The normalizer keeps the name because MathJax 4 renders it natively,
+        so the display-environment list has to carry both forms or the
+        converter loses its display rendering and punctuation handling.
+        """
+        assert "multline" in _DISPLAY_MATH_ENVIRONMENTS
+        assert "multline*" in _DISPLAY_MATH_ENVIRONMENTS
+
     def test_alignat_column_count_is_kept(self) -> None:
         """The ``alignat`` column count stays after the rewritten environment."""
         source = r"\begin{alignat}{2}a &= b\end{alignat}"

@@ -88,6 +88,7 @@
     "gather*",
     "gathered",
     "multline",
+    "multline*",
     "split",
     "cases",
     "array",
