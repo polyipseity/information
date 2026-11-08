@@ -800,6 +800,25 @@ class TestBlockMathClassification:
         assert isinstance(math_ele, Tag)
         assert WikiHtmlConverter._is_inline_math(math_ele) is True
 
+    def test_inline_marker_on_math_element_returns_true(self) -> None:
+        """Inline marker on the ``<math>`` itself (clipboard shape) stays inline.
+
+        Safari/clipboard HTML puts ``mwe-math-element-inline`` on the
+        ``<math>`` element and wraps it in a bare ``mwe-math-mathml-a11y``
+        span (see ``snapshots/cyclomatic complexity.input.html``); that
+        single-child a11y wrapper must not force block classification.
+        """
+        html = BeautifulSoup(
+            "<p>A set "
+            '<span class="mwe-math-mathml-a11y">'
+            '<math class="mwe-math-element mwe-math-element-inline"'
+            ' display="inline"></math></span> of paths</p>',
+            "html.parser",
+        )
+        math_ele = html.find("math")
+        assert isinstance(math_ele, Tag)
+        assert WikiHtmlConverter._is_inline_math(math_ele) is True
+
     def test_new_parsoid_block_marker_on_outer_span_returns_false(self) -> None:
         """Newer Parsoid markup marks block math on the outer wrapper span."""
         html = BeautifulSoup(

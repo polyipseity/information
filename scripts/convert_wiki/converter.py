@@ -1826,7 +1826,11 @@ class WikiHtmlConverter:
 
     @staticmethod
     def _math_outer_span(math_ele: Tag) -> Tag | None:
-        """Return the ``mwe-math-element`` wrapper around a ``<math>`` tag."""
+        """Return the ``mwe-math-element`` wrapper around a ``<math>`` tag.
+
+        Newer Parsoid markup puts that class on the ``<math>`` element itself,
+        in which case the ``<math>`` is its own wrapper.
+        """
         parent: PageElement | None = math_ele
         while parent is not None:
             if isinstance(parent, Tag):
@@ -1905,8 +1909,16 @@ class WikiHtmlConverter:
         """Return the element whose substantive children drive inline/block classification."""
         outer_span = WikiHtmlConverter._math_outer_span(math_ele)
         if outer_span is not None:
-            parent = outer_span.parent
-            return parent if isinstance(parent, Tag) else None
+            container: PageElement | None = outer_span.parent
+            # Newer Parsoid markup puts ``mwe-math-element`` on the ``<math>``
+            # itself, inside a bare ``mwe-math-mathml-a11y`` span.  That span
+            # is a rendering artifact around the math, not a prose container,
+            # so classify by its parent instead.
+            while isinstance(container, Tag) and (
+                "mwe-math-mathml-a11y" in container.get_attribute_list("class")
+            ):
+                container = container.parent
+            return container if isinstance(container, Tag) else None
         parent: PageElement | None = math_ele.parent
         if not isinstance(parent, Tag):
             return None
@@ -1925,8 +1937,9 @@ class WikiHtmlConverter:
         (``mwe-math-mathml-inline`` / ``mwe-math-mathml-display``), while
         newer Parsoid markup tags the outer ``mwe-math-element`` wrapper
         (``mwe-math-element-inline`` / ``mwe-math-element-block``) and leaves
-        the parent span as ``mwe-math-mathml-a11y``.  Consult both, treating
-        an explicit outer block marker as decisive.
+        the parent span as ``mwe-math-mathml-a11y``.  Clipboard/Safari markup
+        puts the outer class on the ``<math>`` element itself.  Consult all
+        three, treating an explicit outer block marker as decisive.
         """
         parent = ele.parent
         outer_span = WikiHtmlConverter._math_outer_span(ele)

@@ -1220,6 +1220,25 @@ class TestWikiHtmlToPlaintext:
         )
 
     @pytest.mark.anyio
+    async def test_inline_math_marked_on_math_element(self) -> None:
+        """Inline marker on the ``<math>`` itself renders ``$…$``, not ``$$…$$``.
+
+        Clipboard/Safari HTML puts ``mwe-math-element-inline`` on the
+        ``<math>`` element and wraps it in a bare ``mwe-math-mathml-a11y``
+        span (see ``snapshots/cyclomatic complexity.input.html``).  The
+        single-child a11y wrapper must not demote the math to display.
+        """
+        result = await _convert_html(
+            '<p>A set <span class="mwe-math-mathml-a11y">'
+            '<math xmlns="http://www.w3.org/1998/Math/MathML"'
+            ' class="mwe-math-element mwe-math-element-inline mathjax_ignore"'
+            ' typeof="mw:Extension/math"'
+            ' data-mw=\'{"name":"math","attrs":{},"body":{"extsrc":"S"}}\'>'
+            "<mrow><mi>S</mi></mrow></math></span> of paths.</p>"
+        )
+        assert result == "A set $S$ of paths.\n"
+
+    @pytest.mark.anyio
     async def test_title_box_table_becomes_blockquote(self) -> None:
         """A header-less proof box renders as a quoted title and paragraphs."""
         inline = (
