@@ -1,1 +1,1 @@
-management accounting principles.md
+management accounting.md

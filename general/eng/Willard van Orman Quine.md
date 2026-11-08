@@ -1,1 +1,0 @@
-Willard Van Orman Quine.md
