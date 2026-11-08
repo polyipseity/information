@@ -66,7 +66,8 @@ When two separate blockquote blocks appear adjacent (separated only by blank lin
 
 - __YAML frontmatter__: `aliases`, `tags`, `language/in/English` are standard fields; preserve during edits
 
-- __KaTeX math__: `$inline$` and `$$display$$` formats untouched; Extended MathJax in Obsidian uses `.obsidian/plugins/obsidian-latex/preamble.sty` for custom macros
+- __KaTeX math__: `$inline$` and `$$display$$` formats untouched.
+- __Obsidian math macros__: The vault preamble is `.obsidian/plugins/obsidian-latex/preamble.sty`. Obsidian 1.15.0 ships MathJax 4.1.3; Extended MathJax 0.4.1 does not load there, so use Shared TeX Preamble before relying on the preamble. Define missing macros with `\def`, not `\newcommand`: the polyfills are `\Eta`, `\argmax`, `\argmin`, `\Z`, `\degree`, and `\texteuro`; `\AA`, `\nobreak`, `\oiint`, and `\oiiint` are native. Use `\sqrt`, never `\sqdeert`.
 
 ## Skill integrations
 
