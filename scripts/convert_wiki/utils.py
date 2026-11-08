@@ -1,6 +1,8 @@
 """Utility functions for the Wikipedia HTML-to-Markdown converter.
 
-Pure helper functions with no class dependencies.
+Pure helper functions with no class dependencies, plus the ``_DataMwPayload``
+value object that both the pipeline and the converter read Parsoid's
+``data-mw`` attribute into.
 """
 
 import json

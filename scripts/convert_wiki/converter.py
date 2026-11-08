@@ -1673,9 +1673,11 @@ class WikiHtmlConverter:
         """Handle <div> elements.
 
         ``syntaxhighlight`` extension wrappers become fenced code blocks read
-        from their ``data-mw`` payload; ``equation-box`` divs are delegated to
-        :class:`TableConverter`; remaining classes get their own spacing and
-        wrapper (see the branches below), and everything else is block-level.
+        from their ``data-mw`` payload outside table cells, and one inline
+        ``<code>`` element inside a cell, where a fence would break the table;
+        ``equation-box`` divs are delegated to :class:`TableConverter`;
+        remaining classes get their own spacing and wrapper (see the branches
+        below), and everything else is block-level.
         """
         if (syntaxhighlight := _syntaxhighlight_source(ele)) is not None:
             lang, source = syntaxhighlight
