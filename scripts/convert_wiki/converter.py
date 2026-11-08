@@ -231,13 +231,14 @@ def _table_cell_code(source: str) -> str:
     break the table around it.  A single ``<code>`` element carries the code
     inline instead: the lines keep their order because the breaks are
     explicit ``<br/>`` tags, the indentation survives as entities because the
-    cell pass only expands *leading* whitespace, and each ``|`` is encoded so
-    the source can never read as a pipe-table delimiter.
+    cell pass only expands *leading* whitespace, ``|`` is encoded so the
+    source can never read as a pipe-table delimiter, and ``$`` is encoded so a
+    dollar in the source stays text instead of opening inline math.
     """
     lines: list[str] = []
     for line in html.escape(source.strip("\n"), quote=False).split("\n"):
         indent = line[: len(line) - len(line.lstrip(" \t"))]
-        body = line[len(indent) :].replace("|", "&#124;")
+        body = line[len(indent) :].replace("|", "&#124;").replace("$", "&#36;")
         lines.append(indent.replace(" ", "&nbsp;").replace("\t", "&emsp;") + body)
     return f"<code>{'<br/>'.join(lines)}</code>"
 
