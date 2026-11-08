@@ -1296,6 +1296,24 @@ class TestWikiHtmlToPlaintext:
             "> Quoted explanation.\n"
         )
 
+    @pytest.mark.anyio
+    async def test_syntaxhighlight_without_lang_fences_as_text(self) -> None:
+        """A lang-less ``syntaxhighlight`` still gets an info string.
+
+        Wikipedia writes ``<syntaxhighlight>`` without ``lang`` for plain
+        blocks, so ``attrs`` carries none.  Emitting a bare fence there fails
+        markdownlint MD040, hence the ``text`` default.
+        """
+        result = await _convert_html(
+            '<div class="mw-highlight mw-content-ltr"'
+            ' typeof="mw:Extension/syntaxhighlight"'
+            ' data-mw=\'{"name":"syntaxhighlight","attrs":{},'
+            '"body":{"extsrc":"\\nplain block\\n"}}\'>'
+            '<pre><span class="n">plain</span> <span class="n">block</span></pre>'
+            "</div>"
+        )
+        assert result == "```text\nplain block\n```\n"
+
 
 # =========================================================================
 # run_pipeline — top-level orchestrator

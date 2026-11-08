@@ -198,12 +198,22 @@ def _syntaxhighlight_source(ele: Tag) -> tuple[str, str] | None:
     read from the payload rather than from the children.  A missing, malformed,
     or unrelated payload yields ``None`` so the element falls back to its
     generic handling.
+
+    The language is ``"text"`` when the payload carries none: a fence without
+    an info string is a bare ``` run, which fails markdownlint MD040.  Wikipedia
+    writes ``<syntaxhighlight>`` without ``lang`` for plain blocks, and
+    ``text`` is what the notes already use for such blocks.
     """
     raw = ele.get("data-mw")
     if not raw:
         return None
+    raw_source = str(raw)
+    # Most ``<div>`` elements on a page carry another template's payload, so
+    # discard those before paying for a JSON parse.
+    if "syntaxhighlight" not in raw_source:
+        return None
     try:
-        data_mw = json.loads(str(raw))
+        data_mw = json.loads(raw_source)
     except json.JSONDecodeError:
         return None
     if not isinstance(data_mw, dict) or data_mw.get("name") != "syntaxhighlight":
@@ -216,7 +226,7 @@ def _syntaxhighlight_source(ele: Tag) -> tuple[str, str] | None:
         return None
     attrs = data_mw.get("attrs")
     lang = attrs.get("lang") if isinstance(attrs, dict) else None
-    return (lang if isinstance(lang, str) else ""), source
+    return (lang if isinstance(lang, str) and lang else "text"), source
 
 
 def _needs_marker(character: str) -> bool:
@@ -1646,7 +1656,13 @@ class WikiHtmlConverter:
         return _HandlerConfig(suffix=suffix)
 
     def _handle_div(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig | None:
-        """Handle <div> elements, with special handling for equation-box divs."""
+        """Handle <div> elements.
+
+        ``syntaxhighlight`` extension wrappers become fenced code blocks read
+        from their ``data-mw`` payload; ``equation-box`` divs are delegated to
+        :class:`TableConverter`; remaining classes get their own spacing and
+        wrapper (see the branches below), and everything else is block-level.
+        """
         if (syntaxhighlight := _syntaxhighlight_source(ele)) is not None:
             lang, source = syntaxhighlight
 
