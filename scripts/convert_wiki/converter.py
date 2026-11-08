@@ -35,7 +35,6 @@ Related modules
 - ``pipeline``: orchestration (preprocess → convert → postprocess).
 """
 
-import json
 import re
 import unicodedata
 from collections.abc import Iterable, Mapping, MutableSet
@@ -79,6 +78,7 @@ from .template_config import (
 from .types import _HandlerConfig, _RedirectInfo
 from .utils import (
     _balance_brackets,
+    _data_mw_payload,
     _encode_fragment,
     _fix_name_maybe,
     _fix_stem,
@@ -212,20 +212,13 @@ def _syntaxhighlight_source(ele: Tag) -> tuple[str, str] | None:
     # discard those before paying for a JSON parse.
     if "syntaxhighlight" not in raw_source:
         return None
-    try:
-        data_mw = json.loads(raw_source)
-    except json.JSONDecodeError:
+    payload = _data_mw_payload(ele, "syntaxhighlight")
+    if payload is None:
         return None
-    if not isinstance(data_mw, dict) or data_mw.get("name") != "syntaxhighlight":
-        return None
-    body = data_mw.get("body")
-    if not isinstance(body, dict):
-        return None
-    source = body.get("extsrc")
+    source = payload.body.get("extsrc")
     if not isinstance(source, str):
         return None
-    attrs = data_mw.get("attrs")
-    lang = attrs.get("lang") if isinstance(attrs, dict) else None
+    lang = payload.attrs.get("lang")
     return (lang if isinstance(lang, str) and lang else "text"), source
 
 

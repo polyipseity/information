@@ -25,7 +25,6 @@ Key functions:
 - ``_preprocess_html``: all HTML tree mutations before conversion.
 """
 
-import json
 import re
 from collections.abc import Mapping, MutableMapping, MutableSet, Sequence
 from os import PathLike
@@ -56,7 +55,7 @@ from .latex import LatexConverter
 from .table import _EQUATION_BOX_BODY_BLOCK_TAGS, _reformat_table
 from .template_config import _DISPLAY_MATH_CONTAINERS
 from .types import _RedirectInfo
-from .utils import _ZERO_WIDTH_CHARS_RE, _create_redirect_symlinks
+from .utils import _ZERO_WIDTH_CHARS_RE, _create_redirect_symlinks, _data_mw_payload
 
 """Exported names from this module."""
 __all__ = ()
@@ -103,19 +102,10 @@ def _math_source_from_data_mw(math: Tag) -> str:
     payload yields an empty string so the converter falls back to reading the
     MathML text, as it did before.
     """
-    raw = math.get("data-mw")
-    if not raw:
+    payload = _data_mw_payload(math, "math")
+    if payload is None:
         return ""
-    try:
-        data_mw = json.loads(str(raw))
-    except json.JSONDecodeError:
-        return ""
-    if not isinstance(data_mw, dict) or data_mw.get("name") != "math":
-        return ""
-    body = data_mw.get("body")
-    if not isinstance(body, dict):
-        return ""
-    extsrc = body.get("extsrc")
+    extsrc = payload.body.get("extsrc")
     return extsrc if isinstance(extsrc, str) else ""
 
 

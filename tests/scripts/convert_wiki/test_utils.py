@@ -429,6 +429,24 @@ class TestGetImageFilename:
         assert result == expected
 
 
+class TestDataMwPayload:
+    """Tests for the _data_mw_payload function."""
+
+    def test_valid_payload_returns_attrs_and_body(self) -> None:
+        """A payload invoking the named extension yields its attrs and body."""
+        div = BeautifulSoup(
+            '<div data-mw=\'{"name": "syntaxhighlight", '
+            '"attrs": {"lang": "python"}, '
+            '"body": {"extsrc": "print(1)"}}\'></div>',
+            "html.parser",
+        ).find("div")
+        assert isinstance(div, Tag)
+        payload = _mod._data_mw_payload(div, "syntaxhighlight")  # noqa: SLF001
+        assert payload is not None
+        assert payload.attrs == {"lang": "python"}
+        assert payload.body == {"extsrc": "print(1)"}
+
+
 class TestBalanceBrackets:
     """Tests for the _balance_brackets function."""
 
