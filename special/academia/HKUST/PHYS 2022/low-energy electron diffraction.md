@@ -48,5 +48,5 @@ The spot positions give the first reading: their arrangement shows the symmetry 
 
 Flashcards for this section are as follows:
 
-- what the spot positions of a LEED pattern give on their own ::@:: The symmetry of the surface's periodicity; an adsorbate's spots give the size and rotational alignment of its unit cell against the substrate. <!--SR:!fsrs,2026-11-23T00:00:00.000Z,12,11.6874828,1,2,2,0,0,2026-11-11T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- what the spot positions of a LEED pattern give on their own ::@:: The symmetry of the surface's periodicity; an adsorbate's spots give the size and rotational alignment of its unit cell against the substrate. <!--SR:!fsrs,2027-01-16T00:00:00.000Z,54,54.28686185,1,2,3,0,0,2026-11-23T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what a LEED I–V curve records, and what comparing it with calculated curves gives ::@:: The intensity of a diffracted beam against the beam energy; the comparison pins down the atomic positions on the surface. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->

@@ -29,7 +29,7 @@ XLMiner offers {@{2 ways}@} to reduce categories: {@{automatically by frequency 
 
 ### decision tree
 
-- see: ::@:: [general/decision tree](../general/decision%20tree.md) <!--SR:!fsrs,2026-11-23T00:00:00.000Z,72,71.8609448,1,2,2,0,0,2026-09-12T00:00:00.000Z!fsrs,2027-01-17T00:00:00.000Z,127,127.34713427,1,2,2,0,0,2026-09-12T00:00:00.000Z-->
+- see: ::@:: [general/decision tree](../general/decision%20tree.md) <!--SR:!fsrs,2028-01-25T00:00:00.000Z,428,428.07782414,1,2,3,0,0,2026-11-23T00:00:00.000Z!fsrs,2027-01-17T00:00:00.000Z,127,127.34713427,1,2,2,0,0,2026-09-12T00:00:00.000Z-->
 
 {@{The decision tree ends}@} are called {@{_leaf nodes_ or _terminal nodes_}@}. {@{The rest of the nodes}@} are called {@{_decision nodes_ or _internal nodes_}@}. <!--SR:!fsrs,2034-04-16T00:00:00.000Z,2731,2731.40199821,1,2,10,0,0,2026-10-24T00:00:00.000Z!2032-07-10,2288,330!fsrs,2027-01-17T00:00:00.000Z,127,127.34713427,1,2,2,0,0,2026-09-12T00:00:00.000Z!fsrs,2027-01-17T00:00:00.000Z,127,127.34713427,1,2,2,0,0,2026-09-12T00:00:00.000Z-->
 

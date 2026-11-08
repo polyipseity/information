@@ -78,7 +78,7 @@ return chain.from_iterable([r.value for r in results])
 - `Boolean`:@:Either `True` or `False`. <!--SR:!2028-05-31,1230,350-->
 - `Double`:@:A floating point number with double precision (15 to 17 significant figures). One can effectively treat it as a decimal number for most purposes. <!--SR:!2026-12-22,796,330-->
 - `Integer`:@:An integer from -2<sup>15</sup> = -32768 to 2<sup>15</sup>-1 = 32767. <!--SR:!2029-06-28,1553,365-->
-- `Long`:@:An integer from -2<sup>31</sup> = -2147483648 to 2<sup>31</sup>-1 = 2147483647. <!--SR:!2026-11-23,766,330-->
+- `Long`:@:An integer from -2<sup>31</sup> = -2147483648 to 2<sup>31</sup>-1 = 2147483647. <!--SR:!fsrs,2034-12-12T00:00:00.000Z,2941,2940.97070555,1,2,11,0,0,2026-11-23T00:00:00.000Z-->
 - `Single`:@:A floating point number with single precision (6 to 9 significant figures). One can effectively treat it as a decimal number for most purposes. <!--SR:!fsrs,2033-10-22T00:00:00.000Z,2533,2533.39056018,1,2,10,0,0,2026-11-15T00:00:00.000Z-->
 
 <!--/pytextgen-->

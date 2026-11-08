@@ -23,12 +23,12 @@ Normally in Scala, {@{values \(terms\) and types}@} infer {@{types}@}, e.g. {@{i
 
 ## motivation
 
-We want to write {@{code that is _modular_}@} by {@{abstracting over the "context" in which it will run}@}. {@{Context}@} can be {@{the current configuration, security level}@}, or even {@{a user on whose behalf an operation executes}@}.  In practice this means making {@{functions and classes independent of global state \(dependent on "context"\)}@} so they can be {@{reused safely across modules}@}. There are several {@{common approaches}@}: \(annotation: 5 items: {@{globals, mutable globals, monkey patch, dependency injection, functional context}@}\) <!--SR:!2027-01-17,338,349!2026-12-16,314,349!2026-12-27,324,349!2026-11-23,293,349!2027-01-28,349,349!2027-01-26,347,349!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2028-08-08T00:00:00.000Z,685,684.89001444,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!fsrs,2030-08-08T00:00:00.000Z,1357,1356.83314545,1,2,9,0,0,2026-11-20T00:00:00.000Z-->
+We want to write {@{code that is _modular_}@} by {@{abstracting over the "context" in which it will run}@}. {@{Context}@} can be {@{the current configuration, security level}@}, or even {@{a user on whose behalf an operation executes}@}.  In practice this means making {@{functions and classes independent of global state \(dependent on "context"\)}@} so they can be {@{reused safely across modules}@}. There are several {@{common approaches}@}: \(annotation: 5 items: {@{globals, mutable globals, monkey patch, dependency injection, functional context}@}\) <!--SR:!2027-01-17,338,349!2026-12-16,314,349!2026-12-27,324,349!fsrs,2030-08-07T00:00:00.000Z,1353,1352.82828482,1,2,9,0,0,2026-11-23T00:00:00.000Z!2027-01-28,349,349!2027-01-26,347,349!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2028-08-08T00:00:00.000Z,685,684.89001444,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!fsrs,2030-08-08T00:00:00.000Z,1357,1356.83314545,1,2,9,0,0,2026-11-20T00:00:00.000Z-->
 
 - globals ::@:: Simple to use. Rigid, hard to change per module. <!--SR:!2026-12-06,306,349!2026-12-19,317,349-->
 - mutable globals ::@:: Flexible but unsafe. Risk of interference \(e.g. race conditions\). <!--SR:!2026-12-20,318,349!fsrs,2030-07-23T00:00:00.000Z,1341,1340.80330866,1,2,9,0,0,2026-11-20T00:00:00.000Z-->
 - monkey patch ::@:: Powerful and dynamic. Can break code and debugging. <!--SR:!2027-01-28,349,349!2026-11-25,295,349-->
-- dependency injection ::@:: Encapsulates configuration. Relies on bytecode rewriting and opaque. Frameworks include Guice, Spring, etc. <!--SR:!2026-11-23,293,349!fsrs,2030-08-03T00:00:00.000Z,1353,1352.82828482,1,2,9,0,0,2026-11-19T00:00:00.000Z-->
+- dependency injection ::@:: Encapsulates configuration. Relies on bytecode rewriting and opaque. Frameworks include Guice, Spring, etc. <!--SR:!fsrs,2030-08-07T00:00:00.000Z,1353,1352.82828482,1,2,9,0,0,2026-11-23T00:00:00.000Z!fsrs,2030-08-03T00:00:00.000Z,1353,1352.82828482,1,2,9,0,0,2026-11-19T00:00:00.000Z-->
 - functional context ::@:: Normally, values and types infer types but not values, e.g. inferring type parameters. With `using`, types are used to infer values. Those values provide "context". <!--SR:!2027-01-24,345,349!fsrs,2030-06-13T00:00:00.000Z,1309,1308.66035919,1,2,9,0,0,2026-11-12T00:00:00.000Z-->
 
 ### higher-order functions
@@ -173,7 +173,7 @@ Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` c
 > ```
 <!--SR:!fsrs,2029-10-22T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-10-03T00:00:00.000Z!fsrs,2030-07-03T00:00:00.000Z,1325,1324.74576884,1,2,9,0,0,2026-11-16T00:00:00.000Z!2027-01-26,347,349!2026-12-26,323,349!2026-12-20,318,349-->
 
-{@{Anonymous `using` clauses}@} let a method declare {@{an implicit parameter without naming it}@}; the compiler will still {@{supply and forward that instance to other methods automatically}@}. For example, <!--SR:!2027-01-17,338,349!fsrs,2030-07-31T00:00:00.000Z,1347,1347.38838875,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-11-23,297,349-->
+{@{Anonymous `using` clauses}@} let a method declare {@{an implicit parameter without naming it}@}; the compiler will still {@{supply and forward that instance to other methods automatically}@}. For example, <!--SR:!2027-01-17,338,349!fsrs,2030-07-31T00:00:00.000Z,1347,1347.38838875,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2030-08-23T00:00:00.000Z,1369,1368.83776698,1,2,9,0,0,2026-11-23T00:00:00.000Z-->
 
 > [!example] __anonymous `using` clauses__
 >

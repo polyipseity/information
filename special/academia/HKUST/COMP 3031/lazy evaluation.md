@@ -21,7 +21,7 @@ tags:
 
 ## motivation
 
-In {@{many search problems}@} one only needs {@{a small fragment of a potentially huge or infinite space}@}.  {@{Lazy evaluation}@} enable {@{algorithms such as breadth-first search or prime generation}@} to generate {@{successors on demand}@} without {@{allocating the entire search tree}@}.  This leads to {@{substantial savings in both time and memory}@}, as illustrated by {@{the prime example below}@}: {@{only the first few numbers are inspected}@} until {@{the second prime is found}@}. <!--SR:!2026-11-30,302,345!2027-01-16,339,345!fsrs,2030-07-22T00:00:00.000Z,1338,1338.10218951,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2030-07-22T00:00:00.000Z,1338,1338.10218951,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-24,321,345!2026-12-30,325,345!2026-11-23,295,345!2026-12-02,302,345!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z!2027-01-09,333,345-->
+In {@{many search problems}@} one only needs {@{a small fragment of a potentially huge or infinite space}@}.  {@{Lazy evaluation}@} enable {@{algorithms such as breadth-first search or prime generation}@} to generate {@{successors on demand}@} without {@{allocating the entire search tree}@}.  This leads to {@{substantial savings in both time and memory}@}, as illustrated by {@{the prime example below}@}: {@{only the first few numbers are inspected}@} until {@{the second prime is found}@}. <!--SR:!2026-11-30,302,345!2027-01-16,339,345!fsrs,2030-07-22T00:00:00.000Z,1338,1338.10218951,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2030-07-22T00:00:00.000Z,1338,1338.10218951,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-24,321,345!2026-12-30,325,345!fsrs,2030-07-28T00:00:00.000Z,1343,1343.48217174,1,2,9,0,0,2026-11-23T00:00:00.000Z!2026-12-02,302,345!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z!2027-01-09,333,345-->
 
 ## lazy list
 
@@ -104,7 +104,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 
 ### lazy list operations
 
-{@{Most standard collection methods}@} are {@{available on lazy lists}@}.  For example, to find {@{the second prime number}@} between {@{1000 and 10&nbsp;000}@} one can write: <!--SR:!2026-11-23,295,345!fsrs,2030-06-21T00:00:00.000Z,1316,1315.76672047,1,2,9,0,0,2026-11-13T00:00:00.000Z!fsrs,2030-04-27T00:00:00.000Z,1272,1272.04354713,1,2,9,0,0,2026-11-02T00:00:00.000Z!2026-12-29,325,345-->
+{@{Most standard collection methods}@} are {@{available on lazy lists}@}.  For example, to find {@{the second prime number}@} between {@{1000 and 10&nbsp;000}@} one can write: <!--SR:!fsrs,2030-07-28T00:00:00.000Z,1343,1343.48217174,1,2,9,0,0,2026-11-23T00:00:00.000Z!fsrs,2030-06-21T00:00:00.000Z,1316,1315.76672047,1,2,9,0,0,2026-11-13T00:00:00.000Z!fsrs,2030-04-27T00:00:00.000Z,1272,1272.04354713,1,2,9,0,0,2026-11-02T00:00:00.000Z!2026-12-29,325,345-->
 
 > [!example] __lazily finding prime numbers__
 >
@@ -180,7 +180,7 @@ Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trig
 > }
 > ```
 >
-> ... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. <!--SR:!fsrs,2030-04-27T00:00:00.000Z,1272,1272.04354713,1,2,9,0,0,2026-11-02T00:00:00.000Z!2026-11-26,298,345!fsrs,2030-03-08T00:00:00.000Z,1232,1232.10755353,1,2,9,0,0,2026-10-23T00:00:00.000Z!2027-01-21,343,345!fsrs,2030-07-22T00:00:00.000Z,1338,1338.10218951,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-11-23,295,345!2027-01-10,334,345!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z!fsrs,2030-04-07T00:00:00.000Z,1256,1256.09108905,1,2,9,0,0,2026-10-29T00:00:00.000Z!2026-12-09,308,345!2027-03-31,403,370-->
+> ... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. <!--SR:!fsrs,2030-04-27T00:00:00.000Z,1272,1272.04354713,1,2,9,0,0,2026-11-02T00:00:00.000Z!2026-11-26,298,345!fsrs,2030-03-08T00:00:00.000Z,1232,1232.10755353,1,2,9,0,0,2026-10-23T00:00:00.000Z!2027-01-21,343,345!fsrs,2030-07-22T00:00:00.000Z,1338,1338.10218951,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2030-07-28T00:00:00.000Z,1343,1343.48217174,1,2,9,0,0,2026-11-23T00:00:00.000Z!2027-01-10,334,345!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z!fsrs,2030-04-07T00:00:00.000Z,1256,1256.09108905,1,2,9,0,0,2026-10-29T00:00:00.000Z!2026-12-09,308,345!2027-03-31,403,370-->
 
 ... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. In {@{Scala 3's standard library}@} this pattern appears as {@{a private `lazyState` function}@} that yields {@{a `State[A]` object containing `head` and `tail`}@}; thus {@{the list's structure (whether it's empty or a cons cell)}@} is {@{computed lazily}@}, but {@{individual `head` elements themselves}@} are {@{not lazy}@}—only {@{the overall shape of the sequence}@} is {@{deferred}@}. <!--SR:!2026-11-29,299,345!fsrs,2030-04-07T00:00:00.000Z,1256,1256.09108905,1,2,9,0,0,2026-10-29T00:00:00.000Z!2027-01-14,337,345!fsrs,2029-12-07T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-07T00:00:00.000Z!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z!2026-11-25,297,345!fsrs,2028-08-08T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2027-01-04,329,345!2026-12-15,313,345!fsrs,2029-01-25T00:00:00.000Z,904,904.19353564,1,2,9,0,0,2026-08-05T00:00:00.000Z!2026-12-12,311,345!2026-12-10,309,345!2027-03-19,393,370-->
 
@@ -245,7 +245,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 
 ### infinite sequence examples
 
-{@{The classic algorithm for generating primes}@}, {@{sieve of Eratosthenes}@}, can be expressed {@{succinctly with lazy lists}@}: <!--SR:!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z!2027-01-06,330,345!2026-11-23,295,345-->
+{@{The classic algorithm for generating primes}@}, {@{sieve of Eratosthenes}@}, can be expressed {@{succinctly with lazy lists}@}: <!--SR:!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z!2027-01-06,330,345!fsrs,2030-07-28T00:00:00.000Z,1343,1343.48217174,1,2,9,0,0,2026-11-23T00:00:00.000Z-->
 
 > [!example] __sieve of Eratosthenes__
 >

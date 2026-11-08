@@ -512,7 +512,7 @@ The content is in teaching order.
 - topic: fundamentals of capital budgeting
 - free cash flow
     - free cash flow / calculations ::@:: incremental earnings \(_unlevered_ net income\) + depreciation & amortization − capital expenditure − changes in working capital <!--SR:!2027-04-29,569,414!fsrs,2031-09-25T00:00:00.000Z,1866,1865.58882757,1,2,10,0,0,2026-08-16T00:00:00.000Z-->
-        - free cash flow / calculations / incremental earnings ::@:: EBIT − taxes based on EBIT = EBIT × \(1 − marginal corporate tax rate\) <!--SR:!2027-08-30,716,432!2026-11-23,478,412-->
+        - free cash flow / calculations / incremental earnings ::@:: EBIT − taxes based on EBIT = EBIT × \(1 − marginal corporate tax rate\) <!--SR:!2027-08-30,716,432!fsrs,2032-12-07T00:00:00.000Z,2206,2206.21232104,1,2,10,0,0,2026-11-23T00:00:00.000Z-->
         - free cash flow / calculations / net income ::@:: incremental earnings \(_unlevered_ net income\) = \(_levered_\) net income + interest expense − tax shield on interest expense <!--SR:!2026-12-01,486,412!2027-10-22,752,435-->
     - free cash flow / depreciation
     - free cash flow / capital expenditure ::@:: Cash outflows when you have capital expenditure. But this is not immediately recognized in an income statement. So we need to add this to FCF. <p> By the cost principle, all reasonable and necessary expenditures \(e.g. _capitalized interest_, costs to get it up and running, materials, wages paid, etc.\) in constructing an asset should be _capitalized_ \(i.e. considered capital expenditure\). <!--SR:!2027-10-07,738,433!2028-01-21,828,433-->

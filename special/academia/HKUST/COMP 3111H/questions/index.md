@@ -140,7 +140,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{Add a small note next to the relevant place with text describing the semantics. This could come in handy for examinations, e.g. stating your less-than-obvious assumptions about the requirements, etc.}@} <!--SR:!2026-11-23,311,340-->
+> - solution: {@{Add a small note next to the relevant place with text describing the semantics. This could come in handy for examinations, e.g. stating your less-than-obvious assumptions about the requirements, etc.}@} <!--SR:!fsrs,2030-09-07T00:00:00.000Z,1384,1383.86311253,1,2,9,0,0,2026-11-23T00:00:00.000Z-->
 
 ## week 3 pre-lecture
 

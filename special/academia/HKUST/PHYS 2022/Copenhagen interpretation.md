@@ -29,7 +29,7 @@ Three ideas carry the interpretation. The uncertainty principle fixes a lower bo
 Flashcards for this section are as follows:
 
 - the three principles of the Copenhagen interpretation, including what the Born rule says about $|\Psi|^2$ ::@:: Uncertainty ($\Delta x \cdot \Delta p_x \geq \hbar/2$), complementarity (wave and particle aspects are mutually exclusive arrangements), and the Born rule ($|\Psi|^2$ is a probability measure). <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- what complementarity means in an experiment ::@:: The apparatus decides which aspect appears: a diffraction setup shows interference and no path; a which-path setup shows path and no interference. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2026-11-23T00:00:00.000Z,12,11.6874828,1,2,2,0,0,2026-11-11T00:00:00.000Z-->
+- what complementarity means in an experiment ::@:: The apparatus decides which aspect appears: a diffraction setup shows interference and no path; a which-path setup shows path and no interference. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-02-22T00:00:00.000Z,91,91.47185982,1,2,3,0,0,2026-11-23T00:00:00.000Z-->
 
 ## role of measurement
 
