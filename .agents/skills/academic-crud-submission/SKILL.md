@@ -184,7 +184,7 @@ When adding images:
 
 Do not put in `attachments/`:
 
-- HTML source files (Canvas pages, PRS pages): these are extraction sources, not referenced raw files. Extract the content into `.md`/`.yml` and discard the HTML.
+- HTML source files (Canvas pages, PRS pages, Gradescope pages): these are extraction sources, not referenced raw files. HTML is not a document, so it never enters `attachments/`: extract the content into `.md`/`.yml` and leave the file at its original path (see "Source file preservation" in `academic-ingest`).
 - Transcripted text: content that can be represented as markdown belongs in a `.md` file.
 - Downloaded videos and subtitle files: a linked video is a source, read through `academic-video`; only the content derived from it reaches a note.
 

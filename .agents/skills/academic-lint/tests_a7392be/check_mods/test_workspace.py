@@ -281,3 +281,17 @@ async def test_note_without_index_accepts_a_link_and_rejects_a_touch(
         roots=(fspath(root),),
     )
     assert len(await change_note_without_index(context)) == 1
+
+
+def test_mentions_accepts_a_percent_encoded_apostrophe():
+    """A note whose name carries an apostrophe is linked as %27, and that counts."""
+    line = "- [§ prior away from one half](Bayes%27%20theorem.md#prior%20away%20from%20one%20half)"
+    assert workspace._mentions(
+        line, "special/academia/HKUST/FINA 4103/Bayes' theorem.md"
+    )
+
+
+def test_mentions_rejects_a_link_to_another_note():
+    """A section link that names a different note is not an update."""
+    line = "- [§ energy](other%20note.md#energy)"
+    assert not workspace._mentions(line, "special/academia/X/C/note.md")

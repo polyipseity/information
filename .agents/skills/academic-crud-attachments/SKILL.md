@@ -25,6 +25,8 @@ Documents are not opaque blobs: extraction of text, page renders, and embedded i
 - __Content document__ (the document IS the course material): the `.md` file is canonical, and the original is not stored in `attachments/` unless the user explicitly requests provenance. Extracted text becomes the `.md`; images stay in `.extracted/images/`, except an embedded image copied into `attachments/` under a descriptive name when the picture itself is the material. Page renders are never attachments.
 - __Attachment document__ (the document accompanies course material): the original is canonical and is stored in `attachments/` for provenance and re-extraction. Its extracted text is read during classification but not persisted; images stay in `.extracted/images/` and are copied into `attachments/` only when the note must show one.
 
+__HTML is not a document.__ A PDF, DOCX, or PPTX is extracted, so it can enter `attachments/` as an attachment document; an HTML page is an extraction source that never enters `attachments/`, whatever it holds, and stays at its original path (see "Source file preservation" in `academic-ingest`).
+
 When documents are ingested into `attachments/`, extraction outputs persist under `.pi/ingest/` at the source's path minus `special/academia/<INSTITUTION>/`, with `.extracted` appended to the leaf stem:
 
 ```text

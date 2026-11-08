@@ -15,6 +15,7 @@ import re
 from collections.abc import Awaitable, Callable, Sequence
 from dataclasses import dataclass
 from pathlib import Path as SyncPath
+from urllib.parse import quote
 
 from anyio import Path
 
@@ -236,7 +237,10 @@ def _mentions(line: str, note_path: str) -> bool:
     the note, so a ``§`` link to some other page is not an update.
     """
     name = SyncPath(note_path).name
-    return name in line or name.replace(" ", "%20") in line
+    forms = {name, name.replace(" ", "%20"), quote(name)}
+    return any(
+        re.search(r"(?:\(|/)" + re.escape(form) + r"(?:[)#]|$)", line) for form in forms
+    )
 
 
 async def _nearest_index(root: str, path: str) -> str | None:
