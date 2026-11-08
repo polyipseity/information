@@ -9,7 +9,7 @@ tags:
 
 # Obsidian math
 
-Obsidian renders note math with MathJax, so a note may use every macro MathJax defines plus every macro the vault's preamble defines. The preamble is `.obsidian/plugins/obsidian-latex/preamble.sty`, and it holds only what MathJax lacks: names MathJax already supplies stay out of it, and the rest are polyfilled.
+Obsidian renders note math with MathJax, so a note may use every macro MathJax defines. The vault's preamble, `.obsidian/plugins/obsidian-latex/preamble.sty`, adds whatever MathJax lacks, but only while the preamble loads; see [migrating to Shared TeX Preamble](#migrating%20to%20shared%20tex%20preamble) for its current state. Names MathJax already supplies stay out of the preamble, and the rest are polyfilled.
 
 ## native macros
 
@@ -43,7 +43,7 @@ __Why `\def`__: `\def` replaces whatever the name currently means, including a d
 
 __Why `\newcommand \Name` fails in MathJax 4__: MathJax parses the arguments of `\newcommand` itself and expects the brace form `\newcommand{\Name}{...}`. The space-separated form, which LaTeX accepts, does not define the macro here, so the name stays undefined and every use of it renders as an error. This vault's preamble used that form before it was rewritten for MathJax 4; the current file uses `\def` throughout.
 
-__Why redefining a native name with `\newcommand` fails__: `\newcommand` only defines a name that does not exist yet, so `\newcommand{\oiint}{...}` stops at MathJax's own `\oiint` with an "already defined" error and the preamble does not load. That is why no native name from the list above appears in the preamble as a definition, and why an overriding polyfill has to use `\def`.
+__Why redefining a native name with `\newcommand` fails__: `\newcommand` only defines a name that does not exist yet, so `\newcommand{\oiint}{...}` stops at MathJax's own `\oiint` with an "already defined" error and the definition is rejected. That is why no native name from the list above appears in the preamble as a definition, and why an overriding polyfill has to use `\def`.
 
 ## migrating to Shared TeX Preamble
 
