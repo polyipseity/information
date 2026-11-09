@@ -16,7 +16,7 @@ In {@{[number theory](number%20theory.md)}@}, {@{__Vieta jumping__, also known a
 ## history
 
 Vieta jumping is {@{a classical method}@} in the theory of {@{quadratic [Diophantine equations](Diophantine%20equations.md) and [binary quadratic forms](binary%20quadratic%20form.md)}@}. For example, it was used in the analysis of {@{the [Markov equation](Markov%20equation.md) back in 1879 and in the 1953 paper of Mills}@}.<sup>[\[1\]](#^ref-1)</sup>
-In {@{1988, the method came to the attention to [mathematical olympiad](mathematical%20olympiad.md) problems}@} in the light of {@{the first olympiad problem to use it in a solution that was proposed for the [International Mathematics Olympiad](International%20Mathematics%20Olympiad.md)}@} and assumed to be {@{the most difficult problem on the contest}@}:<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!fsrs,2029-09-13T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-11-18T00:00:00.000Z!2026-11-26,237,330!2027-01-16,261,330!2027-02-13,289,330!2027-02-10,286,330!2027-01-30,275,330-->
+In {@{1988, the method came to the attention to [mathematical olympiad](mathematical%20olympiad.md) problems}@} in the light of {@{the first olympiad problem to use it in a solution that was proposed for the [International Mathematics Olympiad](International%20Mathematics%20Olympiad.md)}@} and assumed to be {@{the most difficult problem on the contest}@}:<sup>[\[2\]](#^ref-2)</sup><sup>[\[3\]](#^ref-3)</sup> <!--SR:!fsrs,2029-09-13T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-11-18T00:00:00.000Z!fsrs,2029-10-18T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-26T00:00:00.000Z!2027-01-16,261,330!2027-02-13,289,330!2027-02-10,286,330!2027-01-30,275,330-->
 
 &emsp; Let _a_ and _b_ be {@{positive integers such that _ab_ + 1 divides _a_<sup>2</sup> + _b_<sup>2</sup>}@}. Show that {@{${\frac {a^{2}+b^{2} }{ab+1} }$ is the square of an integer}@}.<sup>[\[4\]](#^ref-4)</sup> <!--SR:!2027-02-07,283,330!2027-02-12,288,330-->
 
@@ -37,7 +37,7 @@ The concept of {@{__standard Vieta jumping__}@} is {@{a [proof by contradiction]
 
 __Example__
 
-{@{__Problem \#6 at IMO 1988__}@}: Let _a_ and _b_ be {@{positive integers such that _ab_ + 1 divides _a_<sup>2</sup> + _b_<sup>2</sup>}@}. Prove that {@{$\frac {a^2 + b^2} {ab + 1}$⁠ is a [perfect square](square%20number.md)}@}.<sup>[\[8\]](#^ref-8)</sup><sup>[\[9\]](#^ref-9)</sup> <!--SR:!fsrs,2029-10-02T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-11-26,237,330!2027-02-08,284,330-->
+{@{__Problem \#6 at IMO 1988__}@}: Let _a_ and _b_ be {@{positive integers such that _ab_ + 1 divides _a_<sup>2</sup> + _b_<sup>2</sup>}@}. Prove that {@{$\frac {a^2 + b^2} {ab + 1}$⁠ is a [perfect square](square%20number.md)}@}.<sup>[\[8\]](#^ref-8)</sup><sup>[\[9\]](#^ref-9)</sup> <!--SR:!fsrs,2029-10-02T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2029-10-18T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-26T00:00:00.000Z!2027-02-08,284,330-->
 
 1. Fix some value _k_ that is {@{a non-square positive integer}@}. Assume there exist {@{positive integers \(_a_, _b_\) for which $k = \frac {a^2 + b^2} {ab + 1}$}@}.
 2. Let \(_A_, _B_\) be {@{positive integers for which $k = \frac {A^2 + B^2} {AB + 1}$}@} and such that {@{_A_ + _B_ is minimized}@}, and {@{[without loss of generality](without%20loss%20of%20generality.md) assume _A_ ≥ _B_}@}.

@@ -260,7 +260,7 @@ Because Lisp has {@{no static type system}@}, {@{a value}@} may be {@{any data s
 
 {@{All of Lisp’s data structures}@} are built from {@{cons cells – pairs of pointers – which in turn form lists}@}. Using {@{only lists}@} gives {@{great uniformity}@}: {@{the same representation}@} works for {@{any complex data structures}@}. The downside is that {@{more specialised abstractions (e.g., hash tables or trees)}@} have to be {@{implemented on top of this core}@}. <!--SR:!2027-03-06,311,340!2027-02-28,305,340!2027-02-19,296,340!2027-03-26,331,340!2027-02-23,300,340!2027-03-07,312,340!2027-02-22,299,340!2027-02-24,301,340-->
 
-Finally, {@{treating programs as data}@} enables {@{powerful macro systems and meta-programming}@}. It also means that a program can {@{generate, modify and evaluate other programs at run time}@}. While {@{this feature is very expressive}@}, it makes {@{reasoning about correctness more difficult}@} because a program may {@{change its own structure}@}. <!--SR:!2027-02-19,296,340!2026-11-26,246,330!2027-02-23,300,340!2027-03-07,312,340!2027-03-08,313,340!2027-02-25,302,340-->
+Finally, {@{treating programs as data}@} enables {@{powerful macro systems and meta-programming}@}. It also means that a program can {@{generate, modify and evaluate other programs at run time}@}. While {@{this feature is very expressive}@}, it makes {@{reasoning about correctness more difficult}@} because a program may {@{change its own structure}@}. <!--SR:!2027-02-19,296,340!fsrs,2029-11-22T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-26T00:00:00.000Z!2027-02-23,300,340!2027-03-07,312,340!2027-03-08,313,340!2027-02-25,302,340-->
 
 ## evaluator
 

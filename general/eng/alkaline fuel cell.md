@@ -59,7 +59,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←+: efficiency as high as 70% <!--SR:!fsrs,2033-06-06T00:00:00.000Z,2496,2496.06470531,1.88024646,2,11,0,0,2026-08-06T00:00:00.000Z!2032-10-12,2620,332-->
 - +: efficiency as high as 70%→::@::←+: operate continuously, producing a stable supply of [electricity](electricity.md) <!--SR:!fsrs,2028-10-31T00:00:00.000Z,822,822.1188852,6.88332171,2,10,0,0,2026-08-01T00:00:00.000Z!2032-01-15,2189,312-->
-- +: operate continuously, producing a stable supply of [electricity](electricity.md)→::@::←+: products, which consist of [water](water.md), are clean <!--SR:!2026-11-26,852,270!2029-06-06,1483,272-->
+- +: operate continuously, producing a stable supply of [electricity](electricity.md)→::@::←+: products, which consist of [water](water.md), are clean <!--SR:!fsrs,2031-10-16T00:00:00.000Z,1785,1784.9775754,4.74047837,2,11,0,0,2026-11-26T00:00:00.000Z!2029-06-06,1483,272-->
 - +: products, which consist of [water](water.md), are clean→::@::←-: expensive <!--SR:!2031-11-10,2193,292!2030-12-24,1684,252-->
 - -: expensive→::@::←-: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult <!--SR:!2027-04-25,912,250!2030-05-10,1802,332-->
 - -: storage of [hydrogen](hydrogen.md) and [oxygen](oxygen.md) gas is difficult→::@::←_(end)_ <!--SR:!2035-12-18,3610,352!2030-02-20,1726,312-->

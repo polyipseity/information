@@ -33,7 +33,7 @@ We want to write {@{code that is _modular_}@} by {@{abstracting over the "contex
 
 ### higher-order functions
 
-When {@{a method}@} needs to {@{operate over arbitrary types}@} – for example, {@{a generic `sort`}@} – {@{the natural solution}@} is to {@{type parameterise it}@}: <!--SR:!2027-01-23,344,349!2027-01-28,349,349!2026-11-26,296,349!2026-12-07,307,349!2026-12-04,304,349-->
+When {@{a method}@} needs to {@{operate over arbitrary types}@} – for example, {@{a generic `sort`}@} – {@{the natural solution}@} is to {@{type parameterise it}@}: <!--SR:!2027-01-23,344,349!2027-01-28,349,349!fsrs,2030-08-22T00:00:00.000Z,1365,1364.83793445,1,2,9,0,0,2026-11-26T00:00:00.000Z!2026-12-07,307,349!2026-12-04,304,349-->
 
 > [!example] __parameterized sort__
 >
@@ -156,7 +156,7 @@ However, {@{explicit passing}@} is {@{usually unnecessary}@}. If the caller {@{o
 > def f(x: Int)(using a: A, b: B) = ...
 > f(10)(using a, b)
 > ```
-<!--SR:!2026-12-26,323,349!fsrs,2029-10-08T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-10-01T00:00:00.000Z!fsrs,2030-08-16T00:00:00.000Z,1363,1363.40564442,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-11-26,296,349-->
+<!--SR:!2026-12-26,323,349!fsrs,2029-10-08T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-10-01T00:00:00.000Z!fsrs,2030-08-16T00:00:00.000Z,1363,1363.40564442,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2030-08-22T00:00:00.000Z,1365,1364.83793445,1,2,9,0,0,2026-11-26T00:00:00.000Z-->
 
 Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` clauses}@} can also be {@{interleaved with ordinary parameter lists}@}, allowing {@{a mix of implicit and explicit arguments}@}: <!--SR:!2027-01-02,329,349!fsrs,2030-08-08T00:00:00.000Z,1357,1356.83314545,1,2,9,0,0,2026-11-20T00:00:00.000Z!2026-11-28,298,349!2026-12-10,310,349!2027-01-29,350,349-->
 
@@ -223,7 +223,7 @@ Scala 3 introduces {@{_`given` instances_}@} – {@{values}@} that can be {@{aut
 >     def compare(x: Int, y: Int): Int =
 >       if (x < y) -1 else if (x > y) 1 else 0
 > ```
-<!--SR:!2027-01-24,345,349!2026-12-18,316,349!2026-11-26,296,349!fsrs,2028-04-12T05:15:40.028Z,677,676.62994752,1,2,8,0,0,2026-06-05T05:15:40.028Z-->
+<!--SR:!2027-01-24,345,349!2026-12-18,316,349!fsrs,2030-08-22T00:00:00.000Z,1365,1364.83793445,1,2,9,0,0,2026-11-26T00:00:00.000Z!fsrs,2028-04-12T05:15:40.028Z,677,676.62994752,1,2,8,0,0,2026-06-05T05:15:40.028Z-->
 
 {@{Anonymous instances}@} can be {@{declared without a name}@}; the compiler will {@{create a new instance and generate a name}@}: <!--SR:!2026-12-05,305,349!2026-12-10,310,349!2027-01-20,341,349-->
 
@@ -366,7 +366,7 @@ Thus you can provide {@{multiple `given`s}@} and rely on Scala's rules to pick {
 
 ## type class
 
-In Scala {@{a _type class_}@} is {@{a generic trait}@} that declares {@{operations for a type `A`}@} and is instantiated by {@{`given` definitions for particular types}@}. {@{The pattern}@} is inspired by {@{Haskell's type-class mechanism}@} but expressed in Scala through {@{contextual parameters (`using`) and implicit resolution}@}. <!--SR:!fsrs,2028-09-25T00:00:00.000Z,720,720.2031195,2.49272837,2,9,0,0,2026-10-06T00:00:00.000Z!2026-11-26,296,349!fsrs,2030-07-03T00:00:00.000Z,1325,1324.74576884,1,2,9,0,0,2026-11-16T00:00:00.000Z!fsrs,2028-07-28T00:00:00.000Z,677,677.29649533,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-12-06,306,349!2026-12-31,327,349!2026-12-23,320,349-->
+In Scala {@{a _type class_}@} is {@{a generic trait}@} that declares {@{operations for a type `A`}@} and is instantiated by {@{`given` definitions for particular types}@}. {@{The pattern}@} is inspired by {@{Haskell's type-class mechanism}@} but expressed in Scala through {@{contextual parameters (`using`) and implicit resolution}@}. <!--SR:!fsrs,2028-09-25T00:00:00.000Z,720,720.2031195,2.49272837,2,9,0,0,2026-10-06T00:00:00.000Z!fsrs,2030-08-22T00:00:00.000Z,1365,1364.83793445,1,2,9,0,0,2026-11-26T00:00:00.000Z!fsrs,2030-07-03T00:00:00.000Z,1325,1324.74576884,1,2,9,0,0,2026-11-16T00:00:00.000Z!fsrs,2028-07-28T00:00:00.000Z,677,677.29649533,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-12-06,306,349!2026-12-31,327,349!2026-12-23,320,349-->
 
 {@{Type classes}@} turn {@{a type into a value}@} by providing {@{a trait and concrete instances}@}. They enable {@{_ad-hoc polymorphism_}@}: {@{different implementations}@} for {@{different types}@}. <!--SR:!fsrs,2030-07-08T00:00:00.000Z,1329,1328.76280435,1,2,9,0,0,2026-11-17T00:00:00.000Z!2026-12-11,311,349!2027-01-18,339,349!2026-11-27,297,349!2027-01-21,342,349!2026-11-27,297,349-->
 

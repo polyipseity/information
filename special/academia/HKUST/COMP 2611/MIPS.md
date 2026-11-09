@@ -386,7 +386,7 @@ The stack segment is {@{automatic storage, used to store local variables in high
 
 MIPS \(MIPS I\) have {@{only one addressing mode: base + displacement}@}. <!--SR:!fsrs,2032-09-09T00:00:00.000Z,2134,2133.90042994,1,2,10,0,0,2026-11-06T00:00:00.000Z-->
 
-\(__this course__: whole paragraph\) However, for this course, we consider addressing mode {@{to include referencing data, not just referencing memory in operands}@}. If so, we have {@{5 addressing mode}@}: {@{immediate, register, base \(+ displacement\), PC-relative, and pseudo-direct addressing}@}. <!--SR:!fsrs,2032-08-24T00:00:00.000Z,2122,2121.81441071,1,2,10,0,0,2026-11-02T00:00:00.000Z!2026-11-26,481,401!fsrs,2032-11-20T00:00:00.000Z,2190,2190.17281116,1,2,10,0,0,2026-11-22T00:00:00.000Z-->
+\(__this course__: whole paragraph\) However, for this course, we consider addressing mode {@{to include referencing data, not just referencing memory in operands}@}. If so, we have {@{5 addressing mode}@}: {@{immediate, register, base \(+ displacement\), PC-relative, and pseudo-direct addressing}@}. <!--SR:!fsrs,2032-08-24T00:00:00.000Z,2122,2121.81441071,1,2,10,0,0,2026-11-02T00:00:00.000Z!fsrs,2032-12-22T00:00:00.000Z,2218,2218.23103427,1,2,10,0,0,2026-11-26T00:00:00.000Z!fsrs,2032-11-20T00:00:00.000Z,2190,2190.17281116,1,2,10,0,0,2026-11-22T00:00:00.000Z-->
 
 - immediate addressing ::@:: Not really an addressing mode... It refers to the 16-bit immediate field in an I instruction. <!--SR:!2026-11-28,478,401!fsrs,2032-11-17T00:00:00.000Z,2190,2190.17281116,1,2,10,0,0,2026-11-19T00:00:00.000Z-->
 - register addressing ::@:: Not really an addressing mode... It refers to the register fields in an R or I instruction. <!--SR:!2027-01-23,523,401!2026-12-25,505,401-->

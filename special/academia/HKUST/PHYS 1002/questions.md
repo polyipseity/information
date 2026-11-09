@@ -248,7 +248,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 30 g
 >
 > - solution: {@{2}@}
-> - explanation: {@{Apply Albert Einstein's famous formula: $$E = mc^2 \implies m = \frac E {c^2}$$. Plug in the numbers: $$E = \frac {2.92 \times 10^12} {(3 \times 10^8)^2} \approx 3.24444444 \times 10^{-5}\text{ kg} \approx 0.03\text{ g}$$. Therefore, the answer is 0.03 g.}@} <!--SR:!2027-01-27,697,341!2026-11-26,594,321-->
+> - explanation: {@{Apply Albert Einstein's famous formula: $$E = mc^2 \implies m = \frac E {c^2}$$. Plug in the numbers: $$E = \frac {2.92 \times 10^12} {(3 \times 10^8)^2} \approx 3.24444444 \times 10^{-5}\text{ kg} \approx 0.03\text{ g}$$. Therefore, the answer is 0.03 g.}@} <!--SR:!2027-01-27,697,341!fsrs,2033-02-26T00:00:00.000Z,2284,2284.17695499,1,2,10,0,0,2026-11-26T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

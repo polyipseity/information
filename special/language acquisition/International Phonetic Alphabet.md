@@ -945,7 +945,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced dental fricative](voiced%20dental%20fricative.md):@:[English](English%20language.md) _**th**is_ \[ðɪs\] <!--SR:!2027-06-27,752,233-->
 - [voiced alveolar affricate](voiced%20alveolar%20affricate.md):@:[English](English%20language.md) _**d**ay_ \[ˈd͡zeˑɪ̯\] <!--SR:!fsrs,2027-03-15T00:00:00.000Z,119,119.18733955,9.97047151,2,8,0,0,2026-11-16T00:00:00.000Z-->
 - [voiced postalveolar affricate](voiced%20postalveolar%20affricate.md):@:[English](English%20language.md) _**g**ene_ \[ˈd͡ʒiːn\] <!--SR:!2027-03-28,303,158-->
-- [voiced alveolo-palatal affricate](voiced%20alveolo-palatal%20affricate.md):@:[Polish](Polish%20language.md) _**dź**więk_ \[d͡ʑvʲɛŋk\] "sound" <!--SR:!fsrs,2026-11-26T00:00:00.000Z,46,45.74205864,9.93790175,2,9,0,0,2026-10-11T00:00:00.000Z-->
+- [voiced alveolo-palatal affricate](voiced%20alveolo-palatal%20affricate.md):@:[Polish](Polish%20language.md) _**dź**więk_ \[d͡ʑvʲɛŋk\] "sound" <!--SR:!fsrs,2027-01-25T00:00:00.000Z,60,59.64206128,9.92319222,2,10,0,0,2026-11-26T00:00:00.000Z-->
 - [voiced retroflex affricate](voiced%20retroflex%20affricate.md):@:[Polish](Polish%20language.md) _**dż**em_ \[ɖ͡ʐɛm\] "jam" <!--SR:!fsrs,2027-01-26T00:00:00.000Z,160,160.19433718,8.93627837,2,8,0,0,2026-08-19T00:00:00.000Z-->
 - [close-mid front unrounded vowel](close-mid%20front%20unrounded%20vowel.md):@:[English](English%20language.md) _m**ay**_ \[meː\] <!--SR:!fsrs,2026-12-16T00:00:00.000Z,79,79.02421239,9.97047151,2,8,0,0,2026-09-28T00:00:00.000Z-->
 - [close-mid central unrounded vowel](close-mid%20central%20unrounded%20vowel.md):@:[English](English%20language.md) _b**ir**d_ \[bɘːd\] <!--SR:!fsrs,2027-05-23T00:00:00.000Z,194,193.57515105,9.47803521,2,9,0,0,2026-11-10T00:00:00.000Z-->
@@ -969,7 +969,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced palatal approximant](voiced%20palatal%20approximant.md):@:[English](English%20language.md) _**y**ou_ \[juː\] <!--SR:!fsrs,2027-02-02T00:00:00.000Z,96,96.30046533,9.95572941,2,8,0,0,2026-10-29T00:00:00.000Z-->
 - [palatalization](palatalization%20(phonetics).md):@:[Irish](Irish%20language.md) _**be**o_ \[bʲoː\] "alive" <!--SR:!2027-01-06,580,238-->
 - [voiced palatal fricative](voiced%20palatal%20fricative.md):@:[Spanish](Spanish%20language.md) _sa**y**o_ \[ˈsäʝo̞\] "smock" <!--SR:!fsrs,2027-01-16T00:00:00.000Z,64,64.03174091,9.96240929,2,9,0,0,2026-11-13T00:00:00.000Z-->
-- [voiced palatal plosive](voiced%20palatal%20plosive.md):@:[Irish](Irish%20language.md) _Gaeil**g**e_ \[ˈɡeːlʲɟə\] "[Irish language](Irish%20language.md)" <!--SR:!fsrs,2026-11-26T00:00:00.000Z,64,63.69946779,9.95572941,2,8,0,0,2026-09-23T00:00:00.000Z-->
+- [voiced palatal plosive](voiced%20palatal%20plosive.md):@:[Irish](Irish%20language.md) _Gaeil**g**e_ \[ˈɡeːlʲɟə\] "[Irish language](Irish%20language.md)" <!--SR:!fsrs,2027-02-16T00:00:00.000Z,82,81.69807023,9.94100205,2,9,0,0,2026-11-26T00:00:00.000Z-->
 - [voiced palatal implosive](voiced%20palatal%20implosive.md):@:[Swahili](Swahili%20language.md) _**j**ana_ \[ʄana\] "yesterday" <!--SR:!fsrs,2028-09-27T00:00:00.000Z,747,747.34097591,7.43777837,2,10,0,0,2026-09-11T00:00:00.000Z-->
 - [voiceless velar plosive](voiceless%20velar%20plosive.md):@:[English](English%20language.md) _**k**iss_ \[kʰɪs\] <!--SR:!2027-02-27,519,199-->
 - [voiced alveolar lateral approximant](voiced%20alveolar%20lateral%20approximant.md):@:[English](English%20language.md) _**l**et_ \[lɛt\] <!--SR:!2028-10-04,1102,280-->

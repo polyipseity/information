@@ -72,7 +72,7 @@ Consider a bank account example where {@{two concurrent deposits update a shared
 >   }
 > ```
 >
-> If `transfer(a,b,x)` runs {@{concurrently with `transfer(b,a,y)`}@}, each thread holds {@{one lock and waits for the other}@}, causing {@{a deadlock}@}. <!--SR:!2026-12-14,262,330!2026-12-03,253,330!2026-12-21,268,330!2026-12-10,256,330!2027-01-16,289,330!2026-11-26,254,330-->
+> If `transfer(a,b,x)` runs {@{concurrently with `transfer(b,a,y)`}@}, each thread holds {@{one lock and waits for the other}@}, causing {@{a deadlock}@}. <!--SR:!2026-12-14,262,330!2026-12-03,253,330!2026-12-21,268,330!2026-12-10,256,330!2027-01-16,289,330!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z-->
 
 {@{An actor version of `BankAccount`}@}, `BankActor`, removes {@{the lock}@}: <!--SR:!fsrs,2029-11-27T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-11-20T00:00:00.000Z!2026-12-24,270,330-->
 
@@ -156,7 +156,7 @@ Actors are {@{instantiated through the actor system}@}, which supplies {@{a uniq
 > counter ! "incr"
 > ```
 >
-> Because {@{messages are queued}@}, the sender does not {@{wait for the receiver}@}; {@{this asynchronous, non‑blocking communication}@} is one of {@{the key advantages of the actor model}@}. <!--SR:!2027-01-06,281,330!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z!2026-12-05,255,330!fsrs,2029-09-06T00:00:00.000Z,1040,1039.96344033,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-20,264,330!fsrs,2029-11-22T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-19T00:00:00.000Z!2027-01-20,292,330!2026-11-26,254,330!2026-12-02,252,330!2026-12-31,276,330-->
+> Because {@{messages are queued}@}, the sender does not {@{wait for the receiver}@}; {@{this asynchronous, non‑blocking communication}@} is one of {@{the key advantages of the actor model}@}. <!--SR:!2027-01-06,281,330!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z!2026-12-05,255,330!fsrs,2029-09-06T00:00:00.000Z,1040,1039.96344033,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-20,264,330!fsrs,2029-11-22T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-19T00:00:00.000Z!2027-01-20,292,330!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z!2026-12-02,252,330!2026-12-31,276,330-->
 
 ### message passing
 
@@ -175,7 +175,7 @@ Actors are {@{instantiated through the actor system}@}, which supplies {@{a uniq
 > }
 > ```
 >
-> {@{The `sender()` helper}@} obtains {@{the actor that sent the current message}@}, allowing {@{a two‑way interaction}@}. <!--SR:!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2029-11-22T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-19T00:00:00.000Z!2026-12-08,257,330!2026-11-26,254,330!fsrs,2029-11-27T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-11-20T00:00:00.000Z!2026-11-27,255,330-->
+> {@{The `sender()` helper}@} obtains {@{the actor that sent the current message}@}, allowing {@{a two‑way interaction}@}. <!--SR:!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2029-11-22T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-19T00:00:00.000Z!2026-12-08,257,330!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z!fsrs,2029-11-27T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-11-20T00:00:00.000Z!2026-11-27,255,330-->
 
 {@{The core of communication}@} is {@{the `!` operator}@}. It queues {@{a message for the target and returns immediately}@}: <!--SR:!2026-12-15,263,330!2026-12-04,254,330!2027-01-11,282,330-->
 
@@ -386,7 +386,7 @@ In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two oper
 - _at-least-once_: ::@:: the sender repeats until it receives an acknowledgment, so the message is delivered one or more times. <!--SR:!2027-01-17,290,330!2027-01-13,284,330-->
 - _exactly-once_: ::@:: the system guarantees that only the first reception is processed, typically by combining at‑least‑once delivery with idempotent handlers or persistent state. <!--SR:!2026-11-28,249,330!2027-01-05,280,330-->
 
-One may rely on {@{business logic}@} to {@{ignore duplicates}@}. {@{Akka actors}@} provide {@{persistence primitives}@} that let {@{a message be stored and replayed}@}, enabling {@{exactly‑once processing}@} when coupled with {@{unique correlation IDs}@}. <!--SR:!fsrs,2029-09-27T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-05T00:00:00.000Z!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z!2027-01-19,291,330!2026-11-26,254,330!fsrs,2029-09-22T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-04T00:00:00.000Z!2027-01-19,291,330!2027-01-07,279,330-->
+One may rely on {@{business logic}@} to {@{ignore duplicates}@}. {@{Akka actors}@} provide {@{persistence primitives}@} that let {@{a message be stored and replayed}@}, enabling {@{exactly‑once processing}@} when coupled with {@{unique correlation IDs}@}. <!--SR:!fsrs,2029-09-27T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-05T00:00:00.000Z!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z!2027-01-19,291,330!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z!fsrs,2029-09-22T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-04T00:00:00.000Z!2027-01-19,291,330!2027-01-07,279,330-->
 
 > [!example] __reliable transfer using IDs__
 >
@@ -447,7 +447,7 @@ When {@{several messages are sent to the same recipient}@} they keep {@{the orde
 > ```
 <!--SR:!2026-12-10,259,330!2026-12-31,276,330!2027-01-22,291,330-->
 
-{@{A `Getter` actor}@} fetches {@{a URL asynchronously}@}, extracts {@{links with Jsoup}@}, forwards them to {@{its parent controller}@}, and stops {@{itself when finished or on failure}@}. {@{The `pipeTo` helper}@} simplifies sending {@{the future result back to the actor}@}. <!--SR:!2027-01-25,294,330!2027-01-04,279,330!2027-01-18,290,330!2026-11-26,254,330!2026-12-02,252,330!2027-01-21,293,330!fsrs,2029-09-27T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-05T00:00:00.000Z-->
+{@{A `Getter` actor}@} fetches {@{a URL asynchronously}@}, extracts {@{links with Jsoup}@}, forwards them to {@{its parent controller}@}, and stops {@{itself when finished or on failure}@}. {@{The `pipeTo` helper}@} simplifies sending {@{the future result back to the actor}@}. <!--SR:!2027-01-25,294,330!2027-01-04,279,330!2027-01-18,290,330!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z!2026-12-02,252,330!2027-01-21,293,330!fsrs,2029-09-27T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-05T00:00:00.000Z-->
 
 > [!example] __`Getter` actor__
 >
@@ -558,7 +558,7 @@ Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A cont
 
 ## actor application
 
-{@{Actors}@} are conceived as {@{replaceable workers that communicate only through messages}@}. {@{The design of an actor application}@} starts by decomposing {@{the task into independent actors}@}, drawing {@{a diagram of their interactions}@} and then wiring them together with {@{simple message types}@}. Then, following {@{the principles below}@} to implement {@{the actor application}@}. <!--SR:!2026-11-26,254,330!2027-01-20,292,330!2026-12-30,275,330!2026-12-27,270,330!2027-01-18,290,330!fsrs,2029-12-02T00:00:00.000Z,1106,1105.65458238,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-09,258,330!fsrs,2029-11-13T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-17T00:00:00.000Z-->
+{@{Actors}@} are conceived as {@{replaceable workers that communicate only through messages}@}. {@{The design of an actor application}@} starts by decomposing {@{the task into independent actors}@}, drawing {@{a diagram of their interactions}@} and then wiring them together with {@{simple message types}@}. Then, following {@{the principles below}@} to implement {@{the actor application}@}. <!--SR:!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z!2027-01-20,292,330!2026-12-30,275,330!2026-12-27,270,330!2027-01-18,290,330!fsrs,2029-12-02T00:00:00.000Z,1106,1105.65458238,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-09,258,330!fsrs,2029-11-13T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-17T00:00:00.000Z-->
 
 Actors are {@{_event‑driven_}@}: they wait for {@{a message in their mailbox}@} and then {@{process it}@}. Because {@{sending a message is an asynchronous operation}@}, the sender continues {@{immediately without blocking}@}. This pattern keeps {@{the system responsive even under heavy load}@} and aligns with {@{reactive streams principles where data flows through event pipelines}@}. <!--SR:!2026-12-26,272,330!2027-01-17,290,330!2027-01-04,279,330!fsrs,2029-11-27T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-11-20T00:00:00.000Z!2027-01-02,277,330!2026-12-04,254,330!2026-12-10,259,330-->
 

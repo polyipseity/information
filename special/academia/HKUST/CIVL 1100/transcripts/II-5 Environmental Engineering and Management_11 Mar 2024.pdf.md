@@ -215,7 +215,7 @@ How to provide motivation for waste reduction, reuse and recycling?
 MSW Waste Charging Scheme
 
 - MSW waste charging scheme passing date ::@:: 2021-09-26 by Legco <!--SR:!fsrs,2030-01-20T00:00:00.000Z,1274,1273.55193792,3.98153807,2,10,0,0,2026-07-26T00:00:00.000Z!2027-07-03,807,290-->
-    - MSW waste charging scheme preparation period ::@:: 18 months <!--SR:!2026-11-26,631,310!fsrs,2033-01-17T00:00:00.000Z,2375,2374.84465143,1,2,10,0,0,2026-07-18T00:00:00.000Z-->
+    - MSW waste charging scheme preparation period ::@:: 18 months <!--SR:!fsrs,2033-04-02T00:00:00.000Z,2319,2318.52794906,1,2,10,0,0,2026-11-26T00:00:00.000Z!fsrs,2033-01-17T00:00:00.000Z,2375,2374.84465143,1,2,10,0,0,2026-07-18T00:00:00.000Z-->
     - MSW waste charging scheme details ::@:: buy designated bags (0.11 HKD/L) at ~4000 selling points <!--SR:!2027-01-13,679,290!2028-04-24,1113,350-->
     - MSW waste charging scheme penalty ::@:: max HK$25&nbsp;000 fine and 6 months in prison <!--SR:!2029-09-07,1423,330!fsrs,2032-08-04T00:00:00.000Z,2163,2162.99267256,1,2,10,0,0,2026-09-02T00:00:00.000Z-->
 
@@ -390,7 +390,7 @@ return await memorize_seq(
 
 - _(begin)_→::@::←carbon dioxide (CO<sub>2</sub>) <!--SR:!fsrs,2030-10-03T00:00:00.000Z,1455,1455.23308077,3.24197837,2,10,0,0,2026-10-09T00:00:00.000Z!2027-05-04,807,330-->
 - carbon dioxide (CO<sub>2</sub>)→::@::←hydroflurocarbons (HFCs) <!--SR:!2026-12-05,601,250!2027-08-27,842,290-->
-- hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!2026-11-26,519,270!2028-05-27,832,250-->
+- hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!fsrs,2031-06-29T00:00:00.000Z,1676,1675.67464077,2.98092302,2,10,0,0,2026-11-26T00:00:00.000Z!2028-05-27,832,250-->
 - methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2027-09-07,808,270!2030-05-25,1593,310-->
 - nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2028-07-09,803,230!2027-05-05,416,190-->
 - perflurocarbons (PFCs)→::@::←sulfur hexafluoride (SF<sub>6</sub>) <!--SR:!2030-01-16,1363,290!fsrs,2031-01-23T00:00:00.000Z,1636,1635.65558581,2.98092302,2,10,0,0,2026-08-01T00:00:00.000Z-->

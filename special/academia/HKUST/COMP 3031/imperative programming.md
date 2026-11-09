@@ -110,7 +110,7 @@ Scala offers a {@{concise `for` syntax}@} that is essentially {@{syntactic sugar
 > (1 until 3).foreach { i =>
 >   "abc".foreach(j => println(s"$i $j")) }
 > ```
-<!--SR:!fsrs,2029-11-13T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-17T00:00:00.000Z!2026-11-26,254,330-->
+<!--SR:!fsrs,2029-11-13T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-17T00:00:00.000Z!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z-->
 
 ## digital circuit example
 

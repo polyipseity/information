@@ -12,7 +12,7 @@ tags:
 
 Shear walls are {@{vertically continuous structures}@}, which are {@{much stiffer than rigid frame and provides most lateral and some gravity resistance}@}. Along the plane of shear walls, one may find {@{multiple shear walls}@}, and the shear walls are connected by {@{beams or slabs}@}. In a building, there may be {@{multiple planes of shear walls}@}, which are usually {@{parallel to each other}@}. It resists loads {@{parallel to the plane of the shear wall}@}. <!--SR:!2028-11-24,1282,350!2027-08-26,900,330!2031-12-09,2094,330!2027-04-27,820,330!2027-04-09,807,330!2027-06-30,816,330!fsrs,2033-06-06T00:00:00.000Z,2478,2478.39553519,1,2,10,0,0,2026-08-24T00:00:00.000Z-->
 
-Economically, it makes sense {@{until up to about 35 stories}@}. Examples include {@{high-rise residential buildings}@}. <!--SR:!2026-11-26,704,330!2032-04-24,2158,330-->
+Economically, it makes sense {@{until up to about 35 stories}@}. Examples include {@{high-rise residential buildings}@}. <!--SR:!fsrs,2034-05-19T00:00:00.000Z,2731,2731.40199821,1,2,10,0,0,2026-11-26T00:00:00.000Z!2032-04-24,2158,330-->
 
 It can be combined with {@{[rigid frame](rigid%20frame.md), constrained to deflect together}@}, to get a {@{shear-walled structure}@}. This provides {@{stiffer structure than rigid frame or shear walls alone}@}. It is economic up to {@{about 50 stories}@}. <!--SR:!2027-05-26,828,330!fsrs,2034-03-28T00:00:00.000Z,2694,2693.99887784,1,2,10,0,0,2026-11-11T00:00:00.000Z!2027-04-23,784,310!2032-03-13,2130,330-->
 

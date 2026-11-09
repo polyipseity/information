@@ -42,7 +42,7 @@ return await memorize_seq(
 - _(begin)_→::@::←Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md). <!--SR:!fsrs,2033-05-28T00:00:00.000Z,2453,2452.66945625,2.98092302,2,11,0,0,2026-09-09T00:00:00.000Z!2027-12-01,1328,350-->
 - Moisten a clean [platinum](platinum.md) or [nichrome](nichrome.md) wire with concentrated [hydrochloric acid](hydrochloric%20acid.md).→::@::←Dip the wire into the crushed sample or [solution](solution%20(chemistry).md). <!--SR:!2027-06-19,1037,290!2027-05-31,1026,290-->
 - Dip the wire into the crushed sample or [solution](solution%20(chemistry).md).→::@::←Heat the end of the wire in a hot, non-luminous flame. <!--SR:!2028-07-22,1438,310!2029-01-12,1466,310-->
-- Heat the end of the wire in a hot, non-luminous flame.→::@::←Observe the color of the resulting flame. <!--SR:!2026-11-26,959,330!2032-10-01,2643,330-->
+- Heat the end of the wire in a hot, non-luminous flame.→::@::←Observe the color of the resulting flame. <!--SR:!fsrs,2036-09-15T00:00:00.000Z,3581,3581.42685964,1,2,11,0,0,2026-11-26T00:00:00.000Z!2032-10-01,2643,330-->
 - Observe the color of the resulting flame.→::@::←_(end)_ <!--SR:!2028-01-05,1355,350!fsrs,2035-12-20T00:00:00.000Z,3443,3443.44105724,1,2,11,0,0,2026-07-17T00:00:00.000Z-->
 
 <!--/pytextgen-->

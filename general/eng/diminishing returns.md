@@ -99,7 +99,7 @@ This works intuitively;
 1. If ${In \over Out}$ is positive, ::@:: since negative inputs and outputs are impossible, <!--SR:!2027-03-07,491,401!2027-04-05,514,401-->
 2. And ${\delta Out \over \delta In}$ is positive, ::@:: since a positive return for inputs is required for diminishing _returns_ <!--SR:!2027-02-25,482,401!2027-03-25,505,401-->
 
-- (annotation: $\frac {In} {Out}, \frac {\partial Out} {\partial In} > 0$) ::@:: Then $0<\epsilon$; next, <!--SR:!2027-03-08,491,401!2026-11-26,382,381-->
+- (annotation: $\frac {In} {Out}, \frac {\partial Out} {\partial In} > 0$) ::@:: Then $0<\epsilon$; next, <!--SR:!2027-03-08,491,401!fsrs,2031-11-16T00:00:00.000Z,1816,1816.2214364,1,2,10,0,0,2026-11-26T00:00:00.000Z-->
 
 1. {@{${\delta Out \over Out}$}@} is {@{relative change in output}@}, {@{${\delta In \over In}$}@} is {@{relative change in input}@}
 2. {@{The relative change in output}@} is {@{smaller than the relative change in input}@}; ~input requires {@{increasing effort to change output}@}~ <!--SR:!2027-03-22,502,401!2027-04-06,515,401!2027-04-15,523,401!2027-04-16,523,401!2027-04-01,511,401!2027-03-20,500,401!2027-03-28,506,401-->
