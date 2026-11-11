@@ -1230,6 +1230,12 @@ async def wiki_html_to_plaintext(
     )
     # Strip trailing whitespace from each line.
     result = "\n".join(line.rstrip(" \t") for line in result.split("\n"))
+    # Deduplicate doubled <p> separators from overlapping suffix/prefix
+    # when a <dl> inside a <li> ends with `` <p>`` and a following <dl>
+    # (after </ul>) starts with `` <p> ``.  Run before math separation: a
+    # leftover `` <p>`` at the start of a line opens a mistune HTML block
+    # that ends at the next blank line, hiding the math inside it.
+    result = re.sub(r"(<p>?)\s*<p>", r"\1", result)
     # Separate math delimiters from adjacent text.  Run before table
     # reformatting so inserted spaces count toward column widths; running
     # it after would grow cells past their padding and misalign pipes
@@ -1241,10 +1247,6 @@ async def wiki_html_to_plaintext(
     result = _separate_block_quotes(result)
     # Collapse excessive blank lines.
     result = re.sub(r"\n{3,}", r"\n\n", result)
-    # Deduplicate doubled <p> separators from overlapping suffix/prefix
-    # when a <dl> inside a <li> ends with `` <p>`` and a following <dl>
-    # (after </ul>) starts with `` <p> ``.
-    result = re.sub(r"(<p>?)\s*<p>", r"\1", result)
     result = result.strip()
     return result + "\n" if result else result
 
