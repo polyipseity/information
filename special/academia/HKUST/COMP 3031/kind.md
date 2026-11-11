@@ -79,7 +79,7 @@ Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accep
 >     def map[U](f: T => U): F[U] = flatMap(f andThen unit)
 > ```
 >
-> {@{`unit`}@} {@{injects a value}@}, {@{`flatMap`}@} {@{chains computations}@}, and {@{`map`}@} is {@{derived from `flatMap`}@}. <!--SR:!2027-01-14,288,330!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!2026-12-24,271,330!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z!2026-12-16,264,330!2026-11-27,255,330!2026-12-04,255,330-->
+> {@{`unit`}@} {@{injects a value}@}, {@{`flatMap`}@} {@{chains computations}@}, and {@{`map`}@} is {@{derived from `flatMap`}@}. <!--SR:!2027-01-14,288,330!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!2026-12-24,271,330!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z!2026-12-16,264,330!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!2026-12-04,255,330-->
 
 {@{A concrete instance of `Monad`, `ListMonad`}@}, shows how {@{the abstraction works}@}: <!--SR:!fsrs,2029-02-10T00:00:00.000Z,846,845.59777468,1,2,9,0,0,2026-10-18T00:00:00.000Z!2027-01-10,285,330-->
 
@@ -94,7 +94,7 @@ Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accep
 >     def flatMap[U](f: T => List[U]): List[U] = x.flatMap(f)
 > ```
 >
-> Because {@{`List` already implements `flatMap`}@}, the instance is {@{trivial to implement}@}. <!--SR:!2026-11-27,255,330!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!2026-12-28,269,330!fsrs,2029-03-19T00:00:00.000Z,875,875.09742298,1,2,9,0,0,2026-10-26T00:00:00.000Z-->
+> Because {@{`List` already implements `flatMap`}@}, the instance is {@{trivial to implement}@}. <!--SR:!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!2026-12-28,269,330!fsrs,2029-03-19T00:00:00.000Z,875,875.09742298,1,2,9,0,0,2026-10-26T00:00:00.000Z-->
 
 Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing a singleton `List` and `flatMap` a `List`}@}. <!--SR:!2026-12-09,259,330!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z-->
 

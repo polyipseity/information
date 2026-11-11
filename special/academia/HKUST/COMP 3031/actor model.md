@@ -26,7 +26,7 @@ In {@{modern multicore CPUs}@}, {@{parallelism}@} is achieved by {@{running many
 
 Actors {@{sidestep these issues}@} by enforcing {@{_encapsulation_: an actor never exposes its internal state to other actors}@}. The only interaction is through {@{immutable messages sent asynchronously}@}. This guarantees that {@{two actors cannot interfere with each other’s data}@}, so {@{no lock is required}@}. Because sending {@{a message does not block the sender}@}, the model naturally supports {@{high‑throughput, non‑blocking systems}@}. <!--SR:!fsrs,2029-09-07T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-13,261,330!2027-01-17,290,330!fsrs,2029-09-22T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-04T00:00:00.000Z!2027-01-10,284,330!fsrs,2029-12-13T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-11-24T00:00:00.000Z!fsrs,2029-08-24T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-10-29T00:00:00.000Z-->
 
-Actors provide {@{a clean abstraction for parallelism}@}: they eliminate {@{shared mutable state}@}, remove {@{lock‑based synchronization, and avoid deadlocks}@} while still allowing {@{many actors to run concurrently}@}. This makes Scala programs easier to {@{write, reason about, and scale on modern multicore hardware}@}. <!--SR:!fsrs,2029-12-18T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-11-25T00:00:00.000Z!2026-11-27,255,330!2027-01-02,277,330!2027-01-09,283,330!2027-01-13,286,330-->
+Actors provide {@{a clean abstraction for parallelism}@}: they eliminate {@{shared mutable state}@}, remove {@{lock‑based synchronization, and avoid deadlocks}@} while still allowing {@{many actors to run concurrently}@}. This makes Scala programs easier to {@{write, reason about, and scale on modern multicore hardware}@}. <!--SR:!fsrs,2029-12-18T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-11-25T00:00:00.000Z!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!2027-01-02,277,330!2027-01-09,283,330!2027-01-13,286,330-->
 
 ### actor vs. thread
 
@@ -34,7 +34,7 @@ Actors provide {@{a clean abstraction for parallelism}@}: they eliminate {@{shar
 
 ### avoiding synchronization
 
-Consider a bank account example where {@{two concurrent deposits update a shared balance}@}. With {@{threads}@} you would guard {@{the `balance` field}@}: <!--SR:!2026-11-27,255,330!fsrs,2029-12-06T00:00:00.000Z,1110,1109.50126871,1,2,9,0,0,2026-11-22T00:00:00.000Z!2027-01-09,283,330-->
+Consider a bank account example where {@{two concurrent deposits update a shared balance}@}. With {@{threads}@} you would guard {@{the `balance` field}@}: <!--SR:!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!fsrs,2029-12-06T00:00:00.000Z,1110,1109.50126871,1,2,9,0,0,2026-11-22T00:00:00.000Z!2027-01-09,283,330-->
 
 > [!example] __`BankAccount` with `synchronized`__
 >
@@ -103,11 +103,11 @@ Actors process {@{each message _sequentially_}@}, so {@{no explicit locks are ne
 
 ## history
 
-{@{The concept originated}@} with {@{Hewitt et al. in 1973 as a formalism for artificial‑intelligence research}@}. In {@{1986 Gul Agha expanded the theory}@} and defined {@{common communication patterns}@}. {@{Erlang/OTP adopted actors in 1995}@}, making them {@{the backbone of telecom platforms}@}. Scala added {@{a lightweight Actor trait to its standard library in 2006}@}. Two years later {@{Akka was released as an independent Scala actor framework}@}; it has since been used by {@{large services such as WhatsApp and Fortnite}@}. <!--SR:!2026-11-30,251,330!2026-11-27,255,330!2026-12-17,264,330!fsrs,2029-12-18T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-11-25T00:00:00.000Z!fsrs,2029-09-27T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-05T00:00:00.000Z!2026-12-24,270,330!2027-01-04,279,330!fsrs,2029-12-08T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-23T00:00:00.000Z!fsrs,2029-12-08T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-23T00:00:00.000Z-->
+{@{The concept originated}@} with {@{Hewitt et al. in 1973 as a formalism for artificial‑intelligence research}@}. In {@{1986 Gul Agha expanded the theory}@} and defined {@{common communication patterns}@}. {@{Erlang/OTP adopted actors in 1995}@}, making them {@{the backbone of telecom platforms}@}. Scala added {@{a lightweight Actor trait to its standard library in 2006}@}. Two years later {@{Akka was released as an independent Scala actor framework}@}; it has since been used by {@{large services such as WhatsApp and Fortnite}@}. <!--SR:!2026-11-30,251,330!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!2026-12-17,264,330!fsrs,2029-12-18T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-11-25T00:00:00.000Z!fsrs,2029-09-27T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-05T00:00:00.000Z!2026-12-24,270,330!2027-01-04,279,330!fsrs,2029-12-08T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-23T00:00:00.000Z!fsrs,2029-12-08T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-23T00:00:00.000Z-->
 
 ## actor
 
-{@{An _actor_}@} is an object that {@{possesses identity, a behavior, and communicates only by sending messages asynchronously}@}. It does not {@{expose its internal state to other actors}@}; instead, it receives {@{messages via an `ActorRef`}@} and reacts {@{according to its own logic}@}. The model was formalised by {@{Hewitt et al. in 1973 as a universal modular framework for artificial intelligence}@}. <!--SR:!2026-12-25,271,330!2026-12-20,267,330!2026-12-18,265,330!2026-11-27,255,330!2027-01-03,278,330!2027-01-17,287,330-->
+{@{An _actor_}@} is an object that {@{possesses identity, a behavior, and communicates only by sending messages asynchronously}@}. It does not {@{expose its internal state to other actors}@}; instead, it receives {@{messages via an `ActorRef`}@} and reacts {@{according to its own logic}@}. The model was formalised by {@{Hewitt et al. in 1973 as a universal modular framework for artificial intelligence}@}. <!--SR:!2026-12-25,271,330!2026-12-20,267,330!2026-12-18,265,330!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!2027-01-03,278,330!2027-01-17,287,330-->
 
 {@{The core of Scala’s actor implementation}@} is {@{the trait `Actor`}@}. Its {@{single abstract member `receive`}@} defines how it {@{handles incoming messages}@}: <!--SR:!2027-01-02,277,330!fsrs,2029-08-14T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-10-27T00:00:00.000Z!2026-12-12,258,330!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z-->
 
@@ -175,7 +175,7 @@ Actors are {@{instantiated through the actor system}@}, which supplies {@{a uniq
 > }
 > ```
 >
-> {@{The `sender()` helper}@} obtains {@{the actor that sent the current message}@}, allowing {@{a two‑way interaction}@}. <!--SR:!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2029-11-22T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-19T00:00:00.000Z!2026-12-08,257,330!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z!fsrs,2029-11-27T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-11-20T00:00:00.000Z!2026-11-27,255,330-->
+> {@{The `sender()` helper}@} obtains {@{the actor that sent the current message}@}, allowing {@{a two‑way interaction}@}. <!--SR:!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2029-11-22T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-19T00:00:00.000Z!2026-12-08,257,330!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z!fsrs,2029-11-27T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-11-20T00:00:00.000Z!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z-->
 
 {@{The core of communication}@} is {@{the `!` operator}@}. It queues {@{a message for the target and returns immediately}@}: <!--SR:!2026-12-15,263,330!2026-12-04,254,330!2027-01-11,282,330-->
 
@@ -229,7 +229,7 @@ Actors are not {@{instantiated directly with `new`}@}. The runtime supplies {@{a
 
 When {@{an actor receives a message}@} it may: {@{send other messages}@}; {@{create or stop actors}@}; or {@{change its own behaviour with `context.become`}@}. These capabilities let an actor orchestrate {@{complex workflows without shared mutable data}@}. <!--SR:!2026-12-23,269,330!2027-01-03,278,330!2027-01-08,280,330!2027-01-03,278,330!2026-12-15,263,330-->
 
-{@{Stopping an actor}@} releases {@{its resources and removes it from the system}@}. The usual way is to call {@{`stop` on a reference}@}, often from {@{inside the actor itself via `context.stop(self)`}@}: <!--SR:!fsrs,2029-11-04T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-16T00:00:00.000Z!2026-11-27,255,330!fsrs,2029-12-08T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-23T00:00:00.000Z!fsrs,2029-11-19T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-11-19T00:00:00.000Z-->
+{@{Stopping an actor}@} releases {@{its resources and removes it from the system}@}. The usual way is to call {@{`stop` on a reference}@}, often from {@{inside the actor itself via `context.stop(self)`}@}: <!--SR:!fsrs,2029-11-04T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-16T00:00:00.000Z!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!fsrs,2029-12-08T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-23T00:00:00.000Z!fsrs,2029-11-19T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-11-19T00:00:00.000Z-->
 
 > [!example] __stopping an actor__
 >
@@ -239,7 +239,7 @@ When {@{an actor receives a message}@} it may: {@{send other messages}@}; {@{cre
 > context.stop(self)
 > ```
 >
-> After this call {@{the actor’s mailbox is drained and its resources are reclaimed}@}. Actors may also be stopped externally through {@{`system.actorOf(Props[MyActor])` followed by `system.stop(actor)`}@}. <!--SR:!fsrs,2029-12-13T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-11-24T00:00:00.000Z!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z!2026-11-27,255,330!2027-01-14,285,330-->
+> After this call {@{the actor’s mailbox is drained and its resources are reclaimed}@}. Actors may also be stopped externally through {@{`system.actorOf(Props[MyActor])` followed by `system.stop(actor)`}@}. <!--SR:!fsrs,2029-12-13T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-11-24T00:00:00.000Z!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!2027-01-14,285,330-->
 
 {@{These primitives}@} give actors {@{a well‑defined lifecycle that fits naturally into the asynchronous, message‑driven model}@}. <!--SR:!2026-12-02,252,330!2027-01-13,286,330-->
 
@@ -302,11 +302,11 @@ If two messages {@{arrive concurrently}@}, they are {@{queued and executed one a
 > }
 > ```
 >
-> {@{The `!` operator}@} posts {@{a message asynchronously}@}, so {@{the main actor continues immediately after sending}@}. When {@{the counter replies with an `Int`}@}, the main actor {@{prints it and then stops itself}@}. <!--SR:!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z!2027-01-03,276,330!fsrs,2029-12-03T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z!2026-12-03,253,330!2026-12-08,257,330!2026-12-28,271,330!2026-11-27,255,330!2027-01-06,278,330-->
+> {@{The `!` operator}@} posts {@{a message asynchronously}@}, so {@{the main actor continues immediately after sending}@}. When {@{the counter replies with an `Int`}@}, the main actor {@{prints it and then stops itself}@}. <!--SR:!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z!2027-01-03,276,330!fsrs,2029-12-03T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z!2026-12-03,253,330!2026-12-08,257,330!2026-12-28,271,330!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!2027-01-06,278,330-->
 
 ### bank account example
 
-In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two operations: `Deposit` and `Withdraw`}@}. The messages are declared {@{in the companion object}@} so they can be {@{imported elsewhere without leaking implementation details}@}. <!--SR:!fsrs,2029-12-18T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-11-25T00:00:00.000Z!2027-01-15,288,330!2027-01-23,292,330!2026-11-27,255,330!2026-12-16,261,330-->
+In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two operations: `Deposit` and `Withdraw`}@}. The messages are declared {@{in the companion object}@} so they can be {@{imported elsewhere without leaking implementation details}@}. <!--SR:!fsrs,2029-12-18T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-11-25T00:00:00.000Z!2027-01-15,288,330!2027-01-23,292,330!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!2026-12-16,261,330-->
 
 > [!example] __`BankAccount` messages__
 >
@@ -531,7 +531,7 @@ Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A cont
 > ```
 <!--SR:!2027-01-17,290,330!2026-12-09,258,330-->
 
-{@{The `Receptionist`}@} {@{serialises incoming requests}@} and limits {@{the number of concurrent crawls}@}. It uses {@{`context.become`}@} to switch between {@{waiting and running states}@} while keeping state {@{local to each behavior}@}. <!--SR:!2026-11-27,255,330!2026-11-30,251,330!2027-01-11,285,330!2027-01-20,292,330!fsrs,2029-09-12T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-11-02T00:00:00.000Z!2026-12-26,272,330-->
+{@{The `Receptionist`}@} {@{serialises incoming requests}@} and limits {@{the number of concurrent crawls}@}. It uses {@{`context.become`}@} to switch between {@{waiting and running states}@} while keeping state {@{local to each behavior}@}. <!--SR:!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!2026-11-30,251,330!2027-01-11,285,330!2027-01-20,292,330!fsrs,2029-09-12T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-11-02T00:00:00.000Z!2026-12-26,272,330-->
 
 > [!example] __`Receptionist` actor__
 >
@@ -552,7 +552,7 @@ Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A cont
 >     if q.size > 3 then sender() ! Failed(job.url)
 >     else runNext(q :+ job)
 > ```
-<!--SR:!fsrs,2029-11-07T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-15T00:00:00.000Z!2026-12-30,275,330!fsrs,2029-11-18T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-11-18T00:00:00.000Z!2026-11-27,255,330!fsrs,2029-11-02T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-12-05,255,330-->
+<!--SR:!fsrs,2029-11-07T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-15T00:00:00.000Z!2026-12-30,275,330!fsrs,2029-11-18T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-11-18T00:00:00.000Z!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!fsrs,2029-11-02T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-12-05,255,330-->
 
 {@{These pieces}@} together form {@{a fully non‑blocking crawler}@} that scales with {@{the number of available cores}@} and demonstrates {@{key actor‑model idioms}@}. <!--SR:!2026-12-27,272,330!fsrs,2029-12-02T00:00:00.000Z,1106,1105.65458238,1,2,9,0,0,2026-11-22T00:00:00.000Z!2027-01-21,293,330!2026-12-31,276,330-->
 

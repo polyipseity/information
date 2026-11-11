@@ -10,7 +10,7 @@ tags:
 
 # signal space
 
-{@{A __signal space__}@} is {@{an abstract vector-space representation used in digital communications}@} to model {@{transmitted waveforms as points within a multidimensional Euclidean (or Hilbert) space}@}. Using {@{an orthonormal set of basis functions}@} (often derived via {@{Gram–Schmidt orthogonalisation}@}), {@{time-domain signals}@} become {@{linear combinations whose coefficients are the coordinates}@}. <!--SR:!2026-11-27,267,345!2027-04-12,382,364!2026-12-30,280,344!2027-02-03,324,345!2027-02-03,324,345!2027-01-30,320,345!2027-03-31,373,364-->
+{@{A __signal space__}@} is {@{an abstract vector-space representation used in digital communications}@} to model {@{transmitted waveforms as points within a multidimensional Euclidean (or Hilbert) space}@}. Using {@{an orthonormal set of basis functions}@} (often derived via {@{Gram–Schmidt orthogonalisation}@}), {@{time-domain signals}@} become {@{linear combinations whose coefficients are the coordinates}@}. <!--SR:!fsrs,2030-04-12T00:00:00.000Z,1232,1232.10755353,1,2,9,0,0,2026-11-27T00:00:00.000Z!2027-04-12,382,364!2026-12-30,280,344!2027-02-03,324,345!2027-02-03,324,345!2027-01-30,320,345!2027-03-31,373,364-->
 
 {@{This geometric view}@} simplifies analysis of {@{modulation schemes, receiver design, and error performance}@}: visualize {@{constellations, compute Euclidean distances between symbols}@}, and build {@{matched filters that maximise SNR}@}. <!--SR:!2027-04-06,376,364!2027-02-03,324,345!2026-12-09,278,345!2027-02-21,339,345-->
 

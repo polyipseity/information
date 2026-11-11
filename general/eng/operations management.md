@@ -311,7 +311,7 @@ In Toyota the TPS represented {@{more of a philosophy of production than a set o
 - [Value stream mapping](value%20stream%20mapping.md): ::@:: a graphical method for analyzing the current state and designing a future state <!--SR:!2029-10-19,1338,350!2029-03-14,1156,350-->
 - lot-size reduction
 - elimination of time batching
-- [Rank order clustering](production%20flow%20analysis.md#rank%20order%20clustering): ::@:: an algorithm which groups machines and product families together, used for designing [manufacturing cells](manufacturing%20cells.md) <!--SR:!2027-12-09,790,330!2026-11-27,492,310-->
+- [Rank order clustering](production%20flow%20analysis.md#rank%20order%20clustering): ::@:: an algorithm which groups machines and product families together, used for designing [manufacturing cells](manufacturing%20cells.md) <!--SR:!2027-12-09,790,330!fsrs,2032-01-04T00:00:00.000Z,1864,1863.92035088,1,2,10,0,0,2026-11-27T00:00:00.000Z-->
 - single-point [scheduling](scheduling%20(production%20processes).md), ::@:: the opposite of the traditional push approach <!--SR:!2029-04-24,1197,350!2029-07-03,1248,350-->
 - [multi-process handling](multi-process%20handling.md): ::@:: when one operator is responsible for operating several machines or processes <!--SR:!2028-02-23,838,330!2029-03-22,1164,350-->
 - [poka-yoke](poka-yoke.md): ::@:: any mechanism in lean manufacturing that helps an equipment operator avoid \(_yokeru_\) mistakes \(_poka_\) <!--SR:!2029-03-16,1158,350!2027-12-11,791,330-->

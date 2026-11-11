@@ -193,7 +193,7 @@ FRP describes programs that react {@{to sequences of events or signals}@}. {@{A 
 > num = Signal.Var(2)            // `twice` remains 2
 > ```
 >
-> Instead, it replaces {@{the variable `num` with a new signal, leaving `twice` bound to the old one}@}.  Hence {@{the final value of `twice()`}@} differs {@{from the first fragment}@}. <!--SR:!2027-01-07,276,330!2027-01-20,287,330!2026-12-09,255,330!2027-02-02,281,330!2026-12-31,271,330!2026-11-27,245,330!2027-02-07,286,330!2027-02-14,293,330!2027-02-12,291,330-->
+> Instead, it replaces {@{the variable `num` with a new signal, leaving `twice` bound to the old one}@}.  Hence {@{the final value of `twice()`}@} differs {@{from the first fragment}@}. <!--SR:!2027-01-07,276,330!2027-01-20,287,330!2026-12-09,255,330!2027-02-02,281,330!2026-12-31,271,330!fsrs,2029-11-19T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-27T00:00:00.000Z!2027-02-07,286,330!2027-02-14,293,330!2027-02-12,291,330-->
 
 ### signal implementation
 

@@ -64,7 +64,7 @@ Molecules can be classified based on atomicity as:
 
 <!--/pytextgen-->
 
-Atomicity of [metals](metal.md) {@{cannot be determined because they consist of indefinite number of many atoms [bonded](chemical%20bonding.md) together}@}. They are typically designated to {@{have an atomicity of 1}@}. <!--SR:!2028-10-03,1402,270!2026-11-27,963,330-->
+Atomicity of [metals](metal.md) {@{cannot be determined because they consist of indefinite number of many atoms [bonded](chemical%20bonding.md) together}@}. They are typically designated to {@{have an atomicity of 1}@}. <!--SR:!2028-10-03,1402,270!fsrs,2036-09-30T00:00:00.000Z,3595,3594.53136312,1,2,11,0,0,2026-11-27T00:00:00.000Z-->
 
 ## references
 

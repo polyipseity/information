@@ -120,7 +120,7 @@ The compiler also infers {@{the type argument `T` from the argument list}@}. If 
 
 ### `using` syntax
 
-In Scala, {@{an implicit parameter}@} is introduced through {@{a `using` clause in the method signature}@}: <!--SR:!2026-11-27,297,349!fsrs,2030-06-18T00:00:00.000Z,1313,1312.68438221,1,2,9,0,0,2026-11-13T00:00:00.000Z-->
+In Scala, {@{an implicit parameter}@} is introduced through {@{a `using` clause in the method signature}@}: <!--SR:!fsrs,2030-08-27T00:00:00.000Z,1369,1368.83776698,1,2,9,0,0,2026-11-27T00:00:00.000Z!fsrs,2030-06-18T00:00:00.000Z,1313,1312.68438221,1,2,9,0,0,2026-11-13T00:00:00.000Z-->
 
 > [!example] __`using` in method__
 >
@@ -325,7 +325,7 @@ When {@{a method}@} requires {@{an instance that depends on another instance}@},
 >
 > {@{The compiler}@} first finds {@{`Ordering[List[Int]]`}@}, then finds {@{`Ordering[Int]`}@}, and finally {@{builds them in reverse order}@} and {@{supplies it to `sort`}@}. <!--SR:!2027-02-28,377,367!2027-03-18,391,367!2027-03-01,379,367!2027-03-04,381,367!2026-12-25,322,349!2027-01-27,348,349!2027-01-01,328,349!fsrs,2030-07-29T00:00:00.000Z,1349,1348.82166006,1,2,9,0,0,2026-11-18T00:00:00.000Z!2027-03-06,382,368-->
 
-For {@{another example}@} of {@{recursive `given` resolution}@}, {@{pairs}@} can be {@{ordered lexicographically}@} if {@{both components are orderable}@}: <!--SR:!2026-12-20,318,349!fsrs,2030-06-14T00:00:00.000Z,1313,1312.68438221,1,2,9,0,0,2026-11-09T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2027-01-19,340,349!2026-11-27,297,349-->
+For {@{another example}@} of {@{recursive `given` resolution}@}, {@{pairs}@} can be {@{ordered lexicographically}@} if {@{both components are orderable}@}: <!--SR:!2026-12-20,318,349!fsrs,2030-06-14T00:00:00.000Z,1313,1312.68438221,1,2,9,0,0,2026-11-09T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2027-01-19,340,349!fsrs,2030-08-27T00:00:00.000Z,1369,1368.83776698,1,2,9,0,0,2026-11-27T00:00:00.000Z-->
 
 > [!example] __`pairOrdering`__
 >
@@ -338,7 +338,7 @@ For {@{another example}@} of {@{recursive `given` resolution}@}, {@{pairs}@} can
 >     if c != 0 then c else ob.compare(x._2, y._2)
 > ```
 >
-> This enables {@{sorting of address records}@} represented as {@{`(Int, String)`}@} by {@{zip code and street name}@}. <!--SR:!2027-03-04,380,367!2027-03-29,400,367!2027-03-12,386,367!2027-01-02,329,349!2026-11-28,298,349!2026-11-27,297,349!2027-01-26,351,368!2027-03-14,388,368-->
+> This enables {@{sorting of address records}@} represented as {@{`(Int, String)`}@} by {@{zip code and street name}@}. <!--SR:!2027-03-04,380,367!2027-03-29,400,367!2027-03-12,386,367!2027-01-02,329,349!2026-11-28,298,349!fsrs,2030-08-27T00:00:00.000Z,1369,1368.83776698,1,2,9,0,0,2026-11-27T00:00:00.000Z!2027-01-26,351,368!2027-03-14,388,368-->
 
 ## context inference
 
@@ -368,7 +368,7 @@ Thus you can provide {@{multiple `given`s}@} and rely on Scala's rules to pick {
 
 In Scala {@{a _type class_}@} is {@{a generic trait}@} that declares {@{operations for a type `A`}@} and is instantiated by {@{`given` definitions for particular types}@}. {@{The pattern}@} is inspired by {@{Haskell's type-class mechanism}@} but expressed in Scala through {@{contextual parameters (`using`) and implicit resolution}@}. <!--SR:!fsrs,2028-09-25T00:00:00.000Z,720,720.2031195,2.49272837,2,9,0,0,2026-10-06T00:00:00.000Z!fsrs,2030-08-22T00:00:00.000Z,1365,1364.83793445,1,2,9,0,0,2026-11-26T00:00:00.000Z!fsrs,2030-07-03T00:00:00.000Z,1325,1324.74576884,1,2,9,0,0,2026-11-16T00:00:00.000Z!fsrs,2028-07-28T00:00:00.000Z,677,677.29649533,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2026-12-06,306,349!2026-12-31,327,349!2026-12-23,320,349-->
 
-{@{Type classes}@} turn {@{a type into a value}@} by providing {@{a trait and concrete instances}@}. They enable {@{_ad-hoc polymorphism_}@}: {@{different implementations}@} for {@{different types}@}. <!--SR:!fsrs,2030-07-08T00:00:00.000Z,1329,1328.76280435,1,2,9,0,0,2026-11-17T00:00:00.000Z!2026-12-11,311,349!2027-01-18,339,349!2026-11-27,297,349!2027-01-21,342,349!2026-11-27,297,349-->
+{@{Type classes}@} turn {@{a type into a value}@} by providing {@{a trait and concrete instances}@}. They enable {@{_ad-hoc polymorphism_}@}: {@{different implementations}@} for {@{different types}@}. <!--SR:!fsrs,2030-07-08T00:00:00.000Z,1329,1328.76280435,1,2,9,0,0,2026-11-17T00:00:00.000Z!2026-12-11,311,349!2027-01-18,339,349!fsrs,2030-08-27T00:00:00.000Z,1369,1368.83776698,1,2,9,0,0,2026-11-27T00:00:00.000Z!2027-01-21,342,349!fsrs,2030-08-27T00:00:00.000Z,1369,1368.83776698,1,2,9,0,0,2026-11-27T00:00:00.000Z-->
 
 {@{Other languages}@} adopt {@{similar concepts}@}: {@{Haskell}@}'s {@{built-in type classes}@}, {@{Rust}@}'s {@{traits}@}, and {@{emerging features}@} in {@{Agda, Lean, and OCaml}@}. In {@{Scala}@} {@{the mechanism is realized}@} through {@{contextual parameters (`using`) and implicit resolution}@}, giving programmers {@{fine-grained control over polymorphic behaviour}@}. <!--SR:!fsrs,2030-06-08T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-11T00:00:00.000Z!fsrs,2030-08-02T00:00:00.000Z,1349,1348.82166006,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-21,319,349!2026-12-03,303,349!fsrs,2030-06-04T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-07T00:00:00.000Z!fsrs,2030-06-28T00:00:00.000Z,1321,1320.72713296,1,2,9,0,0,2026-11-15T00:00:00.000Z!2027-01-24,345,349!2026-12-06,306,349!2026-12-28,325,349!2027-01-24,345,349!2027-01-22,343,349!2027-01-31,352,349-->
 
