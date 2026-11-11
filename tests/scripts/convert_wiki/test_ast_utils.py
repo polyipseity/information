@@ -840,6 +840,25 @@ class TestFindTableBlocks:
         assert end == len(text)
         assert "before" not in text[start:end]
 
+    def test_table_followed_by_image_only_paragraph(self) -> None:
+        """An image-only paragraph after a table must not collapse its range.
+
+        Mistune reconstructs an image-only paragraph's raw as an empty
+        string, and ``str.find("", pos)`` matches at ``pos``, which ended
+        the table block before the table itself.
+        """
+        text = (
+            "## external links\n\n"
+            "- gcd\\(x,y\\) = y function graph: "
+            "[https://example.com](https://example.com)\n\n"
+            "|  | b |\n| --: | --- |\n| c | d |\n\n"
+            "![](https://example.com/x.png)"
+        )
+        result = _find_table_blocks(text)
+        assert len(result) == 1
+        start, end = result[0]
+        assert "| c | d |" in text[start:end]
+
     def test_table_with_adjacent_tables_no_separator(self) -> None:
         """Adjacent tables without separators yield in-bounds ranges."""
         text = "| a | b |\n|---|---|\n| 1 | 2 |\n\n| c | d |\n|---|---|\n| 3 | 4 |"

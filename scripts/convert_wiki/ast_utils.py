@@ -557,7 +557,9 @@ def _find_table_blocks(text: str) -> list[tuple[int, int]]:
         if tok["type"] == "table":
             continue
         raw = _reconstruct_token_raw(tok)
-        if raw is not None:
+        # An empty raw (an image-only paragraph, for instance) matches at any
+        # position, so it cannot locate its token and must not be used.
+        if raw:
             found = text.find(raw, 0)
             if found >= 0:
                 content_ranges[i] = (found, found + len(raw))
@@ -579,7 +581,7 @@ def _find_table_blocks(text: str) -> list[tuple[int, int]]:
         next_start = len(text)
         for j in range(i + 1, len(parse_result)):
             raw = _reconstruct_token_raw(parse_result[j])
-            if raw is not None:
+            if raw:
                 found = text.find(raw, prev_end)
                 if found >= 0:
                     next_start = found
