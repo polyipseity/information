@@ -7,7 +7,7 @@ stops catching its shape fails here rather than in a course note.
 from pathlib import Path
 from typing import cast
 
-from main_mods.models import AstNode, Frontmatter, ValidationContext
+from main_mods.models import AstNode, Frontmatter, Severity, ValidationContext
 from main_mods.question_blocks import (
     answer_explanation_shape,
     answer_solution_names_option,
@@ -904,15 +904,15 @@ def test_answer_solution_one_cloze_leaves_a_wrong_number_to_the_naming_rule():
 
 
 def test_answer_explanation_shape_silent_on_a_short_whole_cloze():
-    """Fifteen prose words in one cloze is the shape the short branch asks for."""
+    """Nineteen prose words in one cloze is the shape the short branch asks for."""
     text = (
         "> Which book describes the state?\n"
         ">\n"
         "> ---\n"
         ">\n"
         "> - explanation: "
-        "{@{The 30 unfilled shares cancel, and the buy rests 80 bid at 115, "
-        "a level no listed book shows.}@}\n"
+        "{@{The 30 unfilled shares cancel now at the close, and the buy rests "
+        "80 bid at 115, a level no listed book shows.}@}\n"
     )
     assert not answer_explanation_shape(make_ctx(text))
     assert not cloze_giant(make_ctx(text))
@@ -926,17 +926,67 @@ def test_answer_explanation_shape_fires_on_a_visible_lead_in():
         "> ---\n"
         ">\n"
         "> - explanation: "
-        "The 30 unfilled shares {@{cancel, and the buy rests 80 bid at 115, "
-        "a level no listed book shows}@}.\n"
+        "The 30 unfilled shares {@{cancel now at the close, and the buy rests "
+        "80 bid at 115, a level no listed book shows}@}.\n"
     )
     errors = answer_explanation_shape(make_ctx(text))
     assert [e.rule_id for e in errors] == ["answer_explanation_shape"]
-    assert "whole line in one cloze" in errors[0].msg
+    assert "hides as one cloze holding its whole sentence" in errors[0].msg
     assert "punctuation inside" in errors[0].msg
 
 
-def test_answer_explanation_shape_leaves_a_long_whole_cloze_to_the_cap():
-    """Past twenty words a whole cloze meets the floor, and the word cap catches it."""
+def test_answer_explanation_shape_silent_on_a_derivation_at_62_percent():
+    """A 56-word derivation clozing 62% keeps its frame and passes."""
+    text = (
+        "> What is the posterior after a negative review?\n"
+        ">\n"
+        "> ---\n"
+        ">\n"
+        "> - explanation: "
+        "Substituting {@{the prior times the likelihood}@} into the formula "
+        "gives {@{the branch over both branches of the review itself}@}. "
+        "Multiplying numerator and denominator by five leaves "
+        "{@{the ratio the printed table lists}@}. The denominator adds "
+        "{@{the good branch}@} to {@{the bad branch}@}, so the expected loss "
+        "is {@{the second option listed in the printed table above}@}.\n"
+    )
+    assert not answer_explanation_shape(make_ctx(text))
+
+
+def test_answer_explanation_shape_silent_on_a_derivation_at_79_percent():
+    """A 28-word derivation clozing 79% hides each step and passes."""
+    text = (
+        "> What is the posterior after a negative review?\n"
+        ">\n"
+        "> ---\n"
+        ">\n"
+        "> - explanation: "
+        "Substituting {@{the prior times the likelihood into the formula for "
+        "the posterior above}@} and multiplying both parts gives "
+        "{@{the second option that is listed in the printed table}@}.\n"
+    )
+    assert not answer_explanation_shape(make_ctx(text))
+
+
+def test_answer_explanation_shape_silent_on_a_derivation_at_84_percent():
+    """A 44-word derivation clozing 84% still keeps a frame to read."""
+    text = (
+        "> What is the posterior after a negative review?\n"
+        ">\n"
+        "> ---\n"
+        ">\n"
+        "> - explanation: "
+        "The posterior is {@{the bad branch over both branches of the review "
+        "model once the answer is negative}@}. The numerator is "
+        "{@{the prior on bad times the chance of a negative review}@}. "
+        "Substituting {@{the two branches that are printed into the ratio of "
+        "the table}@}.\n"
+    )
+    assert not answer_explanation_shape(make_ctx(text))
+
+
+def test_answer_explanation_shape_fires_on_a_whole_cloze_past_the_ceiling():
+    """A whole-cloze line past twenty words hides the frame, so it reports."""
     text = (
         "> Which book describes the state?\n"
         ">\n"
@@ -944,48 +994,88 @@ def test_answer_explanation_shape_leaves_a_long_whole_cloze_to_the_cap():
         ">\n"
         "> - explanation: "
         "{@{The sell takes the ten shares bid at the top of the book and the "
-        "remainder rests at the price the buy order named, so the last traded "
-        "price never leaves the range the question shows and no other book in "
-        "the figure matches the state.}@}\n"
-    )
-    assert not answer_explanation_shape(make_ctx(text))
-    errors = cloze_giant(make_ctx(text))
-    assert [e.rule_id for e in errors] == ["cloze_giant"]
-
-
-def test_answer_explanation_shape_silent_on_the_long_branch():
-    """Thirty words in three short clozes is the shape the long branch asks for."""
-    text = (
-        "> Which book describes the state?\n"
-        ">\n"
-        "> ---\n"
-        ">\n"
-        "> - explanation: "
-        "{@{The sell takes shares bid at the top of the book}@} and "
-        "{@{the remainder rests at the price the buy order named}@}, "
-        "{@{so the traded price never leaves the range}@}.\n"
-    )
-    assert not answer_explanation_shape(make_ctx(text))
-    assert not cloze_giant(make_ctx(text))
-
-
-def test_answer_explanation_shape_fires_below_the_floor():
-    """A long explanation hiding 60% leaves the rest of its reasoning to read."""
-    text = (
-        "> Which book describes the state?\n"
-        ">\n"
-        "> ---\n"
-        ">\n"
-        "> - explanation: "
-        "{@{The sell takes shares bid}@} at the top of the book and "
-        "{@{the remainder rests at the price}@} the buy order named, so "
-        "{@{the traded price never leaves the range}@}.\n"
+        "remainder rests at the price the buy named, so the price never leaves "
+        "the range.}@}\n"
     )
     errors = answer_explanation_shape(make_ctx(text))
     assert [e.rule_id for e in errors] == ["answer_explanation_shape"]
-    assert "clozes 60% of its words" in errors[0].msg
-    assert "at least 85%" in errors[0].msg
-    assert "at most 12 words each" in errors[0].msg
+    assert "clozes 100% of its words" in errors[0].msg
+    assert "over the 90% ceiling" in errors[0].msg
+
+
+def test_answer_explanation_shape_fires_below_the_floor():
+    """A long explanation hiding 40% leaves most of its reasoning to read."""
+    text = (
+        "> Which book describes the state?\n"
+        ">\n"
+        "> ---\n"
+        ">\n"
+        "> - explanation: "
+        "Substituting the printed values gives "
+        "{@{the ratio the table lists}@}. Multiplying both parts by five "
+        "leaves {@{the printed ratio above}@}. The posterior is "
+        "{@{the second option}@} in that printed table.\n"
+    )
+    errors = answer_explanation_shape(make_ctx(text))
+    assert [e.rule_id for e in errors] == ["answer_explanation_shape"]
+    assert "clozes 40% of its words" in errors[0].msg
+    assert "under the 60% floor" in errors[0].msg
+
+
+def test_answer_explanation_shape_fires_on_a_sentence_left_visible():
+    """Coverage inside the band still reports a sentence carrying no cloze."""
+    text = (
+        "> What is the posterior after a negative review?\n"
+        ">\n"
+        "> ---\n"
+        ">\n"
+        "> - explanation: "
+        "Substituting {@{the prior times the likelihood}@} into the formula "
+        "gives {@{the branch over both branches of the review}@}. Multiplying "
+        "{@{numerator and denominator by five}@} leaves "
+        "{@{the ratio that the printed table lists}@}. The posterior is the "
+        "second option in the table.\n"
+    )
+    errors = answer_explanation_shape(make_ctx(text))
+    assert [e.rule_id for e in errors] == ["answer_explanation_shape"]
+    assert "clozes 61% of its words" in errors[0].msg
+    assert "leaves a sentence of 9 words with no cloze" in errors[0].msg
+    assert "every sentence carries a cloze" in errors[0].msg
+
+
+def test_answer_explanation_shape_judges_a_sentence_from_four_prose_words():
+    """A visible fragment under four prose words is frame, and is not judged."""
+    head = (
+        "> What is the posterior after a negative review?\n"
+        ">\n"
+        "> ---\n"
+        ">\n"
+        "> - explanation: "
+        "Substituting {@{the prior times the likelihood}@} into the formula "
+        "gives {@{the branch over both branches of the review}@}. Multiplying "
+        "{@{numerator and denominator by five}@} leaves "
+        "{@{the ratio that the printed table lists}@}. "
+    )
+    assert not answer_explanation_shape(make_ctx(head + "See the table.\n"))
+
+    errors = answer_explanation_shape(make_ctx(head + "The table follows below.\n"))
+    assert [e.rule_id for e in errors] == ["answer_explanation_shape"]
+    assert "leaves a sentence of 4 words with no cloze" in errors[0].msg
+
+
+def test_answer_explanation_shape_keeps_a_period_inside_a_cloze_from_splitting():
+    """A period hidden in a cloze does not end the sentence that carries it."""
+    text = (
+        "> What is the posterior after a negative review?\n"
+        ">\n"
+        "> ---\n"
+        ">\n"
+        "> - explanation: "
+        "Substituting {@{p = 4/5. The ratio follows}@} gives "
+        "{@{the second option in the printed table}@} and the denominator adds "
+        "{@{the good branch to the bad branch}@}.\n"
+    )
+    assert not answer_explanation_shape(make_ctx(text))
 
 
 def test_answer_explanation_shape_fires_on_no_cloze():
@@ -1001,9 +1091,10 @@ def test_answer_explanation_shape_fires_on_no_cloze():
 
 
 def test_cloze_giant_fires_past_the_cap():
-    """A wrapped continuation line carries no label, so its long cloze is split."""
+    """A wrapped continuation line carries no label, so its long cloze is measured."""
     long_cloze = (
-        "the first reader to arrive takes the data lock on behalf of every reader"
+        "the first reader to arrive takes the data lock on behalf of every reader "
+        "waiting behind it, and the writer waits until the last releases"
     )
     text = f"""> Who takes the data lock?
 >
@@ -1017,13 +1108,17 @@ def test_cloze_giant_fires_past_the_cap():
 
 
 def test_cloze_giant_silent_at_the_cap():
-    """Twelve words of prose is inside the cap."""
-    text = """> Who takes the data lock?
+    """Twenty words of prose is the cap itself, so the cloze stays silent."""
+    cloze = (
+        "the first reader to arrive takes the data lock on behalf of every waiting "
+        "reader and the last one releases"
+    )
+    text = f"""> Who takes the data lock?
 >
 > ---
 >
 > - explanation: the lock is taken by
->   {@{the first reader to arrive takes it for the group and then}@} the last.
+>   {{@{{{cloze}}}@}} the lock.
 """
     assert not cloze_giant(make_ctx(text))
 
@@ -1041,10 +1136,11 @@ def test_cloze_giant_silent_when_the_cloze_hides_math():
 
 
 def test_cloze_giant_silent_on_the_solution_cloze():
-    """A solution's one cloze holds the whole answer, so it has no shorter form."""
+    """A solution's one cloze holds the answer or names the options, so it runs long."""
     choice_text = (
-        "the first reader to arrive takes the data lock on behalf of every waiting "
-        "reader"
+        "the first reader to arrive takes the data lock on behalf of every reader, "
+        "and the writer waits until the last one releases it, which keeps the read "
+        "set stable"
     )
     text = f"""> Who takes the data lock?
 >
@@ -1059,40 +1155,95 @@ def test_cloze_giant_silent_on_the_solution_cloze():
 
 
 def test_cloze_giant_silent_on_the_explanation_beside_it():
-    """An explanation's one cloze holds the reasoning whole, as a solution's does."""
+    """An explanation's one short cloze holds the reasoning whole, under the cap."""
     long_cloze = (
-        "the first reader to arrive takes the data lock on behalf of every waiting "
-        "reader"
+        "the first reader to arrive takes the data lock on behalf of every reader, "
+        "and the writer waits until the last one releases it, which keeps the read "
+        "set stable"
     )
+    short_cloze = "the first reader to arrive takes the data lock on behalf of every waiting reader"
     text = f"""> Who takes the data lock?
 >
 > ---
 >
 > - solution: {{@{{2. {long_cloze}}}@}}
-> - explanation: {{@{{{long_cloze}}}@}}
+> - explanation: {{@{{{short_cloze}}}@}}
 """
     assert not cloze_giant(make_ctx(text))
 
 
-def test_cloze_giant_fires_on_a_long_explanation_piece():
-    """A long explanation's ordinary cloze is capped, since it leaves text outside."""
+def test_cloze_giant_fires_on_an_explanation_in_a_non_content_file():
+    """A labelled answer line is measured wherever it lives, as a warning."""
     long_cloze = (
-        "the first reader to arrive takes the data lock on behalf of every waiting"
+        "the first reader to arrive takes the data lock on behalf of every reader "
+        "waiting behind it, and the writer waits until the last releases"
     )
     text = f"""> Who takes the data lock?
 >
 > ---
 >
-> - explanation: {{@{{{long_cloze}}}@}} reader.
+> - explanation: {{@{{{long_cloze}}}@}}.
+"""
+    errors = cloze_giant(make_ctx(text, name="topic note.md"))
+    assert [e.rule_id for e in errors] == ["cloze_giant"]
+    assert errors[0].severity is Severity.WARNING
+    assert "hides 25 words" in errors[0].msg
+    assert "in at most 20 words" in errors[0].msg
+
+
+def test_cloze_giant_silent_on_a_payload_with_its_frame():
+    """The same line reports nothing once one cloze hides only a step of it."""
+    text = (
+        "> Who takes the data lock?\n"
+        ">\n"
+        "> ---\n"
+        ">\n"
+        "> - explanation: The writer waits while "
+        "{@{the first reader to arrive takes the data lock here}@}, and the last "
+        "reader to finish releases it.\n"
+    )
+    assert not cloze_giant(make_ctx(text, name="topic note.md"))
+
+
+def test_cloze_giant_silent_on_a_short_whole_line():
+    """Nineteen words in one cloze is under the cap, so it needs no exemption."""
+    text = (
+        "> Which book describes the state?\n"
+        ">\n"
+        "> ---\n"
+        ">\n"
+        "> - explanation: "
+        "{@{The 30 unfilled shares cancel now at the close, and the buy rests "
+        "80 bid at 115, a level no listed book shows.}@}\n"
+    )
+    assert not cloze_giant(make_ctx(text, name="topic note.md"))
+
+
+def test_cloze_giant_fires_on_a_legacy_explanation():
+    """The shape gates hold prose cards, not the explanation of a legacy block."""
+    long_cloze = (
+        "the first reader to arrive takes the data lock on behalf of every reader "
+        "waiting behind it, and the writer waits until the last releases"
+    )
+    text = f"""> Who takes the data lock?
+>
+> - explanation: {{@{{{long_cloze}}}@}}.
 """
     errors = cloze_giant(make_ctx(text))
     assert [e.rule_id for e in errors] == ["cloze_giant"]
 
 
-def test_cloze_giant_silent_before_the_file_adopts_the_shape():
-    """Legacy content keeps its long clozes until it separates question and answer."""
-    text = """> Who takes the data lock?
+def test_cloze_giant_silent_on_a_prose_card_outside_a_content_file():
+    """A prose card keeps both legacy gates, so a non-content file stays silent."""
+    long_cloze = (
+        "the first reader to arrive takes the data lock on behalf of every reader "
+        "waiting behind it, and the writer waits until the last releases"
+    )
+    text = f"""> Who takes the data lock?
 >
-> - explanation: {@{the first reader to arrive takes the data lock on behalf of every}@} reader.
+> ---
+>
+> - explanation: {{@{{the lock is held by the first reader}}@}}.
+> {{@{{{long_cloze}}}@}}.
 """
-    assert not cloze_giant(make_ctx(text))
+    assert not cloze_giant(make_ctx(text, name="topic note.md"))

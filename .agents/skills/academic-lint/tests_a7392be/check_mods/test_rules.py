@@ -22,6 +22,7 @@ from main_mods.rules import (
     assignment_index_sections,
     cloze_article_before,
     cloze_excessive_coverage,
+    cloze_glue,
     cloze_insufficient_coverage,
     cloze_no_hint_words,
     cloze_no_nested,
@@ -1633,6 +1634,7 @@ def test_session_topic_source_unit():
     """A topic naming the material is flagged; a topic naming the subject is not."""
 
     def topic_ctx(topic: str):
+        """Build a course index whose one session carries *topic* as its topic."""
         return make_ctx(
             "## week 1 lecture 1\n"
             "- datetime: 2023-01-01T10:00\n"
@@ -2403,6 +2405,29 @@ def test_cloze_insufficient_coverage_rule():
     assert not cloze_insufficient_coverage(plain_solution)
 
 
+def test_cloze_insufficient_coverage_silent_on_an_annotation_block():
+    """An annotation is an answer line, so its paragraph is not measured."""
+    front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+    measured = make_ctx(
+        front
+        + "> Why is the flat so cheap?\n"
+        + ">\n"
+        + "> - remark: {@{the previous owner died there}@} and the price reflects it.\n"
+    )
+    assert [m.rule_id for m in cloze_insufficient_coverage(measured)] == [
+        "cloze_insufficient_coverage"
+    ]
+
+    annotation = make_ctx(
+        front
+        + "> Why is the flat so cheap?\n"
+        + ">\n"
+        + "> - annotation: {@{the previous owner died there}@} and the price reflects it.\n"
+    )
+    assert not cloze_insufficient_coverage(annotation)
+    assert not cloze_excessive_coverage(annotation)
+
+
 def test_cloze_excessive_coverage_rule():
     """Cloze coverage should be flagged when above 98%."""
 
@@ -2776,12 +2801,12 @@ def test_cloze_no_hint_words_rule():
     no_tag = make_ctx("---\ntags: []\n---\nText {@{cloze}@} here.\n")
     assert not cloze_no_hint_words(no_tag)
 
-    # Regression: an indented blockquote solution line carrying four
-    # equation-only clozes must stay silent — the clozes pair up, and the
-    # whole-line offsets once shifted the reported line.
+    # Regression: an indented line carrying four equation-only clozes must
+    # stay silent — the clozes pair up, and the whole-line offsets once
+    # shifted the reported line.
     indented = (
         "---\ntags: [flashcard/active/special/academia/test]\n---\n"
-        "> - explanation: (b) {@{$\\operatorname{E}[X_i] = 5(0.2) = 1$}@} and "
+        "> {@{$\\operatorname{E}[X_i] = 5(0.2) = 1$}@} and "
         "{@{$\\operatorname{Var}(X_i) = 5(0.2)(0.8) = 0.8$}@}, so "
         "{@{$\\operatorname{E}[\\bar X] = 1$}@} and "
         "{@{$\\operatorname{Var}(\\bar X) = \\frac{0.8}{10} = 0.08$}@}.\n"
@@ -2821,58 +2846,114 @@ def test_cloze_no_hint_words_message_asks_for_a_fix():
     assert all(m.severity is Severity.WARNING for m in msgs)
 
 
-def test_cloze_no_hint_words_answer_lines():
-    """A question block's answer label is markup, not a hint word."""
+def test_cloze_no_hint_words_ignores_answer_lines():
+    """A labelled answer line is measured by the answer rules, not this one."""
     front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
 
-    # A solution line answers the blockquote question above it and carries
-    # that question's option, so one bare cloze is the whole answer.
-    solution = make_ctx(f"{front}> - solution: {{@{{3. (c)}}@}}\n")
-    assert not cloze_no_hint_words(solution)
+    # The label is markup rather than a hint word, so a labelled line is out
+    # of scope however little it leaves visible; the long line is the case the
+    # retired 85% coverage escape used to clear.
+    for line in (
+        "> - solution: {@{3. (c)}@}",
+        "> - explanation: {@{the price rises}@} often.",
+        "> - annotation: {@{mind the spread}@} today.",
+        "> - explanation: {@{the price rises with demand}@}",
+        "> - explanation: The {@{sell takes the shares bid at the top of the "
+        "book and the remainder rests at the price the buy order named, so the "
+        "traded price never leaves the range}@}.",
+    ):
+        assert not cloze_no_hint_words(make_ctx(f"{front}{line}\n")), line
 
-    # An explanation clozed whole from its label onward hides the reasoning
-    # itself, so it owes the reader no visible hint.
-    explanation = make_ctx(
-        f"{front}> - explanation: {{@{{the price rises with demand}}@}}\n"
-    )
-    assert not cloze_no_hint_words(explanation)
-
-    # Short of the coverage floor, the same line still owes two visible words.
-    short = make_ctx(f"{front}> - explanation: {{@{{the price rises}}@}} often.\n")
-    msgs = cloze_no_hint_words(short)
-    assert len(msgs) == 1
-    assert "no visible hint words" in msgs[0].msg
-
-    # Two visible words outside the cloze satisfy the explanation rule.
-    explained = make_ctx(
-        f"{front}> - explanation: the price {{@{{rises with demand}}@}}\n"
-    )
-    assert not cloze_no_hint_words(explained)
-
-    # A long explanation's single cloze may leave a few words visible as the
-    # hint the short branch has no room for, and today's floor still silences it.
-    long_explanation = make_ctx(
-        f"{front}> - explanation: The "
-        "{@{sell takes the shares bid at the top of the book and the remainder "
-        "rests at the price the buy order named, so the traded price never "
-        "leaves the range}@}.\n"
-    )
-    assert not cloze_no_hint_words(long_explanation)
-
-    # An annotation line follows the explanation rule, not the solution one.
-    annotation = make_ctx(f"{front}> - annotation: {{@{{mind the spread}}@}}\n")
-    assert not cloze_no_hint_words(annotation)
-    annotation_short = make_ctx(
-        f"{front}> - annotation: {{@{{mind the spread}}@}} today.\n"
-    )
-    msgs = cloze_no_hint_words(annotation_short)
-    assert len(msgs) == 1
-
-    # The line carries no label, so one bare cloze still reports.
+    # The same lone cloze without a label still owes a visible hint.
     prose = make_ctx(f"{front}{{@{{entire sentence clozed}}@}}\n")
     msgs = cloze_no_hint_words(prose)
     assert len(msgs) == 1
     assert "no visible hint words" in msgs[0].msg
+
+
+def test_cloze_glue_rule():
+    """A cloze hiding only a connective leaves the reader nothing to recall."""
+    front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+
+    # A conjunction, a coordinating conjunction, and a linking pair each
+    # report: the card would show a connective and ask for it back.
+    for body in ("so", "and", "which is"):
+        msgs = cloze_glue(make_ctx(f"{front}The price {{@{{{body}}}@}} rises.\n"))
+        assert [m.rule_id for m in msgs] == ["cloze_glue"], body
+
+    # A digit, a formula and a code span are content: the card asks for a
+    # value or a call, not for the grammar joining them.  The legacy ``\(``
+    # pair is mathematics too, and older notes still write it that way.
+    for body in ("3 or 10", "$\\frac{a}{b}$", "\\(x\\)", "`wait(X)` and `signal(X)`"):
+        ctx = make_ctx(f"{front}Either {{@{{{body}}}@}} applies.\n")
+        assert not cloze_glue(ctx), body
+
+    # A content word is what a cloze is for.
+    assert not cloze_glue(make_ctx(f"{front}The {{@{{bridge resistor}}@}} heats.\n"))
+
+    # A single letter or a bare symbol names a choice, a variable or a table
+    # cell, which is exactly what a card should ask for.
+    for body in ("C", "a", "_k_", "-", "+"):
+        ctx = make_ctx(f"{front}The one in {{@{{{body}}}@}} applies.\n")
+        assert not cloze_glue(ctx), body
+
+    # A cloze holding the whole hidden side is the answer itself, not glue.
+    for line in (
+        "Is the two-phase protocol equivalent? ::@:: {@{No}@}",
+        "> - solution: {@{No}@}",
+        "> - solution: {@{Both}@}.",
+        "{@{No}@}",
+    ):
+        ctx = make_ctx(f"{front}{line}\n")
+        assert not cloze_glue(ctx), line
+
+    # Inside a sentence that same connective still leaves nothing to recall.
+    msgs = cloze_glue(make_ctx(f"{front}It is {{@{{not always}}@}} true.\n"))
+    assert [m.rule_id for m in msgs] == ["cloze_glue"]
+
+    # One message per offending cloze, on its own line and column.
+    both = make_ctx(f"{front}Either {{@{{and}}@}} {{@{{or}}@}} applies.\n")
+    msgs = cloze_glue(both)
+    assert len(msgs) == 2
+    assert {m.line for m in msgs} == {4}
+    assert msgs[0].col < msgs[1].col
+
+    # No flashcard tag, no rule.
+    assert not cloze_glue(make_ctx("---\ntags: []\n---\nThe price {@{so}@} rises.\n"))
+
+
+def test_cloze_glue_exempts_a_whole_side_in_either_direction():
+    """A two-sided card is asked both ways, so either whole side is the answer."""
+    front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+
+    for line in (
+        "{@{not always}@} ::@:: {@{the peg}@}",
+        "{@{the peg}@} ::@:: {@{not always}@}",
+    ):
+        assert not cloze_glue(make_ctx(front + line + "\n")), line
+
+    # Inside a sentence on either side the same connective still reports.
+    left = cloze_glue(make_ctx(front + "It is {@{not always}@} ::@:: {@{the peg}@}\n"))
+    assert [m.rule_id for m in left] == ["cloze_glue"]
+    right = cloze_glue(
+        make_ctx(front + "{@{the peg}@} ::@:: it is {@{not always}@} true\n")
+    )
+    assert [m.rule_id for m in right] == ["cloze_glue"]
+
+
+def test_cloze_glue_message_teaches_the_shape():
+    """The error says what a cloze is for and what this one hid instead."""
+    ctx = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "The price {@{so}@} rises.\n"
+    )
+    msgs = cloze_glue(ctx)
+    assert len(msgs) == 1
+    assert msgs[0].severity is Severity.ERROR
+    assert msgs[0].line == 4
+    assert msgs[0].msg.startswith("a cloze hides what carries the fact")
+    assert "hides only a connective" in msgs[0].msg
+    assert "nothing to recall" in msgs[0].msg
 
 
 def test_answer_formula_alone_rule():

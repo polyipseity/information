@@ -28,6 +28,9 @@ _GLOB_SPEC = """
 src/**/*.py
 tests/**/*.py
 scripts/**/*.py
+# A `.venv` under a skill directory is what `uv run` creates there, so the
+# Python files in it are installed dependencies, not repository source.
+!.agents/skills/**/.venv/**
 """
 
 

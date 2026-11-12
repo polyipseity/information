@@ -1775,14 +1775,16 @@ def _flashcard_rule_exempt(path: Path) -> bool:
     )
 
 
-"""A blockquote list item labelled solution, explanation or annotation, the QA answer slot."""
+"""A blockquote list item labelled solution, explanation or annotation, the QA answer slot.
+
+`re.MULTILINE` lets a caller search a whole paragraph for such a line, which
+is how a question block is recognized; a caller matching one line gets the
+same result with or without it.
+"""
 _SOLUTION_LABEL_RE = re.compile(
     r"^[ \t]*>[ \t]*(?:-[ \t]*)?(?P<label>solution|explanation|annotation)[ \t]*:",
-    re.IGNORECASE,
+    re.IGNORECASE | re.MULTILINE,
 )
-"""Visible words an explanation or annotation owes outside a partial cloze; a solution
-line owes none."""
-_ANSWER_MIN_WORDS = 2
 """A blockquote opening display math or an aligned environment, not a question."""
 _DISPLAY_MATH_BLOCK_RE = re.compile(
     r"^[ \t]*>[ \t]*(?:\$\$|\\\[|\\begin\{(?:aligned|align|gathered|split)\})"
@@ -4858,27 +4860,26 @@ def _compute_cloze_coverage(paragraph_text: str) -> float | None:
     return cloze_chars / total_visible
 
 
-"""A `- solution:` / `- explanation:` line inside a blockquote belongs to a
-question block: the line states the answer to the question above it.
+"""A `- solution:`, `- explanation:` or `- annotation:` marker outside a blockquote.
+
+The same three labels are answer lines inside a blockquote (see
+:data:`_SOLUTION_LABEL_RE`), so a bare label is an answer line away from the
+question it answers.
 """
-_BLOCKQUOTED_SOLUTION_RE = re.compile(
-    r"^[ \t]*>[ \t]*(?:-[ \t]*)?(?:solution|explanation)[ \t]*:",
-    re.IGNORECASE | re.MULTILINE,
-)
-"""The same marker outside a blockquote has no question to answer."""
-_BARE_SOLUTION_RE = re.compile(
-    r"^[ \t]*(?:-[ \t]*)?(?:solution|explanation)[ \t]*:",
+_BARE_ANSWER_RE = re.compile(
+    r"^[ \t]*(?:-[ \t]*)?(?:solution|explanation|annotation)[ \t]*:",
     re.IGNORECASE | re.MULTILINE,
 )
 
 
 @RULE_REGISTRY.register()
 def cloze_solution_outside_question(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Disallow cloze ``- solution:`` / ``- explanation:`` lines outside a question block.
+    """Disallow cloze ``- solution:``, ``- explanation:`` and ``- annotation:`` lines
+    outside a question block.
 
     Those lines are question-format markup: their cloze hides the answer to the
     blockquote question above them. Material that is not a question is recorded
-    as prose with its own cards instead, so a cloze solution line with no
+    as prose with its own cards instead, so a cloze answer line with no
     question block around it is a question-format line in a section that should
     not use one; see "Flashcard style per section" in `academic-ingest`.
     """
@@ -4893,7 +4894,7 @@ def cloze_solution_outside_question(ctx: ValidationContext) -> list[ValidationMe
     ):
         return errors
 
-    for m in _BARE_SOLUTION_RE.finditer(ctx.text):
+    for m in _BARE_ANSWER_RE.finditer(ctx.text):
         line_start = m.start()
         line_end = ctx.text.find("\n", line_start)
         if line_end == -1:
@@ -4906,8 +4907,8 @@ def cloze_solution_outside_question(ctx: ValidationContext) -> list[ValidationMe
             ValidationMessage(
                 rule_id="cloze_solution_outside_question",
                 msg=(
-                    "cloze solution/explanation line outside a question block: these "
-                    "lines answer the blockquote question above them, so use "
+                    "cloze answer line outside a question block: these labels "
+                    "answer the blockquote question above them, so use "
                     "'> - solution: ...' inside that blockquote, or record the "
                     "material as prose with its own cards."
                 ),
@@ -4936,7 +4937,7 @@ def cloze_insufficient_coverage(ctx: ValidationContext) -> list[ValidationMessag
     for para_text, para_start, para_end in paragraphs:
         # A question block mixes its visible question text with the clozed answer
         # lines by design, so its coverage is not measured.
-        if _BLOCKQUOTED_SOLUTION_RE.search(body[para_start:para_end]):
+        if _SOLUTION_LABEL_RE.search(body[para_start:para_end]):
             continue
         coverage = _compute_cloze_coverage(para_text)
         if coverage is not None and coverage < 0.85:
@@ -4971,7 +4972,7 @@ def cloze_excessive_coverage(ctx: ValidationContext) -> list[ValidationMessage]:
     for para_text, para_start, para_end in paragraphs:
         # A question block mixes its visible question text with the clozed answer
         # lines by design, so its coverage is not measured.
-        if _BLOCKQUOTED_SOLUTION_RE.search(body[para_start:para_end]):
+        if _SOLUTION_LABEL_RE.search(body[para_start:para_end]):
             continue
         coverage = _compute_cloze_coverage(para_text)
         if coverage is not None and coverage > 0.98:
@@ -4991,7 +4992,7 @@ def cloze_excessive_coverage(ctx: ValidationContext) -> list[ValidationMessage]:
 
 @RULE_REGISTRY.register()
 def cloze_no_hint_words(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Warn when a line carries a lone cloze with no visible hint words.
+    """Warn when a prose line carries a lone cloze with no visible hint words.
 
     A hint is any alphabetic character outside cloze bodies on the same
     line; list markers, quote markers, whitespace, and punctuation are not
@@ -5000,14 +5001,12 @@ def cloze_no_hint_words(ctx: ValidationContext) -> list[ValidationMessage]:
     exactly one cloze can lack one. Clozes holding only LaTeX math remain
     acceptable recall targets.
 
-    A question block's answer label names the answer slot and is markup, not
-    text, so an answer line is measured on the words after the label (see
-    `_split_answer_label`). A ``solution`` line answers the blockquote
-    question above it and carries that question's option, so it owes no
-    visible word. An ``explanation`` or ``annotation`` line whose one cloze
-    holds it whole (see `_clozes_answer_whole`) hides the reasoning itself, so
-    it owes no hint either; one leaving text outside its cloze owes at least
-    two unless the cloze still reaches the 85% coverage floor.
+    A question block's answer lines are out of scope. Their label names the
+    answer slot and is markup rather than text (see `_split_answer_label`),
+    their own rules already fix the frame and the band they may hide, and an
+    answer is measured in prose words by `_answer_coverage`. Counting
+    characters here as well gave one line a second, disagreeing measure, so
+    this rule now speaks only about prose and card lines.
     """
     errors: list[ValidationMessage] = []
     if not has_flash_tag(ctx.front):
@@ -5021,33 +5020,20 @@ def cloze_no_hint_words(ctx: ValidationContext) -> list[ValidationMessage]:
     for line_idx, line in enumerate(ctx.text.splitlines(), start=1):
         _, spans, _, _, _ = _scan_cloze_tokens(line)
         line_start_next = line_start + len(line) + 1
-        if len(spans) == 1:
+        label, _ = _split_answer_label(line)
+        if label is None and len(spans) == 1:
             span_start, span_end = spans[0]
-            label, answer_text = _split_answer_label(line)
             visible_text = line[:span_start] + line[span_end:]
-            _, visible_text = _split_answer_label(visible_text)
             hint_words = [
                 word for word in visible_text.split() if re.search(r"[a-zA-Z]", word)
             ]
-            coverage = _compute_cloze_coverage(answer_text)
-            if label == "solution":
-                needed = 0
-            elif label is None:
-                needed = 1
-            elif _clozes_answer_whole(line, answer_text):
-                # One cloze holding the item whole leaves nothing visible to
-                # prompt the reader with.
-                needed = 0
-            else:
-                covered = coverage is not None and coverage >= 0.85
-                needed = 0 if covered else _ANSWER_MIN_WORDS
             # An empty or LaTeX-only body carries no prose a reader could
             # be quizzed on instead, so it is not a hint-word deficit.
             cloze_body = line[span_start + 3 : span_end].strip()
             equation_only = not cloze_body or bool(
                 re.match(r"^\$.*\$$|^\$\$.*\$\$$", cloze_body, re.DOTALL)
             )
-            if len(hint_words) < needed and not equation_only:
+            if not hint_words and not equation_only:
                 abs_pos = line_start + span_start
                 _line, col_no = locate(ctx.text, abs_pos)
                 errors.append(
@@ -5138,6 +5124,124 @@ def answer_formula_alone(ctx: ValidationContext) -> list[ValidationMessage]:
                 col=text_start + formula_spans[0] + 1,
             )
         )
+    return errors
+
+
+"""Function words and connectives: the grammar joining facts, never a fact.
+
+`cloze_glue` reports a body made only of these, since a card displaying ``so``
+or ``which is`` asks the reader to recall a conjunction; see "Never cloze a
+connective, a transition, or a word the reader needs as a hint" in
+`create-flashcards`.
+"""
+_GLUE_WORDS = frozenset(
+    """
+    the a an this that these those some any each every both either neither
+    another other such all own same
+    and or but nor so yet then than as if when while because since though
+    although unless until whether whereas whilst once which
+    of in on at to for from by with without within into onto upon about above
+    below under over between among through during before after against across
+    along around behind beyond near off out up down per via
+    is are was were be been being am do does did can could may might must
+    shall should will would have has had
+    it its i you we they he she him her us them their our your my mine yours
+    theirs whose who whom what where why how there here
+    also only not no thus hence therefore however moreover furthermore
+    nevertheless nonetheless otherwise meanwhile likewise instead still even
+    just very too perhaps rather already always never often sometimes usually
+    """.split()
+)
+
+"""A digit, a stretch of mathematics, or a code span: something a card can ask for.
+
+The math delimiters are both the KaTeX ``$`` pair and the legacy ``\\(`` and
+``\\[`` that older notes still carry.
+"""
+_CLOZE_CONTENT_RE = re.compile(r"\d|[$`]|\\[([\[]")
+
+
+def _cloze_body_is_glue(body: str) -> bool:
+    """Return whether a cloze body is only the grammar joining a fact.
+
+    A digit, a piece of mathematics and a code span name a value or a call, so
+    ``3 or 10`` and ``wait(X)`` are content.  Strip what is neither letter nor
+    digit and a lone letter is left — a choice or a variable, which a card is
+    meant to ask for — while a body left with no letter at all is a symbol or a
+    table cell, also content.  Only a body whose every word comes from
+    `_GLUE_WORDS`, with at least two letters to a word, asks for a connective.
+    """
+    if _CLOZE_CONTENT_RE.search(body):
+        return False
+    words = re.sub(r"[^A-Za-z]+", " ", body).split()
+    if max(map(len, words), default=0) < 2:
+        return False
+    return all(word.casefold() in _GLUE_WORDS for word in words)
+
+
+def _cloze_is_whole_hidden_side(line: str, start: int, end: int) -> bool:
+    """Return whether the cloze at *start*..*end* is all of what the card hides.
+
+    A card is asked in both directions, so either side of a ``::@::`` line is
+    an answer: the left side is recalled from the right and the right from the
+    left.  A cloze holding a whole side — the rest of the line once the answer
+    label and the markup around it are gone, or one whole side of a ``::@::``
+    pair — is therefore the answer itself: ``{@{No}@}`` naming an option is the
+    fact being recalled, not a connective the sentence could lose.
+    """
+    separator = "::@::"
+    before = line.rfind(separator, 0, start)
+    after = line.find(separator, end + 3)
+    side_start = before + len(separator) if before >= 0 else 0
+    side_end = after if after >= 0 else len(line)
+    outside = line[side_start:start] + line[end + 3 : side_end]
+    if before < 0:
+        # The opening side may carry the label of a labelled answer line.
+        _, outside = _split_answer_label(outside)
+    return re.search(r"[A-Za-z0-9]", outside) is None
+
+
+@RULE_REGISTRY.register()
+def cloze_glue(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Reject a cloze that hides only a connective inside a sentence.
+
+    A cloze hides the fact the card asks for, so a body such as ``{@{so}@}`` or
+    ``{@{which is}@}`` inside a sentence hides the grammar that joins facts and
+    leaves the reader nothing to recall.  A digit, a piece of mathematics, a
+    code span, a lone letter and a bare symbol are content, so ``{@{3 or 10}@}``,
+    ``{@{C}@}`` and ``{@{-}@}`` pass.  So does a cloze that is the whole hidden
+    side on its own: a card showing ``{@{No}@}`` as its answer asks for the fact
+    itself.  One message per offending cloze.
+    """
+    errors: list[ValidationMessage] = []
+    if not has_flash_tag(ctx.front):
+        return errors
+
+    for line_no, line in enumerate(ctx.text.splitlines(), start=1):
+        _, spans, _, _, _ = _scan_cloze_tokens(line)
+        cursor = 0
+        for start, end in sorted(spans):
+            if start < cursor:
+                # A cloze nested inside one already reported.
+                continue
+            cursor = end + 3
+            if not _cloze_body_is_glue(line[start + 3 : end]):
+                continue
+            if _cloze_is_whole_hidden_side(line, start, end):
+                continue
+            errors.append(
+                ValidationMessage(
+                    rule_id="cloze_glue",
+                    msg=(
+                        "a cloze hides what carries the fact, so this one "
+                        "hides only a connective and leaves the reader nothing "
+                        "to recall; hide the word or number that states the "
+                        "fact instead"
+                    ),
+                    line=line_no,
+                    col=start + 1,
+                )
+            )
     return errors
 
 

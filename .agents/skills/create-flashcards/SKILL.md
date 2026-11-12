@@ -24,7 +24,7 @@ The closing cloze delimiter `}@}` comes before any trailing punctuation, which s
 
 ## What the cloze hides
 
-The cloze holds the payload; the frame around it — copula, leading verb, subject label — stays visible, so a card front reads as a sentence with a blank, never an unfinished fragment. The hiding direction follows what is recalled: when the value is the answer the term prompts and the value hides, when the name is the answer the term itself hides.
+The cloze holds the payload; the frame around it — copula, leading verb, subject label — stays visible, so a card front reads as a sentence with a blank, never an unfinished fragment. An answer short enough to read as one sentence hides its whole sentence, `{@{The 30 unfilled shares cancel.}@}`, punctuation inside. A derivation hides each step's payload and keeps the frame that reads it — `Substituting {@{…}@}, and multiplying {@{…}@}, which is {@{…}@}`, `so the expected loss is {@{…}@}` — rather than hiding everything but the punctuation, which leaves a card with nothing to read. The hiding direction follows what is recalled: when the value is the answer the term prompts and the value hides, when the name is the answer the term itself hides.
 
 - __Value is the answer__ (prompt-visible): `the orbital speed is {@{$v = \sqrt{e^2/(4\pi\epsilon_0 m r)} = 2.19 \times 10^6\ \text{m/s}$}@}`
 - __Name is the answer__ (term-hidden): `{@{Rutherford backscattering (RBS)}@} fires ions at a sample and measures the backscattered energy loss`
@@ -32,6 +32,8 @@ The cloze holds the payload; the frame around it — copula, leading verb, subje
 - __Two-way pair__, each side in its own cloze: `{@{Rutherford backscattering (RBS)}@} {@{fires ions at a sample and measures the backscattered energy loss}@}`
 
 A copula inside a cloze is fine after the payload's first word: `{@{flattens …, so it is not single-valued}@}`.
+
+Two numbers bound the hiding. One cloze hides at most twenty prose words; a longer explanation keeps 60% to 90% of its prose words inside its clozes with one in every sentence, since below 60% most of the answer stays visible and above 90% the frame goes too. A visible fragment under four prose words is frame rather than payload, so it is not judged. Mathematics and code are not prose, so a formula hides whole. `cloze_giant` warns past the cap on an answer line, and on a blockquoted line carrying no label in a lab, tutorial or lecture note, `answer_explanation_shape` holds an explanation to the band, and `cloze_glue` rejects a cloze holding only connectives, `{@{so}@}` or `{@{which is}@}`, which leaves nothing to recall.
 
 A formula is hidden together with the words that give it meaning. On a question block's answer line a formula clozed alone, with prose beside it, asks for a symbol string rather than a fact (`answer_formula_alone`): hide it in the cloze holding its words, and leave one alone only where the surrounding text says nothing or the formula is a named statement, such as a theorem, a lemma or a definition. A solution line is the exception, since it names the option it answers and that option may be a bare formula.
 
@@ -79,7 +81,7 @@ This generalises the worked-example rule above, which covers calculation cards o
 
 ## When to use
 
-Invoke the skill when the user asks to "add flashcards", "cloze this", "quizify", or similar. The target file must already exist; never create new files, and never edit submodules or private content without permission. Private academic content that the `academic-ingest` routing rule sends to `private/` (non-in-class submission artifacts and question pages) is edited in place during an ingestion; other `private/` content still needs permission. Process one paragraph or logical block at a time and display the original text for confirmation. Cloze what the block exists to establish: the definitions, the relations, the numbers a reader would be asked to recall. A claim the course only passed over gets one definitional card or none, never a set built out from the encyclopedia article behind it. Numeric facts and simple assignments may be clozed as atomic units. Never cloze a connective, a transition, or a word the reader needs as a hint, and stop at the validator's bounds rather than a higher target, 85% of the paragraph's visible characters at minimum and 98% at the most. The old 92%-per-sentence target pushed the cloze boundary onto words like "therefore" and "which", which tests the reader's memory of your phrasing rather than of the subject.
+Invoke the skill when the user asks to "add flashcards", "cloze this", "quizify", or similar. The target file must already exist; never create new files, and never edit submodules or private content without permission. Private academic content that the `academic-ingest` routing rule sends to `private/` (non-in-class submission artifacts and question pages) is edited in place during an ingestion; other `private/` content still needs permission. Process one paragraph or logical block at a time and display the original text for confirmation. Cloze what the block exists to establish: the definitions, the relations, the numbers a reader would be asked to recall. A claim the course only passed over gets one definitional card or none, never a set built out from the encyclopedia article behind it. Numeric facts and simple assignments may be clozed as atomic units. Never cloze a connective, a transition, or a word the reader needs as a hint, and stop at the validator's bounds rather than a higher target, 85% of the paragraph's visible characters at minimum and 98% at the most.
 
 Inline comments such as `<!-- check: ignore-line[...]: equation on left -->` are rationales for validator suppressions, not editing instructions. Never split or reflow a card because a comment mentions "left" or "right": the left-hand portion always means the text before the `::@::` or `:@:` separator, and it may be long when calculations are involved.
 
@@ -108,7 +110,7 @@ Use this process for every clozing task: it yields fine-grained clozes that keep
 
 ### 1. Assume everything needs clozing
 
-Treat every clause, equation, and factual claim in the target sentence as a candidate blank. Aim for at least 85% of each solution sentence inside clozes (target around 90%); only linking words ("so", "hence", "therefore"), articles ("the", "a"), and 1-3 hint words should remain visible. The visible-hint rule covers prose and `- explanation:` lines; a `- solution:` line owes none, because the blockquote question above it is the prompt and the option it names is the whole answer. In multi-step worked solutions, every intermediate equation and every conclusion must be individually clozed.
+Treat every clause, equation, and factual claim in the target sentence as a candidate blank. Hide each step's payload and keep the frame that reads it; only linking words ("so", "hence", "therefore"), articles ("the", "a"), and 1-3 hint words should remain visible. The visible-hint rule covers prose lines; an answer line carries none, because the blockquote question above it is the prompt and `answer_explanation_shape` keeps its frame.
 
 ### 2. Split at natural boundaries
 
@@ -140,7 +142,7 @@ Do not mix prose and equation in one cloze by default. For "The voltage is $V=..
 
 ### 4. Audit coverage
 
-Estimate the cloze-to-visible ratio for each solution line, with a hard minimum of 85% of each solution sentence inside clozes and a target around 90%. Reach the target with this hierarchy:
+An answer of at most twenty prose words is one cloze holding the line whole. A longer one is a derivation: every sentence carries a cloze hiding its step's payload, 60% to 90% of the line's prose words sit inside the clozes, and the frame that reads the steps stays visible. Reach that with this hierarchy:
 
 1. __Expand__ an existing cloze to absorb important visible content around it (preferred: fewest lines rewritten).
 2. __Add__ a new cloze when uncovered content is far from any existing one.
@@ -150,7 +152,7 @@ Common failures: clozing only equations while leaving prose explanations visible
 
 ### Common mistakes
 
-1. __Missing hint words.__ In prose, every cloze needs at least one visible word outside it, and one starting a sentence with no lead-in is wrong; add a hint such as "The advantage is". Hints are typically 1-3 words but can be longer phrases ("The node voltage is"), with no upper limit. An answer line carrying one cloze is measured after its label, since the `- solution:` label is markup rather than a hint: a solution owes none, while an explanation or annotation owes two. The validator catches cloze clauses with no visible hint words.
+1. __Missing hint words.__ In prose, every cloze needs at least one visible word outside it, and one starting a sentence with no lead-in is wrong; add a hint such as "The advantage is". Hints are typically 1-3 words but can be longer phrases ("The node voltage is"), with no upper limit. No rule counts hint words on an answer line: the label names the slot rather than a hint, and `answer_explanation_shape` governs that frame instead. The validator catches cloze clauses with no visible hint words.
 2. __Contrast merged into one cloze.__ Contrast items (A vs B) must be separate clozes, never `{@{X is good, whereas Y is bad}@}`.
 3. __Over-splitting.__ Do not split at every comma; related items within one reasoning step stay in one cloze.
 4. __Prose+equation merge.__ Keep the split as the default: `{@{Ohm's law}@} is {@{$V=IR$}@}` when the concept name should prompt recall, so it stays visible as a hint. A term and its formula may share one cloze when they are recalled together, such as `{@{Bragg's law $\lambda = 2d\sin\theta$}@}`.

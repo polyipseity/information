@@ -8,21 +8,24 @@ the marker, ``> 1. (a)``; an author never invents them and never writes them
 as bullets or letters.  The answer lines are measured as well: a solution
 names the choice it answers and carries one cloze, and an explanation of at
 most twenty words is one cloze holding the line whole, while a longer one
-hides at least 85% of its words.
+hides each step's payload, keeps the frame, and leaves between 60% and 90% of
+its words inside a cloze.
 
-Two rules here carry a legacy allowance, because the older notes were written
+One rule here carries a legacy allowance, because the older notes were written
 before the shape existed and a tree-wide error would fail them on arrival:
 ``question_block_rule_missing`` speaks only about a single block that departs
-from a file's own habit, and ``cloze_giant`` judges content files that already
-separate question from answer everywhere.  The measure behind that choice is
-in the rule docstrings.
+from a file's own habit.  ``cloze_giant`` keeps that allowance for a prose card
+alone, measures every labelled answer line wherever it lives, and warns rather
+than errors while the long clozes the tree already carries wait for their own
+sweep.  The measure behind each choice is in the rule docstrings.
 """
 
 import re
 from collections.abc import Iterator, Mapping, Sequence
 from string import punctuation
 
-from .models import ValidationContext, ValidationMessage
+from .models import Severity, ValidationContext, ValidationMessage
+from .readability import split_sentences
 from .registry import RuleRegistry
 from .rules import _clozes_answer_whole, _split_answer_label
 from .utils import locate
@@ -160,14 +163,27 @@ _ANSWER_NAME_RE = re.compile(
 """Trailing sentence punctuation and inline markup a text comparison drops."""
 _TRAILING_DROPPED = punctuation
 
-"""The longest cloze allowed on an answer line, in words of prose."""
-_MAX_CLOZE_WORDS = 12
+"""The least share of an answer line's prose words its clozes hide."""
+_ANSWER_COVERAGE_MIN = 0.60
 
-"""The share of an explanation's prose words its clozes have to hide."""
-_ANSWER_COVERAGE_FLOOR = 0.85
+"""The most share of an answer line's prose words its clozes hide."""
+_ANSWER_COVERAGE_MAX = 0.90
 
-"""The length at or under which an explanation is clozed whole."""
-_EXPLANATION_WHOLE_CLOZE_WORDS = 20
+"""The most prose words one cloze hides, and the length an answer line is clozed whole at."""
+_ANSWER_CLOZE_WORDS = 20
+
+"""The fewest prose words a sentence needs before its cloze is judged."""
+_SENTENCE_MIN_WORDS = 4
+
+"""A mark standing where a cloze sat, for the sentence splitter to keep."""
+_CLOZE_MARK = "\x00"
+
+"""What a long answer line's clozes are taught to hide."""
+_ANSWER_SHAPE_ADVICE = (
+    f"past {_ANSWER_CLOZE_WORDS} words the line hides each step's payload and "
+    f"keeps the frame that reads it, in clozes of at most "
+    f"{_ANSWER_CLOZE_WORDS} words each"
+)
 
 """The content files whose sections hold question blocks."""
 _CONTENT_FILES = frozenset({"lab.md", "tutorial.md", "lecture.md"})
@@ -230,10 +246,27 @@ def _answer_coverage(text: str) -> float:
     return hidden / total if total else 1.0
 
 
+def _sentences_without_cloze(text: str) -> list[str]:
+    """Return the sentences of *text* that a reader would see without a blank.
+
+    Each cloze becomes one marker character before the text is split, so a
+    period inside a cloze cannot end a sentence and a sentence carrying the
+    marker is one the card quizzes.  A sentence of fewer than
+    ``_SENTENCE_MIN_WORDS`` prose words is a fragment left as frame, not a
+    payload, so it is not judged.
+    """
+    marked = _CLOZE_RE.sub(_CLOZE_MARK, text)
+    return [
+        sentence
+        for sentence in split_sentences(marked)
+        if _CLOZE_MARK not in sentence and _prose_words(sentence) >= _SENTENCE_MIN_WORDS
+    ]
+
+
 def _long_clozes(line: str) -> list[int]:
-    """Return the word counts of the clozes in *line* that exceed the cap."""
+    """Return the word counts of the clozes in *line* over ``_ANSWER_CLOZE_WORDS``."""
     counts = [_prose_words(match.group("body")) for match in _CLOZE_RE.finditer(line)]
-    return [count for count in counts if count > _MAX_CLOZE_WORDS]
+    return [count for count in counts if count > _ANSWER_CLOZE_WORDS]
 
 
 def _top_level_item(line: str) -> bool:
@@ -466,11 +499,18 @@ def _stem_hidden_label_problem(content: str) -> str | None:
 
 
 def _reports(
-    rule_id: str, msg: str, ctx: ValidationContext, offset: int
+    rule_id: str,
+    msg: str,
+    ctx: ValidationContext,
+    offset: int,
+    *,
+    severity: Severity = Severity.ERROR,
 ) -> ValidationMessage:
-    """Build one message at *offset* in *ctx*."""
+    """Build one message at *offset* in *ctx*, an error unless *severity* says otherwise."""
     line, col = locate(ctx.text, offset)
-    return ValidationMessage(rule_id=rule_id, msg=msg, line=line, col=col)
+    return ValidationMessage(
+        rule_id=rule_id, msg=msg, line=line, col=col, severity=severity
+    )
 
 
 @RULE_REGISTRY.register()
@@ -792,13 +832,15 @@ def answer_solution_one_cloze(ctx: ValidationContext) -> list[ValidationMessage]
 def answer_explanation_shape(ctx: ValidationContext) -> list[ValidationMessage]:
     """Hold an explanation to the cloze shape its length calls for.
 
-    An explanation is shown as a card too.  One of at most twenty prose words
-    is clozed whole: one cloze holding everything after the label, punctuation
-    inside, so nothing visible sits beside it.  A longer one is ordinary
-    cloze work: any number of clozes, each within the ``_MAX_CLOZE_WORDS`` cap
-    ``cloze_giant`` enforces, hiding at least ``_ANSWER_COVERAGE_FLOOR`` of the
-    line's prose words.  Math and
-    code are not prose, so a formula may sit outside the clozes.  An
+    An explanation is shown as a card too.  One of at most
+    ``_ANSWER_CLOZE_WORDS`` prose words is clozed whole: one cloze holding
+    everything after the label, punctuation inside, so nothing visible sits
+    beside it.  A longer one is a derivation, and its card keeps the sentence
+    frame that reads it: every sentence carries a cloze hiding its own step's
+    payload, and the line's prose-word coverage stays inside
+    ``_ANSWER_COVERAGE_MIN`` to ``_ANSWER_COVERAGE_MAX``.  Below the floor the
+    line shows most of its answer; above the ceiling it hides the frame too.
+    Math and code are not prose, so a formula may sit outside the clozes.  An
     ``- annotation:`` line is a slot of its own and stays out of scope.
     """
     rule = "answer_explanation_shape"
@@ -815,83 +857,103 @@ def answer_explanation_shape(ctx: ValidationContext) -> list[ValidationMessage]:
                     "an explanation is shown as cards, so it carries at least "
                     "one cloze hiding the reasoning it turns on"
                 )
-            elif (
-                _prose_words(_CLOZE_RE.sub(r"\g<body>", text))
-                <= _EXPLANATION_WHOLE_CLOZE_WORDS
-            ):
+            elif _prose_words(_CLOZE_RE.sub(r"\g<body>", text)) <= _ANSWER_CLOZE_WORDS:
                 if _clozes_answer_whole(line, text):
                     continue
                 msg = (
-                    f"an explanation of at most {_EXPLANATION_WHOLE_CLOZE_WORDS} "
-                    "words is the whole line in one cloze, from its label "
-                    "onward with the punctuation inside; this one leaves text "
-                    "outside it"
+                    f"an explanation of at most {_ANSWER_CLOZE_WORDS} words "
+                    "hides as one cloze holding its whole sentence, from the "
+                    "label onward with the punctuation inside, so the card "
+                    "reads that sentence once; this one leaves text outside "
+                    "the cloze"
                 )
             else:
                 coverage = _answer_coverage(text)
-                if coverage >= _ANSWER_COVERAGE_FLOOR:
+                visible = _sentences_without_cloze(text)
+                if (
+                    _ANSWER_COVERAGE_MIN <= coverage <= _ANSWER_COVERAGE_MAX
+                    and not visible
+                ):
                     continue
-                msg = (
-                    f"an explanation clozes {coverage:.0%} of its words; past "
-                    f"{_EXPLANATION_WHOLE_CLOZE_WORDS} words it hides at least "
-                    f"{_ANSWER_COVERAGE_FLOOR:.0%}, in clozes of at most "
-                    f"{_MAX_CLOZE_WORDS} words each"
-                )
+                if coverage < _ANSWER_COVERAGE_MIN:
+                    msg = (
+                        f"an explanation clozes {coverage:.0%} of its words, "
+                        f"under the {_ANSWER_COVERAGE_MIN:.0%} floor, so most "
+                        f"of the answer stays visible; {_ANSWER_SHAPE_ADVICE}"
+                    )
+                elif coverage > _ANSWER_COVERAGE_MAX:
+                    msg = (
+                        f"an explanation clozes {coverage:.0%} of its words, "
+                        f"over the {_ANSWER_COVERAGE_MAX:.0%} ceiling, so the "
+                        "frame is hidden too and the card has nothing to "
+                        f"read; {_ANSWER_SHAPE_ADVICE}"
+                    )
+                else:
+                    words = _prose_words(visible[0])
+                    msg = (
+                        f"an explanation clozes {coverage:.0%} of its words "
+                        f"yet leaves a sentence of {words} words with no "
+                        f"cloze, and every sentence carries a cloze; "
+                        f"{_ANSWER_SHAPE_ADVICE}"
+                    )
             errors.append(_reports(rule, msg, ctx, block_start + offset))
     return errors
 
 
 @RULE_REGISTRY.register()
 def cloze_giant(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Reject a cloze hiding more than 12 words of prose on a measured line.
+    """Warn when a cloze hides more than ``_ANSWER_CLOZE_WORDS`` words of prose.
 
-    A cloze hides one fact; a longer one hides the whole sentence, and the
-    reader cannot recover it from what stays visible.  Math and code inside
-    the cloze do not count as words, so a formula may be hidden whole.  A
-    ``- solution:`` line is exempt, since its single cloze holds that answer
-    whole.  Any other answer line is exempt only while one cloze holds it
-    whole within ``_EXPLANATION_WHOLE_CLOZE_WORDS``, the shape a short
-    explanation takes; a longer explanation's cloze is capped like a prose
-    line's, whether it covers the line whole or not.  A wrapped continuation
-    line carries no label and stays measured.
+    A card reads the frame it is shown, so one cloze hides one step of the
+    reasoning: a cloze past the cap swallows the whole sentence and leaves the
+    reader no frame to recover it from.  Math and code inside the cloze are not
+    words of prose, so a formula may be hidden whole.
 
-    Reported only in a content file that separates question from answer
-    everywhere it asks one: cloze length in the 226 legacy clozes across 33
-    files is a separate sweep, and those files stay silent until they adopt
-    the shape.
+    Every labelled answer line is measured, wherever it lives: an
+    ``- explanation:``, an ``- annotation:`` or any other labelled answer line
+    of any note reports.  A ``- solution:`` line is exempt, since its single
+    cloze holds the answer whole or names the options verbatim and may
+    legitimately run long.  A line carrying no answer label is a prose card,
+    and the two legacy gates hold it unchanged: it is measured only in a
+    content file that separates question from answer everywhere it asks one.
+    A wrapped continuation line carries no label, so it is a prose line.
+
+    A cloze holding a short line whole needs no exemption of its own.  The cap
+    is the length a line is clozed whole at, so such a cloze is under the cap
+    by construction and the cap alone accepts it.
+
+    A warning rather than an error: the long clozes the tree already carries
+    are rewritten in a later sweep, so this rule names them meanwhile instead
+    of failing them on arrival.
     """
+    rule = "cloze_giant"
     errors: list[ValidationMessage] = []
-    if ctx.path.name.lower() not in _CONTENT_FILES:
-        return errors
     answering = [lines for _, lines in _blocks(ctx.text) if _answers(lines)]
-    if not answering or not all(
+    prose_measured = ctx.path.name.lower() in _CONTENT_FILES and all(
         any(_RULE_RE.match(line) for _, line in lines) for lines in answering
-    ):
-        return errors
+    )
     for block_start, lines in _blocks(ctx.text):
         if not _answers(lines):
             continue
         for offset, line in lines:
-            label, text = _split_answer_label(line)
+            label, _ = _split_answer_label(line)
             if label == "solution":
                 continue
-            if (
-                label is not None
-                and _prose_words(_CLOZE_RE.sub(r"\g<body>", text))
-                <= _EXPLANATION_WHOLE_CLOZE_WORDS
-                and _clozes_answer_whole(line, text)
-            ):
+            if label is None and not prose_measured:
                 continue
             counts = _long_clozes(line)
             if not counts:
                 continue
             errors.append(
                 _reports(
-                    "cloze_giant",
-                    f"a cloze here hides {counts[0]} words; split it so each "
-                    f"cloze hides at most {_MAX_CLOZE_WORDS}",
+                    rule,
+                    f"a cloze here hides {counts[0]} words; hide one step of "
+                    "the reasoning, not the whole sentence, in at most "
+                    f"{_ANSWER_CLOZE_WORDS} words, with the mathematics "
+                    "inside it not counted",
                     ctx,
                     block_start + offset,
+                    severity=Severity.WARNING,
                 )
             )
     return errors
