@@ -13,7 +13,7 @@ tags:
 
 # ferroxyl indicator solution
 
-__Ferroxyl indicator solution__ {@{consists of [potassium hexacyanoferrate(III)](potassium%20ferricyanide.md) and [phenolphthalein](phenolphthalein.md)}@}. The former turns {@{blue in the presence of [iron](iron.md)(II) ions}@}. The latter turns {@{pink in the presence of [hydroxide ions](hydroxide.md)}@}. <!--SR:!2028-11-27,912,210!2027-01-27,942,290!2026-12-03,1024,330-->
+__Ferroxyl indicator solution__ {@{consists of [potassium hexacyanoferrate(III)](potassium%20ferricyanide.md) and [phenolphthalein](phenolphthalein.md)}@}. The former turns {@{blue in the presence of [iron](iron.md)(II) ions}@}. The latter turns {@{pink in the presence of [hydroxide ions](hydroxide.md)}@}. <!--SR:!2028-11-27,912,210!2027-01-27,942,290!fsrs,2037-04-23T00:00:00.000Z,3794,3793.61369147,1,2,11,0,0,2026-12-03T00:00:00.000Z-->
 
 ## references
 

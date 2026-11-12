@@ -941,7 +941,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiceless alveolo-palatal fricative](voiceless%20alveolo-palatal%20fricative.md):@:[English](English%20language.md) _**t**uesday_ \[ˈt̺ʲɕuːzdeɪ\] <!--SR:!fsrs,2027-02-05T00:00:00.000Z,69,68.50073874,9.87923939,2,11,0,0,2026-11-28T00:00:00.000Z-->
 - [voiced alveolar plosive](voiced%20alveolar%20plosive.md):@:[English](English%20language.md) _**d**ash_ \[ˈdæʃ\] <!--SR:!2029-08-03,1420,273-->
 - [voiced alveolar implosive](voiced%20alveolar%20implosive.md):@:[Vietnamese](Vietnamese%20language.md) _**đ**uôi_ \[ɗuəj\] "tail" <!--SR:!2027-11-07,552,193-->
-- [voiced retroflex plosive](voiced%20retroflex%20plosive.md):@:[Swedish](Swedish%20language.md) _no**rd**_ \[nuːɖ\] "north" <!--SR:!fsrs,2026-12-03T00:00:00.000Z,49,48.83913809,9.95591256,2,9,0,0,2026-10-15T00:00:00.000Z-->
+- [voiced retroflex plosive](voiced%20retroflex%20plosive.md):@:[Swedish](Swedish%20language.md) _no**rd**_ \[nuːɖ\] "north" <!--SR:!fsrs,2027-02-04T00:00:00.000Z,63,63.24619193,9.94118502,2,10,0,0,2026-12-03T00:00:00.000Z-->
 - [voiced dental fricative](voiced%20dental%20fricative.md):@:[English](English%20language.md) _**th**is_ \[ðɪs\] <!--SR:!2027-06-27,752,233-->
 - [voiced alveolar affricate](voiced%20alveolar%20affricate.md):@:[English](English%20language.md) _**d**ay_ \[ˈd͡zeˑɪ̯\] <!--SR:!fsrs,2027-03-15T00:00:00.000Z,119,119.18733955,9.97047151,2,8,0,0,2026-11-16T00:00:00.000Z-->
 - [voiced postalveolar affricate](voiced%20postalveolar%20affricate.md):@:[English](English%20language.md) _**g**ene_ \[ˈd͡ʒiːn\] <!--SR:!2027-03-28,303,158-->
@@ -1123,7 +1123,7 @@ Here is a list of common IPA diacritics and their descriptions:
 - [syllabic](syllabic%20consonant.md):@:[English](English%20language.md) _butt**on**_ \[ˈbʌʔn̩\] <!--SR:!2027-03-23,469,218-->
 - [dental/alveolar](dental%20consonant.md):@:[Spanish](Spanish%20language.md) _**d**os_ \[ˈd̪os\] "two" <!--SR:!2027-02-23,295,278-->
 - [aspirated](aspirated%20consonant.md):@:[English](English%20language.md) _**c**ome_ \[kʰɐm\] <!--SR:!2031-12-09,2245,358-->
-- [ejective](ejective%20consonant.md):@:[Zulu](Zulu%20language.md) _u**k**uza_ \[uˈɠuːza\] "come" <!--SR:!2026-12-03,546,197-->
+- [ejective](ejective%20consonant.md):@:[Zulu](Zulu%20language.md) _u**k**uza_ \[uˈɠuːza\] "come" <!--SR:!fsrs,2029-05-29T00:00:00.000Z,908,908.04228789,7.47524087,2,10,0,0,2026-12-03T00:00:00.000Z-->
 - [long](longness%20(phonetics).md):@:[English](English%20language.md) _shh!_ \[ʃː\] <!--SR:!2028-07-25,1278,338-->
 - [half-long](half-longness%20(phonetics).md):@:[English](English%20language.md) _caught_ \[ˈkʰɔˑt\] <!--SR:!2029-08-10,1403,279-->
 - [primary stress](stress%20(lingustics).md):@:[English](English%20language.md) _pronunciation_ \[pɹ̥əʊ̯ˌnɐnsiˈeɪʃn̩\] <!--SR:!2032-02-23,2274,331-->

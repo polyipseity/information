@@ -339,7 +339,7 @@ The content is in teaching order.
 - Lorentz force
     - Lorentz force / Laplace force ::@:: When a wire carrying an electric current is placed in a magnetic field, each of the moving charges, which comprise the current, experiences the Lorentz force, and together they can create a macroscopic force on the wire \(sometimes called the __Laplace force__\). <!--SR:!2027-09-20,754,433!fsrs,2033-04-01T00:00:00.000Z,2314,2314.0489373,1,2,10,0,0,2026-11-30T00:00:00.000Z-->
         - Lorentz force / Laplace force / equation ::@:: If, in addition, the magnetic field is inhomogeneous, the net force on a stationary rigid wire carrying a steady current _I_ is given by integration along the wire, $$\mathbf {F} =I\int \mathrm {d} {\boldsymbol {\ell } }\times \mathbf {B} .$$ \(This assumes the current is the same across the wire, which is typically the case.\) <!--SR:!fsrs,2033-04-06T00:00:00.000Z,2318,2318.02883016,1,2,10,0,0,2026-12-01T00:00:00.000Z!2029-04-09,1180,393-->
-        - Lorentz force / Laplace force / application ::@:: One application of this is [Ampère's force law](Ampère's%20force%20law.md), which describes how two current-carrying wires can attract or repel each other, since each experiences a Lorentz force from the other's magnetic field. <!--SR:!2027-09-14,748,433!2026-12-03,508,413-->
+        - Lorentz force / Laplace force / application ::@:: One application of this is [Ampère's force law](Ampère's%20force%20law.md), which describes how two current-carrying wires can attract or repel each other, since each experiences a Lorentz force from the other's magnetic field. <!--SR:!2027-09-14,748,433!fsrs,2033-04-16T00:00:00.000Z,2326,2325.98562,1,2,10,0,0,2026-12-03T00:00:00.000Z-->
 
 ## week 5 tutorial 1
 

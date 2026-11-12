@@ -64,7 +64,7 @@ For {@{continuous-time signals}@}: {@{$$\langle u,v\rangle = \int_{0}^{T}u(t)v^*
 
 ### coordinates
 
-To locate {@{a transmitted waveform $s(t)$}@} within {@{its signal-space representation}@}, select {@{an orthonormal basis $\{\phi_{k}(t)\}$}@} spanning {@{the subspace of interest}@}. {@{Coordinates}@} are {@{projection coefficients}@}: {@{$$a_k=\langle s(t),\,\phi_{k}(t)\rangle \;=\;\int_{0}^{T}s(t)\,\phi_{k}^{*}(t)\,dt \,.$$}@} <!--SR:!fsrs,2029-02-19T00:00:00.000Z,904,904.19353564,1,2,9,0,0,2026-08-30T00:00:00.000Z!2026-12-18,285,345!2027-02-01,322,345!2027-01-27,318,345!2027-02-03,324,345!2026-12-03,272,345!2027-07-25,448,325-->
+To locate {@{a transmitted waveform $s(t)$}@} within {@{its signal-space representation}@}, select {@{an orthonormal basis $\{\phi_{k}(t)\}$}@} spanning {@{the subspace of interest}@}. {@{Coordinates}@} are {@{projection coefficients}@}: {@{$$a_k=\langle s(t),\,\phi_{k}(t)\rangle \;=\;\int_{0}^{T}s(t)\,\phi_{k}^{*}(t)\,dt \,.$$}@} <!--SR:!fsrs,2029-02-19T00:00:00.000Z,904,904.19353564,1,2,9,0,0,2026-08-30T00:00:00.000Z!2026-12-18,285,345!2027-02-01,322,345!2027-01-27,318,345!2027-02-03,324,345!fsrs,2030-05-08T00:00:00.000Z,1252,1252.09840125,1,2,9,0,0,2026-12-03T00:00:00.000Z!2027-07-25,448,325-->
 
 {@{The vector $(a_1,a_2,\dots ,a_N)^T$}@} is {@{the Euclidean-space point representing the waveform}@}. {@{Coefficients}@} are {@{unique}@} because {@{the basis is orthonormal}@}. <!--SR:!2027-01-07,302,345!2027-01-21,311,345!2027-02-10,330,345!2027-01-23,314,345!2026-12-28,294,345-->
 

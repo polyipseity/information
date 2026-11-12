@@ -146,7 +146,7 @@ When calling {@{such a method}@}, you may {@{supply the argument explicitly}@} v
 
 However, {@{explicit passing}@} is {@{usually unnecessary}@}. If the caller {@{omits the `using` argument}@}, the compiler {@{automatically searches for an appropriate instance of `Ordering[T]`}@} and {@{supplies it implicitly}@}, as in the second line above. <!--SR:!2027-02-24,375,368!2027-03-02,379,368!2027-03-03,380,368!2027-01-25,351,368!2027-03-31,403,368-->
 
-{@{The syntax for `using` clauses}@} is {@{flexible}@}. {@{A single clause}@} may contain {@{multiple parameters}@}: <!--SR:!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-12-19,317,349!2026-12-03,303,349!2027-01-28,349,349-->
+{@{The syntax for `using` clauses}@} is {@{flexible}@}. {@{A single clause}@} may contain {@{multiple parameters}@}: <!--SR:!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-12-19,317,349!fsrs,2030-09-26T00:00:00.000Z,1393,1392.80167216,1,2,9,0,0,2026-12-03T00:00:00.000Z!2027-01-28,349,349-->
 
 > [!example] __`using` multiple parameters__
 >
@@ -312,7 +312,7 @@ In {@{some sense}@}, {@{conditional `given`}@} {@{pattern matches on types and t
 
 ### recursive `given` resolution
 
-When {@{a method}@} requires {@{an instance that depends on another instance}@}, {@{the compiler}@} {@{resolves them recursively}@}. For example: <!--SR:!2027-01-24,345,349!2027-01-23,344,349!2026-12-03,303,349!2026-12-25,322,349-->
+When {@{a method}@} requires {@{an instance that depends on another instance}@}, {@{the compiler}@} {@{resolves them recursively}@}. For example: <!--SR:!2027-01-24,345,349!2027-01-23,344,349!fsrs,2030-09-26T00:00:00.000Z,1393,1392.80167216,1,2,9,0,0,2026-12-03T00:00:00.000Z!2026-12-25,322,349-->
 
 > [!example] __`listOrdering`__
 >
@@ -370,7 +370,7 @@ In Scala {@{a _type class_}@} is {@{a generic trait}@} that declares {@{operatio
 
 {@{Type classes}@} turn {@{a type into a value}@} by providing {@{a trait and concrete instances}@}. They enable {@{_ad-hoc polymorphism_}@}: {@{different implementations}@} for {@{different types}@}. <!--SR:!fsrs,2030-07-08T00:00:00.000Z,1329,1328.76280435,1,2,9,0,0,2026-11-17T00:00:00.000Z!2026-12-11,311,349!2027-01-18,339,349!fsrs,2030-08-27T00:00:00.000Z,1369,1368.83776698,1,2,9,0,0,2026-11-27T00:00:00.000Z!2027-01-21,342,349!fsrs,2030-08-27T00:00:00.000Z,1369,1368.83776698,1,2,9,0,0,2026-11-27T00:00:00.000Z-->
 
-{@{Other languages}@} adopt {@{similar concepts}@}: {@{Haskell}@}'s {@{built-in type classes}@}, {@{Rust}@}'s {@{traits}@}, and {@{emerging features}@} in {@{Agda, Lean, and OCaml}@}. In {@{Scala}@} {@{the mechanism is realized}@} through {@{contextual parameters (`using`) and implicit resolution}@}, giving programmers {@{fine-grained control over polymorphic behaviour}@}. <!--SR:!fsrs,2030-06-08T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-11T00:00:00.000Z!fsrs,2030-08-02T00:00:00.000Z,1349,1348.82166006,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-21,319,349!2026-12-03,303,349!fsrs,2030-06-04T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-07T00:00:00.000Z!fsrs,2030-06-28T00:00:00.000Z,1321,1320.72713296,1,2,9,0,0,2026-11-15T00:00:00.000Z!2027-01-24,345,349!2026-12-06,306,349!2026-12-28,325,349!2027-01-24,345,349!2027-01-22,343,349!2027-01-31,352,349-->
+{@{Other languages}@} adopt {@{similar concepts}@}: {@{Haskell}@}'s {@{built-in type classes}@}, {@{Rust}@}'s {@{traits}@}, and {@{emerging features}@} in {@{Agda, Lean, and OCaml}@}. In {@{Scala}@} {@{the mechanism is realized}@} through {@{contextual parameters (`using`) and implicit resolution}@}, giving programmers {@{fine-grained control over polymorphic behaviour}@}. <!--SR:!fsrs,2030-06-08T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-11T00:00:00.000Z!fsrs,2030-08-02T00:00:00.000Z,1349,1348.82166006,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-21,319,349!fsrs,2030-09-26T00:00:00.000Z,1393,1392.80167216,1,2,9,0,0,2026-12-03T00:00:00.000Z!fsrs,2030-06-04T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-07T00:00:00.000Z!fsrs,2030-06-28T00:00:00.000Z,1321,1320.72713296,1,2,9,0,0,2026-11-15T00:00:00.000Z!2027-01-24,345,349!2026-12-06,306,349!2026-12-28,325,349!2027-01-24,345,349!2027-01-22,343,349!2027-01-31,352,349-->
 
 ### type class pattern
 

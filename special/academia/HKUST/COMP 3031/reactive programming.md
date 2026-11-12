@@ -112,7 +112,7 @@ FRP describes programs that react {@{to sequences of events or signals}@}. {@{A 
 > ```
 <!--SR:!2026-12-09,255,330!2027-02-14,293,330-->
 
-{@{The `Signal` type}@} is {@{immutable}@}; its value is {@{computed when `apply()` is called}@}. {@{`Signal.Var`}@} extends {@{`Signal` with an `update` method}@}, allowing {@{direct mutation}@}: <!--SR:!2027-01-01,272,330!2026-12-16,257,330!2026-12-03,248,330!2026-12-09,255,330!2026-12-27,268,330!2027-02-14,293,330-->
+{@{The `Signal` type}@} is {@{immutable}@}; its value is {@{computed when `apply()` is called}@}. {@{`Signal.Var`}@} extends {@{`Signal` with an `update` method}@}, allowing {@{direct mutation}@}: <!--SR:!2027-01-01,272,330!2026-12-16,257,330!fsrs,2029-12-06T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-12-03T00:00:00.000Z!2026-12-09,255,330!2026-12-27,268,330!2027-02-14,293,330-->
 
 > [!example] __`Signal.Var` usage__
 >

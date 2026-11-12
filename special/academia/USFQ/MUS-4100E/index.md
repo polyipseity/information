@@ -386,7 +386,7 @@ The content is in teaching order.
 - datetime: 2025-02-24T08:30:00-05:00/2025-02-24T09:50:00-05:00, PT1H20M
     - local: 2025-02-24T21:30:00+08:00/2025-02-24T22:50:00+08:00, PT1H20M
 - [stride](../../../../general/strid%20(music).md) (Harlem stride) ::@:: a 1920s and 1930s jazz piano style that arose from ragtime players, developed in Harlem; large jumps on the left hand, improvisation on the right hand; huge part of the Harlem Renaissance <!--SR:!2026-12-25,530,402!2027-09-04,746,422-->
-    - stride / vs. ragtime ::@:: The former has more harmony (chords), is improvised, and started later than the latter. The former was from the East Coast (New York City), while the latter was from the Midwest (St. Louis). <!--SR:!2026-12-28,533,402!2026-12-03,514,402-->
+    - stride / vs. ragtime ::@:: The former has more harmony (chords), is improvised, and started later than the latter. The former was from the East Coast (New York City), while the latter was from the Midwest (St. Louis). <!--SR:!2026-12-28,533,402!fsrs,2033-05-10T00:00:00.000Z,2350,2349.83313843,1,2,10,0,0,2026-12-03T00:00:00.000Z-->
     - stride / originator ::@:: James P. Johnson (largely forgotten) <!--SR:!2027-06-24,691,422!2027-08-16,735,422-->
     - stride / players ::@:: Art Tatum, Fats Waller <!--SR:!2027-09-11,753,422!2027-08-25,741,422-->
 - [James P. Johnson](../../../../general/James%20P.%20Johnson.md) (1894–1955) ::@:: from New Jersey; father of stride piano, and responsible for popularizing the Charleston dance <!--SR:!2027-07-03,699,422!fsrs,2033-02-19T00:00:00.000Z,2290,2290.14865099,1,2,10,0,0,2026-11-13T00:00:00.000Z-->

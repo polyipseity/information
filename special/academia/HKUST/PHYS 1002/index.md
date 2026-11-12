@@ -40,7 +40,7 @@ The content is in teaching order. Extra information and corrections are included
 
 - datetime: 2024-06-18T10:00:00+08:00/2024-06-18T12:30:00+08:00
 - course textbook ::@:: "The Cosmic Perspective", 7th Edition by Bennett, Donahue, Schneider & Voit, Pearson New International Edition <!--SR:!2027-04-13,775,330!2029-04-21,1359,350-->
-- course parts ::@:: developing perspective (chapter 1–3), key concepts for astronomy (chapter 4–6), stars (chapter 14–18), galaxies & beyond (chapter 19–23) <!--SR:!2026-12-03,669,330!2029-05-30,1396,350-->
+- course parts ::@:: developing perspective (chapter 1–3), key concepts for astronomy (chapter 4–6), stars (chapter 14–18), galaxies & beyond (chapter 19–23) <!--SR:!fsrs,2034-01-27T00:00:00.000Z,2612,2612.14837045,1,2,10,0,0,2026-12-03T00:00:00.000Z!2029-05-30,1396,350-->
 - [flat Earth](../../../../general/flat%20Earth.md) ::@:: superseded by spherical Earth <!--SR:!2028-11-04,1232,350!2027-08-08,849,330-->
     - [§ Greece: spherical Earth](../../../../general/flat%20Earth.md#Greece%20spherical%20Earth)
 - [geocentric model](../../../../general/geocentric%20model.md) ::@:: superseded by Copernican heliocentrism <!--SR:!fsrs,2031-12-17T00:00:00.000Z,1999,1999.39584407,1,2,10,0,0,2026-06-27T00:00:00.000Z!2030-06-07,1646,330-->

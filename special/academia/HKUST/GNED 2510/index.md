@@ -131,7 +131,7 @@ The content is in teaching order.
 - work cultures
 - How is a work offer properly confirmed? ::@:: confirm the draft employment contract <!--SR:!2028-12-07,1198,350!2031-05-11,1845,330-->
 - What if you need more time to consider a work offer? ::@:: Sincerely ask for more time to consider and state your expected reply time to the employer. <!--SR:!2028-05-04,1026,350!2027-06-18,747,330-->
-- What to do after confirming an offer? ::@:: stop interviewing, nicely decline other work offers <!--SR:!2026-12-03,613,330!2029-07-17,1365,350-->
+- What to do after confirming an offer? ::@:: stop interviewing, nicely decline other work offers <!--SR:!fsrs,2033-07-19T00:00:00.000Z,2420,2419.79003449,1,2,10,0,0,2026-12-03T00:00:00.000Z!2029-07-17,1365,350-->
 - job offer ::@:: Check if it is legitimate and is not missing any crucial information! <!--SR:!2027-08-07,797,330!2029-04-10,1294,350-->
     - job offer crucial information ::@:: company logo, contact information, job title, job details, salary/compensation, benefits, expiration date <!--SR:!fsrs,2031-09-09T00:00:00.000Z,1747,1746.84986885,2.98092302,2,10,0,0,2026-11-27T00:00:00.000Z!2030-03-17,1491,310-->
     - declining a job offer ::@:: act quick, communicate professionally, express appreciation <!--SR:!2028-04-18,1010,350!2028-11-02,1170,350-->

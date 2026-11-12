@@ -313,7 +313,7 @@ In the `.data` segment, {@{data are stored into the memory _contagiously_ in dec
 - `.float <f1>, ..., <fn>` ::@:: Stores the specified _n_ floats \(32 bits, 4 bytes\). <!--SR:!2029-09-12,1279,350!2029-12-12,1329,350-->
 - `.globl <sym>` ::@:: \(The name is _not_ a typo!\) Declare the symbol `<sym>` is global. The symbol is not removed from the resulting object/program file. That is, other assembly files can reference it. This is also required for the entry point label, so that the OS knows where to start the program. <!--SR:!2029-02-08,1102,350!2029-12-13,1330,350-->
 - `.half <h1>, ..., <hn>` ::@:: Stores the specified _n_ half-words \(16 bits, 2 bytes\). <!--SR:!2029-06-12,1204,350!2029-07-19,1235,350-->
-- `.space <num>` ::@:: Reserves the specified number of _bytes_. This can be used to define global but uninitialized variables. <!--SR:!2026-12-23,503,401!2026-12-03,483,401-->
+- `.space <num>` ::@:: Reserves the specified number of _bytes_. This can be used to define global but uninitialized variables. <!--SR:!2026-12-23,503,401!fsrs,2033-01-06T00:00:00.000Z,2226,2226.23807926,1,2,10,0,0,2026-12-03T00:00:00.000Z-->
 - `.text [<addr>]` ::@:: Starts the code \(text\) segment, starting at the \(optional\) address `<addr>`. <!--SR:!2028-03-02,815,330!2029-08-02,1247,350-->
 - `.word <w1>, ..., <wn>` ::@:: Stores the specified _n_ words \(32 bits, 4 bytes\). <!--SR:!2029-12-27,1344,350!2029-08-10,1254,350-->
 

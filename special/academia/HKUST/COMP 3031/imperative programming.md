@@ -98,7 +98,7 @@ Scala offers a {@{concise `for` syntax}@} that is essentially {@{syntactic sugar
 > ```
 <!--SR:!2026-12-07,258,330!2027-01-18,292,330!fsrs,2029-12-28T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-12-02T00:00:00.000Z-->
 
-{@{The translation of nested Java-style loops}@} is also {@{straightforward using nested `for`}@}: <!--SR:!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!2026-12-03,255,330-->
+{@{The translation of nested Java-style loops}@} is also {@{straightforward using nested `for`}@}: <!--SR:!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!fsrs,2030-01-02T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-12-03T00:00:00.000Z-->
 
 > [!example] __nested for‑loops translation__
 >
@@ -118,7 +118,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 
 ### circuit description language
 
-{@{A circuit}@} is built from {@{_wires_ carrying Boolean signals and _components_ that transform those signals}@}. {@{The basic gates—an inverter, an AND gate and an OR gate}@}—are the {@{building blocks for more complex structures such as half‑adders or full‑adders}@}. Each component has {@{a fixed delay}@}; its output is updated only {@{after that amount of simulated time}@}. <!--SR:!fsrs,2029-11-03T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-15T00:00:00.000Z!2026-12-18,267,330!2026-12-03,255,330!2026-12-08,259,330!fsrs,2029-09-02T00:00:00.000Z,1036,1036.0812332,1,2,9,0,0,2026-11-01T00:00:00.000Z!2027-01-19,293,330-->
+{@{A circuit}@} is built from {@{_wires_ carrying Boolean signals and _components_ that transform those signals}@}. {@{The basic gates—an inverter, an AND gate and an OR gate}@}—are the {@{building blocks for more complex structures such as half‑adders or full‑adders}@}. Each component has {@{a fixed delay}@}; its output is updated only {@{after that amount of simulated time}@}. <!--SR:!fsrs,2029-11-03T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-15T00:00:00.000Z!2026-12-18,267,330!fsrs,2030-01-02T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-12-03T00:00:00.000Z!2026-12-08,259,330!fsrs,2029-09-02T00:00:00.000Z,1036,1036.0812332,1,2,9,0,0,2026-11-01T00:00:00.000Z!2027-01-19,293,330-->
 
 > [!example] __basic gates__
 >

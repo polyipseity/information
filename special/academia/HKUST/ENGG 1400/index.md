@@ -169,7 +169,7 @@ The content is in teaching order.
 
 - datetime: 2024-10-31T10:30:00+08:00/2024-10-31T12:20:00+08:00
 - wild ideas
-    - wild ideas / motivation ::@:: If you do not try to think of "wild ideas", often your ideas ends up "inside the box", respecting your assumptions. Thinking of "wild ideas" can help break your assumptions. <!--SR:!2026-12-21,633,414!2026-12-03,617,414-->
+    - wild ideas / motivation ::@:: If you do not try to think of "wild ideas", often your ideas ends up "inside the box", respecting your assumptions. Thinking of "wild ideas" can help break your assumptions. <!--SR:!2026-12-21,633,414!fsrs,2034-06-18T00:00:00.000Z,2754,2754.17264872,1,2,10,0,0,2026-12-03T00:00:00.000Z-->
     - wild ideas / brainstorming ::@:: Frame a good question, ideally starting with "How might I...". Warm up your brain. Brainstorm many ideas using rules, ideally with other people. Select based on criteria. Extract insights (e.g. delightful idea, good idea). <!--SR:!2027-03-13,699,414!2026-12-10,623,414-->
 - activity 1: decision making ::@:: Jot down a real decision you need to make and its associated emotions. Share it with others. <!--SR:!2027-01-01,642,414!2026-12-23,635,414-->
 - decision making
@@ -229,7 +229,7 @@ The content is in teaching order.
     - prototype / characteristics ::@:: cheap, easy, quick, so that you can learn about something for little cost <!--SR:!2027-11-25,904,449!2027-12-08,915,449-->
     - prototype / methods ::@:: You can talk to others on your ideas. Get to know _their stories_, which may change your life. <p> You can also experience your prototype. Get a feeling and a sense before investing more time and resources on your ideas. <!--SR:!2027-12-13,920,449!2027-12-30,927,449-->
 - activity 2: prototyping odysseys ::@:: Choose 1 to 2 parts of your odysseys that you are curious about and explore further. <!--SR:!2027-12-24,921,449!2027-11-14,893,449-->
-    - activity 2: prototyping odysseys / framing ::@:: Remember to _frame_ your questions well: Start with "How might I prototype...?". Don't prototype _deciding_. Don't mix multiple questions. Don't ask questions with binary answers. <!--SR:!2027-11-24,903,449!2026-12-03,601,429-->
+    - activity 2: prototyping odysseys / framing ::@:: Remember to _frame_ your questions well: Start with "How might I prototype...?". Don't prototype _deciding_. Don't mix multiple questions. Don't ask questions with binary answers. <!--SR:!2027-11-24,903,449!fsrs,2034-04-17T00:00:00.000Z,2692,2691.94830517,1,2,10,0,0,2026-12-03T00:00:00.000Z-->
     - activity 2: prototyping odysseys / action ::@:: What is one tiny step, a prototype conversation or experience, you could run in the next 2 weeks for little to no money to explore that curiosity? <p> In the next two weeks, I will... <!--SR:!2027-11-22,901,449!2027-11-26,905,449-->
     - activity 2: prototyping odysseys / feedback ::@:: Ask your peers for feedback on your prototype! <p> Feedback can be: I like (what worked?), I wish (what could change?), I wonder (new ideas?, questions?). <!--SR:!2027-11-23,902,449!2027-12-03,911,449-->
 - storytelling ::@:: Tell stories. <!--SR:!2027-12-10,917,449!2027-12-25,922,449-->

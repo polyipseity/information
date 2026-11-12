@@ -72,7 +72,7 @@ Consider a bank account example where {@{two concurrent deposits update a shared
 >   }
 > ```
 >
-> If `transfer(a,b,x)` runs {@{concurrently with `transfer(b,a,y)`}@}, each thread holds {@{one lock and waits for the other}@}, causing {@{a deadlock}@}. <!--SR:!2026-12-14,262,330!2026-12-03,253,330!2026-12-21,268,330!2026-12-10,256,330!2027-01-16,289,330!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z-->
+> If `transfer(a,b,x)` runs {@{concurrently with `transfer(b,a,y)`}@}, each thread holds {@{one lock and waits for the other}@}, causing {@{a deadlock}@}. <!--SR:!2026-12-14,262,330!fsrs,2029-12-26T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-12-03T00:00:00.000Z!2026-12-21,268,330!2026-12-10,256,330!2027-01-16,289,330!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z-->
 
 {@{An actor version of `BankAccount`}@}, `BankActor`, removes {@{the lock}@}: <!--SR:!fsrs,2029-11-27T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-11-20T00:00:00.000Z!2026-12-24,270,330-->
 
@@ -223,7 +223,7 @@ Actors are not {@{instantiated directly with `new`}@}. The runtime supplies {@{a
 > val counter = context.actorOf(Props[Counter], "counter")
 > ```
 >
-> {@{The returned value}@} is an {@{`ActorRef`}@}. Other actors use this reference to send {@{messages with the asynchronous operator `!`}@}. <!--SR:!fsrs,2029-10-23T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-12-03,253,330!fsrs,2029-11-07T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-15T00:00:00.000Z!2027-01-16,289,330!2027-01-05,277,330-->
+> {@{The returned value}@} is an {@{`ActorRef`}@}. Other actors use this reference to send {@{messages with the asynchronous operator `!`}@}. <!--SR:!fsrs,2029-10-23T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-11-12T00:00:00.000Z!fsrs,2029-12-26T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-12-03T00:00:00.000Z!fsrs,2029-11-07T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-15T00:00:00.000Z!2027-01-16,289,330!2027-01-05,277,330-->
 
 {@{Instantiating actors with `new`}@} would bypass {@{the actor framework’s bookkeeping}@}: the runtime would not assign {@{a unique `ActorRef`}@}, nor would it be able to schedule {@{the actor on another machine}@}. Using {@{the context’s `actorOf`}@} delegates {@{creation, life‑cycle management, and potential distribution}@} to the framework. <!--SR:!fsrs,2029-10-28T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-13T00:00:00.000Z!2026-12-05,255,330!fsrs,2029-10-28T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-13T00:00:00.000Z!2026-12-29,274,330!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z!fsrs,2029-12-10T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-11-29T00:00:00.000Z-->
 
@@ -302,7 +302,7 @@ If two messages {@{arrive concurrently}@}, they are {@{queued and executed one a
 > }
 > ```
 >
-> {@{The `!` operator}@} posts {@{a message asynchronously}@}, so {@{the main actor continues immediately after sending}@}. When {@{the counter replies with an `Int`}@}, the main actor {@{prints it and then stops itself}@}. <!--SR:!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z!2027-01-03,276,330!fsrs,2029-12-03T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z!2026-12-03,253,330!2026-12-08,257,330!2026-12-28,271,330!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!2027-01-06,278,330-->
+> {@{The `!` operator}@} posts {@{a message asynchronously}@}, so {@{the main actor continues immediately after sending}@}. When {@{the counter replies with an `Int`}@}, the main actor {@{prints it and then stops itself}@}. <!--SR:!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z!2027-01-03,276,330!fsrs,2029-12-03T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z!fsrs,2029-12-26T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-12-03T00:00:00.000Z!2026-12-08,257,330!2026-12-28,271,330!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!2027-01-06,278,330-->
 
 ### bank account example
 
@@ -492,7 +492,7 @@ When {@{several messages are sent to the same recipient}@} they keep {@{the orde
 > ```
 <!--SR:!2026-12-31,273,330!fsrs,2029-10-28T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-13T00:00:00.000Z!2026-12-15,263,330!2027-01-20,292,330!2027-01-11,285,330-->
 
-Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A controller}@} that aborts {@{all unfinished getters after a fixed delay}@} is shown; {@{the timeout message}@} is sent to {@{the controller itself}@}, preserving {@{encapsulation}@}. <!--SR:!2026-12-03,253,330!2026-12-30,275,330!2026-12-24,268,330!2027-01-20,290,330!fsrs,2029-12-15T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-30T00:00:00.000Z!2026-12-16,263,330-->
+Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A controller}@} that aborts {@{all unfinished getters after a fixed delay}@} is shown; {@{the timeout message}@} is sent to {@{the controller itself}@}, preserving {@{encapsulation}@}. <!--SR:!fsrs,2029-12-26T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-12-03T00:00:00.000Z!2026-12-30,275,330!2026-12-24,268,330!2027-01-20,290,330!fsrs,2029-12-15T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-30T00:00:00.000Z!2026-12-16,263,330-->
 
 > [!example] __`Controller` with overall timeout__
 >
