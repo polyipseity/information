@@ -158,7 +158,7 @@ However, {@{explicit passing}@} is {@{usually unnecessary}@}. If the caller {@{o
 > ```
 <!--SR:!2026-12-26,323,349!fsrs,2029-10-08T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-10-01T00:00:00.000Z!fsrs,2030-08-16T00:00:00.000Z,1363,1363.40564442,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2030-08-22T00:00:00.000Z,1365,1364.83793445,1,2,9,0,0,2026-11-26T00:00:00.000Z-->
 
-Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` clauses}@} can also be {@{interleaved with ordinary parameter lists}@}, allowing {@{a mix of implicit and explicit arguments}@}: <!--SR:!2027-01-02,329,349!fsrs,2030-08-08T00:00:00.000Z,1357,1356.83314545,1,2,9,0,0,2026-11-20T00:00:00.000Z!2026-11-28,298,349!2026-12-10,310,349!2027-01-29,350,349-->
+Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` clauses}@} can also be {@{interleaved with ordinary parameter lists}@}, allowing {@{a mix of implicit and explicit arguments}@}: <!--SR:!2027-01-02,329,349!fsrs,2030-08-08T00:00:00.000Z,1357,1356.83314545,1,2,9,0,0,2026-11-20T00:00:00.000Z!fsrs,2030-09-01T00:00:00.000Z,1373,1372.8358637,1,2,9,0,0,2026-11-28T00:00:00.000Z!2026-12-10,310,349!2027-01-29,350,349-->
 
 > [!example] __`using` in multiple parameter lists__
 >
@@ -192,7 +192,7 @@ Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` c
 
 ### context bound
 
-{@{A shorthand}@} for declaring {@{an implicit parameter}@} is {@{the _context bound_}@}, which {@{expands to a `using` clause under the hood}@}: <!--SR:!2027-01-01,328,349!2026-12-04,304,349!2026-12-08,308,349!2026-11-28,298,349-->
+{@{A shorthand}@} for declaring {@{an implicit parameter}@} is {@{the _context bound_}@}, which {@{expands to a `using` clause under the hood}@}: <!--SR:!2027-01-01,328,349!2026-12-04,304,349!2026-12-08,308,349!fsrs,2030-09-01T00:00:00.000Z,1373,1372.8358637,1,2,9,0,0,2026-11-28T00:00:00.000Z-->
 
 > [!example] __context bound__
 >
@@ -338,7 +338,7 @@ For {@{another example}@} of {@{recursive `given` resolution}@}, {@{pairs}@} can
 >     if c != 0 then c else ob.compare(x._2, y._2)
 > ```
 >
-> This enables {@{sorting of address records}@} represented as {@{`(Int, String)`}@} by {@{zip code and street name}@}. <!--SR:!2027-03-04,380,367!2027-03-29,400,367!2027-03-12,386,367!2027-01-02,329,349!2026-11-28,298,349!fsrs,2030-08-27T00:00:00.000Z,1369,1368.83776698,1,2,9,0,0,2026-11-27T00:00:00.000Z!2027-01-26,351,368!2027-03-14,388,368-->
+> This enables {@{sorting of address records}@} represented as {@{`(Int, String)`}@} by {@{zip code and street name}@}. <!--SR:!2027-03-04,380,367!2027-03-29,400,367!2027-03-12,386,367!2027-01-02,329,349!fsrs,2030-09-01T00:00:00.000Z,1373,1372.8358637,1,2,9,0,0,2026-11-28T00:00:00.000Z!fsrs,2030-08-27T00:00:00.000Z,1369,1368.83776698,1,2,9,0,0,2026-11-27T00:00:00.000Z!2027-01-26,351,368!2027-03-14,388,368-->
 
 ## context inference
 
@@ -351,7 +351,7 @@ If {@{exactly one suitable instance exists}@} it is {@{used}@}; otherwise {@{com
 
 - lexical scope ::@:: Visible `given` instances in the lexical scope, including inherited, imported and defined instances. <!--SR:!fsrs,2030-06-09T00:00:00.000Z,1309,1308.66035919,1,2,9,0,0,2026-11-08T00:00:00.000Z!2027-01-29,350,349-->
 - companion objects ::@:: Companion objects of `T`, its super-classes, its type arguments, super-classes of its type arguments, etc. <!--SR:!2026-12-17,315,349!fsrs,2029-10-31T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-10-05T00:00:00.000Z-->
-- enclosing objects ::@:: For inner classes, outer enclosing objects. <!--SR:!2027-01-30,351,349!2026-11-28,298,349-->
+- enclosing objects ::@:: For inner classes, outer enclosing objects. <!--SR:!2027-01-30,351,349!fsrs,2030-09-01T00:00:00.000Z,1373,1372.8358637,1,2,9,0,0,2026-11-28T00:00:00.000Z-->
 
 {@{This mechanism}@} allows {@{libraries}@} to provide {@{default behaviours}@} that can be {@{overridden locally without changing every call site}@}. <!--SR:!2026-12-21,319,349!2026-12-26,323,349!fsrs,2030-06-28T00:00:00.000Z,1321,1320.72713296,1,2,9,0,0,2026-11-15T00:00:00.000Z!fsrs,2030-07-04T00:00:00.000Z,1329,1328.76280435,1,2,9,0,0,2026-11-13T00:00:00.000Z-->
 

@@ -223,7 +223,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 
 ### infinite sequence operations
 
-{@{Other infinite sequences}@} may be obtained by {@{mapping or filtering an infinite sequence}@}. For example, {@{the list of multiples of four}@} is expressed as: <!--SR:!2026-11-28,300,345!fsrs,2030-08-02T00:00:00.000Z,1347,1347.43487446,1,2,9,0,0,2026-11-24T00:00:00.000Z!2027-01-15,338,345-->
+{@{Other infinite sequences}@} may be obtained by {@{mapping or filtering an infinite sequence}@}. For example, {@{the list of multiples of four}@} is expressed as: <!--SR:!fsrs,2030-08-22T00:00:00.000Z,1363,1363.22894066,1,2,9,0,0,2026-11-28T00:00:00.000Z!fsrs,2030-08-02T00:00:00.000Z,1347,1347.43487446,1,2,9,0,0,2026-11-24T00:00:00.000Z!2027-01-15,338,345-->
 
 > [!example] __deriving infinite sequences__
 >
@@ -331,7 +331,7 @@ Under {@{the class `Pouring`}@}, {@{all glasses and possible moves}@} are {@{gen
 >   ( for glass <- glasses yield Fill(glass) ) ++
 >   ( for from <- glasses; to <- glasses if from != to yield Pour(from, to) )
 > ```
-<!--SR:!fsrs,2030-07-22T00:00:00.000Z,1338,1338.10218951,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-11-28,298,345!2026-11-28,300,345-->
+<!--SR:!fsrs,2030-07-22T00:00:00.000Z,1338,1338.10218951,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2030-08-14T00:00:00.000Z,1355,1355.33514407,1,2,9,0,0,2026-11-28T00:00:00.000Z!fsrs,2030-08-22T00:00:00.000Z,1363,1363.22894066,1,2,9,0,0,2026-11-28T00:00:00.000Z-->
 
 {@{The search space}@} of {@{the water pouring problem}@} is {@{explored lazily}@}: <!--SR:!2027-01-11,334,345!fsrs,2029-11-13T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-12-01,302,345-->
 

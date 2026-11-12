@@ -43,7 +43,7 @@ tags:
 >
 > - {@{$\alpha_V$}@} is {@{the __coefficient of volume thermal expansion__}@}
 > - {@{$V$}@} is {@{the [volume](volume.md)}@}
-> - {@{$\frac{\mathrm{d}V}{\mathrm{d}T}$}@} is {@{the change of [volume](volume.md) $\mathrm{d}V$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}@} <!--SR:!2027-10-19,1091,350!2026-11-28,770,330!2027-04-20,411,373!2027-02-25,369,373!2027-03-15,382,373!2027-02-19,364,373!2027-04-18,410,373-->
+> - {@{$\frac{\mathrm{d}V}{\mathrm{d}T}$}@} is {@{the change of [volume](volume.md) $\mathrm{d}V$ per unit change in [temperature](temperature.md) $\mathrm{d}T$}@} <!--SR:!2027-10-19,1091,350!fsrs,2034-12-30T00:00:00.000Z,2954,2954.4215336,1,2,11,0,0,2026-11-28T00:00:00.000Z!2027-04-20,411,373!2027-02-25,369,373!2027-03-15,382,373!2027-02-19,364,373!2027-04-18,410,373-->
 
 #### isotropic materials
 

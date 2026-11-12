@@ -187,7 +187,7 @@ return chain.from_iterable([r.value for r in results])
 - [tin](tin.md):@:Sn<sup>2+</sup> <!--SR:!2028-04-27,1437,350-->
 - [lead](lead.md):@:Pb<sup>2+</sup> <!--SR:!2037-03-04,3946,350-->
 - [antimony](antimony.md):@:Sb<sup>3+</sup> <!--SR:!2028-07-30,993,230-->
-- [bismuth](bismuth.md):@:Bi<sup>3+</sup> <!--SR:!2026-11-28,673,290-->
+- [bismuth](bismuth.md):@:Bi<sup>3+</sup> <!--SR:!fsrs,2033-02-25T00:00:00.000Z,2281,2281.19960709,1.98030797,2,10,0,0,2026-11-28T00:00:00.000Z-->
 - [copper](copper.md):@:Cu<sup>2+</sup> <!--SR:!2031-03-12,2161,330-->
 - [tungsten](tungsten.md):@:W<sup>3+</sup> <!--SR:!2032-04-12,2467,330-->
 - [mercury](<mercury%20(element).md>):@:Hg<sup>2+</sup> <!--SR:!2030-10-13,1764,290-->

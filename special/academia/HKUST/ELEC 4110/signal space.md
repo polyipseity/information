@@ -51,7 +51,7 @@ For {@{continuous-time signals}@}: {@{$$\langle u,v\rangle = \int_{0}^{T}u(t)v^*
 ### geometric concepts
 
 - _Length_: ::@:: The magnitude of a vector is $\|v\| = \sqrt{\langle v,v\rangle}$. <!--SR:!2026-12-08,277,345!2027-02-23,340,345-->
-- _Distance_: ::@:: Between $u$ and $v$ it is $\|u-v\|=\sqrt{\langle u-v,\,u-v\rangle}$. <!--SR:!2026-11-28,268,345!2027-01-23,313,345-->
+- _Distance_: ::@:: Between $u$ and $v$ it is $\|u-v\|=\sqrt{\langle u-v,\,u-v\rangle}$. <!--SR:!fsrs,2030-04-17T00:00:00.000Z,1236,1236.10950743,1,2,9,0,0,2026-11-28T00:00:00.000Z!2027-01-23,313,345-->
 - _Angle_: ::@:: The cosine of the angle between non-zero vectors $u$ and $v$ is $$\cos\theta = \frac{\langle u,v\rangle}{\|u\|\;\|v\|} \,.$$ <!--SR:!2027-03-27,369,364!2027-02-13,332,345-->
 - _Orthogonality_: ::@:: Vectors are orthogonal if their inner product vanishes: $\langle u,v\rangle=0$. <!--SR:!2027-01-28,318,345!2027-03-20,363,364-->
 - _Circles and spheres_: ::@:: The set $\{x\in V : \|x-x_c\| = r\}$ describes a circle (or hypersphere) centered at $x_c$ with radius $r$. <!--SR:!2027-02-24,341,345!2027-02-16,334,345-->
@@ -104,7 +104,7 @@ Given {@{a basis $\{e_i\}$}@}, {@{the _coordinate representation_}@} is {@{$$[a]
 
 ### triangle inequality
 
-For {@{any vectors $a,b\in S$}@}, {@{$$\|a+b\|\leq \|a\|+\|b\|,$$}@} with {@{equality iff $a$ and $b$ are positively collinear}@}. <!--SR:!2027-02-08,328,345!2027-01-29,319,345!2026-11-28,268,345-->
+For {@{any vectors $a,b\in S$}@}, {@{$$\|a+b\|\leq \|a\|+\|b\|,$$}@} with {@{equality iff $a$ and $b$ are positively collinear}@}. <!--SR:!2027-02-08,328,345!2027-01-29,319,345!fsrs,2030-04-17T00:00:00.000Z,1236,1236.10950743,1,2,9,0,0,2026-11-28T00:00:00.000Z-->
 
 ### Cauchy–Schwarz inequality
 

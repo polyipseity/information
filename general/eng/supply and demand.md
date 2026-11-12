@@ -27,7 +27,7 @@ In {@{[microeconomics](microeconomics.md)}@}, __supply and demand__ is {@{an [ec
 
 In {@{situations where a firm has [market power](market%20power.md)}@}, {@{its decision on how much output to bring to market}@} influences {@{the market price, in violation of perfect competition}@}. There, {@{a more complicated model should be used}@}; for example, {@{an [oligopoly](oligopoly.md) or [differentiated-product](product%20differentiation.md) model}@}. Likewise, where {@{a buyer has market power}@}, {@{models such as [monopsony](monopsony.md)}@} will be more accurate. <!--SR:!2030-07-05,1631,370!2028-09-07,1088,350!2030-08-28,1670,370!2029-01-29,1200,350!2027-07-09,740,330!2029-06-06,1302,350!2028-12-09,1161,350-->
 
-In {@{[macroeconomics](macroeconomics.md)}@}, as well, {@{the [aggregate demand-aggregate supply model](AD–AS%20model.md)}@} has been used to {@{depict how the quantity of [total output](real%20gross%20domestic%20product.md) and the [aggregate price level](price%20level.md) may be determined in equilibrium}@}. <!--SR:!2029-06-15,1308,350!2028-01-08,870,330!2026-11-28,513,310-->
+In {@{[macroeconomics](macroeconomics.md)}@}, as well, {@{the [aggregate demand-aggregate supply model](AD–AS%20model.md)}@} has been used to {@{depict how the quantity of [total output](real%20gross%20domestic%20product.md) and the [aggregate price level](price%20level.md) may be determined in equilibrium}@}. <!--SR:!2029-06-15,1308,350!2028-01-08,870,330!fsrs,2030-05-22T00:00:00.000Z,1271,1271.43198455,3.24197837,2,10,0,0,2026-11-28T00:00:00.000Z-->
 
 ## graphical representations
 

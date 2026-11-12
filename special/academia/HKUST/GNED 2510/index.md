@@ -65,7 +65,7 @@ The content is in teaching order.
 - datetime: 2023-09-27T17:00:00+08:00/2023-09-27T18:50:00+08:00
 - topic: Portfolio Building (I)
 - skill vs. will
-- job trends ::@:: AI in recruitment and selection, applicant tracking system <!--SR:!2026-11-28,605,330!2028-02-19,931,330-->
+- job trends ::@:: AI in recruitment and selection, applicant tracking system <!--SR:!fsrs,2033-06-16T00:00:00.000Z,2392,2392.1447753,1,2,10,0,0,2026-11-28T00:00:00.000Z!2028-02-19,931,330-->
     - applicant tracking system ::@:: Not your enemy! Prefer (reverse) chronological order, add keywords, and avoid fancy formatting. <!--SR:!2028-12-21,1207,350!2028-08-12,1101,350-->
 - job description ::@:: Infer what attributes the job is look from from its job description. <!--SR:!2028-05-16,1035,350!2029-07-22,1370,350-->
 - [résumé](../../../résumé.md)
