@@ -104,6 +104,8 @@ _LIST_TAGS = frozenset({"ol", "ul"})
 _BOLD_FONT_STYLE_REGEX = re.compile(r"\bfont-weight\s*:\s*bold\b", re.IGNORECASE)
 """Italic font-style detector."""
 _ITALIC_FONT_STYLE_REGEX = re.compile(r"\bfont-style\s*:\s*italic\b", re.IGNORECASE)
+"""Classes that render italic from a stylesheet instead of an inline style."""
+_ITALIC_CLASSES = frozenset({"mvar"})
 """Collapse runs of empty blockquote lines."""
 _COLLAPSE_EMPTY_BLOCKQUOTE_RE = re.compile(r">\n(?:>\n)+")
 """Collapse consecutive spaces."""
@@ -1119,6 +1121,7 @@ class WikiHtmlConverter:
             ele.name in _BOLD_OR_ITALIC
             or _BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
             or _ITALIC_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
+            or _ITALIC_CLASSES.intersection(ele.get_attribute_list("class"))
         )
 
     @classmethod
@@ -1420,8 +1423,10 @@ class WikiHtmlConverter:
             or _BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
             and "mw-heading" not in classes
         )
-        italic = ele.name in {"em", "i"} or _ITALIC_FONT_STYLE_REGEX.search(
-            str(ele.get("style", ""))
+        italic = (
+            ele.name in {"em", "i"}
+            or _ITALIC_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
+            or _ITALIC_CLASSES.intersection(classes)
         )
         if bold and self._is_list_only(ele):
             # A bolded list is rendered by bolding each item, not by wrapping
@@ -1628,6 +1633,7 @@ class WikiHtmlConverter:
             return bool(
                 _BOLD_FONT_STYLE_REGEX.search(style)
                 or _ITALIC_FONT_STYLE_REGEX.search(style)
+                or _ITALIC_CLASSES.intersection(ele.get_attribute_list("class"))
             )
         return False
 
