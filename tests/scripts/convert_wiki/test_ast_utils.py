@@ -443,6 +443,31 @@ class TestFindTokenRange:
         # Second blockquote should start after "> First\n\n"
         assert text[start:].startswith("> Second") or "Second" in text[start:]
 
+    def test_image_only_paragraph_has_no_range(self) -> None:
+        """An image-only paragraph reconstructs to nothing, so it has no range."""
+        text = "hello\n\n![](https://example.com/x.png)"
+        tokens = _parse(text)
+        target = next(
+            i
+            for i, tok in enumerate(tokens)
+            if tok["type"] == "paragraph" and _reconstruct_token_raw(tok) == ""
+        )
+        assert _find_token_range(text, tokens, target) is None
+
+    def test_paragraph_after_image_only_paragraph(self) -> None:
+        """Locating a paragraph still works when an image-only one precedes it."""
+        text = "![](https://example.com/x.png)\n\nhello"
+        tokens = _parse(text)
+        target = next(
+            i
+            for i, tok in enumerate(tokens)
+            if tok["type"] == "paragraph" and _reconstruct_token_raw(tok) == "hello"
+        )
+        rng = _find_token_range(text, tokens, target)
+        assert rng is not None
+        start, end = rng
+        assert text[start:end] == "hello"
+
 
 # =========================================================================
 # _inject_after_token

@@ -204,7 +204,9 @@ def _find_token_range(
         if i > index:
             break
         raw = _reconstruct_token_raw(tok)
-        if raw is not None:
+        # An empty raw (an image-only paragraph, for instance) matches at any
+        # position, so it cannot locate its token and must not be used.
+        if raw:
             # ``str.find`` is used because ``raw`` is an approximation.
             found = text.find(raw, pos)
             if found < 0:
@@ -241,7 +243,7 @@ def _advance_to_next(
     """
     for j in range(current_idx + 1, len(tokens)):
         next_raw = _reconstruct_token_raw(tokens[j])
-        if next_raw is not None:
+        if next_raw:
             nf = text.find(next_raw, pos)
             if nf >= 0:
                 return nf
