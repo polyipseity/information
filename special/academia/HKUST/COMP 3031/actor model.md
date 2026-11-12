@@ -156,7 +156,7 @@ Actors are {@{instantiated through the actor system}@}, which supplies {@{a uniq
 > counter ! "incr"
 > ```
 >
-> Because {@{messages are queued}@}, the sender does not {@{wait for the receiver}@}; {@{this asynchronous, non‑blocking communication}@} is one of {@{the key advantages of the actor model}@}. <!--SR:!2027-01-06,281,330!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z!2026-12-05,255,330!fsrs,2029-09-06T00:00:00.000Z,1040,1039.96344033,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-20,264,330!fsrs,2029-11-22T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-19T00:00:00.000Z!2027-01-20,292,330!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z!2026-12-02,252,330!2026-12-31,276,330-->
+> Because {@{messages are queued}@}, the sender does not {@{wait for the receiver}@}; {@{this asynchronous, non‑blocking communication}@} is one of {@{the key advantages of the actor model}@}. <!--SR:!2027-01-06,281,330!fsrs,2029-11-12T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-16T00:00:00.000Z!2026-12-05,255,330!fsrs,2029-09-06T00:00:00.000Z,1040,1039.96344033,1,2,9,0,0,2026-11-01T00:00:00.000Z!2026-12-20,264,330!fsrs,2029-11-22T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-19T00:00:00.000Z!2027-01-20,292,330!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z!fsrs,2029-12-21T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-12-02T00:00:00.000Z!2026-12-31,276,330-->
 
 ### message passing
 
@@ -241,7 +241,7 @@ When {@{an actor receives a message}@} it may: {@{send other messages}@}; {@{cre
 >
 > After this call {@{the actor’s mailbox is drained and its resources are reclaimed}@}. Actors may also be stopped externally through {@{`system.actorOf(Props[MyActor])` followed by `system.stop(actor)`}@}. <!--SR:!fsrs,2029-12-13T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-11-24T00:00:00.000Z!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!2027-01-14,285,330-->
 
-{@{These primitives}@} give actors {@{a well‑defined lifecycle that fits naturally into the asynchronous, message‑driven model}@}. <!--SR:!2026-12-02,252,330!2027-01-13,286,330-->
+{@{These primitives}@} give actors {@{a well‑defined lifecycle that fits naturally into the asynchronous, message‑driven model}@}. <!--SR:!fsrs,2029-12-21T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-12-02T00:00:00.000Z!2027-01-13,286,330-->
 
 ### actor encapsulation
 
@@ -261,7 +261,7 @@ Actors expose only {@{a _mailbox_ through an `ActorRef`}@}. {@{No external code}
 
 ### message processing
 
-An actor processes {@{its mailbox _sequentially_}@}. When {@{a message arrives}@} it is {@{dequeued and handled by the current `Receive` function}@}. {@{Changing behaviour with `context.become`}@} takes effect {@{before the next message is taken}@}, so each message is {@{an atomic unit of execution}@}. <!--SR:!fsrs,2029-12-10T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-11-29T00:00:00.000Z!2026-12-19,266,330!2026-12-02,252,330!2027-01-17,290,330!2027-01-06,281,330!2027-01-24,293,330-->
+An actor processes {@{its mailbox _sequentially_}@}. When {@{a message arrives}@} it is {@{dequeued and handled by the current `Receive` function}@}. {@{Changing behaviour with `context.become`}@} takes effect {@{before the next message is taken}@}, so each message is {@{an atomic unit of execution}@}. <!--SR:!fsrs,2029-12-10T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-11-29T00:00:00.000Z!2026-12-19,266,330!fsrs,2029-12-21T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-12-02T00:00:00.000Z!2027-01-17,290,330!2027-01-06,281,330!2027-01-24,293,330-->
 
 > [!example] __message order__
 >
@@ -447,7 +447,7 @@ When {@{several messages are sent to the same recipient}@} they keep {@{the orde
 > ```
 <!--SR:!2026-12-10,259,330!2026-12-31,276,330!2027-01-22,291,330-->
 
-{@{A `Getter` actor}@} fetches {@{a URL asynchronously}@}, extracts {@{links with Jsoup}@}, forwards them to {@{its parent controller}@}, and stops {@{itself when finished or on failure}@}. {@{The `pipeTo` helper}@} simplifies sending {@{the future result back to the actor}@}. <!--SR:!2027-01-25,294,330!2027-01-04,279,330!2027-01-18,290,330!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z!2026-12-02,252,330!2027-01-21,293,330!fsrs,2029-09-27T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-05T00:00:00.000Z-->
+{@{A `Getter` actor}@} fetches {@{a URL asynchronously}@}, extracts {@{links with Jsoup}@}, forwards them to {@{its parent controller}@}, and stops {@{itself when finished or on failure}@}. {@{The `pipeTo` helper}@} simplifies sending {@{the future result back to the actor}@}. <!--SR:!2027-01-25,294,330!2027-01-04,279,330!2027-01-18,290,330!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z!fsrs,2029-12-21T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-12-02T00:00:00.000Z!2027-01-21,293,330!fsrs,2029-09-27T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-05T00:00:00.000Z-->
 
 > [!example] __`Getter` actor__
 >

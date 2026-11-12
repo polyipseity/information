@@ -302,7 +302,7 @@ return chain.from_iterable([r.value for r in results])
 - [cadmium](cadmium.md):@:[smelting](smelting.md) with [coke](<coke%20(fuel).md>) <!--SR:!2032-10-21,2617,330-->
 - [cobalt](cobalt.md):@:[smelting](smelting.md) with [coke](<coke%20(fuel).md>) <!--SR:!2032-04-03,2458,330-->
 - [nickel](nickel.md):@:[smelting](smelting.md) with [coke](<coke%20(fuel).md>) <!--SR:!2026-12-25,976,330-->
-- [tin](tin.md):@:[smelting](smelting.md) with [coke](<coke%20(fuel).md>) <!--SR:!2026-12-02,744,290-->
+- [tin](tin.md):@:[smelting](smelting.md) with [coke](<coke%20(fuel).md>) <!--SR:!fsrs,2033-09-28T00:00:00.000Z,2492,2492.2241549,1.98030797,2,11,0,0,2026-12-02T00:00:00.000Z-->
 - [lead](lead.md):@:[smelting](smelting.md) with [coke](<coke%20(fuel).md>) <!--SR:!2027-03-23,812,290-->
 - [antimony](antimony.md):@:heat or physical extraction <!--SR:!2030-03-29,1742,310-->
 - [bismuth](bismuth.md):@:heat or physical extraction <!--SR:!2032-04-24,2468,330-->

@@ -158,7 +158,7 @@ FRP describes programs that react {@{to sequences of events or signals}@}. {@{A 
 > ```
 <!--SR:!2027-02-13,292,330!2026-12-26,267,330-->
 
-{@{A _consolidator_}@} aggregates {@{balances of many accounts}@}: <!--SR:!2027-02-15,294,330!2026-12-02,247,330-->
+{@{A _consolidator_}@} aggregates {@{balances of many accounts}@}: <!--SR:!2027-02-15,294,330!fsrs,2029-12-02T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-12-02T00:00:00.000Z-->
 
 > [!example] __signal-based `consolidated`__
 >
@@ -287,4 +287,4 @@ To know {@{on whose behalf a signal expression is evaluated}@}, each signal must
 >   override def computeValue() = ()
 > }
 > ```
-<!--SR:!2026-12-02,247,330!2026-12-16,259,330!2027-02-13,292,330!2027-01-06,276,330-->
+<!--SR:!fsrs,2029-12-02T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-12-02T00:00:00.000Z!2026-12-16,259,330!2027-02-13,292,330!2027-01-06,276,330-->

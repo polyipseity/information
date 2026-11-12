@@ -541,7 +541,7 @@ The content is in teaching order.
 - datetime: 2025-03-21T16:30:00+08:00/2025-03-21T17:50:00+08:00, PT1H20M
 - topic: fundamentals of capital budgeting
 - free cash flow
-    - free cash flow / terminal cash flow ::@:: They happen at or after the end of a project. They include recovering net working capital, \(after-tax\) shutdown costs, after-tax liquidation value \(asset sale\), etc. <!--SR:!2027-11-01,760,434!2026-12-02,487,413-->
+    - free cash flow / terminal cash flow ::@:: They happen at or after the end of a project. They include recovering net working capital, \(after-tax\) shutdown costs, after-tax liquidation value \(asset sale\), etc. <!--SR:!2027-11-01,760,434!fsrs,2033-01-21T00:00:00.000Z,2242,2242.24024358,1,2,10,0,0,2026-12-02T00:00:00.000Z-->
 - depreciation
 - net book value
     - net book value / after-tax salvage value ::@:: The difference between the actual sale value and the net book value is the gain or loss from selling the asset in accounting. This gain or loss is subject to tax. If you have gain, you have tax due. If you have loss, you have tax credit. <p> Thus, the actual cash flow is the actual sale value and the tax effect: $$\text{after-tax salvage value} = \text{sale price} - \text{gain} \times \text{corporate marginal tax rate} \,.$$ For loss, the "gain" is negative, so the above equation still applies. <!--SR:!2027-02-23,554,413!2027-10-01,744,432-->

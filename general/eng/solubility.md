@@ -364,7 +364,7 @@ return await memorize_map(
 - [copper(II) hydroxide](copper(II)%20hydroxide.md):@:<span style="color: red;">insoluble</span> <!--SR:!fsrs,2028-10-07T00:00:00.000Z,737,737.3522771,5.93927837,2,10,0,0,2026-10-01T00:00:00.000Z-->
 - [copper(II) iodide](copper(II)%20iodide.md):@:<span style="color: green;">soluble</span> <!--SR:!2028-01-10,1027,298-->
 - [copper(II) oxide](copper(II)%20oxide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2028-03-07,1096,278-->
-- [copper(II) phosphate](copper(II)%20phosphate.md):@:<span style="color: red;">insoluble</span> <!--SR:!2026-12-02,500,258-->
+- [copper(II) phosphate](copper(II)%20phosphate.md):@:<span style="color: red;">insoluble</span> <!--SR:!fsrs,2031-02-20T00:00:00.000Z,1541,1540.59795329,3.58129205,2,10,0,0,2026-12-02T00:00:00.000Z-->
 - [copper(II) sulfate](copper(II)%20sulfate.md):@:<span style="color: green;">soluble</span> <!--SR:!2028-04-21,1096,298-->
 - [copper(II) sulfide](copper(II)%20sulfide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2027-07-28,777,258-->
 - [lead(II) bromide](lead(II)%20bromide.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!fsrs,2027-11-05T02:34:19.149Z,507,507.46351821,8.29241954,2,9,0,0,2026-06-16T02:34:19.149Z-->

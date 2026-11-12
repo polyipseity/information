@@ -190,7 +190,7 @@ The content is in teaching order.
 - decision making
     - decision making / choose ::@:: When choosing, self-awareness is very important. Try to be aware of how others have influenced your choice and whether such influences are good. Examples of influence include: You are told that you should work in a certain occupation. <!--SR:!2027-02-19,681,414!2026-12-29,639,414-->
     - decision making / let go & move on ::@:: After making a choice, treat it as irreversible. Try to enter a "cycle of non-regret". <p> It turns out your brain will "synthesize" happiness for an irreversible choice, kinda like "wanting what you get", not "getting what you want". Keeping your choice open inhibits the above, and may make you worse since you will have lower happiness and poorer performance. <!--SR:!2027-02-09,672,414!2026-12-11,624,414-->
-        - decision making / let go & move on / quotes ::@:: Quality of the decision does not equal quality of the outcome. (You cannot fully control the outcome for most things.) <p> Consequences of choices cannot influence choice itself. (Try to _really_ understand this seemingly-wrong sentence again...) <!--SR:!2026-12-02,616,414!2027-02-27,688,414-->
+        - decision making / let go & move on / quotes ::@:: Quality of the decision does not equal quality of the outcome. (You cannot fully control the outcome for most things.) <p> Consequences of choices cannot influence choice itself. (Try to _really_ understand this seemingly-wrong sentence again...) <!--SR:!fsrs,2034-06-13T00:00:00.000Z,2750,2750.28950932,1,2,10,0,0,2026-12-02T00:00:00.000Z!2027-02-27,688,414-->
 
 ## week 10 tutorial 1
 

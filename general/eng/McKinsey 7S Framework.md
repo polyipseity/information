@@ -22,7 +22,7 @@ The framework has {@{7 _interdependent_ elements}@}, of which {@{3 are _hard ele
 The 3 hard elements are {@{_strategy_, _structure_, and _systems_}@}. <!--SR:!2027-03-24,756,310-->
 
 - _strategy_ ::@:: actions intended to enhance competitive advantage <!--SR:!fsrs,2032-08-28T00:00:00.000Z,2257,2256.74188628,1,2,10,0,0,2026-06-24T00:00:00.000Z!2028-04-01,1081,350-->
-- _structure_ ::@:: coordination and integration mechanisms, and division of activities <!--SR:!2030-08-30,1607,290!2026-12-02,691,330-->
+- _structure_ ::@:: coordination and integration mechanisms, and division of activities <!--SR:!2030-08-30,1607,290!fsrs,2034-04-11T00:00:00.000Z,2687,2687.19094409,1,2,10,0,0,2026-12-02T00:00:00.000Z-->
 - _systems_ ::@:: formal and informal procedures for allocation, measurement, and reward <!--SR:!2031-09-05,2006,330!2027-01-07,674,330-->
 
 The 4 soft elements are {@{_shared values_, _skills_, _staff_, and _style_}@}. <!--SR:!2027-02-17,693,290-->

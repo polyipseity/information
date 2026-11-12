@@ -287,7 +287,7 @@ Since {@{the actual names of `given` instances}@} are {@{irrelevant to resolutio
 
 ### conditional `given`
 
-{@{A `given` instance}@} may itself {@{require an implicit argument}@}, making it {@{_conditional_ on if the implicit argument can be provided}@}. For example {@{a give instance that order lists}@} yields: <!--SR:!2026-12-02,302,349!fsrs,2030-06-28T00:00:00.000Z,1321,1320.72713296,1,2,9,0,0,2026-11-15T00:00:00.000Z!fsrs,2030-08-02T00:00:00.000Z,1349,1348.82166006,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2030-08-12T00:00:00.000Z,1357,1356.83314545,1,2,9,0,0,2026-11-24T00:00:00.000Z-->
+{@{A `given` instance}@} may itself {@{require an implicit argument}@}, making it {@{_conditional_ on if the implicit argument can be provided}@}. For example {@{a give instance that order lists}@} yields: <!--SR:!fsrs,2030-09-21T00:00:00.000Z,1389,1388.81181426,1,2,9,0,0,2026-12-02T00:00:00.000Z!fsrs,2030-06-28T00:00:00.000Z,1321,1320.72713296,1,2,9,0,0,2026-11-15T00:00:00.000Z!fsrs,2030-08-02T00:00:00.000Z,1349,1348.82166006,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2030-08-12T00:00:00.000Z,1357,1356.83314545,1,2,9,0,0,2026-11-24T00:00:00.000Z-->
 
 > [!example] __conditional `given`__
 >
@@ -374,7 +374,7 @@ In Scala {@{a _type class_}@} is {@{a generic trait}@} that declares {@{operatio
 
 ### type class pattern
 
-To {@{declare a "type class"}@} in Scala, use {@{`trait`}@}: <!--SR:!2026-12-09,309,349!2026-12-02,302,349-->
+To {@{declare a "type class"}@} in Scala, use {@{`trait`}@}: <!--SR:!2026-12-09,309,349!fsrs,2030-09-21T00:00:00.000Z,1389,1388.81181426,1,2,9,0,0,2026-12-02T00:00:00.000Z-->
 
 > [!example] __type class definition__
 >
@@ -436,7 +436,7 @@ With {@{such `given` instances}@} in scope {@{a polymorphic method}@} can be wri
 
 ### extension methods
 
-{@{A type-class trait}@} may declare {@{_extension methods_}@} that become {@{available when an instance is in scope}@}: <!--SR:!2026-12-02,302,349!fsrs,2030-08-02T00:00:00.000Z,1349,1348.82166006,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-25,322,349-->
+{@{A type-class trait}@} may declare {@{_extension methods_}@} that become {@{available when an instance is in scope}@}: <!--SR:!fsrs,2030-09-21T00:00:00.000Z,1389,1388.81181426,1,2,9,0,0,2026-12-02T00:00:00.000Z!fsrs,2030-08-02T00:00:00.000Z,1349,1348.82166006,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-25,322,349-->
 
 > [!example] __type class extension methods__
 >
