@@ -197,7 +197,7 @@ FRP describes programs that react {@{to sequences of events or signals}@}. {@{A 
 
 ### signal implementation
 
-{@{The core of a Scala FRP library}@} is {@{the `Signal` abstraction and its mutable variant `Var`}@}. {@{A `Signal[T]`}@} represents {@{a value that can change over time}@}; {@{a `Var[T]`}@} extends {@{it with an `update` method}@} so callers can {@{re-define the underlying expression}@}. {@{The implementation hides details}@} inside {@{the companion object `frp.Signal`}@}. <!--SR:!2026-12-06,251,330!2027-02-10,289,330!2026-12-30,270,330!2026-12-21,262,330!2026-12-20,261,330!2027-01-11,280,330!2027-01-01,272,330!2026-12-11,255,330!2026-12-01,248,330-->
+{@{The core of a Scala FRP library}@} is {@{the `Signal` abstraction and its mutable variant `Var`}@}. {@{A `Signal[T]`}@} represents {@{a value that can change over time}@}; {@{a `Var[T]`}@} extends {@{it with an `update` method}@} so callers can {@{re-define the underlying expression}@}. {@{The implementation hides details}@} inside {@{the companion object `frp.Signal`}@}. <!--SR:!2026-12-06,251,330!2027-02-10,289,330!2026-12-30,270,330!2026-12-21,262,330!2026-12-20,261,330!2027-01-11,280,330!2027-01-01,272,330!2026-12-11,255,330!fsrs,2029-12-04T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-12-01T00:00:00.000Z-->
 
 > [!example] __FRP interface__
 >

@@ -37,7 +37,7 @@ tags:
 > def f(x: Int) = x + 1
 > f(3)  // → 3 + 1 → 4
 > ```
-<!--SR:!2026-12-01,252,330!fsrs,2029-10-24T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-17T00:00:00.000Z-->
+<!--SR:!fsrs,2029-12-20T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-12-01T00:00:00.000Z!fsrs,2029-10-24T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-17T00:00:00.000Z-->
 
 {@{This rewriting}@} is {@{deterministic}@}, so if {@{a program terminates it always yields the same result}@}. {@{The Church–Rosser theorem}@} guarantees that {@{any two valid rewrite sequences converge to the same value}@}. A concrete illustration uses {@{`iterate` and `square`}@}: <!--SR:!2027-01-05,276,330!fsrs,2029-09-29T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-11T00:00:00.000Z!2026-12-31,272,330!2027-01-02,273,330!2026-12-24,266,330!2026-12-02,253,330-->
 

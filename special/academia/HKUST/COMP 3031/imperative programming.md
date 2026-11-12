@@ -65,7 +65,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 > ```
 <!--SR:!fsrs,2029-10-29T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-12-27,274,330!fsrs,2029-11-08T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-16T00:00:00.000Z-->
 
-{@{A repeat–until pattern}@} can also be expressed with {@{a pair of functions that form a fluent API}@}: <!--SR:!2026-12-01,253,330!2027-01-08,284,330-->
+{@{A repeat–until pattern}@} can also be expressed with {@{a pair of functions that form a fluent API}@}: <!--SR:!fsrs,2029-12-24T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-12-01T00:00:00.000Z!2027-01-08,284,330-->
 
 > [!example] __`repeat`/`until` syntax__
 >

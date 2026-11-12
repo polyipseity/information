@@ -53,7 +53,7 @@ return await memorize_seq(
 
 <!--pytextgen generate section="b9a9dd"--><!-- The following content is generated at 2024-01-04T20:17:52.949708+08:00. Any edits will be overridden! -->
 
-- _(begin)_→::@::←CO<sub>2</sub>(g) + H<sub>2</sub>O(l) → H<sub>2</sub>CO<sub>3</sub>(aq)<br/>[carbon dioxide](carbon%20dioxide.md) + [water](water.md) → [carbonic acid](carbonic%20acid.md) <!--SR:!2026-12-01,958,330!2028-07-18,1507,350-->
+- _(begin)_→::@::←CO<sub>2</sub>(g) + H<sub>2</sub>O(l) → H<sub>2</sub>CO<sub>3</sub>(aq)<br/>[carbon dioxide](carbon%20dioxide.md) + [water](water.md) → [carbonic acid](carbonic%20acid.md) <!--SR:!fsrs,2036-09-17T00:00:00.000Z,3578,3578.14960012,1,2,11,0,0,2026-12-01T00:00:00.000Z!2028-07-18,1507,350-->
 - CO<sub>2</sub>(g) + H<sub>2</sub>O(l) → H<sub>2</sub>CO<sub>3</sub>(aq)<br/>[carbon dioxide](carbon%20dioxide.md) + [water](water.md) → [carbonic acid](carbonic%20acid.md)→::@::←H<sub>2</sub>CO<sub>3</sub>(aq) + CaCO<sub>3</sub>(s) → Ca(HCO<sub>3</sub>)<sub>2</sub>(aq)<br/>[carbonic acid](carbonic%20acid.md) + [calcium carbonate](calcium%20carbonate.md) → [calcium bicarbonate](calcium%20bicarbonate.md) <!--SR:!2028-12-10,1450,310!2028-01-27,1369,350-->
 - H<sub>2</sub>CO<sub>3</sub>(aq) + CaCO<sub>3</sub>(s) → Ca(HCO<sub>3</sub>)<sub>2</sub>(aq)<br/>[carbonic acid](carbonic%20acid.md) + [calcium carbonate](calcium%20carbonate.md) → [calcium bicarbonate](calcium%20bicarbonate.md)→::@::←_(end)_ <!--SR:!2028-07-14,1504,350!2027-01-24,1000,330-->
 

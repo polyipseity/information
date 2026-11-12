@@ -24,7 +24,7 @@ tags:
 
 {@{A signal $s(t)$}@} can be described in {@{time domain, frequency domain, or geometric domain}@}; the first two are {@{special cases of the geometric domain}@}. <!--SR:!2027-03-28,370,364!2026-12-21,287,345!2027-02-14,333,345-->
 
-{@{Time domain}@}: {@{A signal $s(t)$}@} is {@{a function of continuous time}@} showing {@{waveform shape, duration, and temporal features}@}. {@{Energy}@} is {@{$\int|s(t)|^{2}$ over the signal's support}@}. <!--SR:!2027-04-19,387,364!2026-12-01,271,345!2027-01-07,302,345!2027-01-24,315,345!2027-02-02,323,345!2027-01-02,298,345-->
+{@{Time domain}@}: {@{A signal $s(t)$}@} is {@{a function of continuous time}@} showing {@{waveform shape, duration, and temporal features}@}. {@{Energy}@} is {@{$\int|s(t)|^{2}$ over the signal's support}@}. <!--SR:!2027-04-19,387,364!fsrs,2030-05-02T00:00:00.000Z,1248,1248.10391817,1,2,9,0,0,2026-12-01T00:00:00.000Z!2027-01-07,302,345!2027-01-24,315,345!2027-02-02,323,345!2027-01-02,298,345-->
 
 {@{Frequency domain}@}: {@{The Fourier transform $S(f)=\int_{-\infty}^{\infty}s(t)e^{-j2\pi ft}\,dt$}@} maps {@{the waveform into sinusoidal components}@}, revealing {@{bandwidth and spectral occupancy}@}. {@{Parseval's theorem}@} gives {@{$\int|s(t)|^{2}dt=\int|S(f)|^{2}df$}@}, so {@{energy is preserved}@}. <!--SR:!2026-12-08,277,345!2027-02-20,337,345!2026-12-06,275,345!2027-04-05,376,364!2027-02-25,342,345!2027-02-19,337,345!fsrs,2026-12-28T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-23T00:00:00.000Z-->
 

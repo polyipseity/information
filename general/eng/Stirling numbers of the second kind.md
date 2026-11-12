@@ -35,7 +35,7 @@ The notations used on this page for Stirling numbers are {@{not universal, and m
 
 Since {@{the Stirling number $\left\{ {n \atop k}\right\}$ counts set partitions of an _n_-element set into _k_ parts}@}, {@{the sum $$B_{n}=\sum _{k=0}^{n}\left\{ {n \atop k}\right\}$$ over all values of _k_}@} is {@{the total number of partitions of a set with _n_ members}@}. This number is {@{known as the _n_-th [Bell number](Bell%20number.md)}@}. <!--SR:!2029-09-28,1397,350!2029-11-07,1430,350!2029-05-31,1301,350!2028-02-29,915,330-->
 
-Analogously, {@{the [ordered Bell numbers](ordered%20Bell%20number.md)}@} can be computed from {@{the Stirling numbers of the second kind via $$a_{n}=\sum _{k=0}^{n}k!\left\{ {n \atop k}\right\}.$$}@}<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2029-08-12,1360,350!2026-12-01,560,310-->
+Analogously, {@{the [ordered Bell numbers](ordered%20Bell%20number.md)}@} can be computed from {@{the Stirling numbers of the second kind via $$a_{n}=\sum _{k=0}^{n}k!\left\{ {n \atop k}\right\}.$$}@}<sup>[\[10\]](#^ref-10)</sup> <!--SR:!2029-08-12,1360,350!fsrs,2032-08-19T00:00:00.000Z,2088,2087.94824281,1,2,10,0,0,2026-12-01T00:00:00.000Z-->
 
 ## table of values
 

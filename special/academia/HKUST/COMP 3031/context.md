@@ -42,7 +42,7 @@ When {@{a method}@} needs to {@{operate over arbitrary types}@} – for example,
 > ```Scala
 > def sort[T](xs: List[T]): List[T] = ???
 > ```
-<!--SR:!2027-01-18,339,349!2026-12-05,305,349!2027-01-02,329,349!fsrs,2030-08-17T00:00:00.000Z,1361,1360.83635942,1,2,9,0,0,2026-11-25T00:00:00.000Z!2026-12-01,301,349-->
+<!--SR:!2027-01-18,339,349!2026-12-05,305,349!2027-01-02,329,349!fsrs,2030-08-17T00:00:00.000Z,1361,1360.83635942,1,2,9,0,0,2026-11-25T00:00:00.000Z!fsrs,2030-09-16T00:00:00.000Z,1385,1384.82036767,1,2,9,0,0,2026-12-01T00:00:00.000Z-->
 
 However, {@{sorting}@} requires {@{an ordering relation `<`}@}, which {@{does not exist for all types}@}.  {@{The resolution}@} is to {@{_parameterise with an ordering_ rather than just a type}@}. <!--SR:!fsrs,2029-10-13T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-12-24,321,349!2026-12-27,324,349!2026-12-08,308,349!2027-01-02,329,349-->
 
@@ -207,7 +207,7 @@ Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` c
 
 Intuitively, {@{a context bound `T : U`}@} may be interpreted as {@{the type parameter `T` "satisfying" the "trait" `U`}@}. <!--SR:!2027-03-05,381,368!2027-03-30,401,368-->
 
-More generally, {@{any definition `def f[T : {U1, ..., Un}](ps) : R`}@} \({@{_deprecated_ syntax}@}: {@{`def f[T : U1 : ... : Un](ps) : R`}@}\) is expanded to {@{`def f[T](ps)(using U1[T], ..., Un[T]) : R`}@}. {@{This transformation}@} makes {@{context bounds a convenient shorthand}@} for {@{implicit parameters without altering the generated code}@}. <!--SR:!fsrs,2030-08-12T00:00:00.000Z,1357,1356.83314545,1,2,9,0,0,2026-11-24T00:00:00.000Z!fsrs,2029-10-27T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-10-04T00:00:00.000Z!2027-01-25,346,349!fsrs,2030-07-13T00:00:00.000Z,1333,1332.77803171,1,2,9,0,0,2026-11-18T00:00:00.000Z!2026-12-01,301,349!2027-03-07,382,368!2027-02-24,375,368-->
+More generally, {@{any definition `def f[T : {U1, ..., Un}](ps) : R`}@} \({@{_deprecated_ syntax}@}: {@{`def f[T : U1 : ... : Un](ps) : R`}@}\) is expanded to {@{`def f[T](ps)(using U1[T], ..., Un[T]) : R`}@}. {@{This transformation}@} makes {@{context bounds a convenient shorthand}@} for {@{implicit parameters without altering the generated code}@}. <!--SR:!fsrs,2030-08-12T00:00:00.000Z,1357,1356.83314545,1,2,9,0,0,2026-11-24T00:00:00.000Z!fsrs,2029-10-27T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-10-04T00:00:00.000Z!2027-01-25,346,349!fsrs,2030-07-13T00:00:00.000Z,1333,1332.77803171,1,2,9,0,0,2026-11-18T00:00:00.000Z!fsrs,2030-09-16T00:00:00.000Z,1385,1384.82036767,1,2,9,0,0,2026-12-01T00:00:00.000Z!2027-03-07,382,368!2027-02-24,375,368-->
 
 ## `given`
 
@@ -342,7 +342,7 @@ For {@{another example}@} of {@{recursive `given` resolution}@}, {@{pairs}@} can
 
 ## context inference
 
-When a method expects {@{an implicit of type `T` \(e.g. `Ordering[Int]` in the above example\)}@}, the compiler looks for {@{a _`given` instance_ that}@}: \(annotation: 2 items: {@{compatible, visible}@}\) <!--SR:!2026-12-01,301,349!2027-01-30,351,349!2027-01-01,328,349-->
+When a method expects {@{an implicit of type `T` \(e.g. `Ordering[Int]` in the above example\)}@}, the compiler looks for {@{a _`given` instance_ that}@}: \(annotation: 2 items: {@{compatible, visible}@}\) <!--SR:!fsrs,2030-09-16T00:00:00.000Z,1385,1384.82036767,1,2,9,0,0,2026-12-01T00:00:00.000Z!2027-01-30,351,349!2027-01-01,328,349-->
 
 - compatible ::@:: Has a compatible type. <!--SR:!2026-12-04,304,349!fsrs,2030-06-08T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-11T00:00:00.000Z-->
 - visibility ::@:: Is visible in the current scope (lexical, imports, parameters) or defined in a companion object associated with `T`. <!--SR:!fsrs,2029-10-31T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-10-05T00:00:00.000Z!2027-01-26,347,349-->

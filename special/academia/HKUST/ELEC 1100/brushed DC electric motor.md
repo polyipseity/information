@@ -138,7 +138,7 @@ Flashcards for this section are as follows:
 - commutation ::@:: Switching the rotor's magnetic field by reversing current direction at the right moments. <!--SR:!fsrs,2027-05-15T10:11:03.519Z,335,335.28290091,1,2,7,0,0,2026-06-14T10:11:03.519Z!fsrs,2027-05-14T10:11:02.572Z,334,333.77014777,1,2,7,0,0,2026-06-14T10:11:02.572Z-->
 - why mechanical commutation ::@:: A DC source provides current in one direction; the commutator and brushes switch which rotor segments see which polarity. <!--SR:!2027-02-05,248,330!fsrs,2027-04-11T01:08:47.299Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:08:47.299Z-->
 - commutator and brushes ::@:: Commutator: rotating copper sleeve with segments. Brushes: fixed carbon contacts that slide on the commutator. <!--SR:!2027-01-24,239,330!2027-01-26,241,330-->
-- current path ::@:: At the brushes, DC current is one direction; the commutator switches segments so rotor winding current reverses as it rotates. <!--SR:!2026-12-01,185,310!fsrs,2027-05-14T10:11:16.389Z,334,333.77014777,1,2,7,0,0,2026-06-14T10:11:16.389Z-->
+- current path ::@:: At the brushes, DC current is one direction; the commutator switches segments so rotor winding current reverses as it rotates. <!--SR:!fsrs,2029-02-02T00:00:00.000Z,794,793.62286384,1,2,9,0,0,2026-12-01T00:00:00.000Z!fsrs,2027-05-14T10:11:16.389Z,334,333.77014777,1,2,7,0,0,2026-06-14T10:11:16.389Z-->
 
 ## direction control with H-bridge
 

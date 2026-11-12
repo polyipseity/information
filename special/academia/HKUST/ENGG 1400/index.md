@@ -52,7 +52,7 @@ The content is in teaching order.
 - design thinking
     - design thinking video: <https://youtu.be/_r0VX-aU_T8>
     - design thinking processes ::@:: accept, empathize, define, ideate, prototype, test <!--SR:!fsrs,2031-06-23T00:00:00.000Z,1821,1820.69516224,1,2,10,0,0,2026-06-28T00:00:00.000Z!2029-08-10,1386,350-->
-    - design thinking use ::@:: Good for _wicked problems_, which are problems with little data and unclear outcome. <!--SR:!2028-03-09,981,350!2026-12-01,612,330-->
+    - design thinking use ::@:: Good for _wicked problems_, which are problems with little data and unclear outcome. <!--SR:!2028-03-09,981,350!fsrs,2033-07-13T00:00:00.000Z,2416,2416.33666647,1,2,10,0,0,2026-12-01T00:00:00.000Z-->
 - class culture ::@:: We come to class not to just _attend_ it, but participate with others. <!--SR:!2027-08-04,794,330!2028-10-18,1157,350-->
 - activity 1: art to building community
     - art to building community / debrief ::@:: Our story makes us unique. Approach situations with a "yes and"! <!--SR:!2028-09-03,1123,350!2028-05-15,1034,350-->
