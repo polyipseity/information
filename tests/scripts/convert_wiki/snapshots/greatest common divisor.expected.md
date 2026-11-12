@@ -1,5 +1,3 @@
-Largest integer that divides given integers
-
 In [mathematics](mathematics.md), the __greatest common divisor__ \(__GCD__\), also known as __greatest common factor \(GCF\)__, of two or more [integers](integer.md), which are not all zero, is the largest positive integer that [divides](divides.md#definition) each of the integers. For two integers _x_, _y_, the greatest common divisor of _x_ and _y_ is denoted $\gcd (x,y)$. For example, the GCD of 8 and 12 is 4, that is, gcd\(8, 12\) = 4.<sup>[\[1\]](#^ref-1)</sup><sup>[\[2\]](#^ref-2)</sup>
 
 In the name "greatest common divisor", the adjective "greatest" may be replaced by "highest", and the word "divisor" may be replaced by "factor", so that other names include __highest common factor \(HCF\)__, etc.<sup>[\[3\]](#^ref-3)</sup><sup>[\[4\]](#^ref-4)</sup><sup>[\[5\]](#^ref-5)</sup><sup>[\[6\]](#^ref-6)</sup> Historically, other names for the same concept have included __greatest common measure__.<sup>[\[7\]](#^ref-7)</sup>
@@ -10,27 +8,27 @@ This notion can be extended to polynomials \(see _[Polynomial greatest common di
 
 ### definition
 
-The _greatest common divisor_ \(GCD\) of [integers](integer.md) a and b, at least one of which is nonzero, is the greatest [positive integer](positive%20integer.md) d such that d is a [divisor](divisor.md) of both a and b; that is, there are integers e and f such that _a_ = _de_ and _b_ = _df_, and d is the largest such integer. The GCD of a and b is generally denoted gcd\(_a_, _b_\).<sup>[\[8\]](#^ref-8)</sup>
+The _greatest common divisor_ \(GCD\) of [integers](integer.md) _a_ and _b_, at least one of which is nonzero, is the greatest [positive integer](positive%20integer.md) _d_ such that _d_ is a [divisor](divisor.md) of both _a_ and _b_; that is, there are integers _e_ and _f_ such that _a_ = _de_ and _b_ = _df_, and _d_ is the largest such integer. The GCD of _a_ and _b_ is generally denoted gcd\(_a_, _b_\).<sup>[\[8\]](#^ref-8)</sup>
 
 When one of _a_ and _b_ is zero, the GCD is the absolute value of the nonzero integer: gcd\(_a_, 0\) = gcd\(0, _a_\) = \|_a_\|. This case is important as the terminating step of the [Euclidean algorithm](#Euclidean%20algorithm).
 
 The above definition is unsuitable for defining gcd\(0, 0\), since there is no greatest integer _n_ such that 0 × _n_ = 0. However, zero is its own greatest divisor if _greatest_ is understood in the context of the divisibility relation, so gcd\(0, 0\) is commonly defined as 0. This preserves the usual identities for GCD, and in particular [Bézout's identity](Bézout's%20identity.md), namely that gcd\(_a_, _b_\) [generates](generating%20set%20of%20an%20ideal.md) the same [ideal](ideal%20(ring%20theory).md) as {_a_, _b_}.<sup>[\[9\]](#^ref-9)</sup><sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> This convention is followed by many [computer algebra systems](computer%20algebra%20system.md).<sup>[\[12\]](#^ref-12)</sup> Nonetheless, some authors leave gcd\(0, 0\) undefined.<sup>[\[13\]](#^ref-13)</sup>
 
-The GCD of a and b is their [greatest](greatest%20element.md) positive common divisor in the [preorder](preorder.md) relation of [divisibility](divisibility.md). This means that the common divisors of a and b are exactly the divisors of their GCD. This is commonly proved by using either [Euclid's lemma](Euclid's%20lemma.md), the [fundamental theorem of arithmetic](fundamental%20theorem%20of%20arithmetic.md), or the [Euclidean algorithm](Euclidean%20algorithm.md). This is the meaning of "greatest" that is used for the generalizations of the concept of GCD.
+The GCD of _a_ and _b_ is their [greatest](greatest%20element.md) positive common divisor in the [preorder](preorder.md) relation of [divisibility](divisibility.md). This means that the common divisors of _a_ and _b_ are exactly the divisors of their GCD. This is commonly proved by using either [Euclid's lemma](Euclid's%20lemma.md), the [fundamental theorem of arithmetic](fundamental%20theorem%20of%20arithmetic.md), or the [Euclidean algorithm](Euclidean%20algorithm.md). This is the meaning of "greatest" that is used for the generalizations of the concept of GCD.
 
 ### example
 
 The number 54 can be expressed as a product of two integers in several different ways:
 
-$$54 \times 1 = 27 \times 2 = 18 \times 3 = 9 \times 6.$$
+$54 \times 1 = 27 \times 2 = 18 \times 3 = 9 \times 6$.
 
 Thus the complete list of _divisors_ of 54 is 1, 2, 3, 6, 9, 18, 27, 54. Similarly, the divisors of 24 are 1, 2, 3, 4, 6, 8, 12, 24. The numbers that these two lists have _in common_ are the _common divisors_ of 54 and 24, that is,
 
-$$1, 2, 3, 6.$$
+$1, 2, 3, 6$.
 
 Of these, the greatest is 6, so it is the _greatest common divisor_:
 
-$$\gcd(54,24) = 6.$$
+$\gcd(54,24) = 6$.
 
 Computing all divisors of the two numbers in this way is usually not efficient, especially for large numbers that have many divisors. Much more efficient methods are described in _[§ Calculation](#calculation)_.
 
@@ -58,7 +56,7 @@ More generally, an _a_-by-_b_ rectangle can be covered with square tiles of side
 
 The greatest common divisor is useful for reducing [fractions](fraction.md) to the [lowest terms](irreducible%20fraction.md).<sup>[\[15\]](#^ref-15)</sup> For example, gcd\(42, 56\) = 14, therefore,
 
-$$\frac{42}{56}=\frac{3 \cdot 14 }{ 4 \cdot 14}=\frac{3 }{ 4}.$$
+$\frac{42}{56}=\frac{3 \cdot 14 }{ 4 \cdot 14}=\frac{3 }{ 4}$.
 
 ### least common multiple
 
@@ -70,7 +68,7 @@ $$\frac{42}{56}=\frac{3 \cdot 14 }{ 4 \cdot 14}=\frac{3 }{ 4}.$$
 
 The least common multiple of two integers that are not both zero can be computed from their greatest common divisor, by using the relation
 
-$$\operatorname{lcm}(a,b)=\frac{|a\cdot b|}{\operatorname{gcd}(a,b)}.$$
+$\operatorname{lcm}(a,b)=\frac{|a\cdot b|}{\operatorname{gcd}(a,b)}$.
 
 ## calculation
 
@@ -84,13 +82,13 @@ In practice, this method is only feasible for small numbers, as computing prime 
 
 - Main article: [Euclidean algorithm](Euclidean%20algorithm.md)
 
-The method introduced by [Euclid](Euclid.md) for computing greatest common divisors is based on the fact that, given two positive integers a and b such that _a_ \> _b_, the common divisors of a and b are the same as the common divisors of _a_ – _b_ and b.
+The method introduced by [Euclid](Euclid.md) for computing greatest common divisors is based on the fact that, given two positive integers _a_ and _b_ such that _a_ \> _b_, the common divisors of _a_ and _b_ are the same as the common divisors of _a_ – _b_ and _b_.
 
 So, Euclid's method for computing the greatest common divisor of two positive integers consists of replacing the larger number with the difference of the numbers, and repeating this until the two numbers are equal: that is their greatest common divisor.
 
 For example, to compute gcd\(48,18\), one proceeds as follows:
 
-$$\begin{aligned}\gcd(48,18)\quad&\to\quad \gcd(48-18, 18)= \gcd(30,18)\\ &\to \quad \gcd(30-18, 18)= \gcd(12,18)\\ &\to \quad \gcd(12,18-12)= \gcd(12,6)\\ &\to \quad \gcd(12-6,6)= \gcd(6,6).\end{aligned}$$
+$\begin{aligned}\gcd(48,18)\quad&\to\quad \gcd(48-18, 18)= \gcd(30,18)\\ &\to \quad \gcd(30-18, 18)= \gcd(12,18)\\ &\to \quad \gcd(12,18-12)= \gcd(12,6)\\ &\to \quad \gcd(12-6,6)= \gcd(6,6).\end{aligned}$
 
 So gcd\(48, 18\) = 6.
 
@@ -104,13 +102,13 @@ This method can be very slow if one number is much larger than the other. So, th
 >
 > Animation showing an application of the Euclidean algorithm to find the greatest common divisor of 62 and 36, which is 2
 
-A more efficient method is the _Euclidean algorithm_, a variant in which the difference of the two numbers a and b is replaced by the _remainder_ of the [Euclidean division](Euclidean%20division.md) \(also called _division with remainder_\) of a by b.
+A more efficient method is the _Euclidean algorithm_, a variant in which the difference of the two numbers _a_ and _b_ is replaced by the _remainder_ of the [Euclidean division](Euclidean%20division.md) \(also called _division with remainder_\) of _a_ by _b_.
 
-Denoting this remainder as _a_ mod _b_, the algorithm replaces \(_a_, _b_\) with \(_b_, _a_ mod _b_\) repeatedly until the pair is \(_d_, 0\), where d is the greatest common divisor.
+Denoting this remainder as _a_ mod _b_, the algorithm replaces \(_a_, _b_\) with \(_b_, _a_ mod _b_\) repeatedly until the pair is \(_d_, 0\), where _d_ is the greatest common divisor.
 
 For example, to compute gcd\(48,18\), the computation is as follows:
 
-$$\begin{aligned}\gcd(48,18)\quad&\to\quad \gcd(18, 48\bmod 18)= \gcd(18, 12)\\ &\to \quad \gcd(12, 18\bmod 12)= \gcd(12,6)\\ &\to \quad \gcd(6,12\bmod 6)= \gcd(6,0).\end{aligned}$$
+$\begin{aligned}\gcd(48,18)\quad&\to\quad \gcd(18, 48\bmod 18)= \gcd(18, 12)\\ &\to \quad \gcd(12, 18\bmod 12)= \gcd(12,6)\\ &\to \quad \gcd(6,12\bmod 6)= \gcd(6,0).\end{aligned}$
 
 This again gives gcd\(48, 18\) = 6.
 
@@ -124,26 +122,30 @@ The binary GCD algorithm differs from Euclid's algorithm essentially by dividing
 
 The method is as follows, starting with _a_ and _b_ that are the two positive integers whose GCD is sought.
 
-1. If _a_ and _b_ are both even, then divide both by two until at least one of them becomes odd; let d be the number of these paired divisions.
+1. If _a_ and _b_ are both even, then divide both by two until at least one of them becomes odd; let _d_ be the number of these paired divisions.
 2. If _a_ is even, then divide it by two until it becomes odd.
 3. If _b_ is even, then divide it by two until it becomes odd.Now, _a_ and _b_ are both odd and will remain odd until the end of the computation <p>
 4. While _a_ ≠ _b_ do
-    - If _a_ \> _b_, then replace a with _a_ – _b_ and divide the result by two until a becomes odd \(as _a_ and _b_ are both odd, there is, at least, one division by 2\).
-    - If _a_ \< _b_, then replace b with _b_ – _a_ and divide the result by two until b becomes odd.
+    - If _a_ \> _b_, then replace _a_ with _a_ – _b_ and divide the result by two until _a_ becomes odd \(as _a_ and _b_ are both odd, there is, at least, one division by 2\).
+    - If _a_ \< _b_, then replace _b_ with _b_ – _a_ and divide the result by two until _b_ becomes odd.
 
 5. Now, _a_ = _b_, and the greatest common divisor is $2^d a$.
 
-Step 1 determines d as the highest power of 2 that divides _a_ and _b_, and thus their greatest common divisor. None of the steps changes the set of the odd common divisors of _a_ and _b_. This shows that when the algorithm stops, the result is correct. The algorithm stops eventually, since each steps divides at least one of the operands by at least 2. Moreover, the number of divisions by 2 and thus the number of subtractions is at most the total number of digits.
+Step 1 determines _d_ as the highest power of 2 that divides _a_ and _b_, and thus their greatest common divisor. None of the steps changes the set of the odd common divisors of _a_ and _b_. This shows that when the algorithm stops, the result is correct. The algorithm stops eventually, since each steps divides at least one of the operands by at least 2. Moreover, the number of divisions by 2 and thus the number of subtractions is at most the total number of digits.
 
 Example: \(_a_, _b_, _d_\) = \(48, 18, 0\) → \(24, 9, 1\) → \(12, 9, 1\) → \(6, 9, 1\) → \(3, 9, 1\) → \(3, 3, 1\) ; the original GCD is thus the product 6 of 2<sup>_d_</sup> = 2<sup>1</sup> and _a_ = _b_ = 3.
 
 The binary GCD algorithm is particularly easy to implement and particularly efficient on binary computers. Its [computational complexity](computational%20complexity.md) is
 
-$$O((\log a + \log b)^2).$$
+$O((\log a + \log b)^2)$.
 
 The square in this complexity comes from the fact that division by 2 and subtraction take a time that is proportional to the number of [bits](bit.md) of the input.
 
-The computational complexity is usually given in terms of the length _n_ of the input. Here, this length is _n_ = log _a_ + log _b_, and the complexity is thus <p> &nbsp;&nbsp;&nbsp;&nbsp; $$O(n^2)$$ . <p> ### Lehmer's GCD algorithm
+The computational complexity is usually given in terms of the length _n_ of the input. Here, this length is _n_ = log _a_ + log _b_, and the complexity is thus
+
+$O(n^2)$.
+
+### Lehmer's GCD algorithm
 
 - Main article: [Lehmer's GCD algorithm](Lehmer's%20GCD%20algorithm.md)
 
@@ -157,27 +159,31 @@ This algorithm improves speed, because it reduces the number of operations on ve
 >
 > [Thomae's function](thomae's%20function.md)
 
-If _a_ and _b_ are both nonzero, the greatest common divisor of _a_ and _b_ can be computed by using [least common multiple](least%20common%20multiple.md) \(LCM\) of _a_ and _b_: <p> &nbsp;&nbsp;&nbsp;&nbsp; $$\gcd(a,b)=\frac{|a\cdot b|}{\operatorname{lcm}(a,b)}$$ , <p> but more commonly the LCM is computed from the GCD.
+If _a_ and _b_ are both nonzero, the greatest common divisor of _a_ and _b_ can be computed by using [least common multiple](least%20common%20multiple.md) \(LCM\) of _a_ and _b_:
+
+$\gcd(a,b)=\frac{|a\cdot b|}{\operatorname{lcm}(a,b)}$,
+
+but more commonly the LCM is computed from the GCD.
 
 Using [Thomae's function](thomae's%20function.md) _f_,
 
-$$\gcd(a,b) = a f\left(\frac b a\right),$$
+$\gcd(a,b) = a f\left(\frac b a\right)$,
 
 which generalizes to _a_ and _b_ [rational numbers](rational%20number.md) or [commensurable](commensurability%20(mathematics).md) real numbers.
 
 Keith Slavin has shown that for odd _a_ ≥ 1:
 
-$$\gcd(a,b)=\log_2\prod_{k=0}^{a-1} (1+e^{-2i\pi k b/a})$$
+$\gcd(a,b)=\log_2\prod_{k=0}^{a-1} (1+e^{-2i\pi k b/a})$
 
 which is a function that can be evaluated for complex _b_.<sup>[\[16\]](#^ref-16)</sup> Wolfgang Schramm has shown that
 
-$$\gcd(a,b)=\sum\limits_{k=1}^a \exp (2\pi ikb/a) \cdot \sum\limits_{d\left| a\right.} \frac{c_d (k)}{d}$$
+$\gcd(a,b)=\sum\limits_{k=1}^a \exp (2\pi ikb/a) \cdot \sum\limits_{d\left| a\right.} \frac{c_d (k)}{d}$
 
 is an [entire function](entire%20function.md) in the variable _b_ for all positive integers _a_ where _c_<sub>_d_</sub>\(_k_\) is [Ramanujan's sum](ramanujan's%20sum.md).<sup>[\[17\]](#^ref-17)</sup>
 
 ### complexity
 
-The [computational complexity](computational%20complexity.md) of the computation of greatest common divisors has been widely studied.<sup>[\[18\]](#^ref-18)</sup> If one uses the [Euclidean algorithm](Euclidean%20algorithm.md) and the elementary algorithms for multiplication and division, the computation of the greatest common divisor of two integers of at most n [bits](bit.md) is _O_\(_n_<sup>2</sup>\).<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> This means that the computation of greatest common divisor has, up to a constant factor, the same complexity as the multiplication.
+The [computational complexity](computational%20complexity.md) of the computation of greatest common divisors has been widely studied.<sup>[\[18\]](#^ref-18)</sup> If one uses the [Euclidean algorithm](Euclidean%20algorithm.md) and the elementary algorithms for multiplication and division, the computation of the greatest common divisor of two integers of at most _n_ [bits](bit.md) is _O_\(_n_<sup>2</sup>\).<sup>\[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation%20needed)_\]</sup> This means that the computation of greatest common divisor has, up to a constant factor, the same complexity as the multiplication.
 
 However, if a fast [multiplication algorithm](multiplication%20algorithm.md) is used, one may modify the Euclidean algorithm for improving the complexity, but the computation of a greatest common divisor becomes slower than the multiplication. More precisely, if the multiplication of two integers of _n_ bits takes a time of _T_\(_n_\), then the fastest known algorithm for greatest common divisor has a complexity _O_\(_T_\(_n_\) log _n_\). This implies that the fastest known algorithm has a complexity of _O_\(_n_ \(log _n_\)<sup>2</sup>\).
 
@@ -207,7 +213,7 @@ Although the problem is not known to be in __NC__, parallel algorithms [asymptot
 - It is sometimes useful to define gcd\(0, 0\) = 0 and lcm\(0, 0\) = 0 because then the [natural numbers](natural%20number.md) become a [complete](complete%20lattice.md) [distributive lattice](distributive%20lattice.md) with GCD as meet and LCM as join operation.<sup>[\[22\]](#^ref-22)</sup> This extension of the definition is also compatible with the generalization for commutative rings given below.
 - In a [Cartesian coordinate system](Cartesian%20coordinate%20system.md), gcd\(_a_, _b_\) can be interpreted as the number of segments between points with integral coordinates on the straight [line segment](line%20segment.md) joining the points \(0, 0\) and \(_a_, _b_\).
 - For non-negative integers _a_ and _b_, where _a_ and _b_ are not both zero, provable by considering the Euclidean algorithm in base _n_:<sup>[\[23\]](#^ref-23)</sup>gcd\(_n_<sup>_a_</sup> − 1, _n_<sup>_b_</sup> − 1\) = _n_<sup>gcd\(_a_,_b_\)</sup> − 1. <p>
-- An [identity](identity%20(mathematics).md) involving [Euler's totient function](Euler's%20totient%20function.md): $$\gcd(a,b) = \sum_{k|a \text{ and }k|b} \varphi(k) .$$ <p>
+- An [identity](identity%20(mathematics).md) involving [Euler's totient function](Euler's%20totient%20function.md):$\gcd(a,b) = \sum_{k|a \text{ and }k|b} \varphi(k)$. <p>
 - GCD Summatory function \(Pillai's arithmetical function\):
 
 $\sum_{k=1}^n \gcd(k,n) = \sum_{d|n} d \varphi \left( \frac n d \right) =n\sum_{d|n}\frac{\varphi(d)}{d} =n\prod_{p|n}\left(1+\nu_p(n)\left(1-\frac{1}{p}\right)\right)$ where $\nu_p(n)$ is the _p_-adic valuation. \(sequence [A018804](https://oeis.org/A018804) in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\)
@@ -218,11 +224,11 @@ In 1972, James E. Nymann showed that _k_ integers, chosen independently and unif
 
 Using this information, the [expected value](expected%20value.md) of the greatest common divisor function can be seen \(informally\) to not exist when _k_ = 2. In this case the probability that the GCD equals _d_ is _d_<sup>−2</sup>/<!-- markdown separator -->_ζ_\(2\), so we have
 
-$$\mathrm{E}( \mathrm{2} ) = \sum_{d=1}^\infty d (d^{-2}/\zeta(2)) = \frac{1}{\zeta(2)} \sum_{d=1}^\infty \frac{1}{d}.$$
+$\mathrm{E}( \mathrm{2} ) = \sum_{d=1}^\infty d (d^{-2}/\zeta(2)) = \frac{1}{\zeta(2)} \sum_{d=1}^\infty \frac{1}{d}$.
 
 This last summation is the [harmonic series](harmonic%20series%20(mathematics).md), which diverges. However, when _k_ ≥ 3, the expected value is well-defined, and by the above argument, it is
 
-$$\mathrm{E}(k) = \sum_{d=1}^\infty d^{1-k} \zeta(k)^{-1} = \frac{\zeta(k-1)}{\zeta(k)}.$$
+$\mathrm{E}(k) = \sum_{d=1}^\infty d^{1-k} \zeta(k)^{-1} = \frac{\zeta(k-1)}{\zeta(k)}$.
 
 For _k_ = 3, this is approximately equal to 1.3684. For _k_ = 4, it is approximately 1.1106.
 
@@ -231,25 +237,25 @@ For _k_ = 3, this is approximately equal to 1.3684. For _k_ = 4, it is approxima
 - See also: [Divisibility \(ring theory\)](divisibility%20(ring%20theory).md)
 
 |                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :-----------------------------------------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![icon](../../archives/Wikimedia%20Commons/Question%20book-new.svg) | This section __needs [more citations](https://en.wikipedia.org/wiki/Wikipedia:Verifiability)__. Please help [improve this section](https://en.wikipedia.org/wiki/Special:EditPage/Greatest%20common%20divisor) by [adding citations to reliable sources](https://en.wikipedia.org/wiki/Help:Referencing%20for%20beginners). Unsourced material may be challenged and [removed](https://en.wikipedia.org/wiki/Wikipedia:Verifiability#Burden_of_evidence). _\(August 2024\)_<!-- markdown separator -->_\([Learn how and when to remove this message](https://en.wikipedia.org/wiki/Help:Maintenance%20template%20removal)\)_ |
 
 The notion of greatest common divisor can more generally be defined for elements of an arbitrary [commutative ring](commutative%20ring.md), although in general there need not exist one for every pair of elements.<sup>[\[26\]](#^ref-26)</sup>
 
-- If R is a commutative ring, and a and b are in R, then an element d of R is called a _common divisor_ of a and b if it divides both a and b \(that is, if there are elements x and y in R such that _d_·_x_ = _a_ and _d_·_y_ = _b_\).
-- If d is a common divisor of a and b, and every common divisor of a and b divides d, then d is called a _greatest common divisor_ of a and _b_.
+- If _R_ is a commutative ring, and _a_ and _b_ are in _R_, then an element _d_ of _R_ is called a _common divisor_ of _a_ and _b_ if it divides both _a_ and _b_ \(that is, if there are elements _x_ and _y_ in _R_ such that _d_·_x_ = _a_ and _d_·_y_ = _b_\).
+- If _d_ is a common divisor of _a_ and _b_, and every common divisor of _a_ and _b_ divides _d_, then _d_ is called a _greatest common divisor_ of _a_ and _b_.
 
-With this definition, two elements a and b may very well have several greatest common divisors, or none at all. If R is an [integral domain](integral%20domain.md), then any two GCDs of a and b must be [associate elements](associate%20elements.md#divisibility,%20prime%20elements,%20and%20irreducible%20elements), since by definition either one must divide the other. Indeed, if a GCD exists, any one of its associates is a GCD as well.
+With this definition, two elements _a_ and _b_ may very well have several greatest common divisors, or none at all. If _R_ is an [integral domain](integral%20domain.md), then any two GCDs of _a_ and _b_ must be [associate elements](associate%20elements.md#divisibility,%20prime%20elements,%20and%20irreducible%20elements), since by definition either one must divide the other. Indeed, if a GCD exists, any one of its associates is a GCD as well.
 
-Existence of a GCD is not assured in arbitrary integral domains. However, if R is a [unique factorization domain](unique%20factorization%20domain.md) or any other [GCD domain](GCD%20domain.md), then any two elements have a GCD. If R is a [Euclidean domain](euclidean%20domain.md) in which euclidean division is given algorithmically \(as is the case for instance when _R_ = _F_\[_X_\] where F is a [field](field%20(mathematics).md), or when R is the ring of [Gaussian integers](Gaussian%20integer.md)\), then greatest common divisors can be computed using a form of the Euclidean algorithm based on the division procedure.
+Existence of a GCD is not assured in arbitrary integral domains. However, if _R_ is a [unique factorization domain](unique%20factorization%20domain.md) or any other [GCD domain](GCD%20domain.md), then any two elements have a GCD. If _R_ is a [Euclidean domain](euclidean%20domain.md) in which euclidean division is given algorithmically \(as is the case for instance when _R_ = _F_\[_X_\] where _F_ is a [field](field%20(mathematics).md), or when _R_ is the ring of [Gaussian integers](Gaussian%20integer.md)\), then greatest common divisors can be computed using a form of the Euclidean algorithm based on the division procedure.
 
 The following is an example of an integral domain with two elements that do not have a GCD:
 
-$$R = \mathbb{Z}\left[\sqrt{-3}\,\,\right],\quad a = 4 = 2\cdot 2 = \left(1+\sqrt{-3}\,\,\right)\left(1-\sqrt{-3}\,\,\right),\quad b = \left(1+\sqrt{-3}\,\,\right)\cdot 2.$$
+$R = \mathbb{Z}\left[\sqrt{-3}\,\,\right],\quad a = 4 = 2\cdot 2 = \left(1+\sqrt{-3}\,\,\right)\left(1-\sqrt{-3}\,\,\right),\quad b = \left(1+\sqrt{-3}\,\,\right)\cdot 2$.
 
-The elements 2 and $1 + \sqrt{-3}$ are two [maximal common divisors](maximal%20common%20divisor.md) \(that is, any common divisor which is a multiple of 2 is associated to 2, the same holds for $1 + \sqrt{-3}$, but they are not associated, so there is no greatest common divisor of a and _b_.
+The elements 2 and $1 + \sqrt{-3}$ are two [maximal common divisors](maximal%20common%20divisor.md) \(that is, any common divisor which is a multiple of 2 is associated to 2, the same holds for $1 + \sqrt{-3}$, but they are not associated, so there is no greatest common divisor of _a_ and _b_.
 
-Corresponding to the Bézout property we may, in any commutative ring, consider the collection of elements of the form _pa_ + _qb_, where p and q range over the ring. This is the [ideal](ideal%20(ring%20theory).md) generated by a and b, and is denoted simply \(_a_, _b_\). In a ring all of whose ideals are principal \(a [principal ideal domain](principal%20ideal%20domain.md) or PID\), this ideal will be identical with the set of multiples of some ring element _d_; then this d is a greatest common divisor of a and _b_. But the ideal \(_a_, _b_\) can be useful even when there is no greatest common divisor of a and _b_. \(Indeed, [Ernst Kummer](Ernst%20Kummer.md) used this ideal as a replacement for a GCD in his treatment of [Fermat's Last Theorem](Fermat's%20Last%20Theorem.md), although he envisioned it as the set of multiples of some hypothetical, or _ideal_, ring element d, whence the ring-theoretic term.\)
+Corresponding to the Bézout property we may, in any commutative ring, consider the collection of elements of the form _pa_ + _qb_, where _p_ and _q_ range over the ring. This is the [ideal](ideal%20(ring%20theory).md) generated by _a_ and _b_, and is denoted simply \(_a_, _b_\). In a ring all of whose ideals are principal \(a [principal ideal domain](principal%20ideal%20domain.md) or PID\), this ideal will be identical with the set of multiples of some ring element _d_; then this _d_ is a greatest common divisor of _a_ and _b_. But the ideal \(_a_, _b_\) can be useful even when there is no greatest common divisor of _a_ and _b_. \(Indeed, [Ernst Kummer](Ernst%20Kummer.md) used this ideal as a replacement for a GCD in his treatment of [Fermat's Last Theorem](Fermat's%20Last%20Theorem.md), although he envisioned it as the set of multiples of some hypothetical, or _ideal_, ring element _d_, whence the ring-theoretic term.\)
 
 ## see also
 
@@ -313,7 +319,9 @@ Corresponding to the Bézout property we may, in any commutative ring, consider 
 |                            __[Discrete logarithm](discrete%20logarithm.md)__ | - [Baby-step giant-step](baby-step%20giant-step.md) <br/> - [Pollard rho](pollard's%20rho%20algorithm%20for%20logarithms.md) <br/> - [Pollard kangaroo](pollard's%20kangaroo%20algorithm.md) <br/> - [Pohlig–Hellman](Pohlig–Hellman%20algorithm.md) <br/> - [Index calculus](index%20calculus%20algorithm.md) <br/> - [Function field sieve](function%20field%20sieve.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |                __[Greatest common divisor](greatest%20common%20divisor.md)__ | - [Binary](Binary%20GCD%20algorithm.md) <br/> - [Euclidean](Euclidean%20algorithm.md) <br/> - [Extended Euclidean](extended%20Euclidean%20algorithm.md) <br/> - [Lehmer's](Lehmer's%20GCD%20algorithm.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |                            __[Modular square root](quadratic%20residue.md)__ | - [Cipolla](cipolla's%20algorithm.md) <br/> - [Pocklington's](pocklington's%20algorithm.md) <br/> - [Tonelli–Shanks](Tonelli–Shanks%20algorithm.md) <br/> - [Berlekamp](Berlekamp–Rabin%20algorithm.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|                                                         __Other algorithms__ | - [Chakravala](chakravala%20method.md) <br/> - [Cornacchia](cornacchia's%20algorithm.md) <br/> - [Exponentiation by squaring](exponentiation%20by%20squaring.md) <br/> - [Integer square root](integer%20square%20root.md) <br/> - [Integer relation](integer%20relation%20algorithm.md) \([LLL](Lenstra–Lenstra–Lovász%20lattice%20basis%20reduction%20algorithm.md); [KZ](Korkine–Zolotarev%20lattice%20basis%20reduction%20algorithm.md)\) <br/> - [Modular exponentiation](modular%20exponentiation.md) <br/> - [Montgomery reduction](Montgomery%20reduction.md) <br/> - [Schoof](schoof's%20algorithm.md) <br/> - [Trachtenberg system](trachtenberg%20system.md)                                                                                                                                                                                                                                                                                          |
+|                                                         __Other algorithms__ | - [Chakravala](chakravala%20method.md) <br/> - [Cornacchia](cornacchia's%20algorithm.md) <br/> - [Exponentiation by squaring](exponentiation%20by%20squaring.md) <br/> - [Integer square root](integer%20square%20root.md) <br/> - [Integer relation](integer%20relation%20algorithm.md) \([LLL](Lenstra–Lenstra–Lovász%20lattice%20basis%20reduction%20algorithm.md); [KZ](Korkine–Zolotarev%20lattice%20basis%20reduction%20algorithm.md)\) <br/> - [Modular exponentiation](modular%20exponentiation.md) <br/> - [Montgomery reduction](Montgomery%20reduction.md) <br/> - [Schoof](schoof's%20algorithm.md) <br/> - [Trachtenberg system](https://en.wikipedia.org/wiki/Trachtenberg_system)                                                                                                                                                                                                                                                                 |
 |                                                                              | - _Italics_ indicate that algorithm is for numbers of special forms                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
-Retrieved from "[https://en.wikipedia.org/w/index.php?title=Greatest\_common\_divisor&oldid=1372179102](https://en.wikipedia.org/w/index.php?title=Greatest_common_divisor&oldid=1372179102)"
+> [Category](https://en.wikipedia.org/wiki/Help:Category):
+>
+> - [Multiplicative functions](https://en.wikipedia.org/wiki/Category:Multiplicative%20functions)
