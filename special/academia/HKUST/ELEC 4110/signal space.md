@@ -144,7 +144,7 @@ For {@{$$s_m'(t) = A\cos\left(2\pi f_ct + \frac {2 \pi (m - 1)} {M} \right)$$}@}
 
 For {@{LTI filters}@}, {@{the matched filter}@} {@{maximises SNR}@}. In {@{signal space}@} this is equivalent to {@{projecting the received vector onto each basis function}@} and picking {@{the symbol whose coordinates}@} are {@{closest in Euclidean distance}@}. <!--SR:!fsrs,2029-10-22T00:00:00.000Z,1086,1086.39241182,1,2,9,0,0,2026-11-01T00:00:00.000Z!2027-02-25,342,345!2027-01-31,321,345!2027-02-06,326,345!2027-02-13,332,345!2027-02-04,325,345!2027-02-18,336,345-->
 
-Raising {@{bit rate}@} by {@{adding dimensions}@} requires {@{higher bandwidth or power}@}. {@{The geometric view}@} guides {@{modulation choices}@} such as {@{QAM, PSK, and OFDM}@}. <!--SR:!2027-02-24,341,345!2027-03-26,369,364!2027-01-03,299,345!2026-11-30,270,345!2027-01-02,298,345!2027-02-11,330,345-->
+Raising {@{bit rate}@} by {@{adding dimensions}@} requires {@{higher bandwidth or power}@}. {@{The geometric view}@} guides {@{modulation choices}@} such as {@{QAM, PSK, and OFDM}@}. <!--SR:!2027-02-24,341,345!2027-03-26,369,364!2027-01-03,299,345!fsrs,2030-04-27T00:00:00.000Z,1244,1244.10763092,1,2,9,0,0,2026-11-30T00:00:00.000Z!2027-01-02,298,345!2027-02-11,330,345-->
 
 {@{Frequency-domain representation}@} can {@{represent discrete signals of length _N_ exactly}@} but uses {@{_N_ dimensions}@} — {@{_inefficient_}@} when {@{the signals lie in a lower-dimensional subspace}@}. {@{The goal of geometric-domain representation}@} is to find {@{the _minimal_ dimensions}@} containing all {@{transmitted signals}@}. <!--SR:!2027-02-03,324,345!2027-01-02,298,345!2027-02-25,342,345!2027-01-01,297,345!2026-12-27,293,345!2026-12-04,273,345!2027-02-19,337,345!2026-12-12,280,345-->
 

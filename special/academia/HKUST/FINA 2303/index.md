@@ -614,7 +614,7 @@ The content is in teaching order.
 - yield to maturity
     - yield to maturity / coupon-bearing bonds ::@:: For bonds with multiple coupons, it is not generally possible to solve for yield in terms of price algebraically. A numerical root-finding technique such as Newton's method must be used to approximate the yield, which renders the present value of future cash flows equal to the bond price. <p> \(__this course__: use a financial calculator\) <!--SR:!2027-09-23,737,432!2027-12-12,795,433-->
     - yield to maturity / quote ::@:: The YTM is often given in terms of annual percentage rate (APR), but more often market convention is followed. <p> \(__this course__: use APR\) <!--SR:!2027-09-14,730,432!2027-11-23,779,434-->
-    - yield to maturity / assumptions ::@:: consistency, default risk, held to maturity, reinvestment risk <!--SR:!2026-11-30,485,412!2027-12-25,806,434-->
+    - yield to maturity / assumptions ::@:: consistency, default risk, held to maturity, reinvestment risk <!--SR:!fsrs,2033-01-11T00:00:00.000Z,2234,2234.24126267,1,2,10,0,0,2026-11-30T00:00:00.000Z!2027-12-25,806,434-->
         - yield to maturity / assumptions / held to maturity ::@:: The owner holds the security to maturity. <!--SR:!2028-01-20,827,433!2027-09-16,731,432-->
         - yield to maturity / assumptions / reinvestment risk ::@:: The owner reinvests all interest payments \(at YTM\) rather than spending them, to gain the benefit of compounded returns. <!--SR:!2027-09-29,743,432!2027-10-26,755,435-->
         - yield to maturity / assumptions / default risk ::@:: The issuer makes all interest and principal payments on time and in full. <!--SR:!2027-11-08,766,435!2027-11-24,780,435-->

@@ -33,7 +33,7 @@ This algorithm was first published by {@{[Joseph Kruskal](Joseph%20Kruskal.md) i
 
 The algorithm performs the following steps:
 
-- Create ::@:: a forest \(a set of trees\) initially consisting of a separate single-vertex tree for each vertex in the input graph. <!--SR:!2029-02-15,1203,350!2026-11-30,536,310-->
+- Create ::@:: a forest \(a set of trees\) initially consisting of a separate single-vertex tree for each vertex in the input graph. <!--SR:!2029-02-15,1203,350!fsrs,2032-05-31T00:00:00.000Z,2009,2009.26018388,1,2,10,0,0,2026-11-30T00:00:00.000Z-->
 - Sort ::@:: the graph edges by weight. <!--SR:!2029-08-14,1345,350!2029-07-31,1332,350-->
 - Loop through ::@:: the edges of the graph, in ascending sorted order by their weight. For each edge: <!--SR:!2027-11-02,807,330!2029-04-14,1249,350-->
     - Test ::@:: whether adding the edge to the current forest would create a cycle. <!--SR:!2029-08-12,1342,350!2028-12-13,1153,350-->

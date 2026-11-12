@@ -77,7 +77,7 @@ tags:
 >
 > {@{The field `balance`}@} is mutated by {@{`deposit` and `withdraw`}@}, so {@{two calls to the same object can produce different results}@}. <!--SR:!2026-12-15,259,330!2026-12-15,259,330!2026-12-22,264,330!fsrs,2029-09-29T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-11T00:00:00.000Z!fsrs,2029-11-12T00:00:00.000Z,1086,1086.39241182,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2029-11-04T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-20T00:00:00.000Z-->
 
-{@{Scala objects}@} are {@{instances of classes}@}, therefore an instance that {@{contains a mutable field is (usually; see below) stateful}@}. {@{A proxy class}@} delegating to {@{another stateful object also carries state}@}: <!--SR:!fsrs,2029-12-14T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-29T00:00:00.000Z!fsrs,2029-11-19T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-23T00:00:00.000Z!2026-11-30,251,330!2027-01-05,276,330!2027-01-04,275,330-->
+{@{Scala objects}@} are {@{instances of classes}@}, therefore an instance that {@{contains a mutable field is (usually; see below) stateful}@}. {@{A proxy class}@} delegating to {@{another stateful object also carries state}@}: <!--SR:!fsrs,2029-12-14T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-29T00:00:00.000Z!fsrs,2029-11-19T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-23T00:00:00.000Z!fsrs,2029-12-15T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-30T00:00:00.000Z!2027-01-05,276,330!2027-01-04,275,330-->
 
 > [!example] __stateful proxy__
 >

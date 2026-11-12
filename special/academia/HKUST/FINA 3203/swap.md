@@ -58,7 +58,7 @@ An _interest‑rate swap_ (IRS) is an over‑the‑counter contract in which two
 An IRS is characterised by: notional principle, swap rate, maturity, and payment frequencies.
 
 - _Notional principle_ ::@:: – the notional amount on which interest payments are calculated. <!--SR:!2027-01-06,284,330!2027-01-12,289,330-->
-- _Swap rate_ $R$ ::@:: – the fixed annualised rate agreed at inception.  (annotation: __this course__: The rate is continuously compounded by default, i.e. the equations below should use $e^r$ rather than $r$) <!--SR:!fsrs,2029-11-07T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-19T00:00:00.000Z!2026-11-30,254,330-->
+- _Swap rate_ $R$ ::@:: – the fixed annualised rate agreed at inception.  (annotation: __this course__: The rate is continuously compounded by default, i.e. the equations below should use $e^r$ rather than $r$) <!--SR:!fsrs,2029-11-07T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-19T00:00:00.000Z!fsrs,2029-12-26T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-30T00:00:00.000Z-->
 - _Maturity (swap tenor)_ ::@:: – the last payment date, denoted $T_m$. <!--SR:!fsrs,2028-06-21T00:00:00.000Z,688,688.18665624,1,2,8,0,0,2026-08-03T00:00:00.000Z!2026-12-06,259,330-->
 - _Payment frequencies_ ::@:: – the floating leg usually follows money‑market conventions (e.g., quarterly 3‑month LIBOR); the fixed leg often uses a corporate‑bond convention (e.g., semi‑annual). <!--SR:!fsrs,2028-09-03T00:00:00.000Z,734,733.63247081,1,2,8,0,0,2026-08-31T00:00:00.000Z!2026-12-21,271,330-->
 

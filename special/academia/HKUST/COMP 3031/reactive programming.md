@@ -91,7 +91,7 @@ In {@{the classic _observer_ pattern}@}, {@{a model publishes events to interest
 
 ## signals
 
-FRP describes programs that react {@{to sequences of events or signals}@}. {@{A _signal_}@} represents {@{a value that can change over time}@}; it is modelled as {@{a function from time to a value}@}. Instead of {@{mutating state}@}, new signals are defined {@{in terms of existing ones}@}. For example, {@{the current mouse position}@} could be expressed as <!--SR:!2027-01-06,276,330!2026-11-30,247,330!2027-01-06,276,330!2026-12-11,255,330!2027-02-15,294,330!2026-12-31,271,330!2027-02-13,292,330-->
+FRP describes programs that react {@{to sequences of events or signals}@}. {@{A _signal_}@} represents {@{a value that can change over time}@}; it is modelled as {@{a function from time to a value}@}. Instead of {@{mutating state}@}, new signals are defined {@{in terms of existing ones}@}. For example, {@{the current mouse position}@} could be expressed as <!--SR:!2027-01-06,276,330!fsrs,2029-11-30T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-11-30T00:00:00.000Z!2027-01-06,276,330!2026-12-11,255,330!2027-02-15,294,330!2026-12-31,271,330!2027-02-13,292,330-->
 
 > [!example] __mouse position signal__
 >

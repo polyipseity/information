@@ -35,7 +35,7 @@ Where practical, {@{metrics}@} highlight {@{anomalous parts of the software}@}. 
 
 {@{SQA’s purpose}@} is to {@{_ensure that a product meets or exceeds predefined standards_}@} during {@{its entire development cycle}@}. It establishes {@{organizational norms}@} that guide developers toward {@{higher quality outcomes}@} and supports {@{continuous improvement}@} by {@{monitoring compliance and identifying gaps early}@}. <!--SR:!2027-02-18,317,356!2027-04-12,345,356!2027-04-04,337,356!2027-04-05,338,356!2027-04-25,358,356!2027-04-09,342,356!2027-02-18,317,356-->
 
-During {@{_inception_}@}, {@{planning}@} defines {@{goals and standards}@}. In {@{_elaboration_}@}, {@{reviews}@} validate {@{requirements against those standards}@}. {@{_Construction_}@} sees {@{code inspections and unit tests}@}, while {@{_transition_}@} involves {@{system testing and user acceptance}@}. {@{Iterative increments}@} bring {@{incremental quality checks}@} into each cycle. <!--SR:!fsrs,2030-01-18T00:00:00.000Z,1146,1145.54159115,1,2,9,0,0,2026-11-29T00:00:00.000Z!2027-04-26,359,356!2027-03-06,334,356!2027-04-28,361,356!2026-12-04,261,334!2027-02-16,316,356!2026-11-30,257,334!2027-04-27,360,356!fsrs,2030-01-13T00:00:00.000Z,1142,1141.65443291,1,2,9,0,0,2026-11-28T00:00:00.000Z!2027-01-11,283,334!2027-02-21,320,356!2027-04-28,361,356-->
+During {@{_inception_}@}, {@{planning}@} defines {@{goals and standards}@}. In {@{_elaboration_}@}, {@{reviews}@} validate {@{requirements against those standards}@}. {@{_Construction_}@} sees {@{code inspections and unit tests}@}, while {@{_transition_}@} involves {@{system testing and user acceptance}@}. {@{Iterative increments}@} bring {@{incremental quality checks}@} into each cycle. <!--SR:!fsrs,2030-01-18T00:00:00.000Z,1146,1145.54159115,1,2,9,0,0,2026-11-29T00:00:00.000Z!2027-04-26,359,356!2027-03-06,334,356!2027-04-28,361,356!2026-12-04,261,334!2027-02-16,316,356!fsrs,2030-01-22T00:00:00.000Z,1149,1149.4268017,1,2,9,0,0,2026-11-30T00:00:00.000Z!2027-04-27,360,356!fsrs,2030-01-13T00:00:00.000Z,1142,1141.65443291,1,2,9,0,0,2026-11-28T00:00:00.000Z!2027-01-11,283,334!2027-02-21,320,356!2027-04-28,361,356-->
 
 A {@{logarithmic cost curve}@} shows how the {@{expense of fixing a defect rises dramatically}@} as it moves from {@{requirements to field use}@}: {@{$\text{Cost} \propto e^{n}$}@} where {@{$n$ represents the defect’s stage}@}. {@{Early detection during _requirements_}@} is {@{far cheaper than post‑deployment fixes}@}, underscoring why QA {@{emphasizes early reviews and continuous monitoring}@}. <!--SR:!2027-02-23,322,356!2027-02-26,324,356!2027-03-19,321,356!2027-04-20,353,356!2027-04-03,336,356!2027-04-13,346,356!2027-02-11,315,356!2027-04-30,363,356-->
 
@@ -110,7 +110,7 @@ An example of {@{a non-software metric}@} is {@{_quality of conformance_}@}, whi
 
 ### reliability approaches
 
-{@{Statistical quality assurance}@} focuses on {@{defect causation}@}: {@{the Pareto principle (80% of defects stem from 20% of causes)}@} guides {@{targeted remediation}@}. {@{The Cleanroom process}@} fuses {@{formal verification with statistical analysis}@} to produce {@{highly reliable software}@}, and {@{program correctness}@} can be {@{proven by logical deduction of assertions that trace requirements to code}@}. <!--SR:!2027-04-11,344,356!2026-12-02,259,334!2026-12-04,261,334!2027-03-27,329,356!2027-02-15,315,356!2026-11-30,257,334!2027-02-27,325,356!2027-02-11,311,356!2027-04-27,360,356-->
+{@{Statistical quality assurance}@} focuses on {@{defect causation}@}: {@{the Pareto principle (80% of defects stem from 20% of causes)}@} guides {@{targeted remediation}@}. {@{The Cleanroom process}@} fuses {@{formal verification with statistical analysis}@} to produce {@{highly reliable software}@}, and {@{program correctness}@} can be {@{proven by logical deduction of assertions that trace requirements to code}@}. <!--SR:!2027-04-11,344,356!2026-12-02,259,334!2026-12-04,261,334!2027-03-27,329,356!2027-02-15,315,356!fsrs,2030-01-22T00:00:00.000Z,1149,1149.4268017,1,2,9,0,0,2026-11-30T00:00:00.000Z!2027-02-27,325,356!2027-02-11,311,356!2027-04-27,360,356-->
 
 ## project quality
 
@@ -118,11 +118,11 @@ An example of {@{a non-software metric}@} is {@{_quality of conformance_}@}, whi
 
 ### formal technical reviews
 
-{@{_Reviews_}@} are the {@{primary method for achieving project quality}@}. During {@{requirements, analysis, and design stages}@}, {@{50‑60% of defects originate from them}@}. {@{Adding code reviews}@} after each stage (including {@{implementation and testing}@}) uncover about {@{_75%_ of those issues}@}. <!--SR:!2026-11-30,257,334!2027-04-29,362,356!fsrs,2030-01-13T00:00:00.000Z,1142,1141.65443291,1,2,9,0,0,2026-11-28T00:00:00.000Z!fsrs,2030-01-18T00:00:00.000Z,1146,1145.54159115,1,2,9,0,0,2026-11-29T00:00:00.000Z!2027-04-24,357,356!2027-04-25,358,356!2027-04-14,347,356-->
+{@{_Reviews_}@} are the {@{primary method for achieving project quality}@}. During {@{requirements, analysis, and design stages}@}, {@{50‑60% of defects originate from them}@}. {@{Adding code reviews}@} after each stage (including {@{implementation and testing}@}) uncover about {@{_75%_ of those issues}@}. <!--SR:!fsrs,2030-01-22T00:00:00.000Z,1149,1149.4268017,1,2,9,0,0,2026-11-30T00:00:00.000Z!2027-04-29,362,356!fsrs,2030-01-13T00:00:00.000Z,1142,1141.65443291,1,2,9,0,0,2026-11-28T00:00:00.000Z!fsrs,2030-01-18T00:00:00.000Z,1146,1145.54159115,1,2,9,0,0,2026-11-29T00:00:00.000Z!2027-04-24,357,356!2027-04-25,358,356!2027-04-14,347,356-->
 
 ### software configuration management
 
-{@{_Software configuration management_ (SCM)}@} {@{controls, monitors and records changes}@} to all {@{life‑cycle artifacts}@}. In {@{software development}@}, {@{change (e.g. user requests) is certain}@}. By {@{tracking modifications}@}, SCM ensures that {@{every change is auditable}@} and that the correct versions are {@{used throughout development, testing, and deployment}@}. <!--SR:!2027-02-08,308,356!2026-12-04,261,334!2027-04-27,360,356!2027-04-12,345,356!fsrs,2030-01-18T00:00:00.000Z,1146,1145.54159115,1,2,9,0,0,2026-11-29T00:00:00.000Z!2026-11-30,257,334!2027-04-07,340,356!2027-02-19,318,354-->
+{@{_Software configuration management_ (SCM)}@} {@{controls, monitors and records changes}@} to all {@{life‑cycle artifacts}@}. In {@{software development}@}, {@{change (e.g. user requests) is certain}@}. By {@{tracking modifications}@}, SCM ensures that {@{every change is auditable}@} and that the correct versions are {@{used throughout development, testing, and deployment}@}. <!--SR:!2027-02-08,308,356!2026-12-04,261,334!2027-04-27,360,356!2027-04-12,345,356!fsrs,2030-01-18T00:00:00.000Z,1146,1145.54159115,1,2,9,0,0,2026-11-29T00:00:00.000Z!fsrs,2030-01-22T00:00:00.000Z,1149,1149.4268017,1,2,9,0,0,2026-11-30T00:00:00.000Z!2027-04-07,340,356!2027-02-19,318,354-->
 
 ## process quality
 
@@ -140,7 +140,7 @@ Thus, while {@{a well‑defined process provides structure}@}, {@{people, tools,
 
 {@{_Quality Life Cycle Activities_}@} covers key steps in {@{delivering a product or service from start to finish}@}. These include {@{reviewing contracts, defining customer needs, planning development}@}, {@{creating quality records, designing and implementing solutions, testing}@}, {@{getting customer approval, delivering the product, and providing ongoing maintenance}@}. <!--SR:!2027-04-24,357,356!2027-03-17,319,356!2027-04-08,341,356!2027-02-10,310,356!2027-03-29,331,356-->
 
-{@{_Quality System Supporting Activities_}@} are {@{behind-the-scenes processes that support quality}@}. They include {@{managing changes to products (configuration management), controlling documents}@}, {@{recording quality data, measuring performance, using standard rules and tools}@}, {@{managing purchases, handling software components, and training staff}@}. <!--SR:!2027-04-03,336,356!2026-12-02,259,334!2027-02-22,321,356!2027-04-10,343,356!2026-11-30,257,334-->
+{@{_Quality System Supporting Activities_}@} are {@{behind-the-scenes processes that support quality}@}. They include {@{managing changes to products (configuration management), controlling documents}@}, {@{recording quality data, measuring performance, using standard rules and tools}@}, {@{managing purchases, handling software components, and training staff}@}. <!--SR:!2027-04-03,336,356!2026-12-02,259,334!2027-02-22,321,356!2027-04-10,343,356!fsrs,2030-01-22T00:00:00.000Z,1149,1149.4268017,1,2,9,0,0,2026-11-30T00:00:00.000Z-->
 
 ### SEI Capability Maturity Model
 
@@ -154,7 +154,7 @@ SEI CMM is a framework for assessing and improving software development proces
     - Level 3 – _defined_ / key processes ::@:: organisational process focus/definition, training program, integrated software management, product engineering, inter‑group coordination, peer reviews. <!--SR:!2027-02-27,325,356!2027-04-24,357,356-->
 4. Level 4 – _Managed_ ::@:: – quantitative metrics track process performance; a database of data is maintained. <!--SR:!2026-12-03,260,334!2027-04-10,343,356-->
     - Level 4 – _managed_ / key processes ::@:: quantitative process management, quality management. <!--SR:!2027-02-17,316,356!2027-04-24,357,356-->
-5. Level 5 – _Optimizing_ ::@:: – continuous improvement via defect‑cause analysis and prevention. <!--SR:!2026-11-30,257,334!fsrs,2030-01-13T00:00:00.000Z,1142,1141.65443291,1,2,9,0,0,2026-11-28T00:00:00.000Z-->
+5. Level 5 – _Optimizing_ ::@:: – continuous improvement via defect‑cause analysis and prevention. <!--SR:!fsrs,2030-01-22T00:00:00.000Z,1149,1149.4268017,1,2,9,0,0,2026-11-30T00:00:00.000Z!fsrs,2030-01-13T00:00:00.000Z,1142,1141.65443291,1,2,9,0,0,2026-11-28T00:00:00.000Z-->
     - Level 5 – _optimizing_ / key processes ::@:: fault prevention, technology change management, process change management. <!--SR:!2027-04-01,334,354!2027-03-25,327,356-->
 
 {@{Typical high‑performing organizations}@} reach {@{only Level 3–4}@} on the SEI CMM model; {@{achieving Level 5}@} requires {@{a sustained culture of optimisation and data‑driven decision making}@}. <!--SR:!2027-04-10,343,356!2027-03-22,324,356!2027-04-03,336,356!2027-04-08,341,356-->
@@ -165,7 +165,7 @@ SEI CMM is a framework for assessing and improving software development proces
 
 ### People Capability Maturity Model
 
-{@{The People Capability Maturity Model (PCMM)}@} {@{evaluates and enhances the knowledge and skill base}@} of {@{an organization’s workforce}@}. It links {@{training, talent management, and performance measurement}@} to {@{overall business objectives}@}. <!--SR:!2026-11-30,257,334!2026-11-30,257,334!2027-02-20,319,356!2027-02-20,319,356!2027-02-25,323,356-->
+{@{The People Capability Maturity Model (PCMM)}@} {@{evaluates and enhances the knowledge and skill base}@} of {@{an organization’s workforce}@}. It links {@{training, talent management, and performance measurement}@} to {@{overall business objectives}@}. <!--SR:!fsrs,2030-01-22T00:00:00.000Z,1149,1149.4268017,1,2,9,0,0,2026-11-30T00:00:00.000Z!fsrs,2030-01-22T00:00:00.000Z,1149,1149.4268017,1,2,9,0,0,2026-11-30T00:00:00.000Z!2027-02-20,319,356!2027-02-20,319,356!2027-02-25,323,356-->
 
 1. Level 1 – _Initial_ ::@:: No formal training or technical guidance is offered. Talent is not viewed as a strategic asset; employee skills remain static and organizational loyalty is weak. <!--SR:!2027-04-20,353,356!2026-12-01,258,334-->
 2. Level 2 – _Repeatable_ ::@:: Basic work practices are defined, and the organization begins to recruit, develop, and retain staff. Targeted training fills identified skill gaps, while performance is formally assessed. <!--SR:!2027-02-14,317,356!2026-12-24,272,334-->

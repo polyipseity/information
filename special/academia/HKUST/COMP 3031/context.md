@@ -281,7 +281,7 @@ There are {@{three forms of import}@} to {@{import `given`s}@}: \(annotation: 3 
 
 - by name ::@:: `import scala.math.Ordering.Int` <!--SR:!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2027-01-26,347,349-->
 - by type ::@:: using the `given` keyword, e.g., `import scala.math.Ordering.{given Ordering[Int]}`, `import scala.math.Ordering.{given Ordering[?]}` <!--SR:!fsrs,2030-07-13T00:00:00.000Z,1333,1332.77803171,1,2,9,0,0,2026-11-18T00:00:00.000Z!2026-12-08,308,349-->
-- by wildcard ::@:: via a blanket wildcard, e.g. `import scala.math.given` <!--SR:!2026-11-30,300,349!2027-01-23,344,349-->
+- by wildcard ::@:: via a blanket wildcard, e.g. `import scala.math.given` <!--SR:!fsrs,2030-09-11T00:00:00.000Z,1381,1380.82721279,1,2,9,0,0,2026-11-30T00:00:00.000Z!2027-01-23,344,349-->
 
 Since {@{the actual names of `given` instances}@} are {@{irrelevant to resolution}@}, {@{importing by type}@} is {@{preferred}@} because it explicitly {@{states which implicit instance you intend to use}@}. <!--SR:!2026-12-22,320,349!2027-01-02,329,349!2027-01-01,328,349!fsrs,2030-09-06T00:00:00.000Z,1377,1376.83234312,1,2,9,0,0,2026-11-29T00:00:00.000Z!fsrs,2030-07-18T00:00:00.000Z,1337,1336.79156682,1,2,9,0,0,2026-11-19T00:00:00.000Z-->
 
@@ -412,7 +412,7 @@ With {@{such `given` instances}@} in scope {@{a polymorphic method}@} can be wri
 >   xs.sorted // uses `ord` for comparison
 > ```
 >
-> {@{The compiler}@} resolves {@{the appropriate `Ordering[A]` at compile time}@}. <!--SR:!2026-12-31,327,349!fsrs,2029-10-08T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-10-01T00:00:00.000Z!2026-12-22,320,349!2026-11-30,300,349-->
+> {@{The compiler}@} resolves {@{the appropriate `Ordering[A]` at compile time}@}. <!--SR:!2026-12-31,327,349!fsrs,2029-10-08T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-10-01T00:00:00.000Z!2026-12-22,320,349!fsrs,2030-09-11T00:00:00.000Z,1381,1380.82721279,1,2,9,0,0,2026-11-30T00:00:00.000Z-->
 
 ### retroactive extension
 
@@ -474,7 +474,7 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!fsrs,2029-10-2
 
 ### type class in other languages
 
-{@{Haskell}@} treats {@{type classes}@} as {@{a first-class feature of the language}@}.  {@{The standard library}@} defines {@{an `Ordering` data type}@} ({@{`data Ordering = LT | EQ | GT`}@}) and declares {@{the class}@} <!--SR:!2027-01-27,348,349!2027-01-02,329,349!2027-01-27,348,349!2026-11-30,300,349!2027-01-28,349,349!2026-12-19,317,349!fsrs,2028-01-21T00:00:00.000Z,493,492.57579613,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z-->
+{@{Haskell}@} treats {@{type classes}@} as {@{a first-class feature of the language}@}.  {@{The standard library}@} defines {@{an `Ordering` data type}@} ({@{`data Ordering = LT | EQ | GT`}@}) and declares {@{the class}@} <!--SR:!2027-01-27,348,349!2027-01-02,329,349!2027-01-27,348,349!fsrs,2030-09-11T00:00:00.000Z,1381,1380.82721279,1,2,9,0,0,2026-11-30T00:00:00.000Z!2027-01-28,349,349!2026-12-19,317,349!fsrs,2028-01-21T00:00:00.000Z,493,492.57579613,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z-->
 
 > [!example] __type class in Haskell__
 >
@@ -504,7 +504,7 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!fsrs,2029-10-2
 
 {@{The syntax in Rust}@} is {@{slightly different}@} but {@{the concept}@} remains {@{the same}@}—defining {@{a set of operations}@} that can be {@{implemented for many distinct types}@}. <!--SR:!2027-01-02,329,349!fsrs,2028-07-18T00:00:00.000Z,670,669.69339296,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-12-09,309,349!2027-01-25,346,349!2026-12-31,327,349-->
 
-{@{Other functional and dependently-typed languages}@} are moving {@{toward a similar approach}@}.  {@{Agda, Lean, and soon OCaml}@} provide {@{general _contextual parameters_ or equivalent mechanisms}@} that allow {@{programmers to encode type-class-like behaviour}@} in a manner analogous to {@{Scala's `given` instances}@}.  {@{These systems}@} combine the expressiveness of {@{Haskell's type classes with Scala-style contextual resolution}@}, enabling {@{conditional polymorphism across a wide range of types}@}. <!--SR:!2026-11-30,300,349!2027-01-31,352,349!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2028-09-25T00:00:00.000Z,720,720.2031195,2.49272837,2,9,0,0,2026-10-06T00:00:00.000Z!2027-01-27,348,349!2027-01-29,350,349!fsrs,2030-06-09T00:00:00.000Z,1309,1308.66035919,1,2,9,0,0,2026-11-08T00:00:00.000Z!2027-01-30,351,349!2026-12-04,305,349-->
+{@{Other functional and dependently-typed languages}@} are moving {@{toward a similar approach}@}.  {@{Agda, Lean, and soon OCaml}@} provide {@{general _contextual parameters_ or equivalent mechanisms}@} that allow {@{programmers to encode type-class-like behaviour}@} in a manner analogous to {@{Scala's `given` instances}@}.  {@{These systems}@} combine the expressiveness of {@{Haskell's type classes with Scala-style contextual resolution}@}, enabling {@{conditional polymorphism across a wide range of types}@}. <!--SR:!fsrs,2030-09-11T00:00:00.000Z,1381,1380.82721279,1,2,9,0,0,2026-11-30T00:00:00.000Z!2027-01-31,352,349!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2028-09-25T00:00:00.000Z,720,720.2031195,2.49272837,2,9,0,0,2026-10-06T00:00:00.000Z!2027-01-27,348,349!2027-01-29,350,349!fsrs,2030-06-09T00:00:00.000Z,1309,1308.66035919,1,2,9,0,0,2026-11-08T00:00:00.000Z!2027-01-30,351,349!2026-12-04,305,349-->
 
 ## monoid example
 
