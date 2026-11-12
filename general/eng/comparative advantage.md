@@ -31,7 +31,7 @@ In {@{1817, [David Ricardo](David%20Ricardo.md)}@} published {@{what has since b
 
 ### Ricardo's example
 
-In a famous example, Ricardo considers {@{a [world economy](world%20economy.md) consisting of two countries, [Portugal](portugal.md) and [England](england.md)}@}, each {@{producing two goods of identical quality}@}. In Portugal, {@{the _[a priori](a%20priori%20and%20a%20posteriori.md)_ more efficient country}@}, it is possible to {@{produce [wine](wine.md) and [cloth](textile.md#cloth) with less labor than it would take to produce the same quantities in England}@}. However, {@{the relative costs or ranking of cost of producing those two goods differ between the countries}@}. <!--SR:!2028-05-24,1036,350!2028-09-06,1119,350!2028-06-05,1046,350!2028-02-22,936,330!2026-11-29,579,310-->
+In a famous example, Ricardo considers {@{a [world economy](world%20economy.md) consisting of two countries, [Portugal](portugal.md) and [England](england.md)}@}, each {@{producing two goods of identical quality}@}. In Portugal, {@{the _[a priori](a%20priori%20and%20a%20posteriori.md)_ more efficient country}@}, it is possible to {@{produce [wine](wine.md) and [cloth](textile.md#cloth) with less labor than it would take to produce the same quantities in England}@}. However, {@{the relative costs or ranking of cost of producing those two goods differ between the countries}@}. <!--SR:!2028-05-24,1036,350!2028-09-06,1119,350!2028-06-05,1046,350!2028-02-22,936,330!fsrs,2032-10-18T00:00:00.000Z,2150,2149.96646714,1,2,10,0,0,2026-11-29T00:00:00.000Z-->
 
 Hours of work necessary to produce one unit
 

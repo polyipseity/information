@@ -11,7 +11,7 @@ tags:
 
 ## AXE method
 
-{@{The [electron pairs](electron%20pair.md) of the central [atom](atom.md)}@} can be represented by {@{AX<sub>n</sub>E<sub>m</sub>}@}, where {@{A is the central atom, X are the [ligands](ligand.md), and E are the [_lone_ electron pairs](lone%20pair.md)}@}. {@{The steric number}@} is {@{the sum of the numbers of X and E}@}. <!--SR:!2031-01-08,2108,310!2026-11-29,958,330!2027-04-03,337,345!2027-04-07,341,345!2027-04-09,343,345-->
+{@{The [electron pairs](electron%20pair.md) of the central [atom](atom.md)}@} can be represented by {@{AX<sub>n</sub>E<sub>m</sub>}@}, where {@{A is the central atom, X are the [ligands](ligand.md), and E are the [_lone_ electron pairs](lone%20pair.md)}@}. {@{The steric number}@} is {@{the sum of the numbers of X and E}@}. <!--SR:!2031-01-08,2108,310!fsrs,2036-09-15T00:00:00.000Z,3578,3578.14960012,1,2,11,0,0,2026-11-29T00:00:00.000Z!2027-04-03,337,345!2027-04-07,341,345!2027-04-09,343,345-->
 
 ### main-group elements
 

@@ -71,7 +71,7 @@ There are {@{many objects in the application domain}@}. Classes allow us to {@{_
 
 {@{The _visibility_}@} of an operation describe {@{who can _use_ the operation}@}. In {@{Java}@}, there are {@{4 visibilities \(in order of decreasing visibility\)}@}: {@{public \(all classes\), protected \(additionally, subclasses\)}@}, {@{package-local \(additionally, classes in the same package\), and private \(the class itself\)}@}. They are respectively represented by the symbols {@{`+`, `#`, `~`, and `-`}@}. <!--SR:!2027-01-22,373,361!fsrs,2030-07-16T00:00:00.000Z,1353,1352.51943258,1,2,9,0,0,2026-11-01T00:00:00.000Z!fsrs,2030-09-23T00:00:00.000Z,1408,1408.48258398,1,2,9,0,0,2026-11-15T00:00:00.000Z!2028-03-21,683,330!fsrs,2030-06-17T00:00:00.000Z,1330,1330.46653099,1,2,9,0,0,2026-10-26T00:00:00.000Z!2027-01-22,373,361!fsrs,2027-02-07T00:00:00.000Z,136,136.32049901,1,2,2,0,0,2026-09-24T00:00:00.000Z-->
 
-{@{The syntax}@} to {@{describe an operation}@} is {@{`<visibility> <name>(<parm name 1>, ..., <parm name N>) : <return type>`}@}. <!--SR:!2027-02-12,390,361!2027-03-07,402,370!2026-11-29,319,342-->
+{@{The syntax}@} to {@{describe an operation}@} is {@{`<visibility> <name>(<parm name 1>, ..., <parm name N>) : <return type>`}@}. <!--SR:!2027-02-12,390,361!2027-03-07,402,370!fsrs,2030-10-23T00:00:00.000Z,1424,1424.01125453,1,2,9,0,0,2026-11-29T00:00:00.000Z-->
 
 ## associations
 
@@ -156,7 +156,7 @@ As mentioned above, {@{generalization}@} is represented by {@{_inheritance_ in o
 
 This allows us to {@{_simplify_ diagrams for _clarity_}@}, because {@{common attributes, operations, and relations}@} are {@{only defined in one class}@} rather than {@{duplicated over multiple classes}@}. This helps with {@{modifiability \(maintainability\), redundancy, and reusability}@}. <!--SR:!2027-02-13,391,361!fsrs,2030-09-29T00:00:00.000Z,1405,1404.59658767,1,2,9,0,0,2026-11-24T00:00:00.000Z!2027-03-20,415,370!2027-01-20,371,361!2027-02-14,392,361-->
 
-{@{Most programming languages}@} support {@{_single inheritance_}@}, in which {@{a class can only have at most one _direct_ superclass}@}. {@{A few programming languages}@} support {@{_multiple inheritance_}@}, in which {@{a class can have multiple _direct_ superclasses}@}. <!--SR:!2026-11-29,319,342!fsrs,2030-09-17T00:00:00.000Z,1395,1395.40414447,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2030-09-28T00:00:00.000Z,1412,1412.36700874,1,2,9,0,0,2026-11-16T00:00:00.000Z!fsrs,2030-08-10T00:00:00.000Z,1373,1373.45345232,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2030-10-08T00:00:00.000Z,1412,1412.36700874,1,2,9,0,0,2026-11-26T00:00:00.000Z!2026-12-04,324,342-->
+{@{Most programming languages}@} support {@{_single inheritance_}@}, in which {@{a class can only have at most one _direct_ superclass}@}. {@{A few programming languages}@} support {@{_multiple inheritance_}@}, in which {@{a class can have multiple _direct_ superclasses}@}. <!--SR:!fsrs,2030-10-23T00:00:00.000Z,1424,1424.01125453,1,2,9,0,0,2026-11-29T00:00:00.000Z!fsrs,2030-09-17T00:00:00.000Z,1395,1395.40414447,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2030-09-28T00:00:00.000Z,1412,1412.36700874,1,2,9,0,0,2026-11-16T00:00:00.000Z!fsrs,2030-08-10T00:00:00.000Z,1373,1373.45345232,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2030-10-08T00:00:00.000Z,1412,1412.36700874,1,2,9,0,0,2026-11-26T00:00:00.000Z!2026-12-04,324,342-->
 
 \(__this course__: We only consider {@{_single inheritance_ but not _multiple inheritance_}@}.\) <!--SR:!fsrs,2030-06-13T00:00:00.000Z,1327,1326.54889029,1,2,9,0,0,2026-10-25T00:00:00.000Z-->
 
@@ -182,7 +182,7 @@ There are {@{4 major solutions}@}: {@{many attributes in a class, multi-valued a
 
 {@{_Abstract entities_}@} are {@{entities created for _modeling_ purposes}@} that {@{do not have _direct_ instances of it}@}. It can be applied to {@{classes and operations}@}. <!--SR:!2027-02-06,385,361!2027-03-11,406,370!fsrs,2030-07-27T00:00:00.000Z,1362,1361.74897865,1,2,9,0,0,2026-11-03T00:00:00.000Z!fsrs,2030-10-03T00:00:00.000Z,1408,1408.48258398,1,2,9,0,0,2026-11-25T00:00:00.000Z-->
 
-{@{An _abstract class_}@} is {@{a class with no _direct_ instances}@}. {@{Its name}@} is {@{_italicized_}@}. A special type of abstract class is {@{an _interface_}@}, which is {@{an _abstract class_ with _operations_ only}@}. <!--SR:!fsrs,2030-06-17T00:00:00.000Z,1330,1330.46653099,1,2,9,0,0,2026-10-26T00:00:00.000Z!2027-02-14,392,361!2027-02-01,380,361!2026-11-29,319,342!2027-02-13,391,361!2026-12-02,322,342-->
+{@{An _abstract class_}@} is {@{a class with no _direct_ instances}@}. {@{Its name}@} is {@{_italicized_}@}. A special type of abstract class is {@{an _interface_}@}, which is {@{an _abstract class_ with _operations_ only}@}. <!--SR:!fsrs,2030-06-17T00:00:00.000Z,1330,1330.46653099,1,2,9,0,0,2026-10-26T00:00:00.000Z!2027-02-14,392,361!2027-02-01,380,361!fsrs,2030-10-23T00:00:00.000Z,1424,1424.01125453,1,2,9,0,0,2026-11-29T00:00:00.000Z!2027-02-13,391,361!2026-12-02,322,342-->
 
 {@{An _abstract operation_}@} is {@{an operation with no _direct_ method \(_direct_ implementation\)}@}. {@{Its name}@} is {@{_italicized_}@}. <!--SR:!2027-03-12,407,370!fsrs,2030-06-27T00:00:00.000Z,1338,1338.29693509,1,2,9,0,0,2026-10-28T00:00:00.000Z!2027-03-08,403,370!2026-11-30,320,342-->
 

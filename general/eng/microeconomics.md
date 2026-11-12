@@ -37,7 +37,7 @@ The utility maximization problem has so far been developed by {@{taking consumer
 
 This is studied in the field of {@{[collective action](collective%20action.md) and [public choice theory](public%20choice.md)}@}. {@{"Optimal welfare"}@} usually takes on {@{a [Paretian](pareto%20efficiency.md) norm, which is a mathematical application of the [Kaldor–Hicks method](Kaldor–Hicks%20efficiency.md)}@}. This can {@{diverge from the [Utilitarian](utilitarianism.md) goal of maximizing [utility](utility.md)}@} because {@{it does not consider the distribution of goods between people}@}. {@{Market failure in positive economics (microeconomics)}@} is {@{limited in implications without mixing the belief of the economist and their theory}@}. <!--SR:!2028-08-21,1107,350!2028-07-05,1068,350!2030-01-22,1440,310!2026-12-17,618,330!2028-10-11,1148,350!2028-09-19,1129,350!2028-08-06,1095,350-->
 
-{@{The demand for various commodities by individuals}@} is {@{generally thought of as the outcome of a utility-maximizing process}@}, with {@{each individual trying to maximize their own utility under a [budget constraint](budget%20constraint.md) and a given consumption set}@}. <!--SR:!2029-06-29,1352,350!2026-11-29,604,330!2027-11-10,858,330-->
+{@{The demand for various commodities by individuals}@} is {@{generally thought of as the outcome of a utility-maximizing process}@}, with {@{each individual trying to maximize their own utility under a [budget constraint](budget%20constraint.md) and a given consumption set}@}. <!--SR:!2029-06-29,1352,350!fsrs,2033-06-14T00:00:00.000Z,2389,2388.68613108,1,2,10,0,0,2026-11-29T00:00:00.000Z!2027-11-10,858,330-->
 
 ### allocation of scarce resources
 

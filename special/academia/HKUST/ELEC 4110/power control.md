@@ -24,7 +24,7 @@ The approach works only when {@{uplink and downlink see the same large‑scale f
 
 ## closed-loop power control
 
-{@{_Closed-loop power control_}@} adds {@{receiver feedback}@}. The receiver {@{measures received power (or a quality metric)}@} and {@{sends a TPC command}@} telling the transmitter to {@{increase, decrease, or hold power}@}. The transmitter {@{follows the command}@}. <!--SR:!2026-11-29,244,330!fsrs,2029-09-17T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-11-15T00:00:00.000Z!2026-12-01,246,330!2027-02-14,290,330!2026-12-12,255,330!2027-02-10,286,330-->
+{@{_Closed-loop power control_}@} adds {@{receiver feedback}@}. The receiver {@{measures received power (or a quality metric)}@} and {@{sends a TPC command}@} telling the transmitter to {@{increase, decrease, or hold power}@}. The transmitter {@{follows the command}@}. <!--SR:!fsrs,2029-11-17T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-29T00:00:00.000Z!fsrs,2029-09-17T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-11-15T00:00:00.000Z!2026-12-01,246,330!2027-02-14,290,330!2026-12-12,255,330!2027-02-10,286,330-->
 
 {@{This loop}@} runs {@{during active data transmission in most mobile systems}@} (e.g., {@{CDMA, WCDMA, LTE, Bluetooth}@}). By reacting to {@{real‑time channel and interference changes}@}, {@{closed‑loop control}@} maintains {@{target signal quality with far more precision than open‑loop}@}, at {@{the cost of additional signalling overhead}@}. <!--SR:!2026-12-05,249,330!2026-12-12,255,330!2027-01-02,272,330!fsrs,2029-09-22T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-11-16T00:00:00.000Z!2026-12-01,246,330!2026-12-03,247,330!2027-02-08,284,330-->
 

@@ -23,11 +23,11 @@ tags:
 
 - see: [general/state (computer science)](../../../../general/state%20(computer%20science).md)
 
-{@{__State__}@} is the notion that {@{a program can carry data that changes over time}@}, breaking {@{referential transparency}@}. In {@{functional programming}@} we usually {@{try to avoid it}@}, but in {@{many practical systems – such as databases or user interfaces}@} – {@{mutable state is unavoidable}@}. The following sections describe how {@{Scala models state and why it matters for reasoning about programs}@}. <!--SR:!2026-12-29,270,330!2026-12-10,255,330!2026-12-21,263,330!fsrs,2029-10-05T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-13T00:00:00.000Z!fsrs,2029-09-05T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-11-06T00:00:00.000Z!2026-11-29,251,330!2026-12-28,269,330!2026-12-15,259,330-->
+{@{__State__}@} is the notion that {@{a program can carry data that changes over time}@}, breaking {@{referential transparency}@}. In {@{functional programming}@} we usually {@{try to avoid it}@}, but in {@{many practical systems – such as databases or user interfaces}@} – {@{mutable state is unavoidable}@}. The following sections describe how {@{Scala models state and why it matters for reasoning about programs}@}. <!--SR:!2026-12-29,270,330!2026-12-10,255,330!2026-12-21,263,330!fsrs,2029-10-05T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-13T00:00:00.000Z!fsrs,2029-09-05T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2029-12-14T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-29T00:00:00.000Z!2026-12-28,269,330!2026-12-15,259,330-->
 
 ## substitution model
 
-{@{The λ‑calculus}@} treats {@{a program as a series of substitutions}@}. {@{A function application `f(v)`}@} is rewritten by replacing {@{the formal parameter with the actual argument in the body}@}: <!--SR:!fsrs,2029-10-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-12T00:00:00.000Z!2027-01-02,273,330!2026-12-30,271,330!2026-11-29,251,330-->
+{@{The λ‑calculus}@} treats {@{a program as a series of substitutions}@}. {@{A function application `f(v)`}@} is rewritten by replacing {@{the formal parameter with the actual argument in the body}@}: <!--SR:!fsrs,2029-10-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-12T00:00:00.000Z!2027-01-02,273,330!2026-12-30,271,330!fsrs,2029-12-14T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-29T00:00:00.000Z-->
 
 > [!example] __substitution rule__
 >
@@ -54,7 +54,7 @@ tags:
 > // → 9
 > ```
 >
-> {@{The sequence}@} ends with {@{the same result regardless of the order}@} in which {@{sub‑expressions are reduced}@}. <!--SR:!fsrs,2029-11-14T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-11-29,251,330!2026-12-20,263,330!fsrs,2029-10-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-12-04,255,330-->
+> {@{The sequence}@} ends with {@{the same result regardless of the order}@} in which {@{sub‑expressions are reduced}@}. <!--SR:!fsrs,2029-11-14T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2029-12-14T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-29T00:00:00.000Z!2026-12-20,263,330!fsrs,2029-10-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-12-04,255,330-->
 
 ## statefulness
 
@@ -77,7 +77,7 @@ tags:
 >
 > {@{The field `balance`}@} is mutated by {@{`deposit` and `withdraw`}@}, so {@{two calls to the same object can produce different results}@}. <!--SR:!2026-12-15,259,330!2026-12-15,259,330!2026-12-22,264,330!fsrs,2029-09-29T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-11T00:00:00.000Z!fsrs,2029-11-12T00:00:00.000Z,1086,1086.39241182,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2029-11-04T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-20T00:00:00.000Z-->
 
-{@{Scala objects}@} are {@{instances of classes}@}, therefore an instance that {@{contains a mutable field is (usually; see below) stateful}@}. {@{A proxy class}@} delegating to {@{another stateful object also carries state}@}: <!--SR:!2026-11-29,251,330!fsrs,2029-11-19T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-23T00:00:00.000Z!2026-11-30,251,330!2027-01-05,276,330!2027-01-04,275,330-->
+{@{Scala objects}@} are {@{instances of classes}@}, therefore an instance that {@{contains a mutable field is (usually; see below) stateful}@}. {@{A proxy class}@} delegating to {@{another stateful object also carries state}@}: <!--SR:!fsrs,2029-12-14T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-29T00:00:00.000Z!fsrs,2029-11-19T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-23T00:00:00.000Z!2026-11-30,251,330!2027-01-05,276,330!2027-01-04,275,330-->
 
 > [!example] __stateful proxy__
 >
@@ -92,7 +92,7 @@ tags:
 
 {@{Instances of `BankAccountProxy`}@} are {@{stateful}@} because they expose {@{the mutable behaviour of the wrapped account}@}, showing that {@{statefulness is _infectious_}@}. <!--SR:!2026-12-15,259,330!2026-12-20,263,330!2026-12-25,267,330!2026-12-19,261,330-->
 
-Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on the function inputs}@}. For example, {@{a lazy list built with a mutable field to cache the `tail`}@} is either {@{stateless or stateful}@} depending if {@{the `tail` expression `tl` is stateful}@}: <!--SR:!2026-12-29,270,330!fsrs,2029-10-10T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-12-10,255,330!fsrs,2029-10-10T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-11-29,251,330-->
+Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on the function inputs}@}. For example, {@{a lazy list built with a mutable field to cache the `tail`}@} is either {@{stateless or stateful}@} depending if {@{the `tail` expression `tl` is stateful}@}: <!--SR:!2026-12-29,270,330!fsrs,2029-10-10T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-12-10,255,330!fsrs,2029-10-10T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-14T00:00:00.000Z!fsrs,2029-12-14T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-29T00:00:00.000Z-->
 
 > [!example] __mutable tail list implementation__
 >
@@ -140,7 +140,7 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 > // S':  x.deposit(30); x.withdraw(20)
 > ```
 >
-> If we define {@{`val y = x`}@}, {@{no test can distinguish them}@}; they are {@{operationally the same}@}. <!--SR:!2026-12-04,255,330!fsrs,2029-09-29T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-11T00:00:00.000Z!2026-12-19,262,330!2027-01-03,274,330!2026-12-16,259,330!2026-11-29,251,330-->
+> If we define {@{`val y = x`}@}, {@{no test can distinguish them}@}; they are {@{operationally the same}@}. <!--SR:!2026-12-04,255,330!fsrs,2029-09-29T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-11T00:00:00.000Z!2026-12-19,262,330!2027-01-03,274,330!2026-12-16,259,330!fsrs,2029-12-14T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-29T00:00:00.000Z-->
 
 {@{The λ‑calculus substitution model}@} replaces {@{a variable by its defining expression}@}. It works for {@{immutable values but fails when mutable state is involved}@}, because replacing {@{a reference with another object changes behaviour}@}. <!--SR:!fsrs,2029-10-05T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-13T00:00:00.000Z!fsrs,2029-10-05T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-13T00:00:00.000Z!fsrs,2029-10-19T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-16T00:00:00.000Z!fsrs,2029-10-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-12T00:00:00.000Z-->
 

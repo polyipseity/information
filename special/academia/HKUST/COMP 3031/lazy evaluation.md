@@ -62,7 +62,7 @@ or {@{more conveniently}@} via {@{the factory syntax}@}, in which {@{parameters 
 > ```
 <!--SR:!fsrs,2030-02-26T00:00:00.000Z,1224,1224.09821834,1,2,9,0,0,2026-10-21T00:00:00.000Z!fsrs,2030-05-12T00:00:00.000Z,1284,1283.98912067,1,2,9,0,0,2026-11-05T00:00:00.000Z!2027-01-16,339,345-->
 
-{@{The operator corresponding to `::` for `LazyList`}@} is {@{the `#::` operator}@}, which prepends {@{a head element to a tail}@} that is {@{itself a lazy list}@}: <!--SR:!2026-11-29,301,345!2026-12-18,316,345!2027-01-09,333,345!fsrs,2030-04-12T00:00:00.000Z,1260,1260.08188809,1,2,9,0,0,2026-10-30T00:00:00.000Z-->
+{@{The operator corresponding to `::` for `LazyList`}@} is {@{the `#::` operator}@}, which prepends {@{a head element to a tail}@} that is {@{itself a lazy list}@}: <!--SR:!fsrs,2030-08-27T00:00:00.000Z,1367,1367.17336032,1,2,9,0,0,2026-11-29T00:00:00.000Z!2026-12-18,316,345!2027-01-09,333,345!fsrs,2030-04-12T00:00:00.000Z,1260,1260.08188809,1,2,9,0,0,2026-10-30T00:00:00.000Z-->
 
 > [!example] __`#::`__
 >
@@ -182,11 +182,11 @@ Using {@{this naive construction}@}, {@{`lazyRange(1, 10).take(3)`}@} would trig
 >
 > ... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. <!--SR:!fsrs,2030-04-27T00:00:00.000Z,1272,1272.04354713,1,2,9,0,0,2026-11-02T00:00:00.000Z!fsrs,2030-08-12T00:00:00.000Z,1355,1355.33514407,1,2,9,0,0,2026-11-26T00:00:00.000Z!fsrs,2030-03-08T00:00:00.000Z,1232,1232.10755353,1,2,9,0,0,2026-10-23T00:00:00.000Z!2027-01-21,343,345!fsrs,2030-07-22T00:00:00.000Z,1338,1338.10218951,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2030-07-28T00:00:00.000Z,1343,1343.48217174,1,2,9,0,0,2026-11-23T00:00:00.000Z!2027-01-10,334,345!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z!fsrs,2030-04-07T00:00:00.000Z,1256,1256.09108905,1,2,9,0,0,2026-10-29T00:00:00.000Z!2026-12-09,308,345!2027-03-31,403,370-->
 
-... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. In {@{Scala 3's standard library}@} this pattern appears as {@{a private `lazyState` function}@} that yields {@{a `State[A]` object containing `head` and `tail`}@}; thus {@{the list's structure (whether it's empty or a cons cell)}@} is {@{computed lazily}@}, but {@{individual `head` elements themselves}@} are {@{not lazy}@}—only {@{the overall shape of the sequence}@} is {@{deferred}@}. <!--SR:!2026-11-29,299,345!fsrs,2030-04-07T00:00:00.000Z,1256,1256.09108905,1,2,9,0,0,2026-10-29T00:00:00.000Z!2027-01-14,337,345!fsrs,2029-12-07T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-07T00:00:00.000Z!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z!fsrs,2030-08-07T00:00:00.000Z,1351,1351.38586304,1,2,9,0,0,2026-11-25T00:00:00.000Z!fsrs,2028-08-08T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2027-01-04,329,345!2026-12-15,313,345!fsrs,2029-01-25T00:00:00.000Z,904,904.19353564,1,2,9,0,0,2026-08-05T00:00:00.000Z!2026-12-12,311,345!2026-12-10,309,345!2027-03-19,393,370-->
+... where {@{`State`}@} is {@{an enum of either `Empty` or `Cons(hd, tl)`}@}; {@{the latter's tail (`tl`)}@} is {@{a fully lazy `LazyList`}@}. In {@{Scala 3's standard library}@} this pattern appears as {@{a private `lazyState` function}@} that yields {@{a `State[A]` object containing `head` and `tail`}@}; thus {@{the list's structure (whether it's empty or a cons cell)}@} is {@{computed lazily}@}, but {@{individual `head` elements themselves}@} are {@{not lazy}@}—only {@{the overall shape of the sequence}@} is {@{deferred}@}. <!--SR:!fsrs,2030-08-19T00:00:00.000Z,1359,1359.28283414,1,2,9,0,0,2026-11-29T00:00:00.000Z!fsrs,2030-04-07T00:00:00.000Z,1256,1256.09108905,1,2,9,0,0,2026-10-29T00:00:00.000Z!2027-01-14,337,345!fsrs,2029-12-07T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-10-07T00:00:00.000Z!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z!fsrs,2030-08-07T00:00:00.000Z,1351,1351.38586304,1,2,9,0,0,2026-11-25T00:00:00.000Z!fsrs,2028-08-08T00:00:00.000Z,692,692.47401324,2.49272837,2,9,0,0,2026-09-16T00:00:00.000Z!2027-01-04,329,345!2026-12-15,313,345!fsrs,2029-01-25T00:00:00.000Z,904,904.19353564,1,2,9,0,0,2026-08-05T00:00:00.000Z!2026-12-12,311,345!2026-12-10,309,345!2027-03-19,393,370-->
 
 ## lazy evaluation
 
-Scala is {@{strict by default}@}. Compare to {@{Haskell}@}, which performs {@{lazy evaluation by default}@}. Scala offers {@{several mechanisms for deferring computation}@}: \(annotation: 2 items: {@{by-name parameters, `lazy val`}@}\) <!--SR:!fsrs,2030-05-12T00:00:00.000Z,1284,1283.98912067,1,2,9,0,0,2026-11-05T00:00:00.000Z!fsrs,2030-06-11T00:00:00.000Z,1308,1307.83267627,1,2,9,0,0,2026-11-11T00:00:00.000Z!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z!2026-11-29,301,345!2027-01-21,343,345-->
+Scala is {@{strict by default}@}. Compare to {@{Haskell}@}, which performs {@{lazy evaluation by default}@}. Scala offers {@{several mechanisms for deferring computation}@}: \(annotation: 2 items: {@{by-name parameters, `lazy val`}@}\) <!--SR:!fsrs,2030-05-12T00:00:00.000Z,1284,1283.98912067,1,2,9,0,0,2026-11-05T00:00:00.000Z!fsrs,2030-06-11T00:00:00.000Z,1308,1307.83267627,1,2,9,0,0,2026-11-11T00:00:00.000Z!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z!fsrs,2030-08-27T00:00:00.000Z,1367,1367.17336032,1,2,9,0,0,2026-11-29T00:00:00.000Z!2027-01-21,343,345-->
 
 - __By-name parameters__ (`=> T`) ::@:: – used in `LazyList.cons` to delay evaluation of the tail. <!--SR:!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z!2027-01-08,332,345-->
 - __`lazy val`__ ::@:: – a value that is evaluated at most once, on first use. <!--SR:!2026-12-18,316,345!2026-12-14,312,345-->
@@ -316,7 +316,7 @@ Because {@{the tail of a lazy list}@} is {@{lazily evaluated}@}, it can {@{repre
 >           prev.updated(f, prev(f) - amount).updated(t, prev(t) + amount)
 >   // more ...
 > ```
-> <!--SR:!fsrs,2029-12-22T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-11T00:00:00.000Z!2026-11-29,300,345!2027-01-07,331,345-->
+> <!--SR:!fsrs,2029-12-22T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-11T00:00:00.000Z!fsrs,2030-08-23T00:00:00.000Z,1363,1363.22894066,1,2,9,0,0,2026-11-29T00:00:00.000Z!2027-01-07,331,345-->
 
 Under {@{the class `Pouring`}@}, {@{all glasses and possible moves}@} are {@{generated}@}: <!--SR:!fsrs,2030-06-26T00:00:00.000Z,1320,1319.73118852,1,2,9,0,0,2026-11-14T00:00:00.000Z!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z!fsrs,2030-04-02T00:00:00.000Z,1252,1252.09840125,1,2,9,0,0,2026-10-28T00:00:00.000Z-->
 
@@ -379,7 +379,7 @@ Under {@{the class `Pouring`}@}, {@{all glasses and possible moves}@} are {@{gen
 
 ## lazy evaluation in other languages
 
-In {@{many functional languages}@}, {@{laziness}@} is {@{built into the core language}@} rather than {@{added as a library feature}@}. <!--SR:!2027-01-19,341,345!2026-11-29,301,345!2026-12-07,307,345!2026-12-13,312,345-->
+In {@{many functional languages}@}, {@{laziness}@} is {@{built into the core language}@} rather than {@{added as a library feature}@}. <!--SR:!2027-01-19,341,345!fsrs,2030-08-27T00:00:00.000Z,1367,1367.17336032,1,2,9,0,0,2026-11-29T00:00:00.000Z!2026-12-07,307,345!2026-12-13,312,345-->
 
 {@{Haskell}@} exemplifies {@{this approach}@}: {@{its list type}@} is {@{inherently lazy}@}, so values are {@{computed only when they are needed}@}. {@{A classic illustration}@} is {@{an infinite stream of guesses for a square root}@} defined with {@{the cons operator `::`}@}. <!--SR:!fsrs,2030-04-21T00:00:00.000Z,1267,1266.62765366,1,2,9,0,0,2026-11-01T00:00:00.000Z!2027-01-18,340,345!2026-12-30,325,345!2027-01-19,341,345!fsrs,2030-02-19T00:00:00.000Z,1206,1206.48213635,1,2,9,0,0,2026-11-01T00:00:00.000Z!fsrs,2030-04-12T00:00:00.000Z,1260,1260.08188809,1,2,9,0,0,2026-10-30T00:00:00.000Z!fsrs,2030-05-07T00:00:00.000Z,1280,1280.00907103,1,2,9,0,0,2026-11-04T00:00:00.000Z!2026-12-12,311,345-->
 

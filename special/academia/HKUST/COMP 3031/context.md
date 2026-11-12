@@ -129,7 +129,7 @@ In Scala, {@{an implicit parameter}@} is introduced through {@{a `using` clause 
 > ```Scala
 > def sort[T](xs: List[T])(using ord: Ordering[T]): List[T] = …
 > ```
-<!--SR:!2026-11-29,299,349!fsrs,2030-07-23T00:00:00.000Z,1341,1340.80330866,1,2,9,0,0,2026-11-20T00:00:00.000Z-->
+<!--SR:!fsrs,2030-09-06T00:00:00.000Z,1377,1376.83234312,1,2,9,0,0,2026-11-29T00:00:00.000Z!fsrs,2030-07-23T00:00:00.000Z,1341,1340.80330866,1,2,9,0,0,2026-11-20T00:00:00.000Z-->
 
 When calling {@{such a method}@}, you may {@{supply the argument explicitly}@} via {@{another `using` clause}@}: <!--SR:!2027-01-28,349,349!2026-12-08,308,349!2026-12-10,310,349-->
 
@@ -283,7 +283,7 @@ There are {@{three forms of import}@} to {@{import `given`s}@}: \(annotation: 3 
 - by type ::@:: using the `given` keyword, e.g., `import scala.math.Ordering.{given Ordering[Int]}`, `import scala.math.Ordering.{given Ordering[?]}` <!--SR:!fsrs,2030-07-13T00:00:00.000Z,1333,1332.77803171,1,2,9,0,0,2026-11-18T00:00:00.000Z!2026-12-08,308,349-->
 - by wildcard ::@:: via a blanket wildcard, e.g. `import scala.math.given` <!--SR:!2026-11-30,300,349!2027-01-23,344,349-->
 
-Since {@{the actual names of `given` instances}@} are {@{irrelevant to resolution}@}, {@{importing by type}@} is {@{preferred}@} because it explicitly {@{states which implicit instance you intend to use}@}. <!--SR:!2026-12-22,320,349!2027-01-02,329,349!2027-01-01,328,349!2026-11-29,299,349!fsrs,2030-07-18T00:00:00.000Z,1337,1336.79156682,1,2,9,0,0,2026-11-19T00:00:00.000Z-->
+Since {@{the actual names of `given` instances}@} are {@{irrelevant to resolution}@}, {@{importing by type}@} is {@{preferred}@} because it explicitly {@{states which implicit instance you intend to use}@}. <!--SR:!2026-12-22,320,349!2027-01-02,329,349!2027-01-01,328,349!fsrs,2030-09-06T00:00:00.000Z,1377,1376.83234312,1,2,9,0,0,2026-11-29T00:00:00.000Z!fsrs,2030-07-18T00:00:00.000Z,1337,1336.79156682,1,2,9,0,0,2026-11-19T00:00:00.000Z-->
 
 ### conditional `given`
 
@@ -416,7 +416,7 @@ With {@{such `given` instances}@} in scope {@{a polymorphic method}@} can be wri
 
 ### retroactive extension
 
-{@{A type class}@} can be {@{implemented for a data type}@} without {@{modifying its definition}@}. For example, {@{a rational number type}@}: <!--SR:!2026-11-29,299,349!2027-01-29,350,349!fsrs,2030-07-03T00:00:00.000Z,1325,1324.74576884,1,2,9,0,0,2026-11-16T00:00:00.000Z!fsrs,2030-06-24T00:00:00.000Z,1321,1320.72713296,1,2,9,0,0,2026-11-11T00:00:00.000Z-->
+{@{A type class}@} can be {@{implemented for a data type}@} without {@{modifying its definition}@}. For example, {@{a rational number type}@}: <!--SR:!fsrs,2030-09-06T00:00:00.000Z,1377,1376.83234312,1,2,9,0,0,2026-11-29T00:00:00.000Z!2027-01-29,350,349!fsrs,2030-07-03T00:00:00.000Z,1325,1324.74576884,1,2,9,0,0,2026-11-16T00:00:00.000Z!fsrs,2030-06-24T00:00:00.000Z,1321,1320.72713296,1,2,9,0,0,2026-11-11T00:00:00.000Z-->
 
 > [!example] __retroactively extending `Rational`__
 >
@@ -489,7 +489,7 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!fsrs,2029-10-2
 
 {@{`class Ord`}@} specifies {@{how values of any type `a` can be compared}@}. Because {@{the mechanism is built-in}@}, Haskell's {@{type-class system}@} is {@{simpler to reason about}@} than Scala's {@{more general contextual parameters}@}. <!--SR:!2027-04-02,404,371!2027-03-22,395,371!2027-04-12,413,371!2026-12-21,301,351!2027-04-10,411,371!2027-03-23,396,371-->
 
-{@{Modern systems such as Rust}@} have adopted {@{an analogous construct}@}: the language offers {@{_traits_}@}, which are {@{essentially type classes}@}. {@{A typical Rust trait}@} that {@{mirrors `Ord`}@} looks like: <!--SR:!2026-12-24,321,349!2026-11-29,299,349!fsrs,2028-08-03T00:00:00.000Z,756,756.20650093,1,2,8,0,0,2026-07-09T00:00:00.000Z!2027-01-29,350,349!fsrs,2030-07-29T00:00:00.000Z,1349,1348.82166006,1,2,9,0,0,2026-11-18T00:00:00.000Z!2027-01-22,343,349-->
+{@{Modern systems such as Rust}@} have adopted {@{an analogous construct}@}: the language offers {@{_traits_}@}, which are {@{essentially type classes}@}. {@{A typical Rust trait}@} that {@{mirrors `Ord`}@} looks like: <!--SR:!2026-12-24,321,349!fsrs,2030-09-06T00:00:00.000Z,1377,1376.83234312,1,2,9,0,0,2026-11-29T00:00:00.000Z!fsrs,2028-08-03T00:00:00.000Z,756,756.20650093,1,2,8,0,0,2026-07-09T00:00:00.000Z!2027-01-29,350,349!fsrs,2030-07-29T00:00:00.000Z,1349,1348.82166006,1,2,9,0,0,2026-11-18T00:00:00.000Z!2027-01-22,343,349-->
 
 > [!example] __type class in Rust__
 >

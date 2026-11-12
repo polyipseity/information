@@ -52,7 +52,7 @@ In all other cases, use $u=\tan(t/2)$ \(annotation: tangent half-angle substitut
 
 - _(begin)_→::@::←If $\omega (-t)=\omega (t)$ \(annotation: even symmetry around $x = 0$\), a good change of variables is $u=\cos t$. <!--SR:!2030-04-03,1485,290!2029-01-30,1295,350-->
 - If $\omega (-t)=\omega (t)$ \(annotation: even symmetry around $x = 0$\), a good change of variables is $u=\cos t$.→::@::←If $\omega (\pi -t)=\omega (t)$ \(annotation: even symmetry around $x = \frac \pi 2$\), a good change of variables is $u=\sin t$. <!--SR:!2027-02-13,677,290!2027-08-18,846,310-->
-- If $\omega (\pi -t)=\omega (t)$ \(annotation: even symmetry around $x = \frac \pi 2$\), a good change of variables is $u=\sin t$.→::@::←If $\omega (\pi +t)=\omega (t)$ \(annotation: $\pi$-periodic\), a good change of variables is $u=\tan t$. <!--SR:!2026-11-29,601,310!2028-05-13,899,310-->
+- If $\omega (\pi -t)=\omega (t)$ \(annotation: even symmetry around $x = \frac \pi 2$\), a good change of variables is $u=\sin t$.→::@::←If $\omega (\pi +t)=\omega (t)$ \(annotation: $\pi$-periodic\), a good change of variables is $u=\tan t$. <!--SR:!fsrs,2032-12-28T00:00:00.000Z,2221,2221.48493651,1,2,10,0,0,2026-11-29T00:00:00.000Z!2028-05-13,899,310-->
 - If $\omega (\pi +t)=\omega (t)$ \(annotation: $\pi$-periodic\), a good change of variables is $u=\tan t$.→::@::←If two of the preceding relations both hold, a good change of variables is $u=\cos 2t$. <!--SR:!2029-10-03,1394,310!2029-02-18,1311,350-->
 - If two of the preceding relations both hold, a good change of variables is $u=\cos 2t$.→::@::←In all other cases, use $u=\tan(t/2)$ \(annotation: tangent half-angle substitution\). <!--SR:!2027-10-18,902,330!2029-11-05,1418,310-->
 - In all other cases, use $u=\tan(t/2)$ \(annotation: tangent half-angle substitution\).→::@::←_(end)_ <!--SR:!2027-09-14,892,330!fsrs,2033-01-06T00:00:00.000Z,2241,2240.93723058,1,2,10,0,0,2026-11-18T00:00:00.000Z-->
@@ -65,10 +65,10 @@ These rules can be, in fact, stated as {@{a [theorem](theorem.md)}@}: one shows<
 
 ## case of polynomials
 
-To {@{calculate the integral $\int \sin ^{p}(t)\cos ^{q}(t)dt$}@}, {@{Bioche's rules apply}@} as well. <!--SR:!2026-11-29,404,369!fsrs,2031-12-27T00:00:00.000Z,1864,1864.16407439,1,2,10,0,0,2026-11-19T00:00:00.000Z-->
+To {@{calculate the integral $\int \sin ^{p}(t)\cos ^{q}(t)dt$}@}, {@{Bioche's rules apply}@} as well. <!--SR:!fsrs,2032-02-12T00:00:00.000Z,1901,1900.94917056,1,2,10,0,0,2026-11-29T00:00:00.000Z!fsrs,2031-12-27T00:00:00.000Z,1864,1864.16407439,1,2,10,0,0,2026-11-19T00:00:00.000Z-->
 
 - If _p_ \(annotation: $\sin$\) and _q_ \(annotation: $\cos$\) are odd, ::@:: one uses $u=\cos(2t)$; <!--SR:!fsrs,2030-04-21T00:00:00.000Z,1349,1348.82166006,1,2,9,0,0,2026-08-11T00:00:00.000Z!fsrs,2031-07-28T00:00:00.000Z,1749,1749.03403835,1,2,10,0,0,2026-10-13T00:00:00.000Z-->
-- If _p_ \(annotation: $\sin$\) is odd and _q_ \(annotation: $\cos$\) even, ::@:: one uses $u=\cos(t)$; <!--SR:!fsrs,2031-12-31T00:00:00.000Z,1868,1868.2564436,1,2,10,0,0,2026-11-19T00:00:00.000Z!2026-11-29,403,369-->
+- If _p_ \(annotation: $\sin$\) is odd and _q_ \(annotation: $\cos$\) even, ::@:: one uses $u=\cos(t)$; <!--SR:!fsrs,2031-12-31T00:00:00.000Z,1868,1868.2564436,1,2,10,0,0,2026-11-19T00:00:00.000Z!fsrs,2032-02-08T00:00:00.000Z,1897,1896.86703638,1,2,10,0,0,2026-11-29T00:00:00.000Z-->
 - If _p_ \(annotation: $\sin$\) is even and _q_ \(annotation: $\cos$\) odd, ::@:: one uses $u=\sin(t)$; <!--SR:!fsrs,2031-09-16T00:00:00.000Z,1786,1786.15688267,1,2,10,0,0,2026-10-26T00:00:00.000Z!fsrs,2031-07-04T00:00:00.000Z,1728,1728.36081865,1,2,10,0,0,2026-10-10T00:00:00.000Z-->
 - If not, ::@:: one is reduced to [linearization](linearization.md). \(annotation: Apply product-to-sum formulas.\) <!--SR:!2026-12-05,408,369!fsrs,2031-09-11T00:00:00.000Z,1782,1782.03760558,1,2,10,0,0,2026-10-25T00:00:00.000Z-->
 

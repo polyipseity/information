@@ -46,7 +46,7 @@ Choose {@{a set of _orthonormal_ basis functions $\{\phi_k(t)\}$}@}. {@{Any fini
 
 These imply {@{the _induced norm_ $$\|v\|=\sqrt{\langle v,v\rangle}$$ (Euclidean length)}@}. {@{Two vectors}@} are {@{_orthogonal_}@} if {@{$\langle u,v\rangle=0$}@}; {@{_orthonormal_}@} when {@{also unit norm}@}. <!--SR:!2027-02-06,326,345!2026-12-22,288,345!2027-04-03,375,364!2027-01-05,300,345!2027-01-21,311,345!fsrs,2029-09-13T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-10-22T00:00:00.000Z-->
 
-For {@{continuous-time signals}@}: {@{$$\langle u,v\rangle = \int_{0}^{T}u(t)v^*(t)\,dt \,.$$}@} {@{A signal $s(t)$ has unit norm}@} when {@{energy equals one}@}: {@{$$\|s\|^2 = \langle s,s\rangle = \int_{0}^{T}|s(t)|^{2}\,dt = 1 \,.$$}@} <!--SR:!2027-02-19,337,345!2026-12-11,280,345!2027-01-08,303,345!2027-03-23,365,364!2026-11-29,269,345-->
+For {@{continuous-time signals}@}: {@{$$\langle u,v\rangle = \int_{0}^{T}u(t)v^*(t)\,dt \,.$$}@} {@{A signal $s(t)$ has unit norm}@} when {@{energy equals one}@}: {@{$$\|s\|^2 = \langle s,s\rangle = \int_{0}^{T}|s(t)|^{2}\,dt = 1 \,.$$}@} <!--SR:!2027-02-19,337,345!2026-12-11,280,345!2027-01-08,303,345!2027-03-23,365,364!fsrs,2030-04-22T00:00:00.000Z,1240,1240.10942973,1,2,9,0,0,2026-11-29T00:00:00.000Z-->
 
 ### geometric concepts
 
