@@ -20,15 +20,15 @@ The GCD of _a_ and _b_ is their [greatest](greatest%20element.md) positive commo
 
 The number 54 can be expressed as a product of two integers in several different ways:
 
-$54 \times 1 = 27 \times 2 = 18 \times 3 = 9 \times 6$.
+$$54 \times 1 = 27 \times 2 = 18 \times 3 = 9 \times 6.$$
 
 Thus the complete list of _divisors_ of 54 is 1, 2, 3, 6, 9, 18, 27, 54. Similarly, the divisors of 24 are 1, 2, 3, 4, 6, 8, 12, 24. The numbers that these two lists have _in common_ are the _common divisors_ of 54 and 24, that is,
 
-$1, 2, 3, 6$.
+$$1, 2, 3, 6.$$
 
 Of these, the greatest is 6, so it is the _greatest common divisor_:
 
-$\gcd(54,24) = 6$.
+$$\gcd(54,24) = 6.$$
 
 Computing all divisors of the two numbers in this way is usually not efficient, especially for large numbers that have many divisors. Much more efficient methods are described in _[§ Calculation](#calculation)_.
 
@@ -56,7 +56,7 @@ More generally, an _a_-by-_b_ rectangle can be covered with square tiles of side
 
 The greatest common divisor is useful for reducing [fractions](fraction.md) to the [lowest terms](irreducible%20fraction.md).<sup>[\[15\]](#^ref-15)</sup> For example, gcd\(42, 56\) = 14, therefore,
 
-$\frac{42}{56}=\frac{3 \cdot 14 }{ 4 \cdot 14}=\frac{3 }{ 4}$.
+$$\frac{42}{56}=\frac{3 \cdot 14 }{ 4 \cdot 14}=\frac{3 }{ 4}.$$
 
 ### least common multiple
 
@@ -68,7 +68,7 @@ $\frac{42}{56}=\frac{3 \cdot 14 }{ 4 \cdot 14}=\frac{3 }{ 4}$.
 
 The least common multiple of two integers that are not both zero can be computed from their greatest common divisor, by using the relation
 
-$\operatorname{lcm}(a,b)=\frac{|a\cdot b|}{\operatorname{gcd}(a,b)}$.
+$$\operatorname{lcm}(a,b)=\frac{|a\cdot b|}{\operatorname{gcd}(a,b)}.$$
 
 ## calculation
 
@@ -88,7 +88,7 @@ So, Euclid's method for computing the greatest common divisor of two positive in
 
 For example, to compute gcd\(48,18\), one proceeds as follows:
 
-$\begin{aligned}\gcd(48,18)\quad&\to\quad \gcd(48-18, 18)= \gcd(30,18)\\ &\to \quad \gcd(30-18, 18)= \gcd(12,18)\\ &\to \quad \gcd(12,18-12)= \gcd(12,6)\\ &\to \quad \gcd(12-6,6)= \gcd(6,6).\end{aligned}$
+$$\begin{aligned}\gcd(48,18)\quad&\to\quad \gcd(48-18, 18)= \gcd(30,18)\\ &\to \quad \gcd(30-18, 18)= \gcd(12,18)\\ &\to \quad \gcd(12,18-12)= \gcd(12,6)\\ &\to \quad \gcd(12-6,6)= \gcd(6,6).\end{aligned}$$
 
 So gcd\(48, 18\) = 6.
 
@@ -108,7 +108,7 @@ Denoting this remainder as _a_ mod _b_, the algorithm replaces \(_a_, _b_\) with
 
 For example, to compute gcd\(48,18\), the computation is as follows:
 
-$\begin{aligned}\gcd(48,18)\quad&\to\quad \gcd(18, 48\bmod 18)= \gcd(18, 12)\\ &\to \quad \gcd(12, 18\bmod 12)= \gcd(12,6)\\ &\to \quad \gcd(6,12\bmod 6)= \gcd(6,0).\end{aligned}$
+$$\begin{aligned}\gcd(48,18)\quad&\to\quad \gcd(18, 48\bmod 18)= \gcd(18, 12)\\ &\to \quad \gcd(12, 18\bmod 12)= \gcd(12,6)\\ &\to \quad \gcd(6,12\bmod 6)= \gcd(6,0).\end{aligned}$$
 
 This again gives gcd\(48, 18\) = 6.
 
@@ -137,15 +137,11 @@ Example: \(_a_, _b_, _d_\) = \(48, 18, 0\) → \(24, 9, 1\) → \(12, 9, 1\) →
 
 The binary GCD algorithm is particularly easy to implement and particularly efficient on binary computers. Its [computational complexity](computational%20complexity.md) is
 
-$O((\log a + \log b)^2)$.
+$$O((\log a + \log b)^2).$$
 
 The square in this complexity comes from the fact that division by 2 and subtraction take a time that is proportional to the number of [bits](bit.md) of the input.
 
-The computational complexity is usually given in terms of the length _n_ of the input. Here, this length is _n_ = log _a_ + log _b_, and the complexity is thus
-
-$O(n^2)$.
-
-### Lehmer's GCD algorithm
+The computational complexity is usually given in terms of the length _n_ of the input. Here, this length is _n_ = log _a_ + log _b_, and the complexity is thus <p> &nbsp;&nbsp;&nbsp;&nbsp; $$O(n^2)$$ . <p> ### Lehmer's GCD algorithm
 
 - Main article: [Lehmer's GCD algorithm](Lehmer's%20GCD%20algorithm.md)
 
@@ -159,25 +155,21 @@ This algorithm improves speed, because it reduces the number of operations on ve
 >
 > [Thomae's function](thomae's%20function.md)
 
-If _a_ and _b_ are both nonzero, the greatest common divisor of _a_ and _b_ can be computed by using [least common multiple](least%20common%20multiple.md) \(LCM\) of _a_ and _b_:
-
-$\gcd(a,b)=\frac{|a\cdot b|}{\operatorname{lcm}(a,b)}$,
-
-but more commonly the LCM is computed from the GCD.
+If _a_ and _b_ are both nonzero, the greatest common divisor of _a_ and _b_ can be computed by using [least common multiple](least%20common%20multiple.md) \(LCM\) of _a_ and _b_: <p> &nbsp;&nbsp;&nbsp;&nbsp; $$\gcd(a,b)=\frac{|a\cdot b|}{\operatorname{lcm}(a,b)}$$ , <p> but more commonly the LCM is computed from the GCD.
 
 Using [Thomae's function](thomae's%20function.md) _f_,
 
-$\gcd(a,b) = a f\left(\frac b a\right)$,
+$$\gcd(a,b) = a f\left(\frac b a\right),$$
 
 which generalizes to _a_ and _b_ [rational numbers](rational%20number.md) or [commensurable](commensurability%20(mathematics).md) real numbers.
 
 Keith Slavin has shown that for odd _a_ ≥ 1:
 
-$\gcd(a,b)=\log_2\prod_{k=0}^{a-1} (1+e^{-2i\pi k b/a})$
+$$\gcd(a,b)=\log_2\prod_{k=0}^{a-1} (1+e^{-2i\pi k b/a})$$
 
 which is a function that can be evaluated for complex _b_.<sup>[\[16\]](#^ref-16)</sup> Wolfgang Schramm has shown that
 
-$\gcd(a,b)=\sum\limits_{k=1}^a \exp (2\pi ikb/a) \cdot \sum\limits_{d\left| a\right.} \frac{c_d (k)}{d}$
+$$\gcd(a,b)=\sum\limits_{k=1}^a \exp (2\pi ikb/a) \cdot \sum\limits_{d\left| a\right.} \frac{c_d (k)}{d}$$
 
 is an [entire function](entire%20function.md) in the variable _b_ for all positive integers _a_ where _c_<sub>_d_</sub>\(_k_\) is [Ramanujan's sum](ramanujan's%20sum.md).<sup>[\[17\]](#^ref-17)</sup>
 
@@ -213,7 +205,7 @@ Although the problem is not known to be in __NC__, parallel algorithms [asymptot
 - It is sometimes useful to define gcd\(0, 0\) = 0 and lcm\(0, 0\) = 0 because then the [natural numbers](natural%20number.md) become a [complete](complete%20lattice.md) [distributive lattice](distributive%20lattice.md) with GCD as meet and LCM as join operation.<sup>[\[22\]](#^ref-22)</sup> This extension of the definition is also compatible with the generalization for commutative rings given below.
 - In a [Cartesian coordinate system](Cartesian%20coordinate%20system.md), gcd\(_a_, _b_\) can be interpreted as the number of segments between points with integral coordinates on the straight [line segment](line%20segment.md) joining the points \(0, 0\) and \(_a_, _b_\).
 - For non-negative integers _a_ and _b_, where _a_ and _b_ are not both zero, provable by considering the Euclidean algorithm in base _n_:<sup>[\[23\]](#^ref-23)</sup>gcd\(_n_<sup>_a_</sup> − 1, _n_<sup>_b_</sup> − 1\) = _n_<sup>gcd\(_a_,_b_\)</sup> − 1. <p>
-- An [identity](identity%20(mathematics).md) involving [Euler's totient function](Euler's%20totient%20function.md):$\gcd(a,b) = \sum_{k|a \text{ and }k|b} \varphi(k)$. <p>
+- An [identity](identity%20(mathematics).md) involving [Euler's totient function](Euler's%20totient%20function.md): $$\gcd(a,b) = \sum_{k|a \text{ and }k|b} \varphi(k) .$$ <p>
 - GCD Summatory function \(Pillai's arithmetical function\):
 
 $\sum_{k=1}^n \gcd(k,n) = \sum_{d|n} d \varphi \left( \frac n d \right) =n\sum_{d|n}\frac{\varphi(d)}{d} =n\prod_{p|n}\left(1+\nu_p(n)\left(1-\frac{1}{p}\right)\right)$ where $\nu_p(n)$ is the _p_-adic valuation. \(sequence [A018804](https://oeis.org/A018804) in the [OEIS](On-Line%20Encyclopedia%20of%20Integer%20Sequences.md)\)
@@ -224,11 +216,11 @@ In 1972, James E. Nymann showed that _k_ integers, chosen independently and unif
 
 Using this information, the [expected value](expected%20value.md) of the greatest common divisor function can be seen \(informally\) to not exist when _k_ = 2. In this case the probability that the GCD equals _d_ is _d_<sup>−2</sup>/<!-- markdown separator -->_ζ_\(2\), so we have
 
-$\mathrm{E}( \mathrm{2} ) = \sum_{d=1}^\infty d (d^{-2}/\zeta(2)) = \frac{1}{\zeta(2)} \sum_{d=1}^\infty \frac{1}{d}$.
+$$\mathrm{E}( \mathrm{2} ) = \sum_{d=1}^\infty d (d^{-2}/\zeta(2)) = \frac{1}{\zeta(2)} \sum_{d=1}^\infty \frac{1}{d}.$$
 
 This last summation is the [harmonic series](harmonic%20series%20(mathematics).md), which diverges. However, when _k_ ≥ 3, the expected value is well-defined, and by the above argument, it is
 
-$\mathrm{E}(k) = \sum_{d=1}^\infty d^{1-k} \zeta(k)^{-1} = \frac{\zeta(k-1)}{\zeta(k)}$.
+$$\mathrm{E}(k) = \sum_{d=1}^\infty d^{1-k} \zeta(k)^{-1} = \frac{\zeta(k-1)}{\zeta(k)}.$$
 
 For _k_ = 3, this is approximately equal to 1.3684. For _k_ = 4, it is approximately 1.1106.
 
@@ -251,7 +243,7 @@ Existence of a GCD is not assured in arbitrary integral domains. However, if _R_
 
 The following is an example of an integral domain with two elements that do not have a GCD:
 
-$R = \mathbb{Z}\left[\sqrt{-3}\,\,\right],\quad a = 4 = 2\cdot 2 = \left(1+\sqrt{-3}\,\,\right)\left(1-\sqrt{-3}\,\,\right),\quad b = \left(1+\sqrt{-3}\,\,\right)\cdot 2$.
+$$R = \mathbb{Z}\left[\sqrt{-3}\,\,\right],\quad a = 4 = 2\cdot 2 = \left(1+\sqrt{-3}\,\,\right)\left(1-\sqrt{-3}\,\,\right),\quad b = \left(1+\sqrt{-3}\,\,\right)\cdot 2.$$
 
 The elements 2 and $1 + \sqrt{-3}$ are two [maximal common divisors](maximal%20common%20divisor.md) \(that is, any common divisor which is a multiple of 2 is associated to 2, the same holds for $1 + \sqrt{-3}$, but they are not associated, so there is no greatest common divisor of _a_ and _b_.
 

@@ -1232,6 +1232,58 @@ class TestPreprocessMathSource:
 
 
 # =========================================================================
+# _preprocess_html — MathJax-rendered browser copies
+# =========================================================================
+
+"""MathJax's rendered copy keeps the MathML in a hidden a11y span and puts
+its own SVG rendering in a sibling ``<mjx-container>``.  The extra sibling
+made every display formula look like one word among prose."""
+_MATHJAX_MATH = (
+    '<span class="mwe-math-mathml-a11y">'
+    '<math xmlns="http://www.w3.org/1998/Math/MathML"'
+    ' class="mwe-math-element mwe-math-element-%s"'
+    ' typeof="mw:Extension/math"'
+    ' data-mw=\'{"name":"math","attrs":{},"body":{"extsrc":"%s"}}\'>'
+    "<mrow><mi>x</mi></mrow></math></span>"
+    '<mjx-container class="MathJax" jax="SVG">'
+    "<svg><text>MathJaxArtifact</text></svg></mjx-container>"
+)
+
+
+class TestPreprocessMathJaxMath:
+    """Tests for reading math from a MathJax-rendered browser copy.
+
+    The visible formula is MathJax's own SVG; the source stays in the MathML
+    ``data-mw`` payload.  ``<mjx-container>`` is a rendering duplicate, and
+    the a11y wrapper is invisible, so neither may decide the display mode.
+    """
+
+    @pytest.mark.anyio
+    async def test_inline_math_stays_inline(self) -> None:
+        """Math beside prose in a paragraph renders as ``$…$``."""
+        result = await _convert_html(
+            "<p>A set " + _MATHJAX_MATH % ("inline", "S") + " of paths.</p>"
+        )
+        assert "$S$" in result
+
+    @pytest.mark.anyio
+    async def test_single_math_in_list_item_renders_block(self) -> None:
+        """A ``<dd>`` holding only math renders as ``$$…$$``."""
+        result = await _convert_html(
+            "<dl><dd>" + _MATHJAX_MATH % ("inline", "m = 2n") + "</dd></dl>"
+        )
+        assert "$$m = 2n$$" in result
+
+    @pytest.mark.anyio
+    async def test_mathjax_rendering_never_reaches_output(self) -> None:
+        """MathJax's SVG duplicate is dropped, not converted as content."""
+        result = await _convert_html(
+            "<dl><dd>" + _MATHJAX_MATH % ("inline", "m") + "</dd></dl>"
+        )
+        assert "MathJaxArtifact" not in result
+
+
+# =========================================================================
 # data-mw — defensive fallbacks and merge ordering
 # =========================================================================
 

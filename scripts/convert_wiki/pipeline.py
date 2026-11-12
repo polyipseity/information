@@ -202,6 +202,42 @@ def _set_math_alttext_from_data_mw(soup: BeautifulSoup | Tag) -> None:
             math["alttext"] = normalized
 
 
+def _normalize_math_wrappers(soup: BeautifulSoup | Tag) -> None:
+    """Drop MathJax renderings and unwrap invisible math a11y spans.
+
+    A page saved by a browser after MathJax rendered it holds two copies of
+    every formula: MathJax's SVG in an ``<mjx-container>`` and the MathML in
+    a hidden ``<span class="mwe-math-mathml-a11y">``.  The rendering is a
+    duplicate, and the wrapper hides the formula's real siblings, so both
+    would mislead the inline-versus-display checks.  Unwrapping restores the
+    shape Parsoid HTML already has; an a11y span inside a
+    ``mwe-math-element`` wrapper belongs to that shape and stays.
+
+    Wikipedia also emits duplicate LaTeX text after the ``<math>`` element
+    inside such spans (the tail ``;\\quad ...}`` of a long equation), and
+    the ``alttext`` already carries the whole source, so that text goes.
+    """
+    for container in soup.find_all("mjx-container"):
+        container.decompose()
+    for a11y_span in soup.find_all("span", class_="mwe-math-mathml-a11y"):
+        if a11y_span.find("math") is None:
+            continue
+        for a11y_child in list(a11y_span.children):
+            if isinstance(a11y_child, NavigableString):
+                if a11y_child.strip():
+                    a11y_child.extract()
+            elif isinstance(a11y_child, Tag) and a11y_child.name not in {
+                "math",
+                "img",
+            }:
+                a11y_child.decompose()
+        if a11y_span.find_parent(class_="mwe-math-element") is not None:
+            continue
+        for child in list(a11y_span.children):
+            a11y_span.insert_before(child)
+        a11y_span.decompose()
+
+
 def _merge_adjacent_math_dd(dd: Tag) -> None:
     """Merge consecutive inline math spans in a ``<dd>`` element.
 
@@ -1047,37 +1083,26 @@ def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
     # 3. Merge adjacent numblk tables into one multi-row table.
     _merge_adjacent_numblk_tables(soup)
 
-    # 4. Lift Parsoid math source into ``alttext``: legacy HTML carries the
+    # 4. Drop MathJax's own rendering and unwrap the invisible a11y span
+    #    around the MathML, so a browser copy has the same shape as
+    #    Parsoid HTML.  Also strip the duplicate LaTeX text Wikipedia emits
+    #    after the ``<math>`` element (e.g. the tail ``;\quad ...}`` of a
+    #    long equation); the ``alttext`` already carries it.
+    _normalize_math_wrappers(soup)
+
+    # 5. Lift Parsoid math source into ``alttext``: legacy HTML carries the
     #    source there, modern Parsoid in ``data-mw``, so without this the
     #    math degrades to the bare MathML text.
     _set_math_alttext_from_data_mw(soup)
 
-    # 5. Merge consecutive inline math spans in <dd>/<dt>/<p>/<li> elements.
+    # 6. Merge consecutive inline math spans in <dd>/<dt>/<p>/<li> elements.
     for dd in soup.find_all(["dd", "dt", "p", "li"]):
         _merge_adjacent_math_dd(dd)
 
-    # 6. Normalize external math punctuation: absorb trailing
+    # 7. Normalize external math punctuation: absorb trailing
     #    punctuation from sibling text into math alttext.
     for container in soup.find_all(list(_DISPLAY_MATH_CONTAINERS | {"p"})):
         WikiHtmlConverter._normalize_external_math_punctuation(container)
-
-    # 7. Strip duplicate LaTeX text that Wikipedia emits after the
-    #    MathML <math> element inside math a11y spans (e.g. the tail
-    #    ``;\quad ...}`` of a long equation).  The <math> alttext already
-    #    carries the full equation, so the trailing text would otherwise
-    #    render as escaped literal LaTeX.
-    for a11y_span in soup.find_all("span", class_="mwe-math-mathml-a11y"):
-        if a11y_span.find("math") is None:
-            continue
-        for a11y_child in list(a11y_span.children):
-            if isinstance(a11y_child, NavigableString):
-                if a11y_child.strip():
-                    a11y_child.extract()
-            elif isinstance(a11y_child, Tag) and a11y_child.name not in {
-                "math",
-                "img",
-            }:
-                a11y_child.decompose()
 
     # 8. Replace legacy texhtml spans that plain text cannot carry (radicals,
     #    fractions, accents) with one <math> element, script included. This
