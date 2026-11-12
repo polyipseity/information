@@ -1163,6 +1163,41 @@ class TestBoldItalicHandling:
         assert "_n_<!-- markdown separator -->th-order" in result
 
     @pytest.mark.anyio
+    async def test_mvar_class_renders_italic(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A ``mvar`` span is italic even without an inline style.
+
+        Wikipedia's ``mvar`` template sets italics from a stylesheet, so a
+        server-rendered capture carries no ``font-style`` on the span.
+        """
+        html = '<p>The variable <span class="texhtml mvar">a</span> is fixed.</p>'
+        result = await _convert(converter, html)
+        assert "_a_" in result
+
+    @pytest.mark.anyio
+    async def test_plain_texhtml_span_stays_plain(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A ``texhtml`` span without ``mvar`` keeps its upright letters."""
+        html = '<p>The letter <span class="texhtml">a</span> is plain.</p>'
+        result = await _convert(converter, html)
+        assert "_a_" not in result
+
+    @pytest.mark.anyio
+    async def test_mvar_with_inline_italic_is_not_doubled(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """The class rule adds nothing when the capture already carries italics."""
+        html = (
+            '<p>The variable <span class="texhtml mvar" '
+            'style="font-style: italic">a</span> is fixed.</p>'
+        )
+        result = await _convert(converter, html)
+        assert "__a__" not in result
+        assert "_a_" in result
+
+    @pytest.mark.anyio
     async def test_adjacent_bold_runs_keep_separator(
         self, converter: WikiHtmlConverter
     ) -> None:

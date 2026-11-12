@@ -1,0 +1,2211 @@
+{
+  "api_titles": [
+    "Addison-Wesley",
+    "G. H. Hardy",
+    "S2CID (identifier)",
+    "Integer linear programming",
+    "George Andrews (mathematician)",
+    "Long multiplication",
+    "Euclidean division",
+    "Williams's p + 1 algorithm",
+    "Multitape Turing machine",
+    "Identity (mathematics)",
+    "Fermat primality test",
+    "Karatsuba algorithm",
+    "Special number field sieve",
+    "Play video",
+    "Thomae's function",
+    "Least common multiple",
+    "NC (complexity)",
+    "Rational number",
+    "Sieve of Sundaram",
+    "Distributivity",
+    "Euler's factorization method",
+    "Pollard's p − 1 algorithm",
+    "Binary GCD algorithm",
+    "Lucas–Lehmer primality test",
+    "P-complete",
+    "Oded Goldreich",
+    "Gaussian integer",
+    "Peter Barlow (mathematician)",
+    "Maximal common divisor",
+    "Integer",
+    "Quadratic sieve",
+    "Associate elements",
+    "Newton–Raphson division",
+    "Exponentiation by squaring",
+    "Lenstra–Lenstra–Lovász lattice basis reduction algorithm",
+    "Concrete Mathematics: A Foundation for Computer Science",
+    "Algorithm",
+    "Shanks's square forms factorization",
+    "Principal ideal domain",
+    "Integer square root",
+    "Schoof's algorithm",
+    "An Introduction to the Theory of Numbers",
+    "Ramanujan's sum",
+    "Chunking (division)",
+    "Ancient Egyptian multiplication",
+    "Asymptotically faster algorithm",
+    "Bézout's identity",
+    "Euclidean algorithm",
+    "Pocklington's algorithm",
+    "Pépin's test",
+    "Random-access machine",
+    "Wheel factorization",
+    "Fraction",
+    "Thomas H. Cormen",
+    "Ronald Graham",
+    "Oxford University Press",
+    "D. C. Heath and Company",
+    "Rational sieve",
+    "Riemann zeta function",
+    "Denominator",
+    "Henry Hamilton (priest)",
+    "Pollard's rho algorithm",
+    "Bibcode (identifier)",
+    "Lucas–Lehmer–Riesel test",
+    "Garrett Birkhoff",
+    "Dixon's factorization method",
+    "University of West Georgia",
+    "Lucas primality test",
+    "Quadratic Frobenius test",
+    "Solovay–Strassen primality test",
+    "Generating primes",
+    "CRCW-PRAM",
+    "Toom–Cook multiplication",
+    "Randomized algorithm",
+    "Pohlig–Hellman algorithm",
+    "Pocklington primality test",
+    "Computer algebra system",
+    "Greatest element",
+    "Prentice Hall",
+    "Long division",
+    "Integer relation algorithm",
+    "Berlekamp–Rabin algorithm",
+    "Journal of Number Theory",
+    "Adleman–Pomerance–Rumely primality test",
+    "Sieve of Pritchard",
+    "Doi (identifier)",
+    "Harmonic series (mathematics)",
+    "Integer factorization",
+    "Elliptic curve primality",
+    "Divides",
+    "Function field sieve",
+    "Binary representation",
+    "Ernst Kummer",
+    "Associativity",
+    "Sieve of Atkin",
+    "Lenstra elliptic-curve factorization",
+    "Coprime integers",
+    "Computational complexity",
+    "Pollard's kangaroo algorithm",
+    "Bézout domain",
+    "Quasilinear time",
+    "Pollard's rho algorithm for logarithms",
+    "Parallel algorithm",
+    "Cartesian coordinate system",
+    "Goldschmidt division",
+    "Shor's algorithm",
+    "Models of computation",
+    "Korkine–Zolotarev lattice basis reduction algorithm",
+    "Irreducible fraction",
+    "Introduction to Algorithms",
+    "Commensurability (mathematics)",
+    "Unique factorization domain",
+    "Schönhage–Strassen algorithm",
+    "Computers",
+    "Euclid's lemma",
+    "Trial division",
+    "Fourier division",
+    "Fraction (mathematics)",
+    "George Peacock",
+    "LCCN (identifier)",
+    "Multiplication algorithm",
+    "Extended Euclidean algorithm",
+    "Fürer's algorithm",
+    "P (complexity)",
+    "Chakravala method",
+    "ISBN (identifier)",
+    "Baillie–PSW primality test",
+    "Division algorithm",
+    "Modular exponentiation",
+    "Fermat's factorization method",
+    "Tonelli–Shanks algorithm",
+    "Index calculus algorithm",
+    "Cornacchia's algorithm",
+    "Generating set of an ideal",
+    "Discrete logarithm",
+    "Wolfram Alpha",
+    "Lehmer's GCD algorithm",
+    "Donald Knuth",
+    "Positive integer",
+    "Maxima computer algebra system",
+    "Continued fraction factorization",
+    "Cipolla's algorithm",
+    "Euclidean domain",
+    "Distributive lattice",
+    "Quadratic residue",
+    "Lowest common denominator",
+    "Euclid",
+    "SRT division",
+    "Benny Chor",
+    "Montgomery reduction",
+    "Short division",
+    "Divisibility (ring theory)",
+    "Expected value",
+    "Augustus De Morgan",
+    "E. M. Wright",
+    "George Biddell Airy",
+    "Proth's theorem",
+    "Fundamental theorem of arithmetic",
+    "Unitary divisor",
+    "Entire function",
+    "Line segment",
+    "Ideal (ring theory)",
+    "On-Line Encyclopedia of Integer Sequences",
+    "Dionysius Lardner",
+    "Baby-step giant-step",
+    "Jim Stasheff",
+    "General number field sieve",
+    "Commutative ring",
+    "Ronald L. Rivest",
+    "Number theory",
+    "Integral domain",
+    "Fermat's Last Theorem",
+    "Polynomial greatest common divisor",
+    "Mathematics",
+    "Charles E. Leiserson",
+    "NL (complexity)",
+    "AKS primality test",
+    "Preorder",
+    "Miller–Rabin primality test",
+    "Divisibility",
+    "Field (mathematics)",
+    "Coprime",
+    "Binary division",
+    "Divisor",
+    "Clifford Stein",
+    "Commutativity",
+    "Sieve of Eratosthenes",
+    "Multiplicative function",
+    "Prime factorization",
+    "The Art of Computer Programming",
+    "Primality test",
+    "GCD domain",
+    "Word (computer architecture)",
+    "Decision problem",
+    "Natural number",
+    "Complete lattice",
+    "Euler's totient function",
+    "Superpolynomial",
+    "Charles University in Prague",
+    "Saunders Mac Lane",
+    "Bit"
+  ],
+  "api_responses": [
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Associate elements",
+            "to": "Integral domain",
+            "tofragment": "Divisibility, prime elements, and irreducible elements"
+          },
+          {
+            "from": "Integer linear programming",
+            "to": "Integer programming"
+          },
+          {
+            "from": "Long multiplication",
+            "to": "Multiplication algorithm",
+            "tofragment": "Long multiplication"
+          },
+          {
+            "from": "Concrete Mathematics: A Foundation for Computer Science",
+            "to": "Concrete Mathematics"
+          },
+          {
+            "from": "Distributivity",
+            "to": "Distributive property"
+          },
+          {
+            "from": "Newton–Raphson division",
+            "to": "Division algorithm",
+            "tofragment": "Newton–Raphson division"
+          },
+          {
+            "from": "Asymptotically faster algorithm",
+            "to": "Asymptotically optimal algorithm"
+          },
+          {
+            "from": "S2CID (identifier)",
+            "to": "Semantic Scholar",
+            "tofragment": "S2CID"
+          }
+        ],
+        "pages": [
+          {
+            "ns": 0,
+            "title": "Play video",
+            "missing": true
+          },
+          {
+            "pageid": 775,
+            "ns": 0,
+            "title": "Algorithm"
+          },
+          {
+            "pageid": 4947,
+            "ns": 0,
+            "title": "Bézout's identity"
+          },
+          {
+            "pageid": 10237,
+            "ns": 0,
+            "title": "Exponentiation by squaring"
+          },
+          {
+            "pageid": 10377,
+            "ns": 0,
+            "title": "Euclidean algorithm"
+          },
+          {
+            "pageid": 14563,
+            "ns": 0,
+            "title": "Integer"
+          },
+          {
+            "pageid": 15462,
+            "ns": 0,
+            "title": "Integral domain"
+          },
+          {
+            "pageid": 17961,
+            "ns": 0,
+            "title": "Least common multiple"
+          },
+          {
+            "pageid": 22073,
+            "ns": 0,
+            "title": "NC (complexity)"
+          },
+          {
+            "pageid": 25039,
+            "ns": 0,
+            "title": "Principal ideal domain"
+          },
+          {
+            "pageid": 48628,
+            "ns": 0,
+            "title": "Gaussian integer"
+          },
+          {
+            "pageid": 54683,
+            "ns": 0,
+            "title": "P-complete"
+          },
+          {
+            "pageid": 57411,
+            "ns": 0,
+            "title": "Multiplication algorithm"
+          },
+          {
+            "pageid": 87599,
+            "ns": 0,
+            "title": "G. H. Hardy"
+          },
+          {
+            "pageid": 103118,
+            "ns": 0,
+            "title": "Distributive property"
+          },
+          {
+            "pageid": 156936,
+            "ns": 0,
+            "title": "Peter Barlow (mathematician)"
+          },
+          {
+            "pageid": 157755,
+            "ns": 0,
+            "title": "Fermat primality test"
+          },
+          {
+            "pageid": 298428,
+            "ns": 0,
+            "title": "Identity (mathematics)"
+          },
+          {
+            "pageid": 325739,
+            "ns": 0,
+            "title": "Lucas–Lehmer primality test"
+          },
+          {
+            "pageid": 411215,
+            "ns": 0,
+            "title": "Integer programming"
+          },
+          {
+            "pageid": 578753,
+            "ns": 0,
+            "title": "Pollard's p − 1 algorithm"
+          },
+          {
+            "pageid": 582340,
+            "ns": 0,
+            "title": "Quadratic sieve"
+          },
+          {
+            "pageid": 589132,
+            "ns": 0,
+            "title": "Special number field sieve"
+          },
+          {
+            "pageid": 679987,
+            "ns": 0,
+            "title": "Euclidean division"
+          },
+          {
+            "pageid": 981655,
+            "ns": 0,
+            "title": "Integer square root"
+          },
+          {
+            "pageid": 985410,
+            "ns": 0,
+            "title": "Binary GCD algorithm"
+          },
+          {
+            "pageid": 1180080,
+            "ns": 0,
+            "title": "Addison-Wesley"
+          },
+          {
+            "pageid": 1735228,
+            "ns": 0,
+            "title": "Lenstra–Lenstra–Lovász lattice basis reduction algorithm"
+          },
+          {
+            "pageid": 1916573,
+            "ns": 0,
+            "title": "Williams's p + 1 algorithm"
+          },
+          {
+            "pageid": 3266846,
+            "ns": 0,
+            "title": "Pépin's test"
+          },
+          {
+            "pageid": 3287619,
+            "ns": 0,
+            "title": "Asymptotically optimal algorithm"
+          },
+          {
+            "pageid": 3336479,
+            "ns": 0,
+            "title": "Division algorithm"
+          },
+          {
+            "pageid": 3356273,
+            "ns": 0,
+            "title": "George Andrews (mathematician)"
+          },
+          {
+            "pageid": 3387328,
+            "ns": 0,
+            "title": "Shanks's square forms factorization"
+          },
+          {
+            "pageid": 3397404,
+            "ns": 0,
+            "title": "Thomae's function"
+          },
+          {
+            "pageid": 3421513,
+            "ns": 0,
+            "title": "Oded Goldreich"
+          },
+          {
+            "pageid": 3591552,
+            "ns": 0,
+            "title": "Concrete Mathematics"
+          },
+          {
+            "pageid": 3596006,
+            "ns": 0,
+            "title": "Schoof's algorithm"
+          },
+          {
+            "pageid": 3975814,
+            "ns": 0,
+            "title": "Ancient Egyptian multiplication"
+          },
+          {
+            "pageid": 4631387,
+            "ns": 0,
+            "title": "Multitape Turing machine"
+          },
+          {
+            "pageid": 5884024,
+            "ns": 0,
+            "title": "Ramanujan's sum"
+          },
+          {
+            "pageid": 6395589,
+            "ns": 0,
+            "title": "Karatsuba algorithm"
+          },
+          {
+            "pageid": 14517330,
+            "ns": 0,
+            "title": "Sieve of Sundaram"
+          },
+          {
+            "pageid": 15822069,
+            "ns": 0,
+            "title": "Euler's factorization method"
+          },
+          {
+            "pageid": 19727024,
+            "ns": 0,
+            "title": "Rational number"
+          },
+          {
+            "pageid": 24971513,
+            "ns": 0,
+            "title": "Maximal common divisor"
+          },
+          {
+            "pageid": 26174604,
+            "ns": 0,
+            "title": "Pocklington's algorithm"
+          },
+          {
+            "pageid": 27438986,
+            "ns": 0,
+            "title": "Chunking (division)"
+          },
+          {
+            "pageid": 31962097,
+            "ns": 0,
+            "title": "An Introduction to the Theory of Numbers"
+          },
+          {
+            "pageid": 48455863,
+            "ns": 0,
+            "title": "Semantic Scholar"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Denominator",
+            "to": "Fraction"
+          },
+          {
+            "from": "Divides",
+            "to": "Divisor",
+            "tofragment": "Definition"
+          },
+          {
+            "from": "CRCW-PRAM",
+            "to": "Parallel RAM"
+          },
+          {
+            "from": "Associativity",
+            "to": "Associative property"
+          },
+          {
+            "from": "Binary representation",
+            "to": "Binary number"
+          },
+          {
+            "from": "Greatest element",
+            "to": "Greatest element and least element"
+          },
+          {
+            "from": "Generating primes",
+            "to": "Generation of primes"
+          },
+          {
+            "from": "Doi (identifier)",
+            "to": "Digital object identifier"
+          },
+          {
+            "from": "Bibcode (identifier)",
+            "to": "Bibcode"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 1335,
+            "ns": 0,
+            "title": "Associative property"
+          },
+          {
+            "pageid": 6511,
+            "ns": 0,
+            "title": "Computational complexity"
+          },
+          {
+            "pageid": 6556,
+            "ns": 0,
+            "title": "Coprime integers"
+          },
+          {
+            "pageid": 15491,
+            "ns": 0,
+            "title": "Integer factorization"
+          },
+          {
+            "pageid": 25809,
+            "ns": 0,
+            "title": "Riemann zeta function"
+          },
+          {
+            "pageid": 48518,
+            "ns": 0,
+            "title": "Oxford University Press"
+          },
+          {
+            "pageid": 49492,
+            "ns": 0,
+            "title": "Divisor"
+          },
+          {
+            "pageid": 54427,
+            "ns": 0,
+            "title": "Computer algebra system"
+          },
+          {
+            "pageid": 142488,
+            "ns": 0,
+            "title": "Harmonic series (mathematics)"
+          },
+          {
+            "pageid": 154212,
+            "ns": 0,
+            "title": "Lenstra elliptic-curve factorization"
+          },
+          {
+            "pageid": 238686,
+            "ns": 0,
+            "title": "Binary number"
+          },
+          {
+            "pageid": 240694,
+            "ns": 0,
+            "title": "Ronald Graham"
+          },
+          {
+            "pageid": 313384,
+            "ns": 0,
+            "title": "Long division"
+          },
+          {
+            "pageid": 319117,
+            "ns": 0,
+            "title": "Ernst Kummer"
+          },
+          {
+            "pageid": 330056,
+            "ns": 0,
+            "title": "Toom–Cook multiplication"
+          },
+          {
+            "pageid": 359169,
+            "ns": 0,
+            "title": "Lucas primality test"
+          },
+          {
+            "pageid": 422994,
+            "ns": 0,
+            "title": "Digital object identifier"
+          },
+          {
+            "pageid": 495383,
+            "ns": 0,
+            "title": "Randomized algorithm"
+          },
+          {
+            "pageid": 544227,
+            "ns": 0,
+            "title": "Random-access machine"
+          },
+          {
+            "pageid": 580668,
+            "ns": 0,
+            "title": "Pollard's rho algorithm"
+          },
+          {
+            "pageid": 595315,
+            "ns": 0,
+            "title": "University of West Georgia"
+          },
+          {
+            "pageid": 663041,
+            "ns": 0,
+            "title": "Greatest element and least element"
+          },
+          {
+            "pageid": 956675,
+            "ns": 0,
+            "title": "Parallel RAM"
+          },
+          {
+            "pageid": 1013089,
+            "ns": 0,
+            "title": "Solovay–Strassen primality test"
+          },
+          {
+            "pageid": 1033877,
+            "ns": 0,
+            "title": "Dixon's factorization method"
+          },
+          {
+            "pageid": 1180916,
+            "ns": 0,
+            "title": "Garrett Birkhoff"
+          },
+          {
+            "pageid": 1704824,
+            "ns": 0,
+            "title": "Fraction"
+          },
+          {
+            "pageid": 1995624,
+            "ns": 0,
+            "title": "Pohlig–Hellman algorithm"
+          },
+          {
+            "pageid": 2150920,
+            "ns": 0,
+            "title": "Sieve of Atkin"
+          },
+          {
+            "pageid": 2515826,
+            "ns": 0,
+            "title": "Generation of primes"
+          },
+          {
+            "pageid": 2608510,
+            "ns": 0,
+            "title": "Rational sieve"
+          },
+          {
+            "pageid": 3131407,
+            "ns": 0,
+            "title": "Bézout domain"
+          },
+          {
+            "pageid": 4108475,
+            "ns": 0,
+            "title": "Thomas H. Cormen"
+          },
+          {
+            "pageid": 4621216,
+            "ns": 0,
+            "title": "Wheel factorization"
+          },
+          {
+            "pageid": 5421050,
+            "ns": 0,
+            "title": "Prentice Hall"
+          },
+          {
+            "pageid": 5999928,
+            "ns": 0,
+            "title": "D. C. Heath and Company"
+          },
+          {
+            "pageid": 8198761,
+            "ns": 0,
+            "title": "Adleman–Pomerance–Rumely primality test"
+          },
+          {
+            "pageid": 8422003,
+            "ns": 0,
+            "title": "Journal of Number Theory"
+          },
+          {
+            "pageid": 12928899,
+            "ns": 0,
+            "title": "Pollard's kangaroo algorithm"
+          },
+          {
+            "pageid": 13644054,
+            "ns": 0,
+            "title": "Integer relation algorithm"
+          },
+          {
+            "pageid": 14092434,
+            "ns": 0,
+            "title": "Bibcode"
+          },
+          {
+            "pageid": 15371861,
+            "ns": 0,
+            "title": "Lucas–Lehmer–Riesel test"
+          },
+          {
+            "pageid": 22407581,
+            "ns": 0,
+            "title": "Function field sieve"
+          },
+          {
+            "pageid": 25850348,
+            "ns": 0,
+            "title": "Pocklington primality test"
+          },
+          {
+            "pageid": 25904365,
+            "ns": 0,
+            "title": "Elliptic curve primality"
+          },
+          {
+            "pageid": 34641328,
+            "ns": 0,
+            "title": "Henry Hamilton (priest)"
+          },
+          {
+            "pageid": 39004533,
+            "ns": 0,
+            "title": "Quadratic Frobenius test"
+          },
+          {
+            "pageid": 61379828,
+            "ns": 0,
+            "title": "Berlekamp–Rabin algorithm"
+          },
+          {
+            "pageid": 70873538,
+            "ns": 0,
+            "title": "Sieve of Pritchard"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Computers",
+            "to": "Computer"
+          },
+          {
+            "from": "Positive integer",
+            "to": "Natural number"
+          },
+          {
+            "from": "Maxima computer algebra system",
+            "to": "Maxima (software)"
+          },
+          {
+            "from": "Models of computation",
+            "to": "Model of computation"
+          },
+          {
+            "from": "Fürer's algorithm",
+            "to": "Multiplication algorithm",
+            "tofragment": "Further improvements"
+          },
+          {
+            "from": "Wolfram Alpha",
+            "to": "WolframAlpha"
+          },
+          {
+            "from": "SRT division",
+            "to": "Division algorithm",
+            "tofragment": "SRT"
+          },
+          {
+            "from": "Quasilinear time",
+            "to": "Time complexity",
+            "tofragment": "Quasilinear time"
+          },
+          {
+            "from": "Goldschmidt division",
+            "to": "Division algorithm",
+            "tofragment": "Goldschmidt division"
+          },
+          {
+            "from": "Montgomery reduction",
+            "to": "Montgomery modular multiplication"
+          },
+          {
+            "from": "ISBN (identifier)",
+            "to": "ISBN"
+          },
+          {
+            "from": "LCCN (identifier)",
+            "to": "Library of Congress Control Number"
+          },
+          {
+            "from": "Fraction (mathematics)",
+            "to": "Fraction"
+          },
+          {
+            "from": "Generating set of an ideal",
+            "to": "Generating set of a module"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 7706,
+            "ns": 0,
+            "title": "Cartesian coordinate system"
+          },
+          {
+            "pageid": 8095,
+            "ns": 0,
+            "title": "Donald Knuth"
+          },
+          {
+            "pageid": 9331,
+            "ns": 0,
+            "title": "Euclid"
+          },
+          {
+            "pageid": 10376,
+            "ns": 0,
+            "title": "Euclidean domain"
+          },
+          {
+            "pageid": 14822,
+            "ns": 0,
+            "title": "Irreducible fraction"
+          },
+          {
+            "pageid": 14919,
+            "ns": 0,
+            "title": "ISBN"
+          },
+          {
+            "pageid": 21474,
+            "ns": 0,
+            "title": "Natural number"
+          },
+          {
+            "pageid": 42674,
+            "ns": 0,
+            "title": "Shor's algorithm"
+          },
+          {
+            "pageid": 57411,
+            "ns": 0,
+            "title": "Multiplication algorithm"
+          },
+          {
+            "pageid": 60546,
+            "ns": 0,
+            "title": "Unique factorization domain"
+          },
+          {
+            "pageid": 95925,
+            "ns": 0,
+            "title": "Maxima (software)"
+          },
+          {
+            "pageid": 99438,
+            "ns": 0,
+            "title": "Extended Euclidean algorithm"
+          },
+          {
+            "pageid": 148840,
+            "ns": 0,
+            "title": "Parallel algorithm"
+          },
+          {
+            "pageid": 181334,
+            "ns": 0,
+            "title": "Discrete logarithm"
+          },
+          {
+            "pageid": 200091,
+            "ns": 0,
+            "title": "Quadratic residue"
+          },
+          {
+            "pageid": 205513,
+            "ns": 0,
+            "title": "George Peacock"
+          },
+          {
+            "pageid": 310883,
+            "ns": 0,
+            "title": "Distributive lattice"
+          },
+          {
+            "pageid": 378200,
+            "ns": 0,
+            "title": "Lowest common denominator"
+          },
+          {
+            "pageid": 405944,
+            "ns": 0,
+            "title": "Time complexity"
+          },
+          {
+            "pageid": 557660,
+            "ns": 0,
+            "title": "Trial division"
+          },
+          {
+            "pageid": 658550,
+            "ns": 0,
+            "title": "P (complexity)"
+          },
+          {
+            "pageid": 753944,
+            "ns": 0,
+            "title": "Commensurability (mathematics)"
+          },
+          {
+            "pageid": 826617,
+            "ns": 0,
+            "title": "Euclid's lemma"
+          },
+          {
+            "pageid": 903032,
+            "ns": 0,
+            "title": "Modular exponentiation"
+          },
+          {
+            "pageid": 904378,
+            "ns": 0,
+            "title": "Montgomery modular multiplication"
+          },
+          {
+            "pageid": 1335392,
+            "ns": 0,
+            "title": "Continued fraction factorization"
+          },
+          {
+            "pageid": 1354446,
+            "ns": 0,
+            "title": "Schönhage–Strassen algorithm"
+          },
+          {
+            "pageid": 1491462,
+            "ns": 0,
+            "title": "Library of Congress Control Number"
+          },
+          {
+            "pageid": 1549595,
+            "ns": 0,
+            "title": "Index calculus algorithm"
+          },
+          {
+            "pageid": 1630817,
+            "ns": 0,
+            "title": "Pollard's rho algorithm for logarithms"
+          },
+          {
+            "pageid": 1704824,
+            "ns": 0,
+            "title": "Fraction"
+          },
+          {
+            "pageid": 1773278,
+            "ns": 0,
+            "title": "Model of computation"
+          },
+          {
+            "pageid": 2132433,
+            "ns": 0,
+            "title": "Fermat's factorization method"
+          },
+          {
+            "pageid": 3336479,
+            "ns": 0,
+            "title": "Division algorithm"
+          },
+          {
+            "pageid": 3499226,
+            "ns": 0,
+            "title": "Introduction to Algorithms"
+          },
+          {
+            "pageid": 3609890,
+            "ns": 0,
+            "title": "Baillie–PSW primality test"
+          },
+          {
+            "pageid": 3667375,
+            "ns": 0,
+            "title": "Tonelli–Shanks algorithm"
+          },
+          {
+            "pageid": 4050658,
+            "ns": 0,
+            "title": "Chakravala method"
+          },
+          {
+            "pageid": 7878457,
+            "ns": 0,
+            "title": "Computer"
+          },
+          {
+            "pageid": 8547944,
+            "ns": 0,
+            "title": "Lehmer's GCD algorithm"
+          },
+          {
+            "pageid": 21281625,
+            "ns": 0,
+            "title": "Fourier division"
+          },
+          {
+            "pageid": 21903944,
+            "ns": 0,
+            "title": "WolframAlpha"
+          },
+          {
+            "pageid": 25766973,
+            "ns": 0,
+            "title": "Cipolla's algorithm"
+          },
+          {
+            "pageid": 27075846,
+            "ns": 0,
+            "title": "Cornacchia's algorithm"
+          },
+          {
+            "pageid": 50718738,
+            "ns": 0,
+            "title": "Generating set of a module"
+          },
+          {
+            "pageid": 69488173,
+            "ns": 0,
+            "title": "Korkine–Zolotarev lattice basis reduction algorithm"
+          },
+          {
+            "pageid": 73614335,
+            "ns": 0,
+            "title": "Benny Chor"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Charles University in Prague",
+            "to": "Charles University"
+          },
+          {
+            "from": "Divisibility",
+            "to": "Divisor"
+          },
+          {
+            "from": "Prime factorization",
+            "to": "Integer factorization"
+          },
+          {
+            "from": "Ronald L. Rivest",
+            "to": "Ron Rivest"
+          },
+          {
+            "from": "Binary division",
+            "to": "Long division",
+            "tofragment": "Binary division"
+          },
+          {
+            "from": "Superpolynomial",
+            "to": "Time complexity",
+            "tofragment": "Superpolynomial time"
+          },
+          {
+            "from": "Commutativity",
+            "to": "Commutative property"
+          },
+          {
+            "from": "Coprime",
+            "to": "Coprime integers"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 6556,
+            "ns": 0,
+            "title": "Coprime integers"
+          },
+          {
+            "pageid": 8336,
+            "ns": 0,
+            "title": "Decision problem"
+          },
+          {
+            "pageid": 9653,
+            "ns": 0,
+            "title": "Expected value"
+          },
+          {
+            "pageid": 10372,
+            "ns": 0,
+            "title": "Entire function"
+          },
+          {
+            "pageid": 10603,
+            "ns": 0,
+            "title": "Field (mathematics)"
+          },
+          {
+            "pageid": 11556,
+            "ns": 0,
+            "title": "Fundamental theorem of arithmetic"
+          },
+          {
+            "pageid": 15462,
+            "ns": 0,
+            "title": "Integral domain"
+          },
+          {
+            "pageid": 15491,
+            "ns": 0,
+            "title": "Integer factorization"
+          },
+          {
+            "pageid": 18831,
+            "ns": 0,
+            "title": "Mathematics"
+          },
+          {
+            "pageid": 20059,
+            "ns": 0,
+            "title": "Multiplicative function"
+          },
+          {
+            "pageid": 21474,
+            "ns": 0,
+            "title": "Natural number"
+          },
+          {
+            "pageid": 21527,
+            "ns": 0,
+            "title": "Number theory"
+          },
+          {
+            "pageid": 23582,
+            "ns": 0,
+            "title": "Preorder"
+          },
+          {
+            "pageid": 25977,
+            "ns": 0,
+            "title": "Ideal (ring theory)"
+          },
+          {
+            "pageid": 31358,
+            "ns": 0,
+            "title": "The Art of Computer Programming"
+          },
+          {
+            "pageid": 38091,
+            "ns": 0,
+            "title": "Charles University"
+          },
+          {
+            "pageid": 44777,
+            "ns": 0,
+            "title": "Complete lattice"
+          },
+          {
+            "pageid": 49492,
+            "ns": 0,
+            "title": "Divisor"
+          },
+          {
+            "pageid": 53452,
+            "ns": 0,
+            "title": "Euler's totient function"
+          },
+          {
+            "pageid": 61346,
+            "ns": 0,
+            "title": "Commutative ring"
+          },
+          {
+            "pageid": 68057,
+            "ns": 0,
+            "title": "Ron Rivest"
+          },
+          {
+            "pageid": 73415,
+            "ns": 0,
+            "title": "Sieve of Eratosthenes"
+          },
+          {
+            "pageid": 152734,
+            "ns": 0,
+            "title": "General number field sieve"
+          },
+          {
+            "pageid": 183751,
+            "ns": 0,
+            "title": "Primality test"
+          },
+          {
+            "pageid": 188999,
+            "ns": 0,
+            "title": "Miller–Rabin primality test"
+          },
+          {
+            "pageid": 205497,
+            "ns": 0,
+            "title": "George Biddell Airy"
+          },
+          {
+            "pageid": 220595,
+            "ns": 0,
+            "title": "Dionysius Lardner"
+          },
+          {
+            "pageid": 294390,
+            "ns": 0,
+            "title": "Commutative property"
+          },
+          {
+            "pageid": 313384,
+            "ns": 0,
+            "title": "Long division"
+          },
+          {
+            "pageid": 336574,
+            "ns": 0,
+            "title": "Saunders Mac Lane"
+          },
+          {
+            "pageid": 405847,
+            "ns": 0,
+            "title": "AKS primality test"
+          },
+          {
+            "pageid": 405944,
+            "ns": 0,
+            "title": "Time complexity"
+          },
+          {
+            "pageid": 500004,
+            "ns": 0,
+            "title": "On-Line Encyclopedia of Integer Sequences"
+          },
+          {
+            "pageid": 529941,
+            "ns": 0,
+            "title": "E. M. Wright"
+          },
+          {
+            "pageid": 563928,
+            "ns": 0,
+            "title": "Baby-step giant-step"
+          },
+          {
+            "pageid": 1145955,
+            "ns": 0,
+            "title": "NL (complexity)"
+          },
+          {
+            "pageid": 1400884,
+            "ns": 0,
+            "title": "Charles E. Leiserson"
+          },
+          {
+            "pageid": 1613344,
+            "ns": 0,
+            "title": "Word (computer architecture)"
+          },
+          {
+            "pageid": 2932361,
+            "ns": 0,
+            "title": "GCD domain"
+          },
+          {
+            "pageid": 3225985,
+            "ns": 0,
+            "title": "Proth's theorem"
+          },
+          {
+            "pageid": 3489993,
+            "ns": 0,
+            "title": "Clifford Stein"
+          },
+          {
+            "pageid": 5488222,
+            "ns": 0,
+            "title": "Unitary divisor"
+          },
+          {
+            "pageid": 9927028,
+            "ns": 0,
+            "title": "Polynomial greatest common divisor"
+          },
+          {
+            "pageid": 14692219,
+            "ns": 0,
+            "title": "Short division"
+          },
+          {
+            "pageid": 18949289,
+            "ns": 0,
+            "title": "Augustus De Morgan"
+          },
+          {
+            "pageid": 19021953,
+            "ns": 0,
+            "title": "Fermat's Last Theorem"
+          },
+          {
+            "pageid": 22634860,
+            "ns": 0,
+            "title": "Line segment"
+          },
+          {
+            "pageid": 32981716,
+            "ns": 0,
+            "title": "Divisibility (ring theory)"
+          },
+          {
+            "pageid": 35209377,
+            "ns": 0,
+            "title": "Jim Stasheff"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "pages": [
+          {
+            "pageid": 3364,
+            "ns": 0,
+            "title": "Bit"
+          }
+        ]
+      }
+    }
+  ],
+  "redirect_cache": {
+    "Associate elements": {
+      "to": "Integral domain",
+      "tofragment": "Divisibility, prime elements, and irreducible elements"
+    },
+    "Integer linear programming": {
+      "to": "Integer programming",
+      "tofragment": ""
+    },
+    "Long multiplication": {
+      "to": "Multiplication algorithm",
+      "tofragment": "Long multiplication"
+    },
+    "Concrete Mathematics: A Foundation for Computer Science": {
+      "to": "Concrete Mathematics",
+      "tofragment": ""
+    },
+    "Distributivity": {
+      "to": "Distributive property",
+      "tofragment": ""
+    },
+    "Newton–Raphson division": {
+      "to": "Division algorithm",
+      "tofragment": "Newton–Raphson division"
+    },
+    "Asymptotically faster algorithm": {
+      "to": "Asymptotically optimal algorithm",
+      "tofragment": ""
+    },
+    "S2CID (identifier)": {
+      "to": "Semantic Scholar",
+      "tofragment": "S2CID"
+    },
+    "Addison-Wesley": {
+      "to": "Addison-Wesley",
+      "tofragment": ""
+    },
+    "G. H. Hardy": {
+      "to": "G. H. Hardy",
+      "tofragment": ""
+    },
+    "George Andrews (mathematician)": {
+      "to": "George Andrews (mathematician)",
+      "tofragment": ""
+    },
+    "Euclidean division": {
+      "to": "Euclidean division",
+      "tofragment": ""
+    },
+    "Williams's p + 1 algorithm": {
+      "to": "Williams's p + 1 algorithm",
+      "tofragment": ""
+    },
+    "Multitape Turing machine": {
+      "to": "Multitape Turing machine",
+      "tofragment": ""
+    },
+    "Identity (mathematics)": {
+      "to": "Identity (mathematics)",
+      "tofragment": ""
+    },
+    "Fermat primality test": {
+      "to": "Fermat primality test",
+      "tofragment": ""
+    },
+    "Karatsuba algorithm": {
+      "to": "Karatsuba algorithm",
+      "tofragment": ""
+    },
+    "Special number field sieve": {
+      "to": "Special number field sieve",
+      "tofragment": ""
+    },
+    "Play video": {
+      "to": "Play video",
+      "tofragment": ""
+    },
+    "Thomae's function": {
+      "to": "Thomae's function",
+      "tofragment": ""
+    },
+    "Least common multiple": {
+      "to": "Least common multiple",
+      "tofragment": ""
+    },
+    "NC (complexity)": {
+      "to": "NC (complexity)",
+      "tofragment": ""
+    },
+    "Rational number": {
+      "to": "Rational number",
+      "tofragment": ""
+    },
+    "Sieve of Sundaram": {
+      "to": "Sieve of Sundaram",
+      "tofragment": ""
+    },
+    "Euler's factorization method": {
+      "to": "Euler's factorization method",
+      "tofragment": ""
+    },
+    "Pollard's p − 1 algorithm": {
+      "to": "Pollard's p − 1 algorithm",
+      "tofragment": ""
+    },
+    "Binary GCD algorithm": {
+      "to": "Binary GCD algorithm",
+      "tofragment": ""
+    },
+    "Lucas–Lehmer primality test": {
+      "to": "Lucas–Lehmer primality test",
+      "tofragment": ""
+    },
+    "P-complete": {
+      "to": "P-complete",
+      "tofragment": ""
+    },
+    "Oded Goldreich": {
+      "to": "Oded Goldreich",
+      "tofragment": ""
+    },
+    "Gaussian integer": {
+      "to": "Gaussian integer",
+      "tofragment": ""
+    },
+    "Peter Barlow (mathematician)": {
+      "to": "Peter Barlow (mathematician)",
+      "tofragment": ""
+    },
+    "Maximal common divisor": {
+      "to": "Maximal common divisor",
+      "tofragment": ""
+    },
+    "Integer": {
+      "to": "Integer",
+      "tofragment": ""
+    },
+    "Quadratic sieve": {
+      "to": "Quadratic sieve",
+      "tofragment": ""
+    },
+    "Exponentiation by squaring": {
+      "to": "Exponentiation by squaring",
+      "tofragment": ""
+    },
+    "Lenstra–Lenstra–Lovász lattice basis reduction algorithm": {
+      "to": "Lenstra–Lenstra–Lovász lattice basis reduction algorithm",
+      "tofragment": ""
+    },
+    "Algorithm": {
+      "to": "Algorithm",
+      "tofragment": ""
+    },
+    "Shanks's square forms factorization": {
+      "to": "Shanks's square forms factorization",
+      "tofragment": ""
+    },
+    "Principal ideal domain": {
+      "to": "Principal ideal domain",
+      "tofragment": ""
+    },
+    "Integer square root": {
+      "to": "Integer square root",
+      "tofragment": ""
+    },
+    "Schoof's algorithm": {
+      "to": "Schoof's algorithm",
+      "tofragment": ""
+    },
+    "An Introduction to the Theory of Numbers": {
+      "to": "An Introduction to the Theory of Numbers",
+      "tofragment": ""
+    },
+    "Ramanujan's sum": {
+      "to": "Ramanujan's sum",
+      "tofragment": ""
+    },
+    "Chunking (division)": {
+      "to": "Chunking (division)",
+      "tofragment": ""
+    },
+    "Ancient Egyptian multiplication": {
+      "to": "Ancient Egyptian multiplication",
+      "tofragment": ""
+    },
+    "Bézout's identity": {
+      "to": "Bézout's identity",
+      "tofragment": ""
+    },
+    "Euclidean algorithm": {
+      "to": "Euclidean algorithm",
+      "tofragment": ""
+    },
+    "Pocklington's algorithm": {
+      "to": "Pocklington's algorithm",
+      "tofragment": ""
+    },
+    "Pépin's test": {
+      "to": "Pépin's test",
+      "tofragment": ""
+    },
+    "Denominator": {
+      "to": "Fraction",
+      "tofragment": ""
+    },
+    "Divides": {
+      "to": "Divisor",
+      "tofragment": "Definition"
+    },
+    "CRCW-PRAM": {
+      "to": "Parallel RAM",
+      "tofragment": ""
+    },
+    "Associativity": {
+      "to": "Associative property",
+      "tofragment": ""
+    },
+    "Binary representation": {
+      "to": "Binary number",
+      "tofragment": ""
+    },
+    "Greatest element": {
+      "to": "Greatest element and least element",
+      "tofragment": ""
+    },
+    "Generating primes": {
+      "to": "Generation of primes",
+      "tofragment": ""
+    },
+    "Doi (identifier)": {
+      "to": "Digital object identifier",
+      "tofragment": ""
+    },
+    "Bibcode (identifier)": {
+      "to": "Bibcode",
+      "tofragment": ""
+    },
+    "Random-access machine": {
+      "to": "Random-access machine",
+      "tofragment": ""
+    },
+    "Wheel factorization": {
+      "to": "Wheel factorization",
+      "tofragment": ""
+    },
+    "Fraction": {
+      "to": "Fraction",
+      "tofragment": ""
+    },
+    "Thomas H. Cormen": {
+      "to": "Thomas H. Cormen",
+      "tofragment": ""
+    },
+    "Ronald Graham": {
+      "to": "Ronald Graham",
+      "tofragment": ""
+    },
+    "Oxford University Press": {
+      "to": "Oxford University Press",
+      "tofragment": ""
+    },
+    "D. C. Heath and Company": {
+      "to": "D. C. Heath and Company",
+      "tofragment": ""
+    },
+    "Rational sieve": {
+      "to": "Rational sieve",
+      "tofragment": ""
+    },
+    "Riemann zeta function": {
+      "to": "Riemann zeta function",
+      "tofragment": ""
+    },
+    "Henry Hamilton (priest)": {
+      "to": "Henry Hamilton (priest)",
+      "tofragment": ""
+    },
+    "Pollard's rho algorithm": {
+      "to": "Pollard's rho algorithm",
+      "tofragment": ""
+    },
+    "Lucas–Lehmer–Riesel test": {
+      "to": "Lucas–Lehmer–Riesel test",
+      "tofragment": ""
+    },
+    "Garrett Birkhoff": {
+      "to": "Garrett Birkhoff",
+      "tofragment": ""
+    },
+    "Dixon's factorization method": {
+      "to": "Dixon's factorization method",
+      "tofragment": ""
+    },
+    "University of West Georgia": {
+      "to": "University of West Georgia",
+      "tofragment": ""
+    },
+    "Lucas primality test": {
+      "to": "Lucas primality test",
+      "tofragment": ""
+    },
+    "Quadratic Frobenius test": {
+      "to": "Quadratic Frobenius test",
+      "tofragment": ""
+    },
+    "Solovay–Strassen primality test": {
+      "to": "Solovay–Strassen primality test",
+      "tofragment": ""
+    },
+    "Toom–Cook multiplication": {
+      "to": "Toom–Cook multiplication",
+      "tofragment": ""
+    },
+    "Randomized algorithm": {
+      "to": "Randomized algorithm",
+      "tofragment": ""
+    },
+    "Pohlig–Hellman algorithm": {
+      "to": "Pohlig–Hellman algorithm",
+      "tofragment": ""
+    },
+    "Pocklington primality test": {
+      "to": "Pocklington primality test",
+      "tofragment": ""
+    },
+    "Computer algebra system": {
+      "to": "Computer algebra system",
+      "tofragment": ""
+    },
+    "Prentice Hall": {
+      "to": "Prentice Hall",
+      "tofragment": ""
+    },
+    "Long division": {
+      "to": "Long division",
+      "tofragment": ""
+    },
+    "Integer relation algorithm": {
+      "to": "Integer relation algorithm",
+      "tofragment": ""
+    },
+    "Berlekamp–Rabin algorithm": {
+      "to": "Berlekamp–Rabin algorithm",
+      "tofragment": ""
+    },
+    "Journal of Number Theory": {
+      "to": "Journal of Number Theory",
+      "tofragment": ""
+    },
+    "Adleman–Pomerance–Rumely primality test": {
+      "to": "Adleman–Pomerance–Rumely primality test",
+      "tofragment": ""
+    },
+    "Sieve of Pritchard": {
+      "to": "Sieve of Pritchard",
+      "tofragment": ""
+    },
+    "Harmonic series (mathematics)": {
+      "to": "Harmonic series (mathematics)",
+      "tofragment": ""
+    },
+    "Integer factorization": {
+      "to": "Integer factorization",
+      "tofragment": ""
+    },
+    "Elliptic curve primality": {
+      "to": "Elliptic curve primality",
+      "tofragment": ""
+    },
+    "Function field sieve": {
+      "to": "Function field sieve",
+      "tofragment": ""
+    },
+    "Ernst Kummer": {
+      "to": "Ernst Kummer",
+      "tofragment": ""
+    },
+    "Sieve of Atkin": {
+      "to": "Sieve of Atkin",
+      "tofragment": ""
+    },
+    "Lenstra elliptic-curve factorization": {
+      "to": "Lenstra elliptic-curve factorization",
+      "tofragment": ""
+    },
+    "Coprime integers": {
+      "to": "Coprime integers",
+      "tofragment": ""
+    },
+    "Computational complexity": {
+      "to": "Computational complexity",
+      "tofragment": ""
+    },
+    "Pollard's kangaroo algorithm": {
+      "to": "Pollard's kangaroo algorithm",
+      "tofragment": ""
+    },
+    "Bézout domain": {
+      "to": "Bézout domain",
+      "tofragment": ""
+    },
+    "Computers": {
+      "to": "Computer",
+      "tofragment": ""
+    },
+    "Positive integer": {
+      "to": "Natural number",
+      "tofragment": ""
+    },
+    "Maxima computer algebra system": {
+      "to": "Maxima (software)",
+      "tofragment": ""
+    },
+    "Models of computation": {
+      "to": "Model of computation",
+      "tofragment": ""
+    },
+    "Fürer's algorithm": {
+      "to": "Multiplication algorithm",
+      "tofragment": "Further improvements"
+    },
+    "Wolfram Alpha": {
+      "to": "WolframAlpha",
+      "tofragment": ""
+    },
+    "SRT division": {
+      "to": "Division algorithm",
+      "tofragment": "SRT"
+    },
+    "Quasilinear time": {
+      "to": "Time complexity",
+      "tofragment": "Quasilinear time"
+    },
+    "Goldschmidt division": {
+      "to": "Division algorithm",
+      "tofragment": "Goldschmidt division"
+    },
+    "Montgomery reduction": {
+      "to": "Montgomery modular multiplication",
+      "tofragment": ""
+    },
+    "ISBN (identifier)": {
+      "to": "ISBN",
+      "tofragment": ""
+    },
+    "LCCN (identifier)": {
+      "to": "Library of Congress Control Number",
+      "tofragment": ""
+    },
+    "Fraction (mathematics)": {
+      "to": "Fraction",
+      "tofragment": ""
+    },
+    "Generating set of an ideal": {
+      "to": "Generating set of a module",
+      "tofragment": ""
+    },
+    "Pollard's rho algorithm for logarithms": {
+      "to": "Pollard's rho algorithm for logarithms",
+      "tofragment": ""
+    },
+    "Parallel algorithm": {
+      "to": "Parallel algorithm",
+      "tofragment": ""
+    },
+    "Cartesian coordinate system": {
+      "to": "Cartesian coordinate system",
+      "tofragment": ""
+    },
+    "Shor's algorithm": {
+      "to": "Shor's algorithm",
+      "tofragment": ""
+    },
+    "Korkine–Zolotarev lattice basis reduction algorithm": {
+      "to": "Korkine–Zolotarev lattice basis reduction algorithm",
+      "tofragment": ""
+    },
+    "Irreducible fraction": {
+      "to": "Irreducible fraction",
+      "tofragment": ""
+    },
+    "Introduction to Algorithms": {
+      "to": "Introduction to Algorithms",
+      "tofragment": ""
+    },
+    "Commensurability (mathematics)": {
+      "to": "Commensurability (mathematics)",
+      "tofragment": ""
+    },
+    "Unique factorization domain": {
+      "to": "Unique factorization domain",
+      "tofragment": ""
+    },
+    "Schönhage–Strassen algorithm": {
+      "to": "Schönhage–Strassen algorithm",
+      "tofragment": ""
+    },
+    "Euclid's lemma": {
+      "to": "Euclid's lemma",
+      "tofragment": ""
+    },
+    "Trial division": {
+      "to": "Trial division",
+      "tofragment": ""
+    },
+    "Fourier division": {
+      "to": "Fourier division",
+      "tofragment": ""
+    },
+    "George Peacock": {
+      "to": "George Peacock",
+      "tofragment": ""
+    },
+    "Multiplication algorithm": {
+      "to": "Multiplication algorithm",
+      "tofragment": ""
+    },
+    "Extended Euclidean algorithm": {
+      "to": "Extended Euclidean algorithm",
+      "tofragment": ""
+    },
+    "P (complexity)": {
+      "to": "P (complexity)",
+      "tofragment": ""
+    },
+    "Chakravala method": {
+      "to": "Chakravala method",
+      "tofragment": ""
+    },
+    "Baillie–PSW primality test": {
+      "to": "Baillie–PSW primality test",
+      "tofragment": ""
+    },
+    "Division algorithm": {
+      "to": "Division algorithm",
+      "tofragment": ""
+    },
+    "Modular exponentiation": {
+      "to": "Modular exponentiation",
+      "tofragment": ""
+    },
+    "Fermat's factorization method": {
+      "to": "Fermat's factorization method",
+      "tofragment": ""
+    },
+    "Tonelli–Shanks algorithm": {
+      "to": "Tonelli–Shanks algorithm",
+      "tofragment": ""
+    },
+    "Index calculus algorithm": {
+      "to": "Index calculus algorithm",
+      "tofragment": ""
+    },
+    "Cornacchia's algorithm": {
+      "to": "Cornacchia's algorithm",
+      "tofragment": ""
+    },
+    "Discrete logarithm": {
+      "to": "Discrete logarithm",
+      "tofragment": ""
+    },
+    "Lehmer's GCD algorithm": {
+      "to": "Lehmer's GCD algorithm",
+      "tofragment": ""
+    },
+    "Donald Knuth": {
+      "to": "Donald Knuth",
+      "tofragment": ""
+    },
+    "Continued fraction factorization": {
+      "to": "Continued fraction factorization",
+      "tofragment": ""
+    },
+    "Cipolla's algorithm": {
+      "to": "Cipolla's algorithm",
+      "tofragment": ""
+    },
+    "Euclidean domain": {
+      "to": "Euclidean domain",
+      "tofragment": ""
+    },
+    "Distributive lattice": {
+      "to": "Distributive lattice",
+      "tofragment": ""
+    },
+    "Quadratic residue": {
+      "to": "Quadratic residue",
+      "tofragment": ""
+    },
+    "Lowest common denominator": {
+      "to": "Lowest common denominator",
+      "tofragment": ""
+    },
+    "Euclid": {
+      "to": "Euclid",
+      "tofragment": ""
+    },
+    "Benny Chor": {
+      "to": "Benny Chor",
+      "tofragment": ""
+    },
+    "Charles University in Prague": {
+      "to": "Charles University",
+      "tofragment": ""
+    },
+    "Divisibility": {
+      "to": "Divisor",
+      "tofragment": ""
+    },
+    "Prime factorization": {
+      "to": "Integer factorization",
+      "tofragment": ""
+    },
+    "Ronald L. Rivest": {
+      "to": "Ron Rivest",
+      "tofragment": ""
+    },
+    "Binary division": {
+      "to": "Long division",
+      "tofragment": "Binary division"
+    },
+    "Superpolynomial": {
+      "to": "Time complexity",
+      "tofragment": "Superpolynomial time"
+    },
+    "Commutativity": {
+      "to": "Commutative property",
+      "tofragment": ""
+    },
+    "Coprime": {
+      "to": "Coprime integers",
+      "tofragment": ""
+    },
+    "Short division": {
+      "to": "Short division",
+      "tofragment": ""
+    },
+    "Divisibility (ring theory)": {
+      "to": "Divisibility (ring theory)",
+      "tofragment": ""
+    },
+    "Expected value": {
+      "to": "Expected value",
+      "tofragment": ""
+    },
+    "Augustus De Morgan": {
+      "to": "Augustus De Morgan",
+      "tofragment": ""
+    },
+    "E. M. Wright": {
+      "to": "E. M. Wright",
+      "tofragment": ""
+    },
+    "George Biddell Airy": {
+      "to": "George Biddell Airy",
+      "tofragment": ""
+    },
+    "Proth's theorem": {
+      "to": "Proth's theorem",
+      "tofragment": ""
+    },
+    "Fundamental theorem of arithmetic": {
+      "to": "Fundamental theorem of arithmetic",
+      "tofragment": ""
+    },
+    "Unitary divisor": {
+      "to": "Unitary divisor",
+      "tofragment": ""
+    },
+    "Entire function": {
+      "to": "Entire function",
+      "tofragment": ""
+    },
+    "Line segment": {
+      "to": "Line segment",
+      "tofragment": ""
+    },
+    "Ideal (ring theory)": {
+      "to": "Ideal (ring theory)",
+      "tofragment": ""
+    },
+    "On-Line Encyclopedia of Integer Sequences": {
+      "to": "On-Line Encyclopedia of Integer Sequences",
+      "tofragment": ""
+    },
+    "Dionysius Lardner": {
+      "to": "Dionysius Lardner",
+      "tofragment": ""
+    },
+    "Baby-step giant-step": {
+      "to": "Baby-step giant-step",
+      "tofragment": ""
+    },
+    "Jim Stasheff": {
+      "to": "Jim Stasheff",
+      "tofragment": ""
+    },
+    "General number field sieve": {
+      "to": "General number field sieve",
+      "tofragment": ""
+    },
+    "Commutative ring": {
+      "to": "Commutative ring",
+      "tofragment": ""
+    },
+    "Number theory": {
+      "to": "Number theory",
+      "tofragment": ""
+    },
+    "Integral domain": {
+      "to": "Integral domain",
+      "tofragment": ""
+    },
+    "Fermat's Last Theorem": {
+      "to": "Fermat's Last Theorem",
+      "tofragment": ""
+    },
+    "Polynomial greatest common divisor": {
+      "to": "Polynomial greatest common divisor",
+      "tofragment": ""
+    },
+    "Mathematics": {
+      "to": "Mathematics",
+      "tofragment": ""
+    },
+    "Charles E. Leiserson": {
+      "to": "Charles E. Leiserson",
+      "tofragment": ""
+    },
+    "NL (complexity)": {
+      "to": "NL (complexity)",
+      "tofragment": ""
+    },
+    "AKS primality test": {
+      "to": "AKS primality test",
+      "tofragment": ""
+    },
+    "Preorder": {
+      "to": "Preorder",
+      "tofragment": ""
+    },
+    "Miller–Rabin primality test": {
+      "to": "Miller–Rabin primality test",
+      "tofragment": ""
+    },
+    "Field (mathematics)": {
+      "to": "Field (mathematics)",
+      "tofragment": ""
+    },
+    "Divisor": {
+      "to": "Divisor",
+      "tofragment": ""
+    },
+    "Clifford Stein": {
+      "to": "Clifford Stein",
+      "tofragment": ""
+    },
+    "Sieve of Eratosthenes": {
+      "to": "Sieve of Eratosthenes",
+      "tofragment": ""
+    },
+    "Multiplicative function": {
+      "to": "Multiplicative function",
+      "tofragment": ""
+    },
+    "The Art of Computer Programming": {
+      "to": "The Art of Computer Programming",
+      "tofragment": ""
+    },
+    "Primality test": {
+      "to": "Primality test",
+      "tofragment": ""
+    },
+    "GCD domain": {
+      "to": "GCD domain",
+      "tofragment": ""
+    },
+    "Word (computer architecture)": {
+      "to": "Word (computer architecture)",
+      "tofragment": ""
+    },
+    "Decision problem": {
+      "to": "Decision problem",
+      "tofragment": ""
+    },
+    "Natural number": {
+      "to": "Natural number",
+      "tofragment": ""
+    },
+    "Complete lattice": {
+      "to": "Complete lattice",
+      "tofragment": ""
+    },
+    "Euler's totient function": {
+      "to": "Euler's totient function",
+      "tofragment": ""
+    },
+    "Saunders Mac Lane": {
+      "to": "Saunders Mac Lane",
+      "tofragment": ""
+    },
+    "Bit": {
+      "to": "Bit",
+      "tofragment": ""
+    }
+  },
+  "image_metadata": {
+    "File:Question book-new.svg": "_no original description_",
+    "File:24x60.svg": "24 by 60 reduces to 2 by 5 when 24 and 60 are divided by 12, which is the GCD of 24 and 60.",
+    "File:Greatest common divisor.png": "gcd \\(1,X\\) = Y \\[Greatest common divisor of 1 and X = Y\\]. Hatching at bottom indicates ellipses \\(the dots go on infinitely\\). [\\[1\\]](http://mathworld.wolfram.com/images/eps-gif/GreatestCommonDivisor_1000.gif)",
+    "File:The Great Common Divisor of 62 and 36 is 2.ogv": "Animation showing an application of the Euclidean Algorithm to find the Great Common Divisor of 62 and 36 which is 2.",
+    "File:Visual proof lcm gcd product.svg": "Venn diagram of the factors of two positive integers _a_ and _b_ showing that _a_ × _b_ is the product of their lowest common multiple \\(LCM\\) and their greatest common divisor \\(GCD\\), by CMG Lee."
+  },
+  "name_map_overrides": {}
+}
