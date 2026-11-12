@@ -16,6 +16,7 @@ from main_mods.rules import (
     agents_no_flashcard_markup,
     agents_title,
     aliases_sorted,
+    answer_formula_alone,
     assignment_index_heading,
     assignment_index_metadata,
     assignment_index_sections,
@@ -2803,6 +2804,132 @@ def test_cloze_no_hint_words_rule():
     msgs = cloze_no_hint_words(make_ctx(multiline))
     assert len(msgs) == 1
     assert msgs[0].line == 7
+
+
+def test_cloze_no_hint_words_message_asks_for_a_fix():
+    """The warning stays advisory and says when a suppression is warranted."""
+    ctx = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "{@{entire sentence clozed}@}\n"
+    )
+    msgs = cloze_no_hint_words(ctx)
+    assert msgs
+    assert msgs[0].msg.startswith("cloze flashcard clause has no visible hint words")
+    assert "fix the line" in msgs[0].msg
+    assert "<!-- check: ignore-line[cloze_no_hint_words]: why -->" in msgs[0].msg
+    assert "genuinely needed" in msgs[0].msg
+    assert all(m.severity is Severity.WARNING for m in msgs)
+
+
+def test_cloze_no_hint_words_answer_lines():
+    """A question block's answer label is markup, not a hint word."""
+    front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+
+    # A solution line answers the blockquote question above it and carries
+    # that question's option, so one bare cloze is the whole answer.
+    solution = make_ctx(f"{front}> - solution: {{@{{3. (c)}}@}}\n")
+    assert not cloze_no_hint_words(solution)
+
+    # An explanation clozed whole from its label onward hides the reasoning
+    # itself, so it owes the reader no visible hint.
+    explanation = make_ctx(
+        f"{front}> - explanation: {{@{{the price rises with demand}}@}}\n"
+    )
+    assert not cloze_no_hint_words(explanation)
+
+    # Short of the coverage floor, the same line still owes two visible words.
+    short = make_ctx(f"{front}> - explanation: {{@{{the price rises}}@}} often.\n")
+    msgs = cloze_no_hint_words(short)
+    assert len(msgs) == 1
+    assert "no visible hint words" in msgs[0].msg
+
+    # Two visible words outside the cloze satisfy the explanation rule.
+    explained = make_ctx(
+        f"{front}> - explanation: the price {{@{{rises with demand}}@}}\n"
+    )
+    assert not cloze_no_hint_words(explained)
+
+    # A long explanation's single cloze may leave a few words visible as the
+    # hint the short branch has no room for, and today's floor still silences it.
+    long_explanation = make_ctx(
+        f"{front}> - explanation: The "
+        "{@{sell takes the shares bid at the top of the book and the remainder "
+        "rests at the price the buy order named, so the traded price never "
+        "leaves the range}@}.\n"
+    )
+    assert not cloze_no_hint_words(long_explanation)
+
+    # An annotation line follows the explanation rule, not the solution one.
+    annotation = make_ctx(f"{front}> - annotation: {{@{{mind the spread}}@}}\n")
+    assert not cloze_no_hint_words(annotation)
+    annotation_short = make_ctx(
+        f"{front}> - annotation: {{@{{mind the spread}}@}} today.\n"
+    )
+    msgs = cloze_no_hint_words(annotation_short)
+    assert len(msgs) == 1
+
+    # The line carries no label, so one bare cloze still reports.
+    prose = make_ctx(f"{front}{{@{{entire sentence clozed}}@}}\n")
+    msgs = cloze_no_hint_words(prose)
+    assert len(msgs) == 1
+    assert "no visible hint words" in msgs[0].msg
+
+
+def test_answer_formula_alone_rule():
+    """A formula hidden alone beside visible prose asks for a symbol string."""
+    front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+
+    # A formula-only cloze on an explanation, with prose beside it, reports.
+    alone = make_ctx(
+        front + "> - explanation: The density is {@{$\\frac{m}{V}$}@} for a uniform "
+        "body.\n"
+    )
+    msgs = answer_formula_alone(alone)
+    assert [m.rule_id for m in msgs] == ["answer_formula_alone"]
+
+    # An annotation line follows the same rule.
+    annotated = make_ctx(
+        front + "> - annotation: Check the sign of {@{$\\Delta V$}@} here.\n"
+    )
+    msgs = answer_formula_alone(annotated)
+    assert [m.rule_id for m in msgs] == ["answer_formula_alone"]
+
+    # The same formula folded into a cloze holding its words passes.
+    with_words = make_ctx(
+        front
+        + "> - explanation: {@{the density of a uniform body is $\\frac{m}{V}$}@}.\n"
+    )
+    assert not answer_formula_alone(with_words)
+
+    # A solution names an option, and that option may be a bare formula.
+    solution = make_ctx(
+        front + "> - solution: {@{$\\frac{4\\delta}{1 + 3\\delta}$}@}\n"
+    )
+    assert not answer_formula_alone(solution)
+
+    # A line whose only prose sits inside the cloze shows the reader nothing:
+    # the sibling cloze hides it, so the formula is all the card shows.
+    inside = make_ctx(
+        front + "> - explanation: {@{$E = mc^2$}@} {@{relates mass and energy}@}.\n"
+    )
+    assert not answer_formula_alone(inside)
+
+
+def test_answer_formula_alone_message_asks_for_a_fix():
+    """The warning stays advisory and names the fix."""
+    ctx = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "> - explanation: The ratio is {@{$\\frac{a}{b}$}@}.\n"
+    )
+    msgs = answer_formula_alone(ctx)
+    assert len(msgs) == 1
+    assert msgs[0].severity is Severity.WARNING
+    assert msgs[0].line == 4
+    assert (
+        "hide the formula inside a cloze that also holds the words giving it "
+        "meaning" in msgs[0].msg
+    )
+    assert "named statement" in msgs[0].msg
 
 
 def test_qa_block_missing_solution_rule():

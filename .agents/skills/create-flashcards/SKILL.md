@@ -33,6 +33,8 @@ The cloze holds the payload; the frame around it — copula, leading verb, subje
 
 A copula inside a cloze is fine after the payload's first word: `{@{flattens …, so it is not single-valued}@}`.
 
+A formula is hidden together with the words that give it meaning. On a question block's answer line a formula clozed alone, with prose beside it, asks for a symbol string rather than a fact (`answer_formula_alone`): hide it in the cloze holding its words, and leave one alone only where the surrounding text says nothing or the formula is a named statement, such as a theorem, a lemma or a definition. A solution line is the exception, since it names the option it answers and that option may be a bare formula.
+
 ## Diagrams in cards
 
 A card may carry a diagram on the prompt side, the answer side, or both. A drawing a note defines has to be produced, not just recognised, so the cards carry it and the prose does not.
@@ -47,7 +49,7 @@ Paths are relative to the note (`attachments/<name>.svg`), and alt text is a pla
 
 __Private files tag inactive.__ A file under `private/` carries `flashcard/inactive/special/academia/...` for the same path its public twin would use, so its cards stay out of the review queue until it is published. Publishing flips `inactive` to `active` in the same edit that moves the file; nothing else about the tag changes.
 
-__Private quiz archives__ (the user has confirmed a checked option is correct): prefer a short `- explanation:` bullet with clozes over a bare answer-only card, unless the question is conceptual enough that the solution line already carries the recall. Cloze the decisive method, condition, contrast, or reason; do not merely hide the same final option twice. When the question or answer depends on an embedded figure, still add the cloze-rich explanation rather than treating the image as review support. If the `Solution:` line contains the image, keep at least one cloze on that line too, so the chosen option or structural descriptor is directly quizzable.
+__Private quiz archives__ (the user has confirmed a checked option is correct): prefer a short `- explanation:` bullet with clozes over a bare answer-only card, unless the question is conceptual enough that the solution line already carries the recall. Cloze the decisive method, condition, contrast, or reason; do not merely hide the same final option twice. When the question or answer depends on an embedded figure, still add the cloze-rich explanation rather than treating the image as review support. If the `Solution:` line contains the image, keep at least one cloze on that line too, so the chosen option or structural descriptor is directly quizzable. The solution itself names the option as `{@{3. (c)}@}`, the note's choice number and that choice's text, in one cloze.
 
 __Public quiz hints__ written as `::@::`: keep the hints in the same order as the archived/private question order. To add context, put it on the left-hand prompt: option-family cues, mutated-but-equivalent givens, or the decisive spectral, timing, or topology landmarks, without copying the official choices verbatim.
 
@@ -70,6 +72,7 @@ A reader meets one card at a time. There is no note around it, no prose, no head
 - __Name the setting:__ the model and the sample, with the size where it matters. `for $X_1, \ldots, X_n$ independent and identically distributed (i.i.d.) from $N(\mu, \sigma^2)$, $n > 1$`.
 - __Define every symbol:__ a symbol the prose introduced is not on the card. Either the card defines it or it goes. A card naming the statistical object in words beats one naming a matrix the prose set up.
 - __No deixis:__ `here`, `this result`, `the two forms`, `by substitution` and `still` point at prose the reader does not have. Name the thing instead.
+- __Carry the block's own context:__ a question block is the card, so the block holds the figure it asks about, its label carries the path, `5.a.` rather than `5(a)`, and it restates the premises it needs rather than pointing at a sibling; a card opening on `(a)`, or naming a figure drawn above the block, cannot be answered.
 - __Ask:__ a bare label such as `definition` or `overview` names the section's shape rather than its content.
 
 This generalises the worked-example rule above, which covers calculation cards only.
@@ -105,7 +108,7 @@ Use this process for every clozing task: it yields fine-grained clozes that keep
 
 ### 1. Assume everything needs clozing
 
-Treat every clause, equation, and factual claim in the target sentence as a candidate blank. Aim for at least 85% of each solution sentence inside clozes (target around 90%); only linking words ("so", "hence", "therefore"), articles ("the", "a"), and 1-3 hint words should remain visible. In multi-step worked solutions, every intermediate equation and every conclusion must be individually clozed.
+Treat every clause, equation, and factual claim in the target sentence as a candidate blank. Aim for at least 85% of each solution sentence inside clozes (target around 90%); only linking words ("so", "hence", "therefore"), articles ("the", "a"), and 1-3 hint words should remain visible. The visible-hint rule covers prose and `- explanation:` lines; a `- solution:` line owes none, because the blockquote question above it is the prompt and the option it names is the whole answer. In multi-step worked solutions, every intermediate equation and every conclusion must be individually clozed.
 
 ### 2. Split at natural boundaries
 
@@ -147,7 +150,7 @@ Common failures: clozing only equations while leaving prose explanations visible
 
 ### Common mistakes
 
-1. __Missing hint words.__ Every cloze needs at least one visible word outside it. A cloze starting a sentence with no lead-in is wrong; add a hint such as "The advantage is". Hints are typically 1-3 words but can be longer phrases ("The node voltage is", "Solution:"), with no upper limit. The validator catches cloze clauses with no visible hint words.
+1. __Missing hint words.__ In prose, every cloze needs at least one visible word outside it, and one starting a sentence with no lead-in is wrong; add a hint such as "The advantage is". Hints are typically 1-3 words but can be longer phrases ("The node voltage is"), with no upper limit. An answer line carrying one cloze is measured after its label, since the `- solution:` label is markup rather than a hint: a solution owes none, while an explanation or annotation owes two. The validator catches cloze clauses with no visible hint words.
 2. __Contrast merged into one cloze.__ Contrast items (A vs B) must be separate clozes, never `{@{X is good, whereas Y is bad}@}`.
 3. __Over-splitting.__ Do not split at every comma; related items within one reasoning step stay in one cloze.
 4. __Prose+equation merge.__ Keep the split as the default: `{@{Ohm's law}@} is {@{$V=IR$}@}` when the concept name should prompt recall, so it stays visible as a hint. A term and its formula may share one cloze when they are recalled together, such as `{@{Bragg's law $\lambda = 2d\sin\theta$}@}`.
@@ -229,7 +232,7 @@ Common failures: clozing only equations while leaving prose explanations visible
 - Preserve the source verbatim except for cloze markup; do not paraphrase or reflow. Authored text is the one exception: an acronym, abbreviation, or personal name the source left unexpanded gets its full form on the card line (see "Full forms on every card"), while quoted verbatim text is never touched.
 - Never name the material in a card or its surrounding prose: no `the lecture`, `the slides`, `the deck`, or `the course`. State the content itself.
 - Keep equations whole: wrap an entire `$...$` or `$$...$$` block in one cloze; never split math.
-- Leave visible words around each deletion as a hint, and avoid blanking a sentence entirely unless the context is crystal clear.
+- Leave visible words around each deletion as a hint, and avoid blanking a sentence entirely unless the context is crystal clear. A `- solution:` line is that clear: the question sits above it, so its one cloze hides the whole answer.
 - Mirror the user's style when they supply examples or corrections.
 - Preserve HTML entities and escapes exactly, treating them as opaque literals.
 - Never edit `private/`, `self/`, or other submodules without explicit authorization. Academic content routed to `private/` by `academic-ingest` is the exception: it is edited in place during an ingestion.

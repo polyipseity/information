@@ -7,6 +7,7 @@ This index summarizes the repository instruction files under `.agents/instructio
 | `core-workflows.instructions.md` | Startup checklist, workflows, and repo gotchas | `**` |
 | `commit-convention.instructions.md` | Commit/PR message rules and trailers | `**` |
 | `editing-conventions.instructions.md` | Markdown editing rules, cloze/pytextgen guards, config folder policy, skill integrations | `**/*.md` |
+| `prompts.instructions.md` | Prompt-file naming against user scope, and frontmatter that a YAML parser accepts | `**/*.prompt.md` |
 | `python-entry-points.instructions.md` | Python `__name__ == "__main__"` entry point convention | `**/*.py` |
 | `special.instructions.md` | Conventions for `special/` content and tooling | `special/**/*.md, special/**/*.py` |
 | `submodules.instructions.md` | Guardrails for all git submodules (private, pyarchivist, pytextgen, self/*) | `private/**, scripts/pyarchivist/**, scripts/pytextgen/**, self/arts/**, self/capture the flag/**, self/ledger/**, self/passwords/**, self/polyipseity/**` |

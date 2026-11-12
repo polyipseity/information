@@ -1777,9 +1777,12 @@ def _flashcard_rule_exempt(path: Path) -> bool:
 
 """A blockquote list item labelled solution, explanation or annotation, the QA answer slot."""
 _SOLUTION_LABEL_RE = re.compile(
-    r"^[ \t]*>[ \t]*(?:-[ \t]*)?(?:solution|explanation|annotation)[ \t]*:",
+    r"^[ \t]*>[ \t]*(?:-[ \t]*)?(?P<label>solution|explanation|annotation)[ \t]*:",
     re.IGNORECASE,
 )
+"""Visible words an explanation or annotation owes outside a partial cloze; a solution
+line owes none."""
+_ANSWER_MIN_WORDS = 2
 """A blockquote opening display math or an aligned environment, not a question."""
 _DISPLAY_MATH_BLOCK_RE = re.compile(
     r"^[ \t]*>[ \t]*(?:\$\$|\\\[|\\begin\{(?:aligned|align|gathered|split)\})"
@@ -1810,6 +1813,35 @@ def _iter_blockquote_blocks(text: str) -> Iterator[tuple[int, str]]:
 def _block_has_solution(block_text: str) -> bool:
     """Return whether a blockquote block carries a solution or explanation item."""
     return any(_SOLUTION_LABEL_RE.match(line) for line in block_text.splitlines())
+
+
+def _split_answer_label(line: str) -> tuple[str | None, str]:
+    """Split a blockquoted answer line into its label and its own words.
+
+    A question block's answer line opens with ``- solution:``,
+    ``- explanation:`` or ``- annotation:``. That label, with the quote marker
+    and the list marker around it, names the answer slot and hides nothing, so
+    it is markup rather than content. Returns ``(label, text)``: *label* is the
+    lowercased slot name when the line carries one, and *text* is what follows
+    its colon. A line without a label comes back unchanged, with ``None``.
+    """
+    match = _SOLUTION_LABEL_RE.match(line)
+    if match is None:
+        return None, line
+    return match.group("label").lower(), line[match.end() :]
+
+
+def _clozes_answer_whole(line: str, text: str) -> bool:
+    """Return whether one cloze holds *text* whole, punctuation and all.
+
+    *line* is the whole line and *text* the words after an answer's label, so
+    the cloze's span is measured against the line.  Only whitespace may sit
+    around the cloze: the item is then one card with nothing visible to prompt
+    it.  A line with text outside the cloze, a visible lead-in or a trailing
+    word, leaves that text for the reader to recall without a blank.
+    """
+    _, spans, _, _, _ = _scan_cloze_tokens(line)
+    return len(spans) == 1 and text.strip() == line[spans[0][0] : spans[0][1] + 3]
 
 
 def _block_is_display_math(block_text: str) -> bool:
@@ -4967,6 +4999,15 @@ def cloze_no_hint_words(ctx: ValidationContext) -> list[ValidationMessage]:
     sample}@}``) shows its hint in the sibling cloze, so only a line with
     exactly one cloze can lack one. Clozes holding only LaTeX math remain
     acceptable recall targets.
+
+    A question block's answer label names the answer slot and is markup, not
+    text, so an answer line is measured on the words after the label (see
+    `_split_answer_label`). A ``solution`` line answers the blockquote
+    question above it and carries that question's option, so it owes no
+    visible word. An ``explanation`` or ``annotation`` line whose one cloze
+    holds it whole (see `_clozes_answer_whole`) hides the reasoning itself, so
+    it owes no hint either; one leaving text outside its cloze owes at least
+    two unless the cloze still reaches the 85% coverage floor.
     """
     errors: list[ValidationMessage] = []
     if not has_flash_tag(ctx.front):
@@ -4982,21 +5023,43 @@ def cloze_no_hint_words(ctx: ValidationContext) -> list[ValidationMessage]:
         line_start_next = line_start + len(line) + 1
         if len(spans) == 1:
             span_start, span_end = spans[0]
+            label, answer_text = _split_answer_label(line)
             visible_text = line[:span_start] + line[span_end:]
-            has_hint_word = bool(re.search(r"[a-zA-Z]", visible_text))
+            _, visible_text = _split_answer_label(visible_text)
+            hint_words = [
+                word for word in visible_text.split() if re.search(r"[a-zA-Z]", word)
+            ]
+            coverage = _compute_cloze_coverage(answer_text)
+            if label == "solution":
+                needed = 0
+            elif label is None:
+                needed = 1
+            elif _clozes_answer_whole(line, answer_text):
+                # One cloze holding the item whole leaves nothing visible to
+                # prompt the reader with.
+                needed = 0
+            else:
+                covered = coverage is not None and coverage >= 0.85
+                needed = 0 if covered else _ANSWER_MIN_WORDS
             # An empty or LaTeX-only body carries no prose a reader could
             # be quizzed on instead, so it is not a hint-word deficit.
             cloze_body = line[span_start + 3 : span_end].strip()
             equation_only = not cloze_body or bool(
                 re.match(r"^\$.*\$$|^\$\$.*\$\$$", cloze_body, re.DOTALL)
             )
-            if not has_hint_word and not equation_only:
+            if len(hint_words) < needed and not equation_only:
                 abs_pos = line_start + span_start
                 _line, col_no = locate(ctx.text, abs_pos)
                 errors.append(
                     ValidationMessage(
                         rule_id="cloze_no_hint_words",
-                        msg="cloze flashcard clause has no visible hint words",
+                        msg=(
+                            "cloze flashcard clause has no visible hint words; "
+                            "fix the line, and suppress with "
+                            "'<!-- check: ignore-line[cloze_no_hint_words]: "
+                            "why -->' only when the hint word is genuinely "
+                            "needed"
+                        ),
                         severity=Severity.WARNING,
                         line=line_idx,
                         col=col_no,
@@ -5004,6 +5067,77 @@ def cloze_no_hint_words(ctx: ValidationContext) -> list[ValidationMessage]:
                 )
         line_start = line_start_next
 
+    return errors
+
+
+"""Math delimited by dollar signs, which is a formula rather than a word."""
+_FORMULA_MATH_RE = re.compile(r"\$\$.+?\$\$|\$[^$\n]+\$", re.DOTALL)
+
+"""A word of prose: two letters or more, so digits and symbols are no words."""
+_PROSE_WORD_RE = re.compile(r"[A-Za-z]{2,}")
+
+
+def _has_prose_word(text: str) -> bool:
+    """Return whether *text* holds a word of prose once its math is gone.
+
+    A digit run, a formula and punctuation are no word, so a cloze body made
+    of them alone hides a symbol string rather than something to recall.
+    """
+    return _PROSE_WORD_RE.search(_FORMULA_MATH_RE.sub(" ", text)) is not None
+
+
+@RULE_REGISTRY.register()
+def answer_formula_alone(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn about an answer cloze hidden with a formula and nothing else.
+
+    A formula is recalled together with the words that give it meaning, so a
+    cloze holding a formula alone asks for a symbol string instead of a fact.
+    The line reports when one of its clozes holds no word of prose while other
+    prose still sits on the line for the reader to see, since that prose is
+    the context the cloze should have carried.  A formula alone is right where
+    the surrounding text says nothing, and a formula clozed together with its
+    words carries them already, so neither reports.
+
+    A ``- solution:`` line is out of scope: a solution names the option it
+    answers, and that option may be a bare formula.  One message per line, at
+    its first formula-only cloze.
+    """
+    errors: list[ValidationMessage] = []
+    for line_no, line in enumerate(ctx.text.splitlines(), start=1):
+        label, text = _split_answer_label(line)
+        if label not in {"explanation", "annotation"}:
+            continue
+        _, spans, _, _, _ = _scan_cloze_tokens(text)
+        visible: list[str] = []
+        formula_spans: list[int] = []
+        cursor = 0
+        for start, end in sorted(spans):
+            if start < cursor:
+                # A cloze nested inside one already removed.
+                continue
+            if not _has_prose_word(text[start + 3 : end]):
+                formula_spans.append(start)
+            visible.append(text[cursor:start])
+            cursor = end + 3
+        visible.append(text[cursor:])
+        if not formula_spans or not _has_prose_word("".join(visible)):
+            continue
+        text_start = len(line) - len(text)
+        errors.append(
+            ValidationMessage(
+                rule_id="answer_formula_alone",
+                msg=(
+                    "a cloze holding a formula alone asks for a symbol "
+                    "string; hide the formula inside a cloze that also holds "
+                    "the words giving it meaning, and leave a formula alone "
+                    "only where the surrounding text says nothing or the "
+                    "formula is a named statement"
+                ),
+                severity=Severity.WARNING,
+                line=line_no,
+                col=text_start + formula_spans[0] + 1,
+            )
+        )
     return errors
 
 

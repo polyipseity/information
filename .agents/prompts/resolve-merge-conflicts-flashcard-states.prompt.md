@@ -1,7 +1,7 @@
 ---
 name: resolve-merge-conflicts-flashcard-states
 description: Resolve markdown merge conflicts by keeping incoming content, transferring matching SR flashcard states, and verifying non-state parity with incoming branch.
-argument-hint: Optional: incomingBranch=origin/main threshold=0.50 paths="file1.md,file2.md" stage=yes
+argument-hint: 'Optional: incomingBranch=origin/main threshold=0.50 paths="file1.md,file2.md" stage=yes'
 ---
 
 # Resolve Merge Conflicts (Incoming-First + SR State Transfer)
