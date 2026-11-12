@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -34 99 99" font-size="8">
+<g fill="none">
+<path fill="#fc6" d="M-35,3a29,29 0 1 0 0-.1m0,46a8,8 0 1 1 0,1"/>
+<path fill="#06f5" d="M-5,3a29,29 0 1 0 0-.1m-7,46a8,8 0 1 1 0,1"/>
+<path stroke="#666" stroke-dasharray="1" d="M9-21a30,29 0 0 0 0,48a30,29 0 0 0 0-48m37,63a8,8 0 0 0 0,14a8,8 0 0 0 0-14"/>
+<path stroke="#0f9" d="M9-23a30,30 0 1 0 0,52a30,30 0 1 0 0-52m14,65a8,8 0 1 0 0,14a8,8 0 1 0 0-14"/>
+</g>
+<text fill="#f90" y="-28" x="-9">𝑎<tspan fill="#69f" x="23">𝑏</tspan></text>
+<text fill="#0c6" y="39">LCM</text>
+<text y="5">GCD</text>
+<text x="-22">𝑎</text>
+<text x="-29">____</text>
+<text x="35">𝑏</text>
+<text x="29">____</text>
+<text y="7" x="-29">GCD<tspan x="29">GCD</tspan></text>
+<text y="52" x="-18">+<tspan x="36">+</tspan></text>
+<text y="64" x="-18">×<tspan fill="#f90" x="-29">𝑎</tspan><tspan fill="#69f" x="-6">𝑏</tspan><tspan x="5">=</tspan><tspan fill="#0c6" x="15">LCM</tspan>×GCD</text>
+</svg>

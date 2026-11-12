@@ -1,0 +1,13 @@
+<svg version="1.1" viewBox="-2 -2 244 604" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>GCD of 24 and 60</title>
+<defs>
+	<pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+		<path d="M0,0 H10 M0,10 V0" stroke="black"/>
+	</pattern>
+</defs>
+<g id="row" stroke-width="2.5" stroke="black" fill="url(#grid)">
+	<rect width="120" height="120"/><rect x="120" width="120" height="120"/>
+</g>
+<g id="row2"><use xlink:href="#row" y="120"/><use xlink:href="#row" y="240"/></g>
+<use xlink:href="#row2" y="240"/>
+</svg>
