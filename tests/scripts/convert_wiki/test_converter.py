@@ -501,6 +501,89 @@ class TestMathHandling:
         result = await _convert(converter, html)
         assert "before $$F(x)$$ after" in result
 
+    @pytest.mark.anyio
+    async def test_display_math_dl_after_p_cross_section_mw_heading(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Display-math-only <dl> after <p> keeps join and block-separates heading."""
+        html = (
+            "<section>"
+            "<p>and the complexity is thus</p>"
+            f"<dl><dd>{_block_math_span(r'{\displaystyle O(n^2)}')}.</dd></dl>"
+            "</section>"
+            "<section>"
+            '<div class="mw-heading mw-heading3">'
+            "<h3>Lehmer's GCD algorithm</h3>"
+            "</div>"
+            "</section>"
+        )
+        result = await _convert(converter, html)
+
+        assert (
+            "and the complexity is thus <p> &nbsp;&nbsp;&nbsp;&nbsp; $$O(n^2)\\,.$$"
+            in result
+        )
+        assert "$$O(n^2)\\,.$$ <p> ###" not in result
+        assert "\n\n### Lehmer's GCD algorithm" in result
+
+    @pytest.mark.anyio
+    async def test_display_math_dl_after_p_cross_section_plain_h3(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A plain <h3> in the next sibling section is also separated."""
+        html = (
+            "<section>"
+            "<p>and the complexity is thus</p>"
+            f"<dl><dd>{_block_math_span(r'{\displaystyle O(n^2)}')}.</dd></dl>"
+            "</section>"
+            "<section>"
+            "<h3>Lehmer's GCD algorithm</h3>"
+            "</section>"
+        )
+        result = await _convert(converter, html)
+
+        assert (
+            "and the complexity is thus <p> &nbsp;&nbsp;&nbsp;&nbsp; $$O(n^2)\\,.$$"
+            in result
+        )
+        assert "$$O(n^2)\\,.$$ <p> ###" not in result
+        assert "\n\n### Lehmer's GCD algorithm" in result
+
+    @pytest.mark.anyio
+    async def test_display_math_dl_after_p_cross_section_parsoid_math(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Parsoid-like <math> in <dd> keeps the join and section boundary."""
+        html = (
+            "<section>"
+            "<p>and the complexity is thus</p>"
+            "<dl><dd>"
+            '<math xmlns="http://www.w3.org/1998/Math/MathML" '
+            'class="mwe-math-element mwe-math-element-inline" '
+            'alttext="{\\displaystyle O(n^2)}" display="block" '
+            'data-mw=\'{"name":"math","attrs":{},"body":{"extsrc":"O(n^2)"}}\' '
+            'typeof="mw:Extension/math">'
+            "<semantics>"
+            '<annotation encoding="application/x-tex">O(n^2)</annotation>'
+            "</semantics>"
+            "</math>."
+            "</dd></dl>"
+            "</section>"
+            "<section>"
+            '<div class="mw-heading mw-heading3">'
+            "<h3>Lehmer's GCD algorithm</h3>"
+            "</div>"
+            "</section>"
+        )
+        result = await _convert(converter, html)
+
+        assert (
+            "and the complexity is thus <p> &nbsp;&nbsp;&nbsp;&nbsp; $$O(n^2)\\,.$$"
+            in result
+        )
+        assert "$$O(n^2)\\,.$$ <p> ###" not in result
+        assert "\n\n### Lehmer's GCD algorithm" in result
+
 
 # ---------------------------------------------------------------------------
 
