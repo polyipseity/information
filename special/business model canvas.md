@@ -63,7 +63,7 @@ C$: [cost structure](#cost%20structure)
 - CS: [customer segments](#customer%20segments)→::@::←VP: [value propositions](#value%20propositions) <!--SR:!2029-07-24,1433,314!2028-06-04,1008,297-->
 - VP: [value propositions](#value%20propositions)→::@::←CH: [channels](#channels) <!--SR:!2027-06-26,588,274!2027-08-16,813,297-->
 - CH: [channels](#channels)→::@::←CR: [customer relationships](#customer%20relationships) <!--SR:!2027-04-30,834,334!2027-05-13,808,334-->
-- CR: [customer relationships](#customer%20relationships)→::@::←R$: [revenue streams](#revenue%20streams) <!--SR:!2026-12-04,394,214!2027-10-17,846,292-->
+- CR: [customer relationships](#customer%20relationships)→::@::←R$: [revenue streams](#revenue%20streams) <!--SR:!fsrs,2029-09-04T00:00:00.000Z,1005,1004.70936344,5.78264516,2,10,0,0,2026-12-04T00:00:00.000Z!2027-10-17,846,292-->
 - R$: [revenue streams](#revenue%20streams)→::@::←KR: [key resources](#key%20resources) <!--SR:!2028-08-17,1093,277!2028-01-07,928,277-->
 - KR: [key resources](#key%20resources)→::@::←KA: [key activities](#key%20activities) <!--SR:!2028-02-22,860,257!fsrs,2032-02-18T00:00:00.000Z,1933,1933.49980175,2.78080001,2,10,0,0,2026-11-03T00:00:00.000Z-->
 - KA: [key activities](#key%20activities)→::@::←KP: [key partnerships](#key%20partnerships) <!--SR:!2031-08-15,1942,297!2029-07-10,1176,254-->

@@ -309,7 +309,7 @@ return chain.from_iterable([r.value for r in results])
 - [copper](copper.md):@:heat or physical extraction <!--SR:!2033-09-09,2846,330-->
 - [tungsten](tungsten.md):@:heat or physical extraction <!--SR:!2028-05-06,1446,350-->
 - [mercury](<mercury%20(element).md>):@:heat or physical extraction <!--SR:!2035-09-14,3481,350-->
-- [silver](silver.md):@:heat or physical extraction <!--SR:!2026-12-04,963,330-->
+- [silver](silver.md):@:heat or physical extraction <!--SR:!fsrs,2036-10-07T00:00:00.000Z,3595,3594.53136312,1,2,11,0,0,2026-12-04T00:00:00.000Z-->
 - [gold](gold.md):@:heat or physical extraction <!--SR:!2027-04-23,1150,350-->
 - [platinum](platinum.md):@:heat or physical extraction <!--SR:!2027-05-14,1079,330-->
 

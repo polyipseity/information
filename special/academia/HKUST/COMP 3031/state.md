@@ -54,7 +54,7 @@ tags:
 > // → 9
 > ```
 >
-> {@{The sequence}@} ends with {@{the same result regardless of the order}@} in which {@{sub‑expressions are reduced}@}. <!--SR:!fsrs,2029-11-14T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2029-12-14T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-29T00:00:00.000Z!2026-12-20,263,330!fsrs,2029-10-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-12-04,255,330-->
+> {@{The sequence}@} ends with {@{the same result regardless of the order}@} in which {@{sub‑expressions are reduced}@}. <!--SR:!fsrs,2029-11-14T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2029-12-14T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-29T00:00:00.000Z!2026-12-20,263,330!fsrs,2029-10-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-12T00:00:00.000Z!fsrs,2030-01-03T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-12-04T00:00:00.000Z-->
 
 ## statefulness
 
@@ -140,7 +140,7 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 > // S':  x.deposit(30); x.withdraw(20)
 > ```
 >
-> If we define {@{`val y = x`}@}, {@{no test can distinguish them}@}; they are {@{operationally the same}@}. <!--SR:!2026-12-04,255,330!fsrs,2029-09-29T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-11T00:00:00.000Z!2026-12-19,262,330!2027-01-03,274,330!2026-12-16,259,330!fsrs,2029-12-14T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-29T00:00:00.000Z-->
+> If we define {@{`val y = x`}@}, {@{no test can distinguish them}@}; they are {@{operationally the same}@}. <!--SR:!fsrs,2030-01-03T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-12-04T00:00:00.000Z!fsrs,2029-09-29T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-11T00:00:00.000Z!2026-12-19,262,330!2027-01-03,274,330!2026-12-16,259,330!fsrs,2029-12-14T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-29T00:00:00.000Z-->
 
 {@{The λ‑calculus substitution model}@} replaces {@{a variable by its defining expression}@}. It works for {@{immutable values but fails when mutable state is involved}@}, because replacing {@{a reference with another object changes behaviour}@}. <!--SR:!fsrs,2029-10-05T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-13T00:00:00.000Z!fsrs,2029-10-05T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-13T00:00:00.000Z!fsrs,2029-10-19T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-16T00:00:00.000Z!fsrs,2029-10-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-12T00:00:00.000Z-->
 

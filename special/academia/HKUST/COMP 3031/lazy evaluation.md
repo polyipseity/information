@@ -40,7 +40,7 @@ In Scala {@{a _lazy list_}@} ({@{`scala.collection.immutable.LazyList`}@}, forme
 
 ### lazy list construction
 
-{@{Lazy lists}@} can be {@{built explicitly}@} using {@{`LazyList.cons`}@}, in which {@{both parameters are by-name \(lazy\)}@}: <!--SR:!2026-12-30,325,345!2027-01-19,341,345!2026-12-04,304,345!2026-12-29,325,345-->
+{@{Lazy lists}@} can be {@{built explicitly}@} using {@{`LazyList.cons`}@}, in which {@{both parameters are by-name \(lazy\)}@}: <!--SR:!2026-12-30,325,345!2027-01-19,341,345!fsrs,2030-09-13T00:00:00.000Z,1379,1378.99689662,1,2,9,0,0,2026-12-04T00:00:00.000Z!2026-12-29,325,345-->
 
 > [!example] __`LazyList.cons`__
 >

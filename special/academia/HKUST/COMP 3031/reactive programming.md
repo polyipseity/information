@@ -215,7 +215,7 @@ FRP describes programs that react {@{to sequences of events or signals}@}. {@{A 
 >
 > Notice that {@{`T` in `Signal`}@} is {@{covariant while `T` in `Signal.Var` is invariant}@}, due to {@{their different mutability}@}. <!--SR:!2027-01-06,276,330!2027-02-07,286,330!2027-02-14,293,330!2027-01-09,278,330!2027-02-11,290,330!2027-01-09,277,330!2026-12-09,255,330!2026-12-11,255,330!2026-12-15,258,330!2027-01-16,284,330!2026-12-05,250,330!2026-12-15,256,330-->
 
-{@{`Signal`}@} constructs {@{a signal from an expression}@}. {@{A `Signal.Var`}@} keeps {@{the current expression and can be updated to a new one}@}. <!--SR:!2027-01-16,284,330!2027-02-08,287,330!2027-02-15,294,330!2026-12-04,249,330-->
+{@{`Signal`}@} constructs {@{a signal from an expression}@}. {@{A `Signal.Var`}@} keeps {@{the current expression and can be updated to a new one}@}. <!--SR:!2027-01-16,284,330!2027-02-08,287,330!2027-02-15,294,330!fsrs,2029-12-11T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-12-04T00:00:00.000Z-->
 
 > [!example] __creating signals__
 >
@@ -232,7 +232,7 @@ FRP describes programs that react {@{to sequences of events or signals}@}. {@{A 
 
 #### dependency tracking
 
-When {@{a signal is read}@}, it registers {@{the calling signal as an observer}@}, which is represented by {@{an opaque type `Signal.Observer`}@}. If {@{its value changes}@}, the observer set is {@{copied and cleared first}@} so that {@{new dependencies (caused by re-evaluation) can be recorded}@}, and then {@{all observers in the copy are re-evaluated}@}. <!--SR:!2027-02-08,287,330!2026-12-27,268,330!2027-02-14,293,330!2026-12-28,268,330!2027-02-09,288,330!2027-01-12,281,330!2026-12-04,250,330-->
+When {@{a signal is read}@}, it registers {@{the calling signal as an observer}@}, which is represented by {@{an opaque type `Signal.Observer`}@}. If {@{its value changes}@}, the observer set is {@{copied and cleared first}@} so that {@{new dependencies (caused by re-evaluation) can be recorded}@}, and then {@{all observers in the copy are re-evaluated}@}. <!--SR:!2027-02-08,287,330!2026-12-27,268,330!2027-02-14,293,330!2026-12-28,268,330!2027-02-09,288,330!2027-01-12,281,330!fsrs,2029-12-15T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-12-04T00:00:00.000Z-->
 
 > [!example] __reevaluation logic__
 >

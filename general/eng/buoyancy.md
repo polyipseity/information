@@ -17,7 +17,7 @@ tags:
 
 > __Archimedes' principle__
 >
-> {@{Buoyancy equals the [weight](weight.md) of displaced [fluid](fluid.md). For a floating object, the [weight](weight.md) of displaced [fluid](fluid.md) is the [weight](weight.md) of the object. For a sunken object, the [volume](volume.md) of displaced [fluid](fluid.md) is the [volume](volume.md) of the object.}@} <!--SR:!2026-12-04,823,330-->
+> {@{Buoyancy equals the [weight](weight.md) of displaced [fluid](fluid.md). For a floating object, the [weight](weight.md) of displaced [fluid](fluid.md) is the [weight](weight.md) of the object. For a sunken object, the [volume](volume.md) of displaced [fluid](fluid.md) is the [volume](volume.md) of the object.}@} <!--SR:!fsrs,2035-07-02T00:00:00.000Z,3132,3131.89077764,1,2,11,0,0,2026-12-04T00:00:00.000Z-->
 
 ## references
 

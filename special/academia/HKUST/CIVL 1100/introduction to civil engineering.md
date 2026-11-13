@@ -80,7 +80,7 @@ The content is in teaching order.
         - noise engineering ::@:: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2030-08-02,1750,347!2030-01-07,1661,390-->
         - environmental impact assessment (EIA) ::@:: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2028-12-20,1106,250!2026-12-14,739,352-->
             - [environmental impact components](#environmental%20impact%20components)
-            - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!2026-12-04,652,314!2027-06-17,826,352-->
+            - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!fsrs,2033-07-20T00:00:00.000Z,2420,2419.7058505,1,2,10,0,0,2026-12-04T00:00:00.000Z!2027-06-17,826,352-->
 - transportation engineering ::@:: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2028-07-08,1139,332!fsrs,2033-12-21T00:00:00.000Z,2607,2606.7496109,1,2,10,0,0,2026-11-01T00:00:00.000Z-->
     - transportation engineering structures ::@:: planning, design, construction, operation, and maintenance of transportational infrastructures <!--SR:!fsrs,2032-09-17T00:00:00.000Z,2159,2158.74354679,1.48000044,2,10,0,0,2026-10-20T00:00:00.000Z!2032-03-31,2363,421-->
         - [transportation engineering structure examples](#transportation%20engineering%20structure%20examples)
@@ -460,7 +460,7 @@ testing materials
 - planning→::@::←procuring materials <!--SR:!2027-04-19,815,337!2026-12-10,675,297-->
 - procuring materials→::@::←quality assurance <!--SR:!fsrs,2031-09-22T00:00:00.000Z,1906,1906.17552838,1.48000044,2,10,0,0,2026-07-04T00:00:00.000Z!2027-07-08,836,301-->
 - quality assurance→::@::←quality control <!--SR:!fsrs,2035-09-20T00:00:00.000Z,3234,3233.87317646,1,2,11,0,0,2026-11-12T00:00:00.000Z!2027-06-11,879,372-->
-- quality control→::@::←safety engineering <!--SR:!fsrs,2030-07-22T00:00:00.000Z,1398,1398.47416317,3.57914087,2,10,0,0,2026-09-23T00:00:00.000Z!2026-12-04,557,255-->
+- quality control→::@::←safety engineering <!--SR:!fsrs,2030-07-22T00:00:00.000Z,1398,1398.47416317,3.57914087,2,10,0,0,2026-09-23T00:00:00.000Z!fsrs,2031-07-04T00:00:00.000Z,1673,1673.31599334,3.7313843,2,10,0,0,2026-12-04T00:00:00.000Z-->
 - safety engineering→::@::←scheduling <!--SR:!2028-07-27,1158,340!2031-02-03,1909,360-->
 - scheduling→::@::←surveying building site <!--SR:!2031-06-29,1851,281!2031-11-09,2103,340-->
 - surveying building site→::@::←testing materials <!--SR:!2027-05-31,687,260!2027-07-25,790,292-->

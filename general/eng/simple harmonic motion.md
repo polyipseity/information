@@ -31,7 +31,7 @@ For better physical meaning, it can be rewritten as:
 > where
 >
 > - [function](function%20(mathematics).md) properties: {@{$x$ is the [displacement](displacement%20(geometry).md) from equilibrium and $t$ is the [time](time.md)}@}
-> - [oscillator](oscillation.md) properties: {@{$\omega = \sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md), $k$ is the [spring constant](Hooke's%20law.md), and $m$ is the [mass](mass.md)}@} <!--SR:!2034-03-06,2834,349!2026-12-04,825,349!2031-03-01,2100,389-->
+> - [oscillator](oscillation.md) properties: {@{$\omega = \sqrt{\frac{k}m}$ is the [angular frequency](angular%20frequency.md), $k$ is the [spring constant](Hooke's%20law.md), and $m$ is the [mass](mass.md)}@} <!--SR:!2034-03-06,2834,349!fsrs,2036-01-18T00:00:00.000Z,3332,3332.49201882,1,2,11,0,0,2026-12-04T00:00:00.000Z!2031-03-01,2100,389-->
 
 Solving the [ordinary differential equation](ordinary%20differential%20equation.md):
 

@@ -33,7 +33,7 @@ We want to write {@{code that is _modular_}@} by {@{abstracting over the "contex
 
 ### higher-order functions
 
-When {@{a method}@} needs to {@{operate over arbitrary types}@} – for example, {@{a generic `sort`}@} – {@{the natural solution}@} is to {@{type parameterise it}@}: <!--SR:!2027-01-23,344,349!2027-01-28,349,349!fsrs,2030-08-22T00:00:00.000Z,1365,1364.83793445,1,2,9,0,0,2026-11-26T00:00:00.000Z!2026-12-07,307,349!2026-12-04,304,349-->
+When {@{a method}@} needs to {@{operate over arbitrary types}@} – for example, {@{a generic `sort`}@} – {@{the natural solution}@} is to {@{type parameterise it}@}: <!--SR:!2027-01-23,344,349!2027-01-28,349,349!fsrs,2030-08-22T00:00:00.000Z,1365,1364.83793445,1,2,9,0,0,2026-11-26T00:00:00.000Z!2026-12-07,307,349!fsrs,2030-10-01T00:00:00.000Z,1397,1396.7899487,1,2,9,0,0,2026-12-04T00:00:00.000Z-->
 
 > [!example] __parameterized sort__
 >
@@ -192,7 +192,7 @@ Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` c
 
 ### context bound
 
-{@{A shorthand}@} for declaring {@{an implicit parameter}@} is {@{the _context bound_}@}, which {@{expands to a `using` clause under the hood}@}: <!--SR:!2027-01-01,328,349!2026-12-04,304,349!2026-12-08,308,349!fsrs,2030-09-01T00:00:00.000Z,1373,1372.8358637,1,2,9,0,0,2026-11-28T00:00:00.000Z-->
+{@{A shorthand}@} for declaring {@{an implicit parameter}@} is {@{the _context bound_}@}, which {@{expands to a `using` clause under the hood}@}: <!--SR:!2027-01-01,328,349!fsrs,2030-10-01T00:00:00.000Z,1397,1396.7899487,1,2,9,0,0,2026-12-04T00:00:00.000Z!2026-12-08,308,349!fsrs,2030-09-01T00:00:00.000Z,1373,1372.8358637,1,2,9,0,0,2026-11-28T00:00:00.000Z-->
 
 > [!example] __context bound__
 >
@@ -264,7 +264,7 @@ To refer to {@{an instance directly without using `using`}@}, you may {@{use `su
 > ```
 <!--SR:!2027-01-26,347,349!fsrs,2030-06-04T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-07T00:00:00.000Z-->
 
-{@{`summon`}@} simply uses {@{`using` in its implementation}@}; it is {@{defined as}@}: <!--SR:!2027-01-30,351,349!2026-12-04,304,349!2027-01-27,348,349-->
+{@{`summon`}@} simply uses {@{`using` in its implementation}@}; it is {@{defined as}@}: <!--SR:!2027-01-30,351,349!fsrs,2030-10-01T00:00:00.000Z,1397,1396.7899487,1,2,9,0,0,2026-12-04T00:00:00.000Z!2027-01-27,348,349-->
 
 > [!example] __`summon` implementation__
 >
@@ -344,7 +344,7 @@ For {@{another example}@} of {@{recursive `given` resolution}@}, {@{pairs}@} can
 
 When a method expects {@{an implicit of type `T` \(e.g. `Ordering[Int]` in the above example\)}@}, the compiler looks for {@{a _`given` instance_ that}@}: \(annotation: 2 items: {@{compatible, visible}@}\) <!--SR:!fsrs,2030-09-16T00:00:00.000Z,1385,1384.82036767,1,2,9,0,0,2026-12-01T00:00:00.000Z!2027-01-30,351,349!2027-01-01,328,349-->
 
-- compatible ::@:: Has a compatible type. <!--SR:!2026-12-04,304,349!fsrs,2030-06-08T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-11T00:00:00.000Z-->
+- compatible ::@:: Has a compatible type. <!--SR:!fsrs,2030-10-01T00:00:00.000Z,1397,1396.7899487,1,2,9,0,0,2026-12-04T00:00:00.000Z!fsrs,2030-06-08T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-11T00:00:00.000Z-->
 - visibility ::@:: Is visible in the current scope (lexical, imports, parameters) or defined in a companion object associated with `T`. <!--SR:!fsrs,2029-10-31T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-10-05T00:00:00.000Z!2027-01-26,347,349-->
 
 If {@{exactly one suitable instance exists}@} it is {@{used}@}; otherwise {@{compilation fails}@} due to {@{no instance found}@} or {@{ambiguity}@} if {@{there is more than one _most specific_ instance}@}. It will {@{search in \(in no particular order\)}@}: \(annotation: 3 items: {@{lexical scope, companion objects, enclosing objects}@}\) <!--SR:!fsrs,2029-10-22T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-10-03T00:00:00.000Z!2027-01-01,328,349!fsrs,2030-08-17T00:00:00.000Z,1361,1360.83635942,1,2,9,0,0,2026-11-25T00:00:00.000Z!2026-12-19,317,349!2027-01-21,342,349!2027-01-19,340,349!2027-01-02,329,349!2026-12-11,311,349-->
@@ -504,7 +504,7 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!fsrs,2029-10-2
 
 {@{The syntax in Rust}@} is {@{slightly different}@} but {@{the concept}@} remains {@{the same}@}—defining {@{a set of operations}@} that can be {@{implemented for many distinct types}@}. <!--SR:!2027-01-02,329,349!fsrs,2028-07-18T00:00:00.000Z,670,669.69339296,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-12-09,309,349!2027-01-25,346,349!2026-12-31,327,349-->
 
-{@{Other functional and dependently-typed languages}@} are moving {@{toward a similar approach}@}.  {@{Agda, Lean, and soon OCaml}@} provide {@{general _contextual parameters_ or equivalent mechanisms}@} that allow {@{programmers to encode type-class-like behaviour}@} in a manner analogous to {@{Scala's `given` instances}@}.  {@{These systems}@} combine the expressiveness of {@{Haskell's type classes with Scala-style contextual resolution}@}, enabling {@{conditional polymorphism across a wide range of types}@}. <!--SR:!fsrs,2030-09-11T00:00:00.000Z,1381,1380.82721279,1,2,9,0,0,2026-11-30T00:00:00.000Z!2027-01-31,352,349!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2028-09-25T00:00:00.000Z,720,720.2031195,2.49272837,2,9,0,0,2026-10-06T00:00:00.000Z!2027-01-27,348,349!2027-01-29,350,349!fsrs,2030-06-09T00:00:00.000Z,1309,1308.66035919,1,2,9,0,0,2026-11-08T00:00:00.000Z!2027-01-30,351,349!2026-12-04,305,349-->
+{@{Other functional and dependently-typed languages}@} are moving {@{toward a similar approach}@}.  {@{Agda, Lean, and soon OCaml}@} provide {@{general _contextual parameters_ or equivalent mechanisms}@} that allow {@{programmers to encode type-class-like behaviour}@} in a manner analogous to {@{Scala's `given` instances}@}.  {@{These systems}@} combine the expressiveness of {@{Haskell's type classes with Scala-style contextual resolution}@}, enabling {@{conditional polymorphism across a wide range of types}@}. <!--SR:!fsrs,2030-09-11T00:00:00.000Z,1381,1380.82721279,1,2,9,0,0,2026-11-30T00:00:00.000Z!2027-01-31,352,349!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2028-09-25T00:00:00.000Z,720,720.2031195,2.49272837,2,9,0,0,2026-10-06T00:00:00.000Z!2027-01-27,348,349!2027-01-29,350,349!fsrs,2030-06-09T00:00:00.000Z,1309,1308.66035919,1,2,9,0,0,2026-11-08T00:00:00.000Z!2027-01-30,351,349!fsrs,2030-10-05T00:00:00.000Z,1401,1400.77653742,1,2,9,0,0,2026-12-04T00:00:00.000Z-->
 
 ## monoid example
 
