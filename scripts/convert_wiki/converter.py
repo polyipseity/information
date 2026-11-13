@@ -2050,7 +2050,6 @@ class WikiHtmlConverter:
             container.name == "dd"
             and isinstance(container.parent, Tag)
             and _is_display_math_only_dl(container.parent)
-            and _dl_follows_p(container.parent)
         ):
             return True
         return WikiHtmlConverter._contains_display_environment(alt_text)

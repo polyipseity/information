@@ -67,7 +67,7 @@ _OPERATOR_NAMES: frozenset[str] = frozenset(
     }
 )
 """Operator names with no dedicated macro, set upright via ``\\operatorname``."""
-_OPERATORNAME_NAMES: frozenset[str] = frozenset({"sinc", "sgn", "rect"})
+_OPERATORNAME_NAMES: frozenset[str] = frozenset({"lcm", "rect", "sgn", "sinc"})
 """LaTeX rendering of every name in ``_OPERATOR_NAMES`` and ``_OPERATORNAME_NAMES``."""
 _LATEX_OPERATORS: dict[str, str] = {
     **{name: "\\" + name for name in _OPERATOR_NAMES},
@@ -92,10 +92,16 @@ class LatexConverter:
     def texhtml_to_latex(cls, ele: PageElement) -> str:
         """Convert a texhtml HTML subtree to a LaTeX string."""
         if isinstance(ele, NavigableString):
-            text = str(ele).strip()
-            if not text:
+            raw = str(ele)
+            stripped = raw.strip()
+            if not stripped:
                 return ""
-            return cls._escape_latex_text(text)
+            text = cls._escape_latex_text(re.sub(r"\s+", " ", stripped))
+            if raw[:1].isspace():
+                text = f" {text}"
+            if raw[-1:].isspace():
+                text = f"{text} "
+            return text
         if not isinstance(ele, Tag):
             return ""
         tag = ele.name
@@ -368,6 +374,7 @@ class LatexConverter:
             text = text.replace(char, latex)
         for char, latex in _MATH_LETTER_COMMANDS.items():
             text = text.replace(char, latex)
+        text = text.replace("\u22c5", "\\cdot")
         return text
 
     @staticmethod

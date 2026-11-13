@@ -351,15 +351,14 @@ class TestMathHandling:
     async def test_dd_sole_math_in_dl_is_isolated_row(
         self, converter: WikiHtmlConverter
     ) -> None:
-        """Sole ``<dd>`` math inside ``<dl>`` should render as its own row."""
+        """Sole block-math ``<dd>`` in ``<dl>`` joins as a display-formula row."""
         html = (
             "<p>by</p>"
             f"<dl><dd>{_block_math_span(r'{\displaystyle f(x)}')}</dd></dl>"
             "<p>for</p>"
         )
         result = await _convert(converter, html)
-        assert "\n\n$$f(x)$$\n" in result
-        assert "$$f(x)$$\n\n\nfor" in result
+        assert "\nby <p> &nbsp;&nbsp;&nbsp;&nbsp; $$f(x)$$ <p> for\n\n" in result
 
     @pytest.mark.anyio
     async def test_dt_sole_math_in_dl_is_isolated_row(
@@ -583,6 +582,46 @@ class TestMathHandling:
         )
         assert "$$O(n^2)\\,.$$ <p> ###" not in result
         assert "\n\n### Lehmer's GCD algorithm" in result
+
+    @pytest.mark.anyio
+    async def test_display_formula_texhtml_dl_inside_list_item_separated(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Texhtml display-formula <dl><dd> in a list item renders as block $$."""
+        html = (
+            "<ul><li>"
+            ': we have <dl><dd><span class="texhtml">'
+            "gcd(<i>a</i>, <i>b</i>)⋅lcm(<i>a</i>, <i>b</i>) = "
+            '<span typeof="mw:Entity">|</span>'
+            '<span class="nowrap"><i>a</i>⋅<i>b</i></span>'
+            '<span typeof="mw:Entity">|</span>'
+            "</span>.</dd></dl>"
+            "</li></ul>"
+        )
+        result = await _convert(converter, html)
+
+        assert "havegcd" not in result
+        assert "have\\gcd" not in result
+        assert ": we have <p> &nbsp;&nbsp;&nbsp;&nbsp;$$" in result
+        assert "\\gcd(a, b)\\cdot\\operatorname{lcm}(a, b) = |a\\cdotb|\\,.$$" in result
+
+    @pytest.mark.anyio
+    async def test_display_formula_texhtml_dl_after_p_separated(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Texhtml display-formula <dl><dd> after a paragraph joins as display math."""
+        html = (
+            "<p>we have</p>"
+            '<dl><dd><span class="texhtml">gcd(<i>a</i>, <i>b</i>)⋅lcm(<i>a</i>, <i>b</i>) = '
+            '<span typeof="mw:Entity">|</span>'
+            '<span class="nowrap"><i>a</i>⋅<i>b</i></span>'
+            '<span typeof="mw:Entity">|</span></span>.</dd></dl>'
+        )
+        result = await _convert(converter, html)
+
+        assert "havegcd" not in result
+        assert "we have <p> &nbsp;&nbsp;&nbsp;&nbsp; $$" in result
+        assert "\\gcd(a, b)\\cdot\\operatorname{lcm}(a, b) = |a\\cdotb|\\,.$$" in result
 
 
 # ---------------------------------------------------------------------------

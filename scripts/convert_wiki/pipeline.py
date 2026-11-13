@@ -50,7 +50,13 @@ from .ast_utils import (
     _walk_tokens,
 )
 from .converter import WikiHtmlConverter
-from .inline_context import _is_display_math_only_dl
+from .inline_context import (
+    _dd_display_formula_element,
+    _is_display_formula_dl,
+    _is_display_math_only_dl,
+    _is_texhtml_formula_element,
+    _significant_children,
+)
 from .latex import LatexConverter
 from .table import _EQUATION_BOX_BODY_BLOCK_TAGS, _reformat_table
 from .template_config import _DISPLAY_MATH_CONTAINERS
@@ -1010,6 +1016,60 @@ def _is_title_box_table(table: Tag) -> bool:
     return _normalized_text(title_cell) == _normalized_text(bold[0])
 
 
+def _block_math_wrapper(latex: str, factory: BeautifulSoup) -> Tag:
+    """Build a block ``mwe-math-element`` wrapper for promoted formulas."""
+    outer = factory.new_tag(
+        "span",
+        attrs={"class": "mwe-math-element mwe-math-element-block"},
+    )
+    inner = factory.new_tag(
+        "span",
+        attrs={"class": "mwe-math-mathml-display mwe-math-mathml-a11y"},
+    )
+    math = factory.new_tag("math", attrs={"display": "block", "alttext": latex})
+    semantics = factory.new_tag("semantics")
+    semantics.append(factory.new_tag("mrow"))
+    math.append(semantics)
+    img = factory.new_tag(
+        "img",
+        attrs={"class": "mwe-math-fallback-image-display mw-invert skin-invert"},
+    )
+    inner.append(math)
+    inner.append(img)
+    outer.append(inner)
+    return outer
+
+
+def _promote_display_formula_texhtml_dls(soup: BeautifulSoup | Tag) -> None:
+    """Promote sole texhtml formulas in display-formula ``<dl>`` rows to block math.
+
+    Converts qualifying ``span.texhtml`` formula elements to block
+    ``mwe-math-element`` wrappers so existing display-math normalization,
+    punctuation absorption, and rendering logic apply.
+    """
+    factory: BeautifulSoup | None = soup if isinstance(soup, BeautifulSoup) else None
+    if factory is None and isinstance(soup, Tag):
+        for parent in soup.parents:
+            if isinstance(parent, BeautifulSoup):
+                factory = parent
+                break
+    if factory is None:
+        factory = BeautifulSoup("", "html.parser")
+    for dl in soup.find_all("dl"):
+        if not isinstance(dl, Tag) or not _is_display_formula_dl(dl):
+            continue
+        for row in _significant_children(dl):
+            if not isinstance(row, Tag) or row.name != "dd":
+                continue
+            formula = _dd_display_formula_element(row)
+            if formula is None or not _is_texhtml_formula_element(formula):
+                continue
+            latex = LatexConverter.texhtml_to_latex(formula)
+            if not latex:
+                continue
+            formula.replace_with(_block_math_wrapper(latex, factory))
+
+
 def _append_box_cell_content(quote: Tag, cell: Tag, soup: BeautifulSoup | Tag) -> None:
     """Append *cell*'s content to *quote*, wrapping inline runs in <p> tags."""
     pending: list[PageElement] = []
@@ -1099,7 +1159,11 @@ def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
     for dd in soup.find_all(["dd", "dt", "p", "li"]):
         _merge_adjacent_math_dd(dd)
 
-    # 7. Normalize external math punctuation: absorb trailing
+    # 7. Promote sole texhtml formulas in display-formula <dl> rows to
+    #    block math so punctuation absorption and display rendering apply.
+    _promote_display_formula_texhtml_dls(soup)
+
+    # 8. Normalize external math punctuation: absorb trailing
     #    punctuation from sibling text into math alttext.
     for container in soup.find_all(list(_DISPLAY_MATH_CONTAINERS | {"p", "dd"})):
         WikiHtmlConverter._normalize_external_math_punctuation(container)
