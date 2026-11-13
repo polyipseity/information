@@ -53,7 +53,6 @@ from .converter import WikiHtmlConverter
 from .inline_context import (
     _dd_display_formula_element,
     _is_display_formula_dl,
-    _is_display_math_only_dl,
     _is_texhtml_formula_element,
     _significant_children,
 )
@@ -899,7 +898,7 @@ def _merge_dl_after_thumb_into_list(soup: BeautifulSoup | Tag) -> None:
 
     for dl in list(soup.find_all("dl")):
         # Skip display-math-only <dl> — different semantics.
-        if _is_display_math_only_dl(dl):
+        if _is_display_formula_dl(dl):
             continue
 
         # Check if previous sibling is a thumbnail.

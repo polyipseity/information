@@ -15,7 +15,7 @@ from scripts.convert_wiki import config as _cfg
 from scripts.convert_wiki.converter import WikiHtmlConverter, _discards_subtree
 from scripts.convert_wiki.inline_context import (
     _in_inline_context,
-    _is_display_math_only_dl,
+    _is_display_formula_dl,
 )
 from scripts.convert_wiki.latex import LatexConverter
 from scripts.convert_wiki.markdown_rewrite import _rewrite_link_target
@@ -3298,39 +3298,39 @@ class TestStaticUtilities:
         assert span is not None
         assert not _in_inline_context(span)
 
-    def test_is_display_math_only_dl_multiple_rows(self) -> None:
-        """A multi-row display-math ``<dl>`` is display-math-only."""
+    def test_is_display_formula_dl_multiple_rows(self) -> None:
+        """A ``<dl>`` with multiple ``<dd>`` rows of math is a display block."""
         soup = BeautifulSoup(
             "<dl>"
-            f"<dd>{_block_math_span(r'{\displaystyle f(x)}')}</dd>"
-            f"<dd>{_block_math_span(r'{\displaystyle g(x)}')}</dd>"
+            '<dd><span class="mwe-math-element">math1</span></dd>'
+            '<dd><span class="mwe-math-element">math2</span></dd>'
             "</dl>",
             "html.parser",
         )
         dl = soup.find("dl")
         assert dl is not None
-        assert _is_display_math_only_dl(dl)
+        assert _is_display_formula_dl(dl)
 
-    def test_is_display_math_only_dl_rejects_term_row(self) -> None:
-        """A ``<dt>`` row means the ``<dl>`` is not display-math-only."""
+    def test_is_display_formula_dl_rejects_term_row(self) -> None:
+        """A ``<dl>`` containing a ``<dt>`` term row is not a display block."""
         soup = BeautifulSoup(
-            f"<dl><dt>term</dt><dd>{_block_math_span(r'{\displaystyle a}')}</dd></dl>",
+            '<dl><dt>term</dt><dd><span class="mwe-math-element">math</span></dd></dl>',
             "html.parser",
         )
         dl = soup.find("dl")
         assert dl is not None
-        assert not _is_display_math_only_dl(dl)
+        assert not _is_display_formula_dl(dl)
 
-    def test_is_display_math_only_dl_rejects_prose_first_row(self) -> None:
-        """A prose-first row is not display math, even with math rows after."""
+    def test_is_display_formula_dl_rejects_prose_first_row(self) -> None:
+        """A ``<dl>`` whose first row is prose is not a display block."""
         soup = BeautifulSoup(
-            f"<dl><dd>therefore {_inline_math_span(r'{\displaystyle f(x)}')}.</dd>"
-            f"<dd>{_block_math_span(r'{\displaystyle F(x)}')}</dd></dl>",
+            "<dl><dd>where P is the probability</dd>"
+            '<dd><span class="mwe-math-element">math</span></dd></dl>',
             "html.parser",
         )
         dl = soup.find("dl")
         assert dl is not None
-        assert not _is_display_math_only_dl(dl)
+        assert not _is_display_formula_dl(dl)
 
     def test_in_navbox(self, converter: WikiHtmlConverter) -> None:
         """Element inside a navbox table should be detected."""

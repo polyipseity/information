@@ -151,18 +151,6 @@ def _is_display_formula_dl(ele: Tag) -> bool:
     return len(dd_children) >= 2
 
 
-def _is_display_math_only_dl(ele: Tag) -> bool:
-    """Return True if *ele* is a <dl> whose content is display math.
-
-    Matches a <dl> whose children are all <dd> rows and whose first row
-    starts with display math (block or inline).  Multi-row <dl>s are
-    equation blocks whose rows are joined on one line.  A single-row
-    <dl> must additionally carry trailing text (e.g. "for events
-    satisfying ...") or be a merged multi-part math span.
-    """
-    return _is_display_formula_dl(ele)
-
-
 def _dl_follows_p(ele: Tag) -> bool:
     """Return True if *ele* is a <dl> whose previous sibling is a <p>."""
     prev = ele.find_previous_sibling()

@@ -55,8 +55,8 @@ from . import config as _cfg
 from .inline_context import (
     _dl_follows_p,
     _in_inline_context,
+    _is_display_formula_dl,
     _is_display_math_only,
-    _is_display_math_only_dl,
 )
 from .latex import LatexConverter
 from .table import (
@@ -669,7 +669,7 @@ class WikiHtmlConverter:
             nxt = self._effective_sibling_skipping(
                 ele, following=True, skip_whitespace=True, refs=refs
             )
-            if isinstance(nxt, Tag) and _is_display_math_only_dl(nxt):
+            if isinstance(nxt, Tag) and _is_display_formula_dl(nxt):
                 strings = strings.rstrip("\n")
                 config.suffix = ""
         if config.full_result:
@@ -1758,7 +1758,7 @@ class WikiHtmlConverter:
     def _next_is_display_math_dl(ele: Tag) -> bool:
         """Return True if *ele*'s next content sibling is a display-math-only <dl>."""
         nxt = WikiHtmlConverter._content_sibling(ele, following=True)
-        return nxt is not None and _is_display_math_only_dl(nxt)
+        return nxt is not None and _is_display_formula_dl(nxt)
 
     def _handle_block_level(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Handle block-level elements with spacing suffix."""
@@ -1908,7 +1908,7 @@ class WikiHtmlConverter:
             # separated from that content (e.g. flattened leaf items render
             # "text. <p> continuation").  Display-math-only <dl> keeps its
             # indented block-math prefix.
-            if _is_display_math_only_dl(ele):
+            if _is_display_formula_dl(ele):
                 prefix = f" <p> {_MATH_DL_INDENT}"
             else:
                 sib = ele.previous_sibling
@@ -1937,7 +1937,7 @@ class WikiHtmlConverter:
                 # A display-formula continuation after a list stays with the
                 # last list item, so keep the indented block-math formatting
                 # used for display formulas inside list items.
-                if _is_display_math_only_dl(ele):
+                if _is_display_formula_dl(ele):
                     nxt = ele.next_sibling
                     if (
                         isinstance(nxt, NavigableString)
@@ -1949,7 +1949,7 @@ class WikiHtmlConverter:
                     prefix = f" <p> {_MATH_DL_INDENT}"
             # When a display-math-only <dl> follows a <p>, join inline
             # with <p> separator instead of creating a block break.
-            elif _is_display_math_only_dl(ele):
+            elif _is_display_formula_dl(ele):
                 prev = self._content_sibling(ele, following=False)
                 if prev is not None and prev.name == "p":
                     prefix = f" <p> {_MATH_DL_INDENT} "
@@ -2007,7 +2007,7 @@ class WikiHtmlConverter:
             prev = self._content_sibling(ele, following=False)
             if (
                 prev is not None
-                and _is_display_math_only_dl(prev)
+                and _is_display_formula_dl(prev)
                 and _dl_follows_p(prev)
             ):
                 if not self._logical_next_starts_with_heading(prev):
@@ -2102,7 +2102,7 @@ class WikiHtmlConverter:
         if (
             container.name == "dd"
             and isinstance(container.parent, Tag)
-            and _is_display_math_only_dl(container.parent)
+            and _is_display_formula_dl(container.parent)
         ):
             return True
         return WikiHtmlConverter._contains_display_environment(alt_text)
