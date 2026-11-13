@@ -1031,7 +1031,11 @@ def _block_math_wrapper(latex: str, factory: BeautifulSoup) -> Tag:
     math.append(semantics)
     img = factory.new_tag(
         "img",
-        attrs={"class": "mwe-math-fallback-image-display mw-invert skin-invert"},
+        attrs={
+            "alt": latex,
+            "aria-hidden": "true",
+            "class": "mwe-math-fallback-image-display mw-invert skin-invert",
+        },
     )
     inner.append(math)
     inner.append(img)

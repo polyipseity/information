@@ -1902,3 +1902,23 @@ class TestRunPipeline:
             "| ----- | --------------- |\n"
             "| short | verylongcontent |\n"
         )
+
+
+def test_promote_display_formula_texhtml_dl_adds_fallback_image_parity_attrs() -> None:
+    """Promoted texhtml display-formula dl emits parity fallback image attrs."""
+    soup = BeautifulSoup(
+        '<dl><dd><span class="texhtml">gcd(<i>a</i>, <i>b</i>)</span></dd></dl>',
+        "html.parser",
+    )
+
+    _preprocess_html(soup)
+
+    math = soup.select_one("span.mwe-math-element-block math")
+    img = soup.select_one(
+        "span.mwe-math-element-block img.mwe-math-fallback-image-display"
+    )
+    assert math is not None
+    assert img is not None
+    assert math.get("display") == "block"
+    assert img.get("aria-hidden") == "true"
+    assert img.get("alt") == math.get("alttext")
