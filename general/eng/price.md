@@ -39,7 +39,7 @@ When {@{a [raw material](raw%20material.md) or a similar economic good is for sa
 
 ## functions of prices
 
-According to {@{[Milton Friedman](Milton%20Friedman.md)}@}, price has {@{__five functions__ in a __free-enterprise exchange economy__}@} which is {@{characterized by private ownership of the means of production}@}:<sup>[\[3\]](#^ref-3)</sup> <!--SR:!2026-12-06,548,310!2029-06-10,1299,350!2027-10-17,801,330-->
+According to {@{[Milton Friedman](Milton%20Friedman.md)}@}, price has {@{__five functions__ in a __free-enterprise exchange economy__}@} which is {@{characterized by private ownership of the means of production}@}:<sup>[\[3\]](#^ref-3)</sup> <!--SR:!fsrs,2032-07-16T00:00:00.000Z,2049,2048.65394115,1,2,10,0,0,2026-12-06T00:00:00.000Z!2029-06-10,1299,350!2027-10-17,801,330-->
 
 - __Transmitting__ ::@:: information about changes in the relative importance of different end-products and factors of production. <!--SR:!2027-12-02,848,330!2028-02-10,888,330-->
 - __Providing__ an incentive for enterprise ::@:: \(a\) to produce those products valued most highly by the market, and \(b\) to use methods of production that economize relatively scarce factors of production. <!--SR:!2027-11-19,824,330!2027-08-28,774,330-->
@@ -101,7 +101,7 @@ __Pay What You Decide__ \(PWYD\): ::@:: a pricing system which allows the purcha
 
 __Producer Price Index__: ::@:: this index measures the average change in the selling price of domestic producers' products over time.<sup>[\[13\]](#^ref-13)</sup> <!--SR:!fsrs,2031-03-28T00:00:00.000Z,1720,1720.41553669,1,2,10,0,0,2026-07-12T00:00:00.000Z!2029-07-07,1320,350-->
 
-__Purchase Price__: ::@:: It refers to the amount paid by the purchaser for receiving a unit of goods or services at the time and place required by the purchaser and any deductible taxes will not be included. The purchase price also include any transport charge for purchase to pick up the goods to a specific location in the required time.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2026-12-06,261,230!2030-01-03,1367,310-->
+__Purchase Price__: ::@:: It refers to the amount paid by the purchaser for receiving a unit of goods or services at the time and place required by the purchaser and any deductible taxes will not be included. The purchase price also include any transport charge for purchase to pick up the goods to a specific location in the required time.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!fsrs,2029-01-01T00:00:00.000Z,757,757.38843395,4.98215312,2,9,0,0,2026-12-06T00:00:00.000Z!2030-01-03,1367,310-->
 
 __[Price optimization](price%20optimization.md)__ is ::@:: the use of mathematical techniques by a company to determine how customers will respond to different prices for its products and services through different channels. <!--SR:!2029-07-29,1337,350!2028-01-29,881,330-->
 

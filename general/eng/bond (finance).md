@@ -129,7 +129,7 @@ Historically, {@{coupons}@} were {@{physical attachments to the paper bond certi
 
 > {@{![Bond certificate for the state of [South Carolina](South%20Carolina.md) issued in 1873 under the state's Consolidation Act](../../archives/Wikimedia%20Commons/South%20Carolina%20consolidation%20bond.jpg)}@}
 >
-> {@{Bond certificate for the state of [South Carolina](South%20Carolina.md)}@} issued in {@{1873 under the state's Consolidation Act}@} <!--SR:!fsrs,2029-08-28T09:22:23.272Z,1172,1172.31880906,1,2,9,0,0,2026-06-13T09:22:23.272Z!2026-12-06,411,380!fsrs,2031-12-01T00:00:00.000Z,1839,1839.45505116,1,2,10,0,0,2026-11-18T00:00:00.000Z-->
+> {@{Bond certificate for the state of [South Carolina](South%20Carolina.md)}@} issued in {@{1873 under the state's Consolidation Act}@} <!--SR:!fsrs,2029-08-28T09:22:23.272Z,1172,1172.31880906,1,2,9,0,0,2026-06-13T09:22:23.272Z!fsrs,2032-03-24T00:00:00.000Z,1935,1935.20445991,1,2,10,0,0,2026-12-06T00:00:00.000Z!fsrs,2031-12-01T00:00:00.000Z,1839,1839.45505116,1,2,10,0,0,2026-11-18T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

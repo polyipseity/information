@@ -383,7 +383,7 @@ return await memorize_map(
 - [silver ethanoate](silver%20ethanoate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2029-05-10,1356,298-->
 - [silver iodide](silver%20iodide.md):@:<span style="color: red;">insoluble</span> <!--SR:!2028-09-27,1204,298-->
 - [silver nitrate](silver%20nitrate.md):@:<span style="color: green;">soluble</span> <!--SR:!fsrs,2033-07-22T00:00:00.000Z,2585,2584.78732129,1,2,10,0,0,2026-06-24T00:00:00.000Z-->
-- [silver sulfate](silver%20sulfate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!2026-12-06,322,170-->
+- [silver sulfate](silver%20sulfate.md):@:<span style="background-color: black; color: yellow;">slightly soluble</span> <!--SR:!fsrs,2028-08-30T00:00:00.000Z,633,633.07319175,7.98399827,2,9,0,0,2026-12-06T00:00:00.000Z-->
 - [sodium carbonate](sodium%20carbonate.md):@:<span style="color: green;">soluble</span> <!--SR:!2027-11-21,992,298-->
 - [sodium chloride](sodium%20chloride.md):@:<span style="color: green;">soluble</span> <!--SR:!fsrs,2032-04-29T00:00:00.000Z,2063,2062.60829406,2.19302837,2,11,0,0,2026-09-05T00:00:00.000Z-->
 - [sodium fluoride](sodium%20fluoride.md):@:<span style="color: green;">soluble</span> <!--SR:!2033-02-19,2579,338-->

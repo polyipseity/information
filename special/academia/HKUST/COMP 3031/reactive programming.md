@@ -197,7 +197,7 @@ FRP describes programs that react {@{to sequences of events or signals}@}. {@{A 
 
 ### signal implementation
 
-{@{The core of a Scala FRP library}@} is {@{the `Signal` abstraction and its mutable variant `Var`}@}. {@{A `Signal[T]`}@} represents {@{a value that can change over time}@}; {@{a `Var[T]`}@} extends {@{it with an `update` method}@} so callers can {@{re-define the underlying expression}@}. {@{The implementation hides details}@} inside {@{the companion object `frp.Signal`}@}. <!--SR:!2026-12-06,251,330!2027-02-10,289,330!2026-12-30,270,330!2026-12-21,262,330!2026-12-20,261,330!2027-01-11,280,330!2027-01-01,272,330!2026-12-11,255,330!fsrs,2029-12-04T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-12-01T00:00:00.000Z-->
+{@{The core of a Scala FRP library}@} is {@{the `Signal` abstraction and its mutable variant `Var`}@}. {@{A `Signal[T]`}@} represents {@{a value that can change over time}@}; {@{a `Var[T]`}@} extends {@{it with an `update` method}@} so callers can {@{re-define the underlying expression}@}. {@{The implementation hides details}@} inside {@{the companion object `frp.Signal`}@}. <!--SR:!fsrs,2029-12-21T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-12-06T00:00:00.000Z!2027-02-10,289,330!2026-12-30,270,330!2026-12-21,262,330!2026-12-20,261,330!2027-01-11,280,330!2027-01-01,272,330!2026-12-11,255,330!fsrs,2029-12-04T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-12-01T00:00:00.000Z-->
 
 > [!example] __FRP interface__
 >
@@ -255,7 +255,7 @@ When {@{a signal is read}@}, it registers {@{the calling signal as an observer}@
 >     }
 >     // ...
 > ```
-<!--SR:!2027-01-12,281,330!2027-01-10,279,330!2027-01-06,276,330!2026-12-11,255,330!2027-02-12,291,330!2026-12-06,251,330!2027-02-10,289,330-->
+<!--SR:!2027-01-12,281,330!2027-01-10,279,330!2027-01-06,276,330!2026-12-11,255,330!2027-02-12,291,330!fsrs,2029-12-21T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-12-06T00:00:00.000Z!2027-02-10,289,330-->
 
 To know {@{on whose behalf a signal expression is evaluated}@}, each signal must record {@{the _caller_ that triggered its computation}@}. {@{The straightforward approach}@} is to thread {@{an explicit `Signal.Observer` argument through every call}@}: replace {@{`expr: () => T` with `expr: Signal.Observer => T`}@}. During evaluation, `s()` {@{would be rewritten as `s(caller)`}@}, where `caller` {@{denotes the signal that requested the value}@}. This technique {@{works but introduces a lot of boilerplate and is easy to misuse}@}. Scala solves it by treating {@{the caller as an _implicit_ using argument}@}. With {@{`def expr: (using Signal.Observer) => T`}@} (not {@{valid Scala syntax}@}) the compiler {@{automatically supplies the current observer}@}, making signal definitions look like {@{ordinary code while still wiring up dependencies}@}. <!--SR:!2026-12-09,255,330!2027-01-06,276,330!2027-02-10,289,330!2026-12-22,263,330!2026-12-29,269,330!2027-01-13,281,330!2027-02-14,293,330!2027-01-17,285,330!2027-01-17,284,330!2026-12-09,255,330!2027-01-12,279,330!2027-02-09,288,330!2026-12-16,259,330-->
 
