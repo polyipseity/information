@@ -178,7 +178,7 @@ With {@{the Lagrangian approach}@}, {@{the equation for _r_}@} would include {@{
 
 1. {@{The coordinates}@} are {@{functions of time}@}, so {@{the Lagrangian}@} always has {@{implicit time-dependence via the coordinates}@}. If the Lagrangian {@{changes with time irrespective of the coordinates}@}, usually due to {@{some time-dependent potential}@}, then the Lagrangian is said to {@{have "explicit" time-dependence}@}. Similarly for {@{the Hamiltonian and Routhian functions}@}. <a id="^nb-1"></a>^nb-1
 2. For {@{two functions _u_ and _v_}@}, {@{the differential of the product}@} is {@{_d_\(_uv_\) = _udv_ + _vdu_}@}. <a id="^nb-2"></a>^nb-2
-3. {@{The potential energy}@} is actually {@{$$V=mg\ell (1-\cos \theta )\,,$$}@} <p> but since {@{the first term is constant}@}, it can be {@{ignored in the Lagrangian \(and Routhian\)}@} which only depend on {@{derivatives of coordinates and velocities}@}. {@{Subtracting this from the kinetic energy}@} means {@{a plus sign in the Lagrangian, not minus}@}. <a id="^nb-3"></a>^nb-3
+3. {@{The potential energy}@} is actually <p> {@{$$V=mg\ell (1-\cos \theta )\,,$$}@} <p> but since {@{the first term is constant}@}, it can be {@{ignored in the Lagrangian \(and Routhian\)}@} which only depend on {@{derivatives of coordinates and velocities}@}. {@{Subtracting this from the kinetic energy}@} means {@{a plus sign in the Lagrangian, not minus}@}. <a id="^nb-3"></a>^nb-3
 
 ## notes
 
