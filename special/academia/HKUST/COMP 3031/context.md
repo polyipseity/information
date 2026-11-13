@@ -42,7 +42,7 @@ When {@{a method}@} needs to {@{operate over arbitrary types}@} – for example,
 > ```Scala
 > def sort[T](xs: List[T]): List[T] = ???
 > ```
-<!--SR:!2027-01-18,339,349!2026-12-05,305,349!2027-01-02,329,349!fsrs,2030-08-17T00:00:00.000Z,1361,1360.83635942,1,2,9,0,0,2026-11-25T00:00:00.000Z!fsrs,2030-09-16T00:00:00.000Z,1385,1384.82036767,1,2,9,0,0,2026-12-01T00:00:00.000Z-->
+<!--SR:!2027-01-18,339,349!fsrs,2030-10-06T00:00:00.000Z,1401,1400.77653742,1,2,9,0,0,2026-12-05T00:00:00.000Z!2027-01-02,329,349!fsrs,2030-08-17T00:00:00.000Z,1361,1360.83635942,1,2,9,0,0,2026-11-25T00:00:00.000Z!fsrs,2030-09-16T00:00:00.000Z,1385,1384.82036767,1,2,9,0,0,2026-12-01T00:00:00.000Z-->
 
 However, {@{sorting}@} requires {@{an ordering relation `<`}@}, which {@{does not exist for all types}@}.  {@{The resolution}@} is to {@{_parameterise with an ordering_ rather than just a type}@}. <!--SR:!fsrs,2029-10-13T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-12-24,321,349!2026-12-27,324,349!2026-12-08,308,349!2027-01-02,329,349-->
 
@@ -89,7 +89,7 @@ Scala provides {@{the `scala.math.Ordering` trait}@} to {@{represent the sorting
 
 ## `using`
 
-To {@{reduce boilerplate}@} {@{the `ord` argument}@} can be declared {@{_implicit_ via a `using` clause}@}: <!--SR:!2026-12-05,305,349!fsrs,2030-06-29T00:00:00.000Z,1325,1324.74576884,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-12-16,314,349-->
+To {@{reduce boilerplate}@} {@{the `ord` argument}@} can be declared {@{_implicit_ via a `using` clause}@}: <!--SR:!fsrs,2030-10-06T00:00:00.000Z,1401,1400.77653742,1,2,9,0,0,2026-12-05T00:00:00.000Z!fsrs,2030-06-29T00:00:00.000Z,1325,1324.74576884,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-12-16,314,349-->
 
 > [!example] __parameterized sort with implicit ordering__
 >
@@ -225,7 +225,7 @@ Scala 3 introduces {@{_`given` instances_}@} – {@{values}@} that can be {@{aut
 > ```
 <!--SR:!2027-01-24,345,349!2026-12-18,316,349!fsrs,2030-08-22T00:00:00.000Z,1365,1364.83793445,1,2,9,0,0,2026-11-26T00:00:00.000Z!fsrs,2028-04-12T05:15:40.028Z,677,676.62994752,1,2,8,0,0,2026-06-05T05:15:40.028Z-->
 
-{@{Anonymous instances}@} can be {@{declared without a name}@}; the compiler will {@{create a new instance and generate a name}@}: <!--SR:!2026-12-05,305,349!2026-12-10,310,349!2027-01-20,341,349-->
+{@{Anonymous instances}@} can be {@{declared without a name}@}; the compiler will {@{create a new instance and generate a name}@}: <!--SR:!fsrs,2030-10-06T00:00:00.000Z,1401,1400.77653742,1,2,9,0,0,2026-12-05T00:00:00.000Z!2026-12-10,310,349!2027-01-20,341,349-->
 
 > [!example] __`Ordering[Double]`__
 >
@@ -308,7 +308,7 @@ Since {@{the actual names of `given` instances}@} are {@{irrelevant to resolutio
 >
 > {@{An `Ordering[List[A]]` exists}@} only when {@{an `Ordering[A]` is available}@}. <!--SR:!2027-03-20,393,370!2027-04-01,404,370!2027-03-20,394,368!2027-03-01,378,368!2027-03-05,380,367!2027-03-07,384,367-->
 
-In {@{some sense}@}, {@{conditional `given`}@} {@{pattern matches on types and their type parameters}@}. In the example above, {@{`listOrdering[A]`}@} pattern matches on {@{`T` in `Ordering[T]`}@} for {@{the pattern `List[A]` in `Ordering[List[A]]`}@}. <!--SR:!2026-12-05,305,349!2027-01-25,346,349!fsrs,2029-10-27T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2030-06-13T00:00:00.000Z,1309,1308.66035919,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-12-06,306,349!2026-12-08,308,349-->
+In {@{some sense}@}, {@{conditional `given`}@} {@{pattern matches on types and their type parameters}@}. In the example above, {@{`listOrdering[A]`}@} pattern matches on {@{`T` in `Ordering[T]`}@} for {@{the pattern `List[A]` in `Ordering[List[A]]`}@}. <!--SR:!fsrs,2030-10-06T00:00:00.000Z,1401,1400.77653742,1,2,9,0,0,2026-12-05T00:00:00.000Z!2027-01-25,346,349!fsrs,2029-10-27T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2030-06-13T00:00:00.000Z,1309,1308.66035919,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-12-06,306,349!2026-12-08,308,349-->
 
 ### recursive `given` resolution
 

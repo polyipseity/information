@@ -321,7 +321,7 @@ return chain.from_iterable([r.value for r in results])
 - [pyrometallurgical](pyrometallurgy.md) extraction using [magnesium](magnesium.md):@:[titanium](titanium.md) <!--SR:!2028-02-06,993,287-->
 - [smelting](smelting.md) with [coke](<coke%20(fuel).md>):@:[manganese](manganese.md), [zinc](zinc.md), [iron](iron.md), [cadmium](cadmium.md), [cobalt](cobalt.md), [nickel](nickel.md), [tin](tin.md), [lead](lead.md) <!--SR:!fsrs,2027-09-03T00:00:00.000Z,295,294.87177561,8.98461332,2,8,0,0,2026-11-12T00:00:00.000Z-->
 - [aluminothermic reaction](aluminothermic%20reaction.md):@:[chromium](chromium.md) <!--SR:!2027-05-03,750,267-->
-- heat or physical extraction:@:[antimony](antimony.md), [bismuth](bismuth.md), [copper](copper.md), [tungsten](tungsten.md), [mercury](<mercury%20(element).md>), [silver](silver.md), [gold](gold.md), [platinum](platinum.md) <!--SR:!2026-12-05,664,285-->
+- heat or physical extraction:@:[antimony](antimony.md), [bismuth](bismuth.md), [copper](copper.md), [tungsten](tungsten.md), [mercury](<mercury%20(element).md>), [silver](silver.md), [gold](gold.md), [platinum](platinum.md) <!--SR:!fsrs,2031-01-03T00:00:00.000Z,1490,1490.35600793,4.17854087,2,10,0,0,2026-12-05T00:00:00.000Z-->
 
 <!--/pytextgen-->
 

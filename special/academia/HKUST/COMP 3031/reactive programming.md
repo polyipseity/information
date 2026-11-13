@@ -123,7 +123,7 @@ FRP describes programs that react {@{to sequences of events or signals}@}. {@{A 
 > v.update(5)            // now v() == 5
 > ```
 >
-> {@{The syntax `v() = 5`}@} is {@{syntactic sugar for `v.update(5)`}@}. <!--SR:!2027-02-13,292,330!2026-12-16,259,330!2026-12-05,251,330!2026-12-17,259,330!2027-02-15,294,330-->
+> {@{The syntax `v() = 5`}@} is {@{syntactic sugar for `v.update(5)`}@}. <!--SR:!2027-02-13,292,330!2026-12-16,259,330!fsrs,2029-12-20T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-12-05T00:00:00.000Z!2026-12-17,259,330!2027-02-15,294,330-->
 
 {@{Signals can be combined}@} to yield {@{new signals}@}: <!--SR:!2027-01-17,285,330!2027-01-10,277,330-->
 
@@ -213,7 +213,7 @@ FRP describes programs that react {@{to sequences of events or signals}@}. {@{A 
 > }
 > ```
 >
-> Notice that {@{`T` in `Signal`}@} is {@{covariant while `T` in `Signal.Var` is invariant}@}, due to {@{their different mutability}@}. <!--SR:!2027-01-06,276,330!2027-02-07,286,330!2027-02-14,293,330!2027-01-09,278,330!2027-02-11,290,330!2027-01-09,277,330!2026-12-09,255,330!2026-12-11,255,330!2026-12-15,258,330!2027-01-16,284,330!2026-12-05,250,330!2026-12-15,256,330-->
+> Notice that {@{`T` in `Signal`}@} is {@{covariant while `T` in `Signal.Var` is invariant}@}, due to {@{their different mutability}@}. <!--SR:!2027-01-06,276,330!2027-02-07,286,330!2027-02-14,293,330!2027-01-09,278,330!2027-02-11,290,330!2027-01-09,277,330!2026-12-09,255,330!2026-12-11,255,330!2026-12-15,258,330!2027-01-16,284,330!fsrs,2029-12-16T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-12-05T00:00:00.000Z!2026-12-15,256,330-->
 
 {@{`Signal`}@} constructs {@{a signal from an expression}@}. {@{A `Signal.Var`}@} keeps {@{the current expression and can be updated to a new one}@}. <!--SR:!2027-01-16,284,330!2027-02-08,287,330!2027-02-15,294,330!fsrs,2029-12-11T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-12-04T00:00:00.000Z-->
 

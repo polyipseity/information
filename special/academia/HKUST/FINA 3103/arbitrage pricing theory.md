@@ -106,7 +106,7 @@ In {@{a regression test}@} {@{the estimated intercept $\hat{\alpha}_i$}@} is tre
 
 {@{The three‑factor specification}@} was introduced {@{in _Common Risk Factors in the Returns on Stocks and Bonds_ (Fama & French, 1993)}@}.  It expands {@{the CAPM}@} by adding {@{size and value drivers that are derived from market‑cap and book‑to‑market data}@}.  The model writes {@{the excess return of stock $i$}@} as {@{$$r_{i,t}-r_{F,t}=\alpha_i+\beta_{iM}\,r_{M,t}+\beta_{iSMB}\,r_{SMB,t}+\beta_{iHML}\,r_{HML,t}+e_{i,t},$$}@} where <!--SR:!2027-03-30,304,357!2027-03-24,298,357!2027-03-20,294,357!2027-05-19,349,357!2027-05-18,348,357!2027-05-06,338,357-->
 
-- $r_{M,t}=r_{SP,t}-r_{F,t}$ ::@:: is the market excess return (e.g. using S&P&nbsp;500), <!--SR:!2026-12-05,252,330!fsrs,2029-12-19T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-12-04T00:00:00.000Z-->
+- $r_{M,t}=r_{SP,t}-r_{F,t}$ ::@:: is the market excess return (e.g. using S&P&nbsp;500), <!--SR:!fsrs,2029-12-24T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-12-05T00:00:00.000Z!fsrs,2029-12-19T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-12-04T00:00:00.000Z-->
 - $r_{SMB,t}=r_{S,t}-r_{B,t}$ ::@:: captures the small‑minus‑big size effect (by market capitalization), and <!--SR:!2026-12-06,253,330!2026-12-08,255,330-->
 - $r_{HML,t}=r_{H,t}-r_{L,t}$ ::@:: measures high‑minus‑low book‑to‑market. <!--SR:!2026-12-07,254,330!2026-12-08,255,330-->
 

@@ -19,11 +19,11 @@ tags:
 
 - see: [general/software quality assurance](../../../../general/software%20quality%20assurance.md)
 
-{@{__Software quality assurance__ (__SQA__)}@} is {@{a cross‑cutting discipline applied throughout the software life cycle}@}: from {@{_inception_ through _transition_}@}. In each phase, {@{SQA activities}@} are {@{tailored to support the development workflow}@}—{@{requirements analysis, design, implementation, testing, and project management}@}. <!--SR:!fsrs,2030-01-18T00:00:00.000Z,1146,1145.54159115,1,2,9,0,0,2026-11-29T00:00:00.000Z!2027-04-03,336,356!2027-04-04,337,356!fsrs,2030-02-06T00:00:00.000Z,1161,1161.07158107,1,2,9,0,0,2026-12-03T00:00:00.000Z!2026-12-05,262,334!2027-04-09,342,356-->
+{@{__Software quality assurance__ (__SQA__)}@} is {@{a cross‑cutting discipline applied throughout the software life cycle}@}: from {@{_inception_ through _transition_}@}. In each phase, {@{SQA activities}@} are {@{tailored to support the development workflow}@}—{@{requirements analysis, design, implementation, testing, and project management}@}. <!--SR:!fsrs,2030-01-18T00:00:00.000Z,1146,1145.54159115,1,2,9,0,0,2026-11-29T00:00:00.000Z!2027-04-03,336,356!2027-04-04,337,356!fsrs,2030-02-06T00:00:00.000Z,1161,1161.07158107,1,2,9,0,0,2026-12-03T00:00:00.000Z!fsrs,2030-02-16T00:00:00.000Z,1169,1168.82544384,1,2,9,0,0,2026-12-05T00:00:00.000Z!2027-04-09,342,356-->
 
 ## overview
 
-{@{A quality manual}@} must {@{document the organization’s QA procedures}@}, and {@{each project}@} creates a {@{_quality plan_}@} that specifies its {@{most critical design goals and how they will be assessed}@}. Standards for {@{both the development process and its artifacts}@} are essential; they define {@{acceptable practice and embed quality into everyday work}@}. <!--SR:!2027-01-23,296,334!2027-02-23,321,356!2027-04-29,362,356!2027-03-31,333,356!2026-12-05,262,334!2027-04-02,335,356!2027-04-28,361,356-->
+{@{A quality manual}@} must {@{document the organization’s QA procedures}@}, and {@{each project}@} creates a {@{_quality plan_}@} that specifies its {@{most critical design goals and how they will be assessed}@}. Standards for {@{both the development process and its artifacts}@} are essential; they define {@{acceptable practice and embed quality into everyday work}@}. <!--SR:!2027-01-23,296,334!2027-02-23,321,356!2027-04-29,362,356!2027-03-31,333,356!fsrs,2030-02-16T00:00:00.000Z,1169,1168.82544384,1,2,9,0,0,2026-12-05T00:00:00.000Z!2027-04-02,335,356!2027-04-28,361,356-->
 
 {@{Mechanisms—processes, tools, or checklists}@}—are required to {@{verify compliance with all quality requirements}@}, ensuring {@{deviations are caught early and corrected before release}@}. {@{Formal reviews (requirements, design, code)}@} remain the primary vehicle for {@{detecting defects and enforcing standards}@} throughout development. <!--SR:!fsrs,2030-02-01T00:00:00.000Z,1157,1157.19178696,1,2,9,0,0,2026-12-02T00:00:00.000Z!fsrs,2030-01-13T00:00:00.000Z,1142,1141.65443291,1,2,9,0,0,2026-11-28T00:00:00.000Z!2027-01-12,284,334!fsrs,2029-10-18T00:00:00.000Z,1061,1061.35070787,1,2,9,0,0,2026-11-22T00:00:00.000Z!2027-03-20,322,354-->
 
@@ -46,13 +46,13 @@ A {@{logarithmic cost curve}@} shows how the {@{expense of fixing a defect rises
 {@{Quality}@} is achieved at {@{several levels}@}: {@{_product quality_}@} focuses on {@{defect reduction in the final artifact}@}; {@{_project quality_}@} concerns {@{schedule, cost, and scope adherence}@}; {@{_process quality_}@} involves the {@{effectiveness of development practices}@}; {@{_people quality_}@} addresses {@{skills, training, and teamwork}@}. {@{Each level}@} relies on {@{targeted SQA activities}@} to {@{measure and enhance performance}@}, which follows the {@{four interlinked steps}@}: (annotation: 4 items: {@{define → measure → track → feedback}@}). <!--SR:!2027-04-25,358,356!2027-02-17,320,356!2027-04-28,361,356!2027-04-22,355,356!2027-03-21,323,356!2027-04-14,347,356!fsrs,2030-01-13T00:00:00.000Z,1142,1141.65443291,1,2,9,0,0,2026-11-28T00:00:00.000Z!2027-02-16,319,356!2027-04-11,344,356!fsrs,2030-01-18T00:00:00.000Z,1146,1145.54159115,1,2,9,0,0,2026-11-29T00:00:00.000Z!2027-04-03,336,356!2027-04-10,343,356!2027-04-25,358,356!2027-04-20,353,356!2027-04-24,357,356-->
 
 1. _Define_ ::@:: a set of quality attributes that the product must satisfy. <!--SR:!2027-01-29,298,334!2027-03-26,328,356-->
-2. _Measure_ ::@:: each attribute so compliance can be quantified. <!--SR:!2027-01-07,280,334!2026-12-05,262,334-->
+2. _Measure_ ::@:: each attribute so compliance can be quantified. <!--SR:!2027-01-07,280,334!fsrs,2030-02-16T00:00:00.000Z,1169,1168.82544384,1,2,9,0,0,2026-12-05T00:00:00.000Z-->
 3. _Track_ ::@:: attribute values over time to evaluate progress toward the goals. <!--SR:!2027-04-15,348,356!2027-04-06,339,356-->
 4. _Feedback_ ::@:: the results into future projects, closing the improvement loop. <!--SR:!fsrs,2030-01-18T00:00:00.000Z,1146,1145.54159115,1,2,9,0,0,2026-11-29T00:00:00.000Z!fsrs,2030-02-06T00:00:00.000Z,1161,1161.07158107,1,2,9,0,0,2026-12-03T00:00:00.000Z-->
 
 ## activities
 
-{@{SQA}@} encompasses {@{a range of activities that form its foundation}@}: (annotation: 6 items: {@{configuration management, formal reviews, methods & tools}@}, {@{metrics, standards, testing}@}) <!--SR:!2027-04-30,363,356!2027-02-15,318,356!2027-04-27,360,354!2026-12-05,262,334-->
+{@{SQA}@} encompasses {@{a range of activities that form its foundation}@}: (annotation: 6 items: {@{configuration management, formal reviews, methods & tools}@}, {@{metrics, standards, testing}@}) <!--SR:!2027-04-30,363,356!2027-02-15,318,356!2027-04-27,360,354!fsrs,2030-02-16T00:00:00.000Z,1169,1168.82544384,1,2,9,0,0,2026-12-05T00:00:00.000Z-->
 
 - _Standards_: ::@:: _foundational_; develop and apply repeatable development norms. <!--SR:!2027-02-21,320,356!2027-02-19,318,356-->
 - _Metrics_: ::@:: _foundational_; establish quantitative measures to monitor and improve processes. <!--SR:!2027-04-03,336,356!2027-04-23,356,356-->
@@ -77,11 +77,11 @@ An example of {@{a non-software metric}@} is {@{_quality of conformance_}@}, whi
 
 ## product quality
 
-{@{_Product quality_}@} focuses on {@{defect reduction in the final artifact}@}. It may be achieved via {@{design goals, system design metrics, implementation metrics, and reliability approaches}@}. These are used within SQA to {@{monitor design quality, predict maintenance effort, and guide continuous improvement}@}. <!--SR:!2027-04-21,354,356!2026-12-05,262,334!2027-04-08,341,356!2027-04-26,359,356-->
+{@{_Product quality_}@} focuses on {@{defect reduction in the final artifact}@}. It may be achieved via {@{design goals, system design metrics, implementation metrics, and reliability approaches}@}. These are used within SQA to {@{monitor design quality, predict maintenance effort, and guide continuous improvement}@}. <!--SR:!2027-04-21,354,356!fsrs,2030-02-16T00:00:00.000Z,1169,1168.82544384,1,2,9,0,0,2026-12-05T00:00:00.000Z!2027-04-08,341,356!2027-04-26,359,356-->
 
 ### design goals
 
-{@{A _design goal_}@} is {@{an external quality attribute we wish the system to possess}@}, such as {@{safety, portability or usability}@}. These attributes are {@{_external_ and cannot be measured directly from the code until the system is complete}@}; therefore we {@{infer them during development}@} by observing {@{_internal_ measurable attributes}@} (e.g., {@{lines of code, cyclomatic complexity}@}). {@{Typical internal metrics}@} used to predict {@{external goals}@} include: <!--SR:!2027-01-04,277,334!2027-04-06,339,356!2026-12-05,262,334!2027-04-20,353,356!2027-03-18,344,356!2027-03-15,342,356!fsrs,2030-02-06T00:00:00.000Z,1161,1161.07158107,1,2,9,0,0,2026-12-03T00:00:00.000Z!2027-02-11,311,356!2027-04-02,335,356-->
+{@{A _design goal_}@} is {@{an external quality attribute we wish the system to possess}@}, such as {@{safety, portability or usability}@}. These attributes are {@{_external_ and cannot be measured directly from the code until the system is complete}@}; therefore we {@{infer them during development}@} by observing {@{_internal_ measurable attributes}@} (e.g., {@{lines of code, cyclomatic complexity}@}). {@{Typical internal metrics}@} used to predict {@{external goals}@} include: <!--SR:!2027-01-04,277,334!2027-04-06,339,356!fsrs,2030-02-16T00:00:00.000Z,1169,1168.82544384,1,2,9,0,0,2026-12-05T00:00:00.000Z!2027-04-20,353,356!2027-03-18,344,356!2027-03-15,342,356!fsrs,2030-02-06T00:00:00.000Z,1161,1161.07158107,1,2,9,0,0,2026-12-03T00:00:00.000Z!2027-02-11,311,356!2027-04-02,335,356-->
 
 - maintainability ::@:: → cyclomatic complexity, error messages count, lines of code, number of parameters, etc. <!--SR:!2027-02-19,319,354!2027-02-22,321,356-->
 - usability ::@:: → error messages count, user-manual length, etc. <!--SR:!fsrs,2030-02-11T00:00:00.000Z,1165,1164.94946392,1,2,9,0,0,2026-12-04T00:00:00.000Z!fsrs,2030-02-01T00:00:00.000Z,1157,1157.19178696,1,2,9,0,0,2026-12-02T00:00:00.000Z-->
@@ -90,7 +90,7 @@ An example of {@{a non-software metric}@} is {@{_quality of conformance_}@}, whi
 
 ### system design metrics
 
-{@{Design maintainability}@} is inferred from the {@{complexity of a component}@}. {@{Complexity}@} correlates with {@{cohesion, coupling and understandability}@}—attributes that are {@{not directly measurable}@}. <!--SR:!2027-02-27,327,356!2026-12-05,262,334!2027-02-13,313,356!2027-04-17,350,356!2027-04-17,350,356-->
+{@{Design maintainability}@} is inferred from the {@{complexity of a component}@}. {@{Complexity}@} correlates with {@{cohesion, coupling and understandability}@}—attributes that are {@{not directly measurable}@}. <!--SR:!2027-02-27,327,356!fsrs,2030-02-16T00:00:00.000Z,1169,1168.82544384,1,2,9,0,0,2026-12-05T00:00:00.000Z!2027-02-13,313,356!2027-04-17,350,356!2027-04-17,350,356-->
 
 {@{Two families of metrics}@} help bridge this gap: {@{_structural fan‑in/fan‑out_}@}, which counts {@{how many other components call a given component (fan‑in)}@} and {@{how many components it calls (fan‑out)}@}; and {@{_informational fan‑in/fan‑out_}@}, which augments the counts with {@{the number of parameters and shared data accesses}@}. {@{_Complexity_}@}, defined as: {@{$$\text{complexity} := \text{component-length} \cdot (\text{fan-in} \cdot \text{fan-out})^2 \,,$$}@} has been {@{validated in large operating systems (e.g. Unix)}@} as a predictor of {@{implementation effort}@}. <!--SR:!2027-04-12,345,356!2027-02-12,312,356!2027-01-22,295,334!fsrs,2030-02-06T00:00:00.000Z,1161,1161.07158107,1,2,9,0,0,2026-12-03T00:00:00.000Z!2027-02-12,312,356!2027-02-26,324,356!2027-03-05,333,356!2027-04-30,363,356!2027-04-03,336,356!fsrs,2030-02-01T00:00:00.000Z,1157,1157.19178696,1,2,9,0,0,2026-12-02T00:00:00.000Z-->
 
@@ -161,7 +161,7 @@ SEI CMM is a framework for assessing and improving software development proces
 
 ## people quality
 
-{@{_People quality_}@} addresses {@{skills, training, and teamwork}@}. Approaches include {@{People Capability Maturity Model (PCMM)}@}. <!--SR:!2027-04-06,339,356!fsrs,2030-01-27T00:00:00.000Z,1153,1153.31025899,1,2,9,0,0,2026-12-01T00:00:00.000Z!2026-12-05,262,334-->
+{@{_People quality_}@} addresses {@{skills, training, and teamwork}@}. Approaches include {@{People Capability Maturity Model (PCMM)}@}. <!--SR:!2027-04-06,339,356!fsrs,2030-01-27T00:00:00.000Z,1153,1153.31025899,1,2,9,0,0,2026-12-01T00:00:00.000Z!fsrs,2030-02-16T00:00:00.000Z,1169,1168.82544384,1,2,9,0,0,2026-12-05T00:00:00.000Z-->
 
 ### People Capability Maturity Model
 
@@ -171,6 +171,6 @@ SEI CMM is a framework for assessing and improving software development proces
 2. Level 2 – _Repeatable_ ::@:: Basic work practices are defined, and the organization begins to recruit, develop, and retain staff. Targeted training fills identified skill gaps, while performance is formally assessed. <!--SR:!2027-02-14,317,356!2026-12-24,272,334-->
 3. Level 3 – _Defined_ ::@:: Work processes are tailored to business needs. A strategic talent plan locates critical skills, and compensation aligns with expertise, ensuring that people roles support organizational goals. <!--SR:!2027-03-13,340,356!2027-04-23,356,356-->
 4. Level 4 – _Managed_ ::@:: The focus shifts to raising competence in key areas through mentoring, team‑building, and quantitative competency targets. Effectiveness of work practices is measured against these goals. <!--SR:!fsrs,2030-01-13T00:00:00.000Z,1142,1141.65443291,1,2,9,0,0,2026-11-28T00:00:00.000Z!2027-04-05,338,356-->
-5. Level 5 – _Optimizing_ ::@:: Continuous improvement drives the development of both individual and team skills. Best practices are adopted organization‑wide, creating a culture that adapts rapidly to new challenges. <!--SR:!2026-12-05,262,334!2027-04-22,355,356-->
+5. Level 5 – _Optimizing_ ::@:: Continuous improvement drives the development of both individual and team skills. Best practices are adopted organization‑wide, creating a culture that adapts rapidly to new challenges. <!--SR:!fsrs,2030-02-16T00:00:00.000Z,1169,1168.82544384,1,2,9,0,0,2026-12-05T00:00:00.000Z!2027-04-22,355,356-->
 
 {@{Typical high‑performing organizations}@} reach {@{only Level 3–4}@} on the PCMM model; {@{achieving Level 5}@} requires {@{a sustained culture of optimisation and data‑driven decision making}@}. <!--SR:!2027-05-21,384,370!2027-05-22,385,370!2027-05-20,383,370!2027-05-29,392,370-->

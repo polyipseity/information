@@ -389,7 +389,7 @@ return await memorize_seq(
 <!--pytextgen generate section="ff34"--><!-- The following content is generated at 2024-05-16T15:50:24.139486+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←carbon dioxide (CO<sub>2</sub>) <!--SR:!fsrs,2030-10-03T00:00:00.000Z,1455,1455.23308077,3.24197837,2,10,0,0,2026-10-09T00:00:00.000Z!2027-05-04,807,330-->
-- carbon dioxide (CO<sub>2</sub>)→::@::←hydroflurocarbons (HFCs) <!--SR:!2026-12-05,601,250!2027-08-27,842,290-->
+- carbon dioxide (CO<sub>2</sub>)→::@::←hydroflurocarbons (HFCs) <!--SR:!fsrs,2030-04-03T00:00:00.000Z,1215,1215.03255264,5.48972837,2,10,0,0,2026-12-05T00:00:00.000Z!2027-08-27,842,290-->
 - hydroflurocarbons (HFCs)→::@::←methane (CH<sub>4</sub>) <!--SR:!fsrs,2031-06-29T00:00:00.000Z,1676,1675.67464077,2.98092302,2,10,0,0,2026-11-26T00:00:00.000Z!2028-05-27,832,250-->
 - methane (CH<sub>4</sub>)→::@::←nitrous oxide (N<sub>2</sub>O) <!--SR:!2027-09-07,808,270!2030-05-25,1593,310-->
 - nitrous oxide (N<sub>2</sub>O)→::@::←perflurocarbons (PFCs) <!--SR:!2028-07-09,803,230!2027-05-05,416,190-->
@@ -419,7 +419,7 @@ Concentration Units for Liquids
 
 - concentration units for liquids ::@:: mass of substance per unit mass of mixture, mass of substance per unit volume of mixture <!--SR:!2027-12-20,912,290!2032-02-18,2144,330-->
     - mass of substance per unit volume of mixture units for liquids ::@:: mol/L (mol is not strictly mass), mg/L <!--SR:!fsrs,2032-12-12T00:00:00.000Z,2347,2347.1286463,1,2,10,0,0,2026-07-10T00:00:00.000Z!fsrs,2032-07-03T00:00:00.000Z,2130,2130.40748609,1,2,10,0,0,2026-09-03T00:00:00.000Z-->
-    - mass of substance per unit mass of mixture units for liquids ::@:: parts per billion (ppb) by weight, parts per million (ppm) by weight <!--SR:!2026-12-05,636,310!2029-04-12,1391,350-->
+    - mass of substance per unit mass of mixture units for liquids ::@:: parts per billion (ppb) by weight, parts per million (ppm) by weight <!--SR:!fsrs,2033-04-27T00:00:00.000Z,2335,2334.649537,1,2,10,0,0,2026-12-05T00:00:00.000Z!2029-04-12,1391,350-->
 
 ## page 34
 

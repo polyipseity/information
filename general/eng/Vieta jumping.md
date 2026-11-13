@@ -11,7 +11,7 @@ tags:
 
 # Vieta jumping
 
-In {@{[number theory](number%20theory.md)}@}, {@{__Vieta jumping__, also known as __root flipping__}@}, is {@{a [proof technique](mathematical%20proof.md)}@}. It is most often used for problems in which {@{a relation between two integers is given, along with a statement to prove about its solutions}@}. In particular, it can be used to produce {@{new solutions of a [quadratic](quadratic%20equation.md) [Diophantine equation](Diophantine%20equation.md) from known ones}@}. There exist multiple {@{variations of Vieta jumping}@}, all of which involve {@{the common theme of [infinite descent](infinite%20descent.md)}@} by finding {@{new solutions to an equation using [Vieta's formulas](Vieta's%20formulas.md)}@}. <!--SR:!2026-12-15,253,330!fsrs,2029-11-01T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-29T00:00:00.000Z!2027-01-29,274,330!2027-02-10,286,330!2026-12-05,245,330!2026-12-13,251,330!2027-02-02,278,330!2027-02-04,280,330-->
+In {@{[number theory](number%20theory.md)}@}, {@{__Vieta jumping__, also known as __root flipping__}@}, is {@{a [proof technique](mathematical%20proof.md)}@}. It is most often used for problems in which {@{a relation between two integers is given, along with a statement to prove about its solutions}@}. In particular, it can be used to produce {@{new solutions of a [quadratic](quadratic%20equation.md) [Diophantine equation](Diophantine%20equation.md) from known ones}@}. There exist multiple {@{variations of Vieta jumping}@}, all of which involve {@{the common theme of [infinite descent](infinite%20descent.md)}@} by finding {@{new solutions to an equation using [Vieta's formulas](Vieta's%20formulas.md)}@}. <!--SR:!2026-12-15,253,330!fsrs,2029-11-01T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-29T00:00:00.000Z!2027-01-29,274,330!2027-02-10,286,330!fsrs,2029-11-27T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-12-05T00:00:00.000Z!2026-12-13,251,330!2027-02-02,278,330!2027-02-04,280,330-->
 
 ## history
 
@@ -31,7 +31,7 @@ Among {@{the eleven students receiving the maximum score for solving this proble
 The concept of {@{__standard Vieta jumping__}@} is {@{a [proof by contradiction](proof%20by%20contradiction.md), and consists of the following four steps}@}:<sup>[\[7\]](#^ref-7)</sup> (annotation: 4 steps: {@{assumption → minimality → substitution → contradiction}@}) <!--SR:!2027-01-28,273,330!fsrs,2029-10-13T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-25T00:00:00.000Z!2027-02-01,277,330-->
 
 1. (annotation: assumption) ::@:: Assume toward a contradiction that some solution \(_a_<sub>1</sub>, _a_<sub>2</sub>, ...\) exists that violates the given requirements. <!--SR:!2027-01-24,269,330!2026-12-14,250,330-->
-2. (annotation: minimality) ::@:: Take the minimal such solution according to some definition of minimality. <!--SR:!2027-01-29,274,330!2026-12-05,245,330-->
+2. (annotation: minimality) ::@:: Take the minimal such solution according to some definition of minimality. <!--SR:!2027-01-29,274,330!fsrs,2029-11-27T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-12-05T00:00:00.000Z-->
 3. (annotation: substitution) ::@:: Replace some _a_<sub>i</sub> by a variable _x_ in the formulas, and obtain an equation for which _a_<sub>i</sub> is a solution. <!--SR:!2026-12-15,252,330!2027-01-30,275,330-->
 4. (annotation: contradiction) ::@:: Using Vieta's formulas, show that this implies the existence of a smaller solution, hence a contradiction. <!--SR:!fsrs,2029-11-01T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-29T00:00:00.000Z!2027-02-16,292,330-->
 

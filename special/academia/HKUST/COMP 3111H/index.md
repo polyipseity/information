@@ -590,7 +590,7 @@ The content is in teaching order.
     - [§ use case models](UML.md#use%20case%20models) ::@:: The use-case diagram lists actors and system functions; each use case is further detailed by a flow of events that sequences actions and decision points. <!--SR:!2028-05-29,768,441!2028-07-26,826,441-->
 - software verification and validation
 - software requirements specification
-    - software requirements specification / iteration ::@:: The SRS is a living artifact that evolves with stakeholder feedback, forming the foundation for all later phases (analysis, design, implementation). <p> Early iterations produce high-level _domain_, _use-case_ models, and _nonfunctional_ requirements; subsequent passes add detail, test cases to the _test model_, matching use case realizations to the _analysis model_ and _design model_. <p> We can see use cases _drive_ subsequent development. <!--SR:!2027-10-17,580,421!2026-12-05,311,381-->
+    - software requirements specification / iteration ::@:: The SRS is a living artifact that evolves with stakeholder feedback, forming the foundation for all later phases (analysis, design, implementation). <p> Early iterations produce high-level _domain_, _use-case_ models, and _nonfunctional_ requirements; subsequent passes add detail, test cases to the _test model_, matching use case realizations to the _analysis model_ and _design model_. <p> We can see use cases _drive_ subsequent development. <!--SR:!2027-10-17,580,421!fsrs,2031-02-02T00:00:00.000Z,1520,1519.8598451,1,2,9,0,0,2026-12-05T00:00:00.000Z-->
 - quiz: [quiz 9](questions/quiz%209.md)
 - [questions § week 5 pre-lecture](questions/index.md#week%205%20pre-lecture)
 

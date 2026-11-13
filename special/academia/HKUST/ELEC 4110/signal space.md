@@ -30,7 +30,7 @@ tags:
 
 {@{Geometric domain}@}: {@{Each waveform}@} is {@{a vector in an abstract Hilbert space}@} with {@{inner product}@} {@{$\langle u,v\rangle=\int_{0}^{T}u(t)v^{*}(t)\,dt$}@}. {@{Choosing a finite-dimensional orthonormal basis}@} converts {@{the signal into a coordinate vector}@}, letting {@{Euclidean geometry tools}@} analyze {@{constellations, design matched filters, and evaluate error probabilities}@}. <!--SR:!2027-02-15,334,345!2027-01-22,312,345!2027-02-11,330,345!2026-12-26,292,345!2026-12-17,284,345!2026-12-06,275,345!2026-12-19,286,345!2027-03-22,365,364!2027-02-08,328,345-->
 
-{@{The time-domain waveform}@} uses {@{basis $\{\,\delta(t-t_k)\,\}$}@}, {@{the frequency domain}@} uses {@{complex exponentials $\{e^{j2\pi ft}\}$}@}; both are {@{orthonormal bases of the same Hilbert space}@} — merely {@{different coordinate systems}@} within {@{the same geometric framework}@}. <!--SR:!2027-01-06,301,345!2027-02-04,325,345!2027-02-21,338,345!2027-01-02,298,345!2026-12-05,275,345!2026-12-23,290,345!2026-12-25,291,345-->
+{@{The time-domain waveform}@} uses {@{basis $\{\,\delta(t-t_k)\,\}$}@}, {@{the frequency domain}@} uses {@{complex exponentials $\{e^{j2\pi ft}\}$}@}; both are {@{orthonormal bases of the same Hilbert space}@} — merely {@{different coordinate systems}@} within {@{the same geometric framework}@}. <!--SR:!2027-01-06,301,345!2027-02-04,325,345!2027-02-21,338,345!2027-01-02,298,345!fsrs,2030-05-22T00:00:00.000Z,1264,1264.07090886,1,2,9,0,0,2026-12-05T00:00:00.000Z!2026-12-23,290,345!2026-12-25,291,345-->
 
 ## definition
 
@@ -112,7 +112,7 @@ For {@{any vectors $a,b\in S$}@}, {@{$$\|a+b\|\leq \|a\|+\|b\|,$$}@} with {@{equ
 
 ### Pythagorean relation
 
-If {@{$a$ and $b$ are orthogonal}@} ({@{$\langle a,b\rangle=0$}@}), then {@{$$\|a+b\|^2=\|a\|^2+\|b\|^2 \,.$$}@} <!--SR:!2027-02-24,341,345!2026-12-05,274,345!2027-01-01,297,345-->
+If {@{$a$ and $b$ are orthogonal}@} ({@{$\langle a,b\rangle=0$}@}), then {@{$$\|a+b\|^2=\|a\|^2+\|b\|^2 \,.$$}@} <!--SR:!2027-02-24,341,345!fsrs,2030-05-18T00:00:00.000Z,1260,1260.08188809,1,2,9,0,0,2026-12-05T00:00:00.000Z!2027-01-01,297,345-->
 
 ## Gram–Schmidt process
 

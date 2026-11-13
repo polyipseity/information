@@ -41,7 +41,7 @@ Equivalently, the sum of currents entering a junction equals the sum leaving it,
 
 Flashcards for this section are as follows:
 
-- KCL name ::@:: Also called the junction rule. <!--SR:!2026-12-05,185,310!2027-01-29,240,330-->
+- KCL name ::@:: Also called the junction rule. <!--SR:!fsrs,2029-02-06T00:00:00.000Z,794,793.62286384,1,2,9,0,0,2026-12-05T00:00:00.000Z!2027-01-29,240,330-->
 - KCL statement ::@:: At any node, the algebraic sum of currents is zero. <p> ![KCL](attachments/kcl.svg) <!--SR:!fsrs,2027-05-05T16:01:06.081Z,327,326.83582061,1,2,7,0,0,2026-06-12T16:01:06.081Z!fsrs,2027-05-08T16:01:11.232Z,330,329.81882824,1,2,7,0,0,2026-06-12T16:01:11.232Z-->
 - KCL entering vs leaving ::@:: Currents entering a junction equal currents leaving. <!--SR:!fsrs,2027-05-04T16:00:58.295Z,326,326.46566883,1,2,7,0,0,2026-06-12T16:00:58.295Z!fsrs,2027-05-06T16:01:15.189Z,328,328.33560331,1,2,7,0,0,2026-06-12T16:01:15.189Z-->
 - KCL algebraic form ::@:: $\sum I_{\text{in}} = \sum I_{\text{out}}$; all terms on one side: $I_1+I_2-I_3-I_4=0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-05-04T16:01:03.656Z,326,326.46566883,1,2,7,0,0,2026-06-12T16:01:03.656Z!fsrs,2027-04-05T10:01:28.548Z,304,304.30256839,1,2,7,0,0,2026-06-05T10:01:28.548Z-->
