@@ -603,7 +603,10 @@ class TestMathHandling:
         assert "havegcd" not in result
         assert "have\\gcd" not in result
         assert ": we have <p> &nbsp;&nbsp;&nbsp;&nbsp;$$" in result
-        assert "\\gcd(a, b)\\cdot\\operatorname{lcm}(a, b) = |a\\cdotb|\\,.$$" in result
+        assert (
+            "\\gcd(a, b)\\cdot{}\\operatorname{lcm}(a, b) = |a\\cdot{}b|\\,.$$"
+            in result
+        )
 
     @pytest.mark.anyio
     async def test_display_formula_texhtml_dl_after_p_separated(
@@ -621,7 +624,28 @@ class TestMathHandling:
 
         assert "havegcd" not in result
         assert "we have <p> &nbsp;&nbsp;&nbsp;&nbsp; $$" in result
-        assert "\\gcd(a, b)\\cdot\\operatorname{lcm}(a, b) = |a\\cdotb|\\,.$$" in result
+        assert (
+            "\\gcd(a, b)\\cdot{}\\operatorname{lcm}(a, b) = |a\\cdot{}b|\\,.$$"
+            in result
+        )
+
+    @pytest.mark.anyio
+    async def test_texhtml_formula_with_trailing_prose_in_dd_is_not_promoted(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A texhtml formula with trailing prose in a <dd> stays in prose."""
+        html = (
+            "<ul><li>"
+            ': we have <dl><dd><span class="texhtml">'
+            "gcd(<i>a</i>, <i>b</i>)</span> explained below</dd></dl>"
+            "</li></ul>"
+        )
+        result = await _convert(converter, html)
+
+        assert "explained below" in result
+        assert "gcd" in result
+        assert "$$" not in result
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; $$" not in result
 
 
 # ---------------------------------------------------------------------------

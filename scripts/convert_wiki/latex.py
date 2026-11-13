@@ -374,7 +374,7 @@ class LatexConverter:
             text = text.replace(char, latex)
         for char, latex in _MATH_LETTER_COMMANDS.items():
             text = text.replace(char, latex)
-        text = text.replace("\u22c5", "\\cdot")
+        text = text.replace("\u22c5", "\\cdot{}")
         return text
 
     @staticmethod

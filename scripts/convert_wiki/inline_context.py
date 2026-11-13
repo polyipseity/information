@@ -139,7 +139,7 @@ def _is_display_formula_dl(ele: Tag) -> bool:
     # and rows that carry trailing content (formula + punctuation/prose).
     dd_children = _significant_children(first_row)
     if _is_texhtml_formula_element(first_formula):
-        return True
+        return _dd_display_formula_element(first_row) is not None
     if _is_mwe_math_element(first_formula):
         class_str = " ".join(first_formula.get_attribute_list("class"))
         if "mwe-math-element-block" in class_str:

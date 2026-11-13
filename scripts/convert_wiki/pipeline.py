@@ -1047,11 +1047,13 @@ def _promote_display_formula_texhtml_dls(soup: BeautifulSoup | Tag) -> None:
     ``mwe-math-element`` wrappers so existing display-math normalization,
     punctuation absorption, and rendering logic apply.
     """
-    factory: BeautifulSoup | None = soup if isinstance(soup, BeautifulSoup) else None
-    if factory is None and isinstance(soup, Tag):
-        for parent in soup.parents:
-            if isinstance(parent, BeautifulSoup):
-                factory = parent
+    factory: BeautifulSoup | None = None
+    if isinstance(soup, BeautifulSoup):
+        factory = soup
+    else:
+        for element in (soup, *soup.parents):
+            if isinstance(element, BeautifulSoup):
+                factory = element
                 break
     if factory is None:
         factory = BeautifulSoup("", "html.parser")
