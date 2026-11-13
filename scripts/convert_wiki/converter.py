@@ -1888,11 +1888,42 @@ class WikiHtmlConverter:
                 suffix = " <p>"
             else:
                 suffix = " <p> "
-            # When a display-math-only <dl> is inside a list item, indent the
-            # formula with ``<p> &nbsp;&nbsp;&nbsp;&nbsp;`` so it visually
-            # joins the preceding text on the same line.
+            # Drop the trailing separator when no content follows inside the
+            # list item.
+            sib = ele.next_sibling
+            has_following_content = False
+            while sib is not None:
+                if isinstance(sib, NavigableString):
+                    if sib.strip():
+                        has_following_content = True
+                        break
+                elif isinstance(sib, Tag):
+                    if sib.name not in {"link", "style"}:
+                        has_following_content = True
+                        break
+                sib = sib.next_sibling
+            if not has_following_content:
+                suffix = ""
+            # A continuation <dl> after content in the same list item must be
+            # separated from that content (e.g. flattened leaf items render
+            # "text. <p> continuation").  Display-math-only <dl> keeps its
+            # indented block-math prefix.
             if _is_display_math_only_dl(ele):
                 prefix = f" <p> {_MATH_DL_INDENT}"
+            else:
+                sib = ele.previous_sibling
+                while sib is not None:
+                    if isinstance(sib, NavigableString):
+                        if sib.strip():
+                            prefix = " <p> "
+                            break
+                    elif isinstance(sib, Tag):
+                        if sib.name not in {"link", "style"}:
+                            prefix = " <p> "
+                            break
+                    sib = sib.previous_sibling
+                else:
+                    prefix = ""
         else:
             suffix = "\n\n"
             # When a <dl> follows a </li> or </ul>/</ol>, the preceding content

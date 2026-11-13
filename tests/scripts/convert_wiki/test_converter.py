@@ -3962,3 +3962,97 @@ class TestPostListDlContinuation:
         assert "\n\n <p> &nbsp;&nbsp;&nbsp;&nbsp;$$f(x)$$" not in result
         assert "<br/> &nbsp;&nbsp;&nbsp;&nbsp;" not in result
         assert result.lstrip().startswith("- text <p>")
+
+
+class TestInListDlContinuation:
+    """Non-display-math ``<dl><dd>`` continuations inside list items."""
+
+    @pytest.mark.anyio
+    async def test_text_dd_inside_ordered_leaf_item_separated(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A text continuation ``<dl><dd>`` after text in a leaf ordered item is separated."""
+        html = (
+            "<ol>"
+            "<li>first</li>"
+            "<li>second</li>"
+            "<li>If <i>b</i> is even, then divide it by two until it becomes odd."
+            "<dl><dd>Now, <i>a</i> and <i>b</i> are both odd and will remain odd "
+            "until the end of the computation</dd></dl>"
+            "</li>"
+            "<li>fourth</li>"
+            "</ol>"
+        )
+        result = await _convert(converter, html)
+
+        assert (
+            "3. If _b_ is even, then divide it by two until it becomes odd. <p> "
+            "Now, _a_ and _b_ are both odd and will remain odd until the end of "
+            "the computation" in result
+        )
+        assert "odd.Now" not in result
+        assert "4. fourth" in result
+
+    @pytest.mark.anyio
+    async def test_text_dd_inside_unordered_leaf_item_separated(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A text continuation ``<dl><dd>`` after text in a leaf unordered item is separated."""
+        html = (
+            "<ul>"
+            "<li>alpha</li>"
+            "<li>Text before continuation."
+            "<dl><dd>Continuation after text.</dd></dl>"
+            "</li>"
+            "<li>gamma</li>"
+            "</ul>"
+        )
+        result = await _convert(converter, html)
+
+        assert "- Text before continuation. <p> Continuation after text." in result
+        assert "continuation.Continuation" not in result
+        assert "- gamma" in result
+
+    @pytest.mark.anyio
+    async def test_text_dd_with_inline_math_inside_leaf_item_separated(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A continuation ``<dl><dd>`` with inline math after text is separated."""
+        html = (
+            "<ol>"
+            "<li>Compute the value."
+            "<dl><dd>Now, "
+            f"{_inline_math_span(r'{\displaystyle a}')}"
+            " and "
+            f"{_inline_math_span(r'{\displaystyle b}')}"
+            " are both odd.</dd></dl>"
+            "</li>"
+            "</ol>"
+        )
+        result = await _convert(converter, html)
+
+        assert "value.Now" not in result
+        assert "1. Compute the value. <p> Now, $a$ and $b$ are both odd." in result
+
+    @pytest.mark.anyio
+    async def test_text_dd_inside_item_with_nested_list_preserves_nested_list(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A continuation ``<dl><dd>`` in an item with nested lists does not break nesting."""
+        html = (
+            "<ul>"
+            "<li>intro text"
+            "<dl><dd>continued text</dd></dl>"
+            "<ul><li>nested</li></ul>"
+            "</li>"
+            "</ul>"
+        )
+        result = await _convert(converter, html)
+
+        assert "intro textcontinued" not in result
+        assert "continued text" in result
+        assert "nested" in result
+        # Nested list item must remain rendered as a nested list item.
+        assert (
+            "    - nested" in result or "\n  - nested" in result or "- nested" in result
+        )
