@@ -145,7 +145,7 @@ and the abovementioned "zigzagging" corresponds to the appearance of the terms
 
 $$\exp \left({\frac {i}{\hbar } }\varepsilon \sum _{j=1}^{n+1}L\left({\tilde {x} }_{j},{\frac {x_{j}-x_{j-1} }{\varepsilon } },j\right)\right)$$
 
-in the [Riemann sum](Riemann%20sum.md) approximating the time integral, which are finally integrated over _x_<sub>1</sub> to _x<sub>n</sub>_ with the integration measure _dx_<sub>1</sub>..._dx<sub>n</sub>_, _x̃<sub>j</sub>_ is an arbitrary value of the interval corresponding to _j_, e.g. its center, $\frac{x_{j}+x_{j−1} }{2}$.
+in the [Riemann sum](Riemann%20sum.md) approximating the time integral, which are finally integrated over _x_<sub>1</sub> to _x<sub>n</sub>_ with the integration measure _dx_<sub>1</sub>..._dx<sub>n</sub>_, _x̃<sub>j</sub>_ is an arbitrary value of the interval corresponding to _j_, e.g. its center, $\frac{x_{j} + x_{j−1} }{2}$.
 
 Thus, in contrast to classical mechanics, not only does the stationary path contribute, but actually all virtual paths between the initial and the final point also contribute.
 
@@ -267,7 +267,7 @@ Let _T_ = _t<sub>f</sub>_ − _t<sub>i</sub>_. One may write this propagator in 
 
 $${\begin{aligned}K(x_{f},t_{f};x_{i},t_{i})&=\left({\frac {m\omega }{2\pi i\hbar \sin \omega T} }\right)^{\frac {1}{2} }\exp {\left({\frac {i}{\hbar } }{\tfrac {1}{2} }m\omega {\frac {(x_{i}^{2}+x_{f}^{2})\cos \omega T-2x_{i}x_{f} }{\sin \omega T} }\right)}\\[6pt]&=\sum _{n=0}^{\infty }\exp {\left(-{\frac {iE_{n}T}{\hbar } }\right)}\psi _{n}(x_{f})\psi _{n}(x_{i})^{*}~.\end{aligned} }$$
 
-Using the identities $i\sin{\omega}T=\frac{1}{2}e^{i{\omega}T}(1 −e^{−2i{\omega}T})$ and $\cos{\omega}T=\frac{1}{2}e^{i{\omega}T}(1 +e^{−2i{\omega}T})$, this amounts to
+Using the identities $i \sin {\omega}T = \frac{1}{2}e^{i{\omega}T} (1 − e^{−2i{\omega}T})$ and $\cos {\omega}T = \frac{1}{2}e^{i{\omega}T} (1 + e^{−2i{\omega}T})$, this amounts to
 
 $$K(x_{f},t_{f};x_{i},t_{i})=\left({\frac {m\omega }{\pi \hbar } }\right)^{\frac {1}{2} }e^{\frac {-i\omega T}{2} }\left(1-e^{-2i\omega T}\right)^{-{\frac {1}{2} } }\exp {\left(-{\frac {m\omega }{2\hbar } }\left(\left(x_{i}^{2}+x_{f}^{2}\right){\frac {1+e^{-2i\omega T} }{1-e^{-2i\omega T} } }-{\frac {4x_{i}x_{f}e^{-i\omega T} }{1-e^{-2i\omega T} } }\right)\right)}.$$
 
@@ -411,17 +411,7 @@ then it means that each spatial slice is multiplied by the measure $\sqrt{g}$. T
 
 ### expectation values and matrix elements
 
-Matrix elements of the kind $\langle x_{f}|e^{-{\frac {i}{\hbar } }{\hat {H} }(t-t')}F({\hat {x} })e^{-{\frac {i}{\hbar } }{\hat {H} }(t')}|x_{i}\rangle$ take the form
-
-$$\int _{x(0)=x_{i} }^{x(t)=x_{f} }{\mathcal {D} }[x]F(x(t'))e^{ {\frac {i}{\hbar } }\int dtL(x(t),{\dot {x} }(t))}\,.$$
-
-This generalizes to multiple operators, for example
-
-$$\langle x_{f}|e^{-{\frac {i}{\hbar } }{\hat {H} }(t-t_{1})}F_{1}({\hat {x} })e^{-{\frac {i}{\hbar } }{\hat {H} }(t_{1}-t_{2})}F_{2}({\hat {x} })e^{-{\frac {i}{\hbar } }{\hat {H} }(t_{2})}|x_{i}\rangle =\int _{x(0)=x_{i} }^{x(t)=x_{f} }{\mathcal {D} }[x]F_{1}(x(t_{1}))F_{2}(x(t_{2}))e^{ {\frac {i}{\hbar } }\int dtL(x(t),{\dot {x} }(t))}\,,$$
-
-and to the general vacuum expectation value \(in the large time limit\)
-
-$$\langle F\rangle ={\frac {\int {\mathcal {D} }[\phi ]F(\phi )e^{ {\frac {i}{\hbar } }S[\phi ]} }{\int {\mathcal {D} }[\phi ]e^{ {\frac {i}{\hbar } }S[\phi ]} } }\,.$$
+Matrix elements of the kind $\langle x_{f}|e^{-{\frac {i}{\hbar } }{\hat {H} }(t-t')}F({\hat {x} })e^{-{\frac {i}{\hbar } }{\hat {H} }(t')}|x_{i}\rangle$ take the form <p> &nbsp;&nbsp;&nbsp;&nbsp; $$\int _{x(0)=x_{i} }^{x(t)=x_{f} }{\mathcal {D} }[x]F(x(t'))e^{ {\frac {i}{\hbar } }\int dtL(x(t),{\dot {x} }(t))}\,.$$ <p> This generalizes to multiple operators, for example <p> &nbsp;&nbsp;&nbsp;&nbsp; $$\langle x_{f}|e^{-{\frac {i}{\hbar } }{\hat {H} }(t-t_{1})}F_{1}({\hat {x} })e^{-{\frac {i}{\hbar } }{\hat {H} }(t_{1}-t_{2})}F_{2}({\hat {x} })e^{-{\frac {i}{\hbar } }{\hat {H} }(t_{2})}|x_{i}\rangle =\int _{x(0)=x_{i} }^{x(t)=x_{f} }{\mathcal {D} }[x]F_{1}(x(t_{1}))F_{2}(x(t_{2}))e^{ {\frac {i}{\hbar } }\int dtL(x(t),{\dot {x} }(t))}\,,$$ <p> and to the general vacuum expectation value \(in the large time limit\) <p> &nbsp;&nbsp;&nbsp;&nbsp; $$\langle F\rangle ={\frac {\int {\mathcal {D} }[\phi ]F(\phi )e^{ {\frac {i}{\hbar } }S[\phi ]} }{\int {\mathcal {D} }[\phi ]e^{ {\frac {i}{\hbar } }S[\phi ]} } }\,.$$
 
 ## Euclidean path integrals
 
@@ -429,15 +419,7 @@ It is very common in path integrals to perform a [Wick rotation](Wick%20rotation
 
 ### Wick rotation and the Feynman–Kac formula
 
-If we replace $t$ by $-it$, the time-evolution operator $e^{-it{\hat {H} }/\hbar }$ is replaced by $e^{-t{\hat {H} }/\hbar }$. \(This change is known as a [Wick rotation](Wick%20rotation.md).\) If we repeat the derivation of the path-integral formula in this setting, we obtain<sup>[\[16\]](#^ref-16)</sup>
-
-$$\psi (x,t)={\frac {1}{Z} }\int _{\mathbf {x} (0)=x}e^{-S_{\mathrm {Euclidean} }(\mathbf {x} ,{\dot {\mathbf {x} } })/\hbar }\psi _{0}(\mathbf {x} (t))\,{\mathcal {D} }\mathbf {x} \,\,,$$
-
-where $S_{\mathrm {Euclidean} }$ is the Euclidean action, given by
-
-$$S_{\mathrm {Euclidean} }(\mathbf {x} ,{\dot {\mathbf {x} } })=\int \left[{\frac {m}{2} }|{\dot {\mathbf {x} } }(t)|^{2}+V(\mathbf {x} (t))\right]\,dt\,.$$
-
-Note the sign change between this and the normal action, where the potential energy term is negative. \(The term _Euclidean_ is from the context of quantum field theory, where the change from real to imaginary time changes the space-time geometry from Lorentzian to Euclidean.\)
+If we replace $t$ by $-it$, the time-evolution operator $e^{-it{\hat {H} }/\hbar }$ is replaced by $e^{-t{\hat {H} }/\hbar }$. \(This change is known as a [Wick rotation](Wick%20rotation.md).\) If we repeat the derivation of the path-integral formula in this setting, we obtain<sup>[\[16\]](#^ref-16)</sup> <p> &nbsp;&nbsp;&nbsp;&nbsp; $$\psi (x,t)={\frac {1}{Z} }\int _{\mathbf {x} (0)=x}e^{-S_{\mathrm {Euclidean} }(\mathbf {x} ,{\dot {\mathbf {x} } })/\hbar }\psi _{0}(\mathbf {x} (t))\,{\mathcal {D} }\mathbf {x} \,\,,$$ <p> where $S_{\mathrm {Euclidean} }$ is the Euclidean action, given by <p> &nbsp;&nbsp;&nbsp;&nbsp; $$S_{\mathrm {Euclidean} }(\mathbf {x} ,{\dot {\mathbf {x} } })=\int \left[{\frac {m}{2} }|{\dot {\mathbf {x} } }(t)|^{2}+V(\mathbf {x} (t))\right]\,dt\,.$$ <p> Note the sign change between this and the normal action, where the potential energy term is negative. \(The term _Euclidean_ is from the context of quantum field theory, where the change from real to imaginary time changes the space-time geometry from Lorentzian to Euclidean.\)
 
 Now, the contribution of the kinetic energy to the path integral is as follows:
 
@@ -445,15 +427,7 @@ $${\frac {1}{Z} }\int _{\mathbf {x} (0)=x}f(\mathbf {x} )e^{-{\frac {m}{2} }\int
 
 where $f(\mathbf {x} )$ includes all the remaining dependence of the integrand on the path. This integral has a rigorous mathematical interpretation as integration against the [Wiener measure](Wiener%20process.md), denoted $\mu _{x}$. The Wiener measure, constructed by [Norbert Wiener](Norbert%20Wiener.md) gives a rigorous foundation to [Einstein's mathematical model of Brownian motion](Brownian%20motion.md#Einstein's%20theory). The subscript $x$ indicates that the measure $\mu _{x}$ is supported on paths $\mathbf {x}$ with $\mathbf {x} (0)=x$.
 
-We then have a rigorous version of the Feynman path integral, known as the [Feynman–Kac formula](Feynman–Kac%20formula.md):<sup>[\[17\]](#^ref-17)</sup>
-
-$$\psi (x,t)=\int e^{-\int V(\mathbf {x} (t))\,dt/\hbar }\,\psi _{0}(\mathbf {x} (t))\,d\mu _{x}(\mathbf {x} )\,,$$
-
-where now $\psi (x,t)$ satisfies the Wick-rotated version of the Schrödinger equation,
-
-$$\hbar {\frac {\partial }{\partial t} }\psi (x,t)=-{\hat {H} }\psi (x,t)\,.$$
-
-Although the Wick-rotated Schrödinger equation does not have a direct physical meaning, interesting properties of the Schrödinger operator ${\hat {H} }$ can be extracted by studying it.<sup>[\[18\]](#^ref-18)</sup>
+We then have a rigorous version of the Feynman path integral, known as the [Feynman–Kac formula](Feynman–Kac%20formula.md):<sup>[\[17\]](#^ref-17)</sup> <p> &nbsp;&nbsp;&nbsp;&nbsp; $$\psi (x,t)=\int e^{-\int V(\mathbf {x} (t))\,dt/\hbar }\,\psi _{0}(\mathbf {x} (t))\,d\mu _{x}(\mathbf {x} )\,,$$ <p> where now $\psi (x,t)$ satisfies the Wick-rotated version of the Schrödinger equation, <p> &nbsp;&nbsp;&nbsp;&nbsp; $$\hbar {\frac {\partial }{\partial t} }\psi (x,t)=-{\hat {H} }\psi (x,t)\,.$$ <p> Although the Wick-rotated Schrödinger equation does not have a direct physical meaning, interesting properties of the Schrödinger operator ${\hat {H} }$ can be extracted by studying it.<sup>[\[18\]](#^ref-18)</sup>
 
 Much of the study of quantum field theories from the path-integral perspective, in both the mathematics and physics literatures, is done in the Euclidean setting, that is, after a Wick rotation. In particular, there are various results showing that if a Euclidean field theory with suitable properties can be constructed, one can then undo the Wick rotation to recover the physical, Lorentzian theory.<sup>[\[19\]](#^ref-19)</sup> On the other hand, it is much more difficult to give a meaning to path integrals \(even Euclidean path integrals\) in quantum field theory than in quantum mechanics.<sup>[\[20\]](#^ref-20)</sup>
 
@@ -465,7 +439,7 @@ $$Z=\int e^{\frac {i{\mathcal {S} }[\mathbf {x} ]}{\hbar } }\,{\mathcal {D} }\ma
 
 is the [action](action%20(physics).md) of the classical problem in which one investigates the path starting at time _t_ = 0 and ending at time _t_ = t<sub>f</sub>, and ${\mathcal {D} }\mathbf {x}$ denotes the integration measure over all paths. In the classical limit, ${\mathcal {S} }[\mathbf {x} ]\gg \hbar$, the path of minimum action dominates the integral, because the phase of any path away from this fluctuates rapidly and different contributions cancel.<sup>[\[21\]](#^ref-21)</sup>
 
-The connection with [statistical mechanics](statistical%20mechanics.md) follows. Considering only paths that begin and end in the same configuration, perform the [Wick rotation](Wick%20rotation.md) _it_ = _ħβ_, i.e., make time imaginary, and integrate over all possible beginning-ending configurations. The Wick-rotated path integral—described in the previous subsection, with the ordinary action replaced by its "Euclidean" counterpart—now resembles the [partition function](partition%20function%20(statistical%20mechanics).md) of statistical mechanics defined in a [canonical ensemble](canonical%20ensemble.md) with inverse temperature proportional to imaginary time, $\frac{1}{T}=\frac{ik_{B}t}{\hbar}$. Strictly speaking, though, this is the partition function for a [statistical field theory](statistical%20field%20theory.md).
+The connection with [statistical mechanics](statistical%20mechanics.md) follows. Considering only paths that begin and end in the same configuration, perform the [Wick rotation](Wick%20rotation.md) _it_ = _ħβ_, i.e., make time imaginary, and integrate over all possible beginning-ending configurations. The Wick-rotated path integral—described in the previous subsection, with the ordinary action replaced by its "Euclidean" counterpart—now resembles the [partition function](partition%20function%20(statistical%20mechanics).md) of statistical mechanics defined in a [canonical ensemble](canonical%20ensemble.md) with inverse temperature proportional to imaginary time, $\frac{1}{T} = \frac{ik_{B}t}{\hbar}$. Strictly speaking, though, this is the partition function for a [statistical field theory](statistical%20field%20theory.md).
 
 Clearly, such a deep analogy between quantum mechanics and statistical mechanics cannot be dependent on the formulation. In the canonical formulation, one sees that the unitary evolution operator of a state is given by
 
@@ -615,7 +589,7 @@ The symbol ∫D<!-- markdown separator -->_ϕ_ here is a concise way to represen
 
 ### as a probability
 
-Strictly speaking, the only question that can be asked in physics is: _What fraction of states satisfying condition A also satisfy condition B?_ The answer to this is a number between 0 and 1, which can be interpreted as a [conditional probability](conditional%20probability.md), written as P\(_B_\|_A_\). In terms of path integration, since $P(B|A) =\frac{P(A∩B)}{P(A)}$, this means
+Strictly speaking, the only question that can be asked in physics is: _What fraction of states satisfying condition A also satisfy condition B?_ The answer to this is a number between 0 and 1, which can be interpreted as a [conditional probability](conditional%20probability.md), written as P\(_B_\|_A_\). In terms of path integration, since $P(B|A) = \frac{P(A∩B)}{P(A)}$, this means
 
 $$\operatorname {P} (B\mid A)={\frac {\sum _{F\subset A\cap B}\left|\int {\mathcal {D} }\varphi O_{\text{in} }[\varphi ]e^{i{\mathcal {S} }[\varphi ]}F[\varphi ]\right|^{2} }{\sum _{F\subset A}\left|\int {\mathcal {D} }\varphi O_{\text{in} }[\varphi ]e^{i{\mathcal {S} }[\varphi ]}F[\varphi ]\right|^{2} } },$$
 

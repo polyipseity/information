@@ -753,7 +753,7 @@ The last three components of a 4–vector must be a standard vector in three-dim
 
 #### examples of 4-vectors
 
-- __Displacement 4-vector:__ Otherwise known as the _spacetime separation_, this is \(_Δt, Δx, Δy, Δz_\), or for infinitesimal separations, \(_dt_, _dx_, _dy_, _dz_\). $$dS\equiv (dt,dx,dy,dz)$$ <p>
+- __Displacement 4-vector:__ Otherwise known as the _spacetime separation_, this is \(_Δt, Δx, Δy, Δz_\), or for infinitesimal separations, \(_dt_, _dx_, _dy_, _dz_\). <p> $$dS\equiv (dt,dx,dy,dz)$$
 - __Velocity 4-vector:__ This results when the displacement 4-vector is divided by $d\tau$, where $d\tau$ is the proper time between the two events that yield _dt_, _dx_, _dy_, and _dz_. <p> &nbsp;&nbsp;&nbsp;&nbsp;$V\equiv {\frac {dS}{d\tau } }={\frac {(dt,dx,dy,dz)}{dt/\gamma } }= \gamma \left(1,{\frac {dx}{dt} },{\frac {dy}{dt} },{\frac {dz}{dt} }\right)= (\gamma ,\gamma {\vec {v} })$ <p> The 4-velocity is tangent to the world line of a particle, and has a length equal to one unit of time in the frame of the particle. <p> An accelerated particle does not have an inertial frame in which it is always at rest. However, an inertial frame can always be found that is momentarily comoving with the particle. This frame, the _momentarily comoving reference frame_ \(MCRF\), enables application of special relativity to the analysis of accelerated particles. <p> Since photons move on null lines, $d\tau =0$ for a photon, and a 4-velocity cannot be defined. There is no frame in which a photon is at rest, and no MCRF can be established along a photon's path.
 
 > ![Momentarily Comoving Reference Frame](../../archives/Wikimedia%20Commons/Momentarily%20Comoving%20Reference%20Frame.gif)
@@ -764,9 +764,9 @@ The last three components of a 4–vector must be a standard vector in three-dim
 >
 > Figure 7-3b. The momentarily comoving reference frames along the trajectory of an accelerating observer \(center\).
 
-- __Energy–momentum 4-vector:__ $$P\equiv (E/c,{\vec {p} })=(E/c,p_{x},p_{y},p_{z})$$ <p> As indicated before, there are varying treatments for the energy–momentum 4-vector so that one may also see it expressed as $(E,{\vec {p} })$ or ⁠$(E,{\vec {p} }c)$⁠. The first component is the total energy \(including mass\) of the particle \(or system of particles\) in a given frame, while the remaining components are its spatial momentum. The energy–momentum 4-vector is a conserved quantity.
-- __Acceleration 4-vector:__ This results from taking the derivative of the velocity 4-vector with respect to ⁠$\tau$⁠. <p> &nbsp;&nbsp;&nbsp;&nbsp;$A\equiv {\frac {dV}{d\tau } }= {\frac {d}{d\tau } }(\gamma ,\gamma {\vec {v} })= \gamma \left({\frac {d\gamma }{dt} },{\frac {d(\gamma {\vec {v} })}{dt} }\right)$ <p>
-- __Force 4-vector:__ This is the derivative of the momentum 4-vector with respect to $\tau$. <p> &nbsp;&nbsp;&nbsp;&nbsp;$F\equiv {\frac {dP}{d\tau } }= \gamma \left({\frac {dE}{dt} },{\frac {d{\vec {p} } }{dt} }\right)= \gamma \left({\frac {dE}{dt} },{\vec {f} }\right)$ <p>
+- __Energy–momentum 4-vector:__ <p> $$P\equiv (E/c,{\vec {p} })=(E/c,p_{x},p_{y},p_{z})$$ <p> As indicated before, there are varying treatments for the energy–momentum 4-vector so that one may also see it expressed as $(E,{\vec {p} })$ or ⁠$(E,{\vec {p} }c)$⁠. The first component is the total energy \(including mass\) of the particle \(or system of particles\) in a given frame, while the remaining components are its spatial momentum. The energy–momentum 4-vector is a conserved quantity.
+- __Acceleration 4-vector:__ This results from taking the derivative of the velocity 4-vector with respect to ⁠$\tau$⁠. <p> &nbsp;&nbsp;&nbsp;&nbsp;$A\equiv {\frac {dV}{d\tau } }= {\frac {d}{d\tau } }(\gamma ,\gamma {\vec {v} })= \gamma \left({\frac {d\gamma }{dt} },{\frac {d(\gamma {\vec {v} })}{dt} }\right)$
+- __Force 4-vector:__ This is the derivative of the momentum 4-vector with respect to $\tau$. <p> &nbsp;&nbsp;&nbsp;&nbsp;$F\equiv {\frac {dP}{d\tau } }= \gamma \left({\frac {dE}{dt} },{\frac {d{\vec {p} } }{dt} }\right)= \gamma \left({\frac {dE}{dt} },{\vec {f} }\right)$
 
 As expected, the final components of the above 4-vectors are all standard 3-vectors corresponding to spatial 3-momentum, 3-force etc.<sup>[\[90\]](#^ref-90)</sup><sup>:&hairsp;36–59&hairsp;</sup>
 
