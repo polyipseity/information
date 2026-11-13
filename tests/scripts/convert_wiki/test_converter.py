@@ -3814,3 +3814,74 @@ async def test_selflink_fragment_without_page_name(
     )
     result = await _convert(converter, html)
     assert "[linearity](#properties)" in result
+
+
+class TestPostListDlContinuation:
+    """Continuation ``<dl><dd>`` blocks immediately after lists."""
+
+    @pytest.mark.anyio
+    async def test_text_dd_after_ul_continues_last_list_item(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A text ``<dl><dd>`` after ``</ul>`` continues the last list item."""
+        html = (
+            "<ul><li>first item</li><li>second item</li></ul>"
+            "<dl><dd>This formula is often used to compute least common multiples.</dd></dl>"
+        )
+        result = await _convert(converter, html)
+
+        assert (
+            "- second item <p> This formula is often used to compute "
+            "least common multiples." in result
+        )
+        assert "\n\n <p> This formula" not in result
+        assert result.lstrip().startswith("- first item\n")
+
+    @pytest.mark.anyio
+    async def test_text_dd_after_ol_continues_last_list_item(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A text ``<dl><dd>`` after ``</ol>`` continues the last list item."""
+        html = (
+            "<ol><li>first</li><li>second</li></ol>"
+            "<dl><dd>Continued explanation.</dd></dl>"
+        )
+        result = await _convert(converter, html)
+
+        assert "2. second <p> Continued explanation." in result
+        assert "\n\n <p> Continued explanation" not in result
+
+    @pytest.mark.anyio
+    async def test_text_dd_after_ul_stays_with_last_bullet(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A post-list continuation dd stays with the last bullet, not earlier ones."""
+        html = (
+            "<ul>"
+            "<li>alpha</li>"
+            "<li>beta</li>"
+            "<li>gamma</li>"
+            "</ul>"
+            "<dl><dd>Continuation of gamma.</dd></dl>"
+        )
+        result = await _convert(converter, html)
+
+        assert "- gamma <p> Continuation of gamma." in result
+        assert "- beta <p> Continuation of gamma." not in result
+        assert "- alpha <p> Continuation of gamma." not in result
+
+    @pytest.mark.anyio
+    async def test_multiple_dd_rows_after_ul_continue_last_list_item(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Multiple continuation ``<dd>`` rows after a list stay with the last item."""
+        html = (
+            "<ul><li>item</li></ul>"
+            "<dl><dd>First continuation.</dd><dd>Second continuation.</dd></dl>"
+        )
+        result = await _convert(converter, html)
+
+        assert "- item <p> First continuation." in result
+        assert "Second continuation." in result
+        assert "\n\n <p> First continuation" not in result
+        assert "\n\nSecond continuation" not in result

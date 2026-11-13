@@ -646,6 +646,10 @@ class WikiHtmlConverter:
         # each end with \n (their suffix), so even after stripping one \n
         # from strings, the list suffix must also be reduced to avoid
         # re-creating the blank line.
+        #
+        # A continuation ``<dl><dd>`` immediately after the list belongs to
+        # the last list item.  Strip the list's trailing newline and suffix
+        # so the ``<dl>`` continuation prefix can join that item inline.
         if ele.name in _LIST_TAGS and config.suffix == "\n\n":
             nxt = self._effective_sibling_skipping(
                 ele, following=True, skip_whitespace=True, refs=refs
@@ -653,6 +657,11 @@ class WikiHtmlConverter:
             if isinstance(nxt, Tag) and nxt.name == "p" and _is_display_math_only(nxt):
                 strings = strings.rstrip("\n")
                 config.suffix = ""
+            elif isinstance(nxt, Tag) and nxt.name == "dl":
+                prev_of_dl = self._content_sibling(nxt, following=False)
+                if prev_of_dl is ele:
+                    strings = strings.rstrip("\n")
+                    config.suffix = ""
         # When a <p> is followed by a display-math-only <dl>, strip the
         # trailing \n\n from the <p> output so the <dl> content (with its
         # " <p> " prefix) joins inline on the same line.
