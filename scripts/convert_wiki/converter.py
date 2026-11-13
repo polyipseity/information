@@ -1903,6 +1903,19 @@ class WikiHtmlConverter:
                 joiner = " <p> "
                 prefix = " <p> "
                 suffix = " "
+                # A display-formula continuation after a list stays with the
+                # last list item, so keep the indented block-math formatting
+                # used for display formulas inside list items.
+                if _is_display_math_only_dl(ele):
+                    nxt = ele.next_sibling
+                    if (
+                        isinstance(nxt, NavigableString)
+                        and str(nxt)[:1] in " \t\n\r\x0b\x0c"
+                    ):
+                        suffix = " <p>"
+                    else:
+                        suffix = " <p> "
+                    prefix = f" <p> {_MATH_DL_INDENT}"
             # When a display-math-only <dl> follows a <p>, join inline
             # with <p> separator instead of creating a block break.
             elif _is_display_math_only_dl(ele):

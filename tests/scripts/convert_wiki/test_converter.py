@@ -3885,3 +3885,80 @@ class TestPostListDlContinuation:
         assert "Second continuation." in result
         assert "\n\n <p> First continuation" not in result
         assert "\n\nSecond continuation" not in result
+
+    @pytest.mark.anyio
+    async def test_display_formula_texhtml_dd_after_ul_continues_last_list_item(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A texhtml display-formula ``<dl><dd>`` after ``</ul>`` continues the last item."""
+        html = (
+            "<ul><li>: we have</li></ul>"
+            '<dl><dd><span class="texhtml">'
+            "gcd(<i>a</i>, <i>b</i>)⋅lcm(<i>a</i>, <i>b</i>) = "
+            '<span typeof="mw:Entity">|</span>'
+            '<span class="nowrap"><i>a</i>⋅<i>b</i></span>'
+            '<span typeof="mw:Entity">|</span>'
+            "</span>.</dd></dl>"
+        )
+        result = await _convert(converter, html)
+
+        assert "havegcd" not in result
+        assert "have\\gcd" not in result
+        assert "- : we have <p> &nbsp;&nbsp;&nbsp;&nbsp;$$" in result
+        assert (
+            "\\gcd(a, b)\\cdot{}\\operatorname{lcm}(a, b) = |a\\cdot{}b|\\,.$$"
+            in result
+        )
+        assert "\n\n <p> &nbsp;&nbsp;&nbsp;&nbsp;$$" not in result
+        assert result.lstrip().startswith("- : we have")
+
+    @pytest.mark.anyio
+    async def test_display_formula_block_math_dd_after_ul_continues_last_list_item(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A block-math display-formula ``<dl><dd>`` after ``</ul>`` continues the last item."""
+        html = (
+            "<ul><li>and the complexity is thus</li></ul>"
+            f"<dl><dd>{_block_math_span(r'{\displaystyle O(n^2)}')}.</dd></dl>"
+        )
+        result = await _convert(converter, html)
+
+        assert (
+            "- and the complexity is thus <p> &nbsp;&nbsp;&nbsp;&nbsp;"
+            "$$O(n^2)\\,.$$" in result
+        )
+        assert "\n\n <p> &nbsp;&nbsp;&nbsp;&nbsp; $$O(n^2)" not in result
+        assert result.lstrip().startswith("- and the complexity is thus")
+
+    @pytest.mark.anyio
+    async def test_display_formula_block_math_dd_after_ol_continues_last_list_item(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A block-math display-formula ``<dl><dd>`` after ``</ol>`` continues the last item."""
+        html = (
+            "<ol><li>first</li><li>we have</li></ol>"
+            f"<dl><dd>{_block_math_span(r'{\displaystyle x}')}</dd></dl>"
+        )
+        result = await _convert(converter, html)
+
+        assert "2. we have <p> &nbsp;&nbsp;&nbsp;&nbsp;$$x$$" in result
+        assert "\n\n <p> &nbsp;&nbsp;&nbsp;&nbsp;$$x$$" not in result
+
+    @pytest.mark.anyio
+    async def test_multi_row_display_math_dd_after_ul_continues_last_list_item(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A multi-row display-math ``<dl>`` after ``</ul>`` keeps in-list continuation formatting."""
+        html = (
+            "<ul><li>text</li></ul>"
+            "<dl>"
+            f"<dd>{_block_math_span(r'{\displaystyle f(x)}')}</dd>"
+            f"<dd>{_block_math_span(r'{\displaystyle g(x)}')}</dd>"
+            "</dl>"
+        )
+        result = await _convert(converter, html)
+
+        assert "- text <p> &nbsp;&nbsp;&nbsp;&nbsp;$$f(x)$$ <p> $$g(x)$$" in result
+        assert "\n\n <p> &nbsp;&nbsp;&nbsp;&nbsp;$$f(x)$$" not in result
+        assert "<br/> &nbsp;&nbsp;&nbsp;&nbsp;" not in result
+        assert result.lstrip().startswith("- text <p>")
