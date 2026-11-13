@@ -4053,6 +4053,4 @@ class TestInListDlContinuation:
         assert "continued text" in result
         assert "nested" in result
         # Nested list item must remain rendered as a nested list item.
-        assert (
-            "    - nested" in result or "\n  - nested" in result or "- nested" in result
-        )
+        assert "    - nested" in result or "\n  - nested" in result
