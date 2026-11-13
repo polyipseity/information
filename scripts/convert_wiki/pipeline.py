@@ -1101,7 +1101,7 @@ def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
 
     # 7. Normalize external math punctuation: absorb trailing
     #    punctuation from sibling text into math alttext.
-    for container in soup.find_all(list(_DISPLAY_MATH_CONTAINERS | {"p"})):
+    for container in soup.find_all(list(_DISPLAY_MATH_CONTAINERS | {"p", "dd"})):
         WikiHtmlConverter._normalize_external_math_punctuation(container)
 
     # 8. Replace legacy texhtml spans that plain text cannot carry (radicals,

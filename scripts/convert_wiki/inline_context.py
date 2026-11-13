@@ -98,6 +98,10 @@ def _is_display_math_only_dl(ele: Tag) -> bool:
     # joined inline like the original multi-part form.
     if len(dd_children) == 1 and first.get("data-merged-inline") is not None:
         return True
+    # A sole math child can remain after external punctuation absorption in a
+    # display-math-only <dl> joined to a preceding <p>.
+    if len(dd_children) == 1 and ele.get("data-dl-display-math-join") is not None:
+        return True
     # Match as long as the first child is math and there are
     # ≥2 children (ensuring trailing content exists).  The last
     # child may be math (e.g. "$\\Delta x=0\\ $" at the end of

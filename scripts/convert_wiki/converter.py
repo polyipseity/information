@@ -1665,6 +1665,87 @@ class WikiHtmlConverter:
         return prev if isinstance(prev, Tag) else None
 
     @staticmethod
+    def _next_significant_sibling_tag(
+        ele: PageElement, *, following: bool
+    ) -> Tag | None:
+        """Return the next significant sibling tag.
+
+        Skips whitespace-only text nodes and ``<link>``/``<style>`` tags,
+        matching the content-sibling logic used for structural decisions.
+        """
+        sib = ele.next_sibling if following else ele.previous_sibling
+        while sib is not None:
+            if isinstance(sib, NavigableString):
+                if not sib.strip():
+                    sib = sib.next_sibling if following else sib.previous_sibling
+                    continue
+                return None
+            if isinstance(sib, Tag):
+                if sib.name in {"link", "style"}:
+                    sib = sib.next_sibling if following else sib.previous_sibling
+                    continue
+                return sib
+            return None
+        return None
+
+    @staticmethod
+    def _tag_starts_with_heading_block(tag: Tag) -> bool:
+        """Return True when *tag* is or begins with a heading block.
+
+        A heading block is an ``h1``–``h6`` element or a ``div`` carrying the
+        ``mw-heading`` class.  A ``<section>`` counts when one of its direct
+        children is such a heading block (not nested deeper), matching the
+        section-wrapped heading rule.
+        """
+        if _HEADER_REGEX.match(tag.name):
+            return True
+        classes = frozenset(tag.get_attribute_list("class"))
+        if "mw-heading" in classes:
+            return True
+        if tag.name == "section":
+            for child in tag.children:
+                if not isinstance(child, Tag):
+                    continue
+                if _HEADER_REGEX.match(child.name):
+                    return True
+                if "mw-heading" in frozenset(child.get_attribute_list("class")):
+                    return True
+            return False
+        return False
+
+    @staticmethod
+    def _logical_next_starts_with_heading(ele: Tag) -> bool:
+        """Return True if the next logical block starts with a heading.
+
+        Considers direct significant siblings and, when *ele* is the last
+        content element of enclosing ``<section>`` containers, the next
+        sibling ``<section>`` that begins with a heading block.
+        """
+        nxt = WikiHtmlConverter._next_significant_sibling_tag(ele, following=True)
+        if nxt is not None:
+            return WikiHtmlConverter._tag_starts_with_heading_block(nxt)
+
+        node: PageElement = ele
+        while True:
+            parent = node.parent
+            if not isinstance(parent, Tag) or parent.name != "section":
+                return False
+            if (
+                WikiHtmlConverter._next_significant_sibling_tag(node, following=True)
+                is not None
+            ):
+                return False
+            sect_nxt = WikiHtmlConverter._next_significant_sibling_tag(
+                parent, following=True
+            )
+            if sect_nxt is None:
+                node = parent
+                continue
+            return sect_nxt.name == "section" and (
+                WikiHtmlConverter._tag_starts_with_heading_block(sect_nxt)
+            )
+
+    @staticmethod
     def _next_is_display_math_dl(ele: Tag) -> bool:
         """Return True if *ele*'s next content sibling is a display-math-only <dl>."""
         nxt = WikiHtmlConverter._content_sibling(ele, following=True)
@@ -1824,19 +1905,11 @@ class WikiHtmlConverter:
                     # "\n" joiner collapse them into one soft-wrapped line.
                     if len(ele.find_all("dd", recursive=False)) > 1:
                         joiner = _MATH_DL_ROW_SEPARATOR
-                    # Check if next sibling is a heading — headings should
-                    # be on separate lines, not joined with <p>.
-                    # Headings may be wrapped in div.mw-heading.
-                    nxt = self._content_sibling(ele, following=True)
-                    is_heading = isinstance(nxt, Tag) and (
-                        nxt.name in _HEADING_TAGS
-                        or (
-                            nxt.name == "div"
-                            and "mw-heading"
-                            in frozenset(nxt.get_attribute_list("class"))
-                        )
-                    )
-                    if is_heading:
+                    # Check if the next logical block starts with a heading —
+                    # headings must be separated by a blank line, not joined
+                    # inline with <p>.  This includes headings that begin the
+                    # next sibling <section>.
+                    if self._logical_next_starts_with_heading(ele):
                         suffix = "\n\n"
                     else:
                         suffix = " <p> "
@@ -1884,16 +1957,7 @@ class WikiHtmlConverter:
                 and _is_display_math_only_dl(prev)
                 and _dl_follows_p(prev)
             ):
-                nxt_of_dl = self._content_sibling(prev, following=True)
-                is_heading = isinstance(nxt_of_dl, Tag) and (
-                    nxt_of_dl.name in _HEADING_TAGS
-                    or (
-                        nxt_of_dl.name == "div"
-                        and "mw-heading"
-                        in frozenset(nxt_of_dl.get_attribute_list("class"))
-                    )
-                )
-                if not is_heading:
+                if not self._logical_next_starts_with_heading(prev):
                     prefix = ""
 
         # When a <p> is followed by a display-math-only <dl>, suppress the
@@ -1981,6 +2045,13 @@ class WikiHtmlConverter:
         if WikiHtmlConverter._substantive_child_count(container) != 2:
             return False
         if container.name in _DISPLAY_MATH_CONTAINERS:
+            return True
+        if (
+            container.name == "dd"
+            and isinstance(container.parent, Tag)
+            and _is_display_math_only_dl(container.parent)
+            and _dl_follows_p(container.parent)
+        ):
             return True
         return WikiHtmlConverter._contains_display_environment(alt_text)
 
@@ -2102,7 +2173,10 @@ class WikiHtmlConverter:
             if "mwe-math-element" not in class_str:
                 continue
             outer_span = child
-            math = outer_span.find("math")
+            if outer_span.name == "math":
+                math = outer_span
+            else:
+                math = outer_span.find("math")
             if not isinstance(math, Tag):
                 continue
             raw_alttext = math.get("alttext")
@@ -2120,6 +2194,13 @@ class WikiHtmlConverter:
                 alt_text, punct
             )
             WikiHtmlConverter._decompose_punctuation_sibling(outer_span)
+            if (
+                container.name == "dd"
+                and isinstance(container.parent, Tag)
+                and container.parent.name == "dl"
+                and _dl_follows_p(container.parent)
+            ):
+                container.parent["data-dl-display-math-join"] = ""
 
     @staticmethod
     def _escape_flashcard_delimiters(text: str) -> str:
