@@ -24,7 +24,7 @@ The closing cloze delimiter `}@}` comes before any trailing punctuation, which s
 
 ## What the cloze hides
 
-The cloze holds the payload; the frame around it — copula, leading verb, subject label — stays visible, so a card front reads as a sentence with a blank, never an unfinished fragment. An answer short enough to read as one sentence hides its whole sentence, `{@{The 30 unfilled shares cancel.}@}`, punctuation inside. A derivation hides each step's payload and keeps the frame that reads it — `Substituting {@{…}@}, and multiplying {@{…}@}, which is {@{…}@}`, `so the expected loss is {@{…}@}` — rather than hiding everything but the punctuation, which leaves a card with nothing to read. The hiding direction follows what is recalled: when the value is the answer the term prompts and the value hides, when the name is the answer the term itself hides.
+The cloze holds the payload and the frame around it stays visible, so a card front reads as a sentence with a blank rather than a fragment. The hiding direction follows what is recalled: when the value is the answer the term prompts, the value hides; when the name is the answer, the term itself hides.
 
 - __Value is the answer__ (prompt-visible): `the orbital speed is {@{$v = \sqrt{e^2/(4\pi\epsilon_0 m r)} = 2.19 \times 10^6\ \text{m/s}$}@}`
 - __Name is the answer__ (term-hidden): `{@{Rutherford backscattering (RBS)}@} fires ions at a sample and measures the backscattered energy loss`
@@ -33,9 +33,39 @@ The cloze holds the payload; the frame around it — copula, leading verb, subje
 
 A copula inside a cloze is fine after the payload's first word: `{@{flattens …, so it is not single-valued}@}`.
 
-Two numbers bound the hiding. One cloze hides at most twenty prose words; a longer explanation keeps 60% to 90% of its prose words inside its clozes with one in every sentence, since below 60% most of the answer stays visible and above 90% the frame goes too. A visible fragment under four prose words is frame rather than payload, so it is not judged. Mathematics and code are not prose, so a formula hides whole. `cloze_giant` warns past the cap on an answer line, and on a blockquoted line carrying no label in a lab, tutorial or lecture note, `answer_explanation_shape` holds an explanation to the band, and `cloze_glue` rejects a cloze holding only connectives, `{@{so}@}` or `{@{which is}@}`, which leaves nothing to recall.
+__Length picks the shape.__ An explanation of twenty prose words or fewer written on one line is one cloze holding it whole, from its label onward on an answer line, punctuation inside, even when it runs across two sentences: `{@{The 30 unfilled shares cancel.}@}`. Past twenty, or once it continues onto a second line at any length, it is a derivation, and each sentence carries its own cloze hiding that step's payload.
 
-A formula is hidden together with the words that give it meaning. On a question block's answer line a formula clozed alone, with prose beside it, asks for a symbol string rather than a fact (`answer_formula_alone`): hide it in the cloze holding its words, and leave one alone only where the surrounding text says nothing or the formula is a named statement, such as a theorem, a lemma or a definition. A solution line is the exception, since it names the option it answers and that option may be a bare formula.
+__One item per slot.__ A block carries one `- explanation:`, one `- solution:` and one `- annotation:`. A step with more to say continues on the lines below its item: the line above ends with `<br/>`, each continuation is indented four spaces past the quote space (so it reads `>` then five spaces then the text), and a new paragraph inside the item leaves a blank `>` line between the two instead of the tag. A second `- explanation:` answers the question twice rather than giving the first one room.
+
+- __The frame stays visible.__ The words that introduce the clause stay outside the cloze: its subject, or an opener such as `Consider`, `We also`, `Thus`, `The price, when`, `Since …`. Hide what the clause asserts, not the words that set it up.
+- __Boundaries snap to the constituent.__ A cloze opens and closes where a phrase does, never in the middle of one.
+- __A dangling tail is absorbed.__ `move up or down` becomes `move up or down before settlement` when `before settlement` is neither frame nor answer.
+- __A bare connective merges into its neighbour.__ `not always`, `not both` and `not only for the DC term` join the cloze beside them; none stands as its own cloze.
+- __The grammatical pivot stays visible__ when both sides carry payload: `{@{The required average inventory}@} is {@{4 shows}@}`. A lone adjective predicate merges with its copula instead: `{@{Discrete-time sinusoids are equivalent}@}`.
+- __The article goes inside the cloze.__ `a {@{discrete line spectrum}@}` becomes `{@{a discrete line spectrum}@}`.
+- __Maths goes inside the cloze that answers.__ The arithmetic producing the answer hides with it, `{@{add up the activity time: 5+15+60 = 80 minutes}@}`, a display block's full stop included as `\,.` and its `$$` inside the cloze with it.
+- __Never cloze what the line already shows.__ A word the line states stays stated, and a parenthetical hedge stays visible: `{@{The effect of lack of correlation}@} \(should\) {@{outweighs that of higher SD}@}`.
+
+Three limits hold an answer line. A long explanation keeps 0.45 to 0.95 of its prose words inside its clozes, with one in every sentence (`answer_explanation_shape`), and it is measured as the whole item, continuation lines included, however short that item is. One cloze hides at most twenty prose words (`cloze_giant` warns past it, and a solution's single cloze is exempt). A formula clozed alone while prose stays visible beside it is a warning (`answer_formula_alone`): hide it in the cloze holding its words, and a line that keeps it alone carries its own suppression, `<!-- check: ignore-line[answer_formula_alone]: <reason> -->`, where the visible frame names the formula. Mathematics and code are not prose, so a formula hides whole, and a visible fragment under four prose words is frame rather than payload, so it is not judged.
+
+Three rules reject what the limits leave open. `answer_sentence_all_hidden` rejects a long explanation or annotation that hides a whole sentence, since the card then shows nothing to recall that step from. `answer_visible_calculation` rejects a calculation left standing outside every cloze on a line whose clozes hide no number, since the card reads the result it asks for. `cloze_glue` rejects a cloze holding only connectives, `{@{so}@}` or `{@{which is}@}`: merge the connective into the cloze beside it.
+
+## Style gallery
+
+Before → after, each pair hand-corrected by the owner and quoted from that diff; the label names the rule it settles.
+
+1. __Frame at the clause opening__ (ECON 2103 questions:52): `Do not consider the already spent {@{$10&nbsp;000 as it is a sunk cost}@}.` → `Do not consider {@{the already spent $10&nbsp;000 as it is a sunk cost}@}.`
+2. __Absorbing a dangling tail__ (ACCT 3020 dilutive securities:448): `so compensation expense can {@{move up or down}@} before settlement.` → `so compensation expense can {@{move up or down before settlement}@}.`
+3. __Merging a bare connective__ (COMP 3111H UML:746): `(e.g., {@{a car}@} can be owned by {@{either a company or a person}@} but {@{not both}@})` → `(e.g., {@{a car}@} can be owned by {@{either a company or a person but not both}@})`
+4. __Never cloze what the line shows__ (COMP 3111H UML:343): `It describes {@{what conditions are required to start the use case}@} \(the "{@{what}@}"\)` → `It describes {@{what conditions are required to start the use case}@} \(the "what"\)`
+5. __The article goes inside__ (ELEC 2100 quiz 2:115): `produces a {@{discrete line spectrum at harmonic frequencies}@}, not a {@{continuous spectrum}@}` → `produces {@{a discrete line spectrum at harmonic frequencies}@}, not {@{a continuous spectrum}@}`
+6. __Maths inside the cloze that answers__ (ISOM 2700 quiz 1:46): `Thus, simply add up the activity time: 5+15+60 = {@{80&nbsp;minutes}@}.` → `Thus, simply {@{add up the activity time: 5+15+60 = 80&nbsp;minutes}@}.`
+7. __The maths label and its formula together__ (ECON 2103 questions:191): `Consider {@{the marginal (opportunity) costs for Albert if he specializes in meat}@}: $$16 / 24 = 2 / 3~\mathrm{potato/meat}$$.` → `Consider {@{the marginal (opportunity) costs for Albert if he specializes in meat: $$16 / 24 = 2 / 3~\mathrm{potato/meat}\,.$$}@}`
+8. __A short line stays one cloze__ (ELEC 1100 week 11:43): `{@{A "0 1" sensor rotation}@} means {@{left sensor not on white, right sensor on white}@}, which corresponds to {@{rotating left}@}.` → `{@{A "0 1" sensor rotation means left sensor not on white, right sensor on white, which corresponds to rotating left.}@}`
+9. __A 22-word line splits, keeping frames__ (FINA 2303 questions:212): `{@{Compare the two annuities. The latter is simply the former, but with all cash flows moving backward in time by 1 period.}@}` → `Compare {@{the two annuities}@}. The latter is {@{simply the former}@}, but with {@{all cash flows moving backward in time by 1 period}@}.`
+10. __The pivot visible on both sides__ (ISOM 2700 quiz 1:124): `{@{The required average inventory is 4 shows}@}` → `{@{The required average inventory}@} is {@{4 shows}@}`
+11. __The hedge stays visible__ (FINA 2303 questions:1189): `{@{The effect of lack of correlation \(should\) outweighs that of higher SD}@}.` → `{@{The effect of lack of correlation}@} \(should\) {@{outweighs that of higher SD}@}.`
+12. __Premise hidden, frame kept__ (COMP 3111H quiz 14:106): `For a \(large\) loop with _n_ iterations, {@{execute loops for 0, 1, 2 passes}@};` → `For {@{a \(large\) loop with _n_ iterations}@}, execute {@{loops for 0, 1, 2 passes}@};`
 
 ## Diagrams in cards
 
@@ -142,7 +172,7 @@ Do not mix prose and equation in one cloze by default. For "The voltage is $V=..
 
 ### 4. Audit coverage
 
-An answer of at most twenty prose words is one cloze holding the line whole. A longer one is a derivation: every sentence carries a cloze hiding its step's payload, 60% to 90% of the line's prose words sit inside the clozes, and the frame that reads the steps stays visible. Reach that with this hierarchy:
+An answer of at most twenty prose words is one cloze holding the line whole. A longer one is a derivation: every sentence carries a cloze hiding its step's payload, 0.45 to 0.95 of the line's prose words sit inside the clozes, and the frame that reads the steps stays visible. Reach that with this hierarchy:
 
 1. __Expand__ an existing cloze to absorb important visible content around it (preferred: fewest lines rewritten).
 2. __Add__ a new cloze when uncovered content is far from any existing one.

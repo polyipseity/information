@@ -17,6 +17,7 @@ from main_mods.rules import (
     agents_title,
     aliases_sorted,
     answer_formula_alone,
+    answer_visible_calculation,
     assignment_index_heading,
     assignment_index_metadata,
     assignment_index_sections,
@@ -2954,6 +2955,33 @@ def test_cloze_glue_message_teaches_the_shape():
     assert msgs[0].msg.startswith("a cloze hides what carries the fact")
     assert "hides only a connective" in msgs[0].msg
     assert "nothing to recall" in msgs[0].msg
+    assert "merge the connective into the cloze beside it" in msgs[0].msg
+    for shape in ("but not always", "but not both", "not only for the DC term"):
+        assert shape in msgs[0].msg
+
+
+def test_answer_formula_alone_reaches_a_continued_line():
+    """A formula hidden alone on a continued line is judged with its item."""
+    front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+    ctx = make_ctx(
+        front
+        + "> - explanation: The density is {@{the mass over the volume}@}. <br/>\n"
+        ">     For a uniform body it reads {@{$\\frac{m}{V}$}@}.\n"
+    )
+    assert [m.rule_id for m in answer_formula_alone(ctx)] == ["answer_formula_alone"]
+
+
+def test_answer_visible_calculation_reaches_a_continued_line():
+    """A calculation shown on a continued line is the answer the card asks for."""
+    front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+    ctx = make_ctx(
+        front + "> - explanation: The planet is {@{in prograde motion}@}. <br/>\n"
+        ">     Hence the year is $6 - 1 = 5\\text{ solar days}$ long, "
+        "which {@{the card asks for}@}.\n"
+    )
+    msgs = answer_visible_calculation(ctx)
+    assert [m.rule_id for m in msgs] == ["answer_visible_calculation"]
+    assert "6 - 1 = 5" in msgs[0].msg
 
 
 def test_answer_formula_alone_rule():
@@ -3011,6 +3039,54 @@ def test_answer_formula_alone_message_asks_for_a_fix():
         "meaning" in msgs[0].msg
     )
     assert "named statement" in msgs[0].msg
+    assert "warns instead of failing the line" in msgs[0].msg
+    assert "check: ignore-line[answer_formula_alone]" in msgs[0].msg
+
+
+def test_answer_visible_calculation_rule():
+    """A calculation outside every cloze shows the reader the answer."""
+    front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+
+    # The real line: the numbers the card asks for are printed beside it.
+    visible = make_ctx(
+        front + "> - explanation: The planet is {@{in prograde motion}@}. "
+        "Hence, {@{the number of solar days per orbital period}@} is "
+        "$6 - 1 = 5\\text{ solar days}$. Thus {@{each solar day}@} is "
+        "$\\frac {1 / 5} {1 / 6} = \\frac 6 5\\text{ sidereal days}$.\n"
+    )
+    msgs = answer_visible_calculation(visible)
+    assert [m.rule_id for m in msgs] == ["answer_visible_calculation"]
+    assert msgs[0].severity is Severity.ERROR
+    assert "6 - 1 = 5" in msgs[0].msg
+
+    # A derivation that hides its arithmetic already carries the numbers.
+    hidden = make_ctx(
+        front + "> - explanation: Consider {@{the marginal (opportunity) costs "
+        "for Albert if he specializes in meat: $$16 / 24 = 2 / 3~\\mathrm{"
+        "potato/meat}\\,.$$}@} Also consider that if he {@{specializes in "
+        "potato: $$24 / 16 = 1.5~\\mathrm{meat/potato}\\,.$$}@} If {@{the "
+        "marginal cost is lower than the marginal benefit}@}, then {@{Albert "
+        "will exchange}@}.\n"
+    )
+    assert not answer_visible_calculation(hidden)
+
+    # A symbolic left side states a premise rather than doing arithmetic.
+    symbolic = make_ctx(
+        front + "> - annotation: ρ=1 corresponds to {@{the blue line}@}, and "
+        "{@{ρ=0 to the red one}@}.\n"
+    )
+    assert not answer_visible_calculation(symbolic)
+
+    # A solution names an option, which may be a bare calculation.
+    solution = make_ctx(front + "> - solution: {@{3. 6 - 1 = 5 days}@}\n")
+    assert not answer_visible_calculation(solution)
+
+    # A visible run with no operator is a value, not a calculation.
+    value = make_ctx(
+        front + "> - explanation: The pegged price is 113 {@{behind the 120 "
+        "displayed shares}@}.\n"
+    )
+    assert not answer_visible_calculation(value)
 
 
 def test_qa_block_missing_solution_rule():
@@ -3413,6 +3489,18 @@ def test_no_soft_wrap_list():
     ctx = make_ctx(txt)
     msgs = no_soft_wrap_list(ctx)
     assert len(msgs) == 2
+
+
+def test_no_soft_wrap_list_exempts_a_written_break():
+    """A break written as `<br/>` is the author's own, not a soft wrap."""
+    text = "- item part1 {@{x}@} <br/>\n    part2 {@{y}@}\n"
+    assert not no_soft_wrap_list(make_ctx(text))
+
+
+def test_no_soft_wrap_list_exempts_a_tag_the_first_words_hide():
+    """The item's own words appear earlier, and its one break is written anyway."""
+    text = "check the list below.\n\n- check <br/>\n    the second line\n"
+    assert not no_soft_wrap_list(make_ctx(text))
 
 
 def test_no_soft_wrap_list_yaml_frontmatter():

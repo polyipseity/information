@@ -87,6 +87,7 @@ Use `\[missing\]` for absent values, such as a problem with no solution yet or a
 - Official problems in blockquotes (`>`)
 - A question in parts opens each part on its label, `> 5.a. ...`, and restates the premises that part needs, because a block is read without its siblings
 - `> - solution:` on its own line within each blockquote, below the `> ---` rule. It takes the shape the question needs: one option, `{@{3. (c)}@}`; several options in the one cloze, `{@{2. 115 dollars and 3. 114 dollars}@}`, each name written `<number>. <choice text>` and joined by `and`, a comma, `&` or a semicolon; a free-response answer where the source lists no choices, `{@{<the answer>}@}`; or the result of a worked answer, whose steps sit on `- explanation:` below it
+- One item per slot in a block. A step the item still has to take continues on the line below it, that line indented four spaces past the quote space with `<br/>` ending the line above; a blank `>` line opens a new paragraph inside the same item
 - `<!-- markdownlint MD028 -->` between adjacent blockquotes
 - Blank blockquote lines (`>`) between display math and prose:
 

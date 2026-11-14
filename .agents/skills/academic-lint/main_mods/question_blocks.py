@@ -8,8 +8,11 @@ the marker, ``> 1. (a)``; an author never invents them and never writes them
 as bullets or letters.  The answer lines are measured as well: a solution
 names the choice it answers and carries one cloze, and an explanation of at
 most twenty words is one cloze holding the line whole, while a longer one
-hides each step's payload, keeps the frame, and leaves between 60% and 90% of
-its words inside a cloze.
+hides each step's payload, keeps the frame, and leaves between 45% and 95% of
+its words inside a cloze.  That band is the one the owner's forty
+hand-corrected answer lines keep, 0.50 to 0.906: a line may show a little more
+of its answer than the reference note does, and hide a little more, without
+the rule mistaking either edge for a defect.
 
 One rule here carries a legacy allowance, because the older notes were written
 before the shape existed and a tree-wide error would fail them on arrival:
@@ -27,13 +30,20 @@ from string import punctuation
 from .models import Severity, ValidationContext, ValidationMessage
 from .readability import split_sentences
 from .registry import RuleRegistry
-from .rules import _clozes_answer_whole, _split_answer_label
+from .rules import (
+    _ANY_LABEL_RE,
+    _answer_item_records,
+    _answer_items,
+    _scan_cloze_tokens,
+    _split_answer_label,
+)
 from .utils import locate
 
 """Public symbols exported by this module."""
 __all__ = (
     "RULE_REGISTRY",
     "answer_explanation_shape",
+    "answer_sentence_all_hidden",
     "answer_solution_names_option",
     "answer_solution_one_cloze",
     "cloze_giant",
@@ -137,14 +147,45 @@ _ROMAN_LETTERS = frozenset("ivxIVX")
 """A cloze deletion and the text it hides."""
 _CLOZE_RE = re.compile(r"\{@\{(?P<body>.*?)\}@\}", re.DOTALL)
 
-"""Math written inline, which a cloze may hide whole without hiding prose."""
-_MATH_RE = re.compile(r"\$[^$\n]*\$")
+"""Display math: a ``$$…$$`` block, a ``\\[…\\]`` block, or an aligned environment.
+
+The environments are the ones ``_DISPLAY_MATH_BLOCK_RE`` in ``rules.py``
+names, and a block may span lines, as one does inside a cloze.
+"""
+_DISPLAY_MATH_RE = re.compile(
+    r"\$\$.*?\$\$"
+    r"|\\\[.*?\\\]"
+    r"|\\begin\{(?P<environment>aligned|align|gathered|split)\}"
+    r".*?\\end\{(?P=environment)\}",
+    re.DOTALL,
+)
+
+"""Math written inline, which a cloze may hide whole without hiding prose.
+
+A backslash escapes a dollar, so ``\\$1`` is a literal amount and neither
+opens nor closes a match: ``latex_disallowed_delimiters`` reads ``\\[`` as text
+for the same reason.  A dollar also refuses a neighbouring dollar, the bound
+``latex_single_line`` keeps, so an inline match never takes half a ``$$`` pair
+apart; display math is stripped before this pattern runs.
+"""
+_MATH_RE = re.compile(r"(?<![\\$])\$(?!\$)[^$\n]*(?<!\\)\$")
 
 """Code written inline, treated like math when counting words."""
 _CODE_RE = re.compile(r"`[^`\n]*`")
 
 """Markup characters left over once math and code are gone."""
 _MARKUP_RE = re.compile(r"[\\^_{}<>/|=+*\[\]()]")
+
+"""An HTML tag, which arranges the text without stating anything itself."""
+_HTML_TAG_RE = re.compile(r"<[^>]*>")
+
+"""The characters that state a value: a maths symbol, beside its digits.
+
+Letters and digits state one by themselves.  A maths symbol does too, since
+``ρ=−1`` is the premise a sentence turns on, while an ellipsis only trails the
+sentence and is no part of it.
+"""
+_MATH_SYMBOLS = frozenset("+-*/=<>^×÷−≤≥≠≈±·√∑∫∂%")
 
 """A token that is a word rather than punctuation or a symbol."""
 _WORD_RE = re.compile(r"[A-Za-z]{2,}")
@@ -163,11 +204,21 @@ _ANSWER_NAME_RE = re.compile(
 """Trailing sentence punctuation and inline markup a text comparison drops."""
 _TRAILING_DROPPED = punctuation
 
-"""The least share of an answer line's prose words its clozes hide."""
-_ANSWER_COVERAGE_MIN = 0.60
+"""The least share of an answer line's prose words its clozes hide.
 
-"""The most share of an answer line's prose words its clozes hide."""
-_ANSWER_COVERAGE_MAX = 0.90
+The owner's forty hand-corrected answer lines hide at least 0.50 of their
+prose words, so the floor sits below the lowest of them: a line may show a
+little more of its answer than the reference note does and still read as one
+card per step.
+"""
+_ANSWER_COVERAGE_MIN = 0.45
+
+"""The most share of an answer line's prose words its clozes hide.
+
+The same corpus hides at most 0.906, so the ceiling sits above it: a line may
+hide a little more and still keep the frame that reads it.
+"""
+_ANSWER_COVERAGE_MAX = 0.95
 
 """The most prose words one cloze hides, and the length an answer line is clozed whole at."""
 _ANSWER_CLOZE_WORDS = 20
@@ -178,6 +229,12 @@ _SENTENCE_MIN_WORDS = 4
 """A mark standing where a cloze sat, for the sentence splitter to keep."""
 _CLOZE_MARK = "\x00"
 
+"""A run of two periods or more, which trails a sentence rather than ending it."""
+_ELLIPSIS_RE = re.compile(r"\.{2,}")
+
+"""The stand-in an ellipsis takes while a line is split into sentences."""
+_ELLIPSIS_MARK = "\x01"
+
 """What a long answer line's clozes are taught to hide."""
 _ANSWER_SHAPE_ADVICE = (
     f"past {_ANSWER_CLOZE_WORDS} words the line hides each step's payload and "
@@ -187,6 +244,26 @@ _ANSWER_SHAPE_ADVICE = (
 
 """The content files whose sections hold question blocks."""
 _CONTENT_FILES = frozenset({"lab.md", "tutorial.md", "lecture.md"})
+
+"""A line break closing a line that an item continues on the line below."""
+_BR_TAIL_RE = re.compile(r"<br\s*/?>[ \t]*$", re.IGNORECASE)
+
+"""The gap a continued answer line leaves after its quote marker.
+
+One space of the marker itself, then the four-space indent the item's text sits
+at, so the line reads ``>`` then five spaces then the text.
+"""
+_ITEM_INDENT = 5
+
+
+def _item_is_one_cloze(text: str) -> bool:
+    """Return whether one cloze holds *text* whole, punctuation and all.
+
+    Only whitespace may sit around the cloze: the item is then one card with
+    nothing visible to prompt it, which is the shape a short answer takes.
+    """
+    _, spans, _, _, _ = _scan_cloze_tokens(text)
+    return len(spans) == 1 and text.strip() == text[spans[0][0] : spans[0][1] + 3]
 
 
 def _blocks(text: str) -> Iterator[tuple[int, list[tuple[int, str]]]]:
@@ -226,7 +303,13 @@ def _first_answer(lines: list[tuple[int, str]]) -> int:
 
 
 def _prose_words(text: str) -> int:
-    """Count the words of prose in *text*, ignoring math, code and markup."""
+    """Count the words of prose in *text*, ignoring math, code and markup.
+
+    Display math goes before inline math: an inline match takes the ``$$``
+    delimiters for two empty expressions and leaves the block's own commands
+    and letters counted as words.
+    """
+    text = _DISPLAY_MATH_RE.sub(" ", text)
     text = _MATH_RE.sub(" ", text)
     text = _CODE_RE.sub(" ", text)
     text = _MARKUP_RE.sub(" ", text)
@@ -261,6 +344,56 @@ def _sentences_without_cloze(text: str) -> list[str]:
         for sentence in split_sentences(marked)
         if _CLOZE_MARK not in sentence and _prose_words(sentence) >= _SENTENCE_MIN_WORDS
     ]
+
+
+def _visible_residue(text: str) -> str:
+    """Return what *text* states once its tags, spaces and punctuation go.
+
+    A letter, a digit and a maths symbol state something the reader can read
+    the card by; whitespace, punctuation and an ellipsis only shape the
+    sentence around it.  A sentence left with none of the former is one the
+    clozes hide whole, so the reader is shown nothing to recall it from.
+    """
+    return "".join(
+        char
+        for char in _HTML_TAG_RE.sub(" ", text)
+        if char.isalnum() or char in _MATH_SYMBOLS
+    )
+
+
+def _sentence_fragments(text: str) -> list[str]:
+    """Return the sentences of *text*, each cloze standing as one marker.
+
+    A cloze becomes a marker before the split, so a period inside a cloze
+    cannot end the sentence that carries it.  An ellipsis is stood in for
+    first, because it trails a sentence rather than ending one: ``I mean...
+    {@{it is a convention}@}`` is one sentence whose frame is visible, and
+    splitting at the ellipsis would leave the cloze alone as a fragment that
+    reads as hidden whole.
+    """
+    marked = _CLOZE_RE.sub(_CLOZE_MARK, text)
+    marked = _ELLIPSIS_RE.sub(_ELLIPSIS_MARK, marked)
+    return [
+        fragment.replace(_ELLIPSIS_MARK, "...") for fragment in split_sentences(marked)
+    ]
+
+
+def _hidden_whole_sentence(text: str) -> str | None:
+    """Return the sentence *text* hides whole, or ``None`` if it hides none.
+
+    A sentence is hidden whole when it carries a cloze and nothing outside its
+    clozes states anything, so ``{@{Twenty days, from the 18.6-year cycle}@}.``
+    is one, while ``Thus, simply {@{add up the activity time: 5+15+60 = 80
+    minutes}@}.`` is not.  Whether a short answer is exempt is the caller's
+    question: it alone knows whether the answer is one line, and a short answer
+    written across lines is a derivation like any other.
+    """
+    for sentence in _sentence_fragments(text):
+        if _CLOZE_MARK not in sentence:
+            continue
+        if not _visible_residue(sentence.replace(_CLOZE_MARK, " ")):
+            return sentence
+    return None
 
 
 def _long_clozes(line: str) -> list[int]:
@@ -328,11 +461,11 @@ def _choice_lines(lines: list[tuple[int, str]]) -> list[tuple[int, int, str]]:
 def _answer_item(lines: list[tuple[int, str]], label: str) -> tuple[int, str] | None:
     """Return ``(offset, text)`` for the block's first item in *label*'s slot.
 
-    The answer item's own text is what follows its label, with every cloze left
-    in place, so a caller can tell what the line hides from what it shows.
+    The item's text is everything it says: the words after its label and every
+    continuation line below it, joined as one answer, with each cloze left in
+    place so a caller can tell what it hides from what it shows.
     """
-    for offset, line in lines:
-        name, text = _split_answer_label(line)
+    for offset, name, text, _line_count in _answer_items(lines):
         if name == label:
             return offset, text
     return None
@@ -346,16 +479,22 @@ def _quoted_text(line: str) -> str:
 def _text_lines(lines: list[tuple[int, str]]) -> Iterator[tuple[int, str]]:
     """Yield ``(offset, content)`` for each quoted text line in *lines*.
 
-    A blank line carries no text, and a line inside a fenced code block is
-    code, so neither is judged as a label's line.
+    A blank line carries no text, a line inside a fenced code block is code,
+    and a line continuing an answer item is part of that item rather than a
+    line of its own, so none of them is judged as a label's line.
     """
+    continuation = {
+        offset
+        for _label, records in _answer_item_records(lines)
+        for offset, _raw, _text, _start, _blank in records[1:]
+    }
     in_fence = False
     for offset, line in lines:
         content = _quoted_text(line)
         if _QUOTE_FENCE_RE.match(content):
             in_fence = not in_fence
             continue
-        if in_fence or not content:
+        if in_fence or not content or offset in continuation:
             continue
         yield offset, content
 
@@ -807,11 +946,10 @@ def answer_solution_one_cloze(ctx: ValidationContext) -> list[ValidationMessage]
     for block_start, lines in _blocks(ctx.text):
         if not _answers(lines):
             continue
-        for offset, line in lines:
-            label, _ = _split_answer_label(line)
+        for offset, label, text, _line_count in _answer_items(lines):
             if label != "solution":
                 continue
-            count = len(_CLOZE_RE.findall(line))
+            count = len(_CLOZE_RE.findall(text))
             if count == 1:
                 continue
             if count == 0:
@@ -825,6 +963,118 @@ def answer_solution_one_cloze(ctx: ValidationContext) -> list[ValidationMessage]
                     f"carries {count}; put the reasoning in '- explanation:'"
                 )
             errors.append(_reports(rule, msg, ctx, block_start + offset))
+    return errors
+
+
+@RULE_REGISTRY.register()
+def answer_item_repeated(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Reject a second answer item in a slot that already has one.
+
+    A block holds at most one ``- solution:``, one ``- explanation:`` and one
+    ``- annotation:``.  A step that needs more room continues on the lines
+    below its label rather than opening a second item, because two items in one
+    slot are two answers to one question: the card that shows the second gives
+    the reader no way to tell it from the first.  A different slot is a
+    different answer, so ``- solution:`` beside ``- explanation:`` stays right,
+    and a sub-part of its own (``11.a.``, ``11.b.``) is a block of its own with
+    its items of its own.
+    """
+    rule = "answer_item_repeated"
+    errors: list[ValidationMessage] = []
+    for block_start, lines in _blocks(ctx.text):
+        if not _answers(lines):
+            continue
+        seen: set[str] = set()
+        for offset, label, _text, _line_count in _answer_items(lines):
+            if label in seen:
+                errors.append(
+                    _reports(
+                        rule,
+                        f"this block already carries its '- {label}:' item, "
+                        "and a step that needs more room continues on the "
+                        "line below it, indented four spaces past the quote "
+                        "space, rather than opening a second one",
+                        ctx,
+                        block_start + offset,
+                    )
+                )
+                continue
+            seen.add(label)
+    return errors
+
+
+@RULE_REGISTRY.register()
+def answer_item_continuation(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Hold a continued answer item to the line it is written on.
+
+    A step below an answer's first line is written ``>`` then five spaces (the
+    quote space plus a four-space indent) then its text, and the line above it
+    ends in ``<br/>``: that tag is the break, so without it the two lines run
+    together as one sentence.  A new paragraph instead leaves a blank ``>``
+    line between them, and needs no tag.  A line left at the quote marker's own
+    margin is not part of the item at all: it reads as the block's own text and
+    the answer loses it, so it reports too.
+    """
+    rule = "answer_item_continuation"
+    errors: list[ValidationMessage] = []
+    for block_start, lines in _blocks(ctx.text):
+        if not _answers(lines):
+            continue
+        position_of = {offset: position for position, (offset, _) in enumerate(lines)}
+        for _label, records in _answer_item_records(lines):
+            for position, (offset, _raw, _text, start, blank_before) in enumerate(
+                records[1:]
+            ):
+                if start - 1 != _ITEM_INDENT:
+                    errors.append(
+                        _reports(
+                            rule,
+                            "a line continuing an answer item is indented four "
+                            "spaces past the quote marker's own space, so it "
+                            "reads '>' then five spaces then the text",
+                            ctx,
+                            block_start + offset,
+                        )
+                    )
+                    continue
+                if blank_before:
+                    continue
+                if _BR_TAIL_RE.search(records[position][1]):
+                    continue
+                errors.append(
+                    _reports(
+                        rule,
+                        "the line above this one does not end in '<br/>', so "
+                        "the two run together as one sentence; end the line "
+                        "above with the tag, or separate the paragraphs with "
+                        "a blank '>' line",
+                        ctx,
+                        block_start + offset,
+                    )
+                )
+            last_offset = records[-1][0]
+            following_position = position_of[last_offset] + 1
+            if following_position >= len(lines):
+                continue
+            following_offset, following = lines[following_position]
+            content = _quoted_text(following)
+            if not content.strip() or content == "---":
+                continue
+            if _split_answer_label(following)[0] is not None:
+                continue
+            if _ANY_LABEL_RE.match(following):
+                continue
+            errors.append(
+                _reports(
+                    rule,
+                    "this line sits at the quote marker's own margin, where "
+                    "it reads as the block's text rather than part of the "
+                    "answer item above it; indent it four spaces past the "
+                    "quote space to continue that item",
+                    ctx,
+                    block_start + following_offset,
+                )
+            )
     return errors
 
 
@@ -848,8 +1098,7 @@ def answer_explanation_shape(ctx: ValidationContext) -> list[ValidationMessage]:
     for block_start, lines in _blocks(ctx.text):
         if not _answers(lines):
             continue
-        for offset, line in lines:
-            label, text = _split_answer_label(line)
+        for offset, label, text, line_count in _answer_items(lines):
             if label != "explanation":
                 continue
             if not _CLOZE_RE.search(text):
@@ -857,15 +1106,19 @@ def answer_explanation_shape(ctx: ValidationContext) -> list[ValidationMessage]:
                     "an explanation is shown as cards, so it carries at least "
                     "one cloze hiding the reasoning it turns on"
                 )
-            elif _prose_words(_CLOZE_RE.sub(r"\g<body>", text)) <= _ANSWER_CLOZE_WORDS:
-                if _clozes_answer_whole(line, text):
+            elif (
+                line_count == 1
+                and _prose_words(_CLOZE_RE.sub(r"\g<body>", text))
+                <= _ANSWER_CLOZE_WORDS
+            ):
+                if _item_is_one_cloze(text):
                     continue
                 msg = (
                     f"an explanation of at most {_ANSWER_CLOZE_WORDS} words "
-                    "hides as one cloze holding its whole sentence, from the "
-                    "label onward with the punctuation inside, so the card "
-                    "reads that sentence once; this one leaves text outside "
-                    "the cloze"
+                    "on one line hides as one cloze holding its whole "
+                    "sentence, from the label onward with the punctuation "
+                    "inside, so the card reads that sentence once; this one "
+                    "leaves text outside the cloze"
                 )
             else:
                 coverage = _answer_coverage(text)
@@ -901,6 +1154,51 @@ def answer_explanation_shape(ctx: ValidationContext) -> list[ValidationMessage]:
 
 
 @RULE_REGISTRY.register()
+def answer_sentence_all_hidden(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Reject a long answer line that hides one of its sentences whole.
+
+    A long line keeps the frame that reads it and hides each step's payload,
+    sentence by sentence.  Hiding a whole sentence leaves the card showing
+    nothing to recall that step from, which is a step the reader has no frame
+    for.  A sentence whose outside holds a letter, a digit or a maths symbol
+    is readable, so ``Now divide {@{the first number by the second}@}.`` is
+    not a defect: its frame is visible.
+
+    Only an ``- explanation:`` or ``- annotation:`` line is judged, and only
+    past ``_ANSWER_CLOZE_WORDS`` prose words, since a short line is one cloze
+    holding the sentence whole by design.  A ``- solution:`` line is out of
+    scope for the same reason.  One message per line, at the line's own
+    position.
+    """
+    rule = "answer_sentence_all_hidden"
+    errors: list[ValidationMessage] = []
+    for block_start, lines in _blocks(ctx.text):
+        if not _answers(lines):
+            continue
+        for offset, label, text, line_count in _answer_items(lines):
+            if label not in {"explanation", "annotation"}:
+                continue
+            if _hidden_whole_sentence(text) is None:
+                continue
+            words = _prose_words(_CLOZE_RE.sub(r"\g<body>", text))
+            if line_count == 1 and words <= _ANSWER_CLOZE_WORDS:
+                continue
+            errors.append(
+                _reports(
+                    rule,
+                    f"a sentence of this {words}-word answer hides whole "
+                    "inside its clozes, so the card shows no frame to read "
+                    "that step; keep the words that introduce it, such as "
+                    "its subject or a 'so', outside the clozes, and hide only "
+                    "the payload the step turns on",
+                    ctx,
+                    block_start + offset,
+                )
+            )
+    return errors
+
+
+@RULE_REGISTRY.register()
 def cloze_giant(ctx: ValidationContext) -> list[ValidationMessage]:
     """Warn when a cloze hides more than ``_ANSWER_CLOZE_WORDS`` words of prose.
 
@@ -911,12 +1209,13 @@ def cloze_giant(ctx: ValidationContext) -> list[ValidationMessage]:
 
     Every labelled answer line is measured, wherever it lives: an
     ``- explanation:``, an ``- annotation:`` or any other labelled answer line
-    of any note reports.  A ``- solution:`` line is exempt, since its single
-    cloze holds the answer whole or names the options verbatim and may
-    legitimately run long.  A line carrying no answer label is a prose card,
-    and the two legacy gates hold it unchanged: it is measured only in a
+    of any note reports.  The whole item is measured, its continuation lines
+    with it, so a cloze carried onto the line below is judged with the step it
+    belongs to.  A ``- solution:`` line is exempt, since its single cloze holds
+    the answer whole or names the options verbatim and may legitimately run
+    long.  A line carrying no answer label and continuing no item is a prose
+    card, and the two legacy gates hold it unchanged: it is measured only in a
     content file that separates question from answer everywhere it asks one.
-    A wrapped continuation line carries no label, so it is a prose line.
 
     A cloze holding a short line whole needs no exemption of its own.  The cap
     is the length a line is clozed whole at, so such a cloze is under the cap
@@ -935,13 +1234,23 @@ def cloze_giant(ctx: ValidationContext) -> list[ValidationMessage]:
     for block_start, lines in _blocks(ctx.text):
         if not _answers(lines):
             continue
-        for offset, line in lines:
-            label, _ = _split_answer_label(line)
-            if label == "solution":
-                continue
-            if label is None and not prose_measured:
-                continue
-            counts = _long_clozes(line)
+        items = list(_answer_items(lines))
+        in_item = {
+            offset
+            for _label, records in _answer_item_records(lines)
+            for offset, _raw, _text, _start, _blank in records
+        }
+        measured = [
+            (offset, text)
+            for offset, label, text, _count in items
+            if label != "solution"
+        ]
+        if prose_measured:
+            measured += [
+                (offset, line) for offset, line in lines if offset not in in_item
+            ]
+        for offset, text in measured:
+            counts = _long_clozes(text)
             if not counts:
                 continue
             errors.append(

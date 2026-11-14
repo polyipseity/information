@@ -5,7 +5,9 @@ Every fixture here is copied from the note at
 whose own lines are the style: a short answer hides its whole sentence in one
 cloze, and a derivation hides each step's payload while keeping the frame that
 reads it visible.  The accepted cases pin that shape and the rejected ones pin
-where it stops, so a rule edited later cannot quietly drop either half.
+where it stops, so a rule edited later cannot quietly drop either half.  The
+owner's forty hand-corrected lines are the wider corpus, in
+``test_answer_corpus``.
 """
 
 from collections.abc import Callable
@@ -14,8 +16,16 @@ from pathlib import Path as SyncPath
 import pytest
 from anyio import Path
 from main_mods.models import Severity, ValidationContext, ValidationMessage
-from main_mods.question_blocks import answer_explanation_shape, cloze_giant
-from main_mods.rules import answer_formula_alone, cloze_glue
+from main_mods.question_blocks import (
+    answer_explanation_shape,
+    answer_sentence_all_hidden,
+    cloze_giant,
+)
+from main_mods.rules import (
+    answer_formula_alone,
+    answer_visible_calculation,
+    cloze_glue,
+)
 from main_mods.validator import check_markdown_file
 
 from .test_question_blocks import make_ctx
@@ -65,6 +75,8 @@ requires_reference_note = pytest.mark.skipif(
 """The rules whose verdict the reference note's shape fixes."""
 ANSWER_RULES: tuple[Callable[[ValidationContext], list[ValidationMessage]], ...] = (
     answer_explanation_shape,
+    answer_sentence_all_hidden,
+    answer_visible_calculation,
     cloze_giant,
     cloze_glue,
     answer_formula_alone,
@@ -180,9 +192,25 @@ FORMULA_ALONE = note(
     " the broker can charge}@} once the race is won.\n"
 )
 
+"""A 26-word explanation whose last sentence hides whole, PHYS 1002 line 197."""
+WHOLE_SENTENCE = note(
+    "> - explanation: Recall that {@{the eclipse season depends on the line of"
+    " lunar nodes}@}. Consider that {@{the lunar nodes rotates retrograde"
+    " (clockwise) once about 18.6 years}@}. {@{The answer is: $$\\frac {365.25}"
+    " {18.6} \\approx 19.637\\,0967 \\approx 20\\text{ days}$$}@}.\n"
+)
+
+"""A 35-word explanation showing the calculation a cloze asks for, PHYS 1002 line 80."""
+VISIBLE_CALCULATION = note(
+    "> - explanation: The planet is {@{in prograde motion}@}. Hence, {@{the"
+    " number of solar days per orbital period}@} is $6 - 1 = 5\\text{ solar"
+    " days}$. Thus {@{each solar day}@} is $\\frac {1 / 5} {1 / 6} = \\frac 6"
+    " 5\\text{ sidereal days}$.\n"
+)
+
 
 def answer_messages(text: str) -> list[ValidationMessage]:
-    """Return every message the four answer-line rules report for *text*."""
+    """Return every message the six answer-line rules report for *text*."""
     ctx = make_ctx(text)
     return [message for rule in ANSWER_RULES for message in rule(ctx)]
 
@@ -229,12 +257,13 @@ def test_answer_explanation_shape_rejects_thirty_word_explanation_in_one_cloze()
     messages = answer_messages(THIRTY)
     assert sorted(message.rule_id for message in messages) == [
         "answer_explanation_shape",
+        "answer_sentence_all_hidden",
         "cloze_giant",
     ]
 
 
 def test_answer_explanation_shape_rejects_explanation_clozing_thirty_percent():
-    """A long explanation hiding under the 60% floor shows most of its answer."""
+    """A long explanation hiding under the 45% floor shows most of its answer."""
     messages = messages_from(answer_explanation_shape, SHORT_COVERAGE)
     assert [message.rule_id for message in messages] == ["answer_explanation_shape"]
     assert "floor" in messages[0].msg
@@ -273,6 +302,24 @@ def test_answer_formula_alone_warns_on_a_formula_only_cloze():
     messages = messages_from(answer_formula_alone, FORMULA_ALONE)
     assert [message.rule_id for message in messages] == ["answer_formula_alone"]
     assert messages[0].severity is Severity.WARNING
+
+
+def test_answer_line_rule_severities():
+    """Two rules are errors and one is a warning: the author overrules that one.
+
+    A rule is an error where the shape is not negotiable, and a warning
+    exactly where suppressing it per line is acceptable.
+    """
+    pins = (
+        (answer_explanation_shape, VISIBLE_LEAD_IN, Severity.ERROR),
+        (answer_sentence_all_hidden, WHOLE_SENTENCE, Severity.ERROR),
+        (answer_visible_calculation, VISIBLE_CALCULATION, Severity.ERROR),
+        (answer_formula_alone, FORMULA_ALONE, Severity.WARNING),
+        (cloze_glue, GLUE, Severity.ERROR),
+    )
+    for rule, text, severity in pins:
+        messages = messages_from(rule, text)
+        assert [message.severity for message in messages] == [severity], rule.__name__
 
 
 @requires_reference_note

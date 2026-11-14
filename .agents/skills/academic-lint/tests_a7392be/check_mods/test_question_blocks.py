@@ -9,7 +9,11 @@ from typing import cast
 
 from main_mods.models import AstNode, Frontmatter, Severity, ValidationContext
 from main_mods.question_blocks import (
+    _prose_words,
     answer_explanation_shape,
+    answer_item_continuation,
+    answer_item_repeated,
+    answer_sentence_all_hidden,
     answer_solution_names_option,
     answer_solution_one_cloze,
     cloze_giant,
@@ -1000,7 +1004,7 @@ def test_answer_explanation_shape_fires_on_a_whole_cloze_past_the_ceiling():
     errors = answer_explanation_shape(make_ctx(text))
     assert [e.rule_id for e in errors] == ["answer_explanation_shape"]
     assert "clozes 100% of its words" in errors[0].msg
-    assert "over the 90% ceiling" in errors[0].msg
+    assert "over the 95% ceiling" in errors[0].msg
 
 
 def test_answer_explanation_shape_fires_below_the_floor():
@@ -1019,7 +1023,7 @@ def test_answer_explanation_shape_fires_below_the_floor():
     errors = answer_explanation_shape(make_ctx(text))
     assert [e.rule_id for e in errors] == ["answer_explanation_shape"]
     assert "clozes 40% of its words" in errors[0].msg
-    assert "under the 60% floor" in errors[0].msg
+    assert "under the 45% floor" in errors[0].msg
 
 
 def test_answer_explanation_shape_fires_on_a_sentence_left_visible():
@@ -1078,6 +1082,111 @@ def test_answer_explanation_shape_keeps_a_period_inside_a_cloze_from_splitting()
     assert not answer_explanation_shape(make_ctx(text))
 
 
+def test_answer_item_repeated_fires_on_a_second_explanation():
+    """A second explanation in one block repeats the slot the step continues in."""
+    text = (
+        "> - solution: {@{3. (c)}@}\n"
+        ">\n"
+        "> - explanation: {@{The first step}@}.\n"
+        ">\n"
+        "> - explanation: {@{The second step}@}.\n"
+    )
+    errors = answer_item_repeated(make_ctx(text))
+    assert [e.rule_id for e in errors] == ["answer_item_repeated"]
+    assert "already carries its '- explanation:'" in errors[0].msg
+    assert errors[0].severity is Severity.ERROR
+
+
+def test_answer_item_repeated_fires_on_a_second_solution():
+    """Two solutions are two answers to one question, so the second reports."""
+    text = "> - solution: {@{3. (c)}@}\n>\n> - solution: {@{4. (d)}@}\n"
+    errors = answer_item_repeated(make_ctx(text))
+    assert [e.rule_id for e in errors] == ["answer_item_repeated"]
+    assert "already carries its '- solution:'" in errors[0].msg
+
+
+def test_answer_item_repeated_silent_on_one_item_per_slot():
+    """A solution, an explanation and an annotation are three different slots."""
+    text = (
+        "> - solution: {@{3. (c)}@}\n"
+        ">\n"
+        "> - explanation: {@{The first step}@}.\n"
+        ">\n"
+        "> - annotation: {@{The convention is not universal}@}.\n"
+    )
+    assert not answer_item_repeated(make_ctx(text))
+
+
+def test_answer_item_continuation_silent_on_the_br_shape():
+    """A tag at the end of the line above and a four-space indent continue it."""
+    text = "> - explanation: First {@{step}@}. <br/>\n>     Second {@{step}@}.\n"
+    assert not answer_item_continuation(make_ctx(text))
+
+
+def test_answer_item_continuation_silent_on_a_paragraph():
+    """A blank quote line opens a paragraph, so no tag is needed there."""
+    text = "> - explanation: First {@{step}@}.\n>\n>     Second {@{paragraph}@}.\n"
+    assert not answer_item_continuation(make_ctx(text))
+
+
+def test_answer_item_continuation_fires_without_the_break_tag():
+    """Without the tag the two lines run together as one sentence."""
+    text = "> - explanation: First {@{step}@}.\n>     Second {@{step}@}.\n"
+    errors = answer_item_continuation(make_ctx(text))
+    assert [e.rule_id for e in errors] == ["answer_item_continuation"]
+    assert "does not end in '<br/>'" in errors[0].msg
+
+
+def test_answer_item_continuation_fires_on_a_two_space_indent():
+    """Two spaces are not the four-space indent a continued item carries."""
+    text = "> - explanation: First {@{step}@}. <br/>\n>   Second {@{step}@}.\n"
+    errors = answer_item_continuation(make_ctx(text))
+    assert [e.rule_id for e in errors] == ["answer_item_continuation"]
+    assert "indented four spaces past the quote marker" in errors[0].msg
+
+
+def test_answer_item_continuation_fires_on_a_margin_line():
+    """A line at the quote marker's own margin leaves the item and is lost."""
+    text = (
+        "> - explanation: First {@{step}@}. <br/>\n"
+        ">     Second {@{step}@}.\n"
+        "> Third line {@{left at the margin}@}.\n"
+    )
+    errors = answer_item_continuation(make_ctx(text))
+    assert [e.rule_id for e in errors] == ["answer_item_continuation"]
+    assert "quote marker's own margin" in errors[0].msg
+
+
+def test_answer_explanation_shape_judges_the_whole_item():
+    """Two lines are one item, held to the band rather than one whole cloze."""
+    one_line = "> - explanation: {@{First step here. Second step here.}@}\n"
+    assert not answer_explanation_shape(make_ctx(one_line))
+    two_lines = (
+        "> - explanation: {@{First step here.}@} <br/>\n>     {@{Second step here.}@}\n"
+    )
+    errors = answer_explanation_shape(make_ctx(two_lines))
+    assert [e.rule_id for e in errors] == ["answer_explanation_shape"]
+    assert "over the 95% ceiling" in errors[0].msg
+
+
+def test_answer_sentence_all_hidden_judges_the_whole_item():
+    """A short item written across lines is still judged sentence by sentence."""
+    text = (
+        "> - explanation: Recall that {@{the nodes move retrograde}@}. <br/>\n"
+        ">     {@{The answer is 20 days}@}.\n"
+    )
+    errors = answer_sentence_all_hidden(make_ctx(text))
+    assert [e.rule_id for e in errors] == ["answer_sentence_all_hidden"]
+
+
+def test_answer_solution_one_cloze_counts_across_a_continued_item():
+    """A solution carried onto a second line is still one cloze or none."""
+    text = "> - solution: {@{3. (c)}@}, <br/>\n>     {@{the middle option}@}\n"
+    errors = answer_solution_one_cloze(make_ctx(text))
+    assert [e.rule_id for e in errors] == ["answer_solution_one_cloze"]
+    assert "carries 2" in errors[0].msg
+
+
 def test_answer_explanation_shape_fires_on_no_cloze():
     """An explanation with no cloze hides nothing on a line shown as a card."""
     text = """> Which book describes the state?
@@ -1091,7 +1200,7 @@ def test_answer_explanation_shape_fires_on_no_cloze():
 
 
 def test_cloze_giant_fires_past_the_cap():
-    """A wrapped continuation line carries no label, so its long cloze is measured."""
+    """A long cloze on a continued line is measured, since the item carries it."""
     long_cloze = (
         "the first reader to arrive takes the data lock on behalf of every reader "
         "waiting behind it, and the writer waits until the last releases"
@@ -1100,8 +1209,8 @@ def test_cloze_giant_fires_past_the_cap():
 >
 > ---
 >
-> - explanation: the lock is taken by
->   {{@{{{long_cloze}}}@}} so the writer waits.
+> - explanation: the lock is taken by <br/>
+>     {{@{{{long_cloze}}}@}} so the writer waits.
 """
     errors = cloze_giant(make_ctx(text))
     assert [e.rule_id for e in errors] == ["cloze_giant"]
@@ -1117,8 +1226,8 @@ def test_cloze_giant_silent_at_the_cap():
 >
 > ---
 >
-> - explanation: the lock is taken by
->   {{@{{{cloze}}}@}} the lock.
+> - explanation: the lock is taken by <br/>
+>     {{@{{{cloze}}}@}} the lock.
 """
     assert not cloze_giant(make_ctx(text))
 
@@ -1129,10 +1238,161 @@ def test_cloze_giant_silent_when_the_cloze_hides_math():
 >
 > ---
 >
-> - explanation: the limit is
->   {@{$\\lim_{n\\to\\infty} P[|X_n - X| > \\varepsilon] = 0$ for every $\\varepsilon > 0$}@}
+> - explanation: the limit is <br/>
+>     {@{$\\lim_{n\\to\\infty} P[|X_n - X| > \\varepsilon] = 0$ for every $\\varepsilon > 0$}@}
 """
     assert not cloze_giant(make_ctx(text))
+
+
+def test_cloze_giant_silent_when_the_cloze_hides_a_display_block():
+    """A clozed ``$$…$$`` block is mathematics, so it hides no prose word."""
+    body = (
+        "$$M = \\frac {rv^2} G = \\frac {100\\,000 \\cdot "
+        "\\left(400 \\times 10^{3} \\right)^2 } {\\mathrm{kg}}$$"
+    )
+    text = f"""> What is the mass of the galaxy?
+>
+> ---
+>
+> - explanation: the mass is <br/>
+>     {{@{{{body}}}@}}
+"""
+    assert _prose_words(body) == 0
+    assert not cloze_giant(make_ctx(text))
+
+
+def test_cloze_giant_counts_the_words_beside_a_display_block():
+    """A display inside a cloze adds no word, so twelve prose words count twelve."""
+    body = (
+        "The radius grows with the square root of the two masses here "
+        "$$M = \\frac {rv^2} G = \\frac {100\\,000 \\cdot "
+        "\\left(400 \\times 10^{3} \\right)^2 } {\\mathrm{kg}}$$"
+    )
+    text = f"""> What is the mass of the galaxy?
+>
+> ---
+>
+> - explanation: {{@{{{body}}}@}}
+"""
+    assert _prose_words(body) == 12
+    ctx = make_ctx(text)
+    assert not cloze_giant(ctx)
+    assert not answer_explanation_shape(ctx)
+
+
+def test_cloze_giant_silent_when_the_cloze_hides_a_bracketed_display():
+    """A clozed ``\\[…\\]`` block is display math, so it hides no prose word."""
+    body = "\\[M = \\frac {rv^2} G\\]"
+    text = (
+        "> What is the mass of the galaxy?\n>\n> ---\n>\n"
+        f"> - explanation: {{@{{{body}}}@}}\n"
+    )
+    assert _prose_words(body) == 0
+    assert not cloze_giant(make_ctx(text))
+
+
+def test_cloze_giant_counts_no_word_of_a_multi_line_aligned_environment():
+    """An aligned environment counts no word either, even across lines."""
+    body = (
+        "\\begin{aligned}\nM &= \\frac {rv^2} G \\\\\nM &\\propto rv^2\n\\end{aligned}"
+    )
+    assert _prose_words(body) == 0
+
+
+def test_prose_words_counts_the_prose_an_escaped_dollar_precedes():
+    """A ``\\$`` is a literal dollar, so the English after it is prose.
+
+    The pattern read ``\\$1`` as an opening delimiter and the ``$`` of ``$12``
+    as its close, hiding a sentence of English as mathematics: 7 words where
+    the text holds 11.  No line of the tree pairs a ``\\$`` with a later ``$``
+    today, so the defect was latent rather than active; the count is the
+    correctness a note will rely on as soon as one does.
+    """
+    body = r"Assume the par value is \$1. The current price is $12 per share."
+    assert _prose_words(body) == 11
+
+
+def test_prose_words_counts_no_word_between_two_bare_dollars():
+    """Two bare dollars are inline math, so what lies between them is hidden."""
+    assert _prose_words(r"the price goes \$1. The next one is $12") == 7
+    assert _prose_words(r"the price goes $1. The next one is $12") == 3
+
+
+def test_prose_words_counts_no_word_of_a_genuine_inline_expression():
+    """A bare ``$…$`` pair is still math, however short its body."""
+    assert _prose_words(r"$\frac{a}{b}$") == 0
+    assert _prose_words(r"The ratio is $\frac{a}{b}$ here.") == 4
+
+
+def test_prose_words_counts_no_word_of_a_display_block():
+    """A ``$$…$$`` block is display math, stripped before any inline match."""
+    assert _prose_words(r"$$\frac{a}{b}$$") == 0
+    assert _prose_words(r"The value is $$\frac{a}{b}$$ here.") == 4
+
+
+def test_cloze_giant_silent_on_a_cloze_carrying_an_escaped_dollar():
+    """An escaped dollar costs a cloze no word, so fifteen words stay under the cap.
+
+    The shape is the one a bond question writes: the literal amount ``\\$1``,
+    then a display block, then the next step.  A later ``$`` would have been
+    taken for the close of an inline match opened at ``\\$1``, swallowing the
+    prose between the two; the tree holds no such pair today, so this guards
+    the count a note will rely on once one appears.
+    """
+    body = (
+        r"Assume the par value is \$1. The current price is: "
+        r"$$\frac {0.03} {0.025} \left(1 - \frac 1 {{1.025}^{20} } \right) "
+        r"\approx \$1.0779$$ The price after 2 years is higher."
+    )
+    text = f"> What is the capital gain rate?\n>\n> ---\n>\n> - explanation: {{@{{{body}}}@}}\n"
+    assert _prose_words(body) == 15
+    assert not cloze_giant(make_ctx(text, name="topic note.md"))
+
+
+def test_cloze_giant_fires_on_the_fina_2303_escaped_dollar_cloze():
+    """The real bond explanation hides 22 prose words, and no escaped dollar is why.
+
+    ``FINA 2303/quiz 2 derivative.md:32`` holds ``\\$1`` and a later ``$`` only
+    inside display blocks, which go first, so no inline match spans them: the
+    line measures 22 words under both the escaped and the unescaped pattern.
+    Its four frames — 'Assume the par value is', 'The current price of the
+    bond is', 'The price after 2 years is', 'The capital gain rate is' — are
+    the prose it hides, and re-clozing it into steps is the migration's work.
+    """
+    body = (
+        r"Assume the par value is \$1. The current price of the bond is: "
+        r"$$\frac {0.03} {0.025} \left(1 - \frac 1 {{1.025}^{20} } \right) + "
+        r"\frac 1 {{1.025}^{20} } \approx \$1.07794581 \,.$$ The price after 2 "
+        r"years is: $$\frac {0.03} {0.015} \left(1 - \frac 1 {{1.015}^{16} } "
+        r"\right) + \frac 1 {{1.015}^{16} } \approx \$1.21196896 \,.$$ The "
+        r"capital gain rate is $$\frac {1.21196896 - 1.07794581} {1.07794581} "
+        r"\approx 0.12433199 = 12.433199\% \,.$$"
+    )
+    text = f"> What is your capital gain rate?\n>\n> ---\n>\n> - explanation: {{@{{{body}}}@}}\n"
+    assert _prose_words(body) == 22
+    errors = cloze_giant(make_ctx(text, name="quiz 2 derivative.md"))
+    assert [e.rule_id for e in errors] == ["cloze_giant"]
+    assert errors[0].severity is Severity.WARNING
+    assert "hides 22 words" in errors[0].msg
+
+
+def test_cloze_giant_measures_a_run_without_display_math_as_before():
+    """A run of prose and inline math carries no display, so it counts as it did."""
+    body = (
+        "the limit is $\\lim_{n\\to\\infty} P[|X_n - X| > \\varepsilon] = 0$ "
+        "and the code `x = y` returns the same value to every reader that "
+        "asks for it twice in one pass"
+    )
+    text = f"""> What is the bound?
+>
+> ---
+>
+> - explanation: {{@{{{body}}}@}}
+"""
+    assert _prose_words(body) == 21
+    errors = cloze_giant(make_ctx(text))
+    assert [e.rule_id for e in errors] == ["cloze_giant"]
+    assert "hides 21 words" in errors[0].msg
 
 
 def test_cloze_giant_silent_on_the_solution_cloze():
@@ -1247,3 +1507,117 @@ def test_cloze_giant_silent_on_a_prose_card_outside_a_content_file():
 > {{@{{{long_cloze}}}@}}.
 """
     assert not cloze_giant(make_ctx(text, name="topic note.md"))
+
+
+"""The words a coverage fixture is built from, so both edges land exactly."""
+_BAND_WORDS = (
+    "the peg rests behind the bid while every fill arrives and the queue keeps "
+    "its own place on the book"
+).split()
+
+
+def band_words(count: int, start: int = 0) -> str:
+    """Return *count* prose words taken from ``_BAND_WORDS`` at *start*.
+
+    Cycling one pool keeps a fixture's word count exact, which is what a
+    coverage edge is measured on, without reading as numbered filler.
+    """
+    return " ".join(
+        _BAND_WORDS[(start + index) % len(_BAND_WORDS)] for index in range(count)
+    )
+
+
+def band_line(lead: tuple[int, int], hidden: tuple[int, int]) -> str:
+    """Return a two-sentence explanation hiding exactly *hidden* of its words.
+
+    Each sentence carries one cloze behind a lead of *lead* visible words, so
+    the line is judged on its coverage alone: a sentence left without a cloze
+    would report the shape for a reason of its own, not for the band.  A lead
+    may be empty where the fixture needs the coverage over the ceiling.
+    """
+    cursor = 0
+    sentences: list[str] = []
+    for words_lead, words_hidden in zip(lead, hidden, strict=True):
+        sentences.append(
+            f"{band_words(words_lead, cursor)} "
+            f"{{@{{{band_words(words_hidden, cursor + words_lead)}}}@}}."
+        )
+        cursor += words_lead + words_hidden
+    return "> - explanation: " + " ".join(sentences) + "\n"
+
+
+def test_answer_explanation_shape_fires_below_the_floor_at_forty_four_percent():
+    """0.44 of a long line's words hidden is under the floor, so it reports."""
+    errors = answer_explanation_shape(make_ctx(band_line((7, 7), (6, 5))))
+    assert [e.rule_id for e in errors] == ["answer_explanation_shape"]
+    assert "clozes 44% of its words" in errors[0].msg
+    assert "under the 45% floor" in errors[0].msg
+
+
+def test_answer_explanation_shape_silent_at_the_floor():
+    """0.45 is the floor itself, so the line passes."""
+    assert not answer_explanation_shape(make_ctx(band_line((11, 11), (9, 9))))
+
+
+def test_answer_explanation_shape_silent_at_the_ceiling():
+    """0.95 is the ceiling itself, so a line hiding that much still passes."""
+    assert not answer_explanation_shape(make_ctx(band_line((1, 1), (19, 19))))
+
+
+def test_answer_explanation_shape_fires_above_the_ceiling_at_ninety_six_percent():
+    """0.96 hides the frame as well, so it reports over the ceiling."""
+    errors = answer_explanation_shape(make_ctx(band_line((1, 0), (12, 12))))
+    assert [e.rule_id for e in errors] == ["answer_explanation_shape"]
+    assert "clozes 96% of its words" in errors[0].msg
+    assert "over the 95% ceiling" in errors[0].msg
+
+
+def test_answer_sentence_all_hidden_fires_on_a_whole_sentence():
+    """A long explanation whose last sentence is hidden whole shows no frame."""
+    text = "> - explanation: Recall that {@{the eclipse season depends on the line of lunar nodes}@}. Consider that {@{the lunar nodes rotates retrograde (clockwise) once about 18.6 years}@}. {@{The answer is: $$\\frac {365.25} {18.6} \\approx 19.637\\,0967 \\approx 20\\text{ days}$$}@}.\n"
+    errors = answer_sentence_all_hidden(make_ctx(text))
+    assert [e.rule_id for e in errors] == ["answer_sentence_all_hidden"]
+    assert errors[0].severity is Severity.ERROR
+    assert "hides whole inside its clozes" in errors[0].msg
+
+
+def test_answer_sentence_all_hidden_silent_on_a_frame_per_sentence():
+    """Every sentence keeping its lead-in is the shape the rule teaches."""
+    text = "> - explanation: This is {@{asking for the _flow time_}@}. We also {@{assume the process is _stable_}@}. Thus, simply {@{add up the activity time: 5+15+60 = 80&nbsp;minutes}@}.\n"
+    assert not answer_sentence_all_hidden(make_ctx(text))
+
+
+def test_answer_sentence_all_hidden_silent_on_a_paragraph_tag_and_premise():
+    """A ``<p>`` tag is no sentence, and the ``ρ=−1`` before the cloze is read."""
+    text = "> - annotation: ρ=1 corresponds to {@{the blue line}@}. ρ=0 corresponds to {@{the red line}@}. <p> ρ=−1 {@{does not correspond to any line}@}. Two stocks are enough: simply take {@{two stocks and hold them with equal weights}@}, then {@{volatility is 0}@}.\n"
+    assert not answer_sentence_all_hidden(make_ctx(text))
+
+
+def test_answer_sentence_all_hidden_silent_on_a_fragment_an_ellipsis_left():
+    """An ellipsis trails a sentence, so the cloze after it keeps its frame."""
+    text = "> - explanation: I mean... {@{it is just a convention}@}. It could be {@{any other convention, depending on your context}@}. <p> This convention is used in {@{libraries processing images with NumPy arrays}@}. So that explains {@{why it is 0-based}@}.\n"
+    assert not answer_sentence_all_hidden(make_ctx(text))
+
+
+def test_answer_sentence_all_hidden_silent_on_a_short_line():
+    """A line of at most twenty words is one cloze holding its sentence whole."""
+    text = (
+        "> - explanation: "
+        "{@{The 30 unfilled shares cancel now at the close, and the buy rests "
+        "80 bid at 115, a level no listed book shows.}@}\n"
+    )
+    assert not answer_sentence_all_hidden(make_ctx(text))
+
+
+def test_answer_sentence_all_hidden_leaves_a_solution_out_of_scope():
+    """A solution is one whole cloze by design, so its sentence is not judged."""
+    text = (
+        "> Which book describes the state?\n"
+        ">\n"
+        "> ---\n"
+        ">\n"
+        "> - solution: "
+        "{@{The sell takes the ten shares bid at the top of the book and the "
+        "remainder rests at the price the buy named.}@}\n"
+    )
+    assert not answer_sentence_all_hidden(make_ctx(text))

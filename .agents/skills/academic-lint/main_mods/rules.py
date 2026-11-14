@@ -21,7 +21,7 @@ its decorator.  The functions are pure: they accept a
 
 import re
 import unicodedata
-from collections.abc import Iterator
+from collections.abc import Iterator, Sequence
 from pathlib import PurePosixPath
 from string import punctuation
 from typing import cast
@@ -1790,6 +1790,21 @@ _DISPLAY_MATH_BLOCK_RE = re.compile(
     r"^[ \t]*>[ \t]*(?:\$\$|\\\[|\\begin\{(?:aligned|align|gathered|split)\})"
 )
 
+"""An HTML comment inside a line, which states nothing to the reader."""
+_HTML_COMMENT_RE = re.compile(r"<!--.*?-->")
+
+
+def _mask_html_comments(text: str) -> str:
+    """Return *text* with each HTML comment blanked to spaces of its own length.
+
+    A comment on an answer line is a suppression directive or a Markdown
+    separator, and a card never shows it, so no rule that measures the line's
+    prose may read it.  The replacement keeps the text's length, since a cloze
+    span and a reported column are measured against the whole line and would
+    shift if the comment were cut out.
+    """
+    return _HTML_COMMENT_RE.sub(lambda match: " " * len(match.group(0)), text)
+
 
 def _iter_blockquote_blocks(text: str) -> Iterator[tuple[int, str]]:
     """Yield ``(start_offset, block_text)`` for each run of blockquote lines.
@@ -1825,12 +1840,137 @@ def _split_answer_label(line: str) -> tuple[str | None, str]:
     and the list marker around it, names the answer slot and hides nothing, so
     it is markup rather than content. Returns ``(label, text)``: *label* is the
     lowercased slot name when the line carries one, and *text* is what follows
-    its colon. A line without a label comes back unchanged, with ``None``.
+    its colon, with any HTML comment in it blanked. A line without a label
+    comes back unchanged, with ``None``.
     """
     match = _SOLUTION_LABEL_RE.match(line)
     if match is None:
         return None, line
-    return match.group("label").lower(), line[match.end() :]
+    return match.group("label").lower(), _mask_html_comments(line[match.end() :])
+
+
+"""A line indented past the quote marker, which continues the item above it."""
+_ANSWER_CONTINUATION_RE = re.compile(r"^>(?P<gap>[ \t]{2,})(?P<content>\S.*)$")
+
+"""A blockquoted list item of any label, such as ``- note:``.
+
+Only three labels are answer slots, but a block may carry other labelled items
+beside them, and one of those starts a new item rather than continuing the one
+above it.
+"""
+_ANY_LABEL_RE = re.compile(r"^[ \t]*>[ \t]*(?:-[ \t]*)?[A-Za-z][\w /-]*[ \t]*:")
+
+"""A line break inside an answer item, written as the tag itself."""
+_BR_TAG_RE = re.compile(r"<br\s*/?>", re.IGNORECASE)
+
+
+"""One line of an answer item.
+
+Its offset, its raw line, the text it contributes, that text's column in the raw
+line, and whether a blank quote line precedes it.
+"""
+AnswerLine = tuple[int, str, str, int, bool]
+
+
+def _answer_item_records(
+    lines: Sequence[tuple[int, str]],
+) -> Iterator[tuple[str, list[AnswerLine]]]:
+    """Yield ``(label, records)`` for each answer item of a blockquote block.
+
+    *records* holds the item's own line and every continuation line below it.
+    A continuation is a line indented past the quote marker, or a blank quote
+    line that an indented line follows; a line at the marker's own margin
+    carries no label and states nothing about the item, so the item ends there.
+    Only the labelled line and its continuations are one item, which is why a
+    step never needs a second ``- explanation:``.
+    """
+    index = 0
+    while index < len(lines):
+        offset, line = lines[index]
+        label, text = _split_answer_label(line)
+        if label is None:
+            index += 1
+            continue
+        records: list[AnswerLine] = [(offset, line, text, len(line) - len(text), False)]
+        index += 1
+        blank = False
+        while index < len(lines):
+            offset, line = lines[index]
+            if _split_answer_label(line)[0] is not None or _ANY_LABEL_RE.match(line):
+                break
+            match = _ANSWER_CONTINUATION_RE.match(line)
+            if match is None:
+                if line.strip() == ">":
+                    blank = True
+                    index += 1
+                    continue
+                break
+            content = match.group("content")
+            records.append(
+                (
+                    offset,
+                    line,
+                    _mask_html_comments(content),
+                    line.index(content),
+                    blank,
+                )
+            )
+            blank = False
+            index += 1
+        yield label, records
+
+
+def _answer_items(
+    lines: Sequence[tuple[int, str]],
+) -> Iterator[tuple[int, str, str, int]]:
+    """Yield ``(offset, label, text, line_count)`` for each answer item.
+
+    *text* joins the item's lines with one space, the way a reader sees them,
+    with each ``<br/>`` dropped since it is the break rather than a word of
+    it.  *line_count* counts the item's content lines, so a caller can tell a
+    single-line answer from one written across lines; a paragraph break does
+    not make a line of its own.
+    """
+    for label, records in _answer_item_records(lines):
+        pieces = [_BR_TAG_RE.sub(" ", text).strip() for _, _, text, _, _ in records]
+        pieces = [piece for piece in pieces if piece]
+        yield records[0][0], label, " ".join(pieces), len(pieces)
+
+
+def _answer_line_labels(text: str) -> dict[int, tuple[str, str, int]]:
+    """Return ``line_no -> (label, text, text_start)`` for every answer item line.
+
+    A continuation line carries no label of its own, so a rule reporting on a
+    line needs the label of the item it belongs to.  *text* is the line's own
+    text after its label or its indent, and *text_start* is that text's
+    column, which keeps a reported column on the line it belongs to.
+    """
+    labelled: dict[int, tuple[str, str, int]] = {}
+    block: list[tuple[int, str]] = []
+    for index, raw in enumerate(text.splitlines(), start=1):
+        if raw.startswith(">"):
+            block.append((index, raw))
+            continue
+        if block:
+            _collect_answer_lines(block, labelled)
+            block = []
+    if block:
+        _collect_answer_lines(block, labelled)
+    return labelled
+
+
+def _collect_answer_lines(
+    block: list[tuple[int, str]], labelled: dict[int, tuple[str, str, int]]
+) -> None:
+    """Fill *labelled* with the answer lines of one blockquote block.
+
+    *block* pairs each line with its own line number, which is the key the
+    records carry, so a continuation line is labelled under the number it
+    actually sits on.
+    """
+    for _label, records in _answer_item_records(block):
+        for line_no, _raw, line_text, text_start, _blank in records:
+            labelled[line_no] = (_label, line_text, text_start)
 
 
 def _clozes_answer_whole(line: str, text: str) -> bool:
@@ -5062,6 +5202,18 @@ _FORMULA_MATH_RE = re.compile(r"\$\$.+?\$\$|\$[^$\n]+\$", re.DOTALL)
 """A word of prose: two letters or more, so digits and symbols are no words."""
 _PROSE_WORD_RE = re.compile(r"[A-Za-z]{2,}")
 
+"""A calculation a reader can see: a number, an operator, ``=``, and a result.
+
+A symbolic left side is no calculation: ``ρ=1`` states a premise rather than
+doing arithmetic, so it never matches.  The run stays inside one line and
+stops short of a second ``=``, so two equations side by side do not merge
+into a false one.
+"""
+_VISIBLE_CALC_RE = re.compile(r"\d[^=\n]{0,24}?[-+*/^][^=\n]{0,24}?=\s*-?[\d.]+")
+
+"""A cloze body holding a step's numbers: a digit, or the math written around it."""
+_CLOZE_NUMBER_OR_MATH_RE = re.compile(r"\d|[$`]|\\")
+
 
 def _has_prose_word(text: str) -> bool:
     """Return whether *text* holds a word of prose once its math is gone.
@@ -5089,8 +5241,8 @@ def answer_formula_alone(ctx: ValidationContext) -> list[ValidationMessage]:
     its first formula-only cloze.
     """
     errors: list[ValidationMessage] = []
-    for line_no, line in enumerate(ctx.text.splitlines(), start=1):
-        label, text = _split_answer_label(line)
+    labelled = _answer_line_labels(ctx.text)
+    for line_no, (label, text, text_start) in sorted(labelled.items()):
         if label not in {"explanation", "annotation"}:
             continue
         _, spans, _, _, _ = _scan_cloze_tokens(text)
@@ -5108,7 +5260,6 @@ def answer_formula_alone(ctx: ValidationContext) -> list[ValidationMessage]:
         visible.append(text[cursor:])
         if not formula_spans or not _has_prose_word("".join(visible)):
             continue
-        text_start = len(line) - len(text)
         errors.append(
             ValidationMessage(
                 rule_id="answer_formula_alone",
@@ -5117,11 +5268,71 @@ def answer_formula_alone(ctx: ValidationContext) -> list[ValidationMessage]:
                     "string; hide the formula inside a cloze that also holds "
                     "the words giving it meaning, and leave a formula alone "
                     "only where the surrounding text says nothing or the "
-                    "formula is a named statement"
+                    "formula is a named statement.  Keeping the formula alone "
+                    "is the author's call, so the rule warns instead of "
+                    "failing the line: one that keeps it carries its own "
+                    "suppression, "
+                    + html_cpt("check: ignore-line[answer_formula_alone]: <reason>")
                 ),
                 severity=Severity.WARNING,
                 line=line_no,
                 col=text_start + formula_spans[0] + 1,
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def answer_visible_calculation(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Reject an answer line that shows the calculation its clozes ask for.
+
+    A card asks for what its cloze hides.  A calculation written outside every
+    cloze is read rather than recalled, so ``is $6 - 1 = 5\\text{ solar
+    days}$`` beside clozes hiding only words shows the reader the answer the
+    card is meant to ask for.  The line reports only when no cloze on it holds
+    a number or the math around one: a derivation that hides its arithmetic,
+    as ``is {@{$$\\frac{16}{24} = \\tfrac{2}{3}$$}@}`` does, reports nothing,
+    because the calculation is already the cloze's own content.
+
+    The calculation is a number, an operator, an ``=`` and a numeric result,
+    all outside the clozes.  A symbolic left side such as ``\u03c1=1`` is a premise
+    rather than arithmetic, so it never matches.  A ``- solution:`` line is out
+    of scope, as it is for `answer_formula_alone`.  One message per line, at
+    its first visible calculation.
+    """
+    rule = "answer_visible_calculation"
+    errors: list[ValidationMessage] = []
+    labelled = _answer_line_labels(ctx.text)
+    for line_no, (label, text, text_start) in sorted(labelled.items()):
+        if label not in {"explanation", "annotation"}:
+            continue
+        _, spans, _, _, _ = _scan_cloze_tokens(text)
+        masked = list(text)
+        bodies: list[str] = []
+        cursor = 0
+        for start, end in sorted(spans):
+            if start < cursor:
+                # A cloze nested inside one already masked.
+                continue
+            masked[start : end + 3] = " " * (end + 3 - start)
+            bodies.append(text[start + 3 : end])
+            cursor = end + 3
+        if any(_CLOZE_NUMBER_OR_MATH_RE.search(body) for body in bodies):
+            continue
+        match = _VISIBLE_CALC_RE.search("".join(masked))
+        if match is None:
+            continue
+        errors.append(
+            ValidationMessage(
+                rule_id=rule,
+                msg=(
+                    f"the calculation '{match.group(0)}' sits outside every "
+                    "cloze, and no cloze on the line hides a number, so the "
+                    "card reads the result it asks for; move the arithmetic "
+                    "into the cloze that states what it computes"
+                ),
+                line=line_no,
+                col=text_start + match.start() + 1,
             )
         )
     return errors
@@ -5235,8 +5446,10 @@ def cloze_glue(ctx: ValidationContext) -> list[ValidationMessage]:
                     msg=(
                         "a cloze hides what carries the fact, so this one "
                         "hides only a connective and leaves the reader nothing "
-                        "to recall; hide the word or number that states the "
-                        "fact instead"
+                        "to recall; merge the connective into the cloze beside "
+                        "it, so one cloze hides the fact and the words joining "
+                        "it — 'but not always', 'but not both', 'not only for "
+                        "the DC term' — rather than the connective alone"
                     ),
                     line=line_no,
                     col=start + 1,
@@ -5560,6 +5773,35 @@ def no_soft_wrap_paragraph(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
+def _every_softbreak_is_explicit(nodes: list[AstNode]) -> bool:
+    """Return whether each softbreak in *nodes* follows an explicit break.
+
+    A written ``<br/>`` is the author's own line break, and the parser leaves a
+    ``softbreak`` node after the tag; a backslash break leaves a ``linebreak``
+    node instead, so it never reaches here.  Such an item is not soft-wrapped
+    and is not the shape this rule reports.  Walking siblings rather than
+    searching the text for the item's first words keeps the two apart, since
+    the words an item opens with are not unique to it.
+    """
+    for node in nodes:
+        children = node.get("children")
+        if not isinstance(children, list):
+            continue
+        for index, child in enumerate(children):
+            if child.get("type") != "softbreak" or not index:
+                continue
+            previous = children[index - 1]
+            raw = str(previous.get("raw") or "").rstrip()
+            if previous.get("type") == "inline_html" and raw.lower().startswith("<br"):
+                continue
+            if raw.endswith("\\"):
+                continue
+            return False
+        if not _every_softbreak_is_explicit(children):
+            return False
+    return True
+
+
 @RULE_REGISTRY.register()
 def no_soft_wrap_list(ctx: ValidationContext) -> list[ValidationMessage]:
     """Flag soft-wrapped list items (list line continued without a blank line).
@@ -5585,6 +5827,8 @@ def no_soft_wrap_list(ctx: ValidationContext) -> list[ValidationMessage]:
             c.get("type") == "softbreak" for c in iter_ast(item_children)
         )
         if not has_softbreak:
+            continue
+        if _every_softbreak_is_explicit(item_children):
             continue
 
         # Find the first text child for position detection.
