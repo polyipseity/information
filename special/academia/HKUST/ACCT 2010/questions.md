@@ -97,7 +97,8 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{3, since most investing activities involve instantaneous transfer of cash}@}
+> - solution: {@{3. statement of cash flow}@}
+> - explanation: {@{Most investing activities involve an instantaneous transfer of cash}@}
 
 <!-- markdownlint MD028 -->
 
@@ -117,7 +118,8 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{3, since most procurements involve instantaneous transfer of cash}@}
+> - solution: {@{3. statement of cash flow}@}
+> - explanation: {@{Most procurements involve an instantaneous transfer of cash}@}
 
 <!-- markdownlint MD028 -->
 
@@ -127,7 +129,8 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{1, and also 3 if the revenues earned involve instantaneous transfer of cash}@}
+> - solution: {@{1. income statement and 3. statement of cash flow}@}
+> - explanation: {@{The revenues earned also reach the statement of cash flow when they involve an instantaneous transfer of cash}@}
 
 <!-- markdownlint MD028 -->
 
@@ -137,7 +140,8 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{2, and also 3 if the unearned revenues involve instantaneous transfer of cash}@}
+> - solution: {@{2. balance sheet and 3. statement of cash flow}@}
+> - explanation: {@{The unearned revenues also reach the statement of cash flow when they involve an instantaneous transfer of cash}@}
 
 <!-- markdownlint MD028 -->
 
@@ -147,7 +151,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{2, 3}@}
+> - solution: {@{2. balance sheet and 3. statement of cash flow}@}
 > - explanation: {@{1 is not included in the answer}@} because {@{lending money from others is neither a revenue nor an expense}@}, so it is {@{definitely not included in the income statement}@}.
 
 <!-- markdownlint MD028 -->

@@ -529,7 +529,7 @@ tags:
 > 2. The naive Bayes classifier is uses a labeled dataset.
 > 3. The naive Bayes classifier assumes independence of events (features).
 >
-> - solution: {@{2, 3}@}
+> - solution: {@{2. The naive Bayes classifier is uses a labeled dataset. and 3. The naive Bayes classifier assumes independence of events (features).}@}
 
 <!-- markdownlint MD028 -->
 
@@ -556,7 +556,7 @@ tags:
 > 2. $P(E \text{ and } F) = P(E) \times P(F)$
 > 3. $P(E \mid F) = P(E)$
 >
-> - solution: {@{2, 3}@}
+> - solution: {@{2. $P(E \text{ and } F) = P(E) \times P(F)$ and 3. $P(E \mid F) = P(E)$}@}
 > - explanation: {@{1 holds when additionally, $P(E) = P(F)$.}@}
 
 <!-- markdownlint MD028 -->
@@ -620,7 +620,7 @@ tags:
 > 2. Distance metric
 > 3. Number of samples
 >
-> - solution: {@{1, 2}@}
+> - solution: {@{1. K and 2. Distance metric}@}
 
 <!-- markdownlint MD028 -->
 
@@ -858,7 +858,7 @@ tags:
 > 3. Its output is equivalent to the direct result of a weighted sum of the inputs plus a bias.
 > 4. For a perceptron with n inputs and 1 output, there should be n+1 parameters, including bias.
 >
-> - solution: {@{2, 4}@}
+> - solution: {@{2. It can be mathematically modeled as a vector dot product. and 4. For a perceptron with n inputs and 1 output, there should be n+1 parameters, including bias.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -875,7 +875,7 @@ tags:
 > 3. choice of having a bias term or not
 > 4. choice of the number of inputs
 >
-> - solution: {@{1, 2, 3}@}
+> - solution: {@{1. choice of activation function and 2. choice of learning rate and 3. choice of having a bias term or not}@}
 
 <!-- markdownlint MD028 -->
 
@@ -892,7 +892,7 @@ tags:
 > 3. w = [1, 1], bias = sqrt(2)
 > 4. w = [-1, -1], bias = -2
 >
-> - solution: {@{1, 2, 4}@}
+> - solution: {@{1. w = [0.5, 0.5], bias = 1 and 2. w = [100, 100], bias = 200 and 4. w = [-1, -1], bias = -2}@}
 > - explanation: {@{Check if the weights and biases can be scaled together to get the original perceptron.}@}
 
 <!-- markdownlint MD028 -->
@@ -904,7 +904,7 @@ tags:
 > 3. w = [1, 1], bias = sqrt(2)
 > 4. w = [-1, -1], bias = -2
 >
-> - solution: {@{1, 2}@}
+> - solution: {@{1. w = [0.5, 0.5], bias = 1 and 2. w = [100, 100], bias = 200}@}
 > - explanation: First, {@{check if the decision boundary is the same}@}, which is {@{the same as the previous question}@}. Second, {@{check if the resulting classification is the same for the same side of the decision boundary}@}. <p> 4 has {@{the classification flipped}@} because it has {@{its parameters scaled by a negative number}@}.
 
 ## multilayer perceptron
@@ -990,7 +990,7 @@ tags:
 > 3. It is based on the recursive use of the chain rule.
 > 4. It is based on the recursive use of the Leibniz integral rule.
 >
-> - solution: {@{2, 3}@}
+> - solution: {@{2. It transmits loss back through the network to adjust the weights. and 3. It is based on the recursive use of the chain rule.}@}
 > - explanation: Theoretically, {@{you could do 1}@} for {@{adversarial machine learning}@}... an example is {@{finding "bad" inputs}@} (that look {@{mostly indistinguishable to the original input}@}) that {@{cause the network to produce any classification you desire}@}. And 4 is {@{something completely unrelated}@}...
 
 <!-- markdownlint MD028 -->
@@ -1002,7 +1002,7 @@ tags:
 > 3. Considering from the point of view of the hyperplane for classification, overfitted models tend to have a more curvatured decision boundary than well-fitted model.
 > 4. Considering from the point of view of the hyperplane for classification, overfitted models tend to have a less curvatured decision boundary than well-fitted model.
 >
-> - solution: {@{1, 3}@}
+> - solution: {@{1. Over-fitting is a phenomenon when the network is too adapted to the training data and cannot generalize well to unseen test data. and 3. Considering from the point of view of the hyperplane for classification, overfitted models tend to have a more curvatured decision boundary than well-fitted model.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1060,7 +1060,7 @@ tags:
 > 3. The updates are proportional to the output of the weight layer
 > 4. The output layer weights are used when computing the loss of the hidden layer
 >
-> - solution: {@{2, 4}@}
+> - solution: {@{2. The updates are proportional to the loss and 4. The output layer weights are used when computing the loss of the hidden layer}@}
 
 ## digital image processing fundamentals
 
@@ -1233,7 +1233,7 @@ tags:
 > 3. The total number of parameters depends on the stride.
 > 4. The total number of parameters depends on the padding.
 >
-> - solution: {@{1, 2}@}
+> - solution: {@{1. The number of weights depends on the depth of the input volume. and 2. The number of biases is equal to the number of filters.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1244,7 +1244,7 @@ tags:
 > 3. Convolution preserves spatial context while dense layers will lose spatial context by flattening everything.
 > 4. Convolutional layers are more similar to how the human visual system works, where different areas of the brain are activated by different levels of features.
 >
-> - solution: {@{3, 4}@}
+> - solution: {@{3. Convolution preserves spatial context while dense layers will lose spatial context by flattening everything. and 4. Convolutional layers are more similar to how the human visual system works, where different areas of the brain are activated by different levels of features.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1280,7 +1280,7 @@ tags:
 > 3. It is not a differentiable operation.
 > 4. The number of learnable parameters in a pooling layer is the same as the filter size.
 >
-> - solution: {@{3, 4}@}
+> - solution: {@{3. It is not a differentiable operation. and 4. The number of learnable parameters in a pooling layer is the same as the filter size.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1297,7 +1297,7 @@ tags:
 > 3. A dropout rate of 0.5 means half of the neuron output will be set to 0.
 > 4. The higher the dropout rate, the better the model performance.
 >
-> - solution: {@{3, 4}@}
+> - solution: {@{3. A dropout rate of 0.5 means half of the neuron output will be set to 0. and 4. The higher the dropout rate, the better the model performance.}@}
 > - explanation: For 3, {@{the implementation of dropout in Keras (by extension, TensorFlow) uses a random mask}@}, which is {@{not guaranteed to turn off 50% of neurons}@}. Theoretically, {@{its randomness could mean none of the neurons are turned off}@}. Other libraries {@{may use a different implementation}@} (e.g. {@{guaranteeing 50% of the neurons are turned off}@}), but {@{ignore this for the examinations}@}. <p> This is {@{likely tested in the examinations}@}...
 
 ## minimax & alpha–beta pruning
@@ -1366,7 +1366,7 @@ tags:
 > 2. Producing wrong predictions due to model implementation issues.
 > 3. Obscuring the legal responsibilities.
 >
-> - solution: {@{1, 2, 3}@}
+> - solution: {@{1. Obtaining people's personal information without their consent. and 2. Producing wrong predictions due to model implementation issues. and 3. Obscuring the legal responsibilities.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1429,7 +1429,7 @@ tags:
 > 2. The present captures information about the future.
 > 3. Once the present is known, history may be thrown away.
 >
-> - solution: {@{1, 3}@}
+> - solution: {@{1. The future is independent of the past, given the present. and 3. Once the present is known, history may be thrown away.}@}
 
 <!-- markdownlint MD028 -->
 
