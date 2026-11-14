@@ -12,6 +12,7 @@ from main_mods.question_blocks import (
     _prose_words,
     answer_explanation_shape,
     answer_item_continuation,
+    answer_item_gap,
     answer_item_repeated,
     answer_sentence_all_hidden,
     answer_solution_names_option,
@@ -1109,9 +1110,7 @@ def test_answer_item_repeated_silent_on_one_item_per_slot():
     """A solution, an explanation and an annotation are three different slots."""
     text = (
         "> - solution: {@{3. (c)}@}\n"
-        ">\n"
         "> - explanation: {@{The first step}@}.\n"
-        ">\n"
         "> - annotation: {@{The convention is not universal}@}.\n"
     )
     assert not answer_item_repeated(make_ctx(text))
@@ -1155,6 +1154,51 @@ def test_answer_item_continuation_fires_on_a_margin_line():
     errors = answer_item_continuation(make_ctx(text))
     assert [e.rule_id for e in errors] == ["answer_item_continuation"]
     assert "quote marker's own margin" in errors[0].msg
+
+
+def test_answer_item_gap_fires_between_two_items():
+    """A blank quote line between two items reads as an empty paragraph."""
+    text = "> - solution: {@{3. (c)}@}\n>\n> - explanation: {@{The first step}@}.\n"
+    errors = answer_item_gap(make_ctx(text))
+    assert [e.rule_id for e in errors] == ["answer_item_gap"]
+    assert errors[0].line == 2
+    assert "adjacent lines" in errors[0].msg
+
+
+def test_answer_item_gap_silent_on_adjacent_items():
+    """The items of one block sit one under another."""
+    text = "> - solution: {@{3. (c)}@}\n> - explanation: {@{The first step}@}.\n"
+    assert not answer_item_gap(make_ctx(text))
+
+
+def test_answer_item_gap_silent_on_a_paragraph_inside_an_item():
+    """The same blank line opens a paragraph of the item above it."""
+    text = "> - explanation: First {@{step}@}.\n>\n>     Second {@{paragraph}@}.\n"
+    assert not answer_item_gap(make_ctx(text))
+
+
+def test_answer_item_gap_silent_before_the_answer_rule():
+    """The blank line between the question and '> ---' separates, not gaps."""
+    text = "> Question {@{text}@}.\n>\n> ---\n>\n> - solution: {@{3. (c)}@}\n"
+    assert not answer_item_gap(make_ctx(text))
+
+
+def test_answer_item_gap_silent_after_an_indented_question_line():
+    """An indented display line in the question is no item to be set off."""
+    text = (
+        "> Hint: use the identity $$\\begin{align*}\n"
+        ">     & P(E) \\\\\n"
+        ">    \\end{align*}$$ as taught.\n"
+        ">\n"
+        "> - solution: {@{3. (c)}@}\n"
+    )
+    assert not answer_item_gap(make_ctx(text))
+
+
+def test_answer_item_gap_silent_on_one_item():
+    """With no item above it, a blank line cannot sit between two."""
+    text = ">\n> - solution: {@{3. (c)}@}\n"
+    assert not answer_item_gap(make_ctx(text))
 
 
 def test_answer_explanation_shape_judges_the_whole_item():

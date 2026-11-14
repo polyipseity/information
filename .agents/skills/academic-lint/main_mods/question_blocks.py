@@ -998,6 +998,46 @@ def answer_item_repeated(ctx: ValidationContext) -> list[ValidationMessage]:
 
 
 @RULE_REGISTRY.register()
+def answer_item_gap(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Reject a blank quote line between two answer items of one block.
+
+    A blank ``>`` line breaks a paragraph inside one item and separates the
+    question from ``> ---``.  Between two items it reads as an empty paragraph
+    in the answer, so the lower item appears to start for no reason.
+    """
+    rule = "answer_item_gap"
+    errors: list[ValidationMessage] = []
+    for block_start, lines in _blocks(ctx.text):
+        if not _answers(lines):
+            continue
+        answer_lines = {
+            offset
+            for _label, records in _answer_item_records(lines)
+            for offset, *_rest in records
+        }
+        for index, (_offset, line) in enumerate(lines):
+            if index == 0 or _split_answer_label(line)[0] is None:
+                continue
+            above = index - 1
+            while above >= 0 and not lines[above][1].strip("> \t"):
+                above -= 1
+            if above == index - 1:
+                continue
+            if above >= 0 and lines[above][0] in answer_lines:
+                errors.append(
+                    _reports(
+                        rule,
+                        "a blank '>' line sits between two answer items; the "
+                        "items of one block sit on adjacent lines, so the blank "
+                        "line reads as an empty paragraph in the answer",
+                        ctx,
+                        block_start + lines[above + 1][0],
+                    )
+                )
+    return errors
+
+
+@RULE_REGISTRY.register()
 def answer_item_continuation(ctx: ValidationContext) -> list[ValidationMessage]:
     """Hold a continued answer item to the line it is written on.
 
