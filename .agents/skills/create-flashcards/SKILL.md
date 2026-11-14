@@ -66,6 +66,7 @@ Before → after, each pair hand-corrected by the owner and quoted from that dif
 10. __The pivot visible on both sides__ (ISOM 2700 quiz 1:124): `{@{The required average inventory is 4 shows}@}` → `{@{The required average inventory}@} is {@{4 shows}@}`
 11. __The hedge stays visible__ (FINA 2303 questions:1189): `{@{The effect of lack of correlation \(should\) outweighs that of higher SD}@}.` → `{@{The effect of lack of correlation}@} \(should\) {@{outweighs that of higher SD}@}.`
 12. __Premise hidden, frame kept__ (COMP 3111H quiz 14:106): `For a \(large\) loop with _n_ iterations, {@{execute loops for 0, 1, 2 passes}@};` → `For {@{a \(large\) loop with _n_ iterations}@}, execute {@{loops for 0, 1, 2 passes}@};`
+13. __Items on adjacent lines__ (`answer_item_gap`, ELEC 2100 quiz 1:41): `> - solution: {@{3. (c)}@}`, a blank `>` line, `> - explanation: <derivation>` → the explanation directly under the solution.
 
 ## Diagrams in cards
 
