@@ -64,9 +64,9 @@ class WorkspaceRule(Protocol):
 
     __name__: str
 
-    def __call__(
-        self, ctx: WorkspaceContext
-    ) -> Awaitable[Sequence[WorkspaceMessage]]: ...
+    def __call__(self, ctx: WorkspaceContext) -> Awaitable[Sequence[WorkspaceMessage]]:
+        """Return the messages this rule reports for *ctx*."""
+        ...
 
 
 """Registered workspace rules, keyed by id."""

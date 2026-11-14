@@ -5206,6 +5206,7 @@ async def test_content_sentence_too_long_suppressed(tmp_path: PathLike[str]):
 
 
 def test_split_answer_label_reads_the_house_items():
+    """The house item labels are read by slot."""
     assert _split_answer_label("> - solution: {@{x}@}")[0] == "solution"
     assert _split_answer_label("> - explanation: words")[0] == "explanation"
     assert _split_answer_label("> - annotation: note")[0] == "annotation"
@@ -5221,5 +5222,6 @@ def test_split_answer_label_reads_the_legacy_lead_ins():
 
 
 def test_split_answer_label_leaves_prose_alone():
+    """Prose that mentions an answer is not a labelled item."""
     assert _split_answer_label("> Solutions are tested here")[0] is None
     assert _split_answer_label("> The answer: 4")[0] is None

@@ -11,6 +11,9 @@ looks like prose, and nothing else would report it.
 import re
 from pathlib import Path as SyncPath
 
+"""Public API of this test module: the one guard test."""
+__all__ = ("test_no_note_keeps_a_legacy_answer_lead_in",)
+
 """A legacy lead-in line, colon or italic form, as the migration found them."""
 LEGACY_LEAD_IN_RE = re.compile(
     r"^>\s*(?:Solution|Explanation|Answer)\s*:|^>\s*_(?:Solution|Explanation)\._",
