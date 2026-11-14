@@ -56,13 +56,11 @@ FORMULA_ALONE_KEPT = frozenset(
 """The owner's forty corrected lines, each with the file and line it came from."""
 CORPUS: tuple[tuple[str, str], ...] = (
     (
-        "special/academia/HKUST/ACCT 3020/dilutive securities and earnings per share.md:448",
-        # Recorded for the gallery, not pinned by the answer-line rules: the
-        # owner wrote `_Explanation._`, a lead-in no answer-line rule reads, so
-        # this line is a prose card. Its two clozes would break the short-line
-        # rule if the label were `- explanation:`, which is why it stays as the
-        # owner wrote it.
-        "> _Explanation._ Liability-settled SARs are {@{remeasured each reporting period}@}, so compensation expense can {@{move up or down before settlement}@}.",
+        "special/academia/HKUST/ACCT 3020/dilutive securities and earnings per share.md:478",
+        # The owner first wrote this as `> _Explanation._` with two clozes; the
+        # lead-in migration moved it into the explanation slot and folded the
+        # two clozes into the one the short-line rule asks for.
+        "> - explanation: {@{Liability-settled SARs are remeasured each reporting period, so compensation expense can move up or down before settlement.}@}",
     ),
     (
         "special/academia/HKUST/COMP 3111H/UML.md:92",

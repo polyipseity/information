@@ -1782,7 +1782,9 @@ is how a question block is recognized; a caller matching one line gets the
 same result with or without it.
 """
 _SOLUTION_LABEL_RE = re.compile(
-    r"^[ \t]*>[ \t]*(?:-[ \t]*)?(?P<label>solution|explanation|annotation)[ \t]*:",
+    r"^[ \t]*>[ \t]*(?:-[ \t]*)?_?"
+    r"(?P<label>solution|explanation|annotation|answer)"
+    r"(?:\._|[ \t]*:)(?=[ \t]|$)",
     re.IGNORECASE | re.MULTILINE,
 )
 """A blockquote opening display math or an aligned environment, not a question."""
@@ -1842,11 +1844,19 @@ def _split_answer_label(line: str) -> tuple[str | None, str]:
     lowercased slot name when the line carries one, and *text* is what follows
     its colon, with any HTML comment in it blanked. A line without a label
     comes back unchanged, with ``None``.
+
+    The older shapes are judged in the same slot: ``> Solution:`` and
+    ``> Answer:`` are the solution, and ``> Explanation:`` or
+    ``> _Explanation._`` is the explanation, so a lead-in left in a note
+    answers to the rules that shape its slot.
     """
     match = _SOLUTION_LABEL_RE.match(line)
     if match is None:
         return None, line
-    return match.group("label").lower(), _mask_html_comments(line[match.end() :])
+    label = match.group("label").lower()
+    if label == "answer":
+        label = "solution"
+    return label, _mask_html_comments(line[match.end() :])
 
 
 """A line indented past the quote marker, which continues the item above it."""

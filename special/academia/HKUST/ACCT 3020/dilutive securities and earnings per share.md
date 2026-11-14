@@ -643,7 +643,7 @@ Two practical EPS traps deserve explicit emphasis.
 >
 > ---
 >
-> - explanation: The tricky point is that {@{EPS restatement follows the ordinary shares actually affected by the share dividend}@}, {@{not every issued share figure sitting somewhere in equity}@}.
+> - explanation: {@{EPS restatement follows the ordinary shares the share dividend affected, not every issued share figure sitting somewhere in equity}@}
 
 <!-- markdownlint MD028 -->
 

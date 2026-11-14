@@ -59,12 +59,6 @@ __all__ = (
 """The rules defined here, for the validator to include."""
 RULE_REGISTRY = RuleRegistry()
 
-"""A blockquote list item answering the block's question."""
-_ANSWER_RE = re.compile(
-    r"^[ \t]*>[ \t]*(?:-[ \t]*)?(?:solution|explanation|annotation)[ \t]*:",
-    re.IGNORECASE,
-)
-
 """A ``- question:`` label item, the shape the house format drops."""
 _LABEL_RE = re.compile(r"^[ \t]*>[ \t]*-[ \t]*question[ \t]*:", re.IGNORECASE)
 
@@ -291,13 +285,13 @@ def _blocks(text: str) -> Iterator[tuple[int, list[tuple[int, str]]]]:
 
 def _answers(lines: list[tuple[int, str]]) -> bool:
     """Return whether the block carries an answer item."""
-    return any(_ANSWER_RE.match(line) for _, line in lines)
+    return any(_split_answer_label(line)[0] is not None for _, line in lines)
 
 
 def _first_answer(lines: list[tuple[int, str]]) -> int:
     """Return the index of the block's first answer item, or ``-1``."""
     for index, (_, line) in enumerate(lines):
-        if _ANSWER_RE.match(line):
+        if _split_answer_label(line)[0] is not None:
             return index
     return -1
 
