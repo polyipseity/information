@@ -161,7 +161,7 @@ Representative journal entry examples:
 >
 > ---
 >
-> - explanation: {@{Preference premium is only 8 000 before costs, so direct costs of 12 000 wipe it out and the remaining 4 000 reduces Share capital — preference.}@}
+> - explanation: {@{Gross proceeds are 208 000 (40 000 × 5.20)}@}, so {@{preference premium before costs is only 8 000}@}. {@{Direct costs of 12 000}@} first eliminate that {@{8 000 preference premium}@}, and {@{the remaining 4 000 reduces Share capital — preference from 200 000 to 196 000}@}. The same exhaustion logic applies class by class: {@{ordinary issue costs use ordinary premium first}@}, while {@{preference issue costs use preference premium first}@}.
 
 ---
 
@@ -373,7 +373,7 @@ Representative journal entry examples:
 >
 > ---
 >
-> - explanation: {@{The shortfall of 20 000 is met first from Share premium — treasury, which holds 8 000, leaving 12 000 debited to Retained earnings.}@}
+> - explanation: The shortfall {@{comes to 50 000 − 30 000 = 20 000}@}. {@{The first 8 000 comes from}@} _Share premium — treasury_, {@{exhausting it}@}. {@{The remaining 12 000 is debited}@} {@{A debit of 12 000 is then made}@} to _Retained earnings_. {@{If that account held only 5 000 before the entry}@}, it would fall to {@{a balance of −7 000}@}, {@{an accumulated deficit}@}. {@{The loss is absorbed by equity}@}, not reported in profit or loss.
 
 ---
 

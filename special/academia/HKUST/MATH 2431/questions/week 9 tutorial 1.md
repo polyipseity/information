@@ -42,7 +42,7 @@ The questions on this page combine the T1B tutorial session problems with supple
 > ---
 >
 > - solution: {@{(a) is false and (b) is true}@}
-> - explanation: {@{Equal expectations alone do not force equality of random variables}@}: let {@{$X\equiv 0$ and let $Y$ be a Rademacher variable taking values $\pm1$ with equal probability $1/2$}@}, then {@{$E[X]=E[Y]=0$, yet $P(X=Y)=0$ (they differ almost surely)}@}, so (a) fails. For (b), {@{the variable $|X-Y|$ is nonnegative almost surely and has expectation $0$}@}, so {@{the previous result}@} gives {@{$|X-Y|=0$ almost surely, which forces $X=Y$ almost surely}@}.
+> - explanation: For a concrete counterexample, note that {@{equal expectations alone do not force equality of random variables}@}: let {@{$X\equiv 0$ and let $Y$ be a Rademacher variable taking values $\pm1$ with equal probability $1/2$}@}, then {@{$E[X]=E[Y]=0$, yet $P(X=Y)=0$ (they differ almost surely)}@}, so (a) fails. For (b), {@{the variable $|X-Y|$ is nonnegative almost surely and has expectation $0$}@}, so {@{the previous result}@} gives {@{$|X-Y|=0$ almost surely, which forces $X=Y$ almost surely}@}.
 
 <!-- markdownlint MD028 -->
 

@@ -685,11 +685,21 @@ Flashcards for this section are as follows:
 >
 > ---
 >
-> - explanation: {@{Issuance costs lower both the cash received and the opening carrying amount.}@}
+> - explanation: The bond price at 10% is {@{50&nbsp;000 × 0.6209 + 4&nbsp;000 × 3.7908 ≈ 31&nbsp;045 + 15&nbsp;163 = 46&nbsp;208}@}, so net proceeds are {@{46&nbsp;208 − 600 = 45&nbsp;608}@}. Issuance costs {@{lower both the cash received and the opening carrying amount}@}.
 
 <!-- markdownlint MD028 -->
 
 > 1.b. The same {@{5-year bond, face 50&nbsp;000, coupon 8% paid annually}@} carries an opening carrying amount of {@{45&nbsp;608}@}, and the effective interest rate on net proceeds is slightly above 10% (course approximation: {@{treat the EIR as 10%}@}). Record year-1 interest on 31 December 2025.
+>
+> |       Year |      Beginning CA |      Cash coupon | Interest expense at 10% | Discount amortized |         Ending CA |
+> | ---------: | ----------------: | ---------------: | ----------------------: | -----------------: | ----------------: |
+> | {@{2025}@} | {@{45&nbsp;608}@} | {@{4&nbsp;000}@} |        {@{4&nbsp;561}@} |          {@{561}@} | {@{46&nbsp;169}@} |
+> | {@{2026}@} | {@{46&nbsp;169}@} | {@{4&nbsp;000}@} |        {@{4&nbsp;617}@} |          {@{617}@} | {@{46&nbsp;786}@} |
+> | {@{2027}@} | {@{46&nbsp;786}@} | {@{4&nbsp;000}@} |        {@{4&nbsp;679}@} |          {@{679}@} | {@{47&nbsp;465}@} |
+> | {@{2028}@} | {@{47&nbsp;465}@} | {@{4&nbsp;000}@} |        {@{4&nbsp;747}@} |          {@{747}@} | {@{48&nbsp;212}@} |
+> | {@{2029}@} | {@{48&nbsp;212}@} | {@{4&nbsp;000}@} |        {@{5&nbsp;788}@} |   {@{1&nbsp;788}@} | {@{50&nbsp;000}@} |
+>
+> Note {@{the final interest expense}@} is {@{adjusted to ensure the ending carrying amount equals the face value at maturity}@}; this is {@{a common practice when using an approximate EIR}@} for simplicity.
 >
 > | {@{Recognise interest and amortise discount (year 1)}@} | Dr               | Cr               |
 > | ------------------------------------------------------- | ---------------- | ---------------- |
@@ -742,7 +752,7 @@ Flashcards for this section are as follows:
 >
 > ---
 >
-> - explanation: {@{The note is measured at the present value of its face amount at 9%.}@}
+> - explanation: The note {@{is measured at the present value of its face amount at 9%}@}. The implicit discount ({@{80&nbsp;000 − 56&nbsp;672 = 23&nbsp;328}@}) is {@{amortized as interest expense using the 9% implicit rate applied to the beginning carrying amount each year}@}; no cash interest {@{is paid during the term}@}. At maturity the entry is {@{Dr Notes payable 80&nbsp;000, Cr Cash 80&nbsp;000}@}.
 
 <!-- markdownlint MD028 -->
 
