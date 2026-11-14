@@ -26,7 +26,7 @@ tags:
 > 3. AI is a sentient robot.
 > 4. AI is the science and engineering of making intelligent machines.
 >
-> - solution: {@{4}@}
+> - solution: {@{4. AI is the science and engineering of making intelligent machines.}@}
 > - explanation: {@{This definition is due to Alan Turing.}@}
 
 <!-- markdownlint MD028 -->
@@ -38,7 +38,7 @@ tags:
 > 3. Frank Rosenblatt
 > 4. Desmond <!-- ____ -->
 >
-> - solution: {@{1}@}
+> - solution: {@{1. Alan Turing}@}
 
 <!-- markdownlint MD028 -->
 
@@ -49,7 +49,7 @@ tags:
 > 3. Keras
 > 4. Vulpix
 >
-> - solution: {@{3}@}
+> - solution: {@{3. Keras}@}
 
 <!-- markdownlint MD028 -->
 
@@ -60,7 +60,7 @@ tags:
 > 3. Neurobiology
 > 4. Cognition science
 >
-> - solution: {@{2}@}
+> - solution: {@{2. Particle physics}@}
 
 <!-- markdownlint MD028 -->
 
@@ -71,7 +71,7 @@ tags:
 > 3. Expert systems
 > 4. Content mining
 >
-> - solution: {@{4}@}
+> - solution: {@{4. Content mining}@}
 > - explanation: {@{Too simple, simply hard code it...}@}
 
 <!-- markdownlint MD028 -->
@@ -83,7 +83,7 @@ tags:
 > 3. Keras
 > 4. scikit-learn
 >
-> - solution: {@{4}@}
+> - solution: {@{4. scikit-learn}@}
 
 <!-- markdownlint MD028 -->
 
@@ -93,7 +93,7 @@ tags:
 > 2. Convolutional Neural Network (CNN)
 > 3. Minimax and Alpha-Beta Pruning
 >
-> - solution: {@{3}@}
+> - solution: {@{3. Minimax and Alpha-Beta Pruning}@}
 
 <!-- markdownlint MD028 -->
 
@@ -104,7 +104,7 @@ tags:
 > 3. The second AI winter happened in 1987–1993
 > 4. The natural language processing AI, ELIZA, passes the Turing test
 >
-> - solution: {@{4}@}
+> - solution: {@{4. The natural language processing AI, ELIZA, passes the Turing test}@}
 
 <!-- markdownlint MD028 -->
 
@@ -115,7 +115,7 @@ tags:
 > 3. Python is a dynamically typed language
 > 4. Python is popular and has a large community
 >
-> - solution: {@{3}@}
+> - solution: {@{3. Python is a dynamically typed language}@}
 
 ## Python fundamentals for artificial intelligence
 
@@ -126,7 +126,7 @@ tags:
 > 3. `{"a", "b"}`
 > 4. `{"a": "b"}`
 >
-> - solution: {@{4}@}
+> - solution: {@{4. `{"a": "b"}`}@}
 
 <!-- markdownlint MD028 -->
 
@@ -150,7 +150,7 @@ tags:
 > 3. Dictionaries
 > 4. Sets
 >
-> - solution: {@{2}@}
+> - solution: {@{2. Tuples}@}
 
 <!-- markdownlint MD028 -->
 
@@ -224,7 +224,7 @@ tags:
 > 3. `M + C`, where `C` is an array of shape (5, 3)
 > 4. `M + D`, where `D` is an array of shape (5, 1)
 >
-> - solution: {@{4}@}
+> - solution: {@{4. `M + D`, where `D` is an array of shape (5, 1)}@}
 
 <!-- markdownlint MD028 -->
 
@@ -270,7 +270,7 @@ tags:
 > 3. `M * C`, where `C` is an array of shape (4, 1)
 > 4. `M * D`, where `D` is an array of shape (5, 1)
 >
-> - solution: {@{3}@}
+> - solution: {@{3. `M * C`, where `C` is an array of shape (4, 1)}@}
 
 <!-- markdownlint MD028 -->
 
@@ -281,7 +281,7 @@ tags:
 > 3. `np.dot(M, C)`, where `C` is an array of shape (22, 11)
 > 4. `np.dot(D, M)`, where `D` is an array of shape (11, 33)
 >
-> - solution: {@{1}@}
+> - solution: {@{1. `np.dot(M, A)`, where `A` is an array of shape (11, 33)}@}
 
 <!-- markdownlint MD028 -->
 
@@ -323,7 +323,7 @@ tags:
 > 3. It is a package
 > 4. It is a library
 >
-> - solution: {@{2}@}
+> - solution: {@{2. It is a module}@}
 
 <!-- markdownlint MD028 -->
 
@@ -473,7 +473,7 @@ tags:
 > 3. `12.0 / 4.0 == 3.0`
 > 4. `5 // 3 == 1`
 >
-> - solution: {@{2}@}
+> - solution: {@{2. `0.1 + 0.2 == 0.3`}@}
 > - explanation: {@{To be fair, this question is unlikely to be tested... It is simply trying to show that `float`s have limited precision.}@}
 
 <!-- markdownlint MD028 -->
@@ -578,7 +578,7 @@ tags:
 > 3. The naive Bayes classifier always predicts correct results.
 > 4. None of the above
 >
-> - solution: {@{2}@}
+> - solution: {@{2. The naive Bayes classifier assumes each piece of evidence contributes <!-- equally -->independently to the belief.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -643,7 +643,7 @@ tags:
 > 3. It assumes that all data are of the same scale.
 > 4. None of the above.
 >
-> - solution: {@{4}@}
+> - solution: {@{4. None of the above.}@}
 > - explanation: For 1 and 2, {@{classification is an obvious use case}@}. For regression, {@{one way is taking the neighbor average weighted by inverse distances}@}. For 3, while {@{it does not require all data to be of the same scale}@}, this would {@{make the distance of each feature not considered with the same weight}@}.
 
 <!-- markdownlint MD028 -->
@@ -710,7 +710,7 @@ tags:
 > 3. The "K" in K-means clustering refers to the number of data points
 > 4. K-means clustering achieves categorization of data points
 >
-> - solution: {@{4}@}
+> - solution: {@{4. K-means clustering achieves categorization of data points}@}
 
 <!-- markdownlint MD028 -->
 
@@ -794,7 +794,7 @@ tags:
 > 3. Chat bots
 > 4. Customer segmentation
 >
-> - solution: {@{4}@}
+> - solution: {@{4. Customer segmentation}@}
 > - explanation: {@{It is the closest to clustering...}@}
 
 <!-- markdownlint MD028 -->
@@ -817,7 +817,7 @@ tags:
 > 3. Perform principal component analysis (PCA)
 > 4. Shuffle the dataset
 >
-> - solution: {@{4}@}
+> - solution: {@{4. Shuffle the dataset}@}
 
 <!-- markdownlint MD028 -->
 
@@ -846,7 +846,7 @@ tags:
 > 3. One similarity between perceptron and KNN is that they both include learnable parameters.
 > 4. Every parameter must be updated during an epoch.
 >
-> - solution: {@{1}@}
+> - solution: {@{1. It can only be used for linearly separable data (ignoring regression).}@}
 > - explanation: Even if {@{the activation function is nonlinear}@}, {@{the input to the activation function is linear}@}. Unless you are doing regression, otherwise {@{the nonlinear activation function cannot magically make the classification nonlinear}@}.
 
 <!-- markdownlint MD028 -->
@@ -916,7 +916,7 @@ tags:
 > 3. MLP is a feed-forward neural network designed to work exactly as human brains learn.
 > 4. To use MLP for supervised learning, we always need to apply a suitable loss function at the end of the network.
 >
-> - solution: {@{4}@}
+> - solution: {@{4. To use MLP for supervised learning, we always need to apply a suitable loss function at the end of the network.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -927,7 +927,7 @@ tags:
 > 3. Activation functions have to be continuous and differentiable at every point.
 > 4. One problem with the sigmoid activation functions is that it may cause a vanishing gradient problem in the saturation zone.
 >
-> - solution: {@{4}@}
+> - solution: {@{4. One problem with the sigmoid activation functions is that it may cause a vanishing gradient problem in the saturation zone.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1013,7 +1013,7 @@ tags:
 > 3. Reducing the number of training data can help avoid over-fitting.
 > 4. Reducing the number of training epochs can help avoid over-fitting.
 >
-> - solution: {@{3}@}
+> - solution: {@{3. Reducing the number of training data can help avoid over-fitting.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1071,7 +1071,7 @@ tags:
 > 3. (99, 199)
 > 4. (199, 99)
 >
-> - solution: {@{3}@}
+> - solution: {@{3. (99, 199)}@}
 > - explanation: I mean... {@{it is just a convention}@}. It could be {@{any other convention, depending on your context}@}. <p> This convention is used in {@{libraries processing images with NumPy arrays}@}. So that explains {@{why it is 0-based}@}.
 
 <!-- markdownlint MD028 -->
@@ -1085,7 +1085,7 @@ tags:
 > 3. The resulting image will be brighter.
 > 4. No image can be formed.
 >
-> - solution: {@{2}@}
+> - solution: {@{2. The resulting image will be darker.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1215,7 +1215,7 @@ tags:
 > 3. The resulting image is the same as the original image.
 > 4. The resulting image consists of pure black and pure white, and no other colors.
 >
-> - solution: {@{2}@}
+> - solution: {@{2. The resulting image is pure white everywhere.}@}
 > - explanation: This depends on {@{your definition of the threshold function}@}. {@{The threshold function used in this course}@} is 255 if {@{larger than or _equal to_ the threshold}@}.
 
 <!-- markdownlint MD028 -->
@@ -1309,7 +1309,7 @@ tags:
 > 3. Poker
 > 4. Contract bridge
 >
-> - solution: {@{2}@}
+> - solution: {@{2. Connect 4}@}
 > - explanation: {@{The minimax algorithm as taught in the course}@} only applies to {@{deterministic, perfect information, and zero-sum games}@}. <p> There may be {@{extensions of minimax algorithm that apply to more games}@}, but {@{ignore this for the examinations}@}...
 
 <!-- markdownlint MD028 -->
@@ -1321,7 +1321,7 @@ tags:
 > 3. Dijkstra's
 > 4. Bellman-Ford
 >
-> - solution: {@{2}@}
+> - solution: {@{2. depth-first search}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1377,7 +1377,7 @@ tags:
 > 3. Non-maleficence
 > 4. Benevolence
 >
-> - solution: {@{4}@}
+> - solution: {@{4. Benevolence}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1405,7 +1405,7 @@ tags:
 > 2. Testing data
 > 3. Training data
 >
-> - solution: {@{1}@}
+> - solution: {@{1. Actions}@}
 > - explanation: {@{The 6 (major) components are agent, environment, observations, actions, rewards, and policy.}@}
 
 <!-- markdownlint MD028 -->
@@ -1457,7 +1457,7 @@ tags:
 > 4. $X_0$ is a state.
 > 5. None of the above.
 >
-> - solution: {@{2}@}
+> - solution: {@{2. $X_0$ is a random variable.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1468,7 +1468,7 @@ tags:
 > 3. $P(X_0=S_0) + P(X_1=S_0) + \cdots + P(X_N = S_0) = 1$
 > 4. $P(X_0=S_0) + P(X_0=S_1) + \cdots + P(X_0 = S_N) = 1$
 >
-> - solution: {@{4}@}
+> - solution: {@{4. $P(X_0=S_0) + P(X_0=S_1) + \cdots + P(X_0 = S_N) = 1$}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1600,7 +1600,7 @@ tags:
 > 3. $\max_{k\in \{ 1, 2, \cdots, N \} } | V_k(s) - V_{k-1}(s) | < \varepsilon$
 > 4. $\max_{k\in \{ 1, 2, \cdots, N \} } | V_k(s_a) - V_{k}(s_b) | < \varepsilon$
 >
-> - solution: {@{1}@}
+> - solution: {@{1. $\max_{s\in \{ S_1, S_2, \cdots, S_N \} } | V_k(s) - V_{k-1}(s) | < \varepsilon$}@}
 > - explanation: {@{There may be other ways}@} to determining convergence. But 2, 3, and 4 are {@{definitely not the "other ways"}@} as {@{they do not even make sense}@}.
 
 <!-- markdownlint MD028 -->

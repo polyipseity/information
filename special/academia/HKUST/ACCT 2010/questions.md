@@ -25,7 +25,7 @@ tags:
 > 2. Let readers know the financial positions of the reporting entity.
 > 3. Let readers make informed business decisions.
 >
-> - solution: {@{3}@}
+> - solution: {@{3. Let readers make informed business decisions.}@}
 > - explanation: {@{The ultimate goal of both 1 and 2 is 3.}@}
 
 <!-- markdownlint MD028 -->
@@ -36,7 +36,7 @@ tags:
 > 2. People rely on and trust their services and work done.
 > 3. They have passed professional examinations.
 >
-> - solution: {@{3}@}
+> - solution: {@{3. They have passed professional examinations.}@}
 > - explanation: One essential property of professions is {@{that there are barriers to entry}@}. {@{3 is a barrier to entry}@}, while {@{1 and 2 are consequences of 3}@}.
 
 <!-- markdownlint MD028 -->
@@ -47,7 +47,7 @@ tags:
 > 2. ethical behavior
 > 3. both of them are
 >
-> - solution: {@{3}@}
+> - solution: {@{3. both of them are}@}
 
 <!-- markdownlint MD028 -->
 
@@ -57,7 +57,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{1}@}
+> - solution: {@{1. income statement}@}
 
 <!-- markdownlint MD028 -->
 
@@ -67,7 +67,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{2}@}
+> - solution: {@{2. balance sheet}@}
 
 <!-- markdownlint MD028 -->
 
@@ -77,7 +77,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{3}@}
+> - solution: {@{3. statement of cash flow}@}
 
 <!-- markdownlint MD028 -->
 
@@ -87,7 +87,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{2}@}
+> - solution: {@{2. balance sheet}@}
 
 <!-- markdownlint MD028 -->
 
@@ -107,7 +107,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{2}@}
+> - solution: {@{2. balance sheet}@}
 
 <!-- markdownlint MD028 -->
 
@@ -158,7 +158,7 @@ tags:
 > 2. statement of cash flow
 > 3. both of them
 >
-> - solution: {@{3}@}
+> - solution: {@{3. both of them}@}
 
 ## week 2 review
 
@@ -168,7 +168,7 @@ tags:
 > 2. faithful representation of underlying transaction
 > 3. separate entity
 >
-> - solution: {@{2}@}
+> - solution: {@{2. faithful representation of underlying transaction}@}
 > - explanation: 1 is important, but {@{not satisfying it only changes the accounting basis}@}. 3 is also important, but {@{not satisfying it only makes the financial statement improper}@}. 2 is the most important one, as {@{not satisfying it means financial statements can be deceptive, misleading others in their decision making}@}.
 
 <!-- markdownlint MD028 -->
@@ -179,7 +179,7 @@ tags:
 > 2. liquidity preference
 > 3. alphabetical order of asset captions
 >
-> - solution: {@{2}@}
+> - solution: {@{2. liquidity preference}@}
 > - explanation: The standards {@{require it}@}. Note that {@{GAAP generally requires decreasing liquidity for both assets and liabilities}@}, while {@{IFRS requires increasing liquidity for both assets and liabilities}@}.
 
 <!-- markdownlint MD028 -->
@@ -190,7 +190,7 @@ tags:
 > 2. alphabetical order of liability account captions
 > 3. maturity preference
 >
-> - solution: {@{3}@}
+> - solution: {@{3. maturity preference}@}
 > - explanation: The standards {@{require it}@}. Maturity is {@{a measure of how soon the liability is due}@}, analogous to {@{how mature crops are then harvested}@}.
 
 <!-- markdownlint MD028 -->
@@ -201,7 +201,7 @@ tags:
 > 2. Asset + Liabilities = Stockholders' Equity
 > 3. Asset - Liabilities = Stockholders' Equity
 >
-> - solution: {@{2}@}
+> - solution: {@{2. Asset + Liabilities = Stockholders' Equity}@}
 
 <!-- markdownlint MD028 -->
 
@@ -211,7 +211,7 @@ tags:
 > 2. transaction analysis → posting to the ledger → adjusting the accounts
 > 3. transaction analysis → add journal entries → posting to the ledger
 >
-> - solution: {@{3}@}
+> - solution: {@{3. transaction analysis → add journal entries → posting to the ledger}@}
 > - explanation: Note that for 2, {@{adjusting the accounts is only done at the end of a reporting period}@}, but {@{an accounting cycle is simply recording the transactions after a much shorter period}@}.
 
 <!-- markdownlint MD028 -->
@@ -222,7 +222,7 @@ tags:
 > 2. Current Assets / Current Liabilities
 > 3. Net Income / Current Assets
 >
-> - solution: {@{2}@}
+> - solution: {@{2. Current Assets / Current Liabilities}@}
 
 ## week 3 review
 
@@ -232,7 +232,7 @@ tags:
 > 2. income from provision of services
 > 3. income from principal business activities
 >
-> - solution: {@{3}@}
+> - solution: {@{3. income from principal business activities}@}
 > - explanation: {@{The other 2 are included in 3 already.}@}
 
 <!-- markdownlint MD028 -->
@@ -243,7 +243,7 @@ tags:
 > 2. interest from money lent to debtors
 > 3. income from peripheral activities
 >
-> - solution: {@{3}@}
+> - solution: {@{3. income from peripheral activities}@}
 > - explanation: {@{The other 2 are included in 3 already.}@}
 
 <!-- markdownlint MD028 -->
@@ -254,7 +254,7 @@ tags:
 > 2. Cash based accounting
 > 3. Both of them would
 >
-> - solution: {@{1}@}
+> - solution: {@{1. Accrual accounting}@}
 
 <!-- markdownlint MD028 -->
 
@@ -264,7 +264,7 @@ tags:
 > 2. Seller discharged all the obligations under contract
 > 3. Seller received the cash from customers
 >
-> - solution: {@{2}@}
+> - solution: {@{2. Seller discharged all the obligations under contract}@}
 
 <!-- markdownlint MD028 -->
 
@@ -274,7 +274,7 @@ tags:
 > 2. Buyer of goods acknowledged receipt of merchandise or consumed fully the underlying services
 > 3. At the moment the entity paid out the cash
 >
-> - solution: {@{2}@}
+> - solution: {@{2. Buyer of goods acknowledged receipt of merchandise or consumed fully the underlying services}@}
 
 <!-- markdownlint MD028 -->
 
@@ -284,7 +284,7 @@ tags:
 > 2. Normally, the bigger the better and expresses as a fraction
 > 3. Normally, the smaller the better
 >
-> - solution: {@{2}@}
+> - solution: {@{2. Normally, the bigger the better and expresses as a fraction}@}
 > - explanation: For 1, it is {@{extremely difficult for income from other activities to increase the net income}@} so much that {@{the net profit margin is at least 1}@}...
 
 ## week 4 review
@@ -295,7 +295,7 @@ tags:
 > 2. after unadjusted trial balance, period end adjusting entries would give rise to the adjusted trial balance
 > 3. period end adjustments are part of account closing procedures
 >
-> - solution: {@{2}@}
+> - solution: {@{2. after unadjusted trial balance, period end adjusting entries would give rise to the adjusted trial balance}@}
 > - explanation: {@{For 3, account closing procedures involve zeroing out temporary accounts, but this requires adjusted balances in the first place.}@}
 
 <!-- markdownlint MD028 -->
@@ -306,7 +306,7 @@ tags:
 > 2. to comply with legislation requirements from say, Companies Act
 > 3. none of the above
 >
-> - solution: {@{1}@}
+> - solution: {@{1. to update relevant account ledger balances, e.g., supplies consumption, deferred expenses etc.}@}
 > - explanation: {@{For 2, it should instead be to comply with GAAP or some other financial standards.}@}
 
 <!-- markdownlint MD028 -->
@@ -317,7 +317,7 @@ tags:
 > 2. deferred revenue
 > 3. contractual liability
 >
-> - solution: {@{1}@}
+> - solution: {@{1. accrued revenue}@}
 > - explanation: {@{Trade receivables are receivables that are related to the principal business activities.}@}
 
 <!-- markdownlint MD028 -->
@@ -328,7 +328,7 @@ tags:
 > 2. deferred revenue
 > 3. current asset
 >
-> - solution: {@{2}@}
+> - solution: {@{2. deferred revenue}@}
 
 <!-- markdownlint MD028 -->
 
@@ -338,7 +338,7 @@ tags:
 > 2. deferred expense
 > 3. contractual liability
 >
-> - solution: {@{2}@}
+> - solution: {@{2. deferred expense}@}
 
 <!-- markdownlint MD028 -->
 
@@ -348,7 +348,7 @@ tags:
 > 2. denotes how much net asset value is associated with one unit of common stock of a company
 > 3. represents the pre-tax income of a company
 >
-> - solution: {@{1}@}
+> - solution: {@{1. measures the operating performance and profitability of a company}@}
 
 <!-- markdownlint MD028 -->
 
@@ -358,7 +358,7 @@ tags:
 > 2. net sales over period end total assets
 > 3. net sales over average total assets
 >
-> - solution: {@{3}@}
+> - solution: {@{3. net sales over average total assets}@}
 
 ## week 5 review
 
@@ -368,7 +368,7 @@ tags:
 > 2. when seller discharged its obligations under contracts
 > 3. when goods have been loaded on vessel under FOB destination shipping terms
 >
-> - solution: {@{2}@}
+> - solution: {@{2. when seller discharged its obligations under contracts}@}
 
 <!-- markdownlint MD028 -->
 
@@ -378,7 +378,7 @@ tags:
 > 2. Cost of Goods Sold
 > 3. Sales discounts
 >
-> - solution: {@{2}@}
+> - solution: {@{2. Cost of Goods Sold}@}
 > - explanation: {@{It is not even in the equation...}@}
 
 <!-- markdownlint MD028 -->
@@ -389,7 +389,7 @@ tags:
 > 2. installing operating system in a hardware device
 > 3. a three-year post-purchase unlimited mileage maintenance for motor vehicles offered by car manufacturer
 >
-> - solution: {@{3}@}
+> - solution: {@{3. a three-year post-purchase unlimited mileage maintenance for motor vehicles offered by car manufacturer}@}
 > - explanation: {@{The question is a bit worded-badly... It means determining if the example can be treated as a separate performance obligation.}@}
 
 <!-- markdownlint MD028 -->
@@ -400,7 +400,7 @@ tags:
 > 2. by ageing of accounts receivable \(ageing analysis\)
 > 3. both of them could be used
 >
-> - solution: {@{3}@}
+> - solution: {@{3. both of them could be used}@}
 
 <!-- markdownlint MD028 -->
 
@@ -410,7 +410,7 @@ tags:
 > 2. profitability ratio
 > 3. efficiency (activity) ratio
 >
-> - solution: {@{3}@}
+> - solution: {@{3. efficiency (activity) ratio}@}
 
 ## week 7 review
 
@@ -420,7 +420,7 @@ tags:
 > 2. income statement
 > 3. both of them
 >
-> - solution: {@{3}@}
+> - solution: {@{3. both of them}@}
 > - explanation: It affects {@{the balance sheet because it affects asset "Inventory"}@}. It affects {@{the income statement because it affects expense "Cost of goods sold"}@}.
 
 <!-- markdownlint MD028 -->
@@ -431,7 +431,7 @@ tags:
 > 2. unsold inventories
 > 3. none of the above
 >
-> - solution: {@{1}@}
+> - solution: {@{1. goods sold to customers}@}
 > - explanation: {@{1 affects asset "Inventory". 2 is not directly considered when preparing the balance sheet: without 1, it alone does nothing.}@}
 
 <!-- markdownlint MD028 -->
@@ -442,7 +442,7 @@ tags:
 > 2. ending inventories
 > 3. all of the above
 >
-> - solution: {@{1}@}
+> - solution: {@{1. goods sold to customers}@}
 > - explanation: {@{1 affects expense "Cost of goods sold". 2 is not directly considered when preparing the income statement: without 1, it alone does nothing.}@}
 
 <!-- markdownlint MD028 -->
@@ -453,7 +453,7 @@ tags:
 > 2. weighted average
 > 3. specific identification
 >
-> - solution: {@{3}@}
+> - solution: {@{3. specific identification}@}
 
 <!-- markdownlint MD028 -->
 
@@ -463,7 +463,7 @@ tags:
 > 2. weighted average
 > 3. LIFO
 >
-> - solution: {@{2}@}
+> - solution: {@{2. weighted average}@}
 > - explanation: {@{FIFO would also be acceptable. LIFO is unlikely, since supermarket has perishable goods, so older goods are physically sold first.}@}
 
 <!-- markdownlint MD028 -->
@@ -474,7 +474,7 @@ tags:
 > 2. weighted average
 > 3. LIFO
 >
-> - solution: {@{1}@}
+> - solution: {@{1. FIFO}@}
 
 <!-- markdownlint MD028 -->
 
@@ -484,7 +484,7 @@ tags:
 > 2. the above principle requires company to adjust market value movements of its inventories left unsold
 > 3. the inventory value is determined by the selling price of the last transaction done at the end of the year
 >
-> - solution: {@{1}@}
+> - solution: {@{1. inventory should be reported at the lower of its cost or the amount at which it can be sold, at end of the year}@}
 
 ## week 8 review
 
@@ -494,7 +494,7 @@ tags:
 > 2. to get expected return from such investment
 > 3. both of them are the reasons
 >
-> - solution: {@{3}@}
+> - solution: {@{3. both of them are the reasons}@}
 
 <!-- markdownlint MD028 -->
 
@@ -504,7 +504,7 @@ tags:
 > 2. a deferred interest expense
 > 3. it should not be an expense
 >
-> - solution: {@{3}@}
+> - solution: {@{3. it should not be an expense}@}
 
 <!-- markdownlint MD028 -->
 
@@ -514,7 +514,7 @@ tags:
 > 2. purchase price plus all other transaction costs necessary to get the capital assets operational
 > 3. purchase price plus financing charges and cash discounts
 >
-> - solution: {@{2}@}
+> - solution: {@{2. purchase price plus all other transaction costs necessary to get the capital assets operational}@}
 
 <!-- markdownlint MD028 -->
 
@@ -524,7 +524,7 @@ tags:
 > 2. Units-of-production
 > 3. Accelerated depreciation
 >
-> - solution: {@{1}@}
+> - solution: {@{1. Straight line}@}
 > - explanation: {@{Why go complicated when you can go simple...? ^_^}@}
 
 <!-- markdownlint MD028 -->
@@ -535,7 +535,7 @@ tags:
 > 2. to find out the selling price of assets under disposal
 > 3. to find out whether the PPE's NBV is recoverable through estimated future cash flows
 >
-> - solution: {@{3}@}
+> - solution: {@{3. to find out whether the PPE's NBV is recoverable through estimated future cash flows}@}
 
 <!-- markdownlint MD028 -->
 
@@ -545,7 +545,7 @@ tags:
 > 2. how well a company is utilizing its fixed assets and resources
 > 3. the amount of capital that comes from debt
 >
-> - solution: {@{2}@}
+> - solution: {@{2. how well a company is utilizing its fixed assets and resources}@}
 
 ## week 9 review
 
@@ -555,7 +555,7 @@ tags:
 > 2. Debt financing is borrowing obtained from creditors, it represents a liability to a company.
 > 3. Equity financing is riskier than debt.
 >
-> - solution: {@{2}@}
+> - solution: {@{2. Debt financing is borrowing obtained from creditors, it represents a liability to a company.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -565,7 +565,7 @@ tags:
 > 2. Make a corresponding note disclosure
 > 3. Note disclosure is not required
 >
-> - solution: {@{2}@}
+> - solution: {@{2. Make a corresponding note disclosure}@}
 
 <!-- markdownlint MD028 -->
 
@@ -575,7 +575,7 @@ tags:
 > 2. current assets divided by current liabilities
 > 3. current assets add current liabilities
 >
-> - solution: {@{1}@}
+> - solution: {@{1. current assets minus current liabilities}@}
 
 <!-- markdownlint MD028 -->
 
@@ -585,7 +585,7 @@ tags:
 > 2. Dr. Lease asset (ROU); Cr. Lease liability
 > 3. Both ways would do
 >
-> - solution: {@{1}@}
+> - solution: {@{1. Dr. Lease expense; Cr. Cash}@}
 
 <!-- markdownlint MD028 -->
 
@@ -595,7 +595,7 @@ tags:
 > 2. it carries only balance sheet effect
 > 3. it carries only income statement effect
 >
-> - solution: {@{1}@}
+> - solution: {@{1. it carries both balance sheet and income statement effect}@}
 
 <!-- markdownlint MD028 -->
 
@@ -605,7 +605,7 @@ tags:
 > 2. A sum of money is worth more now than the same sum will be at a future date due to its earning potential
 > 3. Both of them are correct
 >
-> - solution: {@{3}@}
+> - solution: {@{3. Both of them are correct}@}
 
 <!-- markdownlint MD028 -->
 
@@ -615,7 +615,7 @@ tags:
 > 2. total supplier purchases / average accounts payable
 > 3. net sales / average accounts payable
 >
-> - solution: {@{2}@}
+> - solution: {@{2. total supplier purchases / average accounts payable}@}
 > - explanation: {@{Funny history... The book has 1 as the definition instead. Anyways, in the exam, use 2.}@}
 
 <!-- markdownlint MD028 -->
@@ -626,7 +626,7 @@ tags:
 > 2. could also indicate the company is not reinvesting back into its business, which could result in a lower growth rate and lower earnings for the company in the long term
 > 3. both of them are relevant
 >
-> - solution: {@{3}@}
+> - solution: {@{3. both of them are relevant}@}
 
 ## week 10 review
 
@@ -636,7 +636,7 @@ tags:
 > 2. unissued shares
 > 3. maximum number of shares that can be issued or sold to the public (approved by government authorities)
 >
-> - solution: {@{3}@}
+> - solution: {@{3. maximum number of shares that can be issued or sold to the public (approved by government authorities)}@}
 
 <!-- markdownlint MD028 -->
 
@@ -646,7 +646,7 @@ tags:
 > 2. unissued shares
 > 3. authorized shares
 >
-> - solution: {@{1}@}
+> - solution: {@{1. issued shares}@}
 
 <!-- markdownlint MD028 -->
 
@@ -656,7 +656,7 @@ tags:
 > 2. unissued shares
 > 3. authorized shares
 >
-> - solution: {@{2}@}
+> - solution: {@{2. unissued shares}@}
 
 <!-- markdownlint MD028 -->
 
@@ -666,7 +666,7 @@ tags:
 > 2. treasury shares
 > 3. preferred shares
 >
-> - solution: {@{1}@}
+> - solution: {@{1. outstanding shares}@}
 
 <!-- markdownlint MD028 -->
 
@@ -676,7 +676,7 @@ tags:
 > 2. treasury shares
 > 3. ordinary shares or common stocks
 >
-> - solution: {@{2}@}
+> - solution: {@{2. treasury shares}@}
 
 <!-- markdownlint MD028 -->
 
@@ -686,7 +686,7 @@ tags:
 > 2. the legal capital required by the respective Companies Ordinance or Act
 > 3. all of the above
 >
-> - solution: {@{3}@}
+> - solution: {@{3. all of the above}@}
 
 <!-- markdownlint MD028 -->
 
@@ -696,7 +696,7 @@ tags:
 > 2. Dr. Dividend Expense; Cr. Cash/Bank
 > 3. Dr. Dividend (R/E); Cr. Common Stock
 >
-> - solution: {@{1}@}
+> - solution: {@{1. Dr. Dividend (R/E); Cr. Cash/Bank}@}
 > - explanation: {@{Dividends are not expenses, by the definition of expense.}@}
 
 <!-- markdownlint MD028 -->
@@ -707,7 +707,7 @@ tags:
 > 2. stock splits change both the par value of each share and the total par value
 > 3. stock splits change only the par value of each share, but total par value remains unchanged
 >
-> - solution: {@{3}@}
+> - solution: {@{3. stock splits change only the par value of each share, but total par value remains unchanged}@}
 
 <!-- markdownlint MD028 -->
 
@@ -717,7 +717,7 @@ tags:
 > 2. Preferred stock gives extra voting power to preferred stockholders in the Annual General Meeting
 > 3. They would like to exercise the voting power attached to preferred stocks in the Annual General Meeting
 >
-> - solution: {@{1}@}
+> - solution: {@{1. They prefer to have a fixed dividend rate, i.e., claim dividends prior to those common stockholders}@}
 
 <!-- markdownlint MD028 -->
 
@@ -727,7 +727,7 @@ tags:
 > 2. EPS
 > 3. Dividend Yield
 >
-> - solution: {@{2}@}
+> - solution: {@{2. EPS}@}
 > - explanation: {@{2 is the only one that does not involve}@} market price per share. <p> \(Actually the professor uses {@{"market-to-book ratio"}@} oddly... Instead, {@{"market ratio" is a better term}@}.\)
 
 ## week 12 review
@@ -738,7 +738,7 @@ tags:
 > 2. It is a key indicator of company's financial health
 > 3. Shareholders demand for the information
 >
-> - solution: {@{2}@}
+> - solution: {@{2. It is a key indicator of company's financial health}@}
 > - explanation: {@{1 and 3 are extensions of 2.}@}
 
 <!-- markdownlint MD028 -->
@@ -749,7 +749,7 @@ tags:
 > 2. Cash Flow Statement is linked to Income Statement by Net Profit under Indirect Method.
 > 3. Both of them are relevant.
 >
-> - solution: {@{3}@}
+> - solution: {@{3. Both of them are relevant.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -759,7 +759,7 @@ tags:
 > 2. Cash in- and out-flows related to buy and sale of PPE and investments in shares or bonds of other companies
 > 3. Cash in- and out-flows related to external sources of financing, both debt and equity financing
 >
-> - solution: {@{1}@}
+> - solution: {@{1. Cash in- and out-flows directly related to earnings from normal operations}@}
 
 <!-- markdownlint MD028 -->
 
@@ -769,7 +769,7 @@ tags:
 > 2. Cash in- and out-flows related to buy and sale of PPE and investments in shares or bonds of other companies
 > 3. Cash in- and out-flows related to external sources of financing, both debt and equity financing
 >
-> - solution: {@{2}@}
+> - solution: {@{2. Cash in- and out-flows related to buy and sale of PPE and investments in shares or bonds of other companies}@}
 
 <!-- markdownlint MD028 -->
 
@@ -779,7 +779,7 @@ tags:
 > 2. Cash in- and out-flows related to buy and sale of PPE and investments in shares or bonds of other companies
 > 3. Cash in- and out-flows related to external sources of financing, both debt and equity financing
 >
-> - solution: {@{3}@}
+> - solution: {@{3. Cash in- and out-flows related to external sources of financing, both debt and equity financing}@}
 
 <!-- markdownlint MD028 -->
 
@@ -789,7 +789,7 @@ tags:
 > 2. Negatively
 > 3. They are not related at all
 >
-> - solution: {@{1}@}
+> - solution: {@{1. Positively}@}
 
 <!-- markdownlint MD028 -->
 
@@ -799,7 +799,7 @@ tags:
 > 2. Negatively
 > 3. They are not related at all
 >
-> - solution: {@{1}@}
+> - solution: {@{1. Positively}@}
 
 <!-- markdownlint MD028 -->
 
@@ -809,7 +809,7 @@ tags:
 > 2. Negatively
 > 3. They are not related at all
 >
-> - solution: {@{2}@}
+> - solution: {@{2. Negatively}@}
 
 <!-- markdownlint MD028 -->
 
@@ -819,7 +819,7 @@ tags:
 > 2. subtracted from the net income when we prepare cash flow statement using indirect method
 > 3. no adjustment is needed using indirect method
 >
-> - solution: {@{2}@}
+> - solution: {@{2. subtracted from the net income when we prepare cash flow statement using indirect method}@}
 
 <!-- markdownlint MD028 -->
 
@@ -829,4 +829,4 @@ tags:
 > 2. subtracted from the net income when we prepare cash flow statement using indirect method
 > 3. no adjustment is needed using indirect method
 >
-> - solution: {@{1}@}
+> - solution: {@{1. added to the net income when we prepare cash flow statement using indirect method}@}
