@@ -169,15 +169,15 @@ def _status_for(code: str) -> ChangeStatus:
 
 def _parse_patch(
     data: bytes,
-) -> dict[str, tuple[int, int, int, int, int, int, int, bool]]:
+) -> dict[str, tuple[int, int, int, int, int, int, int]]:
     """Parse a ``-U0`` patch into per-path byte, line, and heading counts.
 
     Returns ``path -> (added_bytes, deleted_bytes, added_lines,
-    deleted_lines, added_h2, deleted_h2, added_h3, binary)``.  A byte count
+    deleted_lines, added_h2, deleted_h2, added_h3)``.  A byte count
     adds the one byte the newline would occupy, so a line weighs its content
     plus its terminator.  Heading counts feed the section-growth rule.
     """
-    counts: dict[str, list[int | bool]] = {}
+    counts: dict[str, list[int]] = {}
     current: str | None = None
     previous: str | None = None
     for raw in data.split(b"\n"):

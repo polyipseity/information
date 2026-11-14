@@ -12,9 +12,10 @@ report instead of deleting content to silence it.
 """
 
 import re
-from collections.abc import Awaitable, Callable, Sequence
+from collections.abc import Awaitable, Sequence
 from dataclasses import dataclass
 from pathlib import Path as SyncPath
+from typing import Protocol
 from urllib.parse import quote
 
 from anyio import Path
@@ -58,8 +59,14 @@ class WorkspaceContext:
     roots: tuple[str, ...]
 
 
-"""Signature of a workspace rule."""
-WorkspaceRule = Callable[[WorkspaceContext], Awaitable[Sequence[WorkspaceMessage]]]
+class WorkspaceRule(Protocol):
+    """Signature of a workspace rule, and the name it registers under."""
+
+    __name__: str
+
+    def __call__(
+        self, ctx: WorkspaceContext
+    ) -> Awaitable[Sequence[WorkspaceMessage]]: ...
 
 
 """Registered workspace rules, keyed by id."""
