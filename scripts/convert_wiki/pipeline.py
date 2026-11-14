@@ -50,7 +50,12 @@ from .ast_utils import (
     _walk_tokens,
 )
 from .converter import WikiHtmlConverter
-from .inline_context import _is_display_math_only_dl
+from .inline_context import (
+    _dd_display_formula_element,
+    _is_display_formula_dl,
+    _is_texhtml_formula_element,
+    _significant_children,
+)
 from .latex import LatexConverter
 from .table import _EQUATION_BOX_BODY_BLOCK_TAGS, _reformat_table
 from .template_config import _DISPLAY_MATH_CONTAINERS
@@ -893,7 +898,7 @@ def _merge_dl_after_thumb_into_list(soup: BeautifulSoup | Tag) -> None:
 
     for dl in list(soup.find_all("dl")):
         # Skip display-math-only <dl> — different semantics.
-        if _is_display_math_only_dl(dl):
+        if _is_display_formula_dl(dl):
             continue
 
         # Check if previous sibling is a thumbnail.
@@ -1010,6 +1015,66 @@ def _is_title_box_table(table: Tag) -> bool:
     return _normalized_text(title_cell) == _normalized_text(bold[0])
 
 
+def _block_math_wrapper(latex: str, factory: BeautifulSoup) -> Tag:
+    """Build a block ``mwe-math-element`` wrapper for promoted formulas."""
+    outer = factory.new_tag(
+        "span",
+        attrs={"class": "mwe-math-element mwe-math-element-block"},
+    )
+    inner = factory.new_tag(
+        "span",
+        attrs={"class": "mwe-math-mathml-display mwe-math-mathml-a11y"},
+    )
+    math = factory.new_tag("math", attrs={"display": "block", "alttext": latex})
+    semantics = factory.new_tag("semantics")
+    semantics.append(factory.new_tag("mrow"))
+    math.append(semantics)
+    img = factory.new_tag(
+        "img",
+        attrs={
+            "alt": latex,
+            "aria-hidden": "true",
+            "class": "mwe-math-fallback-image-display mw-invert skin-invert",
+        },
+    )
+    inner.append(math)
+    inner.append(img)
+    outer.append(inner)
+    return outer
+
+
+def _promote_display_formula_texhtml_dls(soup: BeautifulSoup | Tag) -> None:
+    """Promote sole texhtml formulas in display-formula ``<dl>`` rows to block math.
+
+    Converts qualifying ``span.texhtml`` formula elements to block
+    ``mwe-math-element`` wrappers so existing display-math normalization,
+    punctuation absorption, and rendering logic apply.
+    """
+    factory: BeautifulSoup | None = None
+    if isinstance(soup, BeautifulSoup):
+        factory = soup
+    else:
+        for element in (soup, *soup.parents):
+            if isinstance(element, BeautifulSoup):
+                factory = element
+                break
+    if factory is None:
+        factory = BeautifulSoup("", "html.parser")
+    for dl in soup.find_all("dl"):
+        if not isinstance(dl, Tag) or not _is_display_formula_dl(dl):
+            continue
+        for row in _significant_children(dl):
+            if not isinstance(row, Tag) or row.name != "dd":
+                continue
+            formula = _dd_display_formula_element(row)
+            if formula is None or not _is_texhtml_formula_element(formula):
+                continue
+            latex = LatexConverter.texhtml_to_latex(formula)
+            if not latex:
+                continue
+            formula.replace_with(_block_math_wrapper(latex, factory))
+
+
 def _append_box_cell_content(quote: Tag, cell: Tag, soup: BeautifulSoup | Tag) -> None:
     """Append *cell*'s content to *quote*, wrapping inline runs in <p> tags."""
     pending: list[PageElement] = []
@@ -1099,21 +1164,25 @@ def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
     for dd in soup.find_all(["dd", "dt", "p", "li"]):
         _merge_adjacent_math_dd(dd)
 
-    # 7. Normalize external math punctuation: absorb trailing
+    # 7. Promote sole texhtml formulas in display-formula <dl> rows to
+    #    block math so punctuation absorption and display rendering apply.
+    _promote_display_formula_texhtml_dls(soup)
+
+    # 8. Normalize external math punctuation: absorb trailing
     #    punctuation from sibling text into math alttext.
-    for container in soup.find_all(list(_DISPLAY_MATH_CONTAINERS | {"p"})):
+    for container in soup.find_all(list(_DISPLAY_MATH_CONTAINERS | {"p", "dd"})):
         WikiHtmlConverter._normalize_external_math_punctuation(container)
 
-    # 8. Replace legacy texhtml spans that plain text cannot carry (radicals,
+    # 9. Replace legacy texhtml spans that plain text cannot carry (radicals,
     #    fractions, accents) with one <math> element, script included. This
     #    runs before the sfrac pass so the whole span converts as a unit.
     LatexConverter.replace_texhtml_math_with_math(soup, soup)  # ty: ignore[invalid-argument-type] — Tag.new_tag works identically
 
-    # 9. Replace sfrac spans outside any texhtml span with <math> elements.
+    # 10. Replace sfrac spans outside any texhtml span with <math> elements.
     for span in soup.find_all("span"):
         LatexConverter.replace_sfrac_with_math(span, soup)  # ty: ignore[invalid-argument-type] — Tag.new_tag works identically
 
-    # 10. Drop media-player chrome: the duration label MediaWiki renders
+    # 11. Drop media-player chrome: the duration label MediaWiki renders
     #    inside its own player (``Duration: 14 seconds.`` plus the
     #    ``0:14`` stamp) is interface text, not content, and would
     #    otherwise open a figure with a bold timestamp.  The player
@@ -1122,7 +1191,7 @@ def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
     for duration in soup.find_all("span", class_="mw-tmh-duration"):
         duration.decompose()
 
-    # 11. Clean up annotated-image divs: remove annotation divs
+    # 12. Clean up annotated-image divs: remove annotation divs
     #    and noviewer spans so the converter sees clean content.
     for div in soup.find_all("div", typeof=lambda v: v and "mw:Transclusion" in str(v)):
         if "annotated image" in str(div.get("data-mw", "")):
@@ -1133,18 +1202,18 @@ def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
             for noviewer in div.find_all("span", class_="noviewer"):
                 noviewer.decompose()
 
-    # 12. Merge <dl> paragraphs into preceding list when separated by a
+    # 13. Merge <dl> paragraphs into preceding list when separated by a
     #    thumbnail.  When a <dl> follows a <div class="thumb"> that
     #    follows a <ul>/<ol>, the <dd> children belong to the last <li>
     #    of that list (they are continuations of the list item content).
     _merge_dl_after_thumb_into_list(soup)
 
-    # 13. Unwrap inline-only <div> wrappers inside navbox-abovebelow cells
+    # 14. Unwrap inline-only <div> wrappers inside navbox-abovebelow cells
     #    without hlist.  These <div> elements add a block-level suffix
     #    that becomes a spurious <br/> <br/> separator in the output.
     _unwrap_navbox_inline_divs(soup)
 
-    # 14. Move a ``templatequotecite`` attribution into the preceding
+    # 15. Move a ``templatequotecite`` attribution into the preceding
     #     ``templatequote`` blockquote so the quote and its source render
     #     as one Markdown blockquote block.
     for quote in soup.find_all("blockquote", class_="templatequote"):
@@ -1154,7 +1223,7 @@ def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
         ):
             quote.append(cite.extract())
 
-    # 15. Render header-less title-box tables (e.g. ``{{math proof}}``) as
+    # 16. Render header-less title-box tables (e.g. ``{{math proof}}``) as
     #     blockquotes.  Their first row is the box title, not a header, so
     #     they cannot become Markdown tables; as pipe paragraphs they also
     #     hid their display math from the spacing pass.

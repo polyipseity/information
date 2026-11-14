@@ -15,7 +15,7 @@ from scripts.convert_wiki import config as _cfg
 from scripts.convert_wiki.converter import WikiHtmlConverter, _discards_subtree
 from scripts.convert_wiki.inline_context import (
     _in_inline_context,
-    _is_display_math_only_dl,
+    _is_display_formula_dl,
 )
 from scripts.convert_wiki.latex import LatexConverter
 from scripts.convert_wiki.markdown_rewrite import _rewrite_link_target
@@ -351,15 +351,14 @@ class TestMathHandling:
     async def test_dd_sole_math_in_dl_is_isolated_row(
         self, converter: WikiHtmlConverter
     ) -> None:
-        """Sole ``<dd>`` math inside ``<dl>`` should render as its own row."""
+        """Sole block-math ``<dd>`` in ``<dl>`` joins as a display-formula row."""
         html = (
             "<p>by</p>"
             f"<dl><dd>{_block_math_span(r'{\displaystyle f(x)}')}</dd></dl>"
             "<p>for</p>"
         )
         result = await _convert(converter, html)
-        assert "\n\n$$f(x)$$\n" in result
-        assert "$$f(x)$$\n\n\nfor" in result
+        assert "\nby <p> &nbsp;&nbsp;&nbsp;&nbsp; $$f(x)$$ <p> for\n\n" in result
 
     @pytest.mark.anyio
     async def test_dt_sole_math_in_dl_is_isolated_row(
@@ -500,6 +499,153 @@ class TestMathHandling:
         html = f"<p>before {_block_math_span(r'{\displaystyle F(x)}')} after</p>"
         result = await _convert(converter, html)
         assert "before $$F(x)$$ after" in result
+
+    @pytest.mark.anyio
+    async def test_display_math_dl_after_p_cross_section_mw_heading(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Display-math-only <dl> after <p> keeps join and block-separates heading."""
+        html = (
+            "<section>"
+            "<p>and the complexity is thus</p>"
+            f"<dl><dd>{_block_math_span(r'{\displaystyle O(n^2)}')}.</dd></dl>"
+            "</section>"
+            "<section>"
+            '<div class="mw-heading mw-heading3">'
+            "<h3>Lehmer's GCD algorithm</h3>"
+            "</div>"
+            "</section>"
+        )
+        result = await _convert(converter, html)
+
+        assert (
+            "and the complexity is thus <p> &nbsp;&nbsp;&nbsp;&nbsp; $$O(n^2)\\,.$$"
+            in result
+        )
+        assert "$$O(n^2)\\,.$$ <p> ###" not in result
+        assert "\n\n### Lehmer's GCD algorithm" in result
+
+    @pytest.mark.anyio
+    async def test_display_math_dl_after_p_cross_section_plain_h3(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A plain <h3> in the next sibling section is also separated."""
+        html = (
+            "<section>"
+            "<p>and the complexity is thus</p>"
+            f"<dl><dd>{_block_math_span(r'{\displaystyle O(n^2)}')}.</dd></dl>"
+            "</section>"
+            "<section>"
+            "<h3>Lehmer's GCD algorithm</h3>"
+            "</section>"
+        )
+        result = await _convert(converter, html)
+
+        assert (
+            "and the complexity is thus <p> &nbsp;&nbsp;&nbsp;&nbsp; $$O(n^2)\\,.$$"
+            in result
+        )
+        assert "$$O(n^2)\\,.$$ <p> ###" not in result
+        assert "\n\n### Lehmer's GCD algorithm" in result
+
+    @pytest.mark.anyio
+    async def test_display_math_dl_after_p_cross_section_parsoid_math(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Parsoid-like <math> in <dd> keeps the join and section boundary."""
+        html = (
+            "<section>"
+            "<p>and the complexity is thus</p>"
+            "<dl><dd>"
+            '<math xmlns="http://www.w3.org/1998/Math/MathML" '
+            'class="mwe-math-element mwe-math-element-inline" '
+            'alttext="{\\displaystyle O(n^2)}" display="block" '
+            'data-mw=\'{"name":"math","attrs":{},"body":{"extsrc":"O(n^2)"}}\' '
+            'typeof="mw:Extension/math">'
+            "<semantics>"
+            '<annotation encoding="application/x-tex">O(n^2)</annotation>'
+            "</semantics>"
+            "</math>."
+            "</dd></dl>"
+            "</section>"
+            "<section>"
+            '<div class="mw-heading mw-heading3">'
+            "<h3>Lehmer's GCD algorithm</h3>"
+            "</div>"
+            "</section>"
+        )
+        result = await _convert(converter, html)
+
+        assert (
+            "and the complexity is thus <p> &nbsp;&nbsp;&nbsp;&nbsp; $$O(n^2)\\,.$$"
+            in result
+        )
+        assert "$$O(n^2)\\,.$$ <p> ###" not in result
+        assert "\n\n### Lehmer's GCD algorithm" in result
+
+    @pytest.mark.anyio
+    async def test_display_formula_texhtml_dl_inside_list_item_separated(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Texhtml display-formula <dl><dd> in a list item renders as block $$."""
+        html = (
+            "<ul><li>"
+            ': we have <dl><dd><span class="texhtml">'
+            "gcd(<i>a</i>, <i>b</i>)⋅lcm(<i>a</i>, <i>b</i>) = "
+            '<span typeof="mw:Entity">|</span>'
+            '<span class="nowrap"><i>a</i>⋅<i>b</i></span>'
+            '<span typeof="mw:Entity">|</span>'
+            "</span>.</dd></dl>"
+            "</li></ul>"
+        )
+        result = await _convert(converter, html)
+
+        assert "havegcd" not in result
+        assert "have\\gcd" not in result
+        assert ": we have <p> &nbsp;&nbsp;&nbsp;&nbsp;$$" in result
+        assert (
+            "\\gcd(a, b)\\cdot{}\\operatorname{lcm}(a, b) = |a\\cdot{}b|\\,.$$"
+            in result
+        )
+
+    @pytest.mark.anyio
+    async def test_display_formula_texhtml_dl_after_p_separated(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Texhtml display-formula <dl><dd> after a paragraph joins as display math."""
+        html = (
+            "<p>we have</p>"
+            '<dl><dd><span class="texhtml">gcd(<i>a</i>, <i>b</i>)⋅lcm(<i>a</i>, <i>b</i>) = '
+            '<span typeof="mw:Entity">|</span>'
+            '<span class="nowrap"><i>a</i>⋅<i>b</i></span>'
+            '<span typeof="mw:Entity">|</span></span>.</dd></dl>'
+        )
+        result = await _convert(converter, html)
+
+        assert "havegcd" not in result
+        assert "we have <p> &nbsp;&nbsp;&nbsp;&nbsp; $$" in result
+        assert (
+            "\\gcd(a, b)\\cdot{}\\operatorname{lcm}(a, b) = |a\\cdot{}b|\\,.$$"
+            in result
+        )
+
+    @pytest.mark.anyio
+    async def test_texhtml_formula_with_trailing_prose_in_dd_is_not_promoted(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A texhtml formula with trailing prose in a <dd> stays in prose."""
+        html = (
+            "<ul><li>"
+            ': we have <dl><dd><span class="texhtml">'
+            "gcd(<i>a</i>, <i>b</i>)</span> explained below</dd></dl>"
+            "</li></ul>"
+        )
+        result = await _convert(converter, html)
+
+        assert "explained below" in result
+        assert "gcd" in result
+        assert "$$" not in result
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; $$" not in result
 
 
 # ---------------------------------------------------------------------------
@@ -3152,39 +3298,39 @@ class TestStaticUtilities:
         assert span is not None
         assert not _in_inline_context(span)
 
-    def test_is_display_math_only_dl_multiple_rows(self) -> None:
-        """A multi-row display-math ``<dl>`` is display-math-only."""
+    def test_is_display_formula_dl_multiple_rows(self) -> None:
+        """A ``<dl>`` with multiple ``<dd>`` rows of math is a display block."""
         soup = BeautifulSoup(
             "<dl>"
-            f"<dd>{_block_math_span(r'{\displaystyle f(x)}')}</dd>"
-            f"<dd>{_block_math_span(r'{\displaystyle g(x)}')}</dd>"
+            '<dd><span class="mwe-math-element">math1</span></dd>'
+            '<dd><span class="mwe-math-element">math2</span></dd>'
             "</dl>",
             "html.parser",
         )
         dl = soup.find("dl")
         assert dl is not None
-        assert _is_display_math_only_dl(dl)
+        assert _is_display_formula_dl(dl)
 
-    def test_is_display_math_only_dl_rejects_term_row(self) -> None:
-        """A ``<dt>`` row means the ``<dl>`` is not display-math-only."""
+    def test_is_display_formula_dl_rejects_term_row(self) -> None:
+        """A ``<dl>`` containing a ``<dt>`` term row is not a display block."""
         soup = BeautifulSoup(
-            f"<dl><dt>term</dt><dd>{_block_math_span(r'{\displaystyle a}')}</dd></dl>",
+            '<dl><dt>term</dt><dd><span class="mwe-math-element">math</span></dd></dl>',
             "html.parser",
         )
         dl = soup.find("dl")
         assert dl is not None
-        assert not _is_display_math_only_dl(dl)
+        assert not _is_display_formula_dl(dl)
 
-    def test_is_display_math_only_dl_rejects_prose_first_row(self) -> None:
-        """A prose-first row is not display math, even with math rows after."""
+    def test_is_display_formula_dl_rejects_prose_first_row(self) -> None:
+        """A ``<dl>`` whose first row is prose is not a display block."""
         soup = BeautifulSoup(
-            f"<dl><dd>therefore {_inline_math_span(r'{\displaystyle f(x)}')}.</dd>"
-            f"<dd>{_block_math_span(r'{\displaystyle F(x)}')}</dd></dl>",
+            "<dl><dd>where P is the probability</dd>"
+            '<dd><span class="mwe-math-element">math</span></dd></dl>',
             "html.parser",
         )
         dl = soup.find("dl")
         assert dl is not None
-        assert not _is_display_math_only_dl(dl)
+        assert not _is_display_formula_dl(dl)
 
     def test_in_navbox(self, converter: WikiHtmlConverter) -> None:
         """Element inside a navbox table should be detected."""
@@ -3668,3 +3814,243 @@ async def test_selflink_fragment_without_page_name(
     )
     result = await _convert(converter, html)
     assert "[linearity](#properties)" in result
+
+
+class TestPostListDlContinuation:
+    """Continuation ``<dl><dd>`` blocks immediately after lists."""
+
+    @pytest.mark.anyio
+    async def test_text_dd_after_ul_continues_last_list_item(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A text ``<dl><dd>`` after ``</ul>`` continues the last list item."""
+        html = (
+            "<ul><li>first item</li><li>second item</li></ul>"
+            "<dl><dd>This formula is often used to compute least common multiples.</dd></dl>"
+        )
+        result = await _convert(converter, html)
+
+        assert (
+            "- second item <p> This formula is often used to compute "
+            "least common multiples." in result
+        )
+        assert "\n\n <p> This formula" not in result
+        assert result.lstrip().startswith("- first item\n")
+
+    @pytest.mark.anyio
+    async def test_text_dd_after_ol_continues_last_list_item(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A text ``<dl><dd>`` after ``</ol>`` continues the last list item."""
+        html = (
+            "<ol><li>first</li><li>second</li></ol>"
+            "<dl><dd>Continued explanation.</dd></dl>"
+        )
+        result = await _convert(converter, html)
+
+        assert "2. second <p> Continued explanation." in result
+        assert "\n\n <p> Continued explanation" not in result
+
+    @pytest.mark.anyio
+    async def test_text_dd_after_ul_stays_with_last_bullet(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A post-list continuation dd stays with the last bullet, not earlier ones."""
+        html = (
+            "<ul>"
+            "<li>alpha</li>"
+            "<li>beta</li>"
+            "<li>gamma</li>"
+            "</ul>"
+            "<dl><dd>Continuation of gamma.</dd></dl>"
+        )
+        result = await _convert(converter, html)
+
+        assert "- gamma <p> Continuation of gamma." in result
+        assert "- beta <p> Continuation of gamma." not in result
+        assert "- alpha <p> Continuation of gamma." not in result
+
+    @pytest.mark.anyio
+    async def test_multiple_dd_rows_after_ul_continue_last_list_item(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Multiple continuation ``<dd>`` rows after a list stay with the last item."""
+        html = (
+            "<ul><li>item</li></ul>"
+            "<dl><dd>First continuation.</dd><dd>Second continuation.</dd></dl>"
+        )
+        result = await _convert(converter, html)
+
+        assert "- item <p> First continuation." in result
+        assert "Second continuation." in result
+        assert "\n\n <p> First continuation" not in result
+        assert "\n\nSecond continuation" not in result
+
+    @pytest.mark.anyio
+    async def test_display_formula_texhtml_dd_after_ul_continues_last_list_item(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A texhtml display-formula ``<dl><dd>`` after ``</ul>`` continues the last item."""
+        html = (
+            "<ul><li>: we have</li></ul>"
+            '<dl><dd><span class="texhtml">'
+            "gcd(<i>a</i>, <i>b</i>)⋅lcm(<i>a</i>, <i>b</i>) = "
+            '<span typeof="mw:Entity">|</span>'
+            '<span class="nowrap"><i>a</i>⋅<i>b</i></span>'
+            '<span typeof="mw:Entity">|</span>'
+            "</span>.</dd></dl>"
+        )
+        result = await _convert(converter, html)
+
+        assert "havegcd" not in result
+        assert "have\\gcd" not in result
+        assert "- : we have <p> &nbsp;&nbsp;&nbsp;&nbsp;$$" in result
+        assert (
+            "\\gcd(a, b)\\cdot{}\\operatorname{lcm}(a, b) = |a\\cdot{}b|\\,.$$"
+            in result
+        )
+        assert "\n\n <p> &nbsp;&nbsp;&nbsp;&nbsp;$$" not in result
+        assert result.lstrip().startswith("- : we have")
+
+    @pytest.mark.anyio
+    async def test_display_formula_block_math_dd_after_ul_continues_last_list_item(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A block-math display-formula ``<dl><dd>`` after ``</ul>`` continues the last item."""
+        html = (
+            "<ul><li>and the complexity is thus</li></ul>"
+            f"<dl><dd>{_block_math_span(r'{\displaystyle O(n^2)}')}.</dd></dl>"
+        )
+        result = await _convert(converter, html)
+
+        assert (
+            "- and the complexity is thus <p> &nbsp;&nbsp;&nbsp;&nbsp;"
+            "$$O(n^2)\\,.$$" in result
+        )
+        assert "\n\n <p> &nbsp;&nbsp;&nbsp;&nbsp; $$O(n^2)" not in result
+        assert result.lstrip().startswith("- and the complexity is thus")
+
+    @pytest.mark.anyio
+    async def test_display_formula_block_math_dd_after_ol_continues_last_list_item(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A block-math display-formula ``<dl><dd>`` after ``</ol>`` continues the last item."""
+        html = (
+            "<ol><li>first</li><li>we have</li></ol>"
+            f"<dl><dd>{_block_math_span(r'{\displaystyle x}')}</dd></dl>"
+        )
+        result = await _convert(converter, html)
+
+        assert "2. we have <p> &nbsp;&nbsp;&nbsp;&nbsp;$$x$$" in result
+        assert "\n\n <p> &nbsp;&nbsp;&nbsp;&nbsp;$$x$$" not in result
+
+    @pytest.mark.anyio
+    async def test_multi_row_display_math_dd_after_ul_continues_last_list_item(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A multi-row display-math ``<dl>`` after ``</ul>`` keeps in-list continuation formatting."""
+        html = (
+            "<ul><li>text</li></ul>"
+            "<dl>"
+            f"<dd>{_block_math_span(r'{\displaystyle f(x)}')}</dd>"
+            f"<dd>{_block_math_span(r'{\displaystyle g(x)}')}</dd>"
+            "</dl>"
+        )
+        result = await _convert(converter, html)
+
+        assert "- text <p> &nbsp;&nbsp;&nbsp;&nbsp;$$f(x)$$ <p> $$g(x)$$" in result
+        assert "\n\n <p> &nbsp;&nbsp;&nbsp;&nbsp;$$f(x)$$" not in result
+        assert "<br/> &nbsp;&nbsp;&nbsp;&nbsp;" not in result
+        assert result.lstrip().startswith("- text <p>")
+
+
+class TestInListDlContinuation:
+    """Non-display-math ``<dl><dd>`` continuations inside list items."""
+
+    @pytest.mark.anyio
+    async def test_text_dd_inside_ordered_leaf_item_separated(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A text continuation ``<dl><dd>`` after text in a leaf ordered item is separated."""
+        html = (
+            "<ol>"
+            "<li>first</li>"
+            "<li>second</li>"
+            "<li>If <i>b</i> is even, then divide it by two until it becomes odd."
+            "<dl><dd>Now, <i>a</i> and <i>b</i> are both odd and will remain odd "
+            "until the end of the computation</dd></dl>"
+            "</li>"
+            "<li>fourth</li>"
+            "</ol>"
+        )
+        result = await _convert(converter, html)
+
+        assert (
+            "3. If _b_ is even, then divide it by two until it becomes odd. <p> "
+            "Now, _a_ and _b_ are both odd and will remain odd until the end of "
+            "the computation" in result
+        )
+        assert "odd.Now" not in result
+        assert "4. fourth" in result
+
+    @pytest.mark.anyio
+    async def test_text_dd_inside_unordered_leaf_item_separated(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A text continuation ``<dl><dd>`` after text in a leaf unordered item is separated."""
+        html = (
+            "<ul>"
+            "<li>alpha</li>"
+            "<li>Text before continuation."
+            "<dl><dd>Continuation after text.</dd></dl>"
+            "</li>"
+            "<li>gamma</li>"
+            "</ul>"
+        )
+        result = await _convert(converter, html)
+
+        assert "- Text before continuation. <p> Continuation after text." in result
+        assert "continuation.Continuation" not in result
+        assert "- gamma" in result
+
+    @pytest.mark.anyio
+    async def test_text_dd_with_inline_math_inside_leaf_item_separated(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A continuation ``<dl><dd>`` with inline math after text is separated."""
+        html = (
+            "<ol>"
+            "<li>Compute the value."
+            "<dl><dd>Now, "
+            f"{_inline_math_span(r'{\displaystyle a}')}"
+            " and "
+            f"{_inline_math_span(r'{\displaystyle b}')}"
+            " are both odd.</dd></dl>"
+            "</li>"
+            "</ol>"
+        )
+        result = await _convert(converter, html)
+
+        assert "value.Now" not in result
+        assert "1. Compute the value. <p> Now, $a$ and $b$ are both odd." in result
+
+    @pytest.mark.anyio
+    async def test_text_dd_inside_item_with_nested_list_preserves_nested_list(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A continuation ``<dl><dd>`` in an item with nested lists does not break nesting."""
+        html = (
+            "<ul>"
+            "<li>intro text"
+            "<dl><dd>continued text</dd></dl>"
+            "<ul><li>nested</li></ul>"
+            "</li>"
+            "</ul>"
+        )
+        result = await _convert(converter, html)
+
+        assert "intro textcontinued" not in result
+        assert "continued text" in result
+        assert "nested" in result
+        # Nested list item must remain rendered as a nested list item.
+        assert "    - nested" in result or "\n  - nested" in result

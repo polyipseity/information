@@ -754,7 +754,7 @@ As usual, when we write {@{_x_, _t_, etc.}@} we generally mean {@{Δ<!-- markdow
 
 #### examples of 4-vectors
 
-- {@{__Displacement 4-vector:__}@} Otherwise known as {@{the _spacetime separation_}@}, this is {@{\(_Δt, Δx, Δy, Δz_\)}@}, or for {@{infinitesimal separations, \(_dt_, _dx_, _dy_, _dz_\)}@}. {@{$$dS\equiv (dt,dx,dy,dz)$$}@}
+- {@{__Displacement 4-vector:__}@} Otherwise known as {@{the _spacetime separation_}@}, this is {@{\(_Δt, Δx, Δy, Δz_\)}@}, or for {@{infinitesimal separations, \(_dt_, _dx_, _dy_, _dz_\)}@}. <p> {@{$$dS\equiv (dt,dx,dy,dz)$$}@}
 
 - {@{__Velocity 4-vector:__}@} This results when {@{the displacement 4-vector}@} is {@{divided by $d\tau$}@}, where $d\tau$ is {@{the proper time between the two events that yield _dt_, _dx_, _dy_, and _dz_}@}. {@{$$V\equiv {\frac {dS}{d\tau } }={\frac {(dt,dx,dy,dz)}{dt/\gamma } }=\gamma \left(1,{\frac {dx}{dt} },{\frac {dy}{dt} },{\frac {dz}{dt} }\right)=(\gamma ,\gamma {\vec {v} })$$}@} {@{The 4-velocity}@} is {@{tangent to the world line of a particle}@}, and has {@{a length equal to one unit of time in the frame of the particle}@}. <p> {@{An accelerated particle}@} does not have {@{an inertial frame in which it is always at rest}@}. However, {@{an inertial frame}@} can always be {@{found that is momentarily comoving with the particle}@}. This frame, {@{the _momentarily comoving reference frame_ \(MCRF\)}@}, enables {@{application of special relativity to the analysis of accelerated particles}@}. <p> Since {@{photons move on null lines}@}, {@{$d\tau =0$ for a photon}@}, and {@{a 4-velocity cannot be defined}@}. There is no {@{frame in which a photon is at rest}@}, and no {@{MCRF can be established along a photon's path}@}.
 
@@ -766,7 +766,7 @@ As usual, when we write {@{_x_, _t_, etc.}@} we generally mean {@{Δ<!-- markdow
 >
 > Figure 7-3b. {@{The momentarily comoving reference frames}@} along {@{the trajectory of an accelerating observer}@} \(center\).
 
-- {@{__Energy–momentum 4-vector:__}@} {@{$$P\equiv (E/c,{\vec {p} })=(E/c,p_{x},p_{y},p_{z})$$}@} As indicated before, there are {@{varying treatments for the energy–momentum 4-vector}@} so that one may also see it expressed as {@{$(E,{\vec {p} })$ or ⁠$(E,{\vec {p} }c)$}@}⁠. {@{The first component}@} is {@{the total energy \(including mass\) of the particle \(or system of particles\) in a given frame}@}, while {@{the remaining components}@} are its {@{spatial momentum}@}. {@{The energy–momentum 4-vector}@} is {@{a conserved quantity}@}.
+- {@{__Energy–momentum 4-vector:__}@} <p> {@{$$P\equiv (E/c,{\vec {p} })=(E/c,p_{x},p_{y},p_{z})$$}@} As indicated before, there are {@{varying treatments for the energy–momentum 4-vector}@} so that one may also see it expressed as {@{$(E,{\vec {p} })$ or ⁠$(E,{\vec {p} }c)$}@}⁠. {@{The first component}@} is {@{the total energy \(including mass\) of the particle \(or system of particles\) in a given frame}@}, while {@{the remaining components}@} are its {@{spatial momentum}@}. {@{The energy–momentum 4-vector}@} is {@{a conserved quantity}@}.
 
 - {@{__Acceleration 4-vector:__}@} This results from taking {@{the derivative of the velocity 4-vector with respect to ⁠$\tau$}@}⁠. {@{$$A\equiv {\frac {dV}{d\tau } }={\frac {d}{d\tau } }(\gamma ,\gamma {\vec {v} })=\gamma \left({\frac {d\gamma }{dt} },{\frac {d(\gamma {\vec {v} })}{dt} }\right)$$}@}
 
