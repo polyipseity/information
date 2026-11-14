@@ -120,5 +120,5 @@ Flashcards for this section are as follows:
 
 > A $24\text{ V}$ source, a $6\ \Omega$ resistor, and a $2\ \Omega$ resistor form one loop, with the current $I_1$ running through the $6\ \Omega$ and on down through the $2\ \Omega$. Write the loop equation and solve for $I_1$.
 >
-> - solution: {@{ $V_1 + V_2 + V_3 = 0$ }@}, which gives {@{ $24 = 8I_1$ }@} and so {@{ $I_1 = 3\text{ A}$ }@}
-> - explanation: {@{ Taking the $24\text{ V}$ source from $-$ to $+$, the $6\ \Omega$ from $+$ to $-$, and the $2\ \Omega$ from $+$ to $-$ }@} {@{gives  $+(24 - 0) + (-I_1)(6) + (-I_1)(2) = 0$ , so  $24 = 8I_1$  and  $I_1 = 3\text{ A}$ }@}. Reverse the marks on the source and on the $6\ \Omega$ and the equation {@{reads  $(-V_1) + (-V_2) + V_3 = 0$ , which expands to  $+[-(0 - 24)] + [-(I_1)(6)] + (-I_1)(2) = 0$ }@} and gives {@{ the same $I_1 = 3\text{ A}$ }@}, because {@{ reversing every mark in a loop negates the terms without changing the solution }@}.
+> - solution: {@{ $I_1 = 3\text{ A}$ }@}
+> - explanation: Taking the $24\text{ V}$ source from $-$ to $+$, the $6\ \Omega$ from $+$ to $-$, and the $2\ \Omega$ from $+$ to $-$, {@{the loop equation gives $+(24 - 0) + (-I_1)(6) + (-I_1)(2) = 0$, so $24 = 8I_1$ and $I_1 = 3\text{ A}$}@}. Reverse the marks on the source and on the $6\ \Omega$ and the equation {@{reads  $(-V_1) + (-V_2) + V_3 = 0$ , which expands to  $+[-(0 - 24)] + [-(I_1)(6)] + (-I_1)(2) = 0$ }@} and gives {@{ the same $I_1 = 3\text{ A}$ }@}, because {@{ reversing every mark in a loop negates the terms without changing the solution }@}.

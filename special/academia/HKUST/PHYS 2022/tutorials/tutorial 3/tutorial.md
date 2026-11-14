@@ -33,8 +33,8 @@ No additional details were added for this assignment.
 >
 > The $2\theta$ are $29°$ for (200) and $41°$ for (220).
 >
-> - solution: {@{Bragg's law $\lambda = 2d\sin\theta$}@} at $\theta = 14.5°$ gives {@{$d_{200} = \lambda/(2\sin 14.5°) = 3.080\ \text{Å}$ and $a = 2d_{200} = 6.16\ \text{Å}$}@}. The same law at $\theta = 20.5°$ gives {@{$d_{220} = \lambda/(2\sin 20.5°) = 2.201\ \text{Å}$ and $a = d_{220}\sqrt{8} = 6.23\ \text{Å}$}@}. The two readings {@{average to $a \approx 6.19\ \text{Å}$}@}.
-> - explanation: {@{Bragg's law}@} {@{turns a peak position into a plane spacing: $d = \lambda/(2\sin\theta)$}@}. In {@{a cubic crystal}@} {@{the lattice parameter follows from $a = d_{hkl}\sqrt{h^2+k^2+l^2}$}@}, so the (200) peak {@{returns $a = 2d$}@} and the (220) peak {@{multiplies $d$ by $\sqrt{8}$}@}. The two readings differ by {@{about $1\%$, since each $2\theta$ was read to the nearest degree}@}, and their mean matches {@{the accepted $6.20\ \text{Å}$ for BaF $_2$}@}.
+> - solution: {@{The cubic lattice parameter is $a=6.16\ \text{Å}$}@}
+> - explanation: {@{Bragg's law}@} turns a peak position into {@{a plane spacing: $d = \lambda/(2\sin\theta)$}@}. In {@{a cubic crystal}@} {@{the lattice parameter follows from $a = d_{hkl}\sqrt{h^2+k^2+l^2}$}@}, so the (200) peak {@{returns $a = 2d$}@} and the (220) peak {@{multiplies $d$ by $\sqrt{8}$}@}. The two readings differ by {@{about $1\%$, since each $2\theta$ was read to the nearest degree}@}, and their mean matches {@{the accepted $6.20\ \text{Å}$ for BaF $_2$}@}.
 
 <!-- markdownlint MD028 -->
 

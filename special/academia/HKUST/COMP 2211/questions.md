@@ -1601,7 +1601,7 @@ tags:
 > 4. $\max_{k\in \{ 1, 2, \cdots, N \} } | V_k(s_a) - V_{k}(s_b) | < \varepsilon$
 >
 > - solution: {@{1}@}
-> - explanation: {@{There may be other ways to determining convergence}@}. But 2, 3, and 4 are {@{definitely not the "other ways"}@} as {@{they do not even make sense}@}.
+> - explanation: {@{There may be other ways}@} to determining convergence. But 2, 3, and 4 are {@{definitely not the "other ways"}@} as {@{they do not even make sense}@}.
 
 <!-- markdownlint MD028 -->
 
