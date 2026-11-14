@@ -86,7 +86,9 @@ Representative journal entry examples at issuance:
 > | {@{Cash}@}                                | {@{92 608}@} |              |
 > | {@{Bonds payable}@}                       |              | {@{92 608}@} |
 >
-> _Explanation._ Carrying amount equals {@{bond price; the discount (7 392) is not shown in a separate account under the net method but is embedded in Bonds payable}@}. At maturity, Bonds payable is {@{increased by amortization to face value}@}.
+> ---
+>
+> - explanation: Carrying amount equals {@{bond price; the discount (7 392) is not shown in a separate account under the net method but is embedded in Bonds payable}@}. At maturity, Bonds payable is {@{increased by amortization to face value}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -97,7 +99,9 @@ Representative journal entry examples at issuance:
 > | {@{Cash}@}                               | {@{108 530}@} |               |
 > | {@{Bonds payable}@}                      |               | {@{108 530}@} |
 >
-> _Explanation._ Carrying amount {@{includes the premium at issuance}@}; that premium is amortized by debiting {@{Bonds payable each interest date so the carrying amount decreases to face value at maturity}@}.
+> ---
+>
+> - explanation: Carrying amount {@{includes the premium at issuance}@}; that premium is amortized by debiting {@{Bonds payable each interest date so the carrying amount decreases to face value at maturity}@}.
 
 ---
 
@@ -138,7 +142,9 @@ Representative journal entry example:
 > | {@{Cash}@}                                                    | {@{95&nbsp;500}@} |                   |
 > | {@{Bonds payable}@}                                           |                   | {@{95&nbsp;500}@} |
 >
-> _Explanation._ Under IFRS 9, the {@{1&nbsp;500 issuance cost reduces the initial carrying amount}@}; it is not capitalized as a separate deferred charge. The EIR is computed on {@{net proceeds 95&nbsp;500, which gives a slightly higher rate than the rate implied by gross proceeds 97&nbsp;000}@}. This higher EIR is then applied to the carrying amount each period to determine interest expense.
+> ---
+>
+> - explanation: Under IFRS 9, the {@{1&nbsp;500 issuance cost reduces the initial carrying amount}@}; {@{it is not capitalized as a separate deferred charge}@}. The EIR is computed on {@{net proceeds 95&nbsp;500, which gives a slightly higher rate than the rate implied by gross proceeds 97&nbsp;000}@}. {@{This higher EIR is then applied to the carrying amount each period}@} to determine {@{interest expense}@}.
 
 ---
 
@@ -176,7 +182,9 @@ Representative journal entry examples:
 > | {@{Interest payable}@}                         |              | {@{9 000}@} |
 > | {@{Bonds payable}@}                            |              | {@{1 187}@} |
 >
-> _Explanation._ Interest expense equals {@{carrying amount × market rate and the discount amortized = interest expense − coupon}@}; credit {@{Bonds payable to increase carrying amount toward face value}@}. On payment date: {@{Dr Interest payable 9 000, Cr Cash 9 000}@}.
+> ---
+>
+> - explanation: Interest expense equals {@{carrying amount × market rate and the discount amortized = interest expense − coupon}@}; credit {@{Bonds payable to increase carrying amount toward face value}@}. On payment date: {@{Dr Interest payable 9 000, Cr Cash 9 000}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -188,7 +196,9 @@ Representative journal entry examples:
 > | {@{Interest payable}@} | | {@{9 000}@} |
 > | {@{Bonds payable}@} | | {@{1 317}@} |
 >
-> _Explanation._ Under the effective-interest method, a discount bond often becomes more awkward each period because {@{interest expense is based on a carrying amount that keeps growing toward face value}@}.
+> ---
+>
+> - explanation: Under the effective-interest method, a discount bond often becomes more awkward each period because {@{interest expense is based on a carrying amount that keeps growing toward face value}@}.
 
 ---
 
@@ -211,7 +221,9 @@ For a premium bond, the coupon cash paid each period is larger than the effectiv
 > | {@{Bonds payable}@}                           | {@{744}@}   |             |
 > | {@{Interest payable}@}                        |             | {@{4 000}@} |
 >
-> _Explanation._ Premium amortized equals {@{coupon − interest expense}@}; debit {@{Bonds payable to decrease carrying amount toward face value}@}. On payment date: {@{Dr Interest payable 4 000, Cr Cash 4 000}@}.
+> ---
+>
+> - explanation: Premium amortized equals {@{coupon − interest expense}@}; debit {@{Bonds payable to decrease carrying amount toward face value}@}. On payment date: {@{Dr Interest payable 4 000, Cr Cash 4 000}@}.
 
 ---
 
@@ -252,7 +264,9 @@ For a discount bond, add the amortization to the carrying amount. For a premium 
 > | {@{Cash / Interest payable}@} | | {@{800}@} |
 > | {@{Bonds payable}@} | | {@{165}@} |
 >
-> _Explanation._ The amortization table is not a second method. It is just the effective-interest method written in a way that makes the next journal entry and the next carrying amount obvious.
+> ---
+>
+> - explanation: The amortization table is not {@{a second method}@}. It is just {@{the effective-interest method written in a way that makes the next journal entry and the next carrying amount obvious}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -263,7 +277,9 @@ For a discount bond, add the amortization to the carrying amount. For a premium 
 > | {@{Bonds payable}@}          | {@{100 000}@} |               |
 > | {@{Cash}@}                   |               | {@{100 000}@} |
 >
-> _Explanation._ Liability is settled and there is {@{no gain or loss if carrying amount equals face value at maturity}@}; in practice, the final period's {@{interest expense and discount or premium amortization may be adjusted slightly to remove any rounding differences so the carrying amount equals the exact face value}@}. If the bond is redeemed or matures between regular interest payment dates, the final cash settlement includes {@{principal plus prorated interest for the partial period up to the redemption/maturity date, with no further coupon on the next scheduled date because the bond no longer exists}@}.
+> ---
+>
+> - explanation: Liability is settled and there is {@{no gain or loss if carrying amount equals face value at maturity}@}; in practice, {@{the final period's interest expense and amortization are adjusted slightly}@} to {@{remove any rounding differences so the carrying amount equals the exact face value}@}. If the bond is redeemed or matures between regular interest payment dates, {@{the final cash settlement includes principal plus prorated interest for the partial period}@}, with {@{no further coupon on the next scheduled date because the bond no longer exists}@}.
 
 ---
 
@@ -291,7 +307,9 @@ Representative journal entry examples:
 > | {@{Bonds payable}@}                                            | {@{248}@}   |             |
 > | {@{Interest payable}@}                                         |             | {@{1 333}@} |
 >
-> _Explanation._ Interest payable equals {@{4 000 × 2/6 = 1 333}@}, premium amortized equals {@{744 × 2/6 = 248}@}, and interest expense equals {@{1 333 − 248 = 1 085}@}. For a discount bond, credit _Bonds payable_ (prorated discount amortization) instead of debiting.
+> ---
+>
+> - explanation: Interest payable {@{equals 4 000 × 2/6 = 1 333}@}, premium amortized {@{equals 744 × 2/6 = 248}@}, and interest expense {@{equals 1 333 − 248 = 1 085}@}. For a discount bond, {@{credit Bonds payable (prorated discount amortization) instead of debiting}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -320,7 +338,9 @@ Representative journal entry examples:
 > | {@{Interest expense}@}                   | {@{4 000}@} |             |
 > | {@{Cash}@}                               |             | {@{4 000}@} |
 >
-> _Explanation._ {@{Total interest expense over 2 months (from issue date to payment date) = 4 000 − 2 667 = 1 333 = 100 000 × 8% × 2/12}@}.
+> ---
+>
+> - explanation: {@{Total interest expense over 2 months (from issue date to payment date) = 4 000 − 2 667 = 1 333 = 100 000 × 8% × 2/12.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -346,7 +366,9 @@ Representative journal entry examples:
 > | {@{Interest expense}@}                            | {@{267}@}   |             |
 > | {@{Bonds payable}@}                               |             | {@{267}@}   |
 >
-> _Explanation._ Accrued interest at issue always uses {@{the coupon (stated) rate and the time since the last payment date}@}. At the coupon date, keep three relationships separate: {@{(1) full cash coupon paid = 4 000}@}; {@{(2) pre-issue 4-month portion already collected at issue = 2 667 and credited to Interest Expense there}@}; {@{(3) issuer's own 2-month post-issue effective interest = 1 600, split into coupon portion 1 333 plus discount amortization 267}@}. Therefore the coupon-date entries work together as {@{Dr Interest Expense 4 000, Cr Cash 4 000}@} plus {@{Dr Interest Expense 267, Cr Bonds Payable 267}@}, giving coupon-date expense of {@{4 267}@}. After offsetting the issue-date credit {@{2 667}@}, the net expense for the issuer's actual holding period is {@{4 267 − 2 667 = 1 600}@}, exactly the effective-interest amount {@{96 000 × 10% × 2/12 = 1 600}@}. <p> When a year-end falls between the issue date and the first coupon date, split the first coupon period into three pieces: {@{pre-issue months, issue-to-year-end months, and year-end-to-coupon-date months}@}. The pre-issue piece is handled by the accrued-interest credit at issuance. The post-issue piece is then split between the current year and the next year. In each post-issue subperiod, the same relation holds: {@{effective interest for that subperiod = prorated coupon for that subperiod ± discount/premium amortization for that subperiod}@}, where discount amortization is added and premium amortization is subtracted.
+> ---
+>
+> - explanation: Accrued interest at issue always uses {@{the coupon (stated) rate and the time since the last payment date}@}. At the coupon date, keep three relationships separate: {@{the full cash coupon paid is 4 000}@}; {@{the pre-issue 4-month portion was already collected at issue, 2 667, and credited to Interest Expense there}@}; {@{the issuer's own 2-month post-issue effective interest is 1 600, split into coupon portion 1 333 plus discount amortization 267}@}. Therefore the coupon-date entries work together as {@{Dr Interest Expense 4 000, Cr Cash 4 000}@} plus {@{Dr Interest Expense 267, Cr Bonds Payable 267}@}, giving {@{coupon-date expense of 4 267}@}. After {@{offsetting the issue-date credit of 2 667}@}, {@{the net expense for the issuer's actual holding period is 4 267 − 2 667 = 1 600}@}, exactly {@{the effective-interest amount 96 000 × 10% × 2/12 = 1 600}@}. <p> When a year-end falls between the issue date and the first coupon date, split the first coupon period into three pieces: {@{pre-issue months, issue-to-year-end months, and year-end-to-coupon-date months}@}. The pre-issue piece is {@{handled by the accrued-interest credit at issuance}@}. The post-issue piece is then split {@{between the current year and the next year}@}. In each post-issue subperiod, the same relation holds: {@{effective interest for that subperiod = prorated coupon for that subperiod ± discount/premium amortization for that subperiod}@}, where discount amortization is added and premium amortization is subtracted.
 
 ---
 
@@ -422,7 +444,9 @@ An __installment note__ is repaid through periodic fixed payments, each covering
 > | {@{Notes payable}@}              | {@{3&nbsp;021}@} |                  |
 > | {@{Cash}@}                       |                  | {@{4&nbsp;021}@} |
 >
-> _Explanation._ Unlike a bond, there are no {@{separate "discount" or "premium" accounts; each payment reduces the note's carrying amount by the principal repayment portion}@}. {@{Interest decreases each period}@} because it is applied to a {@{steadily shrinking principal balance}@}. {@{A small rounding difference in the final period}@} brings {@{the balance to exactly zero}@}.
+> ---
+>
+> - explanation: Unlike a bond, there are no {@{separate "discount" or "premium" accounts; each payment reduces the note's carrying amount by the principal repayment portion}@}. {@{Interest decreases each period}@} because it is applied to a {@{steadily shrinking principal balance}@}. {@{A small rounding difference in the final period}@} brings {@{the balance to exactly zero}@}.
 
 ---
 
@@ -451,7 +475,9 @@ Representative journal entry example:
 > | {@{Interest expense}@}                  | {@{695}@} |           |
 > | {@{Notes payable}@}                     |           | {@{695}@} |
 >
-> _Explanation._ Over time, {@{Notes payable increases each year by the interest expense so that the carrying amount grows from 7 721 to 10 000 by maturity}@}; at maturity the entry is {@{Dr Notes payable 10 000, Cr Cash 10 000}@}.
+> ---
+>
+> - explanation: Over time, {@{Notes payable increases each year by the interest expense so that the carrying amount grows from 7 721 to 10 000 by maturity}@}; at maturity the entry is {@{Dr Notes payable 10 000, Cr Cash 10 000}@}.
 
 ---
 
@@ -476,7 +502,9 @@ Representative journal entry examples:
 > | {@{Land}@}                                            | {@{200 000}@} |               |
 > | {@{Notes payable}@}                                   |               | {@{200 000}@} |
 >
-> _Explanation._ Land is recorded at {@{fair value (its cash selling price) and the note payable is recorded at the same present value}@}; the difference between {@{220 000 face and 200 000 present value is a discount that will be amortized over the note's life}@}.
+> ---
+>
+> - explanation: Land is recorded at {@{fair value (its cash selling price) and the note payable is recorded at the same present value}@}; the difference between {@{220 000 face and 200 000 present value is a discount that will be amortized over the note's life}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -525,7 +553,9 @@ __In-substance defeasance__ (where the debtor places assets in a trust dedicated
 > |{@{Loss on extinguishment of debt}@}|{@{6 000}@}||
 > |{@{Cash}@}||{@{101 000}@}|
 >
-> _Explanation._ The loss equals {@{cash paid 101 000 − carrying amount 95 000 = 6 000}@}. If cash paid were less than carrying amount, the difference would instead be a gain.
+> ---
+>
+> - explanation: The loss equals {@{cash paid 101 000 − carrying amount 95 000 = 6 000}@}. If cash paid were less than carrying amount, {@{the difference would instead be a gain}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -537,7 +567,9 @@ __In-substance defeasance__ (where the debtor places assets in a trust dedicated
 > | {@{Cash}@} | | {@{92&nbsp;000}@} |
 > | {@{Gain on extinguishment of debt}@} | | {@{6&nbsp;000}@} |
 >
-> _Explanation._ The gain equals {@{carrying amount 98&nbsp;000 − cash paid 92&nbsp;000 = 6&nbsp;000}@}. This is the mirror image of the loss case above.
+> ---
+>
+> - explanation: {@{The gain equals carrying amount 98&nbsp;000 − cash paid 92&nbsp;000 = 6&nbsp;000. This is the mirror image of the loss case above.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -550,7 +582,9 @@ __In-substance defeasance__ (where the debtor places assets in a trust dedicated
 > | {@{Share capital — ordinary (par 5)}@}                        |                  | {@{10 000 000}@} |
 > | {@{Share premium — ordinary}@}                                |                  | {@{6 000 000}@}  |
 >
-> _Explanation._ Shares are measured at fair value {@{16 000 000 (2 000 000 × 8)}@}; equity increases by that amount (par {@{10 000 000}@}, premium {@{6 000 000}@}). The liability's carrying amount exceeds consideration, so the debtor recognises a gain on extinguishment of {@{20 000 000 − 16 000 000 = 4 000 000}@}.
+> ---
+>
+> - explanation: Shares are measured at {@{fair value of 16 000 000}@}, that is {@{2 000 000 shares at 8 each}@}; equity increases by that amount ({@{par 10 000 000}@} and {@{premium 6 000 000}@}). {@{The liability's carrying amount exceeds consideration}@}, so the debtor {@{recognises a gain on extinguishment of 20 000 000 − 16 000 000 = 4 000 000}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -563,7 +597,9 @@ __In-substance defeasance__ (where the debtor places assets in a trust dedicated
 > | {@{Share capital — ordinary (2 000 000 × 5)}@}                           |                  | {@{10 000 000}@} |
 > | {@{Gain on extinguishment of debt}@}                                     |                  | {@{12 000 000}@} |
 >
-> _Explanation._ Consideration is measured at {@{fair value of shares issued = 8 000 000}@}. Extinguishment gain is {@{20 000 000 − 8 000 000 = 12 000 000}@}. Equity recognised is still {@{8 000 000 net}@} via {@{Share capital 10 000 000 minus Share premium debit 2 000 000}@}. Sign rule: {@{carrying amount &gt; fair value of shares → gain; carrying amount &lt; fair value of shares → loss}@}.
+> ---
+>
+> - explanation: Consideration is {@{measured at the fair value of the shares issued, 8&nbsp;000&nbsp;000}@}. The extinguishment gain is {@{liability 20&nbsp;000&nbsp;000 − shares 8&nbsp;000&nbsp;000 = 12&nbsp;000&nbsp;000}@}. Equity recognised is still {@{8 000 000 net}@} via {@{Share capital 10 000 000 minus Share premium debit 2 000 000}@}. Sign rule: {@{carrying amount &gt; fair value of shares → gain; carrying amount &lt; fair value of shares → loss}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -580,7 +616,9 @@ __In-substance defeasance__ (where the debtor places assets in a trust dedicated
 > | {@{Building}@}                                     |                  | {@{16 000 000}@} |
 > | {@{Gain on extinguishment of debt}@}               |                  | {@{4 000 000}@}  |
 >
-> _Explanation._ The asset loss equals {@{21 000 000 − 16 000 000 = 5 000 000}@}, and the extinguishment gain equals {@{liability 20 000 000 − asset fair value 16 000 000 = 4 000 000}@}; the two effects are reported separately.
+> ---
+>
+> - explanation: {@{The asset loss equals 21 000 000 − 16 000 000 = 5 000 000, and the extinguishment gain equals liability 20 000 000 − asset fair value 16 000 000 = 4 000 000; the two effects are reported separately.}@}
 
 ---
 
@@ -621,7 +659,9 @@ Representative journal entry example:
 > | {@{Gain on extinguishment of debt}@}                  |                  | {@{3 298 664}@} |
 > | {@{Notes payable (new)}@}                             |                  | {@{7 201 336}@} |
 >
-> _Explanation._ The gain on extinguishment equals {@{old carrying amount 10 500 000 − fair value of new note 7 201 336 = 3 298 664}@}. After this entry, the new note {@{with initial carrying amount 7 201 336 is amortized using the new effective interest rate (15%), with interest expense recognised at 15%}@} and the difference between {@{interest expense and cash interest treated as discount amortization each period}@}.
+> ---
+>
+> - explanation: The gain on extinguishment equals {@{old carrying amount 10 500 000 − fair value of new note 7 201 336 = 3 298 664}@}. After this entry, the new note {@{with initial carrying amount 7 201 336 is amortized using the new effective interest rate (15%), with interest expense recognised at 15%}@} and the difference between {@{interest expense and cash interest treated as discount amortization each period}@}.
 
 ---
 
@@ -636,28 +676,20 @@ Flashcards for this section are as follows:
 
 ### bond issuance at discount with amortization schedule and early extinguishment
 
-> _Exercise._ Northwick plc issues on 1 January 2025 a {@{5-year bond, face 50&nbsp;000, coupon 8% paid annually, at a market yield of 10%}@}. Bond issuance costs are {@{600}@}; therefore net proceeds = {@{bond price − 600}@}. The bond price (PV of cash flows at 10%) is approximately {@{50&nbsp;000 × 0.6209 + 4&nbsp;000 × 3.7908 ≈ 31&nbsp;045 + 15&nbsp;163 = 46&nbsp;208}@}. Net proceeds after issuance costs = {@{46&nbsp;208 − 600 = 45&nbsp;608}@}. The effective interest rate on net proceeds is slightly above 10% (course approximation: treat EIR ≈ 10% for simplicity). Record: (a) issuance, (b) year-1 interest, (c) early cash repurchase on 1 January 2027 at 103 (call price 103% × 50&nbsp;000 = 51&nbsp;500) using carrying amount from the schedule below.
->
-> Amortization schedule (at EIR ≈ 10%, starting from net proceeds 45&nbsp;608):
->
-> |       Year |      Beginning CA |      Cash coupon | Interest expense at 10% | Discount amortized |         Ending CA |
-> | ---------: | ----------------: | ---------------: | ----------------------: | -----------------: | ----------------: |
-> | {@{2025}@} | {@{45&nbsp;608}@} | {@{4&nbsp;000}@} |        {@{4&nbsp;561}@} |          {@{561}@} | {@{46&nbsp;169}@} |
-> | {@{2026}@} | {@{46&nbsp;169}@} | {@{4&nbsp;000}@} |        {@{4&nbsp;617}@} |          {@{617}@} | {@{46&nbsp;786}@} |
-> | {@{2027}@} | {@{46&nbsp;786}@} | {@{4&nbsp;000}@} |        {@{4&nbsp;679}@} |          {@{679}@} | {@{47&nbsp;465}@} |
-> | {@{2028}@} | {@{47&nbsp;465}@} | {@{4&nbsp;000}@} |        {@{4&nbsp;747}@} |          {@{747}@} | {@{48&nbsp;212}@} |
-> | {@{2029}@} | {@{48&nbsp;212}@} | {@{4&nbsp;000}@} |        {@{5&nbsp;788}@} |   {@{1&nbsp;788}@} | {@{50&nbsp;000}@} |
->
-> Note {@{the final interest expense}@} is {@{adjusted to ensure the ending carrying amount equals the face value at maturity}@}; this is {@{a common practice when using an approximate EIR}@} for simplicity.
->
-> (a) Issuance on 1 January 2025:
+> 1.a. Northwick plc issues on 1 January 2025 a {@{5-year bond, face 50&nbsp;000, coupon 8% paid annually, at a market yield of 10%}@}. Bond issuance costs are {@{600}@}, and the bond price at 10% is {@{50&nbsp;000 × 0.6209 + 4&nbsp;000 × 3.7908 ≈ 46&nbsp;208}@}, so net proceeds are {@{46&nbsp;208 − 600 = 45&nbsp;608}@}. Record the issuance.
 >
 > | {@{Issue bond at discount (net proceeds after issuance costs)}@} | Dr                | Cr                |
 > | ---------------------------------------------------------------- | ----------------- | ----------------- |
 > | {@{Cash}@}                                                       | {@{45&nbsp;608}@} |                   |
 > | {@{Bonds payable}@}                                              |                   | {@{45&nbsp;608}@} |
 >
-> (b) Year-1 interest (31 December 2025):
+> ---
+>
+> - explanation: {@{Issuance costs lower both the cash received and the opening carrying amount.}@}
+
+<!-- markdownlint MD028 -->
+
+> 1.b. The same {@{5-year bond, face 50&nbsp;000, coupon 8% paid annually}@} carries an opening carrying amount of {@{45&nbsp;608}@}, and the effective interest rate on net proceeds is slightly above 10% (course approximation: {@{treat the EIR as 10%}@}). Record year-1 interest on 31 December 2025.
 >
 > | {@{Recognise interest and amortise discount (year 1)}@} | Dr               | Cr               |
 > | ------------------------------------------------------- | ---------------- | ---------------- |
@@ -665,7 +697,13 @@ Flashcards for this section are as follows:
 > | {@{Interest payable}@}                                  |                  | {@{4&nbsp;000}@} |
 > | {@{Bonds payable}@}                                     |                  | {@{561}@}        |
 >
-> (c) Early repurchase on 1 January 2027 (after year-2 amortization; carrying amount = 46&nbsp;786):
+> ---
+>
+> - explanation: {@{The shortfall between yield interest and the cash coupon amortizes the discount.}@}
+
+<!-- markdownlint MD028 -->
+
+> 1.c. On 1 January 2027, after two years of amortization, the bond's carrying amount is {@{46&nbsp;786}@}. Northwick repurchases it at 103 (call price {@{103% × 50&nbsp;000 = 51&nbsp;500}@). Record the repurchase.
 >
 > | {@{Early extinguishment of bond at call price 51&nbsp;500}@} | Dr                | Cr                |
 > | ------------------------------------------------------------ | ----------------- | ----------------- |
@@ -673,7 +711,9 @@ Flashcards for this section are as follows:
 > | {@{Loss on extinguishment of debt}@}                         | {@{4&nbsp;714}@}  |                   |
 > | {@{Cash}@}                                                   |                   | {@{51&nbsp;500}@} |
 >
-> _Explanation._ The loss = {@{call price 51&nbsp;500 − carrying amount 46&nbsp;786 = 4&nbsp;714}@}. Carrying amount at the call date already reflects {@{issuance costs (deducted at inception) and two years of discount amortization}@}. The bond is derecognized at carrying amount, not at face.
+> ---
+>
+> - explanation: The loss = {@{call price 51&nbsp;500 − carrying amount 46&nbsp;786 = 4&nbsp;714}@}. Carrying amount at the call date already reflects {@{issuance costs (deducted at inception) and two years of discount amortization}@}. The bond is {@{derecognized at carrying amount, not at face}@}.
 
 ---
 
@@ -684,9 +724,7 @@ Flashcards for this section are as follows:
 
 ### zero-coupon note issued for property: initial measurement and interest schedule
 
-> _Exercise._ Ruislip SA purchases equipment and gives a {@{4-year, zero-interest-bearing note, face 80&nbsp;000}@}. The equipment has no observable market price. Ruislip's incremental borrowing rate is {@{9%}@}. PV of the note = {@{80&nbsp;000 × (1/1.09^4) = 80&nbsp;000 × 0.7084 = 56&nbsp;672}@} (rounded). Record (a) the purchase and (b) year-1 and year-2 interest.
->
-> (a) Purchase of equipment:
+> 2.a. Ruislip SA purchases equipment and gives a {@{4-year, zero-interest-bearing note, face 80&nbsp;000}@}. The equipment has no observable market price, so the note is measured at PV using Ruislip's incremental borrowing rate of {@{9%}@}: {@{80&nbsp;000 × (1/1.09^4) = 80&nbsp;000 × 0.7084 = 56&nbsp;672}@} (rounded). Record the purchase.
 >
 > | {@{Acquire equipment via zero-coupon note; measure at PV}@} | Dr                | Cr                |
 > | ----------------------------------------------------------- | ----------------- | ----------------- |
@@ -702,21 +740,35 @@ Flashcards for this section are as follows:
 > | {@{3}@} | {@{67&nbsp;333}@} | {@{6&nbsp;060}@} | {@{73&nbsp;393}@} |
 > | {@{4}@} | {@{73&nbsp;393}@} | {@{6&nbsp;607}@} | {@{80&nbsp;000}@} |
 >
-> (b) Year-1 interest (no cash paid):
+> ---
+>
+> - explanation: {@{The note is measured at the present value of its face amount at 9%.}@}
+
+<!-- markdownlint MD028 -->
+
+> 2.b. On that note the opening carrying amount is {@{56&nbsp;672}@}, the implicit rate is {@{9%}@}, and no cash interest is paid during the term. Record year-1 interest.
 >
 > | {@{Accrue implicit interest (year 1)}@} | Dr               | Cr               |
 > | --------------------------------------- | ---------------- | ---------------- |
 > | {@{Interest expense}@}                  | {@{5&nbsp;101}@} |                  |
 > | {@{Notes payable}@}                     |                  | {@{5&nbsp;101}@} |
 >
-> (b) Year-2 interest:
+> ---
+>
+> - explanation: {@{Each period's interest is the opening carrying amount times 9%.}@}
+
+<!-- markdownlint MD028 -->
+
+> 2.c. Interest continues to accrue on the {@{rising carrying amount}@}, so year 2 opens at {@{61&nbsp;773}@}. Record year-2 interest.
 >
 > | {@{Accrue implicit interest (year 2)}@} | Dr               | Cr               |
 > | --------------------------------------- | ---------------- | ---------------- |
 > | {@{Interest expense}@}                  | {@{5&nbsp;560}@} |                  |
 > | {@{Notes payable}@}                     |                  | {@{5&nbsp;560}@} |
 >
-> _Explanation._ {@{Equipment is recorded at PV of the note because fair value of the equipment is not observable}@}. The implicit discount (80&nbsp;000 − 56&nbsp;672 = 23&nbsp;328) is {@{amortized as interest expense using the 9% implicit rate applied to the beginning carrying amount each year}@}; no cash interest is paid during the term. At maturity, {@{Dr Notes payable 80&nbsp;000, Cr Cash 80&nbsp;000}@}.
+> ---
+>
+> - explanation: {@{Interest grows each period because it accrues on a rising carrying amount.}@}
 
 ---
 

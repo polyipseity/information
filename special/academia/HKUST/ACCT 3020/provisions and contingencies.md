@@ -91,7 +91,9 @@ When a provision relates to a __long-term obligation__ (settlement expected well
 > | {@{Litigation expense}@} | {@{500&nbsp;000}@} | |
 > | {@{Litigation liability}@} | | {@{500&nbsp;000}@} |
 >
-> _Explanation._ The numbers differ because {@{expected value uses probability weighting across outcomes}@}, while {@{most likely outcome picks the single dominant case}@}.
+> ---
+>
+> - explanation: {@{The numbers differ because expected value uses probability weighting across outcomes, while most likely outcome picks the single dominant case.}@}
 
 ---
 
@@ -163,7 +165,9 @@ Representative journal entry examples:
 > | {@{Warranty liability}@}                             | {@{100}@} |           |
 > | {@{Cash}@}                                           |           | {@{100}@} |
 >
-> _Explanation._ The claim settlement {@{uses up part of the warranty liability instead of creating a fresh warranty expense}@}; the expense was already {@{matched to the sale when the provision was recognized}@}.
+> ---
+>
+> - explanation: The claim settlement {@{uses up part of the warranty liability instead of creating a fresh warranty expense}@}; the expense was already {@{matched to the sale when the provision was recognized}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -174,7 +178,9 @@ Representative journal entry examples:
 > | {@{Warranty liability}@}                          | {@{80}@} |          |
 > | {@{Inventory}@}                                   |          | {@{80}@} |
 >
-> _Explanation._ Use {@{Inventory when the warranty claim is satisfied by parts or replacement goods already held in stock}@}. The provision is reduced because the parts cost was {@{already anticipated in Warranty expense when the sale occurred}@}.
+> ---
+>
+> - explanation: Use {@{Inventory when the warranty claim is satisfied by parts or replacement goods already held in stock}@}. The provision is reduced because the parts cost was {@{already anticipated in Warranty expense when the sale occurred}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -185,7 +191,9 @@ Representative journal entry examples:
 > | {@{Warranty liability}@}                                 | {@{60}@} |          |
 > | {@{Accrued Payroll}@}                                    |          | {@{60}@} |
 >
-> _Explanation._ Use {@{Accrued Payroll when the warranty work is performed internally and the labor component is being settled through payroll-related payables}@}. Again, no fresh warranty expense is created here because the labor cost had already been {@{included in the warranty provision estimate}@}.
+> ---
+>
+> - explanation: Use {@{Accrued Payroll when the warranty work is performed internally and the labor component is being settled through payroll-related payables}@}. Again, no fresh warranty expense is created here because the labor cost had already been {@{included in the warranty provision estimate}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -197,7 +205,9 @@ Representative journal entry examples:
 > | {@{Warranty expense}@} | {@{15}@} | |
 > | {@{Accrued Payroll}@} | | {@{75}@} |
 >
-> _Explanation._ The original provision covers only the amount that had been {@{best-estimated earlier}@}. Any excess actual cost becomes a {@{new current-period warranty expense}@}.
+> ---
+>
+> - explanation: The original provision covers only {@{the amount that had been best-estimated earlier}@}. Any excess actual cost becomes {@{a new current-period warranty expense}@}.
 
 ---
 
@@ -219,7 +229,9 @@ Sometimes the issue is not that a particular repair costs more than expected. In
 > | {@{Warranty expense}@} | {@{6&nbsp;000}@} | |
 > | {@{Warranty liability}@} | | {@{6&nbsp;000}@} |
 >
-> _Explanation._ This is a {@{change in estimate of the remaining expected warranty obligation}@}. No customer claim is being settled here; the company is simply increasing the liability from {@{18&nbsp;000 to 24&nbsp;000}@}.
+> ---
+>
+> - explanation: This is {@{a change in estimate of the remaining expected warranty obligation}@}. {@{No customer claim is being settled here}@}; the company is simply {@{increasing the liability from 18&nbsp;000 to 24&nbsp;000}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -230,7 +242,9 @@ Sometimes the issue is not that a particular repair costs more than expected. In
 > | {@{Warranty liability}@} | {@{4&nbsp;500}@} | |
 > | {@{Warranty expense}@} | | {@{4&nbsp;500}@} |
 >
-> _Explanation._ The company reverses the excess provision because the remaining expected loss liability is now {@{lower than previously estimated}@}. The reduction goes to {@{Warranty expense rather than to revenue}@} because this is a measurement revision of the original warranty provision.
+> ---
+>
+> - explanation: The company reverses the excess provision because {@{the remaining expected loss liability is now lower than previously estimated}@}. {@{The reduction goes to Warranty expense rather than to revenue}@} because {@{this is a measurement revision of the original warranty provision}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -251,7 +265,9 @@ Sometimes the issue is not that a particular repair costs more than expected. In
 > | {@{Warranty liability}@} | {@{200}@} | |
 > | {@{Warranty expense}@} | | {@{200}@} |
 >
-> _Explanation._ Once the sale is {@{fully reversed, the company no longer expects future warranty service on that unit}@}, so the remaining warranty liability attached to that sale is {@{released rather than used for repair because the sale itself has been unwound}@}.
+> ---
+>
+> - explanation: Once the sale is {@{fully reversed, the company no longer expects future warranty service on that unit}@}, so the remaining warranty liability attached to that sale is {@{released rather than used for repair because the sale itself has been unwound}@}.
 
 ---
 
@@ -296,7 +312,9 @@ Representative journal entry examples:
 > | {@{Sales revenue}@}                              |              | {@{30 000}@} |
 > | {@{Unearned warranty revenue}@}                  |              | {@{900}@}    |
 >
-> _Explanation._ 900 is for the extended (service-type) coverage; {@{revenue is recognized only over the service-type period (e.g. straight-line over years 2–4), after the assurance-type warranty has expired}@}.
+> ---
+>
+> - explanation: 900 is for the extended (service-type) coverage; {@{revenue is recognized only over the service-type period (e.g. straight-line over years 2–4), after the assurance-type warranty has expired}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -307,7 +325,9 @@ Representative journal entry examples:
 > | {@{Unearned warranty revenue}@}                       | {@{300}@} |           |
 > | {@{Warranty revenue}@}                                |           | {@{300}@} |
 >
-> _Explanation._ Straight-line over the 3-year service period: {@{900 ÷ 3 = 300 per year}@}; {@{revenue is earned only during the service-type period (after assurance-type warranty has expired)}@}.
+> ---
+>
+> - explanation: Straight-line over the 3-year service period: {@{900 ÷ 3 = 300 per year}@}; {@{revenue is earned only during the service-type period (after assurance-type warranty has expired)}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -318,7 +338,9 @@ Representative journal entry examples:
 > | {@{Unearned warranty revenue}@} | {@{600}@} | |
 > | {@{Warranty revenue}@} | | {@{600}@} |
 >
-> _Explanation._ This is weird on purpose: the company recognizes {@{the rest of the revenue not because it performed more service}@}, but because the customer has {@{given up the remaining contractual right to receive it}@}.
+> ---
+>
+> - explanation: This is weird on purpose: the company recognizes {@{the rest of the revenue not because it performed more service}@}, but because the customer has {@{given up the remaining contractual right to receive it}@}.
 
 ---
 
@@ -374,7 +396,9 @@ Representative journal entry examples:
 > | {@{Premium liability}@}                 | {@{1}@} |         |
 > | {@{Inventory of premiums}@}             |         | {@{2}@} |
 >
-> _Explanation._ Cash {@{1 offsets part of the bowl's carrying amount of 2}@}; the remaining {@{1 net cost is absorbed by reducing Premium liability}@}. Redemption therefore uses the existing provision instead of recording a fresh premium expense for the same obligation.
+> ---
+>
+> - explanation: Cash {@{1 offsets part of the bowl's carrying amount of 2}@}; the remaining {@{1 net cost is absorbed by reducing Premium liability}@}. {@{Redemption therefore uses the existing provision}@} instead of {@{recording a fresh premium expense for the same obligation}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -407,7 +431,9 @@ Representative journal entry examples:
 > | {@{Premium liability}@}                   | {@{5&nbsp;000}@} |                  |
 > | {@{Premium revenue (or Other income)}@}   |                  | {@{5&nbsp;000}@} |
 >
-> _Explanation._ This is different from a mere {@{change in estimate}@}: the rights have {@{actually expired}@}, so the obligation is extinguished and the remaining balance can be {@{transferred to income}@}.
+> ---
+>
+> - explanation: This is different from a mere {@{change in estimate}@}: {@{the rights have actually expired}@}, so {@{the obligation is extinguished}@} and the remaining balance can be {@{transferred to income}@}.
 
 ---
 
@@ -529,7 +555,9 @@ Representative journal entry example:
 > | {@{Oil platform (PPE) — ARO component}@}        | {@{75&nbsp;131}@} |                   |
 > | {@{Environmental liability (ARO)}@}             |                   | {@{75&nbsp;131}@} |
 >
-> _Explanation._ The additional capitalized cost {@{75&nbsp;131}@} is depreciated over the __remaining__ {@{3 years}@}: {@{25&nbsp;044 per year}@}. The liability accretes from its new carrying amount to the revised expected settlement amount of {@{1&nbsp;100&nbsp;000}@} over the remaining 3 years.
+> ---
+>
+> - explanation: The additional capitalized cost {@{75&nbsp;131}@} is depreciated over the {@{remaining 3 years}@}: {@{25&nbsp;044 per year}@}. The liability {@{accretes from its new carrying amount}@} to the revised expected settlement amount of {@{1&nbsp;100&nbsp;000}@} over {@{the remaining 3 years}@}.
 
 ---
 
@@ -605,7 +633,9 @@ Representative journal entry example:
 > | {@{Restructuring expense}@}             | {@{500 000}@} |               |
 > | {@{Restructuring liability}@}           |               | {@{500 000}@} |
 >
-> _Explanation._ The provision includes only {@{direct, traceable exit costs that become unavoidable once the restructuring plan creates a present obligation}@}. Costs such as {@{training, relocation of retained staff, marketing, or new systems for the new setup}@} are excluded because they are {@{costs of the future project / future operations, not costs of exiting the old structure}@}.
+> ---
+>
+> - explanation: The provision includes only {@{direct, traceable exit costs that become unavoidable once the restructuring plan creates a present obligation}@}. Costs such as {@{training, relocation of retained staff, marketing, or new systems for the new setup}@} are excluded because they are {@{costs of the future project / future operations, not costs of exiting the old structure}@}.
 
 ---
 
