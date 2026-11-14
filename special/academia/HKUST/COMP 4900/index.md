@@ -146,14 +146,14 @@ COMP 4900 is a zero-credit academic and professional development course required
 - datetime: 2026-09-23T18:00:00+08:00/2026-09-23T19:00:00+08:00, PT1H
 - venue: LTA
 - topic: job search and CV writing
-- status: optional
+- status: optional; attended
 
 ### 2026 fall week 5 tutorial 1
 
 - datetime: 2026-09-30T18:00:00+08:00/2026-09-30T19:00:00+08:00, PT1H
 - venue: LTA
 - topic: HKEX
-- status: optional
+- status: optional; attended
 
 ### 2026 fall week 6 tutorial 1
 

@@ -124,7 +124,7 @@ tags:
 > 4. if the markets where the goods are trading are competitive.
 >
 > - solution: {@{4}@}
-> - explanation: {@{For 3, if arbitrage exists, this likely means there are some barriers preventing the arbitrage from being eliminated by itself, so the market is not competitive.}@}
+> - explanation: For 3, if {@{arbitrage exists}@}, this likely means {@{there are some barriers preventing the arbitrage from being eliminated by itself}@}, so {@{the market is not competitive}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -199,7 +199,7 @@ tags:
 > 2. no
 >
 > - solution: {@{2}@}
-> - explanation: {@{The price, when evaluated at any time, is always the same. However, the price represents the present value at the _time of evaluation_, so this means...}@}
+> - explanation: The price, when {@{evaluated at any time, is always the same}@}. However, the price represents {@{the present value at the _time of evaluation_}@}, so this means...
 
 <!-- markdownlint MD028 -->
 
@@ -209,7 +209,7 @@ tags:
 > 2. PV of an annuity due
 >
 > - solution: {@{2}@}
-> - explanation: {@{Compare the two annuities. The latter is simply the former, but with all cash flows moving backward in time by 1 period.}@}
+> - explanation: Compare {@{the two annuities}@}. The latter is {@{simply the former}@}, but with {@{all cash flows moving backward in time by 1 period}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -436,7 +436,7 @@ tags:
 > 4. neither
 >
 > - solution: {@{1}@}
-> - annotation: {@{If you accidentally subtract from the project B \(smaller\) the project A \(larger\), you still get the same incremental IRR. <p> This does not mean you should accept the "alternative" project, project B. It still means you should accept project A. Consider the cash flows you obtained by subtracting in the wrong direction. It becomes a loan/delayed investment, so the IRR decision rule is reversed.}@}
+> - annotation: If you accidentally {@{subtract from the project B \(smaller\) the project A \(larger\)}@}, you still get {@{the same incremental IRR}@}. <p> This does not mean {@{you should accept the "alternative" project, project B}@}. It still means {@{you should accept project A}@}. Consider {@{the cash flows you obtained by subtracting in the wrong direction}@}. It becomes {@{a loan/delayed investment}@}, so {@{the IRR decision rule is reversed}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -632,7 +632,7 @@ tags:
 > 2. EBIT = incremental gross profit <br/> taxes = EBIT × corporate marginal tax rate <br/> incremental free cash flow = EBIT – taxes
 >
 > - solution: {@{1}@}
-> - annotation: {@{The method in 2 can be made correct if the depreciation tax shield is added back at the end. That is, adding \(depreciation × corporate marginal tax rate\).}@}
+> - annotation: The method in 2 {@{can be made correct}@} if {@{the depreciation tax shield is added back at the end}@}. That is, {@{adding \(depreciation × corporate marginal tax rate\)}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -721,7 +721,7 @@ tags:
 > 5. \$0
 >
 > - solution: {@{3}@}
-> - annotation: {@{What if the alternative option \(if not reused in a new project\) is to leave the equipment to be depreciated \(i.e. assume that no firms want to buy it\)? In that case, the initial cost is \$0. Additionally, you need to be careful when handling the depreciation of that asset for the new project. The principle is that you should compare the cash flows between taking and not taking the project.}@}
+> - annotation: What if {@{the alternative option \(if not reused in a new project\)}@} is {@{to leave the equipment to be depreciated}@} \(i.e. {@{assume that no firms want to buy it}@}\)? In that case, {@{the initial cost is \$0}@}. Additionally, you need to be {@{careful when handling the depreciation of that asset for the new project}@}. The principle is that {@{you should compare the cash flows between taking and not taking the project}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -1186,7 +1186,7 @@ tags:
 > 2. stock B
 >
 > - solution: {@{2}@}
-> - explanation: {@{Even though its SD is higher, its correlation with the original stock is 0 compared to 1 for the other stock. The effect of lack of correlation \(should\) outweighs that of higher SD.}@}
+> - explanation: Even though {@{its SD is higher}@}, its correlation with the original stock is {@{0 compared to 1 for the other stock}@}. {@{The effect of lack of correlation}@} \(should\) {@{outweighs that of higher SD}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -1216,7 +1216,7 @@ tags:
 > 4. ρ = 1
 >
 > - solution: {@{3}@}
-> - annotation: {@{ρ=1 corresponds to the blue line. ρ=0 corresponds to the red line. <p> ρ=−1 does not correspond to any line. Two stocks are enough: simply take two stocks and hold them with equal weights, then volatility is 0.}@}
+> - annotation: ρ=1 corresponds to {@{the blue line}@}. ρ=0 corresponds to {@{the red line}@}. <p> ρ=−1 {@{does not correspond to any line}@}. Two stocks are enough: simply take {@{two stocks and hold them with equal weights}@}, then {@{volatility is 0}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -1304,7 +1304,7 @@ tags:
 > 2. SolarWinds
 >
 > - solution: {@{1}@}
-> - explanation: {@{Same expected return means they have the same price. \(Higher expected return means lower price.\) If we assume they are wrongly priced, then Rackspace is underpriced, SolarWinds is overpriced, or both. <p> Alternatively, if we assume they are correctly priced, then Rackspace has a higher risk-free return rate. <p> Both cases yield an arbitrage opportunity.}@}
+> - explanation: {@{Same expected return}@} means {@{they have the same price}@}. \({@{Higher expected return}@} means {@{lower price}@}.\) If we assume {@{they are wrongly priced}@}, then {@{Rackspace is underpriced, SolarWinds is overpriced, or both}@}. <p> Alternatively, if we assume {@{they are correctly priced}@}, then {@{Rackspace has a higher risk-free return rate}@}. <p> Both cases yield {@{an arbitrage opportunity}@}.
 
 <!-- markdownlint MD028 -->
 

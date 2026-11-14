@@ -486,7 +486,7 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}:
 > }
 > ```
 
-{@{The syntax in Rust}@} is {@{slightly different}@} but {@{the concept}@} remains {@{the same}@}—defining {@{a set of operations}@} that can be {@{implemented for many distinct types}@}.
+{@{The syntax in Rust}@} is {@{slightly different}@} but {@{the concept remains the same}@}—defining {@{a set of operations}@} that can be {@{implemented for many distinct types}@}.
 
 {@{Other functional and dependently-typed languages}@} are moving {@{toward a similar approach}@}.  {@{Agda, Lean, and soon OCaml}@} provide {@{general _contextual parameters_ or equivalent mechanisms}@} that allow {@{programmers to encode type-class-like behaviour}@} in a manner analogous to {@{Scala's `given` instances}@}.  {@{These systems}@} combine the expressiveness of {@{Haskell's type classes with Scala-style contextual resolution}@}, enabling {@{conditional polymorphism across a wide range of types}@}.
 
@@ -601,7 +601,7 @@ Another example is {@{an expression language}@} carrying {@{its own _environment
 >   case Prod(x, y: Expr)
 >   case Var(name: String)
 >   case Let(name: String, rhs: Expr, body: Expr)
-> 
+>
 > def eval(e: Expr): Int =
 >   def recur(e: Expr)(using env: Map[String, Int]): Int = e match
 >     case Number(n)            => n

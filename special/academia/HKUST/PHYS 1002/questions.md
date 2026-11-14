@@ -52,7 +52,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 3 hundred trillion years
 >
 > - solution: {@{5}@}
-> - explanation: {@{Given there are about 10<sup>22</sup> stars, divide it by the number of seconds in a year: $$\frac {10^{22} } {86400 \times 365} \approx 3.17 \times 10^{14}\text{ years}$$ to get about 300 trillion (300 × 10<sup>12</sup>) years.}@}
+> - explanation: Given {@{there are about 10<sup>22</sup> stars}@}, divide it by {@{the number of seconds in a year: $$\frac {10^{22} } {86400 \times 365} \approx 3.17 \times 10^{14}\text{ years}$$}@} to get about {@{300 trillion (300 × 10<sup>12</sup>) years}@}.
 
 ## 2024-06-27
 
@@ -77,7 +77,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 3/2 sidereal days
 >
 > - solution: {@{2}@}
-> - explanation: {@{The planet is in prograde motion. Hence, the number of solar days per orbital period is $6 - 1 = 5\text{ solar days}$. Thus each solar day is $\frac {1 / 5} {1 / 6} = \frac 6 5\text{ sidereal days}$.}@}
+> - explanation: The planet is {@{in prograde motion}@}. Hence, the number of {@{solar days per orbital period is $6 - 1 = 5\text{ solar days}$}@}. Thus each {@{solar day is $\frac {1 / 5} {1 / 6} = \frac 6 5\text{ sidereal days}$}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -103,7 +103,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 6. 44/43 solar days
 >
 > - solution: {@{3}@}
-> - explanation: {@{The planet is in retrograde motion. Hence, the number of sidereal days per orbital period is $42 - 1 = 41\text{ sidereal days}$. Thus each sidereal day is $\frac {1 / 41} {1 / 42} = \frac {42} {41}\text{ solar days}$.}@}
+> - explanation: The planet is {@{in retrograde motion}@}. Hence, the number of {@{sidereal days per orbital period is $42 - 1 = 41\text{ sidereal days}$}@}. Thus each {@{sidereal day is $\frac {1 / 41} {1 / 42} = \frac {42} {41}\text{ solar days}$}@}.
 
 ## 2024-07-02
 
@@ -181,7 +181,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 3 hours
 >
 > - solution: {@{3}@}
-> - explanation: {@{Recall that the moonrise time corresponds to the lunar phase cycle. As the cycle resets every 29.5 days, the moonrise time also resets 29.5 days. A moonrise time "reset" happens when the moon rises later by a cumulative time of 1 day. Thus the answer is: $$\frac {24} {29.5} \approx 0.813\,559\,322 \approx 1\text{ hour}$$.}@}
+> - explanation: Recall that {@{the moonrise time corresponds to the lunar phase cycle}@}. As the cycle resets {@{every 29.5 days}@}, {@{the moonrise time also resets 29.5 days}@}. A moonrise time "reset" {@{happens when the moon rises later by a cumulative time of 1 day}@}. Thus {@{the answer is: $$\frac {24} {29.5} \approx 0.813\,559\,322 \approx 1\text{ hour}\,.$$}@}
 
 <!-- markdownlint MD028 -->
 
@@ -194,7 +194,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 366 days
 >
 > - solution: {@{4}@}
-> - explanation: {@{Recall that the eclipse season depends on the line of lunar nodes. Consider that the lunar nodes rotates retrograde (clockwise) once about 18.6 years. The answer is: $$\frac {365.25} {18.6} \approx 19.637\,0967 \approx 20\text{ days}$$.}@}
+> - explanation: Recall that {@{the eclipse season depends on the line of lunar nodes}@}. Consider that {@{the lunar nodes rotates retrograde (clockwise) once about 18.6 years}@}. The answer is: {@{$$\frac {365.25} {18.6} \approx 19.637\,0967 \approx 20\text{ days}\,.$$}@} <!-- check: ignore-line[answer_formula_alone]: the frame 'The answer is:' names the display result -->
 
 ## 2024-07-09
 
@@ -207,7 +207,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. proportional to r
 >
 > - solution: {@{2}@}
-> - explanation: {@{The orbital period $p$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital velocity (speed) $v$ relates to angular orbital velocity by $v = r \omega \implies \omega = v / r$. Therefore, $$p^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r^2 / v^2 \propto r^3 \implies r^{-1} \propto v^2 \implies v \propto r^{-1 / 2}$$. Therefore the answer is $v \propto r^{-1 / 2}$.}@}
+> - explanation: The orbital period $p$ is {@{proportional to the inverse of angular orbital velocity $1 / \omega$}@}. Further, {@{linear orbital velocity (speed) $v$}@} relates to {@{angular orbital velocity}@} by $v = r \omega \implies \omega = v / r$. Therefore, manipulating proportionality, we have {@{$$p^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r^2 / v^2 \propto r^3 \implies r^{-1} \propto v^2 \implies v \propto r^{-1 / 2}\,.$$}@} Therefore the answer is {@{$v \propto r^{-1 / 2}$}@}. <!-- check: ignore-line[answer_formula_alone]: the frame 'Therefore the answer is' names the relation restated above -->
 
 <!-- markdownlint MD028 -->
 
@@ -220,7 +220,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. proportional to $r^2$
 >
 > - solution: {@{1}@}
-> - explanation: {@{The orbital period $T$ is proportional to the inverse of angular orbital velocity $1 / \omega$. Further, linear orbital acceleration $A$ relates to angular orbital velocity by $A = r \omega^2 \implies \omega^2 = A / r$. Therefore, $$T^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r / A \propto r^3 \implies r^{-2} \propto A \implies A \propto r^{-2}$$. Therefore the answer is $A \propto r^{-2}$.}@}
+> - explanation: The orbital period $T$ is {@{proportional to the inverse of angular orbital velocity $1 / \omega$}@}. Further, {@{linear orbital acceleration $A$}@} relates to {@{angular orbital velocity}@} by $A = r \omega^2 \implies \omega^2 = A / r$. Therefore, manipulating proportionality, we have {@{$$T^2 \propto r^3 \implies \omega^{-2} \propto r^3 \implies r / A \propto r^3 \implies r^{-2} \propto A \implies A \propto r^{-2}\,.$$}@} Therefore the answer is {@{$A \propto r^{-2}$}@}. <!-- check: ignore-line[answer_formula_alone]: the frame 'Therefore the answer is' names the relation restated above -->
 
 ## 2024-07-11
 
@@ -261,7 +261,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 11 km/s
 >
 > - solution: {@{2}@}
-> - explanation: {@{Recall that the acceleration due to gravity is inversely proportional to the square of distance: $g \propto \frac 1 {r^2}$. Therefore, the acceleration due to gravity 400 km above the surface is: $$g = 9.8 \cdot \frac {6400^2} {6800^2} \approx 8.68096886\text{ m/s}$$. Now, equate circular acceleration to gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$. Plug in the numbers: $$v = \sqrt{\frac {8.68096886} {1000} \cdot 6800} \approx 7.6831366\text{ km/s}$$. Therefore, the answer is 7.7 km/s.}@}
+> - explanation: Recall that {@{the acceleration due to gravity is inversely proportional to the square of distance}@}: $g \propto \frac 1 {r^2}$. Therefore, {@{the acceleration due to gravity 400 km above the surface is: $$g = 9.8 \cdot \frac {6400^2} {6800^2} \approx 8.68096886\text{ m/s}$$}@}. Now, equate {@{circular acceleration}@} to {@{gravitational acceleration: $$a = g \implies \frac {v^2} r = g \implies v^2 = gr \implies v = \sqrt{gr}$$}@}. Plug in {@{the numbers: $$v = \sqrt{\frac {8.68096886} {1000} \cdot 6800} \approx 7.6831366\text{ km/s}$$}@}. Therefore, the answer is {@{7.7 km/s}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -274,7 +274,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 1 trillion years
 >
 > - solution: {@{3}@}
-> - explanation: {@{Apply Albert Einstein's famous formula: $$E = mc^2$$. Calculate the total emitted energy over the Sun's lifetime: $$E = 2 \times 10^{30} \cdot 0.001 \cdot (3 \times 10^8)^2 = 1.8 \times 10^{44}\text{ J}$$. Then calculate the Sun's lifetime by dividing it by the power of the Sun: $$t = \frac {1.8 \times 10^{44} } {3.8 \times 10^{26} } \approx 4.73684211 \times 10^{17}\text{ s} \approx 1.5010468 \times 10^{10}\text{ yrs} \approx 15\text{ billion years}$$. Therefore, the answer is 10 billion years.}@}
+> - explanation: Apply {@{Albert Einstein's famous formula: $$E = mc^2$$}@}. Calculate {@{the total emitted energy over the Sun's lifetime: $$E = 2 \times 10^{30} \cdot 0.001 \cdot (3 \times 10^8)^2 = 1.8 \times 10^{44}\text{ J}$$}@}. Then calculate {@{the Sun's lifetime}@} by dividing it by {@{the power of the Sun: $$t = \frac {1.8 \times 10^{44} } {3.8 \times 10^{26} } \approx 4.73684211 \times 10^{17}\text{ s} \approx 1.5010468 \times 10^{10}\text{ yrs} \approx 15\text{ billion years}$$}@}. Therefore, the answer is {@{10 billion years}@}.
 
 ## 2024-07-16
 
@@ -288,7 +288,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. blue in color
 >
 > - solution: {@{2}@}
-> - explanation: {@{Consider the graph of spectral radiance for that star, which peaks at 530 nm. It should look like a hill with somewhat narrow peak. However, the narrow peak should cover the entire visible spectrum. As the spectral radiance is approximately even around the peak, that means it is approximately even over the entire visible spectrum, so the color is white.}@}
+> - explanation: Consider {@{the graph of spectral radiance for that star}@}, which peaks at {@{530 nm}@}. It should look like {@{a hill with somewhat narrow peak}@}. However, {@{the narrow peak}@} should cover {@{the entire visible spectrum}@}. As {@{the spectral radiance is approximately even around the peak}@}, that means it is {@{approximately even over the entire visible spectrum}@}, so the color is {@{white}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -301,7 +301,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. purple (not violet)
 >
 > - solution: {@{5}@}
-> - explanation: {@{Purple is the combination of red and blue. However, red and blue are on the two opposite ends of the visible spectrum, so the spectral radiance graph would need to have 2 peaks. This is impossible for thermal radiation to produce, as predicted by the Wien approximation. For more, see [Planckian locus](../../../../general/Planckian%20locus.md).}@}
+> - explanation: Purple is {@{the combination of red and blue}@}. However, {@{red and blue are on the two opposite ends of the visible spectrum}@}, so {@{the spectral radiance graph}@} would need to have {@{2 peaks}@}. This is {@{impossible for thermal radiation to produce}@}, as predicted by {@{the Wien approximation}@}. For more, see {@{[Planckian locus](../../../../general/Planckian%20locus.md)}@}.
 
 ## 2024-07-18
 
@@ -315,7 +315,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 6. No width broadening but blue-shifted.
 >
 > - solution: {@{1}@}
-> - explanation: {@{First, the star is not moving, so the spectral line should be unshifted. Now consider the surface of a very fast rotating star. In particular, consider the left and right sides of the rotating star. The surface of one side is approaching us very quickly, and that of the other side is moving away from us very quickly as well. This would mean part of the light from the star is blue-shifted and another part is red-shifted. The result is that the spectral line broadens.}@}
+> - explanation: First, {@{the star is not moving}@}, so the spectral line should be {@{unshifted}@}. Now consider {@{the surface of a very fast rotating star}@}. In particular, consider {@{the left and right sides of the rotating star}@}. The surface of one side is {@{approaching us very quickly}@}, and that of the other side is {@{moving away from us very quickly as well}@}. This would mean {@{part of the light from the star is blue-shifted}@} and {@{another part is red-shifted}@}. The result is that {@{the spectral line broadens}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -329,7 +329,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 6. almost no shift for both stars
 >
 > - solution: {@{6}@}
-> - explanation: {@{When the system is dimmer than what it normally is, it implies one star is in front of the other star. Consider that both stars are always opposite in their orbits. So the stars must be in the part of the orbit closest to or farthest from Earth (this is true for circular orbits, but gets less true the more elliptic the orbits are). That means both stars are moving mostly transversal to Earth, taking into consideration that the system as a whole is not moving. So there should be almost no Doppler shift.}@}
+> - explanation: When {@{the system is dimmer than what it normally is}@}, it implies {@{one star is in front of the other star}@}. Consider that {@{both stars are always opposite in their orbits}@}. So the stars must be in {@{the part of the orbit closest to or farthest from Earth}@} ({@{this is true for circular orbits}@}, but {@{gets less true the more elliptic the orbits are}@}). That means {@{both stars are moving mostly transversal to Earth}@}, taking into consideration that {@{the system as a whole is not moving}@}. So there should be {@{almost no Doppler shift}@}.
 
 ## 2024-07-23
 
@@ -342,7 +342,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 4.92 W/m^2
 >
 > - solution: {@{2}@}
-> - explanation: {@{Since both magnitudes are apparent, they are already directly describing the power of light per unit area reaching Earth, so we do not need to consider distance. Calculate the factor of the Moon's intensity over the Sun using the definition: $$f = 100^{-(-12.74 - (-26.832)) / 5} = 100^{-14.092 / 5} = 100^{-2.8184} \approx 2.30780973 \times 10^{-6}$$. Then multiply the solar constant by the factor to get the answer: $$I = 1370 \cdot 2.30780973 \times 10^{-6} \approx 0.0031616993~\mathrm{W/m^2}$$. So the answer is 0.00316 W/m<sup>2</sup>,}@}
+> - explanation: Since {@{both magnitudes are apparent}@}, they are {@{already directly describing the power of light per unit area reaching Earth}@}, so we do not need to {@{consider distance}@}. Calculate {@{the factor of the Moon's intensity over the Sun}@} using {@{the definition: $$f = 100^{-(-12.74 - (-26.832)) / 5} = 100^{-14.092 / 5} = 100^{-2.8184} \approx 2.30780973 \times 10^{-6}$$}@}. Then multiply {@{the solar constant by the factor}@} to get {@{the answer: $$I = 1370 \cdot 2.30780973 \times 10^{-6} \approx 0.0031616993~\mathrm{W/m^2}$$}@}. So the answer is {@{0.00316 W/m<sup>2</sup>}@},
 
 <!-- markdownlint MD028 -->
 
@@ -355,7 +355,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 2500&nbsp;000 km
 >
 > - solution: {@{2}@}
-> - explanation: {@{Using the Rayleigh criterion, the angular resolution in radians is $$\theta = 1.22 \frac {500 \times 10^{-9} } {3 \times 10^{-3} } \approx 0.000203333333~\mathrm{rad}$$. Setup a trigonometric equation: $$\tan (\theta / 2) = \frac {5 / 2} d$$, where $d$ is the distance to the Great Wall (in meters). Since the angle is small, we can use small angle approximation to save work: $$\theta / 2 \approx \frac {5 / 2} d \implies \theta \approx \frac 5 d \implies d \approx \frac 5 \theta = \frac 5 {0.000203333333} \approx 24590.16~\mathrm{m} \approx 24.6~\mathrm{km}$$. So the answer is 25 km.}@}
+> - explanation: Using {@{the Rayleigh criterion}@}, {@{the angular resolution in radians is $$\theta = 1.22 \frac {500 \times 10^{-9} } {3 \times 10^{-3} } \approx 0.000203333333~\mathrm{rad}$$}@}. Setup {@{a trigonometric equation: $$\tan (\theta / 2) = \frac {5 / 2} d$$}@}, where $d$ is {@{the distance to the Great Wall (in meters)}@}. Since {@{the angle is small}@}, we can use {@{small angle approximation}@} to save {@{work: $$\theta / 2 \approx \frac {5 / 2} d \implies \theta \approx \frac 5 d \implies d \approx \frac 5 \theta = \frac 5 {0.000203333333} \approx 24590.16~\mathrm{m} \approx 24.6~\mathrm{km}$$}@}. So the answer is {@{25 km}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -373,7 +373,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 10^7 L_Sun
 >
 > - solution: {@{1}@}
-> - explanation: Notice that {@{$C$ is not given for two cases}@}. So the main problem is {@{calculating $C$}@}. The main thing to realize is that we expect {@{for masses in the boundary points between two equations, the two equations should predict the same value}@}, i.e. {@{a continuous function}@}. We only need {@{the $C$ for the third case}@}: {@{$$55^{3.5} = C \cdot 55^1 \implies C = 55^{2.5} \approx 22434.0004 \,.$$}@} Then the rest is a simple matter of {@{applying the formula}@}: {@{$$L = 22434.0004 \cdot 100^1 \approx 2.24 \times 10^6~\mathrm{solar\ luminosity} \,.$$}@} So the answer is {@{2×10<sup>6</sup> L<sub>Sun</sub>}@}.
+> - explanation: Notice that {@{$C$ is not given for two cases}@}. So the main problem is {@{calculating $C$}@}. The main thing to realize is that we expect {@{for masses in the boundary points between two equations, the two equations should predict the same value}@}, i.e. {@{a continuous function}@}. We only need {@{the $C$ for the third case: $$55^{3.5} = C \cdot 55^1 \implies C = 55^{2.5} \approx 22434.0004 \,.$$}@} Then the rest is {@{a simple matter of applying the formula: $$L = 22434.0004 \cdot 100^1 \approx 2.24 \times 10^6~\mathrm{solar\ luminosity} \,.$$}@} So the answer is {@{2×10<sup>6</sup> L<sub>Sun</sub>}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -385,7 +385,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 4. 24 AU
 >
 > - solution: {@{3}@}
-> - explanation: {@{Find the factor the Sun needs to be dimmer to have an apparent magnitude of 1.98: $$f_B = 100^{-\frac {1.98 - (-26.832)} 5} = 100^{-5.7624} \approx 2.98675776 \times 10^{-12}$$. As the apparent brightness is inversely proportional to the square of distance, the factor the Sun needs to be farther away is $$f_d = 1 / \sqrt{2.98675776 \times 10^{-12} } \approx 578628.74$$. As the Sun is 1 AU away, the answer is about 5.8×10<sup>5</sup> AU.}@}
+> - explanation: Find {@{the factor the Sun needs to be dimmer}@} to have {@{an apparent magnitude of 1.98: $$f_B = 100^{-\frac {1.98 - (-26.832)} 5} = 100^{-5.7624} \approx 2.98675776 \times 10^{-12}$$}@}. As {@{the apparent brightness is inversely proportional to the square of distance}@}, {@{the factor the Sun needs to be farther away is $$f_d = 1 / \sqrt{2.98675776 \times 10^{-12} } \approx 578628.74$$}@}. As the Sun is {@{1 AU}@} away, the answer is {@{about 5.8×10<sup>5</sup> AU}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -401,7 +401,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 8. 1.5 m
 >
 > - solution: {@{1}@}
-> - explanation: {@{To have a maximum error of 0.5 km, the measurement interval is twice that: 1 km (primary school things). Calculate the angular size of 1 km from 1 AU away, using the small angle approximation: $$\theta \approx \frac {1000} {149\,597\,870\,700} \approx 6.68458712 \times 10^{-9}$$. This is the angular resolution required. Calculate the minimum aperture required using the Rayleigh criterion: $$\theta \approx 1.22 \frac \lambda D \implies D \approx 1.22 \frac \lambda \theta = 1.22 \frac {500 \times 10^{-9} } {6.68458712 \times 10^{-9} } \approx 91.254701~\mathrm{m}$$. So the answer is 90 m. That is a giant telescope indeed.}@}
+> - explanation: To have {@{a maximum error of 0.5 km}@}, {@{the measurement interval is twice that: 1 km}@} ({@{primary school things}@}). Calculate {@{the angular size of 1 km from 1 AU away}@}, using {@{the small angle approximation: $$\theta \approx \frac {1000} {149\,597\,870\,700} \approx 6.68458712 \times 10^{-9}$$}@}. This is {@{the angular resolution required}@}. Calculate {@{the minimum aperture required}@} using {@{the Rayleigh criterion: $$\theta \approx 1.22 \frac \lambda D \implies D \approx 1.22 \frac \lambda \theta = 1.22 \frac {500 \times 10^{-9} } {6.68458712 \times 10^{-9} } \approx 91.254701~\mathrm{m}$$}@}. So {@{the answer is 90 m}@}. That is {@{a giant telescope indeed}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -414,7 +414,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 5400 solar masses
 >
 > - solution: {@{4}@}
-> - explanation: {@{Assuming the fuel burnt is proportional to luminosity. Then, the lifetime of a star is: $$\tau = M / L \propto M^{-3}$$. Derive the proportionality between mass and luminosity: $$M / L \propto M^{-3} \implies M^4 \propto L \implies M \propto L^{0.25}$$. So the star mass is predicted to be: $$(2147\,483\,647)^{0.25} \approx 215.269482~\mathrm{solar\ masses}$$. So the answer is 220 solar masses.}@}
+> - explanation: Assuming {@{the fuel burnt is proportional to luminosity}@}. Then, {@{the lifetime of a star is: $$\tau = M / L \propto M^{-3}$$}@}. Derive {@{the proportionality between mass and luminosity: $$M / L \propto M^{-3} \implies M^4 \propto L \implies M \propto L^{0.25}$$}@}. So {@{the star mass is predicted to be: $$(2147\,483\,647)^{0.25} \approx 215.269482~\mathrm{solar\ masses}$$}@}. So the answer is {@{220 solar masses}@}.
 
 ## 2024-07-25
 
@@ -516,7 +516,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 10^14 solar masses
 >
 > - solution: {@{4}@}
-> - explanation: {@{Apply the orbital velocity equation: $$M = \frac {rv^2} G = \frac {100\,000 \cdot 9460\,730\,472\,580\,800 \cdot \left(400 \times 10^{3} \right)^2 } {\cdot 6.674\,30 \times 10^{-11} } \approx 2.26797848e42~\mathrm{kg} \approx \frac {2.26797848 \times 10^{42} } {1.9885 \times 10^{30} }~\mathrm{solar\ masses} \approx 1.1405474 \times 10^{12}~\mathrm{solar\ masses}$$. So the answer is 10^12 solar masses. Alternatively, one can use the proportionality relation $$M \propto rv^2$$, but one needs to recall that the Sun is ~26&nbsp;000 ly (~8 kpc) away from the center and has a galactic orbital velocity of ~230 km/s.}@}
+> - explanation: Apply {@{the orbital velocity equation: $$M = \frac {rv^2} G = \frac {100\,000 \cdot 9460\,730\,472\,580\,800 \cdot \left(400 \times 10^{3} \right)^2 } {\cdot 6.674\,30 \times 10^{-11} } \approx 2.26797848e42~\mathrm{kg} \approx \frac {2.26797848 \times 10^{42} } {1.9885 \times 10^{30} }~\mathrm{solar\ masses} \approx 1.1405474 \times 10^{12}~\mathrm{solar\ masses}$$}@}. So the answer is {@{10^12 solar masses}@}. Alternatively, {@{one can use the proportionality relation $$M \propto rv^2$$}@}, but one needs to recall that {@{the Sun is ~26&nbsp;000 ly (~8 kpc) away from the center}@} and has {@{a galactic orbital velocity of ~230 km/s}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -537,7 +537,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 0.001 times
 >
 > - solution: {@{1}@}
-> - explanation: {@{The typical radius of a white dwarf is not given. However, consider the energy exploded: $$E = \frac {GM^2} {10 \times 10^3} - \frac {GM^2} x = GM^2 \left(\frac 1 {10 \times 10^3} - \frac 1 x\right)$$, where $x$ is the typical radius of a white dwarf. One would realize, given that $x \ge 1000 \times 10^3$, since $x \gg 10 \times 10^3$, so $$\frac 1 {10 \times 10^3} - \frac 1 x \approx \frac 1 {10 \times 10^3}$$, which is a good enough approximation for this question. So, using the above approximation, calculate the energy released: $$E = \frac {GM^2} {10 \times 10^3} = \frac {6.674\,30 \times 10^{-11} \cdot \left( 2 \cdot 1.9885 \times 10^{30} \right)^2} {10 \times 10^3} \approx 1.055\,6426 \times 10^{47}~\mathrm{J} \,.$$ Then, calculate the energy released by the Sun over its lifetime: $$E_\odot = (3.828 \times 10^{26}) \cdot (10 \times 10^9) \cdot 365.25 \times 86\,400 \approx 1.208\,024\,93 \times 10^{44}~\mathrm{J} \,.$$ Now divide the first number by the second number to get the answer: $$\frac E {E_\odot} = \frac {1.055\,6426 \times 10^{47} } {1.208\,024\,93 \times 10^{44} } \approx 873.8583 \,.$$ So the answer is 1000 times.}@}
+> - explanation: The typical {@{radius of a white dwarf}@} is not given. However, consider {@{the energy exploded: $$E = \frac {GM^2} {10 \times 10^3} - \frac {GM^2} x = GM^2 \left(\frac 1 {10 \times 10^3} - \frac 1 x\right)$$}@}, where $x$ is {@{the typical radius of a white dwarf}@}. One would realize, {@{given that $x \ge 1000 \times 10^3$}@}, {@{since $x \gg 10 \times 10^3$}@}, {@{so $$\frac 1 {10 \times 10^3} - \frac 1 x \approx \frac 1 {10 \times 10^3}$$}@}, which is {@{a good enough approximation for this question}@}. So, {@{using the above approximation}@}, calculate {@{the energy released: $$E = \frac {GM^2} {10 \times 10^3} = \frac {6.674\,30 \times 10^{-11} \cdot \left( 2 \cdot 1.9885 \times 10^{30} \right)^2} {10 \times 10^3} \approx 1.055\,6426 \times 10^{47}~\mathrm{J} \,.$$}@} Then, calculate {@{the energy released by the Sun over its lifetime: $$E_\odot = (3.828 \times 10^{26}) \cdot (10 \times 10^9) \cdot 365.25 \times 86\,400 \approx 1.208\,024\,93 \times 10^{44}~\mathrm{J} \,.$$}@} Now divide {@{the first number by the second number}@} to get {@{the answer: $$\frac E {E_\odot} = \frac {1.055\,6426 \times 10^{47} } {1.208\,024\,93 \times 10^{44} } \approx 873.8583 \,.$$}@} So the answer is {@{1000 times}@}.
 
 ## 2024-08-06
 
@@ -562,7 +562,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 240000 pc
 >
 > - solution: {@{3}@}
-> - explanation: {@{If the period of a Cepheid variable is 10 days, according to the (average) luminosity—period log graph, it has a luminosity of 3000 solar luminosities. Find the absolute magnitude $M$ of the Cepheid variable: $$M = 4.83 - 5 \log_{100} 3000 \approx -3.86280314$$. Then apply the m & M equation to find its distance: $$d = 10^{\frac {m - M + 5} 5} = 10^{\frac {8 - (-3.86280314) + 5} 5} = 10^{3.372560628} \approx 2358.0913~\mathrm{pc}$$. So the answer is 2400 pc.}@}
+> - explanation: If {@{the period of a Cepheid variable is 10 days}@}, according to {@{the (average) luminosity—period log graph}@}, it has {@{a luminosity of 3000 solar luminosities}@}. Find {@{the absolute magnitude $M$ of the Cepheid variable: $$M = 4.83 - 5 \log_{100} 3000 \approx -3.86280314$$}@}. Then apply {@{the m & M equation}@} to find {@{its distance: $$d = 10^{\frac {m - M + 5} 5} = 10^{\frac {8 - (-3.86280314) + 5} 5} = 10^{3.372560628} \approx 2358.0913~\mathrm{pc}$$}@}. So the answer is {@{2400 pc}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -575,7 +575,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 27 Gpc
 >
 > - solution: {@{4}@}
-> - explanation: {@{70% the speed of light (~300&nbsp;000 km/s) is approximately 210&nbsp;000 km/s. Divide this by the Hubble's constant: $$\frac {210\,000~\mathrm{km/s} } {64~\mathrm{(km/s)/Mpc} } = 3281.25~\mathrm{Mpc} = 3.28125~\mathrm{Gpc}$$. So the answer is 3.3 Gpc.}@}
+> - explanation: 70% {@{the speed of light (~300&nbsp;000 km/s)}@} is {@{approximately 210&nbsp;000 km/s}@}. Divide this by {@{the Hubble's constant: $$\frac {210\,000~\mathrm{km/s} } {64~\mathrm{(km/s)/Mpc} } = 3281.25~\mathrm{Mpc} = 3.28125~\mathrm{Gpc}$$}@}. So the answer is {@{3.3 Gpc}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -618,7 +618,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. E
 >
 > - solution: {@{5}@}
-> - explanation: {@{White dwarfs have very high surface temperature and are very small. So they have low luminosity. E matches this description. So the answer is E. (Note that the graph is similar to a horizontally flipped Hertzsprung-Russell diagram.)}@}
+> - explanation: White dwarfs have {@{very high surface temperature}@} and are {@{very small}@}. So they have {@{low luminosity}@}. E {@{matches this description}@}. So {@{the answer is E}@}. (Note that the graph is {@{similar to a horizontally flipped Hertzsprung-Russell diagram}@}.)
 
 <!-- markdownlint MD028 -->
 
@@ -631,7 +631,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 1 sidereal day
 >
 > - solution: {@{3}@}
-> - explanation: {@{The planet is in retrograde motion. Hence, the number of solar days per orbital period is $10 + 1 = 11~\mathrm{solar\ days}$. Thus each solar day is $\frac {1 / 11} {1 / 10} = \frac {10} {11}~\mathrm{sidereal\ days}$.}@}
+> - explanation: The planet is {@{in retrograde motion}@}. Hence, the number of {@{solar days per orbital period is $10 + 1 = 11~\mathrm{solar\ days}$}@}. Thus each {@{solar day is $\frac {1 / 11} {1 / 10} = \frac {10} {11}~\mathrm{sidereal\ days}$}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -652,7 +652,7 @@ Marking is done as follows. iPRS and MCQ questions are considered separately. Fo
 > 5. 26&nbsp;000 years
 >
 > - solution: {@{3}@}
-> - explanation: {@{This is analogous to a planet orbiting a parent star in retrograde motion. To find the answer: $$\frac 1 {T_{\mathrm{orb} } } + \frac 1 {T_{\mathrm{sid} } } = \frac 1 {T_{\mathrm{sol} } } \implies \frac 1 {T_{\mathrm{orb} } } = \frac 1 {T_{\mathrm{sol} } } - \frac 1 {T_{\mathrm{sid} } } \implies \frac 1 T = \frac 1 {41} - \frac 1 {42} \implies T = \frac 1 {\frac 1 {41} - \frac 1 {42} } = \frac 1 {\frac 1 {1722} } = 1722$$. So the answer is 1722 days. For a detailed explanation, see [SGQ on the tropical year § explanation](SGQ%20on%20the%20tropical%20year.md#explanation).}@}
+> - explanation: This is {@{analogous to a planet orbiting a parent star in retrograde motion}@}. To find {@{the answer: $$\frac 1 {T_{\mathrm{orb} } } + \frac 1 {T_{\mathrm{sid} } } = \frac 1 {T_{\mathrm{sol} } } \implies \frac 1 {T_{\mathrm{orb} } } = \frac 1 {T_{\mathrm{sol} } } - \frac 1 {T_{\mathrm{sid} } } \implies \frac 1 T = \frac 1 {41} - \frac 1 {42} \implies T = \frac 1 {\frac 1 {41} - \frac 1 {42} } = \frac 1 {\frac 1 {1722} } = 1722$$}@}. So the answer is {@{1722 days}@}. For a detailed explanation, see {@{[SGQ on the tropical year § explanation](SGQ%20on%20the%20tropical%20year.md#explanation)}@}.
 
 ## strip sequence questions
 

@@ -41,7 +41,7 @@ No additional details were added for this assignment.
 > 4. $2.4$
 >
 > - solution: {@{$2\text{ Ω}$}@}
-> - explanation: {@{The $12\ \Omega$ and $6\ \Omega$}@} are in {@{parallel ($4\ \Omega$)}@}, in {@{series with $2\ \Omega$ ($6\ \Omega$)}@}, then in {@{parallel with $3\ \Omega$}@}: {@{$R_{\text{eq}} = \frac{3 \times 6}{3 + 6} = 2\ \Omega$}@}.
+> - explanation: {@{The $12\ \Omega$ and $6\ \Omega$ are in parallel ($4\ \Omega$), in series with $2\ \Omega$ ($6\ \Omega$), then in parallel with $3\ \Omega$: $R_{\text{eq}} = \frac{3 \times 6}{3 + 6} = 2\ \Omega$.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -55,4 +55,4 @@ No additional details were added for this assignment.
 > 4. $2.4$
 >
 > - solution: {@{$1.2\text{ Ω}$}@}
-> - explanation: {@{The short-circuit line}@} bypasses {@{the $6\ \Omega$ and $12\ \Omega$ resistors}@}. The $3\ \Omega$ and $2\ \Omega$ are {@{in parallel}@}: {@{$R_{\text{eq}} = \frac{3 \times 2}{3 + 2} = 1.2\ \Omega$}@}.
+> - explanation: {@{The short-circuit line bypasses the $6\ \Omega$ and $12\ \Omega$ resistors. The $3\ \Omega$ and $2\ \Omega$ are in parallel: $R_{\text{eq}} = \frac{3 \times 2}{3 + 2} = 1.2\ \Omega$.}@}

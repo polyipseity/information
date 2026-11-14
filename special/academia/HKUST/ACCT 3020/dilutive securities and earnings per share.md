@@ -445,7 +445,7 @@ Flashcards for this section are as follows:
 > | {@{Liability under share-appreciation plan}@} | {@{5&nbsp;000}@} | |
 > | {@{Compensation expense}@} | | {@{5&nbsp;000}@} |
 >
-> _Explanation._ Liability-settled SARs are {@{remeasured each reporting period}@}, so compensation expense can move {@{up or down}@} before settlement.
+> _Explanation._ Liability-settled SARs are {@{remeasured each reporting period}@}, so compensation expense can {@{move up or down before settlement}@}.
 
 <!-- markdownlint MD028 -->
 

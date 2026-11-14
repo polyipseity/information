@@ -153,7 +153,7 @@ This page collects the in-class Mentimeter-style multiple-choice questions used 
 > - (C) can be either countable or not.
 >
 > - answer: {@{B}@}
-> - explanation: {@{By Cantor's theorem, the power set of any set has strictly larger cardinality than the set itself, so $\mathcal P(\Omega)$ is uncountable for countably infinite $\Omega$.}@}
+> - explanation: By Cantor's theorem, {@{the power set of any set has strictly larger cardinality than the set itself}@}, so {@{$\mathcal P(\Omega)$ is uncountable for countably infinite $\Omega$}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -165,7 +165,7 @@ This page collects the in-class Mentimeter-style multiple-choice questions used 
 > - (D) Neither is always true.
 >
 > - answer: {@{D}@}
-> - explanation: {@{A PMF can assign positive probability to all $k\in\mathbb N$ while keeping $p(k)\le 1/k$ for all but finitely many $k$, but neither (A) nor (B) is guaranteed in general.}@}
+> - explanation: A PMF can {@{assign positive probability to all $k\in\mathbb N$}@} while keeping {@{$p(k)\le 1/k$ for all but finitely many $k$}@}, but {@{neither (A) nor (B) is guaranteed in general}@}.
 
 ## session 7: Poisson approximation and transformations
 
@@ -176,7 +176,7 @@ This page collects the in-class Mentimeter-style multiple-choice questions used 
 > - (C) Both are correct.
 >
 > - answer: {@{C}@}
-> - explanation: {@{For large $n$ and small $p$, the Binomial $(n,p)$ is well approximated by Poisson $(np)$. Here $np=10$, so both the exact Binomial and the Poisson approximation are appropriate.}@}
+> - explanation: For large $n$ and small $p$, {@{the Binomial $(n,p)$ is well approximated by Poisson $(np)$}@}. Here $np=10$, so {@{both the exact Binomial and the Poisson approximation are appropriate}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -188,7 +188,7 @@ This page collects the in-class Mentimeter-style multiple-choice questions used 
 > - (D) Not Poisson-distributed.
 >
 > - answer: {@{D}@}
-> - explanation: {@{Scaling a Poisson variable by a constant changes the support to multiples of $10$, which is not Poisson (Poisson support is all nonnegative integers).}@}
+> - explanation: {@{Scaling a Poisson variable by a constant}@} changes the support to {@{multiples of $10$}@}, which is {@{not Poisson}@} ({@{Poisson support is all nonnegative integers}@}).
 
 ## session 8: Borel sigma-algebras and densities
 
@@ -211,7 +211,7 @@ This page collects the in-class Mentimeter-style multiple-choice questions used 
 > - (C) sometimes a density.
 >
 > - answer: {@{C}@}
-> - explanation: {@{The weighted sum $af+bg$ can be a density if $a,b$ are chosen so the result is nonnegative and integrates to $1$, but not all choices work since $a<0<b$ allows negative weights.}@}
+> - explanation: The weighted sum $af+bg$ can be {@{a density if $a,b$ are chosen}@} so {@{the result is nonnegative and integrates to $1$}@}, but {@{not all choices work}@} since {@{$a<0<b$ allows negative weights}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -255,7 +255,7 @@ This page collects the in-class Mentimeter-style multiple-choice questions used 
 > - (C) $B\in\mathcal D$, $A\subseteq B$ $\implies$ $A\in\mathcal D$.
 >
 > - answer: {@{C}@}
-> - explanation: {@{Dynkin systems are closed under complement and countable disjoint unions, but not under arbitrary subsets. Option (C) is closure under subsets, which is a property neither of Dynkin systems nor of $\sigma$-algebras.}@}
+> - explanation: {@{Dynkin systems are closed under complement and countable disjoint unions}@}, but not under {@{arbitrary subsets}@}. Option (C) is {@{closure under subsets}@}, which is a property {@{neither of Dynkin systems nor of $\sigma$-algebras}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -267,7 +267,7 @@ This page collects the in-class Mentimeter-style multiple-choice questions used 
 > - (D) Neither is true.
 >
 > - answer: {@{A}@}
-> - explanation: {@{A measurable function of a discrete random variable is always discrete. The converse is false: $X=g(Y)$ with $X$ discrete does not force $Y$ to be discrete.}@}
+> - explanation: {@{A measurable function of a discrete random variable}@} is always discrete. The converse is false: {@{$X=g(Y)$ with $X$ discrete does not force $Y$ to be discrete}@}.
 
 ## session 14: measurability and transformations
 
@@ -279,7 +279,7 @@ This page collects the in-class Mentimeter-style multiple-choice questions used 
 > - (D) $f$ is piecewise constant.
 >
 > - answer: {@{B}@}
-> - explanation: {@{A simple function taking finitely many values is measurable only if each level set is measurable; this is not automatic. For example, the indicator $\mathbf 1_{\mathbb Q}$ takes only $\{0,1\}$; checking its measurability requires verifying $\mathbb Q\in\mathcal B(\mathbb R)$ — the finiteness of values alone is insufficient. Monotone, differentiable, and piecewise constant (with measurable pieces) functions are all Borel measurable.}@}
+> - explanation: {@{A simple function taking finitely many values is measurable only if each level set is measurable}@}; this is not automatic. For example, the indicator $\mathbf 1_{\mathbb Q}$ {@{takes only $\{0,1\}$}@}; checking its measurability requires {@{verifying $\mathbb Q\in\mathcal B(\mathbb R)$}@} — {@{the finiteness of values alone is insufficient}@}. {@{Monotone, differentiable, and piecewise constant (with measurable pieces) functions}@} are all Borel measurable.
 
 <!-- markdownlint MD028 -->
 

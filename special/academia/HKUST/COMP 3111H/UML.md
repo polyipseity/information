@@ -89,7 +89,7 @@ An association is drawn by {@{a line connecting the class to itself \(unary\)}@}
 
 {@{The _degree_}@} of an association is {@{the number of _distinct_ classes the association relates to}@}. {@{A single class}@} is {@{_unary_}@}. {@{Two classes}@} are {@{_binary_}@}. {@{Three classes}@} are {@{_ternary_}@}. There are {@{other words for higher degrees}@}.
 
-In practice, most associations are {@{binary}@}. A few are {@{unary}@}, and even fewer are {@{ternary or higher degree}@}. Often, {@{a ternary or higher degree association}@} can be {@{replaced by multiple binary associations}@}, but {@{not always}@}.
+In practice, most associations are {@{binary}@}. A few are {@{unary}@}, and even fewer are {@{ternary or higher degree}@}. Often, {@{a ternary or higher degree association}@} can be {@{replaced by multiple binary associations, but not always}@}.
 
 Associations of {@{different degree}@} are {@{drawn differently}@}. An association is drawn by {@{a line connecting the class to itself \(unary\)}@}, {@{a line between two classes \(binary\)}@}, or {@{a diamond shape connecting many classes \(ternary, etc.\)}@}. \(__this course__: We consider {@{unary and binary associations only}@}.\)
 
@@ -340,7 +340,7 @@ In {@{UML terms}@}, {@{actors and use cases}@} are {@{_stereotypes_ of classes \
 
 #### use case preconditions
 
-In use-case modelling {@{a precondition}@} is {@{a statement about the required state of the system and/or actors that allows the use case to be initiated}@}, e.g. {@{"balance ≥ \$100"}@} in an ATM withdrawal use case. It describes {@{what conditions are required to start the use case}@} \(the "{@{what}@}"\), but it deliberately avoids {@{specifying how those conditions are achieved}@} \(the "{@{how}@}"\).
+In use-case modelling {@{a precondition}@} is {@{a statement about the required state of the system and/or actors that allows the use case to be initiated}@}, e.g. {@{"balance ≥ \$100"}@} in an ATM withdrawal use case. It describes {@{what conditions are required to start the use case}@} \(the "what"\), but it deliberately avoids {@{specifying how those conditions are achieved}@} \(the "how"\).
 
 Preconditions serve to keep {@{each use-case description independent of others}@} by focusing only on {@{the necessary state of both the system and its participants}@}. They are typically written in {@{a declarative style}@} (e.g., {@{"The user is logged in"}@}) and are considered {@{necessary but not sufficient for the use case to proceed}@}, considering that starting a use case {@{always requires an actor to do something}@}.
 
@@ -743,7 +743,7 @@ Students often draw {@{a generalization hierarchy}@} but do not indicate whether
 
 ### common mistakes: missing association constraints
 
-Students sometimes model {@{an association between two classes}@} without specifying {@{whether it is ordered, unique, or has subset/xor constraints}@} (e.g., {@{a car}@} can be owned by {@{either a company or a person}@} but {@{not both}@}). The error comes from treating {@{associations as unqualified links}@}. To correct this, add {@{the appropriate OCL constraint syntax}@} \(e.g. {@{`{xor}`, `{subset}`, `{ordered, FIFO}`}@}\) on {@{the association line}@}.
+Students sometimes model {@{an association between two classes}@} without specifying {@{whether it is ordered, unique, or has subset/xor constraints}@} (e.g., {@{a car}@} can be owned by {@{either a company or a person but not both}@}). The error comes from treating {@{associations as unqualified links}@}. To correct this, add {@{the appropriate OCL constraint syntax}@} \(e.g. {@{`{xor}`, `{subset}`, `{ordered, FIFO}`}@}\) on {@{the association line}@}.
 
 ### common mistakes: not using specialized associations
 

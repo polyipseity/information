@@ -216,9 +216,9 @@ Because Scheme has {@{many convenient syntactic sugar}@}, we first rewrite {@{th
 > def normalize(expr: Data): Data = expr match
 >   case 'cond :: clauses :: Nil =>
 >     val ret = clauses.foldRight(List('else, Nil)) {
->       case ('else :: body :: Nil) :: _ => 
+>       case ('else :: body :: Nil) :: _ =>
 >         body
->       case (test :: body :: Nil) :: rest => 
+>       case (test :: body :: Nil) :: rest =>
 >         'if :: test :: body :: rest :: Nil
 >     }
 >     normalize(ret)
@@ -457,9 +457,9 @@ Because the closure keeps {@{a reference to its defining environment}@}, each ap
 > f(1)
 > ```
 >
-> ... would {@{raise an error}@} because {@{the inner lambda}@} looks up {@{`x` in the stack after `g` has pushed its own frame}@}, finding {@{a function instead of the integer}@}. {@{Renaming parameters}@} can sometimes {@{resolve the problem}@}, such as renaming {@{`x` to `z` in the function `g`}@}, but {@{not always}@}.
+> ... would {@{raise an error}@} because {@{the inner lambda}@} looks up {@{`x` in the stack after `g` has pushed its own frame}@}, finding {@{a function instead of the integer}@}. {@{Renaming parameters}@} can sometimes {@{resolve the problem}@}, such as renaming {@{`x` to `z` in the function `g`, but not always}@}.
 
-{@{Renaming parameters}@} can sometimes {@{resolve problems with dynamic scoping}@}, but {@{not always}@}.
+{@{Renaming parameters}@} can sometimes {@{resolve problems with dynamic scoping, but not always}@}.
 
 {@{Dynamic scoping}@} makes {@{higher-order functions unreliable}@}. {@{Static (lexical) scoping, which Scheme and modern Lisps use}@}, fixes these issues by ensuring that {@{a function’s free variables are resolved in the environment where it was defined}@}. This guarantees {@{referential transparency and predictable behaviour of first-class functions}@}. {@{Some legacy Lisp dialects such as Common Lisp}@} still support {@{both dynamic and lexical scopes}@}, while {@{Elisp uses only dynamic scoping}@}.
 

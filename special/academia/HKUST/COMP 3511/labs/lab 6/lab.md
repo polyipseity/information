@@ -609,7 +609,7 @@ Flashcards for this section are as follows:
 > ---
 >
 > - solution: {@{`-6`, `1`, `2`, `3` and `10`}@}
-> - explanation: {@{Thread 2's `c = 2`}@} stands alone: it may be {@{the last write of `c`, which makes `2` a possible answer}@}. Every other run ends at {@{thread 1's `c = a - b`, whose two reads need not agree}@}, so the answer turns on {@{which write each read sees}@}. The choice starts at {@{thread 1's first read, of `b` in `a = b + 1`}@}, which can see {@{3 or 10}@}. Reading 10 means {@{thread 2 has already run `a = 13`}@}, so thread 1 writes {@{`a = 11`}@} afterwards and the subtraction can then {@{read only 11 and 10, giving `1`}@}. Reading {@{3 means thread 1 writes `a = 4`}@}, and {@{the pair the subtraction reads}@} may then be {@{4 and 3, 4 and 10, 13 and 3, or 13 and 10}@}, giving {@{`1`, `-6`, `10` and `3`}@}. With `2` these are {@{the five values}@}.
+> - explanation: {@{Thread 2's `c = 2`}@} stands alone: it may be {@{the last write of `c`, which makes `2` a possible answer}@}. Every other run ends at {@{thread 1's `c = a - b`, whose two reads need not agree}@}, so the answer turns on {@{which write each read sees}@}. The choice starts at {@{thread 1's first read, of `b` in `a = b + 1`}@}, which can see {@{3 or 10}@}. Reading 10 means {@{thread 2 has already run `a = 13`}@}, so {@{thread 1 writes `a = 11`}@} afterwards and the subtraction can then {@{read only 11 and 10, giving `1`}@}. Reading {@{3 means thread 1 writes `a = 4`}@}, and {@{the pair the subtraction reads}@} may then be {@{4 and 3, 4 and 10, 13 and 3, or 13 and 10}@}, giving {@{`1`, `-6`, `10` and `3`}@}. {@{With `2`}@} these are {@{the five values}@}.
 
 ---
 

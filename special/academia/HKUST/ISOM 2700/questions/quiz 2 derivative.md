@@ -68,7 +68,7 @@ tags:
 > What is the average number of customers in the system?
 >
 > - solution: {@{1.2}@}
-> - explanation: {@{Consider one machine and its queue. The average number of customers in the system = 0.375/\(1–0.375\) = 0.6. There are two machines, so the answer is 0.6\*2 = 1.2.}@}
+> - explanation: Consider {@{one machine and its queue}@}. {@{The average number of customers}@} in the system = {@{0.375/\(1–0.375\) = 0.6}@}. There are two machines, so {@{the answer is 0.6\*2 = 1.2}@}. <!-- check: ignore-line[answer_formula_alone]: the visible frame 'in the system =' names the formula, which is the answer -->
 
 <!-- markdownlint MD028 -->
 
@@ -104,7 +104,7 @@ tags:
 > 4. none of the above
 >
 > - solution: {@{1}@}
-> - explanation: {@{The average waiting time in queue is: $$\frac {\rho} {\mu - \lambda} = \frac 1 \mu \frac {\rho} {1 - \rho} \,.$$ A certain increase in arrival rate increases $\rho$ by the same amount. $\rho / (1 - \rho)$ means the average waiting time in queue would increase by more than that certain amount.}@}
+> - explanation: {@{The average waiting time in queue}@} is: {@{$$\frac {\rho} {\mu - \lambda} = \frac 1 \mu \frac {\rho} {1 - \rho} \,.$$}@} {@{A certain increase in arrival rate}@} increases {@{$\rho$ by the same amount}@}. {@{$\rho / (1 - \rho)$ means the average waiting time in queue}@} would {@{increase by more than that certain amount}@}. <!-- check: ignore-line[answer_formula_alone]: the visible frame 'is:' names the formula, which is the answer -->
 
 <!-- markdownlint MD028 -->
 
@@ -113,7 +113,7 @@ tags:
 > A customer arrives at a restaurant every 12&nbsp;minutes on average, and takes 30&nbsp;minutes on average to finish a meal. How many seats do you need at least to serve the customers \(without the queue exploding\)?
 >
 > - solution: {@{3}@}
-> - explanation: {@{Arrival rate is 5 customers per hour. Service rate per seat is 2 customers per hour. So you need 5/2 = 2.5&nbsp;seats at least. Round it up to 3.}@}
+> - explanation: Arrival rate is {@{5 customers per hour}@}. Service rate per seat is {@{2 customers per hour}@}. So you need {@{5/2 = 2.5&nbsp;seats at least}@}. Round {@{it up to 3}@}.
 
 <!-- markdownlint MD028 -->
 

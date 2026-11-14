@@ -454,7 +454,7 @@ tags:
 > ```
 >
 > - solution: {@{(almost always) `True`}@}
-> - explanation: {@{`time1` performs an element-wise operation using pure Python while `time2` uses NumPy arrays to do the same thing, so `time2` is most likely faster.}@}
+> - explanation: {@{`time1` performs an element-wise operation}@} using pure Python while {@{`time2` uses NumPy arrays to do the same thing}@}, so {@{`time2` is most likely faster}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -513,7 +513,7 @@ tags:
 > Q32. Are there any differences between the output from `print(str(a))` and `print(repr(a))`? Assume `a` is a NumPy array.
 >
 > - solution: {@{Yes. Try it out yourself!}@}
-> - explanation: {@{The `repr` representation is used when you explicitly write `repr(a)` or if you are printing the value without `print` in interactive Python. Otherwise, the `str` representation is used. <p> In this file, we use the `str` representation if `print` is used, otherwise we use the `repr` representation. In exams, you should see what they ask for.}@}
+> - explanation: {@{The `repr` representation is used when you explicitly write `repr(a)`}@} or if you are {@{printing the value without `print` in interactive Python}@}. Otherwise, {@{the `str` representation is used}@}. <p> In this file, we use {@{the `str` representation if `print` is used}@}, otherwise we use {@{the `repr` representation}@}. In exams, {@{you should see what they ask for}@}.
 
 ## naive Bayes classifier
 
@@ -585,7 +585,7 @@ tags:
 > Q8. (simple) True or false. There are $n$ different beliefs $B_1, B_2, \cdots, B_n$. If the pieces of evidence are independent, then the following formula gives us the probability of belief $B$ given the evidence. $$P(B|E_1 \cap \cdots \cap E_n) \overset ? = P(B) P(E_1|B) P(E_2|B) \cdots P(E_n|B)$$
 >
 > - solution: {@{false}@}
-> - explanation: {@{The denominator, which is the probability of the evidence $P(E_1 \cap \cdots \cap E_n)$, has been removed to derive the right hand side of the above equation (but the left hand side is not updated). So the above equation does not hold (i.e. the left hand side does not equal the right hand side).}@}
+> - explanation: {@{The denominator}@}, which is {@{the probability of the evidence $P(E_1 \cap \cdots \cap E_n)$}@}, has been {@{removed to derive the right hand side of the above equation}@} (but the left hand side is not updated). So {@{the above equation does not hold}@} (i.e. {@{the left hand side does not equal the right hand side}@}).
 
 <!-- markdownlint MD028 -->
 
@@ -644,7 +644,7 @@ tags:
 > 4. None of the above.
 >
 > - solution: {@{4}@}
-> - explanation: {@{For 1 and 2, classification is an obvious use case. For regression, one way is taking the neighbor average weighted by inverse distances. For 3, while it does not require all data to be of the same scale, this would make the distance of each feature not considered with the same weight.}@}
+> - explanation: For 1 and 2, {@{classification is an obvious use case}@}. For regression, {@{one way is taking the neighbor average weighted by inverse distances}@}. For 3, while {@{it does not require all data to be of the same scale}@}, this would {@{make the distance of each feature not considered with the same weight}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -847,7 +847,7 @@ tags:
 > 4. Every parameter must be updated during an epoch.
 >
 > - solution: {@{1}@}
-> - explanation: {@{Even if the activation function is nonlinear, the input to the activation function is linear. Unless you are doing regression, otherwise the nonlinear activation function cannot magically make the classification nonlinear.}@}
+> - explanation: Even if {@{the activation function is nonlinear}@}, {@{the input to the activation function is linear}@}. Unless you are doing regression, otherwise {@{the nonlinear activation function cannot magically make the classification nonlinear}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -905,7 +905,7 @@ tags:
 > 4. w = [-1, -1], bias = -2
 >
 > - solution: {@{1, 2}@}
-> - explanation: {@{First, check if the decision boundary is the same, which is the same as the previous question. Second, check if the resulting classification is the same for the same side of the decision boundary. <p> 4 has the classification flipped because it has its parameters scaled by a negative number.}@}
+> - explanation: First, {@{check if the decision boundary is the same}@}, which is {@{the same as the previous question}@}. Second, {@{check if the resulting classification is the same for the same side of the decision boundary}@}. <p> 4 has {@{the classification flipped}@} because it has {@{its parameters scaled by a negative number}@}.
 
 ## multilayer perceptron
 
@@ -991,7 +991,7 @@ tags:
 > 4. It is based on the recursive use of the Leibniz integral rule.
 >
 > - solution: {@{2, 3}@}
-> - explanation: {@{Theoretically, you could do 1 for adversarial machine learning... an example is finding "bad" inputs (that look mostly indistinguishable to the original input) that cause the network to produce any classification you desire. And 4 is something completely unrelated...}@}
+> - explanation: Theoretically, {@{you could do 1}@} for {@{adversarial machine learning}@}... an example is {@{finding "bad" inputs}@} (that look {@{mostly indistinguishable to the original input}@}) that {@{cause the network to produce any classification you desire}@}. And 4 is {@{something completely unrelated}@}...
 
 <!-- markdownlint MD028 -->
 
@@ -1072,7 +1072,7 @@ tags:
 > 4. (199, 99)
 >
 > - solution: {@{3}@}
-> - explanation: {@{I mean... it is just a convention. It could be any other convention, depending on your context. <p> This convention is used in libraries processing images with NumPy arrays. So that explains why it is 0-based.}@}
+> - explanation: I mean... {@{it is just a convention}@}. It could be {@{any other convention, depending on your context}@}. <p> This convention is used in {@{libraries processing images with NumPy arrays}@}. So that explains {@{why it is 0-based}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -1094,7 +1094,7 @@ tags:
 > Describe in words what transformation was applied.
 >
 > - solution: {@{The image is translated to the left (not right) and upwards (not downwards) each by 1 pixel.}@}
-> - explanation: {@{While the transformation matrix describes a transformation to the right and downwards each by 1 pixel, notice that it is applied to the input coordinates instead of the output coordinates. <p> In general, the transformations are reversed if you apply it to the input coordinates instead of the output coordinates. For a simple example, consider $f(x) = x$. Then compare between $f_{\text{new} }(x) = f(x) + 1 = x + 1$ and $f_{\text{new} }(x + 1) = f(x) = x \implies f_{\text{new} }(x) = f(x - 1) = x - 1$.}@}
+> - explanation: While {@{the transformation matrix describes a transformation to the right and downwards each by 1 pixel}@}, notice that it is {@{applied to the input coordinates instead of the output coordinates}@}. <p> In general, {@{the transformations are reversed}@} if you {@{apply it to the input coordinates instead of the output coordinates}@}. For a simple example, {@{consider $f(x) = x$}@}. Then compare {@{between $f_{\text{new} }(x) = f(x) + 1 = x + 1$ and $f_{\text{new} }(x + 1) = f(x) = x \implies f_{\text{new} }(x) = f(x - 1) = x - 1$}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -1216,7 +1216,7 @@ tags:
 > 4. The resulting image consists of pure black and pure white, and no other colors.
 >
 > - solution: {@{2}@}
-> - explanation: {@{This depends on your definition of the threshold function. The threshold function used in this course is 255 if larger than or _equal to_ the threshold.}@}
+> - explanation: This depends on {@{your definition of the threshold function}@}. {@{The threshold function used in this course}@} is 255 if {@{larger than or _equal to_ the threshold}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -1298,7 +1298,7 @@ tags:
 > 4. The higher the dropout rate, the better the model performance.
 >
 > - solution: {@{3, 4}@}
-> - explanation: {@{For 3, the implementation of dropout in Keras (by extension, TensorFlow) uses a random mask, which is not guaranteed to turn off 50% of neurons. Theoretically, its randomness could mean none of the neurons are turned off. Other libraries may use a different implementation (e.g. guaranteeing 50% of the neurons are turned off), but ignore this for the examinations. <p> This is likely tested in the examinations...}@}
+> - explanation: For 3, {@{the implementation of dropout in Keras (by extension, TensorFlow) uses a random mask}@}, which is {@{not guaranteed to turn off 50% of neurons}@}. Theoretically, {@{its randomness could mean none of the neurons are turned off}@}. Other libraries {@{may use a different implementation}@} (e.g. {@{guaranteeing 50% of the neurons are turned off}@}), but {@{ignore this for the examinations}@}. <p> This is {@{likely tested in the examinations}@}...
 
 ## minimax & alpha–beta pruning
 
@@ -1310,7 +1310,7 @@ tags:
 > 4. Contract bridge
 >
 > - solution: {@{2}@}
-> - explanation: {@{The minimax algorithm as taught in the course only applies to deterministic, perfect information, and zero-sum games. <p> There may be extensions of minimax algorithm that apply to more games, but ignore this for the examinations...}@}
+> - explanation: {@{The minimax algorithm as taught in the course}@} only applies to {@{deterministic, perfect information, and zero-sum games}@}. <p> There may be {@{extensions of minimax algorithm that apply to more games}@}, but {@{ignore this for the examinations}@}...
 
 <!-- markdownlint MD028 -->
 
@@ -1524,7 +1524,7 @@ tags:
 > Q11. (simple) True or false: A transition probability matrix in a Markov chain must be a square matrix.
 >
 > - solution: {@{true}@}
-> - explanation: {@{While technically you could have a non-square matrix, it would not be useful in practice, especially when you want to run the Markov chain multiple times.}@}
+> - explanation: While {@{technically you could have a non-square matrix}@}, it {@{would not be useful in practice}@}, especially when you {@{want to run the Markov chain multiple times}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -1552,7 +1552,7 @@ tags:
 > <!-- list separator -->
 >
 > - solution: {@{$a_{21} = P(X_t = S_1 \mid X_{t - 1} = S_2)$}@}
-> - explanation: {@{Usually, the _transition probability matrix_ is encoded as a _right/row stochastic matrix_, where each row adds up to 1. It is so called "right" because the probability distribution at the next step is computed by $\mathbf S_t = \mathbf S_{t - 1} \mathbf M$. <p> Another, but less common, way to encode it is as a _left/column stochastic matrix_, where each column adds up to 1. The next step probability distribution is computed by $\mathbf S_t =  \mathbf M \mathbf S_{t - 1}$. <p> Note: You should see in _value iteration_, we put the _right/row_ stochastic matrix $\mathbf M$ on the _left_ of the value vector $\mathbf V$ instead: $\mathbf M \mathbf V$. But this is because in value iteration, we are propagation the rewards _backwards_ instead of _forward_.}@}
+> - explanation: Usually, {@{the _transition probability matrix_ is encoded as a _right/row stochastic matrix_}@}, where {@{each row adds up to 1}@}. It is {@{so called "right"}@} because {@{the probability distribution at the next step is computed by $\mathbf S_t = \mathbf S_{t - 1} \mathbf M$}@}. <p> Another, but less common, way {@{to encode it is as a _left/column stochastic matrix_}@}, where {@{each column adds up to 1}@}. The next step probability distribution is {@{computed by $\mathbf S_t =  \mathbf M \mathbf S_{t - 1}$}@}. <p> Note: {@{You should see in _value iteration_}@}, we put {@{the _right/row_ stochastic matrix $\mathbf M$ on the _left_ of the value vector $\mathbf V$ instead}@}: $\mathbf M \mathbf V$. But this is because {@{in value iteration, we are propagation the rewards _backwards_ instead of _forward_}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -1589,7 +1589,7 @@ tags:
 > Q16. (medium) True or false: Consider a Markov chain with a state space $\{ S_1, S_2, \cdots, S_N \}$ and a discount factor $\gamma \in (0, 1)$. Each $V_1(S_1), V_1(S_2), \cdots, V_1(S_N)$ is finite. Then, using _value iteration_, $\lim_{n\to\infty} V_n(\text{state}_i)$ converges for any $\text{state}_i \in \text{state space}$.
 >
 > - solution: {@{true}@}
-> - explanation: {@{If you want to prove this, consider the matrix function $\mathbf V_{t + 1}(\mathbf V_{t}) = \mathbf R + \gamma \mathbf M \mathbf V_t$ and look up the __contraction mapping theorem__ (also known as the [__Banach fixed-point theorem__](../../../../general/Banach%20fixed-point%20theorem.md)). But this is out of scope.}@}
+> - explanation: If you want to {@{prove this}@}, consider {@{the matrix function $\mathbf V_{t + 1}(\mathbf V_{t}) = \mathbf R + \gamma \mathbf M \mathbf V_t$}@} and {@{look up the __contraction mapping theorem__ (also known as the [__Banach fixed-point theorem__](../../../../general/Banach%20fixed-point%20theorem.md))}@}. But this is {@{out of scope}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -1601,7 +1601,7 @@ tags:
 > 4. $\max_{k\in \{ 1, 2, \cdots, N \} } | V_k(s_a) - V_{k}(s_b) | < \varepsilon$
 >
 > - solution: {@{1}@}
-> - explanation: {@{There may be other ways to determining convergence. But 2, 3, and 4 are definitely not the "other ways" as they do not even make sense.}@}
+> - explanation: {@{There may be other ways to determining convergence}@}. But 2, 3, and 4 are {@{definitely not the "other ways"}@} as {@{they do not even make sense}@}.
 
 <!-- markdownlint MD028 -->
 

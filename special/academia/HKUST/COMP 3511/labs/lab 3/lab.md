@@ -305,7 +305,7 @@ Shortcut evaluation of `&&` and `||` changes the count. In `fork() && fork()`, o
 > ---
 >
 > - solution: {@{2 processes enter the `if` branch and 1 enters the `else` branch}@}
-> - explanation: The parent of the first `fork()` returns {@{a non-zero process identifier (PID), which is true and ends the test}@}, so it {@{never runs the second `fork()`}@}. The child returns {@{$0$, so it runs the second `fork()`}@}. That second call splits the child the same way. {@{The child of that second call}@} is {@{the single process that reaches the `else` branch}@}.
+> - explanation: The parent of the first `fork()` returns {@{a non-zero process identifier (PID), which is true and ends the test}@}, so it {@{never runs the second `fork()`}@}. The child returns {@{$0$, so it runs the second `fork()`}@}. That second call splits {@{the child the same way}@}. {@{The child of that second call}@} is {@{the single process that reaches the `else` branch}@}.
 
 <!-- markdownlint MD028 -->
 

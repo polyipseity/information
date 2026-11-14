@@ -37,7 +37,7 @@ tags:
 > 3. They have passed professional examinations.
 >
 > - solution: {@{3}@}
-> - explanation: {@{One essential property of professions is that there are barriers to entry. 3 is a barrier to entry, while 1 and 2 are consequences of 3.}@}
+> - explanation: One essential property of professions is {@{that there are barriers to entry}@}. {@{3 is a barrier to entry}@}, while {@{1 and 2 are consequences of 3}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -148,7 +148,7 @@ tags:
 > 3. statement of cash flow
 >
 > - solution: {@{2, 3}@}
-> - explanation: {@{1 is not included in the answer because lending money from others is neither a revenue nor an expense, so it is definitely not included in the income statement.}@}
+> - explanation: {@{1 is not included in the answer}@} because {@{lending money from others is neither a revenue nor an expense}@}, so it is {@{definitely not included in the income statement}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -169,7 +169,7 @@ tags:
 > 3. separate entity
 >
 > - solution: {@{2}@}
-> - explanation: {@{1 is important, but not satisfying it only changes the accounting basis. 3 is also important, but not satisfying it only makes the financial statement improper. 2 is the most important one, as not satisfying it means financial statements can be deceptive, misleading others in their decision making.}@}
+> - explanation: 1 is important, but {@{not satisfying it only changes the accounting basis}@}. 3 is also important, but {@{not satisfying it only makes the financial statement improper}@}. 2 is the most important one, as {@{not satisfying it means financial statements can be deceptive, misleading others in their decision making}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -180,7 +180,7 @@ tags:
 > 3. alphabetical order of asset captions
 >
 > - solution: {@{2}@}
-> - explanation: {@{The standards require it. Note that GAAP generally requires decreasing liquidity for both assets and liabilities, while IFRS requires increasing liquidity for both assets and liabilities.}@}
+> - explanation: The standards {@{require it}@}. Note that {@{GAAP generally requires decreasing liquidity for both assets and liabilities}@}, while {@{IFRS requires increasing liquidity for both assets and liabilities}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -191,7 +191,7 @@ tags:
 > 3. maturity preference
 >
 > - solution: {@{3}@}
-> - explanation: {@{The standards require it. Maturity is a measure of how soon the liability is due, analogous to how mature crops are then harvested.}@}
+> - explanation: The standards {@{require it}@}. Maturity is {@{a measure of how soon the liability is due}@}, analogous to {@{how mature crops are then harvested}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -212,7 +212,7 @@ tags:
 > 3. transaction analysis → add journal entries → posting to the ledger
 >
 > - solution: {@{3}@}
-> - explanation: {@{Note that for 2, adjusting the accounts is only done at the end of a reporting period, but an accounting cycle is simply recording the transactions after a much shorter period.}@}
+> - explanation: Note that for 2, {@{adjusting the accounts is only done at the end of a reporting period}@}, but {@{an accounting cycle is simply recording the transactions after a much shorter period}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -285,7 +285,7 @@ tags:
 > 3. Normally, the smaller the better
 >
 > - solution: {@{2}@}
-> - explanation: {@{For 1, it is extremely difficult for income from other activities to increase the net income so much that the net profit margin is at least 1...}@}
+> - explanation: For 1, it is {@{extremely difficult for income from other activities to increase the net income}@} so much that {@{the net profit margin is at least 1}@}...
 
 ## week 4 review
 
@@ -421,7 +421,7 @@ tags:
 > 3. both of them
 >
 > - solution: {@{3}@}
-> - explanation: {@{It affects the balance sheet because it affects asset "Inventory". It affects the income statement because it affects expense "Cost of goods sold".}@}
+> - explanation: It affects {@{the balance sheet because it affects asset "Inventory"}@}. It affects {@{the income statement because it affects expense "Cost of goods sold"}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -728,7 +728,7 @@ tags:
 > 3. Dividend Yield
 >
 > - solution: {@{2}@}
-> - explanation: {@{2 is the only one that does not involve market price per share. <p> \(Actually the professor uses "market-to-book ratio" oddly... Instead, "market ratio" is a better term.\)}@}
+> - explanation: {@{2 is the only one that does not involve market price per share}@}. <p> \(Actually the professor uses {@{"market-to-book ratio"}@} oddly... Instead, {@{"market ratio" is a better term}@}.\)
 
 ## week 12 review
 
