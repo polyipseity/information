@@ -99,7 +99,7 @@ Voltage (electric potential difference) is the energy per unit charge that drive
 
 Flashcards for this section are as follows:
 
-- voltage definition ::@:: Energy per unit charge that drives current; symbol V, unit volt. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- voltage definition ::@:: Energy per unit charge that drives current; symbol V, unit volt.
 - potential difference ::@:: Voltage between two points; current flows only with a potential difference.
 - ground reference ::@:: GND = $0\,\text{V}$ reference; voltage measurements are always relative.
 
@@ -170,7 +170,7 @@ Flashcards for this section are as follows:
 - energy definition ::@:: Ability to do work; takes mechanical, thermal, electrical, chemical forms; conserved during conversion.
 - battery role ::@:: Supplies electrical energy via electrochemical reactions; DC power with long storage.
 - DC vs AC ::@:: DC: constant polarity. AC: oscillates and reverses periodically.
-- household AC frequency ::@:: 50 Hz (Hong Kong) or 60 Hz (other countries). <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- household AC frequency ::@:: 50 Hz (Hong Kong) or 60 Hz (other countries).
 - energy formula ::@:: $E = qV$; $q$ in coulombs. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - power definition ::@:: $P = E/\Delta t = IV$; for resistors $P = I^2R = V^2/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
