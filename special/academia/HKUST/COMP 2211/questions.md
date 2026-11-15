@@ -496,7 +496,7 @@ tags:
 >
 > Your code should be at most five lines and should not contain any loops.
 >
-> - solution: {@{`(a[..., numpy.newaxis] == numpy.arange(len(a))).astype(int)`}@} <!--SR:!2026-12-09,525,310-->
+> - solution: {@{`(a[..., numpy.newaxis] == numpy.arange(len(a))).astype(int)`}@} <!--SR:!fsrs,2032-05-04T00:00:00.000Z,1973,1973.05938608,1,2,10,0,0,2026-12-09T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

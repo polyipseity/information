@@ -633,7 +633,7 @@ Here is a list of common IPA letters and their pronunciations:
 - \[ʀ\]:@:[voiced uvular trill](voiced%20uvular%20trill.md) <!--SR:!2028-11-19,1169,314-->
 - \[ɽ\]:@:[voiced retroflex flap](voiced%20retroflex%20flap.md) <!--SR:!fsrs,2028-10-29T00:00:00.000Z,737,737.36974518,2.45526587,2,9,0,0,2026-10-23T00:00:00.000Z-->
 - \[ɹ\]:@:[voiced alveolar approximant](voiced%20alveolar%20approximant.md) <!--SR:!2026-12-25,847,320-->
-- \[ɻ\]:@:[voiced retroflex approximant](voiced%20retroflex%20approximant.md) <!--SR:!2026-12-09,514,280-->
+- \[ɻ\]:@:[voiced retroflex approximant](voiced%20retroflex%20approximant.md) <!--SR:!fsrs,2029-06-01T00:00:00.000Z,905,904.54215802,6.25109124,2,10,0,0,2026-12-09T00:00:00.000Z-->
 - \[ʁ\]:@:[voiced uvular fricative](voiced%20uvular%20fricative.md) <!--SR:!2027-02-24,846,354-->
 - \[s\]:@:[voiceless alveolar fricative](voiceless%20alveolar%20fricative.md) <!--SR:!2032-02-07,2343,337-->
 - \[ʃ\]:@:[voiceless postalveolar fricative](voiceless%20postalveolar%20fricative.md) <!--SR:!2029-07-24,1489,321-->
@@ -813,9 +813,9 @@ Here is a list of common IPA letters and their pronunciations:
 - ![voiced bilabial plosive](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20plosive.ogg):@:[voiced bilabial plosive](voiced%20bilabial%20plosive.md) <!--SR:!fsrs,2026-12-26T00:00:00.000Z,94,93.83521629,9.97047151,2,8,0,0,2026-09-23T00:00:00.000Z-->
 - ![voiced bilabial implosive](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20implosive.ogg):@:[voiced bilabial implosive](voiced%20bilabial%20implosive.md) <!--SR:!fsrs,2028-04-11T00:00:00.000Z,639,639.43835987,4.44077837,2,9,0,0,2026-07-12T00:00:00.000Z-->
 - ![voiced bilabial fricative](../../archives/Wikimedia%20Commons/Voiced%20bilabial%20fricative.ogg):@:[voiced bilabial fricative](voiced%20bilabial%20fricative.md) <!--SR:!2026-12-22,232,231-->
-- ![voiced bilabial trill](../../archives/Wikimedia%20Commons/Bilabial%20trill.ogg):@:[voiced bilabial trill](voiced%20bilabial%20trill.md) <!--SR:!2026-12-09,610,231-->
+- ![voiced bilabial trill](../../archives/Wikimedia%20Commons/Bilabial%20trill.ogg):@:[voiced bilabial trill](voiced%20bilabial%20trill.md) <!--SR:!fsrs,2029-07-01T00:00:00.000Z,935,935.441692,7.47090938,2,10,0,0,2026-12-09T00:00:00.000Z-->
 - ![voiceless palatal plosive](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20plosive.ogg):@:[voiceless palatal plosive](voiceless%20palatal%20plosive.md) <!--SR:!fsrs,2027-03-22T00:00:00.000Z,122,121.83781997,9.97542228,2,8,0,0,2026-11-20T00:00:00.000Z-->
-- ![voiceless palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20fricative.ogg):@:[voiceless palatal fricative](voiceless%20palatal%20fricative.md) <!--SR:!fsrs,2026-12-09T00:00:00.000Z,56,56.32220333,9.96240929,2,8,0,0,2026-10-14T00:00:00.000Z-->
+- ![voiceless palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20palatal%20fricative.ogg):@:[voiceless palatal fricative](voiceless%20palatal%20fricative.md) <!--SR:!fsrs,2027-02-19T00:00:00.000Z,72,72.34208445,9.94767525,2,9,0,0,2026-12-09T00:00:00.000Z-->
 - ![voiceless alveolo-palatal fricative](../../archives/Wikimedia%20Commons/Voiceless%20alveolo-palatal%20sibilant.ogg):@:[voiceless alveolo-palatal fricative](voiceless%20alveolo-palatal%20fricative.md) <!--SR:!fsrs,2026-12-19T00:00:00.000Z,51,51.3771246,9.96027391,2,9,0,0,2026-10-29T00:00:00.000Z-->
 - ![voiced alveolar plosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20plosive.ogg):@:[voiced alveolar plosive](voiced%20alveolar%20plosive.md) <!--SR:!fsrs,2027-01-25T00:00:00.000Z,110,110.45395135,9.93304647,2,8,0,0,2026-10-07T00:00:00.000Z-->
 - ![voiced alveolar implosive](../../archives/Wikimedia%20Commons/Voiced%20alveolar%20implosive.ogg):@:[voiced alveolar implosive](voiced%20alveolar%20implosive.md) <!--SR:!fsrs,2027-02-15T00:00:00.000Z,159,159.31041629,9.48734342,2,8,0,0,2026-09-09T00:00:00.000Z-->
@@ -937,7 +937,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced bilabial fricative](voiced%20bilabial%20fricative.md):@:[Spanish](Spanish%20language.md) _la**v**a_ \[ˈläβ̞ä\] "lava" <!--SR:!fsrs,2028-02-23T00:00:00.000Z,597,597.47249674,7.21300337,2,9,0,0,2026-07-06T00:00:00.000Z-->
 - [voiced bilabial trill](voiced%20bilabial%20trill.md):@:[Nias](Nias%20language.md) _si**mb**i_ \[siʙi\] "lower jaw" <!--SR:!fsrs,2027-08-17T05:57:27.358Z,428,427.63126942,7.96225337,2,9,0,0,2026-06-15T05:57:27.358Z-->
 - [voiceless palatal plosive](voiceless%20palatal%20plosive.md):@:[French](French%20language.md) _**q**ui_ \[ci\] "who" <!--SR:!2027-08-30,483,264-->
-- [voiceless palatal fricative](voiceless%20palatal%20fricative.md):@:[English](English%20language.md) _**h**ue_ \[çʉː\] <!--SR:!fsrs,2026-12-09T00:00:00.000Z,99,98.85557514,9.97047151,2,8,0,0,2026-09-01T00:00:00.000Z-->
+- [voiceless palatal fricative](voiceless%20palatal%20fricative.md):@:[English](English%20language.md) _**h**ue_ \[çʉː\] <!--SR:!fsrs,2027-04-02T00:00:00.000Z,114,114.21191145,9.96562598,2,9,0,0,2026-12-09T00:00:00.000Z-->
 - [voiceless alveolo-palatal fricative](voiceless%20alveolo-palatal%20fricative.md):@:[English](English%20language.md) _**t**uesday_ \[ˈt̺ʲɕuːzdeɪ\] <!--SR:!fsrs,2027-02-05T00:00:00.000Z,69,68.50073874,9.87923939,2,11,0,0,2026-11-28T00:00:00.000Z-->
 - [voiced alveolar plosive](voiced%20alveolar%20plosive.md):@:[English](English%20language.md) _**d**ash_ \[ˈdæʃ\] <!--SR:!2029-08-03,1420,273-->
 - [voiced alveolar implosive](voiced%20alveolar%20implosive.md):@:[Vietnamese](Vietnamese%20language.md) _**đ**uôi_ \[ɗuəj\] "tail" <!--SR:!2027-11-07,552,193-->

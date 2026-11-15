@@ -188,7 +188,7 @@ Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` c
 >
 > can be written with {@{an unnamed `Ordering[T]`}@}, yet internally {@{each `merge` and `sort` implicitly receives the same ordering}@}. <!--SR:!fsrs,2028-07-28T00:00:00.000Z,677,677.29649533,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!2027-01-01,328,349!2027-01-20,341,349!2027-01-23,344,349!fsrs,2028-01-21T00:00:00.000Z,493,492.57579613,5.00637887,2,9,0,0,2026-09-15T00:00:00.000Z-->
 
-{@{Writing `(using Ordering[T])` inside a parameter list}@} is equivalent to explicitly {@{passing a named `ord` through every call that needs an `Ordering` implicitly}@}, but keeps the body of `sort` {@{free from boilerplate}@} and shows that {@{the implicit context can propagate transparently}@} even when the method itself {@{never directly references the parameter}@}. <!--SR:!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-12-21,319,349!fsrs,2029-10-31T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-10-05T00:00:00.000Z!2026-12-09,309,349!2028-01-18,627,411-->
+{@{Writing `(using Ordering[T])` inside a parameter list}@} is equivalent to explicitly {@{passing a named `ord` through every call that needs an `Ordering` implicitly}@}, but keeps the body of `sort` {@{free from boilerplate}@} and shows that {@{the implicit context can propagate transparently}@} even when the method itself {@{never directly references the parameter}@}. <!--SR:!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-12-21,319,349!fsrs,2029-10-31T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-10-05T00:00:00.000Z!fsrs,2030-10-26T00:00:00.000Z,1417,1416.70671475,1,2,9,0,0,2026-12-09T00:00:00.000Z!2028-01-18,627,411-->
 
 ### context bound
 
@@ -374,7 +374,7 @@ In Scala {@{a _type class_}@} is {@{a generic trait}@} that declares {@{operatio
 
 ### type class pattern
 
-To {@{declare a "type class"}@} in Scala, use {@{`trait`}@}: <!--SR:!2026-12-09,309,349!fsrs,2030-09-21T00:00:00.000Z,1389,1388.81181426,1,2,9,0,0,2026-12-02T00:00:00.000Z-->
+To {@{declare a "type class"}@} in Scala, use {@{`trait`}@}: <!--SR:!fsrs,2030-10-26T00:00:00.000Z,1417,1416.70671475,1,2,9,0,0,2026-12-09T00:00:00.000Z!fsrs,2030-09-21T00:00:00.000Z,1389,1388.81181426,1,2,9,0,0,2026-12-02T00:00:00.000Z-->
 
 > [!example] __type class definition__
 >
@@ -502,7 +502,7 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!fsrs,2029-10-2
 > ```
 <!--SR:!2026-12-11,311,349!2027-01-31,352,349-->
 
-{@{The syntax in Rust}@} is {@{slightly different}@} but {@{the concept}@} remains {@{the same}@}—defining {@{a set of operations}@} that can be {@{implemented for many distinct types}@}. <!--SR:!2027-01-02,329,349!fsrs,2028-07-18T00:00:00.000Z,670,669.69339296,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-12-09,309,349!2027-01-25,346,349!2026-12-31,327,349-->
+{@{The syntax in Rust}@} is {@{slightly different}@} but {@{the concept}@} remains {@{the same}@}—defining {@{a set of operations}@} that can be {@{implemented for many distinct types}@}. <!--SR:!2027-01-02,329,349!fsrs,2028-07-18T00:00:00.000Z,670,669.69339296,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2030-10-26T00:00:00.000Z,1417,1416.70671475,1,2,9,0,0,2026-12-09T00:00:00.000Z!2027-01-25,346,349!2026-12-31,327,349-->
 
 {@{Other functional and dependently-typed languages}@} are moving {@{toward a similar approach}@}.  {@{Agda, Lean, and soon OCaml}@} provide {@{general _contextual parameters_ or equivalent mechanisms}@} that allow {@{programmers to encode type-class-like behaviour}@} in a manner analogous to {@{Scala's `given` instances}@}.  {@{These systems}@} combine the expressiveness of {@{Haskell's type classes with Scala-style contextual resolution}@}, enabling {@{conditional polymorphism across a wide range of types}@}. <!--SR:!fsrs,2030-09-11T00:00:00.000Z,1381,1380.82721279,1,2,9,0,0,2026-11-30T00:00:00.000Z!2027-01-31,352,349!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2028-09-25T00:00:00.000Z,720,720.2031195,2.49272837,2,9,0,0,2026-10-06T00:00:00.000Z!2027-01-27,348,349!2027-01-29,350,349!fsrs,2030-06-09T00:00:00.000Z,1309,1308.66035919,1,2,9,0,0,2026-11-08T00:00:00.000Z!2027-01-30,351,349!fsrs,2030-10-05T00:00:00.000Z,1401,1400.77653742,1,2,9,0,0,2026-12-04T00:00:00.000Z-->
 

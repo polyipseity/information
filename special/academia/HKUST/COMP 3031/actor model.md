@@ -408,7 +408,7 @@ When {@{several messages are sent to the same recipient}@} they keep {@{the orde
 
 ## web client example
 
-{@{The design}@} starts by decomposing {@{the crawling task into independent units that communicate only through messages}@}. Actors are considered {@{replaceable “people”}@}; {@{their interactions}@} are drawn in {@{a diagram}@}, but {@{the concrete implementation is free to change}@} as long as {@{the message protocol remains unchanged}@}. {@{A link‑checker actor system}@} follows this pattern: {@{a `Receptionist`}@} receives {@{client requests}@}, spawns {@{a `Controller` per request}@}, and the controller creates {@{`Getter` actors for each discovered link}@} until {@{a depth limit is reached}@}. <!--SR:!2026-12-20,266,330!2026-12-09,258,330!2026-12-30,275,330!fsrs,2029-12-07T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-25,271,330!2027-01-15,285,330!2027-01-10,284,330!fsrs,2029-12-06T00:00:00.000Z,1110,1109.50126871,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-19,266,330!2026-12-31,276,330!2026-12-12,260,330!2027-01-14,285,330!2027-01-14,287,330-->
+{@{The design}@} starts by decomposing {@{the crawling task into independent units that communicate only through messages}@}. Actors are considered {@{replaceable “people”}@}; {@{their interactions}@} are drawn in {@{a diagram}@}, but {@{the concrete implementation is free to change}@} as long as {@{the message protocol remains unchanged}@}. {@{A link‑checker actor system}@} follows this pattern: {@{a `Receptionist`}@} receives {@{client requests}@}, spawns {@{a `Controller` per request}@}, and the controller creates {@{`Getter` actors for each discovered link}@} until {@{a depth limit is reached}@}. <!--SR:!2026-12-20,266,330!fsrs,2030-01-20T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-12-09T00:00:00.000Z!2026-12-30,275,330!fsrs,2029-12-07T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-25,271,330!2027-01-15,285,330!2027-01-10,284,330!fsrs,2029-12-06T00:00:00.000Z,1110,1109.50126871,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-19,266,330!2026-12-31,276,330!2026-12-12,260,330!2027-01-14,285,330!2027-01-14,287,330-->
 
 {@{A naive version of `WebClient.get`}@} blocks {@{the calling actor, tying up a thread}@}: <!--SR:!fsrs,2029-12-02T00:00:00.000Z,1106,1105.65458238,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-14,262,330-->
 
@@ -467,7 +467,7 @@ When {@{several messages are sent to the same recipient}@} they keep {@{the orde
 >     context.parent ! Done
 >     context.stop(self)
 > ```
-<!--SR:!2026-12-09,258,330!2026-12-29,272,330!fsrs,2029-08-19T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-10-28T00:00:00.000Z!2027-01-09,283,330!fsrs,2029-09-17T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-03T00:00:00.000Z!fsrs,2029-12-15T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-30T00:00:00.000Z!2026-12-19,266,330-->
+<!--SR:!fsrs,2030-01-20T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-12-09T00:00:00.000Z!2026-12-29,272,330!fsrs,2029-08-19T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-10-28T00:00:00.000Z!2027-01-09,283,330!fsrs,2029-09-17T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-03T00:00:00.000Z!fsrs,2029-12-15T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-30T00:00:00.000Z!2026-12-19,266,330-->
 
 {@{The `Controller`}@} keeps {@{a cache of already visited URLs}@} and {@{a set of running getters}@}. When {@{all children finish}@}, it reports {@{the collected links back to its parent}@}. <!--SR:!2027-01-19,289,330!fsrs,2029-12-10T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-11-29T00:00:00.000Z!2026-12-12,260,330!2026-12-13,261,330!fsrs,2029-12-13T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-11-24T00:00:00.000Z-->
 
@@ -529,7 +529,7 @@ Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A cont
 >       cache += url -> body
 >       client ! body
 > ```
-<!--SR:!2027-01-17,290,330!2026-12-09,258,330-->
+<!--SR:!2027-01-17,290,330!fsrs,2030-01-20T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-12-09T00:00:00.000Z-->
 
 {@{The `Receptionist`}@} {@{serialises incoming requests}@} and limits {@{the number of concurrent crawls}@}. It uses {@{`context.become`}@} to switch between {@{waiting and running states}@} while keeping state {@{local to each behavior}@}. <!--SR:!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!fsrs,2029-12-15T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-30T00:00:00.000Z!2027-01-11,285,330!2027-01-20,292,330!fsrs,2029-09-12T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-11-02T00:00:00.000Z!2026-12-26,272,330-->
 
@@ -558,7 +558,7 @@ Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A cont
 
 ## actor application
 
-{@{Actors}@} are conceived as {@{replaceable workers that communicate only through messages}@}. {@{The design of an actor application}@} starts by decomposing {@{the task into independent actors}@}, drawing {@{a diagram of their interactions}@} and then wiring them together with {@{simple message types}@}. Then, following {@{the principles below}@} to implement {@{the actor application}@}. <!--SR:!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z!2027-01-20,292,330!2026-12-30,275,330!2026-12-27,270,330!2027-01-18,290,330!fsrs,2029-12-02T00:00:00.000Z,1106,1105.65458238,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-09,258,330!fsrs,2029-11-13T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-17T00:00:00.000Z-->
+{@{Actors}@} are conceived as {@{replaceable workers that communicate only through messages}@}. {@{The design of an actor application}@} starts by decomposing {@{the task into independent actors}@}, drawing {@{a diagram of their interactions}@} and then wiring them together with {@{simple message types}@}. Then, following {@{the principles below}@} to implement {@{the actor application}@}. <!--SR:!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z!2027-01-20,292,330!2026-12-30,275,330!2026-12-27,270,330!2027-01-18,290,330!fsrs,2029-12-02T00:00:00.000Z,1106,1105.65458238,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2030-01-20T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-12-09T00:00:00.000Z!fsrs,2029-11-13T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-17T00:00:00.000Z-->
 
 Actors are {@{_event‑driven_}@}: they wait for {@{a message in their mailbox}@} and then {@{process it}@}. Because {@{sending a message is an asynchronous operation}@}, the sender continues {@{immediately without blocking}@}. This pattern keeps {@{the system responsive even under heavy load}@} and aligns with {@{reactive streams principles where data flows through event pipelines}@}. <!--SR:!2026-12-26,272,330!2027-01-17,290,330!2027-01-04,279,330!fsrs,2029-11-27T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-11-20T00:00:00.000Z!2027-01-02,277,330!fsrs,2029-12-30T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-12-04T00:00:00.000Z!2026-12-10,259,330-->
 

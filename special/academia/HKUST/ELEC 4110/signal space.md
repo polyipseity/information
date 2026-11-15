@@ -12,13 +12,13 @@ tags:
 
 {@{A __signal space__}@} is {@{an abstract vector-space representation used in digital communications}@} to model {@{transmitted waveforms as points within a multidimensional Euclidean (or Hilbert) space}@}. Using {@{an orthonormal set of basis functions}@} (often derived via {@{Gram–Schmidt orthogonalisation}@}), {@{time-domain signals}@} become {@{linear combinations whose coefficients are the coordinates}@}. <!--SR:!fsrs,2030-04-12T00:00:00.000Z,1232,1232.10755353,1,2,9,0,0,2026-11-27T00:00:00.000Z!2027-04-12,382,364!2026-12-30,280,344!2027-02-03,324,345!2027-02-03,324,345!2027-01-30,320,345!2027-03-31,373,364-->
 
-{@{This geometric view}@} simplifies analysis of {@{modulation schemes, receiver design, and error performance}@}: visualize {@{constellations, compute Euclidean distances between symbols}@}, and build {@{matched filters that maximise SNR}@}. <!--SR:!2027-04-06,376,364!2027-02-03,324,345!2026-12-09,278,345!2027-02-21,339,345-->
+{@{This geometric view}@} simplifies analysis of {@{modulation schemes, receiver design, and error performance}@}: visualize {@{constellations, compute Euclidean distances between symbols}@}, and build {@{matched filters that maximise SNR}@}. <!--SR:!2027-04-06,376,364!2027-02-03,324,345!fsrs,2030-06-07T00:00:00.000Z,1276,1276.02718127,1,2,9,0,0,2026-12-09T00:00:00.000Z!2027-02-21,339,345-->
 
 ## motivation
 
 {@{The optimality of a demodulator}@} holds {@{only within the assumed receiver structure \(e.g. matched filter for LTI filters\)}@}. Changing {@{the signal space or receiver architecture}@} can yield {@{different performance for multilevel schemes}@}. <!--SR:!2027-01-25,315,345!2027-03-15,358,364!2026-12-13,281,345!2027-02-24,341,345-->
 
-{@{Digital communication in general}@} can be analysed by representing {@{transmitted waveforms}@} as {@{vectors in a multidimensional space}@}, turning {@{complex algebra into visual intuition}@} and guiding {@{modulation, demodulation, and receiver optimisation}@}. <!--SR:!2027-03-26,368,364!2027-01-01,297,345!2027-04-09,379,364!2027-04-04,376,364!2026-12-09,277,345-->
+{@{Digital communication in general}@} can be analysed by representing {@{transmitted waveforms}@} as {@{vectors in a multidimensional space}@}, turning {@{complex algebra into visual intuition}@} and guiding {@{modulation, demodulation, and receiver optimisation}@}. <!--SR:!2027-03-26,368,364!2027-01-01,297,345!2027-04-09,379,364!2027-04-04,376,364!fsrs,2030-06-03T00:00:00.000Z,1272,1272.04354713,1,2,9,0,0,2026-12-09T00:00:00.000Z-->
 
 ## geometric domain
 

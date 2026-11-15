@@ -358,7 +358,7 @@ The content is in teaching order.
 - datetime: 2025-03-17T12:00:00+08:00/2025-03-17T13:20:00+08:00
 - topic: cost behavior
 - total absorption costing
-    - total absorption costing / cost classification ::@:: costs are mainly split into manufacturing costs, non-manufacturing costs <!--SR:!2026-12-09,522,406!fsrs,2032-12-16T00:00:00.000Z,2242,2242.24024358,1,2,10,0,0,2026-10-27T00:00:00.000Z-->
+    - total absorption costing / cost classification ::@:: costs are mainly split into manufacturing costs, non-manufacturing costs <!--SR:!fsrs,2033-06-17T00:00:00.000Z,2382,2381.57581186,1,2,10,0,0,2026-12-09T00:00:00.000Z!fsrs,2032-12-16T00:00:00.000Z,2242,2242.24024358,1,2,10,0,0,2026-10-27T00:00:00.000Z-->
     - total absorption costing / manufacturing overhead ::@:: divided between cost of goods sold (when overapplied, underapplied, or sold) and ending inventory (when unsold) <!--SR:!2026-12-24,529,406!fsrs,2033-01-17T00:00:00.000Z,2266,2266.2125374,1,2,10,0,0,2026-11-04T00:00:00.000Z-->
     - total absorption / formula ::@:: (net) sales, less: cost of goods sold, (subtotal:) _gross margin_, less: non-manufacturing expenses, (total:) net operating income <!--SR:!2027-03-29,544,346!2027-01-01,537,406-->
 - variable costing

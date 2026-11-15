@@ -30,7 +30,7 @@ Lift expresses {@{the observed co-occurrence of X and Y compared to that expecte
 
 ### conviction
 
-Conviction is {@{the ratio of the incorrectness of a rule, if the antecedent and the consequent are [independent](independence%20(probability%20theory).md), to the observed incorrectness}@}. For two item sets X and Y, and {@{a rule $X \Rightarrow Y$ with X as the antecedent and Y as the consequent, the lift of the rule is defined as $\operatorname{conv}(X \Rightarrow Y) = \frac {\operatorname{supp}(\lnot Y)} {\operatorname{conf}(X \Rightarrow \lnot Y)} = \frac {1 - \operatorname{supp}(Y)} {1 - \operatorname{conf}(X \Rightarrow Y)}$}@}. <!--SR:!2028-10-30,1133,290!2026-12-09,694,290-->
+Conviction is {@{the ratio of the incorrectness of a rule, if the antecedent and the consequent are [independent](independence%20(probability%20theory).md), to the observed incorrectness}@}. For two item sets X and Y, and {@{a rule $X \Rightarrow Y$ with X as the antecedent and Y as the consequent, the lift of the rule is defined as $\operatorname{conv}(X \Rightarrow Y) = \frac {\operatorname{supp}(\lnot Y)} {\operatorname{conf}(X \Rightarrow \lnot Y)} = \frac {1 - \operatorname{supp}(Y)} {1 - \operatorname{conf}(X \Rightarrow Y)}$}@}. <!--SR:!2028-10-30,1133,290!fsrs,2033-05-10T00:00:00.000Z,2344,2343.86052799,1.98030797,2,10,0,0,2026-12-09T00:00:00.000Z-->
 
 Conviction expresses {@{how often X fails to predict Y}@} if {@{X and Y are [independent](independence%20(probability%20theory).md) compared to that observed}@}. <!--SR:!fsrs,2032-09-05T00:00:00.000Z,2244,2244.17705852,1,2,10,0,0,2026-07-15T00:00:00.000Z!fsrs,2027-11-06T00:00:00.000Z,397,396.77501923,1,2,3,0,0,2026-10-05T00:00:00.000Z-->
 

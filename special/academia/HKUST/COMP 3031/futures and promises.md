@@ -18,7 +18,7 @@ tags:
 
 - see: [general/futures and promises](../../../../general/futures%20and%20promises.md)
 
-{@{_Asynchronous programming_}@} lets a program start {@{a long‑running task on another thread and continue immediately}@}. In Scala this is expressed by {@{the __`Future`__ abstraction}@}, which represents {@{a value that may become available later, together with its eventual result or failure}@}. <!--SR:!fsrs,2029-11-27T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-11-20T00:00:00.000Z!2026-12-09,257,330!fsrs,2029-09-17T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-03T00:00:00.000Z!2027-01-23,293,330-->
+{@{_Asynchronous programming_}@} lets a program start {@{a long‑running task on another thread and continue immediately}@}. In Scala this is expressed by {@{the __`Future`__ abstraction}@}, which represents {@{a value that may become available later, together with its eventual result or failure}@}. <!--SR:!fsrs,2029-11-27T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-11-20T00:00:00.000Z!fsrs,2030-01-16T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-12-09T00:00:00.000Z!fsrs,2029-09-17T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-03T00:00:00.000Z!2027-01-23,293,330-->
 
 ## motivation
 
@@ -41,7 +41,7 @@ A common early pattern is {@{_continuation-passing style_ (CPS), or more commonl
 >   }
 > ```
 >
-> The continuation {@{`c1 => ...` is invoked}@} when {@{the coffee is ready}@}. As {@{more asynchronous steps are added}@}, the code quickly becomes {@{hard to read and reason about}@}, causing {@{_callback hell_}@}. <!--SR:!2027-01-21,291,330!2026-12-28,272,330!fsrs,2028-11-06T00:00:00.000Z,713,712.65274453,2.49272837,2,9,0,0,2026-11-24T00:00:00.000Z!2026-12-09,256,330!2027-01-01,276,330!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z!fsrs,2028-10-22T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-11-19T00:00:00.000Z-->
+> The continuation {@{`c1 => ...` is invoked}@} when {@{the coffee is ready}@}. As {@{more asynchronous steps are added}@}, the code quickly becomes {@{hard to read and reason about}@}, causing {@{_callback hell_}@}. <!--SR:!2027-01-21,291,330!2026-12-28,272,330!fsrs,2028-11-06T00:00:00.000Z,713,712.65274453,2.49272837,2,9,0,0,2026-11-24T00:00:00.000Z!fsrs,2030-01-12T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-12-09T00:00:00.000Z!2027-01-01,276,330!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z!fsrs,2028-10-22T00:00:00.000Z,703,702.57151752,2.49272837,2,9,0,0,2026-11-19T00:00:00.000Z-->
 
 ### drawbacks of CPS
 
