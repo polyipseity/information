@@ -35,7 +35,7 @@ assert "asd"[-1] == "d"
 assert [39, "omg", 'asd', 3.4][-2] == "asd"
 ```
 
-If {@{the index (but not slicing) is out of range (regardless if it is positive or negative)}@}, then {@{an `IndexError` will be raised}@}. <!--SR:!fsrs,2030-10-13T00:00:00.000Z,1482,1482.31989869,2.34287837,2,10,0,0,2026-09-22T00:00:00.000Z!2026-12-07,625,334-->
+If {@{the index (but not slicing) is out of range (regardless if it is positive or negative)}@}, then {@{an `IndexError` will be raised}@}. <!--SR:!fsrs,2030-10-13T00:00:00.000Z,1482,1482.31989869,2.34287837,2,10,0,0,2026-09-22T00:00:00.000Z!fsrs,2033-10-05T00:00:00.000Z,2494,2493.58135771,1,2,10,0,0,2026-12-07T00:00:00.000Z-->
 
 ## manipulation
 

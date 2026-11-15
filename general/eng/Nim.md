@@ -74,7 +74,7 @@ For the generalisations, _n_ and _m_ can be {@{any value > 0, and they may be th
 
 Normal-play nim (or more precisely {@{the system of [nimbers](nimber.md)}@}) is {@{fundamental to the [Sprague–Grundy theorem](Sprague–Grundy%20theorem.md)}@}, which {@{essentially says that in normal play every [impartial game](impartial%20game.md) is equivalent to a nim heap that yields the same outcome}@} when {@{played in parallel with other normal play impartial games (see [disjunctive sum](disjunctive%20sum.md))}@}. <!--SR:!2029-11-20,1463,361!2029-05-23,1309,350!2029-08-16,1308,321!2027-10-25,794,301-->
 
-While {@{all normal-play impartial games can be assigned a nim value}@}, that is {@{not the case under the misère convention}@}. {@{Only [tame games](genus%20theory.md#tame)}@} can be played using the same strategy as misère nim. <!--SR:!2029-09-17,1412,361!2026-12-07,603,341!2026-12-23,615,341-->
+While {@{all normal-play impartial games can be assigned a nim value}@}, that is {@{not the case under the misère convention}@}. {@{Only [tame games](genus%20theory.md#tame)}@} can be played using the same strategy as misère nim. <!--SR:!2029-09-17,1412,361!fsrs,2033-09-13T00:00:00.000Z,2472,2471.71721603,1,2,10,0,0,2026-12-07T00:00:00.000Z!2026-12-23,615,341-->
 
 Nim is {@{a special case of a [poset game](poset%20game.md)}@} where {@{the [poset](partially%20ordered%20set.md) consists of disjoint [chains](total%20order.md) (the heaps)}@}. <!--SR:!2030-07-14,1643,361!2026-12-31,622,341-->
 

@@ -83,7 +83,7 @@ return chain.from_iterable([r.value for r in results])
 
 - `**`:@:power <!--SR:!2027-01-01,352,349-->
 - `*` <br/> `/` <br/> `//` <br/> `%`:@:multiplication <br/> division <br/> floor division <br/> remainder; the resulting sign is the same as the divider, i.e. the number after the operator <!--SR:!2026-12-31,351,349-->
-- `+` <br/> `-`:@:addition <br/> subtraction <!--SR:!2026-12-07,327,349-->
+- `+` <br/> `-`:@:addition <br/> subtraction <!--SR:!fsrs,2031-01-03T00:00:00.000Z,1488,1488.08066228,1,2,9,0,0,2026-12-07T00:00:00.000Z-->
 
 <!--/pytextgen-->
 

@@ -154,4 +154,4 @@ Assigning {@{distinct vectors to each symbol}@} transmits {@{more than one bit p
 
 ### constellation diagram
 
-Plotting {@{coordinate vectors}@} of {@{all allowed signals on a Euclidean plane}@} gives {@{the _constellation diagram_}@}. {@{Distances between points}@} determine {@{error probability under AWGN}@}. <!--SR:!2026-12-07,276,345!2027-01-05,300,345!2026-12-10,278,345!2027-01-27,317,345!fsrs,2029-09-08T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-10-21T00:00:00.000Z-->
+Plotting {@{coordinate vectors}@} of {@{all allowed signals on a Euclidean plane}@} gives {@{the _constellation diagram_}@}. {@{Distances between points}@} determine {@{error probability under AWGN}@}. <!--SR:!fsrs,2030-05-28T00:00:00.000Z,1268,1268.05816008,1,2,9,0,0,2026-12-07T00:00:00.000Z!2027-01-05,300,345!2026-12-10,278,345!2027-01-27,317,345!fsrs,2029-09-08T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-10-21T00:00:00.000Z-->

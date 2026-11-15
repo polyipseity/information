@@ -63,7 +63,7 @@ This set combines transistor, H-bridge, PWM, Boolean-algebra, and gate-design qu
 
 > A two-sensor robot must drive `FORWARD=1` only when both sensors see the line, and `STOP=1` only when neither sensor sees the line. Write the expressions.
 >
-> Solution: If {@{the sensor variables are `L` and `R`}@}, then {@{`FORWARD = LR`}@} and {@{`STOP = L'R'`}@} if {@{1 means on-line}@}. (If the course uses the opposite sensor convention, invert the definitions before implementing.) <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2026-12-07T00:00:00.000Z,39,38.90515015,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> Solution: If {@{the sensor variables are `L` and `R`}@}, then {@{`FORWARD = LR`}@} and {@{`STOP = L'R'`}@} if {@{1 means on-line}@}. (If the course uses the opposite sensor convention, invert the definitions before implementing.) <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-08-17T00:00:00.000Z,253,252.59352738,1,2,3,0,0,2026-12-07T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 ## extra exam-style questions
 

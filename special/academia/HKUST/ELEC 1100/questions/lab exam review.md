@@ -57,7 +57,7 @@ These questions are practical variants based on the lab-exam preparation materia
 
 > A line sensor is adjusted too close to the mat and always reports black. What should be changed first?
 >
-> Solution: Re-adjust {@{the sensor threshold or mounting distance}@} so {@{the reflected-light contrast between white and black surfaces}@} can be {@{distinguished again}@}. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2026-12-07T00:00:00.000Z,39,38.90515015,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> Solution: Re-adjust {@{the sensor threshold or mounting distance}@} so {@{the reflected-light contrast between white and black surfaces}@} can be {@{distinguished again}@}. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-05-09T00:00:00.000Z,153,153.00007099,1,2,3,0,0,2026-12-07T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

@@ -40,7 +40,7 @@ Flashcards for this section are as follows:
 - elementary charge $e$ / defined or measured? ::@:: fixed by definition, so $1.602176634\times10^{-19}\text{ C}$ carries no measurement uncertainty. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - proton and electron charge in units of the elementary charge $e$ ::@:: a proton carries $+e$ and an electron carries $-e$. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - elementary charge $e$ / why a body's charge is a whole-number multiple of it ::@:: no amount of charge smaller than $e$ exists. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- coulomb / number of elementary charges in $1\text{ C}$ ::@:: $1/(1.602176634\times10^{-19}) \approx 6.24\times10^{18}$ elementary charges. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-12-07T00:00:00.000Z,27,26.70418346,4.01060897,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- coulomb / number of elementary charges in $1\text{ C}$ ::@:: $1/(1.602176634\times10^{-19}) \approx 6.24\times10^{18}$ elementary charges. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-04-23T00:00:00.000Z,137,136.52358181,1.99446196,2,3,0,0,2026-12-07T00:00:00.000Z-->
 
 ## conservation of charge
 

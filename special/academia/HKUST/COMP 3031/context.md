@@ -33,7 +33,7 @@ We want to write {@{code that is _modular_}@} by {@{abstracting over the "contex
 
 ### higher-order functions
 
-When {@{a method}@} needs to {@{operate over arbitrary types}@} – for example, {@{a generic `sort`}@} – {@{the natural solution}@} is to {@{type parameterise it}@}: <!--SR:!2027-01-23,344,349!2027-01-28,349,349!fsrs,2030-08-22T00:00:00.000Z,1365,1364.83793445,1,2,9,0,0,2026-11-26T00:00:00.000Z!2026-12-07,307,349!fsrs,2030-10-01T00:00:00.000Z,1397,1396.7899487,1,2,9,0,0,2026-12-04T00:00:00.000Z-->
+When {@{a method}@} needs to {@{operate over arbitrary types}@} – for example, {@{a generic `sort`}@} – {@{the natural solution}@} is to {@{type parameterise it}@}: <!--SR:!2027-01-23,344,349!2027-01-28,349,349!fsrs,2030-08-22T00:00:00.000Z,1365,1364.83793445,1,2,9,0,0,2026-11-26T00:00:00.000Z!fsrs,2030-10-16T00:00:00.000Z,1409,1408.744791,1,2,9,0,0,2026-12-07T00:00:00.000Z!fsrs,2030-10-01T00:00:00.000Z,1397,1396.7899487,1,2,9,0,0,2026-12-04T00:00:00.000Z-->
 
 > [!example] __parameterized sort__
 >
@@ -114,7 +114,7 @@ Now {@{callers}@} need not {@{supply it explicitly \(though it could if it choos
 > sort(strings)  // `sort(strings)(using Ordering.String)`
 > ```
 >
-> The compiler also infers {@{the type argument `T` from the argument list}@}. If {@{a single obvious value exists for a type}@}, the compiler may even infer {@{that _term_ itself (e.g., `Ordering.Int`)}@}. <!--SR:!2027-03-13,388,367!2027-03-08,384,367!2027-03-17,390,367!2026-12-18,316,349!2026-12-23,320,349!2026-12-23,320,349!2026-12-21,319,349!2026-12-07,307,349!fsrs,2030-07-24T00:00:00.000Z,1345,1344.81337366,1,2,9,0,0,2026-11-17T00:00:00.000Z!fsrs,2028-08-01T00:00:00.000Z,680,679.82874571,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z-->
+> The compiler also infers {@{the type argument `T` from the argument list}@}. If {@{a single obvious value exists for a type}@}, the compiler may even infer {@{that _term_ itself (e.g., `Ordering.Int`)}@}. <!--SR:!2027-03-13,388,367!2027-03-08,384,367!2027-03-17,390,367!2026-12-18,316,349!2026-12-23,320,349!2026-12-23,320,349!2026-12-21,319,349!fsrs,2030-10-16T00:00:00.000Z,1409,1408.744791,1,2,9,0,0,2026-12-07T00:00:00.000Z!fsrs,2030-07-24T00:00:00.000Z,1345,1344.81337366,1,2,9,0,0,2026-11-17T00:00:00.000Z!fsrs,2028-08-01T00:00:00.000Z,680,679.82874571,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z-->
 
 The compiler also infers {@{the type argument `T` from the argument list}@}. If {@{a single obvious value exists for a type}@}, the compiler may even infer {@{that _term_ itself (e.g., `Ordering.Int`)}@}, as in the above example. <!--SR:!2027-03-06,381,368!2027-03-14,389,368!2027-03-21,395,368-->
 
@@ -451,7 +451,7 @@ With {@{such `given` instances}@} in scope {@{a polymorphic method}@} can be wri
 >     def >(y: A)   = compare(x, y) > 0
 >     def >=(y: A)  = compare(x, y) >= 0
 > ```
-<!--SR:!2026-12-26,323,349!2026-12-28,325,349!2026-12-07,307,349-->
+<!--SR:!2026-12-26,323,349!2026-12-28,325,349!fsrs,2030-10-16T00:00:00.000Z,1409,1408.744791,1,2,9,0,0,2026-12-07T00:00:00.000Z-->
 
 With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!fsrs,2029-10-22T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-12-24,321,349-->
 

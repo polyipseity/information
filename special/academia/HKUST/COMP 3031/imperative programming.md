@@ -96,7 +96,7 @@ Scala offers a {@{concise `for` syntax}@} that is essentially {@{syntactic sugar
 > ```Scala
 > for i <- 1 until 3 do println(i)
 > ```
-<!--SR:!2026-12-07,258,330!2027-01-18,292,330!fsrs,2029-12-28T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-12-02T00:00:00.000Z-->
+<!--SR:!fsrs,2030-01-18T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-12-07T00:00:00.000Z!2027-01-18,292,330!fsrs,2029-12-28T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-12-02T00:00:00.000Z-->
 
 {@{The translation of nested Java-style loops}@} is also {@{straightforward using nested `for`}@}: <!--SR:!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!fsrs,2030-01-02T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-12-03T00:00:00.000Z-->
 
@@ -131,7 +131,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 > ```
 <!--SR:!fsrs,2029-12-13T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-28T00:00:00.000Z!fsrs,2029-09-03T00:00:00.000Z,1037,1037.49777357,1,2,9,0,0,2026-11-01T00:00:00.000Z!fsrs,2029-08-19T00:00:00.000Z,1026,1025.83973773,1,2,9,0,0,2026-10-28T00:00:00.000Z!2026-12-11,261,330-->
 
-{@{Wires}@} are {@{first‑class values}@}. They expose {@{three operations: `getSignal`, `setSignal`, and `addAction`}@}. {@{`getSignal` and `setSignal`}@} respectively {@{gets and sets the wire's current state}@}. {@{`addAction`}@} adds an action to {@{run whenever the wire state changes}@}. {@{A function}@} can assemble {@{gates into larger components}@}: <!--SR:!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!2026-12-22,270,330!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!fsrs,2029-12-28T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-12-02T00:00:00.000Z!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z!2026-12-07,258,330!fsrs,2029-10-28T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-13T00:00:00.000Z!2026-12-16,265,330!2027-01-03,280,330-->
+{@{Wires}@} are {@{first‑class values}@}. They expose {@{three operations: `getSignal`, `setSignal`, and `addAction`}@}. {@{`getSignal` and `setSignal`}@} respectively {@{gets and sets the wire's current state}@}. {@{`addAction`}@} adds an action to {@{run whenever the wire state changes}@}. {@{A function}@} can assemble {@{gates into larger components}@}: <!--SR:!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!2026-12-22,270,330!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!fsrs,2029-12-28T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-12-02T00:00:00.000Z!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z!fsrs,2030-01-18T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-12-07T00:00:00.000Z!fsrs,2029-10-28T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-13T00:00:00.000Z!2026-12-16,265,330!2027-01-03,280,330-->
 
 > [!example] __half‑adder construction__
 >
@@ -162,7 +162,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 >   def run(): Unit
 > }
 > ```
-<!--SR:!fsrs,2029-12-13T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-28T00:00:00.000Z!2027-01-04,281,330!fsrs,2029-11-02T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-12-07,258,330-->
+<!--SR:!fsrs,2029-12-13T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-28T00:00:00.000Z!2027-01-04,281,330!fsrs,2029-11-02T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-14T00:00:00.000Z!fsrs,2030-01-18T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-12-07T00:00:00.000Z-->
 
 {@{An `afterDelay` call}@} inserts {@{an event into a sorted list}@}; {@{the `run` method}@} repeatedly executes {@{the earliest event until the agenda is empty}@}. {@{Wires react to signal changes}@} by executing {@{all attached actions}@}, which may in turn schedule {@{further events}@}, thereby producing {@{the discrete‑event dynamics of the circuit}@}. <!--SR:!2027-01-20,294,330!fsrs,2029-10-24T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-11-13T00:00:00.000Z!2027-01-15,290,330!fsrs,2030-01-13T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-12-06T00:00:00.000Z!2027-01-16,290,330!2026-12-12,262,330!2026-12-23,271,330!2027-01-14,289,330-->
 

@@ -25,7 +25,7 @@ XLMiner offers {@{2 ways}@} to reduce categories: {@{automatically by frequency 
 
 ### common parameters
 
-- success probability cutoff ::@:: The minimum percentage of values being the "success" value for a set of values to be considered as "success" overall. The cutoff is `>=`, so the percentage equalling the threshold means the set is considered as "success". <!--SR:!2027-12-10,901,335!2026-12-07,692,335-->
+- success probability cutoff ::@:: The minimum percentage of values being the "success" value for a set of values to be considered as "success" overall. The cutoff is `>=`, so the percentage equalling the threshold means the set is considered as "success". <!--SR:!2027-12-10,901,335!fsrs,2034-06-03T00:00:00.000Z,2735,2734.68196941,1,2,10,0,0,2026-12-07T00:00:00.000Z-->
 
 ### decision tree
 
