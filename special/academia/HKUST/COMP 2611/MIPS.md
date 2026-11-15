@@ -35,7 +35,7 @@ Almost always, {@{the number of variables in a program is much higher than the n
 
 The number of registers is {@{a balancing act: it should not be too few or too many}@}. If there are too few, {@{the potentially many variables}@} need to be frequently {@{transferred from and to the main memory \(RAM\), leading to performance loss}@}. If there are too many, processors are {@{more complicated, have higher clock cycle time}@}, which also leads to {@{performance loss}@}. <!--SR:!2029-11-10,1313,350!2029-08-10,1254,350!2029-10-04,1297,350!fsrs,2029-02-03T00:00:00.000Z,856,856.24087686,1,2,8,0,0,2026-10-01T00:00:00.000Z!fsrs,2029-02-12T00:00:00.000Z,864,863.92454151,1,2,8,0,0,2026-10-02T00:00:00.000Z-->
 
-\(__this course__: Note that when doing questions, {@{do not assume registers have a specific value, e.g. 0, unless otherwise specified}@}. That is, you need to {@{initialize its value}@}.\) <!--SR:!fsrs,2032-08-29T00:00:00.000Z,2126,2125.84414965,1,2,10,0,0,2026-11-03T00:00:00.000Z!2026-12-08,492,401-->
+\(__this course__: Note that when doing questions, {@{do not assume registers have a specific value, e.g. 0, unless otherwise specified}@}. That is, you need to {@{initialize its value}@}.\) <!--SR:!fsrs,2032-08-29T00:00:00.000Z,2126,2125.84414965,1,2,10,0,0,2026-11-03T00:00:00.000Z!fsrs,2033-02-16T00:00:00.000Z,2262,2262.21980759,1,2,10,0,0,2026-12-08T00:00:00.000Z-->
 
 ## memory
 

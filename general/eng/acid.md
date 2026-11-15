@@ -31,7 +31,7 @@ Monoprotic acids, also called {@{monobasic acids}@}, are {@{acids that can donat
 
 ### polyprotic acids
 
-Polyprotic acids, also called {@{polybasic acids}@}, are {@{acids that can donate multiple [protons](proton.md) per [molecule](molecule.md) during [dissociation](dissociation%20(chemistry).md)}@}. <!--SR:!2027-06-10,1196,350!2026-12-08,979,290-->
+Polyprotic acids, also called {@{polybasic acids}@}, are {@{acids that can donate multiple [protons](proton.md) per [molecule](molecule.md) during [dissociation](dissociation%20(chemistry).md)}@}. <!--SR:!2027-06-10,1196,350!fsrs,2035-08-19T00:00:00.000Z,3176,3176.08333415,1.98030797,2,11,0,0,2026-12-08T00:00:00.000Z-->
 
 ## references
 

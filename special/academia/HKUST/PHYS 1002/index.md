@@ -723,7 +723,7 @@ The content is in teaching order. Extra information and corrections are included
 ## week 6 lecture 2
 
 - datetime: 2024-07-25T10:00:00+08:00/2024-07-25T12:30:00+08:00
-- Where do [stars](../../../../general/star.md) form? ::@:: They form in interstellar clouds, regions of the interstellar medium that are denser than average. <!--SR:!2027-11-11,981,424!2026-12-08,703,425-->
+- Where do [stars](../../../../general/star.md) form? ::@:: They form in interstellar clouds, regions of the interstellar medium that are denser than average. <!--SR:!2027-11-11,981,424!fsrs,2035-05-20T00:00:00.000Z,3085,3085.35836275,1,2,10,0,0,2026-12-08T00:00:00.000Z-->
 - [interstellar cloud](../../../../general/interstellar%20cloud.md)
 - [interstellar medium](../../../../general/interstellar%20medium.md) ::@:: Mostly empty and transparent space. Can be as dilute as ~0.01 particles/cm<sup>3</sup>. For comparison, Earth's atmosphere has ~10<sup>19</sup> particles/cm<sup>3</sup>, and the best laboratory vacuum on Earth has ~3000 particles/cm<sup>3</sup>. <!--SR:!2028-10-14,1238,405!2028-01-25,1000,385-->
     - [interstellar medium](../../../../general/interstellar%20medium.md) / visibility ::@:: Sometimes the interstellar medium is dense enough for us to see as a usually-fuzzy object, which are called nebulae. Nebulae can emit the full spectrum of electromagnetic radiation, but human eyes can only see the part of nebulae that emit visible light. Radio telescopes can see the radio waves on Earth as well. All other electromagnetic radiation needs to be seen from space as Earth's atmosphere blocks them. <!--SR:!2028-01-20,995,385!2029-05-23,1406,405-->

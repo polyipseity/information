@@ -44,7 +44,7 @@ When {@{a method}@} needs to {@{operate over arbitrary types}@} – for example,
 > ```
 <!--SR:!2027-01-18,339,349!fsrs,2030-10-06T00:00:00.000Z,1401,1400.77653742,1,2,9,0,0,2026-12-05T00:00:00.000Z!2027-01-02,329,349!fsrs,2030-08-17T00:00:00.000Z,1361,1360.83635942,1,2,9,0,0,2026-11-25T00:00:00.000Z!fsrs,2030-09-16T00:00:00.000Z,1385,1384.82036767,1,2,9,0,0,2026-12-01T00:00:00.000Z-->
 
-However, {@{sorting}@} requires {@{an ordering relation `<`}@}, which {@{does not exist for all types}@}.  {@{The resolution}@} is to {@{_parameterise with an ordering_ rather than just a type}@}. <!--SR:!fsrs,2029-10-13T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-12-24,321,349!2026-12-27,324,349!2026-12-08,308,349!2027-01-02,329,349-->
+However, {@{sorting}@} requires {@{an ordering relation `<`}@}, which {@{does not exist for all types}@}.  {@{The resolution}@} is to {@{_parameterise with an ordering_ rather than just a type}@}. <!--SR:!fsrs,2029-10-13T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-12-24,321,349!2026-12-27,324,349!fsrs,2030-10-21T00:00:00.000Z,1413,1412.72658366,1,2,9,0,0,2026-12-08T00:00:00.000Z!2027-01-02,329,349-->
 
 > [!example] __parameterized sort with ordering__
 >
@@ -131,7 +131,7 @@ In Scala, {@{an implicit parameter}@} is introduced through {@{a `using` clause 
 > ```
 <!--SR:!fsrs,2030-09-06T00:00:00.000Z,1377,1376.83234312,1,2,9,0,0,2026-11-29T00:00:00.000Z!fsrs,2030-07-23T00:00:00.000Z,1341,1340.80330866,1,2,9,0,0,2026-11-20T00:00:00.000Z-->
 
-When calling {@{such a method}@}, you may {@{supply the argument explicitly}@} via {@{another `using` clause}@}: <!--SR:!2027-01-28,349,349!2026-12-08,308,349!2026-12-10,310,349-->
+When calling {@{such a method}@}, you may {@{supply the argument explicitly}@} via {@{another `using` clause}@}: <!--SR:!2027-01-28,349,349!fsrs,2030-10-21T00:00:00.000Z,1413,1412.72658366,1,2,9,0,0,2026-12-08T00:00:00.000Z!2026-12-10,310,349-->
 
 > [!example] __`using` in method call__
 >
@@ -192,7 +192,7 @@ Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` c
 
 ### context bound
 
-{@{A shorthand}@} for declaring {@{an implicit parameter}@} is {@{the _context bound_}@}, which {@{expands to a `using` clause under the hood}@}: <!--SR:!2027-01-01,328,349!fsrs,2030-10-01T00:00:00.000Z,1397,1396.7899487,1,2,9,0,0,2026-12-04T00:00:00.000Z!2026-12-08,308,349!fsrs,2030-09-01T00:00:00.000Z,1373,1372.8358637,1,2,9,0,0,2026-11-28T00:00:00.000Z-->
+{@{A shorthand}@} for declaring {@{an implicit parameter}@} is {@{the _context bound_}@}, which {@{expands to a `using` clause under the hood}@}: <!--SR:!2027-01-01,328,349!fsrs,2030-10-01T00:00:00.000Z,1397,1396.7899487,1,2,9,0,0,2026-12-04T00:00:00.000Z!fsrs,2030-10-21T00:00:00.000Z,1413,1412.72658366,1,2,9,0,0,2026-12-08T00:00:00.000Z!fsrs,2030-09-01T00:00:00.000Z,1373,1372.8358637,1,2,9,0,0,2026-11-28T00:00:00.000Z-->
 
 > [!example] __context bound__
 >
@@ -280,7 +280,7 @@ To refer to {@{an instance directly without using `using`}@}, you may {@{use `su
 There are {@{three forms of import}@} to {@{import `given`s}@}: \(annotation: 3 items: {@{by name, by type, by wildcard}@}\) <!--SR:!fsrs,2030-06-18T00:00:00.000Z,1313,1312.68438221,1,2,9,0,0,2026-11-13T00:00:00.000Z!2026-12-25,322,349!2027-01-27,348,349-->
 
 - by name ::@:: `import scala.math.Ordering.Int` <!--SR:!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!2027-01-26,347,349-->
-- by type ::@:: using the `given` keyword, e.g., `import scala.math.Ordering.{given Ordering[Int]}`, `import scala.math.Ordering.{given Ordering[?]}` <!--SR:!fsrs,2030-07-13T00:00:00.000Z,1333,1332.77803171,1,2,9,0,0,2026-11-18T00:00:00.000Z!2026-12-08,308,349-->
+- by type ::@:: using the `given` keyword, e.g., `import scala.math.Ordering.{given Ordering[Int]}`, `import scala.math.Ordering.{given Ordering[?]}` <!--SR:!fsrs,2030-07-13T00:00:00.000Z,1333,1332.77803171,1,2,9,0,0,2026-11-18T00:00:00.000Z!fsrs,2030-10-21T00:00:00.000Z,1413,1412.72658366,1,2,9,0,0,2026-12-08T00:00:00.000Z-->
 - by wildcard ::@:: via a blanket wildcard, e.g. `import scala.math.given` <!--SR:!fsrs,2030-09-11T00:00:00.000Z,1381,1380.82721279,1,2,9,0,0,2026-11-30T00:00:00.000Z!2027-01-23,344,349-->
 
 Since {@{the actual names of `given` instances}@} are {@{irrelevant to resolution}@}, {@{importing by type}@} is {@{preferred}@} because it explicitly {@{states which implicit instance you intend to use}@}. <!--SR:!2026-12-22,320,349!2027-01-02,329,349!2027-01-01,328,349!fsrs,2030-09-06T00:00:00.000Z,1377,1376.83234312,1,2,9,0,0,2026-11-29T00:00:00.000Z!fsrs,2030-07-18T00:00:00.000Z,1337,1336.79156682,1,2,9,0,0,2026-11-19T00:00:00.000Z-->
@@ -308,7 +308,7 @@ Since {@{the actual names of `given` instances}@} are {@{irrelevant to resolutio
 >
 > {@{An `Ordering[List[A]]` exists}@} only when {@{an `Ordering[A]` is available}@}. <!--SR:!2027-03-20,393,370!2027-04-01,404,370!2027-03-20,394,368!2027-03-01,378,368!2027-03-05,380,367!2027-03-07,384,367-->
 
-In {@{some sense}@}, {@{conditional `given`}@} {@{pattern matches on types and their type parameters}@}. In the example above, {@{`listOrdering[A]`}@} pattern matches on {@{`T` in `Ordering[T]`}@} for {@{the pattern `List[A]` in `Ordering[List[A]]`}@}. <!--SR:!fsrs,2030-10-06T00:00:00.000Z,1401,1400.77653742,1,2,9,0,0,2026-12-05T00:00:00.000Z!2027-01-25,346,349!fsrs,2029-10-27T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2030-06-13T00:00:00.000Z,1309,1308.66035919,1,2,9,0,0,2026-11-12T00:00:00.000Z!fsrs,2030-10-11T00:00:00.000Z,1405,1404.76144464,1,2,9,0,0,2026-12-06T00:00:00.000Z!2026-12-08,308,349-->
+In {@{some sense}@}, {@{conditional `given`}@} {@{pattern matches on types and their type parameters}@}. In the example above, {@{`listOrdering[A]`}@} pattern matches on {@{`T` in `Ordering[T]`}@} for {@{the pattern `List[A]` in `Ordering[List[A]]`}@}. <!--SR:!fsrs,2030-10-06T00:00:00.000Z,1401,1400.77653742,1,2,9,0,0,2026-12-05T00:00:00.000Z!2027-01-25,346,349!fsrs,2029-10-27T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2030-06-13T00:00:00.000Z,1309,1308.66035919,1,2,9,0,0,2026-11-12T00:00:00.000Z!fsrs,2030-10-11T00:00:00.000Z,1405,1404.76144464,1,2,9,0,0,2026-12-06T00:00:00.000Z!fsrs,2030-10-21T00:00:00.000Z,1413,1412.72658366,1,2,9,0,0,2026-12-08T00:00:00.000Z-->
 
 ### recursive `given` resolution
 

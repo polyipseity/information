@@ -44,7 +44,7 @@ The content is in teaching order.
         - [basics § arithmetic operators](basics.md#arithmetic%20operators) / note ::@:: They really like testing you on the return type of operators... for a somewhat obvious reason. <!--SR:!2028-09-30,1163,358!2027-02-28,682,330-->
     - [§ mathematics](basics.md#mathematics)
     - [§ string](basics.md#string)
-        - [basics § string](basics.md#string) / note ::@:: They taught `'''` but not `"""` for some reason... But it was later taught in the [week 2 lab 1](#week%202%20lab%201) (lab 1). <!--SR:!2028-04-03,1016,352!2026-12-08,628,330-->
+        - [basics § string](basics.md#string) / note ::@:: They taught `'''` but not `"""` for some reason... But it was later taught in the [week 2 lab 1](#week%202%20lab%201) (lab 1). <!--SR:!2028-04-03,1016,352!fsrs,2033-09-14T00:00:00.000Z,2472,2471.51061934,1,2,10,0,0,2026-12-08T00:00:00.000Z-->
     - [§ output](basics.md#output)
         - [basics § output](basics.md#output) / note ::@:: Jupyter notebooks automatically outputting the value of the last statement without using `print` is also considered "output". Note that strings are outputted, escaped with `\` properly (without unnecessary escapes), and preferably wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`. <!--SR:!2026-12-14,629,343!2028-04-01,1009,363-->
     - [§ variable](basics.md#variable)
