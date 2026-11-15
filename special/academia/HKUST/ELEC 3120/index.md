@@ -24,14 +24,16 @@ tags:
 
 ---
 
-ELEC 3120 is an introductory course in computer networks, emphasizing the performance and engineering tradeoffs behind network design and implementation. It covers congestion, flow, and error control; routing; addressing; naming; multicasting; switching; internetworking; and network security, with examples drawn mainly from the Internet. Grading rests on homework assignments, one semester-long project, one midterm examination, and one final examination.
+ELEC 3120 is an introductory course in computer networks. It covers the performance and engineering tradeoffs behind network design and implementation, with examples drawn mainly from the Internet.
 
 ## children
 
 - [assignments/](assignments/index.md)
+- [tutorials/](tutorials/index.md)
 - [CUBIC TCP](CUBIC%20TCP.md)
 - [Domain Name System](Domain%20Name%20System.md)
 - [Dynamic Adaptive Streaming over HTTP](Dynamic%20Adaptive%20Streaming%20over%20HTTP.md)
+- [Git](Git.md)
 - [HTTP](HTTP.md)
 - [IP address](IP%20address.md)
 - [Mathis equation](Mathis%20equation.md)
@@ -48,6 +50,7 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 - [computer network](computer%20network.md)
 - [congestion collapse](congestion%20collapse.md)
 - [congestion control](congestion%20control.md)
+- [context window](context%20window.md)
 - [fair queuing](fair%20queuing.md)
 - [fairness measure](fairness%20measure.md)
 - [flow control (data)](flow%20control%20(data).md)
@@ -61,7 +64,10 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 - [network calculus](network%20calculus.md)
 - [network delay](network%20delay.md)
 - [packet loss](packet%20loss.md)
+- [plan mode](plan%20mode.md)
 - [progressive download](progressive%20download.md)
+- [project instructions](project%20instructions.md)
+- [prompt engineering](prompt%20engineering.md)
 - [round-trip time](round-trip%20time.md)
 - [selective repeat ARQ](selective%20repeat%20ARQ.md)
 - [sliding window protocol](sliding%20window%20protocol.md)
@@ -99,10 +105,10 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
     - from five late days onward an assignment scores no points
     - late days are counted at the end of the semester in the student's favour
     - extra late days are granted for a crisis or emergency, on request by email with the student's advisor copied
-    - note: the lecture states a different penalty, 10% per assignment for extra late days and nothing accepted more than 48 hours late without a crisis
+    - note: the lecture states a different penalty, 10% per assignment for extra late days, and nothing accepted more than 48 hours late without a crisis
 - assignment timing
     - released on a Friday and due on the Friday two weeks later, with a late deadline on the Sunday two weeks later
-    - support in the instructor's Monday office hours and at other times from the teaching assistants
+    - support at the instructor's Monday office hours, and from the teaching assistants at other times
 - office hours: by appointment, usually Monday afternoon, Rm 2441 (<https://calendar.app.google/XTU8qeeYFiUHh3qv7>)
 - questions: Ed rather than email to the instructor or the teaching assistants (<https://edstem.org/au/courses/41196/discussion>)
 - submissions and feedback: Gradescope, reachable through Canvas (<https://www.gradescope.com/courses/1384476>)
@@ -110,7 +116,7 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 - academic integrity
     - generative AI tools are encouraged, but nothing may be copied and pasted; submissions are checked for similarity and for generated text
     - project code must be the student's own work apart from the starter code, standard libraries, and packages named in the handout; posting it publicly and using posted code are both violations
-    - the material may be discussed with others, but the submission must be the student's own, and code should be written only after going over the discussion again
+    - the material may be discussed with others, but the submission must be the student's own, and code is written only after going over the discussion again
 - accommodations: students registered with the Special Education Needs office bring their accommodations sheet to the instructor for signature, or email a copy
 - written answers: state the answer, its evidence, and a warrant for each piece of evidence; see [answering a question](answering%20a%20question.md)
 - sections
@@ -119,7 +125,7 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
     - tutorials: T2
         - T1: Rm 5583, Lift 29-30; MondayT15:00:00/MondayT15:50:00
         - T2: Rm 2504, Lift 25-26; FridayT15:00:00/FridayT15:50:00
-- note: the lecture and tutorial schedule is tentative; lecture topics, tutorial topics, the midterm, and assignment and project dates may change
+- note: the schedule is tentative; topics, the midterm, and assignment and project dates may change
 - note: all times are Hong Kong time
 
 ## overview
@@ -131,8 +137,8 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
     - internetworking
     - network security
 - course parts
-    - Internet basics: what makes the Internet work, from where the data goes and where domain names come from, to loss, corruption, and why some networks are slow or fast
-    - understanding the network: what makes the Internet better, from content delivery and the versions of HTTP to privacy and the effect of network structure on application performance
+    - Internet basics: how the Internet works, from where data goes and where domain names come from, to loss, corruption, and differences in network speed
+    - understanding the network: what makes the Internet better, from content delivery and the versions of HTTP to privacy and how network structure affects application performance
 - protocols covered: ARP, IP, ICMP, IPSec, OSPF, RIP, NAT, MAC, VLAN, TCP, UDP, QUIC, RTP, RTCP, SDP, DHCP, DNS, SMTP, FTP, IMAP, SSH, PPPoE, MPLS, RPC, HTTP, HTTPS
 - course structure
     - four homework assignments
@@ -179,7 +185,7 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 
 - datetime: 2026-09-04T15:00:00+08:00/2026-09-04T15:50:00+08:00, PT50M
 - venue: Rm 2504, Lift 25-26
-- status: no class
+- status: unscheduled; no tutorial
 
 ## week 2 lecture 1
 
@@ -227,7 +233,12 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 
 - datetime: 2026-09-11T15:00:00+08:00/2026-09-11T15:50:00+08:00, PT50M
 - venue: Rm 2504, Lift 25-26
-- topic: AI-assisted coding; agents, vibe coding, and model access
+- topic: the model and the agent; the execution loop and its tools; model access
+- [tutorial](tutorials/week%202%20tutorial%201/tutorial.md)
+    - [§ model and agent](tutorials/week%202%20tutorial%201/tutorial.md#model%20and%20agent)
+    - [§ execution loop](tutorials/week%202%20tutorial%201/tutorial.md#execution%20loop)
+    - [§ tool set](tutorials/week%202%20tutorial%201/tutorial.md#tool%20set)
+    - [§ model access in Hong Kong](tutorials/week%202%20tutorial%201/tutorial.md#model%20access%20in%20hong%20kong)
 - [agent execution loop](agent%20execution%20loop.md)
     - [§ loop](agent%20execution%20loop.md#loop)
     - [§ core tool set](agent%20execution%20loop.md#core%20tool%20set)
@@ -312,7 +323,7 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 
 - datetime: 2026-09-18T15:00:00+08:00/2026-09-18T15:50:00+08:00, PT50M
 - venue: Rm 2504, Lift 25-26
-- topic: introduction to checkpoint 1
+- status: unscheduled; no tutorial
 
 ## week 4 lecture 1
 
@@ -374,7 +385,33 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 
 - datetime: 2026-09-25T15:00:00+08:00/2026-09-25T15:50:00+08:00, PT50M
 - venue: Rm 2504, Lift 25-26
-- topic: coding advanced; Visual Studio Code, Copilot, and Cursor
+- topic: project history, branches, staging and commits; project instructions, plan mode, and the context window
+- [tutorial](tutorials/week%204%20tutorial%201/tutorial.md)
+    - [§ git](tutorials/week%204%20tutorial%201/tutorial.md#git)
+    - [§ branch](tutorials/week%204%20tutorial%201/tutorial.md#branch)
+    - [§ staging area](tutorials/week%204%20tutorial%201/tutorial.md#staging%20area)
+    - [§ commit](tutorials/week%204%20tutorial%201/tutorial.md#commit)
+    - [§ push](tutorials/week%204%20tutorial%201/tutorial.md#push)
+    - [§ project instructions](tutorials/week%204%20tutorial%201/tutorial.md#project%20instructions)
+    - [§ plan mode](tutorials/week%204%20tutorial%201/tutorial.md#plan%20mode)
+    - [§ context window](tutorials/week%204%20tutorial%201/tutorial.md#context%20window)
+    - [§ context curation](tutorials/week%204%20tutorial%201/tutorial.md#context%20curation)
+    - [§ subscription region](tutorials/week%204%20tutorial%201/tutorial.md#subscription%20region)
+- [Git](Git.md)
+    - [§ project history](Git.md#project%20history)
+    - [§ branch](Git.md#branch)
+    - [§ staging area](Git.md#staging%20area)
+    - [§ commit](Git.md#commit)
+    - [§ push](Git.md#push)
+- [project instructions](project%20instructions.md)
+    - [§ instruction file](project%20instructions.md#instruction%20file)
+    - [§ useful content](project%20instructions.md#useful%20content)
+- [plan mode](plan%20mode.md)
+    - [§ scope review](plan%20mode.md#scope%20review)
+    - [§ planning threshold](plan%20mode.md#planning%20threshold)
+- [context window](context%20window.md)
+    - [§ capacity](context%20window.md#capacity)
+    - [§ context curation](context%20window.md#context%20curation)
 
 ## week 5 lecture 1
 
@@ -384,6 +421,7 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 - [congestion control](congestion%20control.md)
     - [§ hidden capacity](congestion%20control.md#hidden%20capacity)
     - [§ costs of congestion](congestion%20control.md#costs%20of%20congestion)
+    - [§ operating point](congestion%20control.md#operating%20point)
 - [congestion collapse](congestion%20collapse.md)
     - [§ 1986 collapse](congestion%20collapse.md#1986%20collapse)
     - [§ repair in the end hosts](congestion%20collapse.md#repair%20in%20the%20end%20hosts)
@@ -431,7 +469,15 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 
 - datetime: 2026-10-02T15:00:00+08:00/2026-10-02T15:50:00+08:00, PT50M
 - venue: Rm 2504, Lift 25-26
-- topic: introduction to checkpoint 2
+- topic: prompt design for checkpoint 2; agent code review, packet capture and protocol dissection, and validation tests
+- [tutorial](tutorials/week%205%20tutorial%201/tutorial.md)
+    - [§ agent code review](tutorials/week%205%20tutorial%201/tutorial.md#agent%20code%20review)
+    - [§ packet capture](tutorials/week%205%20tutorial%201/tutorial.md#packet%20capture)
+    - [§ protocol dissector](tutorials/week%205%20tutorial%201/tutorial.md#protocol%20dissector)
+    - [§ validation tests](tutorials/week%205%20tutorial%201/tutorial.md#validation%20tests)
+- [prompt engineering](prompt%20engineering.md)
+    - [§ specificity](prompt%20engineering.md#specificity)
+    - [§ layered task prompt](prompt%20engineering.md#layered%20task%20prompt)
 
 ## week 6 lecture 1
 
@@ -472,7 +518,7 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 
 - datetime: 2026-10-09T15:00:00+08:00/2026-10-09T15:50:00+08:00, PT50M
 - venue: Rm 2504, Lift 25-26
-- topic: review of homework 1
+- status: unscheduled; no tutorial
 
 ## week 7 lecture 1
 
@@ -517,7 +563,7 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 
 - datetime: 2026-10-16T15:00:00+08:00/2026-10-16T15:50:00+08:00, PT50M
 - venue: Rm 2504, Lift 25-26
-- topic: using network tools; ping, iperf, traceroute, and Wireshark
+- status: unscheduled; no tutorial
 
 ## week 8 lecture 1
 
@@ -525,18 +571,41 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 - venue: LTL, CYT Bldg
 - status: public holiday: day following Chung Yeung Festival
 
+<!-- check: ignore-next-line[session_next_lecture_remark]: verbatim midterm announcement; a major grading event is the rule's stated exception -->
 ## week 8 lecture 2
 
-- datetime: 2026-10-23T09:00:00+08:00
-- venue: \[missing\]
+- datetime: 2026-10-23T09:00:00+08:00/2026-10-23T10:20:00+08:00, PT1H20M
+- venue: LTL, CYT Bldg
 - status: unscheduled; midterm examination
 - [§ midterm examination](#midterm%20examination)
+
+---
+
+> __Midterm is coming!!!__
+>
+> Hi folks,
+>
+> Ta-da! The exciting midterm will come next Friday! Here are some logistics about the midterm.
+>
+> - The midterm will be held next Friday (23 Oct) from 9 am to 10:20 am.
+> - The midterm will cover the contents for lectures 1-9 (application + trasnport).
+> - The location is __LTL__! The lecture room we have every week. You must make sure the seat on either side of you is vacant.
+> - You can bring one sheet of A4 paper as a cheat sheet. You can write/print on both sides.
+> - You can bring a calculator to the test if you want.
+>
+> __Midterm review lecture:__ Last Friday, I distributed some copies of practice questions. I cannot upload it to Canvas, neither should you distribute it in any format. So please come to the lecture and pick up your copy. But remember, homework and slides are the best materials for the midterm. If you didn't pick it up, come to my office next Thursday.
+>
+> __Special office hours:__ Next week we will have a special office hours at 2-4pm, Thursday, at Room 2441. You are always welcome to shoot me an email to schedule another time, or post questions on Ed.
+>
+> Good luck! Please spread the word and make sure everyone come.
+>
+> \[redacted\]
 
 ## week 8 tutorial 1
 
 - datetime: 2026-10-23T15:00:00+08:00/2026-10-23T15:50:00+08:00, PT50M
 - venue: Rm 2504, Lift 25-26
-- topic: project Q&A
+- status: unscheduled; no tutorial
 
 ## week 9 lecture 1
 
@@ -554,7 +623,7 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 
 - datetime: 2026-10-30T15:00:00+08:00/2026-10-30T15:50:00+08:00, PT50M
 - venue: Rm 2504, Lift 25-26
-- topic: review of homework 2
+- status: unscheduled; no tutorial
 
 ## week 10 lecture 1
 
@@ -573,7 +642,7 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 
 - datetime: 2026-11-06T15:00:00+08:00/2026-11-06T15:50:00+08:00, PT50M
 - venue: Rm 2504, Lift 25-26
-- topic: introduction to checkpoint 3
+- status: unscheduled; no tutorial
 
 ## week 11 lecture 1
 
@@ -592,7 +661,7 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 
 - datetime: 2026-11-13T15:00:00+08:00/2026-11-13T15:50:00+08:00, PT50M
 - venue: Rm 2504, Lift 25-26
-- topic: review of homework 3
+- status: unscheduled; no tutorial
 
 ## week 12 lecture 1
 
@@ -611,7 +680,7 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 
 - datetime: 2026-11-20T15:00:00+08:00/2026-11-20T15:50:00+08:00, PT50M
 - venue: Rm 2504, Lift 25-26
-- topic: introduction to checkpoint 4
+- status: unscheduled; no tutorial
 
 ## week 13 lecture 1
 
@@ -630,7 +699,7 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 
 - datetime: 2026-11-27T15:00:00+08:00/2026-11-27T15:50:00+08:00, PT50M
 - venue: Rm 2504, Lift 25-26
-- topic: review of homework 4 and final review
+- status: unscheduled; no tutorial
 
 ## week 14 lecture 1
 
@@ -642,25 +711,27 @@ ELEC 3120 is an introductory course in computer networks, emphasizing the perfor
 
 - datetime: 2026-12-04T15:00:00+08:00/2026-12-04T15:50:00+08:00, PT50M
 - venue: Rm 2504, Lift 25-26
-- status: no class
+- status: unscheduled; no tutorial
 
 ## midterm examination
 
-- datetime: 2026-10-23T09:00:00+08:00
-- venue: \[missing\]
-- scope: all prior content
+- datetime: 2026-10-23T09:00:00+08:00/2026-10-23T10:20:00+08:00
+- venue: LTL, CYT Bldg
+- scope: lectures 1 to 9, application and transport
 - format:
-    - calculator: \[missing\]
-    - cheatsheet: \[missing\]
+    - calculator: yes
+    - cheatsheet: yes (one A4 sheet, both sides, written or printed)
         - [`midterm examination cheatsheet.pdf`](midterm%20examination%20cheatsheet.pdf)
         - [`midterm examination cheatsheet.typ`](midterm%20examination%20cheatsheet.typ)
-    - open book: \[missing\]
-    - open notes: \[missing\]
-    - questions: \[missing\]
+    - open book: no
+    - open notes: no
+    - questions: 10 to 15 multiple choice questions and 3 to 5 long questions
 - grade: \[missing\]
 - statistics: \[missing\]
 - breakdown: \[missing\]
-- note: tentative; the start time is fixed without a stated end time
+- note: one seat on each side of the student stays vacant
+- note: the review lecture on 2026-10-16 handed out practice questions on paper; they are not published to Canvas, and redistributing them is not allowed
+- note: special office hours before the examination: 2026-10-22T14:00:00+08:00/2026-10-22T16:00:00+08:00, Rm 2441
 - report: \[missing\]
 
 ## final examination
