@@ -23,7 +23,7 @@ tags:
 
 - see: [general/state (computer science)](../../../../general/state%20(computer%20science).md)
 
-{@{__State__}@} is the notion that {@{a program can carry data that changes over time}@}, breaking {@{referential transparency}@}. In {@{functional programming}@} we usually {@{try to avoid it}@}, but in {@{many practical systems – such as databases or user interfaces}@} – {@{mutable state is unavoidable}@}. The following sections describe how {@{Scala models state and why it matters for reasoning about programs}@}. <!--SR:!2026-12-29,270,330!2026-12-10,255,330!2026-12-21,263,330!fsrs,2029-10-05T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-13T00:00:00.000Z!fsrs,2029-09-05T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2029-12-14T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-29T00:00:00.000Z!2026-12-28,269,330!2026-12-15,259,330-->
+{@{__State__}@} is the notion that {@{a program can carry data that changes over time}@}, breaking {@{referential transparency}@}. In {@{functional programming}@} we usually {@{try to avoid it}@}, but in {@{many practical systems – such as databases or user interfaces}@} – {@{mutable state is unavoidable}@}. The following sections describe how {@{Scala models state and why it matters for reasoning about programs}@}. <!--SR:!2026-12-29,270,330!fsrs,2030-01-09T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-12-10T00:00:00.000Z!2026-12-21,263,330!fsrs,2029-10-05T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-13T00:00:00.000Z!fsrs,2029-09-05T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2029-12-14T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-29T00:00:00.000Z!2026-12-28,269,330!2026-12-15,259,330-->
 
 ## substitution model
 
@@ -92,7 +92,7 @@ tags:
 
 {@{Instances of `BankAccountProxy`}@} are {@{stateful}@} because they expose {@{the mutable behaviour of the wrapped account}@}, showing that {@{statefulness is _infectious_}@}. <!--SR:!2026-12-15,259,330!2026-12-20,263,330!2026-12-25,267,330!2026-12-19,261,330-->
 
-Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on the function inputs}@}. For example, {@{a lazy list built with a mutable field to cache the `tail`}@} is either {@{stateless or stateful}@} depending if {@{the `tail` expression `tl` is stateful}@}: <!--SR:!2026-12-29,270,330!fsrs,2029-10-10T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-12-10,255,330!fsrs,2029-10-10T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-14T00:00:00.000Z!fsrs,2029-12-14T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-29T00:00:00.000Z-->
+Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on the function inputs}@}. For example, {@{a lazy list built with a mutable field to cache the `tail`}@} is either {@{stateless or stateful}@} depending if {@{the `tail` expression `tl` is stateful}@}: <!--SR:!2026-12-29,270,330!fsrs,2029-10-10T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-14T00:00:00.000Z!fsrs,2030-01-09T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-12-10T00:00:00.000Z!fsrs,2029-10-10T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-14T00:00:00.000Z!fsrs,2029-12-14T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-29T00:00:00.000Z-->
 
 > [!example] __mutable tail list implementation__
 >
@@ -107,7 +107,7 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 >       case None =>
 >         tlOpt = Some(tl); tail
 > ```
-<!--SR:!fsrs,2029-10-24T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-17T00:00:00.000Z!2026-12-20,263,330!2026-12-10,255,330-->
+<!--SR:!fsrs,2029-10-24T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-17T00:00:00.000Z!2026-12-20,263,330!fsrs,2030-01-09T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-12-10T00:00:00.000Z-->
 
 ## `var`
 

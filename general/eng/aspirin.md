@@ -54,7 +54,7 @@ return await memorize_table(
 - [analgesic](analgesic.md)→::@::←[anti-inflammation](anti-inflammatory.md) <!--SR:!fsrs,2036-08-08T00:00:00.000Z,3549,3548.63757053,1,2,11,0,0,2026-11-20T00:00:00.000Z!2033-10-17,2870,330-->
 - [anti-inflammation](anti-inflammatory.md)→::@::←prevention of [heart attack](myocardial%20infarction.md) <!--SR:!2028-10-15,1571,350!fsrs,2036-03-29T00:00:00.000Z,3453,3453.3209386,1,2,11,0,0,2026-10-15T00:00:00.000Z-->
 - prevention of [heart attack](myocardial%20infarction.md)→::@::←relieve [fever](fever.md) <!--SR:!2026-12-13,1007,330!2031-02-13,1904,330-->
-- relieve [fever](fever.md)→::@::←_(end)_ <!--SR:!2026-12-10,965,330!2027-03-24,904,290-->
+- relieve [fever](fever.md)→::@::←_(end)_ <!--SR:!fsrs,2036-10-19T00:00:00.000Z,3601,3601.0812277,1,2,11,0,0,2026-12-10T00:00:00.000Z!2027-03-24,904,290-->
 
 <!--/pytextgen-->
 

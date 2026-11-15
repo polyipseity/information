@@ -100,7 +100,7 @@ Given {@{a basis $\{e_i\}$}@}, {@{the _coordinate representation_}@} is {@{$$[a]
 
 ### linear independence
 
-{@{Vectors $a_1,\dots,a_n$}@} are {@{_linearly independent_}@} if {@{the only solution to $\sum_{i=1}^{n}\lambda_i a_i = 0$}@} is {@{$\lambda_i=0$ for all $i$}@}. <!--SR:!fsrs,2028-08-16T00:00:00.000Z,667,667.15687335,2.49272837,2,9,0,0,2026-10-19T00:00:00.000Z!2026-12-10,279,345!2026-12-15,283,345!2027-02-26,343,345-->
+{@{Vectors $a_1,\dots,a_n$}@} are {@{_linearly independent_}@} if {@{the only solution to $\sum_{i=1}^{n}\lambda_i a_i = 0$}@} is {@{$\lambda_i=0$ for all $i$}@}. <!--SR:!fsrs,2028-08-16T00:00:00.000Z,667,667.15687335,2.49272837,2,9,0,0,2026-10-19T00:00:00.000Z!fsrs,2030-06-12T00:00:00.000Z,1280,1280.00907103,1,2,9,0,0,2026-12-10T00:00:00.000Z!2026-12-15,283,345!2027-02-26,343,345-->
 
 ### triangle inequality
 
@@ -154,4 +154,4 @@ Assigning {@{distinct vectors to each symbol}@} transmits {@{more than one bit p
 
 ### constellation diagram
 
-Plotting {@{coordinate vectors}@} of {@{all allowed signals on a Euclidean plane}@} gives {@{the _constellation diagram_}@}. {@{Distances between points}@} determine {@{error probability under AWGN}@}. <!--SR:!fsrs,2030-05-28T00:00:00.000Z,1268,1268.05816008,1,2,9,0,0,2026-12-07T00:00:00.000Z!2027-01-05,300,345!2026-12-10,278,345!2027-01-27,317,345!fsrs,2029-09-08T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-10-21T00:00:00.000Z-->
+Plotting {@{coordinate vectors}@} of {@{all allowed signals on a Euclidean plane}@} gives {@{the _constellation diagram_}@}. {@{Distances between points}@} determine {@{error probability under AWGN}@}. <!--SR:!fsrs,2030-05-28T00:00:00.000Z,1268,1268.05816008,1,2,9,0,0,2026-12-07T00:00:00.000Z!2027-01-05,300,345!fsrs,2030-06-08T00:00:00.000Z,1276,1276.02718127,1,2,9,0,0,2026-12-10T00:00:00.000Z!2027-01-27,317,345!fsrs,2029-09-08T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-10-21T00:00:00.000Z-->

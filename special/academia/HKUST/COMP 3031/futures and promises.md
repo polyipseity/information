@@ -45,7 +45,7 @@ A common early pattern is {@{_continuation-passing style_ (CPS), or more commonl
 
 ### drawbacks of CPS
 
-Apart from being ugly to {@{compose asynchronous steps (_callback hell_)}@}, CPS inflates {@{type signatures}@}: {@{every function that participates in an async flow}@} must accept {@{a callback, turning simple `A => B` into `A => (B => Unit)`}@}. Callbacks also hide {@{the thread on which they run}@}; if a callback mutates {@{shared state without proper synchronization}@}, {@{race conditions can arise}@}. For example: <!--SR:!fsrs,2029-12-06T00:00:00.000Z,1110,1109.50126871,1,2,9,0,0,2026-11-22T00:00:00.000Z!2027-01-02,276,330!2027-01-24,294,330!2026-12-22,267,330!2027-01-01,275,330!2026-12-22,267,330!2026-12-10,257,330-->
+Apart from being ugly to {@{compose asynchronous steps (_callback hell_)}@}, CPS inflates {@{type signatures}@}: {@{every function that participates in an async flow}@} must accept {@{a callback, turning simple `A => B` into `A => (B => Unit)`}@}. Callbacks also hide {@{the thread on which they run}@}; if a callback mutates {@{shared state without proper synchronization}@}, {@{race conditions can arise}@}. For example: <!--SR:!fsrs,2029-12-06T00:00:00.000Z,1110,1109.50126871,1,2,9,0,0,2026-11-22T00:00:00.000Z!2027-01-02,276,330!2027-01-24,294,330!2026-12-22,267,330!2027-01-01,275,330!2026-12-22,267,330!fsrs,2030-01-17T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-12-10T00:00:00.000Z-->
 
 > [!example] __race condition in CPS__
 >
@@ -254,7 +254,7 @@ In {@{a dataflow graph}@}, a node may have {@{several inputs}@}; in code this is
 > } yield makeCoffee(b, w)                       // node 3 depends on 1 and 2
 > ```
 >
-> {@{The `for`‑comprehension}@} expands to {@{`beans.flatMap { ... }.zip(water).map{…}`}@}, which is {@{a concise dataflow representation}@}. When {@{either `beans` or `water` fails}@}, {@{the whole pipeline fails immediately}@}; if {@{both succeed}@}, `brew` starts only {@{after the two inputs arrive}@}. <!--SR:!2026-12-10,257,330!2027-01-01,275,330!fsrs,2029-12-08T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-23T00:00:00.000Z!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!2027-01-16,286,330!2026-12-21,266,330!2026-12-17,263,330!2027-01-22,292,330!fsrs,2029-08-24T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-10-29T00:00:00.000Z-->
+> {@{The `for`‑comprehension}@} expands to {@{`beans.flatMap { ... }.zip(water).map{…}`}@}, which is {@{a concise dataflow representation}@}. When {@{either `beans` or `water` fails}@}, {@{the whole pipeline fails immediately}@}; if {@{both succeed}@}, `brew` starts only {@{after the two inputs arrive}@}. <!--SR:!fsrs,2030-01-17T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-12-10T00:00:00.000Z!2027-01-01,275,330!fsrs,2029-12-08T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-23T00:00:00.000Z!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!2027-01-16,286,330!2026-12-21,266,330!2026-12-17,263,330!2027-01-22,292,330!fsrs,2029-08-24T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-10-29T00:00:00.000Z-->
 
 {@{A `Promise`}@} can be used when {@{an external event must feed into the graph}@}. The producer {@{completes the promise}@}, which triggers {@{all dependent futures}@}: <!--SR:!2026-12-26,271,330!fsrs,2029-08-09T00:00:00.000Z,1018,1018.05728725,1,2,9,0,0,2026-10-26T00:00:00.000Z!fsrs,2029-11-13T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-17T00:00:00.000Z!2027-01-24,294,330-->
 

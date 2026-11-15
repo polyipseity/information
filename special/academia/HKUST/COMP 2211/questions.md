@@ -1216,7 +1216,7 @@ tags:
 > 4. The resulting image consists of pure black and pure white, and no other colors.
 >
 > - solution: {@{2}@}
-> - explanation: {@{This depends on your definition of the threshold function. The threshold function used in this course is 255 if larger than or _equal to_ the threshold.}@} <!--SR:!2029-07-13,1286,350!2026-12-10,526,310-->
+> - explanation: {@{This depends on your definition of the threshold function. The threshold function used in this course is 255 if larger than or _equal to_ the threshold.}@} <!--SR:!2029-07-13,1286,350!fsrs,2032-05-08T00:00:00.000Z,1976,1976.35394508,1,2,10,0,0,2026-12-10T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

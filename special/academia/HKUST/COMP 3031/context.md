@@ -131,7 +131,7 @@ In Scala, {@{an implicit parameter}@} is introduced through {@{a `using` clause 
 > ```
 <!--SR:!fsrs,2030-09-06T00:00:00.000Z,1377,1376.83234312,1,2,9,0,0,2026-11-29T00:00:00.000Z!fsrs,2030-07-23T00:00:00.000Z,1341,1340.80330866,1,2,9,0,0,2026-11-20T00:00:00.000Z-->
 
-When calling {@{such a method}@}, you may {@{supply the argument explicitly}@} via {@{another `using` clause}@}: <!--SR:!2027-01-28,349,349!fsrs,2030-10-21T00:00:00.000Z,1413,1412.72658366,1,2,9,0,0,2026-12-08T00:00:00.000Z!2026-12-10,310,349-->
+When calling {@{such a method}@}, you may {@{supply the argument explicitly}@} via {@{another `using` clause}@}: <!--SR:!2027-01-28,349,349!fsrs,2030-10-21T00:00:00.000Z,1413,1412.72658366,1,2,9,0,0,2026-12-08T00:00:00.000Z!fsrs,2030-10-31T00:00:00.000Z,1421,1420.68519039,1,2,9,0,0,2026-12-10T00:00:00.000Z-->
 
 > [!example] __`using` in method call__
 >
@@ -158,7 +158,7 @@ However, {@{explicit passing}@} is {@{usually unnecessary}@}. If the caller {@{o
 > ```
 <!--SR:!2026-12-26,323,349!fsrs,2029-10-08T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-10-01T00:00:00.000Z!fsrs,2030-08-16T00:00:00.000Z,1363,1363.40564442,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2030-08-22T00:00:00.000Z,1365,1364.83793445,1,2,9,0,0,2026-11-26T00:00:00.000Z-->
 
-Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` clauses}@} can also be {@{interleaved with ordinary parameter lists}@}, allowing {@{a mix of implicit and explicit arguments}@}: <!--SR:!2027-01-02,329,349!fsrs,2030-08-08T00:00:00.000Z,1357,1356.83314545,1,2,9,0,0,2026-11-20T00:00:00.000Z!fsrs,2030-09-01T00:00:00.000Z,1373,1372.8358637,1,2,9,0,0,2026-11-28T00:00:00.000Z!2026-12-10,310,349!2027-01-29,350,349-->
+Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` clauses}@} can also be {@{interleaved with ordinary parameter lists}@}, allowing {@{a mix of implicit and explicit arguments}@}: <!--SR:!2027-01-02,329,349!fsrs,2030-08-08T00:00:00.000Z,1357,1356.83314545,1,2,9,0,0,2026-11-20T00:00:00.000Z!fsrs,2030-09-01T00:00:00.000Z,1373,1372.8358637,1,2,9,0,0,2026-11-28T00:00:00.000Z!fsrs,2030-10-31T00:00:00.000Z,1421,1420.68519039,1,2,9,0,0,2026-12-10T00:00:00.000Z!2027-01-29,350,349-->
 
 > [!example] __`using` in multiple parameter lists__
 >
@@ -225,7 +225,7 @@ Scala 3 introduces {@{_`given` instances_}@} – {@{values}@} that can be {@{aut
 > ```
 <!--SR:!2027-01-24,345,349!2026-12-18,316,349!fsrs,2030-08-22T00:00:00.000Z,1365,1364.83793445,1,2,9,0,0,2026-11-26T00:00:00.000Z!fsrs,2028-04-12T05:15:40.028Z,677,676.62994752,1,2,8,0,0,2026-06-05T05:15:40.028Z-->
 
-{@{Anonymous instances}@} can be {@{declared without a name}@}; the compiler will {@{create a new instance and generate a name}@}: <!--SR:!fsrs,2030-10-06T00:00:00.000Z,1401,1400.77653742,1,2,9,0,0,2026-12-05T00:00:00.000Z!2026-12-10,310,349!2027-01-20,341,349-->
+{@{Anonymous instances}@} can be {@{declared without a name}@}; the compiler will {@{create a new instance and generate a name}@}: <!--SR:!fsrs,2030-10-06T00:00:00.000Z,1401,1400.77653742,1,2,9,0,0,2026-12-05T00:00:00.000Z!fsrs,2030-10-31T00:00:00.000Z,1421,1420.68519039,1,2,9,0,0,2026-12-10T00:00:00.000Z!2027-01-20,341,349-->
 
 > [!example] __`Ordering[Double]`__
 >

@@ -30,7 +30,7 @@ Actors provide {@{a clean abstraction for parallelism}@}: they eliminate {@{shar
 
 ### actor vs. thread
 
-{@{A thread}@} is {@{a lightweight execution context}@} that shares {@{the same address space as every other thread}@}. When two threads {@{modify the same variable}@}, they must coordinate through {@{synchronization primitives}@}. In contrast, an actor has {@{its own private mailbox}@}; it processes {@{one message at a time in its own event loop}@}. {@{The cost of creating many actors}@} is {@{far lower than spawning thousands of threads}@}, and the runtime can schedule {@{them efficiently on the available cores}@}. <!--SR:!2026-12-31,276,330!2027-01-22,294,330!2027-01-18,290,330!2026-12-18,263,330!2026-12-11,257,330!2027-01-10,284,330!2026-12-31,276,330!2026-12-10,259,330!2027-01-10,284,330!2026-12-20,264,330-->
+{@{A thread}@} is {@{a lightweight execution context}@} that shares {@{the same address space as every other thread}@}. When two threads {@{modify the same variable}@}, they must coordinate through {@{synchronization primitives}@}. In contrast, an actor has {@{its own private mailbox}@}; it processes {@{one message at a time in its own event loop}@}. {@{The cost of creating many actors}@} is {@{far lower than spawning thousands of threads}@}, and the runtime can schedule {@{them efficiently on the available cores}@}. <!--SR:!2026-12-31,276,330!2027-01-22,294,330!2027-01-18,290,330!2026-12-18,263,330!2026-12-11,257,330!2027-01-10,284,330!2026-12-31,276,330!fsrs,2030-01-25T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-12-10T00:00:00.000Z!2027-01-10,284,330!2026-12-20,264,330-->
 
 ### avoiding synchronization
 
@@ -72,7 +72,7 @@ Consider a bank account example where {@{two concurrent deposits update a shared
 >   }
 > ```
 >
-> If `transfer(a,b,x)` runs {@{concurrently with `transfer(b,a,y)`}@}, each thread holds {@{one lock and waits for the other}@}, causing {@{a deadlock}@}. <!--SR:!2026-12-14,262,330!fsrs,2029-12-26T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-12-03T00:00:00.000Z!2026-12-21,268,330!2026-12-10,256,330!2027-01-16,289,330!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z-->
+> If `transfer(a,b,x)` runs {@{concurrently with `transfer(b,a,y)`}@}, each thread holds {@{one lock and waits for the other}@}, causing {@{a deadlock}@}. <!--SR:!2026-12-14,262,330!fsrs,2029-12-26T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-12-03T00:00:00.000Z!2026-12-21,268,330!fsrs,2030-01-13T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-12-10T00:00:00.000Z!2027-01-16,289,330!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z-->
 
 {@{An actor version of `BankAccount`}@}, `BankActor`, removes {@{the lock}@}: <!--SR:!fsrs,2029-11-27T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-11-20T00:00:00.000Z!2026-12-24,270,330-->
 
@@ -122,7 +122,7 @@ Actors process {@{each message _sequentially_}@}, so {@{no explicit locks are ne
 >
 > {@{A concrete actor}@} supplies {@{a `receive` method}@} that {@{pattern matches on received messages}@}. <!--SR:!2027-01-08,280,330!2026-12-29,272,330!2026-12-13,261,330!2027-01-07,279,330!fsrs,2029-12-18T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-11-25T00:00:00.000Z-->
 
-{@{A minimal example}@} shows {@{an actor}@} that counts {@{how many times it has been told to increment}@}: <!--SR:!2026-12-18,263,330!2026-12-10,259,330!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z-->
+{@{A minimal example}@} shows {@{an actor}@} that counts {@{how many times it has been told to increment}@}: <!--SR:!2026-12-18,263,330!fsrs,2030-01-25T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-12-10T00:00:00.000Z!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z-->
 
 > [!example] __`Counter` actor__
 >
@@ -339,7 +339,7 @@ In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two oper
 >     case _                    => sender() ! Failed
 > }
 > ```
-<!--SR:!2026-12-10,259,330!2026-12-24,270,330!2026-12-21,268,330!fsrs,2029-09-22T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-04T00:00:00.000Z!fsrs,2029-12-07T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-31,276,330-->
+<!--SR:!fsrs,2030-01-25T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-12-10T00:00:00.000Z!2026-12-24,270,330!2026-12-21,268,330!fsrs,2029-09-22T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-04T00:00:00.000Z!fsrs,2029-12-07T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-31,276,330-->
 
 {@{A `WireTransfer` actor}@} demonstrates how {@{two bank accounts can cooperate without shared state}@}. It first asks {@{the source account to withdraw}@}, waits for {@{its reply}@}, and only then {@{deposits into the destination}@}. <!--SR:!2027-01-12,285,330!fsrs,2029-12-18T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-11-25T00:00:00.000Z!2027-01-16,286,330!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!2027-01-02,277,330-->
 
@@ -445,7 +445,7 @@ When {@{several messages are sent to the same recipient}@} they keep {@{the orde
 >   }, exec)
 >   p.future
 > ```
-<!--SR:!2026-12-10,259,330!2026-12-31,276,330!2027-01-22,291,330-->
+<!--SR:!fsrs,2030-01-25T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-12-10T00:00:00.000Z!2026-12-31,276,330!2027-01-22,291,330-->
 
 {@{A `Getter` actor}@} fetches {@{a URL asynchronously}@}, extracts {@{links with Jsoup}@}, forwards them to {@{its parent controller}@}, and stops {@{itself when finished or on failure}@}. {@{The `pipeTo` helper}@} simplifies sending {@{the future result back to the actor}@}. <!--SR:!2027-01-25,294,330!2027-01-04,279,330!2027-01-18,290,330!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z!fsrs,2029-12-21T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-12-02T00:00:00.000Z!2027-01-21,293,330!fsrs,2029-09-27T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-05T00:00:00.000Z-->
 
@@ -560,13 +560,13 @@ Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A cont
 
 {@{Actors}@} are conceived as {@{replaceable workers that communicate only through messages}@}. {@{The design of an actor application}@} starts by decomposing {@{the task into independent actors}@}, drawing {@{a diagram of their interactions}@} and then wiring them together with {@{simple message types}@}. Then, following {@{the principles below}@} to implement {@{the actor application}@}. <!--SR:!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z!2027-01-20,292,330!2026-12-30,275,330!2026-12-27,270,330!2027-01-18,290,330!fsrs,2029-12-02T00:00:00.000Z,1106,1105.65458238,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2030-01-20T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-12-09T00:00:00.000Z!fsrs,2029-11-13T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-17T00:00:00.000Z-->
 
-Actors are {@{_event‑driven_}@}: they wait for {@{a message in their mailbox}@} and then {@{process it}@}. Because {@{sending a message is an asynchronous operation}@}, the sender continues {@{immediately without blocking}@}. This pattern keeps {@{the system responsive even under heavy load}@} and aligns with {@{reactive streams principles where data flows through event pipelines}@}. <!--SR:!2026-12-26,272,330!2027-01-17,290,330!2027-01-04,279,330!fsrs,2029-11-27T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-11-20T00:00:00.000Z!2027-01-02,277,330!fsrs,2029-12-30T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-12-04T00:00:00.000Z!2026-12-10,259,330-->
+Actors are {@{_event‑driven_}@}: they wait for {@{a message in their mailbox}@} and then {@{process it}@}. Because {@{sending a message is an asynchronous operation}@}, the sender continues {@{immediately without blocking}@}. This pattern keeps {@{the system responsive even under heavy load}@} and aligns with {@{reactive streams principles where data flows through event pipelines}@}. <!--SR:!2026-12-26,272,330!2027-01-17,290,330!2027-01-04,279,330!fsrs,2029-11-27T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-11-20T00:00:00.000Z!2027-01-02,277,330!fsrs,2029-12-30T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-12-04T00:00:00.000Z!fsrs,2030-01-25T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-12-10T00:00:00.000Z-->
 
 {@{An actor’s code}@} runs on {@{a dispatcher—a thread pool that can be shared among many actors}@}. The same dispatcher often executes {@{`Future` computations as well}@}, allowing actors to {@{off‑load work without spawning extra threads}@}. {@{Choosing an appropriate dispatcher (e.g., a bounded thread pool)}@} prevents actors from exhausting {@{system resources}@}. <!--SR:!fsrs,2030-01-10T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-12-07T00:00:00.000Z!fsrs,2030-01-04T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-12-05T00:00:00.000Z!2027-01-24,293,330!fsrs,2029-10-30T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-15T00:00:00.000Z!fsrs,2029-10-23T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-12-21,265,330-->
 
 Actors should expose only {@{immutable data to callers}@}. Inside an actor, {@{mutable fields may be used}@}, but they are never {@{shared with other code}@}. When an actor replies, it sends {@{a copy of its internal data rather than the original object}@}. Using {@{immutable snapshots}@} guarantees that {@{concurrent reads do not corrupt state}@}. <!--SR:!2027-01-16,289,330!2027-01-06,281,330!fsrs,2029-12-07T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-15,263,330!2026-12-15,260,330!fsrs,2029-12-05T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-11-28T00:00:00.000Z-->
 
-Actors often have {@{several logical states (e.g., idle, processing)}@}. The {@{`context.become` method}@} replaces {@{the current message handler with a new one and optionally keeps the old state}@}. {@{State‑specific logic is thus kept local}@}, reducing {@{accidental interaction with unrelated behaviours}@}. <!--SR:!2026-12-10,256,330!2026-12-25,271,330!fsrs,2029-10-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-07T00:00:00.000Z!fsrs,2030-01-15T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-12-08T00:00:00.000Z!fsrs,2029-10-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-07T00:00:00.000Z-->
+Actors often have {@{several logical states (e.g., idle, processing)}@}. The {@{`context.become` method}@} replaces {@{the current message handler with a new one and optionally keeps the old state}@}. {@{State‑specific logic is thus kept local}@}, reducing {@{accidental interaction with unrelated behaviours}@}. <!--SR:!fsrs,2030-01-13T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-12-10T00:00:00.000Z!2026-12-25,271,330!fsrs,2029-10-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-07T00:00:00.000Z!fsrs,2030-01-15T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-12-08T00:00:00.000Z!fsrs,2029-10-03T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-07T00:00:00.000Z-->
 
 When an actor sends {@{a blocking message to another actor}@} or starts {@{a `Future`}@}, the original actor must not read {@{its own mutable fields until the callback completes}@}. Any required data should be {@{copied into the message}@} so that it remains {@{valid during the call}@}. <!--SR:!2026-12-13,261,330!fsrs,2029-12-15T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-30T00:00:00.000Z!2027-01-15,288,330!2027-01-09,283,330!fsrs,2029-11-14T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-18T00:00:00.000Z-->
 

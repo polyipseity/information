@@ -92,7 +92,7 @@ return chain.from_iterable([r.value for r in results])
 
 - [Ward's method](Ward's%20method.md):@:MISSQ, minimum increase of sum of squares <!--SR:!2027-07-07,804,275-->
 - centroid linkage clustering:@:UPGMC, unweighted centroid clustering <!--SR:!2031-05-27,1904,315-->
-- [complete-linkage clustering](complete-linkage%20clustering.md):@:maximum linkage clustering <!--SR:!2026-12-10,744,335-->
+- [complete-linkage clustering](complete-linkage%20clustering.md):@:maximum linkage clustering <!--SR:!fsrs,2034-12-02T00:00:00.000Z,2914,2913.67104938,1,2,11,0,0,2026-12-10T00:00:00.000Z-->
 - median linkage clustering:@:WPGMC, weighted centroid clustering <!--SR:!2027-06-27,706,255-->
 - [single-linkage clustering](single-linkage%20clustering.md):@:minimum linkage clustering, nearest neighbor technique <!--SR:!2027-06-04,826,335-->
 - unweighted average linkage clustering:@:[UPGMA](UPGMA.md), group average linkage clustering <!--SR:!2029-07-31,1425,315-->

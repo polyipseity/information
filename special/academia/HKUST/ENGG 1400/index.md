@@ -170,7 +170,7 @@ The content is in teaching order.
 - datetime: 2024-10-31T10:30:00+08:00/2024-10-31T12:20:00+08:00
 - wild ideas
     - wild ideas / motivation ::@:: If you do not try to think of "wild ideas", often your ideas ends up "inside the box", respecting your assumptions. Thinking of "wild ideas" can help break your assumptions. <!--SR:!2026-12-21,633,414!fsrs,2034-06-18T00:00:00.000Z,2754,2754.17264872,1,2,10,0,0,2026-12-03T00:00:00.000Z-->
-    - wild ideas / brainstorming ::@:: Frame a good question, ideally starting with "How might I...". Warm up your brain. Brainstorm many ideas using rules, ideally with other people. Select based on criteria. Extract insights (e.g. delightful idea, good idea). <!--SR:!2027-03-13,699,414!2026-12-10,623,414-->
+    - wild ideas / brainstorming ::@:: Frame a good question, ideally starting with "How might I...". Warm up your brain. Brainstorm many ideas using rules, ideally with other people. Select based on criteria. Extract insights (e.g. delightful idea, good idea). <!--SR:!2027-03-13,699,414!fsrs,2031-10-18T00:00:00.000Z,1773,1773.33100591,1,2,10,0,0,2026-12-10T00:00:00.000Z-->
 - activity 1: decision making ::@:: Jot down a real decision you need to make and its associated emotions. Share it with others. <!--SR:!2027-01-01,642,414!2026-12-23,635,414-->
 - decision making
     - decision making / elements ::@:: information, objectives, options <!--SR:!2027-01-06,645,414!2027-02-20,682,414-->
