@@ -169,6 +169,7 @@ Preprocess each input: read it (HTML parsed for readable text, Markdown passed t
 Identify the HTML source type before extraction:
 
 - __Canvas HTML__: URL contains `canvas.ust.hk`; has assignment metadata (title, due date, points, grade). Extract via `convert_canvas_submission`.
+- __Gradescope HTML__: URL contains `gradescope.com`. A `View Submission` page holds the grade, the per-question scores and the answer given to each question; a `/submissions/new` page holds the answers alone. Extract via `convert_gradescope_submission`, which writes `submission.yml` with the course code and name, the assignment title, status and grade, the submission id, and one entry per question. Gradescope states neither a submission type nor a due date, so the index metadata block takes the title, points and grade from it and the dates from the course schedule.
 - __Canvas quiz HTML__: URL contains `/quizzes/`, with a `/take` page holding the test as it was sat. Neither page is the submission record. The questions and the ticked answers come from the quiz; the grade and the submit time come from that assignment's own `/assignments/<id>/submissions/<student>` page, which `convert_canvas_submission` converts into `submission.yml`.
 - __Canvas announcement__: URL contains `canvas.ust.hk` and the page type is "Topic". Has a title and body but no grade or submission metadata. Extract the title and body verbatim, dropping the platform chrome ("This topic is closed for comments") and redacting an instructor or TA name the body itself contains as `\[redacted\]`; see "Announcement preservation" in `academic-crud-course-index`.
 - __PRS/iClicker HTML__: URL contains `prsmob.ust.hk/ars/`; has question text and numbered answer choices. Extract the quiz content directly; do not run `convert_canvas_submission`. The choices are the source's, so they keep the source's numbers and are never renumbered or lettered (see "Question blocks").
@@ -358,6 +359,7 @@ When several input files classify to the same target directory, merge them inste
 2. Create the target directory once, then apply each source's contribution:
     - PRS/iClicker HTML → `<type>.md` (quiz questions and choices)
     - Canvas HTML → `<type>.yml` (grade, assignment ID, submission record, via `convert_canvas_submission`)
+    - Gradescope HTML → `submission.yml` (grade, per-question scores and answers, via `convert_gradescope_submission`)
     - PDF/image attachments → supplementary files in `attachments/`
 3. Report the merge as one line per source: what it contributed and where it landed.
 
@@ -372,6 +374,7 @@ After extraction, the material lands as follows. Nothing here authorises deletin
 - Quiz questions → `tutorial.md` / `lab.md` / `lecture.md`
 - Grade metadata → `tutorial.yml` / `lab.yml` / `lecture.yml`
 - Canvas submission metadata → `submission.yml`
+- Gradescope submission metadata → `submission.yml`
 - Canvas announcement body → course `index.md` session entry (blockquote)
 - Prompt PDFs, data files, images → `attachments/` (only actual media/data; the private mirror of `attachments/` for every submission)
 - Uploaded submission artifacts (the file submitted on Canvas and the artifacts it was produced from) → `submission/` of the private mirror, however the component is classified
