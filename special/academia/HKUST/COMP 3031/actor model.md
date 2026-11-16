@@ -72,7 +72,7 @@ Consider a bank account example where {@{two concurrent deposits update a shared
 >   }
 > ```
 >
-> If `transfer(a,b,x)` runs {@{concurrently with `transfer(b,a,y)`}@}, each thread holds {@{one lock and waits for the other}@}, causing {@{a deadlock}@}. <!--SR:!2026-12-14,262,330!fsrs,2029-12-26T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-12-03T00:00:00.000Z!2026-12-21,268,330!fsrs,2030-01-13T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-12-10T00:00:00.000Z!2027-01-16,289,330!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z-->
+> If `transfer(a,b,x)` runs {@{concurrently with `transfer(b,a,y)`}@}, each thread holds {@{one lock and waits for the other}@}, causing {@{a deadlock}@}. <!--SR:!fsrs,2030-02-09T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-12-14T00:00:00.000Z!fsrs,2029-12-26T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-12-03T00:00:00.000Z!2026-12-21,268,330!fsrs,2030-01-13T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-12-10T00:00:00.000Z!2027-01-16,289,330!fsrs,2029-12-22T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-11-26T00:00:00.000Z-->
 
 {@{An actor version of `BankAccount`}@}, `BankActor`, removes {@{the lock}@}: <!--SR:!fsrs,2029-11-27T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-11-20T00:00:00.000Z!2026-12-24,270,330-->
 
@@ -136,7 +136,7 @@ Actors process {@{each message _sequentially_}@}, so {@{no explicit locks are ne
 > }
 > ```
 >
-> {@{The `count` field}@} is {@{internal to the actor}@}; {@{other actors can only influence it}@} by sending {@{the `"incr"` message}@}. <!--SR:!fsrs,2029-11-02T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-12-29,274,330!fsrs,2029-12-15T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-30T00:00:00.000Z!2027-01-19,291,330!2026-12-18,263,330!fsrs,2029-11-23T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-20T00:00:00.000Z!2026-12-14,262,330-->
+> {@{The `count` field}@} is {@{internal to the actor}@}; {@{other actors can only influence it}@} by sending {@{the `"incr"` message}@}. <!--SR:!fsrs,2029-11-02T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-12-29,274,330!fsrs,2029-12-15T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-30T00:00:00.000Z!2027-01-19,291,330!2026-12-18,263,330!fsrs,2029-11-23T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-20T00:00:00.000Z!fsrs,2030-02-09T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-12-14T00:00:00.000Z-->
 
 ### actor creation
 
@@ -410,7 +410,7 @@ When {@{several messages are sent to the same recipient}@} they keep {@{the orde
 
 {@{The design}@} starts by decomposing {@{the crawling task into independent units that communicate only through messages}@}. Actors are considered {@{replaceable “people”}@}; {@{their interactions}@} are drawn in {@{a diagram}@}, but {@{the concrete implementation is free to change}@} as long as {@{the message protocol remains unchanged}@}. {@{A link‑checker actor system}@} follows this pattern: {@{a `Receptionist`}@} receives {@{client requests}@}, spawns {@{a `Controller` per request}@}, and the controller creates {@{`Getter` actors for each discovered link}@} until {@{a depth limit is reached}@}. <!--SR:!2026-12-20,266,330!fsrs,2030-01-20T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-12-09T00:00:00.000Z!2026-12-30,275,330!fsrs,2029-12-07T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-25,271,330!2027-01-15,285,330!2027-01-10,284,330!fsrs,2029-12-06T00:00:00.000Z,1110,1109.50126871,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-19,266,330!2026-12-31,276,330!fsrs,2030-01-30T00:00:00.000Z,1145,1145.44606232,1,2,9,0,0,2026-12-12T00:00:00.000Z!2027-01-14,285,330!2027-01-14,287,330-->
 
-{@{A naive version of `WebClient.get`}@} blocks {@{the calling actor, tying up a thread}@}: <!--SR:!fsrs,2029-12-02T00:00:00.000Z,1106,1105.65458238,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-14,262,330-->
+{@{A naive version of `WebClient.get`}@} blocks {@{the calling actor, tying up a thread}@}: <!--SR:!fsrs,2029-12-02T00:00:00.000Z,1106,1105.65458238,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2030-02-09T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-12-14T00:00:00.000Z-->
 
 > [!example] __blocking web client__
 >
@@ -570,4 +570,4 @@ Actors often have {@{several logical states (e.g., idle, processing)}@}. The {@{
 
 When an actor sends {@{a blocking message to another actor}@} or starts {@{a `Future`}@}, the original actor must not read {@{its own mutable fields until the callback completes}@}. Any required data should be {@{copied into the message}@} so that it remains {@{valid during the call}@}. <!--SR:!fsrs,2030-02-04T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-12-13T00:00:00.000Z!fsrs,2029-12-15T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-30T00:00:00.000Z!2027-01-15,288,330!2027-01-09,283,330!fsrs,2029-11-14T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-18T00:00:00.000Z-->
 
-By following {@{these guidelines}@}, {@{Scala actors}@} can form {@{robust, scalable reactive applications}@} without {@{the pitfalls of shared‑memory synchronization}@}. <!--SR:!2026-12-14,262,330!2027-01-01,274,330!fsrs,2029-11-07T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-15T00:00:00.000Z!fsrs,2028-02-21T00:00:00.000Z,562,562.03288223,1,2,8,0,0,2026-08-08T00:00:00.000Z-->
+By following {@{these guidelines}@}, {@{Scala actors}@} can form {@{robust, scalable reactive applications}@} without {@{the pitfalls of shared‑memory synchronization}@}. <!--SR:!fsrs,2030-02-09T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-12-14T00:00:00.000Z!2027-01-01,274,330!fsrs,2029-11-07T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-15T00:00:00.000Z!fsrs,2028-02-21T00:00:00.000Z,562,562.03288223,1,2,8,0,0,2026-08-08T00:00:00.000Z-->

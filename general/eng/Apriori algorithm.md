@@ -63,7 +63,7 @@ See [`Apriori algorithm.py`](attachments/Apriori%20algorithm.py) for a runnable 
 
 Candidate generation {@{spawns a large numbers of subsets, which is costly for computation}@}. Its bottom-up exploration nature means {@{finding any subset $S$ requires finding all its $2^{\lvert S \rvert} - 1$ proper subsets, including the [empty set](empty%20set.md), first}@}. <!--SR:!2029-04-10,1389,364!2028-12-12,1363,364-->
 
-The algorithm also requires {@{scanning the database many times to check the candidates, reducing performance, especially if the database is input/output-bounded}@}. Therefore, the algorithm works best if {@{the database is permanently stored in the memory, which might not be practical for very large database}@}. <!--SR:!2026-12-14,780,344!2028-03-15,1151,364-->
+The algorithm also requires {@{scanning the database many times to check the candidates, reducing performance, especially if the database is input/output-bounded}@}. Therefore, the algorithm works best if {@{the database is permanently stored in the memory, which might not be practical for very large database}@}. <!--SR:!fsrs,2035-07-04T00:00:00.000Z,3124,3124.38999457,1,2,11,0,0,2026-12-14T00:00:00.000Z!2028-03-15,1151,364-->
 
 Also, the time and space complexity of the algorithm is {@{very high: $O \left( 2^{\lvert D \rvert} \right)$, where $\lvert D \rvert$ is the horizontal width (number of items or columns) of the database}@}. <!--SR:!2030-05-13,1809,384-->
 

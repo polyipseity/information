@@ -12,7 +12,7 @@ tags:
 
 - see: [general/cellular network](../../../../general/cellular%20network.md)
 
-{@{A __cellular network__}@} is {@{a radio system that divides a mobile operator's coverage area into cells}@}, each served by {@{its own base station}@}. {@{Frequency reuse across non‑adjacent cells}@} {@{increases spectral efficiency}@} while {@{limiting interference}@}. Key operational concerns are {@{handover procedures}@} and {@{cell planning to balance coverage and capacity}@}. <!--SR:!2027-01-14,286,343!2027-01-24,295,343!2027-02-20,297,343!2027-03-30,335,343!2026-12-14,260,332!2027-04-01,337,343!2026-12-29,274,343!2027-03-21,326,343-->
+{@{A __cellular network__}@} is {@{a radio system that divides a mobile operator's coverage area into cells}@}, each served by {@{its own base station}@}. {@{Frequency reuse across non‑adjacent cells}@} {@{increases spectral efficiency}@} while {@{limiting interference}@}. Key operational concerns are {@{handover procedures}@} and {@{cell planning to balance coverage and capacity}@}. <!--SR:!2027-01-14,286,343!2027-01-24,295,343!2027-02-20,297,343!2027-03-30,335,343!fsrs,2030-02-09T00:00:00.000Z,1153,1153.2588217,1,2,9,0,0,2026-12-14T00:00:00.000Z!2027-04-01,337,343!2026-12-29,274,343!2027-03-21,326,343-->
 
 ## history
 

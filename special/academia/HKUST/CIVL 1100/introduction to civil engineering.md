@@ -78,7 +78,7 @@ The content is in teaching order.
         - waste engineering ::@:: methods of disposal (e.g. landfills and incineration), site investigation and remediation, solid waste management <!--SR:!2032-10-05,2348,335!2029-11-27,1620,392-->
         - [water engineering](#water%20engineering)
         - noise engineering ::@:: noise mitigation measures (e.g. noise barriers), noise monitoring (e.g. construction noise, traffic noise) <!--SR:!2030-08-02,1750,347!2030-01-07,1661,390-->
-        - environmental impact assessment (EIA) ::@:: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2028-12-20,1106,250!2026-12-14,739,352-->
+        - environmental impact assessment (EIA) ::@:: a systematic identification and evaluation process to assess the potential impacts of a proposed project so that mitigation measures can be developed <!--SR:!2028-12-20,1106,250!fsrs,2032-05-12T00:00:00.000Z,1976,1975.50410265,1.66855337,2,11,0,0,2026-12-14T00:00:00.000Z-->
             - [environmental impact components](#environmental%20impact%20components)
             - environmental impact assessment in [Hong Kong](../../../../general/Hong%20Kong.md) ::@:: regulated by the Environmental Impact Assessment (Cap. 499) 1997 <!--SR:!fsrs,2033-07-20T00:00:00.000Z,2420,2419.7058505,1,2,10,0,0,2026-12-04T00:00:00.000Z!2027-06-17,826,352-->
 - transportation engineering ::@:: moving goods and people effectively, efficiently, safely, and sustainably <!--SR:!2028-07-08,1139,332!fsrs,2033-12-21T00:00:00.000Z,2607,2606.7496109,1,2,10,0,0,2026-11-01T00:00:00.000Z-->

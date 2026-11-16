@@ -116,7 +116,7 @@ If {@{$a$ and $b$ are orthogonal}@} ({@{$\langle a,b\rangle=0$}@}), then {@{$$\|
 
 ## Gram–Schmidt process
 
-Given {@{any linearly independent set $\{s_1,\dots,s_M\}$}@}, {@{the _Gram–Schmidt process_}@} constructs {@{an _orthonormal_ basis $\{\phi_1,\dots,\phi_P\}$}@} for {@{the subspace they span}@}. Start with {@{a normalised copy of $s_1$}@}; then {@{subtract projections onto prior basis vectors and normalise}@}. <!--SR:!2027-01-04,299,345!2027-01-31,321,345!2027-01-08,303,345!2027-03-21,363,364!2026-12-14,282,345!2027-02-04,325,345-->
+Given {@{any linearly independent set $\{s_1,\dots,s_M\}$}@}, {@{the _Gram–Schmidt process_}@} constructs {@{an _orthonormal_ basis $\{\phi_1,\dots,\phi_P\}$}@} for {@{the subspace they span}@}. Start with {@{a normalised copy of $s_1$}@}; then {@{subtract projections onto prior basis vectors and normalise}@}. <!--SR:!2027-01-04,299,345!2027-01-31,321,345!2027-01-08,303,345!2027-03-21,363,364!fsrs,2030-06-28T00:00:00.000Z,1292,1291.94404398,1,2,9,0,0,2026-12-14T00:00:00.000Z!2027-02-04,325,345-->
 
 {@{The GS algorithm}@} is: \(annotation: 3 items: {@{first basis vector → remaining basis vectors → skip conditions}@}\) <!--SR:!2026-12-18,285,345!fsrs,2026-12-28T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-23T00:00:00.000Z-->
 

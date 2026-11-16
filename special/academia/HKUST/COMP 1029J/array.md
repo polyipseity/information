@@ -13,7 +13,7 @@ A variable can store a single value while an array can {@{store multiple values}
 
 ## creation
 
-To create an array, {@{enclose the multiple values in `{}`}@}: <!--SR:!2026-12-14,788,330-->
+To create an array, {@{enclose the multiple values in `{}`}@}: <!--SR:!fsrs,2035-03-17T00:00:00.000Z,3015,3014.84925759,1,2,11,0,0,2026-12-14T00:00:00.000Z-->
 
 ```Java
 String[] aStringArray = { "Hello", ",", "world", "!" };

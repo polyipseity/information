@@ -46,7 +46,7 @@ The content is in teaching order.
     - [§ string](basics.md#string)
         - [basics § string](basics.md#string) / note ::@:: They taught `'''` but not `"""` for some reason... But it was later taught in the [week 2 lab 1](#week%202%20lab%201) (lab 1). <!--SR:!2028-04-03,1016,352!fsrs,2033-09-14T00:00:00.000Z,2472,2471.51061934,1,2,10,0,0,2026-12-08T00:00:00.000Z-->
     - [§ output](basics.md#output)
-        - [basics § output](basics.md#output) / note ::@:: Jupyter notebooks automatically outputting the value of the last statement without using `print` is also considered "output". Note that strings are outputted, escaped with `\` properly (without unnecessary escapes), and preferably wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`. <!--SR:!2026-12-14,629,343!2028-04-01,1009,363-->
+        - [basics § output](basics.md#output) / note ::@:: Jupyter notebooks automatically outputting the value of the last statement without using `print` is also considered "output". Note that strings are outputted, escaped with `\` properly (without unnecessary escapes), and preferably wrapped in `'`, and only uses `"` if there is at least 1 `'` in the string but not any `"`. <!--SR:!fsrs,2031-07-12T00:00:00.000Z,1671,1671.14008291,2.00571587,2,10,0,0,2026-12-14T00:00:00.000Z!2028-04-01,1009,363-->
     - [§ variable](basics.md#variable)
         - [basics § variable](basics.md#variable) / note ::@:: In a quiz question, they use the word "save", which means storing a value to a variable. Also, `+=`, `-=`, `*=`, `/=`, etc. are not taught and should NOT be used in exercises or exams. <!--SR:!2027-04-23,734,332!2026-12-15,633,332-->
     - [§ data types](basics.md#data%20types)

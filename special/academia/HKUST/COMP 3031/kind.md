@@ -65,7 +65,7 @@ Intuitively, {@{a type function}@} is like {@{an ordinary function}@}, but accep
 - _right unit_: ::@:: `m.flatMap(M.unit) == m` <!--SR:!fsrs,2029-09-12T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-11-02T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z-->
 - _essential-associativity_: ::@:: `m.flatMap(f).flatMap(g) == m.flatMap(x => f(x).flatMap(g))` <!--SR:!fsrs,2027-09-27T00:00:00.000Z,379,378.55589827,5.50426382,2,9,0,0,2026-09-13T00:00:00.000Z!fsrs,2029-03-05T00:00:00.000Z,864,864.05150394,1,2,9,0,0,2026-10-23T00:00:00.000Z-->
 
-{@{These laws}@} guarantee that the generic `reduce` {@{behaves consistently when instantiated with a monoid}@}. Because {@{a monad}@} is {@{a property of a _type constructor_ (`F[_]`) rather than a plain type}@}, it is expressed as {@{a higher‑kinded type class}@}: <!--SR:!2027-01-11,285,330!fsrs,2029-08-29T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-10-30T00:00:00.000Z!2026-12-14,263,330!2027-01-07,282,330!2026-12-25,272,330-->
+{@{These laws}@} guarantee that the generic `reduce` {@{behaves consistently when instantiated with a monoid}@}. Because {@{a monad}@} is {@{a property of a _type constructor_ (`F[_]`) rather than a plain type}@}, it is expressed as {@{a higher‑kinded type class}@}: <!--SR:!2027-01-11,285,330!fsrs,2029-08-29T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-10-30T00:00:00.000Z!fsrs,2030-02-13T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-12-14T00:00:00.000Z!2027-01-07,282,330!2026-12-25,272,330-->
 
 > [!example] __monad trait__
 >
@@ -125,7 +125,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 > sequence(List(Some(1), Some(2), Some(3)))  // == Some(List(1, 2, 3))
 > sequence(List(Some(1), None,    Some(3)))  // == None
 > ```
-<!--SR:!2026-12-30,276,330!2026-12-14,263,330-->
+<!--SR:!2026-12-30,276,330!fsrs,2030-02-13T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-12-14T00:00:00.000Z-->
 
 ### monad related kinds
 
@@ -195,7 +195,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 >   bind :: m a -> (a -> m b) -> m b
 >   return :: a -> m a
 > ```
-<!--SR:!2026-12-30,276,330!2026-12-14,263,330!2027-01-04,280,330!2026-12-30,276,330-->
+<!--SR:!2026-12-30,276,330!fsrs,2028-12-23T00:00:00.000Z,740,740.29434474,2.49272837,2,9,0,0,2026-12-14T00:00:00.000Z!2027-01-04,280,330!2026-12-30,276,330-->
 
 {@{`m`}@} is {@{a type constructor of kind `* → *`}@}; {@{the two methods}@} capture {@{the same laws that Scala’s `Monad[F[_]]` encodes}@}. <!--SR:!fsrs,2029-03-05T00:00:00.000Z,864,864.05150394,1,2,9,0,0,2026-10-23T00:00:00.000Z!fsrs,2029-08-24T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-10-29T00:00:00.000Z!2027-01-27,294,330!2027-01-15,289,330-->
 

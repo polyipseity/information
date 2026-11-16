@@ -19,7 +19,7 @@ tags:
 - definition ::@:: a homogeneous [cuboid](cuboid.md) of density $\rho$, height $H$ ($a$), length $L$ ($b$), and width $W$ ($c$), axis through center <!--SR:!2032-11-23,2445,347!2028-03-20,1156,367-->
 - equation ::@:: $I_a=\frac1{12}m\left(b^2+c^2\right)$ <!--SR:!2030-03-24,1570,270!2028-04-07,1161,358-->
     - thin plate correction ::@:: use the same equation <!--SR:!2027-08-11,1086,350!2028-05-03,1182,358-->
-    - cuboid, axis through center of edge $c$ ::@:: $I_{a@c}=\frac1{12}m\left(4b^2+c^2\right)$ <!--SR:!2026-12-14,635,250!2027-11-03,886,298-->
+    - cuboid, axis through center of edge $c$ ::@:: $I_{a@c}=\frac1{12}m\left(4b^2+c^2\right)$ <!--SR:!fsrs,2031-12-27T00:00:00.000Z,1839,1838.91548875,3.98153807,2,10,0,0,2026-12-14T00:00:00.000Z!2027-11-03,886,298-->
     - thin plate with $c=0$, axis through edge $a$ ::@:: $I_{a@c=0}=\frac13mb^2$ <!--SR:!2030-09-24,1718,310!2029-08-03,1448,318-->
 - proof: $$\begin{aligned}
 m&=\rho{}HLW\\
