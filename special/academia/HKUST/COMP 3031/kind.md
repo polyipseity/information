@@ -199,7 +199,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 {@{`m`}@} is {@{a type constructor of kind `* → *`}@}; {@{the two methods}@} capture {@{the same laws that Scala’s `Monad[F[_]]` encodes}@}. <!--SR:!fsrs,2029-03-05T00:00:00.000Z,864,864.05150394,1,2,9,0,0,2026-10-23T00:00:00.000Z!fsrs,2029-08-24T00:00:00.000Z,1030,1029.72783972,1,2,9,0,0,2026-10-29T00:00:00.000Z!2027-01-27,294,330!2027-01-15,289,330-->
 
-{@{In _OCaml_}@} there are {@{no first‑class type classes}@}, but {@{the same idea can be encoded with modules}@}: <!--SR:!2027-01-26,293,330!2027-01-16,290,330!2026-12-17,265,330-->
+{@{In _OCaml_}@} there are {@{no first‑class type classes}@}, but {@{the same idea can be encoded with modules}@}: <!--SR:!2027-01-26,293,330!2027-01-16,290,330!fsrs,2030-02-24T00:00:00.000Z,1165,1164.5679841,1,2,9,0,0,2026-12-17T00:00:00.000Z-->
 
 > [!example] __OCaml monad module__
 >

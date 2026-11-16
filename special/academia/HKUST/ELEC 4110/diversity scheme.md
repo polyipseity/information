@@ -69,7 +69,7 @@ It also imposes {@{no requirement on transmitter design or standardisation}@}. B
 {@{_Diversity combining_}@} merges {@{multiple independent signal observations}@} to {@{combat fading or interference}@}. {@{The three main approaches}@} are: (annotation: 3 items: {@{selection combining, equal-gain combining, maximal-ratio combining}@}). <!--SR:!2027-01-31,279,330!2027-02-06,285,330!2027-01-30,278,330!2027-02-13,292,330!2026-12-22,260,330-->
 
 - _Selection combining_ (SC) ::@:: – choose the replica with the highest instantaneous channel SNR $\gamma_i \propto \lvert \alpha_i \rvert^2$. <!--SR:!2027-01-06,274,330!2027-01-07,275,330-->
-- _Equal-gain combining_ (EGC) ::@:: – add all received signals _coherently_ with equal weight and divide by $L$ at either transmitter or receiver. <!--SR:!2027-01-30,278,330!2026-12-17,256,330-->
+- _Equal-gain combining_ (EGC) ::@:: – add all received signals _coherently_ with equal weight and divide by $L$ at either transmitter or receiver. <!--SR:!2027-01-30,278,330!fsrs,2030-01-20T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-12-17T00:00:00.000Z-->
 - _Maximal-ratio combining_ (MRC) ::@:: – weight each branch by the _conjugate_ of its channel gain $\alpha_i$ and divide by the sum of squared weights. <!--SR:!2027-01-14,281,330!2026-12-21,260,330-->
 
 {@{A fourth technique}@} is {@{_switched combining_ (or _scanning combining_)}@}, where the receiver {@{switches to another branch when the current one falls below a threshold}@}, working {@{well when channel conditions change slowly}@}. <!--SR:!2027-01-30,278,330!2027-01-30,278,330!2027-02-07,286,330!2027-02-13,292,330-->
@@ -92,7 +92,7 @@ If {@{all $L$ branches are independent and Rayleigh‑faded}@} (so {@{SNR $\gamm
 
 ### equal-gain combining
 
-In {@{equal-gain combining}@}, {@{all received signals}@} are {@{phase‑aligned and summed with equal weights}@}, then {@{divided by $L$}@}: {@{$$r_{\text{eq} } = \frac 1 L \left( e^{-j \arg \alpha_1}\, r_1 + e^{-j \arg \alpha_2}\, r_2 + \dots + e^{-j \arg \alpha_L}\, r_L \right) \,,$$}@} The exponential factors {@{rotate each replica so phases match}@} before addition. <!--SR:!2026-12-17,256,330!2027-02-02,281,330!2027-02-03,282,330!2027-01-10,277,330!2026-12-30,268,330!2027-02-01,280,330-->
+In {@{equal-gain combining}@}, {@{all received signals}@} are {@{phase‑aligned and summed with equal weights}@}, then {@{divided by $L$}@}: {@{$$r_{\text{eq} } = \frac 1 L \left( e^{-j \arg \alpha_1}\, r_1 + e^{-j \arg \alpha_2}\, r_2 + \dots + e^{-j \arg \alpha_L}\, r_L \right) \,,$$}@} The exponential factors {@{rotate each replica so phases match}@} before addition. <!--SR:!fsrs,2030-01-20T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-12-17T00:00:00.000Z!2027-02-02,281,330!2027-02-03,282,330!2027-01-10,277,330!2026-12-30,268,330!2027-02-01,280,330-->
 
 {@{EGC outperforms SC}@} when {@{all branches have low SNR}@} but is {@{suboptimal if one branch dominates}@}. (annotation: __this course__: For simplicity, treat {@{the _diversity gain_ in dB to be halfway between SC and MRC}@}.) <!--SR:!2027-02-09,288,330!2027-01-03,272,330!2027-02-01,280,330!2027-01-06,274,330-->
 

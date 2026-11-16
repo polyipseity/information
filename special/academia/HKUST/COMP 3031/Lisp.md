@@ -30,7 +30,7 @@ Over {@{five decades}@} the language has {@{branched into several dialects}@}: {
 
 ### Lisp programs
 
-{@{A _Lisp program_}@} is written as {@{nested parentheses}@}. {@{Every expression inside a pair of brackets}@} is called {@{a _combination_}@}; {@{its first element}@} is {@{an operator (often a function)}@} and {@{the remaining elements}@} are {@{operands, separated by whitespace}@}. {@{The most common operators}@} are {@{_special forms_}@}: {@{`(define ...)` creates a binding}@}, {@{`(lambda ...)` builds an anonymous function}@}, and {@{`(if ...)` chooses between two branches}@}. These do not follow {@{ordinary function–application rules}@}; they decide how {@{their arguments are evaluated}@}. {@{All other combinations}@} are treated as {@{normal calls}@}: {@{the operator}@} is {@{first evaluated, then its operands}@}, and {@{the result of the operator}@} is {@{the evaluation result of the operator and operands enclosed in the outermost parentheses}@}. <!--SR:!2027-03-12,317,340!2027-03-17,322,340!2027-03-09,314,340!2027-03-04,309,340!2026-12-25,267,340!2027-03-02,307,340!2027-03-04,309,340!fsrs,2029-12-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-12-02T00:00:00.000Z!2026-12-19,260,340!2027-01-08,278,340!2027-01-15,284,340!2027-03-17,322,340!2027-02-28,305,340!2027-03-18,323,340!2027-03-13,318,340!2026-12-22,263,340!2026-12-21,262,340!2027-03-03,308,340!2026-12-22,263,340!fsrs,2029-10-22T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-19T00:00:00.000Z!2026-12-17,258,340-->
+{@{A _Lisp program_}@} is written as {@{nested parentheses}@}. {@{Every expression inside a pair of brackets}@} is called {@{a _combination_}@}; {@{its first element}@} is {@{an operator (often a function)}@} and {@{the remaining elements}@} are {@{operands, separated by whitespace}@}. {@{The most common operators}@} are {@{_special forms_}@}: {@{`(define ...)` creates a binding}@}, {@{`(lambda ...)` builds an anonymous function}@}, and {@{`(if ...)` chooses between two branches}@}. These do not follow {@{ordinary function–application rules}@}; they decide how {@{their arguments are evaluated}@}. {@{All other combinations}@} are treated as {@{normal calls}@}: {@{the operator}@} is {@{first evaluated, then its operands}@}, and {@{the result of the operator}@} is {@{the evaluation result of the operator and operands enclosed in the outermost parentheses}@}. <!--SR:!2027-03-12,317,340!2027-03-17,322,340!2027-03-09,314,340!2027-03-04,309,340!2026-12-25,267,340!2027-03-02,307,340!2027-03-04,309,340!fsrs,2029-12-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-12-02T00:00:00.000Z!2026-12-19,260,340!2027-01-08,278,340!2027-01-15,284,340!2027-03-17,322,340!2027-02-28,305,340!2027-03-18,323,340!2027-03-13,318,340!2026-12-22,263,340!2026-12-21,262,340!2027-03-03,308,340!2026-12-22,263,340!fsrs,2029-10-22T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-19T00:00:00.000Z!fsrs,2030-03-08T00:00:00.000Z,1177,1176.59867613,1,2,9,0,0,2026-12-17T00:00:00.000Z-->
 
 Because Lisp was originally {@{an intermediate language for compilers}@}, it contains only {@{a handful of rules}@}. This minimalism makes it easy to {@{write interpreters and reason about evaluation}@}, which is we can easily {@{implement a small Scheme subset}@} in Scala. The simplicity stems from the fact that {@{programs themselves are lists}@}; code can be {@{generated, transformed and executed}@} by treating them as {@{ordinary data structures}@}. <!--SR:!2027-03-04,309,340!2027-03-22,327,340!2027-03-28,333,340!2027-02-23,300,340!2027-03-10,315,340!2027-03-27,332,340!2027-02-19,296,340-->
 
@@ -82,7 +82,7 @@ Because Lisp was originally {@{an intermediate language for compilers}@}, it con
 > (cdr xs)              ;; → (2 3)
 > (null? xs)            ;; → #f
 > ```
-<!--SR:!2026-12-31,271,340!2026-12-17,258,340!fsrs,2030-01-06T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-12-07T00:00:00.000Z!2026-12-22,262,340!2027-03-15,320,340-->
+<!--SR:!2026-12-31,271,340!fsrs,2030-03-08T00:00:00.000Z,1177,1176.59867613,1,2,9,0,0,2026-12-17T00:00:00.000Z!fsrs,2030-01-06T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-12-07T00:00:00.000Z!2026-12-22,262,340!2027-03-15,320,340-->
 
 ## interpreter
 
@@ -232,7 +232,7 @@ Because Scheme has {@{many convenient syntactic sugar}@}, we first rewrite {@{th
 >     normalize(ret)
 >  // other rules...
 > ```
-<!--SR:!2026-12-21,263,340!2026-12-17,258,340-->
+<!--SR:!2026-12-21,263,340!fsrs,2030-03-08T00:00:00.000Z,1177,1176.59867613,1,2,9,0,0,2026-12-17T00:00:00.000Z-->
 
 {@{The `def` form}@} is also {@{a derived form}@}: it expands into {@{an ordinary `def` binding plus a lambda that captures the arguments}@}: <!--SR:!2026-12-23,265,340!2027-03-12,317,340!2027-03-14,319,340-->
 
@@ -390,7 +390,7 @@ The evaluator uses {@{these operations during evaluation}@}: every time it {@{en
 > case 'lambda :: params :: body :: Nil =>
 >   mkClosure(asList(params), body, env)
 > ```
-<!--SR:!2027-02-21,298,340!2026-12-17,258,340-->
+<!--SR:!2027-02-21,298,340!fsrs,2030-03-08T00:00:00.000Z,1177,1176.59867613,1,2,9,0,0,2026-12-17T00:00:00.000Z-->
 
 {@{__`def`__, similar to `val`}@}, also introduces {@{a new binding that is visible for the rest of the expression}@}; unlike `val`, this new binding is {@{evaluated _every time_ it is looked up (i.e. _by name_)}@}, and also {@{visible to the expression defining the binding itself}@}. Then, same as `val`, it evaluates {@{its body in an environment extended with the new pair}@}. <!--SR:!2027-02-26,303,340!2027-03-23,328,340!2027-02-25,302,340!2026-12-22,264,340!2027-03-08,313,340-->
 

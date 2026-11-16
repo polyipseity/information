@@ -257,7 +257,7 @@ It should correspond to either {@{a _noun_ followed by _possessive_ phrases \(e.
 
 - irrelevant attribute ::@:: Eliminate, to make the class _coherent_ and _simple_. <!--SR:!2027-05-27,478,394!2027-05-29,482,394-->
 - independent attribute ::@:: Consider application requirements and potentially convert them into classes or eliminate. <!--SR:!2027-05-28,481,394!2027-03-28,423,394-->
-- association attribute ::@:: Put into an association class or, if multiple instances between the same pair of instances are needed, put into a new class replacing the original association. <!--SR:!2026-12-17,337,374!2027-04-06,432,394-->
+- association attribute ::@:: Put into an association class or, if multiple instances between the same pair of instances are needed, put into a new class replacing the original association. <!--SR:!fsrs,2031-06-03T00:00:00.000Z,1629,1629.28858053,1,2,9,0,0,2026-12-17T00:00:00.000Z!2027-04-06,432,394-->
 - identifier attribute ::@:: Eliminate. It is an implementation detail. <!--SR:!2027-05-25,478,394!2027-05-02,458,394-->
 
 To actually {@{specify the attribute}@}, specify {@{its name unique in the class}@}, {@{type \(e.g. date, integer, money, string etc.\), and multiplicity \(if greater than 1\)}@}. <!--SR:!2027-06-01,483,394!2027-03-31,426,394!2027-05-16,472,394-->

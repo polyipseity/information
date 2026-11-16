@@ -587,7 +587,7 @@ Infinitary logic generalizes {@{first-order logic to allow formulas of infinite 
 
 ### fixpoint logic
 
-- Main article: ::@:: [Fixed-point logic](fixed-point%20logic.md) <!--SR:!2026-12-17,409,382!2027-02-18,457,382-->
+- Main article: ::@:: [Fixed-point logic](fixed-point%20logic.md) <!--SR:!fsrs,2032-03-27T00:00:00.000Z,1927,1927.03350629,1,2,10,0,0,2026-12-17T00:00:00.000Z!2027-02-18,457,382-->
 
 {@{Fixpoint logic}@} {@{extends first-order logic}@} by {@{adding the closure under the least fixed points of positive operators}@}.<sup>[\[36\]](#^ref-36)</sup> <!--SR:!fsrs,2031-09-27T00:00:00.000Z,1776,1775.84534618,1,2,10,0,0,2026-11-16T00:00:00.000Z!fsrs,2029-06-21T02:14:33.244Z,1103,1103.2172026,1,2,9,0,0,2026-06-14T02:14:33.244Z!fsrs,2031-10-26T00:00:00.000Z,1796,1796.10076162,1,2,10,0,0,2026-11-25T00:00:00.000Z-->
 

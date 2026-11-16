@@ -64,7 +64,7 @@ Let _a_ and _b_ be {@{positive integers}@} such that {@{_ab_ divides _a_<sup>2</
 
 ## geometric interpretation
 
-Vieta jumping can be described in terms of {@{lattice points on [hyperbolas](hyperbolas.md) in the first quadrant}@}.<sup>[\[2\]](#^ref-2)</sup> {@{The same process of finding smaller roots}@} is used instead to find {@{lower lattice points on a hyperbola}@} while remaining {@{in the first quadrant}@}. The procedure is as follows: <!--SR:!2026-12-17,253,330!fsrs,2030-01-03T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-12-15T00:00:00.000Z!2027-01-31,276,330!2027-01-28,273,330-->
+Vieta jumping can be described in terms of {@{lattice points on [hyperbolas](hyperbolas.md) in the first quadrant}@}.<sup>[\[2\]](#^ref-2)</sup> {@{The same process of finding smaller roots}@} is used instead to find {@{lower lattice points on a hyperbola}@} while remaining {@{in the first quadrant}@}. The procedure is as follows: <!--SR:!fsrs,2028-12-01T00:00:00.000Z,715,715.17050691,2.49272837,2,9,0,0,2026-12-17T00:00:00.000Z!fsrs,2030-01-03T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-12-15T00:00:00.000Z!2027-01-31,276,330!2027-01-28,273,330-->
 
 1. From {@{the given condition}@} we obtain {@{the equation of a family of hyperbolas}@} that are {@{unchanged by switching _x_ and _y_}@} so that they are {@{symmetric about the line _y_ = _x_}@}.
 2. Prove {@{the desired statement}@} for {@{the intersections of the hyperbolas and the line _y_ = _x_}@}.

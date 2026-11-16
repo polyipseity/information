@@ -61,7 +61,7 @@ tags:
 > - AX<sub>3</sub>E<sub>1</sub>
 >     - AX<sub>3</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [trigonal pyramidal](trigonal%20pyramidal%20molecular%20geometry.md)<br/>![trigonal pyramidal](../../archives/Wikimedia%20Commons/AX3E1-3D-balls.png) <!--SR:!2027-03-09,312,345!fsrs,2028-04-24T00:00:00.000Z,567,566.75169301,2.68004087,2,9,0,0,2026-10-05T00:00:00.000Z-->
 >     - AX<sub>3</sub>E<sub>1</sub> / ideal bond angle(s) :@: ~109.5° <!--SR:!2027-03-16,319,345-->
->     - AX<sub>3</sub>E<sub>1</sub> / example(s) ::@:: [NH<sub>3</sub>](ammonia.md) <!--SR:!2026-12-17,230,325!fsrs,2028-04-16T00:00:00.000Z,611,611.37794575,1.22984669,2,8,0,0,2026-08-14T00:00:00.000Z-->
+>     - AX<sub>3</sub>E<sub>1</sub> / example(s) ::@:: [NH<sub>3</sub>](ammonia.md) <!--SR:!fsrs,2029-09-24T00:00:00.000Z,1012,1012.08678443,1,2,9,0,0,2026-12-17T00:00:00.000Z!fsrs,2028-04-16T00:00:00.000Z,611,611.37794575,1.22984669,2,8,0,0,2026-08-14T00:00:00.000Z-->
 > - AX<sub>3</sub>E<sub>2</sub>
 >     - AX<sub>3</sub>E<sub>2</sub> / [shape](molecular%20geometry.md) ::@:: [T-shaped](T-shaped%20molecular%20geometry.md)<br/>![T-shaped](../../archives/Wikimedia%20Commons/AX3E2-3D-balls.png) <!--SR:!fsrs,2028-05-05T00:00:00.000Z,574,574.38216194,2.68004087,2,9,0,0,2026-10-09T00:00:00.000Z!2027-02-04,277,341-->
 >     - AX<sub>3</sub>E<sub>2</sub> / ideal bond angle(s) :@: 90°, 180° <!--SR:!2027-06-03,396,361-->
@@ -69,7 +69,7 @@ tags:
 > - AX<sub>4</sub>E<sub>0</sub>
 >     - AX<sub>4</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [tetrahedral](tetrahedral%20molecular%20geometry.md)<br/>![tetrahedral](../../archives/Wikimedia%20Commons/AX4E0-3D-balls.png) <!--SR:!2027-04-04,338,345!fsrs,2027-07-07T00:00:00.000Z,312,312.15146517,5.62873505,2,8,0,0,2026-08-29T00:00:00.000Z-->
 >     - AX<sub>4</sub>E<sub>0</sub> / ideal bond angle(s) :@: ~109.5° <!--SR:!fsrs,2028-05-02T00:00:00.000Z,572,571.8399695,2.68004087,2,9,0,0,2026-10-08T00:00:00.000Z-->
->     - AX<sub>4</sub>E<sub>0</sub> / example(s) ::@:: [CH<sub>4</sub>](methane.md) <!--SR:!2026-12-17,230,325!fsrs,2028-04-17T00:00:00.000Z,562,561.65823522,2.68004087,2,9,0,0,2026-10-03T00:00:00.000Z-->
+>     - AX<sub>4</sub>E<sub>0</sub> / example(s) ::@:: [CH<sub>4</sub>](methane.md) <!--SR:!fsrs,2028-09-25T00:00:00.000Z,648,647.58064202,2.68004087,2,9,0,0,2026-12-17T00:00:00.000Z!fsrs,2028-04-17T00:00:00.000Z,562,561.65823522,2.68004087,2,9,0,0,2026-10-03T00:00:00.000Z-->
 > - AX<sub>4</sub>E<sub>1</sub>
 >     - AX<sub>4</sub>E<sub>1</sub> / [shape](molecular%20geometry.md) ::@:: [seesaw/disphenoidal](seesaw%20molecular%20geometry.md)<br/>![seesaw/disphenoidal](../../archives/Wikimedia%20Commons/AX4E1-3D-balls.png) <!--SR:!fsrs,2027-05-24T00:00:00.000Z,288,287.94809514,3.42929087,2,8,0,0,2026-08-09T00:00:00.000Z!fsrs,2028-04-24T00:00:00.000Z,567,566.75169301,2.68004087,2,9,0,0,2026-10-05T00:00:00.000Z-->
 >     - AX<sub>4</sub>E<sub>1</sub> / ideal bond angle(s) :@: 90°, 120°, 180° <!--SR:!2027-04-05,339,345-->
