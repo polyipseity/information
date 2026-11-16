@@ -18,7 +18,7 @@ tags:
 
 - see: [general/actor model](../../../../general/actor%20model.md)
 
-{@{The __actor model__}@} replaces {@{shared‑memory concurrency}@} with {@{isolated actors that communicate only by sending messages}@}. By treating each actor as {@{a black box that owns its own state}@}, the need for {@{locks and explicit synchronization disappears}@}, simplifying {@{reasoning about concurrent programs}@} and avoiding {@{classic pitfalls such as race conditions and deadlocks}@}. <!--SR:!2026-12-28,273,330!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!2026-12-18,265,330!fsrs,2029-11-18T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-11-18T00:00:00.000Z!2027-01-09,281,330!fsrs,2029-11-23T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-20T00:00:00.000Z!fsrs,2029-10-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-09T00:00:00.000Z-->
+{@{The __actor model__}@} replaces {@{shared‑memory concurrency}@} with {@{isolated actors that communicate only by sending messages}@}. By treating each actor as {@{a black box that owns its own state}@}, the need for {@{locks and explicit synchronization disappears}@}, simplifying {@{reasoning about concurrent programs}@} and avoiding {@{classic pitfalls such as race conditions and deadlocks}@}. <!--SR:!2026-12-28,273,330!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2030-02-25T00:00:00.000Z,1165,1164.5679841,1,2,9,0,0,2026-12-18T00:00:00.000Z!fsrs,2029-11-18T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-11-18T00:00:00.000Z!2027-01-09,281,330!fsrs,2029-11-23T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-20T00:00:00.000Z!fsrs,2029-10-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-09T00:00:00.000Z-->
 
 ## motivation
 
@@ -30,7 +30,7 @@ Actors provide {@{a clean abstraction for parallelism}@}: they eliminate {@{shar
 
 ### actor vs. thread
 
-{@{A thread}@} is {@{a lightweight execution context}@} that shares {@{the same address space as every other thread}@}. When two threads {@{modify the same variable}@}, they must coordinate through {@{synchronization primitives}@}. In contrast, an actor has {@{its own private mailbox}@}; it processes {@{one message at a time in its own event loop}@}. {@{The cost of creating many actors}@} is {@{far lower than spawning thousands of threads}@}, and the runtime can schedule {@{them efficiently on the available cores}@}. <!--SR:!2026-12-31,276,330!2027-01-22,294,330!2027-01-18,290,330!2026-12-18,263,330!fsrs,2030-01-18T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-12-11T00:00:00.000Z!2027-01-10,284,330!2026-12-31,276,330!fsrs,2030-01-25T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-12-10T00:00:00.000Z!2027-01-10,284,330!2026-12-20,264,330-->
+{@{A thread}@} is {@{a lightweight execution context}@} that shares {@{the same address space as every other thread}@}. When two threads {@{modify the same variable}@}, they must coordinate through {@{synchronization primitives}@}. In contrast, an actor has {@{its own private mailbox}@}; it processes {@{one message at a time in its own event loop}@}. {@{The cost of creating many actors}@} is {@{far lower than spawning thousands of threads}@}, and the runtime can schedule {@{them efficiently on the available cores}@}. <!--SR:!2026-12-31,276,330!2027-01-22,294,330!2027-01-18,290,330!fsrs,2030-02-17T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-12-18T00:00:00.000Z!fsrs,2030-01-18T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-12-11T00:00:00.000Z!2027-01-10,284,330!2026-12-31,276,330!fsrs,2030-01-25T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-12-10T00:00:00.000Z!2027-01-10,284,330!2026-12-20,264,330-->
 
 ### avoiding synchronization
 
@@ -107,7 +107,7 @@ Actors process {@{each message _sequentially_}@}, so {@{no explicit locks are ne
 
 ## actor
 
-{@{An _actor_}@} is an object that {@{possesses identity, a behavior, and communicates only by sending messages asynchronously}@}. It does not {@{expose its internal state to other actors}@}; instead, it receives {@{messages via an `ActorRef`}@} and reacts {@{according to its own logic}@}. The model was formalised by {@{Hewitt et al. in 1973 as a universal modular framework for artificial intelligence}@}. <!--SR:!2026-12-25,271,330!2026-12-20,267,330!2026-12-18,265,330!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!2027-01-03,278,330!2027-01-17,287,330-->
+{@{An _actor_}@} is an object that {@{possesses identity, a behavior, and communicates only by sending messages asynchronously}@}. It does not {@{expose its internal state to other actors}@}; instead, it receives {@{messages via an `ActorRef`}@} and reacts {@{according to its own logic}@}. The model was formalised by {@{Hewitt et al. in 1973 as a universal modular framework for artificial intelligence}@}. <!--SR:!2026-12-25,271,330!2026-12-20,267,330!fsrs,2030-02-25T00:00:00.000Z,1165,1164.5679841,1,2,9,0,0,2026-12-18T00:00:00.000Z!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!2027-01-03,278,330!2027-01-17,287,330-->
 
 {@{The core of Scala’s actor implementation}@} is {@{the trait `Actor`}@}. Its {@{single abstract member `receive`}@} defines how it {@{handles incoming messages}@}: <!--SR:!2027-01-02,277,330!fsrs,2029-08-14T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-10-27T00:00:00.000Z!fsrs,2030-01-23T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-12-12T00:00:00.000Z!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z-->
 
@@ -122,7 +122,7 @@ Actors process {@{each message _sequentially_}@}, so {@{no explicit locks are ne
 >
 > {@{A concrete actor}@} supplies {@{a `receive` method}@} that {@{pattern matches on received messages}@}. <!--SR:!2027-01-08,280,330!2026-12-29,272,330!fsrs,2030-02-04T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-12-13T00:00:00.000Z!2027-01-07,279,330!fsrs,2029-12-18T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-11-25T00:00:00.000Z-->
 
-{@{A minimal example}@} shows {@{an actor}@} that counts {@{how many times it has been told to increment}@}: <!--SR:!2026-12-18,263,330!fsrs,2030-01-25T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-12-10T00:00:00.000Z!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z-->
+{@{A minimal example}@} shows {@{an actor}@} that counts {@{how many times it has been told to increment}@}: <!--SR:!fsrs,2030-02-17T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-12-18T00:00:00.000Z!fsrs,2030-01-25T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-12-10T00:00:00.000Z!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z-->
 
 > [!example] __`Counter` actor__
 >
@@ -136,7 +136,7 @@ Actors process {@{each message _sequentially_}@}, so {@{no explicit locks are ne
 > }
 > ```
 >
-> {@{The `count` field}@} is {@{internal to the actor}@}; {@{other actors can only influence it}@} by sending {@{the `"incr"` message}@}. <!--SR:!fsrs,2029-11-02T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-12-29,274,330!fsrs,2029-12-15T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-30T00:00:00.000Z!2027-01-19,291,330!2026-12-18,263,330!fsrs,2029-11-23T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-20T00:00:00.000Z!fsrs,2030-02-09T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-12-14T00:00:00.000Z-->
+> {@{The `count` field}@} is {@{internal to the actor}@}; {@{other actors can only influence it}@} by sending {@{the `"incr"` message}@}. <!--SR:!fsrs,2029-11-02T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-14T00:00:00.000Z!2026-12-29,274,330!fsrs,2029-12-15T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-30T00:00:00.000Z!2027-01-19,291,330!fsrs,2030-02-17T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-12-18T00:00:00.000Z!fsrs,2029-11-23T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-20T00:00:00.000Z!fsrs,2030-02-09T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-12-14T00:00:00.000Z-->
 
 ### actor creation
 
@@ -404,7 +404,7 @@ One may rely on {@{business logic}@} to {@{ignore duplicates}@}. {@{Akka actors}
 >
 > {@{The actor}@} can later replay {@{the stored record}@} if it crashes, ensuring that {@{every transfer is processed exactly once}@}. <!--SR:!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z!2026-12-21,268,330!2026-12-25,271,330!fsrs,2030-02-14T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-12-15T00:00:00.000Z!2026-12-21,265,330!fsrs,2029-11-07T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-15T00:00:00.000Z-->
 
-When {@{several messages are sent to the same recipient}@} they keep {@{the order in which they were issued}@}; this is {@{an Akka‑specific guarantee}@}. {@{Messages to different actors}@} may arrive {@{interleaved arbitrarily}@}. {@{The lack of global ordering}@} means a system must reason about {@{partial orders when composing components}@}, but {@{the single‑threaded mailbox}@} guarantees that each message is {@{processed atomically and that no two messages can be handled simultaneously by one actor}@}. <!--SR:!fsrs,2030-02-15T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-12-16T00:00:00.000Z!2026-12-21,268,330!2026-12-18,263,330!fsrs,2029-12-08T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-23T00:00:00.000Z!fsrs,2029-10-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-09T00:00:00.000Z!fsrs,2029-12-07T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-25,268,330!fsrs,2029-12-07T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-20,267,330-->
+When {@{several messages are sent to the same recipient}@} they keep {@{the order in which they were issued}@}; this is {@{an Akka‑specific guarantee}@}. {@{Messages to different actors}@} may arrive {@{interleaved arbitrarily}@}. {@{The lack of global ordering}@} means a system must reason about {@{partial orders when composing components}@}, but {@{the single‑threaded mailbox}@} guarantees that each message is {@{processed atomically and that no two messages can be handled simultaneously by one actor}@}. <!--SR:!fsrs,2030-02-15T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-12-16T00:00:00.000Z!2026-12-21,268,330!fsrs,2030-02-17T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-12-18T00:00:00.000Z!fsrs,2029-12-08T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-23T00:00:00.000Z!fsrs,2029-10-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-09T00:00:00.000Z!fsrs,2029-12-07T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-25,268,330!fsrs,2029-12-07T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-20,267,330-->
 
 ## web client example
 

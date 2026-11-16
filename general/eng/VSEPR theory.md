@@ -88,7 +88,7 @@ tags:
 >     - AX<sub>5</sub>E<sub>1</sub> / example(s) ::@:: [BrF<sub>5</sub>](bromine%20pentafluoride.md) <!--SR:!fsrs,2026-12-20T16:38:58.456Z,196,196.18685601,1.22984669,2,6,0,0,2026-06-07T16:38:58.456Z!fsrs,2029-01-28T00:00:00.000Z,853,853.48513636,1,2,9,0,0,2026-09-28T00:00:00.000Z-->
 > - AX<sub>5</sub>E<sub>2</sub>
 >     - AX<sub>5</sub>E<sub>2</sub> / [shape](molecular%20geometry.md) ::@:: [pentagonal planar](pentagonal%20planar%20molecular%20geometry.md)<br/>![pentagonal planar](../../archives/Wikimedia%20Commons/AX5E2-3D-balls.png) <!--SR:!fsrs,2027-09-05T00:00:00.000Z,392,391.68345654,3.42929087,2,8,0,0,2026-08-09T00:00:00.000Z!2027-02-17,290,341-->
->     - AX<sub>5</sub>E<sub>2</sub> / ideal bond angle(s) :@: 72° <!--SR:!2026-12-18,231,325-->
+>     - AX<sub>5</sub>E<sub>2</sub> / ideal bond angle(s) :@: 72° <!--SR:!fsrs,2029-09-29T00:00:00.000Z,1016,1015.90913058,1,2,9,0,0,2026-12-18T00:00:00.000Z-->
 >     - AX<sub>5</sub>E<sub>2</sub> / example(s) ::@:: XeF<sub>5</sub><sup>-</sup> <!--SR:!fsrs,2027-09-01T00:00:00.000Z,389,389.1934457,3.42929087,2,8,0,0,2026-08-08T00:00:00.000Z!fsrs,2029-04-06T00:00:00.000Z,908,908.0771299,1,2,9,0,0,2026-10-11T00:00:00.000Z-->
 > - AX<sub>6</sub>E<sub>0</sub>
 >     - AX<sub>6</sub>E<sub>0</sub> / [shape](molecular%20geometry.md) ::@:: [octahedral](octahedral%20molecular%20geometry.md)<br/>![octahedral](../../archives/Wikimedia%20Commons/AX6E0-3D-balls.png) <!--SR:!2027-03-11,314,345!2027-02-03,276,341-->

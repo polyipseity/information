@@ -64,7 +64,7 @@ For {@{continuous-time signals}@}: {@{$$\langle u,v\rangle = \int_{0}^{T}u(t)v^*
 
 ### coordinates
 
-To locate {@{a transmitted waveform $s(t)$}@} within {@{its signal-space representation}@}, select {@{an orthonormal basis $\{\phi_{k}(t)\}$}@} spanning {@{the subspace of interest}@}. {@{Coordinates}@} are {@{projection coefficients}@}: {@{$$a_k=\langle s(t),\,\phi_{k}(t)\rangle \;=\;\int_{0}^{T}s(t)\,\phi_{k}^{*}(t)\,dt \,.$$}@} <!--SR:!fsrs,2029-02-19T00:00:00.000Z,904,904.19353564,1,2,9,0,0,2026-08-30T00:00:00.000Z!2026-12-18,285,345!2027-02-01,322,345!2027-01-27,318,345!2027-02-03,324,345!fsrs,2030-05-08T00:00:00.000Z,1252,1252.09840125,1,2,9,0,0,2026-12-03T00:00:00.000Z!2027-07-25,448,325-->
+To locate {@{a transmitted waveform $s(t)$}@} within {@{its signal-space representation}@}, select {@{an orthonormal basis $\{\phi_{k}(t)\}$}@} spanning {@{the subspace of interest}@}. {@{Coordinates}@} are {@{projection coefficients}@}: {@{$$a_k=\langle s(t),\,\phi_{k}(t)\rangle \;=\;\int_{0}^{T}s(t)\,\phi_{k}^{*}(t)\,dt \,.$$}@} <!--SR:!fsrs,2029-02-19T00:00:00.000Z,904,904.19353564,1,2,9,0,0,2026-08-30T00:00:00.000Z!fsrs,2030-07-14T00:00:00.000Z,1304,1303.8631905,1,2,9,0,0,2026-12-18T00:00:00.000Z!2027-02-01,322,345!2027-01-27,318,345!2027-02-03,324,345!fsrs,2030-05-08T00:00:00.000Z,1252,1252.09840125,1,2,9,0,0,2026-12-03T00:00:00.000Z!2027-07-25,448,325-->
 
 {@{The vector $(a_1,a_2,\dots ,a_N)^T$}@} is {@{the Euclidean-space point representing the waveform}@}. {@{Coefficients}@} are {@{unique}@} because {@{the basis is orthonormal}@}. <!--SR:!2027-01-07,302,345!2027-01-21,311,345!2027-02-10,330,345!2027-01-23,314,345!2026-12-28,294,345-->
 
@@ -118,7 +118,7 @@ If {@{$a$ and $b$ are orthogonal}@} ({@{$\langle a,b\rangle=0$}@}), then {@{$$\|
 
 Given {@{any linearly independent set $\{s_1,\dots,s_M\}$}@}, {@{the _Gram–Schmidt process_}@} constructs {@{an _orthonormal_ basis $\{\phi_1,\dots,\phi_P\}$}@} for {@{the subspace they span}@}. Start with {@{a normalised copy of $s_1$}@}; then {@{subtract projections onto prior basis vectors and normalise}@}. <!--SR:!2027-01-04,299,345!2027-01-31,321,345!2027-01-08,303,345!2027-03-21,363,364!fsrs,2030-06-28T00:00:00.000Z,1292,1291.94404398,1,2,9,0,0,2026-12-14T00:00:00.000Z!2027-02-04,325,345-->
 
-{@{The GS algorithm}@} is: \(annotation: 3 items: {@{first basis vector → remaining basis vectors → skip conditions}@}\) <!--SR:!2026-12-18,285,345!fsrs,2026-12-28T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-23T00:00:00.000Z-->
+{@{The GS algorithm}@} is: \(annotation: 3 items: {@{first basis vector → remaining basis vectors → skip conditions}@}\) <!--SR:!fsrs,2029-03-26T00:00:00.000Z,829,829.00298494,1.93079087,2,9,0,0,2026-12-18T00:00:00.000Z!fsrs,2026-12-28T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-23T00:00:00.000Z-->
 
 1. first basis vector ::@:: Set $\phi_1 = s_1/\|s_1\|$. <!--SR:!2026-12-27,293,345!2026-12-28,294,345-->
 2. remaining basis vectors ::@:: For $k=2$ to $M$: compute the projection of $s_k$ onto the span of $\{\phi_1,\dots,\phi_{k-1}\}$; subtract this projection from $s_k$ and normalise the remainder to get $\phi_k$. <!--SR:!2027-02-14,333,345!fsrs,2029-02-03T00:00:00.000Z,893,892.52825833,1,2,9,0,0,2026-08-25T00:00:00.000Z-->

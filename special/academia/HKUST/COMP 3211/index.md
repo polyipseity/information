@@ -282,7 +282,7 @@ The content is in teaching order.
     - genetic programming / initialization
     - genetic programming / selection
     - genetic programming / reproduction
-    - genetic programming / optimization ::@:: It can be considered as a zeroth-order optimization method (evolution). That is, the fitness/loss function is used directly, and its derivatives are not used. <!--SR:!fsrs,2032-12-31T00:00:00.000Z,2250,2250.23504184,1,2,10,0,0,2026-11-03T00:00:00.000Z!2026-12-18,523,396-->
+    - genetic programming / optimization ::@:: It can be considered as a zeroth-order optimization method (evolution). That is, the fitness/loss function is used directly, and its derivatives are not used. <!--SR:!fsrs,2032-12-31T00:00:00.000Z,2250,2250.23504184,1,2,10,0,0,2026-11-03T00:00:00.000Z!fsrs,2033-06-30T00:00:00.000Z,2386,2385.53940938,1,2,10,0,0,2026-12-18T00:00:00.000Z-->
         - genetic programming / optimization / gradient descent, Newton's method ::@:: They are respectively one of the first-order and second-order optimization methods. <p> The first uses first derivatives (gradient). The second uses both first and second derivatives (Hessian matrix). <p> Usually, the higher the order of the derivatives used, the more efficient and also computationally expensive the method is. <p> The first is commonly used in deep learning and machine learning. The second is good for convex problems. <!--SR:!fsrs,2033-06-25T00:00:00.000Z,2382,2381.57581186,1,2,10,0,0,2026-12-17T00:00:00.000Z!fsrs,2032-09-16T00:00:00.000Z,2170,2170.09977723,1,2,10,0,0,2026-10-08T00:00:00.000Z-->
 
 ## week 4 lecture 1

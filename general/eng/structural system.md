@@ -119,7 +119,7 @@ return await memorize_seq(
 - [buttress](buttress.md)→::@::←[diagrid](diagrid.md) <!--SR:!2027-07-16,743,255!2031-02-23,1816,335-->
 - [diagrid](diagrid.md)→::@::←[exoskeleton](exoskeleton.md) <!--SR:!2027-07-18,825,295!2028-04-07,991,315-->
 - [exoskeleton](exoskeleton.md)→::@::←[space truss](space%20frame.md) <!--SR:!2029-07-18,1291,275!fsrs,2029-09-25T00:00:00.000Z,1098,1098.09928835,5.30241587,2,10,0,0,2026-09-23T00:00:00.000Z-->
-- [space truss](space%20frame.md)→::@::←[superframe](superframe.md) <!--SR:!2029-07-11,1245,295!2026-12-18,590,275-->
+- [space truss](space%20frame.md)→::@::←[superframe](superframe.md) <!--SR:!2029-07-11,1245,295!fsrs,2032-03-17T00:00:00.000Z,1916,1915.51373507,2.73076926,2,10,0,0,2026-12-18T00:00:00.000Z-->
 - [superframe](superframe.md)→::@::←[tube](tube%20(structure).md) <!--SR:!fsrs,2032-03-08T00:00:00.000Z,2008,2008.0742138,1.73015421,2,10,0,0,2026-09-08T00:00:00.000Z!fsrs,2029-01-21T00:00:00.000Z,838,837.61001568,6.80091587,2,10,0,0,2026-10-06T00:00:00.000Z-->
 - [tube](tube%20(structure).md)→::@::←_(end)_ <!--SR:!2027-11-07,958,335!2027-10-09,936,335-->
 

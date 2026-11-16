@@ -114,7 +114,7 @@ Now {@{callers}@} need not {@{supply it explicitly \(though it could if it choos
 > sort(strings)  // `sort(strings)(using Ordering.String)`
 > ```
 >
-> The compiler also infers {@{the type argument `T` from the argument list}@}. If {@{a single obvious value exists for a type}@}, the compiler may even infer {@{that _term_ itself (e.g., `Ordering.Int`)}@}. <!--SR:!2027-03-13,388,367!2027-03-08,384,367!2027-03-17,390,367!2026-12-18,316,349!2026-12-23,320,349!2026-12-23,320,349!2026-12-21,319,349!fsrs,2030-10-16T00:00:00.000Z,1409,1408.744791,1,2,9,0,0,2026-12-07T00:00:00.000Z!fsrs,2030-07-24T00:00:00.000Z,1345,1344.81337366,1,2,9,0,0,2026-11-17T00:00:00.000Z!fsrs,2028-08-01T00:00:00.000Z,680,679.82874571,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z-->
+> The compiler also infers {@{the type argument `T` from the argument list}@}. If {@{a single obvious value exists for a type}@}, the compiler may even infer {@{that _term_ itself (e.g., `Ordering.Int`)}@}. <!--SR:!2027-03-13,388,367!2027-03-08,384,367!2027-03-17,390,367!fsrs,2030-12-02T00:00:00.000Z,1445,1444.52302436,1,2,9,0,0,2026-12-18T00:00:00.000Z!2026-12-23,320,349!2026-12-23,320,349!2026-12-21,319,349!fsrs,2030-10-16T00:00:00.000Z,1409,1408.744791,1,2,9,0,0,2026-12-07T00:00:00.000Z!fsrs,2030-07-24T00:00:00.000Z,1345,1344.81337366,1,2,9,0,0,2026-11-17T00:00:00.000Z!fsrs,2028-08-01T00:00:00.000Z,680,679.82874571,2.49272837,2,9,0,0,2026-09-21T00:00:00.000Z-->
 
 The compiler also infers {@{the type argument `T` from the argument list}@}. If {@{a single obvious value exists for a type}@}, the compiler may even infer {@{that _term_ itself (e.g., `Ordering.Int`)}@}, as in the above example. <!--SR:!2027-03-06,381,368!2027-03-14,389,368!2027-03-21,395,368-->
 
@@ -223,7 +223,7 @@ Scala 3 introduces {@{_`given` instances_}@} – {@{values}@} that can be {@{aut
 >     def compare(x: Int, y: Int): Int =
 >       if (x < y) -1 else if (x > y) 1 else 0
 > ```
-<!--SR:!2027-01-24,345,349!2026-12-18,316,349!fsrs,2030-08-22T00:00:00.000Z,1365,1364.83793445,1,2,9,0,0,2026-11-26T00:00:00.000Z!fsrs,2028-04-12T05:15:40.028Z,677,676.62994752,1,2,8,0,0,2026-06-05T05:15:40.028Z-->
+<!--SR:!2027-01-24,345,349!fsrs,2030-12-02T00:00:00.000Z,1445,1444.52302436,1,2,9,0,0,2026-12-18T00:00:00.000Z!fsrs,2030-08-22T00:00:00.000Z,1365,1364.83793445,1,2,9,0,0,2026-11-26T00:00:00.000Z!fsrs,2028-04-12T05:15:40.028Z,677,676.62994752,1,2,8,0,0,2026-06-05T05:15:40.028Z-->
 
 {@{Anonymous instances}@} can be {@{declared without a name}@}; the compiler will {@{create a new instance and generate a name}@}: <!--SR:!fsrs,2030-10-06T00:00:00.000Z,1401,1400.77653742,1,2,9,0,0,2026-12-05T00:00:00.000Z!fsrs,2030-10-31T00:00:00.000Z,1421,1420.68519039,1,2,9,0,0,2026-12-10T00:00:00.000Z!2027-01-20,341,349-->
 

@@ -54,7 +54,7 @@ Because Lisp was originally {@{an intermediate language for compilers}@}, it con
 
 {@{The primitive data types in Lisp}@} are {@{numbers, strings, symbols and lists}@}. {@{Numbers}@} can be {@{integers or floating–point values}@}; many dialects allow {@{arbitrarily large integers}@}. {@{Strings}@} behave {@{like Java strings}@}, while {@{symbols}@} are {@{unquoted identifiers that are looked up in an environment when a program is evaluated}@}. In {@{conditional expressions}@} every value counts as {@{_truthy_ except certain specific values}@}, which represents {@{false}@}. The specific values may be {@{the empty list `nil`, the number `0`, the special falsy value `#f`, etc.}@} <!--SR:!2027-03-13,318,340!2027-02-25,302,340!2026-12-25,265,340!2027-03-29,334,340!2027-03-23,328,340!2027-02-28,305,340!2027-03-04,309,340!2027-03-10,315,340!2026-12-31,271,340!2027-02-25,302,340!2027-03-10,315,340!2027-02-27,304,340!2027-03-29,334,340-->
 
-{@{Lists themselves}@} are constructed with {@{the function `cons`}@} and terminated by {@{the special value `nil`}@}. A list such as {@{`(quote (1 2 3))` or `'(1 2 3)`}@} is actually {@{a nested chain of pairs: `(cons 1 (cons 2 (cons 3 nil)))`}@}. Because Lisp has {@{no static type system}@}, lists can be {@{represented solely with functions}@}. {@{A cons cell}@} may be defined as {@{a function that receives a continuation `k`}@}; {@{the operations `cons`, `car` and `cdr`}@} are then just {@{applications of that function to suitable continuations}@}: <!--SR:!2027-01-07,277,340!2027-02-28,305,340!2027-02-20,297,340!2026-12-18,259,340!2027-03-18,323,340!2027-03-04,309,340!2027-03-05,310,340!2027-02-27,304,340!2027-02-18,295,340!2026-12-29,269,340!2026-12-24,265,340-->
+{@{Lists themselves}@} are constructed with {@{the function `cons`}@} and terminated by {@{the special value `nil`}@}. A list such as {@{`(quote (1 2 3))` or `'(1 2 3)`}@} is actually {@{a nested chain of pairs: `(cons 1 (cons 2 (cons 3 nil)))`}@}. Because Lisp has {@{no static type system}@}, lists can be {@{represented solely with functions}@}. {@{A cons cell}@} may be defined as {@{a function that receives a continuation `k`}@}; {@{the operations `cons`, `car` and `cdr`}@} are then just {@{applications of that function to suitable continuations}@}: <!--SR:!2027-01-07,277,340!2027-02-28,305,340!2027-02-20,297,340!fsrs,2030-03-13T00:00:00.000Z,1181,1180.55515714,1,2,9,0,0,2026-12-18T00:00:00.000Z!2027-03-18,323,340!2027-03-04,309,340!2027-03-05,310,340!2027-02-27,304,340!2027-02-18,295,340!2026-12-29,269,340!2026-12-24,265,340-->
 
 > [!example] __functional cons implementation__
 >
@@ -103,7 +103,7 @@ We will implement {@{a tiny Scheme interpreter in Scala}@}, reusing {@{the same 
 > ```
 <!--SR:!2027-02-26,303,340!2027-03-28,333,340-->
 
-{@{A factorial program written in Scheme}@} can be represented {@{directly as a Scala list of `Data`}@}: <!--SR:!2026-12-18,259,340!2027-02-25,302,340-->
+{@{A factorial program written in Scheme}@} can be represented {@{directly as a Scala list of `Data`}@}: <!--SR:!fsrs,2030-03-13T00:00:00.000Z,1181,1180.55515714,1,2,9,0,0,2026-12-18T00:00:00.000Z!2027-02-25,302,340-->
 
 > [!example] __factorial program internal representation__
 >
@@ -306,7 +306,7 @@ Note that {@{the environment with only `lookup` and `extend` as implemented abov
 
 {@{The same structure}@} can be replaced by {@{a map for _O(log n)_ performance}@}, but {@{the simple list form}@} is often used {@{in educational settings to keep the code readable}@}. {@{The inner class `Environment.this`}@} refers to {@{the outer environment that the new object closes over}@}; this allows {@{a fresh binding to shadow older ones without mutating the existing structure}@}. <!--SR:!2027-03-19,324,340!2027-03-25,330,340!2026-12-22,263,340!2027-03-20,325,340!2027-02-23,300,340!2027-01-13,282,340!2027-03-07,312,340-->
 
-The evaluator uses {@{these operations during evaluation}@}: every time it {@{encounters a symbol}@}, it calls {@{`lookup`}@}; when {@{a binding is defined with `(val name expr)` or `(define name expr)`}@} it adds {@{the binding respectively via `extend` or `extendRec`}@}. Together they provide {@{lexical scoping for Scheme-- programs}@}. <!--SR:!2026-12-21,263,340!2026-12-18,259,340!2027-03-23,328,340!2027-03-21,326,340!2027-03-06,311,340!2026-12-21,262,340-->
+The evaluator uses {@{these operations during evaluation}@}: every time it {@{encounters a symbol}@}, it calls {@{`lookup`}@}; when {@{a binding is defined with `(val name expr)` or `(define name expr)`}@} it adds {@{the binding respectively via `extend` or `extendRec`}@}. Together they provide {@{lexical scoping for Scheme-- programs}@}. <!--SR:!2026-12-21,263,340!fsrs,2030-03-13T00:00:00.000Z,1181,1180.55515714,1,2,9,0,0,2026-12-18T00:00:00.000Z!2027-03-23,328,340!2027-03-21,326,340!2027-03-06,311,340!2026-12-21,262,340-->
 
 ### predefined bindings
 
@@ -326,7 +326,7 @@ The evaluator uses {@{these operations during evaluation}@}: every time it {@{en
 
 ### evaluation rules
 
-{@{The evaluator}@} is {@{a recursive function that walks the abstract syntax tree of a Scheme-- expression}@} and produces {@{a `Data` value}@}. It takes {@{two arguments: the expression to evaluate and an `Environment`}@}. The following sections sketch the main rules. <!--SR:!2026-12-18,259,340!2027-02-23,300,340!2027-03-01,306,340!2027-03-03,308,340-->
+{@{The evaluator}@} is {@{a recursive function that walks the abstract syntax tree of a Scheme-- expression}@} and produces {@{a `Data` value}@}. It takes {@{two arguments: the expression to evaluate and an `Environment`}@}. The following sections sketch the main rules. <!--SR:!fsrs,2030-03-13T00:00:00.000Z,1181,1180.55515714,1,2,9,0,0,2026-12-18T00:00:00.000Z!2027-02-23,300,340!2027-03-01,306,340!2027-03-03,308,340-->
 
 {@{Atoms}@} are {@{returned unchanged}@}, while {@{symbols}@} are {@{looked up in the current environment}@}. <!--SR:!2026-12-24,265,340!2026-12-21,263,340!2027-03-20,325,340!2027-03-11,316,340-->
 
@@ -356,7 +356,7 @@ The evaluator uses {@{these operations during evaluation}@}: every time it {@{en
 > ```
 <!--SR:!2027-03-13,318,340!2027-01-04,275,340!2027-03-22,327,340-->
 
-{@{__`if`__}@} evaluates {@{the condition first}@}; in our specific implementation, {@{a non-zero number}@} is {@{treated as _true_}@}. <!--SR:!2026-12-18,259,340!2026-12-27,267,340!2027-03-24,329,340!2027-02-18,295,340-->
+{@{__`if`__}@} evaluates {@{the condition first}@}; in our specific implementation, {@{a non-zero number}@} is {@{treated as _true_}@}. <!--SR:!fsrs,2030-03-13T00:00:00.000Z,1181,1180.55515714,1,2,9,0,0,2026-12-18T00:00:00.000Z!2026-12-27,267,340!2027-03-24,329,340!2027-02-18,295,340-->
 
 > [!example] __`if` special form__
 >

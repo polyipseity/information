@@ -406,7 +406,7 @@ To implement {@{backtracking}@}, instead of returning {@{a single result}@}, we 
 >   } yield x :: p
 > ```
 >
-> {@{The `flatMap` in the for-comprehension}@} concatenates {@{the lists of solutions from each successor}@}, giving {@{a lazy stream of all possible paths between `x` and `y`}@}. Because {@{the list is lazy}@}, new paths are {@{generated only when requested}@}. <!--SR:!2027-03-29,333,342!2027-03-14,318,342!2027-03-16,320,342!2027-03-04,315,342!2027-03-10,314,342!2027-03-30,334,342!2027-03-04,308,342!2026-12-18,257,330!2027-02-22,305,342!2027-03-10,321,342!2027-02-23,299,342-->
+> {@{The `flatMap` in the for-comprehension}@} concatenates {@{the lists of solutions from each successor}@}, giving {@{a lazy stream of all possible paths between `x` and `y`}@}. Because {@{the list is lazy}@}, new paths are {@{generated only when requested}@}. <!--SR:!2027-03-29,333,342!2027-03-14,318,342!2027-03-16,320,342!2027-03-04,315,342!2027-03-10,314,342!2027-03-30,334,342!2027-03-04,308,342!fsrs,2030-01-25T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-12-18T00:00:00.000Z!2027-02-22,305,342!2027-03-10,321,342!2027-02-23,299,342-->
 
 ## implementation
 

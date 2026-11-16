@@ -187,4 +187,4 @@ The L293 has 8 pins on each side (16 pins total); the 74HC14 has 7 pins on each 
 
 Flashcards for this section are as follows:
 
-- pin counts ::@:: L293: 8 pins per side (16 total). 74HC14: 7 pins per side (14 total). <!--SR:!fsrs,2026-12-17T01:12:39.355Z,194,193.65488775,3.24197837,2,7,0,0,2026-06-06T01:12:39.355Z!fsrs,2027-04-05T05:33:08.336Z,304,304.30256839,1,2,7,0,0,2026-06-05T05:33:08.336Z-->
+- pin counts ::@:: L293: 8 pins per side (16 total). 74HC14: 7 pins per side (14 total). <!--SR:!fsrs,2029-03-24T00:00:00.000Z,827,827.26295226,1,2,8,0,0,2026-12-18T00:00:00.000Z!fsrs,2027-04-05T05:33:08.336Z,304,304.30256839,1,2,7,0,0,2026-06-05T05:33:08.336Z-->

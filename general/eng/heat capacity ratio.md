@@ -27,7 +27,7 @@ tags:
 
 > [!tip] tips
 >
-> - $Q / W$ ::@:: Since the extra [heat capacity](heat%20capacity.md) of [isobaric processes](isobaric%20process.md) comes from [work](work%20(physics).md), therefore $Q / W = \gamma / (\gamma - 1)$ for [isobaric processes](isobaric%20process.md). For a generalization, see [polytropic process § relation between polytropic index and energy transfer ratio](polytropic%20process.md#relation%20between%20polytropic%20index%20and%20energy%20transfer%20ratio). <!--SR:!2027-06-19,840,290!2026-12-18,715,333-->
+> - $Q / W$ ::@:: Since the extra [heat capacity](heat%20capacity.md) of [isobaric processes](isobaric%20process.md) comes from [work](work%20(physics).md), therefore $Q / W = \gamma / (\gamma - 1)$ for [isobaric processes](isobaric%20process.md). For a generalization, see [polytropic process § relation between polytropic index and energy transfer ratio](polytropic%20process.md#relation%20between%20polytropic%20index%20and%20energy%20transfer%20ratio). <!--SR:!2027-06-19,840,290!fsrs,2034-08-14T00:00:00.000Z,2796,2795.91820507,1,2,10,0,0,2026-12-18T00:00:00.000Z-->
 
 ## ideal gas relations
 

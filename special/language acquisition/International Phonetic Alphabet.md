@@ -989,7 +989,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [close-mid back rounded vowel](close-mid%20back%20rounded%20vowel.md):@:[English](English%20language.md) _y**aw**n_ \[joːn\] <!--SR:!fsrs,2027-02-04T00:00:00.000Z,147,146.58336466,9.98522837,2,8,0,0,2026-09-10T00:00:00.000Z-->
 - [open-mid back rounded vowel](open-mid%20back%20rounded%20vowel.md):@:[English](English%20language.md) _n**o**t_ \[nɔt\] <!--SR:!2027-01-27,552,211-->
 - [nasalized open-mid back rounded vowel](nasal%20vowel.md):@:[French](French%20language.md) _s**on**_ \[sɔ̃\] "sound" <!--SR:!fsrs,2027-01-17T00:00:00.000Z,76,75.95691154,9.94100205,2,9,0,0,2026-11-02T00:00:00.000Z-->
-- [close-mid front rounded vowel](close-mid%20front%20rounded%20vowel.md):@:[French](French%20language.md) _p**eu**_ \[pø\] "few" <!--SR:!fsrs,2026-12-18T00:00:00.000Z,56,56.40316197,9.94111202,2,9,0,0,2026-10-23T00:00:00.000Z-->
+- [close-mid front rounded vowel](close-mid%20front%20rounded%20vowel.md):@:[French](French%20language.md) _p**eu**_ \[pø\] "few" <!--SR:!fsrs,2027-03-01T00:00:00.000Z,73,72.75462418,9.92639928,2,10,0,0,2026-12-18T00:00:00.000Z-->
 - [close-mid central rounded vowel](close-mid%20central%20rounded%20vowel.md):@:[English](English%20language.md) _f**oo**t_ \[fɵʔt\] <!--SR:!2026-12-20,222,170-->
 - [open-mid front rounded vowel](open-mid%20front%20rounded%20vowel.md):@:[French](French%20language.md) _j**eu**ne_ \[ʒœn\] "young" <!--SR:!fsrs,2027-02-26T00:00:00.000Z,98,97.78106066,9.96891253,2,9,0,0,2026-11-20T00:00:00.000Z-->
 - [nasalized open-mid front rounded vowel](nasal%20vowel.md):@:[French](French%20language.md) _br**un**_ \[bʁœ̃\] "brown" <!--SR:!fsrs,2027-02-07T00:00:00.000Z,95,95.16149112,9.95572941,2,9,0,0,2026-11-04T00:00:00.000Z-->

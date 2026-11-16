@@ -64,7 +64,7 @@ Apart from being ugly to {@{compose asynchronous steps (_callback hell_)}@}, CPS
 > makeCoffee(k); makeCoffee(k)          // race if the callbacks run on different threads
 > ```
 >
-> Because `k` is executed {@{concurrently by two invocations of `makeCoffee`}@}, {@{the shared variable `firstCoffee`}@} can be {@{updated in any order}@}. <!--SR:!2027-01-22,293,330!2026-12-18,264,330!fsrs,2029-11-22T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-19T00:00:00.000Z!fsrs,2029-12-16T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-12-01T00:00:00.000Z!2027-01-19,289,330!2027-01-01,275,330-->
+> Because `k` is executed {@{concurrently by two invocations of `makeCoffee`}@}, {@{the shared variable `firstCoffee`}@} can be {@{updated in any order}@}. <!--SR:!2027-01-22,293,330!fsrs,2030-02-21T00:00:00.000Z,1161,1160.74715681,1,2,9,0,0,2026-12-18T00:00:00.000Z!fsrs,2029-11-22T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-11-19T00:00:00.000Z!fsrs,2029-12-16T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-12-01T00:00:00.000Z!2027-01-19,289,330!2027-01-01,275,330-->
 
 Because `k` is executed {@{concurrently by two invocations of `makeCoffee`}@}, {@{the shared variable `firstCoffee`}@} can be {@{updated in any order}@}. Without synchronization, {@{the resulting read—write pairs}@} may be {@{inconsistent or even lost}@}, illustrating why {@{CPS code that mutates external state is fragile when run asynchronously}@}. <!--SR:!fsrs,2030-02-15T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-12-16T00:00:00.000Z!fsrs,2029-10-18T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-11T00:00:00.000Z!fsrs,2030-01-26T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-12-11T00:00:00.000Z!2027-01-23,293,330!2027-01-23,294,330!2027-01-13,285,330-->
 

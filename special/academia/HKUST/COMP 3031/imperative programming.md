@@ -49,7 +49,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 >   if cond then { body; whileDo(cond)(body) } else ()
 > ```
 >
-> {@{The `cond` and `body` arguments}@} are {@{_by‑name_ parameters}@}, allowing {@{the loop to re‑evaluate them each time}@}. It returns {@{the `Unit` value `()`}@} when {@{the loop ends}@}. <!--SR:!fsrs,2029-11-18T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-11-18T00:00:00.000Z!2026-12-18,267,330!2026-12-26,273,330!fsrs,2029-12-13T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-28T00:00:00.000Z!fsrs,2029-12-19T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-11-30T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!fsrs,2029-12-07T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2030-02-18T00:00:00.000Z,1161,1160.74715681,1,2,9,0,0,2026-12-15T00:00:00.000Z!2027-01-03,280,330-->
+> {@{The `cond` and `body` arguments}@} are {@{_by‑name_ parameters}@}, allowing {@{the loop to re‑evaluate them each time}@}. It returns {@{the `Unit` value `()`}@} when {@{the loop ends}@}. <!--SR:!fsrs,2029-11-18T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-11-18T00:00:00.000Z!fsrs,2030-03-04T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-12-18T00:00:00.000Z!2026-12-26,273,330!fsrs,2029-12-13T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-28T00:00:00.000Z!fsrs,2029-12-19T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-11-30T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!fsrs,2029-12-07T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2030-02-18T00:00:00.000Z,1161,1160.74715681,1,2,9,0,0,2026-12-15T00:00:00.000Z!2027-01-03,280,330-->
 
 ### repeat loops
 
@@ -118,7 +118,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 
 ### circuit description language
 
-{@{A circuit}@} is built from {@{_wires_ carrying Boolean signals and _components_ that transform those signals}@}. {@{The basic gates—an inverter, an AND gate and an OR gate}@}—are the {@{building blocks for more complex structures such as half‑adders or full‑adders}@}. Each component has {@{a fixed delay}@}; its output is updated only {@{after that amount of simulated time}@}. <!--SR:!fsrs,2029-11-03T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-15T00:00:00.000Z!2026-12-18,267,330!fsrs,2030-01-02T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-12-03T00:00:00.000Z!fsrs,2030-01-23T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-12-08T00:00:00.000Z!fsrs,2029-09-02T00:00:00.000Z,1036,1036.0812332,1,2,9,0,0,2026-11-01T00:00:00.000Z!2027-01-19,293,330-->
+{@{A circuit}@} is built from {@{_wires_ carrying Boolean signals and _components_ that transform those signals}@}. {@{The basic gates—an inverter, an AND gate and an OR gate}@}—are the {@{building blocks for more complex structures such as half‑adders or full‑adders}@}. Each component has {@{a fixed delay}@}; its output is updated only {@{after that amount of simulated time}@}. <!--SR:!fsrs,2029-11-03T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-15T00:00:00.000Z!fsrs,2030-03-04T00:00:00.000Z,1172,1172.20432607,1,2,9,0,0,2026-12-18T00:00:00.000Z!fsrs,2030-01-02T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-12-03T00:00:00.000Z!fsrs,2030-01-23T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-12-08T00:00:00.000Z!fsrs,2029-09-02T00:00:00.000Z,1036,1036.0812332,1,2,9,0,0,2026-11-01T00:00:00.000Z!2027-01-19,293,330-->
 
 > [!example] __basic gates__
 >
