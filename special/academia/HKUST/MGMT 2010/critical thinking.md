@@ -13,7 +13,7 @@ tags:
 
 # critical thinking
 
-Critical thinking is reaching a judgement from the evidence and the reasoning behind it, not accepting a conclusion handed over. A skill survives only while exercised. A chatbot can raise the accuracy of one decision and leave the person behind it worse at that decision.
+Critical thinking is reaching a judgement from the evidence and the reasoning behind it, not accepting a conclusion handed over. A skill survives only while exercised. A chatbot can raise the accuracy of one decision and still leave its user worse at that decision.
 
 ---
 
@@ -33,12 +33,12 @@ Claude and ChatGPT both help a user work out whether a headline or an image is r
 Flashcards for this section are as follows:
 
 - what assistants such as Claude and ChatGPT do for a reader judging whether news is real ::@:: They help the user work out whether a headline or an image is real; that help costs the ability to judge alone.
-- what over-dependence on a chatbot does to misinformation judgement ::@:: It can leave the user worse at judging misinformation alone.
+- what over-dependence on a chatbot does to misinformation judgement ::@:: It can leave the user worse at judging alone.
 - cognitive dependency ::@:: Dependence on a tool for a judgement the user would otherwise reach alone.
 
 ### four-week detection task
 
-The Massachusetts Institute of Technology (MIT) ran a four-week study, released in April, in which 67 participants judged whether pairs of news-related headlines and images were real, both with and without an assistant running on GPT-4o and integrated with Google search. The same participants stayed for all four weeks, so each person's judgement could be compared with their own earlier answers. The help came as hints at what to look for. The chatbot once told a user to look more closely at a police badge, which showed the image was fake. The study measured how far the assistant steered a participant to an accurate verdict, and how that participant's own judgement changed over the weeks. Earlier work found the same. Too much reliance on chatbots diminishes critical thinking and leaves the ability to judge misinformation weaker.
+The Massachusetts Institute of Technology (MIT) ran a four-week study, released in April, in which 67 participants judged whether pairs of news-related headlines and images were real, both with and without an assistant running on GPT-4o and integrated with Google search. The same participants stayed for all four weeks, so each verdict could be compared with that person's earlier answers. The help came as hints at what to look for. The chatbot once told a user to look more closely at a police badge, and the closer look showed the image was fake. Earlier work found the same: too much reliance on chatbots diminishes critical thinking and leaves the ability to judge misinformation weaker.
 
 ---
 
@@ -67,7 +67,7 @@ Flashcards for this section are as follows:
 
 ## prescriptive and probing assistants
 
-A prescriptive system states the conclusion; a probing one asks questions that lead the user to it. Users want speed and certainty, so they reach for the prescriptive one. The probing one is what improves critical thinking.
+A prescriptive system states the conclusion. A probing one asks questions that lead the user to it. Users want speed and certainty, so they reach for the prescriptive one, but only the probing one improves critical thinking.
 
 ---
 
@@ -78,7 +78,7 @@ Flashcards for this section are as follows:
 
 ### prescriptive assistant
 
-A prescriptive assistant tells the user what to do or what to conclude. It sounds knowledgeable, and users go along with it for that reason rather than testing it. It aims at an accurate response, not at the user's ability to reach one. The analysis of the four-week Massachusetts Institute of Technology (MIT) study found the same priority: on the fake-news questions, the correct verdict mattered more than the participant's growing capacity to judge. Users accept rather than test, and that turns the help into dependency, which could make judgement worse over the long term.
+A prescriptive assistant tells the user what to do or what to conclude. It aims at an accurate response, not at the user's ability to reach one. It sounds knowledgeable, so the user accepts it rather than testing it. The analysis of the four-week MIT study found the same priority: on the fake-news questions, the correct verdict mattered more than the participant's growing capacity to judge. The help then becomes dependency, which can make judgement worse over the long term.
 
 ---
 
@@ -93,7 +93,7 @@ Flashcards for this section are as follows:
 
 ### probing assistant
 
-A probing assistant asks guiding questions instead of supplying the answer, so the user does the judging. It improves critical thinking, though more slowly and less certainly than an answer given outright.
+A probing assistant asks guiding questions instead of supplying the answer, so the user does the judging. It improves critical thinking more slowly and less certainly than an answer given outright.
 
 ---
 
@@ -104,7 +104,7 @@ Flashcards for this section are as follows:
 
 ## self-assessment gap
 
-The self-assessment gap is the distance between what a participant reports about their own skill and what a measured test shows. About one-quarter of the 67 participants said their detection skills were improving while their measured performance fell. Anku Rani, a PhD student at the Massachusetts Institute of Technology (MIT) who co-led the four-week study, generalised the gap. People who interact with AI feel they are becoming better at certain tasks, and enough research shows they are not.
+The self-assessment gap is the distance between what a participant reports about their own skill and what a measured test shows. About one-quarter of the 67 participants said their detection skills were improving while their measured performance fell. Anku Rani, a PhD student at MIT who co-led the study, put it more broadly: people who interact with AI feel they are becoming better at certain tasks, and enough research shows they are not.
 
 ---
 
@@ -119,7 +119,7 @@ Flashcards for this section are as follows:
 
 ## earlier de-skilling parallels
 
-Delegating a task to a tool instead of doing it oneself is cognitive offloading, and the skill that task exercises weakens. Calculators dulled mental arithmetic, and satellite navigation the ability to find one's way around a neighbourhood. Medicine shows the same effect on trained judgement: a 2025 study in the Lancet found that doctors using AI classification tools to detect cancer became worse at detecting it alone. A neuroscientist at the Possibility Institute, a metascience research group, warned that diverting too much thinking to AI can weaken the brain's defences against dementia.
+Delegating a task to a tool is cognitive offloading, and the skill that task exercises weakens. Calculators dulled mental arithmetic, and satellite navigation the ability to find one's way around a neighbourhood. Medicine shows it on trained judgement: a 2025 study in the Lancet found that doctors using AI classification tools to detect cancer became worse at detecting it alone. A neuroscientist at the Possibility Institute, a metascience research group, warned that diverting too much thinking to AI can weaken the brain's defences against dementia.
 
 ---
 
@@ -134,7 +134,7 @@ Flashcards for this section are as follows:
 
 ## limits of the evidence
 
-The authors of the four-week Massachusetts Institute of Technology (MIT) study named two limits. The participants came predominantly from the United States and the United Kingdom, so a more diverse sample would show whether the decline occurs across cultural contexts and educational systems. Four weeks is short, so a longer study would show whether over-reliance holds at the same rate.
+The authors of the four-week MIT study named two limits. The participants came predominantly from the United States and the United Kingdom, so a more diverse sample would show whether the decline occurs across cultural contexts and educational systems. Four weeks is short, so a longer study would show whether over-reliance holds at the same rate.
 
 ---
 
@@ -147,7 +147,7 @@ Flashcards for this section are as follows:
 
 ## implications for educators and the public
 
-Educators increasingly rely on AI for learning tools, so whether an assistant builds the skill or replaces it matters most in a classroom. The public meets the same question without a curriculum: dubious material arrives as news, viral images, medical claims, and political rumours. Resilience to misinformation rests on tools that build critical thinking rather than cognitive dependency.
+Educators increasingly rely on AI for learning tools, so whether an assistant builds the skill or replaces it matters most in a classroom. The public meets the same question without a curriculum: dubious material arrives as news, viral images, medical claims, and political rumours. Resilience to misinformation depends on tools that build critical thinking rather than cognitive dependency.
 
 ---
 
@@ -156,3 +156,8 @@ Flashcards for this section are as follows:
 - why the detection result matters for educators ::@:: Educators increasingly rely on artificial intelligence (AI) for learning tools.
 - why the detection result matters for the public ::@:: Dubious online information arrives as news, viral images, medical claims, and political rumours.
 - what artificial intelligence (AI) tools have to do for public resilience to misinformation ::@:: Build critical thinking skills rather than cognitive dependency.
+
+## references
+
+- Over-reliance on chatbots can diminish critical-thinking skills, study finds. (\[missing\]). The Guardian, 19 June 2026.
+    - Source for the four-week detection task, the measured trade-off, the prescriptive and probing assistants, the self-assessment gap, and the limits of the evidence.

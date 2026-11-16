@@ -31,7 +31,9 @@ The content is in teaching order.
 ## children
 
 - [attachments/](attachments/)
+- [lectures/](lectures/index.md)
 - [AGENTS](AGENTS.md)
+- [AI safety](AI%20safety.md)
 - [Confucian ethics](Confucian%20ethics.md)
 - [business ethics](business%20ethics.md)
 - [cognitive bias](cognitive%20bias.md)
@@ -45,6 +47,7 @@ The content is in teaching order.
 - [ethics of care](ethics%20of%20care.md)
 - [honesty](honesty.md)
 - [normative ethics](normative%20ethics.md)
+- [project management](project%20management.md)
 - [psychological safety](psychological%20safety.md)
 - [utilitarianism](utilitarianism.md)
 - [virtue ethics](virtue%20ethics.md)
@@ -103,6 +106,8 @@ The content is in teaching order.
     - practical application
         - [corporate social responsibility](corporate%20social%20responsibility.md)
         - [ethical decision-making](ethical%20decision-making.md)
+        - [project management](project%20management.md)
+        - [AI safety](AI%20safety.md)
 
 ## assignments
 
@@ -110,6 +115,10 @@ The content is in teaching order.
     - due: 2026-11-29T23:59:00+08:00
     - points: 15%
     - description: teaching note and 7-minute role play simulation in Session 12
+- 'Patient Zero' computer simulation team report
+    - due: 2026-11-30T23:59:00+08:00
+    - points: 5%
+    - description: team report on the in-class 'Patient Zero' computer simulation
 - individual self-reflection essay
     - due: 2026-12-07T23:59:00+08:00
     - points: 10%
@@ -120,6 +129,7 @@ The content is in teaching order.
 - datetime: 2026-09-07T16:00:00+08:00/2026-09-07T17:50:00+08:00
 - venue: Rm 1014, LSK Bldg
 - topic: ethics and you, an introduction
+- in-class: [week 2 lecture 1](lectures/week%202%20lecture%201/index.md)
 - [business ethics](business%20ethics.md)
     - [§ definitions](business%20ethics.md#definitions)
     - [§ relationship between law and ethics](business%20ethics.md#relationship%20between%20law%20and%20ethics)
@@ -138,6 +148,7 @@ The content is in teaching order.
 - datetime: 2026-09-14T16:00:00+08:00/2026-09-14T17:50:00+08:00
 - venue: Rm 1014, LSK Bldg
 - topic: thinking biases and ethics
+- in-class: [week 3 lecture 1](lectures/week%203%20lecture%201/index.md)
 - [cognitive bias](cognitive%20bias.md)
 - [cognitive dissonance](cognitive%20dissonance.md)
 - [critical thinking](critical%20thinking.md)
@@ -157,6 +168,7 @@ The content is in teaching order.
 - datetime: 2026-09-28T16:00:00+08:00/2026-09-28T17:50:00+08:00
 - venue: Rm 1014, LSK Bldg
 - topic: deontology; W.D. Ross
+- in-class: [week 5 lecture 1](lectures/week%205%20lecture%201/index.md)
 - [deontology](deontology.md)
 
 ## week 6 lecture 1
@@ -164,6 +176,7 @@ The content is in teaching order.
 - datetime: 2026-10-05T16:00:00+08:00/2026-10-05T17:50:00+08:00
 - venue: Rm 1014, LSK Bldg
 - topic: virtue ethics; care ethics
+- in-class: [week 6 lecture 1](lectures/week%206%20lecture%201/index.md)
 - [virtue ethics](virtue%20ethics.md)
 - [ethics of care](ethics%20of%20care.md)
 
@@ -172,6 +185,7 @@ The content is in teaching order.
 - datetime: 2026-10-12T16:00:00+08:00/2026-10-12T17:50:00+08:00
 - venue: Rm 1014, LSK Bldg
 - topic: Confucian ethics
+- in-class: [week 7 lecture 1](lectures/week%207%20lecture%201/index.md)
 - [Confucian ethics](Confucian%20ethics.md)
 - [ethical decision-making](ethical%20decision-making.md)
 - [corporate social responsibility](corporate%20social%20responsibility.md)
@@ -189,6 +203,7 @@ The content is in teaching order.
 - datetime: 2026-10-26T16:00:00+08:00/2026-10-26T17:50:00+08:00
 - venue: Rm 1014, LSK Bldg
 - topic: values game
+- in-class: [week 9 lecture 1](lectures/week%209%20lecture%201/index.md)
 - [ethics and morals](ethics%20and%20morals.md)
     - [§ contested questions](ethics%20and%20morals.md#contested%20questions)
     - [§ three approaches to ethics](ethics%20and%20morals.md#three%20approaches%20to%20ethics)
@@ -198,13 +213,15 @@ The content is in teaching order.
 
 - datetime: 2026-11-02T16:00:00+08:00/2026-11-02T17:50:00+08:00
 - venue: Rm 1014, LSK Bldg
-- topic: practical approaches
+- topic: practical approaches: project management
+- [project management](project%20management.md)
 
 ## week 11 lecture 1
 
 - datetime: 2026-11-09T16:00:00+08:00/2026-11-09T17:50:00+08:00
 - venue: Rm 1014, LSK Bldg
 - topic: practical approaches; 'The Tribunal Protocol' AI bot
+- [AI safety](AI%20safety.md)
 
 ## week 12 lecture 1
 
