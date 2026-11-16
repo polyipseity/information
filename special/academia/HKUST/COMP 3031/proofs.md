@@ -285,7 +285,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > Empty.incl(x).contains(x) = NonEmpty(x, Empty, Empty).contains(x)
 > ```
 >
-> which evaluates to {@{`true` \(RHS\) by the definition of `NonEmpty.contains`}@}. <!--SR:!2027-01-07,344,350!2026-12-15,321,350!2026-12-18,324,350-->
+> which evaluates to {@{`true` \(RHS\) by the definition of `NonEmpty.contains`}@}. <!--SR:!2027-01-07,344,350!fsrs,2030-12-23T00:00:00.000Z,1469,1468.99896287,1,2,9,0,0,2026-12-15T00:00:00.000Z!2026-12-18,324,350-->
 
 <!-- markdownlint MD028 -->
 

@@ -415,7 +415,7 @@ When {@{an expression is not a special form}@}, it is treated as {@{a function c
 > case operator :: operands =>
 >   apply(eval(operator, env), operands.map(x => eval(x, env)))
 > ```
-<!--SR:!2026-12-15,256,340!2027-03-03,308,340!2027-03-06,311,340-->
+<!--SR:!fsrs,2030-02-26T00:00:00.000Z,1169,1168.67995624,1,2,9,0,0,2026-12-15T00:00:00.000Z!2027-03-03,308,340!2027-03-06,311,340-->
 
 {@{The `apply` function}@} distinguishes between {@{a user-defined closure and any other value}@}. {@{A non-closure causes an error}@}; otherwise {@{the stored partial function is invoked with the argument list}@}. <!--SR:!2027-03-24,329,340!2027-03-16,321,340!2027-03-09,314,340!2027-02-23,300,340-->
 

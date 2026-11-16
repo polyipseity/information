@@ -43,7 +43,7 @@ return await memorize_table(
 <!--pytextgen generate section="295f"--><!-- The following content is generated at 2024-01-04T20:17:51.835140+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←[aromatic hydrocarbons](aromatic%20compound.md) <!--SR:!2032-02-24,2435,330!2028-07-19,1508,350-->
-- [aromatic hydrocarbons](aromatic%20compound.md)→::@::←[saturated hydrocarbons](saturated%20hydrocarbon.md) <!--SR:!2028-07-20,1508,350!2026-12-15,972,330-->
+- [aromatic hydrocarbons](aromatic%20compound.md)→::@::←[saturated hydrocarbons](saturated%20hydrocarbon.md) <!--SR:!2028-07-20,1508,350!fsrs,2036-11-16T00:00:00.000Z,3624,3623.9936997,1,2,11,0,0,2026-12-15T00:00:00.000Z-->
 - [saturated hydrocarbons](saturated%20hydrocarbon.md)→::@::←[unsaturated hydrocarbons](unsaturated%20hydrocarbon.md) <!--SR:!2028-03-26,1418,350!2028-03-16,1409,350-->
 - [unsaturated hydrocarbons](unsaturated%20hydrocarbon.md)→::@::←_(end)_ <!--SR:!2027-05-08,1163,350!2027-12-14,1337,350-->
 

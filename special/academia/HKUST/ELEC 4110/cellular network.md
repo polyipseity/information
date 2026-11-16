@@ -114,7 +114,7 @@ These services were marketed as {@{_seamless_}@}: users could switch between {@{
 
 Around {@{2010 the first _LTE_ (Long Term Evolution)}@} deployments began to {@{replace or augment 3G infrastructure}@}. LTE pushed {@{peak rates up to 100&nbsp;Mbps}@}. In {@{South Korea}@}, {@{4G/LTE traffic}@} grew to about {@{63% of monthly data volume by 2013}@}, while {@{smartphone penetration}@} climbed from {@{20% in 2010 to roughly 60% by 2012}@}. <!--SR:!2027-03-27,332,343!2027-02-01,299,343!2027-03-09,314,343!2027-02-23,300,343!2027-03-21,326,343!2027-01-02,277,343!2027-04-01,337,343!2027-01-13,286,343-->
 
-This shift reshaped {@{mobile usage}@}: people moved from {@{voice‑centric services to data‑intensive applications}@} such as {@{social networking, music streaming, online gaming and video playback}@}. <!--SR:!fsrs,2026-12-15T00:00:00.000Z,53,52.94649835,1,2,3,0,0,2026-10-23T00:00:00.000Z!fsrs,2026-12-28T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-23T00:00:00.000Z!fsrs,2026-12-28T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-23T00:00:00.000Z-->
+This shift reshaped {@{mobile usage}@}: people moved from {@{voice‑centric services to data‑intensive applications}@} such as {@{social networking, music streaming, online gaming and video playback}@}. <!--SR:!fsrs,2027-11-09T00:00:00.000Z,329,328.92342027,1,2,4,0,0,2026-12-15T00:00:00.000Z!fsrs,2026-12-28T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-23T00:00:00.000Z!fsrs,2026-12-28T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-23T00:00:00.000Z-->
 
 ## 5G
 

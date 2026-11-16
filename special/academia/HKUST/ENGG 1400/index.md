@@ -180,7 +180,7 @@ The content is in teaching order.
     - decision making / narrow down ::@:: You need to narrow down your choices to avoid choice overload. <!--SR:!2026-12-17,629,414!2027-01-05,644,414-->
         - decision making / narrow down / matrix ::@:: Instead of listing the pros and cons of each choice, create a matrix. The column headers are the choices while the row headers are the objectives. Then assess each choice for each objective, ideally using emotional symbols (e.g. smiley face, neutral face, sad face). Use the matrix to remove the worst choices. <!--SR:!2030-09-16,1696,394!2027-03-18,704,414-->
 - design thinking
-    - design thinking / discernment ::@:: __Discernment__ is integrating _multiple_ ways of knowing, which includes cognitive/intellectual, emotional/affective, physical/kinesthetic, and social. <!--SR:!2026-12-15,627,414!2027-01-11,650,414-->
+    - design thinking / discernment ::@:: __Discernment__ is integrating _multiple_ ways of knowing, which includes cognitive/intellectual, emotional/affective, physical/kinesthetic, and social. <!--SR:!fsrs,2034-08-08T00:00:00.000Z,2793,2792.96126999,1,2,10,0,0,2026-12-15T00:00:00.000Z!2027-01-11,650,414-->
         - design thinking / discernment / cognitive ::@:: decision matrix, pro–con list, logical reasoning <!--SR:!2027-01-30,662,414!2027-03-07,695,414-->
         - design thinking / discernment / emotional ::@:: feeling, intuition, spiritual knowing <!--SR:!2027-01-21,657,414!2031-02-06,1735,394-->
         - design thinking / discernment / physical ::@:: physical message (e.g. feeling light, headache, stomachache, etc.) <!--SR:!2026-12-27,638,414!2027-01-15,654,414-->

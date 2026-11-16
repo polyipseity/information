@@ -99,7 +99,7 @@ To {@{reduce boilerplate}@} {@{the `ord` argument}@} can be declared {@{_implici
 > def sort[T](xs: List[T])(using ord: Ordering[T]): List[T] = ...
 > ```
 >
-> Now {@{callers}@} need not {@{supply it explicitly \(though it could if it chooses to\)}@}; {@{the compiler}@} searches for {@{an implicit `Ordering[T]` in scope}@} and {@{supplies it automatically}@}. <!--SR:!2026-12-30,326,349!2027-01-25,346,349!2026-12-15,313,349!2027-03-03,380,368!2027-03-02,379,368!2027-03-09,385,368!2027-03-19,392,368!2027-03-14,388,368-->
+> Now {@{callers}@} need not {@{supply it explicitly \(though it could if it chooses to\)}@}; {@{the compiler}@} searches for {@{an implicit `Ordering[T]` in scope}@} and {@{supplies it automatically}@}. <!--SR:!2026-12-30,326,349!2027-01-25,346,349!fsrs,2030-11-17T00:00:00.000Z,1433,1432.61121036,1,2,9,0,0,2026-12-15T00:00:00.000Z!2027-03-03,380,368!2027-03-02,379,368!2027-03-09,385,368!2027-03-19,392,368!2027-03-14,388,368-->
 
 Now {@{callers}@} need not {@{supply it explicitly \(though it could if it chooses to\)}@}; {@{the compiler}@} searches for {@{an implicit `Ordering[T]` in scope}@} and {@{supplies it automatically}@}. {@{Calling it}@} becomes {@{simpler}@}: <!--SR:!fsrs,2029-09-19T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-09-27T00:00:00.000Z!fsrs,2029-10-03T00:00:00.000Z,1099,1099.36699517,1,2,9,0,0,2026-09-30T00:00:00.000Z!2027-01-30,351,349!fsrs,2030-06-14T00:00:00.000Z,1313,1312.68438221,1,2,9,0,0,2026-11-09T00:00:00.000Z!2026-12-20,318,349!2027-01-31,352,349!fsrs,2030-08-04T00:00:00.000Z,1351,1351.39526865,1,2,9,0,0,2026-11-22T00:00:00.000Z-->
 

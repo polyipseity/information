@@ -345,7 +345,7 @@ return await memorize_map(
 - [ammonium hydroxide](ammonia%20solution.md):@:<span style="color: green;">soluble</span> <!--SR:!2027-02-05,320,298-->
 - [ammonium phosphate](ammonium%20phosphate.md):@:<span style="color: green;">soluble</span> <!--SR:!2027-01-19,307,298-->
 - [ammonium sulfide](ammonium%20sulfide.md):@:<span style="color: violet;">reacts</span> <!--SR:!2030-01-05,1449,278-->
-- [ammonium sulfite](ammonium%20sulfite.md):@:<span style="color: green;">soluble</span> <!--SR:!2026-12-15,887,338-->
+- [ammonium sulfite](ammonium%20sulfite.md):@:<span style="color: green;">soluble</span> <!--SR:!fsrs,2033-02-06T00:00:00.000Z,2245,2245.40943719,2.19302837,2,11,0,0,2026-12-15T00:00:00.000Z-->
 - [barium hydroxide](barium%20hydroxide.md):@:<span style="color: green;">soluble</span> <!--SR:!2027-09-20,659,238-->
 - [barium oxide](barium%20oxide.md):@:<span style="color: violet;">reacts</span> <!--SR:!2027-05-05,922,298-->
 - [barium sulfate](barium%20sulfate.md):@:<span style="color: red;">insoluble</span> <!--SR:!fsrs,2027-09-18T00:00:00.000Z,321,321.34158529,8.98461332,2,9,0,0,2026-11-01T00:00:00.000Z-->

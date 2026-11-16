@@ -122,7 +122,7 @@ Tree rotations are {@{used in a number of tree [data structures](data%20structur
 
 > {@{![Pictorial description of how rotations cause rebalancing in an AVL tree.](../../archives/Wikimedia%20Commons/Tree%20Rebalancing.gif)}@}
 >
-> {@{Pictorial description}@} of how {@{rotations cause rebalancing in an AVL tree}@}. <!--SR:!2026-12-15,528,310!2028-03-15,838,290!2028-01-28,630,411-->
+> {@{Pictorial description}@} of how {@{rotations cause rebalancing in an AVL tree}@}. <!--SR:!fsrs,2030-07-12T00:00:00.000Z,1305,1304.83859072,3.24197837,2,10,0,0,2026-12-15T00:00:00.000Z!2028-03-15,838,290!2028-01-28,630,411-->
 
 A tree can be {@{rebalanced using rotations}@}. After {@{a rotation}@}, {@{the side of the rotation increases its height by 1}@} whilst {@{the side opposite the rotation decreases its height similarly}@}. Therefore, one can {@{strategically apply rotations to nodes}@} whose {@{left child and right child differ in height by more than 1}@}. {@{Self-balancing binary search trees}@} apply {@{this operation automatically}@}. {@{A type of tree which uses this rebalancing technique}@} is {@{the [AVL tree](AVL%20tree.md)}@}. <!--SR:!2027-11-24,816,330!2029-06-01,1263,350!2029-04-03,1217,350!2029-07-20,1287,350!2029-01-11,1153,350!2029-07-09,1276,350!2029-07-08,1275,350!2028-01-22,624,411!2028-02-04,635,411!2028-02-17,648,411-->
 

@@ -25,7 +25,7 @@ A __price__ is {@{the \(usually not negative\) [quantity](quantity.md) of [payme
 
 Price can be quoted in {@{currency, quantities of goods or vouchers}@}. <!--SR:!fsrs,2032-03-11T00:00:00.000Z,1960,1959.87371981,1,2,10,0,0,2026-10-29T00:00:00.000Z-->
 
-- In modern [economies](economy.md), prices are generally expressed in ::@:: units of some form of [currency](currency.md). \(More specifically, for [raw materials](raw%20material.md) they are expressed as currency per unit weight, e.g. euros per kilogram or Rands per KG.\) <!--SR:!2027-05-29,706,330!2026-12-15,552,310-->
+- In modern [economies](economy.md), prices are generally expressed in ::@:: units of some form of [currency](currency.md). \(More specifically, for [raw materials](raw%20material.md) they are expressed as currency per unit weight, e.g. euros per kilogram or Rands per KG.\) <!--SR:!2027-05-29,706,330!fsrs,2032-08-07T00:00:00.000Z,2062,2061.762926,1,2,10,0,0,2026-12-15T00:00:00.000Z-->
 - Although prices could be [quoted](request%20for%20quotation.md) as quantities of other goods or services, ::@:: this sort of [barter exchange](barter.md) is rarely seen. Prices are sometimes quoted in terms of vouchers such as trading stamps and air miles. <!--SR:!2027-08-19,764,330!2029-04-03,1243,350-->
 - In some circumstances, cigarettes have been used as ::@:: currency, for example in prisons, in times of [hyperinflation](hyperinflation.md), and in some places during World War II. In a [black market](black%20market.md) economy, [barter](barter.md) is also relatively common. <!--SR:!fsrs,2032-03-23T00:00:00.000Z,1966,1966.46804227,1,2,10,0,0,2026-11-04T00:00:00.000Z!2027-12-11,841,330-->
 
