@@ -65,7 +65,7 @@ The content is in teaching order.
     - [supercomputer](../../../../general/supercomputer.md) ::@:: high-end computers, often specialized for certain workloads, e.g. engineering, science; highest capabilities but very little market share <!--SR:!2027-11-01,759,330!2028-10-27,1052,350-->
     - [embedded computer](../../../../general/embedded%20system.md) ::@:: hidden as components of systems; stringent constraints on cost, performance, power, etc. <!--SR:!2027-11-25,777,330!2027-11-08,764,330-->
 - [abstraction layer](../../../../general/abstraction%20layer.md) ::@:: a way of hiding the working details of a subsystem. <!--SR:!2029-01-21,1113,350!2029-03-04,1155,350-->
-    - abstraction layer / common computer layers ::@:: (from top to bottom) user, application, operating system, hardware <!--SR:!2026-12-16,494,310!2027-09-22,728,330-->
+    - abstraction layer / common computer layers ::@:: (from top to bottom) user, application, operating system, hardware <!--SR:!fsrs,2032-01-30T00:00:00.000Z,1871,1870.55842606,1,2,10,0,0,2026-12-16T00:00:00.000Z!2027-09-22,728,330-->
     - abstraction layer / application ::@:: written in high-level language <!--SR:!2028-11-09,1063,350!2027-08-09,692,330-->
     - abstraction layer / operating system ::@:: compiler: high-level language to machine code; operating system: handle IO, manage memory and storage, manage resources, schedule tasks <!--SR:!2027-02-09,508,310!2029-02-28,1151,350-->
     - abstraction layer / hardware ::@:: IO controllers, memory, processor <!--SR:!2029-02-02,1125,350!2028-11-16,1069,350-->

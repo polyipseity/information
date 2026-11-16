@@ -315,7 +315,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 > Empty.incl(y).contains(x) = NonEmpty(y, Empty, Empty).contains(x)
 > ```
 >
-> which reduces to {@{`Empty.contains(x)` \(RHS\)}@} by {@{the definition of `NonEmpty.contains`}@}. <!--SR:!2026-12-28,334,350!2026-12-16,322,350!2027-01-14,351,350!2027-01-03,340,350!2027-01-09,346,350!2027-01-02,339,350-->
+> which reduces to {@{`Empty.contains(x)` \(RHS\)}@} by {@{the definition of `NonEmpty.contains`}@}. <!--SR:!2026-12-28,334,350!fsrs,2030-12-28T00:00:00.000Z,1473,1472.97080948,1,2,9,0,0,2026-12-16T00:00:00.000Z!2027-01-14,351,350!2027-01-03,340,350!2027-01-09,346,350!2027-01-02,339,350-->
 
 <!-- markdownlint MD028 -->
 

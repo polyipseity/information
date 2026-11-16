@@ -33,7 +33,7 @@ In Scala {@{a _lazy list_}@} ({@{`scala.collection.immutable.LazyList`}@}, forme
 
 {@{A lazy list}@} is defined by {@{two core fields}@}: {@{`LazyList.head` and `LazyList.tail`}@}. <!--SR:!2027-01-07,331,345!fsrs,2030-05-22T00:00:00.000Z,1292,1291.94404398,1,2,9,0,0,2026-11-07T00:00:00.000Z!fsrs,2030-07-24T00:00:00.000Z,1340,1339.52785678,1,2,9,0,0,2026-11-22T00:00:00.000Z-->
 
-- `LazyList.head` ::@:: The first element, which may be computed lazily. <!--SR:!fsrs,2030-08-29T00:00:00.000Z,1367,1367.17336032,1,2,9,0,0,2026-12-01T00:00:00.000Z!2026-12-16,314,345-->
+- `LazyList.head` ::@:: The first element, which may be computed lazily. <!--SR:!fsrs,2030-08-29T00:00:00.000Z,1367,1367.17336032,1,2,9,0,0,2026-12-01T00:00:00.000Z!fsrs,2030-11-03T00:00:00.000Z,1418,1418.305204,1,2,9,0,0,2026-12-16T00:00:00.000Z-->
 - `LazyList.tail` ::@:: A _by-name_ parameter that represents the rest of the list; it is evaluated only when needed and its result is memoised so that subsequent accesses reuse the same value. <!--SR:!fsrs,2030-03-28T00:00:00.000Z,1248,1248.10391817,1,2,9,0,0,2026-10-27T00:00:00.000Z!fsrs,2030-09-06T00:00:00.000Z,1375,1375.05727587,1,2,9,0,0,2026-12-01T00:00:00.000Z-->
 
 {@{The standard implementation}@} in Scala keeps {@{a lazy `state` field}@} that holds either {@{an empty state or a cons cell with head and tail}@}.  {@{This state}@} is computed {@{on first access, cached, and never recomputed}@}. <!--SR:!2026-12-22,319,345!2027-01-08,332,345!2026-12-29,325,345!2027-01-03,328,345!fsrs,2030-10-19T00:00:00.000Z,1407,1406.52923463,1,2,9,0,0,2026-12-12T00:00:00.000Z-->
@@ -393,7 +393,7 @@ In {@{many functional languages}@}, {@{laziness}@} is {@{built into the core lan
 >
 > Here {@{each new element}@} is produced by applying {@{`improve` to the previous one}@}, and {@{no evaluation occurs}@} until {@{a particular element is demanded}@}. <!--SR:!2027-03-12,387,371!2027-03-27,400,371!2027-04-03,406,371!2027-03-16,391,371!2027-03-12,387,371!2027-03-24,397,371!2027-04-13,414,371-->
 
-{@{OCaml}@} takes {@{a different stance}@}. By default it {@{evaluates eagerly}@}, but it still permits {@{cyclic data structures}@} through {@{recursive definitions}@}: <!--SR:!2027-01-20,342,345!fsrs,2030-10-23T00:00:00.000Z,1410,1410.45608937,1,2,9,0,0,2026-12-13T00:00:00.000Z!2027-01-04,329,345!2026-12-16,313,345!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z-->
+{@{OCaml}@} takes {@{a different stance}@}. By default it {@{evaluates eagerly}@}, but it still permits {@{cyclic data structures}@} through {@{recursive definitions}@}: <!--SR:!2027-01-20,342,345!fsrs,2030-10-23T00:00:00.000Z,1410,1410.45608937,1,2,9,0,0,2026-12-13T00:00:00.000Z!2027-01-04,329,345!fsrs,2030-10-30T00:00:00.000Z,1414,1414.38144845,1,2,9,0,0,2026-12-16T00:00:00.000Z!fsrs,2030-06-01T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-11-09T00:00:00.000Z-->
 
 > [!example] __OCaml cyclic data structure example__
 >
@@ -415,4 +415,4 @@ However, to obtain {@{true laziness in OCaml}@} one must explicitly {@{wrap the 
 > ```
 <!--SR:!fsrs,2030-09-07T00:00:00.000Z,1375,1375.05727587,1,2,9,0,0,2026-12-02T00:00:00.000Z!2027-01-04,329,345!fsrs,2029-04-22T00:00:00.000Z,873,872.83458781,1.93079087,2,9,0,0,2026-12-01T00:00:00.000Z!fsrs,2030-10-16T00:00:00.000Z,1403,1402.60076395,1,2,9,0,0,2026-12-13T00:00:00.000Z!fsrs,2030-03-18T00:00:00.000Z,1240,1240.10942973,1,2,9,0,0,2026-10-25T00:00:00.000Z-->
 
-Thus, while Haskell relies on {@{implicit laziness for all lists}@}, OCaml requires {@{explicit constructs to defer computation}@}. {@{Scala's `LazyList`}@} is {@{similar in spirit to Haskell lists}@} but requires {@{explicit construction like OCaml}@}. <!--SR:!2026-12-16,314,345!2026-12-17,315,345!2026-12-29,325,345!2026-12-29,325,345!fsrs,2030-08-17T00:00:00.000Z,1359,1359.28283414,1,2,9,0,0,2026-11-27T00:00:00.000Z-->
+Thus, while Haskell relies on {@{implicit laziness for all lists}@}, OCaml requires {@{explicit constructs to defer computation}@}. {@{Scala's `LazyList`}@} is {@{similar in spirit to Haskell lists}@} but requires {@{explicit construction like OCaml}@}. <!--SR:!fsrs,2030-11-03T00:00:00.000Z,1418,1418.305204,1,2,9,0,0,2026-12-16T00:00:00.000Z!2026-12-17,315,345!2026-12-29,325,345!2026-12-29,325,345!fsrs,2030-08-17T00:00:00.000Z,1359,1359.28283414,1,2,9,0,0,2026-11-27T00:00:00.000Z-->

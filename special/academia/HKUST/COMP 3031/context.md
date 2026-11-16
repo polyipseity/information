@@ -23,7 +23,7 @@ Normally in Scala, {@{values \(terms\) and types}@} infer {@{types}@}, e.g. {@{i
 
 ## motivation
 
-We want to write {@{code that is _modular_}@} by {@{abstracting over the "context" in which it will run}@}. {@{Context}@} can be {@{the current configuration, security level}@}, or even {@{a user on whose behalf an operation executes}@}.  In practice this means making {@{functions and classes independent of global state \(dependent on "context"\)}@} so they can be {@{reused safely across modules}@}. There are several {@{common approaches}@}: \(annotation: 5 items: {@{globals, mutable globals, monkey patch, dependency injection, functional context}@}\) <!--SR:!2027-01-17,338,349!2026-12-16,314,349!2026-12-27,324,349!fsrs,2030-08-07T00:00:00.000Z,1353,1352.82828482,1,2,9,0,0,2026-11-23T00:00:00.000Z!2027-01-28,349,349!2027-01-26,347,349!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2028-08-08T00:00:00.000Z,685,684.89001444,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!fsrs,2030-08-08T00:00:00.000Z,1357,1356.83314545,1,2,9,0,0,2026-11-20T00:00:00.000Z-->
+We want to write {@{code that is _modular_}@} by {@{abstracting over the "context" in which it will run}@}. {@{Context}@} can be {@{the current configuration, security level}@}, or even {@{a user on whose behalf an operation executes}@}.  In practice this means making {@{functions and classes independent of global state \(dependent on "context"\)}@} so they can be {@{reused safely across modules}@}. There are several {@{common approaches}@}: \(annotation: 5 items: {@{globals, mutable globals, monkey patch, dependency injection, functional context}@}\) <!--SR:!2027-01-17,338,349!fsrs,2030-11-22T00:00:00.000Z,1437,1436.5833591,1,2,9,0,0,2026-12-16T00:00:00.000Z!2026-12-27,324,349!fsrs,2030-08-07T00:00:00.000Z,1353,1352.82828482,1,2,9,0,0,2026-11-23T00:00:00.000Z!2027-01-28,349,349!2027-01-26,347,349!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2028-08-08T00:00:00.000Z,685,684.89001444,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z!fsrs,2030-08-08T00:00:00.000Z,1357,1356.83314545,1,2,9,0,0,2026-11-20T00:00:00.000Z-->
 
 - globals ::@:: Simple to use. Rigid, hard to change per module. <!--SR:!fsrs,2030-10-11T00:00:00.000Z,1405,1404.76144464,1,2,9,0,0,2026-12-06T00:00:00.000Z!2026-12-19,317,349-->
 - mutable globals ::@:: Flexible but unsafe. Risk of interference \(e.g. race conditions\). <!--SR:!2026-12-20,318,349!fsrs,2030-07-23T00:00:00.000Z,1341,1340.80330866,1,2,9,0,0,2026-11-20T00:00:00.000Z-->
@@ -89,7 +89,7 @@ Scala provides {@{the `scala.math.Ordering` trait}@} to {@{represent the sorting
 
 ## `using`
 
-To {@{reduce boilerplate}@} {@{the `ord` argument}@} can be declared {@{_implicit_ via a `using` clause}@}: <!--SR:!fsrs,2030-10-06T00:00:00.000Z,1401,1400.77653742,1,2,9,0,0,2026-12-05T00:00:00.000Z!fsrs,2030-06-29T00:00:00.000Z,1325,1324.74576884,1,2,9,0,0,2026-11-12T00:00:00.000Z!2026-12-16,314,349-->
+To {@{reduce boilerplate}@} {@{the `ord` argument}@} can be declared {@{_implicit_ via a `using` clause}@}: <!--SR:!fsrs,2030-10-06T00:00:00.000Z,1401,1400.77653742,1,2,9,0,0,2026-12-05T00:00:00.000Z!fsrs,2030-06-29T00:00:00.000Z,1325,1324.74576884,1,2,9,0,0,2026-11-12T00:00:00.000Z!fsrs,2030-11-22T00:00:00.000Z,1437,1436.5833591,1,2,9,0,0,2026-12-16T00:00:00.000Z-->
 
 > [!example] __parameterized sort with implicit ordering__
 >

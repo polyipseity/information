@@ -405,7 +405,7 @@ The evaluator uses {@{these operations during evaluation}@}: every time it {@{en
 >
 > Note {@{`extendRec` is used}@}, which is needed to support {@{using `def` to define recursive functions}@}; see below. <!--SR:!2027-03-21,326,340!2027-03-17,322,340!2027-03-02,307,340!2026-12-20,261,340!2027-03-09,314,340!2027-03-25,330,340!2026-12-24,266,340-->
 
-When {@{an expression is not a special form}@}, it is treated as {@{a function call}@}. {@{The operator and all operands}@} are {@{first evaluated}@}, then the operator value is {@{applied to the list of operand values}@}. <!--SR:!2026-12-16,257,340!2027-03-07,312,340!2027-03-18,323,340!2027-03-22,327,340!2027-02-24,301,340-->
+When {@{an expression is not a special form}@}, it is treated as {@{a function call}@}. {@{The operator and all operands}@} are {@{first evaluated}@}, then the operator value is {@{applied to the list of operand values}@}. <!--SR:!fsrs,2030-03-03T00:00:00.000Z,1173,1172.64021562,1,2,9,0,0,2026-12-16T00:00:00.000Z!2027-03-07,312,340!2027-03-18,323,340!2027-03-22,327,340!2027-02-24,301,340-->
 
 > [!example] __function application__
 >

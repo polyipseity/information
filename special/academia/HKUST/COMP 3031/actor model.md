@@ -56,7 +56,7 @@ Consider a bank account example where {@{two concurrent deposits update a shared
 >
 > While {@{correct}@}, {@{the locks}@} can {@{serialize access and expose the program to deadlocks}@} when {@{multiple accounts are involved}@}. <!--SR:!fsrs,2030-01-30T00:00:00.000Z,1145,1145.44606232,1,2,9,0,0,2026-12-12T00:00:00.000Z!2027-01-10,284,330!fsrs,2029-09-12T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-11-02T00:00:00.000Z!2027-01-05,280,330!fsrs,2029-11-13T00:00:00.000Z,1092,1091.66087084,1,2,9,0,0,2026-11-17T00:00:00.000Z!2027-01-11,285,330-->
 
-{@{A classic deadlock}@} occurs when {@{two actors (or threads)}@} {@{lock shared resources in reverse order}@}. <!--SR:!fsrs,2029-12-03T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-26,272,330!2026-12-16,263,330-->
+{@{A classic deadlock}@} occurs when {@{two actors (or threads)}@} {@{lock shared resources in reverse order}@}. <!--SR:!fsrs,2029-12-03T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-26,272,330!fsrs,2030-02-15T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-12-16T00:00:00.000Z-->
 
 > [!example] __deadlock in nested synchronized transfer__
 >
@@ -306,7 +306,7 @@ If two messages {@{arrive concurrently}@}, they are {@{queued and executed one a
 
 ### bank account example
 
-In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two operations: `Deposit` and `Withdraw`}@}. The messages are declared {@{in the companion object}@} so they can be {@{imported elsewhere without leaking implementation details}@}. <!--SR:!fsrs,2029-12-18T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-11-25T00:00:00.000Z!2027-01-15,288,330!2027-01-23,292,330!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!2026-12-16,261,330-->
+In {@{an actor‑based design}@}, {@{a `BankAccount`}@} exposes only {@{two operations: `Deposit` and `Withdraw`}@}. The messages are declared {@{in the companion object}@} so they can be {@{imported elsewhere without leaking implementation details}@}. <!--SR:!fsrs,2029-12-18T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-11-25T00:00:00.000Z!2027-01-15,288,330!2027-01-23,292,330!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!fsrs,2030-02-07T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-12-16T00:00:00.000Z-->
 
 > [!example] __`BankAccount` messages__
 >
@@ -404,7 +404,7 @@ One may rely on {@{business logic}@} to {@{ignore duplicates}@}. {@{Akka actors}
 >
 > {@{The actor}@} can later replay {@{the stored record}@} if it crashes, ensuring that {@{every transfer is processed exactly once}@}. <!--SR:!fsrs,2029-10-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-08T00:00:00.000Z!2026-12-21,268,330!2026-12-25,271,330!fsrs,2030-02-14T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-12-15T00:00:00.000Z!2026-12-21,265,330!fsrs,2029-11-07T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-15T00:00:00.000Z-->
 
-When {@{several messages are sent to the same recipient}@} they keep {@{the order in which they were issued}@}; this is {@{an Akka‑specific guarantee}@}. {@{Messages to different actors}@} may arrive {@{interleaved arbitrarily}@}. {@{The lack of global ordering}@} means a system must reason about {@{partial orders when composing components}@}, but {@{the single‑threaded mailbox}@} guarantees that each message is {@{processed atomically and that no two messages can be handled simultaneously by one actor}@}. <!--SR:!2026-12-16,263,330!2026-12-21,268,330!2026-12-18,263,330!fsrs,2029-12-08T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-23T00:00:00.000Z!fsrs,2029-10-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-09T00:00:00.000Z!fsrs,2029-12-07T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-25,268,330!fsrs,2029-12-07T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-20,267,330-->
+When {@{several messages are sent to the same recipient}@} they keep {@{the order in which they were issued}@}; this is {@{an Akka‑specific guarantee}@}. {@{Messages to different actors}@} may arrive {@{interleaved arbitrarily}@}. {@{The lack of global ordering}@} means a system must reason about {@{partial orders when composing components}@}, but {@{the single‑threaded mailbox}@} guarantees that each message is {@{processed atomically and that no two messages can be handled simultaneously by one actor}@}. <!--SR:!fsrs,2030-02-15T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-12-16T00:00:00.000Z!2026-12-21,268,330!2026-12-18,263,330!fsrs,2029-12-08T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-23T00:00:00.000Z!fsrs,2029-10-12T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-09T00:00:00.000Z!fsrs,2029-12-07T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-25,268,330!fsrs,2029-12-07T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-20,267,330-->
 
 ## web client example
 
@@ -492,7 +492,7 @@ When {@{several messages are sent to the same recipient}@} they keep {@{the orde
 > ```
 <!--SR:!2026-12-31,273,330!fsrs,2029-10-28T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-13T00:00:00.000Z!fsrs,2030-02-14T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-12-15T00:00:00.000Z!2027-01-20,292,330!2027-01-11,285,330-->
 
-Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A controller}@} that aborts {@{all unfinished getters after a fixed delay}@} is shown; {@{the timeout message}@} is sent to {@{the controller itself}@}, preserving {@{encapsulation}@}. <!--SR:!fsrs,2029-12-26T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-12-03T00:00:00.000Z!2026-12-30,275,330!2026-12-24,268,330!2027-01-20,290,330!fsrs,2029-12-15T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-30T00:00:00.000Z!2026-12-16,263,330-->
+Actors can schedule {@{timeouts via the actor system’s scheduler}@}. {@{A controller}@} that aborts {@{all unfinished getters after a fixed delay}@} is shown; {@{the timeout message}@} is sent to {@{the controller itself}@}, preserving {@{encapsulation}@}. <!--SR:!fsrs,2029-12-26T00:00:00.000Z,1119,1118.59914239,1,2,9,0,0,2026-12-03T00:00:00.000Z!2026-12-30,275,330!2026-12-24,268,330!2027-01-20,290,330!fsrs,2029-12-15T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-30T00:00:00.000Z!fsrs,2030-02-15T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-12-16T00:00:00.000Z-->
 
 > [!example] __`Controller` with overall timeout__
 >

@@ -53,7 +53,7 @@ To {@{concatenate/join two lists (or strings)}@}, use {@{the `+` operator}@}. No
 
 ## aggregate functions
 
-Aggregate functions {@{summarize a result from a list}@}. <!--SR:!2026-12-16,634,334-->
+Aggregate functions {@{summarize a result from a list}@}. <!--SR:!fsrs,2033-11-14T00:00:00.000Z,2525,2524.94872179,1,2,10,0,0,2026-12-16T00:00:00.000Z-->
 
 - `max(list)` ::@:: Returns the maximum item. If `list` is empty, a `ValueError` is raised. If `list` consists of `float`s and `int`s only, the largest item (the originally leftmost one is returned if there are multiple largest items) will be returned, and no type conversion is done. If `list` consists of `str`s only, then the last string, ordered lexicographically (the originally leftmost one is returned if there are multiple first strings), is returned. If `list` mixes incompatible types (e.g. `int` and `str`), then a `TypeError` is raised. <!--SR:!fsrs,2032-01-01T00:00:00.000Z,1858,1857.83396292,1.78018496,2,10,0,0,2026-11-30T00:00:00.000Z!2030-08-11,1593,314-->
 - `min(list)` ::@:: Returns the maximum item. If `list` is empty, a `ValueError` is raised. If the `list` consists of `float`s and `int`s only, the smallest item (the originally leftmost one is returned if there are multiple largest items) will be returned, and no type conversion is done. If `list` consists of `str`s only, then the first string, ordered lexicographically (the originally leftmost one is returned if there are multiple first strings), is returned. If `list` mixes incompatible types (e.g. `int` and `str`), then a `TypeError` is raised. <!--SR:!fsrs,2032-11-07T00:00:00.000Z,2251,2251.24491019,1,2,10,0,0,2026-09-09T00:00:00.000Z!2027-07-21,786,334-->

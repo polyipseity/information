@@ -92,7 +92,7 @@ Given {@{a basis $\{e_i\}$}@}, {@{the _coordinate representation_}@} is {@{$$[a]
 
 ### orthogonality and orthonormality
 
-{@{A set of vectors}@} is {@{_orthonormal_}@} if {@{each pair is _orthogonal_ ($e_i^\top e_j=0$ for $i\neq j$})}@} and {@{every vector has unit norm ($\|e_i\|=1$)}@}. Coordinates {@{equal inner products}@}: {@{$$c_i=\langle a,e_i\rangle \,.$$}@} <!--SR:!2027-04-07,378,364!2027-01-02,298,345!2027-03-16,359,364!2026-12-16,284,345!2027-03-30,372,364!2027-01-23,313,345-->
+{@{A set of vectors}@} is {@{_orthonormal_}@} if {@{each pair is _orthogonal_ ($e_i^\top e_j=0$ for $i\neq j$})}@} and {@{every vector has unit norm ($\|e_i\|=1$)}@}. Coordinates {@{equal inner products}@}: {@{$$c_i=\langle a,e_i\rangle \,.$$}@} <!--SR:!2027-04-07,378,364!2027-01-02,298,345!2027-03-16,359,364!fsrs,2030-07-08T00:00:00.000Z,1300,1299.89180509,1,2,9,0,0,2026-12-16T00:00:00.000Z!2027-03-30,372,364!2027-01-23,313,345-->
 
 ### linear transformations
 

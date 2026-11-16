@@ -375,7 +375,7 @@ The content is in teaching order.
 - [Cab Calloway](../../../../general/Cab%20Calloway.md) (1907–1994) ::@:: American jazz singer and bandleader; the first "frontman", i.e. lead singer of a popular music group ; led the first black band to tour the American South <!--SR:!2026-12-29,534,402!2027-06-12,679,422-->
     - Cab Calloway / works ::@:: Minnie the Moocher \(1931\) — Cab Calloway: sold over a million copies, the first by an African American singer <!--SR:!2027-11-11,800,430!2027-10-29,788,430-->
 - [Frank Sinatra](../../../../general/Frank%20Sinatra.md) (1915–1998) ::@:: The first international pop star, as he has performed on every continent. He was a actor, entrepreneur, movie producer, philanthropist, and singer. He had top 10 hits every decade from the 1940s (17 of them) to the 1990s. <!--SR:!fsrs,2032-07-25T00:00:00.000Z,2130,2129.87276382,1,2,10,0,0,2026-09-25T00:00:00.000Z!2027-07-11,705,422-->
-    - Frank Sinatra / remarks ::@:: The instructor could literally spend a whole semester on him... But alas. <!--SR:!2026-12-16,521,402!2027-08-13,733,422-->
+    - Frank Sinatra / remarks ::@:: The instructor could literally spend a whole semester on him... But alas. <!--SR:!fsrs,2033-06-20T00:00:00.000Z,2378,2377.61125137,1,2,10,0,0,2026-12-16T00:00:00.000Z!2027-08-13,733,422-->
 - swing music
     - swing music / singers
         - swing music / singers / examples: Anita O'day, Carmen McCrae, Jon Hendricks, Mel Torme, Nina Simone, Peggy Lee, Sarah Vaughan

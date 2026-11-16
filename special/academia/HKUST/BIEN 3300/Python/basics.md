@@ -89,7 +89,7 @@ return chain.from_iterable([r.value for r in results])
 
 ### comparison operators
 
-Below are common comparison operators, all of which returns {@{a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below have {@{the same precedence}@}: <!--SR:!fsrs,2030-02-28T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-10-14T00:00:00.000Z!2027-01-01,352,349!2026-12-31,351,349!2026-12-16,336,349-->
+Below are common comparison operators, all of which returns {@{a boolean}@}. {@{Round brackets \(`()`\)}@} have {@{the highest precedence \(very intuitive\)}@}. The comparison operators below have {@{the same precedence}@}: <!--SR:!fsrs,2030-02-28T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-10-14T00:00:00.000Z!2027-01-01,352,349!2026-12-31,351,349!fsrs,2031-02-17T00:00:00.000Z,1524,1523.58337003,1,2,9,0,0,2026-12-16T00:00:00.000Z-->
 
 ```Python
 # pytextgen generate data
