@@ -275,7 +275,7 @@ Learn this mapping now — it prevents confusion when the same roots appear as p
 
 Flashcards for this section are as follows:
 
-- For $s^2+\frac{R}{L}s+\frac{1}{LC}=0$, define $\alpha$, $\omega_0$, and the roots. ::@:: $\alpha=\frac{R}{2L}$ (damping), $\omega_0=\frac{1}{\sqrt{LC}}$ (natural frequency), $p_{1,2}=-\alpha\pm\sqrt{\alpha^2-\omega_0^2}$. For $R,L,C>0$, all roots have negative real part. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-12-11T00:00:00.000Z,39,38.90515015,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
+- For $s^2+\frac{R}{L}s+\frac{1}{LC}=0$, define $\alpha$, $\omega_0$, and the roots. ::@:: $\alpha=\frac{R}{2L}$ (damping), $\omega_0=\frac{1}{\sqrt{LC}}$ (natural frequency), $p_{1,2}=-\alpha\pm\sqrt{\alpha^2-\omega_0^2}$. For $R,L,C>0$, all roots have negative real part. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-08-21T00:00:00.000Z,253,252.59352738,1,2,3,0,0,2026-12-11T00:00:00.000Z-->
 - $\alpha<\omega_0$: ? ::@:: Underdamped — decaying oscillation. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
 - $\alpha=\omega_0$: ? ::@:: Critically damped — repeated root at $-\alpha$, boundary case. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
 - $\alpha>\omega_0$: ? ::@:: Overdamped — two distinct real negative roots. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->

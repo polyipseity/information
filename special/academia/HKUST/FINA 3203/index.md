@@ -98,7 +98,7 @@ The content is in teaching order.
     - spot market / convention ::@:: In a spot market, settlement normally happens in T+2 working days, i.e., delivery of cash and commodity must be done after two working days of the trade date. <!--SR:!2027-01-04,365,364!2027-01-12,373,364-->
 - [forward contract](../../../../general/forward%20contract.md) ::@:: It is a non-standardized contract between two parties to buy or sell an asset at a specified future time at a price agreed on in the contract, making it a type of derivative instrument. <!--SR:!2026-12-29,359,364!2027-01-08,369,364-->
     - forward contract / convention ::@:: It usually _costs nothing_ to enter. Ultimately, this is subject to agreement between the two parties. <!--SR:!2027-01-18,379,364!fsrs,2029-11-17T00:00:00.000Z,1188,1188.1158249,1,2,9,0,0,2026-08-17T00:00:00.000Z-->
-    - forward contract / values ::@:: forward, maturity value, notational value, return, etc. <!--SR:!2027-01-16,377,364!2026-12-11,341,364-->
+    - forward contract / values ::@:: forward, maturity value, notational value, return, etc. <!--SR:!2027-01-16,377,364!fsrs,2031-05-16T00:00:00.000Z,1617,1616.66381161,1,2,9,0,0,2026-12-11T00:00:00.000Z-->
         - forward contract / values / forward price ::@:: The forward price is set such that the _value_ of the forward equals zero for both parties at the start. <!--SR:!2026-12-24,354,364!2027-01-08,369,364-->
         - forward contract / values / maturity date ::@:: The time the purchase or sale occurs. <!--SR:!2027-01-27,388,364!2026-12-27,357,364-->
         - forward contract / values / notational value ::@:: The spot price of the underlying item _now_. <!--SR:!2026-12-19,349,364!2027-01-03,364,364-->

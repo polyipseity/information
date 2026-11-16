@@ -455,7 +455,7 @@ The content is in teaching order.
     - [ACCT 2010/statement of cash flows](../ACCT%202010/statement%20of%20cash%20flows.md)
     - [cash equivalent](../../../../general/cash%20and%20cash%20equivalents.md) ::@:: examples: <br/> short-term, highly liquid investments <br/> readily convertible into cash <br/> maturities of less than 3 months: time span short enough market value is not affected by interest rate changes <!--SR:!2027-10-12,762,423!2026-12-20,513,403-->
     - statement of cash flows / effect ::@:: The change in cash should equal the difference between the beginning and ending balances of the "cash" account on the balance sheet. <!--SR:!2027-09-02,729,423!2027-10-17,766,423-->
-    - statement of cash flows / categories ::@:: operating activities, investing activities, financing activities <!--SR:!2026-12-11,506,403!2027-09-30,751,423-->
+    - statement of cash flows / categories ::@:: operating activities, investing activities, financing activities <!--SR:!fsrs,2033-04-16T00:00:00.000Z,2318,2318.02883016,1,2,10,0,0,2026-12-11T00:00:00.000Z!2027-09-30,751,423-->
     - operating activities ::@:: Cash inflows and outflows directly related to earnings from normal operations. <!--SR:!2027-08-27,724,423!2027-08-11,711,423-->
         - operating activities / inflows ::@:: customers <br/> interest received from trade accounts <!--SR:!2027-07-02,677,423!2027-07-20,692,423-->
         - operating activities / outflows ::@:: purchase of goods for resale and services (electricity, etc.) <br/> salaries and wages <br/> income taxes <br/> interest on trade liabilities <!--SR:!fsrs,2030-12-22T01:48:23.717Z,1660,1659.60273856,1,2,9,0,0,2026-06-06T01:48:23.717Z!2028-05-14,908,383-->

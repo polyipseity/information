@@ -316,7 +316,7 @@ Using {@{`map`}@}, {@{a simple scaling routine}@} can be written as: <!--SR:!fsr
 >
 > In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@}, is used to {@{represent _nonempty_ lists}@}. <!--SR:!2027-01-04,343,350!2026-12-26,334,350!2028-01-19,618,330!2027-01-08,344,350!2026-12-31,339,350-->
 
-In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@}, is used to {@{represent _nonempty_ lists}@}. Using {@{`pack`}@}, {@{a run-length encoder \(RLE\)}@} is obtained: <!--SR:!fsrs,2030-05-01T00:00:00.000Z,1271,1270.8605613,1,2,9,0,0,2026-11-07T00:00:00.000Z!fsrs,2030-01-12T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-13T00:00:00.000Z!2026-12-11,319,350!2027-01-12,348,350!2027-01-16,352,350-->
+In {@{the return type of `pack`}@}, {@{`::[T]`, a case class under `List[T]`}@}, is used to {@{represent _nonempty_ lists}@}. Using {@{`pack`}@}, {@{a run-length encoder \(RLE\)}@} is obtained: <!--SR:!fsrs,2030-05-01T00:00:00.000Z,1271,1270.8605613,1,2,9,0,0,2026-11-07T00:00:00.000Z!fsrs,2030-01-12T00:00:00.000Z,1187,1187.45608877,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2030-12-11T00:00:00.000Z,1461,1461.05073792,1,2,9,0,0,2026-12-11T00:00:00.000Z!2027-01-12,348,350!2027-01-16,352,350-->
 
 > [!example] __`pack` example__
 >

@@ -391,7 +391,7 @@ Flashcards for this section are as follows:
 
 - What is Parseval's theorem for the Fourier transform? ::@:: $\int_{-\infty}^{\infty}|f(t)|^2dt=\frac{1}{2\pi}\int_{-\infty}^{\infty}|F(\omega)|^2d\omega$.  The total energy in the time domain equals the total energy in the frequency domain (up to the $1/(2\pi)$ factor). <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
 - What is the energy spectral density? ::@:: $|F(\omega)|^2$ is the energy spectral density.  It tells how much energy per unit frequency interval is present at frequency $\omega$. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
-- Why does Parseval's theorem hold? ::@:: It follows from the convolution theorem applied to $f*f^*(-t)$ evaluated at $t=0$, or equivalently from Plancherel's theorem for $L^2$ functions. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2026-12-11T00:00:00.000Z,39,38.90515015,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
+- Why does Parseval's theorem hold? ::@:: It follows from the convolution theorem applied to $f*f^*(-t)$ evaluated at $t=0$, or equivalently from Plancherel's theorem for $L^2$ functions. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-08-21T00:00:00.000Z,253,252.59352738,1,2,3,0,0,2026-12-11T00:00:00.000Z-->
 
 ## periodic signals in the Fourier-transform view
 

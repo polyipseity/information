@@ -192,7 +192,7 @@ A sample game of 21 in which the second player follows the winning strategy:
 
 ### the 100 game
 
-A similar version is the "100 game": {@{Two players start from 0 and alternately add a number from 1 to 10 to the sum. The player who reaches 100 wins}@}. The winning strategy is to reach {@{a number in which the digits are subsequent \(e.g., 01, 12, 23, 34,...\)}@} and control {@{the game by jumping through all the numbers of this sequence}@}. Once {@{a player reaches 89}@}, the opponent can {@{only choose numbers from 90 to 99}@}, and {@{the next answer can in any case be 100}@}. <!--SR:!2026-12-13,608,341!2029-11-17,1461,361!2026-12-11,606,341!2029-09-01,1399,361!2028-06-25,779,426!2028-05-29,732,430-->
+A similar version is the "100 game": {@{Two players start from 0 and alternately add a number from 1 to 10 to the sum. The player who reaches 100 wins}@}. The winning strategy is to reach {@{a number in which the digits are subsequent \(e.g., 01, 12, 23, 34,...\)}@} and control {@{the game by jumping through all the numbers of this sequence}@}. Once {@{a player reaches 89}@}, the opponent can {@{only choose numbers from 90 to 99}@}, and {@{the next answer can in any case be 100}@}. <!--SR:!2026-12-13,608,341!2029-11-17,1461,361!fsrs,2033-09-27T00:00:00.000Z,2482,2482.45109976,1,2,10,0,0,2026-12-11T00:00:00.000Z!2029-09-01,1399,361!2028-06-25,779,426!2028-05-29,732,430-->
 
 ### a multiple-heap rule
 

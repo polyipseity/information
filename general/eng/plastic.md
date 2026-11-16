@@ -87,7 +87,7 @@ return chain.from_iterable([r.value for r in results])
 - [high-density polyethylene](high-density%20polyethylene.md) (HDPE):@:![polyethylene](../../archives/Wikimedia%20Commons/Polyethylene%20repeat%20unit.svg) <!--SR:!2026-12-25,977,330-->
 - [low-density polyethylene](low-density%20polyethylene.md) (LDPE):@:![polyethylene](../../archives/Wikimedia%20Commons/Polyethylene%20repeat%20unit.svg) <!--SR:!2028-06-07,1476,354-->
 - [polyethylene terephthalate](polyethylene%20terephthalate.md) (PET):@:![polyethylene terephthalate](../../archives/Wikimedia%20Commons/Polyethyleneterephthalate.svg) <!--SR:!2027-08-14,1051,274-->
-- [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex:@:![poly(methyl methacrylate)](../../archives/Wikimedia%20Commons/PMMA%20repeating%20unit.svg) <!--SR:!2026-12-11,223,170-->
+- [polymethyl methacrylate](poly(methyl%20methacrylate).md) (PMMA), Perspex:@:![poly(methyl methacrylate)](../../archives/Wikimedia%20Commons/PMMA%20repeating%20unit.svg) <!--SR:!fsrs,2027-11-21T00:00:00.000Z,345,345.40639956,8.48672837,2,9,0,0,2026-12-11T00:00:00.000Z-->
 - [polypropylene](polypropylene.md) (PP):@:![polypropylene](../../archives/Wikimedia%20Commons/Polypropylen.svg) <!--SR:!2028-03-23,1322,341-->
 - [polystyrene](polystyrene.md) (PS):@:![polystyrene](../../archives/Wikimedia%20Commons/Polystyrene.svg) <!--SR:!2030-02-14,1639,321-->
 - [polyvinyl chloride](polyvinyl%20chloride.md) (PVC):@:![polyvinyl chloride](../../archives/Wikimedia%20Commons/Polyvinylchlorid.svg) <!--SR:!2029-06-14,1783,369-->

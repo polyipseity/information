@@ -347,7 +347,7 @@ When a method expects {@{an implicit of type `T` \(e.g. `Ordering[Int]` in the a
 - compatible ::@:: Has a compatible type. <!--SR:!fsrs,2030-10-01T00:00:00.000Z,1397,1396.7899487,1,2,9,0,0,2026-12-04T00:00:00.000Z!fsrs,2030-06-08T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-11T00:00:00.000Z-->
 - visibility ::@:: Is visible in the current scope (lexical, imports, parameters) or defined in a companion object associated with `T`. <!--SR:!fsrs,2029-10-31T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-10-05T00:00:00.000Z!2027-01-26,347,349-->
 
-If {@{exactly one suitable instance exists}@} it is {@{used}@}; otherwise {@{compilation fails}@} due to {@{no instance found}@} or {@{ambiguity}@} if {@{there is more than one _most specific_ instance}@}. It will {@{search in \(in no particular order\)}@}: \(annotation: 3 items: {@{lexical scope, companion objects, enclosing objects}@}\) <!--SR:!fsrs,2029-10-22T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-10-03T00:00:00.000Z!2027-01-01,328,349!fsrs,2030-08-17T00:00:00.000Z,1361,1360.83635942,1,2,9,0,0,2026-11-25T00:00:00.000Z!2026-12-19,317,349!2027-01-21,342,349!2027-01-19,340,349!2027-01-02,329,349!2026-12-11,311,349-->
+If {@{exactly one suitable instance exists}@} it is {@{used}@}; otherwise {@{compilation fails}@} due to {@{no instance found}@} or {@{ambiguity}@} if {@{there is more than one _most specific_ instance}@}. It will {@{search in \(in no particular order\)}@}: \(annotation: 3 items: {@{lexical scope, companion objects, enclosing objects}@}\) <!--SR:!fsrs,2029-10-22T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-10-03T00:00:00.000Z!2027-01-01,328,349!fsrs,2030-08-17T00:00:00.000Z,1361,1360.83635942,1,2,9,0,0,2026-11-25T00:00:00.000Z!2026-12-19,317,349!2027-01-21,342,349!2027-01-19,340,349!2027-01-02,329,349!fsrs,2030-11-05T00:00:00.000Z,1425,1424.6621323,1,2,9,0,0,2026-12-11T00:00:00.000Z-->
 
 - lexical scope ::@:: Visible `given` instances in the lexical scope, including inherited, imported and defined instances. <!--SR:!fsrs,2030-06-09T00:00:00.000Z,1309,1308.66035919,1,2,9,0,0,2026-11-08T00:00:00.000Z!2027-01-29,350,349-->
 - companion objects ::@:: Companion objects of `T`, its super-classes, its type arguments, super-classes of its type arguments, etc. <!--SR:!2026-12-17,315,349!fsrs,2029-10-31T00:00:00.000Z,1122,1122.43990816,1,2,9,0,0,2026-10-05T00:00:00.000Z-->
@@ -368,7 +368,7 @@ Thus you can provide {@{multiple `given`s}@} and rely on Scala's rules to pick {
 
 In Scala {@{a _type class_}@} is {@{a generic trait}@} that declares {@{operations for a type `A`}@} and is instantiated by {@{`given` definitions for particular types}@}. {@{The pattern}@} is inspired by {@{Haskell's type-class mechanism}@} but expressed in Scala through {@{contextual parameters (`using`) and implicit resolution}@}. <!--SR:!fsrs,2028-09-25T00:00:00.000Z,720,720.2031195,2.49272837,2,9,0,0,2026-10-06T00:00:00.000Z!fsrs,2030-08-22T00:00:00.000Z,1365,1364.83793445,1,2,9,0,0,2026-11-26T00:00:00.000Z!fsrs,2030-07-03T00:00:00.000Z,1325,1324.74576884,1,2,9,0,0,2026-11-16T00:00:00.000Z!fsrs,2028-07-28T00:00:00.000Z,677,677.29649533,2.49272837,2,9,0,0,2026-09-20T00:00:00.000Z!fsrs,2030-10-11T00:00:00.000Z,1405,1404.76144464,1,2,9,0,0,2026-12-06T00:00:00.000Z!2026-12-31,327,349!2026-12-23,320,349-->
 
-{@{Type classes}@} turn {@{a type into a value}@} by providing {@{a trait and concrete instances}@}. They enable {@{_ad-hoc polymorphism_}@}: {@{different implementations}@} for {@{different types}@}. <!--SR:!fsrs,2030-07-08T00:00:00.000Z,1329,1328.76280435,1,2,9,0,0,2026-11-17T00:00:00.000Z!2026-12-11,311,349!2027-01-18,339,349!fsrs,2030-08-27T00:00:00.000Z,1369,1368.83776698,1,2,9,0,0,2026-11-27T00:00:00.000Z!2027-01-21,342,349!fsrs,2030-08-27T00:00:00.000Z,1369,1368.83776698,1,2,9,0,0,2026-11-27T00:00:00.000Z-->
+{@{Type classes}@} turn {@{a type into a value}@} by providing {@{a trait and concrete instances}@}. They enable {@{_ad-hoc polymorphism_}@}: {@{different implementations}@} for {@{different types}@}. <!--SR:!fsrs,2030-07-08T00:00:00.000Z,1329,1328.76280435,1,2,9,0,0,2026-11-17T00:00:00.000Z!fsrs,2030-11-05T00:00:00.000Z,1425,1424.6621323,1,2,9,0,0,2026-12-11T00:00:00.000Z!2027-01-18,339,349!fsrs,2030-08-27T00:00:00.000Z,1369,1368.83776698,1,2,9,0,0,2026-11-27T00:00:00.000Z!2027-01-21,342,349!fsrs,2030-08-27T00:00:00.000Z,1369,1368.83776698,1,2,9,0,0,2026-11-27T00:00:00.000Z-->
 
 {@{Other languages}@} adopt {@{similar concepts}@}: {@{Haskell}@}'s {@{built-in type classes}@}, {@{Rust}@}'s {@{traits}@}, and {@{emerging features}@} in {@{Agda, Lean, and OCaml}@}. In {@{Scala}@} {@{the mechanism is realized}@} through {@{contextual parameters (`using`) and implicit resolution}@}, giving programmers {@{fine-grained control over polymorphic behaviour}@}. <!--SR:!fsrs,2030-06-08T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-11T00:00:00.000Z!fsrs,2030-08-02T00:00:00.000Z,1349,1348.82166006,1,2,9,0,0,2026-11-22T00:00:00.000Z!2026-12-21,319,349!fsrs,2030-09-26T00:00:00.000Z,1393,1392.80167216,1,2,9,0,0,2026-12-03T00:00:00.000Z!fsrs,2030-06-04T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-07T00:00:00.000Z!fsrs,2030-06-28T00:00:00.000Z,1321,1320.72713296,1,2,9,0,0,2026-11-15T00:00:00.000Z!2027-01-24,345,349!fsrs,2030-10-11T00:00:00.000Z,1405,1404.76144464,1,2,9,0,0,2026-12-06T00:00:00.000Z!2026-12-28,325,349!2027-01-24,345,349!2027-01-22,343,349!2027-01-31,352,349-->
 
@@ -384,7 +384,7 @@ To {@{declare a "type class"}@} in Scala, use {@{`trait`}@}: <!--SR:!fsrs,2030-1
 > trait Ordering[A]:
 >   def compare(x: A, y: A): Int
 > ```
-<!--SR:!2026-12-11,311,349!2027-01-22,343,349-->
+<!--SR:!fsrs,2030-11-05T00:00:00.000Z,1425,1424.6621323,1,2,9,0,0,2026-12-11T00:00:00.000Z!2027-01-22,343,349-->
 
 {@{A `given` instance}@} supplies {@{the implementation for a concrete type}@}: <!--SR:!2026-12-17,315,349!fsrs,2030-06-19T00:00:00.000Z,1317,1316.706566,1,2,9,0,0,2026-11-10T00:00:00.000Z-->
 
@@ -500,7 +500,7 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!fsrs,2029-10-2
 >     fn cmp(&self, other: &Self) -> Ordering;
 > }
 > ```
-<!--SR:!2026-12-11,311,349!2027-01-31,352,349-->
+<!--SR:!fsrs,2030-11-05T00:00:00.000Z,1425,1424.6621323,1,2,9,0,0,2026-12-11T00:00:00.000Z!2027-01-31,352,349-->
 
 {@{The syntax in Rust}@} is {@{slightly different}@} but {@{the concept}@} remains {@{the same}@}—defining {@{a set of operations}@} that can be {@{implemented for many distinct types}@}. <!--SR:!2027-01-02,329,349!fsrs,2028-07-18T00:00:00.000Z,670,669.69339296,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2030-10-26T00:00:00.000Z,1417,1416.70671475,1,2,9,0,0,2026-12-09T00:00:00.000Z!2027-01-25,346,349!2026-12-31,327,349-->
 

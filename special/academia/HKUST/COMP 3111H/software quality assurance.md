@@ -104,7 +104,7 @@ An example of {@{a non-software metric}@} is {@{_quality of conformance_}@}, whi
 - _Difficulty_: ::@:: $\displaystyle D=\frac{n_1}{2}\,\frac{N_2}{n_2}$. <!--SR:!2027-04-15,348,356!fsrs,2028-10-09T00:00:00.000Z,730,730.00921051,1,2,8,0,0,2026-10-10T00:00:00.000Z-->
 - _Effort_: ::@:: $\displaystyle E=V\times D$. <!--SR:!2027-04-27,360,356!2027-04-12,345,356-->
 
-{@{McCabe’s cyclomatic complexity}@} counts the {@{number of linearly independent paths through a control‑flow graph}@}; {@{higher values}@} correlate with {@{more defects and greater testing effort}@}. <!--SR:!fsrs,2030-01-13T00:00:00.000Z,1142,1141.65443291,1,2,9,0,0,2026-11-28T00:00:00.000Z!2027-04-05,338,356!2026-12-11,261,334!2027-04-15,348,356-->
+{@{McCabe’s cyclomatic complexity}@} counts the {@{number of linearly independent paths through a control‑flow graph}@}; {@{higher values}@} correlate with {@{more defects and greater testing effort}@}. <!--SR:!fsrs,2030-01-13T00:00:00.000Z,1142,1141.65443291,1,2,9,0,0,2026-11-28T00:00:00.000Z!2027-04-05,338,356!fsrs,2030-02-18T00:00:00.000Z,1165,1164.94946392,1,2,9,0,0,2026-12-11T00:00:00.000Z!2027-04-15,348,356-->
 
 {@{Other simple metrics}@}—{@{lines of code, identifier length and depth of conditional nesting}@}—also serve as {@{proxies for implementation difficulty}@}. {@{Standards}@} use these metrics to {@{highlight and avoid complex components}@}. <!--SR:!2027-04-23,356,354!2027-04-21,354,356!2027-04-21,354,356!2027-04-03,336,356!2027-02-09,309,356-->
 
