@@ -16,7 +16,7 @@ tags:
 
 ## motivation
 
-{@{The optimality of a demodulator}@} holds {@{only within the assumed receiver structure \(e.g. matched filter for LTI filters\)}@}. Changing {@{the signal space or receiver architecture}@} can yield {@{different performance for multilevel schemes}@}. <!--SR:!2027-01-25,315,345!2027-03-15,358,364!2026-12-13,281,345!2027-02-24,341,345-->
+{@{The optimality of a demodulator}@} holds {@{only within the assumed receiver structure \(e.g. matched filter for LTI filters\)}@}. Changing {@{the signal space or receiver architecture}@} can yield {@{different performance for multilevel schemes}@}. <!--SR:!2027-01-25,315,345!2027-03-15,358,364!fsrs,2030-06-23T00:00:00.000Z,1288,1287.9674422,1,2,9,0,0,2026-12-13T00:00:00.000Z!2027-02-24,341,345-->
 
 {@{Digital communication in general}@} can be analysed by representing {@{transmitted waveforms}@} as {@{vectors in a multidimensional space}@}, turning {@{complex algebra into visual intuition}@} and guiding {@{modulation, demodulation, and receiver optimisation}@}. <!--SR:!2027-03-26,368,364!2027-01-01,297,345!2027-04-09,379,364!2027-04-04,376,364!fsrs,2030-06-03T00:00:00.000Z,1272,1272.04354713,1,2,9,0,0,2026-12-09T00:00:00.000Z-->
 

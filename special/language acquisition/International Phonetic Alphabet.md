@@ -483,7 +483,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced alveolar lateral approximant](voiced%20alveolar%20lateral%20approximant.md):@:\[l\] <!--SR:!2029-12-24,1547,334-->
 - [velarized alveolar lateral approximant](velarized%20alveolar%20lateral%20approximant.md):@:\[ɫ\] <!--SR:!2030-07-30,1851,371-->
 - [voiceless alveolar lateral fricative](voiceless%20alveolar%20lateral%20fricative.md):@:\[ɬ\] <!--SR:!2027-04-17,681,311-->
-- [voiced retroflex lateral approximant](voiced%20retroflex%20lateral%20approximant.md):@:\[ɭ\] <!--SR:!2026-12-13,726,354-->
+- [voiced retroflex lateral approximant](voiced%20retroflex%20lateral%20approximant.md):@:\[ɭ\] <!--SR:!fsrs,2032-04-19T00:00:00.000Z,1954,1954.16968312,1.59362837,2,11,0,0,2026-12-13T00:00:00.000Z-->
 - [voiced alveolar lateral flap](voiced%20alveolar%20lateral%20flap.md):@:\[ɺ\] <!--SR:!2031-01-03,1697,300-->
 - [voiced alveolar lateral fricative](voiced%20alveolar%20lateral%20fricative.md):@:\[ɮ\] <!--SR:!2027-07-28,970,354-->
 - [voiced velar lateral approximant](voiced%20velar%20lateral%20approximant.md):@:\[ʟ\] <!--SR:!2029-08-18,1309,293-->
@@ -973,7 +973,7 @@ Here is a list of common IPA letters and their pronunciations:
 - [voiced palatal implosive](voiced%20palatal%20implosive.md):@:[Swahili](Swahili%20language.md) _**j**ana_ \[ʄana\] "yesterday" <!--SR:!fsrs,2028-09-27T00:00:00.000Z,747,747.34097591,7.43777837,2,10,0,0,2026-09-11T00:00:00.000Z-->
 - [voiceless velar plosive](voiceless%20velar%20plosive.md):@:[English](English%20language.md) _**k**iss_ \[kʰɪs\] <!--SR:!2027-02-27,519,199-->
 - [voiced alveolar lateral approximant](voiced%20alveolar%20lateral%20approximant.md):@:[English](English%20language.md) _**l**et_ \[lɛt\] <!--SR:!2028-10-04,1102,280-->
-- [velarized alveolar lateral approximant](velarized%20alveolar%20lateral%20approximant.md):@:[English](English%20language.md) _fee**l**_ \[fiːɫ\] <!--SR:!2026-12-13,259,220-->
+- [velarized alveolar lateral approximant](velarized%20alveolar%20lateral%20approximant.md):@:[English](English%20language.md) _fee**l**_ \[fiːɫ\] <!--SR:!fsrs,2028-04-28T00:00:00.000Z,502,501.55846736,6.61360337,2,9,0,0,2026-12-13T00:00:00.000Z-->
 - [voiceless alveolar lateral fricative](voiceless%20alveolar%20lateral%20fricative.md):@:[Welsh](Welsh%20language.md) _tege**ll**_ \[ˈtɛɡɛɬ\] "kettle" <!--SR:!fsrs,2027-02-11T00:00:00.000Z,121,121.39559012,9.97047151,2,8,0,0,2026-10-13T00:00:00.000Z-->
 - [voiced retroflex lateral approximant](voiced%20retroflex%20lateral%20approximant.md):@:[French](French%20language.md) _be**ll**e jambe_ \[bɛɭ ʒɑ̃b\] "beautiful leg" <!--SR:!fsrs,2026-12-14T00:00:00.000Z,58,58.02819422,9.96240929,2,8,0,0,2026-10-17T00:00:00.000Z-->
 - [voiced alveolar lateral flap](voiced%20alveolar%20lateral%20flap.md):@:[Japanese](Japanese%20language.md) 六/_**r**oku_ \[ɺo̞kɯ̟ᵝ\] "six" <!--SR:!fsrs,2027-03-27T00:00:00.000Z,122,122.06217062,9.97047151,2,8,0,0,2026-11-25T00:00:00.000Z-->

@@ -795,7 +795,7 @@ The content is in teaching order.
 
 - datetime: 2024-11-15T12:00:00+08:00/2024-11-15T13:20:00+08:00
 - oligopoly
-    - oligopoly / duopoly models ::@:: Bertrand duopoly: two firms compete by choosing prices; Cournot duopoly: two firms compete by choosing quantities (we only learn the latter) <!--SR:!2026-12-13,585,423!2027-01-31,592,423-->
+    - oligopoly / duopoly models ::@:: Bertrand duopoly: two firms compete by choosing prices; Cournot duopoly: two firms compete by choosing quantities (we only learn the latter) <!--SR:!fsrs,2031-07-17T00:00:00.000Z,1677,1676.63261007,1,2,10,0,0,2026-12-13T00:00:00.000Z!2027-01-31,592,423-->
     - oligopoly / collusion ::@:: In a oligopoly, all firms may collude and act as one, like a monopolist. Then the profits are divided. <p> The problem is a firm may cheat and gain more profit for itself, so this is not a Nash equilibrium. Indeed, the Nash equilibrium would not be the monopoly price and quantity, but moved a bit towards the equilibrium price and quantity (but not completely). This movement increases with the number of firms in the oligopoly.. <p> (One can see if there are many firms, the resulting price and quantity would be arbitrarily close to the equilibrium price and quantity...) <!--SR:!fsrs,2033-09-09T00:00:00.000Z,2496,2496.14422026,1,2,10,0,0,2026-11-09T00:00:00.000Z!2032-08-31,2282,423-->
 - [Cournot competition](../../../../general/Cournot%20competition.md) ::@:: It is an economic model used to describe an industry structure in which companies compete on the amount of output they will produce, which they decide on independently of each other and at the same time. <!--SR:!2030-04-01,1535,403!2027-09-28,832,443-->
 - [questions § chapter 17 lecture](questions.md#chapter%2017%20lecture)

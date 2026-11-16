@@ -400,7 +400,7 @@ Water Cube
 <!--pytextgen generate section="cc12"--><!-- The following content is generated at 2024-03-10T00:25:48.737016+08:00. Any edits will be overridden! -->
 
 - _(begin)_→::@::←Beijing National Stadium <!--SR:!2030-10-22,1882,400!2028-09-25,1293,387-->
-- Beijing National Stadium→::@::←Burj Al Arab <!--SR:!2028-06-07,1108,324!2026-12-13,761,370-->
+- Beijing National Stadium→::@::←Burj Al Arab <!--SR:!2028-06-07,1108,324!fsrs,2036-01-01T00:00:00.000Z,3306,3305.87740533,1,2,11,0,0,2026-12-13T00:00:00.000Z-->
 - Burj Al Arab→::@::←Burj Khalifa <!--SR:!2030-06-14,1536,290!2027-06-27,917,372-->
 - Burj Khalifa→::@::←CCTV Headquarters <!--SR:!2028-12-06,1264,340!2027-12-22,971,290-->
 - CCTV Headquarters→::@::←Eiffel Tower <!--SR:!2029-04-11,1247,305!fsrs,2032-10-02T00:00:00.000Z,2247,2246.96105596,1,2,10,0,0,2026-08-08T00:00:00.000Z-->

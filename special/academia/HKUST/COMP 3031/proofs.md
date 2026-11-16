@@ -197,7 +197,7 @@ We aim to prove that {@{reversing twice yields the original list}@}: {@{`xs.reve
 >   = x :: xs1.reverse.reverse  // by inductive hypothesis
 > ```
 >
-> At this point we {@{cannot directly simplify further}@}. Try to {@{_factor_ out _common subexpressions_}@}. <!--SR:!2027-01-05,342,350!2026-12-13,319,350!2027-01-08,345,350!2027-01-02,339,350!2026-12-24,330,350!2027-01-15,352,350!2026-12-29,335,350!2027-01-02,339,350-->
+> At this point we {@{cannot directly simplify further}@}. Try to {@{_factor_ out _common subexpressions_}@}. <!--SR:!2027-01-05,342,350!fsrs,2030-12-13T00:00:00.000Z,1461,1461.05073792,1,2,9,0,0,2026-12-13T00:00:00.000Z!2027-01-08,345,350!2027-01-02,339,350!2026-12-24,330,350!2027-01-15,352,350!2026-12-29,335,350!2027-01-02,339,350-->
 
 <!-- markdownlint MD028 -->
 

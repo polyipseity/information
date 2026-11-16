@@ -263,7 +263,7 @@ For example, {@{overusing the _decorator_ pattern}@} for {@{trivial configuratio
 
 {@{Software anti‑patterns}@} can be {@{grouped by the context in which they arise}@}. {@{Several types are often cited}@}: {@{_development_, _object‑oriented_, _organizational_, _domain-specific_}@}, etc. {@{These categories}@} are {@{not mutually exclusive}@}; {@{a single anti‑pattern}@} may {@{span several domains}@}. <!--SR:!2027-01-05,294,342!2027-03-07,348,361!2027-03-05,346,361!2027-02-05,320,342!2027-04-11,377,361!2027-03-09,350,361!2027-04-15,380,361!2027-04-09,375,361-->
 
-- _Spaghetti Code_ ::@:: – tangled, unstructured logic with no clear hierarchy. <!--SR:!2026-12-13,262,341!2027-03-06,347,361-->
+- _Spaghetti Code_ ::@:: – tangled, unstructured logic with no clear hierarchy. <!--SR:!fsrs,2030-03-23T00:00:00.000Z,1196,1196.34471309,1,2,9,0,0,2026-12-13T00:00:00.000Z!2027-03-06,347,361-->
 - _Stovepipe System_ ::@;: – siloed subsystems that cannot communicate.  
 - _Analysis Paralysis_ ::@:: – excessive deliberation that stalls progress. <!--SR:!2027-02-06,321,342!2027-01-25,311,342-->
 - _Design by Committee_ ::@:: – conflicting requirements from too many stakeholders. <!--SR:!2027-04-16,380,361!fsrs,2029-08-30T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-10-24T00:00:00.000Z-->

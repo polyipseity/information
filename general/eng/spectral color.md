@@ -111,7 +111,7 @@ The spectral colors have a range of {@{[wavelength](wavelength.md) 380–750 [nm
 
 <!--pytextgen generate section="da12"--><!-- The following content is generated at 2024-01-04T20:17:52.799153+08:00. Any edits will be overridden! -->
 
-- <span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md):@:670–790 <!--SR:!2026-12-13,538,190-->
+- <span style="background-color:#7f00ff;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [violet](violet%20(color).md):@:670–790 <!--SR:!fsrs,2030-02-13T00:00:00.000Z,1158,1157.73633159,6.98338322,2,10,0,0,2026-12-13T00:00:00.000Z-->
 - <span style="background-color:blue;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [blue](blue.md):@:620–670 <!--SR:!2027-08-05,566,170-->
 - <span style="background-color:cyan;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [cyan](cyan.md):@:600–620 <!--SR:!fsrs,2027-04-09T00:00:00.000Z,159,158.83188676,9.97047151,2,8,0,0,2026-11-01T00:00:00.000Z-->
 - <span style="background-color:#00ff00;border:1px solid black;color:white;display:inline-block;height:1.25em;line-height:1.25;margin:1px 0;min-width:1.25em;text-align:center;">&nbsp;</span> [green](green.md):@:530–600 <!--SR:!fsrs,2027-03-30T00:00:00.000Z,197,196.71845017,9.48734342,2,8,0,0,2026-09-14T00:00:00.000Z-->

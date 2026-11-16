@@ -51,7 +51,7 @@ Historically, the first working transistor was demonstrated at Bell Labs in 1947
 
 Flashcards for this section are as follows:
 
-- transistor historical significance ::@:: The transistor, invented at Bell Labs in 1947, enabled compact integrated circuits and modern electronics. Shockley later founded a semiconductor company in Palo Alto. <!--SR:!fsrs,2027-05-14T10:14:50.376Z,334,333.77014777,1,2,7,0,0,2026-06-14T10:14:50.376Z!2026-12-13,197,310-->
+- transistor historical significance ::@:: The transistor, invented at Bell Labs in 1947, enabled compact integrated circuits and modern electronics. Shockley later founded a semiconductor company in Palo Alto. <!--SR:!fsrs,2027-05-14T10:14:50.376Z,334,333.77014777,1,2,7,0,0,2026-06-14T10:14:50.376Z!fsrs,2029-03-30T00:00:00.000Z,838,838.20060054,1,2,9,0,0,2026-12-13T00:00:00.000Z-->
 
 ## transistor operation modes
 

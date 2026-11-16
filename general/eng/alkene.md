@@ -22,7 +22,7 @@ Alkenes have similar [physical properties](physical%20property.md) to [alkanes](
 
 ## chemical properties
 
-Alkenes are {@{stable but more [reactive](reactivity%20(chemistry).md) than [alkanes](alkane.md)}@}. <!--SR:!2026-12-13,983,290-->
+Alkenes are {@{stable but more [reactive](reactivity%20(chemistry).md) than [alkanes](alkane.md)}@}. <!--SR:!fsrs,2035-09-05T00:00:00.000Z,3188,3187.55567895,1.98030797,2,11,0,0,2026-12-13T00:00:00.000Z-->
 
 ### combustion
 

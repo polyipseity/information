@@ -118,7 +118,7 @@ To assemble an assembly program as an ELF with {@{NASM}@}, run {@{`nasm -f elf64
 
 ### stack and functions in assembly
 
-x86 and x86-64 makes it easy {@{to enumerate stacks (in both the data structure and memory allocation sense) and functions}@} by {@{providing the instructions `push`, `pop`, `call`, and `ret`}@}. Remember that the stack grows {@{in the negative direction (decreasing address)}@}. <!--SR:!2030-04-23,1632,377!2031-03-05,1879,383!2026-12-13,635,330-->
+x86 and x86-64 makes it easy {@{to enumerate stacks (in both the data structure and memory allocation sense) and functions}@} by {@{providing the instructions `push`, `pop`, `call`, and `ret`}@}. Remember that the stack grows {@{in the negative direction (decreasing address)}@}. <!--SR:!2030-04-23,1632,377!2031-03-05,1879,383!fsrs,2033-10-13T00:00:00.000Z,2496,2495.59666443,1,2,10,0,0,2026-12-13T00:00:00.000Z-->
 
 - `push <data>` ::@:: Copy `<data>` to the address pointed by `esp`/`rsp` and then decrement `esp`/`rsp` by the data size. The data size is either 4 or 8 bytes depending on the architecture (but not `<data>`). It can also be 2 bytes if explicitly specified (`push word <data>`), Note that flags are also manipulated. <!--SR:!2028-10-12,1167,350!2028-09-04,1129,365-->
 - `pop <dest>` ::@:: Copy the value at the address pointed by `esp`/`rsp` to `<dest>` and then increment `esp`/`rsp` by the data size. The data size is either 4 or 8 bytes depending on the architecture \(but not the value "type" at the stack top\). It can also be 2 bytes if explicitly specified \(`pop word <dest>`\). Note that flags are also manipulated. <!--SR:!2027-07-20,779,345!2028-10-29,1102,343-->

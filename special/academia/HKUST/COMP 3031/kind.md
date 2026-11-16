@@ -23,7 +23,7 @@ tags:
 
 - see: [general/kind (type theory)](../../../../general/kind%20(type%20theory).md)
 
-In Scala 3, {@{a _higher‑kinded type_}@} is written {@{`F[_]`}@} and represents {@{a constructor that expects one type argument}@}. It lets {@{a function be polymorphic over any container}@}: <!--SR:!2026-12-25,272,330!2026-12-13,262,330!fsrs,2030-01-29T00:00:00.000Z,1145,1145.44606232,1,2,9,0,0,2026-12-11T00:00:00.000Z!2027-01-12,286,330-->
+In Scala 3, {@{a _higher‑kinded type_}@} is written {@{`F[_]`}@} and represents {@{a constructor that expects one type argument}@}. It lets {@{a function be polymorphic over any container}@}: <!--SR:!2026-12-25,272,330!fsrs,2030-02-08T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-12-13T00:00:00.000Z!fsrs,2030-01-29T00:00:00.000Z,1145,1145.44606232,1,2,9,0,0,2026-12-11T00:00:00.000Z!2027-01-12,286,330-->
 
 > [!example] __generic foo__
 >

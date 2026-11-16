@@ -144,7 +144,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 >   inverter(c,e); andGate(d,e,s)
 > ```
 >
-> {@{The same pattern is reused}@} to build {@{a full adder}@}. <!--SR:!2027-01-09,285,330!2026-12-13,263,330!fsrs,2030-01-28T00:00:00.000Z,1145,1145.44606232,1,2,9,0,0,2026-12-10T00:00:00.000Z!2026-12-17,266,330-->
+> {@{The same pattern is reused}@} to build {@{a full adder}@}. <!--SR:!2027-01-09,285,330!fsrs,2030-02-12T00:00:00.000Z,1157,1156.92457827,1,2,9,0,0,2026-12-13T00:00:00.000Z!fsrs,2030-01-28T00:00:00.000Z,1145,1145.44606232,1,2,9,0,0,2026-12-10T00:00:00.000Z!2026-12-17,266,330-->
 
 ### simulation engine
 

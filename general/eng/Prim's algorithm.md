@@ -65,7 +65,7 @@ As described above, {@{the starting vertex for the algorithm}@} will {@{be chose
 
 > __flashcards__
 >
-> - [adjacency matrix](adjacency%20matrix.md), searching ::@:: $O(\lvert V \rvert^{2})$ <!--SR:!2026-12-13,547,310!2030-05-24,1484,330-->
+> - [adjacency matrix](adjacency%20matrix.md), searching ::@:: $O(\lvert V \rvert^{2})$ <!--SR:!fsrs,2032-07-19T00:00:00.000Z,2045,2045.37497602,1,2,10,0,0,2026-12-13T00:00:00.000Z!2030-05-24,1484,330-->
 > - [binary heap](binary%20heap.md) and [adjacency list](adjacency%20list.md) ::@:: $O((\lvert V \rvert + \lvert E \rvert)\log \lvert V \rvert)=O(\lvert E \rvert \log \lvert V \rvert)$ <!--SR:!fsrs,2027-12-10T03:49:16.144Z,542,542.28523544,5.98276817,2,9,0,0,2026-06-16T03:49:16.144Z!2028-11-30,969,290-->
 > - [Fibonacci heap](Fibonacci%20heap.md) and [adjacency list](adjacency%20list.md) ::@:: $O(\lvert E \rvert + \lvert V \rvert \log \lvert V \rvert)$ <!--SR:!2027-02-16,378,270!2027-12-12,578,210-->
 

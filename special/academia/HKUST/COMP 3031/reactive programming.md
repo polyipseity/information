@@ -77,7 +77,7 @@ In {@{the classic _observer_ pattern}@}, {@{a model publishes events to interest
 >   def totalBalance: Int = total
 > }
 > ```
-<!--SR:!2027-02-12,291,330!2027-01-08,277,330!2027-01-09,278,330!2026-12-13,256,330-->
+<!--SR:!2027-02-12,291,330!2027-01-08,277,330!2027-01-09,278,330!fsrs,2030-01-16T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-12-13T00:00:00.000Z-->
 
 ### shortcomings of the observer pattern
 
