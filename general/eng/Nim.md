@@ -259,7 +259,7 @@ Building nim is {@{a variant of nim wherein the two players first construct the 
 
 ### higher-dimensional nim
 
-_n_-d nim is played on {@{a $k_{1}\times \dots \times k_{n}$ board}@}, whereon {@{any number of continuous pieces can be removed from any hyper-row}@}. The starting position is {@{usually the full board, but other options are allowed}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2029-12-24,1491,361!2029-12-14,1482,361!2026-12-12,607,341-->
+_n_-d nim is played on {@{a $k_{1}\times \dots \times k_{n}$ board}@}, whereon {@{any number of continuous pieces can be removed from any hyper-row}@}. The starting position is {@{usually the full board, but other options are allowed}@}.<sup>[\[14\]](#^ref-14)</sup> <!--SR:!2029-12-24,1491,361!2029-12-14,1482,361!fsrs,2033-10-02T00:00:00.000Z,2486,2486.02781516,1,2,10,0,0,2026-12-12T00:00:00.000Z-->
 
 ### graph nim
 

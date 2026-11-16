@@ -160,7 +160,7 @@ Using {@{a `Future`}@} also gives {@{built‑in failure handling via `Try[T]`}@}
 >   p.future
 > ```
 >
-> {@{The promise}@} is completed {@{after `asyncAddLegacy` calls the provided callback}@}; {@{any future that has been obtained from `p`}@} will {@{receive the result}@}. <!--SR:!2027-01-22,293,330!2026-12-27,271,330!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!2026-12-26,270,330!2027-01-21,292,330!fsrs,2029-09-18T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-04T00:00:00.000Z!2026-12-12,259,330!2027-01-18,288,330-->
+> {@{The promise}@} is completed {@{after `asyncAddLegacy` calls the provided callback}@}; {@{any future that has been obtained from `p`}@} will {@{receive the result}@}. <!--SR:!2027-01-22,293,330!2026-12-27,271,330!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!fsrs,2029-09-28T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-06T00:00:00.000Z!2026-12-26,270,330!2027-01-21,292,330!fsrs,2029-09-18T00:00:00.000Z,1049,1049.13725568,1,2,9,0,0,2026-11-04T00:00:00.000Z!fsrs,2030-01-27T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-12-12T00:00:00.000Z!2027-01-18,288,330-->
 
 ## transformations
 
@@ -277,7 +277,7 @@ In {@{a dataflow graph}@}, a node may have {@{several inputs}@}; in code this is
 
 ## execution context
 
-{@{A `Future`}@} does not {@{decide by itself where its continuation runs}@}. {@{The _execution context_}@} is {@{a runtime object that owns a thread pool or a scheduler}@} and decides on {@{which worker a callback will be invoked}@}. By importing {@{an implicit `ExecutionContext`}@}, {@{every `Future`}@} automatically {@{submits its work to the same pool}@}, making it trivial to switch from {@{a single‑threaded environment to a fixed‑size thread pool or even a custom executor}@}. <!--SR:!2026-12-12,259,330!2026-12-12,259,330!2027-01-18,288,330!2026-12-22,266,330!2027-01-23,294,330!2026-12-24,268,330!2026-12-23,268,330!2027-01-19,290,330!2027-01-24,294,330-->
+{@{A `Future`}@} does not {@{decide by itself where its continuation runs}@}. {@{The _execution context_}@} is {@{a runtime object that owns a thread pool or a scheduler}@} and decides on {@{which worker a callback will be invoked}@}. By importing {@{an implicit `ExecutionContext`}@}, {@{every `Future`}@} automatically {@{submits its work to the same pool}@}, making it trivial to switch from {@{a single‑threaded environment to a fixed‑size thread pool or even a custom executor}@}. <!--SR:!fsrs,2030-01-27T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-12-12T00:00:00.000Z!fsrs,2030-01-27T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-12-12T00:00:00.000Z!2027-01-18,288,330!2026-12-22,266,330!2027-01-23,294,330!2026-12-24,268,330!2026-12-23,268,330!2027-01-19,290,330!2027-01-24,294,330-->
 
 > [!example] __implicit execution context__
 >

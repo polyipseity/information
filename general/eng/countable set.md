@@ -27,7 +27,7 @@ Although {@{the terms "countable" and "countably infinite" as defined here are q
 
 A set $S$ is {@{_countable_}@} if: <!--SR:!2027-11-25,816,330-->
 
-- countable, cardinality ::@:: Its [cardinality](cardinality.md) $|S|$ is less than or equal to $\aleph _{0}$ \([aleph-null](aleph%20number.md#aleph-null)\), the cardinality of the set of [natural numbers](natural%20number.md) $\mathbb {N}$.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!2026-12-12,528,310!fsrs,2030-11-23T00:00:00.000Z,1602,1602.42500875,1,2,10,0,0,2026-07-05T00:00:00.000Z-->
+- countable, cardinality ::@:: Its [cardinality](cardinality.md) $|S|$ is less than or equal to $\aleph _{0}$ \([aleph-null](aleph%20number.md#aleph-null)\), the cardinality of the set of [natural numbers](natural%20number.md) $\mathbb {N}$.<sup>[\[9\]](#^ref-9)</sup> <!--SR:!fsrs,2032-05-17T00:00:00.000Z,1983,1982.94099656,1,2,10,0,0,2026-12-12T00:00:00.000Z!fsrs,2030-11-23T00:00:00.000Z,1602,1602.42500875,1,2,10,0,0,2026-07-05T00:00:00.000Z-->
 - countable, function from ::@:: There exists an [injective function](injective%20function.md) from $S$ to $\mathbb {N}$.<sup>[\[10\]](#^ref-10)</sup><sup>[\[11\]](#^ref-11)</sup> <!--SR:!2028-11-06,1100,350!2027-07-01,700,330-->
 - countable, function to ::@:: $S$ is empty or there exists a [surjective function](surjective%20function.md) from $\mathbb {N}$ to $S$.<sup>[\[11\]](#^ref-11)</sup> <!--SR:!2027-05-26,675,330!fsrs,2032-01-09T00:00:00.000Z,1900,1900.39176185,1,2,10,0,0,2026-10-27T00:00:00.000Z-->
 - countable, mapping ::@:: There exists a [bijective](bijection.md) mapping between $S$ and a subset of $\mathbb {N}$.<sup>[\[12\]](#^ref-12)</sup> <!--SR:!2029-01-17,1158,350!fsrs,2030-12-02T00:00:00.000Z,1609,1609.19787452,1,2,10,0,0,2026-07-07T00:00:00.000Z-->

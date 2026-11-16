@@ -108,7 +108,7 @@ tags:
 >
 > ---
 >
-> - solution: {@{Obviously, ID attributes used to refer to instances of other classes should be removed. But attributes that can be inferred from instances of the association \(or through multiple associations\) should also be removed, e.g. type of the referred instance of other classes.}@} <!--SR:!2026-12-12,330,340-->
+> - solution: {@{Obviously, ID attributes used to refer to instances of other classes should be removed. But attributes that can be inferred from instances of the association \(or through multiple associations\) should also be removed, e.g. type of the referred instance of other classes.}@} <!--SR:!fsrs,2030-12-08T00:00:00.000Z,1457,1457.06796557,1,2,9,0,0,2026-12-12T00:00:00.000Z-->
 
 ---
 

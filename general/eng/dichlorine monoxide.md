@@ -10,7 +10,7 @@ tags:
 
 # dichlorine monoxide
 
-__Dichlorine monoxide__ is {@{an [inorganic compound](inorganic%20compound.md) with the [molecular formula](chemical%20formula.md#molecular%20formula) __Cl<sub>2</sub>O__}@}. It looks like {@{orange or brownish-yellow [gas](gas.md)}@}. <!--SR:!2031-07-17,2304,330!2026-12-12,515,190-->
+__Dichlorine monoxide__ is {@{an [inorganic compound](inorganic%20compound.md) with the [molecular formula](chemical%20formula.md#molecular%20formula) __Cl<sub>2</sub>O__}@}. It looks like {@{orange or brownish-yellow [gas](gas.md)}@}. <!--SR:!2031-07-17,2304,330!fsrs,2029-12-29T00:00:00.000Z,1113,1112.61140086,6.98338322,2,10,0,0,2026-12-12T00:00:00.000Z-->
 
 ## references
 

@@ -53,7 +53,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 
 ### repeat loops
 
-{@{The `repeatUntil` command}@} runs {@{at least once}@} and stops when {@{the condition becomes true}@}. <!--SR:!fsrs,2029-12-13T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-28T00:00:00.000Z!fsrs,2029-09-12T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-11-02T00:00:00.000Z!2026-12-12,262,330-->
+{@{The `repeatUntil` command}@} runs {@{at least once}@} and stops when {@{the condition becomes true}@}. <!--SR:!fsrs,2029-12-13T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-28T00:00:00.000Z!fsrs,2029-09-12T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-11-02T00:00:00.000Z!fsrs,2030-02-07T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-12-12T00:00:00.000Z-->
 
 > [!example] __`repeatUntil` function__
 >
@@ -164,7 +164,7 @@ Scala can be used to {@{build a simple digital‑circuit simulator}@} that demon
 > ```
 <!--SR:!fsrs,2029-12-13T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-28T00:00:00.000Z!2027-01-04,281,330!fsrs,2029-11-02T00:00:00.000Z,1084,1083.94697941,1,2,9,0,0,2026-11-14T00:00:00.000Z!fsrs,2030-01-18T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-12-07T00:00:00.000Z-->
 
-{@{An `afterDelay` call}@} inserts {@{an event into a sorted list}@}; {@{the `run` method}@} repeatedly executes {@{the earliest event until the agenda is empty}@}. {@{Wires react to signal changes}@} by executing {@{all attached actions}@}, which may in turn schedule {@{further events}@}, thereby producing {@{the discrete‑event dynamics of the circuit}@}. <!--SR:!2027-01-20,294,330!fsrs,2029-10-24T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-11-13T00:00:00.000Z!2027-01-15,290,330!fsrs,2030-01-13T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-12-06T00:00:00.000Z!2027-01-16,290,330!2026-12-12,262,330!2026-12-23,271,330!2027-01-14,289,330-->
+{@{An `afterDelay` call}@} inserts {@{an event into a sorted list}@}; {@{the `run` method}@} repeatedly executes {@{the earliest event until the agenda is empty}@}. {@{Wires react to signal changes}@} by executing {@{all attached actions}@}, which may in turn schedule {@{further events}@}, thereby producing {@{the discrete‑event dynamics of the circuit}@}. <!--SR:!2027-01-20,294,330!fsrs,2029-10-24T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-11-13T00:00:00.000Z!2027-01-15,290,330!fsrs,2030-01-13T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-12-06T00:00:00.000Z!2027-01-16,290,330!fsrs,2030-02-07T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-12-12T00:00:00.000Z!2026-12-23,271,330!2027-01-14,289,330-->
 
 {@{The simulator}@} also offers {@{_probes_}@} that print {@{a wire’s value whenever it changes}@}, making it easy to {@{observe a circuit’s behaviour}@}. <!--SR:!fsrs,2029-11-07T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-11-15T00:00:00.000Z!2026-12-28,275,330!2026-12-26,273,330!2027-01-13,288,330-->
 

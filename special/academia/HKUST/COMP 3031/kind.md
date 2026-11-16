@@ -100,7 +100,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 ### monad example motivation
 
-{@{The advantage of monad being a type class}@} is that we can define {@{very abstract and generic operations that work for all monadic structures}@}. For example, we can define {@{`sequence`}@}, a function that converts {@{a `List[F[A]]` into `F[List[A]]`}@} for some {@{monad type constructor  `F[_]`}@}: <!--SR:!2026-12-12,261,330!fsrs,2029-08-14T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-10-27T00:00:00.000Z!2026-12-20,268,330!fsrs,2029-09-27T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-05T00:00:00.000Z!fsrs,2030-01-24T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-12-09T00:00:00.000Z-->
+{@{The advantage of monad being a type class}@} is that we can define {@{very abstract and generic operations that work for all monadic structures}@}. For example, we can define {@{`sequence`}@}, a function that converts {@{a `List[F[A]]` into `F[List[A]]`}@} for some {@{monad type constructor  `F[_]`}@}: <!--SR:!fsrs,2030-02-03T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-12-12T00:00:00.000Z!fsrs,2029-08-14T00:00:00.000Z,1022,1021.94953015,1,2,9,0,0,2026-10-27T00:00:00.000Z!2026-12-20,268,330!fsrs,2029-09-27T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-05T00:00:00.000Z!fsrs,2030-01-24T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-12-09T00:00:00.000Z-->
 
 > [!example] __`sequence`__
 >
@@ -182,7 +182,7 @@ Thus {@{the `Monad` type class}@} captures the semantics of both {@{constructing
 
 ## other languages
 
-{@{Higher‑kinded polymorphism}@} is not common {@{outside of Scala and Haskell}@}. The following snippets illustrate {@{the two main patterns used in other mainstream languages}@}. <!--SR:!fsrs,2029-03-14T00:00:00.000Z,871,871.41762991,1,2,9,0,0,2026-10-25T00:00:00.000Z!2026-12-12,256,330!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z-->
+{@{Higher‑kinded polymorphism}@} is not common {@{outside of Scala and Haskell}@}. The following snippets illustrate {@{the two main patterns used in other mainstream languages}@}. <!--SR:!fsrs,2029-03-14T00:00:00.000Z,871,871.41762991,1,2,9,0,0,2026-10-25T00:00:00.000Z!fsrs,2030-01-15T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-12-12T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z-->
 
 {@{In _Haskell_}@} a {@{_type class_}@} is declared with {@{`class`}@}. {@{The standard monad abstraction}@} is: <!--SR:!fsrs,2029-09-07T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-11-01T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1072,1072.36160804,1,2,9,0,0,2026-11-10T00:00:00.000Z!2027-01-03,279,330!fsrs,2029-11-18T00:00:00.000Z,1096,1095.51488793,1,2,9,0,0,2026-11-18T00:00:00.000Z-->
 

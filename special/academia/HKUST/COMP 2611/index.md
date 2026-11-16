@@ -31,7 +31,7 @@ The content is in teaching order.
         - final exam: 40%
 - logistics
     - course learning outcomes (CLOs) ::@:: assembly language, digital logic, instruction set architecture (ISA), organizational paradigms, processor & memory <!--SR:!2028-11-15,1068,350!2028-11-24,1076,350-->
-    - topics ::@:: brief digital circuit, data representation and arithmetic, instruction set architecture and assembly, computer architecture <!--SR:!2027-12-17,794,330!2026-12-12,497,310-->
+    - topics ::@:: brief digital circuit, data representation and arithmetic, instruction set architecture and assembly, computer architecture <!--SR:!2027-12-17,794,330!fsrs,2032-02-05T00:00:00.000Z,1881,1880.50978196,1,2,10,0,0,2026-12-12T00:00:00.000Z-->
     1. digital logic: combinational, sequential
     2. data representation: integer, fractional, character
     3. instruction set architecture (ISA)
