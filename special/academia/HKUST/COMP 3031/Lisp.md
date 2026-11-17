@@ -457,9 +457,9 @@ Because the closure keeps {@{a reference to its defining environment}@}, each ap
 > f(1)
 > ```
 >
-> ... would {@{raise an error}@} because {@{the inner lambda}@} looks up {@{`x` in the stack after `g` has pushed its own frame}@}, finding {@{a function instead of the integer}@}. {@{Renaming parameters}@} can sometimes {@{resolve the problem}@}, such as renaming {@{`x` to `z` in the function `g`, but not always}@}. <!--SR:!2027-05-24,390,360!2027-05-28,394,360!2027-05-21,387,360!2027-05-15,381,360!2027-03-21,326,340!2027-01-15,283,340!2027-03-20,325,340!2027-03-12,317,340!2027-05-13,379,360-->
+> ... would {@{raise an error}@} because {@{the inner lambda}@} looks up {@{`x` in the stack after `g` has pushed its own frame}@}, finding {@{a function instead of the integer}@}. {@{Renaming parameters}@} can sometimes {@{resolve the problem}@}, such as renaming {@{`x` to `z` in the function `g`, but not always}@}. <!--SR:!2027-05-24,390,360!2027-05-28,394,360!2027-05-21,387,360!2027-05-15,381,360!2027-03-21,326,340!2027-01-15,283,340!2027-03-20,325,340!2027-03-12,317,340-->
 
-{@{Renaming parameters}@} can sometimes {@{resolve problems with dynamic scoping, but not always}@}. <!--SR:!2027-05-19,385,360!2027-05-14,380,360!2027-05-20,386,360-->
+{@{Renaming parameters}@} can sometimes {@{resolve problems with dynamic scoping, but not always}@}. <!--SR:!2027-05-19,385,360!2027-05-14,380,360-->
 
 {@{Dynamic scoping}@} makes {@{higher-order functions unreliable}@}. {@{Static (lexical) scoping, which Scheme and modern Lisps use}@}, fixes these issues by ensuring that {@{a function’s free variables are resolved in the environment where it was defined}@}. This guarantees {@{referential transparency and predictable behaviour of first-class functions}@}. {@{Some legacy Lisp dialects such as Common Lisp}@} still support {@{both dynamic and lexical scopes}@}, while {@{Elisp uses only dynamic scoping}@}. <!--SR:!2027-03-11,316,340!2027-03-07,312,340!2027-03-23,328,340!2027-03-27,332,340!2027-03-16,321,340!2027-02-26,303,340!2026-12-31,271,340!2027-03-10,315,340-->
 

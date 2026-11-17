@@ -24,7 +24,7 @@ These practice problems are derived from the Arduino-oriented exercise sets, but
 >
 > ---
 >
-> - solution: {@{`pinMode(ledPin, OUTPUT);` and `pinMode(sensorPin, INPUT);` should be placed in `setup()`.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - solution: {@{`pinMode(ledPin, OUTPUT);` and `pinMode(sensorPin, INPUT);` should be placed in `setup()`.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -32,7 +32,7 @@ These practice problems are derived from the Arduino-oriented exercise sets, but
 >
 > ---
 >
-> - solution: {@{The conditions are mutually exclusive priority bands, so `if ... else if ... else` ensures only one LED behavior is chosen for each temperature reading.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - solution: {@{The conditions are mutually exclusive priority bands, so `if ... else if ... else` ensures only one LED behavior is chosen for each temperature reading.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -49,7 +49,7 @@ These practice problems are derived from the Arduino-oriented exercise sets, but
 >
 > ---
 >
-> - solution: {@{It packages repeated control logic into one reusable unit, which reduces duplication and makes later debugging or tuning easier.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - solution: {@{It packages repeated control logic into one reusable unit, which reduces duplication and makes later debugging or tuning easier.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -75,7 +75,7 @@ These practice problems are derived from the Arduino-oriented exercise sets, but
 >
 > ---
 >
-> - solution: {@{A state variable or counter such as `countBumper` is needed so the code remembers whether the start event has already happened.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - solution: {@{A state variable or counter such as `countBumper` is needed so the code remembers whether the start event has already happened.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

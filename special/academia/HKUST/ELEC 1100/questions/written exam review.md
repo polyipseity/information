@@ -23,7 +23,7 @@ This file repackages the written-exam review deck into public practice questions
 >
 > ---
 >
-> - solution: {@{The output voltage is $V_{out}=12\times\frac{1}{2+1}=4\text{ V}$.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - solution: {@{The output voltage is $V_{out}=12\times\frac{1}{2+1}=4\text{ V}$.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -49,7 +49,7 @@ This file repackages the written-exam review deck into public practice questions
 >
 > ---
 >
-> - solution: {@{The first two terms reduce to $B$, so the whole expression becomes $B + BC = B$.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - solution: {@{The first two terms reduce to $B$, so the whole expression becomes $B + BC = B$.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -57,7 +57,7 @@ This file repackages the written-exam review deck into public practice questions
 >
 > ---
 >
-> - solution: {@{A Zener regulator relies on reverse breakdown, so the Zener must be reverse-connected to clamp the voltage near its breakdown value.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - solution: {@{A Zener regulator relies on reverse breakdown, so the Zener must be reverse-connected to clamp the voltage near its breakdown value.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -66,7 +66,7 @@ This file repackages the written-exam review deck into public practice questions
 > ---
 >
 > - solution: {@{Not saturated, because the base drive is too small}@}
-> - explanation: {@{The base current is $I_B=(5-0.7)/47\text{ k}\Omega\approx0.0915\text{ mA}$, which drives}@}, so {@{the collector current}@} would be {@{$\beta I_B\approx8.24\text{ mA}$, far below the collector limit}@}. The collector can pass {@{at most $I_{C,\max}=(5-0.2)/330\Omega\approx14.55\text{ mA}$}@}, so because {@{the required $\beta I_B$ sits below $I_{C,\max}$}@}, the transistor is {@{not forced into saturation by this base drive}@}. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - explanation: {@{The base current is $I_B=(5-0.7)/47\text{ k}\Omega\approx0.0915\text{ mA}$, which drives}@}, so {@{the collector current}@} would be {@{$\beta I_B\approx8.24\text{ mA}$, far below the collector limit}@}. The collector can pass {@{at most $I_{C,\max}=(5-0.2)/330\Omega\approx14.55\text{ mA}$}@}, so because {@{the required $\beta I_B$ sits below $I_{C,\max}$}@}, the transistor is {@{not forced into saturation by this base drive}@}. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -74,7 +74,7 @@ This file repackages the written-exam review deck into public practice questions
 >
 > ---
 >
-> - solution: {@{The alarm is `DK'`.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - solution: {@{The alarm is `DK'`.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -82,7 +82,7 @@ This file repackages the written-exam review deck into public practice questions
 >
 > ---
 >
-> - solution: {@{The long blocking delay prevents the code from checking new sensor inputs during that interval.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - solution: {@{The long blocking delay prevents the code from checking new sensor inputs during that interval.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 ## extra challenging items
 
@@ -90,7 +90,7 @@ This file repackages the written-exam review deck into public practice questions
 >
 > ---
 >
-> - solution: {@{The negative sign means the true current direction is opposite the assumed clockwise direction, and the magnitude is still meaningful.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - solution: {@{The negative sign means the true current direction is opposite the assumed clockwise direction, and the magnitude is still meaningful.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

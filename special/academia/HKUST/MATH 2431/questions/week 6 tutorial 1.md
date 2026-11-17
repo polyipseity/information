@@ -49,7 +49,7 @@ The questions on this page summarize the _official tutorial materials_ for week 
 > ---
 >
 > - solution: {@{the constant is $c=1$}@}
-> - explanation: A PDF must be {@{nonnegative and have total integral $1$}@}. Here {@{the unscaled density already integrates to $1$ on $(0,\infty)$ because $\int_0^\infty e^{-x}dx=1$, so the correct normalizing constant is $c=1$}@}. <!--SR:!fsrs,2027-09-07T00:00:00.000Z,387,387.12382382,1,2,7,0,0,2026-08-16T00:00:00.000Z!fsrs,2027-04-20T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-11T00:00:00.000Z!fsrs,2027-07-14T00:00:00.000Z,353,352.59083055,1,2,7,0,0,2026-07-26T00:00:00.000Z!fsrs,2027-09-07T00:00:00.000Z,387,387.12382382,1,2,7,0,0,2026-08-16T00:00:00.000Z!fsrs,2027-07-14T00:00:00.000Z,353,352.59083055,1,2,7,0,0,2026-07-26T00:00:00.000Z-->
+> - explanation: A PDF must be {@{nonnegative and have total integral $1$}@}. Here {@{the unscaled density already integrates to $1$ on $(0,\infty)$ because $\int_0^\infty e^{-x}dx=1$, so the correct normalizing constant is $c=1$}@}. <!--SR:!fsrs,2027-09-07T00:00:00.000Z,387,387.12382382,1,2,7,0,0,2026-08-16T00:00:00.000Z!fsrs,2027-04-20T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-11T00:00:00.000Z!fsrs,2027-07-14T00:00:00.000Z,353,352.59083055,1,2,7,0,0,2026-07-26T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

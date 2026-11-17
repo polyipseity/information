@@ -24,7 +24,7 @@ These questions are course-authored practice variants based on the official addi
 > ---
 >
 > - solution: {@{the voltage across $R_2$ is $10.5\text{ V}$}@}
-> - explanation: {@{The series current is $I=\frac{15}{1.8+4.2}\text{ mA}=2.5\text{ mA}$, so Ohm's law gives $V_{R_2}=IR_2=2.5\text{ mA}\times4.2\text{ k}\Omega$.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - explanation: {@{The series current is $I=\frac{15}{1.8+4.2}\text{ mA}=2.5\text{ mA}$, so Ohm's law gives $V_{R_2}=IR_2=2.5\text{ mA}\times4.2\text{ k}\Omega$.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -33,7 +33,7 @@ These questions are course-authored practice variants based on the official addi
 > ---
 >
 > - solution: {@{$I_1=6\text{ mA}$ and $I_2=4\text{ mA}$}@}
-> - explanation: {@{In a parallel circuit the voltage is the same on both branches. The equivalent resistance is $R_{\text{eq}}=\frac{2\times3}{2+3}\text{ k}\Omega=1.2\text{ k}\Omega$, so the node voltage is $V=10\text{ mA}\times1.2\text{ k}\Omega=12\text{ V}$.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - explanation: {@{In a parallel circuit the voltage is the same on both branches. The equivalent resistance is $R_{\text{eq}}=\frac{2\times3}{2+3}\text{ k}\Omega=1.2\text{ k}\Omega$, so the node voltage is $V=10\text{ mA}\times1.2\text{ k}\Omega=12\text{ V}$.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -42,7 +42,7 @@ These questions are course-authored practice variants based on the official addi
 > ---
 >
 > - solution: {@{$I=0.02\text{ A}$ and $P=0.10\text{ W}$}@}
-> - explanation: {@{By KVL the net resistor voltage is $9-4=5\text{ V}$, so the current is $I=\frac{5}{250}$ and the resistor dissipates the power $P=I^2R$.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - explanation: {@{By KVL the net resistor voltage is $9-4=5\text{ V}$, so the current is $I=\frac{5}{250}$ and the resistor dissipates the power $P=I^2R$.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -51,7 +51,7 @@ These questions are course-authored practice variants based on the official addi
 > ---
 >
 > - solution: {@{$I_D\approx6.32\text{ mA}$}@}
-> - explanation: {@{The resistor sees $5-0.7=4.3\text{ V}$, so the diode current is $I_D=\frac{4.3}{680}$.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - explanation: {@{The resistor sees $5-0.7=4.3\text{ V}$, so the diode current is $I_D=\frac{4.3}{680}$.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -60,7 +60,7 @@ These questions are course-authored practice variants based on the official addi
 > ---
 >
 > - solution: {@{the node is clamped near $7.2\text{ V}$ once the Zener breaks down}@}
-> - explanation: Below the combined threshold {@{the Zener is effectively off}@} and the node {@{behaves like an ordinary voltage divider}@}. Once the current is {@{large enough to drive the Zener into reverse breakdown}@}, extra {@{source variation mainly changes the current through the series path}@}. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - explanation: Below the combined threshold {@{the Zener is effectively off}@} and the node {@{behaves like an ordinary voltage divider}@}. Once the current is {@{large enough to drive the Zener into reverse breakdown}@}, extra {@{source variation mainly changes the current through the series path}@}. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -78,7 +78,7 @@ These questions are course-authored practice variants based on the official addi
 > ---
 >
 > - solution: {@{the midpoint voltages are equal, so the bridge resistor carries no current}@}
-> - explanation: Both branches have the same {@{divider ratio, because the lower resistor is twice the upper resistor in each branch}@}. Each midpoint therefore {@{sits at $8\text{ V}$}@}, so the network {@{can be solved as two independent dividers}@}. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - explanation: Both branches have the same {@{divider ratio, because the lower resistor is twice the upper resistor in each branch}@}. Each midpoint therefore {@{sits at $8\text{ V}$}@}, so the network {@{can be solved as two independent dividers}@}. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 ## extra exam-style questions
 

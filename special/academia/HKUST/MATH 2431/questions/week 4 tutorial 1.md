@@ -50,7 +50,7 @@ The questions on this page summarize the _official tutorial materials_ for week 
 > ---
 >
 > - solution: {@{$P(BB\mid\text{younger boy})=1/2$}@}
-> - explanation: Conditioning on {@{the younger child being a boy reduces the space to $\{BB,BG\}$, so $P(BB\mid\text{younger boy})=1/2$}@}. Here {@{the statement "younger child is a boy" singles out a specific coordinate, whereas "at least one boy" does not}@}. <!--SR:!fsrs,2027-06-18T00:00:00.000Z,334,333.7505275,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-07-06T00:00:00.000Z,347,346.91600423,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-06-12T00:00:00.000Z,329,329.34501907,1,2,7,0,0,2026-07-18T00:00:00.000Z!fsrs,2027-07-16T00:00:00.000Z,356,355.65187633,1,2,7,0,0,2026-07-25T00:00:00.000Z-->
+> - explanation: Conditioning on {@{the younger child being a boy reduces the space to $\{BB,BG\}$, so $P(BB\mid\text{younger boy})=1/2$}@}. Here {@{the statement "younger child is a boy" singles out a specific coordinate, whereas "at least one boy" does not}@}. <!--SR:!fsrs,2027-06-18T00:00:00.000Z,334,333.7505275,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-07-06T00:00:00.000Z,347,346.91600423,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-06-12T00:00:00.000Z,329,329.34501907,1,2,7,0,0,2026-07-18T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

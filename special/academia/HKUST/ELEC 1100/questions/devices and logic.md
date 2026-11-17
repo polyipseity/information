@@ -24,7 +24,7 @@ This set combines transistor, H-bridge, PWM, Boolean-algebra, and gate-design qu
 > ---
 >
 > - solution: {@{The transistor saturates}@}
-> - explanation: The base current is {@{$I_B\approx0.144\text{ mA}$, worked from $(3.3-0.7)/18\text{ k}\Omega$}@}, so an active collector current would be {@{$\beta I_B\approx11.5\text{ mA}$, far above the limit}@}. {@{The collector can pass only $10.36\text{ mA}$}@}, so the device {@{saturates}@}. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-04-11T00:00:00.000Z,137,136.52358181,1.99446196,2,3,0,0,2026-11-25T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - explanation: The base current is {@{$I_B\approx0.144\text{ mA}$, worked from $(3.3-0.7)/18\text{ k}\Omega$}@}, so an active collector current would be {@{$\beta I_B\approx11.5\text{ mA}$, far above the limit}@}. {@{The collector can pass only $10.36\text{ mA}$}@}, so the device {@{saturates}@}. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-04-11T00:00:00.000Z,137,136.52358181,1.99446196,2,3,0,0,2026-11-25T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -33,7 +33,7 @@ This set combines transistor, H-bridge, PWM, Boolean-algebra, and gate-design qu
 > ---
 >
 > - solution: {@{HIGH, because the pull-up holds the output high}@}
-> - explanation: {@{An input LOW turns the transistor off}@}, so {@{almost no collector current flows}@} and {@{the pull-up resistor raises the output near $5\text{ V}$}@}. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - explanation: {@{An input LOW turns the transistor off}@}, so {@{almost no collector current flows}@} and {@{the pull-up resistor raises the output near $5\text{ V}$}@}. <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -50,7 +50,7 @@ This set combines transistor, H-bridge, PWM, Boolean-algebra, and gate-design qu
 >
 > ---
 >
-> - solution: {@{The average voltage is $3\text{ V}$}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - solution: {@{The average voltage is $3\text{ V}$}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -58,7 +58,7 @@ This set combines transistor, H-bridge, PWM, Boolean-algebra, and gate-design qu
 >
 > ---
 >
-> - solution: {@{The equivalent DC voltage for the same resistive power is $6\text{ V}$}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - solution: {@{The equivalent DC voltage for the same resistive power is $6\text{ V}$}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -67,7 +67,7 @@ This set combines transistor, H-bridge, PWM, Boolean-algebra, and gate-design qu
 > ---
 >
 > - solution: {@{XOR, so the simplified expression is $A\oplus B=A'B+AB'$}@}
-> - explanation: {@{The truth table is $00\to0$, $01\to1$, $10\to1$, $11\to0$, which matches an exclusive-OR gate}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - explanation: {@{The truth table is $00\to0$, $01\to1$, $10\to1$, $11\to0$, which matches an exclusive-OR gate}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -92,7 +92,7 @@ This set combines transistor, H-bridge, PWM, Boolean-algebra, and gate-design qu
 >
 > ---
 >
-> - solution: {@{The sum of products is $AB+AC+BC$}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - solution: {@{The sum of products is $AB+AC+BC$}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -101,7 +101,7 @@ This set combines transistor, H-bridge, PWM, Boolean-algebra, and gate-design qu
 > ---
 >
 > - solution: {@{Pulse the PWM or enable path, not the DIR path}@}
-> - explanation: {@{Pulsing the enable path changes the average motor drive while the chosen direction stays fixed}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - explanation: {@{Pulsing the enable path changes the average motor drive while the chosen direction stays fixed}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 

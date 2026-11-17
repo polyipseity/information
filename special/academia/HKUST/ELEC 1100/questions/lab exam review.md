@@ -32,7 +32,7 @@ These questions are practical variants based on the lab-exam preparation materia
 >
 > ---
 >
-> - solution: {@{The period is $T=4.5\times200\,\mu\text{s}=900\,\mu\text{s}$, so the frequency is $f=\frac{1}{T}\approx1.11\text{ kHz}$.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - solution: {@{The period is $T=4.5\times200\,\mu\text{s}=900\,\mu\text{s}$, so the frequency is $f=\frac{1}{T}\approx1.11\text{ kHz}$.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -57,7 +57,7 @@ These questions are practical variants based on the lab-exam preparation materia
 >
 > ---
 >
-> - solution: {@{It matches an inverter or NOT gate, which produces the complement of its input.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - solution: {@{It matches an inverter or NOT gate, which produces the complement of its input.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -74,7 +74,7 @@ These questions are practical variants based on the lab-exam preparation materia
 >
 > ---
 >
-> - solution: {@{Re-adjust the sensor threshold or mounting distance so the reflected-light contrast between white and black surfaces can be distinguished again.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z!fsrs,2027-05-09T00:00:00.000Z,153,153.00007099,1,2,3,0,0,2026-12-07T00:00:00.000Z!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
+> - solution: {@{Re-adjust the sensor threshold or mounting distance so the reflected-light contrast between white and black surfaces can be distinguished again.}@} <!--SR:!fsrs,2027-01-03T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-10-29T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
