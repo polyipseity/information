@@ -258,7 +258,7 @@ Given {@{an ordinal parameter α ≥ ω+2}@} — for {@{every set _S_ with rank 
 
     - \(annotation: {@{weaker than}@} AC\) {@{Every [field](field%20(mathematics).md)}@} has {@{an [algebraic closure](algebraic%20closure.md)}@}.
 
-    - {\(annotation: {@{weaker than}@} AC\) @{Every [field extension](field%20extension.md)}@} has {@{a [transcendence basis](transcendence%20basis.md)}@}.
+    - \(annotation: {@{weaker than}@} AC\) {@{Every [field extension](field%20extension.md)}@} has {@{a [transcendence basis](transcendence%20basis.md)}@}.
 
     - \(annotation: {@{weaker than}@} AC\) {@{Every infinite-dimensional [vector space](vector%20space.md)}@} contains {@{an infinite linearly independent subset \(annotation: not _basis_\)}@} \(this requires {@{[dependent choice](axiom%20of%20dependent%20choice.md), but not the full axiom of choice}@}\).
 
