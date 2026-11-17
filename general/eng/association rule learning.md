@@ -14,25 +14,25 @@ tags:
 
 ### support
 
-Support is {@{how frequently the item set appears in the data set}@}. For a item set X, it is defined as {@{$\operatorname{supp}(X) = P(X) = \frac {\text{number of transactions containing }X} {\text{total number of transactions} }$}@}. An alternative definition is simply {@{the number of transactions containing X}@}, in which case adjust the equations below yourself accordingly. <!--SR:!2028-04-17,1189,350!2028-03-10,1160,350!2027-07-18,975,350-->
+{@{Support}@} is {@{how frequently the item set appears in the data set}@}. For {@{a item set X}@}, it is defined as {@{$$\operatorname{supp}(X) = P(X) = \frac {\text{number of transactions containing }X} {\text{total number of transactions} }\,.$$}@} {@{An alternative definition}@} is simply {@{the number of transactions containing X}@}, in which case adjust the equations below yourself accordingly. <!--SR:!2028-04-17,1189,350!2028-03-10,1160,350!2027-07-18,975,350-->
 
 ### confidence
 
-Confidence is {@{the ratio of all transactions satisfying the antecedent that also satisfies the consequent}@}. For two item sets X and Y, and {@{a rule $X \Rightarrow Y$ with X as the antecedent and Y as the consequent, the confidence of the rule is defined as $\operatorname{conf}(X \Rightarrow Y) = P(Y | X) = \frac {\operatorname{supp}(X \cup Y)} {\operatorname{supp}(X)} = \frac {\text{number of transactions containing both }X\text{ and }Y} {\text{number of transactions containing }X}$}@}. <!--SR:!2032-01-11,2157,330!2029-08-15,1561,350-->
+{@{Confidence}@} is {@{the ratio of all transactions satisfying the antecedent that also satisfies the consequent}@}. For {@{two item sets X and Y}@}, and {@{a rule $X \Rightarrow Y$ with X as the antecedent and Y as the consequent}@}, {@{the confidence of the rule}@} is defined as {@{$$\operatorname{conf}(X \Rightarrow Y) = P(Y | X) = \frac {\operatorname{supp}(X \cup Y)} {\operatorname{supp}(X)} = \frac {\text{number of transactions containing both }X\text{ and }Y} {\text{number of transactions containing }X}\,.$$}@} <!--SR:!2032-01-11,2157,330!2029-08-15,1561,350-->
 
-Confidence expresses {@{how confident you can be about Y being true given X is true}@}. <!--SR:!2032-10-14,2364,330-->
+{@{Confidence}@} expresses {@{how confident you can be about Y being true given X is true}@}. <!--SR:!2032-10-14,2364,330-->
 
 ### lift
 
-Lift is {@{the ratio of the observed support of a rule to that expected if the antecedent and the consequent are [independent](independence%20(probability%20theory).md)}@}. For two item sets X and Y, and {@{a rule $X \Rightarrow Y$ with X as the antecedent and Y as the consequent, the lift of the rule is defined as $\operatorname{lift}(X \Rightarrow Y) = \frac {\operatorname{conf}(X \Rightarrow Y)} {\operatorname{supp}(Y)} = \frac {\operatorname{supp}(X \cup Y)} {\operatorname{supp}(X) \times \operatorname{supp}(Y)}$}@}. <!--SR:!2028-07-21,1028,310!2027-10-24,1051,350-->
+{@{Lift}@} is {@{the ratio of the observed support of a rule to that expected if the antecedent and the consequent are [independent](independence%20(probability%20theory).md)}@}. For {@{two item sets X and Y}@}, and {@{a rule $X \Rightarrow Y$ with X as the antecedent and Y as the consequent}@}, {@{the lift of the rule}@} is defined as {@{$$\operatorname{lift}(X \Rightarrow Y) = \frac {\operatorname{conf}(X \Rightarrow Y)} {\operatorname{supp}(Y)} = \frac {\operatorname{supp}(X \cup Y)} {\operatorname{supp}(X) \times \operatorname{supp}(Y)}\,.$$}@} <!--SR:!2028-07-21,1028,310!2027-10-24,1051,350-->
 
-Lift expresses {@{the observed co-occurrence of X and Y compared to that expected if X and Y are [independent](independence%20(probability%20theory).md)}@}. Note that the lift is unchanged even if {@{the antecedent and the consequent are exchanged, i.e. $\operatorname{lift}(X \Rightarrow Y) = \operatorname{lift}(Y \Rightarrow X)$}@}. <!--SR:!2027-04-17,877,330!2027-04-14,832,330-->
+{@{Lift}@} expresses {@{the observed co-occurrence of X and Y compared to that expected if X and Y are [independent](independence%20(probability%20theory).md)}@}. Note that {@{the lift is unchanged}@} even if {@{the antecedent and the consequent are exchanged, i.e. $\operatorname{lift}(X \Rightarrow Y) = \operatorname{lift}(Y \Rightarrow X)$}@}. <!--SR:!2027-04-17,877,330!2027-04-14,832,330-->
 
 ### conviction
 
-Conviction is {@{the ratio of the incorrectness of a rule, if the antecedent and the consequent are [independent](independence%20(probability%20theory).md), to the observed incorrectness}@}. For two item sets X and Y, and {@{a rule $X \Rightarrow Y$ with X as the antecedent and Y as the consequent, the lift of the rule is defined as $\operatorname{conv}(X \Rightarrow Y) = \frac {\operatorname{supp}(\lnot Y)} {\operatorname{conf}(X \Rightarrow \lnot Y)} = \frac {1 - \operatorname{supp}(Y)} {1 - \operatorname{conf}(X \Rightarrow Y)}$}@}. <!--SR:!2028-10-30,1133,290!fsrs,2033-05-10T00:00:00.000Z,2344,2343.86052799,1.98030797,2,10,0,0,2026-12-09T00:00:00.000Z-->
+{@{Conviction}@} is {@{the ratio of the incorrectness of a rule, if the antecedent and the consequent are [independent](independence%20(probability%20theory).md), to the observed incorrectness}@}. For {@{two item sets X and Y}@}, and {@{a rule $X \Rightarrow Y$ with X as the antecedent and Y as the consequent}@}, {@{the lift of the rule is defined}@} as {@{$$\operatorname{conv}(X \Rightarrow Y) = \frac {\operatorname{supp}(\lnot Y)} {\operatorname{conf}(X \Rightarrow \lnot Y)} = \frac {1 - \operatorname{supp}(Y)} {1 - \operatorname{conf}(X \Rightarrow Y)}\,.$$}@} <!--SR:!2028-10-30,1133,290!fsrs,2033-05-10T00:00:00.000Z,2344,2343.86052799,1.98030797,2,10,0,0,2026-12-09T00:00:00.000Z-->
 
-Conviction expresses {@{how often X fails to predict Y}@} if {@{X and Y are [independent](independence%20(probability%20theory).md) compared to that observed}@}. <!--SR:!fsrs,2032-09-05T00:00:00.000Z,2244,2244.17705852,1,2,10,0,0,2026-07-15T00:00:00.000Z!fsrs,2027-11-06T00:00:00.000Z,397,396.77501923,1,2,3,0,0,2026-10-05T00:00:00.000Z-->
+{@{Conviction}@} expresses {@{how often X fails to predict Y}@} if {@{X and Y are [independent](independence%20(probability%20theory).md) compared to that observed}@}. <!--SR:!fsrs,2032-09-05T00:00:00.000Z,2244,2244.17705852,1,2,10,0,0,2026-07-15T00:00:00.000Z!fsrs,2027-11-06T00:00:00.000Z,397,396.77501923,1,2,3,0,0,2026-10-05T00:00:00.000Z-->
 
 ## algorithms
 

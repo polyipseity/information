@@ -17,51 +17,116 @@ The questions on this page summarize the _official problem-set materials_ for pr
 
 - topics: birthday problem; Bayes' theorem; law of total probability; random sample spaces; conditional probability; Bayesian evidence.
 
-> The birthday problem. For $2\le n\le N=365$, let $A_n$ be the event that at least two people in a group of $n$ share a birthday.
+> 1.a. The birthday problem. For $2\le n\le N=365$, let $A_n$ be the event that at least two people in a group of $n$ share a birthday. Set up a probability space and describe $A_n^c$.
 >
-> - (a) Set up a probability space and describe $A_n^c$.
-> - (b) Show that any fixed pair of people shares a birthday with probability $1/N$.
-> - (c) Prove $1-\dfrac{n(n-1)}{2N}\le P(A_n^c)\le\exp\!\left(-\dfrac{n(n-1)}{2N}\right)$.
-> - (d) Use the approximation to find the smallest $n$ with $P(A_n)\ge 1/2$.
+> ---
 >
-> Solution:
->
-> - (a) Use the {@{uniform product space of birthday assignments}@} with $\Omega=\{1,2,\dots,N\}^n$ and $P(E)=|E|/N^n$; then {@{the event of no shared birthdays is $A_n^c=\{\omega\in\Omega: \omega_i\ne\omega_j\text{ for all }i\ne j\}$}@}.
-> - (b) For a fixed pair $(i,j)$, {@{once person $i$ is assigned a day, person $j$ matches it with probability $1/N$}@}.
-> - (c) The no-collision event is especially simple to count: the first person can have any birthday, the second must avoid 1 used day, the third must avoid 2 used days, and so on. So {@{$P(A_n^c)=\dfrac{N!}{(N-n)!N^n}=\prod_{j=0}^{n-1}\left(1-\dfrac{j}{N}\right)$}@}. <p> For {@{the upper bound}@}, use {@{$1-x\le e^{-x}$}@} term-by-term to get {@{$P(A_n^c)\le\exp\!\left(-\sum_{j=0}^{n-1}\dfrac{j}{N}\right)=\exp\!\left(-\dfrac{n(n-1)}{2N}\right)$}@}. <p> For {@{the lower bound}@}, let $B_{ij}$ be {@{the event that persons $i$ and $j$ collide}@}. Then {@{$A_n=\bigcup_{i<j}B_{ij}$}@}, so by the union bound and {@{$P(B_{ij})=1/N$}@}, {@{$P(A_n)\le\binom{n}{2}/N=n(n-1)/(2N)$}@}. Therefore {@{$P(A_n^c)\ge1-\dfrac{n(n-1)}{2N}$}@}. Intuitively, the lower bound says {@{a collision is at most as likely as the sum of the pairwise collision chances}@}.
-> - (d) The approximation says to look for the point where {@{the no-collision probability is about $1/2$, i.e. $\exp\!\left(-\dfrac{n(n-1)}{2N}\right)\approx1/2$}@}; with {@{$N=365$}@}, the first integer crossing that threshold is {@{$n=23$}@}. <!--SR:!fsrs,2027-06-03T00:00:00.000Z,317,317.09832588,1,2,7,0,0,2026-07-21T00:00:00.000Z!fsrs,2027-08-11T00:00:00.000Z,364,364.00954593,1,2,7,0,0,2026-08-12T00:00:00.000Z!fsrs,2027-05-18T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-18T00:00:00.000Z!fsrs,2027-05-24T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-06-08T00:00:00.000Z,321,321.346657,1,2,7,0,0,2026-07-22T00:00:00.000Z!fsrs,2027-08-22T00:00:00.000Z,373,372.79099428,1,2,7,0,0,2026-08-14T00:00:00.000Z!fsrs,2027-08-06T00:00:00.000Z,360,359.60705616,1,2,7,0,0,2026-08-11T00:00:00.000Z!fsrs,2027-08-06T00:00:00.000Z,360,359.60705616,1,2,7,0,0,2026-08-11T00:00:00.000Z!fsrs,2027-06-03T00:00:00.000Z,317,317.09832588,1,2,7,0,0,2026-07-21T00:00:00.000Z!fsrs,2027-08-16T00:00:00.000Z,368,368.40415449,1,2,7,0,0,2026-08-13T00:00:00.000Z!fsrs,2027-08-11T00:00:00.000Z,364,364.00954593,1,2,7,0,0,2026-08-12T00:00:00.000Z!fsrs,2027-08-16T00:00:00.000Z,368,368.40415449,1,2,7,0,0,2026-08-13T00:00:00.000Z!fsrs,2027-08-27T00:00:00.000Z,377,377.17020207,1,2,7,0,0,2026-08-15T00:00:00.000Z!fsrs,2027-06-08T00:00:00.000Z,321,321.346657,1,2,7,0,0,2026-07-22T00:00:00.000Z!fsrs,2027-08-06T00:00:00.000Z,360,359.60705616,1,2,7,0,0,2026-08-11T00:00:00.000Z!fsrs,2027-01-31T00:00:00.000Z,142,142.42562933,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-31T00:00:00.000Z,142,142.42562933,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
+> - solution: {@{$\Omega=\{1,2,\dots,N\}^n$ with $P(E)=|E|/N^n$, and $A_n^c=\{\omega\in\Omega:\omega_i\ne\omega_j\text{ for all }i\ne j\}$}@}
+> - explanation: Take {@{the uniform product space of birthday assignments}@}, so {@{$\Omega=\{1,2,\dots,N\}^n$ and $P(E)=|E|/N^n$}@}. <br/>
+>     No shared birthday is then {@{the event $A_n^c=\{\omega\in\Omega:\omega_i\ne\omega_j\text{ for all }i\ne j\}$ of assignments with distinct coordinates}@}.
 
 <!-- markdownlint MD028 -->
 
-> Bayes' theorem and total probability. Age groups $X,Y,Z$ make up $37\%$, $52\%$, and $11\%$ of respondents, and the probabilities of using a certain app regularly are $0.50$, $0.72$, and $0.89$ in those groups.
+> 1.b. The birthday problem. For $2\le n\le N=365$, let $A_n$ be the event that at least two people in a group of $n$ share a birthday. Show that any fixed pair of people shares a birthday with probability $1/N$.
 >
-> - (a) Find the overall probability that a random respondent uses the app regularly.
-> - (b) Given that a respondent uses the app regularly, find the probability that the respondent belongs to group $X$.
-> - (c) Assuming an effectively unlimited respondent pool and independent responses, find how many responses are needed so that with probability at least $99.9\%$ at least one respondent is found who does _not_ use the app regularly.
+> ---
 >
-> Solution:
->
-> - Let $A$ be the event {@{regular app use}@}.
-> - (a) By the {@{law of total probability}@}, the overall regular-use chance is the {@{weighted average of the three group-specific probabilities}@}: {@{$P(A)=0.37\cdot0.50+0.52\cdot0.72+0.11\cdot0.89=0.6573$}@}.
-> - (b) Once we know someone is a regular user, we reweight the groups by how likely each group was to produce that evidence. Bayes' theorem gives {@{the posterior probability $P(X\mid A)=\dfrac{0.37\cdot0.50}{0.6573}\approx0.28145$}@}.
-> - (c) If each response is independent and has regular-use probability {@{$p=0.6573$}@}, then the only way to fail the requirement is that {@{every one of the $n$ respondents is still a regular user, which has probability $p^n$}@}. So we need {@{the inequality $1-p^n\ge0.999$, equivalently $p^n\le0.001$}@}. Solving gives {@{$n\ge\dfrac{\log(0.001)}{\log(0.6573)}\approx16.46$}@}, so the smallest integer is {@{$17$}@}. <!--SR:!fsrs,2027-08-22T00:00:00.000Z,373,372.79099428,1,2,7,0,0,2026-08-14T00:00:00.000Z!fsrs,2027-08-22T00:00:00.000Z,373,372.79099428,1,2,7,0,0,2026-08-14T00:00:00.000Z!fsrs,2027-08-27T00:00:00.000Z,377,377.17020207,1,2,7,0,0,2026-08-15T00:00:00.000Z!fsrs,2027-06-14T00:00:00.000Z,326,325.58679272,1,2,7,0,0,2026-07-23T00:00:00.000Z!fsrs,2027-06-19T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-07-26T00:00:00.000Z,351,350.77791814,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-08-06T00:00:00.000Z,360,359.60705616,1,2,7,0,0,2026-08-11T00:00:00.000Z!fsrs,2027-05-29T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-20T00:00:00.000Z!fsrs,2027-08-06T00:00:00.000Z,360,359.60705616,1,2,7,0,0,2026-08-11T00:00:00.000Z!fsrs,2027-08-16T00:00:00.000Z,368,368.40415449,1,2,7,0,0,2026-08-13T00:00:00.000Z-->
+> - solution: {@{Any fixed pair shares a birthday with probability $1/N$}@}
+> - explanation: For a fixed pair $(i,j)$, {@{once person $i$'s birthday is fixed, person $j$ matches it on exactly one of the $N$ days}@}, so {@{the match has probability $1/N$}@}.
 
 <!-- markdownlint MD028 -->
 
-> Rolling dice a random number of times. A fair die is rolled $N$ times, where $P(N=n)=2^{-n}$ for $n\in\mathbb N$. Let $A_n=\{N=n\}$ and let $S_M$ be the event that the total sum of all rolled faces equals $M$.
+> 1.c. The birthday problem. For $2\le n\le N=365$, let $A_n$ be the event that at least two people in a group of $n$ share a birthday. Prove $1-\dfrac{n(n-1)}{2N}\le P(A_n^c)\le\exp\!\left(-\dfrac{n(n-1)}{2N}\right)$.
 >
-> - (a) Construct a probability space realizing these assumptions.
-> - (b) Compute $P(A_2\mid S_4)$.
-> - (c) If $A_e$ is the event that $N$ is even, compute $P(S_4\mid A_e)$.
+> ---
 >
-> Solution:
->
-> - (a) A convenient sample space is $\Omega=\{(\omega_1,\dots,\omega_n):n\in\mathbb N,\ \omega_i\in\{1,\dots,6\}\}$. Assign each path of length $n$ the mass {@{$12^{-n}$}@}; then {@{summing over all paths of length $n$ gives total mass $2^{-n}$}@}, and {@{$\sum_{n\ge1}2^{-n}=1$}@}.
-> - (b) If the total sum is {@{$4$}@}, then the die can only have been rolled {@{$1,2,3,$ or $4$ times}@}. For each possible length, count the ways to write 4 as a sum of that many positive die faces: one way for length 1, three ways for length 2, three ways for length 3, and one way for length 4. That gives {@{the four conditional probabilities $P(S_4\mid A_1)=1/6$, $P(S_4\mid A_2)=3/6^2=1/12$, $P(S_4\mid A_3)=3/6^3=1/72$, and $P(S_4\mid A_4)=1/6^4$}@}. Averaging with the prior weights {@{$P(A_n)=2^{-n}$}@} gives {@{$P(S_4)=\frac{2197}{20736}$}@}, and then Bayes gives {@{$P(A_2\mid S_4)=\dfrac{432}{2197}\approx0.1966$}@}. Intuitively, {@{sum 4 favors short games, but not exclusively}@}.
-> - (c) If we condition on {@{'the number of rolls is even'}@}, then only lengths {@{$2$ and $4$}@} survive; all odd lengths are thrown away before renormalizing. Since {@{$P(A_e)=\sum_{k\ge1}2^{-2k}=1/3$}@}, we get {@{$P(S_4\mid A_e)=\dfrac{(1/12)(1/4)+(1/6^4)(1/16)}{1/3}=\dfrac{433}{6912}\approx0.0626$}@}. <!--SR:!fsrs,2027-04-08T00:00:00.000Z,258,258.1896513,1.32990818,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-07-26T00:00:00.000Z,351,350.77791814,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-08-22T00:00:00.000Z,373,372.79099428,1,2,7,0,0,2026-08-14T00:00:00.000Z!fsrs,2027-08-27T00:00:00.000Z,377,377.17020207,1,2,7,0,0,2026-08-15T00:00:00.000Z!fsrs,2027-08-22T00:00:00.000Z,373,372.79099428,1,2,7,0,0,2026-08-14T00:00:00.000Z!fsrs,2027-07-26T00:00:00.000Z,351,350.77791814,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-08-16T00:00:00.000Z,368,368.40415449,1,2,7,0,0,2026-08-13T00:00:00.000Z!fsrs,2027-05-24T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-08-11T00:00:00.000Z,364,364.00954593,1,2,7,0,0,2026-08-12T00:00:00.000Z!fsrs,2027-08-27T00:00:00.000Z,377,377.17020207,1,2,7,0,0,2026-08-15T00:00:00.000Z!fsrs,2027-08-27T00:00:00.000Z,377,377.17020207,1,2,7,0,0,2026-08-15T00:00:00.000Z!fsrs,2027-05-23T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-18T00:00:00.000Z!fsrs,2027-08-16T00:00:00.000Z,368,368.40415449,1,2,7,0,0,2026-08-13T00:00:00.000Z!fsrs,2027-06-19T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-07-24T00:00:00.000Z-->
+> - solution: {@{Both bounds hold, $1-\dfrac{n(n-1)}{2N}\le P(A_n^c)\le\exp\!\left(-\dfrac{n(n-1)}{2N}\right)$}@}
+> - explanation: The collision-free assignments are the ones to count: {@{the first person may have any of the $N$ days}@}, {@{the second must avoid the $1$ day already used}@}, {@{the third must avoid the $2$ days already used}@}, and so on. <br/>
+>     This gives {@{the count $P(A_n^c)=\dfrac{N!}{(N-n)!N^n}=\prod_{j=0}^{n-1}\left(1-\dfrac{j}{N}\right)$}@}. <br/>
+>     The upper bound comes from {@{applying $1-x\le e^{-x}$ to each factor}@}, which yields {@{the estimate $P(A_n^c)\le\exp\!\left(-\dfrac{n(n-1)}{2N}\right)$}@}. <br/>
+>     For the lower bound {@{let $B_{ij}$ be the event that persons $i$ and $j$ collide, so that $A_n=\bigcup_{i<j}B_{ij}$}@}. <br/>
+>     With {@{the pairwise probability $P(B_{ij})=1/N$}@}, the union bound gives {@{the estimate $P(A_n)\le\binom{n}{2}/N=\dfrac{n(n-1)}{2N}$}@}, hence {@{the lower bound $P(A_n^c)\ge1-\dfrac{n(n-1)}{2N}$}@}. <br/>
+>     Intuitively, {@{a collision is at most as likely as the sum of the pairwise collision chances}@}.
 
 <!-- markdownlint MD028 -->
 
-> Sample size vs. signal strength. An urn initially contains $3$ red and $3$ blue balls. One ball $A$ is removed uniformly at random and hidden. Peter then draws with replacement $6$ times from the remaining urn and sees red every time; Paula draws with replacement $600$ times and sees $303$ red and $297$ blue. Let $R$ be the event that the removed hidden ball was red, let $P_1$ denote Peter's data, and let $P_2$ denote Paula's data. Compute $P(R)$, $P(R\mid P_1)$, and $P(R\mid P_2)$, and interpret the result.
+> 1.d. The birthday problem. For $2\le n\le N=365$, let $A_n$ be the event that at least two people in a group of $n$ share a birthday. Use the approximation to find the smallest $n$ with $P(A_n)\ge1/2$.
 >
-> Solution: Initially the hidden ball is equally likely to be red or blue, so {@{$P(R)=1/2$}@}. If the hidden ball was red, the remaining urn is biased toward blue, so {@{Peter's six-red observation has likelihood $(2/5)^6$}@}; if the hidden ball was blue, the urn is biased toward red, so {@{the competing likelihood is $(3/5)^6$}@}. Bayes therefore gives {@{$P(R\mid P_1)=\dfrac{(2/5)^6(1/2)}{(2/5)^6(1/2)+(3/5)^6(1/2)}=\dfrac{1}{1+(3/2)^6}\approx0.0807$}@}. For Paula, the same idea applies: the two binomial likelihoods differ only through the excess of red over blue observations, and here that excess is again {@{$6$}@}. So {@{the same likelihood ratio $(3/2)^6$ appears, giving $P(R\mid P_2)=\dfrac{1}{1+(3/2)^6}$}@}. The lesson is that {@{Bayes cares about the likelihood ratio, and here both datasets provide the same red-minus-blue evidence}@}. <!--SR:!fsrs,2027-08-11T00:00:00.000Z,364,364.00954593,1,2,7,0,0,2026-08-12T00:00:00.000Z!fsrs,2027-08-22T00:00:00.000Z,373,372.79099428,1,2,7,0,0,2026-08-14T00:00:00.000Z!fsrs,2027-05-29T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-20T00:00:00.000Z!fsrs,2027-04-09T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-09T00:00:00.000Z!fsrs,2027-08-11T00:00:00.000Z,364,364.00954593,1,2,7,0,0,2026-08-12T00:00:00.000Z!fsrs,2027-07-26T00:00:00.000Z,351,350.77791814,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-07-26T00:00:00.000Z,351,350.77791814,1,2,7,0,0,2026-08-09T00:00:00.000Z-->
+> ---
+>
+> - solution: {@{The smallest such $n$ is $23$}@}
+> - explanation: The approximation asks for {@{the threshold where the no-collision probability is about $1/2$, namely $\exp\!\left(-\dfrac{n(n-1)}{2N}\right)\approx1/2$}@}, and with {@{the value $N=365$}@} the smallest integer reached is {@{the value $n=23$}@}. <!--SR:!fsrs,2027-06-03T00:00:00.000Z,317,317.09832588,1,2,7,0,0,2026-07-21T00:00:00.000Z!fsrs,2027-08-11T00:00:00.000Z,364,364.00954593,1,2,7,0,0,2026-08-12T00:00:00.000Z!fsrs,2027-05-18T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-18T00:00:00.000Z!fsrs,2027-05-24T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-06-08T00:00:00.000Z,321,321.346657,1,2,7,0,0,2026-07-22T00:00:00.000Z!fsrs,2027-08-22T00:00:00.000Z,373,372.79099428,1,2,7,0,0,2026-08-14T00:00:00.000Z!fsrs,2027-08-06T00:00:00.000Z,360,359.60705616,1,2,7,0,0,2026-08-11T00:00:00.000Z!fsrs,2027-08-06T00:00:00.000Z,360,359.60705616,1,2,7,0,0,2026-08-11T00:00:00.000Z!fsrs,2027-06-03T00:00:00.000Z,317,317.09832588,1,2,7,0,0,2026-07-21T00:00:00.000Z!fsrs,2027-08-16T00:00:00.000Z,368,368.40415449,1,2,7,0,0,2026-08-13T00:00:00.000Z!fsrs,2027-08-11T00:00:00.000Z,364,364.00954593,1,2,7,0,0,2026-08-12T00:00:00.000Z!fsrs,2027-08-16T00:00:00.000Z,368,368.40415449,1,2,7,0,0,2026-08-13T00:00:00.000Z!fsrs,2027-08-27T00:00:00.000Z,377,377.17020207,1,2,7,0,0,2026-08-15T00:00:00.000Z!fsrs,2027-06-08T00:00:00.000Z,321,321.346657,1,2,7,0,0,2026-07-22T00:00:00.000Z!fsrs,2027-08-06T00:00:00.000Z,360,359.60705616,1,2,7,0,0,2026-08-11T00:00:00.000Z!fsrs,2027-01-31T00:00:00.000Z,142,142.42562933,1,2,2,0,0,2026-09-11T00:00:00.000Z!fsrs,2027-01-31T00:00:00.000Z,142,142.42562933,1,2,2,0,0,2026-09-11T00:00:00.000Z-->
+
+<!-- markdownlint MD028 -->
+
+> 2.a. Bayes' theorem and total probability. Age groups $X,Y,Z$ make up $37\%$, $52\%$, and $11\%$ of respondents, and the probabilities of using a certain app regularly are $0.50$, $0.72$, and $0.89$ in those groups. Find the overall probability that a random respondent uses the app regularly.
+>
+> ---
+>
+> - solution: {@{The overall regular-use probability is $P(A)=0.6573$}@}
+> - explanation: {@{The three age groups partition the respondents}@}, so by {@{the law of total probability}@} the overall chance is {@{the weighted average of the three group-specific probabilities, $P(A)=0.37\cdot0.50+0.52\cdot0.72+0.11\cdot0.89=0.6573$}@}.
+
+<!-- markdownlint MD028 -->
+
+> 2.b. Bayes' theorem and total probability. Age groups $X,Y,Z$ make up $37\%$, $52\%$, and $11\%$ of respondents, and the probabilities of using a certain app regularly are $0.50$, $0.72$, and $0.89$ in those groups. Let $A$ be the event of regular app use. Given that a respondent uses the app regularly, find the probability that the respondent belongs to group $X$.
+>
+> ---
+>
+> - solution: {@{The posterior probability is $P(X\mid A)=\dfrac{0.37\cdot0.50}{0.6573}\approx0.28145$}@}
+> - explanation: Once someone is known to be a regular user, the groups are {@{reweighted by how likely each one was to produce that evidence}@}. <br/>
+>     Bayes' theorem then gives {@{the posterior probability $P(X\mid A)=\dfrac{0.37\cdot0.50}{0.6573}\approx0.28145$}@}.
+
+<!-- markdownlint MD028 -->
+
+> 2.c. Bayes' theorem and total probability. Age groups $X,Y,Z$ make up $37\%$, $52\%$, and $11\%$ of respondents, and the probabilities of using a certain app regularly are $0.50$, $0.72$, and $0.89$ in those groups. Let $A$ be the event of regular app use, with $P(A)=0.6573$. Assuming an effectively unlimited respondent pool and independent responses, find how many responses are needed so that with probability at least $99.9\%$ at least one respondent is found who does _not_ use the app regularly.
+>
+> ---
+>
+> - solution: {@{The smallest such number is $17$ responses}@}
+> - explanation: Each response is {@{independent with regular-use probability $p=0.6573$}@}, so the requirement fails only when {@{all $n$ respondents are still regular users, an event of probability $p^n$}@}. <br/>
+>     The requirement is therefore {@{the inequality $1-p^n\ge0.999$, equivalently $p^n\le0.001$}@}, which solves to {@{the least integer $n\ge\dfrac{\log(0.001)}{\log(0.6573)}\approx16.46$}@}, namely {@{the answer $n=17$}@}. <!--SR:!fsrs,2027-08-22T00:00:00.000Z,373,372.79099428,1,2,7,0,0,2026-08-14T00:00:00.000Z!fsrs,2027-08-22T00:00:00.000Z,373,372.79099428,1,2,7,0,0,2026-08-14T00:00:00.000Z!fsrs,2027-08-27T00:00:00.000Z,377,377.17020207,1,2,7,0,0,2026-08-15T00:00:00.000Z!fsrs,2027-06-14T00:00:00.000Z,326,325.58679272,1,2,7,0,0,2026-07-23T00:00:00.000Z!fsrs,2027-06-19T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-07-26T00:00:00.000Z,351,350.77791814,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-08-06T00:00:00.000Z,360,359.60705616,1,2,7,0,0,2026-08-11T00:00:00.000Z!fsrs,2027-05-29T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-20T00:00:00.000Z!fsrs,2027-08-06T00:00:00.000Z,360,359.60705616,1,2,7,0,0,2026-08-11T00:00:00.000Z!fsrs,2027-08-16T00:00:00.000Z,368,368.40415449,1,2,7,0,0,2026-08-13T00:00:00.000Z-->
+
+<!-- markdownlint MD028 -->
+
+> 3.a. Rolling dice a random number of times. A fair die is rolled $N$ times, where $P(N=n)=2^{-n}$ for $n\in\mathbb N$. Let $A_n=\{N=n\}$ and let $S_M$ be the event that the total sum of all rolled faces equals $M$. Construct a probability space realizing these assumptions.
+>
+> ---
+>
+> - solution: {@{$\Omega=\{(\omega_1,\dots,\omega_n):n\in\mathbb N,\ \omega_i\in\{1,\dots,6\}\}$ with mass $12^{-n}$ on each path of length $n$}@}
+> - explanation: Take {@{the set of finite die-roll sequences, $\Omega=\{(\omega_1,\dots,\omega_n):n\in\mathbb N,\ \omega_i\in\{1,\dots,6\}\}$}@}. <br/>
+>     Assigning {@{each path of length $n$ the mass $12^{-n}$}@} gives {@{total mass $2^{-n}$ over the paths of that length, since there are $6^n$ of them}@}, and {@{the masses sum to $\sum_{n\ge1}2^{-n}=1$}@}.
+
+<!-- markdownlint MD028 -->
+
+> 3.b. Rolling dice a random number of times. A fair die is rolled $N$ times, where $P(N=n)=2^{-n}$ for $n\in\mathbb N$. Let $A_n=\{N=n\}$ and let $S_M$ be the event that the total sum of all rolled faces equals $M$. Compute $P(A_2\mid S_4)$.
+>
+> ---
+>
+> - solution: {@{P(A_2\mid S_4)=\dfrac{432}{2197}\approx0.1966}@}
+> - explanation: A total of {@{exactly $4$}@} forces {@{the die to have been rolled only $1$, $2$, $3$, or $4$ times}@}. <br/>
+>     Counting the ways to write $4$ as a sum of that many positive faces gives {@{one way for length $1$, three ways for length $2$, three ways for length $3$, and one way for length $4$}@}, hence {@{the four conditional probabilities $P(S_4\mid A_1)=1/6$, $P(S_4\mid A_2)=3/6^2=1/12$, $P(S_4\mid A_3)=3/6^3=1/72$, and $P(S_4\mid A_4)=1/6^4$}@}. <br/>
+>     Averaging with {@{the prior weights $P(A_n)=2^{-n}$}@} gives {@{the marginal $P(S_4)=\frac{2197}{20736}$}@}, and Bayes then gives {@{the answer $P(A_2\mid S_4)=\dfrac{432}{2197}\approx0.1966$}@}. <br/>
+>     Intuitively, {@{a total of $4$ favors short games, but not exclusively}@}.
+
+<!-- markdownlint MD028 -->
+
+> 3.c. Rolling dice a random number of times. A fair die is rolled $N$ times, where $P(N=n)=2^{-n}$ for $n\in\mathbb N$. Let $A_n=\{N=n\}$ and let $S_M$ be the event that the total sum of all rolled faces equals $M$. If $A_e$ is the event that $N$ is even, compute $P(S_4\mid A_e)$.
+>
+> ---
+>
+> - solution: {@{P(S_4\mid A_e)=\dfrac{433}{6912}\approx0.0626}@}
+> - explanation: Conditioning on {@{an even number of rolls}@} keeps {@{only the lengths $2$ and $4$}@}, since {@{every odd length is thrown away before renormalizing}@}. <br/>
+>     With {@{the even-roll probability $P(A_e)=\sum_{k\ge1}2^{-2k}=1/3$}@}, the result is {@{the value $P(S_4\mid A_e)=\dfrac{(1/12)(1/4)+(1/6^4)(1/16)}{1/3}=\dfrac{433}{6912}\approx0.0626$}@}. <!--SR:!fsrs,2027-04-08T00:00:00.000Z,258,258.1896513,1.32990818,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-07-26T00:00:00.000Z,351,350.77791814,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-08-22T00:00:00.000Z,373,372.79099428,1,2,7,0,0,2026-08-14T00:00:00.000Z!fsrs,2027-08-27T00:00:00.000Z,377,377.17020207,1,2,7,0,0,2026-08-15T00:00:00.000Z!fsrs,2027-08-22T00:00:00.000Z,373,372.79099428,1,2,7,0,0,2026-08-14T00:00:00.000Z!fsrs,2027-07-26T00:00:00.000Z,351,350.77791814,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-08-16T00:00:00.000Z,368,368.40415449,1,2,7,0,0,2026-08-13T00:00:00.000Z!fsrs,2027-05-24T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-08-11T00:00:00.000Z,364,364.00954593,1,2,7,0,0,2026-08-12T00:00:00.000Z!fsrs,2027-08-27T00:00:00.000Z,377,377.17020207,1,2,7,0,0,2026-08-15T00:00:00.000Z!fsrs,2027-08-27T00:00:00.000Z,377,377.17020207,1,2,7,0,0,2026-08-15T00:00:00.000Z!fsrs,2027-05-23T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-18T00:00:00.000Z!fsrs,2027-08-16T00:00:00.000Z,368,368.40415449,1,2,7,0,0,2026-08-13T00:00:00.000Z!fsrs,2027-06-19T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-07-24T00:00:00.000Z-->
+
+<!-- markdownlint MD028 -->
+
+> 4\. Sample size vs. signal strength. An urn initially contains $3$ red and $3$ blue balls. One ball $A$ is removed uniformly at random and hidden. Peter then draws with replacement $6$ times from the remaining urn and sees red every time; Paula draws with replacement $600$ times and sees $303$ red and $297$ blue. Let $R$ be the event that the removed hidden ball was red, let $P_1$ denote Peter's data, and let $P_2$ denote Paula's data. Compute $P(R)$, $P(R\mid P_1)$, and $P(R\mid P_2)$, and interpret the result.
+>
+> ---
+>
+> - solution: {@{$P(R)=1/2$, $P(R\mid P_1)=\dfrac{1}{1+(3/2)^6}\approx0.0807$, and $P(R\mid P_2)=\dfrac{1}{1+(3/2)^6}$, so both datasets give the same posterior}@}
+> - explanation: The hidden ball is initially {@{equally likely to be red or blue}@}, so {@{the prior is $P(R)=1/2$}@}. <br/>
+>     If the hidden ball was red the urn is {@{biased toward blue}@}, so {@{Peter's six-red observation has likelihood $(2/5)^6$}@}, while a blue hidden ball gives {@{the competing likelihood $(3/5)^6$}@}. <br/>
+>     Bayes therefore gives {@{the posterior $P(R\mid P_1)=\dfrac{(2/5)^6(1/2)}{(2/5)^6(1/2)+(3/5)^6(1/2)}=\dfrac{1}{1+(3/2)^6}\approx0.0807$}@}. <br/>
+>     For Paula {@{the two binomial likelihoods differ only through the excess of red over blue observations, and here that excess is again $6$}@}, so {@{the same likelihood ratio $(3/2)^6$ appears, giving $P(R\mid P_2)=\dfrac{1}{1+(3/2)^6}$}@}. <br/>
+>     The lesson is that {@{Bayes cares about the likelihood ratio, and here both datasets provide the same red-minus-blue evidence}@}.

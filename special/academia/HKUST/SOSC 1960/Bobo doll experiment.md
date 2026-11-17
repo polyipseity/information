@@ -19,14 +19,14 @@ A child copies an act the child has only seen, which is [observational learning]
 Flashcards for this section are as follows:
 
 - who ran it and when ::@:: Albert Bandura ran the Bobo doll experiment in 1961. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- what the test measured ::@:: Bandura measured what a child learns by watching another person. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- the behaviour chosen ::@:: Bandura chose aggression as the behaviour to test. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- what the test measured ::@:: Albert Bandura measured what a child learns by watching another person. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- the behaviour chosen ::@:: Albert Bandura chose aggression as the behaviour to test. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - the prevailing belief ::@:: Most people believed watching violence works off the urge to commit it and leaves the viewer calmer. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - the result ::@:: Children in a 1961 experiment hit a doll after watching an adult hit it, the opposite of what almost everyone expected. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - observational learning ::@:: A child copying an act the child has only seen. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - why it became the standard research ethics case ::@:: The children were too young to consent. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## the design
+## procedure
 
 Children aged three to five sat in a room with an adult and a pile of toys, including a large inflatable Bobo doll. A minute in, the adult attacked the doll for roughly ten minutes: mallet blows, kicks, nonstop shouting. The child was left alone with the same toys.
 
@@ -71,7 +71,7 @@ Flashcards for this section are as follows:
 - what is still argued over ::@:: Researchers still argue over what the finding means for media and behaviour. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what the study opened ::@:: Nobody disputes that the study opened the area. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## why it was criticized
+## criticism
 
 Critics said the study trained children toward aggression: it showed children a behaviour at length, then measured how much they picked up. The ethical objection has two parts: what happens to participants who cannot consent for themselves, and who reviews a study before it runs. Both appear under [ethical guidelines](research%20ethics.md).
 
@@ -86,7 +86,7 @@ Flashcards for this section are as follows:
 - the general ethical question ::@:: Two questions follow: what happens to participants who cannot consent for themselves, and who reviews a study before it runs. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what came of the criticism ::@:: A study showing an adult model harm a child now faces review before it begins, not after its data. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## what it changed
+## theoretical impact
 
 Copying what a child has watched needs no stimulus and no habit. The child remembers, decides it is acceptable, and acts on a representation. Learning of that shape happens inside a person, not between a stimulus and a reflex. That was the first shift, from pure behaviorism to cognitive psychology.
 

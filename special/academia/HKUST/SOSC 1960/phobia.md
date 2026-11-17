@@ -25,7 +25,7 @@ Flashcards for this section are as follows:
 - how long a phobia persists ::@:: More than six months. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - how many people with a phobia have more than one ::@:: Most of them, around three quarters. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## how a phobia forms
+## acquisition
 
 A neutral stimulus is paired again and again with one that already produces fear, until it alone produces fear. That is fear conditioning: ordinary conditioning with an aversive outcome. Fear of loud noises is one of the few things a child is born with. A loud noise is an efficient unconditioned stimulus, so the pairing takes fewer trials. A second stimulus the child does not fear needs more pairings.
 
@@ -49,7 +49,7 @@ Flashcards for this section are as follows:
 - how a neutral cue comes to produce fear on its own ::@:: A neutral cue paired again and again with a startling noise comes to produce fear on its own. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - the age of the child in the 1920 conditioning study ::@:: Nine months old. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - the stimuli presented before any noise was used ::@:: A rat, a dog, a rabbit, a monkey, and furry or plain masks, none of which disturbed the child. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- what Watson did as the child was about to touch the rat ::@:: Watson made a loud noise, and the child was startled and cried. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- what John B. Watson did as the child was about to touch the rat ::@:: Watson made a loud noise, and the child was startled and cried. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what happened when the rat appeared again after the pairings ::@:: The child was frightened of the rat and cried, with no noise. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what the 1920 study demonstrates ::@:: That a child can be conditioned to fear something harmless. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - the ethical criticism of the 1920 study ::@:: No independent review, repeated distress on purpose, and no assessment or follow-up of the risk to the child. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
@@ -67,7 +67,7 @@ Flashcards for this section are as follows:
 - what the 1920 study found under stimulus generalisation ::@:: The child showed distress at a rabbit, a dog, and a Santa Claus mask, none of which had been paired with the noise. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - why stimulus generalisation hides a phobia's cause ::@:: The cue stands for a whole class, so memory of one event does not identify the class. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## why the fear lasts
+## persistence
 
 The feared object turns up again and again, and nothing bad follows. The association weakens, and the fear fades. This is extinction, and it is why most frightened children never develop a phobia.
 

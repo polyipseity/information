@@ -29,7 +29,7 @@ Flashcards for this section are as follows:
 - biology's part in a prepared association ::@:: Conditioning is strong where biology has already tied one cue to one outcome. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what a cue carrying no information can still do ::@:: It can pick up learning that an equally frequent unprepared cue would not. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## where the effect is clearest
+## taste aversion
 
 Oysters or raw fish, then food poisoning, and the food is finished. Taste aversion is the sharpest case of preparedness, and a fall from a high branch does the same for fear.
 
@@ -50,17 +50,17 @@ The fall case shows the same shape, and a [phobia](phobia.md) built on an ancest
 Flashcards for this section are as follows:
 
 - the clearest cases of preparedness ::@:: Taste aversion and a fall from a height are the clearest cases of preparedness. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- the US and UR in the food-poisoning case ::@:: The bacteria or toxin is the US; the nausea and vomiting are the UR. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- the CS and CR in the food-poisoning case ::@:: The taste or smell of the food is the CS; the avoidance next time is the CR. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- the US and UR in the fall case ::@:: The impact and sudden loss of support are the US; the reflexive panic, shock, and pain are the UR. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- the CS and CR in the fall case ::@:: The visual cues of height and depth are the CS; the fear, racing heart, and urge to retreat are the CR. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- the unconditioned stimulus (US) and unconditioned response (UR) in the food-poisoning case ::@:: The bacteria or toxin is the US; the nausea and vomiting are the UR. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- the conditioned stimulus (CS) and conditioned response (CR) in the food-poisoning case ::@:: The taste or smell of the food is the CS; the avoidance next time is the CR. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- the unconditioned stimulus (US) and unconditioned response (UR) in the fall case ::@:: The impact and sudden loss of support are the US; the reflexive panic, shock, and pain are the UR. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- the conditioned stimulus (CS) and conditioned response (CR) in the fall case ::@:: The visual cues of height and depth are the CS; the fear, racing heart, and urge to retreat are the CR. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - the three ways a prepared association differs from ordinary conditioning ::@:: It forms in one trial and lasts for years, it attaches to the food alone rather than the plate, the chair's colour, or the music, and it ignores timing. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - the shrimp-bowl instance ::@:: In a seafood restaurant, the smell, taste, or thought of shrimp brings on disgust and nausea, and the rest of the room is untouched. <!--SR:!fsrs,2026-12-27T00:00:00.000Z,39,38.90515015,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what the prepared association ignores about timing ::@:: Food eaten at noon and illness arriving at midnight are still linked. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - how many bad experiences a fear of heights needs ::@:: One. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what a phobia built on an ancestral threat is ::@:: The same phenomenon as an aversion built on a bad meal. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## the evolutionary argument
+## evolutionary argument
 
 An organism that feared faster than its neighbours survived and reproduced more often. The predisposition that sped the learning was inherited, not acquired.
 

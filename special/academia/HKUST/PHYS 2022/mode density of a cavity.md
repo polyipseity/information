@@ -97,7 +97,7 @@ Flashcards for this section are as follows:
 - why the mode density carries a fourth power of $\lambda$ and the laws a fifth ::@:: $n(\lambda) = 8\pi/\lambda^4$ is already a density per unit wavelength, so its fourth power comes from the geometry; the fifth appears only once the mean energy contributes a factor of $1/\lambda$ of its own, since $\overline{E} = hf = hc/\lambda$ for a mode of frequency $f$. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - why the choice among the four quantities does not move the peak of the curve, given the multipliers $c/(4\pi)$ and $\pi$ ::@:: Both are constants in $\lambda$, so they change the height of the curve and leave the peak wavelength where it is. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
-## where each law plugs in
+## average energy per mode
 
 The chain is fixed apart from one factor. Each law supplies its own $\overline{E}$ and shares everything else:
 

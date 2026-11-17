@@ -21,7 +21,7 @@ Flashcards for this section are as follows:
 - why that one difference matters ::@:: Any difference in the outcome has to come from the independent variable. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what chance leaves unbalanced once there are enough people ::@:: Nothing systematic: every other influence comes out about the same on both sides. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## the two basketball teams
+## team-picking analogy
 
 A captain who picks first takes the tallest and the most athletic. His team beats the rest. The gap came from his choice, not from chance.
 
@@ -37,7 +37,7 @@ Flashcards for this section are as follows:
 - what drawing names does not improve ::@:: Neither team; it only makes the comparison fair. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what letting people choose their own condition costs ::@:: The even split between the conditions, before the study starts. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## when chance assignment is impossible
+## limits of random assignment
 
 Some conditions cannot be handed out. Nobody can be assigned to marry, become a professional musician, suffer a brain injury, or grow up in a war. A study that pretends otherwise is not an experiment. Researchers use the groups that already exist, treating their membership as the variable. A [quasi-experiment](quasi-experiment.md) supports a causal claim only as strong as its comparison allows.
 

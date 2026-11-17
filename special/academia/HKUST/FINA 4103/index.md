@@ -28,8 +28,13 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
 
 ## children
 
+- [assignments/](assignments/index.md)
 - [attachments/](attachments/)
+- [Bayes' theorem](Bayes%27%20theorem.md)
+- [Glosten–Milgrom model](Glosten–Milgrom%20model.md)
+- [Grossman–Stiglitz paradox](Grossman–Stiglitz%20paradox.md)
 - [Regulation NMS](Regulation%20NMS.md)
+- [Roll model](Roll%20model.md)
 - [Unlisted Trading Privileges](Unlisted%20Trading%20Privileges.md)
 - [all-or-nothing order](all-or-nothing%20order.md)
 - [auction](auction.md)
@@ -38,6 +43,7 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
 - [dark pool](dark%20pool.md)
 - [do-not-ship order](do-not-ship%20order.md)
 - [finance](finance.md)
+- [financial market participants](financial%20market%20participants.md)
 - [financial system](financial%20system.md)
 - [hidden order](hidden%20order.md)
 - [high-frequency trading](high-frequency%20trading.md)
@@ -49,14 +55,20 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
 - [market microstructure](market%20microstructure.md)
 - [market order](market%20order.md)
 - [market structure (finance)](market%20structure%20(finance).md)
+- [`midterm examination cheatsheet.pdf`](midterm%20examination%20cheatsheet.pdf)
+- [`midterm examination cheatsheet.typ`](midterm%20examination%20cheatsheet.typ)
 - [national market system](national%20market%20system.md)
+- [no-trade theorem](no-trade%20theorem.md)
 - [non-routable order](non-routable%20order.md)
 - [order (exchange)](order%20(exchange).md)
+- [order matching system](order%20matching%20system.md)
 - [over-the-counter (finance)](over-the-counter%20(finance).md)
 - [pegged order](pegged%20order.md)
 - [price discovery](price%20discovery.md)
 - [quote sniping](quote%20sniping.md)
 - [securities information processor](securities%20information%20processor.md)
+- [settlement (finance)](settlement%20(finance).md)
+- [signal informativeness](signal%20informativeness.md)
 - [smart order routing](smart%20order%20routing.md)
 - [stop order](stop%20order.md)
 - [tick size](tick%20size.md)
@@ -86,7 +98,7 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
 - note: both examinations are closed-book, with one A4 sheet of notes, both sides, allowed; copying class materials or another student's sheet is prohibited
 - note: class recordings are provided only during the add/drop period for schedule conflicts, after documented sick or school-related leave, and for the seven days before each examination
 - note: make-up examinations are offered only for conflicts with other examinations, which must be reported a month in advance
-- note: generative AI use is unrestricted except during the two examinations, and any use must be credited
+- note: generative artificial intelligence (AI) use is unrestricted except during the two examinations, and any use must be credited
 - note: AI is encouraged and may be used for homework, but students must be able to solve similar problems unaided in the examinations. Among 26,811 pupils aged 12–18 in China from January 2023 to June 2025, those using AI had higher average homework scores, while at examination time they scored below pupils who never used AI (D. Strömberg et al., _The generative AI learning penalty_, preprint June 2026)
 - note: questions involving mathematics and equations belong in office hours rather than email; questions about logistics, recordings, and examination arrangements go to the teaching assistants
 
@@ -162,7 +174,7 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
 - [market structure (finance)](market%20structure%20(finance).md)
     - [§ types of market](market%20structure%20(finance).md#types%20of%20market)
 - [over-the-counter (finance)](over-the-counter%20(finance).md)
-    - [§ what over-the-counter markets trade](over-the-counter%20(finance).md#what%20over-the-counter%20markets%20trade)
+    - [§ traded assets](over-the-counter%20(finance).md#traded%20assets)
     - [§ dealer-customer markets](over-the-counter%20(finance).md#dealer-customer%20markets)
     - [§ inter-dealer markets](over-the-counter%20(finance).md#inter-dealer%20markets)
     - [§ electronic communication networks](over-the-counter%20(finance).md#electronic%20communication%20networks)
@@ -196,7 +208,7 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
 - venue: Rm 2406, Lift 17-18
 - topic: orders and quotes; order instructions and venue differences; limit and market orders; bid-ask spread; stop orders; IOC and hidden orders; pegged orders; dark pools
 - [order (exchange)](order%20(exchange).md)
-    - [§ what an order specifies](order%20(exchange).md#what%20an%20order%20specifies)
+    - [§ order attributes](order%20(exchange).md#order%20attributes)
     - [§ classes of instructions](order%20(exchange).md#classes%20of%20instructions)
     - [§ time in force](order%20(exchange).md#time%20in%20force)
     - [§ order types across venues](order%20(exchange).md#order%20types%20across%20venues)
@@ -240,8 +252,8 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
 - topic: the Securities Exchange Act and unlisted trading privileges; the national market system and the securities information processor; Reg NMS Rules 610, 611, and 612; flickering quotes; intermarket sweep orders and do-not-ship orders
 - [Unlisted Trading Privileges](Unlisted%20Trading%20Privileges.md)
     - [§ listing exchange and trading exchanges](Unlisted%20Trading%20Privileges.md#listing%20exchange%20and%20trading%20exchanges)
-    - [§ what the privileges do to listing](Unlisted%20Trading%20Privileges.md#what%20the%20privileges%20do%20to%20listing)
-    - [§ where the trading happens](Unlisted%20Trading%20Privileges.md#where%20the%20trading%20happens)
+    - [§ effect on listing](Unlisted%20Trading%20Privileges.md#effect%20on%20listing)
+    - [§ venue volume breakdown](Unlisted%20Trading%20Privileges.md#venue%20volume%20breakdown)
 - [national market system](national%20market%20system.md)
     - [§ connecting the venues](national%20market%20system.md#connecting%20the%20venues)
     - [§ from a project to a rulebook](national%20market%20system.md#from%20a%20project%20to%20a%20rulebook)
@@ -251,20 +263,21 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
 - [Regulation NMS](Regulation%20NMS.md)
     - [§ flickering quotes](Regulation%20NMS.md#flickering%20quotes)
 - [trade through](trade%20through.md)
-    - [§ the routing obligation](trade%20through.md#the%20routing%20obligation)
+    - [§ routing obligation](trade%20through.md#routing%20obligation)
 - [tick size](tick%20size.md)
     - [§ minimum tick size](tick%20size.md#minimum%20tick%20size)
 - [smart order routing](smart%20order%20routing.md)
-    - [§ how a routed order is split](smart%20order%20routing.md#how%20a%20routed%20order%20is%20split)
+    - [§ order splitting](smart%20order%20routing.md#order%20splitting)
     - [§ routing latency](smart%20order%20routing.md#routing%20latency)
 - [intermarket sweep order](intermarket%20sweep%20order.md)
-    - [§ how a sweep is split](intermarket%20sweep%20order.md#how%20a%20sweep%20is%20split)
-    - [§ who carries the obligation](intermarket%20sweep%20order.md#who%20carries%20the%20obligation)
+    - [§ sweep construction](intermarket%20sweep%20order.md#sweep%20construction)
+    - [§ responsibility for best price](intermarket%20sweep%20order.md#responsibility%20for%20best%20price)
     - [§ information leakage](intermarket%20sweep%20order.md#information%20leakage)
+    - [§ price of the exemption](intermarket%20sweep%20order.md#price%20of%20the%20exemption)
     - [§ observed order sizes](intermarket%20sweep%20order.md#observed%20order%20sizes)
 - [do-not-ship order](do-not-ship%20order.md)
-    - [§ a do-not-ship limit order](do-not-ship%20order.md#a%20do-not-ship%20limit%20order)
-    - [§ a do-not-ship immediate-or-cancel order](do-not-ship%20order.md#a%20do-not-ship%20immediate-or-cancel%20order)
+    - [§ do-not-ship limit order](do-not-ship%20order.md#do-not-ship%20limit%20order)
+    - [§ do-not-ship immediate-or-cancel order](do-not-ship%20order.md#do-not-ship%20immediate-or-cancel%20order)
 - [bid-ask spread](bid-ask%20spread.md)
     - [§ locked and crossed markets](bid-ask%20spread.md#locked%20and%20crossed%20markets)
 - [market structure (finance)](market%20structure%20(finance).md)
@@ -276,15 +289,15 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
 - venue: Rm 2406, Lift 17-18
 - topic: which order types traders actually use and why; make and take fees and the price of routing; speed races to take or cancel a stale quote; price contribution by order type; exchange competition and where exchanges earn
 - [non-routable order](non-routable%20order.md)
-    - [§ how an order is classified](non-routable%20order.md#how%20an%20order%20is%20classified)
+    - [§ order classification](non-routable%20order.md#order%20classification)
     - [§ order size](non-routable%20order.md#order%20size)
-    - [§ who uses them](non-routable%20order.md#who%20uses%20them)
+    - [§ senders and requirements](non-routable%20order.md#senders%20and%20requirements)
 - [trading fee](trading%20fee.md)
     - [§ make and take fees](trading%20fee.md#make%20and%20take%20fees)
     - [§ order-routing fees](trading%20fee.md#order-routing%20fees)
     - [§ price improvement from routing](trading%20fee.md#price%20improvement%20from%20routing)
 - [quote sniping](quote%20sniping.md)
-    - [§ who wins the race](quote%20sniping.md#who%20wins%20the%20race)
+    - [§ race outcomes by order type](quote%20sniping.md#race%20outcomes%20by%20order%20type)
     - [§ escaping the race](quote%20sniping.md#escaping%20the%20race)
 - [price discovery](price%20discovery.md)
     - [§ weighted price contribution](price%20discovery.md#weighted%20price%20contribution)
@@ -299,25 +312,232 @@ FINA 4103 is an undergraduate course in financial markets trading and structure 
 
 - datetime: 2026-09-17T15:00:00+08:00/2026-09-17T16:20:00+08:00, PT1H20M
 - venue: Rm 2406, Lift 17-18
-- status: no class
-- note: a few slides from last year's second-half lectures were uploaded to Canvas
+- status: unscheduled; no class
+
+## week 4 lecture 1
+
+- datetime: 2026-09-22T15:00:00+08:00/2026-09-22T16:20:00+08:00, PT1H20M
+- venue: Rm 2406, Lift 17-18
+- topic: the exchange as a system: gateways and validation, arrival order and the sequencer, the matching engine, information dissemination; the life of an order from placement to settlement: the settlement cycle, causes of delay, storage costs, clearing and post-trade services
+- [order matching system](order%20matching%20system.md)
+    - [§ gateways and validation](order%20matching%20system.md#gateways%20and%20validation)
+    - [§ arrival order and the sequencer](order%20matching%20system.md#arrival%20order%20and%20the%20sequencer)
+    - [§ matching engine](order%20matching%20system.md#matching%20engine)
+    - [§ market data dissemination](order%20matching%20system.md#market%20data%20dissemination)
+    - [§ value of speed](order%20matching%20system.md#value%20of%20speed)
+- [settlement (finance)](settlement%20(finance).md)
+    - [§ settlement cycle](settlement%20(finance).md#settlement%20cycle)
+    - [§ causes of settlement delay](settlement%20(finance).md#causes%20of%20settlement%20delay)
+    - [§ storage costs](settlement%20(finance).md#storage%20costs)
+    - [§ clearing and post-trade services](settlement%20(finance).md#clearing%20and%20post-trade%20services)
+    - [§ consequences for the trader](settlement%20(finance).md#consequences%20for%20the%20trader)
+        - [§ speed of the fill](settlement%20(finance).md#speed%20of%20the%20fill)
+        - [§ ownership before settlement](settlement%20(finance).md#ownership%20before%20settlement)
+        - [§ obligations at settlement](settlement%20(finance).md#obligations%20at%20settlement)
+        - [§ counterparty to a cleared trade](settlement%20(finance).md#counterparty%20to%20a%20cleared%20trade)
+        - [§ limits of faster settlement](settlement%20(finance).md#limits%20of%20faster%20settlement)
+
+## week 4 lecture 2
+
+- datetime: 2026-09-24T15:00:00+08:00/2026-09-24T16:20:00+08:00, PT1H20M
+- venue: Rm 2406, Lift 17-18
+- topic: microstructure data issues: the bid-ask bounce, executions inside and outside the quotes, double counting, and what limit-order-book data misses; market participants: intermediaries, brokers, dealers, market making, investors, speculators and arbitrageurs, hedgers, producers, and government
+- [Roll model](Roll%20model.md)
+    - [§ bid-ask bounce](Roll%20model.md#bid-ask%20bounce)
+- [bid-ask spread](bid-ask%20spread.md)
+    - [§ executions inside and outside the quotes](bid-ask%20spread.md#executions%20inside%20and%20outside%20the%20quotes)
+- [high-frequency trading](high-frequency%20trading.md)
+    - [§ message data](high-frequency%20trading.md#message%20data)
+- [securities information processor](securities%20information%20processor.md)
+    - [§ consolidated quotation and consolidated tape](securities%20information%20processor.md#consolidated%20quotation%20and%20consolidated%20tape)
+- [financial market participants](financial%20market%20participants.md)
+    - [§ intermediaries](financial%20market%20participants.md#intermediaries)
+    - [§ brokers](financial%20market%20participants.md#brokers)
+    - [§ dealers](financial%20market%20participants.md#dealers)
+    - [§ market making](financial%20market%20participants.md#market%20making)
+    - [§ investors](financial%20market%20participants.md#investors)
+    - [§ retail investors](financial%20market%20participants.md#retail%20investors)
+    - [§ institutional investors](financial%20market%20participants.md#institutional%20investors)
+    - [§ speculators and arbitrageurs](financial%20market%20participants.md#speculators%20and%20arbitrageurs)
+    - [§ hedgers](financial%20market%20participants.md#hedgers)
+    - [§ producers](financial%20market%20participants.md#producers)
+    - [§ government](financial%20market%20participants.md#government)
+
+## week 5 lecture 1
+
+- datetime: 2026-09-29T15:00:00+08:00/2026-09-29T16:20:00+08:00, PT1H20M
+- venue: Rm 2406, Lift 17-18
+- topic: probability; conditional probability; the multiplicative rule and the law of total probability; Bayes updating for discrete and continuous distributions; conditional expectation and variance of normal variables; the posterior mean and the added precision
+- [Bayes' theorem](Bayes%27%20theorem.md)
+    - [§ conditional probability](Bayes%27%20theorem.md#conditional%20probability)
+    - [§ law of total probability](Bayes%27%20theorem.md#law%20of%20total%20probability)
+    - [§ Bayes' rule](Bayes%27%20theorem.md#Bayes'%20rule)
+    - [§ updating on a test result](Bayes%27%20theorem.md#updating%20on%20a%20test%20result)
+    - [§ updating on an asset value](Bayes%27%20theorem.md#updating%20on%20an%20asset%20value)
+    - [§ prior away from one half](Bayes%27%20theorem.md#prior%20away%20from%20one%20half)
+    - [§ conditional moments of normal variables](Bayes%27%20theorem.md#conditional%20moments%20of%20normal%20variables)
+    - [§ posterior mean as a precision-weighted average](Bayes%27%20theorem.md#posterior%20mean%20as%20a%20precision-weighted%20average)
+    - [§ posterior variance as added precision](Bayes%27%20theorem.md#posterior%20variance%20as%20added%20precision)
+
+## week 5 lecture 2
+
+- datetime: 2026-10-01T15:00:00+08:00/2026-10-01T16:20:00+08:00, PT1H20M
+- venue: Rm 2406, Lift 17-18
+- status: unscheduled; public holiday: National Day
+
+## week 6 lecture 1
+
+- datetime: 2026-10-06T15:00:00+08:00/2026-10-06T16:20:00+08:00, PT1H20M
+- venue: Rm 2406, Lift 17-18
+- topic: signal informativeness; biased signals and their standardized form; extracting material information from the order flow; updating as a linear regression; the derivation of the joint-normal update
+- [signal informativeness](signal%20informativeness.md)
+    - [§ measuring informativeness](signal%20informativeness.md#measuring%20informativeness)
+    - [§ price efficiency](signal%20informativeness.md#price%20efficiency)
+    - [§ standardized form of a signal](signal%20informativeness.md#standardized%20form%20of%20a%20signal)
+    - [§ weight as a regression coefficient](signal%20informativeness.md#weight%20as%20a%20regression%20coefficient)
+- [Bayes' theorem](Bayes%27%20theorem.md)
+    - [§ derivations for jointly normal variables](Bayes%27%20theorem.md#derivations%20for%20jointly%20normal%20variables)
+
+## week 6 lecture 2
+
+- datetime: 2026-10-08T15:00:00+08:00/2026-10-08T16:20:00+08:00, PT1H20M
+- venue: Rm 2406, Lift 17-18
+- topic: speculative trade and the no-trade theorem; higher-order beliefs; the Grossman-Stiglitz paradox; noisy equilibrium and the measurement of price efficiency; the impossibility of strong-form efficiency
+- [no-trade theorem](no-trade%20theorem.md)
+    - [§ speculative trade](no-trade%20theorem.md#speculative%20trade)
+    - [§ equilibrium price](no-trade%20theorem.md#equilibrium%20price)
+    - [§ higher-order beliefs](no-trade%20theorem.md#higher-order%20beliefs)
+    - [§ assumptions behind the result](no-trade%20theorem.md#assumptions%20behind%20the%20result)
+- [Grossman–Stiglitz paradox](Grossman–Stiglitz%20paradox.md)
+    - [§ trading model](Grossman–Stiglitz%20paradox.md#trading%20model)
+    - [§ uninformed demand](Grossman–Stiglitz%20paradox.md#uninformed%20demand)
+    - [§ informed demand](Grossman–Stiglitz%20paradox.md#informed%20demand)
+    - [§ equilibrium without noise](Grossman–Stiglitz%20paradox.md#equilibrium%20without%20noise)
+    - [§ noisy equilibrium](Grossman–Stiglitz%20paradox.md#noisy%20equilibrium)
+    - [§ measuring price efficiency](Grossman–Stiglitz%20paradox.md#measuring%20price%20efficiency)
+    - [§ weights on signal and noise](Grossman–Stiglitz%20paradox.md#weights%20on%20signal%20and%20noise)
+    - [§ precision of the price signal](Grossman–Stiglitz%20paradox.md#precision%20of%20the%20price%20signal)
+    - [§ efficiency relative to the signal](Grossman–Stiglitz%20paradox.md#efficiency%20relative%20to%20the%20signal)
+    - [§ comparative statics](Grossman–Stiglitz%20paradox.md#comparative%20statics)
+    - [§ number of informed traders](Grossman–Stiglitz%20paradox.md#number%20of%20informed%20traders)
+    - [§ variance of noise trading](Grossman–Stiglitz%20paradox.md#variance%20of%20noise%20trading)
+    - [§ precision of private signals](Grossman–Stiglitz%20paradox.md#precision%20of%20private%20signals)
+    - [§ impossibility of strong-form efficiency](Grossman–Stiglitz%20paradox.md#impossibility%20of%20strong-form%20efficiency)
+
+## week 7 lecture 1
+
+- datetime: 2026-10-13T15:00:00+08:00/2026-10-13T16:20:00+08:00, PT1H20M
+- venue: Rm 2406, Lift 17-18
+- topic: the bid-ask bounce; the one-share model of spread-contaminated prices; price dynamics and the moments of price changes; Roll's estimator and its comparison with quoted spreads; the model's shortcomings; extensions of the order flow; price changes and information
+- [Roll model](Roll%20model.md)
+    - [§ bid-ask bounce](Roll%20model.md#bid-ask%20bounce)
+    - [§ one-share model](Roll%20model.md#one-share%20model)
+    - [§ random fundamentals](Roll%20model.md#random%20fundamentals)
+    - [§ constant spread](Roll%20model.md#constant%20spread)
+    - [§ order flow and execution price](Roll%20model.md#order%20flow%20and%20execution%20price)
+    - [§ price dynamics](Roll%20model.md#price%20dynamics)
+    - [§ moments of price changes](Roll%20model.md#moments%20of%20price%20changes)
+    - [§ negative autocorrelation and Roll's estimator](Roll%20model.md#negative%20autocorrelation%20and%20Roll's%20estimator)
+    - [§ comparison with quoted spreads](Roll%20model.md#comparison%20with%20quoted%20spreads)
+    - [§ shortcomings](Roll%20model.md#shortcomings)
+    - [§ extensions of the order flow](Roll%20model.md#extensions%20of%20the%20order%20flow)
+    - [§ autocorrelated order flow](Roll%20model.md#autocorrelated%20order%20flow)
+    - [§ unbalanced order flow](Roll%20model.md#unbalanced%20order%20flow)
+    - [§ price changes and information](Roll%20model.md#price%20changes%20and%20information)
+
+## week 7 lecture 2
+
+- datetime: 2026-10-15T15:00:00+08:00/2026-10-15T16:20:00+08:00, PT1H20M
+- venue: Rm 2406, Lift 17-18
+- topic: why a spread exists at all: immediacy, inventory cost, and information; learning from order flow; the competitive quote and the spread; the adverse-selection decomposition
+- [Glosten–Milgrom model](Glosten–Milgrom%20model.md)
+    - [§ trading game](Glosten–Milgrom%20model.md#trading%20game)
+    - [§ players](Glosten–Milgrom%20model.md#players)
+    - [§ learning from order flow](Glosten–Milgrom%20model.md#learning%20from%20order%20flow)
+    - [§ precision of a buy order](Glosten–Milgrom%20model.md#precision%20of%20a%20buy%20order)
+    - [§ posterior after a buy](Glosten–Milgrom%20model.md#posterior%20after%20a%20buy)
+    - [§ competitive quote](Glosten–Milgrom%20model.md#competitive%20quote)
+    - [§ ask side](Glosten–Milgrom%20model.md#ask%20side)
+    - [§ bid side](Glosten–Milgrom%20model.md#bid%20side)
+    - [§ adverse selection](Glosten–Milgrom%20model.md#adverse%20selection)
+- [bid-ask spread](bid-ask%20spread.md)
+    - [§ sources of the spread](bid-ask%20spread.md#sources%20of%20the%20spread)
+    - [§ immediacy](bid-ask%20spread.md#immediacy)
+    - [§ inventory cost](bid-ask%20spread.md#inventory%20cost)
+    - [§ information](bid-ask%20spread.md#information)
+- FINA 4103 / [homework 1](assignments/homework%201/index.md)
+
+## week 8 lecture 1
+
+- datetime: 2026-10-20T15:00:00+08:00/2026-10-20T16:20:00+08:00, PT1H20M
+- venue: Rm 2406, Lift 17-18
+- topic: the equilibrium bid-ask spread; separating the degree of uncertainty into the value, the uncertainty, and the amount of the asset; the product form; the single-period model summarized
+- note: any time left over after the material is used for an in-class office hour, where questions about the midterm can be asked individually
+- [Glosten–Milgrom model](Glosten–Milgrom%20model.md)
+    - [§ spread](Glosten–Milgrom%20model.md#spread)
+    - [§ degree of uncertainty](Glosten–Milgrom%20model.md#degree%20of%20uncertainty)
+        - [§ value of the asset](Glosten–Milgrom%20model.md#value%20of%20the%20asset)
+        - [§ uncertainty of the asset](Glosten–Milgrom%20model.md#uncertainty%20of%20the%20asset)
+        - [§ amount of the asset](Glosten–Milgrom%20model.md#amount%20of%20the%20asset)
+        - [§ product of the readings](Glosten–Milgrom%20model.md#product%20of%20the%20readings)
+
+## week 8 lecture 2
+
+- datetime: 2026-10-22T15:00:00+08:00/2026-10-22T16:20:00+08:00, PT1H20M
+- venue: Rm 2406, Lift 17-18
+- status: unscheduled; midterm examination
+- [§ midterm examination](#midterm%20examination)
 
 ## midterm examination
 
-- datetime: 2026-10-22T19:00:00+08:00/2026-10-22T20:00:00+08:00
-- venue: \[missing\]
+- datetime: 2026-10-22T19:00:00+08:00/2026-10-22T21:00:00+08:00
+- venue: LSK 1007 and LSK 1009
 - scope: the first half of the course
 - format:
     - calculator: yes (smartphones and other devices are not allowed)
     - cheatsheet: yes (one A4 sheet, both sides)
+        - [`midterm examination cheatsheet.pdf`](midterm%20examination%20cheatsheet.pdf)
+        - [`midterm examination cheatsheet.typ`](midterm%20examination%20cheatsheet.typ)
     - open book: no
     - open notes: no
-    - questions: multiple choice and short-answer questions
+    - questions: multiple-choice questions ×17 to 20 and long questions ×2 (5 to 8 short-answer or calculation questions) in a typical year
 - grade: \[missing\]
 - statistics: \[missing\]
 - breakdown: \[missing\]
-- note: the date and time are subject to change; check the course announcements
+- note: the cheat sheet is collected after the examination; pencils and erasers are needed to fill the bubble sheets; a conflicting examination is accommodated by a make-up examination at a venue sent by email
 - report: \[missing\]
+
+---
+
+> __Midterm Exam Announcement__:
+>
+> - I have posted practice problems. The exam will cover similar material at a comparable difficulty level, but the format will be somewhat different, with more multiple-choice questions (MCQs) and fewer open-ended questions (in a typical year, about 17–20 MCQs and a couple of longer questions with 5–8 short-answer and/or calculation questions). Please allocate your time wisely.
+> - The exam covers material up to Note 5 ("Trade, Traders, and Data Issues").
+> - You may bring a calculator and a cheat sheet. Please refer to the syllabus for details. Also, note that your cheat sheet will be collected after the exam.
+> - Details on exam logistics will be announced separately by \[redacted\], so please stay tuned.
+>
+> Good luck!
+>
+> Best,
+>
+> \[redacted\]
+>
+> __Midterm Venue and Seat Plan__
+>
+> Hi Students,
+>
+> We will have our midterm exam on 22 Oct (Thu) 19:00-21:00. The venue will be at LSK 1007 and LSK 1009. Please find the seat plan and your seat number from the follwing two files:
+>
+> - Seat Plan LSK 1009.xlsx
+> - Seat Plan LSK 1007.xlsx
+>
+> For the several students who have conflicts with ISOM 3360, I have sent you the venue of make-up exam by email. Please contact me ASAP if you haven't received.
+>
+> Please be reminded to __<u>bring pencils and erasers</u>__ for filling up the bubble sheets.
+>
+> Good luck!
+>
+> \[redacted\]
 
 ## final examination
 

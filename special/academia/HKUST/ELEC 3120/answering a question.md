@@ -22,7 +22,7 @@ Flashcards for this section are as follows:
 
 - what makes an answer complete? ::@:: The answer, the evidence behind it, and the warrant connecting the two. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## the three parts
+## answer, evidence, and warrant
 
 The answer is the specific response to the question. The evidence supports the answer. The warrant connects that evidence to the answer. All three can be written as a paragraph or as bullet points.
 

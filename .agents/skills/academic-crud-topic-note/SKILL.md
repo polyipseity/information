@@ -31,7 +31,7 @@ __Why it needs its own step:__ the `header_style` lint rule starts at heading le
 - Hyphenation follows Wikipedia: `pulse-width modulation`.
 - When Wikipedia has no article for the concept, invent a sentence-case descriptive title and record it as an alias.
 - Aliases: the canonical title, synonyms, and abbreviations all belong in the list, and the whole list stays in plain sorted order. The `aliases_sorted` lint compares it against Python's `sorted()`, so the canonical title gets no special position.
-- The path-derived flashcard tag mirrors the filename: spaces and quote characters become `_`, and every other character stays literal, parentheses included. `cache (computing).md` in `COMP 3511` needs the tag `flashcard/active/special/academia/HKUST/COMP_3511/cache_(computing)`; never normalize or strip the parentheses.
+- The path-derived flashcard tag mirrors the filename: spaces, quote characters, and `#` become `_`, while every other character stays literal, parentheses included. `cache (computing).md` in `COMP 3511` needs the tag `flashcard/active/special/academia/HKUST/COMP_3511/cache_(computing)`; never normalize or strip the parentheses. A directory named `assignment #2` contributes `assignment_2`.
 
 | Correct | Wrong |
 | --- | --- |
@@ -86,11 +86,13 @@ File and section boundaries come from the concepts, never from the shape of the 
 
 - A `##` heading names a sub-concept of the note's own concept, in sentence case, never a source unit, slide title, page number, or source-structural label.
 - Rename every source heading to the sub-concept it carries: `Why Does Caching Work? - Locality` → `locality of reference`, `a bit history` → `history and adoption`.
-- A section must not restate the note's own concept: `## caching` inside `cache (computing)` or `## hierarchy of storage` inside `memory hierarchy` repeats the H1. Give the section a genuine sub-aspect the title does not already claim, or drop the heading and keep the material as the note's unheaded intro prose with its flashcard block.
+- A section must not restate the note's own concept: `## caching` inside `cache (computing)` or `## hierarchy of storage` inside `memory hierarchy` repeats the H1. Give the section a genuine sub-aspect the title does not already claim, or drop the heading and keep the material in the unheaded intro with its flashcard block.
 - Section boundaries may cross source boundaries in both directions: merge material that answers one question, split material that answers several.
 - Lecture apparatus is never a section: objectives, outline, recap or summary, announcements, references, and question lists belong to the course `index.md`.
-- The sections must partition the concept: each answers one question, along parallel axes, with no leftover other section.
+- The sections must partition the concept: each answers one question, along parallel axes, with no catch-all section left over.
 - Order sections by the concept's own logic (definition, then mechanism, then variants, limits, and examples). Coinciding with the source's order is fine; the source's order is never the justification.
+- A section name is a term, not a phrase that points at something the reader is assumed to hold: no leading `the`, `a`, `an`, or demonstrative, no question, no finite verb, and no terminal punctuation. `time constant`, not `the time constant`; `hysteresis`, not `the state it keeps`; `amplitude falloff`, not `why does the amplitude fall`. The linter holds all four as `header_generic_article` (error), `header_question_form`, and `header_sentence_like`.
+- A name is lower case except for a proper noun or an acronym, which takes a suppression rather than a lowercase (see "Style conventions" below).
 
 ### Prose and cards are organized by the note
 
@@ -105,26 +107,30 @@ A lecture that names a topic once, in a list of related methods, leaves that top
 
 ### Nesting is always decided
 
-Decide nesting explicitly while planning the note. Do not inherit the source's depth. A heading makes a sub-concept linkable and skippable, which is what nesting is for. It also costs a card block and the clozing that block implies, so the heading has to earn that.
+Decide nesting explicitly while planning the note, and do not inherit the source's depth. A heading makes a sub-concept linkable and skippable, which is what nesting is for, and it costs a card block with the clozing that block implies, so the heading has to earn that.
 
+- __Nesting is the default.__ Flat is the exception that has to be justified, not the starting point that nesting has to earn. A section carrying sub-concepts nests them, and only the tests below justify staying flat.
 - __Nest__ (`###`) when a section carries two or more sub-concepts the note's own concept raises: classification members, per-case breakdowns (modes, models, layers), separate derivations or worked examples, or sub-topics a reader would link to on their own. A short sub-concept still earns a heading. A member the source merely listed does not, however well it is explained, because nothing in the concept asks about it.
 - __Tiebreaker: count what the sub-concept owns, not how long it is.__ One card plus a sentence of its own prose earns a `###` when a reader would ask that question on their own, and so does a member of a classification the concept defines. Keep it inside the parent when it owns neither: a clause inside another sub-concept's sentence, an example told within it, or a card with no prose of its own to head. Three variants that each explain themselves and that the concept itself distinguishes are three headings; three that sit side by side in one table are a table.
-- __Stay flat__ when the section carries no sub-concepts at all, when nothing inside it earns a heading under the tiebreaker, or when everything that does is a parallel one-sentence row of a single mapping, enumeration, or table. Those rows are card slices, not headings. A lone `###` is fine while the parent keeps substance of its own beside it, and folds back when it is the parent's whole content. "The material presented them together" is never the reason.
+- __Stay flat__ only when none of these holds: the section carries no sub-concepts at all, nothing inside it earns a heading under the tiebreaker, or everything that does is a parallel one-sentence row of a single mapping, enumeration, or table. Those rows are card slices, not headings. A lone `###` is fine while the parent keeps substance of its own beside it, and folds back when it is the parent's whole content. "The material presented them together" is never the reason.
 - __Depth__: `###` freely. A `###` that carries its own two or more sub-concepts (the members of its classification, the cases of its rule, the steps of its derivation) nests to `####` rather than flattening or splitting, justified inline with `<!-- check: ignore-line[header_deep_nesting]: <reason> -->`. Splitting the note is for material that answers a different canonical-title question, not for material that is merely one level deeper.
 - `#####` and deeper are unsanctioned: they mean the file boundary is wrong, so split the note instead.
-- Every heading a non-index note carries gets its own `---` separator and its own `Flashcards for this section are as follows:` block, recursively. That block belongs to the text between the heading and the next one: cards under a child heading never answer for its parent. A heading with no text of its own is a grouping heading and asks for nothing. `cloze_insufficient_coverage` wants the block's paragraph at 80% or more. A heading is therefore a promise of content. A concept the parent's prose absorbs costs nothing; one that earns a heading costs a card block and the clozing it implies, so ask whether the concept asks the question before adding it.
+- Every heading a non-index note carries gets its own `---` separator and its own `Flashcards for this section are as follows:` block, recursively. That block belongs to the text between the heading and the next one: cards under a child heading never answer for its parent. A heading with no text of its own is a grouping heading and asks for nothing. `cloze_insufficient_coverage` wants the block's paragraph at 85% or more. A heading is therefore a promise of content. A concept the parent's prose absorbs costs nothing; one that earns a heading costs a card block and the clozing it implies, so ask whether the concept asks the question before adding it.
+
+The linter measures the widest run of sibling sections that open nothing of their own: above 9 is `header_hierarchy_flat` (error), 7 to 9 is `header_hierarchy_thin`. Ten flat sections have to be grouped even when every entry is a short one.
 
 ### Section levelling pass
 
-Nesting is planned before the note is written and reviewed after it. The pass runs over every section the ingestion created or touched, and it is the only place a heading may change: the humanizer pass treats heading text as frozen, because session entries link to its anchor.
+Nesting is planned before the note is written and reviewed after it. The pass runs over every section the ingestion created or touched, and it is the only place a heading may change: the humanizer pass treats heading text as frozen, because session entries link to its anchor. It clears the structure rules too: `header_hierarchy_flat`, `header_hierarchy_thin`, `header_hierarchy_shallow`, `header_generic_article`, `header_question_form`, `header_sentence_like`.
 
 - __Promote.__ Give a sub-concept its own `###` when it earned one under the tiebreaker, including a second nameable sub-concept sitting inside a section that also carries another.
 - __Fold.__ Drop a section that restates the note's own H1, a lone `###` that is its parent's whole content, and a section the note's concept does not contain. Material whose owning concept lives in another note is moved to that note.
 - __Re-level.__ Move a heading up or down rather than leaving it at the level the source showed; depth follows the concept's own structure, never the source's.
+- __Group.__ When the width is above 9, introduce two to four grouping sections that name real parts of the concept and demote their members to `###`. A grouping section carries no prose of its own and so no card block. Never invent a grouping the concept does not have.
 - __Re-home the prose with the heading.__ A heading that moves takes its prose and its card block; a heading that folds merges them into the parent's. The validator requires a card block under every heading, so no block is left without one or split across two.
 - __Refresh the links.__ Renaming, moving, or removing a heading invalidates every session-entry and appendix anchor that pointed at it. Fix them in the same task (see "Session outline content: sections, not files" in `academic-crud-course-index`).
 
-The pass moves boundaries and headings; it never drops a fact or a card. Report the card count before and after, because the count feeds the `Flashcards-now` commit trailer.
+The pass moves boundaries and headings; it never drops a fact or a card. Report the card count before and after.
 
 ## CRUD operations
 
@@ -192,6 +198,7 @@ The pass moves boundaries and headings; it never drops a fact or a card. Report 
    - Every `##`, `###`, and deeper heading gets its own `---` separator and its own flashcard block, never one block shared by a parent and its sub-sections.
    - Group related cards with inline bold labels (e.g., `**superposition.**`).
    - A card is shown alone, with no note, no prose and no sibling card, so it names its setting, every symbol it uses, and the object it asks about, and it never points into the prose with `here`, `the two forms` or `by substitution`. Restate givens, hypotheses and notation, and never name their source; write the example, not `the lecture's example`.
+   - Every card line that carries an acronym, an abbreviation, or a person's name also carries its full form on that same line, since the viewer shows each line independently; a card naming a person directly writes their full name, while an eponym term ("Ohm's law") stands alone (see "Full forms on every card" in `create-flashcards`).
    - The overview card comes first in each section.
    - Preserve the derivation or proof spine in cards.
    - Split packed cards into focused units, and split an enumeration of six or more items into sibling cards sliced at a boundary the items show (era, date range, divergence versus curl), each naming its slice on the prompt side (see "Enumeration cards" in `create-flashcards`).
@@ -200,11 +207,11 @@ The pass moves boundaries and headings; it never drops a fact or a card. Report 
    - Use `<p>` for paragraph breaks in single-line source, and `__` for bold, never `<b>`/`</b>`.
 6. __Figures and diagrams:__
    - When the source carries figures the prose depends on (slide diagrams, schematics, plots), extract the document per "Document extraction (mandatory)" in `academic-ingest`.
-   - Read a figure from `.extracted/images/`, not the 150 DPI page render in `.extracted/pages/`; the render is downscaled and hides the labels. Crop and upscale when the figure is still unclear.
+   - Read a figure from the extraction's `images/` under `.pi/ingest/`, not the 150 DPI page render in `pages/`; the render is downscaled and hides the labels. Crop and upscale when the figure is still unclear.
    - Default to text: transcribe a figure's labels, values, and steps into the prose, or into a Markdown table when the figure is tabular. Describe it for the point it makes in the section rather than listing what the picture contains.
    - Attach a graphic only when the picture itself is the material, and never attach a page render. Copy the embedded image into `attachments/` under a descriptive name (`attachments/lob_depth_diagram.png`, not `attachments/pages/.../page_007.png`).
    - Reference each attached graphic from the section that uses it: `![<alt text>](attachments/zener_circuit_q1.jpg)`. Alt text is plain language describing what the figure shows, never LaTeX.
-   - Follow "Page image handling" in `academic-ingest` for what may and may not be asserted about an image. Leave `.extracted/` alone; it is a cache, not an attachment source.
+   - Follow "Page image handling" in `academic-ingest` for what may and may not be asserted about an image. Leave the extraction under `.pi/ingest/` alone; it is a cache, not an attachment source.
 7. __Section levelling pass:__ re-review the written sections against "Nesting is always decided" and re-level them, then fix the anchors the review invalidated (see "Section levelling pass" above).
 8. __Update the course index:__
    - Read `special/academia/<INSTITUTION>/<COURSE>/index.md`.
@@ -218,7 +225,7 @@ The pass moves boundaries and headings; it never drops a fact or a card. Report 
      ```
 
    - If the topic spans several sessions, add links under each, listing only the sections that session's material covered.
-9. __Humanizer pass:__ sweep the prose and flashcards separately before validating: H1 intro and section prose first, then card prompts and answers (see "Humanizer pass" in `academic-ingest`).
+9. __Writing pass:__ sweep the prose and flashcards separately before validating: H1 intro and section prose first, then card prompts and answers, in a fresh-context child under `.agents/prompts/academic-writing-pass.prompt.md` (see "Humanizer pass" in `academic-ingest`).
 10. __Validate:__ run `academic-lint` on the created file.
 
 ### Read
@@ -226,6 +233,8 @@ The pass moves boundaries and headings; it never drops a fact or a card. Report 
 List topic notes for a course; search by keyword; show structure and flashcard count.
 
 ### Update
+
+Map the note before changing it: list its headings in order and count the card block under each with `grep -n '^#\{1,3\} ' "<note>.md"`, then name the section that owns each new fact, opening a section only when nothing owns it. The prose and card pass that follows runs in a fresh-context child under `.agents/prompts/academic-writing-pass.prompt.md`, because the author of a sentence cannot certify it (see the writing contract in `.agents/instructions/academic-notes.instructions.md`).
 
 1. __Reconcile the material against the note.__ Compare what the session carried (a lecture deck, a lab manual, a tutorial handout, a problem set) against the concepts the note already owns, then extend it, prune what the material supersedes, or record the concept as already covered (see "Topic-note reconciliation (mandatory)" in `academic-ingest`). Watch for overlap as you go: a new distinction, example, or counterexample belongs inside the section that owns the idea, and a new card beats an overstuffed old one.
 2. Level the sections this update touched (see "Section levelling pass").
@@ -242,6 +251,8 @@ Remove the note file, drop it from the course `index.md` `## children`, strip it
 Use `\[missing\]` for absent values, such as a topic with no cross-references or a section with no formula (see [special.instructions.md](../../instructions/special.instructions.md#missing-data)).
 
 ## Style conventions
+
+Register, heading grammar, and section order come from Wikipedia's Manual of Style (`../academic-writing/SKILL.md`); this section holds only the repository's additions.
 
 - Lowercase headings except proper nouns (use `<!-- check: ignore-next-line[header_style]: proper noun -->`).
 - A `##` heading must not repeat the note's own H1 title (MD024). Merge that section's prose and flashcards into the unheaded intro under the H1 instead of renaming the heading.
@@ -285,7 +296,7 @@ Use `\[missing\]` for absent values, such as a topic with no cross-references or
 ### Machine-learning notes
 
 - Derive formulas; separate estimation from decision.
-- Make assumptions explicit (IID, priors, thresholds, intercept conventions).
+- Make assumptions explicit: independent and identically distributed (IID) samples, priors, thresholds, intercept conventions.
 - Distinguish the true distribution $P$ from the model distribution $Q$.
 - Distinguish L2 regularization from weight decay.
 - Explain why the empirical loss carries the $1/N$ factor.

@@ -41,12 +41,12 @@ Flashcards for this section are as follows:
 
 ## from a project to a rulebook
 
-The national market system was not itself a rulebook. In June 2005 the SEC adopted [Regulation NMS](Regulation%20NMS.md). It carries the same aim of consolidated execution services and states that aim as four numbered rules. The privilege that lets any venue trade any listed stock, and so keeps the venues comparable in what they can trade, is recorded in [Unlisted Trading Privileges](Unlisted%20Trading%20Privileges.md).
+The national market system was not itself a rulebook. In June 2005 the Securities and Exchange Commission (SEC) adopted [Regulation NMS](Regulation%20NMS.md). It carries the same aim of consolidated execution services and states that aim as four numbered rules. The privilege that lets any venue trade any listed stock, and so keeps the venues comparable in what they can trade, is recorded in [Unlisted Trading Privileges](Unlisted%20Trading%20Privileges.md).
 
 ---
 
 Flashcards for this section are as follows:
 
 - what the national market system was, as an instrument ::@:: A project rather than a rulebook. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2026-12-27T00:00:00.000Z,39,38.90515015,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- what replaced it in June 2005 ::@:: Regulation NMS, which states the same aim as four numbered rules. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- what replaced it in June 2005 ::@:: Regulation National Market System (NMS), which states the same aim as four numbered rules. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - privilege that keeps venues comparable in what they can trade ::@:: Unlisted trading privileges. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->

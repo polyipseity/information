@@ -10,7 +10,9 @@ tags:
 
 # auction
 
-An _auction_ is a mechanism that collects bids and has a market institution set the price, usually to allocate an asset. Auctions are rarely the only way an asset trades: they run alongside continuous markets in primary markets such as newly issued United States government bonds, and outside finance for art, commodities, and airport slots, because they handle high volume and volatility efficiently. In financial markets the two forms that matter are the single-sided auction, in which one side of the market is fixed, and the double auction, in which buyers and sellers both propose prices and quantities. Auction theory makes the structure of each form precise.
+An _auction_ is a mechanism that collects bids and has a market institution set the price, usually to allocate an asset. Auctions are rarely the only way an asset trades. They run alongside continuous markets where an asset is newly issued, as with United States government bonds. Outside finance they handle art, commodities, and airport slots. In both settings they suit high volume and volatility.
+
+In financial markets two forms matter. In the single-sided auction one side of the market is fixed. In the double auction buyers and sellers both propose prices and quantities. Auction theory makes the structure of each form precise.
 
 ---
 
@@ -23,7 +25,9 @@ Flashcards for this section are as follows:
 
 ## single-sided auctions
 
-In a single-sided auction, demand or supply is solicited at each price while the other side of the market is fixed. The standard variants are the first-price auction, which in its Dutch form runs as a descending clock, the second-price auction, which in its English form runs as an ascending outcry, and the all-pay auction. A Dutch auction is strategically equivalent to the sealed-bid first-price auction and an English auction to the sealed-bid second-price auction, under independent private values. The revenue equivalence theorem links what these variants raise. The leading example is the primary market for United States Treasury securities, which runs as a first-price one-sided auction and turns over trillions of dollars a quarter.
+In a single-sided auction, demand or supply is solicited at each price while the other side of the market is fixed. Three variants are standard: the first-price auction, the second-price auction, and the all-pay auction. A first-price auction run as a descending clock is a Dutch auction. A second-price auction run as an ascending outcry is an English auction.
+
+Under independent private values, a Dutch auction is strategically equivalent to the sealed-bid first-price auction. An English auction is equivalent to the sealed-bid second-price auction in the same way. The revenue equivalence theorem links what these variants raise. The leading example is the primary market for United States Treasury securities, which runs as a first-price one-sided auction and turns over trillions of dollars a quarter.
 
 ---
 
@@ -38,7 +42,7 @@ Flashcards for this section are as follows:
 
 ## double auctions
 
-In a double auction many traders on both sides propose prices and quantities, and the market institution chooses one price that clears the market: sellers who asked below that price sell, buyers who bid above it buy, and anyone who bid or asked exactly that price takes part. The single-sided and double auctions are drawn on the same axes. With one side fixed, a vertical demand line meets the rising stepped supply curve, and the crossing sets the price. With both sides active, the falling stepped bid curve meets the rising stepped offer curve, and the crossing sets both the price and the quantity that trades.
+In a double auction many traders on both sides propose prices and quantities. The market institution then chooses one price that clears the market. Sellers who asked below it sell, and buyers who bid above it buy. Anyone who bid or asked exactly that price takes part. The single-sided and double auctions are drawn on the same axes. With one side fixed, a vertical demand line meets the rising stepped supply curve, and the crossing sets the price. With both sides active, the falling stepped bid curve meets the rising stepped offer curve, and the crossing sets both the price and the quantity that trades.
 
 ---
 
@@ -51,7 +55,7 @@ Flashcards for this section are as follows:
 <!-- check: ignore-next-line[header_style]: Walras is a proper noun -->
 ### Walrasian clearing mechanism
 
-Walras proposed the mechanism by which a double auction clears. An auctioneer announces a tentative price, bidders and sellers state how much they are willing to trade at it, and the auctioneer raises the price while demand exceeds supply and lowers it while supply exceeds demand until the two are equal, at which point the market clears.
+Walras proposed the mechanism by which a double auction clears. An auctioneer announces a tentative price, and bidders and sellers state how much they are willing to trade at it. The auctioneer raises the price while demand exceeds supply, and lowers it while supply exceeds demand. When the two are equal the market clears.
 
 ---
 
@@ -61,19 +65,19 @@ Flashcards for this section are as follows:
 
 ### limits of the clearing mechanism
 
-The algorithm is not what a real market does. With friction, such as non-linear preferences or trading costs, the clearing problem is NP-hard, and several prices may clear the same market at once. Traders can also deviate by waiting, sealed bids and offers are available, and auctions can be run one at a time, so mispricing may persist. How to design a mechanism that does not is a mechanism-design question.
+The algorithm is not what a real market does. With friction, such as non-linear preferences or trading costs, the clearing problem is NP-hard (nondeterministic polynomial time-hard), and several prices may clear the same market at once. Traders can also deviate by waiting, sealed bids and offers are available, and auctions can be run one at a time, so mispricing may persist. How to design a mechanism that does not is a mechanism-design question.
 
 ---
 
 Flashcards for this section are as follows:
 
-- why the clearing algorithm breaks down with friction ::@:: The problem becomes NP-hard, because of non-linear preferences and trading costs, and several prices may clear the same market. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- why the clearing algorithm breaks down with friction ::@:: The problem becomes NP-hard (nondeterministic polynomial time-hard), because of non-linear preferences and trading costs, and several prices may clear the same market. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - how real traders deviate from the clearing algorithm ::@:: They wait, they use sealed bids and offers, and auctions are run one at a time. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - what can persist because of that deviation ::@:: Mispricing, which is a mechanism-design question. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ## fixing
 
-A _fixing_ is an auction-like mechanism that sets a single reference price rather than allocating an asset, and only a limited number of participants take part. The London fixing members solicit buy and sell orders from clients and set a price that clears demand and supply; for gold the price is set and announced twice a day, at 10:30 and 15:00, and it is the reference price for gold trading. Because a small group sets a price that everyone else relies on, a fixing can be collusive, which is illegal.
+A _fixing_ is an auction-like mechanism that sets a single reference price rather than allocating an asset, and only a limited number of participants take part. The London fixing members solicit buy and sell orders from clients and set a price that clears demand and supply. For gold the price is set and announced twice a day, at 10:30 and 15:00, and it is the reference price for gold trading. Because a small group sets a price that everyone else relies on, a fixing can be collusive, which is illegal.
 
 ---
 
@@ -88,9 +92,9 @@ Flashcards for this section are as follows:
 
 ## opening and closing auctions
 
-Stock exchanges hold auctions to start and close a trading day, and the same machinery reopens trading after an interruption. The call auction phase collects quotes and quantities, essentially limit and market orders, and displays only limited information, such as an indicative execution price and quantity rather than the full book, depending on the exchange; it ends at a random time. The price determination phase then determines the price that maximizes the volume traded, and the market balancing phase lets market makers absorb the excess demand or supply at the clearing price.
+Stock exchanges hold auctions to start and close a trading day, and the same machinery reopens trading after an interruption. The call auction phase collects quotes and quantities, essentially limit and market orders. It displays only limited information, such as an indicative execution price and quantity rather than the full book, depending on the exchange. It ends at a random time. The price determination phase then sets the price that maximizes the volume traded. The market balancing phase lets market makers absorb the excess demand or supply at the clearing price.
 
-The opening price is the reference point that starts a trading session, and the closing price is used to compute the net asset values of mutual funds, margin requirements, and mark-to-market flows, to set prices for index inclusion and exclusion, and to execute derivative contracts.
+The opening price is the reference point that starts a trading session. The closing price has more uses: it computes the net asset values of mutual funds, margin requirements, and mark-to-market flows. It also sets prices for index inclusion and exclusion, and executes derivative contracts.
 
 ---
 
@@ -105,7 +109,7 @@ Flashcards for this section are as follows:
 
 ## gaming an auction
 
-Publishing real-time indicative information lets traders game a close auction. The London Stock Exchange publishes that information during its closing auctions, and for less liquid securities the end time is known, so a trader can post and cancel orders to flush out other traders before the end time at no penalty. The result was volatile closings and price inefficiency, and in 2003 a random end time was introduced in response.
+Publishing real-time indicative information lets traders game a close auction. The London Stock Exchange publishes that information during its closing auctions, and for less liquid securities the end time is known. A trader can therefore post and cancel orders to flush out other traders before the end time, at no penalty. The result was volatile closings and price inefficiency, and in 2003 the exchange introduced a random end time in response.
 
 Sniping at the close shows up in the data. On the Hong Kong Stock Exchange, huge sell orders arrived at 4:09:57 in the afternoon, in the closing auction's final seconds, and the indicative closing price plunged from 37 dollars to 33 dollars (Park, Suen, and Wan, 2022, Journal of Financial Markets). The exchange's standard closing call auction ran from 2008 until it was suspended ten months later over suspected manipulation. The attacks clustered around derivative expirations, which supplied the incentive, and prices tended to revert the following day.
 

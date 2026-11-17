@@ -20,7 +20,7 @@ Flashcards for this section are as follows:
 - what each design buys ::@:: A different claim, at a different price. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what settles the choice of design ::@:: The question and the resources, not a ranking of the designs. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2026-12-27T00:00:00.000Z,39,38.90515015,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## what each design can establish
+## designs and their evidence
 
 | Design | Assignment | What it can support |
 | --- | --- | --- |
@@ -49,7 +49,7 @@ Flashcards for this section are as follows:
 - what a longitudinal study buys and what it costs ::@:: Change in the same people and the order in which cause and effect occurred, paid for in years. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what a longitudinal design supports that a cross-sectional one does not ::@:: Change in the same people, and the order in which cause and effect occurred. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## the constraints that choose a design
+## constraints
 
 Resources come first: the time and money a study can commit. A senior project cannot start a twenty-year study. Exploratory work runs the cheap design.
 

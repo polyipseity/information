@@ -23,9 +23,9 @@ Flashcards for this section are as follows:
 - what decides a sniping race ::@:: Latency rather than price. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - how a buyer and a seller each avoid losing the race ::@:: Both send a non-routable order, which does not announce its arrival. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## who wins the race
+## race outcomes by order type
 
-Li, Ye, and Zheng (2022, _Journal of Financial Economics_) count the races between the three immediate-or-cancel types on the New York Stock Exchange. Rows are the winners and columns the losers. Where $q > 1$ orders win or lose the same race, each is counted as $1/q$ of it. Every number is averaged at the stock-day level.
+Li, Ye, and Zheng (2022, _Journal of Financial Economics_ (JFE)) count the races between the three immediate-or-cancel types on the New York Stock Exchange. Rows are the winners and columns the losers. Where $q > 1$ orders win or lose the same race, each is counted as $1/q$ of it. Every number is averaged at the stock-day level.
 
 | Winner | Loses to plain IOC | Loses to ISO | Loses to DNS IOC | Total wins | Winning rate |
 | --- | --- | --- | --- | --- | --- |
@@ -34,27 +34,28 @@ Li, Ye, and Zheng (2022, _Journal of Financial Economics_) count the races betwe
 | DNS IOC | 4.38 | 43.69 | 43.56 | 91.63 | 37.28% |
 | Total losses | 17.37 | 134.51 | 93.88 | 244.76 | |
 
-A routed order announces its arrival, and the other side races against that announcement.
+A routed order announces its arrival, and the other side races against that announcement. The plain immediate-or-cancel order is the only one of the three types that announces, and the only one that loses more races than it wins: 13.42 wins against 17.37. The intermarket sweep order (ISO) and the do-not-ship (DNS) immediate-or-cancel order each win about half the races they enter, and the ISO enters the most. That makes the winning-rate column reflect the number of races a type enters as much as its success in them.
 
 ---
 
 Flashcards for this section are as follows:
 
-- winning rates of the three immediate-or-cancel types, plain, intermarket sweep, and do-not-ship ::@:: 5.46%, 57.26%, and 37.28% respectively. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- winning rates of the three immediate-or-cancel types, plain, intermarket sweep, and do-not-ship ::@:: 5.46%, 57.26%, and 37.28% of all wins respectively; only the plain immediate-or-cancel type loses more races than it wins. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - when $q > 1$ orders win or lose the same race, what is each order counted as ::@:: $1/q$ of the race, with the numbers averaged at the stock-day level. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - why a routed order is exposed in the race ::@:: Its arrival is announced, and the other side races against that announcement. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- which study counts the races between the three immediate-or-cancel order types by winner and loser, dividing a race that $q > 1$ orders tie into $1/q$ for each? ::@:: Sida Li, Mao Ye and Miles Zheng, 2022, Journal of Financial Economics (JFE), "Refusing the best price?".
 
 ## escaping the race
 
 A seller whose quotes rest on the book faces two races. One is how quickly a stale quote can be cancelled. The other is who can reach the front of the queue at that price first. The non-routable limit order wins both, against the routable one.
 
-The cancellation race decides whether a stale quote survives. A DNS limit order manages to cancel 42% of the time in sniping events, while a routable limit order rarely escapes at all. The queue race is described in [limit order](limit%20order.md). The speed that gives these races their edge is described in [high-frequency trading](high-frequency%20trading.md).
+The cancellation race decides whether a stale quote survives. A do-not-ship (DNS) limit order manages to cancel 42% of the time in sniping events, while a routable limit order rarely escapes at all. The queue race is described in [limit order](limit%20order.md). The speed that gives these races their edge is described in [high-frequency trading](high-frequency%20trading.md).
 
 ---
 
 Flashcards for this section are as follows:
 
 - two races a seller with resting quotes faces ::@:: Cancelling a stale quote quickly, and reaching the front of the queue at that price first. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- how often a DNS limit order cancels in time in a sniping event ::@:: 42% of the time. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- how often a do-not-ship (DNS) limit order cancels in time in a sniping event ::@:: 42% of the time. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - how often a routable limit order escapes a sniping event ::@:: Rarely. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - which order type wins the two maker-side races ::@:: The non-routable limit order, against the routable one. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->

@@ -43,7 +43,7 @@ Flashcards for this section are as follows:
 - what highlighting does to retention in undergraduate students ::@:: Nothing. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what highlighting does to retention in graduate students ::@:: It improves retention. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## what an experiment has to rule out
+## rival explanations
 
 A difference between two groups tells you about the independent variable only when nothing else differs.
 

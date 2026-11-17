@@ -10,7 +10,7 @@ tags:
 
 # Regulation NMS
 
-_Regulation NMS_, usually written Reg NMS, is the SEC rule adopted in June 2005 that turns the aim of the [national market system](national%20market%20system.md) into an enforceable rulebook. It is mostly about trade execution: at which price a trade may execute, and how fast it may happen.
+_Regulation National Market System (NMS)_, usually written Reg NMS, is the Securities and Exchange Commission (SEC) rule adopted in June 2005 that turns the aim of the [national market system](national%20market%20system.md) into an enforceable rulebook. It is mostly about trade execution: at which price a trade may execute, and how fast it may happen.
 
 | Rule | Number | Contents |
 | --- | --- | --- |
@@ -25,9 +25,9 @@ The first two protect the price, the third fixes the grid the price sits on, and
 
 Flashcards for this section are as follows:
 
-- what Regulation NMS made enforceable ::@:: The SEC rule of June 2005 that turns the aim of the national market system into an enforceable rulebook. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- when Regulation NMS was adopted ::@:: June 2005. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- what Regulation NMS is mostly about ::@:: Trade execution: at which price a trade may execute, and how fast. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- what Regulation National Market System (NMS) made enforceable ::@:: The Securities and Exchange Commission (SEC) rule of June 2005 that turns the aim of the national market system into an enforceable rulebook. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- when Regulation National Market System (NMS) was adopted ::@:: June 2005. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- what Regulation National Market System (NMS) is mostly about ::@:: Trade execution: at which price a trade may execute, and how fast. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - order protection rule, its number, and what it forbids ::@:: Rule 611, which forbids a trade-through. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - access rule, its number, and what it forbids ::@:: Rule 610, which forbids a locked or crossed market. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - sub-penny rule, its number, and what it fixes ::@:: Rule 612, which fixes the minimum tick size. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->

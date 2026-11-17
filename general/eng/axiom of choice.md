@@ -258,7 +258,7 @@ Given {@{an ordinal parameter α ≥ ω+2}@} — for {@{every set _S_ with rank 
 
     - \(annotation: {@{weaker than}@} AC\) {@{Every [field](field%20(mathematics).md)}@} has {@{an [algebraic closure](algebraic%20closure.md)}@}. <!--SR:!fsrs,2029-01-22T00:00:00.000Z,859,859.45045949,1.85586587,2,9,0,0,2026-09-16T00:00:00.000Z!fsrs,2031-08-18T00:00:00.000Z,1715,1714.87635988,1,2,10,0,0,2026-12-07T00:00:00.000Z!fsrs,2028-09-12T00:00:00.000Z,805,805.32875921,1,2,8,0,0,2026-06-30T00:00:00.000Z-->
 
-    - {\(annotation: {@{weaker than}@} AC\) @{Every [field extension](field%20extension.md)}@} has {@{a [transcendence basis](transcendence%20basis.md)}@}. <!--SR:!fsrs,2030-02-20T00:00:00.000Z,1276,1276.26829657,1,2,9,0,0,2026-08-24T00:00:00.000Z!fsrs,2031-09-13T00:00:00.000Z,1735,1735.2336367,1,2,10,0,0,2026-12-13T00:00:00.000Z-->
+    - \(annotation: {@{weaker than}@} AC\) {@{Every [field extension](field%20extension.md)}@} has {@{a [transcendence basis](transcendence%20basis.md)}@}. <!--SR:!fsrs,2030-02-20T00:00:00.000Z,1276,1276.26829657,1,2,9,0,0,2026-08-24T00:00:00.000Z!fsrs,2031-09-13T00:00:00.000Z,1735,1735.2336367,1,2,10,0,0,2026-12-13T00:00:00.000Z-->
 
     - \(annotation: {@{weaker than}@} AC\) {@{Every infinite-dimensional [vector space](vector%20space.md)}@} contains {@{an infinite linearly independent subset \(annotation: not _basis_\)}@} \(this requires {@{[dependent choice](axiom%20of%20dependent%20choice.md), but not the full axiom of choice}@}\). <!--SR:!fsrs,2031-07-11T00:00:00.000Z,1686,1686.31716271,1,2,9,0,0,2026-11-28T00:00:00.000Z!fsrs,2031-08-08T00:00:00.000Z,1707,1706.72360053,1,2,10,0,0,2026-12-05T00:00:00.000Z!2027-01-14,395,364!fsrs,2028-06-18T02:14:02.692Z,735,735.10222202,1,2,8,0,0,2026-06-14T02:14:02.692Z-->
 

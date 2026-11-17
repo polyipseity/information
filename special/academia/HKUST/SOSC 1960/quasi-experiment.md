@@ -27,7 +27,7 @@ Nobody can be assigned to marry, to become a professional musician, to suffer a 
 
 Such a variable is a fixed variable: an independent variable the researcher can observe but never change. The study treats it like a manipulated variable.
 
-A researcher settles for a quasi-experiment when the alternative is not asking the question. [The constraints that choose a design](research%20design.md#the%20constraints%20that%20choose%20a%20design) sets out the choice.
+A researcher settles for a quasi-experiment when the alternative is not asking the question. [The constraints that choose a design](research%20design.md#constraints) sets out the choice.
 
 ---
 
@@ -40,7 +40,7 @@ Flashcards for this section are as follows:
 - what a fixed variable does in a quasi-experiment ::@:: A fixed variable names the two conditions compared, like a manipulated variable would. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - why a researcher settles for a quasi-experiment ::@:: Because the alternative is not asking the question. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## when the groups differ on more than the variable
+## confounding in quasi-experiments
 
 A quasi-experiment can show that two groups differ, not that one group produced the difference. Nothing balanced the groups, so they differ on more than the variable under study.
 

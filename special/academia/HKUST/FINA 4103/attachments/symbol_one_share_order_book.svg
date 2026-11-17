@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-label="A one-share order book: one share offered at the ask a, one share wanted at the bid b, the spread S between the two prices, and the midpoint m halfway between them">
+  <defs>
+    <marker id="head" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#555555"/>
+    </marker>
+    <marker id="head-back" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto-start-reverse">
+      <path d="M0,0 L10,4 L0,8 z" fill="#555555"/>
+    </marker>
+  </defs>
+  <text x="170" y="50" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Sell</text>
+  <text x="450" y="50" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a" text-anchor="middle">price</text>
+  <text x="730" y="50" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Buy</text>
+  <line x1="60" y1="64" x2="840" y2="64" stroke="#555555" stroke-width="3"/>
+  <rect x="60" y="80" width="220" height="80" fill="#f6d6d6" stroke="#a11f1f" stroke-width="3"/>
+  <text x="170" y="132" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="26" font-weight="normal" fill="#1a1a1a" text-anchor="middle">1</text>
+  <rect x="340" y="80" width="220" height="80" fill="#d6e4f7" stroke="#1f4e9c" stroke-width="3"/>
+  <text x="450" y="132" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="26" fill="#1a1a1a" text-anchor="middle">a<tspan dy="4" font-size="19">t</tspan></text>
+  <rect x="620" y="80" width="220" height="80" fill="#f2f2f2" stroke="#999999" stroke-width="3"/>
+  <rect x="60" y="265" width="220" height="80" fill="#f2f2f2" stroke="#999999" stroke-width="3"/>
+  <rect x="340" y="265" width="220" height="80" fill="#d6e4f7" stroke="#1f4e9c" stroke-width="3"/>
+  <text x="450" y="317" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="26" fill="#1a1a1a" text-anchor="middle">b<tspan dy="4" font-size="19">t</tspan></text>
+  <rect x="620" y="265" width="220" height="80" fill="#f6d6d6" stroke="#a11f1f" stroke-width="3"/>
+  <text x="730" y="317" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="26" font-weight="normal" fill="#1a1a1a" text-anchor="middle">1</text>
+  <line x1="100" y1="212" x2="332" y2="212" stroke="#555555" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="82" y="219" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="22" fill="#1a1a1a" text-anchor="middle">m<tspan dy="4" font-size="15">t</tspan></text>
+  <line x1="450" y1="170" x2="450" y2="255" stroke="#555555" stroke-width="3" marker-start="url(#head-back)" marker-end="url(#head)"/>
+  <text x="486" y="219" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="22" font-weight="normal" fill="#1a1a1a" text-anchor="middle">S</text>
+  <text x="300" y="400" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="24" fill="#1a1a1a" text-anchor="middle">S = a<tspan dy="5" font-size="17">t</tspan><tspan dy="-5"> − b</tspan><tspan dy="5" font-size="17">t</tspan></text>
+  <text x="620" y="385" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="24" fill="#1a1a1a" text-anchor="middle">m<tspan dy="5" font-size="17">t</tspan><tspan dy="-5"> = (a</tspan><tspan dy="5" font-size="17">t</tspan><tspan dy="-5"> + b</tspan><tspan dy="5" font-size="17">t</tspan><tspan dy="-5">) / 2</tspan></text>
+</svg>

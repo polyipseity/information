@@ -99,7 +99,7 @@ Voltage (electric potential difference) is the energy per unit charge that drive
 
 Flashcards for this section are as follows:
 
-- voltage definition ::@:: Energy per unit charge that drives current; symbol V, unit volt. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!2027-01-17,247,330!2027-03-09,279,330-->
+- voltage definition ::@:: Energy per unit charge that drives current; symbol V, unit volt. <!--SR:!2027-01-17,247,330!2027-03-09,279,330-->
 - potential difference ::@:: Voltage between two points; current flows only with a potential difference. <!--SR:!2026-12-28,230,330!2027-03-13,283,330-->
 - ground reference ::@:: GND = $0\,\text{V}$ reference; voltage measurements are always relative. <!--SR:!2026-12-27,229,330!2027-03-16,286,330-->
 
@@ -170,7 +170,7 @@ Flashcards for this section are as follows:
 - energy definition ::@:: Ability to do work; takes mechanical, thermal, electrical, chemical forms; conserved during conversion. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
 - battery role ::@:: Supplies electrical energy via electrochemical reactions; DC power with long storage. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
 - DC vs AC ::@:: DC: constant polarity. AC: oscillates and reverses periodically. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
-- household AC frequency ::@:: 50 Hz (Hong Kong) or 60 Hz (other countries). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
+- household AC frequency ::@:: 50 Hz (Hong Kong) or 60 Hz (other countries). <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
 - energy formula ::@:: $E = qV$; $q$ in coulombs. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
 - power definition ::@:: $P = E/\Delta t = IV$; for resistors $P = I^2R = V^2/R$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
 

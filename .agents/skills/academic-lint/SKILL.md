@@ -9,9 +9,9 @@ Wraps the `main.py` validator and defines when and how to run it.
 
 ## When to run
 
-Run it after every edit to academic notes under `special/academia/`. Do not skip validation before committing.
+Run it after every edit to academic notes under `special/academia/`, and before committing.
 
-Validation is the __last__ step of an edit. The humanizer pass runs first (see "Humanizer pass" in `academic-ingest`): rewriting a card can strand a suppression with nothing to suppress, or create a warning that now needs one, and only the validator can show that.
+Validation is the __last__ step of an edit. The humanizer pass runs first (see "Humanizer pass" in `academic-ingest`): rewriting a card can strand a suppression with nothing to suppress, or create a warning that now needs one.
 
 ## Invocation modes
 
@@ -35,7 +35,7 @@ With no paths, the run covers both trees: `special/academia` and `private/specia
 
 ### Private files
 
-A file under `private/special/academia` validates as if it sat at its mirrored public path. Flashcard tags derive from the path after `special/academia/`, so a private page carries the same tag as its public twin, and a children link written in colocated form resolves against the mirrored tree (see "Public and private trees" in `academic-ingest`). A target missing from both trees still warns.
+A file under `private/special/academia` validates as if it sat at its mirrored public path: flashcard tags derive from the path after `special/academia/`, and a children link written in colocated form resolves against the mirrored tree (see "Public and private trees" in `academic-ingest`). The tag state is the exception. Private content carries `flashcard/inactive`, and `flashcard_tag_state` rejects `active` there, or `inactive` under the public tree. A target missing from both trees still warns.
 
 ## Exit codes
 
@@ -45,18 +45,79 @@ A file under `private/special/academia` validates as if it sat at its mirrored p
 
 ## Blind spots
 
-A clean run is a shape check, not a content check, and a value that is internally consistent but wrong still passes. `session_datetime_order` compares the `datetime:` values as written, so it cannot tell a session carrying another section's weekday, time, or venue; no rule compares a session against the section recorded in `## logistics`, or an ordinal against the sessions around it in its week. A `status: no class` session holding a wrong slot is as invisible to the linter as a correct one. Verifying those is the author's job, against the source, per "Session ordering" and "Validation" in `academic-crud-course-index`.
+A clean run is a shape check, not a content check, and a value that is internally consistent but wrong still passes. `session_datetime_order` compares the `datetime:` values as written, so it cannot tell a session carrying another section's weekday, time, or venue; no rule compares a session against the section recorded in `## logistics`, or an ordinal against the sessions around it in its week. A `status: unscheduled` session holding a wrong slot is as invisible to the linter as a correct one. Two things it does check: `session_topic_source_unit` rejects a `- topic:` that names the material (`class note 5`, `notes #5 and #6`, `handout`, `slides`, `remaining material`) instead of the subject, and `session_missing_topic` rejects a session that has a date and no topic at all. Neither can tell whether the sections listed under a session are the ones that class actually taught, so verifying that against the course's module list is the author's job, per "Which session gets which material" and "Session ordering" in `academic-crud-course-index`.
 
-In a whole-course run the warnings can come from files the task never touched. Re-run on the edited file to tell a pre-existing warning from an introduced one, and report the pre-existing ones instead of fixing them.
+In a whole-course run the warnings can come from untouched files. Re-run on the edited file to tell a pre-existing warning from an introduced one, and report the pre-existing ones instead of fixing them.
+
+## Question-block rules
+
+Sixteen rules hold a question block to the shape documented in "Question blocks" in `academic-ingest`. `question_block_label` rejects a `- question:` item, `question_block_fence_nested` a fence indented under a list item, `question_block_options_unordered` choices written as bullets, and `question_block_options_lettered` choices numbered with letters rather than digits. `question_block_figure_missing` rejects a block that names a figure by number and carries no image, since a card shows one block and never the block beside it, and `question_block_subquestion_label` reads every text line of a block that carries an answer: a first line takes the label `5.a.` (the parent number, a lower-case sub-part, and a dot after each) and is rejected for `5(a)`, a bare `(a)` or `(iv)`, or a top-level numeral left unescaped (`3.` where `3\.` belongs), while a label opening any later line is rejected for hiding under a stem, the fix being a block of its own that restates the premises it needs; a line inside a fence is code, and a block with no answer item is prose. A nested list under a question that is itself a list is a sub-part, not a choice list, so it stays silent; so does a roman marker such as `i.`. `answer_item_repeated` rejects a second item in a slot the block already fills, since a step with more to say continues on the indented lines below it rather than opening a second item, and `answer_item_continuation` rejects a continuation that is not four spaces past the quote space, whose line above ends without `<br/>`, or which sits at the quote marker's own margin where it reads as the block's text and the item loses it; a blank `>` line between the two is the paragraph form, which needs no tag.
+
+Eight of the sixteen judge the answer lines, with no legacy allowance. `answer_solution_names_option` makes a solution to a question with a choice list open on a choice number and its marker, `{@{3. (c)}@}` or `{@{3) (c)}@}`, carrying that choice's text, and a key that accepts several options writes each of them inside that one cloze, `{@{2. 115 dollars and 3. 114 dollars}@}`; a bare quantity, a bare number list, a source letter standing alone, another choice's text, and an answer left outside the one cloze each fail it. `answer_solution_one_cloze` asks for exactly one cloze on a solution, since one answer is one card. `answer_explanation_shape` asks an explanation of at most twenty prose words written on one line for one cloze holding the item from its label onward, and anything longer, or continued onto a second line at any length, for clozes covering 0.45 to 0.95 of its prose words with one in every sentence, since below that floor most of the answer stays visible and above that ceiling the frame is hidden too; an annotation is out of its scope. `answer_sentence_all_hidden` rejects a long explanation or annotation that hides one of its sentences whole, since the card then shows no frame to read that step from. `answer_visible_calculation` rejects a calculation standing outside every cloze on a line whose clozes hide no number, since the card reads the result it asks for. `answer_formula_alone` reports an explanation or annotation line whose cloze holds a formula alone while prose stays visible beside it, since the reader then recalls a symbol string instead of a fact; it reads the text after the label, and it stays silent on a solution's bare formula, on a formula clozed with its words, and on a line whose only prose sits inside the cloze. Of these six, a rule is a warning exactly when a per-line suppression is acceptable, and an error when it is not: `answer_formula_alone` names `<!-- check: ignore-line[answer_formula_alone]: <reason> -->` in its message as the accepted escape where the visible frame names the formula, and the two guards are errors, so a line tripping one gets fixed rather than suppressed. `cloze_no_hint_words` is not one of the sixteen: it measures a prose line carrying one cloze and no visible hint word, and a line carrying an answer label is out of its scope, since the label is markup rather than text and the answer-line rules already fix the frame and the band. It is a warning, and its message says to fix the line, suppressing with `<!-- check: ignore-line[cloze_no_hint_words]: why -->` only where the hint word is genuinely needed. `cloze_glue` is outside the sixteen for the same reason: it never looks at a question block, reading every cloze line of a file the flashcard tag covers, and rejects a cloze holding only connectives, `{@{so}@}` or `{@{which is}@}`, that hides no digit, mathematics, code span or whole answer side.
+
+Two of the sixteen carry a legacy allowance, because the older notes predate the shape and an unconditional error would fail them on the first run. `question_block_rule_missing` reports a block with no `> ---` only in a content file whose other answering blocks have one, and only when that block is the file's single deviation. `cloze_giant` warns, rather than failing the line, at a cloze hiding more than twenty prose words, and measures every answer line in every file with a solution's single cloze excepted; only a line carrying no answer label keeps the old gate, being measured in a content file that separates question from answer in every block, because at the time the gate was written 695 of 804 answering blocks carried no separator and 226 clozes across 33 files ran past the limit, so the gate is what keeps the signal from drowning in that backlog. The exemption for a cloze holding a short answer line whole went with the cap it duplicated: the cap is the length a line is clozed whole at, so such a cloze sits under it by construction and the cap alone accepts it.
 
 ## Options
 
 - `--json`: machine-readable output
 - `--max-per-rule N`: limit per-rule output (default 5, 0 for unlimited)
 
+## Change audit
+
+Every run reads the uncommitted diff against `HEAD`, read-only and scoped to the paths being linted. It prints `change audit: N file(s) vs HEAD, M warning(s)`, and outside a git work tree it says so and carries on. No flag turns it off.
+
+| Rule | Fires when |
+| --- | --- |
+| `change_append_bias` | a topic note gains 300 bytes or more, at three bytes added per byte deleted |
+| `change_flat_section_growth` | a note that already had six `##` sections gains another, with no `###` added |
+| `change_note_without_index` | a topic note changed and its course `index.md` gained no link to it |
+
+These warnings cannot be suppressed; a directive naming one is reported as `suppression-not-permitted`. They observe a window rather than a state, so __they clear when the files are committed__, and committing is the user's act. An agent that believes the addition is genuine new material ignores the warning and says so in its report. Deleting content to silence one is never the fix.
+
+## Structure rules
+
+Sections nest. A note's _width_ is the largest number of sibling sections that open no subsection of their own, and `flatness = width / 7`.
+
+| Rule | Severity | Fires when |
+| --- | --- | --- |
+| `header_hierarchy_flat` | error | width above 9 |
+| `header_hierarchy_thin` | warning | width 7 to 9 |
+| `header_hierarchy_shallow` | warning | no `###` at all, 120+ lines, width 5 or 6 |
+| `header_generic_article` | error | a section name opens on `the`, `a`, `an`, or a demonstrative |
+| `header_question_form` | warning | a section name is a question |
+| `header_sentence_like` | warning | a section name ends in `.`, runs past nine words, or carries a finite verb |
+
+A section name is a term: `time constant`, not `the time constant`; `hysteresis`, not `the state it keeps`. Renaming a heading breaks every `§` anchor pointing at it, so re-link the course `index.md` in the same edit, or `link_anchor_slug` reports the miss.
+
+## Readability rules
+
+Seven standard metrics score each topic note against a single density limit:
+
+| Metric | Fails above |
+| --- | --- |
+| Flesch reading ease | below 35, because the scale runs backwards |
+| Flesch-Kincaid grade | 13 |
+| Gunning fog | 13.5 |
+| SMOG | 13 |
+| Coleman-Liau | 14.5 |
+| automated readability index | 13.5 |
+| Dale-Chall | 8.8 |
+
+Only one direction counts. Text denser than the limit is the defect; plain prose under every limit is the target, so nothing fires for writing simply. A note with one or two metrics past the limit gets `readability_warning`, three or more get `readability_error`.
+
+Prose and cards are measured apart, because they are read differently. The prose score leaves out frontmatter, headings, maths, code, the `Flashcards for this section are as follows:` separator and everything under it, and the `## references` list. The card score measures that block alone, and reports `card_readability_warning` or `card_readability_error` from the same limits. Prose needs 120 words and 8 sentences to score, cards need 60 words and 4 sentences, and a note that is mostly non-English is skipped.
+
+A word the course already uses as a heading or alias is jargon and never counts as difficult, which is Fog's own definition, not an exemption.
+
+The seven metrics measure the shape of the text, not whether it teaches anything. Padding a sentence or shredding one into fragments moves a score and is a worse defect than the one reported. The fix for a failing metric is structural: merge or split sections, break up the longest sentences, cut clauses that carry no fact. A failing card means it asks two things at once or pads an answer that should be one term.
+
+## Suppression
+
+A suppression is an HTML comment: `<!-- check: ignore-line[rule_id]: why -->` on the line it exempts, or `<!-- check: ignore-next-line[rule_id]: why -->` on the line above. A heading takes the second form, because a comment on the heading line becomes part of the heading text. Content rules accept a rationale after a colon; the three change rules refuse one, because the diff is the evidence and the file cannot hide the warning about itself.
+
 ## Sibling tools
 
-These files live alongside `main.py` in the `academic-lint/` directory:
+Files in this directory:
 
 | Tool | Purpose |
 | --- | --- |

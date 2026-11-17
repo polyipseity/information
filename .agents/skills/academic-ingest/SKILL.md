@@ -15,20 +15,16 @@ __Hard rule: create only what the source warrants.__ The decision tree fixes the
 | --- | --- | --- |
 | Course homepage (generic HTML) | Course `index.md` only | Subdirectories, sessions, assignments |
 | Canvas assignment page | Submission leaf (`index.md` + YAML) | Course-level sessions, other submissions |
-| PRS/iClicker quiz HTML | In-class content file (`<type>.md`) | Course-level metadata, submission YAML |
+| Personal Response System (PRS)/iClicker quiz HTML | In-class content file (`<type>.md`) | Course-level metadata, submission YAML |
 | Canvas announcement | Blockquote in matching session | New sessions, new files |
 
-__Lectures, labs, and tutorials are separate types__, each with its own section keys:
-
-- `lecture`: `L1`, `L2`, `L3` (2-3 per week typical)
-- `labs`: `LA1`, `LA2`, `LA3` (1 per week typical)
-- `tutorials`: `T1`, `T2`, `T3` (1 per week typical)
+__Lectures, labs, and tutorials are separate types__, each with its own section keys (`L1`-`L3`, `LA1`-`LA3`, `T1`-`T3`), which `academic-crud-course-index` owns.
 
 Never conflate them into one type, create joint session entries, or mix types within a week heading. `## logistics` lists the enrolled sections, venues, and times. Each session that meets gets its own `## week N <type> <number>` heading, so a course with 2 lectures + 1 lab + 1 tutorial per week has 4 session headings, not 4 logistics entries. See "Session ordering" in `academic-crud-course-index`.
 
 __A recurrent course groups its sessions by semester.__ It carries `- status: recurrent` and puts each session one level deeper under a `## <YYYY term>` header: `### 2026 fall week 3 tutorial 1`, with `- status: optional` on every session. Read "Recurring courses" in `academic-crud-course-index` before writing the heading; it owns why the semester repeats, what counts as a seminar series, and how `datetime:` orders across terms.
 
-__When in doubt, create less.__ Add scaffolding for future content only when the source enumerates items ("Lab 1, Lab 2, Lab 3") or the user asks for it. A homepage that mentions labs as a grading component does not warrant a `labs/` directory.
+__When in doubt, create less.__ Add scaffolding for future content only when the source enumerates items ("Lab 1, Lab 2, Lab 3") or the user asks for it. A homepage that mentions labs as a grading component warrants no `labs/` directory.
 
 __Never write current status or provenance.__ What has been ingested, what remains, and how a derived value was established all go stale on the next ingest.
 
@@ -53,7 +49,7 @@ __Hard rule: ingestion never destroys a source.__ It never deletes, moves, renam
 - Leave every source byte-identical at its original path.
 - Do not delete a source because its content was "not stored in the repository". "Not stored" means not copied into the tracked content tree (`special/academia/...`); it never authorises deleting the original.
 - Do not move, rename, or truncate a source to tidy up, deduplicate, or mark it processed.
-- `.extracted/` outputs are additions beside a source, never replacements. Never remove a source to "clean up" after extraction.
+- Extraction outputs are additions, never replacements. Never remove a source to "clean up" after extraction.
 - Disposing of sources is the user's decision. If cleanup looks desirable, ask.
 
 ## Convention authority
@@ -61,6 +57,17 @@ __Hard rule: ingestion never destroys a source.__ It never deletes, moves, renam
 Every ingestion convention lives in these skills and instructions. Do not infer a convention by inspecting another course's content; a sibling course may be wrong, stale, or atypical, and copying it propagates the error.
 
 When a convention is missing or ambiguous, report it as a skill defect rather than imitating other content or inventing a format.
+
+## The writing contract (always on)
+
+The authoritative contract is `.agents/instructions/academic-notes.instructions.md`, auto-applied and outliving a compaction; this section is what an ingestion owes it.
+
+- Wikipedia's Manual of Style decides register, heading grammar, and section order. `academic-writing` maps it.
+- Cut before you add. A pass that grows a section without adding a fact has failed, and it reports words removed against words added.
+- Load `academic-writing`, then `humanizer`, before the first edit, and again after a compaction, after each material in a batch, and before the final report. Say `writing pass: loaded` in the progress report, so a skipped pass is visible.
+- The author never certifies its own prose. The pass runs in a fresh-context child (see "Humanizer pass").
+- A section name is a term: `time constant`, never `the time constant`.
+- Map the note before editing it (see "Map before you write").
 
 ## Document extraction (mandatory)
 
@@ -70,7 +77,7 @@ __Hard rule: run this before classifying anything.__ A document is not "read" un
 uv run -m scripts.special.convert_document <input> <output_dir>
 ```
 
-`<output_dir>` is the `.extracted/` folder described below. Extraction happens __in place, next to the source__, whether or not the source lives inside the repository.
+`<output_dir>` is the path derived below. Extraction writes under `.pi/ingest/` at the repository root, __never inside `special/` or `private/`__: the cache is derived, and a derived folder inside the tree is a folder the repository has to ignore forever.
 
 __Never substitute an ad-hoc extractor.__ `pdftotext`, a direct `pymupdf` call, `pdfplumber`, and similar tools return text only: no page images, no manifest, nothing to cache-check. Using one is a skill violation even when the text looks correct.
 
@@ -81,14 +88,15 @@ __Post-conditions__: do not proceed to classification until all hold.
 - `manifest.json` records the source SHA-256, format, page count, and timestamp
 - The recorded page count matches the source document
 
-__Read every page, write what earns its place.__ Reading is total. No page goes unread, and the report says what was left out and why. Writing is not total: a page earns prose when the material works something through on it. Naming a concept on a slide is not working through it. Read that page anyway, then report the omission rather than writing it up.
+__Read every page, write what earns its place.__ Reading is total. No page goes unread, and the report says what was left out and why. Writing is not total: a page earns prose when the material works something through on it. Naming a concept on a slide is not working through it, so report that omission rather than writing it up.
 
 Transcribe a figure the prose depends on. Attach the picture itself only when the picture is the material. If a source has no extractable text (scanned images only), say so and work from its images.
 
-Document-like formats (PDF, DOCX, PPTX) produce extraction outputs that are persisted near the source:
+Document-like formats (PDF, DOCX, PPTX) produce extraction outputs under `.pi/ingest/`. Take the source path, remove `special/academia/<INSTITUTION>/`, put `.pi/ingest/` in its place, and append `.extracted` to the leaf stem:
 
-- __Single file input__: `<stem>.extracted/` sibling folder (e.g., `lecture.pdf` → `lecture.extracted/`)
-- __Directory input__: `.extracted/` subfolder inside the directory (e.g., `materials/` → `materials/.extracted/`)
+- __Single file input__: `special/academia/HKUST/ELEC 2400/labs/week 4 lab 1/attachments/lab1a_manual.pdf` → `.pi/ingest/ELEC 2400/labs/week 4 lab 1/attachments/lab1a_manual.extracted/`
+- __Directory input__: `special/academia/HKUST/ELEC 2400/materials/` → `.pi/ingest/ELEC 2400/materials.extracted/`
+- __Source outside the repository__: the same shape, built from the course directory and the component the source belongs to
 
 Each `.extracted/` folder contains:
 
@@ -99,7 +107,7 @@ Each `.extracted/` folder contains:
 
 __Cache check__: before running `convert_document.py`, check if `.extracted/` exists with a valid `manifest.json` matching the source file's SHA-256 hash. If valid, reuse the cached extraction; use `--force` to re-extract.
 
-`.extracted/` is a derived artifact: not tracked in `index.md` `## children`, not linked from content files, safe to delete and re-extract. This applies to `.extracted/` alone, never to the source document (see "Source file preservation").
+`.extracted/` is a derived artifact under `.pi/`, which sits outside git: not tracked in `index.md` `## children`, not linked from content files, safe to delete and re-extract. This applies to `.extracted/` alone, never to the source document (see "Source file preservation").
 
 ### Page image handling
 
@@ -122,7 +130,7 @@ Classify what the image holds, because each kind is handled differently:
 - __Text-bearing figure__ (plot, table, document screenshot, annotated diagram that defines nothing): transcribe its labels, values, and steps into the note as prose or a Markdown table. The transcription is the record.
 - __Purely pictorial image__ (photograph, engraving, illustration): describe it for the point it makes, per the rule below.
 
-__Describe for learning, not for its own sake.__ Work out what the image does in its slide or section (a before/after pair showing a change in market structure, a diagram of a mechanism's steps, a chart supporting a claim) and write the description that carries that point. Include the detail that serves it and leave the rest out; do not inventory the picture. A photograph illustrating "trading floors then and now" needs the crowd, the medium, and the contrast, not every object in frame.
+__Describe for learning, not for its own sake.__ Work out what the image does in its slide or section (a before/after pair showing a change in market structure, a diagram of a mechanism's steps, a chart supporting a claim) and write the description that carries that point. Include the detail that serves it and leave the rest out; do not inventory the picture.
 
 __Never assert what the image does not show.__ An image is evidence of what it depicts, not of context or intent:
 
@@ -132,19 +140,19 @@ __Never assert what the image does not show.__ An image is evidence of what it d
 - Do not read a chart's shape as a quantity it never states. The mode of a distribution is not its mean, and a line's movement is not a price change the slide never claims.
 - Keep observation apart from the deck's commentary. "Men with arms raised and papers in hand" is observed; "bidding by open outcry" is the deck's framing of a trading floor, and one sentence must not present the second as if the image showed it.
 
-__Attach a graphic only when the picture itself is the material.__ Page renders are never attachments, and an embedded image stays in `.extracted/` because text can carry what it shows. Copy one into `attachments/` under a descriptive name only when the reader must see the picture itself: geometry that carries the meaning, a chart whose shape is the point, a cheatsheet. Expect that to be rare. A definitional drawing is the standing exception, and it is redrawn rather than copied (see "Definitional drawings" below).
+__Attach a graphic only when the picture itself is the material.__ Page renders are never attachments, and an embedded image stays in `.extracted/` because text can carry what it shows. Copy one into `attachments/` under a descriptive name only when the reader must see the picture itself: geometry that carries the meaning, a chart whose shape is the point, a cheatsheet. A definitional drawing is the standing exception, and it is redrawn rather than copied (see "Definitional drawings" below).
 
 #### Definitional drawings
 
 A drawing is part of a definition when the note cannot state the thing without showing it: a circuit symbol, a reference direction drawn on an element, a measurement setup, a construction. Such a drawing belongs beside the prose that defines it, and prose alone never replaces it.
 
-Everything about producing one is in `academic-crud-attachments` — the SVG, the generator script beside it, the file naming, the embed syntax, the carding, and the check the drawing has to pass. This skill decides only whether the material defines anything by drawing it.
+Everything about producing one is in `academic-crud-attachments`: the SVG, the generator script beside it, the file naming, the embed syntax, the carding, and the check the drawing has to pass. This skill decides only whether the material defines anything by drawing it.
 
 ## Video links (mandatory)
 
 __A video link in the material is course material.__ Slides, PDFs, handouts, and Canvas pages regularly link a talk, a news clip, or a lecture recording that the surrounding text sets up, and extraction keeps the URL while dropping the video. Look for them before classifying: YouTube and `youtu.be` URLs, Vimeo, Canvas/Kaltura and Panopto players, `<iframe>` and `<video>` tags, and links ending in a media extension.
 
-__Read the video from its subtitles, or defer it.__ The transcript is the video's content, read with `yt-dlp` into a temp directory — never into the repository, and never into `attachments/`. A video with no usable English track is deferred: nothing is written about it, and nothing is guessed from its title. A deferral is run state, never note content.
+__Read the video from its subtitles, or defer it.__ The transcript is the video's content, read with `yt-dlp` into a temp directory: never into the repository, and never into `attachments/`. A video with no usable English track is deferred: nothing is written about it, and nothing is guessed from its title. A deferral is run state, never note content.
 
 __One request, at the end.__ Before returning to the user, present every deferred video in a single request and ask them to have it watched. The content is incorporated on the next pass. Gemini takes a YouTube URL; anything else needs a file-upload tool or a local Whisper transcript.
 
@@ -152,30 +160,19 @@ __One request, at the end.__ Before returning to the user, present every deferre
 
 ## Input handling
 
-Accept any combination of:
+Accept file paths (PDF, HTML, Markdown, images), clipboard content (`--clipboard` or pasted text), inline text, or several files at once.
 
-- File paths (PDF, HTML, Markdown, images)
-- Clipboard content (`--clipboard` or pasted text)
-- Inline text from the user
-- Multiple files in one invocation
-
-Preprocess each input:
-
-1. Read file content:
-   - HTML: parse and extract readable text (see "Source identification")
-   - Markdown: passthrough
-   - Images: pass to the vision model if the model accepts images
-   - Documents (PDF, DOCX, PPTX): extract per "Document extraction (mandatory)", then classify the role per "Document format handling"
-2. Extract metadata (Canvas URLs, dates, course codes)
-3. Normalize (strip HTML styling, extract plain text from PDFs)
+Preprocess each input: read it (HTML parsed for readable text, Markdown passed through, images handed to the vision model when it accepts them, documents extracted per "Document extraction (mandatory)" and classified per "Document format handling"), pull out metadata such as Canvas URLs, dates, and course codes, then normalize.
 
 ### Source identification
 
 Identify the HTML source type before extraction:
 
 - __Canvas HTML__: URL contains `canvas.ust.hk`; has assignment metadata (title, due date, points, grade). Extract via `convert_canvas_submission`.
+- __Gradescope HTML__: URL contains `gradescope.com`. A `View Submission` page holds the grade, the per-question scores and the answer given to each question; a `/submissions/new` page holds the answers alone. Extract via `convert_gradescope_submission`, which writes `submission.yml` with the course code and name, the assignment title, status and grade, the submission id, and one entry per question. Gradescope states neither a submission type nor a due date, so the index metadata block takes the title, points and grade from it and the dates from the course schedule.
+- __Canvas quiz HTML__: URL contains `/quizzes/`, with a `/take` page holding the test as it was sat. Neither page is the submission record. The questions and the ticked answers come from the quiz; the grade and the submit time come from that assignment's own `/assignments/<id>/submissions/<student>` page, which `convert_canvas_submission` converts into `submission.yml`.
 - __Canvas announcement__: URL contains `canvas.ust.hk` and the page type is "Topic". Has a title and body but no grade or submission metadata. Extract the title and body verbatim, dropping the platform chrome ("This topic is closed for comments") and redacting an instructor or TA name the body itself contains as `\[redacted\]`; see "Announcement preservation" in `academic-crud-course-index`.
-- __PRS/iClicker HTML__: URL contains `prsmob.ust.hk/ars/`; has question text and numbered answer choices. Extract the quiz content directly; do not run `convert_canvas_submission`.
+- __PRS/iClicker HTML__: URL contains `prsmob.ust.hk/ars/`; has question text and numbered answer choices. Extract the quiz content directly; do not run `convert_canvas_submission`. The choices are the source's, so they keep the source's numbers and are never renumbered or lettered (see "Question blocks").
 - __Generic HTML__: neither pattern. Extract readable text.
 
 ### Document format handling (PDF, DOCX, PPTX)
@@ -189,7 +186,7 @@ Document-like formats are not opaque: extraction is mandatory and runs before cl
    - __Attachment document__: the document accompanies course material (prompt PDF, reference data, supplementary reading). The original is copied to `attachments/`; its extracted text is used during processing but not persisted as a separate `.md`; images stay in `.extracted/` unless the note has to show one.
    - __When ambiguous__: ask the user whether the document is the course content or a file that accompanies it.
 
-3. __Ensure `.gitignore`__: when creating an `.extracted/` folder, create a `.gitignore` inside it containing `*`, so cached contents are never committed.
+`.pi/` is outside git, so no ignore rule is needed for the cache. Never add one inside the repository tree for it.
 
 ## Directory ingestion
 
@@ -198,15 +195,29 @@ When the input is a directory (or a glob resolving to directories), follow `.age
 ## Course resolution
 
 1. __Extract from input:__ Canvas URL (the course ID in the path resolves the course; never record platform links in the target notes), file path (under `special/academia/<INST>/<CRS>/`), frontmatter tags.
-2. __Parse the directory name__ for structural hints:
-    - Pattern: `<COURSE> - <type> <N> (<binding> <M>)`
-    - Example: `ELEC 1100 - quiz 1 (tutorial 2)` → course=ELEC 1100, type=quiz, number=1, binding=tutorial, target=2
-    - The binding field selects the directory: tutorial → `tutorials/<name>/`, lab → `labs/<name>/`, and so on.
-    - The course field resolves the institution and course directory.
-    - This parsing is a hint, not a certainty; confirm with the user when the pattern is ambiguous.
+2. __Parse the directory name__ for structural hints: `<COURSE> - <type> <N> (<binding> <M>)`, so `ELEC 1100 - quiz 1 (tutorial 2)` is course `ELEC 1100`, quiz 1, bound to tutorial 2, which selects `tutorials/`. The parse is a hint, not a certainty; confirm it when ambiguous.
 3. __If ambiguous:__ list matching courses (name, institution, note count, last modified) and prompt the user to pick one.
 4. __If no match:__ ask the user for the institution and course code, or confirm creation of a new course.
 5. __If the course is recurrent__ (`- status: recurrent` in its `index.md`), read "Recurring courses" in `academic-crud-course-index` before writing any session entry: sessions are grouped by semester, each session heading repeats the semester and sits one level deeper, and every lecture, lab, and tutorial is optional.
+
+## Session mapping (mandatory before any session entry)
+
+Lecture material reaches the course through a dated class, and a handout is not the record of what that class taught. The record is the course's module list, which pairs every class with its date, the files it posts, and usually an instructor sub-header naming the material it covers.
+
+Build the map before writing or editing a session entry, and put the result in the report:
+
+| Class | Date | Posted | Module sub-header | Sections reached |
+| --- | --- | --- | --- | --- |
+| Class 7 | 2026-09-22 | Class05_2026_handout.pdf | — | the note's platform half |
+| Class 9 | 2026-09-29 | — | "Cover notes #5 and #6" | both notes, continuing |
+
+Then:
+
+- __Credit teaching to the classes the module list names, not to the class that posted the file.__ A note spreads across every class that carries it, and each of those classes lists the sections that class reached.
+- __Never fold a whole note into the posting class.__ That makes the following classes bare topic lines and leaves their material unaccounted for.
+- __Read the sub-headers as schedule facts.__ "Cover notes #5 and #6", "Cover the remaining material in Note #9", "NO CLASS", "Holiday", and "Midterm Exam: No regular class" each fix a session's content or its `status:`; see "Which session gets which material" and "Session ordering" in `academic-crud-course-index`.
+- __A class numbering gap is not a missing week.__ Class numbers skip cancelled dates and the numbering in a handout's filename does not track the meeting count: read dates from the module list and week numbers from the term's first teaching week.
+- __A session with a topic line and no section links is a defect__, not a placeholder. Either the material was not written up yet, in which case report it, or the content sits on another session, in which case move it.
 
 ## Splitting mixed-type materials
 
@@ -222,15 +233,7 @@ To split:
 4. Dispatch each to its skill sequentially.
 5. Coordinate shared indexes (create `assignments/index.md` before adding to it).
 
-After splitting, report what was detected:
-
-```text
-Detected mixed content in <filename>. Splitting into 2 materials:
-  1. Lecture notes → <topic>.md
-  2. Problem set → questions/<name>.md
-```
-
-The user can intervene if the split is wrong ("Actually, treat the exercises as part of the lecture notes" → reclassify as one material).
+Report the split before dispatching it: one line per material, its type, and its target. The user can intervene if the split is wrong ("Actually, treat the exercises as part of the lecture notes" → reclassify as one material).
 
 ## Classification decision tree
 
@@ -243,16 +246,12 @@ Material
 │  ├─ Yes → use it directly
 │  └─ No → auto-classify ↓
 │
-├─ Course-level metadata?
-│  (syllabus, schedule, grading policy, course logistics,
-│   exam scores, grade distributions, exam statistics/reports)
+├─ Course-level metadata? (syllabus, schedule, grading, logistics,
+│  exam scores and statistics)
 │  ├─ Yes → academic-crud-course-index (top-level index.md)
 │
-├─ Canvas announcement? (discussion/topic page with title and body,
-│  no grade/submission metadata)
-│  ├─ Yes → academic-crud-course-index: place verbatim in the
-│  │  matching session entry's free text area as a blockquote
-│  │  (see "Announcement preservation" in academic-crud-course-index)
+├─ Canvas announcement? (topic page, title and body, no submission metadata)
+│  ├─ Yes → academic-crud-course-index: blockquote in the matching session
 │
 ├─ Concept, theorem, or lecture topic? (standalone knowledge, not submission-bound)
 │  ├─ Yes → academic-crud-topic-note (<topic>.md)
@@ -268,16 +267,8 @@ Material
 │  │  ├─ Unbound (PS, HW, project) → academic-crud-submission (assignments/<name>/)
 │  │  └─ Ambiguous → prompt user to pick directory
 │  │
-│  │  In-class component: If the Canvas page is for live session work
-│  │  (in-class lab, tutorial, or lecture) for an existing submission,
-│  │  route to academic-crud-submission and treat as an in-class addition
-│  │  (creating lab.yml/tutorial.yml/lecture.yml and lab.md/tutorial.md/lecture.md).
-│  │  Also apply when the source is PRS/iClicker HTML (quiz questions only,
-│  │  no Canvas assignment page) — treat as in-class content for the matching
-│  │  tutorial. PRS HTML contains quiz questions, not Canvas metadata — extract
-│  │  question text and answer choices, do not run convert_canvas_submission.
-│  │  Non-in-class components route their artifacts to the private tree
-│  │  (see "Public and private trees" below).
+│  │  In-class component (live session work, or PRS/iClicker HTML):
+│  │  academic-crud-submission, as an in-class addition.
 │
 ├─ Question set? (problems, exercises, iPRs, no submission)
 │  ├─ Yes → academic-crud-question (questions/<name>.md)
@@ -296,41 +287,21 @@ Material
 
 ### Ambiguity resolution
 
-When the classifier cannot determine the target with confidence, narrow it in two phases.
+Narrow in two phases. __Category__ first: group the candidates into knowledge material (lecture notes, course logistics), assessment material (problem set, lab, assignment), and support material (reference article, attachment), and go straight to the targets when one category scores twice the next. Then __target__, naming the destinations inside that category.
 
-__Phase 1: category.__ Group the candidates into knowledge material (lecture notes, course logistics), assessment material (problem set, lab, assignment), and support material (reference article, attachment). If one category dominates (score ≥ 2× the next), go straight to Phase 2 within it; otherwise present the categories:
-
-```text
-I'm not sure how to classify this material. It looks like it could be:
-1. Knowledge material (lecture notes, course logistics)
-2. Assessment material (problem set, lab, assignment)
-3. Support material (reference article, attachment)
-
-Which category? [1/2/3]
-```
-
-__Phase 2: target.__ Present the target types within the chosen category:
-
-```text
-Within knowledge material, this could be:
-1. Topic note — standalone concept or theorem explanation
-2. Course index — syllabus, schedule, or grading info
-
-Which destination? [1/2]
-```
-
-Show at most __3 candidates__ per phase, each with a one-line reason. If the user says "none of these", fall back to free-text input for the target type.
+Show at most __3 candidates__ per phase, each with a one-line reason. A user who answers "none of these" gives the target as free text.
 
 ## Public and private trees
 
 The repository keeps two mirrored trees: the public one at the repo root and the private one under `private/`. A file that would live at `<path>` in the public tree lives at `private/<path>` in the private tree. Nothing is re-nested or renamed on the way.
 
-__Routing is decided per material type.__ Non-in-class material — an assignment, the out-of-class component of a lab or tutorial, a take-home question set — writes its artifacts to the private tree by default:
+__Routing is decided per material type.__ A submission's artifacts write to the private tree whether the component they belong to is in-class or out-of-class; the pages and metadata that describe the work stay public:
 
 | Artifact | Tree |
 | --- | --- |
-| `attachments/`, `submission/`, `solution/` of a non-in-class submission | private |
-| The page and `attachments/` of a non-in-class question set | private |
+| `attachments/`, `submission/`, `solution/` of any submission, in-class or out-of-class | private |
+| A handout the lab itself provides (blank answer sheet, manual, data sheet) | public |
+| The page and `attachments/` of a question set | private |
 | The authored content file of a non-in-class submission (`assignment.md`) | private |
 | `index.md`, component YAML, the verbatim Canvas description | public |
 | In-class content (`lab.md`, `tutorial.md`, `lecture.md`, quiz pages) | public |
@@ -340,9 +311,17 @@ Canvas metadata stays public however sensitive the material around it looks: the
 
 __Links ignore the split.__ A link is written exactly as if its target sat in the public tree, in both directions, and no href ever contains `private/`. A public index may link a private page and a private page may link a public note with the ordinary colocated relative path. That the pair does not resolve when followed is normal and needs no correction; links within one tree keep resolving.
 
-__Private pages tag as if public.__ Aliases and flashcard tags derive from the path after `special/academia/`, so a private page carries the same `flashcard/active/special/academia/...` tag as its public twin would, and `academic-lint` checks it against that path.
+__A private page tags inactive.__ Aliases and the flashcard tag derive from the path after `special/academia/`, so a private page carries its public twin's path with `flashcard/inactive` in place of `flashcard/active`. `academic-lint` errors on a state that contradicts the tree. Publishing flips the tag back by hand, in the same edit that moves the file.
 
 The CRUD skills name the files their own hierarchy routes; this section owns the rule.
+
+## Map before you write
+
+Map a note before the first edit to it. New material goes into the section that owns it, and a section is added only when nothing owns it.
+
+1. List the headings in order, the card block under each, and the paragraph count: `grep -n '^#\{1,3\} ' "<note>.md"` and `grep -c '::@::\|:@:' "<note>.md"`.
+2. Name the section that owns each incoming concept.
+3. Place a new section among its neighbours, since the map decides its level and its position.
 
 ## Post-classification steps
 
@@ -368,10 +347,7 @@ See [special.instructions.md](../../instructions/special.instructions.md#missing
 
 Fuzzy-match the input against existing notes of the __same target type__ within the resolved course:
 
-- Course-index metadata → existing `index.md` sections
-- Topic notes → existing `<topic>.md` files
-- Submissions → existing submissions in the matched directory
-- Questions → existing question pages
+Match only against existing artifacts of the same target type: `index.md` sections, `<topic>.md` files, submissions in the matched directory, question pages.
 
 If a match is found, show the existing note and ask whether to __update__ it, __create new__ anyway, or __cancel__. All types support partial information, so a note can start minimal and be filled in later. An existing match never overrides type classification: a problem set that shares words with a topic note is still a question set.
 
@@ -380,20 +356,12 @@ If a match is found, show the existing note and ask whether to __update__ it, __
 When several input files classify to the same target directory, merge them instead of creating duplicate entries.
 
 1. Identify the shared target by matching directory name patterns (e.g., "quiz 1 (tutorial 2)" and "Quiz 01 (in Tutorial 02)" both name the same tutorial).
-2. Determine which source provides what:
-    - PRS/iClicker HTML → quiz content (questions, choices)
-    - Canvas HTML → metadata (grade, assignment ID, submission record)
+2. Create the target directory once, then apply each source's contribution:
+    - PRS/iClicker HTML → `<type>.md` (quiz questions and choices)
+    - Canvas HTML → `<type>.yml` (grade, assignment ID, submission record, via `convert_canvas_submission`)
+    - Gradescope HTML → `submission.yml` (grade, per-question scores and answers, via `convert_gradescope_submission`)
     - PDF/image attachments → supplementary files in `attachments/`
-3. Create the target directory once, then apply each source's contribution:
-    - Content from PRS HTML → `<type>.md` (quiz questions)
-    - Metadata from Canvas HTML → `<type>.yml` (via `convert_canvas_submission`)
-4. Report the merge:
-
-```text
-Merged 2 sources into <target directory>/:
-  - PRS HTML → <type>.md (2 quiz questions)
-  - Canvas HTML → <type>.yml (grade: 2/2)
-```
+3. Report the merge as one line per source: what it contributed and where it landed.
 
 ### Schedule cross-referencing
 
@@ -406,14 +374,16 @@ After extraction, the material lands as follows. Nothing here authorises deletin
 - Quiz questions → `tutorial.md` / `lab.md` / `lecture.md`
 - Grade metadata → `tutorial.yml` / `lab.yml` / `lecture.yml`
 - Canvas submission metadata → `submission.yml`
+- Gradescope submission metadata → `submission.yml`
 - Canvas announcement body → course `index.md` session entry (blockquote)
-- Prompt PDFs, data files, images → `attachments/` (only actual media/data; the private mirror of `attachments/` for non-in-class material)
+- Prompt PDFs, data files, images → `attachments/` (only actual media/data; the private mirror of `attachments/` for every submission)
+- Uploaded submission artifacts (the file submitted on Canvas and the artifacts it was produced from) → `submission/` of the private mirror, however the component is classified
 - Original HTML files → left at their original path; not copied into the repository
 - Original document files (PDF, DOCX, PPTX): content documents are left in place with the `.md` as the canonical copy; attachment documents are copied into `attachments/` and the source is left in place
 - Figures → transcribed into the note; a definitional drawing is attached as a redrawn SVG (see "Definitional drawings"), and an embedded image is copied to `attachments/` under a descriptive name only when the picture itself is the material
 - Linked videos → read from their subtitles with `academic-video`; the transcript is transient reference, never stored, and a video with no usable subtitles is deferred rather than guessed
 - Extracted text → the `.md` file for content documents; ephemeral reference for attachment documents (the original is canonical)
-- `.extracted/` folders → derived cache artifacts, not tracked in `index.md`
+- `.extracted/` folders → derived cache artifacts under `.pi/ingest/`, not tracked in `index.md`
 
 Do not copy extracted-content HTML into `attachments/`. `attachments/` holds raw referenced files (PDFs, images, data, scripts), not source documents whose content has been transcribed into markdown.
 
@@ -430,22 +400,17 @@ PRS/iClicker HTML can embed base64 images (circuit diagrams, pinouts, sensor ill
 
 ### Canvas announcement extraction
 
-Extract the title and body verbatim, strip the timestamp and platform chrome, redact an instructor or TA name the body contains as `\[redacted\]`, then place them as a bolded blockquote in the matching session entry (see "Announcement preservation" in `academic-crud-course-index`). Match assignment-related announcements to the lecture entry that links the assignment, and activity-related ones to the lab or tutorial entry. Announcement pages carry no grade or submission metadata, so never run `convert_canvas_submission` on them.
+Title and body verbatim, timestamp and platform chrome stripped, an instructor or TA name in the body redacted as `\[redacted\]`, then placed as a bolded blockquote in the matching session entry: an assignment announcement under the lecture that links it, an activity one under its lab or tutorial. Announcement pages carry no grade or submission metadata, so never run `convert_canvas_submission` on one; "Announcement preservation" in `academic-crud-course-index` fixes the format.
 
 ### In-class component detection
 
-When the input is Canvas HTML for a lab, tutorial, or lecture that already has a `submission.yml`, ask the user whether the page is the out-of-class or in-class one. The in-class page produces `lab.yml`/`tutorial.yml`/`lecture.yml` (not `submission.yml`) and a `lab.md`/`tutorial.md`/`lecture.md` content file as a child of `index.md`. That file is Canvas-sourced, so it mirrors the Canvas header block of the submission `index.md`: frontmatter, `# <type>` heading, identity bullets, the Canvas metadata bullets drawn from the component YAML, and the verbatim Canvas description. See `academic-crud-submission` for the exact format.
+When the input is Canvas HTML for a lab, tutorial, or lecture that already has a `submission.yml`, ask the user whether the page is the out-of-class or in-class one. The in-class page produces `lab.yml`/`tutorial.yml`/`lecture.yml` (not `submission.yml`) and a `lab.md`/`tutorial.md`/`lecture.md` content file as a child of `index.md`. The Canvas metadata block belongs to `index.md`, drawn from the component YAML: the metadata bullets and the verbatim Canvas description. The content file carries no Canvas assignment metadata at all: identity bullets, the parent link, and the authored content only. `## submission` in `index.md` still records the uploaded file and the artifacts it was produced from, whose files live in the private mirror. See `academic-crud-submission` for the exact format.
 
 ### 2. Attachment handling
 
 If the material includes raw files (PDFs, images, data files, scripts) supplementary to the classified content type, use `academic-crud-attachments` to set up the attachments directory. The material is still classified by its content type; attachments are storage metadata, not a content type.
 
-Attachment directory placement follows the target:
-
-- Topic note → `attachments/` inside the topic's directory
-- Submission → `attachments/` inside the submission directory
-- Question → `attachments/` inside the question's directory
-- Course-level → `attachments/` at the course root
+The attachments directory sits beside its target: the topic's directory, the submission directory, the question's directory, or the course root.
 
 For non-in-class material the target directory is its private mirror (see "Public and private trees").
 
@@ -462,17 +427,21 @@ When in-class content is not Canvas-sourced, use these templates instead of the 
 A content file (`lab.md`, `tutorial.md`, `lecture.md`) may hold several kinds of section, and the two kinds of flashcard answer to separate requirements:
 
 - __Prose + flashcards.__ Section prose, then `---`, then `Flashcards for this section are as follows:` and `::@::`/`:@:` cards. Use it for material that explains, lists, quotes, or records something.
-- __Question blocks.__ A verbatim question in a blockquote whose `- solution:`/`- explanation:` lines carry the clozes (see "PRS/iClicker quiz" below). Use it only for a question with an answer: a multiple-choice item, an exercise, or a prompt whose answer is a definable result.
+- __Question blocks.__ A question in a blockquote whose `- solution:`/`- explanation:`/`- annotation:` lines carry the clozes (see "Question blocks" below). Use it only for a question with an answer: a multiple-choice item, an exercise, or a prompt whose answer is a definable result.
 
 A section of nothing but question blocks needs no flashcard block, since each block answers itself. A section holding question blocks alongside anything else still needs the flashcard block, because the prose, lists, tables, or images around the blocks are content the reader is asked to recall. The two styles may share a section; what does not survive is a `- solution:`/`- explanation:` cloze with no blockquote question above it, or a `::@::`/`:@:` card written inside one.
 
 A working prompt that asks what someone uses, remembers, or thinks is prose, not a question: record it as a blockquote and answer it in prose with cards instead of a `- solution:` line.
 
+A quiz set is one section for the whole set, headed `## quiz`, with its items in the order the source put them. Regrouping a set by concept belongs to a page that collects items from several sources. A set reviewed in sequence is the material itself: the reader met those questions in that order, and splitting the set discards it. A `- solution:` line carries the note's own choice number and that choice's text, `{@{3. (c)}@}`, in one cloze; a letter the source put on an option is choice content, not the number.
+
 `academic-lint` enforces the three halves: `header_flashcard_presence` asks for the flashcard block when a section carries non-question content, `cloze_solution_outside_question` flags a cloze solution line with no question block around it, and `qa_card_inside_question` flags a card marker inside a question block.
 
-### PRS/iClicker quiz (`<type>.md`)
+### In-class quiz (`<type>.md`)
 
-Use the blockquote question format, matching existing question files. Applies to labs, tutorials, and lectures with in-class PRS/iClicker quizzes.
+Use the blockquote question format of "Question blocks" below. Applies to labs, tutorials, and lectures with an in-class quiz: PRS/iClicker HTML, a Kahoot or other live review game, and a Canvas quiz page for the session. The whole set is one `## quiz` section, in the source's order.
+
+A bonus-only quiz carries no submission metadata: no `<type>.yml`, no `submission.yml`, and no metadata block in the file, because nothing was submitted and nothing was graded. The bonus rule belongs to `## logistics` in the course `index.md`, and is never repeated here.
 
 ```markdown
 ---
@@ -515,34 +484,47 @@ tags:
 > 3. <choice>
 > 4. <choice>
 >
-> - solution: <correct answer>
-> - explanation: <why this is correct>
+> ---
+>
+> - solution: {@{3. <choice 3>}@}
 
 <!-- markdownlint MD028 -->
 
 > <next question>
 ```
 
-Use `![](attachments/<name>.jpg)` inside the blockquote when the question references a diagram, and list the image in `## attachments` in both the content file and `index.md`.
+The metadata block appears only when a Canvas assignment backs the quiz. A quiz with none opens on the identity bullets and the authored lead, with no second `---` block.
 
-One line per MC option. `solution` is required; `explanation` is optional, so remove the `- explanation:` line entirely when omitted.
+One line per choice, in the source's order. `solution` is required and `explanation` is optional.
 
-### Cloze flashcards in question blocks
+### Question blocks
 
-Every question quote block needs cloze flashcards (`{@{ }@}`) on its `- solution:` and `- explanation:` lines. Do not cloze the question text or the answer choices.
+A question block is a blockquote whose question is its own paragraphs, followed by a `> ---` line and then the answer:
 
-__Solution lines:__ one cloze per solution, on the core result, formula, or decisive step. Very long solutions (multi-step derivations, lengthy prose) may carry several clozes, one per logical step.
+```markdown
+> <question text>
+>
+> ---
+>
+> - solution: {@{<the answer>}@}
+> - explanation: <why it is the answer, clozed>
+```
 
-__Explanation lines:__ prefer several clozes, breaking the explanation into individual claims, conditions, and reasoning steps.
+The question carries no label item. A `> - question:` line adds nothing the blockquote's own paragraph does not already say, and it reads as a field of a form rather than as a question. The `> ---` line separates the answer from the question, so the answer cannot be mistaken for another part of the question. Code sits in a fence at blockquote level, `> ``` `, never indented under a list item. A figure the question asks about sits inside the block beside it, `> ![<alt text>](attachments/<name>.jpg)`, and a block asking about the figure its sibling already shows carries its own copy, because the card shows one block and never the block beside it.
 
-__Cloze syntax:__
+A source that numbers its questions keeps the numeral, escaped: `> 1\. (2pt) Consider ...`, because an unescaped numeral turns the question into an ordered list item and markdownlint reads the block's numbering as a list prefix. A subquestion opens on its label, `> 5.a. ...`: the parent number, the sub-part as a lower-case letter or roman numeral, and a dot after each, never `5(a)` or a bare `(a)`. It restates the premises it takes from the parent question, in the parent's words where they fit. Naming a sibling by its path, `as 5.b.`, may follow that restatement and never replaces it.
 
-- Closing delimiter is `}@}` (3 chars: `}` `@` `}`)
-- LaTeX: `{@{content $LaTeX math$}@}`, where the trailing `$` closes the math before `}@}` closes the cloze
-- Plain text: `{@{content plain text}@}`, closing with `}@}`
-- For multiple questions, delegate cloze creation to a subagent using the `create-flashcards` skill
+The answer items are `- solution:`, `- explanation:` and `- annotation:`. They sit on adjacent lines: a blank `>` line between two of them reads as an empty paragraph in the answer, and `answer_item_gap` rejects it. `solution` is required and `annotation` records commentary beside the answer (a common-mistake note, a second reading). `explanation` is kept where the answer takes computation or intermediate steps, as a calculation or a derivation does, or where a detail easy to miss would produce a wrong answer, or where one fact covers the set of options a solution names; on a conceptual question the solution line already carries what the reader must recall, and an explanation beside it restates the solution. An explanation of at most twenty prose words on one line is clozed whole, one cloze holding the item from its label onward with the punctuation inside; past twenty, or once it continues onto a second line, it hides each step's payload and keeps the frame that reads it, one cloze in every sentence and at most twenty to a cloze. The frame is what introduces the clause, its subject or an opener such as `Consider`, `We also`, `Thus`, `The price, when`, `Since …`, so a cloze that swallows one shows the reader nothing to read that step from. A visible fragment under four prose words is frame rather than payload, so it is not judged. `answer_sentence_all_hidden` rejects a long explanation or annotation that hides a whole sentence, and `answer_visible_calculation` a calculation standing outside every cloze on a line whose clozes hide no number; the style gallery in `create-flashcards` shows each rule on a corrected line.
 
-Separate consecutive blockquote questions with `<!-- markdownlint MD028 -->`. Strip PRS UI chrome (navigation, error messages, "Pull down to refresh", "Your response is submitted") and keep only the question text and answer choices. Preserve LaTeX math notation.
+Every answer item carries clozes, never the question text or the choices. A block carries one item per slot: a second `- explanation:` answers the question twice rather than giving the first one more room, and the step it would open continues on the lines below the item, which ends every line but its last with `<br/>` and indents each continuation four spaces past the quote marker's own space, so that line reads `>` then five spaces then the text; a new paragraph inside the item leaves a blank `>` line between the two and needs no tag. A continued item is a derivation however short it is, since the twenty-word whole-cloze shape belongs to an explanation written on one line. A solution is one answer and one card, so its single cloze holds the whole answer rather than a piece of it. A solution line owes no lead-in and no hint words: the blockquote above it is the prompt, and the option it names is the answer. Where the key accepts several options, that one cloze names each of them in turn, `{@{2. 115 dollars and 3. 114 dollars}@}`, every number carrying its own choice's text; a bare `2 and 3` names no option. A cloze hides at most twenty words of prose, because a longer one hides a whole sentence the reader cannot rebuild from what stays visible; math and code inside a cloze do not count toward that limit, which leaves room for a formula and the words giving it meaning to be hidden together, and a solution's single cloze is exempt, since it holds the answer whole. A cloze never holds only connectives, `{@{so}@}` or `{@{which is}@}`, which asks for grammar rather than a fact; a digit, a piece of mathematics, a code span or a bare answer side is content, and `cloze_glue` rejects the rest. A cloze never holds a formula alone while prose stays visible beside it, which `answer_formula_alone` warns against: the reader then has context the cloze ignores, and recalls a symbol string rather than a fact. A formula on its own is right only where the surrounding text says nothing or where the formula is a named statement recalled in its own right, a theorem, a lemma or a definition, and such a line carries its own suppression, `<!-- check: ignore-line[answer_formula_alone]: <reason> -->`. Those lines are authored text, so each acronym, abbreviation, or personal name on them carries its full form on the same line (see "Full forms on every card" in `create-flashcards`); the quoted question is verbatim and exempt.
+
+A source that lists its choices gets them as a numbered list, one line per choice, inside the blockquote (`> 1. <choice>`). The choices are the source's, never the author's: a question whose source has no choices gets no list, and the numbers are digits, never letters, so a source that letters its options is renumbered. A source that states its choice inside the question stays that way, as `(Yes/No)` does.
+
+The closing delimiter is `}@}`, and a cloze holding LaTeX closes its math first: `{@{content $math$}@}`. For several questions, delegate cloze creation to a subagent with `create-flashcards`.
+
+Separate consecutive blockquote questions with `<!-- markdownlint MD028 -->`. Strip PRS UI chrome (navigation, error messages, "Pull down to refresh", "Your response is submitted") and keep only the question text and its choices. Preserve LaTeX math notation.
+
+`academic-lint` enforces the shape: `question_block_label`, `question_block_fence_nested`, `question_block_options_unordered` and `question_block_options_lettered` reject the labelled item, the nested fence, and choices written as bullets or letters; `question_block_rule_missing` rejects a missing `> ---` in a note whose other blocks carry one; `question_block_figure_missing` rejects a block that names a figure by number and shows none, and `question_block_subquestion_label` reads every text line of a block that carries an answer, takes the label `5.a.`, rejects `5(a)` and a bare `(a)`, and rejects a label that opens a later line, since the stem above it keeps it out of the card, while a line continuing an answer item is part of that item rather than a line of its own; `answer_item_repeated` rejects a second item in a slot the block already fills, and `answer_item_continuation` rejects a continuation that is not indented four spaces past the quote space, whose line above ends without `<br/>`, or which sits at the quote marker's own margin; `answer_solution_names_option`, where the question lists choices, rejects a solution that names no choice number, names one the list does not hold, carries another choice's text, or leaves the answer outside its one cloze; `answer_solution_one_cloze` rejects a solution carrying no cloze or several; `answer_explanation_shape` rejects an explanation of at most twenty words on one line that is not one cloze holding the item whole, and anything longer or continued onto a second line that leaves a sentence without a cloze or hides under 45% or over 95% of its prose words; `answer_sentence_all_hidden` rejects a long explanation or annotation that hides a whole sentence, and `answer_visible_calculation` one that leaves a calculation standing outside every cloze; `cloze_giant` warns at a cloze past twenty prose words on any answer line but a solution's, and on a line carrying no answer label only in a lab, tutorial or lecture note that separates question from answer in every block; `cloze_glue` rejects a cloze holding only connectives, unless it is all the card hides; `cloze_no_hint_words` warns at a prose line carrying one cloze and no visible hint word, so an answer line is out of its scope; `answer_formula_alone` warns, on an explanation or annotation line, about a cloze holding a formula alone while prose stays visible beside it, and stays silent on a solution's bare formula, on a formula clozed with its words, and on a line whose only prose sits inside the cloze; a line that keeps the formula alone carries the suppression its warning names.
 
 ## Topic-note reconciliation (mandatory)
 
@@ -599,9 +581,11 @@ After the dispatched skill completes:
 
 ### Humanizer pass
 
-Every edit to academic prose or flashcards gets the pass, not only an ingestion: a note created from a deck, a reconciliation, a card rewritten on request, a heading renamed, a one-line correction. Sweep the text that changed, after the edit and before `academic-lint`. Running the pass as you edit and batching several edits to the end of the run are both fine; skipping it is not. Work that reaches the user with unpassed prose or cards is unfinished.
+A child that has read the parent's reasoning certifies it instead of reading the file. The pass therefore runs in a fresh context: the child gets the file path, both skill paths, and the contract, and none of the parent's diagnosis, before-state, or diff. One child per file, at most two at once, with edit-based briefs: ten short edits per call, never "write the whole file". The child renames no heading, because a rename breaks the session anchors that point at it. The parent accepts the result only after comparing the card count, each card's `$...$` set, the heading text, the suppression list, and the whole diff.
 
-The pass is two skills in sequence: `academic-writing` first, then the `humanizer` skill, then `academic-lint`. Order comes first because it fixes the sequence the information arrives in, which sentence-level editing cannot fix: a paragraph reworded in the wrong order still reads wrong. The `humanizer` skill then does what it owns, the surface AI-writing patterns. Its instruction to rewrite the smallest span needed to fix a pattern is __superseded for reordering__, because in a misordered paragraph the smallest span is often the clause that was already fine. See [academic-writing](../academic-writing/SKILL.md).
+Every edit to academic prose or flashcards gets the pass, not only an ingestion: a note created from a deck, a reconciliation, a card rewritten on request, a one-line correction. Sweep the text that changed, after the edit and before `academic-lint`. Running the pass as you edit and batching several edits to the end of the run are both fine; skipping it is not. Work that reaches the user with unpassed prose or cards is unfinished.
+
+The pass is two skills in sequence: `academic-writing` first, then the `humanizer` skill, then `academic-lint`. Order comes first because it fixes the sequence the information arrives in, which sentence-level editing cannot fix: a paragraph reworded in the wrong order still reads wrong. The `humanizer` skill then does what it owns, the surface AI-writing patterns. Its instruction to rewrite the smallest span is __superseded twice over__: in a misordered paragraph the smallest span is often the clause that was already fine, and a span that repeats its neighbour is deleted rather than rewritten. See [academic-writing](../academic-writing/SKILL.md).
 
 Sweep prose and cards separately, because they fail differently. Verbatim text is out of scope and stays as it arrived: a question statement from an official paper, the body of a Wikipedia transclude, an instructor's own phrasing, and heading text that session entries link to. The pass covers what you write.
 
@@ -611,7 +595,7 @@ Agents and subagents must read both `SKILL.md` files before editing (`../academi
 
 #### Flashcard focus
 
-A card fails in a few recurring ways. A reader sees one card at a time, with no note, no prose and no sibling card, so a card leaning on any of those cannot be answered: it names its setting, its symbols and its object, and it drops the deixis. Its prompt gives the answer away, or a reader cannot answer it at all: rewrite the pair rather than trimming one half. Its answer restates the prompt, or trails a justification clause ("…, which holds because the copies are independent"). Its prompt is a label longer than the concept, where a question would do. It carries two ideas, which belong in two cards. It answers with an enumeration where it should name its slice on the prompt side (`the five born before 1790`, `before 1850`, `the curl equations`) and leave the rest to sibling cards (see "Enumeration cards" in `create-flashcards`).
+A card fails in a few recurring ways. A reader sees one card at a time, with no note, no prose and no sibling card, so a card leaning on any of those cannot be answered: it names its setting, its symbols and its object, and it drops the deixis. Its prompt gives the answer away, or a reader cannot answer it at all: rewrite the pair rather than trimming one half. Its answer restates the prompt, or trails a justification clause ("…, which holds because the copies are independent"). Its prompt is a label longer than the concept, where a question would do. It carries two ideas, which belong in two cards. It answers with an enumeration where it should name its slice on the prompt side (`the five born before 1790`, `before 1850`, `the curl equations`) and leave the rest to sibling cards (see "Enumeration cards" in `create-flashcards`). It leans on an acronym, an abbreviation, or a surname that the line itself never expands, and the viewer shows one line at a time, so the full form belongs on the card (see "Full forms on every card" in `create-flashcards`).
 
 The failure a pass must not create is a missing symbol. Cutting a prompt that drops a given or a piece of notation breaks the card instead of shortening it, and a calculation card names every quantity it combines. What is left should be a short prompt carrying its symbols, plus an answer of one or two clauses.
 
@@ -625,13 +609,19 @@ Leave the source's own emphasis alone: an instructor's "rare, difficult or even 
 
 Academic notes collect a handful of catalogue habits: rule-of-three lists padded to three items, "not only… but also", copula avoidance where "serves as" or "represents" stands in for "is", em dashes, bolded `**Term:** description` bullets, and over-bolded inline labels. Aim at the padded triad; a list of three real device types is content and stays.
 
-Three catalogue patterns do not apply here. Headings are already sentence case, notes carry no emoji, and heading text is frozen because session entries link to `#section%20anchors`, so a heading is never a humanizer target. Renaming, moving, or folding one belongs to the __section levelling pass__, which runs first and re-links the entries it invalidates (see "Section levelling pass" in `academic-crud-topic-note`). Accuracy beats style in every conflict: a card that loses a given to read more naturally is broken.
+Three catalogue patterns do not apply here. Headings are already sentence case, notes carry no emoji, and heading text is frozen because session entries link to `#section%20anchors`, so a heading is never a humanizer target. Renaming, moving, or folding one belongs to the __section levelling pass__, which runs first and re-links the entries it invalidates (see "Section levelling pass" in `academic-crud-topic-note`). Accuracy beats style in every conflict: a card that loses a given to read more naturally is broken, and an expansion collapsed into its acronym to save words loses a given too, because the full form is content, not padding.
 
 #### After the pass
 
 1. __Recheck suppressions.__ Cutting a prompt can strand a `two_sided_calc_warning` suppression with nothing to suppress (`academic-lint` errors on it), and restoring a symbol can create a warning that now needs one.
 2. __Report the card count.__ Merging duplicate cards is encouraged, but the count feeds the `Flashcards-now` commit trailer.
 3. __Re-read the file once.__ Heading text (session entries link to `#section%20anchors`), flashcard markup (`{@{ }@}`, `::@::`, `:@:`), LaTeX, links, pytextgen fences, and anything quoted verbatim from the source must be untouched.
+
+### Conciseness
+
+Delete a sentence that repeats its neighbour, a section that restates the lead, and an adjective that carries no measurement. Words removed against words added is the score, and removal has to win.
+
+Padding a sentence, or shredding one into fragments, to move a readability score is a worse defect than the one reported (see "Readability rules" in `academic-lint`). The score measures shape; the note's job is to teach.
 
 ## Skills dispatched to
 
@@ -645,8 +635,4 @@ Three catalogue patterns do not apply here. Headings are already sentence case, 
 | `AGENTS.md` | `academic-crud-agents` |
 | Wikipedia transcludes | `academic-crud-transcludes` |
 
-Attachment setup uses `academic-crud-attachments` as a post-classification helper for any target that includes raw files.
-
-Reading, judging, and verifying images uses `academic-vision` as a helper wherever the material carries pictures: page renders, embedded figures, attached crops, and the drawings the notes generate.
-
-Reading a linked video's content, deferring the ones without usable subtitles, and batching the request that gets them watched uses `academic-video` as a helper wherever the material carries a video link.
+Three helpers apply wherever the material calls for them: `academic-crud-attachments` for raw files, `academic-vision` for pictures (page renders, embedded figures, crops, generated drawings), and `academic-video` for a video link, whose transcript, deferral, and batched request it owns.

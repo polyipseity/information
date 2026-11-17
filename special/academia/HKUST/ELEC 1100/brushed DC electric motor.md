@@ -36,7 +36,7 @@ A motor converts electrical power (voltage $\times$ current) into mechanical pow
 
 Flashcards for this section are as follows:
 
-- motor energy conversion ::@:: Electrical power (voltage × current) → mechanical power (speed × torque). <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-05-14T10:03:19.859Z,334,333.77014777,1,2,7,0,0,2026-06-14T10:03:19.859Z!fsrs,2027-05-12T10:03:19.039Z,332,332.24027195,1,2,7,0,0,2026-06-14T10:03:19.039Z-->
+- motor energy conversion ::@:: Electrical power (voltage × current) → mechanical power (speed × torque). <!--SR:!fsrs,2027-05-14T10:03:19.859Z,334,333.77014777,1,2,7,0,0,2026-06-14T10:03:19.859Z!fsrs,2027-05-12T10:03:19.039Z,332,332.24027195,1,2,7,0,0,2026-06-14T10:03:19.039Z-->
 - motor applications ::@:: Vacuum cleaners, fans, pumps, manufacturing, cars, subway systems, and many others. <!--SR:!2027-02-17,259,330!2027-02-08,251,330-->
 
 ### classification by power source

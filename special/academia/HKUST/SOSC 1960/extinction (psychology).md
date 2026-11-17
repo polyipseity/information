@@ -25,7 +25,7 @@ Flashcards for this section are as follows:
 - what extinction does to a learned response ::@:: It inhibits the response rather than deleting the learning. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - the two effects that show extinction competing with the original learning ::@:: A rest with no exposure, and the cue turning up in a different context. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## the extinction procedure
+## extinction procedure
 
 A dog that learned to salivate at a bell hears the bell again and again with no meat. The bell produces nothing.
 

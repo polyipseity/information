@@ -8,7 +8,6 @@ tags:
   - language/in/English
 ---
 
-<!-- check: ignore-file[index_children]: no homework child pages have been archived yet -->
 
 # index
 

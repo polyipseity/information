@@ -10,7 +10,7 @@ tags:
 
 # dark pool
 
-A _dark pool_ is an alternative trading system (ATS) where all orders are completely hidden. Trades execute at the midpoint of the NBBO: if the NBO is 101 dollars and the NBB is 99 dollars, dark pool trades execute at 100 dollars.
+A _dark pool_ is an alternative trading system (ATS) where all orders are completely hidden. Trades execute at the midpoint of the national best bid and offer (NBBO): if the national best offer (NBO) is 101 dollars and the national best bid (NBB) is 99 dollars, dark pool trades execute at 100 dollars.
 
 Dark pools offer better prices than lit exchanges, but regulators worry about their volume share and effect on price discovery.
 
@@ -19,23 +19,23 @@ Dark pools offer better prices than lit exchanges, but regulators worry about th
 Flashcards for this section are as follows:
 
 - what a dark pool is ::@:: An alternative trading system where all orders are hidden. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- at what price dark pool trades execute ::@:: The midpoint of the NBBO. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- at what price dark pool trades execute ::@:: The midpoint of the national best bid and offer (NBBO). <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - regulatory concern about dark pools ::@:: Their volume share and potential harm to price discovery. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ## dark pools and price efficiency
 
-Zhu (2014, _Review of Financial Studies_) compares two worlds: a lit exchange with a dark pool, and a lit exchange alone. Informed traders learn the asset value and trade on it, contributing to price discovery. Noise traders buy and sell at random, driven by exogenous needs.
+Zhu (2014, _Review of Financial Studies_ (RFS)) compares two worlds: a lit exchange with a dark pool, and a lit exchange alone. Informed traders learn the asset value and trade on it, contributing to price discovery. Noise traders buy and sell at random, driven by exogenous needs.
 
-The asset value is either high ($v_H$) or low ($v_L$) and is not publicly observable. With a dark pool alongside the lit exchange, informativeness rises and the mean-squared error of the price relative to the true value falls.
+The asset value is either high ($v_H$) or low ($v_L$) and is not publicly observable. Adding the dark pool raises the informativeness of the price and lowers its mean-squared error against the true value. The two measures improve together because both read one thing: how close the price comes to the value. The dark pool reveals nothing itself, since its trades stay hidden and print at the midpoint. What changes is who trades where, because the price improvement it offers draws noise traders out of the lit book and leaves the informed orders a larger share of it.
 
 ---
 
 Flashcards for this section are as follows:
 
-- two worlds Zhu (2014) compares ::@:: A lit exchange with a dark pool, and a lit exchange alone. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- what informed traders do in Zhu's model ::@:: Learn the asset value and trade on it, contributing to price discovery. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- what noise traders do in Zhu's model ::@:: Buy and sell at random, driven by exogenous needs. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- two effects of dark pools on price efficiency ::@:: Price informativeness rises and mean-squared error of price relative to true value falls. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- which paper compares a lit exchange holding a dark pool against a lit exchange alone, with informed traders facing execution risk in the dark and migrating to the lit venue? ::@:: Haoxiang Zhu, 2014, Review of Financial Studies (RFS), the paper behind the dark-pool price-discovery result.
+- in the comparison of a lit exchange with a dark pool against a lit exchange alone, what informed traders do ::@:: Learn the asset value and trade on it, contributing to price discovery. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- in the comparison of a lit exchange with a dark pool against a lit exchange alone, what noise traders do ::@:: Buy and sell at random, driven by exogenous needs. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- two effects of a dark pool on price efficiency ::@:: The price becomes more informative about the true value, and its mean-squared error against that value falls. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ## price improvement versus execution risk
 

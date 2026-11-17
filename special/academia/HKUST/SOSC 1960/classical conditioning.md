@@ -17,7 +17,7 @@ Any stimulus an organism can perceive is capable of eliciting any reaction the o
 
 A consequence works the other way round: a reward or a punishment follows what the animal did and decides what the animal does next. [Classical and operant conditioning](operant%20conditioning.md#classical%20and%20operant%20conditioning) sets the two side by side.
 
-Pavlov arrived at conditioning from digestion. He was a physiologist. He shared the 1904 Nobel Prize in Physiology or Medicine. He diverted a dog's saliva into test tubes, which let him measure how much the dog produced. Trial after trial the dogs began salivating before the food reached them. The sight of the dish was enough, then the footsteps of Pavlov or his assistants. Metronomes, lights, and bells were stand-ins too. What mattered was reliable signalling that food was on the way, not the kind of stimulus.
+Ivan Pavlov arrived at conditioning from digestion. He was a physiologist. He shared the 1904 Nobel Prize in Physiology or Medicine. He diverted a dog's saliva into test tubes, which let him measure how much the dog produced. Trial after trial the dogs began salivating before the food reached them. The sight of the dish was enough, then the footsteps of Pavlov or his assistants. Metronomes, lights, and bells were stand-ins too. What mattered was reliable signalling that food was on the way, not the kind of stimulus.
 
 ---
 
@@ -28,14 +28,14 @@ Flashcards for this section are as follows:
 - the general claim about what a perceivable stimulus can do ::@:: Any stimulus an organism can perceive is capable of eliciting any reaction the organism is capable of making. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what follows from that general claim ::@:: Almost any sound, sight, or smell can shift muscle tension, mood, and attitude. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - how the other half of conditioning decides what an organism does next ::@:: By a consequence following what it did, rather than a signal announcing what is coming. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- what Pavlov was studying before conditioning ::@:: Digestion, not learning. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- the prize Pavlov shared ::@:: The 1904 Nobel Prize in Physiology or Medicine. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- what let Pavlov measure a dog's salivation exactly ::@:: Diverting the saliva into test tubes. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- what Ivan Pavlov was studying before conditioning ::@:: Digestion, not learning. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- the prize Ivan Pavlov shared ::@:: The 1904 Nobel Prize in Physiology or Medicine. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- what let Ivan Pavlov measure a dog's salivation exactly ::@:: Diverting the saliva into test tubes. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what the dogs began doing over repeated trials ::@:: Salivating before the food reached them. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - which non-food stimuli worked as stand-ins for food ::@:: Metronomes, lights, and bells. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what made a stimulus work as a stand-in ::@:: Its reliable signalling that food was on the way, not its kind. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## the four components
+## four components
 
 Meat makes a dog salivate, and a bell alone makes it do nothing, until the two are paired often enough.
 
@@ -63,6 +63,10 @@ A bell in a laboratory produces nothing. Meat produces salivation, as it has sin
 
 Other forms of conditioning sit beside this one, with the plain pairing in the first row.
 
+In a particular house, the shower water comes out very hot or very cold every time the toilet is flushed. The person steps back. Over time the step comes on the flush alone, before the water changes.
+
+The cue is usually a sound rather than a sight, and this arrangement is easy to find outside the laboratory. The flush is the conditioned stimulus. The temperature change it predicts is the unconditioned stimulus. The step back is the conditioned response, to a change that has not happened yet.
+
 ---
 
 Flashcards for this section are as follows:
@@ -75,17 +79,6 @@ Flashcards for this section are as follows:
 - the order a neutral stimulus and an unconditioned stimulus must come in ::@:: The neutral stimulus first, the unconditioned stimulus after it. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - ![a chart of the seven standard conditioning procedures (forward, simultaneous, second order, temporal, extinction, blocking and inhibition), each drawn as a pair of dog panels showing a stimulus beside a piece of food and then that stimulus on its own](attachments/Classical%20Conditioning.svg) ::@:: A chart of the standard conditioning procedures. The first row shows a light paired with a piece of food, then the same light alone with nothing happening. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - draw the chart of conditioning procedures: how many does it carry, and how is each drawn? ::@:: Seven, each as a pair of dog panels: a stimulus beside a piece of food, then that stimulus on its own, with the plain pairing in the first row. <p> ![a chart of the seven standard conditioning procedures (forward, simultaneous, second order, temporal, extinction, blocking and inhibition), each drawn as a pair of dog panels showing a stimulus beside a piece of food and then that stimulus on its own](attachments/Classical%20Conditioning.svg) <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-02-22T00:00:00.000Z,91,91.47185982,1,2,3,0,0,2026-11-23T00:00:00.000Z-->
-
-## a stimulus that predicts a temperature change
-
-In a particular house, the shower water comes out very hot or very cold every time the toilet is flushed. The person steps back. Over time the step comes on the flush alone, before the water changes.
-
-The cue is usually a sound rather than a sight, and this arrangement is easy to find outside the laboratory. The flush is the conditioned stimulus. The temperature change it predicts is the unconditioned stimulus. The step back is the conditioned response, to a change that has not happened yet.
-
----
-
-Flashcards for this section are as follows:
-
 - what a sound that reliably precedes a temperature change comes to do ::@:: A sound that reliably precedes a temperature change acquires the power to call up the step back the temperature change would have caused. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - the ordinary cue in a temperature example ::@:: A sound, the flush of a toilet. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - the conditioned stimulus in a temperature example ::@:: The flush itself, predicting the temperature change. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
@@ -109,7 +102,22 @@ Flashcards for this section are as follows:
 - what the inversion means ::@:: A cue that would once have calmed now raises the response it was paired with. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - how many pairings invert the meaning of the cue ::@:: As few as five or six. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## what conditioning generates
+## prediction error
+
+A pairing is necessary, but it is not enough on its own. Presenting a neutral stimulus before an unconditioned stimulus does not always produce an association. Something has to register that the outcome was not already predicted. A cue that adds nothing to what the organism already knows gets nothing attached to it. This is the [blocking effect](blocking%20effect.md), and it puts attention and surprise at the centre of the account.
+
+---
+
+Flashcards for this section are as follows:
+
+- what presenting a neutral stimulus before an unconditioned stimulus guarantees ::@:: A neutral stimulus presented before an unconditioned stimulus does not always form an association, because nothing registers when the outcome was already predicted. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- the relation between a pairing and the association it is meant to produce ::@:: Necessary, but not enough on its own. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- what has to register for an association to form ::@:: That the outcome was not already predicted. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- what happens to a cue that adds nothing to what the organism already knows ::@:: No association is attached to it. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- the effect that shows a pairing alone is not sufficient ::@:: The blocking effect. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- what sits at the centre of the account of what conditioning learns ::@:: Attention and surprise. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+
+## conditioning outcomes
 
 Conditioning does more than attach one response to one cue: the same cue can end up carrying several different responses, a liking or a disliking. Conditioning can underlie clinical conditions. What it cannot do is form an association from a pairing alone.
 
@@ -133,11 +141,38 @@ Flashcards for this section are as follows:
 - what decides whether conditioning produces a preference or an aversion ::@:: The sign of the unconditioned stimulus paired with the cue. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what an aversion conditioned onto a taste out of proportion to the number of pairings shows ::@:: Not every association needs many trials to form. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-### the conditions it underlies
+## applications
+
+Three places the same mechanism shows up: two clinical, one therapeutic.
+
+---
+
+Flashcards for this section are as follows:
+
+- what conditioning is applied to besides clinical conditions ::@:: Conditioning underlies phobias and panic disorder, opposes a drug's own effect, and supplies the treatment principle behind exposure. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+
+### fear conditioning in anxiety disorders
 
 Fear conditioning underlies panic disorder and phobias. A cue paired with something frightening comes to carry the fear on its own. The process is detailed in [phobia](phobia.md).
 
+---
+
+Flashcards for this section are as follows:
+
+- the clinical conditions fear conditioning underlies ::@:: Panic disorder and phobias. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- why a conditioned compensatory response matters for drug use ::@:: The body's response to withdrawal pain is itself conditioned. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+
+### drug cues and compensatory responses
+
 In drug use, conditioned compensatory responses oppose the effect of the drug. The body's response to withdrawal pain is itself conditioned, so cues associated with morphine make a person more sensitive to pain, not less.
+
+---
+
+Flashcards for this section are as follows:
+
+- what a conditioned compensatory response does in connection with morphine ::@:: It makes a person more sensitive to pain, not less, in response to cues associated with the drug. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+
+### exposure therapy
 
 A third application is therapeutic rather than clinical, and it motivates the study of extinction. Applied as a treatment, extinction may be helpful. It is the principle exposure therapy is built on.
 
@@ -145,26 +180,7 @@ A third application is therapeutic rather than clinical, and it motivates the st
 
 Flashcards for this section are as follows:
 
-- what conditioning is applied to besides clinical conditions ::@:: Conditioning underlies phobias and panic disorder, opposes a drug's own effect, and supplies the treatment principle behind exposure. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- the clinical conditions fear conditioning underlies ::@:: Panic disorder and phobias. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- why a conditioned compensatory response matters for drug use ::@:: The body's response to withdrawal pain is itself conditioned. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- what a conditioned compensatory response does in connection with morphine ::@:: It makes a person more sensitive to pain, not less, in response to cues associated with the drug. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - which application of extinction is described as helpful ::@:: The therapeutic one: extinction is the principle exposure therapy is built on. <!--SR:!fsrs,2026-12-27T00:00:00.000Z,39,38.90515015,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-
-### why a pairing alone is not enough
-
-A pairing is necessary, but it is not enough on its own. Presenting a neutral stimulus before an unconditioned stimulus does not always produce an association. Something has to register that the outcome was not already predicted. A cue that adds nothing to what the organism already knows gets nothing attached to it. This is the [blocking effect](blocking%20effect.md), and it puts attention and surprise at the centre of the account.
-
----
-
-Flashcards for this section are as follows:
-
-- what presenting a neutral stimulus before an unconditioned stimulus guarantees ::@:: A neutral stimulus presented before an unconditioned stimulus does not always form an association, because nothing registers when the outcome was already predicted. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- the relation between a pairing and the association it is meant to produce ::@:: Necessary, but not enough on its own. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- what has to register for an association to form ::@:: That the outcome was not already predicted. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- what happens to a cue that adds nothing to what the organism already knows ::@:: No association is attached to it. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- the effect that shows a pairing alone is not sufficient ::@:: The blocking effect. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- what sits at the centre of the account of what conditioning learns ::@:: Attention and surprise. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
 ## references
 

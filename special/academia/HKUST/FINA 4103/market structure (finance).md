@@ -22,9 +22,9 @@ Flashcards for this section are as follows:
 
 Markets differ along several axes: how fast they trade, how orders are matched and handled, how flexible and fungible the trading is, how much liquidity they carry, and how prices are set.
 
-Broadly, markets fall into three types: over-the-counter markets, fixing and auctions, and continuous trading with a central limit-order book.
+The three broad types are over-the-counter markets, fixing and auctions, and continuous trading with a central limit-order book. Whatever the type, a market is also either centralized, one exchange holding the book, or decentralized, with no central book at all.
 
-A pre-IPO stock is held by management, founders, and private investors rather than listed publicly, and changes hands by bilateral negotiation. A bond is auctioned in the primary market when it is first issued, then traded over the counter in the secondary market. One stock can also trade at venues that use different protocols, such as a dealer market and a double auction.
+A pre-IPO stock, one before its initial public offering (IPO), is held by management, founders, and private investors rather than listed publicly, and changes hands by bilateral negotiation. A bond is auctioned in the primary market when it is first issued, then traded over the counter in the secondary market. One stock can also trade at venues that use different protocols, such as a dealer market and a double auction.
 
 ---
 
@@ -32,11 +32,11 @@ Flashcards for this section are as follows:
 
 - axes along which markets differ ::@:: Trading speed, how orders are matched and handled, flexibility, fungibility, liquidity, and how prices are set. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - the three broad types of market ::@:: Over-the-counter markets, fixing and auctions, and continuous trading with a central limit-order book. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- how a pre-IPO stock is held and traded ::@:: Not publicly listed; held by management, founders, and private investors; changes hands by bilateral negotiation. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- how a pre-IPO stock, one before its initial public offering (IPO), is held and traded ::@:: Not publicly listed; held by management, founders, and private investors; changes hands by bilateral negotiation. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - how a bond is traded at each stage ::@:: Auctioned in the primary market on issue, then traded over the counter in the secondary market. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - how one stock can face different trading protocols ::@:: Different venues can use different protocols, such as a dealer market and a double auction. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## centralized markets
+### centralized markets
 
 In a centralized market, trading happens on a single exchange. Participants place orders into a limit-order book, and the book matches buyers with sellers by price and time. Search frictions are absent or very small, and the process is highly transparent. The trading structure of major stocks is centralized.
 
@@ -49,7 +49,7 @@ Flashcards for this section are as follows:
 - how visible the trading process is in a centralized market ::@:: Highly transparent. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - which assets trade in a centralized structure ::@:: Major stocks. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
-## decentralized markets
+### decentralized markets
 
 In a decentralized market there is no central book. Trading is over-the-counter and bilateral: a customer trades with a dealer, and dealers trade among themselves. Finding a counterparty costs a search-and-matching process, and that cost is what makes the market decentralized. The foreign exchange market is the standard example.
 
@@ -75,7 +75,7 @@ Flashcards for this section are as follows:
 
 ## exchange competition and fragmentation
 
-The United States has 16 stock exchanges registered with the SEC as national securities exchanges, alongside many alternative trading systems such as dark pools. An earlier venue breakdown, attributed to Cboe Global Markets, FINRA, and SIFMA estimates, counted 13 exchanges beside 33 equity alternative trading systems and over-the-counter venues.
+The United States has 16 stock exchanges registered with the Securities and Exchange Commission (SEC) as national securities exchanges, alongside many alternative trading systems such as dark pools. An earlier venue breakdown, attributed to Cboe Global Markets, FINRA, and SIFMA estimates, counted 13 exchanges beside 33 equity alternative trading systems and over-the-counter venues.
 
 Three families own most of them:
 
@@ -105,7 +105,7 @@ In 1998 the New York Stock Exchange held 52% of United States equity volume and 
 
 The SEC has promoted exchange competition on the premise that competition serves consumers, and the Securities Exchange Act of 1934 is one example. The rules that make that competition workable sit in Regulation National Market System, whose Rule 611 is the order protection rule. Explicit trading fees run at roughly 0.05 basis points, yet traders still pay large costs elsewhere.
 
-The premise predicts that execution prices fall. Budish, Lee, and Shims (2023, _Journal of Political Economy_) argue that trading fees should decline and become negligible, which is what is observed. The prediction holds because the services are identical. [Unlisted trading privileges](Unlisted%20Trading%20Privileges.md) make every listed stock available on every venue, and [Regulation NMS](Regulation%20NMS.md) requires the same execution everywhere. The result resembles Bertrand competition, in which sellers of an undifferentiated service drive its price down to cost.
+The premise predicts that execution prices fall. Budish, Lee, and Shim (2023, _Journal of Political Economy_ (JPE)) argue that trading fees should decline and become negligible, which is what is observed. The prediction holds because the services are identical. [Unlisted trading privileges](Unlisted%20Trading%20Privileges.md) make every listed stock available on every venue, and [Regulation NMS](Regulation%20NMS.md) requires the same execution everywhere. The result resembles Bertrand competition, in which sellers of an undifferentiated service drive its price down to cost. A fee at cost is what that competition predicts, so the near-zero fee is evidence for the model rather than a low price to read on its own. It measures only that no venue can charge above cost for execution: a venue that cannot earn there can still earn elsewhere.
 
 The revenue question is unresolved. Exchanges earn from market data, and a _Wall Street Journal_ report of 16 October 2018 described an SEC decision blocking higher fees for certain stock-market data. That blocked a growing source of revenue that had been offsetting the declining income from trading (Osipovich, Michaels, and Morgenson).
 
@@ -113,25 +113,26 @@ The revenue question is unresolved. Exchanges earn from market data, and a _Wall
 
 Flashcards for this section are as follows:
 
-- how many national securities exchanges the United States registers with the SEC ::@:: 16, plus many alternative trading systems such as dark pools. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- how many national securities exchanges the United States registers with the Securities and Exchange Commission (SEC) ::@:: 16, plus many alternative trading systems such as dark pools. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - composition of United States equity trading venues in the earlier breakdown ::@:: 13 exchanges, 33 equity alternative trading systems, and over-the-counter venues. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - the three families that own most United States exchanges, and their venues ::@:: Cboe with BYX, BZX, EDGA, and EDGX; NYSE with the New York Stock Exchange, Arca, American, and National; and Nasdaq with BX, PHLX, and the Nasdaq Stock Market. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - United States exchanges outside those families ::@:: The Chicago Stock Exchange and IEX. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - markets outside the United States and how their exchanges are organized ::@:: Hong Kong runs the Hong Kong Stock Exchange, the United Kingdom the London Stock Exchange, and Japan the Tokyo Stock Exchange; China's market is organized into A-shares and B-shares. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- example of the SEC's promotion of exchange competition ::@:: The Securities Exchange Act of 1934. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- example of the promotion of exchange competition by the Securities and Exchange Commission (SEC) ::@:: The Securities Exchange Act of 1934. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - rulebook that makes exchange competition workable ::@:: Regulation National Market System, whose order protection rule is Rule 611. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2026-12-27T00:00:00.000Z,39,38.90515015,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - explicit trading fees in the United States ::@:: Very small, roughly 0.05 basis points, while other trading costs stay high. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - United States equity market share of the NYSE and Nasdaq in 1998 ::@:: 52% and 40% respectively, with other exchanges taking 8%. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- largest United States equity trading venue in 2015 ::@:: The FINRA trade reporting facility, at 20.3%. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- largest United States equity trading venue in 2015 ::@:: The Financial Industry Regulatory Authority (FINRA) trade reporting facility, at 20.3%. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - source of the 1998 and 2015 venue shares ::@:: Credit Suisse Trading Strategy. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- what Budish, Lee, and Shims (2023) predict for trading fees ::@:: That they decline and become negligible, which is what is observed. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- why the exchanges' trade-execution services are identical ::@:: Unlisted trading privileges make every listed stock available everywhere, and Regulation NMS requires the same execution everywhere. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- which paper predicts exchange trading fees falling to negligible because every venue sells the same execution service, the Bertrand outcome observed in the United States? ::@:: Eric Budish, Robin S. Lee and John J. Shim, 2023, Journal of Political Economy (JPE), the paper behind the prediction that trading fees decline to negligible.
+- why the exchanges' trade-execution services are identical ::@:: Unlisted trading privileges make every listed stock available everywhere, and Regulation National Market System (NMS) requires the same execution everywhere. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - competition the United States exchange market resembles ::@:: Bertrand competition. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- where the revenue comes from once the fee is zero ::@:: Market data, whose fees the SEC declined to let the exchanges raise in October 2018. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- what a near-zero trading fee establishes and what it leaves unmeasured ::@:: It shows that no venue can charge above cost for an undifferentiated execution service; it does not show what an exchange earns in total or what a trader pays in other costs.
+- where the revenue comes from once the fee is zero ::@:: Market data, whose fees the Securities and Exchange Commission (SEC) declined to let the exchanges raise in October 2018. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
 ## electronic trading
 
-Information technology changed market structure. Electronic trading made execution faster and the process more transparent, and it moved pricing from a call auction to a limit-order book. AI has since spread across Wall Street, and the physical trading floor has gone.
+Information technology changed market structure. Electronic trading made execution faster and the process more transparent, and it moved pricing from a call auction to a limit-order book. Artificial intelligence (AI) has since spread across Wall Street, and the physical trading floor has gone.
 
 An engraving from 1879 shows a hall packed shoulder to shoulder with men in top hats and bowlers, arms raised, papers in hand, every one of them trading in person. The modern equivalent is a data centre: racks studded with status lights along a blue-lit aisle, and nobody in the room. Matching buyers and sellers no longer takes a room full of people.
 

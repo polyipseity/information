@@ -81,4 +81,4 @@ Use `[missing]` when a field or value is present but its content is unknown, una
 
 ## Tools in scripts/special/
 
-Academic converters (LMS export processors): `convert_canvas_submission.py`, `convert_hkust_zinc_submission.py`, `get_hkust_undergraduate_courses.py`. See the `tools` skill for workflows and interfaces. Preserve CLI interfaces, YAML output schemas, and CSV column structures across updates.
+Academic converters (LMS export processors): `convert_canvas_submission.py`, `convert_gradescope_submission.py`, `convert_hkust_zinc_submission.py`, `get_hkust_undergraduate_courses.py`. See the `tools` skill for workflows and interfaces. Preserve CLI interfaces, YAML output schemas, and CSV column structures across updates.

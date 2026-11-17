@@ -10,21 +10,21 @@ tags:
 
 # computing environments
 
-What an operating system looks like depends first and foremost on the target device, and each environment weights performance, fairness, usability, and time constraints differently. A shared mainframe, a personal workstation, a phone, an appliance, and a real-time controller are all computers, but they are not the same kind of computing environment.
+An operating system is shaped by the device it runs on. A mainframe, a workstation, a phone, an appliance and a real-time controller are all computers, yet each balances performance, fairness, usability and time limits differently.
 
-__Shared computers__ such as mainframes or minicomputers try to keep all users satisfied, balancing performance against fairness. __Individual systems__ such as workstations have dedicated resources, so performance matters more than fairness, though they may still use shared resources from servers.
+__Shared computers__ such as mainframes and minicomputers aim to satisfy every user, so they trade performance against fairness. __Individual systems__ such as workstations own their resources, so performance beats fairness, though they may use a shared server.
 
-__Mobile devices__ such as smartphones are resource constrained. They embed sensors alongside their processors, target specific interfaces such as touch screens or voice control such as Apple's Siri, and are optimized for usability and battery life.
+__Mobile devices__ such as smartphones have few resources and sensors beside the processor. Each offers one interface: a touch screen, or voice control such as Apple's Siri. The design targets usability and battery life.
 
-Devices with little or no user interface form another environment. In __embedded systems__ the operating system is pre-installed in ROM, inside air conditioners, toasters, automobiles, ships, and spacecraft. __Real-time systems__ go further and have strict time constraints. Computing delivered as a service is a further environment, recorded in [cloud computing](cloud%20computing.md).
+In embedded systems the operating system comes installed in read-only memory (ROM), on devices with little or no user interface: air conditioners, toasters, automobiles, ships and spacecraft. __Real-time systems__ must also keep to strict time limits. Computing sold as a service is another environment: [cloud computing](cloud%20computing.md).
 
 ---
 
 Flashcards for this section are as follows:
 
-- what determines the operating system's shape ::@:: It depends first and foremost on the target devices. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- shared computers ::@:: On mainframes and minicomputers the operating system tries to keep all users satisfied, balancing performance against fairness. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- individual systems ::@:: Workstations have dedicated resources, so performance matters more than fairness, although they may still use shared resources from servers. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- mobile devices ::@:: Smartphones and handhelds are resource constrained, embed different sensor types alongside their processors, target specific interfaces such as touch screens and voice control such as Apple's Siri, and are optimized for usability and battery life. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- embedded systems ::@:: Devices with little or no user interface run the operating system pre-installed in ROM, inside air conditioners, toasters, automobiles, ships, and spacecraft. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- real-time systems ::@:: Real-time systems have strict time constraints. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- what an operating system's shape follows ::@:: The device it runs on decides it. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- what a shared computer such as a mainframe balances ::@:: Performance against fairness, so that every user stays satisfied.
+- why performance beats fairness on a workstation ::@:: Workstations own their resources, though they may use a shared server. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- mobile devices such as smartphones ::@:: A smartphone has few resources and sensors beside its processor, and its design targets usability and battery life. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- where an embedded system keeps its operating system ::@:: Read-only memory (ROM), pre-installed on devices with little or no interface: air conditioners, toasters, automobiles, ships and spacecraft. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- what a real-time system must meet ::@:: Strict time limits on when work finishes. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->

@@ -10,41 +10,41 @@ tags:
 
 # monolithic kernel
 
-A monolithic kernel runs the entire operating system in kernel mode within a single address space. All functionality — process management, memory management, file systems, device drivers, networking — sits in one static binary. This design has a performance advantage: minimal overhead in the system-call interface, and fast intra-kernel communication through direct function calls rather than message passing.
+A monolithic kernel runs the whole operating system in kernel mode, in one address space. Process management, memory management, file systems, device drivers and networking share one static binary. System calls cost little, since parts call each other directly instead of passing messages.
 
 ---
 
 Flashcards for this section are as follows:
 
-- what a monolithic kernel is ::@:: An OS architecture in which the entire operating system runs in kernel mode in a single address space, with all functionality in one static binary. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- performance advantage of monolithic kernels ::@:: Minimal overhead in the system-call interface and fast intra-kernel communication through direct function calls, since everything runs in one address space. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- what a monolithic kernel is ::@:: An operating system (OS) architecture that runs everything in kernel mode, in one address space, as one static binary. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- performance advantage of monolithic kernels ::@:: System calls cost little, since one part of the kernel calls another directly and no message is sent. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ## original UNIX structure
 
-In traditional UNIX, the kernel consists of everything below the system-call interface and above the physical hardware: signal handling, terminal handling, character I/O, the file system, CPU scheduling, page replacement, demand paging, virtual memory, and device drivers for terminals, disks, and tapes. The hardware layer provides terminal controllers, device controllers, and memory controllers.
+In traditional UNIX the kernel covers everything between the system-call interface and the physical hardware. It handles signals, terminals, character input/output (I/O), the file system, and drivers for terminals, disks and tapes. It also runs central processing unit (CPU) scheduling, page replacement, demand paging and virtual memory. Below it, the hardware layer supplies terminal, device and memory controllers.
 
-UNIX initially had limited structuring due to hardware constraints. All functionality was placed into a single, static binary running in one address space: the monolithic structure. The kernel grew over the years as UNIX evolved, expanding its interfaces and device drivers.
+Hardware limits left early UNIX with little structure: everything went into one static binary in one address space. That is the monolithic structure. Interfaces and device drivers arrived as UNIX grew.
 
-All OS functionality combined into one level makes the system difficult to implement, debug, and maintain. Despite this, monolithic kernels remain in use in UNIX, Linux, and Windows for their speed and efficiency.
+Every operating system function at one level makes a system hard to implement, debug and maintain. UNIX, Linux and Windows still use monolithic kernels because they are fast.
 
 ---
 
 Flashcards for this section are as follows:
 
-- original UNIX kernel structure ::@:: The kernel consists of everything below the system-call interface and above the physical hardware: signals, I/O, file systems, CPU scheduling, memory management, and device drivers, all in a single address space. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- monolithic kernel drawback ::@:: Enormous functionality combined into one level makes the system difficult to implement, debug, and maintain. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- why monolithic kernels persist ::@:: Their speed and efficiency — direct function calls within one address space have minimal overhead — keep them in use in UNIX, Linux, and Windows. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- original UNIX kernel structure ::@:: Everything between the system-call interface and the hardware: signals, input/output (I/O), file systems, central processing unit (CPU) scheduling, memory and device drivers, all in one address space. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- monolithic kernel drawback ::@:: One level holding every operating system function makes a system hard to implement, debug and maintain. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- why monolithic kernels persist ::@:: Direct calls inside one address space cost little, so UNIX, Linux and Windows stay monolithic. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: Linux is a proper noun -->
 ## Linux system structure
 
-The Linux kernel is monolithic: it runs entirely in kernel mode in a single address space, with applications using glibc to reach the system-call interface.
+The Linux kernel is monolithic and runs entirely in kernel mode in one address space. Applications reach the system-call interface through glibc.
 
-Linux also has a modular design that allows the kernel to be modified at runtime through loadable kernel modules (LKMs), combining monolithic performance with the flexibility of adding functionality without recompiling the entire kernel.
+Linux is modular too. Loadable kernel modules (LKMs) add functions at runtime without recompiling everything, so the kernel keeps its monolithic speed.
 
 ---
 
 Flashcards for this section are as follows:
 
-- Linux kernel architecture ::@:: A monolithic kernel running in kernel mode in a single address space, with applications using glibc to reach the system-call interface. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- Linux modularity ::@:: Despite being monolithic, Linux uses loadable kernel modules to add functionality at runtime, combining monolithic performance with modular flexibility. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- Linux kernel architecture ::@:: A monolithic kernel running in kernel mode in one address space, with applications reaching the system-call interface through glibc. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- Linux modularity ::@:: Loadable kernel modules (LKMs) add functions at runtime without a rebuild, so Linux keeps monolithic speed. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->

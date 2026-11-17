@@ -20,7 +20,7 @@ Flashcards for this section are as follows:
 - what a paraphrase is for ::@:: It makes a source part of your own argument. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - what the other half of the credit is ::@:: A citation that says where the idea came from. <!--SR:!fsrs,2026-12-27T00:00:00.000Z,39,38.90515015,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## what paraphrasing is
+## definition
 
 Swapping a few words while keeping the source's sentences leaves the phrasing the source's. That is plagiarism, cited or not.
 
@@ -40,7 +40,7 @@ Flashcards for this section are as follows:
 - what the Baylor cellphone study reports about relationships ::@:: Cellphone distraction during time with a significant other lowers that person's satisfaction with the relationship. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what else the Baylor cellphone study reports ::@:: Cellphone distraction can also increase feelings of depression and lower well-being. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
-## how to paraphrase
+## procedure
 
 Read the passage until you have digested it. Note three to six keywords or short phrases that carry the idea. Then put the original away. Drafting with it in view drags your wording back towards the source's. Write from the keywords, or from how you would explain it to a friend.
 

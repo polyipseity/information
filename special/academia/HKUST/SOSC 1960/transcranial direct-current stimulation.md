@@ -15,9 +15,9 @@ Transcranial direct-current stimulation passes a mild electrical current directl
 
 Flashcards for this section are as follows:
 
-- what transcranial direct-current stimulation does ::@:: It passes a mild electrical current directly through a brain area by placing small electrodes on the skull over that area. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- what transcranial direct-current stimulation does ::@:: It sends a mild current through one brain area. Small electrodes on the skull over that area carry it. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## how it differs from TMS
+## contrast with magnetic stimulation
 
 [Transcranial magnetic stimulation](transcranial%20magnetic%20stimulation.md) reaches the brain by induction: a brief magnetic pulse applied to the head sets up a weak electrical current inside the head. Direct-current stimulation skips that step and uses the current itself.
 
@@ -27,12 +27,12 @@ The second difference is duration. Direct-current stimulation drives one brain a
 
 Flashcards for this section are as follows:
 
-- how transcranial magnetic stimulation reaches the brain ::@:: A brief magnetic pulse applied to the head induces a weak electrical current inside it. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- how transcranial direct-current stimulation reaches the brain ::@:: It uses the electrical current directly, through small electrodes on the skull over the area being tested. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- how transcranial magnetic stimulation reaches the brain ::@:: A brief magnetic pulse to the head sets up a weak current inside it. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- how transcranial direct-current stimulation reaches the brain ::@:: It uses the current itself, through small electrodes on the skull over the area under test. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - how strong the current in direct-current stimulation is ::@:: No stronger than an AA battery. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- what the duration difference between the two methods means ::@:: The two are not interchangeable: one covers a sustained state, the other an event. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- what the duration difference between the two methods means ::@:: The two do not swap. One covers a sustained state, the other an event. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## what it has been used for
+## applications
 
 Direct-current stimulation has been shown to improve performance across a range of cognitive functions: mathematical ability, memory, attention, and coordination. It is paired with cognitive training rather than used alone, so what improves is the training exercise running on top of it.
 
@@ -41,7 +41,7 @@ Direct-current stimulation has been shown to improve performance across a range 
 Flashcards for this section are as follows:
 
 - the cognitive functions direct-current stimulation has improved alongside training ::@:: Mathematical ability, memory, attention, and coordination. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- what direct-current stimulation is paired with ::@:: Cognitive training, so what improves is the training exercise running on top of it. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- what direct-current stimulation is paired with ::@:: Cognitive training. What improves is the training exercise running on top of it. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
 ## references
 

@@ -20,7 +20,7 @@ Flashcards for this section are as follows:
 - what kind of error confounding is ::@:: A systematic error. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - why a confounded association is still real ::@:: The pattern in the data is genuine, but it does not show that one variable causes the other. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## what makes a variable a confounder
+## conditions for a confounder
 
 Three conditions make a variable a confounder.
 
@@ -42,7 +42,7 @@ Flashcards for this section are as follows:
 - where a confounder sits ::@:: Outside the mechanism, so hold it constant. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - where a mediator sits ::@:: Inside the mechanism, so holding it constant blocks the effect. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## a third variable behind an association
+## third variables
 
 Charitable giving and reported happiness rise together. Wealth makes generous spending possible, and it makes people report more happiness. It links the two, so neither causes the other. A correlational design cannot separate the third variable from the two it moves with; [a correlation does not imply causation](correlation%20does%20not%20imply%20causation.md) generalizes the point.
 

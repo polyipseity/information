@@ -25,7 +25,7 @@ Flashcards for this section are as follows:
 
 ## prism and the thermometer
 
-In 1880, Sir William Herschel split sunlight with a prism and placed a thermometer in each colour of the resulting spectrum, reading the temperature each colour produced. He wanted to compare the heating power of the colours and expected nothing remarkable.
+In 1800, Sir William Herschel split sunlight with a prism and placed a thermometer in each colour of the resulting spectrum, reading the temperature each colour produced. He wanted to compare the heating power of the colours and expected nothing remarkable.
 
 The thermometer read highest in the red region and lowest in the blue, both as expected. The reading that did not fit the expectation came from past the red, where no light is visible. A thermometer there should have read lower than in any visible colour.
 
@@ -33,8 +33,8 @@ The thermometer read highest in the red region and lowest in the blue, both as e
 
 Flashcards for this section are as follows:
 
-- the year and the person behind the prism-and-thermometer discovery of the infrared ::@:: 1880, Sir William Herschel, who split sunlight with a prism and read a thermometer in each colour. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- what Herschel was measuring, and why ::@:: The temperature each colour of sunlight produced at the thermometer, to compare the heating power of the colours. He expected nothing remarkable. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- the year and the person behind the prism-and-thermometer discovery of the infrared ::@:: 1800, Sir William Herschel, who split sunlight with a prism and read a thermometer in each colour. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- what Sir William Herschel was measuring, and why ::@:: The temperature each colour of sunlight produced at the thermometer, to compare the heating power of the colours. He expected nothing remarkable. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - which end of the visible spectrum gave the highest thermometer reading, and which the lowest ::@:: The red region read highest, the blue region lowest. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - the reading a thermometer should have given past the red, where no light is visible ::@:: Lower than in any visible colour. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
@@ -52,6 +52,6 @@ Flashcards for this section are as follows:
 
 - the reading just past the red edge, against the reading in the red itself ::@:: Higher than in the red, and higher still the further along the spectrum he moved. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - why a rising thermometer reading where no light is visible shows that energy is arriving ::@:: Something is delivering energy in a region the eye cannot see, so the radiation there is invisible rather than absent. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- Herschel's conclusion from the reading past the red edge ::@:: That there must be an invisible form of light beyond the visible spectrum. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- Sir William Herschel's conclusion from the reading past the red edge ::@:: That there must be an invisible form of light beyond the visible spectrum. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - infrared against ultraviolet: how the two were found ::@:: Both were inferred from a detector reading outside the visible rather than seen. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - the eye against a bolometer and a semiconductor detector ::@:: The eye responds only where light is visible. The other two respond to some other effect of the radiation, so they reach bands the eye misses. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->

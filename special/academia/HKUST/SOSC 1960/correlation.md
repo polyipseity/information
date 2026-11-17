@@ -19,7 +19,7 @@ Flashcards for this section are as follows:
 - what a correlational design is ::@:: A correlational design measures two variables and reports how far they go together, without intervening in either. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what a correlational design cannot report ::@:: Which of the two variables came first. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## what a correlational design measures
+## variables measured
 
 In one study, people reported how much they gave to others or to charity, then how happy they were. The more they gave, the happier they said they were.
 
@@ -34,7 +34,7 @@ Flashcards for this section are as follows:
 - how many measures one design pairs from the same people ::@:: Only two at a time. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what a third variable measured at the same time is ::@:: A rival explanation, not extra information. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## the correlation coefficient
+## correlation coefficient
 
 One number summarizes the association between the two variables: the correlation coefficient $r$, which runs from $-1$ to $1$.
 

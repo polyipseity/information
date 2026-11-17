@@ -19,7 +19,7 @@ Flashcards for this section are as follows:
 - how far psychology has progressed against biology and physics ::@:: It has explained less so far. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what the discoveries so far give reason to expect ::@:: That scientific psychology will benefit humanity. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
-## what science is
+## scientific method
 
 Ancient people explained solar eclipses and thunderstorms with magic. People with a scientific bent work the same puzzles out by testing and observation. Mixing vinegar with baking soda to watch the reaction is one such method. Empirical methods pick the physical and biological world apart.
 

@@ -13,7 +13,7 @@ Neurons run current, and each throws off a magnetic field. Magnetoencephalograph
 
 Field lines pass through skull and scalp largely unchanged, but an electrical signal is distorted by the same tissue. The reading points at the source, not smeared across the head. Timing resolves to about 1 ms, the same as [electroencephalography](electroencephalography.md). Location resolves to about 2 mm. The analysis is close, and both are often recorded together.
 
-A magnetoencephalography machine carries from a few to several hundred sensors. The machine and its shielded room cost far more than an EEG cap, so far fewer places own one.
+A magnetoencephalography machine carries from a few to several hundred sensors. The machine and its shielded room cost far more than an electroencephalogram (EEG) cap, so far fewer places own one.
 
 ---
 
@@ -28,7 +28,7 @@ Flashcards for this section are as follows:
 - the spatial resolution of magnetoencephalography ::@:: About 2 mm. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - how magnetoencephalography analysis compares with electroencephalography analysis ::@:: Closely. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - the range of sensors a magnetoencephalography machine may carry ::@:: From a few to several hundred. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- why the method is less widely available than an electroencephalogram ::@:: The machine and its shielded room cost far more than an EEG cap, so far fewer places own one. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- why the method is less widely available than an electroencephalogram ::@:: The machine and its shielded room cost far more than an electroencephalogram (EEG) cap, so far fewer places own one. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
 ## references
 

@@ -25,7 +25,7 @@ tags:
 > 2. Let readers know the financial positions of the reporting entity.
 > 3. Let readers make informed business decisions.
 >
-> - solution: {@{3}@}
+> - solution: {@{3. Let readers make informed business decisions.}@}
 > - explanation: {@{The ultimate goal of both 1 and 2 is 3.}@} <!--SR:!2030-10-05,1677,330!2029-09-25,1420,350-->
 
 <!-- markdownlint MD028 -->
@@ -36,8 +36,8 @@ tags:
 > 2. People rely on and trust their services and work done.
 > 3. They have passed professional examinations.
 >
-> - solution: {@{3}@}
-> - explanation: {@{One essential property of professions is that there are barriers to entry. 3 is a barrier to entry, while 1 and 2 are consequences of 3.}@} <!--SR:!2029-03-10,1269,350!2028-07-06,1074,350-->
+> - solution: {@{3. They have passed professional examinations.}@}
+> - explanation: One essential property of professions is {@{that there are barriers to entry}@}. {@{3 is a barrier to entry}@}, while {@{1 and 2 are consequences of 3}@}. <!--SR:!2029-03-10,1269,350!2028-07-06,1074,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -47,7 +47,7 @@ tags:
 > 2. ethical behavior
 > 3. both of them are
 >
-> - solution: {@{3}@} <!--SR:!2028-12-06,1197,350-->
+> - solution: {@{3. both of them are}@} <!--SR:!2027-07-05,764,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -57,7 +57,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{1}@} <!--SR:!2027-07-31,790,330-->
+> - solution: {@{1. income statement}@} <!--SR:!2030-02-10,1491,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -67,7 +67,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{2}@} <!--SR:!2029-04-28,1306,350-->
+> - solution: {@{2. balance sheet}@} <!--SR:!2029-08-22,1392,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -77,7 +77,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{3}@} <!--SR:!2027-01-06,635,330-->
+> - solution: {@{3. statement of cash flow}@} <!--SR:!2032-08-06,2256,401-->
 
 <!-- markdownlint MD028 -->
 
@@ -87,7 +87,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{2}@} <!--SR:!2027-04-07,712,330-->
+> - solution: {@{2. balance sheet}@} <!--SR:!2030-06-05,1633,362-->
 
 <!-- markdownlint MD028 -->
 
@@ -97,7 +97,8 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{3, since most investing activities involve instantaneous transfer of cash}@} <!--SR:!2029-08-24,1300,310-->
+> - solution: {@{3. statement of cash flow}@} <!--SR:!fsrs,2032-03-21T00:00:00.000Z,2094,2093.57484669,1,2,10,0,0,2026-06-27T00:00:00.000Z-->
+> - explanation: {@{Most investing activities involve an instantaneous transfer of cash}@} <!--SR:!2029-08-24,1300,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -107,7 +108,7 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{2}@} <!--SR:!2029-08-22,1392,350-->
+> - solution: {@{2. balance sheet}@} <!--SR:!2029-04-08,1303,362-->
 
 <!-- markdownlint MD028 -->
 
@@ -117,7 +118,8 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{3, since most procurements involve instantaneous transfer of cash}@} <!--SR:!fsrs,2032-03-14T00:00:00.000Z,2016,2015.83279071,1,2,10,0,0,2026-09-06T00:00:00.000Z-->
+> - solution: {@{3. statement of cash flow}@} <!--SR:!2032-07-02,2226,401-->
+> - explanation: {@{Most procurements involve an instantaneous transfer of cash}@} <!--SR:!fsrs,2032-03-14T00:00:00.000Z,2016,2015.83279071,1,2,10,0,0,2026-09-06T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -127,7 +129,8 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{1, and also 3 if the revenues earned involve instantaneous transfer of cash}@} <!--SR:!2029-04-15,1298,350-->
+> - solution: {@{1. income statement and 3. statement of cash flow}@}
+> - explanation: {@{The revenues earned also reach the statement of cash flow when they involve an instantaneous transfer of cash}@} <!--SR:!2029-04-15,1298,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -137,7 +140,8 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{2, and also 3 if the unearned revenues involve instantaneous transfer of cash}@} <!--SR:!2027-06-27,723,330-->
+> - solution: {@{2. balance sheet and 3. statement of cash flow}@}
+> - explanation: {@{The unearned revenues also reach the statement of cash flow when they involve an instantaneous transfer of cash}@} <!--SR:!2027-06-27,723,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -147,8 +151,8 @@ tags:
 > 2. balance sheet
 > 3. statement of cash flow
 >
-> - solution: {@{2, 3}@}
-> - explanation: {@{1 is not included in the answer because lending money from others is neither a revenue nor an expense, so it is definitely not included in the income statement.}@} <!--SR:!2028-07-20,1083,350!2028-02-09,960,350-->
+> - solution: {@{2. balance sheet and 3. statement of cash flow}@}
+> - explanation: {@{1 is not included in the answer}@} because {@{lending money from others is neither a revenue nor an expense}@}, so it is {@{definitely not included in the income statement}@}. <!--SR:!2028-07-20,1083,350!2028-02-09,960,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -158,7 +162,7 @@ tags:
 > 2. statement of cash flow
 > 3. both of them
 >
-> - solution: {@{3}@} <!--SR:!2027-07-05,764,330-->
+> - solution: {@{3. both of them}@} <!--SR:!2028-12-06,1197,350-->
 
 ## week 2 review
 
@@ -168,8 +172,8 @@ tags:
 > 2. faithful representation of underlying transaction
 > 3. separate entity
 >
-> - solution: {@{2}@}
-> - explanation: {@{1 is important, but not satisfying it only changes the accounting basis. 3 is also important, but not satisfying it only makes the financial statement improper. 2 is the most important one, as not satisfying it means financial statements can be deceptive, misleading others in their decision making.}@} <!--SR:!2030-04-11,1588,362!2030-03-08,1562,362-->
+> - solution: {@{2. faithful representation of underlying transaction}@}
+> - explanation: 1 is important, but {@{not satisfying it only changes the accounting basis}@}. 3 is also important, but {@{not satisfying it only makes the financial statement improper}@}. 2 is the most important one, as {@{not satisfying it means financial statements can be deceptive, misleading others in their decision making}@}. <!--SR:!2030-04-11,1588,362!2030-03-08,1562,362-->
 
 <!-- markdownlint MD028 -->
 
@@ -179,8 +183,8 @@ tags:
 > 2. liquidity preference
 > 3. alphabetical order of asset captions
 >
-> - solution: {@{2}@}
-> - explanation: {@{The standards require it. Note that GAAP generally requires decreasing liquidity for both assets and liabilities, while IFRS requires increasing liquidity for both assets and liabilities.}@} <!--SR:!2030-03-15,1568,362!2029-04-14,1308,362-->
+> - solution: {@{2. liquidity preference}@} <!--SR:!fsrs,2032-01-05T02:06:01.570Z,2037,2036.92992657,1,2,10,0,0,2026-06-08T02:06:01.570Z-->
+> - explanation: The standards {@{require it}@}. Note that {@{GAAP generally requires decreasing liquidity for both assets and liabilities}@}, while {@{IFRS requires increasing liquidity for both assets and liabilities}@}. <!--SR:!2030-03-15,1568,362!2029-04-14,1308,362-->
 
 <!-- markdownlint MD028 -->
 
@@ -190,8 +194,8 @@ tags:
 > 2. alphabetical order of liability account captions
 > 3. maturity preference
 >
-> - solution: {@{3}@}
-> - explanation: {@{The standards require it. Maturity is a measure of how soon the liability is due, analogous to how mature crops are then harvested.}@} <!--SR:!2029-10-04,1444,362!2030-05-30,1628,362-->
+> - solution: {@{3. maturity preference}@} <!--SR:!fsrs,2032-01-30T10:15:18.623Z,2056,2055.74852146,1,2,10,0,0,2026-06-14T10:15:18.623Z-->
+> - explanation: The standards {@{require it}@}. Maturity is {@{a measure of how soon the liability is due}@}, analogous to {@{how mature crops are then harvested}@}. <!--SR:!2029-10-04,1444,362!2030-05-30,1628,362-->
 
 <!-- markdownlint MD028 -->
 
@@ -201,7 +205,7 @@ tags:
 > 2. Asset + Liabilities = Stockholders' Equity
 > 3. Asset - Liabilities = Stockholders' Equity
 >
-> - solution: {@{2}@} <!--SR:!2030-06-05,1633,362-->
+> - solution: {@{2. Asset + Liabilities = Stockholders' Equity}@}
 
 <!-- markdownlint MD028 -->
 
@@ -211,8 +215,8 @@ tags:
 > 2. transaction analysis → posting to the ledger → adjusting the accounts
 > 3. transaction analysis → add journal entries → posting to the ledger
 >
-> - solution: {@{3}@}
-> - explanation: {@{Note that for 2, adjusting the accounts is only done at the end of a reporting period, but an accounting cycle is simply recording the transactions after a much shorter period.}@} <!--SR:!2027-09-22,773,322!2029-08-12,1345,322-->
+> - solution: {@{3. transaction analysis → add journal entries → posting to the ledger}@}
+> - explanation: Note that for 2, {@{adjusting the accounts is only done at the end of a reporting period}@}, but {@{an accounting cycle is simply recording the transactions after a much shorter period}@}. <!--SR:!2027-09-22,773,322!2029-08-12,1345,322-->
 
 <!-- markdownlint MD028 -->
 
@@ -222,7 +226,7 @@ tags:
 > 2. Current Assets / Current Liabilities
 > 3. Net Income / Current Assets
 >
-> - solution: {@{2}@} <!--SR:!2029-04-08,1303,362-->
+> - solution: {@{2. Current Assets / Current Liabilities}@} <!--SR:!fsrs,2032-02-18T00:00:00.000Z,2069,2069.32583277,1,2,10,0,0,2026-06-20T00:00:00.000Z-->
 
 ## week 3 review
 
@@ -232,7 +236,7 @@ tags:
 > 2. income from provision of services
 > 3. income from principal business activities
 >
-> - solution: {@{3}@}
+> - solution: {@{3. income from principal business activities}@}
 > - explanation: {@{The other 2 are included in 3 already.}@} <!--SR:!fsrs,2032-01-05T02:05:48.201Z,2037,2036.92992657,1,2,10,0,0,2026-06-08T02:05:48.201Z!2032-08-07,2256,401-->
 
 <!-- markdownlint MD028 -->
@@ -243,7 +247,7 @@ tags:
 > 2. interest from money lent to debtors
 > 3. income from peripheral activities
 >
-> - solution: {@{3}@}
+> - solution: {@{3. income from peripheral activities}@} <!--SR:!fsrs,2032-04-15T00:00:00.000Z,2114,2113.75154719,1,2,10,0,0,2026-07-02T00:00:00.000Z-->
 > - explanation: {@{The other 2 are included in 3 already.}@} <!--SR:!fsrs,2032-01-01T02:05:52.775Z,2033,2032.87519052,1,2,10,0,0,2026-06-08T02:05:52.775Z!2032-07-22,2242,401-->
 
 <!-- markdownlint MD028 -->
@@ -254,7 +258,7 @@ tags:
 > 2. Cash based accounting
 > 3. Both of them would
 >
-> - solution: {@{1}@} <!--SR:!fsrs,2032-05-17T00:00:00.000Z,2138,2137.92680333,1,2,10,0,0,2026-07-10T00:00:00.000Z-->
+> - solution: {@{1. Accrual accounting}@} <!--SR:!fsrs,2032-02-23T00:00:00.000Z,2073,2073.37029021,1,2,10,0,0,2026-06-21T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -264,7 +268,7 @@ tags:
 > 2. Seller discharged all the obligations under contract
 > 3. Seller received the cash from customers
 >
-> - solution: {@{2}@} <!--SR:!fsrs,2031-12-26T01:45:59.798Z,2029,2028.81925912,1,2,10,0,0,2026-06-06T01:45:59.798Z-->
+> - solution: {@{2. Seller discharged all the obligations under contract}@}
 
 <!-- markdownlint MD028 -->
 
@@ -274,7 +278,7 @@ tags:
 > 2. Buyer of goods acknowledged receipt of merchandise or consumed fully the underlying services
 > 3. At the moment the entity paid out the cash
 >
-> - solution: {@{2}@} <!--SR:!2029-03-15,1239,381-->
+> - solution: {@{2. Buyer of goods acknowledged receipt of merchandise or consumed fully the underlying services}@}
 
 <!-- markdownlint MD028 -->
 
@@ -284,8 +288,8 @@ tags:
 > 2. Normally, the bigger the better and expresses as a fraction
 > 3. Normally, the smaller the better
 >
-> - solution: {@{2}@}
-> - explanation: {@{For 1, it is extremely difficult for income from other activities to increase the net income so much that the net profit margin is at least 1...}@} <!--SR:!fsrs,2032-01-24T10:15:15.224Z,2050,2049.97605758,1,2,10,0,0,2026-06-14T10:15:15.224Z!fsrs,2032-04-25T00:00:00.000Z,2122,2121.81441071,1,2,10,0,0,2026-07-04T00:00:00.000Z-->
+> - solution: {@{2. Normally, the bigger the better and expresses as a fraction}@}
+> - explanation: For 1, it is {@{extremely difficult for income from other activities to increase the net income}@} so much that {@{the net profit margin is at least 1}@}... <!--SR:!fsrs,2032-01-24T10:15:15.224Z,2050,2049.97605758,1,2,10,0,0,2026-06-14T10:15:15.224Z!fsrs,2032-04-25T00:00:00.000Z,2122,2121.81441071,1,2,10,0,0,2026-07-04T00:00:00.000Z-->
 
 ## week 4 review
 
@@ -295,7 +299,7 @@ tags:
 > 2. after unadjusted trial balance, period end adjusting entries would give rise to the adjusted trial balance
 > 3. period end adjustments are part of account closing procedures
 >
-> - solution: {@{2}@}
+> - solution: {@{2. after unadjusted trial balance, period end adjusting entries would give rise to the adjusted trial balance}@}
 > - explanation: {@{For 3, account closing procedures involve zeroing out temporary accounts, but this requires adjusted balances in the first place.}@} <!--SR:!2032-07-27,2247,401!2027-12-15,849,361-->
 
 <!-- markdownlint MD028 -->
@@ -306,7 +310,7 @@ tags:
 > 2. to comply with legislation requirements from say, Companies Act
 > 3. none of the above
 >
-> - solution: {@{1}@}
+> - solution: {@{1. to update relevant account ledger balances, e.g., supplies consumption, deferred expenses etc.}@}
 > - explanation: {@{For 2, it should instead be to comply with GAAP or some other financial standards.}@} <!--SR:!fsrs,2032-05-22T00:00:00.000Z,2142,2141.95223489,1,2,10,0,0,2026-07-11T00:00:00.000Z!fsrs,2032-02-13T00:00:00.000Z,2065,2065.28037757,1,2,10,0,0,2026-06-19T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
@@ -317,7 +321,7 @@ tags:
 > 2. deferred revenue
 > 3. contractual liability
 >
-> - solution: {@{1}@}
+> - solution: {@{1. accrued revenue}@} <!--SR:!2030-03-02,1511,381-->
 > - explanation: {@{Trade receivables are receivables that are related to the principal business activities.}@} <!--SR:!fsrs,2032-03-31T00:00:00.000Z,2102,2101.64891634,1,2,10,0,0,2026-06-29T00:00:00.000Z!2030-08-08,1624,381-->
 
 <!-- markdownlint MD028 -->
@@ -328,7 +332,7 @@ tags:
 > 2. deferred revenue
 > 3. current asset
 >
-> - solution: {@{2}@} <!--SR:!fsrs,2032-02-23T00:00:00.000Z,2073,2073.37029021,1,2,10,0,0,2026-06-21T00:00:00.000Z-->
+> - solution: {@{2. deferred revenue}@} <!--SR:!fsrs,2032-02-23T00:00:00.000Z,2073,2073.37029021,1,2,10,0,0,2026-06-21T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -338,7 +342,7 @@ tags:
 > 2. deferred expense
 > 3. contractual liability
 >
-> - solution: {@{2}@} <!--SR:!fsrs,2032-05-27T00:00:00.000Z,2146,2145.97655349,1,2,10,0,0,2026-07-12T00:00:00.000Z-->
+> - solution: {@{2. deferred expense}@} <!--SR:!fsrs,2032-05-27T00:00:00.000Z,2146,2145.97655349,1,2,10,0,0,2026-07-12T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -348,7 +352,7 @@ tags:
 > 2. denotes how much net asset value is associated with one unit of common stock of a company
 > 3. represents the pre-tax income of a company
 >
-> - solution: {@{1}@} <!--SR:!fsrs,2032-02-05T03:38:23.674Z,2061,2061.23375242,1,2,10,0,0,2026-06-15T03:38:23.674Z-->
+> - solution: {@{1. measures the operating performance and profitability of a company}@}
 
 <!-- markdownlint MD028 -->
 
@@ -358,7 +362,7 @@ tags:
 > 2. net sales over period end total assets
 > 3. net sales over average total assets
 >
-> - solution: {@{3}@} <!--SR:!2027-10-11,810,361-->
+> - solution: {@{3. net sales over average total assets}@} <!--SR:!fsrs,2032-04-10T00:00:00.000Z,2110,2109.71841691,1,2,10,0,0,2026-07-01T00:00:00.000Z-->
 
 ## week 5 review
 
@@ -368,7 +372,7 @@ tags:
 > 2. when seller discharged its obligations under contracts
 > 3. when goods have been loaded on vessel under FOB destination shipping terms
 >
-> - solution: {@{2}@} <!--SR:!fsrs,2032-01-29T10:15:06.362Z,2055,2055.47106877,1,2,10,0,0,2026-06-14T10:15:06.362Z-->
+> - solution: {@{2. when seller discharged its obligations under contracts}@}
 
 <!-- markdownlint MD028 -->
 
@@ -378,7 +382,7 @@ tags:
 > 2. Cost of Goods Sold
 > 3. Sales discounts
 >
-> - solution: {@{2}@}
+> - solution: {@{2. Cost of Goods Sold}@} <!--SR:!2032-07-28,2247,401-->
 > - explanation: {@{It is not even in the equation...}@} <!--SR:!fsrs,2032-03-21T00:00:00.000Z,2094,2093.57484669,1,2,10,0,0,2026-06-27T00:00:00.000Z!fsrs,2032-04-05T00:00:00.000Z,2106,2105.68415047,1,2,10,0,0,2026-06-30T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
@@ -389,7 +393,7 @@ tags:
 > 2. installing operating system in a hardware device
 > 3. a three-year post-purchase unlimited mileage maintenance for motor vehicles offered by car manufacturer
 >
-> - solution: {@{3}@}
+> - solution: {@{3. a three-year post-purchase unlimited mileage maintenance for motor vehicles offered by car manufacturer}@}
 > - explanation: {@{The question is a bit worded-badly... It means determining if the example can be treated as a separate performance obligation.}@} <!--SR:!2027-12-09,843,361!fsrs,2032-05-27T00:00:00.000Z,2146,2145.97655349,1,2,10,0,0,2026-07-12T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
@@ -400,7 +404,7 @@ tags:
 > 2. by ageing of accounts receivable \(ageing analysis\)
 > 3. both of them could be used
 >
-> - solution: {@{3}@} <!--SR:!fsrs,2032-01-30T10:15:18.623Z,2056,2055.74852146,1,2,10,0,0,2026-06-14T10:15:18.623Z-->
+> - solution: {@{3. both of them could be used}@} <!--SR:!fsrs,2032-01-28T10:15:03.713Z,2054,2054.02485415,1,2,10,0,0,2026-06-14T10:15:03.713Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -410,7 +414,7 @@ tags:
 > 2. profitability ratio
 > 3. efficiency (activity) ratio
 >
-> - solution: {@{3}@} <!--SR:!2032-08-06,2256,401-->
+> - solution: {@{3. efficiency (activity) ratio}@} <!--SR:!fsrs,2032-03-04T00:00:00.000Z,2081,2081.45554851,1,2,10,0,0,2026-06-23T00:00:00.000Z-->
 
 ## week 7 review
 
@@ -420,8 +424,8 @@ tags:
 > 2. income statement
 > 3. both of them
 >
-> - solution: {@{3}@}
-> - explanation: {@{It affects the balance sheet because it affects asset "Inventory". It affects the income statement because it affects expense "Cost of goods sold".}@} <!--SR:!fsrs,2032-05-22T00:00:00.000Z,2142,2141.95223489,1,2,10,0,0,2026-07-11T00:00:00.000Z!fsrs,2032-04-10T00:00:00.000Z,2110,2109.71841691,1,2,10,0,0,2026-07-01T00:00:00.000Z-->
+> - solution: {@{3. both of them}@} <!--SR:!2027-01-06,635,330-->
+> - explanation: It affects {@{the balance sheet because it affects asset "Inventory"}@}. It affects {@{the income statement because it affects expense "Cost of goods sold"}@}. <!--SR:!fsrs,2032-05-22T00:00:00.000Z,2142,2141.95223489,1,2,10,0,0,2026-07-11T00:00:00.000Z!fsrs,2032-04-10T00:00:00.000Z,2110,2109.71841691,1,2,10,0,0,2026-07-01T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -431,7 +435,7 @@ tags:
 > 2. unsold inventories
 > 3. none of the above
 >
-> - solution: {@{1}@}
+> - solution: {@{1. goods sold to customers}@} <!--SR:!2030-06-13,1582,381-->
 > - explanation: {@{1 affects asset "Inventory". 2 is not directly considered when preparing the balance sheet: without 1, it alone does nothing.}@} <!--SR:!2029-03-29,1247,381!fsrs,2032-03-26T00:00:00.000Z,2098,2097.61236858,1,2,10,0,0,2026-06-28T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
@@ -442,7 +446,7 @@ tags:
 > 2. ending inventories
 > 3. all of the above
 >
-> - solution: {@{1}@}
+> - solution: {@{1. goods sold to customers}@} <!--SR:!2032-06-27,2221,401-->
 > - explanation: {@{1 affects expense "Cost of goods sold". 2 is not directly considered when preparing the income statement: without 1, it alone does nothing.}@} <!--SR:!fsrs,2032-03-09T00:00:00.000Z,2085,2085.49635471,1,2,10,0,0,2026-06-24T00:00:00.000Z!2032-08-07,2257,401-->
 
 <!-- markdownlint MD028 -->
@@ -453,7 +457,7 @@ tags:
 > 2. weighted average
 > 3. specific identification
 >
-> - solution: {@{3}@} <!--SR:!fsrs,2032-03-21T00:00:00.000Z,2094,2093.57484669,1,2,10,0,0,2026-06-27T00:00:00.000Z-->
+> - solution: {@{3. specific identification}@} <!--SR:!2032-06-23,2216,401-->
 
 <!-- markdownlint MD028 -->
 
@@ -463,7 +467,7 @@ tags:
 > 2. weighted average
 > 3. LIFO
 >
-> - solution: {@{2}@}
+> - solution: {@{2. weighted average}@} <!--SR:!fsrs,2032-01-29T10:15:06.362Z,2055,2055.47106877,1,2,10,0,0,2026-06-14T10:15:06.362Z-->
 > - explanation: {@{FIFO would also be acceptable. LIFO is unlikely, since supermarket has perishable goods, so older goods are physically sold first.}@} <!--SR:!fsrs,2032-04-15T00:00:00.000Z,2114,2113.75154719,1,2,10,0,0,2026-07-02T00:00:00.000Z!fsrs,2030-01-08T10:16:15.462Z,1304,1303.9323265,1,2,10,0,0,2026-06-14T10:16:15.462Z-->
 
 <!-- markdownlint MD028 -->
@@ -474,7 +478,7 @@ tags:
 > 2. weighted average
 > 3. LIFO
 >
-> - solution: {@{1}@} <!--SR:!fsrs,2032-01-28T10:16:17.381Z,2054,2054.02485415,1,2,10,0,0,2026-06-14T10:16:17.381Z-->
+> - solution: {@{1. FIFO}@} <!--SR:!2027-07-31,790,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -484,7 +488,7 @@ tags:
 > 2. the above principle requires company to adjust market value movements of its inventories left unsold
 > 3. the inventory value is determined by the selling price of the last transaction done at the end of the year
 >
-> - solution: {@{1}@} <!--SR:!fsrs,2032-01-28T10:15:19.440Z,2054,2054.30887136,1,2,10,0,0,2026-06-14T10:15:19.440Z-->
+> - solution: {@{1. inventory should be reported at the lower of its cost or the amount at which it can be sold, at end of the year}@}
 
 ## week 8 review
 
@@ -494,7 +498,7 @@ tags:
 > 2. to get expected return from such investment
 > 3. both of them are the reasons
 >
-> - solution: {@{3}@} <!--SR:!2032-07-02,2226,401-->
+> - solution: {@{3. both of them are the reasons}@} <!--SR:!fsrs,2032-05-02T00:00:00.000Z,2126,2125.84414965,1,2,10,0,0,2026-07-07T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -504,7 +508,7 @@ tags:
 > 2. a deferred interest expense
 > 3. it should not be an expense
 >
-> - solution: {@{3}@} <!--SR:!2032-06-23,2216,401-->
+> - solution: {@{3. it should not be an expense}@} <!--SR:!fsrs,2032-01-03T02:05:59.244Z,2035,2035.49152764,1,2,10,0,0,2026-06-08T02:05:59.244Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -514,7 +518,7 @@ tags:
 > 2. purchase price plus all other transaction costs necessary to get the capital assets operational
 > 3. purchase price plus financing charges and cash discounts
 >
-> - solution: {@{2}@} <!--SR:!2032-07-28,2247,401-->
+> - solution: {@{2. purchase price plus all other transaction costs necessary to get the capital assets operational}@}
 
 <!-- markdownlint MD028 -->
 
@@ -524,7 +528,7 @@ tags:
 > 2. Units-of-production
 > 3. Accelerated depreciation
 >
-> - solution: {@{1}@}
+> - solution: {@{1. Straight line}@} <!--SR:!fsrs,2032-01-28T10:16:17.381Z,2054,2054.02485415,1,2,10,0,0,2026-06-14T10:16:17.381Z-->
 > - explanation: {@{Why go complicated when you can go simple...? ^_^}@} <!--SR:!2030-08-01,1618,381!2032-08-05,2255,401-->
 
 <!-- markdownlint MD028 -->
@@ -535,7 +539,7 @@ tags:
 > 2. to find out the selling price of assets under disposal
 > 3. to find out whether the PPE's NBV is recoverable through estimated future cash flows
 >
-> - solution: {@{3}@} <!--SR:!2030-06-30,1610,381-->
+> - solution: {@{3. to find out whether the PPE's NBV is recoverable through estimated future cash flows}@}
 
 <!-- markdownlint MD028 -->
 
@@ -545,7 +549,7 @@ tags:
 > 2. how well a company is utilizing its fixed assets and resources
 > 3. the amount of capital that comes from debt
 >
-> - solution: {@{2}@} <!--SR:!fsrs,2032-01-05T02:06:01.570Z,2037,2036.92992657,1,2,10,0,0,2026-06-08T02:06:01.570Z-->
+> - solution: {@{2. how well a company is utilizing its fixed assets and resources}@}
 
 ## week 9 review
 
@@ -555,7 +559,7 @@ tags:
 > 2. Debt financing is borrowing obtained from creditors, it represents a liability to a company.
 > 3. Equity financing is riskier than debt.
 >
-> - solution: {@{2}@} <!--SR:!fsrs,2032-02-18T00:00:00.000Z,2069,2069.32583277,1,2,10,0,0,2026-06-20T00:00:00.000Z-->
+> - solution: {@{2. Debt financing is borrowing obtained from creditors, it represents a liability to a company.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -565,7 +569,7 @@ tags:
 > 2. Make a corresponding note disclosure
 > 3. Note disclosure is not required
 >
-> - solution: {@{2}@} <!--SR:!fsrs,2032-04-30T00:00:00.000Z,2126,2125.84414965,1,2,10,0,0,2026-07-05T00:00:00.000Z-->
+> - solution: {@{2. Make a corresponding note disclosure}@} <!--SR:!fsrs,2032-04-30T00:00:00.000Z,2126,2125.84414965,1,2,10,0,0,2026-07-05T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -575,7 +579,7 @@ tags:
 > 2. current assets divided by current liabilities
 > 3. current assets add current liabilities
 >
-> - solution: {@{1}@} <!--SR:!2030-03-02,1511,381-->
+> - solution: {@{1. current assets minus current liabilities}@} <!--SR:!fsrs,2032-03-16T00:00:00.000Z,2090,2089.53617638,1,2,10,0,0,2026-06-26T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -585,7 +589,7 @@ tags:
 > 2. Dr. Lease asset (ROU); Cr. Lease liability
 > 3. Both ways would do
 >
-> - solution: {@{1}@} <!--SR:!2030-02-10,1491,381-->
+> - solution: {@{1. Dr. Lease expense; Cr. Cash}@} <!--SR:!fsrs,2032-03-26T00:00:00.000Z,2098,2097.61236858,1,2,10,0,0,2026-06-28T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -595,7 +599,7 @@ tags:
 > 2. it carries only balance sheet effect
 > 3. it carries only income statement effect
 >
-> - solution: {@{1}@} <!--SR:!fsrs,2032-02-23T00:00:00.000Z,2073,2073.37029021,1,2,10,0,0,2026-06-21T00:00:00.000Z-->
+> - solution: {@{1. it carries both balance sheet and income statement effect}@}
 
 <!-- markdownlint MD028 -->
 
@@ -605,7 +609,7 @@ tags:
 > 2. A sum of money is worth more now than the same sum will be at a future date due to its earning potential
 > 3. Both of them are correct
 >
-> - solution: {@{3}@} <!--SR:!fsrs,2031-12-30T02:05:57.972Z,2031,2031.43671375,1,2,10,0,0,2026-06-08T02:05:57.972Z-->
+> - solution: {@{3. Both of them are correct}@} <!--SR:!2030-06-30,1610,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -615,7 +619,7 @@ tags:
 > 2. total supplier purchases / average accounts payable
 > 3. net sales / average accounts payable
 >
-> - solution: {@{2}@}
+> - solution: {@{2. total supplier purchases / average accounts payable}@}
 > - explanation: {@{Funny history... The book has 1 as the definition instead. Anyways, in the exam, use 2.}@} <!--SR:!fsrs,2032-04-30T00:00:00.000Z,2126,2125.84414965,1,2,10,0,0,2026-07-05T00:00:00.000Z!fsrs,2032-02-28T00:00:00.000Z,2077,2077.41341492,1,2,10,0,0,2026-06-22T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
@@ -626,7 +630,7 @@ tags:
 > 2. could also indicate the company is not reinvesting back into its business, which could result in a lower growth rate and lower earnings for the company in the long term
 > 3. both of them are relevant
 >
-> - solution: {@{3}@} <!--SR:!fsrs,2032-01-28T10:15:03.713Z,2054,2054.02485415,1,2,10,0,0,2026-06-14T10:15:03.713Z-->
+> - solution: {@{3. both of them are relevant}@} <!--SR:!fsrs,2031-12-30T02:05:57.972Z,2031,2031.43671375,1,2,10,0,0,2026-06-08T02:05:57.972Z-->
 
 ## week 10 review
 
@@ -636,7 +640,7 @@ tags:
 > 2. unissued shares
 > 3. maximum number of shares that can be issued or sold to the public (approved by government authorities)
 >
-> - solution: {@{3}@} <!--SR:!2029-04-23,1268,381-->
+> - solution: {@{3. maximum number of shares that can be issued or sold to the public (approved by government authorities)}@}
 
 <!-- markdownlint MD028 -->
 
@@ -646,7 +650,7 @@ tags:
 > 2. unissued shares
 > 3. authorized shares
 >
-> - solution: {@{1}@} <!--SR:!fsrs,2032-05-12T00:00:00.000Z,2134,2133.90042994,1,2,10,0,0,2026-07-09T00:00:00.000Z-->
+> - solution: {@{1. issued shares}@} <!--SR:!fsrs,2032-01-28T10:15:19.440Z,2054,2054.30887136,1,2,10,0,0,2026-06-14T10:15:19.440Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -656,7 +660,7 @@ tags:
 > 2. unissued shares
 > 3. authorized shares
 >
-> - solution: {@{2}@} <!--SR:!fsrs,2032-04-10T00:00:00.000Z,2110,2109.71841691,1,2,10,0,0,2026-07-01T00:00:00.000Z-->
+> - solution: {@{2. unissued shares}@} <!--SR:!fsrs,2031-12-26T01:45:59.798Z,2029,2028.81925912,1,2,10,0,0,2026-06-06T01:45:59.798Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -666,7 +670,7 @@ tags:
 > 2. treasury shares
 > 3. preferred shares
 >
-> - solution: {@{1}@} <!--SR:!2030-06-13,1582,381-->
+> - solution: {@{1. outstanding shares}@} <!--SR:!fsrs,2032-05-12T00:00:00.000Z,2134,2133.90042994,1,2,10,0,0,2026-07-09T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -676,7 +680,7 @@ tags:
 > 2. treasury shares
 > 3. ordinary shares or common stocks
 >
-> - solution: {@{2}@} <!--SR:!fsrs,2032-01-25T10:15:08.306Z,2051,2051.42269549,1,2,10,0,0,2026-06-14T10:15:08.306Z-->
+> - solution: {@{2. treasury shares}@} <!--SR:!2029-03-15,1239,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -686,7 +690,7 @@ tags:
 > 2. the legal capital required by the respective Companies Ordinance or Act
 > 3. all of the above
 >
-> - solution: {@{3}@} <!--SR:!fsrs,2032-03-04T00:00:00.000Z,2081,2081.45554851,1,2,10,0,0,2026-06-23T00:00:00.000Z-->
+> - solution: {@{3. all of the above}@} <!--SR:!2027-10-11,810,361-->
 
 <!-- markdownlint MD028 -->
 
@@ -696,7 +700,7 @@ tags:
 > 2. Dr. Dividend Expense; Cr. Cash/Bank
 > 3. Dr. Dividend (R/E); Cr. Common Stock
 >
-> - solution: {@{1}@}
+> - solution: {@{1. Dr. Dividend (R/E); Cr. Cash/Bank}@} <!--SR:!fsrs,2032-01-29T10:15:05.181Z,2055,2055.47106877,1,2,10,0,0,2026-06-14T10:15:05.181Z-->
 > - explanation: {@{Dividends are not expenses, by the definition of expense.}@} <!--SR:!2030-06-03,1575,381!fsrs,2032-03-09T00:00:00.000Z,2085,2085.49635471,1,2,10,0,0,2026-06-24T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
@@ -707,7 +711,7 @@ tags:
 > 2. stock splits change both the par value of each share and the total par value
 > 3. stock splits change only the par value of each share, but total par value remains unchanged
 >
-> - solution: {@{3}@} <!--SR:!fsrs,2032-01-03T02:05:59.244Z,2035,2035.49152764,1,2,10,0,0,2026-06-08T02:05:59.244Z-->
+> - solution: {@{3. stock splits change only the par value of each share, but total par value remains unchanged}@}
 
 <!-- markdownlint MD028 -->
 
@@ -717,7 +721,7 @@ tags:
 > 2. Preferred stock gives extra voting power to preferred stockholders in the Annual General Meeting
 > 3. They would like to exercise the voting power attached to preferred stocks in the Annual General Meeting
 >
-> - solution: {@{1}@} <!--SR:!2032-06-27,2221,401-->
+> - solution: {@{1. They prefer to have a fixed dividend rate, i.e., claim dividends prior to those common stockholders}@}
 
 <!-- markdownlint MD028 -->
 
@@ -727,8 +731,8 @@ tags:
 > 2. EPS
 > 3. Dividend Yield
 >
-> - solution: {@{2}@}
-> - explanation: {@{2 is the only one that does not involve market price per share. <p> \(Actually the professor uses "market-to-book ratio" oddly... Instead, "market ratio" is a better term.\)}@} <!--SR:!fsrs,2032-03-04T00:00:00.000Z,2081,2081.45554851,1,2,10,0,0,2026-06-23T00:00:00.000Z!2027-11-12,757,341-->
+> - solution: {@{2. EPS}@} <!--SR:!2029-04-28,1306,350-->
+> - explanation: {@{2 is the only one that does not involve}@} market price per share. <p> \(Actually the professor uses {@{"market-to-book ratio"}@} oddly... Instead, {@{"market ratio" is a better term}@}.\) <!--SR:!fsrs,2032-03-04T00:00:00.000Z,2081,2081.45554851,1,2,10,0,0,2026-06-23T00:00:00.000Z!2027-11-12,757,341-->
 
 ## week 12 review
 
@@ -738,7 +742,7 @@ tags:
 > 2. It is a key indicator of company's financial health
 > 3. Shareholders demand for the information
 >
-> - solution: {@{2}@}
+> - solution: {@{2. It is a key indicator of company's financial health}@}
 > - explanation: {@{1 and 3 are extensions of 2.}@} <!--SR:!fsrs,2032-03-31T00:00:00.000Z,2102,2101.64891634,1,2,10,0,0,2026-06-29T00:00:00.000Z!fsrs,2032-04-05T00:00:00.000Z,2106,2105.68415047,1,2,10,0,0,2026-06-30T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
@@ -749,7 +753,7 @@ tags:
 > 2. Cash Flow Statement is linked to Income Statement by Net Profit under Indirect Method.
 > 3. Both of them are relevant.
 >
-> - solution: {@{3}@} <!--SR:!fsrs,2032-05-02T00:00:00.000Z,2126,2125.84414965,1,2,10,0,0,2026-07-07T00:00:00.000Z-->
+> - solution: {@{3. Both of them are relevant.}@} <!--SR:!2029-04-23,1268,381-->
 
 <!-- markdownlint MD028 -->
 
@@ -759,7 +763,7 @@ tags:
 > 2. Cash in- and out-flows related to buy and sale of PPE and investments in shares or bonds of other companies
 > 3. Cash in- and out-flows related to external sources of financing, both debt and equity financing
 >
-> - solution: {@{1}@} <!--SR:!fsrs,2032-03-26T00:00:00.000Z,2098,2097.61236858,1,2,10,0,0,2026-06-28T00:00:00.000Z-->
+> - solution: {@{1. Cash in- and out-flows directly related to earnings from normal operations}@}
 
 <!-- markdownlint MD028 -->
 
@@ -769,7 +773,7 @@ tags:
 > 2. Cash in- and out-flows related to buy and sale of PPE and investments in shares or bonds of other companies
 > 3. Cash in- and out-flows related to external sources of financing, both debt and equity financing
 >
-> - solution: {@{2}@} <!--SR:!fsrs,2032-02-28T00:00:00.000Z,2077,2077.41341492,1,2,10,0,0,2026-06-22T00:00:00.000Z-->
+> - solution: {@{2. Cash in- and out-flows related to buy and sale of PPE and investments in shares or bonds of other companies}@}
 
 <!-- markdownlint MD028 -->
 
@@ -779,7 +783,7 @@ tags:
 > 2. Cash in- and out-flows related to buy and sale of PPE and investments in shares or bonds of other companies
 > 3. Cash in- and out-flows related to external sources of financing, both debt and equity financing
 >
-> - solution: {@{3}@} <!--SR:!fsrs,2032-04-15T00:00:00.000Z,2114,2113.75154719,1,2,10,0,0,2026-07-02T00:00:00.000Z-->
+> - solution: {@{3. Cash in- and out-flows related to external sources of financing, both debt and equity financing}@}
 
 <!-- markdownlint MD028 -->
 
@@ -789,7 +793,7 @@ tags:
 > 2. Negatively
 > 3. They are not related at all
 >
-> - solution: {@{1}@} <!--SR:!fsrs,2032-01-29T10:15:05.181Z,2055,2055.47106877,1,2,10,0,0,2026-06-14T10:15:05.181Z-->
+> - solution: {@{1. Positively}@} <!--SR:!fsrs,2032-05-17T00:00:00.000Z,2138,2137.92680333,1,2,10,0,0,2026-07-10T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -799,7 +803,7 @@ tags:
 > 2. Negatively
 > 3. They are not related at all
 >
-> - solution: {@{1}@} <!--SR:!fsrs,2032-03-16T00:00:00.000Z,2090,2089.53617638,1,2,10,0,0,2026-06-26T00:00:00.000Z-->
+> - solution: {@{1. Positively}@} <!--SR:!fsrs,2032-02-05T03:38:23.674Z,2061,2061.23375242,1,2,10,0,0,2026-06-15T03:38:23.674Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -809,7 +813,7 @@ tags:
 > 2. Negatively
 > 3. They are not related at all
 >
-> - solution: {@{2}@} <!--SR:!fsrs,2032-02-10T01:44:27.198Z,2065,2065.28037757,1,2,10,0,0,2026-06-16T01:44:27.198Z-->
+> - solution: {@{2. Negatively}@} <!--SR:!2027-04-07,712,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -819,7 +823,7 @@ tags:
 > 2. subtracted from the net income when we prepare cash flow statement using indirect method
 > 3. no adjustment is needed using indirect method
 >
-> - solution: {@{2}@} <!--SR:!fsrs,2032-03-16T00:00:00.000Z,2090,2089.53617638,1,2,10,0,0,2026-06-26T00:00:00.000Z-->
+> - solution: {@{2. subtracted from the net income when we prepare cash flow statement using indirect method}@}
 
 <!-- markdownlint MD028 -->
 
@@ -829,4 +833,4 @@ tags:
 > 2. subtracted from the net income when we prepare cash flow statement using indirect method
 > 3. no adjustment is needed using indirect method
 >
-> - solution: {@{1}@} <!--SR:!fsrs,2032-04-20T00:00:00.000Z,2118,2117.78354417,1,2,10,0,0,2026-07-03T00:00:00.000Z-->
+> - solution: {@{1. added to the net income when we prepare cash flow statement using indirect method}@}

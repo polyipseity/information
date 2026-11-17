@@ -19,7 +19,7 @@ Flashcards for this section are as follows:
 - the second naming scheme for the same structures ::@:: Telencephalon through myelencephalon, the names the structures carry as they form from the embryonic neural tube. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - where the complexity of brain structure shows ::@:: In one body carrying two naming schemes, with a third grouping that draws from both. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## the three major parts
+## three major parts
 
 The forebrain carries cognitive and motor processing. It holds the cerebral hemispheres and, tucked underneath them, the thalamus and hypothalamus. The midbrain sits between the forebrain and the hindbrain and serves vision, hearing, and the control of eye and body movement. The hindbrain carries the automatic work of keeping the body running.
 
@@ -41,7 +41,7 @@ Flashcards for this section are as follows:
 - draw the three naming schemes: which structures does each functional bracket span? ::@:: Forebrain, the cerebral hemispheres with the thalamus and hypothalamus; midbrain, the midbrain alone; hindbrain, the pons, cerebellum and medulla. <p> ![The mammalian brain named three ways: each structure box carries its embryological name, the forebrain bracket spans cerebral hemispheres with thalamus and hypothalamus, the midbrain bracket spans only the midbrain, and the hindbrain bracket spans pons, cerebellum and medulla, with a dashed outline over the thalamus, hypothalamus, midbrain, pons and medulla marked brain stem](attachments/brain_division_naming.svg) <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what all five embryological names in the figure end in ::@:: Encephalon, preceded by tel-, di-, mesen-, meten- or myelen-. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-16T00:00:00.000Z,54,54.28686185,1,2,3,0,0,2026-11-23T00:00:00.000Z-->
 
-## brain stem
+### brain stem
 
 The brain stem runs from the midbrain at the top, down through the pons, to the medulla at the bottom where it becomes the spinal cord. The medulla sets heart rate, breathing, and digestion, all of it without any instruction from us. The pons is a major relay between the cortex and the cerebellum, and it is also involved in sleep and dreaming. The midbrain takes visual and auditory information in.
 
@@ -62,7 +62,7 @@ Flashcards for this section are as follows:
 - what a stroke that reaches the medulla stops ::@:: Breathing. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what damage in the brain stem looks like ::@:: A function that stops rather than one that goes missing. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## cerebellum
+### cerebellum
 
 The cerebellum sits underneath the back of the cerebral hemispheres and is called the little brain because it looks like a smaller copy of the cerebrum. It coordinates fine movement, posture, and balance, estimates time, and keeps speech smooth. It holds about seventy percent of the brain's neurons, far more than its size would suggest.
 

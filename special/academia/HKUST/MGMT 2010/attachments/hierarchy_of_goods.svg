@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470">
+  <rect width="900" height="470" fill="#ffffff"/>
+  <text x="450.0" y="46" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="24" fill="#1a1a1a">Eudaimonia, the final, complete, and self-sufficient end</text>
+  <text x="450.0" y="76" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="16" fill="#4a4a4a">every other good is ranked by how well it serves that end</text>
+  <line x1="450.0" y1="96" x2="450.0" y2="156.0" stroke="#1a1a1a" stroke-width="2"/>
+  <polygon points="450.0,166.0 441.0,154.0 459.0,154.0" fill="#1a1a1a"/>
+  <rect x="130.0" y="170.0" width="640.0" height="84.0" rx="8" fill="#1f6fb2"/>
+  <text x="450.0" y="212.0" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff">Goods of the soul</text>
+  <text x="450.0" y="236.0" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="15" fill="#ffffff">intellectual and moral</text>
+  <rect x="130.0" y="264.0" width="640.0" height="84.0" rx="8" fill="#5b9ecb"/>
+  <text x="450.0" y="306.0" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff">Goods of the body</text>
+  <text x="450.0" y="330.0" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="15" fill="#ffffff">health</text>
+  <rect x="130.0" y="358.0" width="640.0" height="84.0" rx="8" fill="#a8c8de"/>
+  <text x="450.0" y="400.0" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="22" fill="#1a1a1a">External goods</text>
+  <text x="450.0" y="424.0" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="15" fill="#1a1a1a">wealth, friends, political standing</text>
+</svg>

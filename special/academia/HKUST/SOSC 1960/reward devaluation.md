@@ -10,7 +10,7 @@ tags:
 
 # reward devaluation
 
-A consequence can lose its worth while the behaviour that earns it, and the link to the consequence, go on untouched. This is the reinforcer devaluation effect.
+A consequence can lose its worth while the behaviour that earns it, and the link to the consequence, go on untouched. This is the reinforcer devaluation effect. Devalue the outcome and watch what the behaviour does: an action that stops was goal-directed, and one that carries on is a habit.
 
 ---
 
@@ -18,8 +18,9 @@ Flashcards for this section are as follows:
 
 - reinforcer devaluation effect ::@:: A consequence loses its worth to a subject while the behaviour that earns it goes on untouched. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what devaluation changes and what it leaves alone ::@:: Only the value the subject gives the outcome changes. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- the devaluation test, and what each result means ::@:: Devalue the outcome and watch the behaviour. One that stops was goal-directed, and one that carries on is a habit.
 
-## what weakens a reinforcer
+## ways a reinforcer weakens
 
 A consequence the subject comes to dislike on its own is worth less, and any behaviour built on it weakens. A consequence also loses worth when other outcomes are available, since the behaviour could earn one of those instead. A third loss comes when the action that earns it becomes a habit. The first two losses come from the reinforcer, the third from the action.
 
@@ -37,20 +38,27 @@ Flashcards for this section are as follows:
 - why a compelling consequence settles nothing ::@:: Once alternatives are equally available, a consequence that is compelling on its own settles nothing. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - how the choice between acts is settled ::@:: By comparing their consequences, as operant conditioning sets out. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## a habit stops responding to devaluation
+## goal-directed action
 
 Someone performs a goal-directed action because it still produces something they want, and stops when that outcome is devalued.
 
-Repeat an action often enough under stable conditions and it becomes a __habit__. The person then runs it without the goal in mind. The route is the same whatever the outcome is worth.
+---
 
-A habit depends on its own performance, not the outcome's value. The difference between the two shows what a behaviour is made of. It does not show that the behaviour is about a goal.
+Flashcards for this section are as follows:
+
+- goal-directed action ::@:: Someone performs a goal-directed action because it still produces something they want, and stops when that outcome is devalued. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+
+## habit
+
+Repeat an action often enough under stable conditions and it becomes a __habit__. The person then runs it without the goal in mind, and the route is the same whatever the outcome is worth.
+
+A habit depends on its own performance, not on the outcome's value. The difference between the two shows what a behaviour is made of, and it does not show that the behaviour is about a goal.
 
 ---
 
 Flashcards for this section are as follows:
 
 - what separates a goal-directed action from a habit ::@:: A goal-directed action stops when its outcome is devalued. An action repeated often enough becomes a habit, and devaluation no longer stops it. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- goal-directed action ::@:: Someone performs a goal-directed action because it still produces something they want, and stops when that outcome is devalued. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - habit ::@:: Someone performs it without the goal in mind, by the same route whatever the outcome is worth. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - the condition an action needs to become a habit ::@:: The action must be repeated often enough under stable conditions. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - the habit case, and why it is different ::@:: The habit case is a property of the action, not the reinforcer, so devaluation leaves it alone. <!--SR:!fsrs,2026-12-27T00:00:00.000Z,39,38.90515015,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->

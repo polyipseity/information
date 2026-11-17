@@ -17,30 +17,76 @@ The question blocks on this page summarize the _official practice problems for t
 
 - topics: convex combinations of probability measures; transformations of cumulative distribution functions; measurable bijections; transformation of continuous random variables.
 
-> Let $(\Omega,\mathcal{F})$ be a measurable space.
+> 1.a. Let $(\Omega,\mathcal{F})$ be a measurable space, and let $P_1$ and $P_2$ be probability measures on it. Show that, for $\lambda\in[0,1]$, the set function $Q_\lambda[A]=\lambda P_1[A]+(1-\lambda)P_2[A]$ is a probability measure on $(\Omega,\mathcal{F})$.
 >
-> - (a) Let $P_1$ and $P_2$ be probability measures on $(\Omega,\mathcal{F})$. Show that, for $\lambda\in[0,1]$, the set function $Q_\lambda[A]=\lambda P_1[A]+(1-\lambda)P_2[A]$ is a probability measure on $(\Omega,\mathcal{F})$.
-> - (b) Now let $\lambda<0$. Give an explicit example of $(\Omega,\mathcal{F})$ and two probability measures $P_1\neq P_2$ such that the same formula still defines a probability measure, or prove that this is impossible.
-> - (c) Suppose $F_1$ and $F_2$ are cumulative distribution functions. Decide whether $G_1=\tfrac12(F_1+F_2)$ and $G_2=\sqrt{F_1F_2}$ are cumulative distribution functions.
-> - (d) Assume now that $F_1(x)>0$ for all $x\in\mathbb{R}$. Decide, with proof or examples, whether $G_3=F_2/F_1$ is always a cumulative distribution function, never a cumulative distribution function, or sometimes but not always a cumulative distribution function.
+> ---
 >
-> Solution:
->
-> - (a) For $\lambda\in[0,1]$, the coefficients are {@{nonnegative and sum to $1$}@}. Hence {@{$Q_\lambda[A]\ge0$ for every $A\in\mathcal{F}$}@}, {@{normalization gives $Q_\lambda[\Omega]=\lambda P_1[\Omega]+(1-\lambda)P_2[\Omega]=1$}@}, and for pairwise disjoint $(A_j)$, {@{countable additivity is preserved because $Q_\lambda[\bigcup_jA_j]=\lambda\sum_jP_1[A_j]+(1-\lambda)\sum_jP_2[A_j]=\sum_jQ_\lambda[A_j]$}@}. Therefore {@{$Q_\lambda$ is a probability measure}@}.
-> - (b) It is {@{sometimes still possible when $\lambda<0$}@}. Take {@{$\Omega=\{0,1\}$, $\mathcal{F}=\mathcal{P}(\Omega)$, and $P_2(\{0\})=P_2(\{1\})=1/2$}@}, and choose any $\varepsilon$ such that {@{$0<\varepsilon\le1/(2|\lambda|)$, so the negative coefficient cannot make a singleton mass fall below $0$}@}. Define {@{$P_1(\{0\})=1/2+\varepsilon$ and $P_1(\{1\})=1/2-\varepsilon$}@}. Then {@{$Q_\lambda(\{0\})=1/2+\lambda\varepsilon$ and $Q_\lambda(\{1\})=1/2-\lambda\varepsilon$}@}, and since $|\lambda|\varepsilon$ satisfies {@{$|\lambda|\varepsilon\le1/2$, both values $1/2\pm\lambda\varepsilon$ lie in $[0,1]$ and are valid probabilities}@}. Thus $Q_\lambda$ is again {@{a probability measure even though $\lambda<0$ and $P_1\neq P_2$}@}.
-> - (c) Both are CDFs because each construction preserves {@{monotonicity, right continuity, and the endpoint limits $0$ at $-\infty$ and $1$ at $+\infty$}@}. For {@{$G_1=\tfrac12(F_1+F_2)$}@}, taking {@{an average of two nondecreasing right-continuous functions with limits $0$ and $1$ at $\pm\infty$ preserves all CDF axioms}@}. For {@{$G_2=\sqrt{F_1F_2}$}@}, $F_1F_2$ is {@{nondecreasing because both factors are nondecreasing in $[0,1]$}@}, and multiplication plus $x\mapsto\sqrt{x}$ preserve {@{right continuity and endpoint limits}@}. Hence {@{$G_1$ and $G_2$ are cumulative distribution functions}@}.
-> - (d) The correct choice is: {@{$F_2/F_1$ can be a CDF for some valid pairs $(F_1,F_2)$, but fails the CDF axioms for other pairs}@}. For a positive example, let {@{$F_1=\Phi$ be the standard normal CDF and set $F_2=\Phi^2$}@}; then {@{$u\mapsto u^2$ is increasing on $[0,1]$, so $F_2$ is a CDF and $G_3=F_2/F_1=\Phi$ is also a CDF}@}. For a negative example, take {@{$F_2=F_1$}@}; then {@{$G_3\equiv1$, which is not a CDF because its limit at $-\infty$ is $1$ instead of $0$}@}. So {@{$F_2/F_1$ can be a CDF in some cases, but it need not be one}@}. <!--SR:!fsrs,2027-08-09T00:00:00.000Z,376,375.79006458,1,2,7,0,0,2026-07-29T00:00:00.000Z!fsrs,2027-08-02T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-08-03T00:00:00.000Z,371,371.42624014,1,2,7,0,0,2026-07-28T00:00:00.000Z!fsrs,2027-07-28T00:00:00.000Z,354,353.89369807,1,2,7,0,0,2026-08-08T00:00:00.000Z!fsrs,2027-04-15T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-11T00:00:00.000Z!fsrs,2027-04-21T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-12T00:00:00.000Z!fsrs,2027-08-02T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-07-18T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-07-25T00:00:00.000Z!fsrs,2027-07-28T00:00:00.000Z,354,353.89369807,1,2,7,0,0,2026-08-08T00:00:00.000Z!fsrs,2027-05-08T00:00:00.000Z,296,295.72812302,1,2,7,0,0,2026-07-16T00:00:00.000Z!fsrs,2027-08-24T00:00:00.000Z,376,375.79006458,1,2,7,0,0,2026-08-13T00:00:00.000Z!fsrs,2027-06-05T00:00:00.000Z,321,321.346657,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-08-03T00:00:00.000Z,371,371.42624014,1,2,7,0,0,2026-07-28T00:00:00.000Z!fsrs,2027-08-02T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-08-24T00:00:00.000Z,376,375.79006458,1,2,7,0,0,2026-08-13T00:00:00.000Z!fsrs,2027-07-28T00:00:00.000Z,354,353.89369807,1,2,7,0,0,2026-08-08T00:00:00.000Z!fsrs,2027-08-24T00:00:00.000Z,376,375.79006458,1,2,7,0,0,2026-08-13T00:00:00.000Z!fsrs,2027-05-13T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-17T00:00:00.000Z!fsrs,2027-07-13T00:00:00.000Z,354,353.89369807,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-07-28T00:00:00.000Z,354,353.89369807,1,2,7,0,0,2026-08-08T00:00:00.000Z!fsrs,2027-07-28T00:00:00.000Z,354,353.89369807,1,2,7,0,0,2026-08-08T00:00:00.000Z!fsrs,2027-07-28T00:00:00.000Z,354,353.89369807,1,2,7,0,0,2026-08-08T00:00:00.000Z!fsrs,2027-04-10T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-10T00:00:00.000Z!fsrs,2027-08-02T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-07-29T00:00:00.000Z,367,367.05481843,1,2,7,0,0,2026-07-27T00:00:00.000Z-->
+> - solution: {@{$Q_\lambda$ is a probability measure}@}
+> - explanation: For $\lambda\in[0,1]$ the coefficients are {@{nonnegative and sum to $1$}@}. <br/>
+>     Nonnegativity gives {@{$Q_\lambda[A]\ge0$ for every $A\in\mathcal{F}$}@}, and {@{normalization gives $Q_\lambda[\Omega]=\lambda P_1[\Omega]+(1-\lambda)P_2[\Omega]=1$}@}. <br/>
+>     For pairwise disjoint $(A_j)$ {@{countable additivity carries over, since $Q_\lambda[\bigcup_jA_j]=\lambda\sum_jP_1[A_j]+(1-\lambda)\sum_jP_2[A_j]=\sum_jQ_\lambda[A_j]$}@}.
 
 <!-- markdownlint MD028 -->
 
-> Let $Y\colon(\Omega,\mathcal{F},P)\to(\mathbb{R},\mathcal{B}(\mathbb{R}))$ be a continuously distributed random variable.
+> 1.b. On the same measurable space, with two probability measures $P_1\neq P_2$, now let $\lambda<0$. Give an explicit example of $(\Omega,\mathcal{F})$ and of such a pair for which the same formula still defines a probability measure, or prove that this is impossible.
 >
-> - (a) Let $g\colon\mathbb{R}\to\mathbb{R}$ be a bijective $\mathcal{B}(\mathbb{R})$-$\mathcal{B}(\mathbb{R})$ measurable map. Can $g(Y)$ be a discrete random variable? Give a concrete example or prove why this is impossible.
-> - (b) For the rest of the problem, assume $Y$ has density $f_Y(y)=\dfrac{3}{(1+y)^4}\mathbf{1}_{(0,\infty)}(y)$. Calculate the cumulative distribution function and probability density function of $Z=(1+Y)^{-1}$.
-> - (c) Let $U=3Y$ if $Y\le1$ and $U=Y/3$ if $Y>1$. Calculate $P[U\ge1]$.
+> ---
 >
-> Solution:
+> - solution: {@{An example exists, so the formula can still define a probability measure}@}
+> - explanation: Take {@{$\Omega=\{0,1\}$, $\mathcal{F}=\mathcal{P}(\Omega)$, and $P_2(\{0\})=P_2(\{1\})=1/2$}@}, and pick any $\varepsilon$ with {@{$0<\varepsilon\le1/(2|\lambda|)$, so the negative coefficient cannot push a singleton mass below $0$}@}. <br/>
+>     Define {@{$P_1(\{0\})=1/2+\varepsilon$ and $P_1(\{1\})=1/2-\varepsilon$}@}. <br/>
+>     Then {@{$Q_\lambda(\{0\})=1/2+\lambda\varepsilon$ and $Q_\lambda(\{1\})=1/2-\lambda\varepsilon$}@}, and {@{$|\lambda|\varepsilon\le1/2$ keeps both values inside $[0,1]$}@}.
+
+<!-- markdownlint MD028 -->
+
+> 1.c. Suppose $F_1$ and $F_2$ are cumulative distribution functions. Decide whether $G_1=\tfrac12(F_1+F_2)$ and $G_2=\sqrt{F_1F_2}$ are cumulative distribution functions.
 >
-> - (a) No. If {@{$g(Y)$ were discrete}@}, then there would exist {@{a point $k\in\mathbb{R}$ with $P(g(Y)=k)>0$}@}. But since $g$ is {@{bijective, the event $\{g(Y)=k\}$ is exactly $\{Y=g^{-1}(k)\}$}@}, and a continuously distributed {@{random variable assigns probability $0$ to every singleton}@}. Hence {@{$P(g(Y)=k)=P(Y=g^{-1}(k))=0$}@}, a contradiction. So $g(Y)$ {@{cannot be discrete when $g$ is a measurable bijection and $Y$ is continuously distributed}@}.
-> - (b) First integrate the density of $Y$: {@{$F_Y(y)=0$ for $y\le0$, while for $y>0$ one has $F_Y(y)=\int_0^y\frac{3}{(1+t)^4}\,dt=1-\frac{1}{(1+y)^3}$}@}. Since {@{$Z=(1+Y)^{-1}$ and $Y>0$ imply $0<Z\le1$}@}, the CDF of $Z$ is {@{$F_Z(z)=0$ for $z\le0$ and $F_Z(z)=1$ for $z\ge1$}@}. For $0<z<1$, {@{the monotone transformation gives $Z\le z\iff Y\ge z^{-1}-1$, hence $F_Z(z)=P(Y\ge z^{-1}-1)=1-F_Y(z^{-1}-1)=z^3$}@}. Therefore {@{$F_Z(z)=z^3$ on $(0,1)$}@}, and differentiating yields {@{the density $f_Z(z)=3z^2\mathbf{1}_{(0,1)}(z)$}@}.
-> - (c) The event {@{$\{U\ge1\}$ splits according to the two branches of the definition of $U$}@}. On the $Y\le1$ branch, {@{$U=3Y$ so $U\ge1\iff Y\ge1/3$}@}; on the $Y>1$ branch, {@{$U=Y/3$ so $U\ge1\iff Y\ge3$}@}. So {@{$\{U\ge1\}=\{1/3\le Y\le1\}\cup\{Y\ge3\}$}@}. Using $F_Y$, {@{$F_Y(y)=1-(1+y)^{-3}$ for $y>0$ (and $0$ for $y\le0$)}@}, so {@{$P(1/3\le Y\le1)=\frac{19}{64}$ and $P(Y\ge3)=\frac{1}{64}$}@}. Hence {@{$P(U\ge1)=\frac{19}{64}+\frac{1}{64}=\frac{5}{16}$}@}. <!--SR:!fsrs,2027-06-06T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-08-01T00:00:00.000Z!fsrs,2027-08-02T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-08-02T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-08-02T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-08-24T00:00:00.000Z,376,375.79006458,1,2,7,0,0,2026-08-13T00:00:00.000Z!fsrs,2027-08-02T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-08-02T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-06-21T00:00:00.000Z,321,321.346657,1,2,7,0,0,2026-08-04T00:00:00.000Z!fsrs,2027-08-24T00:00:00.000Z,376,375.79006458,1,2,7,0,0,2026-08-13T00:00:00.000Z!fsrs,2027-08-02T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-08-24T00:00:00.000Z,376,375.79006458,1,2,7,0,0,2026-08-13T00:00:00.000Z!fsrs,2027-08-02T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-08-02T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-07-28T00:00:00.000Z,354,353.89369807,1,2,7,0,0,2026-08-08T00:00:00.000Z!fsrs,2027-07-24T00:00:00.000Z,363,362.67566332,1,2,7,0,0,2026-07-26T00:00:00.000Z!fsrs,2027-08-24T00:00:00.000Z,376,375.79006458,1,2,7,0,0,2026-08-13T00:00:00.000Z!fsrs,2027-05-18T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-18T00:00:00.000Z!fsrs,2027-07-28T00:00:00.000Z,354,353.89369807,1,2,7,0,0,2026-08-08T00:00:00.000Z!fsrs,2027-05-08T00:00:00.000Z,296,295.72812302,1,2,7,0,0,2026-07-16T00:00:00.000Z-->
+> ---
+>
+> - solution: {@{Both $G_1$ and $G_2$ are cumulative distribution functions}@}
+> - explanation: Each construction preserves {@{monotonicity, right continuity, and the endpoint limits $0$ at $-\infty$ and $1$ at $+\infty$}@}. <br/>
+>     For $G_1$ this is {@{an average of two nondecreasing right-continuous functions, which keeps the three CDF properties}@}. <br/>
+>     For $G_2$, the product $F_1F_2$ is {@{nondecreasing because both factors are nondecreasing and lie in $[0,1]$}@}, and {@{multiplying by a nondecreasing factor together with $x\mapsto\sqrt{x}$ keeps right continuity and the endpoint limits}@}.
+
+<!-- markdownlint MD028 -->
+
+> 1.d. Assume now that $F_1(x)>0$ for all $x\in\mathbb{R}$. Decide, with proof or examples, whether $G_3=F_2/F_1$ is always a cumulative distribution function, never a cumulative distribution function, or sometimes but not always a cumulative distribution function.
+>
+> ---
+>
+> - solution: {@{Sometimes, but not always}@}
+> - explanation: For a positive example take {@{$F_1=\Phi$, the standard normal CDF, and $F_2=\Phi^2$}@}; then {@{$u\mapsto u^2$ is increasing on $[0,1]$, so $F_2$ is a CDF and $G_3=F_2/F_1=\Phi$ is one too}@}. <br/> <!--SR:!fsrs,2027-08-09T00:00:00.000Z,376,375.79006458,1,2,7,0,0,2026-07-29T00:00:00.000Z!fsrs,2027-08-02T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-08-03T00:00:00.000Z,371,371.42624014,1,2,7,0,0,2026-07-28T00:00:00.000Z!fsrs,2027-07-28T00:00:00.000Z,354,353.89369807,1,2,7,0,0,2026-08-08T00:00:00.000Z!fsrs,2027-04-15T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-11T00:00:00.000Z!fsrs,2027-04-21T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-12T00:00:00.000Z!fsrs,2027-08-02T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-07-18T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-07-25T00:00:00.000Z!fsrs,2027-07-28T00:00:00.000Z,354,353.89369807,1,2,7,0,0,2026-08-08T00:00:00.000Z!fsrs,2027-05-08T00:00:00.000Z,296,295.72812302,1,2,7,0,0,2026-07-16T00:00:00.000Z!fsrs,2027-08-24T00:00:00.000Z,376,375.79006458,1,2,7,0,0,2026-08-13T00:00:00.000Z!fsrs,2027-06-05T00:00:00.000Z,321,321.346657,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-08-03T00:00:00.000Z,371,371.42624014,1,2,7,0,0,2026-07-28T00:00:00.000Z!fsrs,2027-08-02T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-08-24T00:00:00.000Z,376,375.79006458,1,2,7,0,0,2026-08-13T00:00:00.000Z!fsrs,2027-07-28T00:00:00.000Z,354,353.89369807,1,2,7,0,0,2026-08-08T00:00:00.000Z!fsrs,2027-08-24T00:00:00.000Z,376,375.79006458,1,2,7,0,0,2026-08-13T00:00:00.000Z!fsrs,2027-05-13T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-17T00:00:00.000Z!fsrs,2027-07-13T00:00:00.000Z,354,353.89369807,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-07-28T00:00:00.000Z,354,353.89369807,1,2,7,0,0,2026-08-08T00:00:00.000Z!fsrs,2027-07-28T00:00:00.000Z,354,353.89369807,1,2,7,0,0,2026-08-08T00:00:00.000Z!fsrs,2027-07-28T00:00:00.000Z,354,353.89369807,1,2,7,0,0,2026-08-08T00:00:00.000Z!fsrs,2027-04-10T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-10T00:00:00.000Z!fsrs,2027-08-02T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-07-29T00:00:00.000Z,367,367.05481843,1,2,7,0,0,2026-07-27T00:00:00.000Z-->
+>     For a negative example {@{take $F_2=F_1$}@}; then {@{$G_3\equiv1$, which fails because its limit at $-\infty$ is $1$ instead of $0$}@}.
+
+<!-- markdownlint MD028 -->
+
+> 2.a. Let $Y\colon(\Omega,\mathcal{F},P)\to(\mathbb{R},\mathcal{B}(\mathbb{R}))$ be a continuously distributed random variable, and let $g\colon\mathbb{R}\to\mathbb{R}$ be a bijective $\mathcal{B}(\mathbb{R})$-$\mathcal{B}(\mathbb{R})$ measurable map. Can $g(Y)$ be a discrete random variable? Give a concrete example or prove why this is impossible.
+>
+> ---
+>
+> - solution: {@{No, $g(Y)$ cannot be discrete}@}
+> - explanation: If $g(Y)$ were {@{discrete}@}, some point $k$ {@{would carry positive probability $P(g(Y)=k)>0$}@}. <br/>
+>     Bijectivity makes that event {@{exactly $\{Y=g^{-1}(k)\}$}@}, and continuous $Y$ {@{assigns probability $0$ to every singleton}@}. <br/>
+>     {@{So $P(g(Y)=k)=P(Y=g^{-1}(k))=0$}@}, which is {@{a contradiction}@}.
+
+<!-- markdownlint MD028 -->
+
+> 2.b. Let $Y$ have density $f_Y(y)=\dfrac{3}{(1+y)^4}\mathbf{1}_{(0,\infty)}(y)$. Calculate the cumulative distribution function and probability density function of $Z=(1+Y)^{-1}$.
+>
+> ---
+>
+> - solution: {@{$F_Z(z)=z^3$ on $(0,1)$ and $f_Z(z)=3z^2\mathbf{1}_{(0,1)}(z)$}@}
+> - explanation: Integrating the density of $Y$ {@{gives $F_Y(y)=0$ for $y\le0$ and $F_Y(y)=\int_0^y\frac{3}{(1+t)^4}\,dt=1-\frac{1}{(1+y)^3}$ for $y>0$}@}. <br/>
+>     Since {@{$Z=(1+Y)^{-1}$ with $Y>0$ gives $0<Z\le1$}@}, the CDF {@{satisfies $F_Z(z)=0$ for $z\le0$ and $F_Z(z)=1$ for $z\ge1$}@}. <br/>
+>     For $0<z<1$ {@{the monotone transformation gives $Z\le z\iff Y\ge z^{-1}-1$, so $F_Z(z)=1-F_Y(z^{-1}-1)=z^3$}@}. <br/>
+>     Differentiating {@{gives $f_Z(z)=3z^2$ on $(0,1)$}@}.
+
+<!-- markdownlint MD028 -->
+
+> 2.c. Let $Y$ have density $f_Y(y)=\dfrac{3}{(1+y)^4}\mathbf{1}_{(0,\infty)}(y)$, and let $U=3Y$ if $Y\le1$ and $U=Y/3$ if $Y>1$. Calculate $P[U\ge1]$.
+>
+> ---
+>
+> - solution: {@{$P[U\ge1]=\frac{5}{16}$}@}
+> - explanation: The event splits along {@{the two branches of the definition of $U$}@}: on $Y\le1$, {@{$U=3Y$ so $U\ge1\iff Y\ge1/3$}@}, and on $Y>1$, {@{$U=Y/3$ so $U\ge1\iff Y\ge3$}@}. <br/> <!--SR:!fsrs,2027-06-06T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-08-01T00:00:00.000Z!fsrs,2027-08-02T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-08-02T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-08-02T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-08-24T00:00:00.000Z,376,375.79006458,1,2,7,0,0,2026-08-13T00:00:00.000Z!fsrs,2027-08-02T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-08-02T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-06-21T00:00:00.000Z,321,321.346657,1,2,7,0,0,2026-08-04T00:00:00.000Z!fsrs,2027-08-24T00:00:00.000Z,376,375.79006458,1,2,7,0,0,2026-08-13T00:00:00.000Z!fsrs,2027-08-02T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-08-24T00:00:00.000Z,376,375.79006458,1,2,7,0,0,2026-08-13T00:00:00.000Z!fsrs,2027-08-02T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-08-02T00:00:00.000Z,358,358.28866288,1,2,7,0,0,2026-08-09T00:00:00.000Z!fsrs,2027-07-28T00:00:00.000Z,354,353.89369807,1,2,7,0,0,2026-08-08T00:00:00.000Z!fsrs,2027-07-24T00:00:00.000Z,363,362.67566332,1,2,7,0,0,2026-07-26T00:00:00.000Z!fsrs,2027-08-24T00:00:00.000Z,376,375.79006458,1,2,7,0,0,2026-08-13T00:00:00.000Z!fsrs,2027-05-18T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-18T00:00:00.000Z!fsrs,2027-07-28T00:00:00.000Z,354,353.89369807,1,2,7,0,0,2026-08-08T00:00:00.000Z!fsrs,2027-05-08T00:00:00.000Z,296,295.72812302,1,2,7,0,0,2026-07-16T00:00:00.000Z-->
+>     {@{Hence $\{U\ge1\}=\{1/3\le Y\le1\}\cup\{Y\ge3\}$}@}, and with {@{$F_Y(y)=1-(1+y)^{-3}$ for $y>0$}@} this gives {@{$P(1/3\le Y\le1)=\frac{19}{64}$ and $P(Y\ge3)=\frac{1}{64}$}@}.

@@ -49,7 +49,7 @@ tags:
 > 2. The selling price is $60&nbsp;000 if the transmission works, otherwise $55&nbsp;000.
 >
 > - solution: {@{1: repair and sell; 2: sell}@}
-> - explanation: {@{Do not consider the already spent $10&nbsp;000 as it is a sunk cost. Only consider the marginal profit, which is the selling price, perhaps subtracted by the repair cost if you decide to repair the transmission. The decision for which the marginal profit is higher is what you should do.}@} <!--SR:!2031-05-04,1829,330!2029-03-24,1274,350-->
+> - explanation: Do not consider {@{the already spent $10&nbsp;000 as it is a sunk cost}@}. Only consider {@{the marginal profit}@}, which is {@{the selling price, perhaps subtracted by the repair cost if you decide to repair the transmission}@}. The decision for which {@{the marginal profit is higher}@} is what you should do. <!--SR:!2031-05-04,1829,330!2029-03-24,1274,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -76,7 +76,7 @@ tags:
 > 4. none of the above
 >
 > - solution: {@{3 (_theoretically_, and 1 from _empirical_ studies)}@}
-> - explanation: {@{Seat belt makes one less likely to be seriously injured in accidents, but the drivers may drive faster because they feel "safer", compensating for the risk reduction. We do not know if the resulting risk is lower or higher than the resulting one _theoretically_. But from our _empirical_ studies (studies of having seat belt laws vs. not having seat belt laws in the real world), compulsory use of seat belt does reduce the no. of causality.}@} <!--SR:!2029-03-19,1270,350!2031-02-26,1762,330-->
+> - explanation: Seat belt makes one {@{less likely to be seriously injured in accidents}@}, but the drivers may {@{drive faster}@} because {@{they feel "safer", compensating for the risk reduction}@}. We do not know if {@{the resulting risk is lower or higher than the resulting one}@} _theoretically_. But from our _empirical_ studies (studies of {@{having seat belt laws vs. not having seat belt laws in the real world}@}), {@{compulsory use of seat belt does reduce the no. of causality}@}. <!--SR:!2029-03-19,1270,350!2031-02-26,1762,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -131,8 +131,8 @@ tags:
 > 3. his patience on consumption across time
 > 4. all of the above
 >
-> - solution: {@{4}@}
-> - explanation: {@{When making an investment, one will consider its cost (1), its return (2), its risk (3), and its time needed (3). Time needed affects the _present value_ (PV) of return in the future. For example, high political instability will severely affect (3).}@} <!--SR:!2029-06-24,1347,350!2027-10-29,844,330-->
+> - solution: {@{4}@} <!--SR:!2030-10-15,1688,394-->
+> - explanation: When making an investment, one will consider {@{its cost (1), its return (2), its risk (3), and its time needed (3)}@}. Time needed affects {@{the _present value_ (PV) of return in the future}@}. For example, {@{high political instability will severely affect (3)}@}. <!--SR:!2029-06-24,1347,350!2027-10-29,844,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -144,7 +144,7 @@ tags:
 > 4. all of the above
 >
 > - solution: {@{4}@}
-> - explanation: {@{If the production–possibility frontiers (PPFs) for X and Y are both linear, then full specialization in one of the goods will always lead to the lowest marginal (or equal) opportunity cost for both A and B. Their total output will be the _largest_. <p> Note that if the PPFs are nonlinear, then full specialization may not always produce the _largest_ total output, and may or may not lead to a _larger_ total output.}@} <!--SR:!2029-05-09,1309,350!2028-04-19,980,330-->
+> - explanation: If {@{the production–possibility frontiers (PPFs) for X and Y are both linear}@}, then {@{full specialization in one of the goods}@} will always lead to {@{the lowest marginal (or equal) opportunity cost for both A and B}@}. Their {@{total output will be the _largest_}@}. <p> Note that if {@{the PPFs are nonlinear}@}, then {@{full specialization may not always produce the _largest_ total output}@}, and {@{may or may not lead to a _larger_ total output}@}. <!--SR:!2029-05-09,1309,350!2028-04-19,980,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -166,7 +166,7 @@ tags:
 > 4. Teresa has CA in B and better specializes in B
 >
 > - solution: {@{4}@}
-> - explanation: {@{We only consider CA when thinking what to specialize. For Teresa, his/her opportunity cost for B is $$10 / 20 = 0.5~\text{A/B}$$, while that for Astor is $$30 / 30 = 1~\text{A/B}$$. So Teresa has CA in B and better specializes in B.}@} <!--SR:!2028-01-03,854,330!2029-09-08,1406,350-->
+> - explanation: We only consider {@{CA when thinking what to specialize}@}. For Teresa, {@{his/her opportunity cost for B is $$10 / 20 = 0.5~\text{A/B}$$}@}, while {@{that for Astor is $$30 / 30 = 1~\text{A/B}$$}@}. So {@{Teresa has CA in B and better specializes in B}@}. <!--SR:!2028-01-03,854,330!2029-09-08,1406,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -187,8 +187,8 @@ tags:
 > 3. Albert likes exchange and specialize in potato
 > 4. none of the above
 >
-> - solution: {@{2}@}
-> - explanation: {@{Consider the marginal (opportunity) costs for Albert if he specializes in meat: $$16 / 24 = 2 / 3~\mathrm{potato/meat}$$. Also consider that if he specializes in potato: $$24 / 16 = 1.5~\mathrm{meat/potato}$$. If the marginal cost is lower than the marginal benefit, then Albert will exchange. In this case, if he specializes in meat, his marginal cost of meat is 2/3 potatoes per meat, which is lower than the marginal benefit of 1 potato per meat (market price) in the market. So he will specialize in meat and likes exchange.}@} <!--SR:!fsrs,2032-07-05T00:00:00.000Z,2075,2074.86104671,1,2,10,0,0,2026-10-30T00:00:00.000Z!2028-01-20,911,330-->
+> - solution: {@{2}@} <!--SR:!2029-12-31,1475,376-->
+> - explanation: Consider {@{the marginal (opportunity) costs for Albert if he specializes in meat: $$16 / 24 = 2 / 3~\mathrm{potato/meat}\,.$$}@} Also consider that if he {@{specializes in potato: $$24 / 16 = 1.5~\mathrm{meat/potato}\,.$$}@} If {@{the marginal cost is lower than the marginal benefit}@}, then {@{Albert will exchange}@}. In this case, if {@{he specializes in meat}@}, his {@{marginal cost of meat is 2/3 potatoes per meat}@}, which is lower than {@{the marginal benefit of 1 potato per meat (market price) in the market}@}. So {@{he will specialize in meat and likes exchange}@}. <!--SR:!fsrs,2032-07-05T00:00:00.000Z,2075,2074.86104671,1,2,10,0,0,2026-10-30T00:00:00.000Z!2028-01-20,911,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -199,8 +199,8 @@ tags:
 > 3. (200 airplanes, 5000 cars) and (150 airplanes, 4000 cars)
 > 4. (300 airplanes, 25000 cars) and (200 airplanes, 40000 cars)
 >
-> - solution: {@{2}@}
-> - explanation: {@{Note that 100 cars is the marginal (opportunity) cost of an airplane. Thus, simply check if the change in airplane multiplied by -100 equals the change in cars.}@} <!--SR:!2029-07-06,1358,350!2029-10-19,1440,350-->
+> - solution: {@{2}@} <!--SR:!fsrs,2032-05-16T00:00:00.000Z,2134,2133.90042994,1,2,10,0,0,2026-07-13T00:00:00.000Z-->
+> - explanation: Note that {@{100 cars is the marginal (opportunity) cost of an airplane}@}. Thus, simply check if {@{the change in airplane multiplied by -100 equals the change in cars}@}. <!--SR:!2029-07-06,1358,350!2029-10-19,1440,350-->
 
 ### chapter 4 lecture
 
@@ -211,7 +211,7 @@ tags:
 > 3. how long it take to reach the equilibrium
 > 4. none of the above
 >
-> - solution: {@{2}@} <!--SR:!2029-12-31,1475,376-->
+> - solution: {@{2}@} <!--SR:!2030-10-06,1680,394-->
 
 <!-- markdownlint MD028 -->
 
@@ -222,8 +222,8 @@ tags:
 > 3. both demand and supply for A increase
 > 4. demand for A increases and supply for A decreases
 >
-> - solution: {@{3}@}
-> - explanation: {@{If demand increase, both equilibrium quantity and price increase. If supply increase, equilibrium quantity increase but equilibrium price decreases. If both happens at the same time at the right extents, then we can make it such that equilibrium quantity increase but equilibrium price remains unchanged.}@} <!--SR:!2031-09-14,2013,396!2030-03-29,1536,376-->
+> - solution: {@{3}@} <!--SR:!2032-05-23,2200,414-->
+> - explanation: If demand increase, {@{both equilibrium quantity and price increase}@}. If supply increase, {@{equilibrium quantity increase but equilibrium price decreases}@}. If {@{both happens at the same time at the right extents}@}, then {@{we can make it such that equilibrium quantity increase but equilibrium price remains unchanged}@}. <!--SR:!2031-09-14,2013,396!2030-03-29,1536,376-->
 
 <!-- markdownlint MD028 -->
 
@@ -278,7 +278,7 @@ tags:
 > 4. neither
 >
 > - solution: {@{3}@}
-> - explanation: {@{Tax burden depends on both the elasticities of the demand and supply curve. Since neither curves are very unlikely to be perfectly elastic in the real world, both sellers and consumers bear the tax burden. However, we cannot tell the distribution of tax burden unless we have more information.}@} <!--SR:!2032-10-13,2326,401!2032-05-29,2220,401-->
+> - explanation: Tax burden depends on {@{both the elasticities of the demand and supply curve}@}. Since neither {@{curves are very unlikely to be perfectly elastic in the real world}@}, both sellers and consumers {@{bear the tax burden}@}. However, we {@{cannot tell the distribution of tax burden}@} unless {@{we have more information}@}. <!--SR:!2032-10-13,2326,401!2032-05-29,2220,401-->
 
 <!-- markdownlint MD028 -->
 
@@ -310,7 +310,7 @@ tags:
 > 3. an increase in the fixed amount of liability insurance premiums that XYZ pays for its business
 > 4. both answers 1 and 3 are correct
 >
-> - solution: {@{4}@} <!--SR:!2030-10-15,1688,394-->
+> - solution: {@{4}@}
 
 ### chapter 14 lecture
 
@@ -321,7 +321,7 @@ tags:
 > 3. Marginal revenue can be calculated as total revenue divided by the quantity sold
 > 4. Only for competitive firms does average revenue equal marginal revenue
 >
-> - solution: {@{2}@} <!--SR:!fsrs,2032-05-16T00:00:00.000Z,2134,2133.90042994,1,2,10,0,0,2026-07-13T00:00:00.000Z-->
+> - solution: {@{2}@}
 
 ### chapter 15 lecture
 
@@ -332,7 +332,7 @@ tags:
 > 3. no effect on the profit-maximizing price or quantity
 > 4. possibly increase, decrease or not effect profit-maximizing price and quantity, depending on the elasticity of demand.
 >
-> - solution: {@{3}@} <!--SR:!2032-05-23,2200,414-->
+> - solution: {@{3}@}
 
 ### chapter 17 lecture
 
@@ -345,7 +345,7 @@ tags:
 > 3. Mary pays Cathy \$14 so that Mary can smoke.
 > 4. Cathy offers Mary \$15 not to smoke. Mary accepts and does not smoke.
 >
-> - solution: {@{2}@} <!--SR:!2030-10-06,1680,394-->
+> - solution: {@{2}@}
 
 ### chapter 11 lecture
 

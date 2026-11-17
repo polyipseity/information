@@ -24,7 +24,7 @@ Flashcards for this section are as follows:
 - why the lesions cannot be assigned ::@:: Nobody can be signed up for a stroke. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what a case study assumes about the brain before the injury ::@:: The brain was already itself. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## what a lesion can and cannot show
+## limits of a lesion study
 
 A patient sees faces badly after damage to one region and sees everything else normally. The region contributes to face recognition. The evidence does not show it doing the job alone. The region may be one station in a chain, and the damage may knock out the chain rather than the station.
 
@@ -45,7 +45,7 @@ Flashcards for this section are as follows:
 - what an impairment on faces that is not about faces would be attributed to ::@:: Visual acuity, attention, or the language needed to attempt the task. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - the second limit on a lesion inference ::@:: The task has to isolate the capacity from those three. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## the two cautions
+## cautions
 
 The first caution asks whether the patients were typical before the damage. A group already below average before the injury will have post-injury scores that say little about what the injury cost. Record the pre-damage level where a record survives, compare against a matched control group, or state which comparison was available.
 
@@ -73,7 +73,7 @@ Stimulation brings noise and scalp sensation, and a control site unrelated to at
 
 No patient can be asked to carry a lesion, and a [computational model](computational%20model.md) can be damaged on purpose. Damaging one component of a model of face recognition drops its accuracy on Asian faces and leaves it unchanged on Caucasian ones. The component is necessary within the model for one function and not another, a narrow role, and the claim stops there. A component that impairs everything has a broad one.
 
-No amount of activation establishes sufficiency. A region active during an experience is responding to something, and a process that follows the experience accounts for the same signal, so the image cannot show which came first. The [three requirements for causation](correlation%20does%20not%20imply%20causation.md#the%20three%20requirements%20for%20causation) put the same problem in checklist form, where temporal precedence fails first, because nothing orders the activation and the perception. Imaging locates where something happens without showing that it began there.
+No amount of activation establishes sufficiency. A region active during an experience is responding to something, and a process that follows the experience accounts for the same signal, so the image cannot show which came first. The [three requirements for causation](correlation%20does%20not%20imply%20causation.md#three%20requirements%20for%20causation) put the same problem in checklist form, where temporal precedence fails first, because nothing orders the activation and the perception. Imaging locates where something happens without showing that it began there.
 
 A causal role needs both kinds of evidence: mapping says where a region responds, disruption what happens without it.
 
@@ -86,10 +86,10 @@ Flashcards for this section are as follows:
 - the reversible version of disruption ::@:: Transcranial magnetic stimulation: a coil over the target region while the same person does a task. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - the permanent version of disruption ::@:: Damage that takes a capacity with it. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what a disruption in the parietal cortex establishes ::@:: Necessity for selective attention, as cause and effect rather than correlation. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- what a TMS design measures ::@:: Reaction time and accuracy, before, during, and after stimulation. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- what TMS adds over a lesion ::@:: The same person is compared across conditions, so it needs no pre-injury baseline. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- what establishes necessity in a TMS design ::@:: A drop in performance when the target region is disrupted, absent when a control site is stimulated the same way. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- why the control site is not decoration in a TMS design ::@:: Noise and scalp sensation, which a site unrelated to attention rules out. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- what a transcranial magnetic stimulation (TMS) design measures ::@:: Reaction time and accuracy, before, during, and after stimulation. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- what transcranial magnetic stimulation (TMS) adds over a lesion ::@:: The same person is compared across conditions, so it needs no pre-injury baseline. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- what establishes necessity in a transcranial magnetic stimulation (TMS) design ::@:: A drop in performance when the target region is disrupted, absent when a control site is stimulated the same way. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- why the control site is not decoration in a transcranial magnetic stimulation (TMS) design ::@:: Noise and scalp sensation, which a site unrelated to attention rules out. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - a model result showing selective necessity ::@:: Damaging one component drops accuracy on Asian faces and leaves it unchanged on Caucasian ones. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what selective necessity shows ::@:: The component is necessary within the model for one function and not for another. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - how selective necessity differs from a loss that impairs everything ::@:: A narrow role rather than a broad one. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->

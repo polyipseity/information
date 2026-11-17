@@ -10,7 +10,7 @@ tags:
 
 # magnetic resonance imaging
 
-An MRI scanner takes high-resolution pictures of the brain's structure. The person lies in a strong magnetic field. The field lines up the hydrogen nuclei in their body. A radiofrequency pulse knocks those nuclei out of alignment. As they precess back, the changing magnetic flux induces a voltage in the receiver coils. The spatial pattern of those voltages is the image.
+A magnetic resonance imaging (MRI) scanner takes high-resolution pictures of the brain's structure. The person lies in a strong magnetic field. The field lines up the hydrogen nuclei in their body. A radiofrequency pulse knocks those nuclei out of alignment. As they precess back, the changing magnetic flux induces a voltage in the receiver coils. The spatial pattern of those voltages is the image.
 
 Nothing is injected and no ionizing radiation is used, so one person can be scanned repeatedly.
 
@@ -20,7 +20,7 @@ A structural scan gives the anatomical baseline: where a structure sits and what
 
 Flashcards for this section are as follows:
 
-- how an MRI scanner takes its pictures ::@:: An MRI scanner uses a strong magnetic field and radiofrequency pulses to take high-resolution pictures of the brain's structure. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- how a magnetic resonance imaging (MRI) scanner takes its pictures ::@:: An MRI scanner uses a strong magnetic field and radiofrequency pulses to take high-resolution pictures of the brain's structure. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what a strong magnetic field does to hydrogen nuclei in the body ::@:: It lines the body's hydrogen nuclei up with the field. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what the radiofrequency pulse does ::@:: It knocks the aligned nuclei out of alignment, so that they precess back. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what produces the image from that precession ::@:: The changing magnetic flux induces a voltage in the receiver coils, and the spatial pattern of those voltages is the image. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
@@ -28,7 +28,7 @@ Flashcards for this section are as follows:
 - what magnetic resonance imaging contributes to a study of the brain ::@:: The anatomical baseline: where a structure sits in the brain and what shape it has. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what a functional image is reported against ::@:: A structural scan, since naming a region means naming one piece of structure. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## what a structural image establishes
+## structural evidence
 
 A structural scan resolves anatomy to a millimetre without opening the skull. Nothing that reads brain activity directly gets anatomy that fine. It never shows the brain at work. A hippocampus looks the same whether the person is recalling a word list or resting. It gives no timing and cannot show which parts of a structure are active while a process runs. The scanner's functional form gives that information: [functional magnetic resonance imaging](functional%20magnetic%20resonance%20imaging.md).
 

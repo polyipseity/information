@@ -33,7 +33,7 @@ Flashcards for this section are as follows:
 - ![a figure-eight coil held over a rendered brain, with red dashed lines tracing the magnetic field from the coil down into the cortex and a green dashed line marking the current induced along the surface it reaches](attachments/Transcranial%20magnetic%20stimulation.jpg) ::@:: A figure-eight coil sits over the cortex, its field runs down into the brain, and the current runs along the surface it reaches. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-02-22T00:00:00.000Z,91,91.47185982,1,2,3,0,0,2026-11-23T00:00:00.000Z-->
 - draw the setup a magnetic pulse passes through ::@:: A coil sits over the cortex, field lines run down from it, and the current runs along the surface they reach. <p> ![a figure-eight coil held over a rendered brain, with red dashed lines tracing the magnetic field from the coil down into the cortex and a green dashed line marking the current induced along the surface it reaches](attachments/Transcranial%20magnetic%20stimulation.jpg) <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## the interference with processing
+## disruption of processing
 
 A single pulse over the motor cortex can make a finger twitch. The same pulse, timed just before a participant presses a button, can block the press.
 
@@ -58,7 +58,7 @@ Flashcards for this section are as follows:
 - the two directions a repeated-pulse effect can take ::@:: Either dampens activity in the stimulated area or amplifies it. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what decides the direction of a repeated-pulse effect ::@:: The intensity, the coil's orientation, and the frequency. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - the property of neural connections the repeated pulses explore ::@:: Plasticity, the capacity of connections between neurons to change. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- the clinical use of the repeated pulses ::@:: TMS treats disorders by changing how excitable the stimulated area is. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- the clinical use of the repeated pulses ::@:: Transcranial magnetic stimulation (TMS) treats disorders by changing how excitable the stimulated area is. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
 ## references
 

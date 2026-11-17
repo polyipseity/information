@@ -26,7 +26,7 @@ tags:
 > 3. AI is a sentient robot.
 > 4. AI is the science and engineering of making intelligent machines.
 >
-> - solution: {@{4}@}
+> - solution: {@{4. AI is the science and engineering of making intelligent machines.}@}
 > - explanation: {@{This definition is due to Alan Turing.}@} <!--SR:!2029-08-22,1326,350!2029-07-10,1283,350-->
 
 <!-- markdownlint MD028 -->
@@ -38,7 +38,7 @@ tags:
 > 3. Frank Rosenblatt
 > 4. Desmond <!-- ____ -->
 >
-> - solution: {@{1}@} <!--SR:!2029-07-28,1301,350-->
+> - solution: {@{1. Alan Turing}@} <!--SR:!2029-08-21,1325,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -49,7 +49,7 @@ tags:
 > 3. Keras
 > 4. Vulpix
 >
-> - solution: {@{3}@} <!--SR:!2028-11-20,1112,350-->
+> - solution: {@{3. Keras}@} <!--SR:!2029-08-30,1334,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -60,7 +60,7 @@ tags:
 > 3. Neurobiology
 > 4. Cognition science
 >
-> - solution: {@{2}@} <!--SR:!2029-01-25,1166,350-->
+> - solution: {@{2. Particle physics}@} <!--SR:!2029-08-07,1311,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -71,7 +71,7 @@ tags:
 > 3. Expert systems
 > 4. Content mining
 >
-> - solution: {@{4}@}
+> - solution: {@{4. Content mining}@} <!--SR:!2029-08-20,1324,350-->
 > - explanation: {@{Too simple, simply hard code it...}@} <!--SR:!2028-12-08,1127,350!2029-02-03,1170,350-->
 
 <!-- markdownlint MD028 -->
@@ -83,7 +83,7 @@ tags:
 > 3. Keras
 > 4. scikit-learn
 >
-> - solution: {@{4}@} <!--SR:!2029-02-09,1175,350-->
+> - solution: {@{4. scikit-learn}@} <!--SR:!2028-08-22,1038,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -93,7 +93,7 @@ tags:
 > 2. Convolutional Neural Network (CNN)
 > 3. Minimax and Alpha-Beta Pruning
 >
-> - solution: {@{3}@} <!--SR:!2029-08-30,1334,350-->
+> - solution: {@{3. Minimax and Alpha-Beta Pruning}@} <!--SR:!2029-03-30,1214,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -104,7 +104,7 @@ tags:
 > 3. The second AI winter happened in 1987–1993
 > 4. The natural language processing AI, ELIZA, passes the Turing test
 >
-> - solution: {@{4}@} <!--SR:!2029-09-15,1342,350-->
+> - solution: {@{4. The natural language processing AI, ELIZA, passes the Turing test}@}
 
 <!-- markdownlint MD028 -->
 
@@ -115,7 +115,7 @@ tags:
 > 3. Python is a dynamically typed language
 > 4. Python is popular and has a large community
 >
-> - solution: {@{3}@} <!--SR:!2028-10-30,1094,350-->
+> - solution: {@{3. Python is a dynamically typed language}@} <!--SR:!2028-10-30,1094,350-->
 
 ## Python fundamentals for artificial intelligence
 
@@ -126,7 +126,7 @@ tags:
 > 3. `{"a", "b"}`
 > 4. `{"a": "b"}`
 >
-> - solution: {@{4}@} <!--SR:!2028-08-22,1038,350-->
+> - solution: {@{4. `{"a": "b"}`}@} <!--SR:!2029-05-03,1241,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -138,7 +138,7 @@ tags:
 
 > Q3. What does `print(len(r"\n Desmond is a good guy na!\n"))` output?
 >
-> - solution: {@{`30`}@}
+> - solution: {@{`30`}@} <!--SR:!2028-11-20,1112,350-->
 > - explanation: {@{Notice the `r` before the string beginning.}@} <!--SR:!2029-01-13,1156,350!2029-05-18,1254,350-->
 
 <!-- markdownlint MD028 -->
@@ -150,7 +150,7 @@ tags:
 > 3. Dictionaries
 > 4. Sets
 >
-> - solution: {@{2}@} <!--SR:!2028-09-09,1052,350-->
+> - solution: {@{2. Tuples}@} <!--SR:!2028-09-09,1052,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -224,7 +224,7 @@ tags:
 > 3. `M + C`, where `C` is an array of shape (5, 3)
 > 4. `M + D`, where `D` is an array of shape (5, 1)
 >
-> - solution: {@{4}@} <!--SR:!2029-05-03,1241,350-->
+> - solution: {@{4. `M + D`, where `D` is an array of shape (5, 1)}@}
 
 <!-- markdownlint MD028 -->
 
@@ -270,7 +270,7 @@ tags:
 > 3. `M * C`, where `C` is an array of shape (4, 1)
 > 4. `M * D`, where `D` is an array of shape (5, 1)
 >
-> - solution: {@{3}@} <!--SR:!2028-12-23,1140,350-->
+> - solution: {@{3. `M * C`, where `C` is an array of shape (4, 1)}@}
 
 <!-- markdownlint MD028 -->
 
@@ -281,7 +281,7 @@ tags:
 > 3. `np.dot(M, C)`, where `C` is an array of shape (22, 11)
 > 4. `np.dot(D, M)`, where `D` is an array of shape (11, 33)
 >
-> - solution: {@{1}@} <!--SR:!2027-04-18,644,330-->
+> - solution: {@{1. `np.dot(M, A)`, where `A` is an array of shape (11, 33)}@}
 
 <!-- markdownlint MD028 -->
 
@@ -323,7 +323,7 @@ tags:
 > 3. It is a package
 > 4. It is a library
 >
-> - solution: {@{2}@} <!--SR:!2029-05-24,1258,350-->
+> - solution: {@{2. It is a module}@} <!--SR:!2029-05-24,1258,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -453,8 +453,8 @@ tags:
 > print(time1() <= time2())
 > ```
 >
-> - solution: {@{(almost always) `True`}@}
-> - explanation: {@{`time1` performs an element-wise operation using pure Python while `time2` uses NumPy arrays to do the same thing, so `time2` is most likely faster.}@} <!--SR:!2028-10-28,1093,350!2028-03-21,892,330-->
+> - solution: {@{(almost always) `True`}@} <!--SR:!2028-12-27,1142,350-->
+> - explanation: {@{`time1` performs an element-wise operation}@} using pure Python while {@{`time2` uses NumPy arrays to do the same thing}@}, so {@{`time2` is most likely faster}@}. <!--SR:!2028-10-28,1093,350!2028-03-21,892,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -473,7 +473,7 @@ tags:
 > 3. `12.0 / 4.0 == 3.0`
 > 4. `5 // 3 == 1`
 >
-> - solution: {@{2}@}
+> - solution: {@{2. `0.1 + 0.2 == 0.3`}@} <!--SR:!2029-08-09,1313,350-->
 > - explanation: {@{To be fair, this question is unlikely to be tested... It is simply trying to show that `float`s have limited precision.}@} <!--SR:!2029-08-25,1329,350!2029-08-23,1327,350-->
 
 <!-- markdownlint MD028 -->
@@ -512,8 +512,8 @@ tags:
 
 > Q32. Are there any differences between the output from `print(str(a))` and `print(repr(a))`? Assume `a` is a NumPy array.
 >
-> - solution: {@{Yes. Try it out yourself!}@}
-> - explanation: {@{The `repr` representation is used when you explicitly write `repr(a)` or if you are printing the value without `print` in interactive Python. Otherwise, the `str` representation is used. <p> In this file, we use the `str` representation if `print` is used, otherwise we use the `repr` representation. In exams, you should see what they ask for.}@} <!--SR:!2029-02-11,1177,350!2027-11-22,761,330-->
+> - solution: {@{Yes. Try it out yourself!}@} <!--SR:!2029-03-31,1215,350-->
+> - explanation: {@{The `repr` representation is used when you explicitly write `repr(a)`}@} or if you are {@{printing the value without `print` in interactive Python}@}. Otherwise, {@{the `str` representation is used}@}. <p> In this file, we use {@{the `str` representation if `print` is used}@}, otherwise we use {@{the `repr` representation}@}. In exams, {@{you should see what they ask for}@}. <!--SR:!2029-02-11,1177,350!2027-11-22,761,330-->
 
 ## naive Bayes classifier
 
@@ -529,7 +529,7 @@ tags:
 > 2. The naive Bayes classifier is uses a labeled dataset.
 > 3. The naive Bayes classifier assumes independence of events (features).
 >
-> - solution: {@{2, 3}@} <!--SR:!2028-12-27,1142,350-->
+> - solution: {@{2. The naive Bayes classifier is uses a labeled dataset. and 3. The naive Bayes classifier assumes independence of events (features).}@}
 
 <!-- markdownlint MD028 -->
 
@@ -556,7 +556,7 @@ tags:
 > 2. $P(E \text{ and } F) = P(E) \times P(F)$
 > 3. $P(E \mid F) = P(E)$
 >
-> - solution: {@{2, 3}@}
+> - solution: {@{2. $P(E \text{ and } F) = P(E) \times P(F)$ and 3. $P(E \mid F) = P(E)$}@}
 > - explanation: {@{1 holds when additionally, $P(E) = P(F)$.}@} <!--SR:!2028-03-17,849,330!2028-12-24,1140,350-->
 
 <!-- markdownlint MD028 -->
@@ -578,14 +578,14 @@ tags:
 > 3. The naive Bayes classifier always predicts correct results.
 > 4. None of the above
 >
-> - solution: {@{2}@} <!--SR:!2029-08-07,1311,350-->
+> - solution: {@{2. The naive Bayes classifier assumes each piece of evidence contributes <!-- equally -->independently to the belief.}@}
 
 <!-- markdownlint MD028 -->
 
 > Q8. (simple) True or false. There are $n$ different beliefs $B_1, B_2, \cdots, B_n$. If the pieces of evidence are independent, then the following formula gives us the probability of belief $B$ given the evidence. $$P(B|E_1 \cap \cdots \cap E_n) \overset ? = P(B) P(E_1|B) P(E_2|B) \cdots P(E_n|B)$$
 >
-> - solution: {@{false}@}
-> - explanation: {@{The denominator, which is the probability of the evidence $P(E_1 \cap \cdots \cap E_n)$, has been removed to derive the right hand side of the above equation (but the left hand side is not updated). So the above equation does not hold (i.e. the left hand side does not equal the right hand side).}@} <!--SR:!2028-09-18,1060,350!2029-07-23,1296,350-->
+> - solution: {@{false}@} <!--SR:!2029-02-09,1175,350-->
+> - explanation: {@{The denominator}@}, which is {@{the probability of the evidence $P(E_1 \cap \cdots \cap E_n)$}@}, has been {@{removed to derive the right hand side of the above equation}@} (but the left hand side is not updated). So {@{the above equation does not hold}@} (i.e. {@{the left hand side does not equal the right hand side}@}). <!--SR:!2028-09-18,1060,350!2029-07-23,1296,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -620,7 +620,7 @@ tags:
 > 2. Distance metric
 > 3. Number of samples
 >
-> - solution: {@{1, 2}@} <!--SR:!2029-08-21,1325,350-->
+> - solution: {@{1. K and 2. Distance metric}@} <!--SR:!2028-11-09,1103,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -643,8 +643,8 @@ tags:
 > 3. It assumes that all data are of the same scale.
 > 4. None of the above.
 >
-> - solution: {@{4}@}
-> - explanation: {@{For 1 and 2, classification is an obvious use case. For regression, one way is taking the neighbor average weighted by inverse distances. For 3, while it does not require all data to be of the same scale, this would make the distance of each feature not considered with the same weight.}@} <!--SR:!2028-02-10,823,330!fsrs,2030-08-22T05:23:39.182Z,1538,1537.88798761,1,2,10,0,0,2026-06-06T05:23:39.182Z-->
+> - solution: {@{4. None of the above.}@} <!--SR:!2029-01-14,1157,350-->
+> - explanation: For 1 and 2, {@{classification is an obvious use case}@}. For regression, {@{one way is taking the neighbor average weighted by inverse distances}@}. For 3, while {@{it does not require all data to be of the same scale}@}, this would {@{make the distance of each feature not considered with the same weight}@}. <!--SR:!2028-02-10,823,330!fsrs,2030-08-22T05:23:39.182Z,1538,1537.88798761,1,2,10,0,0,2026-06-06T05:23:39.182Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -710,7 +710,7 @@ tags:
 > 3. The "K" in K-means clustering refers to the number of data points
 > 4. K-means clustering achieves categorization of data points
 >
-> - solution: {@{4}@} <!--SR:!2029-08-20,1324,350-->
+> - solution: {@{4. K-means clustering achieves categorization of data points}@}
 
 <!-- markdownlint MD028 -->
 
@@ -794,7 +794,7 @@ tags:
 > 3. Chat bots
 > 4. Customer segmentation
 >
-> - solution: {@{4}@}
+> - solution: {@{4. Customer segmentation}@} <!--SR:!2029-09-13,1340,350-->
 > - explanation: {@{It is the closest to clustering...}@} <!--SR:!2029-01-16,1158,350!2029-08-19,1323,350-->
 
 <!-- markdownlint MD028 -->
@@ -817,7 +817,7 @@ tags:
 > 3. Perform principal component analysis (PCA)
 > 4. Shuffle the dataset
 >
-> - solution: {@{4}@} <!--SR:!2029-01-14,1157,350-->
+> - solution: {@{4. Shuffle the dataset}@} <!--SR:!2029-04-28,1236,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -846,8 +846,8 @@ tags:
 > 3. One similarity between perceptron and KNN is that they both include learnable parameters.
 > 4. Every parameter must be updated during an epoch.
 >
-> - solution: {@{1}@}
-> - explanation: {@{Even if the activation function is nonlinear, the input to the activation function is linear. Unless you are doing regression, otherwise the nonlinear activation function cannot magically make the classification nonlinear.}@} <!--SR:!2029-01-15,1157,350!2029-07-25,1298,350-->
+> - solution: {@{1. It can only be used for linearly separable data (ignoring regression).}@}
+> - explanation: Even if {@{the activation function is nonlinear}@}, {@{the input to the activation function is linear}@}. Unless you are doing regression, otherwise {@{the nonlinear activation function cannot magically make the classification nonlinear}@}. <!--SR:!2029-01-15,1157,350!2029-07-25,1298,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -858,7 +858,7 @@ tags:
 > 3. Its output is equivalent to the direct result of a weighted sum of the inputs plus a bias.
 > 4. For a perceptron with n inputs and 1 output, there should be n+1 parameters, including bias.
 >
-> - solution: {@{2, 4}@} <!--SR:!2029-06-06,1266,350-->
+> - solution: {@{2. It can be mathematically modeled as a vector dot product. and 4. For a perceptron with n inputs and 1 output, there should be n+1 parameters, including bias.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -875,7 +875,7 @@ tags:
 > 3. choice of having a bias term or not
 > 4. choice of the number of inputs
 >
-> - solution: {@{1, 2, 3}@} <!--SR:!2029-08-09,1313,350-->
+> - solution: {@{1. choice of activation function and 2. choice of learning rate and 3. choice of having a bias term or not}@}
 
 <!-- markdownlint MD028 -->
 
@@ -892,7 +892,7 @@ tags:
 > 3. w = [1, 1], bias = sqrt(2)
 > 4. w = [-1, -1], bias = -2
 >
-> - solution: {@{1, 2, 4}@}
+> - solution: {@{1. w = [0.5, 0.5], bias = 1 and 2. w = [100, 100], bias = 200 and 4. w = [-1, -1], bias = -2}@}
 > - explanation: {@{Check if the weights and biases can be scaled together to get the original perceptron.}@} <!--SR:!2029-04-29,1237,350!2029-01-08,1151,350-->
 
 <!-- markdownlint MD028 -->
@@ -904,8 +904,8 @@ tags:
 > 3. w = [1, 1], bias = sqrt(2)
 > 4. w = [-1, -1], bias = -2
 >
-> - solution: {@{1, 2}@}
-> - explanation: {@{First, check if the decision boundary is the same, which is the same as the previous question. Second, check if the resulting classification is the same for the same side of the decision boundary. <p> 4 has the classification flipped because it has its parameters scaled by a negative number.}@} <!--SR:!2028-08-20,1036,350!2029-05-02,1240,350-->
+> - solution: {@{1. w = [0.5, 0.5], bias = 1 and 2. w = [100, 100], bias = 200}@}
+> - explanation: First, {@{check if the decision boundary is the same}@}, which is {@{the same as the previous question}@}. Second, {@{check if the resulting classification is the same for the same side of the decision boundary}@}. <p> 4 has {@{the classification flipped}@} because it has {@{its parameters scaled by a negative number}@}. <!--SR:!2028-08-20,1036,350!2029-05-02,1240,350-->
 
 ## multilayer perceptron
 
@@ -916,7 +916,7 @@ tags:
 > 3. MLP is a feed-forward neural network designed to work exactly as human brains learn.
 > 4. To use MLP for supervised learning, we always need to apply a suitable loss function at the end of the network.
 >
-> - solution: {@{4}@} <!--SR:!2029-04-28,1236,350-->
+> - solution: {@{4. To use MLP for supervised learning, we always need to apply a suitable loss function at the end of the network.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -927,7 +927,7 @@ tags:
 > 3. Activation functions have to be continuous and differentiable at every point.
 > 4. One problem with the sigmoid activation functions is that it may cause a vanishing gradient problem in the saturation zone.
 >
-> - solution: {@{4}@} <!--SR:!2029-09-13,1340,350-->
+> - solution: {@{4. One problem with the sigmoid activation functions is that it may cause a vanishing gradient problem in the saturation zone.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -990,8 +990,8 @@ tags:
 > 3. It is based on the recursive use of the chain rule.
 > 4. It is based on the recursive use of the Leibniz integral rule.
 >
-> - solution: {@{2, 3}@}
-> - explanation: {@{Theoretically, you could do 1 for adversarial machine learning... an example is finding "bad" inputs (that look mostly indistinguishable to the original input) that cause the network to produce any classification you desire. And 4 is something completely unrelated...}@} <!--SR:!2029-08-28,1332,350!2029-08-18,1322,350-->
+> - solution: {@{2. It transmits loss back through the network to adjust the weights. and 3. It is based on the recursive use of the chain rule.}@}
+> - explanation: Theoretically, {@{you could do 1}@} for {@{adversarial machine learning}@}... an example is {@{finding "bad" inputs}@} (that look {@{mostly indistinguishable to the original input}@}) that {@{cause the network to produce any classification you desire}@}. And 4 is {@{something completely unrelated}@}... <!--SR:!2029-08-28,1332,350!2029-08-18,1322,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1002,7 +1002,7 @@ tags:
 > 3. Considering from the point of view of the hyperplane for classification, overfitted models tend to have a more curvatured decision boundary than well-fitted model.
 > 4. Considering from the point of view of the hyperplane for classification, overfitted models tend to have a less curvatured decision boundary than well-fitted model.
 >
-> - solution: {@{1, 3}@} <!--SR:!2029-03-31,1215,350-->
+> - solution: {@{1. Over-fitting is a phenomenon when the network is too adapted to the training data and cannot generalize well to unseen test data. and 3. Considering from the point of view of the hyperplane for classification, overfitted models tend to have a more curvatured decision boundary than well-fitted model.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1013,7 +1013,7 @@ tags:
 > 3. Reducing the number of training data can help avoid over-fitting.
 > 4. Reducing the number of training epochs can help avoid over-fitting.
 >
-> - solution: {@{3}@} <!--SR:!2027-10-15,783,330-->
+> - solution: {@{3. Reducing the number of training data can help avoid over-fitting.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1060,7 +1060,7 @@ tags:
 > 3. The updates are proportional to the output of the weight layer
 > 4. The output layer weights are used when computing the loss of the hidden layer
 >
-> - solution: {@{2, 4}@} <!--SR:!2027-05-17,669,330-->
+> - solution: {@{2. The updates are proportional to the loss and 4. The output layer weights are used when computing the loss of the hidden layer}@}
 
 ## digital image processing fundamentals
 
@@ -1071,8 +1071,8 @@ tags:
 > 3. (99, 199)
 > 4. (199, 99)
 >
-> - solution: {@{3}@}
-> - explanation: {@{I mean... it is just a convention. It could be any other convention, depending on your context. <p> This convention is used in libraries processing images with NumPy arrays. So that explains why it is 0-based.}@} <!--SR:!2028-11-12,1105,350!2028-06-08,908,330-->
+> - solution: {@{3. (99, 199)}@} <!--SR:!2028-06-14,915,330-->
+> - explanation: I mean... {@{it is just a convention}@}. It could be {@{any other convention, depending on your context}@}. <p> This convention is used in {@{libraries processing images with NumPy arrays}@}. So that explains {@{why it is 0-based}@}. <!--SR:!2028-11-12,1105,350!2028-06-08,908,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1085,7 +1085,7 @@ tags:
 > 3. The resulting image will be brighter.
 > 4. No image can be formed.
 >
-> - solution: {@{2}@} <!--SR:!2029-07-27,1300,350-->
+> - solution: {@{2. The resulting image will be darker.}@} <!--SR:!2029-05-04,1242,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1094,7 +1094,7 @@ tags:
 > Describe in words what transformation was applied.
 >
 > - solution: {@{The image is translated to the left (not right) and upwards (not downwards) each by 1 pixel.}@}
-> - explanation: {@{While the transformation matrix describes a transformation to the right and downwards each by 1 pixel, notice that it is applied to the input coordinates instead of the output coordinates. <p> In general, the transformations are reversed if you apply it to the input coordinates instead of the output coordinates. For a simple example, consider $f(x) = x$. Then compare between $f_{\text{new} }(x) = f(x) + 1 = x + 1$ and $f_{\text{new} }(x + 1) = f(x) = x \implies f_{\text{new} }(x) = f(x - 1) = x - 1$.}@} <!--SR:!2027-10-25,763,310!fsrs,2030-08-17T10:01:11.625Z,1534,1534.48134136,1,2,10,0,0,2026-06-05T10:01:11.625Z-->
+> - explanation: While {@{the transformation matrix describes a transformation to the right and downwards each by 1 pixel}@}, notice that it is {@{applied to the input coordinates instead of the output coordinates}@}. <p> In general, {@{the transformations are reversed}@} if you {@{apply it to the input coordinates instead of the output coordinates}@}. For a simple example, {@{consider $f(x) = x$}@}. Then compare {@{between $f_{\text{new} }(x) = f(x) + 1 = x + 1$ and $f_{\text{new} }(x + 1) = f(x) = x \implies f_{\text{new} }(x) = f(x - 1) = x - 1$}@}. <!--SR:!2027-10-25,763,310!fsrs,2030-08-17T10:01:11.625Z,1534,1534.48134136,1,2,10,0,0,2026-06-05T10:01:11.625Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -1215,8 +1215,8 @@ tags:
 > 3. The resulting image is the same as the original image.
 > 4. The resulting image consists of pure black and pure white, and no other colors.
 >
-> - solution: {@{2}@}
-> - explanation: {@{This depends on your definition of the threshold function. The threshold function used in this course is 255 if larger than or _equal to_ the threshold.}@} <!--SR:!2029-07-13,1286,350!fsrs,2032-05-08T00:00:00.000Z,1976,1976.35394508,1,2,10,0,0,2026-12-10T00:00:00.000Z-->
+> - solution: {@{2. The resulting image is pure white everywhere.}@}
+> - explanation: This depends on {@{your definition of the threshold function}@}. {@{The threshold function used in this course}@} is 255 if {@{larger than or _equal to_ the threshold}@}. <!--SR:!2029-07-13,1286,350!fsrs,2032-05-08T00:00:00.000Z,1976,1976.35394508,1,2,10,0,0,2026-12-10T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -1233,7 +1233,7 @@ tags:
 > 3. The total number of parameters depends on the stride.
 > 4. The total number of parameters depends on the padding.
 >
-> - solution: {@{1, 2}@} <!--SR:!2028-01-23,849,330-->
+> - solution: {@{1. The number of weights depends on the depth of the input volume. and 2. The number of biases is equal to the number of filters.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1244,7 +1244,7 @@ tags:
 > 3. Convolution preserves spatial context while dense layers will lose spatial context by flattening everything.
 > 4. Convolutional layers are more similar to how the human visual system works, where different areas of the brain are activated by different levels of features.
 >
-> - solution: {@{3, 4}@} <!--SR:!2028-06-14,915,330-->
+> - solution: {@{3. Convolution preserves spatial context while dense layers will lose spatial context by flattening everything. and 4. Convolutional layers are more similar to how the human visual system works, where different areas of the brain are activated by different levels of features.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1280,7 +1280,7 @@ tags:
 > 3. It is not a differentiable operation.
 > 4. The number of learnable parameters in a pooling layer is the same as the filter size.
 >
-> - solution: {@{3, 4}@} <!--SR:!2029-03-30,1214,350-->
+> - solution: {@{3. It is not a differentiable operation. and 4. The number of learnable parameters in a pooling layer is the same as the filter size.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1297,8 +1297,8 @@ tags:
 > 3. A dropout rate of 0.5 means half of the neuron output will be set to 0.
 > 4. The higher the dropout rate, the better the model performance.
 >
-> - solution: {@{3, 4}@}
-> - explanation: {@{For 3, the implementation of dropout in Keras (by extension, TensorFlow) uses a random mask, which is not guaranteed to turn off 50% of neurons. Theoretically, its randomness could mean none of the neurons are turned off. Other libraries may use a different implementation (e.g. guaranteeing 50% of the neurons are turned off), but ignore this for the examinations. <p> This is likely tested in the examinations...}@} <!--SR:!2028-09-02,1047,350!2029-01-13,1155,350-->
+> - solution: {@{3. A dropout rate of 0.5 means half of the neuron output will be set to 0. and 4. The higher the dropout rate, the better the model performance.}@}
+> - explanation: For 3, {@{the implementation of dropout in Keras (by extension, TensorFlow) uses a random mask}@}, which is {@{not guaranteed to turn off 50% of neurons}@}. Theoretically, {@{its randomness could mean none of the neurons are turned off}@}. Other libraries {@{may use a different implementation}@} (e.g. {@{guaranteeing 50% of the neurons are turned off}@}), but {@{ignore this for the examinations}@}. <p> This is {@{likely tested in the examinations}@}... <!--SR:!2028-09-02,1047,350!2029-01-13,1155,350-->
 
 ## minimax & alpha–beta pruning
 
@@ -1309,8 +1309,8 @@ tags:
 > 3. Poker
 > 4. Contract bridge
 >
-> - solution: {@{2}@}
-> - explanation: {@{The minimax algorithm as taught in the course only applies to deterministic, perfect information, and zero-sum games. <p> There may be extensions of minimax algorithm that apply to more games, but ignore this for the examinations...}@} <!--SR:!2028-09-08,1051,350!2027-12-30,791,330-->
+> - solution: {@{2. Connect 4}@} <!--SR:!2029-06-06,1266,350-->
+> - explanation: {@{The minimax algorithm as taught in the course}@} only applies to {@{deterministic, perfect information, and zero-sum games}@}. <p> There may be {@{extensions of minimax algorithm that apply to more games}@}, but {@{ignore this for the examinations}@}... <!--SR:!2028-09-08,1051,350!2027-12-30,791,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1321,7 +1321,7 @@ tags:
 > 3. Dijkstra's
 > 4. Bellman-Ford
 >
-> - solution: {@{2}@} <!--SR:!2029-05-04,1242,350-->
+> - solution: {@{2. depth-first search}@} <!--SR:!2029-07-27,1300,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1366,7 +1366,7 @@ tags:
 > 2. Producing wrong predictions due to model implementation issues.
 > 3. Obscuring the legal responsibilities.
 >
-> - solution: {@{1, 2, 3}@} <!--SR:!2028-11-09,1103,350-->
+> - solution: {@{1. Obtaining people's personal information without their consent. and 2. Producing wrong predictions due to model implementation issues. and 3. Obscuring the legal responsibilities.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1377,7 +1377,7 @@ tags:
 > 3. Non-maleficence
 > 4. Benevolence
 >
-> - solution: {@{4}@} <!--SR:!2029-05-11,1248,350-->
+> - solution: {@{4. Benevolence}@} <!--SR:!2029-09-15,1342,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1405,7 +1405,7 @@ tags:
 > 2. Testing data
 > 3. Training data
 >
-> - solution: {@{1}@}
+> - solution: {@{1. Actions}@} <!--SR:!2027-04-18,644,330-->
 > - explanation: {@{The 6 (major) components are agent, environment, observations, actions, rewards, and policy.}@} <!--SR:!2028-11-21,1113,350!2027-03-15,567,310-->
 
 <!-- markdownlint MD028 -->
@@ -1429,7 +1429,7 @@ tags:
 > 2. The present captures information about the future.
 > 3. Once the present is known, history may be thrown away.
 >
-> - solution: {@{1, 3}@} <!--SR:!2028-11-27,1118,350-->
+> - solution: {@{1. The future is independent of the past, given the present. and 3. Once the present is known, history may be thrown away.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1457,7 +1457,7 @@ tags:
 > 4. $X_0$ is a state.
 > 5. None of the above.
 >
-> - solution: {@{2}@} <!--SR:!2029-03-24,1209,350-->
+> - solution: {@{2. $X_0$ is a random variable.}@} <!--SR:!2027-05-17,669,330-->
 
 <!-- markdownlint MD028 -->
 
@@ -1468,7 +1468,7 @@ tags:
 > 3. $P(X_0=S_0) + P(X_1=S_0) + \cdots + P(X_N = S_0) = 1$
 > 4. $P(X_0=S_0) + P(X_0=S_1) + \cdots + P(X_0 = S_N) = 1$
 >
-> - solution: {@{4}@} <!--SR:!2028-10-01,1071,350-->
+> - solution: {@{4. $P(X_0=S_0) + P(X_0=S_1) + \cdots + P(X_0 = S_N) = 1$}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1523,8 +1523,8 @@ tags:
 
 > Q11. (simple) True or false: A transition probability matrix in a Markov chain must be a square matrix.
 >
-> - solution: {@{true}@}
-> - explanation: {@{While technically you could have a non-square matrix, it would not be useful in practice, especially when you want to run the Markov chain multiple times.}@} <!--SR:!2029-02-06,1173,350!2029-07-15,1288,350-->
+> - solution: {@{true}@} <!--SR:!2029-07-28,1301,350-->
+> - explanation: While {@{technically you could have a non-square matrix}@}, it {@{would not be useful in practice}@}, especially when you {@{want to run the Markov chain multiple times}@}. <!--SR:!2029-02-06,1173,350!2029-07-15,1288,350-->
 
 <!-- markdownlint MD028 -->
 
@@ -1551,8 +1551,8 @@ tags:
 >
 > <!-- list separator -->
 >
-> - solution: {@{$a_{21} = P(X_t = S_1 \mid X_{t - 1} = S_2)$}@}
-> - explanation: {@{Usually, the _transition probability matrix_ is encoded as a _right/row stochastic matrix_, where each row adds up to 1. It is so called "right" because the probability distribution at the next step is computed by $\mathbf S_t = \mathbf S_{t - 1} \mathbf M$. <p> Another, but less common, way to encode it is as a _left/column stochastic matrix_, where each column adds up to 1. The next step probability distribution is computed by $\mathbf S_t =  \mathbf M \mathbf S_{t - 1}$. <p> Note: You should see in _value iteration_, we put the _right/row_ stochastic matrix $\mathbf M$ on the _left_ of the value vector $\mathbf V$ instead: $\mathbf M \mathbf V$. But this is because in value iteration, we are propagation the rewards _backwards_ instead of _forward_.}@} <!--SR:!2029-08-13,1317,350!2027-02-06,489,270-->
+> - solution: {@{$a_{21} = P(X_t = S_1 \mid X_{t - 1} = S_2)$}@} <!--SR:!2028-01-23,849,330-->
+> - explanation: Usually, {@{the _transition probability matrix_ is encoded as a _right/row stochastic matrix_}@}, where {@{each row adds up to 1}@}. It is {@{so called "right"}@} because {@{the probability distribution at the next step is computed by $\mathbf S_t = \mathbf S_{t - 1} \mathbf M$}@}. <p> Another, but less common, way {@{to encode it is as a _left/column stochastic matrix_}@}, where {@{each column adds up to 1}@}. The next step probability distribution is {@{computed by $\mathbf S_t =  \mathbf M \mathbf S_{t - 1}$}@}. <p> Note: {@{You should see in _value iteration_}@}, we put {@{the _right/row_ stochastic matrix $\mathbf M$ on the _left_ of the value vector $\mathbf V$ instead}@}: $\mathbf M \mathbf V$. But this is because {@{in value iteration, we are propagation the rewards _backwards_ instead of _forward_}@}. <!--SR:!2029-08-13,1317,350!2027-02-06,489,270-->
 
 <!-- markdownlint MD028 -->
 
@@ -1588,8 +1588,8 @@ tags:
 
 > Q16. (medium) True or false: Consider a Markov chain with a state space $\{ S_1, S_2, \cdots, S_N \}$ and a discount factor $\gamma \in (0, 1)$. Each $V_1(S_1), V_1(S_2), \cdots, V_1(S_N)$ is finite. Then, using _value iteration_, $\lim_{n\to\infty} V_n(\text{state}_i)$ converges for any $\text{state}_i \in \text{state space}$.
 >
-> - solution: {@{true}@}
-> - explanation: {@{If you want to prove this, consider the matrix function $\mathbf V_{t + 1}(\mathbf V_{t}) = \mathbf R + \gamma \mathbf M \mathbf V_t$ and look up the __contraction mapping theorem__ (also known as the [__Banach fixed-point theorem__](../../../../general/Banach%20fixed-point%20theorem.md)). But this is out of scope.}@} <!--SR:!2029-01-22,1163,350!2027-01-12,512,310-->
+> - solution: {@{true}@} <!--SR:!2029-01-25,1166,350-->
+> - explanation: If you want to {@{prove this}@}, consider {@{the matrix function $\mathbf V_{t + 1}(\mathbf V_{t}) = \mathbf R + \gamma \mathbf M \mathbf V_t$}@} and {@{look up the __contraction mapping theorem__ (also known as the [__Banach fixed-point theorem__](../../../../general/Banach%20fixed-point%20theorem.md))}@}. But this is {@{out of scope}@}. <!--SR:!2029-01-22,1163,350!2027-01-12,512,310-->
 
 <!-- markdownlint MD028 -->
 
@@ -1600,8 +1600,8 @@ tags:
 > 3. $\max_{k\in \{ 1, 2, \cdots, N \} } | V_k(s) - V_{k-1}(s) | < \varepsilon$
 > 4. $\max_{k\in \{ 1, 2, \cdots, N \} } | V_k(s_a) - V_{k}(s_b) | < \varepsilon$
 >
-> - solution: {@{1}@}
-> - explanation: {@{There may be other ways to determining convergence. But 2, 3, and 4 are definitely not the "other ways" as they do not even make sense.}@} <!--SR:!2029-07-12,1285,350!2029-03-25,1210,350-->
+> - solution: {@{1. $\max_{s\in \{ S_1, S_2, \cdots, S_N \} } | V_k(s) - V_{k-1}(s) | < \varepsilon$}@}
+> - explanation: {@{There may be other ways}@} to determining convergence. But 2, 3, and 4 are {@{definitely not the "other ways"}@} as {@{they do not even make sense}@}. <!--SR:!2029-07-12,1285,350!2029-03-25,1210,350-->
 
 <!-- markdownlint MD028 -->
 

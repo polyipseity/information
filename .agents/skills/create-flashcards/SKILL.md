@@ -24,13 +24,49 @@ The closing cloze delimiter `}@}` comes before any trailing punctuation, which s
 
 ## What the cloze hides
 
-The cloze holds the payload; the frame around it — copula, leading verb, subject label — stays visible, so a card front reads as a sentence with a blank, never an unfinished fragment. The hiding direction follows what is recalled: when the value is the answer the term prompts and the value hides, when the name is the answer the term itself hides.
+The cloze holds the payload and the frame around it stays visible, so a card front reads as a sentence with a blank rather than a fragment. The hiding direction follows what is recalled: when the value is the answer the term prompts, the value hides; when the name is the answer, the term itself hides.
 
 - __Value is the answer__ (prompt-visible): `the orbital speed is {@{$v = \sqrt{e^2/(4\pi\epsilon_0 m r)} = 2.19 \times 10^6\ \text{m/s}$}@}`
-- __Name is the answer__ (term-hidden): `{@{RBS}@} fires ions at a sample and measures the backscattered energy loss`
-- __Two-way pair__, each side in its own cloze: `{@{RBS}@} {@{fires ions at a sample and measures the backscattered energy loss}@}`
+- __Name is the answer__ (term-hidden): `{@{Rutherford backscattering (RBS)}@} fires ions at a sample and measures the backscattered energy loss`
+- __Acronym is the answer__ (expansion visible): `Rutherford backscattering ({@{RBS}@}) fires ions at a sample and measures the backscattered energy loss`
+- __Two-way pair__, each side in its own cloze: `{@{Rutherford backscattering (RBS)}@} {@{fires ions at a sample and measures the backscattered energy loss}@}`
 
 A copula inside a cloze is fine after the payload's first word: `{@{flattens …, so it is not single-valued}@}`.
+
+__Length picks the shape.__ An explanation of twenty prose words or fewer written on one line is one cloze holding it whole, from its label onward on an answer line, punctuation inside, even when it runs across two sentences: `{@{The 30 unfilled shares cancel.}@}`. Past twenty, or once it continues onto a second line at any length, it is a derivation, and each sentence carries its own cloze hiding that step's payload.
+
+__One item per slot.__ A block carries one `- explanation:`, one `- solution:` and one `- annotation:`. A step with more to say continues on the lines below its item: the line above ends with `<br/>`, each continuation is indented four spaces past the quote space (so it reads `>` then five spaces then the text), and a new paragraph inside the item leaves a blank `>` line between the two instead of the tag. A second `- explanation:` answers the question twice rather than giving the first one room.
+
+- __The frame stays visible.__ The words that introduce the clause stay outside the cloze: its subject, or an opener such as `Consider`, `We also`, `Thus`, `The price, when`, `Since …`. Hide what the clause asserts, not the words that set it up.
+- __Boundaries snap to the constituent.__ A cloze opens and closes where a phrase does, never in the middle of one.
+- __A dangling tail is absorbed.__ `move up or down` becomes `move up or down before settlement` when `before settlement` is neither frame nor answer.
+- __A bare connective merges into its neighbour.__ `not always`, `not both` and `not only for the DC term` join the cloze beside them; none stands as its own cloze.
+- __The grammatical pivot stays visible__ when both sides carry payload: `{@{The required average inventory}@} is {@{4 shows}@}`. A lone adjective predicate merges with its copula instead: `{@{Discrete-time sinusoids are equivalent}@}`.
+- __The article goes inside the cloze.__ `a {@{discrete line spectrum}@}` becomes `{@{a discrete line spectrum}@}`.
+- __Maths goes inside the cloze that answers.__ The arithmetic producing the answer hides with it, `{@{add up the activity time: 5+15+60 = 80 minutes}@}`, a display block's full stop included as `\,.` and its `$$` inside the cloze with it.
+- __Never cloze what the line already shows.__ A word the line states stays stated, and a parenthetical hedge stays visible: `{@{The effect of lack of correlation}@} \(should\) {@{outweighs that of higher SD}@}`.
+
+Three limits hold an answer line. A long explanation keeps 0.45 to 0.95 of its prose words inside its clozes, with one in every sentence (`answer_explanation_shape`), and it is measured as the whole item, continuation lines included, however short that item is. One cloze hides at most twenty prose words (`cloze_giant` warns past it, and a solution's single cloze is exempt). A formula clozed alone while prose stays visible beside it is a warning (`answer_formula_alone`): hide it in the cloze holding its words, and a line that keeps it alone carries its own suppression, `<!-- check: ignore-line[answer_formula_alone]: <reason> -->`, where the visible frame names the formula. Mathematics and code are not prose, so a formula hides whole, and a visible fragment under four prose words is frame rather than payload, so it is not judged.
+
+Three rules reject what the limits leave open. `answer_sentence_all_hidden` rejects a long explanation or annotation that hides a whole sentence, since the card then shows nothing to recall that step from. `answer_visible_calculation` rejects a calculation left standing outside every cloze on a line whose clozes hide no number, since the card reads the result it asks for. `cloze_glue` rejects a cloze holding only connectives, `{@{so}@}` or `{@{which is}@}`: merge the connective into the cloze beside it.
+
+## Style gallery
+
+Before → after, each pair hand-corrected by the owner and quoted from that diff; the label names the rule it settles.
+
+1. __Frame at the clause opening__ (ECON 2103 questions:52): `Do not consider the already spent {@{$10&nbsp;000 as it is a sunk cost}@}.` → `Do not consider {@{the already spent $10&nbsp;000 as it is a sunk cost}@}.`
+2. __Absorbing a dangling tail__ (ACCT 3020 dilutive securities:448): `so compensation expense can {@{move up or down}@} before settlement.` → `so compensation expense can {@{move up or down before settlement}@}.`
+3. __Merging a bare connective__ (COMP 3111H UML:746): `(e.g., {@{a car}@} can be owned by {@{either a company or a person}@} but {@{not both}@})` → `(e.g., {@{a car}@} can be owned by {@{either a company or a person but not both}@})`
+4. __Never cloze what the line shows__ (COMP 3111H UML:343): `It describes {@{what conditions are required to start the use case}@} \(the "{@{what}@}"\)` → `It describes {@{what conditions are required to start the use case}@} \(the "what"\)`
+5. __The article goes inside__ (ELEC 2100 quiz 2:115): `produces a {@{discrete line spectrum at harmonic frequencies}@}, not a {@{continuous spectrum}@}` → `produces {@{a discrete line spectrum at harmonic frequencies}@}, not {@{a continuous spectrum}@}`
+6. __Maths inside the cloze that answers__ (ISOM 2700 quiz 1:46): `Thus, simply add up the activity time: 5+15+60 = {@{80&nbsp;minutes}@}.` → `Thus, simply {@{add up the activity time: 5+15+60 = 80&nbsp;minutes}@}.`
+7. __The maths label and its formula together__ (ECON 2103 questions:191): `Consider {@{the marginal (opportunity) costs for Albert if he specializes in meat}@}: $$16 / 24 = 2 / 3~\mathrm{potato/meat}$$.` → `Consider {@{the marginal (opportunity) costs for Albert if he specializes in meat: $$16 / 24 = 2 / 3~\mathrm{potato/meat}\,.$$}@}`
+8. __A short line stays one cloze__ (ELEC 1100 week 11:43): `{@{A "0 1" sensor rotation}@} means {@{left sensor not on white, right sensor on white}@}, which corresponds to {@{rotating left}@}.` → `{@{A "0 1" sensor rotation means left sensor not on white, right sensor on white, which corresponds to rotating left.}@}`
+9. __A 22-word line splits, keeping frames__ (FINA 2303 questions:212): `{@{Compare the two annuities. The latter is simply the former, but with all cash flows moving backward in time by 1 period.}@}` → `Compare {@{the two annuities}@}. The latter is {@{simply the former}@}, but with {@{all cash flows moving backward in time by 1 period}@}.`
+10. __The pivot visible on both sides__ (ISOM 2700 quiz 1:124): `{@{The required average inventory is 4 shows}@}` → `{@{The required average inventory}@} is {@{4 shows}@}`
+11. __The hedge stays visible__ (FINA 2303 questions:1189): `{@{The effect of lack of correlation \(should\) outweighs that of higher SD}@}.` → `{@{The effect of lack of correlation}@} \(should\) {@{outweighs that of higher SD}@}.`
+12. __Premise hidden, frame kept__ (COMP 3111H quiz 14:106): `For a \(large\) loop with _n_ iterations, {@{execute loops for 0, 1, 2 passes}@};` → `For {@{a \(large\) loop with _n_ iterations}@}, execute {@{loops for 0, 1, 2 passes}@};`
+13. __Items on adjacent lines__ (`answer_item_gap`, ELEC 2100 quiz 1:41): `> - solution: {@{3. (c)}@}`, a blank `>` line, `> - explanation: <derivation>` → the explanation directly under the solution.
 
 ## Diagrams in cards
 
@@ -44,7 +80,9 @@ Paths are relative to the note (`attachments/<name>.svg`), and alt text is a pla
 
 ## Academic conventions
 
-__Private quiz archives__ (the user has confirmed a checked option is correct): prefer a short `- explanation:` bullet with clozes over a bare answer-only card. Cloze the decisive method, condition, contrast, or reason; do not merely hide the same final option twice. When the question or answer depends on an embedded figure, still add the cloze-rich explanation rather than treating the image as review support. If the `Solution:` line contains the image, keep at least one cloze on that line too, so the chosen option or structural descriptor is directly quizzable.
+__Private files tag inactive.__ A file under `private/` carries `flashcard/inactive/special/academia/...` for the same path its public twin would use, so its cards stay out of the review queue until it is published. Publishing flips `inactive` to `active` in the same edit that moves the file; nothing else about the tag changes.
+
+__Private quiz archives__ (the user has confirmed a checked option is correct): prefer a short `- explanation:` bullet with clozes over a bare answer-only card, unless the question is conceptual enough that the solution line already carries the recall. Cloze the decisive method, condition, contrast, or reason; do not merely hide the same final option twice. When the question or answer depends on an embedded figure, still add the cloze-rich explanation rather than treating the image as review support. If the `Solution:` line contains the image, keep at least one cloze on that line too, so the chosen option or structural descriptor is directly quizzable. The solution itself names the option as `{@{3. (c)}@}`, the note's choice number and that choice's text, in one cloze.
 
 __Public quiz hints__ written as `::@::`: keep the hints in the same order as the archived/private question order. To add context, put it on the left-hand prompt: option-family cues, mutated-but-equivalent givens, or the decisive spectral, timing, or topology landmarks, without copying the official choices verbatim.
 
@@ -58,20 +96,23 @@ __Prompts name the thing:__ a bare label is not a prompt. `- overview ::@:: ...`
 
 __Conceptual math-law cards:__ a descriptive prompt is often better than forcing the formula onto the left-hand side. When the card is genuinely conceptual rather than computational, prefer the descriptive prompt and, if needed, attach a targeted inline suppression comment on the same line instead of warping the card into a fake calculation.
 
+__Full forms on every card:__ the viewer shows one card at a time and each line is an independent card — sibling cards, the section heading, and the note's prose are all invisible with it — so a line that carries an acronym, an initialism, an abbreviation, or a person's name also carries the full form on that same line. Expand inside the cloze when the expansion is what gets recalled (`{@{Rutherford backscattering (RBS)}@} fires ions at a sample…`), or keep the expansion visible and hide the short form (`Rutherford backscattering ({@{RBS}@}) fires ions…`); either way the line mentions the full form once. A card that refers to a person directly, as subject or object, writes their full name (`The law stating {@{$V = IR$}@} is due to {@{Georg Simon Ohm}@}.`); a fixed eponym term ("Ohm's law", "the Laplace transform") is a term, not a short form, and may stand alone when the line names no person besides it. Verbatim quoted text, YAML frontmatter, LaTeX symbols, and units are exempt. In prose the scope is the note rather than the line: expand at first use, then the short form is fine.
+
 ## Cards are shown alone
 
 A reader meets one card at a time. There is no note around it, no prose, no heading and no sibling card, so a card leaning on any of those cannot be answered.
 
-- __Name the setting:__ the model and the sample, with the size where it matters. `for $X_1, \ldots, X_n$ i.i.d. from $N(\mu, \sigma^2)$, $n > 1$`.
+- __Name the setting:__ the model and the sample, with the size where it matters. `for $X_1, \ldots, X_n$ independent and identically distributed (i.i.d.) from $N(\mu, \sigma^2)$, $n > 1$`.
 - __Define every symbol:__ a symbol the prose introduced is not on the card. Either the card defines it or it goes. A card naming the statistical object in words beats one naming a matrix the prose set up.
 - __No deixis:__ `here`, `this result`, `the two forms`, `by substitution` and `still` point at prose the reader does not have. Name the thing instead.
+- __Carry the block's own context:__ a question block is the card, so the block holds the figure it asks about, its label carries the path, `5.a.` rather than `5(a)`, and it restates the premises it needs rather than pointing at a sibling; a card opening on `(a)`, or naming a figure drawn above the block, cannot be answered.
 - __Ask:__ a bare label such as `definition` or `overview` names the section's shape rather than its content.
 
 This generalises the worked-example rule above, which covers calculation cards only.
 
 ## When to use
 
-Invoke the skill when the user asks to "add flashcards", "cloze this", "quizify", or similar. The target file must already exist; never create new files, and never edit submodules or private content without permission. Private academic content that the `academic-ingest` routing rule sends to `private/` (non-in-class submission artifacts and question pages) is edited in place during an ingestion; other `private/` content still needs permission. Process one paragraph or logical block at a time and display the original text for confirmation. Cloze what the block exists to establish: the definitions, the relations, the numbers a reader would be asked to recall. A claim the course only passed over gets one definitional card or none, never a set built out from the encyclopedia article behind it. Numeric facts and simple assignments may be clozed as atomic units. Never cloze a connective, a transition, or a word the reader needs as a hint, and stop at the validator's bounds rather than a higher target, 80% of the paragraph's visible characters at minimum and 98% at the most. The old 92%-per-sentence target pushed the cloze boundary onto words like "therefore" and "which", which tests the reader's memory of your phrasing rather than of the subject.
+Invoke the skill when the user asks to "add flashcards", "cloze this", "quizify", or similar. The target file must already exist; never create new files, and never edit submodules or private content without permission. Private academic content that the `academic-ingest` routing rule sends to `private/` (non-in-class submission artifacts and question pages) is edited in place during an ingestion; other `private/` content still needs permission. Process one paragraph or logical block at a time and display the original text for confirmation. Cloze what the block exists to establish: the definitions, the relations, the numbers a reader would be asked to recall. A claim the course only passed over gets one definitional card or none, never a set built out from the encyclopedia article behind it. Numeric facts and simple assignments may be clozed as atomic units. Never cloze a connective, a transition, or a word the reader needs as a hint, and stop at the validator's bounds rather than a higher target, 85% of the paragraph's visible characters at minimum and 98% at the most.
 
 Inline comments such as `<!-- check: ignore-line[...]: equation on left -->` are rationales for validator suppressions, not editing instructions. Never split or reflow a card because a comment mentions "left" or "right": the left-hand portion always means the text before the `::@::` or `:@:` separator, and it may be long when calculations are involved.
 
@@ -100,7 +141,7 @@ Use this process for every clozing task: it yields fine-grained clozes that keep
 
 ### 1. Assume everything needs clozing
 
-Treat every clause, equation, and factual claim in the target sentence as a candidate blank. Aim for at least 80% of each solution sentence inside clozes (target around 90%); only linking words ("so", "hence", "therefore"), articles ("the", "a"), and 1-3 hint words should remain visible. In multi-step worked solutions, every intermediate equation and every conclusion must be individually clozed.
+Treat every clause, equation, and factual claim in the target sentence as a candidate blank. Hide each step's payload and keep the frame that reads it; only linking words ("so", "hence", "therefore"), articles ("the", "a"), and 1-3 hint words should remain visible. The visible-hint rule covers prose lines; an answer line carries none, because the blockquote question above it is the prompt and `answer_explanation_shape` keeps its frame.
 
 ### 2. Split at natural boundaries
 
@@ -110,7 +151,7 @@ Break at commas, semicolons, conjunctions (`and`, `but`, `so`, `because`), relat
 | --- | --- |
 | Comma | "voltage is equal, so current differs" → two clozes |
 | Semicolon | "R increases; X decreases" → two clozes |
-| Conjunction | "blocks the MCU and risks missing inputs" → two clozes |
+| Conjunction | "blocks the microcontroller unit (MCU) and risks missing inputs" → two clozes |
 | Equation boundary | "IB is 0.09 mA, so βIB is 8.2 mA" → two clozes |
 | Prose + equation | "current is $I=...$" → two clozes (prose visible, equation hidden) |
 | Solution step | "IB is 0.09 mA, so βIB is 8.2 mA" → each equation gets its own cloze |
@@ -125,24 +166,24 @@ Remove words from the cloze until one or two anchor words remain visible outside
 
 ```text
 Before (one giant cloze): {@{The transistor is not in saturation because βIB < IC,max}@}
-After (two focused clozes): The {@{transistor is not in saturation@}} because {@{βIB < IC,max@}}.
+After (two focused clozes): The {@{transistor is not in saturation}@} because {@{βIB < IC,max}@}.
 ```
 
-Do not mix prose and equation in one cloze by default. For "The voltage is $V=...$", use `{@{The voltage}@} is {@{$V=...$}@}`, with the linking word visible; a term and its formula belong in one cloze only when they are recalled together (`{@{Bragg's law $\lambda = 2d\sin\theta$}@}`). Do not apply this split to prose-to-prose sentences: "the Zener is effectively off" stays one cloze, `{@{the Zener is effectively off@}}`.
+Do not mix prose and equation in one cloze by default. For "The voltage is $V=...$", use `{@{The voltage}@} is {@{$V=...$}@}`, with the linking word visible; a term and its formula belong in one cloze only when they are recalled together (`{@{Bragg's law $\lambda = 2d\sin\theta$}@}`). Do not apply this split to prose-to-prose sentences: "the Zener is effectively off" stays one cloze, `{@{the Zener is effectively off}@}`.
 
 ### 4. Audit coverage
 
-Estimate the cloze-to-visible ratio for each solution line, with a hard minimum of 80% of each solution sentence inside clozes and a target around 90%. Reach the target with this hierarchy:
+An answer of at most twenty prose words is one cloze holding the line whole. A longer one is a derivation: every sentence carries a cloze hiding its step's payload, 0.45 to 0.95 of the line's prose words sit inside the clozes, and the frame that reads the steps stays visible. Reach that with this hierarchy:
 
 1. __Expand__ an existing cloze to absorb important visible content around it (preferred: fewest lines rewritten).
 2. __Add__ a new cloze when uncovered content is far from any existing one.
 3. __Merge__ two adjacent clozes separated by only one or two visible words when the merged version tests a single coherent concept. Use sparingly.
 
-Common failures: clozing only equations while leaving prose explanations visible (both must be clozed), and splitting content into so many tiny clozes that one larger cloze would prompt recall better (`{@{reverse breakdown}@}` is weaker than `{@{reverse breakdown, the node is clamped near@}}`).
+Common failures: clozing only equations while leaving prose explanations visible (both must be clozed), and splitting content into so many tiny clozes that one larger cloze would prompt recall better (`{@{reverse breakdown}@}` is weaker than `{@{reverse breakdown, the node is clamped near}@}`)
 
 ### Common mistakes
 
-1. __Missing hint words.__ Every cloze needs at least one visible word outside it. A cloze starting a sentence with no lead-in is wrong; add a hint such as "The advantage is". Hints are typically 1-3 words but can be longer phrases ("The node voltage is", "Solution:"), with no upper limit. The validator catches cloze clauses with no visible hint words.
+1. __Missing hint words.__ In prose, every cloze needs at least one visible word outside it, and one starting a sentence with no lead-in is wrong; add a hint such as "The advantage is". Hints are typically 1-3 words but can be longer phrases ("The node voltage is"), with no upper limit. No rule counts hint words on an answer line: the label names the slot rather than a hint, and `answer_explanation_shape` governs that frame instead. The validator catches cloze clauses with no visible hint words.
 2. __Contrast merged into one cloze.__ Contrast items (A vs B) must be separate clozes, never `{@{X is good, whereas Y is bad}@}`.
 3. __Over-splitting.__ Do not split at every comma; related items within one reasoning step stay in one cloze.
 4. __Prose+equation merge.__ Keep the split as the default: `{@{Ohm's law}@} is {@{$V=IR$}@}` when the concept name should prompt recall, so it stays visible as a hint. A term and its formula may share one cloze when they are recalled together, such as `{@{Bragg's law $\lambda = 2d\sin\theta$}@}`.
@@ -150,7 +191,7 @@ Common failures: clozing only equations while leaving prose explanations visible
 6. __Articles left outside the cloze.__ Articles (`the`, `a`, `an`) belong to the noun phrase inside the cloze, so `{@{the device}@}` recalls better than `the {@{device}@}`. The validator warns when an article immediately precedes a cloze opening. When the word before a cloze is a label rather than an article (`Graph a {@{…}@}`), put a visible verb between them (`Graph a carries {@{…}@}`) or suppress with `<!-- check: ignore-line[cloze_article_before]: label not article -->` on the line.
 7. __Copula or auxiliary verb inside the cloze.__ Linking and auxiliary verbs (`is`, `are`, `was`, `were`, `be`, `been`, `being`, `am`, `has`, `have`, `had`) carry no tested content, so they stay visible and the cloze opens on the payload: `is {@{$5\ \text{V}$}@}`, never `{@{is $5\ \text{V}$}@}`. Hiding the verb leaves the card front an unfinished sentence; the validator rule is `cloze_opens_with_linking_verb`.
 8. __Wrong cloze tokens.__ Cloze tokens must be exactly `{@{` and `}@}`. Common typos (`@{`, `@}`, `{@}`, reversed `}@`) are malformed, and the validator reports them.
-9. __Insufficient coverage.__ A paragraph with cloze flashcards should have at least 80% of its visible characters inside cloze bodies; the validator warns below that.
+9. __Insufficient coverage.__ A paragraph with cloze flashcards should have at least 85% of its visible characters inside cloze bodies; the validator warns below that.
 10. __Excessive coverage.__ Above 98%, almost everything is hidden and too few hint words remain; leave context words visible so the reader knows what they are recalling. The validator warns above that.
 
 ## Representative examples
@@ -158,22 +199,22 @@ Common failures: clozing only equations while leaving prose explanations visible
 1. __Truth table + formula split__ (electronic circuits): the formula and the concept get separate clozes, each anchored by a hint word.
 
    ```text
-   Input: The output is XNOR with Q = AB' + A'B.
-   Output: The {@{output is XNOR@}} with {@{$Q = AB' + A'B$@}}.
+   Input: The output is exclusive NOR (XNOR) with Q = AB' + A'B.
+   Output: The {@{output is exclusive NOR (XNOR)}@} with {@{$Q = AB' + A'B$}@}.
    ```
 
 2. __Splitting a single long cloze__ (embedded systems): one giant blank becomes three focused ones, each testing a distinct concept.
 
    ```text
-   Input: millis() returns milliseconds and has no rollover risk for months, but delay() blocks the MCU and risks missing sensor inputs.
-   Output: millis() returns {@{milliseconds@}} and has {@{no rollover risk for months@}}, but delay() {@{blocks the MCU and risks missing sensor inputs@}}.
+   Input: millis() returns milliseconds and has no rollover risk for months, but delay() blocks the microcontroller unit (MCU) and risks missing sensor inputs.
+   Output: millis() returns {@{milliseconds}@} and has {@{no rollover risk for months}@}, but delay() {@{blocks the microcontroller unit (MCU) and risks missing sensor inputs}@}.
    ```
 
 3. __Resistor network__ (circuit analysis): split a single equation cloze into a concept cloze plus a separate equation cloze.
 
    ```text
    Input: In a parallel circuit, voltage is equal: V_1 = V_2 = V_3.
-   Output: In a parallel circuit, {@{voltage is equal@}: $V_1 = V_2 = V_3$}.
+   Output: In a parallel circuit, {@{voltage is equal}@}: {@{$V_1 = V_2 = V_3$}@}.
    ```
 
 4. __Additive clozing__ (circuit analysis): keep the existing clozes and add new ones around uncovered factual content.
@@ -182,32 +223,49 @@ Common failures: clozing only equations while leaving prose explanations visible
    Input: Below the combined threshold, the Zener is effectively off and the node behaves like an ordinary voltage divider. Once the current is large enough to drive the Zener into reverse breakdown, the node is clamped near 7.2 V and extra source variation mainly changes the current through the series path.
 
    After initial clozing (some factual content still visible):
-   Below the combined threshold, the Zener is {@{effectively off@}} and the {@{node behaves like an ordinary voltage divider}@}. Once the current is large enough to drive the Zener into {@{reverse breakdown@}}, the {@{node is clamped near@} {@{$7.2\text{ V}$@}} and extra source variation mainly changes the current through the series path.
+   Below the combined threshold, the Zener is {@{effectively off}@} and the {@{node behaves like an ordinary voltage divider}@}. Once the current is large enough to drive the Zener into {@{reverse breakdown}@}, the {@{node is clamped near}@} {@{$7.2\text{ V}$}@} and extra source variation mainly changes the current through the series path.
 
    After coverage audit (add new clozes for visible facts):
-   Below the combined threshold, {@{the Zener is effectively off@}} and the {@{node behaves like an ordinary voltage divider}@}. Once the current is large enough to drive the Zener into {@{reverse breakdown@}}, the {@{node is clamped near@} {@{$7.2\text{ V}$@}} and {@{extra source variation mainly changes the current through the series path}@}.
+   Below the combined threshold, {@{the Zener is effectively off}@} and the {@{node behaves like an ordinary voltage divider}@}. Once the current is large enough to drive the Zener into {@{reverse breakdown}@}, the {@{node is clamped near}@} {@{$7.2\text{ V}$}@} and {@{extra source variation mainly changes the current through the series path}@}.
    ```
 
 5. __Cloze expansion__ (circuit analysis): merge two adjacent small clozes into one larger cloze when the expanded version tests a stronger, more coherent concept.
 
    ```text
    Before (two small clozes, visible text between them):
-   The decision is made from stale data. Even if the physical sensor {@{changes@}}, the code keeps using the old value and the {@{motor behavior may continue incorrectly@}}.
+   The decision is made from stale data. Even if the physical sensor {@{changes}@}, the code keeps using the old value and the {@{motor behavior may continue incorrectly}@}.
 
    After (expand the first cloze to absorb nearby visible words):
-   The decision is made from stale data. Even if the physical sensor {@{changes, the code keeps using the old value@}} and the {@{motor behavior may continue incorrectly@}}.
+   The decision is made from stale data. Even if the physical sensor {@{changes, the code keeps using the old value}@} and the {@{motor behavior may continue incorrectly}@}.
    ```
 
    Expansion is preferred when the two clozes are separated by only one or two visible words and the expanded version captures a single coherent cause-and-effect relationship.
+
+6. __Full form beside the short form__ (embedded systems): the expansion rides on the same card line as the acronym, inside the cloze when it is the payload.
+
+   ```text
+   Input: The microcontroller unit (MCU) uses direct memory access (DMA) to move data without the CPU.
+   Output: The {@{microcontroller unit (MCU)}@} uses {@{direct memory access (DMA)}@} to move data without the CPU.
+   ```
+
+7. __Full name for people, eponym terms exempt__ (circuit analysis): a card that names the person writes the full name; a card that only uses the term named after them does not.
+
+   ```text
+   Input: Ohm's law gives the current.
+   Output: {@{Georg Simon Ohm's law}@} gives the current through a resistor from the voltage across it.
+
+   Also fine, no person named on the line:
+   In a resistor, the current follows {@{the voltage across it}@} — the content of Ohm's law.
+   ```
 
 ## Heuristics
 
 ### General
 
-- Preserve the source verbatim except for cloze markup; do not paraphrase or reflow.
+- Preserve the source verbatim except for cloze markup; do not paraphrase or reflow. Authored text is the one exception: an acronym, abbreviation, or personal name the source left unexpanded gets its full form on the card line (see "Full forms on every card"), while quoted verbatim text is never touched.
 - Never name the material in a card or its surrounding prose: no `the lecture`, `the slides`, `the deck`, or `the course`. State the content itself.
 - Keep equations whole: wrap an entire `$...$` or `$$...$$` block in one cloze; never split math.
-- Leave visible words around each deletion as a hint, and avoid blanking a sentence entirely unless the context is crystal clear.
+- Leave visible words around each deletion as a hint, and avoid blanking a sentence entirely unless the context is crystal clear. A `- solution:` line is that clear: the question sits above it, so its one cloze hides the whole answer.
 - Mirror the user's style when they supply examples or corrections.
 - Preserve HTML entities and escapes exactly, treating them as opaque literals.
 - Never edit `private/`, `self/`, or other submodules without explicit authorization. Academic content routed to `private/` by `academic-ingest` is the exception: it is edited in place during an ingestion.

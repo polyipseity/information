@@ -62,7 +62,7 @@ Flashcards for this section are as follows:
 
 - chunk size and length: a chunk is 2 MB and Netflix's run is $4$ s, so who decides both? ::@:: The service does, not the protocol <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## why HTTP took over
+## advantages of HTTP
 
 Four things follow from a chunk being an ordinary file over HTTP.
 
@@ -78,6 +78,5 @@ Flashcards for this section are as follows:
 - what does a chunk being an ordinary file over HTTP do for the client? ::@:: Playback moves into the browser, so the client needs no new software <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what does a chunk being an ordinary file over HTTP do for the server? ::@:: It is "stupid" again, offering up small chunks of video over stateless HTTP and holding no session state <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what does a chunk being an ordinary file over HTTP do for caching? ::@:: Chunks can be stored in caches and CDNs, which is where the scalability comes from <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- what does segmentation allow the client to change? ::@:: Its choice of download rate, once per chunk.<br/> <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-That is what makes adaptive bitrate streaming possible.
+- what does segmentation allow the client to change? ::@:: Its choice of download rate, once per chunk. That is what makes adaptive bitrate streaming possible. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - why could a single stateful session not change its rate mid-stream? ::@:: Because it fixes the rate when the session is set up, so a network that slows down leaves the client nothing to do but wait <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->

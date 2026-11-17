@@ -10,7 +10,7 @@ tags:
 
 # observational learning
 
-A learner watches someone act, then copies it. The person being watched is the social model, an authority the learner watches and tries to copy. Any reward or punishment lands on the person watched, not the learner, and sometimes nothing follows at all. Bandura's 1977 account, social learning theory, treats the watching itself as the learning. Conditioning and social learning theory differ in one point. The behaviour reinforced has to be the learner's own.
+A learner watches someone act, then copies it. The person being watched is the social model, an authority the learner watches and tries to copy. Any reward or punishment lands on the person watched, not the learner, and sometimes nothing follows at all. Albert Bandura's 1977 account, social learning theory, treats the watching itself as the learning. Conditioning and social learning theory differ in one point. The behaviour reinforced has to be the learner's own.
 
 Four stages sit between watching and repeating: attention, retention, initiation, and motivation. Each can break on its own. A learner who cannot do an observed act has failed at one of the four, and each point calls for a different remedy.
 
@@ -19,12 +19,12 @@ Four stages sit between watching and repeating: attention, retention, initiation
 Flashcards for this section are as follows:
 
 - what the learner watches, and where the consequences land ::@:: A learner watches what other people do, and the consequences can fall on someone else or not appear at all. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
-- other name for observational learning ::@:: Social learning theory, in Bandura's 1977 account. <!--SR:!fsrs,2027-02-22T00:00:00.000Z,91,91.47185982,1,2,3,0,0,2026-11-23T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- other name for observational learning ::@:: Social learning theory, in Albert Bandura's 1977 account. <!--SR:!fsrs,2027-02-22T00:00:00.000Z,91,91.47185982,1,2,3,0,0,2026-11-23T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what the two conditionings require ::@:: The behaviour reinforced has to be the learner's own. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - social model ::@:: An authority a learner watches and tries to copy. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what the four stages being separate buys ::@:: Each stage can break on its own, and each one calls for a different remedy. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## the four stages
+## four stages
 
 Copying a classmate's notes runs through all four. Attention holds while the classmate is similar or a credible high-achieving student. Retention needs the learner to see the notes as help for a quiz. Initiation needs access to the notes. Motivation comes from vicarious reinforcement, a good grade without punishment, or its opposite, a teacher's warning.
 
@@ -94,7 +94,7 @@ Flashcards for this section are as follows:
 - what makes a model supply that reason ::@:: Admiration, reward, or similarity strong enough that the model stands in for the learner. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what the behaviour itself supplies as a reason ::@:: None. The reason comes from the model. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## what arrives with maturity
+## late development
 
 Age tempers what gets learned. Two things arrive late: the capacity to reflect on what one has seen, and the tendency to identify with other people. That step is empathy, and it keeps an observed act from becoming a habit of one's own. A child who imitates an aggressive act has copied it without the step where the act becomes their own.
 

@@ -16,12 +16,12 @@ A _trade through_ happens when a marketable order executes on one exchange while
 
 Flashcards for this section are as follows:
 
-- what trade through is ::@:: Executing a marketable order on one exchange while a better quote is available on another, which Rule 611 of Regulation NMS prohibits. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- what trade through is ::@:: Executing a marketable order on one exchange while a better quote is available on another, which Rule 611 of Regulation National Market System (NMS) prohibits. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what a marketable order must do under the order protection rule ::@:: Be routed to the exchange that offers the best price. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - guarantee the order protection rule gives ::@:: Execution at the best price among the exchanges, no matter where the order was placed. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - why the venue a trader connects to stops mattering ::@:: The order is routed to the best price available wherever it was sent. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## the routing obligation
+## routing obligation
 
 The obligation falls on the exchange that receives the order, not on the trader who sent it. That exchange has to check the prices at the other exchanges and route the order where the better quote is. A [smart order router](smart%20order%20routing.md) is what does that work.
 

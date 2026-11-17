@@ -17,84 +17,193 @@ The questions on this page summarize the _official problem-set materials_ for pr
 
 - topics: elementary combinatorics; set operations; de Morgan's rules; finite Laplace spaces; inclusion-exclusion.
 
-> Elementary combinatorics. Solve the following:
+> 1.a. Distribute $12$ indistinguishable coins to $5$ distinct persons.
 >
-> - (a) Distribute $12$ indistinguishable coins to $5$ distinct persons.
-> - (b) Assign distinct colors from $9$ available colors to $5$ different courses.
-> - (c) Count the on/off configurations of $10$ independent lamps.
-> - (d) In a $6$-out-of-$49$ lottery, count outcomes with exactly $3$ correct guesses and the corresponding probability.
-> - (e) Form an $8$-person committee from $12$ female and $8$ male candidates with at least $3$ females and at most $5$ males.
-> - (f) Choose two of $n\ge 2$ equally spaced points on the unit circle and find the probability that they are neighbors.
-> - (g) Count anagrams and palindromes of "HANNAH".
-> - (h) Order $n$ books when exactly $m$ of them are indistinguishable.
+> ---
 >
-> Solution:
->
-> - (a) {@{Stars and bars}@} gives {@{$\binom{5+12-1}{12}=\binom{16}{12}=1820$}@}.
-> - (b) Choosing {@{ordered distinct colors}@} gives {@{$9\cdot8\cdot7\cdot6\cdot5=\dfrac{9!}{4!}=15120$}@}, since {@{the courses are different and a color cannot be reused once assigned}@}.
-> - (c) Each lamp has {@{2 states independently}@}, so by the {@{product rule}@} the count is {@{$2^{10}=1024$}@}.
-> - (d) Exact-$3$ lottery guesses require choosing {@{$3$ winning numbers out of $6$ and $3$ losing numbers out of $43$}@}, so the number of favorable outcomes is {@{$\binom{6}{3}\binom{43}{3}$}@} and the probability is {@{$\dfrac{\binom{6}{3}\binom{43}{3}}{\binom{49}{6}}\approx0.0176$}@}.
-> - (d) To have exactly {@{3 correct guesses}@}, first choose {@{$3$ of the $6$ winning numbers}@}, then choose {@{$3$ of the $43$ losing numbers}@}. This gives {@{$\binom{6}{3}\binom{43}{3}$ favorable tickets}@} out of {@{$\binom{49}{6}$ possible tickets}@}, so the probability is {@{$\dfrac{\binom{6}{3}\binom{43}{3}}{\binom{49}{6}}\approx0.0176$}@}.
-> - (e) If {@{$j$ females are chosen then $8-j$ males are chosen}@}, and the condition 'at least 3 females, at most 5 males' means {@{$j=3,4,\dots,8$}@}, so the total is {@{$\sum_{j=3}^{8}\binom{12}{j}\binom{8}{8-j}=124025$}@}.
-> - (f) For {@{$n=2$}@} the two chosen points are automatically neighbors, so {@{$p_2=1$}@}; for {@{$n\ge3$}@} there are {@{$\binom{n}{2}$ unordered pairs}@} in total and exactly {@{$n$ neighboring pairs}@}, hence {@{$p_n=\dfrac{n}{\binom{n}{2}}=\dfrac{2}{n-1}$}@}.
-> - (g) The letters of "HANNAH" form a {@{multiset with three repeated pairs}@}, so the number of anagrams is {@{$\dfrac{6!}{2!2!2!}=90$}@}; a palindrome must look like {@{$X_1X_2X_3X_3X_2X_1$ with $X_1,X_2,X_3\in\{A,H,N\}$ distinct}@}, so {@{choosing the first half determines the whole word}@}, giving {@{$3!=6$ palindromes}@}.
-> - (h) Treat the identical books as repeated copies of one symbol, so the number of shelf orderings is {@{$\dfrac{n!}{m!}$}@} because {@{permuting the $m$ indistinguishable copies does not create a new arrangement}@}. <!--SR:!fsrs,2027-07-14T00:00:00.000Z,362,361.7109032,1,2,7,0,0,2026-07-17T00:00:00.000Z!fsrs,2027-08-19T00:00:00.000Z,389,388.51931037,1,2,7,0,0,2026-07-26T00:00:00.000Z!fsrs,2027-07-08T00:00:00.000Z,357,357.21444131,1,2,7,0,0,2026-07-16T00:00:00.000Z!fsrs,2027-04-07T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-03T00:00:00.000Z!fsrs,2027-05-20T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-11T00:00:00.000Z!fsrs,2027-05-15T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-10T00:00:00.000Z!fsrs,2027-05-09T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-09T00:00:00.000Z!fsrs,2027-07-14T00:00:00.000Z,362,361.7109032,1,2,7,0,0,2026-07-17T00:00:00.000Z!fsrs,2027-08-13T00:00:00.000Z,384,384.07088952,1,2,7,0,0,2026-07-25T00:00:00.000Z!fsrs,2027-02-10T00:00:00.000Z,233,232.751709,1.07975443,2,7,0,0,2026-06-22T00:00:00.000Z!fsrs,2027-05-15T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-10T00:00:00.000Z!fsrs,2027-08-19T00:00:00.000Z,389,388.51931037,1,2,7,0,0,2026-07-26T00:00:00.000Z!fsrs,2027-05-09T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-09T00:00:00.000Z!fsrs,2027-06-05T00:00:00.000Z,326,325.58679272,1,2,7,0,0,2026-07-14T00:00:00.000Z!fsrs,2027-01-04T10:12:21.665Z,204,203.8494622,1.98030797,2,6,0,0,2026-06-14T10:12:21.665Z!fsrs,2027-08-13T00:00:00.000Z,384,384.07088952,1,2,7,0,0,2026-07-25T00:00:00.000Z!fsrs,2027-04-13T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-04T00:00:00.000Z!fsrs,2027-07-30T00:00:00.000Z,375,375.15083479,1,2,7,0,0,2026-07-20T00:00:00.000Z!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z!fsrs,2027-06-10T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-07-15T00:00:00.000Z!fsrs,2027-04-23T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-06T00:00:00.000Z!fsrs,2027-07-19T00:00:00.000Z,366,366.19902254,1,2,7,0,0,2026-07-18T00:00:00.000Z!fsrs,2027-04-23T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-06T00:00:00.000Z!fsrs,2027-08-10T00:00:00.000Z,384,384.07088952,1,2,7,0,0,2026-07-22T00:00:00.000Z!fsrs,2027-07-19T00:00:00.000Z,366,366.19902254,1,2,7,0,0,2026-07-18T00:00:00.000Z!fsrs,2027-04-07T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-03T00:00:00.000Z!fsrs,2027-08-05T00:00:00.000Z,380,379.61476502,1,2,7,0,0,2026-07-21T00:00:00.000Z!fsrs,2027-08-05T00:00:00.000Z,380,379.61476502,1,2,7,0,0,2026-07-21T00:00:00.000Z!fsrs,2027-06-10T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-07-15T00:00:00.000Z!fsrs,2027-07-08T00:00:00.000Z,357,357.21444131,1,2,7,0,0,2026-07-16T00:00:00.000Z!fsrs,2027-05-04T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-08T00:00:00.000Z!fsrs,2027-07-14T00:00:00.000Z,362,361.7109032,1,2,7,0,0,2026-07-17T00:00:00.000Z!fsrs,2027-07-14T00:00:00.000Z,362,361.7109032,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
+> - solution: {@{$\binom{5+12-1}{12}=\binom{16}{12}=1820$}@}
+> - explanation: {@{Stars and bars counts distributions of indistinguishable items into distinct boxes.}@}
 
 <!-- markdownlint MD028 -->
 
-> Set operations and de Morgan's rules. A fair die is rolled $N$ times. Let $A_k$ be the event that roll $k$ is $3$, and $B_k$ the event that roll $k$ is $6$.
+> 1.b. Assign distinct colors from $9$ available colors to $5$ different courses.
 >
-> - (a) Express the following events using the sets $A_k$, $B_k$, and elementary set operations:
->     - (i) No $6$ ever appears.
->     - (ii) A $3$ appears at least once.
->     - (iii) A $6$ appears at least once and a $3$ appears at least twice.
-> - (b) Describe in words the events below:
->     - (i) $\left(\bigcup_{i=1}^{N}A_i^c\right)^c$
->     - (ii) $\bigcup_{i=1}^{N-2}(A_i\cap A_{i+1}\cap B_{i+2})$
->     - (iii) $\bigcap_{i=1}^{N-1}(A_i\cup B_{i+1})$
-> - (c) Prove $\left(\bigcup_{i\in I}A_i\right)^c=\bigcap_{i\in I}A_i^c$.
-> - (d) Prove $\left(\bigcap_{i\in I}A_i\right)^c=\bigcup_{i\in I}A_i^c$.
+> ---
 >
-> Solution:
->
-> - (a) The required set formulas are:
->     - (i) {@{$\bigcap_{k=1}^{N}B_k^c$}@}
->     - (ii) {@{$\bigcup_{k=1}^{N}A_k$}@}
->     - (iii) {@{$\left(\bigcup_{k=1}^{N}B_k\right)\cap\left(\bigcup_{\ell,m=1\,;\,\ell\ne m}^{N}(A_\ell\cap A_m)\right)$}@}
-> - (b) The three events mean:
->     - (i) {@{Every roll is a $3$}@}.
->     - (ii) {@{The pattern $3$-$3$-$6$ occurs somewhere in consecutive positions}@}.
->     - (iii) {@{For every adjacent pair of times, either the left roll is $3$ or the next roll is $6$}@}.
-> - (c) Argue elementwise: {@{$\omega\in\left(\bigcup_iA_i\right)^c$ iff $\omega\notin A_i$ for every $i$ iff $\omega\in A_i^c$ for every $i$ iff $\omega\in\bigcap_iA_i^c$}@}.
-> - (d) Similarly, {@{$\omega\in\left(\bigcap_iA_i\right)^c$ iff $\omega\notin A_i$ for at least one $i$ iff $\omega\in A_i^c$ for at least one $i$ iff $\omega\in\bigcup_iA_i^c$}@}. Thus both {@{de Morgan identities follow directly from membership logic}@}. <!--SR:!fsrs,2027-05-30T00:00:00.000Z,321,321.346657,1,2,7,0,0,2026-07-13T00:00:00.000Z!fsrs,2027-05-04T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-08T00:00:00.000Z!fsrs,2027-05-04T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-08T00:00:00.000Z!fsrs,2027-07-30T00:00:00.000Z,375,375.15083479,1,2,7,0,0,2026-07-20T00:00:00.000Z!fsrs,2027-06-10T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-07-15T00:00:00.000Z!fsrs,2027-04-07T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-03T00:00:00.000Z!fsrs,2027-04-02T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-02T00:00:00.000Z!fsrs,2027-07-03T00:00:00.000Z,353,352.70950038,1,2,7,0,0,2026-07-15T00:00:00.000Z!fsrs,2027-04-23T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-06T00:00:00.000Z-->
+> - solution: {@{$9\cdot8\cdot7\cdot6\cdot5=\dfrac{9!}{4!}=15120$}@}
+> - explanation: The colors are {@{chosen in order for the $5$ different courses}@}, since {@{a color cannot be reused once assigned}@}. <br/>
+>     {@{The first course has $9$ choices and each later one loses a color}@}, so {@{the count is the product $9\cdot8\cdot7\cdot6\cdot5$}@}.
 
 <!-- markdownlint MD028 -->
 
-> Rolling dice twice. A fair die is rolled twice. Write down the probability space explicitly and calculate the following probabilities:
+> 1.c. Count the on/off configurations of $10$ independent lamps.
 >
-> - (a) $6$ occurs exactly once.
-> - (b) Both outcomes are odd.
-> - (c) The sum is $4$.
-> - (d) The sum is a multiple of $3$.
+> ---
 >
-> Solution:
->
-> - Use the {@{Laplace space of ordered pairs}@} with {@{$\Omega=\{1,2,3,4,5,6\}^2$ and $P(E)=|E|/36$}@}.
-> - (a) Exact-one-$6$ means {@{one coordinate is $6$ and the other is not}@}, so there are {@{$10$ outcomes}@} and {@{$P=10/36=5/18$}@}.
-> - (b) Both odd means each roll lies in {@{$\{1,3,5\}$}@}, so there are {@{$3^2=9$ outcomes}@} and {@{$P=9/36=1/4$}@}.
-> - (c) Sum $4$ corresponds to {@{$(1,3),(2,2),(3,1)$}@}, hence {@{$P=3/36=1/12$}@}.
-> - (d) A multiple of $3$ means sum {@{$3,6,9,$ or $12$}@}, yielding {@{$12$ ordered pairs}@} in total and therefore {@{$P=12/36=1/3$}@}. <!--SR:!fsrs,2027-06-27T00:00:00.000Z,348,348.19596499,1,2,7,0,0,2026-07-14T00:00:00.000Z!fsrs,2027-05-09T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-09T00:00:00.000Z!fsrs,2027-05-09T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-09T00:00:00.000Z!fsrs,2027-04-13T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-04T00:00:00.000Z!fsrs,2027-06-05T00:00:00.000Z,326,325.58679272,1,2,7,0,0,2026-07-14T00:00:00.000Z!fsrs,2027-08-16T00:00:00.000Z,389,388.51931037,1,2,7,0,0,2026-07-23T00:00:00.000Z!fsrs,2027-05-15T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-10T00:00:00.000Z!fsrs,2027-04-02T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-02T00:00:00.000Z!fsrs,2027-08-08T00:00:00.000Z,380,379.61476502,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-04-23T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-06T00:00:00.000Z!fsrs,2027-05-15T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-10T00:00:00.000Z!fsrs,2027-07-08T00:00:00.000Z,357,357.21444131,1,2,7,0,0,2026-07-16T00:00:00.000Z!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
+> - solution: {@{$2^{10}=1024$ configurations}@}
+> - explanation: {@{Each lamp has $2$ states independently, so the product rule multiplies $10$ factors of $2$.}@}
 
 <!-- markdownlint MD028 -->
 
-> Inclusion-exclusion. For events $A_1,\dots,A_n$ in a probability space, prove the following:
+> 1.d. In a $6$-out-of-$49$ lottery, count outcomes with exactly $3$ correct guesses and the corresponding probability.
 >
-> - (a) The full inclusion-exclusion formula $P\left[\bigcup_{j=1}^{n}A_j\right]=\sum_{k=1}^{n}(-1)^{k+1}\sum_{1\le i_1<\cdots<i_k\le n}P\left[A_{i_1}\cap\cdots\cap A_{i_k}\right]$.
-> - (b) The bounds
->     - $P\left[\bigcup_{j=1}^{n}A_j\right]\le\sum_{j=1}^{n}P[A_j]-\sum_{j=1}^{n-1}P[A_j\cap A_{j+1}]$
->     - $P\left[\bigcup_{j=1}^{n}A_j\right]\ge\sum_{j=1}^{n}P[A_j]-\sum_{1\le i<j\le n}P[A_i\cap A_j]$
+> ---
 >
-> Solution:
+> - solution: {@{$\binom{6}{3}\binom{43}{3}$ favorable tickets, with probability $\dfrac{\binom{6}{3}\binom{43}{3}}{\binom{49}{6}}\approx0.0176$}@}
+> - explanation: Exactly {@{3 correct guesses}@} needs {@{3 of the $6$ winning numbers}@} and {@{$3$ of the $43$ losing numbers}@}. <br/>
+>     That gives {@{$\binom{6}{3}\binom{43}{3}$ favorable tickets}@} out of {@{$\binom{49}{6}$ possible tickets}@}.
+
+<!-- markdownlint MD028 -->
+
+> 1.e. Form an $8$-person committee from $12$ female and $8$ male candidates with at least $3$ females and at most $5$ males.
 >
-> - (a) The formula to prove is {@{$P\left[\bigcup_{j=1}^{n}A_j\right]=\sum_{k=1}^{n}(-1)^{k+1}\sum_{1\le i_1<\cdots<i_k\le n}P\left[A_{i_1}\cap\cdots\cap A_{i_k}\right]$}@}. Proceed by {@{induction on $n$}@}. The case {@{$n=1$}@} is trivial, and the case {@{$n=2$}@} is exactly the familiar identity {@{$P(B\cup C)=P(B)+P(C)-P(B\cap C)$}@}. Now assume the full alternating formula is known for {@{$A_1,\dots,A_n$}@}. Write {@{$B=\bigcup_{j=1}^{n}A_j$ and $C=A_{n+1}$}@}. Then {@{$P\left[\bigcup_{j=1}^{n+1}A_j\right]=P(B\cup C)=P(B)+P(C)-P(B\cap C)$}@}. The term {@{$P(B)$}@} contributes exactly the intersections that do {@{not involve $A_{n+1}$}@}. Also {@{$B\cap C=\bigcup_{j=1}^{n}(A_j\cap A_{n+1})$}@}, so applying the induction hypothesis to {@{$B\cap C$}@} contributes exactly the intersections that {@{do involve $A_{n+1}$}@}, and they appear with the opposite sign because of the leading minus sign. Therefore the same alternating pattern extends from {@{$n$ to $n+1$}@}: add single-set terms, subtract pairwise intersections, add triple intersections, and so on.
-> - (b) The two inequalities come from {@{truncating inclusion-exclusion after the first or second level of correction}@}. Using the same notation {@{$B=\bigcup_{j=1}^{n}A_j$ and $C=A_{n+1}$}@}, we always start from {@{$P(B\cup C)=P(B)+P(C)-P(B\cap C)$}@}. For the upper bound, we want to make the subtraction as small as possible, so it is enough to use a crude lower bound such as {@{$P(B\cap A_{n+1})\ge P(A_n\cap A_{n+1})$}@}, since {@{$A_n\cap A_{n+1}\subseteq B\cap A_{n+1}$}@}. For the lower bound, we want to make the subtraction as large as possible, so we bound {@{$B\cap A_{n+1}$}@} from above by the union bound: {@{$P(B\cap A_{n+1})=P\left[\bigcup_{j=1}^{n}(A_j\cap A_{n+1})\right]\le\sum_{j=1}^{n}P(A_j\cap A_{n+1})$}@}. Substituting these estimates gives the stated {@{Bonferroni upper and lower bounds}@}. <!--SR:!fsrs,2027-07-19T00:00:00.000Z,366,366.19902254,1,2,7,0,0,2026-07-18T00:00:00.000Z!fsrs,2027-08-19T00:00:00.000Z,389,388.51931037,1,2,7,0,0,2026-07-26T00:00:00.000Z!fsrs,2027-03-31T00:00:00.000Z,272,271.99781509,1.07975443,2,7,0,0,2026-07-02T00:00:00.000Z!fsrs,2027-07-19T00:00:00.000Z,366,366.19902254,1,2,7,0,0,2026-07-18T00:00:00.000Z!fsrs,2027-07-25T00:00:00.000Z,371,370.67895896,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-07-08T00:00:00.000Z,357,357.21444131,1,2,7,0,0,2026-07-16T00:00:00.000Z!fsrs,2027-07-25T00:00:00.000Z,371,370.67895896,1,2,7,0,0,2026-07-19T00:00:00.000Z!fsrs,2027-01-14T00:00:00.000Z,208,207.99125421,1.98030797,2,6,0,0,2026-06-20T00:00:00.000Z!fsrs,2027-06-10T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-07-15T00:00:00.000Z!fsrs,2027-05-15T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-10T00:00:00.000Z!fsrs,2027-03-15T00:00:00.000Z,259,259.01493064,1.07975443,2,7,0,0,2026-06-29T00:00:00.000Z!fsrs,2027-04-13T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-04T00:00:00.000Z!fsrs,2027-04-07T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-03T00:00:00.000Z!fsrs,2027-03-31T00:00:00.000Z,272,271.99781509,1.07975443,2,7,0,0,2026-07-02T00:00:00.000Z!fsrs,2027-06-05T00:00:00.000Z,326,325.58679272,1,2,7,0,0,2026-07-14T00:00:00.000Z!fsrs,2027-05-20T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-11T00:00:00.000Z!fsrs,2027-04-13T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-04T00:00:00.000Z!fsrs,2027-05-04T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-08T00:00:00.000Z!fsrs,2027-07-08T00:00:00.000Z,357,357.21444131,1,2,7,0,0,2026-07-16T00:00:00.000Z!fsrs,2027-07-14T00:00:00.000Z,362,361.7109032,1,2,7,0,0,2026-07-17T00:00:00.000Z!fsrs,2027-01-14T00:00:00.000Z,208,207.99125421,1.98030797,2,6,0,0,2026-06-20T00:00:00.000Z!fsrs,2027-05-09T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-09T00:00:00.000Z-->
+> ---
+>
+> - solution: {@{$\sum_{j=3}^{8}\binom{12}{j}\binom{8}{8-j}=124025$}@}
+> - explanation: If {@{$j$ females are chosen then $8-j$ males are chosen}@}, and "at least $3$ females, at most $5$ males" means {@{the range $j=3,4,\dots,8$}@}. <br/>
+>     Summing {@{$\binom{12}{j}\binom{8}{8-j}$ over those $j$}@} gives {@{the total $124025$}@}.
+
+<!-- markdownlint MD028 -->
+
+> 1.f. Choose two of $n\ge2$ equally spaced points on the unit circle and find the probability that they are neighbors.
+>
+> ---
+>
+> - solution: {@{$p_2=1$, and $p_n=\dfrac{2}{n-1}$ for $n\ge3$}@}
+> - explanation: {@{For $n=2$ the two chosen points}@} are {@{automatically neighbors}@}. <br/>
+>     {@{When $n\ge3$}@} there are {@{$\binom{n}{2}$ unordered pairs}@} in total and {@{exactly $n$ neighboring pairs}@}, so {@{the probability $p_n=\dfrac{n}{\binom{n}{2}}=\dfrac{2}{n-1}$}@}.
+
+<!-- markdownlint MD028 -->
+
+> 1.g. Count anagrams and palindromes of "HANNAH".
+>
+> ---
+>
+> - solution: {@{$90$ anagrams and $6$ palindromes}@}
+> - explanation: The letters form {@{a multiset with three repeated pairs}@}, so there are {@{$\dfrac{6!}{2!2!2!}=90$ anagrams}@}. <br/>
+>     A palindrome is {@{fixed by its first half, since the second half mirrors it}@}, so {@{choosing $X_1,X_2,X_3$ from $\{A,H,N\}$ determines the whole word}@} and {@{there are $3!=6$ such choices}@}.
+
+<!-- markdownlint MD028 -->
+
+> 1.h. Order $n$ books when exactly $m$ of them are indistinguishable.
+>
+> ---
+>
+> - solution: {@{$\dfrac{n!}{m!}$ shelf orderings}@}
+> - explanation: Treat {@{the identical books as repeated copies of one symbol}@}, since {@{permuting the $m$ indistinguishable copies creates no new arrangement}@}. <br/> <!--SR:!fsrs,2027-07-14T00:00:00.000Z,362,361.7109032,1,2,7,0,0,2026-07-17T00:00:00.000Z!fsrs,2027-08-19T00:00:00.000Z,389,388.51931037,1,2,7,0,0,2026-07-26T00:00:00.000Z!fsrs,2027-07-08T00:00:00.000Z,357,357.21444131,1,2,7,0,0,2026-07-16T00:00:00.000Z!fsrs,2027-04-07T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-03T00:00:00.000Z!fsrs,2027-05-20T00:00:00.000Z,313,312.84164192,1,2,7,0,0,2026-07-11T00:00:00.000Z!fsrs,2027-05-15T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-10T00:00:00.000Z!fsrs,2027-05-09T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-09T00:00:00.000Z!fsrs,2027-07-14T00:00:00.000Z,362,361.7109032,1,2,7,0,0,2026-07-17T00:00:00.000Z!fsrs,2027-08-13T00:00:00.000Z,384,384.07088952,1,2,7,0,0,2026-07-25T00:00:00.000Z!fsrs,2027-02-10T00:00:00.000Z,233,232.751709,1.07975443,2,7,0,0,2026-06-22T00:00:00.000Z!fsrs,2027-05-15T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-10T00:00:00.000Z!fsrs,2027-08-19T00:00:00.000Z,389,388.51931037,1,2,7,0,0,2026-07-26T00:00:00.000Z!fsrs,2027-05-09T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-09T00:00:00.000Z!fsrs,2027-06-05T00:00:00.000Z,326,325.58679272,1,2,7,0,0,2026-07-14T00:00:00.000Z!fsrs,2027-01-04T10:12:21.665Z,204,203.8494622,1.98030797,2,6,0,0,2026-06-14T10:12:21.665Z!fsrs,2027-08-13T00:00:00.000Z,384,384.07088952,1,2,7,0,0,2026-07-25T00:00:00.000Z!fsrs,2027-04-13T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-04T00:00:00.000Z!fsrs,2027-07-30T00:00:00.000Z,375,375.15083479,1,2,7,0,0,2026-07-20T00:00:00.000Z!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z!fsrs,2027-06-10T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-07-15T00:00:00.000Z!fsrs,2027-04-23T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-06T00:00:00.000Z!fsrs,2027-07-19T00:00:00.000Z,366,366.19902254,1,2,7,0,0,2026-07-18T00:00:00.000Z!fsrs,2027-04-23T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-06T00:00:00.000Z!fsrs,2027-08-10T00:00:00.000Z,384,384.07088952,1,2,7,0,0,2026-07-22T00:00:00.000Z!fsrs,2027-07-19T00:00:00.000Z,366,366.19902254,1,2,7,0,0,2026-07-18T00:00:00.000Z!fsrs,2027-04-07T00:00:00.000Z,278,278.46760619,1,2,7,0,0,2026-07-03T00:00:00.000Z!fsrs,2027-08-05T00:00:00.000Z,380,379.61476502,1,2,7,0,0,2026-07-21T00:00:00.000Z!fsrs,2027-08-05T00:00:00.000Z,380,379.61476502,1,2,7,0,0,2026-07-21T00:00:00.000Z!fsrs,2027-06-10T00:00:00.000Z,330,329.81882824,1,2,7,0,0,2026-07-15T00:00:00.000Z!fsrs,2027-07-08T00:00:00.000Z,357,357.21444131,1,2,7,0,0,2026-07-16T00:00:00.000Z!fsrs,2027-05-04T00:00:00.000Z,300,300.01984473,1,2,7,0,0,2026-07-08T00:00:00.000Z!fsrs,2027-07-14T00:00:00.000Z,362,361.7109032,1,2,7,0,0,2026-07-17T00:00:00.000Z!fsrs,2027-07-14T00:00:00.000Z,362,361.7109032,1,2,7,0,0,2026-07-17T00:00:00.000Z-->
+>     The $n!$ orderings {@{collapse by a factor of $m!$}@}, which leaves {@{the count $\dfrac{n!}{m!}$}@}.
+
+<!-- markdownlint MD028 -->
+
+> 2.a. A fair die is rolled $N$ times. Let $A_k$ be the event that roll $k$ is $3$, and $B_k$ the event that roll $k$ is $6$. Express the following events using the sets $A_k$, $B_k$, and elementary set operations:
+>
+> - (i) No $6$ ever appears.
+> - (ii) A $3$ appears at least once.
+> - (iii) A $6$ appears at least once and a $3$ appears at least twice.
+>
+> ---
+>
+> - solution: {@{$\bigcap_{k=1}^{N}B_k^c$; $\bigcup_{k=1}^{N}A_k$; $\left(\bigcup_{k=1}^{N}B_k\right)\cap\left(\bigcup_{\ell,m=1\,;\,\ell\ne m}^{N}(A_\ell\cap A_m)\right)$}@}
+> - explanation: "No $6$ ever appears" says {@{every roll fails its own $B_k$}@}, so {@{the complements $B_k^c$ are intersected over all $N$ rolls}@}. <br/>
+>     "A $3$ appears at least once" says {@{some $A_k$ occurs}@}, so {@{the events $A_k$ are united over $k$}@}. <br/>
+>     "A $6$ at least once and a $3$ at least twice" needs {@{a union over the $B_k$}@}, {@{intersected with a union over the pairs of distinct $A_\ell$ and $A_m$}@}.
+
+<!-- markdownlint MD028 -->
+
+> 2.b. A fair die is rolled $N$ times. Let $A_k$ be the event that roll $k$ is $3$, and $B_k$ the event that roll $k$ is $6$. Describe in words the events below:
+>
+> - (i) $\left(\bigcup_{i=1}^{N}A_i^c\right)^c$
+> - (ii) $\bigcup_{i=1}^{N-2}(A_i\cap A_{i+1}\cap B_{i+2})$
+> - (iii) $\bigcap_{i=1}^{N-1}(A_i\cup B_{i+1})$
+>
+> ---
+>
+> - solution: {@{Every roll is a $3$; the pattern $3$-$3$-$6$ occurs somewhere in consecutive positions; for every adjacent pair of times, either the left roll is $3$ or the next roll is $6$}@}
+> - explanation: The inner union is {@{the event that some roll is not a $3$}@}, so its complement says {@{every roll is a $3$}@}. <br/>
+>     Each member of the second union says {@{rolls $i$ and $i+1$ are $3$ and roll $i+2$ is $6$}@}, and the union runs over {@{every starting position $i$}@}. <br/>
+>     The intersection over $i$ says that at each adjacent pair {@{the left roll is $3$ or the next roll is $6$}@}.
+
+<!-- markdownlint MD028 -->
+
+> 2.c. A fair die is rolled $N$ times. Let $A_k$ be the event that roll $k$ is $3$, and $B_k$ the event that roll $k$ is $6$. Prove $\left(\bigcup_{i\in I}A_i\right)^c=\bigcap_{i\in I}A_i^c$.
+>
+> ---
+>
+> - solution: {@{The two sets are equal by an elementwise argument}@}
+> - explanation: An outcome lies in $\left(\bigcup_{i\in I}A_i\right)^c$ iff {@{it belongs to no $A_i$}@}, which happens iff {@{it belongs to every $A_i^c$}@}. <br/>
+>     {@{That second condition}@} is exactly {@{membership in $\bigcap_{i\in I}A_i^c$}@}.
+
+<!-- markdownlint MD028 -->
+
+> 2.d. A fair die is rolled $N$ times. Let $A_k$ be the event that roll $k$ is $3$, and $B_k$ the event that roll $k$ is $6$. Prove $\left(\bigcap_{i\in I}A_i\right)^c=\bigcup_{i\in I}A_i^c$.
+>
+> ---
+>
+> - solution: {@{Both de Morgan identities follow directly from membership logic}@}
+> - explanation: An outcome lies in $\left(\bigcap_{i\in I}A_i\right)^c$ iff {@{it misses at least one $A_i$}@}, which happens iff {@{it belongs to at least one $A_i^c$}@}. <br/>
+>     {@{That condition}@} is exactly {@{membership in $\bigcup_{i\in I}A_i^c$}@}.
+
+<!-- markdownlint MD028 -->
+
+> 3.a. A fair die is rolled twice, on the Laplace space $\Omega=\{1,2,3,4,5,6\}^2$ with $P(E)=|E|/36$. Calculate the probability that $6$ occurs exactly once.
+>
+> ---
+>
+> - solution: {@{$P=10/36=5/18$}@}
+> - explanation: {@{One coordinate is $6$ and the other is not, giving $10$ outcomes.}@}
+
+<!-- markdownlint MD028 -->
+
+> 3.b. A fair die is rolled twice, on the Laplace space $\Omega=\{1,2,3,4,5,6\}^2$ with $P(E)=|E|/36$. Calculate the probability that both outcomes are odd.
+>
+> ---
+>
+> - solution: {@{$P=9/36=1/4$}@}
+> - explanation: {@{Each roll lies in $\{1,3,5\}$, giving $3^2=9$ outcomes.}@}
+
+<!-- markdownlint MD028 -->
+
+> 3.c. A fair die is rolled twice, on the Laplace space $\Omega=\{1,2,3,4,5,6\}^2$ with $P(E)=|E|/36$. Calculate the probability that the sum is $4$.
+>
+> ---
+>
+> - solution: {@{$P=3/36=1/12$}@}
+> - explanation: {@{The sum is $4$ exactly for $(1,3)$, $(2,2)$, and $(3,1)$.}@}
+
+<!-- markdownlint MD028 -->
+
+> 3.d. A fair die is rolled twice, on the Laplace space $\Omega=\{1,2,3,4,5,6\}^2$ with $P(E)=|E|/36$. Calculate the probability that the sum is a multiple of $3$.
+>
+> ---
+>
+> - solution: {@{$P=12/36=1/3$}@}
+> - explanation: {@{A multiple of $3$ means the sum is $3$, $6$, $9$, or $12$, which yields $12$ ordered pairs.}@} <!--SR:!fsrs,2027-06-27T00:00:00.000Z,348,348.19596499,1,2,7,0,0,2026-07-14T00:00:00.000Z!fsrs,2027-05-09T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-09T00:00:00.000Z!fsrs,2027-05-09T00:00:00.000Z,304,304.30256839,1,2,7,0,0,2026-07-09T00:00:00.000Z!fsrs,2027-04-13T00:00:00.000Z,283,282.79716409,1,2,7,0,0,2026-07-04T00:00:00.000Z!fsrs,2027-06-05T00:00:00.000Z,326,325.58679272,1,2,7,0,0,2026-07-14T00:00:00.000Z!fsrs,2027-08-16T00:00:00.000Z,389,388.51931037,1,2,7,0,0,2026-07-23T00:00:00.000Z!fsrs,2027-05-15T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-10T00:00:00.000Z!fsrs,2027-04-02T00:00:00.000Z,274,274.1280869,1,2,7,0,0,2026-07-02T00:00:00.000Z!fsrs,2027-08-08T00:00:00.000Z,380,379.61476502,1,2,7,0,0,2026-07-24T00:00:00.000Z!fsrs,2027-04-23T00:00:00.000Z,291,291.42724554,1,2,7,0,0,2026-07-06T00:00:00.000Z!fsrs,2027-05-15T00:00:00.000Z,309,308.57643926,1,2,7,0,0,2026-07-10T00:00:00.000Z!fsrs,2027-07-08T00:00:00.000Z,357,357.21444131,1,2,7,0,0,2026-07-16T00:00:00.000Z!fsrs,2027-04-18T00:00:00.000Z,287,287.11697064,1,2,7,0,0,2026-07-05T00:00:00.000Z-->
+
+<!-- markdownlint MD028 -->
+
+> 4.a. For events $A_1,\dots,A_n$ in a probability space, prove the full inclusion-exclusion formula $P\left[\bigcup_{j=1}^{n}A_j\right]=\sum_{k=1}^{n}(-1)^{k+1}\sum_{1\le i_1<\cdots<i_k\le n}P\left[A_{i_1}\cap\cdots\cap A_{i_k}\right]$.
+>
+> ---
+>
+> - solution: {@{The full inclusion-exclusion formula holds for every $n$}@}
+> - explanation: The formula is proven by {@{induction on $n$}@}: {@{the case $n=1$}@} is trivial, and {@{the case $n=2$}@} is {@{the familiar identity $P(B\cup C)=P(B)+P(C)-P(B\cap C)$}@}. <br/>
+>     Assume the alternating formula for {@{the events $A_1,\dots,A_n$}@} and write {@{$B=\bigcup_{j=1}^{n}A_j$ and $C=A_{n+1}$}@}. <br/>
+>     Then {@{the union satisfies $P\left[\bigcup_{j=1}^{n+1}A_j\right]=P(B\cup C)=P(B)+P(C)-P(B\cap C)$}@}, where {@{the term $P(B)$}@} contributes {@{the intersections that do not involve $A_{n+1}$}@}. <br/>
+>     Since {@{the intersection $B\cap C=\bigcup_{j=1}^{n}(A_j\cap A_{n+1})$}@}, the induction hypothesis on {@{that intersection}@} contributes {@{the intersections that do involve $A_{n+1}$}@}, {@{with the opposite sign from the leading minus}@}. <br/>
+>     The alternating pattern therefore {@{extends from $n$ to $n+1$}@}: {@{add single-set terms}@}, {@{subtract pairwise intersections}@}, and {@{add triple intersections}@}, and so on.
+
+<!-- markdownlint MD028 -->
+
+> 4.b. For events $A_1,\dots,A_n$ in a probability space, prove the bounds
+>
+> - $P\left[\bigcup_{j=1}^{n}A_j\right]\le\sum_{j=1}^{n}P[A_j]-\sum_{j=1}^{n-1}P[A_j\cap A_{j+1}]$
+> - $P\left[\bigcup_{j=1}^{n}A_j\right]\ge\sum_{j=1}^{n}P[A_j]-\sum_{1\le i<j\le n}P[A_i\cap A_j]$
+>
+> ---
+>
+> - solution: {@{The Bonferroni upper and lower bounds both follow}@}
+> - explanation: Both bounds come from {@{truncating inclusion-exclusion after the first or second level of correction}@}. <br/>
+>     With {@{$B=\bigcup_{j=1}^{n}A_j$ and $C=A_{n+1}$}@}, the starting point is always {@{the identity $P(B\cup C)=P(B)+P(C)-P(B\cap C)$}@}. <br/>
+>     The upper bound wants {@{the subtraction as small as possible}@}, so {@{the crude bound $P(B\cap A_{n+1})\ge P(A_n\cap A_{n+1})$, since $A_n\cap A_{n+1}\subseteq B\cap A_{n+1}$}@} suffices. <br/>
+>     The lower bound wants {@{the subtraction as large as possible}@}, so {@{the intersection $B\cap A_{n+1}$}@} is bounded above by {@{the union bound $P(B\cap A_{n+1})\le\sum_{j=1}^{n}P(A_j\cap A_{n+1})$}@}. <br/>
+>     Substituting {@{the two estimates}@} gives {@{the stated Bonferroni upper and lower bounds}@}.

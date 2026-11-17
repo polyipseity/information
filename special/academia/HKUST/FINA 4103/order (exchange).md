@@ -26,7 +26,7 @@ Flashcards for this section are as follows:
 - example of a non-fundamental trading need ::@:: Needing cash, and selling a holding to get it. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - examples of a trading venue ::@:: A stock exchange, a bond market, and a cryptocurrency exchange. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
-## what an order specifies
+## order attributes
 
 Every order carries a price, a quantity, and a direction, buy or sell. Beyond that, three factors decide how well it serves its purpose: priority and speed, execution quality and execution risk, and transparency.
 
@@ -75,7 +75,7 @@ Flashcards for this section are as follows:
 - trading hours of the pre-market and after-market ::@:: Pre-market 8:00–9:15; after-market 16:15–18:30. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - what an open or close order does ::@:: Activates at the opening auction (on open) or the closing auction (on close). <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - open question about open and close orders ::@:: How their time priority is computed. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- difference between a day order and a GTC order ::@:: A day order expires at the close; a GTC order stays until it is cancelled. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- difference between a day order and a good-till-cancel (GTC) order ::@:: A day order expires at the close; a GTC order stays until it is cancelled. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - what extended-hours instructions add ::@:: A window in which the order stays active outside regular trading hours. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ## order types across venues

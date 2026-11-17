@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1073" height="596">
+	<g stroke-width="3">
+		<path fill="#d8e2c3" stroke="#bd1220" d="M236 516h136c7 0 12 5 12 12v40c0 7-5 12-12 12H236c-7 0-12-5-12-12v-40c0-7 5-12 12-12zm-96-144h136c7 0 12 5 12 12v40c0 7-5 12-12 12H140c-7 0-12-5-12-12v-40c0-7 5-12 12-12zm192-144h136c7 0 12 5 12 12v40c0 7-5 12-12 12H332c-7 0-12-5-12-12v-40c0-7 5-12 12-12zm0-144h136c7 0 12 5 12 12v40c0 7-5 12-12 12H332c-7 0-12-5-12-12V96c0-7 5-12 12-12zm68 64v80m0 64l-192 80m1 65l95 79"/>
+		<path fill="#d3e2ea" stroke="#006ab2" d="M428 516h136c7 0 12 5 12 12v40c0 7-5 12-12 12H428c-7 0-12-5-12-12v-40c0-7 5-12 12-12zm-384 0h136c7 0 12 5 12 12v40c0 7-5 12-12 12H44c-7 0-12-5-12-12v-40c0-7 5-12 12-12zm480-144h136c7 0 12 5 12 12v40c0 7-5 12-12 12H524c-7 0-12-5-12-12v-40c0-7 5-12 12-12zm-192 0h136c7 0 12 5 12 12v40c0 7-5 12-12 12H332c-7 0-12-5-12-12v-40c0-7 5-12 12-12zm576-144h136c7 0 12 5 12 12v40c0 7-5 12-12 12H908c-7 0-12-5-12-12v-40c0-7 5-12 12-12zm-192 0h136c7 0 12 5 12 12v40c0 7-5 12-12 12H716c-7 0-12-5-12-12v-40c0-7 5-12 12-12zm-192 0h136c7 0 12 5 12 12v40c0 7-5 12-12 12H524c-7 0-12-5-12-12v-40c0-7 5-12 12-12zm-384 0h136c7 0 12 5 12 12v40c0 7-5 12-12 12H140c-7 0-12-5-12-12v-40c0-7 5-12 12-12zm452 144l-192-80m0 80v-80m96 224l-288-80m-96 80l96-80m768-208l-576-80m384 80l-384-80m0 0l192 80m-384 0l192-80"/>
+		<path fill="none" stroke="#3d8b58" d="M215 508C157 480 44 480 58 40m72 318C77 210 106 40 106 40m216 178c-37-31-4-178-4-178m68 0s12 11 12 26"/>
+		<path fill="#3d8b58" d="M407 63l-8 24-9-24c5 4 12 4 17 0zM214 498l18 18-26-2c6-3 9-10 8-16zm-79-151l1 25-18-18c7 1 13-2 17-7zm187-140l14 21-25-7c7-2 11-8 11-14z"/>
+	</g>
+	<g fill="#006ab2" font-family="Liberation Sans" font-size="48" text-anchor="middle">
+		<switch transform="translate(388 36)" fill="#be1321" text-anchor="end">
+		<text systemLanguage="de">de.wikipedia.org.</text>
+		<text systemLanguage="en">en.wikipedia.org.</text>
+		<text systemLanguage="es">es.wikipedia.org.</text>
+		<text systemLanguage="jbo">jbo.wikipedia.org.</text>
+		<text systemLanguage="pl">pl.wikipedia.org.</text>
+		<text systemLanguage="ru">ru.wikipedia.org.</text>
+		<text>ru.wikipedia.org.</text>
+	</switch>
+		<text x="401" y="134" font-size="85">.</text>
+		<text x="208" y="276">com</text>
+		<text x="400" y="276">org</text>
+		<text x="592" y="276">net</text>
+		<switch transform="translate(784 276)">
+		<text systemLanguage="de">de</text>
+		<text systemLanguage="en">uk</text>
+		<text systemLanguage="es">onu</text>
+		<text systemLanguage="jbo">ca</text>
+		<text systemLanguage="pl,ru">pl</text>
+		<text>pl</text>
+	</switch>
+		<text x="976" y="276">...</text>
+		<text x="400" y="420">fsf</text>
+		<text x="592" y="420">...</text>
+		<text x="208" y="416" font-size="32">wikipedia</text>
+		<switch transform="translate(112 564)">
+		<text systemLanguage="de,es">nds</text>
+		<text systemLanguage="en">sco</text>
+		<text systemLanguage="jbo">eo</text>
+		<text systemLanguage="pl,ru">csb</text>
+		<text>csb</text>
+	</switch>
+		<switch transform="translate(304 564)">
+		<text systemLanguage="de">de</text>
+		<text systemLanguage="en">en</text>
+		<text systemLanguage="es">es</text>
+		<text systemLanguage="jbo">jbo</text>
+		<text systemLanguage="pl">pl</text>
+		<text systemLanguage="ru">ru</text>
+		<text>ru</text>
+	</switch>
+		<text x="496" y="564">...</text>
+	</g>
+</svg>

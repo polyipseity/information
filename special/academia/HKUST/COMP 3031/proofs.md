@@ -81,7 +81,6 @@ Consider {@{the standard recursive definition of factorial}@} in Scala: <!--SR:!
 >   if n == 0 then 1         // base case
 >   else n * factorial(n-1)  // recursive step
 > ```
-<!--SR:!fsrs,2030-03-27T00:00:00.000Z,1244,1244.40857912,1,2,9,0,0,2026-10-30T00:00:00.000Z-->
 
 We wish to prove that for {@{all integers $n \ge 4$}@}, {@{$$\texttt{factorial}(n) \;>\; 2^n \,.$$}@} <!--SR:!fsrs,2030-03-12T00:00:00.000Z,1233,1233.04800529,1,2,9,0,0,2026-10-26T00:00:00.000Z!fsrs,2029-11-08T00:00:00.000Z,1138,1137.78464757,1,2,9,0,0,2026-09-27T00:00:00.000Z-->
 
@@ -118,7 +117,6 @@ Let us prove {@{the associativity law}@} for lists: {@{`(xs ::: ys) ::: zs = xs 
 >     }
 > }
 > ```
-<!--SR:!fsrs,2028-09-10T00:00:00.000Z,718,717.68728078,2.49272837,2,9,0,0,2026-09-23T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -173,7 +171,6 @@ Define {@{list reversal}@} recursively: <!--SR:!fsrs,2029-10-29T00:00:00.000Z,11
 >     }
 > }
 > ```
-<!--SR:!fsrs,2029-07-29T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-06T00:00:00.000Z-->
 
 We aim to prove that {@{reversing twice yields the original list}@}: {@{`xs.reverse.reverse = xs`}@}. <!--SR:!fsrs,2029-12-28T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-09T00:00:00.000Z!fsrs,2029-08-27T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-09-12T00:00:00.000Z-->
 
@@ -237,7 +234,6 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 >     }
 > }
 > ```
-<!--SR:!fsrs,2030-04-16T00:00:00.000Z,1260,1259.53358194,1,2,9,0,0,2026-11-03T00:00:00.000Z!fsrs,2030-01-07T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-11T00:00:00.000Z-->
 
 ### proving set properties
 
@@ -267,7 +263,6 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 >     else this
 > }
 > ```
-<!--SR:!fsrs,2028-03-12T00:00:00.000Z,535,534.77315607,5.00637887,2,9,0,0,2026-09-24T00:00:00.000Z!fsrs,2029-12-28T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-10-09T00:00:00.000Z!fsrs,2028-08-27T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!fsrs,2029-10-29T00:00:00.000Z,1130,1130.11601442,1,2,9,0,0,2026-09-25T00:00:00.000Z-->
 
 {@{The tree is binary}@} because {@{each internal node}@} has {@{at most two children}@}. {@{The _leaf_ constructor}@} is {@{`Empty`}@}; {@{the only _internal_ constructor}@} is {@{`NonEmpty`}@}. <!--SR:!fsrs,2028-09-06T00:00:00.000Z,715,715.17050691,2.49272837,2,9,0,0,2026-09-22T00:00:00.000Z!fsrs,2030-05-06T00:00:00.000Z,1275,1274.63302429,1,2,9,0,0,2026-11-08T00:00:00.000Z!fsrs,2029-06-30T00:00:00.000Z,1034,1033.61384781,1,2,9,0,0,2026-08-31T00:00:00.000Z!fsrs,2028-08-27T00:00:00.000Z,708,707.6141386,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!fsrs,2029-12-04T00:00:00.000Z,1159,1159.34014939,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2028-02-12T00:00:00.000Z,516,515.62997874,5.00637887,2,9,0,0,2026-09-14T00:00:00.000Z!fsrs,2028-08-23T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z-->
 
@@ -355,7 +350,6 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 >     left.union(right.union(other)).incl(elem)
 > }
 > ```
-<!--SR:!fsrs,2028-08-23T00:00:00.000Z,705,705.09333259,2.49272837,2,9,0,0,2026-09-18T00:00:00.000Z!fsrs,2030-02-20T00:00:00.000Z,1218,1217.87747351,1,2,9,0,0,2026-10-21T00:00:00.000Z-->
 
 {@{The correctness of `union`}@} can be expressed by {@{the following proposition}@}: <!--SR:!fsrs,2029-07-24T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-09-05T00:00:00.000Z!fsrs,2030-04-26T00:00:00.000Z,1267,1267.08647061,1,2,9,0,0,2026-11-06T00:00:00.000Z-->
 
@@ -365,7 +359,7 @@ To prove this, one again uses {@{structural induction on `xs`}@}. {@{The base ca
 >
 > For {@{any sets $x$ and $y$ and element $e$}@}, {@{$$x.\text{union}(y).\text{contains}(e) = x.\text{contains}(e)\; \lor\; y.\text{contains}(e)$$}@} <!--SR:!fsrs,2030-01-21T00:00:00.000Z,1195,1195.07164214,1,2,9,0,0,2026-10-14T00:00:00.000Z!fsrs,2029-08-08T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-09-08T00:00:00.000Z!fsrs,2030-02-25T00:00:00.000Z,1222,1221.67255456,1,2,9,0,0,2026-10-22T00:00:00.000Z!fsrs,2029-07-29T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-09-06T00:00:00.000Z-->
 
-The reader can {@{carry out the argument in detail}@}, or refer {@{to below}@}. The proof is more {@{difficult}@}. {@{The three properties above}@} only use {@{some properties of a binary tree}@} but not {@{those specific to a binary _search_ tree \(BST\)}@}. Indeed, the above three properties {@{still holds and can be proven very similarly}@} if `incl` {@{inserts `x` into both subtrees: `NonEmpty(elem, left.incl(x), right.incl(x))`}@}. The proof below, however, also {@{requires properties of a BST}@}. The trouble is that one needs to {@{additionally assume that only `Empty` and `incl` is used to build trees \(i.e. the constructor of `NonEmpty` cannot be used directly\)}@}, so that {@{any instances of `IntSet` are indeed BSTs}@}. {@{This required additional assumption}@} is {@{not very apparent}@}. <!--SR:!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2030-01-07T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-11T00:00:00.000Z!fsrs,2029-12-15T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2030-01-31T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-16T00:00:00.000Z!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2028-02-12T00:00:00.000Z,516,515.62997874,5.00637887,2,9,0,0,2026-09-14T00:00:00.000Z!fsrs,2030-05-01T00:00:00.000Z,1271,1270.8605613,1,2,9,0,0,2026-11-07T00:00:00.000Z!fsrs,2029-10-24T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-24T00:00:00.000Z!fsrs,2028-07-03T04:08:30.096Z,751,751.0504731,1,2,8,0,0,2026-06-13T04:08:30.096Z!fsrs,2030-01-26T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-15T00:00:00.000Z!fsrs,2030-02-10T00:00:00.000Z,1210,1210.28222352,1,2,9,0,0,2026-10-19T00:00:00.000Z!fsrs,2030-01-07T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-11T00:00:00.000Z!fsrs,2029-11-03T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-09-26T00:00:00.000Z-->
+The reader can {@{carry out the argument in detail}@}, or {@{refer to below}@}. The proof is more {@{difficult}@}. {@{The three properties above}@} only use {@{some properties of a binary tree}@} but not {@{those specific to a binary _search_ tree \(BST\)}@}. Indeed, the above three properties {@{still holds and can be proven very similarly}@} if `incl` {@{inserts `x` into both subtrees: `NonEmpty(elem, left.incl(x), right.incl(x))`}@}. The proof below, however, also {@{requires properties of a BST}@}. The trouble is that one needs to {@{additionally assume that only `Empty` and `incl` is used to build trees \(i.e. the constructor of `NonEmpty` cannot be used directly\)}@}, so that {@{any instances of `IntSet` are indeed BSTs}@}. {@{This required additional assumption}@} is {@{not very apparent}@}. <!--SR:!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2030-01-07T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-11T00:00:00.000Z!fsrs,2029-12-15T00:00:00.000Z,1168,1168.38706892,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2030-01-31T00:00:00.000Z,1203,1202.68030072,1,2,9,0,0,2026-10-16T00:00:00.000Z!fsrs,2030-01-16T00:00:00.000Z,1191,1191.26470738,1,2,9,0,0,2026-10-13T00:00:00.000Z!fsrs,2028-02-12T00:00:00.000Z,516,515.62997874,5.00637887,2,9,0,0,2026-09-14T00:00:00.000Z!fsrs,2030-05-01T00:00:00.000Z,1271,1270.8605613,1,2,9,0,0,2026-11-07T00:00:00.000Z!fsrs,2029-10-24T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-09-24T00:00:00.000Z!fsrs,2028-07-03T04:08:30.096Z,751,751.0504731,1,2,8,0,0,2026-06-13T04:08:30.096Z!fsrs,2030-01-26T00:00:00.000Z,1199,1198.87680538,1,2,9,0,0,2026-10-15T00:00:00.000Z!fsrs,2030-02-10T00:00:00.000Z,1210,1210.28222352,1,2,9,0,0,2026-10-19T00:00:00.000Z!fsrs,2030-01-07T00:00:00.000Z,1184,1183.64577796,1,2,9,0,0,2026-10-11T00:00:00.000Z!fsrs,2029-11-03T00:00:00.000Z,1134,1133.95119242,1,2,9,0,0,2026-09-26T00:00:00.000Z-->
 
 > [!example] __`IntSet.union` property proof: part 1__
 >

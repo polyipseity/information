@@ -38,7 +38,7 @@ Flashcards for this section are as follows:
 - what the two-decade study of more than 20,000 people found about marriage ::@:: Those who went on to marry were already slightly happier than their peers before marrying. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what a longitudinal design uses instead of a comparison group ::@:: The participants themselves, each their own comparison from a common starting point. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## what makes it hard
+## practical difficulty
 
 Tracking the same people is the hard part: finding each one again, reaching them, and measuring them all over.
 

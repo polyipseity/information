@@ -23,7 +23,7 @@ Flashcards for this section are as follows:
 - what does an agent add to the bare model? ::@:: Hands to act through, eyes to read with, and memory to keep, plus a loop that runs its turns toward a goal instead of answering once <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what is a large language model on its own? ::@:: A text predictor. It is isolated and without memories, and it cannot act on the world <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## the loop
+## loop
 
 Ask an agent to build a website and it enters a loop of three steps.
 
@@ -44,7 +44,7 @@ Flashcards for this section are as follows:
 - what tells the agent the loop is over? ::@:: A turn with no tool call, which produces the final answer instead of another pass round <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - the agent execution loop figure: does it draw the three steps or the parts they run through? ::@:: The parts. The model evaluating is think, tool call(s) is act, and the tool result is what observe reads <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## the core tool set
+## core tool set
 
 __Read__ ingests context: it scans an existing codebase, reads API documentation, and checks the current state of a file before modifying it.
 

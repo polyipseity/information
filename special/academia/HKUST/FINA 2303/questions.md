@@ -99,7 +99,7 @@ tags:
 > 1. Yes.
 > 2. No.
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2031-07-07,1860,393-->
 > - explanation: {@{The new fact does not affect the present value.}@} <!--SR:!2030-07-12,1541,359!2030-07-02,1531,359-->
 
 <!-- markdownlint MD028 -->
@@ -111,7 +111,7 @@ tags:
 >
 > Which prize should you claim?
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2030-07-01,1530,359-->
 > - explanation: {@{Ignore face values. Use market prices, which in this case are eBay prices.}@} <!--SR:!2030-07-11,1540,359!2030-06-26,1525,359-->
 
 <!-- markdownlint MD028 -->
@@ -123,8 +123,8 @@ tags:
 > 3. if arbitrage exists in the markets where the goods are trading.
 > 4. if the markets where the goods are trading are competitive.
 >
-> - solution: {@{4}@}
-> - explanation: {@{For 3, if arbitrage exists, this likely means there are some barriers preventing the arbitrage from being eliminated by itself, so the market is not competitive.}@} <!--SR:!2030-06-27,1526,359!2030-06-08,1507,359-->
+> - solution: {@{4}@} <!--SR:!fsrs,2032-11-13T00:00:00.000Z,2210,2210.21956418,1,2,10,0,0,2026-10-26T00:00:00.000Z-->
+> - explanation: For 3, if {@{arbitrage exists}@}, this likely means {@{there are some barriers preventing the arbitrage from being eliminated by itself}@}, so {@{the market is not competitive}@}. <!--SR:!2030-06-27,1526,359!2030-06-08,1507,359-->
 
 <!-- markdownlint MD028 -->
 
@@ -139,7 +139,7 @@ tags:
 > 2. benefit in 1 year
 > 3. cost in today's cash
 >
-> - solution: {@{1}@} <!--SR:!2030-07-01,1530,359-->
+> - solution: {@{1}@} <!--SR:!fsrs,2031-04-25T04:45:29.229Z,1776,1775.92302042,1,2,10,0,0,2026-06-14T04:45:29.229Z-->
 
 ## week 2 lecture 1
 
@@ -164,7 +164,7 @@ tags:
 > 3. \$139&nbsp;113
 > 4. \$145&nbsp;998
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!fsrs,2031-05-01T04:46:30.074Z,1782,1781.75141873,1,2,10,0,0,2026-06-14T04:46:30.074Z-->
 > - explanation: {@{$$\$120\,000 \times \left((1 + 4\%)^5 - (1 + 3\%)^5\right) \approx \$6885.45937$$}@} <!--SR:!2031-03-29,1762,377!2031-02-27,1732,377-->
 
 <!-- markdownlint MD028 -->
@@ -176,7 +176,7 @@ tags:
 > 3. 8%
 > 4. 9%
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!fsrs,2032-03-10T00:00:00.000Z,2021,2020.70412769,1,2,10,0,0,2026-08-28T00:00:00.000Z-->
 > - explanation: {@{Use the rule of 72 for quick calculation.}@} <!--SR:!2031-03-17,1750,377!2031-03-27,1760,377-->
 
 <!-- markdownlint MD028 -->
@@ -188,7 +188,7 @@ tags:
 > 3. 23
 > 4. 40
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!fsrs,2032-11-29T00:00:00.000Z,2222,2222.23508615,1,2,10,0,0,2026-10-30T00:00:00.000Z-->
 > - explanation: {@{Beware of off-by-one errors!}@} <!--SR:!2031-03-08,1741,377!2031-03-12,1745,377-->
 
 ## week 2 lecture 2
@@ -198,8 +198,8 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@}
-> - explanation: {@{The price, when evaluated at any time, is always the same. However, the price represents the present value at the _time of evaluation_, so this means...}@} <!--SR:!2031-02-12,1733,382!2029-04-23,1182,362-->
+> - solution: {@{2}@} <!--SR:!fsrs,2032-10-03T00:00:00.000Z,2178,2178.13207453,1,2,10,0,0,2026-10-17T00:00:00.000Z-->
+> - explanation: The price, when {@{evaluated at any time, is always the same}@}. However, the price represents {@{the present value at the _time of evaluation_}@}, so this means... <!--SR:!2031-02-12,1733,382!2029-04-23,1182,362-->
 
 <!-- markdownlint MD028 -->
 
@@ -208,8 +208,8 @@ tags:
 > 1. PV of an ordinary annuity
 > 2. PV of an annuity due
 >
-> - solution: {@{2}@}
-> - explanation: {@{Compare the two annuities. The latter is simply the former, but with all cash flows moving backward in time by 1 period.}@} <!--SR:!fsrs,2031-03-31T02:43:32.195Z,1749,1749.00092967,1,2,10,0,0,2026-06-16T02:43:32.195Z!fsrs,2031-03-19T04:45:30.931Z,1739,1739.20198001,1,2,10,0,0,2026-06-14T04:45:30.931Z-->
+> - solution: {@{2}@} <!--SR:!2027-09-29,749,419-->
+> - explanation: Compare {@{the two annuities}@}. The latter is {@{simply the former}@}, but with {@{all cash flows moving backward in time by 1 period}@}. <!--SR:!fsrs,2031-03-31T02:43:32.195Z,1749,1749.00092967,1,2,10,0,0,2026-06-16T02:43:32.195Z!fsrs,2031-03-19T04:45:30.931Z,1739,1739.20198001,1,2,10,0,0,2026-06-14T04:45:30.931Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -222,7 +222,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!fsrs,2031-10-05T00:00:00.000Z,1890,1890.20135798,1,2,10,0,0,2026-08-02T00:00:00.000Z-->
 > - explanation: {@{$PV(B) = \frac {50\,000} {10\%} \left(1 - \frac 1 {(1 + 10\%)^6} \right) \approx 217763.035 \,,$ which is less than $PV(C) = 220\,000$.}@} <!--SR:!2031-02-19,1739,382!fsrs,2030-06-23T04:46:26.304Z,1470,1469.54519307,1,2,9,0,0,2026-06-14T04:46:26.304Z-->
 
 ## week 3 lecture 1
@@ -234,7 +234,7 @@ tags:
 > 3. 6%
 > 4. Cannot be determined
 >
-> - solution: {@{2}@} <!--SR:!2031-07-07,1860,393-->
+> - solution: {@{2}@} <!--SR:!2027-10-04,754,419-->
 
 <!-- markdownlint MD028 -->
 
@@ -243,7 +243,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2027-02-28,531,409-->
 > - annotation: {@{Nah, that is clearly the financial calculator we are using being too weak...}@} <!--SR:!fsrs,2031-04-26T04:46:32.102Z,1777,1777.38425222,1,2,10,0,0,2026-06-14T04:46:32.102Z!fsrs,2031-04-22T04:46:31.324Z,1773,1772.99187706,1,2,10,0,0,2026-06-14T04:46:31.324Z-->
 
 <!-- markdownlint MD028 -->
@@ -255,7 +255,7 @@ tags:
 > 3. PV of a growing perpetuity with payment starting in year 1 and PV of a growing perpetuity with payment starting in year 11
 > 4. PV of a growing perpetuity with payment starting in year 0 and PV of a growing perpetuity with payment starting in year 11
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!fsrs,2031-03-21T01:12:36.383Z,1749,1748.64073829,1,2,10,0,0,2026-06-06T01:12:36.383Z-->
 > - explanation: {@{Note that the option says "payment starting", which is one year after the annuity starts.}@} <!--SR:!fsrs,2031-04-28T04:46:24.066Z,1779,1778.84269938,1,2,10,0,0,2026-06-14T04:46:24.066Z!2031-07-13,1865,393-->
 
 <!-- markdownlint MD028 -->
@@ -270,7 +270,7 @@ tags:
 > 1. Option 1
 > 2. Option 2
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!fsrs,2029-07-07T04:46:21.131Z,1119,1118.95249216,1,2,10,0,0,2026-06-14T04:46:21.131Z-->
 > - explanation: {@{The PV of costs for option 2: $$PV(C_2) = \frac {15\,000} {0.15} \left(1 - \frac 1 {1.15^4} \right) \approx 42\,824.6754 \,$$ which is more than the PV of costs for option 1, which is simply $40&nbsp;000.}@}
 > - annotation: What if you do not have enough money right now? In that case, you should {@{still choose the same option, but you borrow money from the bank instead}@}. <!--SR:!2029-06-03,1221,373!2029-03-17,1159,373!2030-02-04,1425,373-->
 
@@ -281,7 +281,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!fsrs,2031-04-25T04:45:29.229Z,1776,1775.92302042,1,2,10,0,0,2026-06-14T04:45:29.229Z-->
+> - solution: {@{1}@} <!--SR:!fsrs,2032-09-14T00:00:00.000Z,2166,2166.08190138,1,2,10,0,0,2026-10-10T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -290,7 +290,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!fsrs,2031-05-01T04:46:30.074Z,1782,1781.75141873,1,2,10,0,0,2026-06-14T04:46:30.074Z-->
+> - solution: {@{1}@} <!--SR:!fsrs,2030-05-04T00:00:00.000Z,1325,1324.93367312,1,2,10,0,0,2026-09-17T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -302,7 +302,7 @@ tags:
 > 2. Bank B
 > 3. They are the same
 >
-> - solution: {@{1}@} <!--SR:!fsrs,2029-07-07T04:46:21.131Z,1119,1118.95249216,1,2,10,0,0,2026-06-14T04:46:21.131Z-->
+> - solution: {@{1}@} <!--SR:!fsrs,2032-10-20T00:00:00.000Z,2194,2194.18434604,1,2,10,0,0,2026-10-18T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -315,7 +315,7 @@ tags:
 > 3. 360
 > 4. 372
 >
-> - solution: {@{3}@} <!--SR:!fsrs,2031-03-21T01:12:36.383Z,1749,1748.64073829,1,2,10,0,0,2026-06-06T01:12:36.383Z-->
+> - solution: {@{3}@} <!--SR:!2027-08-13,702,429-->
 
 <!-- markdownlint MD028 -->
 
@@ -326,7 +326,7 @@ tags:
 > 3. 5.8416%
 > 4. 6.00%
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!2028-08-18,948,458-->
 > - explanation: {@{The APR should be slightly lower than the EAR since compounding happens more frequently than annually.}@} <!--SR:!fsrs,2031-03-22T01:11:23.053Z,1750,1750.09259066,1,2,10,0,0,2026-06-06T01:11:23.053Z!fsrs,2031-04-29T04:46:28.773Z,1780,1780.29844318,1,2,10,0,0,2026-06-14T04:46:28.773Z-->
 
 ## week 4 lecture 1
@@ -339,7 +339,7 @@ tags:
 > 2. local bank
 > 3. they are the same
 >
-> - solution: {@{1}@} <!--SR:!fsrs,2032-09-14T00:00:00.000Z,2166,2166.08190138,1,2,10,0,0,2026-10-10T00:00:00.000Z-->
+> - solution: {@{1}@} <!--SR:!fsrs,2030-05-12T00:00:00.000Z,1330,1330.17794254,1,2,10,0,0,2026-09-20T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -349,7 +349,7 @@ tags:
 > 2. outstanding balance
 > 3. loan interest
 >
-> - solution: {@{1}@} <!--SR:!fsrs,2030-05-04T00:00:00.000Z,1325,1324.93367312,1,2,10,0,0,2026-09-17T00:00:00.000Z-->
+> - solution: {@{1}@} <!--SR:!fsrs,2032-12-09T00:00:00.000Z,2230,2230.24019752,1,2,10,0,0,2026-11-01T00:00:00.000Z-->
 
 ## week 4 lecture 2
 
@@ -360,7 +360,7 @@ tags:
 > 3. \$1.6 million
 > 4. \$1 million
 >
-> - solution: {@{2}@} <!--SR:!fsrs,2032-03-10T00:00:00.000Z,2021,2020.70412769,1,2,10,0,0,2026-08-28T00:00:00.000Z-->
+> - solution: {@{2}@} <!--SR:!2028-06-17,911,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -371,7 +371,7 @@ tags:
 > 3. \<15%
 > 4. not enough information
 >
-> - solution: {@{1}@} <!--SR:!fsrs,2032-10-20T00:00:00.000Z,2194,2194.18434604,1,2,10,0,0,2026-10-18T00:00:00.000Z-->
+> - solution: {@{1}@} <!--SR:!2027-06-17,663,419-->
 
 <!-- markdownlint MD028 -->
 
@@ -382,7 +382,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2028-04-16,858,452-->
 > - explanation: {@{Using a financial calculator, the IRR \(APR\) of the loan is 12.675\%.}@} <!--SR:!fsrs,2032-01-29T00:00:00.000Z,1988,1988.19560929,1,2,10,0,0,2026-08-20T00:00:00.000Z!fsrs,2031-12-11T00:00:00.000Z,1952,1951.53152462,1,2,10,0,0,2026-08-07T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
@@ -392,7 +392,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!fsrs,2030-05-12T00:00:00.000Z,1330,1330.17794254,1,2,10,0,0,2026-09-20T00:00:00.000Z-->
+> - solution: {@{1}@} <!--SR:!2027-08-06,704,418-->
 
 ## week 5 lecture 1
 
@@ -412,7 +412,7 @@ tags:
 > 3. both
 > 4. neither
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2028-08-06,936,452-->
 > - explanation: {@{This shows how net positive value \(NPV\) is a direct application of the valuation principle.}@} <!--SR:!fsrs,2032-10-29T00:00:00.000Z,2198,2198.19462525,1,2,10,0,0,2026-10-23T00:00:00.000Z!fsrs,2032-11-04T00:00:00.000Z,2202,2202.20400893,1,2,10,0,0,2026-10-25T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
@@ -435,8 +435,8 @@ tags:
 > 3. both
 > 4. neither
 >
-> - solution: {@{1}@}
-> - annotation: {@{If you accidentally subtract from the project B \(smaller\) the project A \(larger\), you still get the same incremental IRR. <p> This does not mean you should accept the "alternative" project, project B. It still means you should accept project A. Consider the cash flows you obtained by subtracting in the wrong direction. It becomes a loan/delayed investment, so the IRR decision rule is reversed.}@} <!--SR:!fsrs,2032-10-08T00:00:00.000Z,2182,2182.14685601,1,2,10,0,0,2026-10-18T00:00:00.000Z!fsrs,2032-12-08T00:00:00.000Z,2229,2228.80975737,1,2,10,0,0,2026-11-01T00:00:00.000Z-->
+> - solution: {@{1}@} <!--SR:!2027-09-20,734,429-->
+> - annotation: If you accidentally {@{subtract from the project B \(smaller\) the project A \(larger\)}@}, you still get {@{the same incremental IRR}@}. <p> This does not mean {@{you should accept the "alternative" project, project B}@}. It still means {@{you should accept project A}@}. Consider {@{the cash flows you obtained by subtracting in the wrong direction}@}. It becomes {@{a loan/delayed investment}@}, so {@{the IRR decision rule is reversed}@}. <!--SR:!fsrs,2032-10-08T00:00:00.000Z,2182,2182.14685601,1,2,10,0,0,2026-10-18T00:00:00.000Z!fsrs,2032-12-08T00:00:00.000Z,2229,2228.80975737,1,2,10,0,0,2026-11-01T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -452,7 +452,7 @@ tags:
 > 3. compute crossover point \(or incremental IRR\) and use IRR rule
 > 4. compute equivalent annual annuity \(EAA\)
 >
-> - solution: {@{4}@} <!--SR:!fsrs,2032-11-13T00:00:00.000Z,2210,2210.21956418,1,2,10,0,0,2026-10-26T00:00:00.000Z-->
+> - solution: {@{4}@} <!--SR:!2027-02-19,534,399-->
 
 <!-- markdownlint MD028 -->
 
@@ -468,7 +468,7 @@ tags:
 > 3. both
 > 4. neither
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2028-08-05,935,452-->
 > - explanation: {@{Model A's EAA is about -84.1392442. Model B's EAA is about -87.6190476.}@} <!--SR:!fsrs,2032-10-24T00:00:00.000Z,2194,2194.18434604,1,2,10,0,0,2026-10-22T00:00:00.000Z!fsrs,2032-10-13T00:00:00.000Z,2186,2186.16037489,1,2,10,0,0,2026-10-19T00:00:00.000Z-->
 
 ## week 5 lecture 2
@@ -496,7 +496,7 @@ tags:
 > 1. Firm A
 > 2. Firm B
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2028-08-20,950,458-->
 > - explanation: {@{Its net working capital \(NWC\) is smaller. Note that the term _insolvency_ describes liquidity, so long-term debt is ignored.}@} <!--SR:!fsrs,2032-10-19T00:00:00.000Z,2190,2190.17281116,1,2,10,0,0,2026-10-21T00:00:00.000Z!fsrs,2032-11-03T00:00:00.000Z,2202,2202.20400893,1,2,10,0,0,2026-10-24T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
@@ -506,7 +506,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!fsrs,2032-11-29T00:00:00.000Z,2222,2222.23508615,1,2,10,0,0,2026-10-30T00:00:00.000Z-->
+> - solution: {@{2}@} <!--SR:!2028-06-28,921,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -515,7 +515,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!fsrs,2032-12-09T00:00:00.000Z,2230,2230.24019752,1,2,10,0,0,2026-11-01T00:00:00.000Z-->
+> - solution: {@{1}@} <!--SR:!2028-08-28,958,458-->
 
 <!-- markdownlint MD028 -->
 
@@ -524,7 +524,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!fsrs,2032-10-03T00:00:00.000Z,2178,2178.13207453,1,2,10,0,0,2026-10-17T00:00:00.000Z-->
+> - solution: {@{2}@} <!--SR:!2028-07-07,929,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -544,7 +544,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {@{2}@} <!--SR:!2027-09-29,749,419-->
+> - solution: {@{2}@} <!--SR:!2028-09-03,964,458-->
 
 <!-- markdownlint MD028 -->
 
@@ -570,7 +570,7 @@ tags:
 > 3. 11&nbsp;481
 > 4. 15&nbsp;531
 >
-> - solution: {@{4}@} <!--SR:!2027-02-19,534,399-->
+> - solution: {@{4}@} <!--SR:!2029-07-10,1225,379-->
 
 ## week 6 lecture 2
 
@@ -579,7 +579,7 @@ tags:
 > 1. increased cash
 > 2. decreased cash
 >
-> - solution: {@{1}@} <!--SR:!2027-06-17,663,419-->
+> - solution: {@{1}@} <!--SR:!2028-07-06,928,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -589,7 +589,7 @@ tags:
 > 2. No
 > 3. Cannot be determined
 >
-> - solution: {@{2}@} <!--SR:!fsrs,2031-10-05T00:00:00.000Z,1890,1890.20135798,1,2,10,0,0,2026-08-02T00:00:00.000Z-->
+> - solution: {@{2}@} <!--SR:!2028-08-29,959,458-->
 
 <!-- markdownlint MD028 -->
 
@@ -598,7 +598,7 @@ tags:
 > 1. Yes
 > 2. No
 >
-> - solution: {@{2}@} <!--SR:!2027-10-04,754,419-->
+> - solution: {@{2}@} <!--SR:!2028-09-02,963,458-->
 
 <!-- markdownlint MD028 -->
 
@@ -611,7 +611,7 @@ tags:
 > 3. 70&nbsp;000
 > 4. 80&nbsp;000
 >
-> - solution: {@{1}@} <!--SR:!2027-08-06,704,418-->
+> - solution: {@{1}@} <!--SR:!2028-04-15,857,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -622,7 +622,7 @@ tags:
 > 3. full recovery of net working capital
 > 4. projected revenue
 >
-> - solution: {@{4}@} <!--SR:!2029-07-10,1225,379-->
+> - solution: {@{4}@} <!--SR:!2027-03-01,481,418-->
 
 ## week 7 lecture 1
 
@@ -631,8 +631,8 @@ tags:
 > 1. EBIT = incremental gross profit – depreciation <br/> taxes = EBIT × corporate marginal tax rate <br/> incremental free cash flow = EBIT – taxes + depreciation
 > 2. EBIT = incremental gross profit <br/> taxes = EBIT × corporate marginal tax rate <br/> incremental free cash flow = EBIT – taxes
 >
-> - solution: {@{1}@}
-> - annotation: {@{The method in 2 can be made correct if the depreciation tax shield is added back at the end. That is, adding \(depreciation × corporate marginal tax rate\).}@} <!--SR:!2027-08-08,697,429!2027-08-22,709,429-->
+> - solution: {@{1}@} <!--SR:!2028-05-18,887,458-->
+> - annotation: The method in 2 {@{can be made correct}@} if {@{the depreciation tax shield is added back at the end}@}. That is, {@{adding \(depreciation × corporate marginal tax rate\)}@}. <!--SR:!2027-08-08,697,429!2027-08-22,709,429-->
 
 <!-- markdownlint MD028 -->
 
@@ -683,7 +683,7 @@ tags:
 > 3. full recovery of net working capital
 > 4. projected revenue
 >
-> - solution: {@{1}@} <!--SR:!2027-09-20,734,429-->
+> - solution: {@{1}@} <!--SR:!2028-06-19,913,452-->
 
 ## week 7 lecture 2
 
@@ -706,7 +706,7 @@ tags:
 > 3. \$44k
 > 4. \$30k
 >
-> - solution: {@{3}@} <!--SR:!2027-08-13,702,429-->
+> - solution: {@{3}@} <!--SR:!2028-07-29,928,458-->
 
 <!-- markdownlint MD028 -->
 
@@ -720,8 +720,8 @@ tags:
 > 4. \$30k
 > 5. \$0
 >
-> - solution: {@{3}@}
-> - annotation: {@{What if the alternative option \(if not reused in a new project\) is to leave the equipment to be depreciated \(i.e. assume that no firms want to buy it\)? In that case, the initial cost is \$0. Additionally, you need to be careful when handling the depreciation of that asset for the new project. The principle is that you should compare the cash flows between taking and not taking the project.}@} <!--SR:!2027-08-19,706,429!fsrs,2029-03-29T00:00:00.000Z,1013,1013.47265631,1,2,9,0,0,2026-06-20T00:00:00.000Z-->
+> - solution: {@{3}@} <!--SR:!2028-04-02,846,452-->
+> - annotation: What if {@{the alternative option \(if not reused in a new project\)}@} is {@{to leave the equipment to be depreciated}@} \(i.e. {@{assume that no firms want to buy it}@}\)? In that case, {@{the initial cost is \$0}@}. Additionally, you need to be {@{careful when handling the depreciation of that asset for the new project}@}. The principle is that {@{you should compare the cash flows between taking and not taking the project}@}. <!--SR:!2027-08-19,706,429!fsrs,2029-03-29T00:00:00.000Z,1013,1013.47265631,1,2,9,0,0,2026-06-20T00:00:00.000Z-->
 
 <!-- markdownlint MD028 -->
 
@@ -734,7 +734,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@}
+> - solution: {@{1}@} <!--SR:!2028-08-07,937,452-->
 > - annotation: {@{In economics, we say the incremental benefit \($7k\) is higher than the incremental cost \(\$3k\).}@} <!--SR:!2027-09-12,727,429!2027-08-28,714,429-->
 
 <!-- markdownlint MD028 -->
@@ -748,7 +748,7 @@ tags:
 > 3. \$200k
 > 4. \$250k
 >
-> - solution: {@{2}@} <!--SR:!2027-02-28,531,409-->
+> - solution: {@{2}@} <!--SR:!2028-07-12,911,452-->
 
 ## week 8 lecture 1
 
@@ -758,7 +758,7 @@ tags:
 > 2. current yield
 > 3. yield to maturity \(YTM\)
 >
-> - solution: {@{3}@}
+> - solution: {@{3}@} <!--SR:!2028-06-14,908,452-->
 > - explanation: {@{One would realize the yield to maturity \(YTM\) is essentially the internal rate of return \(IRR\)...}@} <!--SR:!2027-09-03,719,429!2027-08-07,696,429-->
 
 <!-- markdownlint MD028 -->
@@ -769,7 +769,7 @@ tags:
 > 2. lower yields than
 > 3. the same yields as
 >
-> - solution: {@{2}@}
+> - solution: {@{2}@} <!--SR:!2028-07-11,910,452-->
 > - explanation: {@{The yield curve graphs yield \(y-axis\) against remaining time to maturity \(x-axis, increasing\).}@} <!--SR:!2027-08-21,708,429!2027-09-19,733,429-->
 
 <!-- markdownlint MD028 -->
@@ -793,7 +793,7 @@ tags:
 > 2. lower than
 > 3. same as
 >
-> - solution: {@{1}@} <!--SR:!2028-08-05,935,452-->
+> - solution: {@{1}@} <!--SR:!2028-06-19,912,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -805,7 +805,7 @@ tags:
 > 2. \$1000
 > 3. \$1100
 >
-> - solution: {@{3}@} <!--SR:!2028-08-18,948,458-->
+> - solution: {@{3}@} <!--SR:!2028-07-02,901,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -820,7 +820,7 @@ tags:
 > 3. &gt;12%
 > 4. insufficient information to determine
 >
-> - solution: {@{1}@} <!--SR:!2028-08-28,958,458-->
+> - solution: {@{1}@} <!--SR:!2028-06-29,922,458-->
 
 <!-- markdownlint MD028 -->
 
@@ -835,7 +835,7 @@ tags:
 > 3. increase
 > 4. insufficient information to determine
 >
-> - solution: {@{2}@} <!--SR:!2028-06-17,911,452-->
+> - solution: {@{2}@} <!--SR:!2028-07-01,924,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -850,7 +850,7 @@ tags:
 > 3. price of bond A will decrease more than bond B's in %
 > 4. price of bond A will decrease less than bond B's in %
 >
-> - solution: {@{4}@} <!--SR:!2027-03-01,481,418-->
+> - solution: {@{4}@} <!--SR:!2028-06-18,912,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -868,7 +868,7 @@ tags:
 > 2. bond B
 > 3. bond C
 >
-> - solution: {@{3}@} <!--SR:!2028-07-29,928,458-->
+> - solution: {@{3}@} <!--SR:!2028-05-11,881,458-->
 
 ## week 10 lecture 2
 
@@ -881,7 +881,7 @@ tags:
 > 3. &lt;10%
 > 4. insufficient information
 >
-> - solution: {@{2}@} <!--SR:!2028-04-16,858,452-->
+> - solution: {@{2}@} <!--SR:!2028-08-25,955,458-->
 
 <!-- markdownlint MD028 -->
 
@@ -894,7 +894,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2028-08-06,936,452-->
+> - solution: {@{2}@} <!--SR:!2028-08-12,942,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -905,7 +905,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2028-08-20,950,458-->
+> - solution: {@{2}@} <!--SR:!2028-07-24,923,452-->
 
 ## week 11 lecture 1
 
@@ -919,7 +919,7 @@ tags:
 > 2. 10%
 > 3. 15%
 >
-> - solution: {@{2}@} <!--SR:!2028-06-28,921,452-->
+> - solution: {@{2}@} <!--SR:!2028-06-20,914,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -932,7 +932,7 @@ tags:
 > 3. 6%
 > 4. 9%
 >
-> - solution: {@{4}@} <!--SR:!2028-06-18,912,452-->
+> - solution: {@{4}@}
 
 <!-- markdownlint MD028 -->
 
@@ -944,7 +944,7 @@ tags:
 > 2. increase
 > 3. remains the same
 >
-> - solution: {@{3}@} <!--SR:!2028-04-02,846,452-->
+> - solution: {@{3}@}
 
 ## week 12 lecture 1
 
@@ -974,7 +974,7 @@ tags:
 > 2. increase
 > 3. no change
 >
-> - solution: {@{3}@} <!--SR:!2028-06-14,908,452-->
+> - solution: {@{3}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1002,7 +1002,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2028-07-06,928,452-->
+> - solution: {@{1}@} <!--SR:!2028-08-03,933,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -1018,7 +1018,7 @@ tags:
 > 2. geometric average annual return
 > 3. realized annual return
 >
-> - solution: {@{1}@} <!--SR:!2028-04-15,857,452-->
+> - solution: {@{1}@} <!--SR:!2028-06-30,923,452-->
 
 ## week 12 lecture 2
 
@@ -1029,7 +1029,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2028-05-18,887,458-->
+> - solution: {@{1}@} <!--SR:!2028-07-03,902,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -1054,7 +1054,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2028-07-07,929,452-->
+> - solution: {@{2}@} <!--SR:!2028-06-22,916,458-->
 
 <!-- markdownlint MD028 -->
 
@@ -1065,7 +1065,7 @@ tags:
 > 1. independent risk
 > 2. common risk
 >
-> - solution: {@{2}@} <!--SR:!2028-09-03,964,458-->
+> - solution: {@{2}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1077,7 +1077,7 @@ tags:
 > 2. the risk that a product design is faulty and the product must be recalled
 > 3. the risk that the economy slows, reducing demand for the firm's products
 >
-> - solution: {@{2}@} <!--SR:!2028-08-29,959,458-->
+> - solution: {@{2}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1093,7 +1093,7 @@ tags:
 > 2. firms with only unsystematic risk
 > 3. firms with a mix of both systematic and unsystematic risk
 >
-> - solution: {@{1}@} <!--SR:!2028-06-19,913,452-->
+> - solution: {@{1}@} <!--SR:!2028-07-05,927,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -1104,7 +1104,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2028-08-07,937,452-->
+> - solution: {@{1}@} <!--SR:!2028-05-28,893,452-->
 
 ## week 13 lecture 1
 
@@ -1123,7 +1123,7 @@ tags:
 > 2. 5%
 > 3. 10%
 >
-> - solution: {@{2}@} <!--SR:!2028-09-02,963,458-->
+> - solution: {@{2}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1141,7 +1141,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2028-07-12,911,452-->
+> - solution: {@{2}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1154,7 +1154,7 @@ tags:
 > 3. systematic risk
 > 4. unsystematic risk
 >
-> - solution: {@{3}@} <!--SR:!2028-07-02,901,452-->
+> - solution: {@{3}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1165,7 +1165,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2028-06-19,912,452-->
+> - solution: {@{1}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1186,7 +1186,7 @@ tags:
 > 2. stock B
 >
 > - solution: {@{2}@}
-> - explanation: {@{Even though its SD is higher, its correlation with the original stock is 0 compared to 1 for the other stock. The effect of lack of correlation \(should\) outweighs that of higher SD.}@} <!--SR:!2028-09-05,966,458!2028-06-15,909,452-->
+> - explanation: Even though {@{its SD is higher}@}, its correlation with the original stock is {@{0 compared to 1 for the other stock}@}. {@{The effect of lack of correlation}@} \(should\) {@{outweighs that of higher SD}@}. <!--SR:!2028-09-05,966,458!2028-06-15,909,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -1198,7 +1198,7 @@ tags:
 > 2. systematic risk
 > 3. unsystematic risk
 >
-> - solution: {@{3}@} <!--SR:!2028-05-11,881,458-->
+> - solution: {@{3}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1216,7 +1216,7 @@ tags:
 > 4. ρ = 1
 >
 > - solution: {@{3}@}
-> - annotation: {@{ρ=1 corresponds to the blue line. ρ=0 corresponds to the red line. <p> ρ=−1 does not correspond to any line. Two stocks are enough: simply take two stocks and hold them with equal weights, then volatility is 0.}@} <!--SR:!2028-05-25,893,458!2028-09-06,967,458-->
+> - annotation: ρ=1 corresponds to {@{the blue line}@}. ρ=0 corresponds to {@{the red line}@}. <p> ρ=−1 {@{does not correspond to any line}@}. Two stocks are enough: simply take {@{two stocks and hold them with equal weights}@}, then {@{volatility is 0}@}. <!--SR:!2028-05-25,893,458!2028-09-06,967,458-->
 
 <!-- markdownlint MD028 -->
 
@@ -1227,7 +1227,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2028-06-29,922,458-->
+> - solution: {@{1}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1239,7 +1239,7 @@ tags:
 > 2. 0
 > 3. 1
 >
-> - solution: {@{2}@} <!--SR:!2028-07-11,910,452-->
+> - solution: {@{2}@}
 
 ## week 14 lecture 1
 
@@ -1251,7 +1251,7 @@ tags:
 > 2. 0
 > 3. −1
 >
-> - solution: {@{1}@} <!--SR:!2028-08-03,933,452-->
+> - solution: {@{1}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1269,7 +1269,7 @@ tags:
 > 3. both have the same risk premium
 > 4. insufficient information to determine
 >
-> - solution: {@{1}@} <!--SR:!2028-06-30,923,452-->
+> - solution: {@{1}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1287,7 +1287,7 @@ tags:
 > 3. both have the same expected return
 > 4. insufficient information to determine
 >
-> - solution: {@{1}@} <!--SR:!2028-07-03,902,452-->
+> - solution: {@{1}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1304,7 +1304,7 @@ tags:
 > 2. SolarWinds
 >
 > - solution: {@{1}@}
-> - explanation: {@{Same expected return means they have the same price. \(Higher expected return means lower price.\) If we assume they are wrongly priced, then Rackspace is underpriced, SolarWinds is overpriced, or both. <p> Alternatively, if we assume they are correctly priced, then Rackspace has a higher risk-free return rate. <p> Both cases yield an arbitrage opportunity.}@} <!--SR:!2028-04-12,855,452!2028-03-25,839,452-->
+> - explanation: {@{Same expected return}@} means {@{they have the same price}@}. \({@{Higher expected return}@} means {@{lower price}@}.\) If we assume {@{they are wrongly priced}@}, then {@{Rackspace is underpriced, SolarWinds is overpriced, or both}@}. <p> Alternatively, if we assume {@{they are correctly priced}@}, then {@{Rackspace has a higher risk-free return rate}@}. <p> Both cases yield {@{an arbitrage opportunity}@}. <!--SR:!2028-04-12,855,452!2028-03-25,839,452-->
 
 <!-- markdownlint MD028 -->
 
@@ -1319,7 +1319,7 @@ tags:
 > 3. increase by 1%
 > 4. increase by 1.6%
 >
-> - solution: {@{2}@} <!--SR:!2028-07-01,924,452-->
+> - solution: {@{2}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1333,7 +1333,7 @@ tags:
 > 2. overpriced
 > 3. underpriced
 >
-> - solution: {@{2}@} <!--SR:!2028-08-25,955,458-->
+> - solution: {@{2}@}
 
 ## week 14 lecture 2
 
@@ -1344,7 +1344,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2028-07-05,927,452-->
+> - solution: {@{1}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1359,7 +1359,7 @@ tags:
 > 3. 6%
 > 4. 6.7%
 >
-> - solution: {@{2}@} <!--SR:!2028-08-12,942,452-->
+> - solution: {@{2}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1370,7 +1370,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{1}@} <!--SR:!2028-05-28,893,452-->
+> - solution: {@{1}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1381,7 +1381,7 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2028-07-24,923,452-->
+> - solution: {@{2}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1393,7 +1393,7 @@ tags:
 > 2. Incorrectly accept the project which provides insufficient return to compensate for its risk.
 > 3. Incorrectly reject the project which provides a return higher than required by its risk.
 >
-> - solution: {@{2}@} <!--SR:!2028-06-20,914,452-->
+> - solution: {@{2}@}
 
 <!-- markdownlint MD028 -->
 
@@ -1411,4 +1411,4 @@ tags:
 > 1. yes
 > 2. no
 >
-> - solution: {@{2}@} <!--SR:!2028-06-22,916,458-->
+> - solution: {@{2}@}

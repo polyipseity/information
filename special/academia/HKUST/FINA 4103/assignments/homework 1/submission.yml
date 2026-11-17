@@ -1,0 +1,17 @@
+assignment:
+  comments: {}
+  content: ""
+  grade:
+    entered: 50
+    graded anonymously: null
+    possible: 50
+  id: 456511
+  properties: {}
+  submissions:
+    - datetime: 2026-10-15 21:52:00+08:00
+      id: -1
+  title: HW1
+course:
+  id: 72613
+  name: FINA4103 (L1)
+type: submission/Canvas/canvas.ust.hk

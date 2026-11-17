@@ -30,14 +30,13 @@ Flashcards for this section are as follows:
 
 ## market participants
 
-Market participants are those who get involved in financial transactions. Banks and large financial institutions take part as brokers and dealers, retail investors and households trade on their own account, and governments issue and trade. The population is highly heterogeneous, and many constraints limit what each participant may do.
+Market participants are those who get involved in financial transactions, and the population is highly heterogeneous: many constraints limit what each participant may do. The classification into intermediaries, investors, speculators and arbitrageurs, hedgers, producers, and government lives in [financial market participants](financial%20market%20participants.md).
 
 ---
 
 Flashcards for this section are as follows:
 
-- who counts as a market participant ::@:: Anyone who gets involved in financial transactions: banks and large financial institutions, retail investors and households, and governments. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- role of banks and large financial institutions as participants ::@:: Brokers and dealers. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- who counts as a market participant ::@:: Anyone who gets involved in financial transactions. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - a defining property of the set of market participants ::@:: It is highly heterogeneous, with many constraints on what each participant can do. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ## regulation

@@ -59,9 +59,9 @@ Flashcards for this section are as follows:
 - why saturation for H-bridge transistors ::@:: Brushed motors need high current; saturation (fully on) gives maximum collector current. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
 - course H-bridge layout ::@:: Top side (supply to motor): both PNP. Bottom side (motor to ground): both NPN. Each leg has one PNP and one NPN. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
 - why both NPN and PNP ::@:: The top row PNPs switch the positive rail; the bottom row NPNs switch to ground. One current path goes supply → PNP → motor → NPN → ground. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
-- NPN in H-bridge ::@:: Three terminals C, B, E; emitter arrow out. Base HIGH turns it on; current flows C → E. Both bottom-side transistors are NPN. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
-- PNP in H-bridge ::@:: Three terminals C, B, E; emitter arrow in. Base LOW turns it on; current flows E → C. Both top-side transistors are PNP. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
-- one-diagonal current path ::@:: Supply → PNP (top) → motor → NPN (bottom) → ground. One diagonal is on; the other is off. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
+- NPN in H-bridge ::@:: Three terminals C, B, E; emitter arrow out. Base HIGH turns it on; current flows C → E. Both bottom-side transistors are NPN. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
+- PNP in H-bridge ::@:: Three terminals C, B, E; emitter arrow in. Base LOW turns it on; current flows E → C. Both top-side transistors are PNP. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
+- one-diagonal current path ::@:: Supply → PNP (top) → motor → NPN (bottom) → ground. One diagonal is on; the other is off. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
 
 ### base voltage pattern
 
@@ -72,7 +72,7 @@ The control voltages at the bases (Va, Vb, Vc, Vd) are set as follows: for one d
 Flashcards for this section are as follows:
 
 - base voltage pattern ::@:: One direction: Va, Vd HIGH; Vb, Vc LOW. Opposite: Vb, Vc HIGH; Va, Vd LOW. <!--SR:!fsrs,2027-04-16T11:17:29.459Z,313,312.84164192,1,2,7,0,0,2026-06-07T11:17:29.459Z!fsrs,2027-05-05T16:20:59.697Z,327,326.83582061,1,2,7,0,0,2026-06-12T16:20:59.697Z-->
-- complementary pairs ::@:: Two complementary signal pairs steer one diagonal on and the other off. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-04-16T11:17:31.567Z,313,312.84164192,1,2,7,0,0,2026-06-07T11:17:31.567Z!fsrs,2027-05-03T16:21:04.831Z,325,325.31885236,1,2,7,0,0,2026-06-12T16:21:04.831Z-->
+- complementary pairs ::@:: Two complementary signal pairs steer one diagonal on and the other off. <!--SR:!fsrs,2027-04-16T11:17:31.567Z,313,312.84164192,1,2,7,0,0,2026-06-07T11:17:31.567Z!fsrs,2027-05-03T16:21:04.831Z,325,325.31885236,1,2,7,0,0,2026-06-12T16:21:04.831Z-->
 
 ## single direction (DIR) signal and the need for an inverter
 
@@ -86,7 +86,7 @@ Flashcards for this section are as follows:
 
 - why an inverter is needed ::@:: One DIR signal drives one diagonal; the other diagonal needs the opposite level. An inverter produces that complementary level from the same DIR. <!--SR:!fsrs,2027-04-05T05:33:35.616Z,304,304.30256839,1,2,7,0,0,2026-06-05T05:33:35.616Z!fsrs,2027-04-03T05:33:20.701Z,302,302.49864392,1,2,7,0,0,2026-06-05T05:33:20.701Z-->
 - DIR signal meaning ::@:: DIR = $5\text{ V}$ selects one direction; DIR = $0\text{ V}$ selects the opposite. <!--SR:!fsrs,2027-05-06T16:20:08.485Z,328,328.33560331,1,2,7,0,0,2026-06-12T16:20:08.485Z!fsrs,2027-05-05T16:20:56.057Z,327,326.83582061,1,2,7,0,0,2026-06-12T16:20:56.057Z-->
-- inverter output ::@:: Feeds the opposite diagonal's bases, so both logic levels are available from one DIR line. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-05-03T16:13:45.987Z,325,325.31885236,1,2,7,0,0,2026-06-12T16:13:45.987Z!fsrs,2027-04-11T01:12:40.472Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:12:40.472Z-->
+- inverter output ::@:: Feeds the opposite diagonal's bases, so both logic levels are available from one DIR line. <!--SR:!fsrs,2027-05-03T16:13:45.987Z,325,325.31885236,1,2,7,0,0,2026-06-12T16:13:45.987Z!fsrs,2027-04-11T01:12:40.472Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:12:40.472Z-->
 
 ## 74HC14 hex inverter
 
@@ -98,8 +98,8 @@ The course uses the __74HC14__ integrated circuit, a hex inverter: it contains s
 
 Flashcards for this section are as follows:
 
-- 74HC14 identity ::@:: Hex inverter IC: six independent inverters in one package; each inverts its input. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-03-30T05:33:09.286Z,298,297.72694097,1,2,7,0,0,2026-06-05T05:33:09.286Z!fsrs,2027-03-31T05:33:03.856Z,299,299.33956763,1,2,7,0,0,2026-06-05T05:33:03.856Z-->
-- 74HC14 logic ::@:: INPUT LOW → OUTPUT HIGH; INPUT HIGH → OUTPUT LOW. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-04-05T05:33:45.475Z,304,304.30256839,1,2,7,0,0,2026-06-05T05:33:45.475Z!fsrs,2027-04-11T01:15:14.318Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:15:14.318Z-->
+- 74HC14 identity ::@:: Hex inverter IC: six independent inverters in one package; each inverts its input. <!--SR:!fsrs,2027-03-30T05:33:09.286Z,298,297.72694097,1,2,7,0,0,2026-06-05T05:33:09.286Z!fsrs,2027-03-31T05:33:03.856Z,299,299.33956763,1,2,7,0,0,2026-06-05T05:33:03.856Z-->
+- 74HC14 logic ::@:: INPUT LOW → OUTPUT HIGH; INPUT HIGH → OUTPUT LOW. <!--SR:!fsrs,2027-04-05T05:33:45.475Z,304,304.30256839,1,2,7,0,0,2026-06-05T05:33:45.475Z!fsrs,2027-04-11T01:15:14.318Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:15:14.318Z-->
 - inverters needed for two motors ::@:: Two (one per motor); four remain unused. <!--SR:!fsrs,2027-04-11T01:15:13.660Z,309,308.57643926,1,2,7,0,0,2026-06-06T01:15:13.660Z!fsrs,2027-05-08T16:20:57.685Z,330,329.81882824,1,2,7,0,0,2026-06-12T16:20:57.685Z-->
 
 ### power and pinout
@@ -110,7 +110,7 @@ The IC does not generate power: __VCC__ (pin 14 for the standard 14-pin package)
 
 Flashcards for this section are as follows:
 
-- 74HC14 pinout <p> ![74HC14 pinout](attachments/74hc14_pinout.svg) ::@:: 14-pin DIP; pin 7 = GND, pin 14 = VCC; pins 1A/1Y, 2A/2Y, etc. for the six inverters. <!-- check: ignore-line[two_sided_calc_warning]: conceptual --> <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
+- 74HC14 pinout <p> ![74HC14 pinout](attachments/74hc14_pinout.svg) ::@:: 14-pin DIP; pin 7 = GND, pin 14 = VCC; pins 1A/1Y, 2A/2Y, etc. for the six inverters. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
 - 74HC14 power ::@:: VCC connects to the positive supply (5 V in the course); GND to ground. The IC does not generate its own power. <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
 - 74HC14 pin numbering ::@:: Identify the top notch; pin 1 is top left; pins run down the left (1–7) and up the right (8–14). <!--SR:!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z!fsrs,2027-01-07T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-02T00:00:00.000Z-->
 

@@ -19,7 +19,9 @@ Flashcards for this section are as follows:
 
 ## speed and latency
 
-High-frequency traders operate at speeds of microseconds, millionths of a second, down to nanoseconds, billionths of a second. For scale, light travelling in a vacuum covers the distance from New York to Chicago in about 5 milliseconds. Fragmentation across venues, together with electronic trading, is what makes speed pay. A stock is quoted at many venues at once, so a quote that has gone stale at one venue can still be picked off at another until the rest of the market reacts, and the fastest firm gets there first.
+High-frequency traders operate at speeds of microseconds, millionths of a second, down to nanoseconds, billionths of a second. For scale, light travelling in a vacuum covers the distance from New York to Chicago in about 5 milliseconds. Electronic trading across fragmented venues is what makes that speed pay: a stock quoted at many venues at once can have a stale quote at one venue picked off at another before the rest of the market reacts.
+
+A faster connection earns its fee on the races it wins. Where a loss falls with probability $p$ at the current speed and $q$ with the faster one, the gain is $p - q$ times the loss a lost race carries, so a lump-sum fee above that difference leaves the trader worse off. The link changes how often the loss is paid and never its size.
 
 ---
 
@@ -27,7 +29,9 @@ Flashcards for this section are as follows:
 
 - range of speeds at which high-frequency traders operate ::@:: From microseconds, millionths of a second, down to nanoseconds, billionths of a second. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - time light travelling in a vacuum takes from New York to Chicago ::@:: About 5 milliseconds. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- why speed is worth paying for ::@:: A stale quote at one venue can still be picked off at another while the rest of the market has not reacted to it. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- why speed is worth paying for ::@:: A stale quote at one venue can be picked off at another before the rest of the market reacts. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- what a faster connection is worth in a race ::@:: The fall in the probability of losing, multiplied by the loss a lost race carries.
+- what a faster connection changes in a race ::@:: How often the loss is paid, never its size.
 
 ## arms race and overinvestment
 
@@ -48,7 +52,7 @@ Flashcards for this section are as follows:
 
 ## market manipulation
 
-Speed also enables manipulation. _Spoofing_ works in three steps: the spoofer stacks the book in one direction with orders it does not intend to execute, takes that fake supply back out, and then sweeps the market with a large order on the other side. Real cases are large and long-running: in May 2024 the CFTC fined J.P. Morgan Securities, a Fed primary dealer, 100 million dollars for failing to surveil potential spoofing and high-frequency trading for eight years (Pam Martens and Russ Martens, 28 May 2024).
+Speed also enables manipulation. _Spoofing_ works in three steps: the spoofer stacks the book in one direction with orders it does not intend to execute, takes that fake supply back out, and then sweeps the market with a large order on the other side. Real cases are large and long-running: in May 2024 the Commodity Futures Trading Commission (CFTC) fined J.P. Morgan Securities, a Fed primary dealer, 100 million dollars for failing to surveil potential spoofing and high-frequency trading for eight years (Pam Martens and Russ Martens, 28 May 2024).
 
 A second pattern is _quote stuffing_: bursts of orders to buy and sell that are quickly cancelled. In Abbott Laboratories stock on the morning of 17 August, one second at 10:07:27 carried 11,557 orders (source: Nanex). Normal trading in the same stock runs at 38 orders per second on average, and a separate burst reached 10,704 orders in one second and 5,483 in the next, with all but 14 cancelled within one second.
 
@@ -61,9 +65,27 @@ Flashcards for this section are as follows:
 - three steps of spoofing ::@:: Build up fake orders in one direction, cancel them, then sweep the market with a large order on the other side. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - relation between the spoofer's fake orders and its own trade ::@:: They sit on opposite sides: the stacked orders are placed in one direction, and the sweep goes the other way. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - why the spoofed orders are cancelled ::@:: They were never meant to execute. <!--SR:!fsrs,2027-08-29T00:00:00.000Z,253,252.59352738,1,2,3,0,0,2026-12-19T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- CFTC fine on J.P. Morgan Securities for failing to surveil potential spoofing over eight years ::@:: 100 million dollars. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- Commodity Futures Trading Commission (CFTC) fine on J.P. Morgan Securities for failing to surveil potential spoofing over eight years ::@:: 100 million dollars. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - what quote stuffing is ::@:: Bursts of orders to buy and sell that are quickly cancelled. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - orders carried by one second at the peak of the Abbott Laboratories burst ::@:: 11,557 orders, at 10:07:27. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - order rate at Abbott Laboratories in normal times against the burst ::@:: 38 orders per second on average, then 10,704 orders in one second and 5,483 in the next, with all but 14 cancelled within one second. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - what front running requires ::@:: A trail of prints left by a large order, and the speed to trade ahead of the remainder. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - which order types were designed to defeat front running ::@:: The ones that refuse to be routed. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+
+## message data
+
+To quantify high-frequency trading activity and its possible profits and costs, researchers read limit-order-book (LOB) datasets, available from exchange direct feeds and from consolidated datasets like Trades and Quotes (TAQ) and MIDAS. They carry a complete play-by-play of the books: every new limit order adding liquidity, every new market order taking liquidity, and every trade, with very precise millisecond timestamps. What they miss is every order that failed.
+
+In a [sniping](quote%20sniping.md) race the trader who places an [immediate-or-cancel order](immediate-or-cancel%20order.md) (IOC) to take a stale quote may win the race and execute, or lose it and be cancelled. The owner of the stale quote may revoke it in time, or be too late to cancel. These failed orders are not recorded on LOB data, so when several traders race, conventional LOB data records the winners and not the losers.
+
+Exchanges keep electronic records of these attempts. _Message data_ records every attempted order, time-stamped at the gateway, so the speed of arrival can be measured accurately. It is hard to obtain, at least for students and junior scholars. Researchers can request London Stock Exchange (LSE) data under Section 165 of the Financial Service and Markets Act. Including the failed messages significantly improves knowledge about high-frequency trading.
+
+---
+
+Flashcards for this section are as follows:
+
+- what limit-order-book (LOB) datasets record ::@:: Every new limit order adding liquidity, every new market order taking liquidity, and every trade, with very precise millisecond timestamps.
+- what conventional limit-order-book (LOB) data misses about a sniping race ::@:: The losers: an immediate-or-cancel (IOC) order that loses the race and is cancelled, and a stale quote whose cancellation arrives too late, leave no trace.
+- what message data records ::@:: Every attempted order, time-stamped at the gateway, so the speed of arrival can be measured accurately.
+- how researchers can request London Stock Exchange (LSE) message data ::@:: Under Section 165 of the Financial Service and Markets Act.
+- research value of the failed messages in message data ::@:: Including them significantly improves knowledge about high-frequency trading.

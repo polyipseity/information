@@ -51,7 +51,7 @@ There are {@{many objects in the application domain}@}. Classes allow us to {@{_
 
 {@{The _initial value_}@} of an attribute describe {@{the initial value for the data value if _unspecified_}@}. It is {@{_optional_}@}, and by default {@{requires the data value to be _specified_ since there is no initial value}@}. <!--SR:!2027-03-16,411,370!2027-03-13,408,370!2027-01-31,379,361!2027-01-29,377,361-->
 
-{@{The _multiplicity_}@} of an attribute describe {@{how many _simultaneous values_ the data value can take}@}. It is {@{_optional_}@}, and by default is {@{1}@}.  Its syntax is {@{the same as that for association multiplicity}@} but {@{inside square brackets `[]`}@}, i.e. {@{`[min..max]`}@}, e.g. {@{`accounts: Account [0..10]`}@}. \(__this course__: Tested in the midterm examination.\) <!--SR:!fsrs,2030-11-02T00:00:00.000Z,1432,1431.76656408,1,2,9,0,0,2026-12-01T00:00:00.000Z!2027-02-06,385,361!fsrs,2030-09-24T00:00:00.000Z,1401,1400.70912702,1,2,9,0,0,2026-11-23T00:00:00.000Z!fsrs,2030-12-11T00:00:00.000Z,1463,1462.72876119,1,2,9,0,0,2026-12-09T00:00:00.000Z!2028-07-26,815,440!2028-06-30,792,440!2028-07-17,805,436!2028-12-02,917,452-->
+{@{The _multiplicity_}@} of an attribute describe {@{how many _simultaneous values_ the data value can take}@}. It is {@{_optional_}@}, and by default is {@{1}@}. Its syntax is {@{the same as that for association multiplicity}@} but {@{inside square brackets `[]`}@}, i.e. {@{`[min..max]`}@}, e.g. {@{`accounts: Account [0..10]`}@}. \(__this course__: Tested in the midterm examination.\) <!--SR:!fsrs,2030-11-02T00:00:00.000Z,1432,1431.76656408,1,2,9,0,0,2026-12-01T00:00:00.000Z!2027-02-06,385,361!fsrs,2030-09-24T00:00:00.000Z,1401,1400.70912702,1,2,9,0,0,2026-11-23T00:00:00.000Z!fsrs,2030-12-11T00:00:00.000Z,1463,1462.72876119,1,2,9,0,0,2026-12-09T00:00:00.000Z!2028-07-26,815,440!2028-06-30,792,440!2028-07-17,805,436!2028-12-02,917,452-->
 
 {@{The _mutability_ \(_changeability_\)}@} of attribute describe {@{if the data value can be changed}@}. It can be {@{writable \(_unspecified_\) or read-only \(`readOnly`\)}@}. By default, it is {@{writable as it is unspecified}@}. Its syntax is {@{writing the property inside curly brackets `{}`}@}, i.e. {@{`{readOnly}`}@}, e.g. {@{`account: Account {readonly}`}@}. <!--SR:!2027-03-18,413,370!2027-03-20,415,370!2027-02-03,382,361!2027-02-06,385,361!2028-07-05,796,440!2028-06-01,763,436!2028-11-16,901,452-->
 
@@ -89,9 +89,9 @@ An association is drawn by {@{a line connecting the class to itself \(unary\)}@}
 
 {@{The _degree_}@} of an association is {@{the number of _distinct_ classes the association relates to}@}. {@{A single class}@} is {@{_unary_}@}. {@{Two classes}@} are {@{_binary_}@}. {@{Three classes}@} are {@{_ternary_}@}. There are {@{other words for higher degrees}@}. <!--SR:!fsrs,2030-06-13T00:00:00.000Z,1327,1326.54889029,1,2,9,0,0,2026-10-25T00:00:00.000Z!2027-03-15,410,370!fsrs,2030-08-20T00:00:00.000Z,1381,1381.24862131,1,2,9,0,0,2026-11-08T00:00:00.000Z!fsrs,2030-07-27T00:00:00.000Z,1362,1361.74897865,1,2,9,0,0,2026-11-03T00:00:00.000Z!2027-02-12,390,361!2027-02-12,390,361!2027-03-13,408,370!2027-03-10,405,370!fsrs,2030-08-25T00:00:00.000Z,1377,1377.35179153,1,2,9,0,0,2026-11-17T00:00:00.000Z-->
 
-In practice, most associations are {@{binary}@}. A few are {@{unary}@}, and even fewer are {@{ternary or higher degree}@}. Often, {@{a ternary or higher degree association}@} can be {@{replaced by multiple binary associations}@}, but {@{not always}@}. <!--SR:!2027-03-16,411,370!fsrs,2030-09-29T00:00:00.000Z,1405,1404.59658767,1,2,9,0,0,2026-11-24T00:00:00.000Z!fsrs,2030-06-03T00:00:00.000Z,1319,1318.70869553,1,2,9,0,0,2026-10-23T00:00:00.000Z!2027-01-24,374,361!2027-03-10,405,370!2027-02-14,392,361-->
+In practice, most associations are {@{binary}@}. A few are {@{unary}@}, and even fewer are {@{ternary or higher degree}@}. Often, {@{a ternary or higher degree association}@} can be {@{replaced by multiple binary associations, but not always}@}. <!--SR:!2027-03-16,411,370!fsrs,2030-09-29T00:00:00.000Z,1405,1404.59658767,1,2,9,0,0,2026-11-24T00:00:00.000Z!fsrs,2030-06-03T00:00:00.000Z,1319,1318.70869553,1,2,9,0,0,2026-10-23T00:00:00.000Z!2027-01-24,374,361!2027-03-10,405,370!2027-02-14,392,361-->
 
-Associations of {@{different degree}@} are {@{drawn differently}@}. An association is drawn by {@{a line connecting the class to itself \(unary\)}@}, {@{a line between two classes \(binary\)}@}, or {@{a diamond shape connecting many classes \(ternary, etc.\)}@}.  \(__this course__: We consider {@{unary and binary associations only}@}.\) <!--SR:!fsrs,2030-10-18T00:00:00.000Z,1420,1420.13139515,1,2,9,0,0,2026-11-28T00:00:00.000Z!fsrs,2029-06-19T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-08-09T00:00:00.000Z!2027-02-09,387,361!fsrs,2030-07-16T00:00:00.000Z,1353,1352.51943258,1,2,9,0,0,2026-11-01T00:00:00.000Z!2027-03-05,400,370!2027-03-24,419,373-->
+Associations of {@{different degree}@} are {@{drawn differently}@}. An association is drawn by {@{a line connecting the class to itself \(unary\)}@}, {@{a line between two classes \(binary\)}@}, or {@{a diamond shape connecting many classes \(ternary, etc.\)}@}. \(__this course__: We consider {@{unary and binary associations only}@}.\) <!--SR:!fsrs,2030-10-18T00:00:00.000Z,1420,1420.13139515,1,2,9,0,0,2026-11-28T00:00:00.000Z!fsrs,2029-06-19T00:00:00.000Z,1045,1045.2595081,1,2,9,0,0,2026-08-09T00:00:00.000Z!2027-02-09,387,361!fsrs,2030-07-16T00:00:00.000Z,1353,1352.51943258,1,2,9,0,0,2026-11-01T00:00:00.000Z!2027-03-05,400,370!2027-03-24,419,373-->
 
 ### association multiplicity
 
@@ -198,7 +198,7 @@ An {@{_association constraint_}@} constrains {@{an _association_}@}. It can invo
 
 - association constraint: ordering ::@:: `{ordered, FIFO}`, `{ordered, LIFO}`, etc.; for one association, with the text placed closer to the class to be ordered <!--SR:!fsrs,2030-09-19T00:00:00.000Z,1397,1396.82008275,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2030-09-09T00:00:00.000Z,1389,1389.03744412,1,2,9,0,0,2026-11-20T00:00:00.000Z-->
 - association constraint: subset ::@:: `{subset}`; the specialized \(subset\) association has a _dashed arrow_ towards the general \(superset\) association <!--SR:!fsrs,2030-10-18T00:00:00.000Z,1420,1420.13139515,1,2,9,0,0,2026-11-28T00:00:00.000Z!fsrs,2030-08-30T00:00:00.000Z,1381,1381.24862131,1,2,9,0,0,2026-11-18T00:00:00.000Z-->
-- association constraint: xor ::@:: `{xor}`; a _dashed line_ linking two associations; exactly one of the two associations can be _instantiated_ \(have _instances_ or _links_\)  <p> The semantics of `{xor}` is a bit muddy... see ["Opposing views on the UML {xor} constraint"](https://stuartgunter.wordpress.com/2011/04/03/opposing-views-on-the-uml-xor-constraint/) ([archived](https://web.archive.org/web/20251211140959/https://stuartgunter.wordpress.com/2011/04/03/opposing-views-on-the-uml-xor-constraint/)). <!--SR:!2027-03-01,396,361!fsrs,2030-09-19T00:00:00.000Z,1397,1396.82008275,1,2,9,0,0,2026-11-22T00:00:00.000Z-->
+- association constraint: xor ::@:: `{xor}`; a _dashed line_ linking two associations; exactly one of the two associations can be _instantiated_ \(have _instances_ or _links_\) <p> The semantics of `{xor}` is a bit muddy... see ["Opposing views on the UML {xor} constraint"](https://stuartgunter.wordpress.com/2011/04/03/opposing-views-on-the-uml-xor-constraint/) ([archived](https://web.archive.org/web/20251211140959/https://stuartgunter.wordpress.com/2011/04/03/opposing-views-on-the-uml-xor-constraint/)). <!--SR:!2027-03-01,396,361!fsrs,2030-09-19T00:00:00.000Z,1397,1396.82008275,1,2,9,0,0,2026-11-22T00:00:00.000Z-->
 
 For {@{constraints in general}@}, UML provides {@{a text-based _formal_ constraint specification language}@} called {@{_Object Constraint Language \(OCL\)_}@}, similar to {@{C++ or Java}@}. \(__this course__: {@{not covered}@}\) <!--SR:!fsrs,2030-07-17T00:00:00.000Z,1354,1353.93810482,1,2,9,0,0,2026-11-01T00:00:00.000Z!fsrs,2030-07-16T00:00:00.000Z,1353,1352.51943258,1,2,9,0,0,2026-11-01T00:00:00.000Z!fsrs,2030-12-30T00:00:00.000Z,1478,1478.17487017,1,2,9,0,0,2026-12-13T00:00:00.000Z!fsrs,2030-11-21T00:00:00.000Z,1447,1447.25936703,1,2,9,0,0,2026-12-05T00:00:00.000Z!fsrs,2030-08-10T00:00:00.000Z,1373,1373.45345232,1,2,9,0,0,2026-11-06T00:00:00.000Z-->
 
@@ -340,7 +340,7 @@ In {@{UML terms}@}, {@{actors and use cases}@} are {@{_stereotypes_ of classes \
 
 #### use case preconditions
 
-In use-case modelling {@{a precondition}@} is {@{a statement about the required state of the system and/or actors that allows the use case to be initiated}@}, e.g. {@{"balance ≥ \$100"}@} in an ATM withdrawal use case. It describes {@{what conditions are required to start the use case}@} \(the "{@{what}@}"\), but it deliberately avoids {@{specifying how those conditions are achieved}@} \(the "{@{how}@}"\). <!--SR:!2028-02-22,693,427!2027-07-01,488,407!2028-06-11,773,427!2028-05-29,760,427!2028-04-29,730,427!2028-02-23,694,427!2028-05-26,756,427-->
+In use-case modelling {@{a precondition}@} is {@{a statement about the required state of the system and/or actors that allows the use case to be initiated}@}, e.g. {@{"balance ≥ \$100"}@} in an ATM withdrawal use case. It describes {@{what conditions are required to start the use case}@} \(the "what"\), but it deliberately avoids {@{specifying how those conditions are achieved}@} \(the "how"\). <!--SR:!2028-02-22,693,427!2027-07-01,488,407!2028-06-11,773,427!2028-05-29,760,427!2028-04-29,730,427!2028-02-23,694,427!2028-05-26,756,427-->
 
 Preconditions serve to keep {@{each use-case description independent of others}@} by focusing only on {@{the necessary state of both the system and its participants}@}. They are typically written in {@{a declarative style}@} (e.g., {@{"The user is logged in"}@}) and are considered {@{necessary but not sufficient for the use case to proceed}@}, considering that starting a use case {@{always requires an actor to do something}@}. <!--SR:!2027-09-19,530,407!2028-05-09,740,427!2028-02-17,688,427!2028-02-24,695,427!2028-02-17,688,427!2028-06-10,772,427-->
 
@@ -373,7 +373,6 @@ There can be {@{_multiple basic flows_}@}, which are indicated by {@{numbering t
 >     ...
 > n+1.
 > ```
-<!--SR:!2028-03-02,701,427!2028-02-26,696,427-->
 
 <!-- markdownlint MD028 -->
 
@@ -388,7 +387,6 @@ There can be {@{_multiple basic flows_}@}, which are indicated by {@{numbering t
 >     ...
 > n+1.
 > ```
-<!--SR:!2028-05-25,756,427!2028-02-26,696,427-->
 
 <!-- markdownlint MD028 -->
 
@@ -403,7 +401,6 @@ There can be {@{_multiple basic flows_}@}, which are indicated by {@{numbering t
 >     ...
 > n+1.
 > ```
-<!--SR:!2028-06-13,775,427!2028-05-25,756,427-->
 
 #### use case extension points
 
@@ -746,7 +743,7 @@ Students often draw {@{a generalization hierarchy}@} but do not indicate whether
 
 ### common mistakes: missing association constraints
 
-Students sometimes model {@{an association between two classes}@} without specifying {@{whether it is ordered, unique, or has subset/xor constraints}@} (e.g., {@{a car}@} can be owned by {@{either a company or a person}@} but {@{not both}@}). The error comes from treating {@{associations as unqualified links}@}. To correct this, add {@{the appropriate OCL constraint syntax}@} \(e.g. {@{`{xor}`, `{subset}`, `{ordered, FIFO}`}@}\) on {@{the association line}@}. <!--SR:!2028-08-06,821,436!2028-09-23,865,440!2028-07-20,808,436!2027-09-17,550,416!2028-06-24,786,440!2028-08-15,830,440!2028-08-06,821,436!2028-05-17,748,436!2028-09-08,851,440-->
+Students sometimes model {@{an association between two classes}@} without specifying {@{whether it is ordered, unique, or has subset/xor constraints}@} (e.g., {@{a car}@} can be owned by {@{either a company or a person but not both}@}). The error comes from treating {@{associations as unqualified links}@}. To correct this, add {@{the appropriate OCL constraint syntax}@} \(e.g. {@{`{xor}`, `{subset}`, `{ordered, FIFO}`}@}\) on {@{the association line}@}. <!--SR:!2028-08-06,821,436!2028-09-23,865,440!2028-07-20,808,436!2027-09-17,550,416!2028-06-24,786,440!2028-08-15,830,440!2028-08-06,821,436!2028-05-17,748,436!2028-09-08,851,440-->
 
 ### common mistakes: not using specialized associations
 

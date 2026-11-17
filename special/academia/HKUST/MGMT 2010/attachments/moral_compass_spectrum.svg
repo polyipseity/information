@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="560" viewBox="0 0 1060 560">
+  <rect width="1060" height="560" fill="#ffffff"/>
+  <line x1="182.0" y1="232.6" x2="182.0" y2="378.0" stroke="#4a4a4a" stroke-width="1.5"/>
+  <rect x="72.0" y="168.0" width="220.0" height="64.6" rx="10" fill="#ffffff" stroke="#4a4a4a" stroke-width="2"/>
+  <text x="182.0" y="194.0" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" fill="#1a1a1a">administering of deserved</text>
+  <text x="182.0" y="214.3" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" fill="#1a1a1a">punishment or reward</text>
+  <line x1="356.0" y1="146.9" x2="356.0" y2="378.0" stroke="#4a4a4a" stroke-width="1.5"/>
+  <rect x="238.2" y="62.0" width="235.7" height="84.9" rx="10" fill="#ffffff" stroke="#4a4a4a" stroke-width="2"/>
+  <text x="356.0" y="88.0" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" fill="#1a1a1a">a rule of conduct or action</text>
+  <text x="356.0" y="108.3" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" fill="#1a1a1a">recognized as enforced by a</text>
+  <text x="356.0" y="128.6" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" fill="#1a1a1a">controlling authority</text>
+  <line x1="530.0" y1="232.6" x2="530.0" y2="378.0" stroke="#4a4a4a" stroke-width="1.5"/>
+  <rect x="400.4" y="168.0" width="259.2" height="64.6" rx="10" fill="#ffffff" stroke="#4a4a4a" stroke-width="2"/>
+  <text x="530.0" y="194.0" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" fill="#1a1a1a">accepted procedure, custom, or</text>
+  <text x="530.0" y="214.3" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" fill="#1a1a1a">habit</text>
+  <line x1="704.0" y1="146.9" x2="704.0" y2="378.0" stroke="#4a4a4a" stroke-width="1.5"/>
+  <rect x="582.2" y="62.0" width="243.5" height="84.9" rx="10" fill="#ffffff" stroke="#4a4a4a" stroke-width="2"/>
+  <text x="704.0" y="88.0" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" fill="#1a1a1a">principles of conduct</text>
+  <text x="704.0" y="108.3" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" fill="#1a1a1a">governing an individual or a</text>
+  <text x="704.0" y="128.6" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" fill="#1a1a1a">group</text>
+  <line x1="878.0" y1="232.6" x2="878.0" y2="378.0" stroke="#4a4a4a" stroke-width="1.5"/>
+  <rect x="760.2" y="168.0" width="235.7" height="64.6" rx="10" fill="#ffffff" stroke="#4a4a4a" stroke-width="2"/>
+  <text x="878.0" y="194.0" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" fill="#1a1a1a">conforming to a standard of</text>
+  <text x="878.0" y="214.3" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" fill="#1a1a1a">right behavior</text>
+  <g transform="translate(182.0 378.0) rotate(-12.0)">
+    <rect x="-75.0" y="-48.0" width="150.0" height="96.0" rx="10" fill="#1f6fb2"/>
+    <text x="0" y="7.3" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff">Justice</text>
+  </g>
+  <g transform="translate(356.0 378.0) rotate(-6.0)">
+    <rect x="-75.0" y="-48.0" width="150.0" height="96.0" rx="10" fill="#1f6fb2"/>
+    <text x="0" y="7.3" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff">Laws</text>
+  </g>
+  <g transform="translate(530.0 378.0) rotate(0.0)">
+    <rect x="-75.0" y="-48.0" width="150.0" height="96.0" rx="10" fill="#1f6fb2"/>
+    <text x="0" y="7.3" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff">Rules</text>
+  </g>
+  <g transform="translate(704.0 378.0) rotate(6.0)">
+    <rect x="-75.0" y="-48.0" width="150.0" height="96.0" rx="10" fill="#1f6fb2"/>
+    <text x="0" y="7.3" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff">Ethics</text>
+  </g>
+  <g transform="translate(878.0 378.0) rotate(12.0)">
+    <rect x="-75.0" y="-48.0" width="150.0" height="96.0" rx="10" fill="#1f6fb2"/>
+    <text x="0" y="7.3" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="22" fill="#ffffff">Morals</text>
+  </g>
+  <rect x="120" y="470.0" width="820" height="46.0" rx="4" fill="#1f6fb2"/>
+  <text x="530.0" y="500.0" text-anchor="middle" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff">Power and Culture</text>
+</svg>

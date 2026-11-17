@@ -16,25 +16,26 @@ An _immediate-or-cancel (IOC)_ order must be filled immediately or cancelled. An
 
 Flashcards for this section are as follows:
 
-- what an IOC order requires ::@:: Immediate execution or cancellation. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- what "immediate" means in IOC ::@:: Filled at submission against available liquidity; any remainder is cancelled. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- what an immediate-or-cancel (IOC) order requires ::@:: Immediate execution or cancellation. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- what "immediate" means in immediate-or-cancel (IOC) ::@:: Filled at submission against available liquidity; any remainder is cancelled. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 <!-- check: ignore-next-line[header_style]: IOC is an acronym -->
 ## IOC and phantom liquidity
 
 High-frequency traders use IOC orders to probe the book without committing. Two equally fast rivals want to buy 100 units at \$115 immediately, but \$116 is too expensive, and neither wants to commit to a standing limit order due to price risk. A market order commits at an uncertain price; a standing limit order can be picked off; an IOC takes what is available and disappears. The share of IOC orders has grown since the 2000s (Cao et al., 2022, _Journal of Financial Economics_).
 
-Why not place a marketable limit and cancel it manually? A marketable limit takes liquidity the moment it arrives, and at HFT speed a manual cancel comes too late. IOC does both at once.
+Why not place a marketable limit and cancel it manually? A marketable limit takes liquidity the moment it arrives, and at high-frequency trading (HFT) speed a manual cancel comes too late. IOC does both at once.
 
-_Phantom liquidity_ is a quote that appears in the LOB data feed but disappears when an order arrives to take it. Speed differences cause it, in data feeds, processing, and order placement. NYSE runs two data access types: a direct data feed (raw, fast) and a consolidated data feed (aggregate, slow). Flash Boys by Michael Lewis (2014) describes these speed advantages.
+_Phantom liquidity_ is a quote that appears in the limit-order book (LOB) data feed but disappears when an order arrives to take it. Speed differences cause it, in data feeds, processing, and order placement. NYSE runs two data access types: a direct data feed (raw, fast) and a consolidated data feed (aggregate, slow). Flash Boys by Michael Lewis (2014) describes these speed advantages.
 
 ---
 
 Flashcards for this section are as follows:
 
-- why high-frequency traders use IOC orders ::@:: To probe the book without committing, avoiding the risk of a standing limit order being picked off. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- why two equally fast IOC rivals each execute first with probability one half ::@:: They are equally fast, so arrival at the venue is a tie broken at random. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- what phantom liquidity is ::@:: A quote that appears in the LOB data feed but disappears when an order arrives to take it. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- why high-frequency traders use immediate-or-cancel (IOC) orders ::@:: To probe the book without committing, avoiding the risk of a standing limit order being picked off. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- why two equally fast immediate-or-cancel (IOC) rivals each execute first with probability one half ::@:: They are equally fast, so arrival at the venue is a tie broken at random. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- what phantom liquidity is ::@:: A quote that appears in the limit-order book (LOB) data feed but disappears when an order arrives to take it. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - what causes phantom liquidity ::@:: Speed differences in data feeds, processing, and order placement. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - two types of data access at NYSE ::@:: Direct data feed (raw, fast) and consolidated data feed (aggregate, slow). <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- what "Flash Boys" (Michael Lewis, 2014) is about ::@:: High-frequency trading and the speed advantages that produce phantom liquidity. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- which book describes the speed advantage a direct data feed holds over the consolidated feed, the gap that makes a quote vanish when an order arrives to take it? ::@:: Michael Lewis, 2014, _Flash Boys_.
+- the study reporting that the share of immediate-or-cancel (IOC) orders grew dramatically through the 2000s ::@:: Cao et al., 2022, Journal of Financial Economics (JFE).

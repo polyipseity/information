@@ -37,7 +37,6 @@ Unlike {@{the interactive REPL or worksheet}@}, {@{a _stand-alone_ Scala applica
 >     println("hello world!")
 > }
 > ```
-<!--SR:!2028-10-04,888,449!2028-10-30,911,449-->
 
 - __Object__ ::@:: – The container for the static-like entry point. <!--SR:!2028-11-16,928,449!2028-10-05,889,449-->
 - __Main signature__ ::@:: – `def main(args: Array[String]): Unit` is required; it receives command-line arguments as a string array and returns `Unit`. <!--SR:!2028-08-28,851,449!2028-10-17,901,449-->
@@ -57,7 +56,6 @@ Unlike {@{the interactive REPL or worksheet}@}, {@{a _stand-alone_ Scala applica
 > @main def birthday(name: String, age: Int): Unit =
 >   println(s"Happy birthday, $name! $age years old already!")
 > ```
-<!--SR:!2028-05-05,762,440!2028-07-17,806,440-->
 
 - __Parameters__ ::@:: – Each parameter corresponds to a command-line argument. <!--SR:!2028-05-22,777,440!2028-05-14,771,440-->
 - __Automatic conversion__ ::@:: – Argument types are inferred from the function signature (e.g., `String`, `Int`). <!--SR:!2028-07-04,796,440!2028-06-06,791,440-->
@@ -230,7 +228,6 @@ By parameterising {@{both data structures and functions}@}, Scala achieves {@{fu
 > ```Scala
 > def singleton[T](elem: T): List[T] = Cons(elem, Nil)
 > ```
-<!--SR:!2028-09-26,880,449!2028-10-17,901,449!2028-07-19,808,440-->
 
 {@{This factory method}@} constructs {@{a single-element list}@} regardless of {@{the element's concrete type}@}. Its usage can be {@{explicit}@}: <!--SR:!2028-09-17,868,449!2028-10-30,914,449!2028-06-06,791,440!2028-09-26,877,449-->
 
@@ -294,7 +291,6 @@ Scala lets us annotate {@{variance explicitly}@}: <!--SR:!2028-10-24,905,449-->
 > IntSet[] b = a;
 > b[0] = new Empty();   // compile-time OK, but fails at run time
 > ```
-<!--SR:!2028-10-06,890,449!2028-11-18,930,449!2028-09-22,876,449-->
 
 ##### variance checks
 
@@ -350,7 +346,6 @@ By enforcing {@{these variance checks}@}, the compiler ensures that {@{the LSP i
 > case class ChildCovariant[+T](v: T)        extends Parent[T]
 > // case class ChildContravariant[-T](v: T) extends Parent[T]  // ❌ compilation error
 > ```
-<!--SR:!2028-10-18,899,460!2028-11-19,931,460!2028-10-18,902,460!2028-11-21,936,460!2028-11-15,927,460!fsrs,2029-07-24T00:00:00.000Z,1078,1077.96861472,1,2,9,0,0,2026-08-11T00:00:00.000Z-->
 
 We see:
 
@@ -402,7 +397,6 @@ Consider assigning {@{concrete instances of subclasses}@} to {@{itself}@}: <!--S
 > Note: Int <: Any, but class ChildInvariant is invariant in type T.
 > You may wish to define T as +T instead. (SLS 4.5)
 > ```
-<!--SR:!2029-01-06,974,460!2028-12-21,962,460!2028-10-05,889,460!2028-12-18,960,460-->
 
 {@{The compiler}@} rejects {@{the second last line}@}. {@{`ChildInvariant`}@} is {@{invariant in its own `T`}@}; therefore {@{`ChildInvariant[Int]`}@} is {@{_not_ a subtype of `ChildInvariant[Any]`}@}. In contrast, because {@{`ChildCovariant`}@} is {@{covariant in its own `T`}@}, {@{the assignment}@} follows {@{the same rule as with `Parent`}@}. <!--SR:!2028-11-09,924,460!2028-11-24,939,460!2028-12-12,954,460!2028-10-19,903,460!2028-12-27,964,460!2028-10-10,891,460!2029-01-07,975,460!2028-11-24,936,460!2028-10-31,912,460!2028-12-29,966,460-->
 
@@ -421,7 +415,6 @@ Attempting to {@{declare a contravariant child}@} results in {@{a compilation er
 > ```text
 > contravariant type T occurs in covariant position in type [-T]AnyRef
 > ```
-<!--SR:!2028-12-17,959,460!2028-12-16,958,460-->
 
 {@{The problem}@} is that {@{the `Parent` trait}@} declares {@{its own type parameter as _covariant_ (`+T`)}@}. {@{A child class}@} cannot make {@{the same type parameter contravariant}@} because that would place {@{a contravariant occurrence in a covariant context}@}, violating {@{Scala's variance safety rules}@}. To intuitively see this, if {@{contravariance were allowed here}@}, then {@{`ChildContravariant[Any] <: ChildContravariant[Int] <: Parent[Int]`}@}, implying {@{`ChildContravariant[Any] <: Parent[Int]`}@} which is {@{forbidden as `Any >: Int`}@}. The same holds for {@{a covariant occurrence \(child type parameter\) in a contravariant context \(parent type parameter\)}@}. <!--SR:!2028-10-12,896,460!2029-01-05,973,460!2028-11-19,934,460!2028-12-09,951,460!2028-12-28,965,460!2028-12-31,968,460!2028-11-28,940,460!2028-11-10,925,460!2028-12-14,956,460!2028-12-18,959,460!2028-12-30,967,460!2028-12-15,957,460-->
 
@@ -461,7 +454,6 @@ In Scala, {@{an _abstract class_}@} serves as {@{a partial blueprint for concret
 >   def contains(x: Int): Boolean   // abstract member – no body provided
 > }
 > ```
-<!--SR:!2028-07-16,805,440!2028-11-13,925,449-->
 
 Here, {@{`IntSet`}@} declares {@{two operations—adding an element (`incl`) and testing membership (`contains`)}@}. Because {@{the class is marked `abstract`}@}, it {@{cannot be instantiated directly}@}; attempting to {@{write `new IntSet()`}@} would result in {@{a compile-time error}@}. <!--SR:!2028-07-12,804,435!2028-05-14,771,440!2028-07-17,809,440!2028-08-22,842,449!2028-02-16,688,420!2028-07-18,810,440-->
 
@@ -475,7 +467,6 @@ Here, {@{`IntSet`}@} declares {@{two operations—adding an element (`incl`) and
 >   def contains(x: Int): Boolean = false
 > }
 > ```
-<!--SR:!2028-05-14,769,435!2028-06-24,786,435-->
 
 {@{Only after all abstract members have been implemented}@} does a class become {@{_concrete_ and eligible for instantiation}@}. Abstract classes thus enable {@{the definition of common interfaces}@} while enforcing that {@{subclasses supply the missing behavior}@}. <!--SR:!2028-05-30,785,440!2028-10-08,892,449!2028-10-17,901,449!2028-09-19,873,449-->
 
@@ -509,7 +500,6 @@ In Scala, {@{a _class extension_ (or inheritance)}@} allows {@{one class to inhe
 >     else this
 > }
 > ```
-<!--SR:!2028-09-30,884,449!2028-10-08,892,449-->
 
 {@{The two subclasses}@} model {@{the empty set and a non-empty node respectively}@}. {@{This inheritance hierarchy}@} ensures that {@{an instance of `Empty` or `NonEmpty`}@} can be used wherever {@{an `IntSet` is expected}@}. <!--SR:!2028-07-20,812,440!2028-10-27,908,449!2028-06-05,790,440!2028-08-21,844,449!2028-09-04,858,449-->
 
@@ -537,7 +527,6 @@ When {@{a subclass does not specify a superclass explicitly}@}, Scala implicitly
 >   override def foo: Int = 2   // redefines Base.foo
 > }
 > ```
-<!--SR:!2028-09-02,853,449-->
 
 {@{The keyword `override`}@} is {@{mandatory when redefining a concrete member \(but not implementing an abstract member\)}@}, ensuring that {@{accidental overrides are avoided}@}. {@{This mechanism}@} allows subclasses to {@{refine or replace behaviour defined in their superclasses}@} while still adhering to {@{the contract established by the abstract class}@}. <!--SR:!2028-09-01,852,449!2028-09-02,856,449!2028-10-05,886,449!2028-10-25,906,449!2028-07-06,798,440!2028-11-03,915,449-->
 
@@ -579,7 +568,6 @@ In Scala {@{the idiomatic way to model heterogeneous data}@} is {@{through __cas
 > case class Number(n: Int) extends Expr
 > case class Sum(e1: Expr, e2: Expr) extends Expr
 > ```
-<!--SR:!2028-10-24,905,449!2028-07-27,816,440!2028-08-28,851,449-->
 
 Unlike {@{ordinary classes}@}, {@{case classes}@} automatically generate {@{structural equality, hash codes, and most importantly pattern-matching support}@}. {@{The body of each case class}@} is {@{effectively empty}@}; {@{the constructor arguments}@} are treated as {@{immutable fields that can be extracted by patterns}@}. <!--SR:!2028-07-30,819,440!2028-07-24,813,440!2028-04-15,744,435!2028-07-02,791,440!2028-07-05,797,435!2028-09-29,880,449!2028-09-17,871,449-->
 
@@ -599,7 +587,6 @@ Unlike {@{ordinary classes}@}, {@{case classes}@} automatically generate {@{stru
 >   case class Sum(e1: Expr, e2: Expr) extends Expr
 >   case class Prod(e1: Expr, e2: Expr) extends Expr
 > ```
-<!--SR:!2028-10-19,900,449!2028-09-30,884,449-->
 
 By placing {@{the case classes inside a companion object (`Expr`)}@} we keep {@{the global namespace uncluttered}@}; construction then takes {@{the form `Expr.Number(1)` instead of a bare `Number(1)`}@}. {@{A convenient import (`import Expr.*`)}@} restores {@{the shorter syntax when desired}@}. Such structures are known as {@{__algebraic data types__ (ADTs)}@}, {@{a staple of functional programming}@} that combine {@{product and sum types}@} to describe {@{complex data in a concise, type-safe manner}@}. <!--SR:!2028-11-05,920,449!2028-09-19,870,449!2028-10-19,900,449!2028-07-10,802,440!2028-08-16,839,449!2028-10-09,890,449!2028-10-31,915,449!2028-09-26,880,449!2028-07-25,817,440-->
 
@@ -616,7 +603,6 @@ Scala's {@{__enumeration__ \(`enum`\) construct}@} offers {@{an even more compac
 >   case Sum(e1: Expr, e2: Expr)
 >   case Prod(e1: Expr, e2: Expr)
 > ```
-<!--SR:!2028-10-09,893,449!2028-10-30,911,449-->
 
 The compiler expands {@{this into a sealed abstract class and companion object automatically}@}, eliminating {@{boilerplate}@}. Enums can be {@{used with pattern matching exactly as case classes}@}: <!--SR:!2028-07-14,806,440!2028-05-26,781,440!2028-09-29,883,449-->
 
@@ -635,7 +621,6 @@ The compiler expands {@{this into a sealed abstract class and companion object a
 >   case _: Expr.Sum => s"(${show(e)})"
 >   case _           => show(e)
 > ```
-<!--SR:!2028-09-07,861,449-->
 
 For {@{simple, parameterless variants}@}, {@{enums}@} resemble {@{traditional enumerations}@}. For example: <!--SR:!2028-07-07,799,440!2028-10-01,885,449!2028-05-11,768,440-->
 
@@ -647,7 +632,6 @@ For {@{simple, parameterless variants}@}, {@{enums}@} resemble {@{traditional en
 > enum Color:
 >   case Red, Green, Blue
 > ```
-<!--SR:!2028-09-26,877,449!2028-10-25,909,460!2028-10-03,884,460-->
 
 {@{Pattern matching}@} treats {@{these enumeration cases as constants}@} as {@{they start with capital letters}@}: <!--SR:!2028-08-20,840,449!2028-05-25,780,440!2028-09-07,861,449-->
 
@@ -663,7 +647,6 @@ For {@{simple, parameterless variants}@}, {@{enums}@} resemble {@{traditional en
 >   case Saturday | Sunday => true
 >   case _                 => false
 > ```
-<!--SR:!2028-06-29,791,435!2028-04-11,740,435!2028-09-01,855,449-->
 
 Enums also support {@{parameters and methods}@}. {@{The `Direction` example}@} demonstrates {@{a parametric enum with four cardinal directions}@}, each {@{carrying an `(dx, dy)` offset}@}: <!--SR:!2028-06-29,788,440!2028-09-21,875,449!2028-11-10,922,449!2028-09-24,875,449-->
 
@@ -680,7 +663,6 @@ Enums also support {@{parameters and methods}@}. {@{The `Direction` example}@} d
 >
 >   def leftTurn = Direction.values((ordinal + 1) % 4)
 > ```
-<!--SR:!2027-08-26,552,429!2028-10-06,890,449!2028-10-15,899,449-->
 
 Here {@{`ordinal` \(`Direction.ordinal`\)}@} yields {@{the zero-based index of a variant}@}, and {@{`values` \(`Direction.values`\)}@} is {@{an immutable array containing all simple (non-parameterised) variants}@}. {@{Parameterised cases}@} do not {@{appear in this array}@}; only {@{simple ones receive ordinal numbers}@}. <!--SR:!2028-04-19,748,435!2028-10-23,907,449!2028-06-08,792,440!2028-10-10,891,449!2028-09-16,870,449!2028-08-21,844,449!2028-08-20,840,449-->
 
@@ -698,7 +680,6 @@ Here {@{`ordinal` \(`Direction.ordinal`\)}@} yields {@{the zero-based index of a
 >   val Left  = new Direction(-1,0){ }
 >   val Down  = new Direction(0,-1){ }
 > ```
-<!--SR:!2028-10-04,888,449-->
 
 Because enums are {@{essentially syntactic sugar}@} for {@{a sealed class and companion object}@}, they are {@{ideal for __domain modelling__}@} where {@{the data structure is large}@} but {@{operations on it are defined elsewhere}@}. <!--SR:!2028-11-11,923,449!2028-11-16,928,449!2028-09-12,866,449!2028-10-05,886,449!2028-10-07,888,449-->
 
@@ -715,7 +696,6 @@ Because enums are {@{essentially syntactic sugar}@} for {@{a sealed class and co
 > enum CardKind:
 >   case Visa, Mastercard, Amex
 > ```
-<!--SR:!2028-11-07,919,449-->
 
 In summary, Scala's enums provide {@{a succinct and type-safe way to declare pure data structures}@}. They can be used as {@{compact replacements for case-class hierarchies}@}, or as {@{finite sets of values}@}, and may combine {@{parameterised and simple cases within the same declaration}@}. {@{Operations on these data types}@} are typically {@{expressed elsewhere—often via pattern matching or functional combinators}@}—keeping the data definitions {@{clean and focused solely on representation}@}. <!--SR:!2028-10-12,896,449!2028-11-19,931,449!2028-09-14,865,449!2028-05-29,784,440!2028-07-03,795,440!2028-09-06,857,449!2028-07-01,793,440-->
 
@@ -733,7 +713,6 @@ When {@{the semantics of a program}@} allow {@{only one logical value for a conc
 >   def incl(x: Int): IntSet       = NonEmpty(x, Empty, Empty)
 > }
 > ```
-<!--SR:!2028-08-27,847,440!2028-08-12,832,449-->
 
 Properties:
 
@@ -756,7 +735,6 @@ Scala permits {@{a class and an object}@} to {@{share the same name}@} when {@{d
 >   def singleton(x: Int): IntSet = NonEmpty(x, Empty, Empty)
 > }
 > ```
-<!--SR:!2028-05-30,785,440-->
 
 Properties of companion objects:
 
@@ -782,7 +760,6 @@ Scala's {@{_trait_ mechanism}@} extends {@{the classical single-inheritance mode
 >   def surface = height * width          // concrete method
 > }
 > ```
-<!--SR:!2028-11-08,923,449!2028-08-21,841,449!2028-07-29,818,440-->
 
 A trait may declare {@{_abstract fields or methods_}@}, which must be {@{supplied by a concrete subclass}@}. It may also declare {@{_concrete implementations_}@} that are {@{inherited automatically}@}. <!--SR:!2028-09-09,860,449!2028-09-05,859,449!2028-10-25,909,449!2028-06-11,795,440-->
 
@@ -797,7 +774,6 @@ While {@{Scala classes}@} can {@{extend at most one superclass}@}, they may {@{m
 > ```Scala
 > class Square extends Shape with Planar with Movable { /* ... */ }
 > ```
-<!--SR:!2028-06-12,796,440!2028-05-23,779,440!2028-06-01,786,440-->
 
 Here `Square` inherits from {@{the concrete class}@} `Shape` and incorporates {@{the contracts and implementations}@} of `Planar` and `Movable`. {@{The order of mixing}@} matters because {@{trait linearization}@} determines {@{which implementation is used when multiple traits provide the same member}@}. <!--SR:!2028-07-11,803,440!2028-10-21,902,449!2028-10-12,893,449!2028-11-16,928,449!2028-05-08,765,440-->
 
@@ -832,7 +808,6 @@ Scala adopts {@{a familiar exception-handling model from Java}@}. {@{An exceptio
 > ```Scala
 > throw exn
 > ```
-<!--SR:!2028-07-18,810,440!2028-08-25,848,440!2028-07-19,811,440-->
 
 The expression immediately {@{terminates the current computation}@} and propagates {@{the supplied exception object (`exn`) up the call stack}@} until it is {@{caught by an appropriate handler}@} (e.g., {@{a surrounding `try-catch` block}@}). Because this construct {@{never yields a normal value}@}, {@{its type}@} is {@{the bottom type `Nothing`}@}, which fits {@{seamlessly into Scala's type system}@}. This guarantees that {@{any code following a `throw` statement}@} is {@{unreachable}@} and can be {@{omitted from static analysis}@}. <!--SR:!2028-04-16,745,435!2028-09-16,870,449!2028-10-22,906,449!2028-07-12,804,440!2028-09-19,870,449!2028-11-07,919,449!2028-07-16,805,440!2028-07-03,795,440!2028-09-25,876,449!2028-09-16,867,449!2028-06-29,788,435-->
 
@@ -845,7 +820,6 @@ The expression immediately {@{terminates the current computation}@} and propagat
 > ```Scala
 > class BadInput(msg: String) extends Exception(msg)
 > ```
-<!--SR:!2028-06-01,786,440!2028-09-04,858,449!2028-09-18,871,449-->
 
 #### exception handling
 
@@ -863,7 +837,6 @@ The expression immediately {@{terminates the current computation}@} and propagat
 >     case ex: Exception => println("fatal error; aborting"); throw ex
 >   }
 > ```
-<!--SR:!2028-05-21,777,440!2028-10-31,912,449-->
 
 {@{The semantics of `try`/`catch`}@} is: {@{the body is evaluated}@}, and if {@{an exception is thrown}@}, control jumps {@{to the nearest matching handler}@}. It can be expressed via {@{a variant of the substitution model}@}: {@{`try e[throw ex] catch case x: Exc => handler`}@} is transformed into {@{`[x := ex]handler`}@}, where `e[X]` is {@{some arbitrary "_evaluation context_" that will evaluate `X` in the next step}@}. <!--SR:!2028-09-04,858,449!2028-11-20,932,449!2028-10-28,912,449!2028-10-24,908,449!2028-10-01,882,449!2027-10-28,569,420!2028-09-12,863,449!2028-10-12,893,449-->
 
@@ -890,7 +863,6 @@ Because of {@{these issues}@}, it is sometimes preferable to treat {@{failures a
 >   case Sum(left, right) => eval(left) + eval(right)
 > }
 > ```
-<!--SR:!2028-09-06,860,449-->
 
 Patterns are built from {@{constructor names (`Number`, `Sum`), variable bindings (`n`, `left`, `right`)}@}, {@{wildcards (`_`), constants (`1`, `true`), and type tests (`x: Number`)}@}. {@{Variables in patterns}@} must {@{start with a lowercase letter}@}, while {@{constant identifiers}@} {@{begin with an uppercase letter (unless they are reserved words such as `null`, `true`, or `false`)}@}. A pattern may {@{only bind a particular variable name once}@}; therefore a pattern like {@{`Sum(x, x)` is illegal}@} because it would {@{attempt to bind the same variable twice}@}. <!--SR:!2028-09-10,864,449!2028-11-15,927,449!2028-09-14,868,449!2028-08-18,838,449!2028-11-05,917,449!2028-11-07,919,449!2028-11-16,928,449!2028-10-13,897,449!2028-06-09,793,440-->
 
@@ -1033,7 +1005,6 @@ In {@{many algorithmic problems}@} one must enumerate {@{combinations of element
 > // Equivalent code using the law: `xs.flatMap(f) = xs.map(f).flatten`
 > (1 until n).flatMap(i => (1 until i).map(j => (i, j)))
 > ```
-<!--SR:!2028-09-07,858,449!2028-08-30,853,440-->
 
 Here {@{`until`}@} creates {@{an exclusive range}@}; for each {@{outer element `i`}@}, we build {@{an inner range from 1 to $i-1$}@} and map it to {@{the pair `(i,j)`}@}. {@{The `flatMap`}@} then concatenates {@{all these inner sequences into a single flat sequence of pairs}@}. The latter operation is equivalent to {@{first mapping \(`map`\) and then flattening \(`flatten`\)}@}. Both approaches yield {@{a sequence of all admissible $(i,j)$ pairs}@}. {@{A more idiomatic Scala solution}@} uses a {@{_for-comprehension_}@}: <!--SR:!2028-07-05,794,440!2028-10-27,911,449!2028-09-23,877,449!2028-10-09,893,449!2028-08-04,824,440!2028-10-22,906,449!2028-05-22,778,440!2028-05-15,772,440!2028-10-20,901,449!2028-05-31,785,440!2028-08-02,822,440-->
 
@@ -1048,7 +1019,6 @@ Here {@{`until`}@} creates {@{an exclusive range}@}; for each {@{outer element `
 >   if isPrime(i + j)
 > } yield (i, j)
 > ```
-<!--SR:!2028-10-22,906,449!2028-08-27,850,449-->
 
 {@{The comprehension}@} automatically expands into {@{the `flatMap`/`map`/`filter` chain}@} shown above. Once {@{the sequence of pairs is available}@}, {@{a simple filter}@} extracts {@{those whose sum is prime}@}: <!--SR:!2028-05-23,779,440!2028-10-07,888,449!2028-09-17,871,449!2028-11-05,920,449!2028-07-26,815,440-->
 
@@ -1080,7 +1050,6 @@ Here {@{`until`}@} creates {@{an exclusive range}@}; for each {@{outer element `
 >   placeQueens(n)
 > }
 > ```
-<!--SR:!2028-08-28,848,449!2028-07-20,809,440!2028-10-08,889,449-->
 
 {@{The list `prevSol`}@} records {@{the columns of previously placed queens}@}, with {@{the most recent queen}@} at {@{the head of the list}@}. {@{The helper `isSafe`}@} determines whether {@{a queen can be added in column `col`}@} on {@{the next row (row index equal to `prevSol.length`)}@}. {@{A straightforward recursive definition}@} is: <!--SR:!2028-10-04,885,449!2028-09-22,876,449!2028-09-16,870,449!2028-10-20,904,449!2028-08-08,831,449!2028-05-31,785,440!2028-08-30,850,449!2028-10-21,902,449-->
 
@@ -1150,7 +1119,6 @@ The compiler rewrites {@{a `for` expression}@} as {@{a composition of `map`, `fl
 > ```Scala
 > e1.map(x => e2)
 > ```
-<!--SR:!2028-10-30,914,449!2028-08-14,834,449-->
 
 {@{A more elaborate form of _for_}@} that mixes {@{generators and guards}@}: <!--SR:!2028-11-09,921,449!2028-07-04,795,440-->
 
@@ -1167,7 +1135,6 @@ The compiler rewrites {@{a `for` expression}@} as {@{a composition of `map`, `fl
 > ```Scala
 > for x <- e1.withFilter(x => pred); s yield e2
 > ```
-<!--SR:!2028-11-10,922,449!2028-06-02,787,440!2028-10-02,886,449-->
 
 {@{Another form of _for_}@} that has {@{a nested generator}@}: <!--SR:!2028-10-20,904,449!fsrs,2029-10-09T00:00:00.000Z,1140,1140.01978295,1,2,9,0,0,2026-08-26T00:00:00.000Z-->
 
@@ -1184,7 +1151,6 @@ The compiler rewrites {@{a `for` expression}@} as {@{a composition of `map`, `fl
 > ```Scala
 > e1.flatMap(x => for y <- e2; s yield e3)
 > ```
-<!--SR:!2028-09-20,874,449!2028-05-27,782,440!fsrs,2029-07-24T00:00:00.000Z,1078,1077.96861472,1,2,9,0,0,2026-08-11T00:00:00.000Z-->
 
 An example is {@{the prime-pair generator}@}: <!--SR:!2028-09-12,866,449-->
 
@@ -1206,7 +1172,6 @@ An example is {@{the prime-pair generator}@}: <!--SR:!2028-09-12,866,449-->
 > (1 until n).flatMap(i =>
 >   (1 until i).withFilter(j => isPrime(i + j)).map(j => (i, j)))
 > ```
-<!--SR:!2028-04-19,748,435-->
 
 Because `for` desugars to {@{calls on `map`, `flatMap` and `withFilter`}@}, {@{any type that implements these methods}@} can be {@{queried with the same syntax}@}.  {@{This abstraction}@} is exploited by {@{database access libraries}@} such as {@{_Slick_ or _Quill_, and big-data engines like _Spark_}@}, where {@{a collection of rows in a remote table}@} can be treated like {@{an ordinary Scala collection}@}. <!--SR:!2028-05-22,778,440!2028-04-30,758,435!2028-09-18,872,449!2028-10-18,902,449!2028-06-10,794,440!2028-09-30,884,449!2028-09-11,865,449!2028-11-07,919,449-->
 
@@ -1245,7 +1210,6 @@ Scala permits {@{a single method or constructor parameter}@} to be {@{declared a
 > ```Scala
 > def sum(nums: Int*): Int = nums.sum
 > ```
-<!--SR:!2028-10-28,909,449!2028-05-20,776,440-->
 
 The compiler {@{desugars `nums` to a `Seq[Int]`}@}, so inside the method it behaves {@{like any other sequence}@}. {@{The call syntax}@} remains {@{that of ordinary arguments}@}: <!--SR:!2028-06-08,792,440!2028-11-03,918,449!2028-10-14,898,449!2028-06-05,790,440-->
 
@@ -1257,7 +1221,6 @@ The compiler {@{desugars `nums` to a `Seq[Int]`}@}, so inside the method it beha
 > sum(1, 2, 3)  // returns 6
 > sum()         // returns 0
 > ```
-<!--SR:!2028-05-21,777,440!2028-05-18,774,440-->
 
 Repeated parameters are especially handy for {@{constructing collections without an explicit intermediate `List` or `Vector`}@}. For instance, {@{the `Polynomial` class}@} can accept {@{an arbitrary number of `(Int, Double)` bindings}@}: <!--SR:!2028-05-20,775,440!2028-04-26,754,435!2028-07-17,809,440-->
 
@@ -1297,7 +1260,7 @@ Scala {@{creates a new scope}@} using {@{braces \(`{}`\)}@}. Since {@{Scala 3}@}
 
 Scala uses {@{lexical scoping}@} with {@{\(variable\) shadowing}@}. That is, {@{each occurrence of a name}@} refers to {@{the definition of the name appearing in the _innermost_ scope \(shadowing\)}@} according to {@{the _source code_ \(lexical scoping\)}@}. <!--SR:!fsrs,2028-04-18T00:00:00.000Z,582,582.3769952,5.00637887,2,9,0,0,2026-09-14T00:00:00.000Z!fsrs,2029-11-19T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-08-31T00:00:00.000Z!fsrs,2029-07-23T00:00:00.000Z,1088,1087.80493378,1,2,9,0,0,2026-07-31T00:00:00.000Z!fsrs,2028-09-01T15:40:06.042Z,812,812.23824198,1,2,9,0,0,2026-06-12T15:40:06.042Z!fsrs,2029-10-20T00:00:00.000Z,1149,1148.84272749,1,2,9,0,0,2026-08-28T00:00:00.000Z-->
 
-Scala supports {@{_optional_ end markers}@} to {@{mark the end of a scope}@}. It must have {@{the same indentation as the opening keyword}@}.  The end marker has the syntax {@{`end <name or keyword>`}@}, using {@{`<name>` if the scope is named \(e.g. classes, functions, etc.\)}@} or {@{repeat the starting keyword if not}@}. <!--SR:!fsrs,2030-03-29T00:00:00.000Z,1275,1274.63302429,1,2,9,0,0,2026-10-01T00:00:00.000Z!fsrs,2029-11-24T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-09-01T00:00:00.000Z!fsrs,2030-03-04T00:00:00.000Z,1256,1255.75476993,1,2,9,0,0,2026-09-25T00:00:00.000Z!2027-07-07,519,399!fsrs,2029-01-20T00:00:00.000Z,858,857.72656793,1,2,9,0,0,2026-09-15T00:00:00.000Z!2027-05-12,471,390-->
+Scala supports {@{_optional_ end markers}@} to {@{mark the end of a scope}@}. It must have {@{the same indentation as the opening keyword}@}. The end marker has the syntax {@{`end <name or keyword>`}@}, using {@{`<name>` if the scope is named \(e.g. classes, functions, etc.\)}@} or {@{repeat the starting keyword if not}@}. <!--SR:!fsrs,2030-03-29T00:00:00.000Z,1275,1274.63302429,1,2,9,0,0,2026-10-01T00:00:00.000Z!fsrs,2029-11-24T00:00:00.000Z,1180,1179.83367202,1,2,9,0,0,2026-09-01T00:00:00.000Z!fsrs,2030-03-04T00:00:00.000Z,1256,1255.75476993,1,2,9,0,0,2026-09-25T00:00:00.000Z!2027-07-07,519,399!fsrs,2029-01-20T00:00:00.000Z,858,857.72656793,1,2,9,0,0,2026-09-15T00:00:00.000Z!2027-05-12,471,390-->
 
 ## syntax
 
@@ -1311,7 +1274,7 @@ Normally, to {@{call a function}@}, you use the syntax {@{`a.f(...)`}@}, known a
 
 Since {@{identifier names in Scala}@} is {@{much more relaxed}@}, this, coupled with {@{infix notation}@}, allows you to {@{"overload" operators}@}. <!--SR:!2027-06-07,494,399!2027-05-23,479,390!2027-05-22,478,390!2027-05-08,467,390-->
 
-With {@{infix notation}@}, this is {@{ambiguity with _precedence_}@}. In Scala, {@{the precedence of an infix function call}@} is based on {@{the _first_ character of the infix function name}@}. Starting from {@{the highest priority \(parenthesized first\)}@}, we have {@{any other special characters not listed below}@}, then {@{precedence rules for common operators similar to other programming languages}@} \({@{multiply, divide, modulo}@} &gt; {@{addition, subtraction}@} &gt; {@{colon \(`:`\)}@} &gt; {@{equality and inequality}@} &gt; {@{comparison}@} &gt; {@{and}@} &gt; {@{xor}@} &gt; {@{or}@}\), and finally {@{all other letters \(including `_`\)}@}. <!--SR:!2027-07-10,522,399!2027-05-03,462,390!2027-07-11,523,399!2027-05-03,462,390!2027-07-12,524,399!2027-06-19,503,399!2027-06-16,500,399!2027-07-19,530,399!2027-07-17,528,399!2027-05-05,464,390!2027-05-28,484,390!fsrs,2030-03-29T00:00:00.000Z,1306,1306.02828199,1,2,9,0,0,2026-08-31T00:00:00.000Z!2027-04-28,457,390!2027-07-03,516,399!2027-07-15,526,399!2027-07-20,531,399-->
+With {@{infix notation}@}, this is {@{ambiguity with _precedence_}@}. In Scala, {@{the precedence of an infix function call}@} is based on {@{the _first_ character of the infix function name}@}. Starting from {@{the highest priority \(parenthesized first\)}@}, we have {@{any other special characters not listed below}@}, then {@{precedence rules for common operators similar to other programming languages}@} \({@{multiply, divide, modulo}@} &gt; {@{addition, subtraction}@} &gt; {@{colon \(`:`\)}@} &gt; {@{equality and inequality}@} &gt; {@{comparison}@} &gt; {@{and &gt; xor &gt; or}@}\), and finally {@{all other letters \(including `_`\)}@}. <!--SR:!2027-07-10,522,399!2027-05-03,462,390!2027-07-11,523,399!2027-05-03,462,390!2027-07-12,524,399!2027-06-19,503,399!2027-06-16,500,399!2027-07-19,530,399!2027-07-17,528,399!2027-05-05,464,390!2027-05-28,484,390!fsrs,2030-03-29T00:00:00.000Z,1306,1306.02828199,1,2,9,0,0,2026-08-31T00:00:00.000Z!2027-04-28,457,390!2027-07-03,516,399!2027-07-15,526,399!2027-07-20,531,399-->
 
 ## code organization
 
@@ -1334,7 +1297,6 @@ Scala structures {@{code into a hierarchical namespace}@} called {@{_packages_}@
 > ```shell
 > scala ppl.examples.Hello
 > ```
-<!--SR:!2028-08-30,850,449!2028-09-29,883,449!2028-09-20,871,449!2028-09-23,877,449-->
 
 {@{_Packages_}@} therefore provide a way to {@{avoid naming collisions}@} and to {@{group related functionality}@}. <!--SR:!2028-09-03,854,449!2028-10-19,903,449!2028-09-19,873,449-->
 
@@ -1356,7 +1318,6 @@ When {@{a class}@} is defined {@{in a different package}@}, you may refer to it 
 > import ppl2.Rational
 > val r = Rational(1, 2)                // after import
 > ```
-<!--SR:!2028-10-10,894,449!2028-10-16,900,449!2028-05-06,763,440!2028-11-02,914,449-->
 
 There are {@{several forms}@} of imports: <!--SR:!2028-09-02,853,449-->
 
@@ -1468,7 +1429,6 @@ Because {@{every `Cons` node}@} contains only {@{references to its head \(the fi
 >   )
 > )
 > ```
-<!--SR:!2028-10-10,894,449!2028-07-13,805,440!2028-10-15,899,449-->
 
 {@{These expansions}@} highlight how {@{each element is wrapped in a `Cons`}@}, with {@{the final cell being `Nil`}@}. <!--SR:!2028-10-13,894,449!2028-06-11,795,440!2028-08-31,851,449-->
 
@@ -1486,7 +1446,6 @@ Because {@{every `Cons` node}@} contains only {@{references to its head \(the fi
 > class Cons(val head: Int, val tail: IntList) extends IntList
 > class Nil() extends IntList          // sentinel for the empty list
 > ```
-<!--SR:!2028-07-12,804,440!2028-05-01,759,435-->
 
 Under {@{this hierarchy}@}, {@{any value of type `IntList`}@} is either: \(annotation: 2 items: {@{`Nil`, `Cons`}@}\) <!--SR:!2028-11-01,913,449!2028-11-04,916,449!2028-08-19,842,449-->
 
@@ -1506,7 +1465,6 @@ Under {@{this hierarchy}@}, {@{any value of type `IntList`}@} is either: \(annot
 > ```Scala
 > case class Tuple2[+T1, +T2](_1: T1, _2: T2)
 > ```
-<!--SR:!2028-10-11,895,449!2028-10-05,889,449-->
 
 {@{The fields of a tuple}@} are {@{accessed through the names `_1`, `_2`, etc.}@}: <!--SR:!2028-11-09,921,449!2028-07-25,814,440-->
 
@@ -1518,7 +1476,6 @@ Under {@{this hierarchy}@}, {@{any value of type `IntList`}@} is either: \(annot
 > val label = pair._1
 > val value = pair._2
 > ```
-<!--SR:!2028-11-08,923,449!2028-07-24,816,440-->
 
 {@{Pattern matching}@} on tuples is usually {@{preferred for readability}@}. <!--SR:!2028-09-18,872,449!2028-09-08,859,449-->
 
@@ -1544,7 +1501,6 @@ The compiler accepts {@{both calling syntaxes for the latter}@}, while the forme
 > f(0, 1)     // correct
 > f((0, 1))   // does NOT compile
 > ```
-<!--SR:!2028-07-28,817,440!2028-07-13,805,440-->
 
 ### options
 
@@ -1559,7 +1515,6 @@ In Scala {@{the type `Option[+A]`}@} is {@{a container that may or may not hold 
 > case class Some[A](value: A) extends Option[A]
 > object None extends Option[Nothing]
 > ```
-<!--SR:!2028-09-22,873,449!2028-06-12,796,440!2028-04-26,754,435-->
 
 {@{An instance of `Option`}@} represents {@{the presence (`Some`) or absence (`None`) of a value}@}, thereby {@{avoiding null references}@}. Because `Option` is {@{an algebraic data type}@}, it can be {@{pattern-matched safely}@}: <!--SR:!2028-09-03,854,449!2028-09-05,856,449!2028-05-17,773,440!2028-06-10,794,440!2028-08-01,821,440-->
 
@@ -1573,7 +1528,6 @@ In Scala {@{the type `Option[+A]`}@} is {@{a container that may or may not hold 
 >   case None    => "No number provided"
 > }
 > ```
-<!--SR:!2028-08-29,852,449!2028-05-18,774,440-->
 
 {@{The standard library}@} supplies {@{numerous combinators (`map`, `flatMap`, `getOrElse`, etc.)}@} that let callers manipulate {@{the contained value when it exists while propagating absence otherwise}@}. This design makes {@{optional values explicit}@}, enabling {@{more robust and expressive code}@}. <!--SR:!2028-08-10,830,449!2028-10-21,905,449!2028-08-15,838,449!2028-09-11,862,449!2028-08-13,836,449-->
 
@@ -1616,7 +1570,6 @@ Scala _conceptually_ treats {@{the familiar types `scala.Int` and `scala.Boolean
 > object true extends Boolean { def ifThenElse[T](t: => T, e: => T) = t }
 > object false extends Boolean{ def ifThenElse[T](t: => T, e: => T) = e }
 > ```
-<!--SR:!2028-06-03,788,440!2028-08-28,851,449!2028-11-07,922,449!2028-08-19,839,449-->
 
 This construction shows that {@{the logical connectives}@} are {@{merely methods on a class}@}; {@{no primitive boolean type}@} is required. Indeed, using Scala's {@{extension syntax}@}, one can add {@{an implication operator to the idealized Boolean}@}: <!--SR:!2028-10-26,907,449!2028-08-19,842,440!2028-08-13,833,449!2028-10-16,900,449!2028-09-18,872,449-->
 
@@ -1670,7 +1623,6 @@ In Scala {@{every value is an object}@}, and this extends to {@{first-class func
 >   def apply(x: T1): R
 > }
 > ```
-<!--SR:!2028-06-08,792,440!2028-04-24,753,435!2028-08-27,850,440!2028-05-25,780,440-->
 
 {@{The single abstract method `apply`}@} makes the function {@{callable with the familiar parentheses syntax}@}. It can also be used to {@{make any type, even non-function types, callable}@}. {@{A function application}@} {@{`f(a, b)`}@} becomes: <!--SR:!2028-09-30,881,449!2028-10-14,898,449!2028-09-08,862,449!2028-10-31,912,449!2028-11-17,932,460-->
 
@@ -1681,7 +1633,6 @@ In Scala {@{every value is an object}@}, and this extends to {@{first-class func
 > ```Scala
 > f.apply(a, b)
 > ```
-<!--SR:!2028-08-17,840,449!2028-09-26,880,449!2028-12-26,967,460!2028-10-13,897,460!2028-12-11,953,460-->
 
 {@{Additional arity-specific traits}@}—{@{`Function2[-T1, -T2, +R]`, `Function3[-T1, -T2, -T3, +R]`, and so forth}@}—are defined {@{analogously for functions that take more parameters}@}. <!--SR:!2028-10-26,910,449!2028-07-21,813,440!2028-08-29,852,449-->
 
@@ -1696,7 +1647,6 @@ In Scala {@{every value is an object}@}, and this extends to {@{first-class func
 >   def apply(x: Int): Int = x * x
 > }
 > ```
-<!--SR:!2028-10-18,899,449!2028-10-26,910,449!2028-11-06,921,449-->
 
 {@{This generated class}@} can itself be viewed as {@{a local anonymous class defined inside a block}@}: <!--SR:!2028-09-15,869,449!2028-06-30,792,435-->
 
@@ -1712,7 +1662,6 @@ In Scala {@{every value is an object}@}, and this extends to {@{first-class func
 >   new $anonfun()
 > }
 > ```
-<!--SR:!2028-10-24,908,449!2028-08-27,850,449-->
 
 {@{The `$anonfun` name}@} is {@{an internal placeholder}@}; the compiler typically generates {@{a unique identifier for each anonymous function}@}. At {@{runtime}@} this object behaves {@{like any other Scala object}@}: it can be {@{stored, passed around, and invoked via `apply`}@}. <!--SR:!2028-08-16,836,449!2028-08-30,853,449!2028-06-30,789,440!2028-11-05,917,449!2028-09-05,859,449!2028-10-11,895,449-->
 
@@ -1743,6 +1692,5 @@ Because {@{functions are objects}@}, they inherit {@{all traits of ordinary clas
 >   def apply(x: Int): Boolean = f(x)
 > }
 > ```
-<!--SR:!2028-10-02,886,449!2028-11-01,916,449!2028-09-09,863,449!2028-10-20,904,449!2028-09-25,876,449-->
 
 {@{This implicit "eta-expansion" \(terminology used by Scala\)}@} allows {@{methods to be treated seamlessly as functions in higher-order contexts}@}. <!--SR:!2028-07-23,815,440!2028-11-04,919,449-->

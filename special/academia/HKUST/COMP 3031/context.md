@@ -42,7 +42,6 @@ When {@{a method}@} needs to {@{operate over arbitrary types}@} – for example,
 > ```Scala
 > def sort[T](xs: List[T]): List[T] = ???
 > ```
-<!--SR:!2027-01-18,339,349!fsrs,2030-10-06T00:00:00.000Z,1401,1400.77653742,1,2,9,0,0,2026-12-05T00:00:00.000Z!2027-01-02,329,349!fsrs,2030-08-17T00:00:00.000Z,1361,1360.83635942,1,2,9,0,0,2026-11-25T00:00:00.000Z!fsrs,2030-09-16T00:00:00.000Z,1385,1384.82036767,1,2,9,0,0,2026-12-01T00:00:00.000Z-->
 
 However, {@{sorting}@} requires {@{an ordering relation `<`}@}, which {@{does not exist for all types}@}.  {@{The resolution}@} is to {@{_parameterise with an ordering_ rather than just a type}@}. <!--SR:!fsrs,2029-10-13T00:00:00.000Z,1107,1107.06552019,1,2,9,0,0,2026-10-02T00:00:00.000Z!2026-12-24,321,349!2026-12-27,324,349!fsrs,2030-10-21T00:00:00.000Z,1413,1412.72658366,1,2,9,0,0,2026-12-08T00:00:00.000Z!2027-01-02,329,349-->
 
@@ -62,7 +61,6 @@ However, {@{sorting}@} requires {@{an ordering relation `<`}@}, which {@{does no
 > sort(ints)((x, y) => x < y)
 > sort(strings)((s1, s2) => s1.compareTo(s2) < 0)
 > ```
-<!--SR:!fsrs,2030-08-18T00:00:00.000Z,1365,1364.83793445,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2030-06-08T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-11T00:00:00.000Z!2027-01-23,344,349!fsrs,2030-07-08T00:00:00.000Z,1329,1328.76280435,1,2,9,0,0,2026-11-17T00:00:00.000Z!2026-12-28,325,349!fsrs,2030-07-31T00:00:00.000Z,1347,1347.38838875,1,2,9,0,0,2026-11-22T00:00:00.000Z-->
 
 Scala provides {@{the `scala.math.Ordering` trait}@} to {@{represent the sorting function}@}: <!--SR:!2026-12-22,320,349!2027-01-22,343,349-->
 
@@ -85,7 +83,6 @@ Scala provides {@{the `scala.math.Ordering` trait}@} to {@{represent the sorting
 > sort(ints)(Ordering.Int)
 > sort(strings)(Ordering.String)
 > ```
-<!--SR:!2026-12-22,320,349!fsrs,2030-07-19T00:00:00.000Z,1341,1340.80330866,1,2,9,0,0,2026-11-16T00:00:00.000Z!2027-01-24,345,349!fsrs,2030-07-08T00:00:00.000Z,1329,1328.76280435,1,2,9,0,0,2026-11-17T00:00:00.000Z-->
 
 ## `using`
 
@@ -129,7 +126,6 @@ In Scala, {@{an implicit parameter}@} is introduced through {@{a `using` clause 
 > ```Scala
 > def sort[T](xs: List[T])(using ord: Ordering[T]): List[T] = …
 > ```
-<!--SR:!fsrs,2030-09-06T00:00:00.000Z,1377,1376.83234312,1,2,9,0,0,2026-11-29T00:00:00.000Z!fsrs,2030-07-23T00:00:00.000Z,1341,1340.80330866,1,2,9,0,0,2026-11-20T00:00:00.000Z-->
 
 When calling {@{such a method}@}, you may {@{supply the argument explicitly}@} via {@{another `using` clause}@}: <!--SR:!2027-01-28,349,349!fsrs,2030-10-21T00:00:00.000Z,1413,1412.72658366,1,2,9,0,0,2026-12-08T00:00:00.000Z!fsrs,2030-10-31T00:00:00.000Z,1421,1420.68519039,1,2,9,0,0,2026-12-10T00:00:00.000Z-->
 
@@ -156,7 +152,6 @@ However, {@{explicit passing}@} is {@{usually unnecessary}@}. If the caller {@{o
 > def f(x: Int)(using a: A, b: B) = ...
 > f(10)(using a, b)
 > ```
-<!--SR:!2026-12-26,323,349!fsrs,2029-10-08T00:00:00.000Z,1103,1103.2172026,1,2,9,0,0,2026-10-01T00:00:00.000Z!fsrs,2030-08-16T00:00:00.000Z,1363,1363.40564442,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2030-08-22T00:00:00.000Z,1365,1364.83793445,1,2,9,0,0,2026-11-26T00:00:00.000Z-->
 
 Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` clauses}@} can also be {@{interleaved with ordinary parameter lists}@}, allowing {@{a mix of implicit and explicit arguments}@}: <!--SR:!2027-01-02,329,349!fsrs,2030-08-08T00:00:00.000Z,1357,1356.83314545,1,2,9,0,0,2026-11-20T00:00:00.000Z!fsrs,2030-09-01T00:00:00.000Z,1373,1372.8358637,1,2,9,0,0,2026-11-28T00:00:00.000Z!fsrs,2030-10-31T00:00:00.000Z,1421,1420.68519039,1,2,9,0,0,2026-12-10T00:00:00.000Z!2027-01-29,350,349-->
 
@@ -171,7 +166,6 @@ Alternatively, {@{separate `using` clauses}@} can be {@{chained}@}. {@{`using` c
 > f(10)(using a)(using b)
 > f(10)(using a)(true)(using b)
 > ```
-<!--SR:!fsrs,2029-10-22T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-10-03T00:00:00.000Z!fsrs,2030-07-03T00:00:00.000Z,1325,1324.74576884,1,2,9,0,0,2026-11-16T00:00:00.000Z!2027-01-26,347,349!2026-12-26,323,349!2026-12-20,318,349-->
 
 {@{Anonymous `using` clauses}@} let a method declare {@{an implicit parameter without naming it}@}; the compiler will still {@{supply and forward that instance to other methods automatically}@}. For example, <!--SR:!2027-01-17,338,349!fsrs,2030-07-31T00:00:00.000Z,1347,1347.38838875,1,2,9,0,0,2026-11-22T00:00:00.000Z!fsrs,2030-08-23T00:00:00.000Z,1369,1368.83776698,1,2,9,0,0,2026-11-23T00:00:00.000Z-->
 
@@ -223,7 +217,6 @@ Scala 3 introduces {@{_`given` instances_}@} – {@{values}@} that can be {@{aut
 >     def compare(x: Int, y: Int): Int =
 >       if (x < y) -1 else if (x > y) 1 else 0
 > ```
-<!--SR:!2027-01-24,345,349!fsrs,2030-12-02T00:00:00.000Z,1445,1444.52302436,1,2,9,0,0,2026-12-18T00:00:00.000Z!fsrs,2030-08-22T00:00:00.000Z,1365,1364.83793445,1,2,9,0,0,2026-11-26T00:00:00.000Z!fsrs,2028-04-12T05:15:40.028Z,677,676.62994752,1,2,8,0,0,2026-06-05T05:15:40.028Z-->
 
 {@{Anonymous instances}@} can be {@{declared without a name}@}; the compiler will {@{create a new instance and generate a name}@}: <!--SR:!fsrs,2030-10-06T00:00:00.000Z,1401,1400.77653742,1,2,9,0,0,2026-12-05T00:00:00.000Z!fsrs,2030-10-31T00:00:00.000Z,1421,1420.68519039,1,2,9,0,0,2026-12-10T00:00:00.000Z!2027-01-20,341,349-->
 
@@ -235,7 +228,6 @@ Scala 3 introduces {@{_`given` instances_}@} – {@{values}@} that can be {@{aut
 > given Ordering[Double] with
 >   def compare(x: Double, y: Double): Int = ...
 > ```
-<!--SR:!fsrs,2028-04-04T05:15:52.597Z,669,668.70887473,1,2,8,0,0,2026-06-05T05:15:52.597Z!fsrs,2028-04-04T05:18:13.550Z,669,668.70887473,1,2,8,0,0,2026-06-05T05:18:13.550Z!fsrs,2028-05-29T09:58:20.646Z,715,714.69996373,1,2,8,0,0,2026-06-14T09:58:20.646Z-->
 
 To {@{assign an already existing instance to `given`}@}, use {@{the assignment operator `=`}@}: <!--SR:!fsrs,2028-04-08T05:15:59.173Z,673,673.49403934,1,2,8,0,0,2026-06-05T05:15:59.173Z!fsrs,2028-04-18T05:15:53.248Z,683,682.91786624,1,2,8,0,0,2026-06-05T05:15:53.248Z-->
 
@@ -247,10 +239,8 @@ To {@{assign an already existing instance to `given`}@}, use {@{the assignment o
 > given Type = instance        // unnamed
 > given name: Type = instance  // named: `name`
 > ```
-<!--SR:!fsrs,2028-04-07T05:22:23.158Z,672,671.91009258,1,2,8,0,0,2026-06-05T05:22:23.158Z!fsrs,2028-05-27T09:58:51.766Z,713,713.11608358,1,2,8,0,0,2026-06-14T09:58:51.766Z-->
 
 ### `summon`
-<!--SR:!2026-01-31,65,329!2026-02-05,69,329!2026-01-23,58,310-->
 
 To refer to {@{an instance directly without using `using`}@}, you may {@{use `summon`}@}: <!--SR:!fsrs,2028-07-25T00:00:00.000Z,675,674.76322068,2.49272837,2,9,0,0,2026-09-19T00:00:00.000Z!fsrs,2029-11-05T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-10-06T00:00:00.000Z-->
 
@@ -262,7 +252,6 @@ To refer to {@{an instance directly without using `using`}@}, you may {@{use `su
 > val intOrd = summon[Ordering[Int]]      // expands to Ordering.Int
 > val dblOrd = summon[Ordering[Double]]   // anonymous name
 > ```
-<!--SR:!2027-01-26,347,349!fsrs,2030-06-04T00:00:00.000Z,1305,1304.63448952,1,2,9,0,0,2026-11-07T00:00:00.000Z-->
 
 {@{`summon`}@} simply uses {@{`using` in its implementation}@}; it is {@{defined as}@}: <!--SR:!2027-01-30,351,349!fsrs,2030-10-01T00:00:00.000Z,1397,1396.7899487,1,2,9,0,0,2026-12-04T00:00:00.000Z!2027-01-27,348,349-->
 
@@ -273,7 +262,6 @@ To refer to {@{an instance directly without using `using`}@}, you may {@{use `su
 > ```Scala
 > def summon[T](using x: T): T = x
 > ```
-<!--SR:!2027-01-22,343,349!fsrs,2030-08-12T00:00:00.000Z,1357,1356.83314545,1,2,9,0,0,2026-11-24T00:00:00.000Z!fsrs,2030-07-13T00:00:00.000Z,1333,1332.77803171,1,2,9,0,0,2026-11-18T00:00:00.000Z-->
 
 ### importing `given`s
 
@@ -384,7 +372,6 @@ To {@{declare a "type class"}@} in Scala, use {@{`trait`}@}: <!--SR:!fsrs,2030-1
 > trait Ordering[A]:
 >   def compare(x: A, y: A): Int
 > ```
-<!--SR:!fsrs,2030-11-05T00:00:00.000Z,1425,1424.6621323,1,2,9,0,0,2026-12-11T00:00:00.000Z!2027-01-22,343,349-->
 
 {@{A `given` instance}@} supplies {@{the implementation for a concrete type}@}: <!--SR:!fsrs,2030-11-27T00:00:00.000Z,1441,1440.55400055,1,2,9,0,0,2026-12-17T00:00:00.000Z!fsrs,2030-06-19T00:00:00.000Z,1317,1316.706566,1,2,9,0,0,2026-11-10T00:00:00.000Z-->
 
@@ -399,7 +386,6 @@ To {@{declare a "type class"}@} in Scala, use {@{`trait`}@}: <!--SR:!fsrs,2030-1
 > given orderingString: Ordering[String] with
 >   def compare(s: String, t: String) = s.compareTo(t)
 > ```
-<!--SR:!2026-12-24,321,349!2027-01-30,351,349-->
 
 With {@{such `given` instances}@} in scope {@{a polymorphic method}@} can be written: <!--SR:!2027-01-01,328,349!2026-12-28,325,349-->
 
@@ -451,7 +437,6 @@ With {@{such `given` instances}@} in scope {@{a polymorphic method}@} can be wri
 >     def >(y: A)   = compare(x, y) > 0
 >     def >=(y: A)  = compare(x, y) >= 0
 > ```
-<!--SR:!2026-12-26,323,349!2026-12-28,325,349!fsrs,2030-10-16T00:00:00.000Z,1409,1408.744791,1,2,9,0,0,2026-12-07T00:00:00.000Z-->
 
 With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!fsrs,2029-10-22T00:00:00.000Z,1115,1114.75652523,1,2,9,0,0,2026-10-03T00:00:00.000Z!2026-12-24,321,349-->
 
@@ -500,9 +485,8 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!fsrs,2029-10-2
 >     fn cmp(&self, other: &Self) -> Ordering;
 > }
 > ```
-<!--SR:!fsrs,2030-11-05T00:00:00.000Z,1425,1424.6621323,1,2,9,0,0,2026-12-11T00:00:00.000Z!2027-01-31,352,349-->
 
-{@{The syntax in Rust}@} is {@{slightly different}@} but {@{the concept}@} remains {@{the same}@}—defining {@{a set of operations}@} that can be {@{implemented for many distinct types}@}. <!--SR:!2027-01-02,329,349!fsrs,2028-07-18T00:00:00.000Z,670,669.69339296,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2030-10-26T00:00:00.000Z,1417,1416.70671475,1,2,9,0,0,2026-12-09T00:00:00.000Z!2027-01-25,346,349!2026-12-31,327,349-->
+{@{The syntax in Rust}@} is {@{slightly different}@} but {@{the concept remains the same}@}—defining {@{a set of operations}@} that can be {@{implemented for many distinct types}@}. <!--SR:!2027-01-02,329,349!fsrs,2028-07-18T00:00:00.000Z,670,669.69339296,2.49272837,2,9,0,0,2026-09-17T00:00:00.000Z!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2030-10-26T00:00:00.000Z,1417,1416.70671475,1,2,9,0,0,2026-12-09T00:00:00.000Z!2027-01-25,346,349!2026-12-31,327,349-->
 
 {@{Other functional and dependently-typed languages}@} are moving {@{toward a similar approach}@}.  {@{Agda, Lean, and soon OCaml}@} provide {@{general _contextual parameters_ or equivalent mechanisms}@} that allow {@{programmers to encode type-class-like behaviour}@} in a manner analogous to {@{Scala's `given` instances}@}.  {@{These systems}@} combine the expressiveness of {@{Haskell's type classes with Scala-style contextual resolution}@}, enabling {@{conditional polymorphism across a wide range of types}@}. <!--SR:!fsrs,2030-09-11T00:00:00.000Z,1381,1380.82721279,1,2,9,0,0,2026-11-30T00:00:00.000Z!2027-01-31,352,349!fsrs,2029-10-17T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-10-02T00:00:00.000Z!fsrs,2028-09-25T00:00:00.000Z,720,720.2031195,2.49272837,2,9,0,0,2026-10-06T00:00:00.000Z!2027-01-27,348,349!2027-01-29,350,349!fsrs,2030-06-09T00:00:00.000Z,1309,1308.66035919,1,2,9,0,0,2026-11-08T00:00:00.000Z!2027-01-30,351,349!fsrs,2030-10-05T00:00:00.000Z,1401,1400.77653742,1,2,9,0,0,2026-12-04T00:00:00.000Z-->
 
@@ -518,7 +502,6 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!fsrs,2029-10-2
 > trait Monoid[T] extends SemiGroup[T]:
 >   def unit: T
 > ```
-<!--SR:!fsrs,2028-04-23T05:15:57.336Z,688,687.78683449,1,2,8,0,0,2026-06-05T05:15:57.336Z!fsrs,2028-05-30T09:59:04.329Z,716,716.27385924,1,2,8,0,0,2026-06-14T09:59:04.329Z!fsrs,2028-04-29T05:14:15.014Z,694,694.12578032,1,2,8,0,0,2026-06-05T05:14:15.014Z-->
 
 {@{The standard list reduction `reduce`}@} can be rewritten using {@{a monoid instance}@}, making use of {@{the neutral element `unit`}@}: <!--SR:!fsrs,2028-04-12T05:15:39.095Z,677,676.62994752,1,2,8,0,0,2026-06-05T05:15:39.095Z!fsrs,2028-04-13T05:15:41.006Z,678,678.1822466,1,2,8,0,0,2026-06-05T05:15:41.006Z!fsrs,2028-05-29T09:59:00.359Z,715,714.69996373,1,2,8,0,0,2026-06-14T09:59:00.359Z-->
 
@@ -530,7 +513,6 @@ With {@{an `Ordering[T]` in scope}@} one can {@{write}@}: <!--SR:!fsrs,2029-10-2
 > def reduce[T: Monoid](xs: List[T]): T =
 >   xs.reduceLeft(Monoid[T].unit)(_.combine(_))
 > ```
-<!--SR:!fsrs,2028-04-19T01:15:20.810Z,683,682.95260147,1,2,8,0,0,2026-06-06T01:15:20.810Z!fsrs,2028-04-10T05:19:23.812Z,675,675.06725437,1,2,8,0,0,2026-06-05T05:19:23.812Z!fsrs,2028-04-07T05:19:01.083Z,672,671.91009258,1,2,8,0,0,2026-06-05T05:19:01.083Z-->
 
 With {@{a _context bound_ (`T: Monoid`)}@} and {@{the companion object}@} we avoid passing {@{the instance (`Monoid[T]`) explicitly}@}. <!--SR:!fsrs,2028-05-29T09:58:26.971Z,715,714.69996373,1,2,8,0,0,2026-06-14T09:58:26.971Z!fsrs,2028-05-26T09:59:05.873Z,712,711.52185524,1,2,8,0,0,2026-06-14T09:59:05.873Z!fsrs,2028-04-08T05:13:44.553Z,673,673.49403934,1,2,8,0,0,2026-06-05T05:13:44.553Z-->
 
@@ -548,7 +530,6 @@ A type may have {@{several monoid instances}@}, e.g. {@{`Int`}@} with {@{additio
 >   extension (x: Int) def combine(y: Int): Int = x * y
 >   def unit: Int = 1
 > ```
-<!--SR:!fsrs,2028-04-05T05:14:17.799Z,670,670.31506812,1,2,8,0,0,2026-06-05T05:14:17.799Z!fsrs,2027-08-07T05:22:15.198Z,428,428.40801982,1,2,8,0,0,2026-06-05T05:22:15.198Z-->
 
 Using these, {@{`sum` and `product`}@} are defined by supplying {@{the appropriate instance to `reduce`}@}: <!--SR:!fsrs,2028-04-07T05:19:08.236Z,672,671.91009258,1,2,8,0,0,2026-06-05T05:19:08.236Z!fsrs,2028-04-13T05:18:51.775Z,678,678.1822466,1,2,8,0,0,2026-06-05T05:18:51.775Z-->
 
@@ -560,7 +541,6 @@ Using these, {@{`sum` and `product`}@} are defined by supplying {@{the appropria
 > def sum(xs: List[Int]): Int   = reduce(xs)(using sumMonoid)
 > def product(xs: List[Int]): Int = reduce(xs)(using prodMonoid)
 > ```
-<!--SR:!fsrs,2028-05-01T05:18:15.472Z,696,695.68464888,1,2,8,0,0,2026-06-05T05:18:15.472Z!fsrs,2028-04-05T05:19:13.860Z,670,670.31506812,1,2,8,0,0,2026-06-05T05:19:13.860Z!fsrs,2028-04-10T05:18:43.186Z,675,675.06725437,1,2,8,0,0,2026-06-05T05:18:43.186Z-->
 
 {@{Omitting the `using` clause}@} leads to {@{an _ambiguity_ error}@} because {@{both instances (`sumMonoid` and `prodMonoid`) are in scope}@}. The expression {@{`reduce(xs)(using sumMonoid)`}@} showcases {@{_context_—the implicit search that supplies the correct monoid}@}. If {@{no instance is found or multiple exist}@}, {@{compilation fails}@}, enforcing the rule that each type has {@{at most one lawful monoid per program fragment}@}. <!--SR:!fsrs,2028-04-10T05:14:24.056Z,675,675.06725437,1,2,8,0,0,2026-06-05T05:14:24.056Z!fsrs,2028-04-29T05:18:48.789Z,694,694.12578032,1,2,8,0,0,2026-06-05T05:18:48.789Z!fsrs,2028-04-02T05:19:26.441Z,667,667.09117179,1,2,8,0,0,2026-06-05T05:19:26.441Z!fsrs,2028-04-25T08:12:33.684Z,688,687.7179261,1,2,8,0,0,2026-06-07T08:12:33.684Z!fsrs,2028-05-27T09:59:02.787Z,713,713.11608358,1,2,8,0,0,2026-06-14T09:59:02.787Z!fsrs,2028-04-13T05:18:53.682Z,678,678.1822466,1,2,8,0,0,2026-06-05T05:18:53.682Z!fsrs,2028-04-19T01:15:16.707Z,683,682.95260147,1,2,8,0,0,2026-06-06T01:15:16.707Z!fsrs,2028-04-28T05:19:09.552Z,693,692.55677493,1,2,8,0,0,2026-06-05T05:19:09.552Z-->
 
@@ -605,7 +585,6 @@ An example where {@{execution contexts become useful}@} is {@{parallel runtimes}
 > ```Scala
 > def processItems(items: List[Int])(using ec: ExecutionContext): Unit = ...
 > ```
-<!--SR:!fsrs,2028-05-30T09:59:11.213Z,716,716.27385924,1,2,8,0,0,2026-06-14T09:59:11.213Z!fsrs,2028-05-08T01:15:18.123Z,702,701.98388208,1,2,8,0,0,2026-06-06T01:15:18.123Z-->
 
 {@{The same mechanism}@} propagates {@{the context through a call chain without having to thread the value explicitly}@}. When {@{specific code needs to use a specialized `ExecutionContext`}@}, {@{declaring another `given` instance}@} can be used to override {@{the `global` instance}@}. <!--SR:!fsrs,2028-05-27T09:58:08.762Z,713,713.11608358,1,2,8,0,0,2026-06-14T09:58:08.762Z!fsrs,2028-05-30T09:58:53.255Z,716,716.27385924,1,2,8,0,0,2026-06-14T09:58:53.255Z!fsrs,2028-05-27T09:58:25.317Z,713,713.11608358,1,2,8,0,0,2026-06-14T09:58:25.317Z!fsrs,2028-05-27T09:57:41.836Z,713,713.11608358,1,2,8,0,0,2026-06-14T09:57:41.836Z!fsrs,2028-05-26T09:59:05.101Z,712,711.52185524,1,2,8,0,0,2026-06-14T09:59:05.101Z-->
 
@@ -633,7 +612,6 @@ Another example is {@{an expression language}@} carrying {@{its own _environment
 >       recur(body)(using env + (name -> recur(rhs)))
 >   recur(e)(using Map.empty)
 > ```
-<!--SR:!fsrs,2028-04-12T05:23:02.231Z,677,676.62994752,1,2,8,0,0,2026-06-05T05:23:02.231Z!fsrs,2028-05-08T01:15:22.055Z,702,701.98388208,1,2,8,0,0,2026-06-06T01:15:22.055Z-->
 
 {@{The `env` contextual parameter}@} is {@{implicitly supplied at each recursive call}@}; it represents {@{the current bindings of variables}@}. This pattern demonstrates how {@{contextual parameters can model mutable state that is scoped to a computation}@}, without {@{leaking it into the surrounding code}@}. <!--SR:!fsrs,2028-04-19T01:15:20.160Z,683,682.95260147,1,2,8,0,0,2026-06-06T01:15:20.160Z!fsrs,2028-05-30T09:59:11.794Z,716,716.27385924,1,2,8,0,0,2026-06-14T09:59:11.794Z!fsrs,2028-04-25T08:12:36.746Z,688,687.7179261,1,2,8,0,0,2026-06-07T08:12:36.746Z!fsrs,2028-04-12T05:18:55.066Z,677,676.62994752,1,2,8,0,0,2026-06-05T05:18:55.066Z!fsrs,2028-04-12T05:18:06.417Z,677,676.62994752,1,2,8,0,0,2026-06-05T05:18:06.417Z-->
 
@@ -663,7 +641,6 @@ Outside {@{the current scope (`Conf`)}@}, the alias is {@{an abstract type}@}; t
 > def task(x: Int)(using v: Conf.Viewers): Boolean =
 >   summon[Conf.Viewers].contains("Alice")
 > ```
-<!--SR:!fsrs,2028-04-10T05:22:25.174Z,675,675.06725437,1,2,8,0,0,2026-06-05T05:22:25.174Z!fsrs,2028-04-04T05:16:01.238Z,669,668.70887473,1,2,8,0,0,2026-06-05T05:16:01.238Z-->
 
 ## implicit function types
 
@@ -691,6 +668,5 @@ Replacing {@{a method signature ending in `/* ... */ (using Viewers): T`}@} with
 > type Viewed[T] = Viewers ?=> T
 > def rankings: Viewed[List[Paper]]
 > ```
-<!--SR:!fsrs,2028-03-31T05:19:12.050Z,665,665.4617586,1,2,8,0,0,2026-06-05T05:19:12.050Z!fsrs,2028-04-07T05:18:45.383Z,672,671.91009258,1,2,8,0,0,2026-06-05T05:18:45.383Z!fsrs,2028-04-12T05:15:51.737Z,677,676.62994752,1,2,8,0,0,2026-06-05T05:15:51.737Z-->
 
 It trades {@{a term for a type}@}. Originally, the developer writes {@{the required implicit _type_ (`Viewers`)}@}, and {@{the compiler supplies the actual value}@}. Now with {@{implicit function types}@}, the developer writes {@{the _return type_ (`Viewed[List[Paper]]`)}@}, and the compiler {@{_additionally_ infers implicit function parameters before inferring its actual value}@}. <!--SR:!fsrs,2028-05-26T09:58:24.414Z,712,711.52185524,1,2,8,0,0,2026-06-14T09:58:24.414Z!fsrs,2028-04-29T05:18:42.229Z,694,694.12578032,1,2,8,0,0,2026-06-05T05:18:42.229Z!fsrs,2028-04-02T05:14:26.923Z,667,667.09117179,1,2,8,0,0,2026-06-05T05:14:26.923Z!fsrs,2028-04-21T05:22:20.239Z,686,686.17512362,1,2,8,0,0,2026-06-05T05:22:20.239Z!fsrs,2028-04-08T05:22:27.064Z,673,673.49403934,1,2,8,0,0,2026-06-05T05:22:27.064Z!fsrs,2028-04-23T05:14:23.042Z,688,687.78683449,1,2,8,0,0,2026-06-05T05:14:23.042Z-->

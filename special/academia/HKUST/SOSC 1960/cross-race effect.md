@@ -35,7 +35,7 @@ Flashcards for this section are as follows:
 - what the usual explanation is called ::@:: Perceptual expertise. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - how settled that explanation is ::@:: Not settled, since no one model covers the whole effect. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
-## why the effect is awkward
+## practical stakes
 
 The effect matters wherever a face is read under pressure: eyewitness testimony, law enforcement, and the design of face recognition technology.
 

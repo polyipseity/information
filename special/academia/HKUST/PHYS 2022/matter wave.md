@@ -15,7 +15,7 @@ A _matter wave_ is the wave carried by a particle. Louis de Broglie proposed in 
 
 Flashcards for this section are as follows:
 
-- overview: what a matter wave is, and the wavelength $\lambda$ it gives a particle of momentum $p$ ::@:: The wave de Broglie associates with every particle: $\lambda = h/p$. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- overview: what a matter wave is, and the wavelength $\lambda$ it gives a particle of momentum $p$ ::@:: The wave Louis de Broglie associates with every particle: $\lambda = h/p$. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - the de Broglie wavelength of a particle of mass $m$ moving at speed $v$ ::@:: $\lambda = h/mv$, since $p = mv$. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - the Planck constant $h$ in de Broglie's relation $\lambda = h/p$: its value ::@:: $h = 6.626 \times 10^{-34}\ \text{J s}$. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 
@@ -105,5 +105,5 @@ Wave and particle aspects are complementary: neither alone describes matter or r
 
 Flashcards for this section are as follows:
 
-- complementarity: what Bohr's principle states ::@:: Wave and particle aspects complement each other in matter and radiation alike; neither model alone describes them fully, and the experimental arrangement decides which appears. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
+- complementarity: what Niels Bohr's principle states ::@:: Wave and particle aspects complement each other in matter and radiation alike; neither model alone describes them fully, and the experimental arrangement decides which appears. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
 - what decides which aspect, wave or particle, a measurement reveals ::@:: The experimental arrangement: a diffraction grating draws out the wave side, a particle counter the particle side. <!--SR:!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z!fsrs,2027-01-23T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-18T00:00:00.000Z-->
