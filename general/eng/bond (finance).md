@@ -145,7 +145,7 @@ Historically, {@{coupons}@} were {@{physical attachments to the paper bond certi
 
 <!-- markdownlint MD028 -->
 
-> {@{![Receipt for temporary bonds issued by the state of [Kansas](kansas.md) in 1922](../../archives/Wikimedia%20Commons/Receipt%20for%20temporary%20bonds.jpg)}@}
+> {@{![Receipt for temporary bonds issued by the state of [Kansas](Kansas.md) in 1922](../../archives/Wikimedia%20Commons/Receipt%20for%20temporary%20bonds.jpg)}@}
 >
 > {@{Receipt for temporary bonds}@} issued by {@{the state of [Kansas](Kansas.md) in 1922}@} <!--SR:!fsrs,2031-09-07T00:00:00.000Z,1774,1774.31541075,1,2,10,0,0,2026-10-29T00:00:00.000Z!fsrs,2031-06-01T00:00:00.000Z,1701,1700.61670537,1,2,9,0,0,2026-10-04T00:00:00.000Z!fsrs,2031-08-02T00:00:00.000Z,1746,1745.70857509,1,2,10,0,0,2026-10-21T00:00:00.000Z-->
 

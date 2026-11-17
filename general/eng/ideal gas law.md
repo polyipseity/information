@@ -11,7 +11,7 @@ tags:
 
 # ideal gas law
 
-The __ideal gas law__, also called the __general gas equation__, is {@{the [equation of state](equation%20of%20state.md) of an [ideal gas](ideal%20gas.md)}@}. It is a combination of {@{[Avogardo's law](Avogadro's%20law.md) ($V \propto n$), [Boyle's law](Boyle's%20law.md) ($p \propto \frac 1 V$)}@}, {@{[Charles's law](Charles's%20law.md) ($V \propto T$), and [Gay-Lussac's law](Gay-Lussac's%20law.md) ($p \propto T$)}@}. <!--SR:!2027-06-20,965,330!2028-01-05,691,190!fsrs,2027-09-20T00:56:31.417Z,471,470.52118716,1,2,7,0,0,2026-06-06T00:56:31.417Z-->
+{@{The __ideal gas law__, also called the __general gas equation__}@}, is {@{the [equation of state](equation%20of%20state.md) of an [ideal gas](ideal%20gas.md)}@}. It is a combination of {@{[Avogardo's law](Avogadro's%20law.md) ($V \propto n$), [Boyle's law](Boyle's%20law.md) ($p \propto \frac 1 V$)}@}, {@{[Charles's law](Charles's%20law.md) ($V \propto T$), and [Gay-Lussac's law](Gay-Lussac's%20law.md) ($p \propto T$)}@}. <!--SR:!2027-06-20,965,330!2028-01-05,691,190!fsrs,2027-09-20T00:56:31.417Z,471,470.52118716,1,2,7,0,0,2026-06-06T00:56:31.417Z-->
 
 > __ideal gas law__
 >
@@ -30,7 +30,7 @@ The __ideal gas law__, also called the __general gas equation__, is {@{the [equa
 
 ## energy associated with a gas
 
-For an ideal [monoatomic gas](monoatomic%20gas.md), {@{its [potential energy](potential%20energy.md) is zero due to the lack of [intermolecular forces](intermolecular%20force.md). Therefore, all [internal energy](internal%20energy.md) possessed by the gas is [kinetic energy](kinetic%20energy.md): $E = K = \frac32 nRT$}@}. For [ideal gases](ideal%20gas.md) with extra non-translational [degrees of freedom](degrees%20of%20freedom%20(physics%20and%20chemistry).md), {@{its [kinetic energy](kinetic%20energy.md) is still the same as above: $K = \frac32 nRT$, but its [internal energy](internal%20energy.md) is higher}@}. <!--SR:!fsrs,2031-09-30T00:00:00.000Z,1775,1775.2205292,2.98092302,2,10,0,0,2026-11-20T00:00:00.000Z!2027-01-12,816,330-->
+For {@{an ideal [monoatomic gas](monoatomic%20gas.md)}@}, its {@{[potential energy](potential%20energy.md) is zero due to the lack of [intermolecular forces](intermolecular%20force.md)}@}. Therefore, all {@{[internal energy](internal%20energy.md) possessed by the gas is [kinetic energy](kinetic%20energy.md)}@}: {@{$$E = K = \frac32 nRT \,.$$}@} For {@{[ideal gases](ideal%20gas.md) with extra non-translational [degrees of freedom](degrees%20of%20freedom%20(physics%20and%20chemistry).md)}@}, its {@{[kinetic energy](kinetic%20energy.md) is still the same as above}@}, but its {@{[internal energy](internal%20energy.md) is higher}@}. <!--SR:!fsrs,2031-09-30T00:00:00.000Z,1775,1775.2205292,2.98092302,2,10,0,0,2026-11-20T00:00:00.000Z!2027-01-12,816,330-->
 
 > __energy of an ideal [monoatomic gas](monoatomic%20gas.md)__
 >
@@ -39,7 +39,7 @@ For an ideal [monoatomic gas](monoatomic%20gas.md), {@{its [potential energy](po
 
 ## deviations from behavior of real gases
 
-The ideal gas law is most accurate for {@{[monoatomic gas](monoatomic%20gas.md) at high [temperature](temperature.md) and low [pressure](pressure.md) due to the neglect of [molecular size](molecule.md#molecular%20size) and [intermolecular forces](intermolecular%20forces.md)}@}. At low [temperatures](temperature.md), {@{the [pressure](pressure.md) of a [real gas](real%20gas.md) is often lower than that of an [ideal gas](ideal%20gas.md)}@}. At high [pressures](pressure.md), {@{the [volume](volume.md) of a [real gas](real%20gas.md) is often higher than that of an [ideal gas](ideal%20gas.md)}@}. <!--SR:!fsrs,2031-04-12T00:00:00.000Z,1679,1678.52869898,2.98092302,2,10,0,0,2026-09-06T00:00:00.000Z!2029-06-24,1467,310!2027-04-05,893,310-->
+{@{The ideal gas law is most accurate}@} for {@{[monoatomic gas](monoatomic%20gas.md) at high [temperature](temperature.md) and low [pressure](pressure.md)}@} due to the neglect of {@{[molecular size](molecule.md#molecular%20size) and [intermolecular forces](intermolecular%20forces.md)}@}. At {@{low [temperatures](temperature.md)}@}, {@{the [pressure](pressure.md) of a [real gas](real%20gas.md)}@} is {@{often lower than that of an [ideal gas](ideal%20gas.md)}@}. At {@{high [pressures](pressure.md)}@}, {@{the [volume](volume.md) of a [real gas](real%20gas.md)}@} is {@{often higher than that of an [ideal gas](ideal%20gas.md)}@}. <!--SR:!fsrs,2031-04-12T00:00:00.000Z,1679,1678.52869898,2.98092302,2,10,0,0,2026-09-06T00:00:00.000Z!2029-06-24,1467,310!2027-04-05,893,310-->
 
 ## references
 

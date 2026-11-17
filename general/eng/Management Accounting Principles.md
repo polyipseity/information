@@ -1,1 +1,0 @@
-management accounting principles.md

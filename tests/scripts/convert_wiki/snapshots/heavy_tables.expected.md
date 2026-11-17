@@ -14,10 +14,10 @@ __Sample Data Table__
 <!-- markdownlint-disable-next-line MD036 -->
 __Merged Header Table__
 
-| Full Name <br/> First | <br/> Last | Score <br/> Points |
-| --------------------- | ---------- | ------------------ |
-| John                  | Doe        | 95                 |
-| Jane                  | Smith      | 87                 |
+| Full Name <br/> First | \< <br/> Last | Score <br/> Points |
+| --------------------- | ------------- | ------------------ |
+| John                  | Doe           | 95                 |
+| Jane                  | Smith         | 87                 |
 
 ## table with rowspan
 
@@ -27,6 +27,6 @@ __Multi-row Category Table__
 | Category   | Item     | Value |
 | ---------- | -------- | ----- |
 | Fruits     | Apple    | 10    |
-|            | Banana   | 15    |
+| ^          | Banana   | 15    |
 | Vegetables | Carrot   | 8     |
-|            | Broccoli | 12    |
+| ^          | Broccoli | 12    |

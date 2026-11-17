@@ -62,7 +62,7 @@ For detailed workflows, see [core-workflows.instructions.md](.agents/instruction
 - __Python >=3.14__ — declared in `pyproject.toml` (this is the canonical source of Python dependency metadata).
 - __Node.js 24+__ with `package.json` packages (commitlint, markdownlint, prettier, etc.).
 - External tools: `git`, `git-filter-repo`.
-- Obsidian plugins: Extended MathJax (for `.obsidian/plugins/obsidian-latex/preamble.sty`).
+- Obsidian math: Extended MathJax for Obsidian 1.12.7; Shared TeX Preamble for Obsidian 1.15.0+. Both read `.obsidian/plugins/obsidian-latex/preamble.sty`.
 
 ---
 

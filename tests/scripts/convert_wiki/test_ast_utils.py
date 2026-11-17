@@ -443,6 +443,31 @@ class TestFindTokenRange:
         # Second blockquote should start after "> First\n\n"
         assert text[start:].startswith("> Second") or "Second" in text[start:]
 
+    def test_image_only_paragraph_has_no_range(self) -> None:
+        """An image-only paragraph reconstructs to nothing, so it has no range."""
+        text = "hello\n\n![](https://example.com/x.png)"
+        tokens = _parse(text)
+        target = next(
+            i
+            for i, tok in enumerate(tokens)
+            if tok["type"] == "paragraph" and _reconstruct_token_raw(tok) == ""
+        )
+        assert _find_token_range(text, tokens, target) is None
+
+    def test_paragraph_after_image_only_paragraph(self) -> None:
+        """Locating a paragraph still works when an image-only one precedes it."""
+        text = "![](https://example.com/x.png)\n\nhello"
+        tokens = _parse(text)
+        target = next(
+            i
+            for i, tok in enumerate(tokens)
+            if tok["type"] == "paragraph" and _reconstruct_token_raw(tok) == "hello"
+        )
+        rng = _find_token_range(text, tokens, target)
+        assert rng is not None
+        start, end = rng
+        assert text[start:end] == "hello"
+
 
 # =========================================================================
 # _inject_after_token
@@ -839,6 +864,25 @@ class TestFindTableBlocks:
         assert start > 0
         assert end == len(text)
         assert "before" not in text[start:end]
+
+    def test_table_followed_by_image_only_paragraph(self) -> None:
+        """An image-only paragraph after a table must not collapse its range.
+
+        Mistune reconstructs an image-only paragraph's raw as an empty
+        string, and ``str.find("", pos)`` matches at ``pos``, which ended
+        the table block before the table itself.
+        """
+        text = (
+            "## external links\n\n"
+            "- gcd\\(x,y\\) = y function graph: "
+            "[https://example.com](https://example.com)\n\n"
+            "|  | b |\n| --: | --- |\n| c | d |\n\n"
+            "![](https://example.com/x.png)"
+        )
+        result = _find_table_blocks(text)
+        assert len(result) == 1
+        start, end = result[0]
+        assert "| c | d |" in text[start:end]
 
     def test_table_with_adjacent_tables_no_separator(self) -> None:
         """Adjacent tables without separators yield in-bounds ranges."""

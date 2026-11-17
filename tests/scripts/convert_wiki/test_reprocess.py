@@ -247,3 +247,115 @@ class TestReprocessJumpUpGuard:
             base_map={},
         )
         assert not any(action.from_stem == "jump up" for action in plan.symlink_actions)
+
+
+class TestColonTitleReprocess:
+    """A mapped title whose text contains ``:`` must reach every link.
+
+    ``_encode_fragment`` drops ``:``, so an anchor never spells its key, and
+    ``_fix_stem`` maps ``:`` to ``_``, so a stem never spells one either.
+    Both are resolved through the effective name map instead of guessed at.
+    """
+
+    @staticmethod
+    async def _make_wiki(tmp_path: PathLike[str]) -> tuple[AnyioPath, AnyioPath]:
+        """Build a wiki with a colon section, a colon article, and one reader."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        await (lang_dir / "A_ b.md").write_text("# A: b\n", encoding="UTF-8")
+        await (lang_dir / "evidence.md").write_text(
+            "# Evidence\n"
+            "\n"
+            "## A: b\n"
+            "\n"
+            "See [self](#A%20b), [page](A%5F%20b.md), and\n"
+            "[section](A%5F%20b.md#A%20b).\n",
+            encoding="UTF-8",
+        )
+        await (wiki_dir / "map.jsonc").write_text("{}\n", encoding="UTF-8")
+        return wiki_dir, lang_dir
+
+    @pytest.mark.anyio
+    async def test_mapping_rewrites_anchors_and_stems(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """A case-only colon mapping rewrites the anchor and the link stems."""
+        wiki_dir, lang_dir = await self._make_wiki(tmp_path)
+
+        plan = await plan_reprocess(
+            _ReprocessRequest(
+                mappings={"A: b": "a: b"},
+                articles=("evidence",),
+                update_links=False,
+                dry_run=False,
+                wiki_dir=wiki_dir,
+                cache_path=wiki_dir / "cache.json",
+                name_map_path=wiki_dir / "map.jsonc",
+            ),
+            base_map={},
+        )
+
+        assert plan.rename_actions == ()
+        assert plan.base_map == {}
+        report = await apply_reprocess_plan(plan, dry_run=False)
+        assert report.articles_rewritten == 1
+        assert await (lang_dir / "evidence.md").read_text(encoding="UTF-8") == (
+            "# Evidence\n"
+            "\n"
+            "## a: b\n"
+            "\n"
+            "See [self](#a%20b), [page](a%5F%20b.md), and\n"
+            "[section](a%5F%20b.md#a%20b).\n"
+        )
+
+    @pytest.mark.anyio
+    async def test_article_already_at_its_final_name_is_rewritten(
+        self, tmp_path: PathLike[str]
+    ) -> None:
+        """Typing the raw title resolves to the sanitised note already on disk."""
+        wiki_dir, lang_dir = await self._make_wiki(tmp_path)
+
+        plan = await plan_reprocess(
+            _ReprocessRequest(
+                mappings={"A: b": "a: b"},
+                articles=("A: b",),
+                update_links=False,
+                dry_run=False,
+                wiki_dir=wiki_dir,
+                cache_path=wiki_dir / "cache.json",
+                name_map_path=wiki_dir / "map.jsonc",
+            ),
+            base_map={},
+        )
+
+        assert plan.rename_actions == ()
+        assert list(plan.heading_updates.values()) == ["a: b"]
+        await apply_reprocess_plan(plan, dry_run=False)
+        assert await (lang_dir / "A_ b.md").read_text(encoding="UTF-8") == ("# a: b\n")
+
+
+class TestCollidingNameMap:
+    """A name map that two titles claim differently stops the run early."""
+
+    @pytest.mark.anyio
+    async def test_planning_refuses_a_collision(self, tmp_path: PathLike[str]) -> None:
+        """A collision raises while planning, before any action is decided."""
+        wiki_dir = AnyioPath(tmp_path)
+        lang_dir = wiki_dir / "eng"
+        await lang_dir.mkdir()
+        await (wiki_dir / "map.jsonc").write_text("{}\n", encoding="UTF-8")
+
+        with pytest.raises(ValueError, match="name map collision"):
+            await plan_reprocess(
+                _ReprocessRequest(
+                    mappings={"A: b": "x", "A b": "y"},
+                    articles=(),
+                    update_links=False,
+                    dry_run=True,
+                    wiki_dir=wiki_dir,
+                    cache_path=wiki_dir / "cache.json",
+                    name_map_path=wiki_dir / "map.jsonc",
+                ),
+                base_map={},
+            )

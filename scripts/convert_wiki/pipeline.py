@@ -4,9 +4,9 @@ This module orchestrates the full Wikipedia HTML-to-Markdown pipeline.
 The pipeline has three logical phases:
 
 1. **Preprocess** (``_preprocess_html``): mutate the HTML tree before
-   conversion — style/CS1 cleanup, numblk table merging, adjacent math
-   merging, external math punctuation normalization, sfrac replacement,
-   annotated-image cleanup.
+   conversion — style/CS1 cleanup, numblk table merging, math source
+   lifting, adjacent math merging, external math punctuation normalization,
+   sfrac replacement, annotated-image cleanup, title-box table rewriting.
 
 2. **Convert** (``WikiHtmlConverter.convert``): walk the (now-clean) HTML
    tree and emit Markdown text.  The converter must not perform tree
@@ -50,12 +50,17 @@ from .ast_utils import (
     _walk_tokens,
 )
 from .converter import WikiHtmlConverter
-from .inline_context import _is_display_math_only_dl
+from .inline_context import (
+    _dd_display_formula_element,
+    _is_display_formula_dl,
+    _is_texhtml_formula_element,
+    _significant_children,
+)
 from .latex import LatexConverter
-from .table import _reformat_table
+from .table import _EQUATION_BOX_BODY_BLOCK_TAGS, _reformat_table
 from .template_config import _DISPLAY_MATH_CONTAINERS
 from .types import _RedirectInfo
-from .utils import _ZERO_WIDTH_CHARS_RE, _create_redirect_symlinks
+from .utils import _ZERO_WIDTH_CHARS_RE, _create_redirect_symlinks, _data_mw_payload
 
 """Exported names from this module."""
 __all__ = ()
@@ -91,6 +96,151 @@ def _unwrap_inline_math_span(tag: Tag) -> Tag | None:
     ):
         return children[0]  # type: ignore[return-value]
     return tag
+
+
+def _math_source_from_data_mw(math: Tag) -> str:
+    """Return the TeX source Parsoid stored in *math*'s ``data-mw`` payload.
+
+    Modern Parsoid HTML serialises the extension invocation as JSON in
+    ``data-mw`` and leaves the ``<math>`` element without ``alttext``, which
+    is where legacy HTML kept the same source.  A malformed or unrelated
+    payload yields an empty string so the converter falls back to reading the
+    MathML text, as it did before.
+    """
+    payload = _data_mw_payload(math, "math")
+    if payload is None:
+        return ""
+    extsrc = payload.body.get("extsrc")
+    return extsrc if isinstance(extsrc, str) else ""
+
+
+r"""AMS align environments rewritten to the ones Obsidian can render.
+
+``\begin{align}`` and friends are not defined by MathJax's base packages, so
+the same layout is expressed with the ``aligned``-family environments instead.
+``multline`` is left unchanged because MathJax 4 renders it natively; its
+``multlined`` counterpart is not available without mathtools.
+"""
+_MATH_ENV_ALIASES: Mapping[str, str] = {
+    "align": "aligned",
+    "align*": "aligned",
+    "alignat": "alignedat",
+    "alignat*": "alignedat",
+    "gather": "gathered",
+    "gather*": "gathered",
+    "eqnarray": "aligned",
+    "eqnarray*": "aligned",
+}
+
+r"""Matches the environment name in ``\begin{env}`` and ``\end{env}``."""
+_MATH_ENV_RE = re.compile(r"\\(begin|end)\{([^{}]*)\}")
+
+
+def _strip_math_comments(source: str) -> str:
+    r"""Remove TeX ``%`` comments from each line of *source*.
+
+    Parsoid keeps wikitext comments in ``data-mw``, and collapsing the
+    newlines first would splice the commented remainder of a line into the
+    source that follows.  A ``%`` preceded by an odd number of backslashes is
+    escaped, so ``\%`` is a literal percent; ``\\%`` is a line break followed
+    by a comment because the pair consumes both backslashes.
+    """
+    stripped: list[str] = []
+    for line in source.split("\n"):
+        backslashes = 0
+        for position, character in enumerate(line):
+            if character == "\\":
+                backslashes += 1
+            elif character == "%" and backslashes % 2 == 0:
+                line = line[:position]
+                break
+            else:
+                backslashes = 0
+        stripped.append(line)
+    return "\n".join(stripped)
+
+
+def _normalize_math_source(source: str) -> str:
+    """Normalize TeX lifted from HTML into a single-line renderable source.
+
+    Parsoid's ``data-mw`` payload keeps newlines and indentation from the
+    wikitext, and Wikipedia math uses environments that Obsidian's MathJax
+    build does not define.  Rewriting the environments through
+    ``_MATH_ENV_ALIASES`` leaves their optional arguments (for example the
+    column count of ``alignat``) in place, and unknown environments pass
+    through unchanged so unfamiliar TeX keeps its original meaning.  Comments
+    are stripped first, so their text cannot survive the whitespace collapse.
+    """
+
+    def _rewrite_environment(match: re.Match[str]) -> str:
+        """Rewrite one matched environment name through ``_MATH_ENV_ALIASES``."""
+        environment = match.group(2)
+        alias = _MATH_ENV_ALIASES.get(environment, environment)
+        return f"\\{match.group(1)}{{{alias}}}"
+
+    stripped = _strip_math_comments(source)
+    return " ".join(_MATH_ENV_RE.sub(_rewrite_environment, stripped).split())
+
+
+def _set_math_alttext_from_data_mw(soup: BeautifulSoup | Tag) -> None:
+    """Copy Parsoid math source into the ``alttext`` attribute.
+
+    ``WikiHtmlConverter._handle_math`` renders math from ``alttext`` only, so
+    a ``<math>`` element carrying its source anywhere else degrades to the
+    bare MathML text.  Legacy HTML provides ``alttext`` directly; modern
+    Parsoid provides ``data-mw``, and older Parsoid revisions provide an
+    ``<annotation encoding="application/x-tex">`` child.  Lifted sources are
+    normalized by ``_normalize_math_source``; existing ``alttext`` values are
+    never overwritten and never normalized.
+    """
+    for math in soup.find_all("math"):
+        if math.get("alttext"):
+            continue
+        extsrc = _math_source_from_data_mw(math)
+        if not extsrc.strip():
+            annotation = math.find(
+                "annotation", attrs={"encoding": "application/x-tex"}
+            )
+            extsrc = annotation.get_text() if isinstance(annotation, Tag) else ""
+        normalized = _normalize_math_source(extsrc)
+        if normalized:
+            math["alttext"] = normalized
+
+
+def _normalize_math_wrappers(soup: BeautifulSoup | Tag) -> None:
+    """Drop MathJax renderings and unwrap invisible math a11y spans.
+
+    A page saved by a browser after MathJax rendered it holds two copies of
+    every formula: MathJax's SVG in an ``<mjx-container>`` and the MathML in
+    a hidden ``<span class="mwe-math-mathml-a11y">``.  The rendering is a
+    duplicate, and the wrapper hides the formula's real siblings, so both
+    would mislead the inline-versus-display checks.  Unwrapping restores the
+    shape Parsoid HTML already has; an a11y span inside a
+    ``mwe-math-element`` wrapper belongs to that shape and stays.
+
+    Wikipedia also emits duplicate LaTeX text after the ``<math>`` element
+    inside such spans (the tail ``;\\quad ...}`` of a long equation), and
+    the ``alttext`` already carries the whole source, so that text goes.
+    """
+    for container in soup.find_all("mjx-container"):
+        container.decompose()
+    for a11y_span in soup.find_all("span", class_="mwe-math-mathml-a11y"):
+        if a11y_span.find("math") is None:
+            continue
+        for a11y_child in list(a11y_span.children):
+            if isinstance(a11y_child, NavigableString):
+                if a11y_child.strip():
+                    a11y_child.extract()
+            elif isinstance(a11y_child, Tag) and a11y_child.name not in {
+                "math",
+                "img",
+            }:
+                a11y_child.decompose()
+        if a11y_span.find_parent(class_="mwe-math-element") is not None:
+            continue
+        for child in list(a11y_span.children):
+            a11y_span.insert_before(child)
+        a11y_span.decompose()
 
 
 def _merge_adjacent_math_dd(dd: Tag) -> None:
@@ -748,7 +898,7 @@ def _merge_dl_after_thumb_into_list(soup: BeautifulSoup | Tag) -> None:
 
     for dl in list(soup.find_all("dl")):
         # Skip display-math-only <dl> — different semantics.
-        if _is_display_math_only_dl(dl):
+        if _is_display_formula_dl(dl):
             continue
 
         # Check if previous sibling is a thumbnail.
@@ -832,12 +982,154 @@ def _unwrap_navbox_inline_divs(soup: BeautifulSoup | Tag) -> None:
             div.unwrap()
 
 
+def _normalized_text(ele: PageElement) -> str:
+    """Return *ele*'s text with whitespace runs collapsed."""
+    return " ".join(ele.get_text(" ", strip=True).split())
+
+
+def _is_title_box_table(table: Tag) -> bool:
+    """Return True if *table* is a header-less box titled by its first row.
+
+    Wikipedia renders ``{{math proof}}`` and related theorem boxes as a
+    ``wikitable`` with one cell per row, no header cell, and a bold title
+    alone in the first row.  Such a table has no header row to become a
+    Markdown table header, and it emits no separator row, so its rows
+    would reach the output as literal pipe paragraphs.
+    """
+    if "wikitable" not in frozenset(table.get_attribute_list("class")):
+        return False
+    if table.find("th") is not None or table.find("caption") is not None:
+        return False
+    if table.find_parent("table") is not None:
+        return False
+    rows = table.find_all("tr")
+    if len(rows) < 2:
+        return False
+    cells = [row.find_all(["td", "th"], recursive=False) for row in rows]
+    if any(len(row_cells) != 1 for row_cells in cells):
+        return False
+    title_cell = cells[0][0]
+    bold = title_cell.find_all(["b", "strong"])
+    if len(bold) != 1:
+        return False
+    return _normalized_text(title_cell) == _normalized_text(bold[0])
+
+
+def _block_math_wrapper(latex: str, factory: BeautifulSoup) -> Tag:
+    """Build a block ``mwe-math-element`` wrapper for promoted formulas."""
+    outer = factory.new_tag(
+        "span",
+        attrs={"class": "mwe-math-element mwe-math-element-block"},
+    )
+    inner = factory.new_tag(
+        "span",
+        attrs={"class": "mwe-math-mathml-display mwe-math-mathml-a11y"},
+    )
+    math = factory.new_tag("math", attrs={"display": "block", "alttext": latex})
+    semantics = factory.new_tag("semantics")
+    semantics.append(factory.new_tag("mrow"))
+    math.append(semantics)
+    img = factory.new_tag(
+        "img",
+        attrs={
+            "alt": latex,
+            "aria-hidden": "true",
+            "class": "mwe-math-fallback-image-display mw-invert skin-invert",
+        },
+    )
+    inner.append(math)
+    inner.append(img)
+    outer.append(inner)
+    return outer
+
+
+def _promote_display_formula_texhtml_dls(soup: BeautifulSoup | Tag) -> None:
+    """Promote sole texhtml formulas in display-formula ``<dl>`` rows to block math.
+
+    Converts qualifying ``span.texhtml`` formula elements to block
+    ``mwe-math-element`` wrappers so existing display-math normalization,
+    punctuation absorption, and rendering logic apply.
+    """
+    factory: BeautifulSoup | None = None
+    if isinstance(soup, BeautifulSoup):
+        factory = soup
+    else:
+        for element in (soup, *soup.parents):
+            if isinstance(element, BeautifulSoup):
+                factory = element
+                break
+    if factory is None:
+        factory = BeautifulSoup("", "html.parser")
+    for dl in soup.find_all("dl"):
+        if not isinstance(dl, Tag) or not _is_display_formula_dl(dl):
+            continue
+        for row in _significant_children(dl):
+            if not isinstance(row, Tag) or row.name != "dd":
+                continue
+            formula = _dd_display_formula_element(row)
+            if formula is None or not _is_texhtml_formula_element(formula):
+                continue
+            latex = LatexConverter.texhtml_to_latex(formula)
+            if not latex:
+                continue
+            formula.replace_with(_block_math_wrapper(latex, factory))
+
+
+def _append_box_cell_content(quote: Tag, cell: Tag, soup: BeautifulSoup | Tag) -> None:
+    """Append *cell*'s content to *quote*, wrapping inline runs in <p> tags."""
+    pending: list[PageElement] = []
+
+    def flush() -> None:
+        """Wrap the pending inline run in a paragraph and start a new run."""
+        if not pending:
+            return
+        paragraph = soup.new_tag("p")
+        for node in pending:
+            paragraph.append(node.extract())
+        quote.append(paragraph)
+        pending.clear()
+
+    for child in list(cell.children):
+        if isinstance(child, Tag) and child.name in _EQUATION_BOX_BODY_BLOCK_TAGS:
+            flush()
+            quote.append(child.extract())
+        else:
+            pending.append(child)
+    flush()
+
+
+def _rewrite_title_box_tables(soup: BeautifulSoup | Tag) -> None:
+    """Render title-box tables (e.g. ``{{math proof}}``) as blockquotes.
+
+    Without a header row a title box cannot become a Markdown table, and its
+    pipe rows used to reach the output as literal paragraphs.  The paragraph
+    parse also dropped the display-math tokens inside them, so the spacing
+    pass skipped every ``$$…$$`` span in the box body.
+
+    Moving the content into ``<blockquote class="math_proof">`` reuses the
+    box renderer: the title gets its own ``> `` line, a blank ``> `` line
+    separates it from the body, and the body parses as ordinary paragraphs.
+    """
+    for table in list(soup.find_all("table")):
+        if not _is_title_box_table(table):
+            continue
+        rows = table.find_all("tr")
+        cells = [row.find_all(["td", "th"], recursive=False) for row in rows]
+        quote = soup.new_tag("blockquote")
+        quote["class"] = "math_proof"
+        quote.append(cells[0][0].find_all(["b", "strong"])[0].extract())
+        for row_cells in cells[1:]:
+            _append_box_cell_content(quote, row_cells[0], soup)
+        table.replace_with(quote)
+
+
 def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
     """Mutate the HTML tree before conversion.
 
     All tree mutations belong here: style/CS1 cleanup, numblk table
-    merging, adjacent math merging, external math punctuation
-    normalization, sfrac replacement, and annotated-image cleanup.
+    merging, math source lifting, adjacent math merging, external math
+    punctuation normalization, sfrac replacement, annotated-image cleanup,
+    and title-box table rewriting.
 
     The converter receives a clean tree and must not perform any
     mutations during its walk.
@@ -856,43 +1148,41 @@ def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
     # 3. Merge adjacent numblk tables into one multi-row table.
     _merge_adjacent_numblk_tables(soup)
 
-    # 4. Merge consecutive inline math spans in <dd>/<dt>/<p>/<li> elements.
+    # 4. Drop MathJax's own rendering and unwrap the invisible a11y span
+    #    around the MathML, so a browser copy has the same shape as
+    #    Parsoid HTML.  Also strip the duplicate LaTeX text Wikipedia emits
+    #    after the ``<math>`` element (e.g. the tail ``;\quad ...}`` of a
+    #    long equation); the ``alttext`` already carries it.
+    _normalize_math_wrappers(soup)
+
+    # 5. Lift Parsoid math source into ``alttext``: legacy HTML carries the
+    #    source there, modern Parsoid in ``data-mw``, so without this the
+    #    math degrades to the bare MathML text.
+    _set_math_alttext_from_data_mw(soup)
+
+    # 6. Merge consecutive inline math spans in <dd>/<dt>/<p>/<li> elements.
     for dd in soup.find_all(["dd", "dt", "p", "li"]):
         _merge_adjacent_math_dd(dd)
 
-    # 5. Normalize external math punctuation: absorb trailing
+    # 7. Promote sole texhtml formulas in display-formula <dl> rows to
+    #    block math so punctuation absorption and display rendering apply.
+    _promote_display_formula_texhtml_dls(soup)
+
+    # 8. Normalize external math punctuation: absorb trailing
     #    punctuation from sibling text into math alttext.
-    for container in soup.find_all(list(_DISPLAY_MATH_CONTAINERS | {"p"})):
+    for container in soup.find_all(list(_DISPLAY_MATH_CONTAINERS | {"p", "dd"})):
         WikiHtmlConverter._normalize_external_math_punctuation(container)
 
-    # 6. Strip duplicate LaTeX text that Wikipedia emits after the
-    #    MathML <math> element inside math a11y spans (e.g. the tail
-    #    ``;\quad ...}`` of a long equation).  The <math> alttext already
-    #    carries the full equation, so the trailing text would otherwise
-    #    render as escaped literal LaTeX.
-    for a11y_span in soup.find_all("span", class_="mwe-math-mathml-a11y"):
-        if a11y_span.find("math") is None:
-            continue
-        for a11y_child in list(a11y_span.children):
-            if isinstance(a11y_child, NavigableString):
-                if a11y_child.strip():
-                    a11y_child.extract()
-            elif isinstance(a11y_child, Tag) and a11y_child.name not in {
-                "math",
-                "img",
-            }:
-                a11y_child.decompose()
-
-    # 7. Replace legacy texhtml spans that plain text cannot carry (radicals,
+    # 9. Replace legacy texhtml spans that plain text cannot carry (radicals,
     #    fractions, accents) with one <math> element, script included. This
     #    runs before the sfrac pass so the whole span converts as a unit.
     LatexConverter.replace_texhtml_math_with_math(soup, soup)  # ty: ignore[invalid-argument-type] — Tag.new_tag works identically
 
-    # 8. Replace sfrac spans outside any texhtml span with <math> elements.
+    # 10. Replace sfrac spans outside any texhtml span with <math> elements.
     for span in soup.find_all("span"):
         LatexConverter.replace_sfrac_with_math(span, soup)  # ty: ignore[invalid-argument-type] — Tag.new_tag works identically
 
-    # 9. Drop media-player chrome: the duration label MediaWiki renders
+    # 11. Drop media-player chrome: the duration label MediaWiki renders
     #    inside its own player (``Duration: 14 seconds.`` plus the
     #    ``0:14`` stamp) is interface text, not content, and would
     #    otherwise open a figure with a bold timestamp.  The player
@@ -901,7 +1191,7 @@ def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
     for duration in soup.find_all("span", class_="mw-tmh-duration"):
         duration.decompose()
 
-    # 10. Clean up annotated-image divs: remove annotation divs
+    # 12. Clean up annotated-image divs: remove annotation divs
     #    and noviewer spans so the converter sees clean content.
     for div in soup.find_all("div", typeof=lambda v: v and "mw:Transclusion" in str(v)):
         if "annotated image" in str(div.get("data-mw", "")):
@@ -912,18 +1202,18 @@ def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
             for noviewer in div.find_all("span", class_="noviewer"):
                 noviewer.decompose()
 
-    # 11. Merge <dl> paragraphs into preceding list when separated by a
+    # 13. Merge <dl> paragraphs into preceding list when separated by a
     #    thumbnail.  When a <dl> follows a <div class="thumb"> that
     #    follows a <ul>/<ol>, the <dd> children belong to the last <li>
     #    of that list (they are continuations of the list item content).
     _merge_dl_after_thumb_into_list(soup)
 
-    # 12. Unwrap inline-only <div> wrappers inside navbox-abovebelow cells
+    # 14. Unwrap inline-only <div> wrappers inside navbox-abovebelow cells
     #    without hlist.  These <div> elements add a block-level suffix
     #    that becomes a spurious <br/> <br/> separator in the output.
     _unwrap_navbox_inline_divs(soup)
 
-    # 13. Move a ``templatequotecite`` attribution into the preceding
+    # 15. Move a ``templatequotecite`` attribution into the preceding
     #     ``templatequote`` blockquote so the quote and its source render
     #     as one Markdown blockquote block.
     for quote in soup.find_all("blockquote", class_="templatequote"):
@@ -932,6 +1222,12 @@ def _preprocess_html(soup: BeautifulSoup | Tag) -> None:
             "class"
         ):
             quote.append(cite.extract())
+
+    # 16. Render header-less title-box tables (e.g. ``{{math proof}}``) as
+    #     blockquotes.  Their first row is the box title, not a header, so
+    #     they cannot become Markdown tables; as pipe paragraphs they also
+    #     hid their display math from the spacing pass.
+    _rewrite_title_box_tables(soup)
 
 
 def _merge_adjacent_numblk_tables(ele: PageElement) -> None:
@@ -1028,6 +1324,12 @@ async def wiki_html_to_plaintext(
     )
     # Strip trailing whitespace from each line.
     result = "\n".join(line.rstrip(" \t") for line in result.split("\n"))
+    # Deduplicate doubled <p> separators from overlapping suffix/prefix
+    # when a <dl> inside a <li> ends with `` <p>`` and a following <dl>
+    # (after </ul>) starts with `` <p> ``.  Run before math separation: a
+    # leftover `` <p>`` at the start of a line opens a mistune HTML block
+    # that ends at the next blank line, hiding the math inside it.
+    result = re.sub(r"(<p>?)\s*<p>", r"\1", result)
     # Separate math delimiters from adjacent text.  Run before table
     # reformatting so inserted spaces count toward column widths; running
     # it after would grow cells past their padding and misalign pipes
@@ -1039,10 +1341,6 @@ async def wiki_html_to_plaintext(
     result = _separate_block_quotes(result)
     # Collapse excessive blank lines.
     result = re.sub(r"\n{3,}", r"\n\n", result)
-    # Deduplicate doubled <p> separators from overlapping suffix/prefix
-    # when a <dl> inside a <li> ends with `` <p>`` and a following <dl>
-    # (after </ul>) starts with `` <p> ``.
-    result = re.sub(r"(<p>?)\s*<p>", r"\1", result)
     result = result.strip()
     return result + "\n" if result else result
 

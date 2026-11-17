@@ -1,16 +1,23 @@
 """Tests for scripts.convert_wiki.markdown_rewrite."""
 
+import os
+import re
+from urllib.parse import unquote
+
+import pytest
+
 from scripts.convert_wiki.config import _NAMES_MAP
 from scripts.convert_wiki.markdown_rewrite import (
     _align_plain_to_raw,
-    _resolve_plain_rewrite,
+    _build_link_index,
+    _resolve_plain,
     _rewrite_article_heading,
     _rewrite_link_target,
     _rewrite_markdown_headings,
     _rewrite_markdown_links,
     _rewrite_plain_span,
 )
-from scripts.convert_wiki.utils import _fix_name_maybe
+from scripts.convert_wiki.utils import _fix_name_maybe, _fix_stem
 
 """Public API of this test module (empty: no symbols are exported)."""
 __all__ = ()
@@ -66,35 +73,32 @@ class TestFixNameMaybe:
         assert result == "fourier transform"
 
 
-class TestResolvePlainRewrite:
-    """Tests for _resolve_plain_rewrite."""
+class TestResolvePlain:
+    """Tests for _resolve_plain and the lookup layers it reads."""
 
     def test_name_map_hit(self) -> None:
         """Resolve an entry present in the name map."""
         names_map = {"modern physics": "Modern physics"}
-        assert _resolve_plain_rewrite("modern physics", names_map=names_map) == (
-            "Modern physics"
-        )
-
-    def test_lowercase_fallback(self) -> None:
-        """Fall back to case-insensitive match when exact key is missing."""
-        names_map = {
-            "Fourier transform": "Fourier transform",
-            "fourier transform": "Fourier transform",
-        }
-        assert _resolve_plain_rewrite("fourier transform", names_map=names_map) == (
-            "Fourier transform"
-        )
-
-    def test_migrations_on_top(self) -> None:
-        """Migration overrides the name-map result."""
-        names_map = {"modern physics": "modern physics"}
-        migrations = {"modern physics": "Modern physics"}
+        index = _build_link_index({}, names_map)
         assert (
-            _resolve_plain_rewrite(
-                "modern physics", names_map=names_map, migrations=migrations
-            )
+            _resolve_plain("modern physics", index=index, replace_underscores=False)
             == "Modern physics"
+        )
+
+    def test_folded_match_recovers_a_lowercased_first_character(self) -> None:
+        """The ingestion fallback damaged the first character only."""
+        index = _build_link_index({}, {"Fourier transform": "Fourier transform"})
+        assert (
+            _resolve_plain("fourier transform", index=index, replace_underscores=False)
+            == "Fourier transform"
+        )
+
+    def test_shouting_name_is_left_alone(self) -> None:
+        """Case folding stops at the first character, so an all-caps name stays."""
+        index = _build_link_index({}, {"Fourier transform": "Fourier transform"})
+        assert (
+            _resolve_plain("FOURIER transform", index=index, replace_underscores=False)
+            == "FOURIER transform"
         )
 
     def test_replace_underscores_flag(self) -> None:
@@ -102,24 +106,69 @@ class TestResolvePlainRewrite:
         names_map = {
             "legendre transformation on manifolds": "Legendre transformation on manifolds"
         }
+        index = _build_link_index({}, names_map)
         assert (
-            _resolve_plain_rewrite(
+            _resolve_plain(
                 "legendre_transformation_on_manifolds",
-                names_map=names_map,
+                index=index,
                 replace_underscores=True,
             )
             == "Legendre transformation on manifolds"
         )
 
-    def test_no_migrations_returns_name_map_result(self) -> None:
-        """Passing migrations=None still returns the name-map result."""
-        names_map = {"modern physics": "Modern physics"}
+    def test_unknown_text_is_unchanged(self) -> None:
+        """A name the map does not hold is never guessed at.
+
+        The lowercase-first-char fallback used to damage every title-case
+        heading and fragment absent from the map.
+        """
+        index = _build_link_index({}, {"unrelated": "entry"})
         assert (
-            _resolve_plain_rewrite(
-                "modern physics", names_map=names_map, migrations=None
-            )
-            == "Modern physics"
+            _resolve_plain("Hubble's law", index=index, replace_underscores=False)
+            == "Hubble's law"
         )
+
+    def test_anchor_form_matches_a_colon_key(self) -> None:
+        """The anchor form carries a colon-bearing key to its fragment."""
+        names_map = {"A: b": "a: b"}
+        index = _build_link_index({}, names_map)
+        assert _resolve_plain("A b", index=index, replace_underscores=True) == "a: b"
+
+
+class TestBuildLinkIndex:
+    """Tests for _build_link_index."""
+
+    def test_conflicting_anchor_stops_the_run(self) -> None:
+        """Two keys that encode alike cannot be told apart, so building stops."""
+        with pytest.raises(ValueError, match="anchor lookup"):
+            _build_link_index({}, {"A: b": "x", "A b": "y"})
+
+    def test_stem_layer_records_the_map_spelling(self) -> None:
+        """The stem layer maps the base spelling to the effective one.
+
+        The base stem is already lowercased by the ingestion fallback, so a
+        stored link finds it through the folded layer rather than by exact
+        spelling.
+        """
+        index = _build_link_index({}, {"A: b": "a: b"})
+        assert index.stem_old["a_ b"] == "a_ b"
+        assert index.stem_old_fold["a_ b"] == "a_ b"
+
+    def test_real_name_map_indexes_without_collision(self) -> None:
+        """The shipped name map, indexed against itself, is unambiguous."""
+        index = _build_link_index(_NAMES_MAP, _NAMES_MAP)
+        title, text = next(iter(_NAMES_MAP.items()))
+        assert index.stem_old[_fix_stem(text)] == _fix_stem(text)
+
+    def test_empty_base_map_collides_on_the_shipped_map(self) -> None:
+        """A base map that does not describe the disk is refused, not guessed.
+
+        With no base spelling, ``Brooks_Cole`` falls back to the heuristic,
+        which claims the stem of ``Brooks Cole``; the two map to different
+        stems, so the index cannot decide and stops.
+        """
+        with pytest.raises(ValueError, match="stem lookup"):
+            _build_link_index({}, _NAMES_MAP)
 
 
 class TestRewritePlainSpan:
@@ -401,12 +450,17 @@ class TestRewriteLinkFragments:
         rewritten = _rewrite_markdown_links(text, {}, names_map=names_map)
         assert rewritten == "[x](Modern%20physics.md#Modern%20physics)"
 
-    def test_fragment_idempotent_round_trip(self) -> None:
-        """An already-canonical fragment should stay byte-identical."""
+    def test_fragment_follows_the_map_case(self) -> None:
+        """A fragment is re-cased to the map's spelling, and stays there.
+
+        The stem is already canonical, so only the anchor changes; a second
+        run must leave the result byte-identical.
+        """
         text = "[x](Schwarz's%20theorem.md#schwarz's%20theorem)"
         names_map = {"Schwarz's theorem": "Schwarz's theorem"}
         rewritten = _rewrite_markdown_links(text, {}, names_map=names_map)
-        assert rewritten == text
+        assert rewritten == "[x](Schwarz's%20theorem.md#Schwarz's%20theorem)"
+        assert _rewrite_markdown_links(rewritten, {}, names_map=names_map) == rewritten
 
     def test_fragment_and_stem_rewrite(self) -> None:
         """Both stem migration and fragment re-casing apply together."""
@@ -465,7 +519,7 @@ class TestRewriteArticleHeading:
 """Effective name map after the test mapping merges over the base map."""
 _EFFECTIVE = {
     "Modern physics": "Modern physics",
-    "modern physics": "modern physics",
+    "modern physics": "Modern physics",
     "Fourier transform": "Fourier transform",
     "fourier transform": "Fourier transform",
 }
@@ -484,12 +538,10 @@ class TestRewriteMarkdownHeadings:
             f"{'#' * level} Modern physics\n" for level in range(1, 7)
         )
 
-    def test_migration_required_for_lowercase_variant(self) -> None:
-        """The effective map alone keeps lowercase variants lowercase."""
+    def test_map_alone_recases_a_lowercase_variant(self) -> None:
+        """A lowercase variant follows the map without a stem migration."""
         text = "## modern physics\n"
-        assert _rewrite_markdown_headings(text, _EFFECTIVE) == text
-        rewritten = _rewrite_markdown_headings(text, _EFFECTIVE, _MIGRATIONS)
-        assert rewritten == "## Modern physics\n"
+        assert _rewrite_markdown_headings(text, _EFFECTIVE) == "## Modern physics\n"
 
     def test_proper_noun_heading_is_not_lowercased(self) -> None:
         """A heading the map does not hold keeps its case."""
@@ -637,3 +689,135 @@ class TestRewriteLinkTargetLegacyFragments:
         first = _rewrite_link_target(target, {}, names_map=names_map)
         second = _rewrite_link_target(first, {}, names_map=names_map)
         assert first == second
+
+
+class TestLosslessRewrite:
+    """A rewrite may repoint a link; it may never re-spell one it did not."""
+
+    def test_a_legal_unresolved_stem_keeps_its_trailing_dot(self) -> None:
+        """A dotted abbreviation stays dotted."""
+        text = "see [iid](i.i.d..md) and [iid](i.i.d..md#definition)"
+        assert _rewrite_markdown_links(text, {}, names_map={}) == text
+
+    def test_a_legal_unresolved_stem_keeps_its_trailing_space(self) -> None:
+        """A name that ends in a space before `.md` stays as written."""
+        text = "[x](Notjustmoreidlechatter%20.md)"
+        assert _rewrite_markdown_links(text, {}, names_map={}) == text
+
+    def test_an_impossible_stem_is_left_alone_by_default(self) -> None:
+        """The rewrite never sanitises a name it did not resolve."""
+        text = "[a](C*-algebra.md) [b](Template:Cite%20journal.md)"
+        assert _rewrite_markdown_links(text, {}, names_map={}) == text
+
+    def test_an_unresolved_stem_is_not_re_sanitised(self) -> None:
+        """A legal destination with a comma and dot is not re-spelled."""
+        text = "[x](Washington,%20D.C..md)"
+        assert _rewrite_markdown_links(text, {}, names_map={"zzz": "y"}) == text
+
+
+class TestRewriteNeverBreaksAWorkingLink:
+    """A rewrite may repoint a link; it may never orphan one."""
+
+    _LINK = re.compile(r"\]\(([^)\s]+\.md)(?:#[^)]*)?\)")
+
+    def test_no_working_link_is_orphaned(self) -> None:
+        """A destination that resolves today still resolves after the rewrite."""
+        index = _build_link_index(_NAMES_MAP, _NAMES_MAP)
+        orphaned: list[str] = []
+        checked = 0
+        for root, _dirs, names in os.walk("general"):
+            for name in names:
+                if not name.endswith(".md"):
+                    continue
+                path = os.path.join(root, name)
+                if os.path.islink(path):
+                    continue
+                with open(path, encoding="utf-8") as handle:
+                    text = handle.read()
+                directory = os.path.dirname(path)
+                for destination in {
+                    unquote(match[1]) for match in self._LINK.finditer(text)
+                }:
+                    if not os.path.lexists(os.path.join(directory, destination)):
+                        continue
+                    checked += 1
+                    rewritten = unquote(
+                        _rewrite_link_target(
+                            destination,
+                            {},
+                            names_map=_NAMES_MAP,
+                            index=index,
+                        )
+                    )
+                    if rewritten == destination:
+                        continue
+                    if not os.path.lexists(os.path.join(directory, rewritten)):
+                        orphaned.append(f"{path}: {destination} -> {rewritten}")
+        assert checked > 0
+        assert orphaned == []
+
+
+class TestRepairIllegalNames:
+    """The repair writes what the converter would have written."""
+
+    def test_repair_mode_sanitises_an_article_title(self) -> None:
+        """A title loses the character Windows forbids."""
+        text = "[a](C*-algebra.md) [b](Why%20Socialism%3F.md)"
+        repaired = _rewrite_markdown_links(text, {}, names_map={}, repair_illegal=True)
+        assert repaired == "[a](C%5F-algebra.md) [b](Why%20Socialism%5F.md)"
+
+    def test_repair_mode_turns_a_namespace_link_into_its_url(self) -> None:
+        """A preserved namespace becomes its Wikipedia URL."""
+        text = "[dubious](Wikipedia:Accuracy%20dispute.md#disputed%20statement)"
+        repaired = _rewrite_markdown_links(text, {}, names_map={}, repair_illegal=True)
+        assert repaired == (
+            "[dubious](https://en.wikipedia.org/wiki/Wikipedia:Accuracy%20dispute"
+            "#disputed%20statement)"
+        )
+
+    def test_repair_mode_turns_a_wiktionary_link_into_its_url(self) -> None:
+        """An interwiki link becomes its Wiktionary URL."""
+        repaired = _rewrite_markdown_links(
+            "[nimm](wikt:nimm.md)", {}, names_map={}, repair_illegal=True
+        )
+        assert repaired == "[nimm](https://en.wiktionary.org/wiki/nimm)"
+
+    def test_repair_mode_points_a_language_link_at_its_language_dir(self) -> None:
+        """A language interwiki points at the language directory."""
+        repaired = _rewrite_markdown_links(
+            "[x](de:Tom%20Leinster.md)", {}, names_map={}, repair_illegal=True
+        )
+        assert repaired == "[x](../deu/Tom%20Leinster.md)"
+
+    def test_repair_mode_leaves_a_legal_stem_alone(self) -> None:
+        """A legal stem is untouched by the repair."""
+        text = "[a](i.i.d..md) [b](Q.E.D..md) [c](Notjustmoreidlechatter%20.md)"
+        assert (
+            _rewrite_markdown_links(text, {}, names_map={}, repair_illegal=True) == text
+        )
+
+    def test_repair_mode_leaves_a_commented_link_alone(self) -> None:
+        """A commented destination is out of the repair's reach."""
+        text = "<!-- [portal](Portal:Business.md) -->"
+        assert (
+            _rewrite_markdown_links(text, {}, names_map={}, repair_illegal=True) == text
+        )
+
+    def test_repair_mode_keeps_a_relative_path_it_can_write(self) -> None:
+        """A relative path with a legal name is untouched."""
+        text = "see [a](../fra/Charles%20Bioche.md), [b](./photon%20energy.md)"
+        assert (
+            _rewrite_markdown_links(text, {}, names_map={}, repair_illegal=True) == text
+        )
+
+    def test_repair_mode_sanitises_only_the_last_component_of_a_path(self) -> None:
+        """A path keeps its directories and fixes its name."""
+        repaired = _rewrite_markdown_links(
+            "[a](../eng/C*-algebra.md)", {}, names_map={}, repair_illegal=True
+        )
+        assert repaired == "[a](../eng/C%5F-algebra.md)"
+
+    def test_repair_mode_is_off_by_default(self) -> None:
+        """The repair runs only when asked."""
+        text = "[a](C*-algebra.md)"
+        assert _rewrite_markdown_links(text, {}, names_map={}) == text

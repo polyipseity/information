@@ -54,7 +54,7 @@ tags:
 - physical quantity: [_R_-value § _R_-value definition](../../../../general/R-value%20(insulation).md#_R_-value%20definition), [coefficient of performance § equation](../../../../general/coefficient%20of%20performance.md#equation), [thermal efficiency § heat engines](../../../../general/thermal%20efficiency.md#heat%20engines)
 - thermodynamic process: [reversible process](../../../../general/reversible%20process%20(thermodynamics).md), [thermodynamic process § iso- processes](../../../../general/thermodynamic%20process.md#iso-%20processes)
     - polytropic process: [polytropic process](../../../../general/polytropic%20process.md), [polytropic process § relation between polytropic index and energy transfer ratio](../../../../general/polytropic%20process.md#relation%20between%20polytropic%20index%20and%20energy%20transfer%20ratio), [polytropic process § variation of polytropic index _n_](../../../../general/polytropic%20process.md#variation%20of%20polytropic%20index%20_n_)
-- unit: [Kelvin](../../../../general/Kelvin.md), [conversion of scales of temperature](../../../../general/conversion%20of%20scales%20of%20temperature.md)
+- unit: [Kelvin](../../../../general/kelvin.md), [conversion of scales of temperature](../../../../general/conversion%20of%20scales%20of%20temperature.md)
 
 ## wave
 

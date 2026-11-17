@@ -1,0 +1,1902 @@
+{
+  "api_titles": [
+    "Set function",
+    "Product measure",
+    "Projection-valued measure",
+    "Sub-probability measure",
+    "Lebesgue differentiation theorem",
+    "Lebesgue measure",
+    "Lawrence C. Evans",
+    "Perfect measure",
+    "Young measure",
+    "Convergence almost everywhere",
+    "Metric outer measure",
+    "Fubini's theorem",
+    "Descriptive set theory",
+    "Disjoint set",
+    "Brown measure",
+    "Probability theory",
+    "Measure space",
+    "Cylinder set measure",
+    "Dominated convergence theorem",
+    "Borel regular measure",
+    "Trivial measure",
+    "Atomic measure",
+    "Maximising measure",
+    "Probability space",
+    "Decomposable measure",
+    "Chelsea Publishing",
+    "Multivariate random variable",
+    "Borel equivalence relation",
+    "Fatou's lemma",
+    "Absolute continuity",
+    "Counting measure",
+    "Convergence of measures",
+    "Singular measure",
+    "Vitali set",
+    "Null set",
+    "Random compact set",
+    "Herbert Federer",
+    "Strictly positive measure",
+    "Countable additivity",
+    "Minkowski–Steiner formula",
+    "Minkowski inequality",
+    "Radon measure",
+    "Paul Halmos",
+    "Absolute continuity (measure theory)",
+    "Tangent measure",
+    "Valuation (measure theory)",
+    "Cylinder set",
+    "Extended real line",
+    "Area",
+    "Invariant measure",
+    "Complex measure",
+    "Infimum",
+    "Carathéodory's extension theorem",
+    "Σ-finite measure",
+    "Weakly measurable function",
+    "Geometric measure theory",
+    "Vitale's random Brunn–Minkowski inequality",
+    "Isoperimetric inequality",
+    "Vector measure",
+    "Mathematics",
+    "Cylindrical σ-algebra",
+    "Regular measure",
+    "Hausdorff measure",
+    "Convex analysis",
+    "Measure theory",
+    "Pre-measure",
+    "Empty set",
+    "Borel set",
+    "Saturated measure",
+    "Harmonic measure",
+    "Hahn decomposition theorem",
+    "Monotone convergence theorem",
+    "Axiom of choice",
+    "Radon–Nikodym theorem",
+    "Set theory",
+    "Hausdorff dimension",
+    "Sigma additivity",
+    "Standard Borel space",
+    "Baire measure",
+    "Pushforward measure",
+    "Jordan decomposition theorem",
+    "Tightness of measures",
+    "Outer regular measure",
+    "S-finite measure",
+    "Spectral measure",
+    "Egorov's theorem",
+    "Quasi-invariant measure",
+    "Carathéodory",
+    "Prékopa–Leindler inequality",
+    "Discrete measure",
+    "Gaussian measure",
+    "Strongly measurable function",
+    "Lifting theory",
+    "Baire set",
+    "Locally finite measure",
+    "Disintegration theorem",
+    "Lebesgue's density theorem",
+    "Borel measure",
+    "Vitali convergence theorem",
+    "Intensity measure",
+    "Non-measurable set",
+    "Sequence",
+    "Locally measurable set",
+    "Sergei Fomin",
+    "Probability measure",
+    "Almost everywhere",
+    "Complete measure",
+    "Borel algebra",
+    "Random measure",
+    "Measure (mathematics)",
+    "Complement (set theory)",
+    "Projection (measure theory)",
+    "Besov measure",
+    "Addison Wesley",
+    "Dirac measure",
+    "Measurable function",
+    "ISBN (identifier)",
+    "Bochner measurable function",
+    "Mathematician",
+    "Euler measure",
+    "Felix Hausdorff",
+    "Random variable",
+    "Real analysis",
+    "Logarithmically concave measure",
+    "Lp space",
+    "Fubini–Tonelli theorem",
+    "Hölder's inequality",
+    "Set (mathematics)",
+    "Measurable set",
+    "Atom (measure theory)",
+    "Carathéodory's criterion",
+    "Andrey Kolmogorov",
+    "Milman's reverse Brunn–Minkowski inequality",
+    "Maharam's theorem",
+    "Pi-system",
+    "Convex measure",
+    "Banach measure",
+    "Metric space",
+    "Dover Publications",
+    "Inner regular measure",
+    "Inner measure",
+    "Sigma additive",
+    "Spherical measure",
+    "Equivalence (measure theory)",
+    "Vitali–Hahn–Saks theorem",
+    "Random element",
+    "Infinite-dimensional Lebesgue measure",
+    "Σ-algebra",
+    "Essential infimum and essential supremum",
+    "Power set",
+    "Spectral theory",
+    "Stochastic process",
+    "Lebesgue integration",
+    "Invariant (mathematics)",
+    "Finite measure",
+    "Positive real numbers",
+    "Brunn–Minkowski theorem",
+    "Transverse measure",
+    "Support (measure theory)",
+    "Riesz–Markov–Kakutani representation theorem",
+    "Constantin Carathéodory",
+    "Essential range",
+    "Content (measure theory)",
+    "Haar measure",
+    "Sard's theorem",
+    "Carathéodory-measurable set",
+    "Signed measure",
+    "Measurable space",
+    "Convergence in probability",
+    "Springer Verlag",
+    "Convergence of random variables",
+    "Convergence in distribution",
+    "Universally measurable set",
+    "Dynkin system",
+    "Function (mathematics)",
+    "Convergence in measure"
+  ],
+  "api_responses": [
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Disjoint set",
+            "to": "Disjoint sets"
+          },
+          {
+            "from": "Countable additivity",
+            "to": "Sigma-additive set function"
+          },
+          {
+            "from": "Extended real line",
+            "to": "Extended real number line"
+          },
+          {
+            "from": "Atomic measure",
+            "to": "Atom (measure theory)",
+            "tofragment": "Atomic measures"
+          },
+          {
+            "from": "Chelsea Publishing",
+            "to": "Chelsea Publishing Company"
+          },
+          {
+            "from": "Absolute continuity (measure theory)",
+            "to": "Absolute continuity",
+            "tofragment": "Absolutely continuous measure"
+          },
+          {
+            "from": "Convergence almost everywhere",
+            "to": "Convergence of random variables",
+            "tofragment": "Almost sure convergence"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 1209,
+            "ns": 0,
+            "title": "Area"
+          },
+          {
+            "pageid": 18198,
+            "ns": 0,
+            "title": "Lebesgue measure"
+          },
+          {
+            "pageid": 21520,
+            "ns": 0,
+            "title": "Null set"
+          },
+          {
+            "pageid": 23542,
+            "ns": 0,
+            "title": "Probability theory"
+          },
+          {
+            "pageid": 39359,
+            "ns": 0,
+            "title": "Disjoint sets"
+          },
+          {
+            "pageid": 43325,
+            "ns": 0,
+            "title": "Probability space"
+          },
+          {
+            "pageid": 45270,
+            "ns": 0,
+            "title": "Measure space"
+          },
+          {
+            "pageid": 49821,
+            "ns": 0,
+            "title": "Multivariate random variable"
+          },
+          {
+            "pageid": 50723,
+            "ns": 0,
+            "title": "Convergence of random variables"
+          },
+          {
+            "pageid": 51698,
+            "ns": 0,
+            "title": "Extended real number line"
+          },
+          {
+            "pageid": 191786,
+            "ns": 0,
+            "title": "Counting measure"
+          },
+          {
+            "pageid": 192022,
+            "ns": 0,
+            "title": "Minkowski inequality"
+          },
+          {
+            "pageid": 252670,
+            "ns": 0,
+            "title": "Absolute continuity"
+          },
+          {
+            "pageid": 255245,
+            "ns": 0,
+            "title": "Fubini's theorem"
+          },
+          {
+            "pageid": 291614,
+            "ns": 0,
+            "title": "Fatou's lemma"
+          },
+          {
+            "pageid": 318598,
+            "ns": 0,
+            "title": "Paul Halmos"
+          },
+          {
+            "pageid": 351853,
+            "ns": 0,
+            "title": "Dominated convergence theorem"
+          },
+          {
+            "pageid": 396619,
+            "ns": 0,
+            "title": "Descriptive set theory"
+          },
+          {
+            "pageid": 424189,
+            "ns": 0,
+            "title": "Vitali set"
+          },
+          {
+            "pageid": 521933,
+            "ns": 0,
+            "title": "Radon measure"
+          },
+          {
+            "pageid": 542326,
+            "ns": 0,
+            "title": "Borel regular measure"
+          },
+          {
+            "pageid": 1046155,
+            "ns": 0,
+            "title": "Projection-valued measure"
+          },
+          {
+            "pageid": 1073567,
+            "ns": 0,
+            "title": "Sigma-additive set function"
+          },
+          {
+            "pageid": 2123692,
+            "ns": 0,
+            "title": "Borel equivalence relation"
+          },
+          {
+            "pageid": 2613658,
+            "ns": 0,
+            "title": "Cylinder set"
+          },
+          {
+            "pageid": 2790063,
+            "ns": 0,
+            "title": "Lawrence C. Evans"
+          },
+          {
+            "pageid": 2986564,
+            "ns": 0,
+            "title": "Product measure"
+          },
+          {
+            "pageid": 3058373,
+            "ns": 0,
+            "title": "Atom (measure theory)"
+          },
+          {
+            "pageid": 4304500,
+            "ns": 0,
+            "title": "Singular measure"
+          },
+          {
+            "pageid": 5308916,
+            "ns": 0,
+            "title": "Random compact set"
+          },
+          {
+            "pageid": 5766547,
+            "ns": 0,
+            "title": "Lebesgue differentiation theorem"
+          },
+          {
+            "pageid": 6571387,
+            "ns": 0,
+            "title": "Cylinder set measure"
+          },
+          {
+            "pageid": 6607051,
+            "ns": 0,
+            "title": "Strictly positive measure"
+          },
+          {
+            "pageid": 6811795,
+            "ns": 0,
+            "title": "Convergence of measures"
+          },
+          {
+            "pageid": 7500394,
+            "ns": 0,
+            "title": "Minkowski–Steiner formula"
+          },
+          {
+            "pageid": 7635201,
+            "ns": 0,
+            "title": "Invariant measure"
+          },
+          {
+            "pageid": 9659484,
+            "ns": 0,
+            "title": "Young measure"
+          },
+          {
+            "pageid": 10122069,
+            "ns": 0,
+            "title": "Trivial measure"
+          },
+          {
+            "pageid": 11063979,
+            "ns": 0,
+            "title": "Tangent measure"
+          },
+          {
+            "pageid": 11279549,
+            "ns": 0,
+            "title": "Metric outer measure"
+          },
+          {
+            "pageid": 12185345,
+            "ns": 0,
+            "title": "Herbert Federer"
+          },
+          {
+            "pageid": 16403209,
+            "ns": 0,
+            "title": "Perfect measure"
+          },
+          {
+            "pageid": 17457007,
+            "ns": 0,
+            "title": "Valuation (measure theory)"
+          },
+          {
+            "pageid": 18293275,
+            "ns": 0,
+            "title": "Maximising measure"
+          },
+          {
+            "pageid": 25911217,
+            "ns": 0,
+            "title": "Set function"
+          },
+          {
+            "pageid": 41558399,
+            "ns": 0,
+            "title": "Decomposable measure"
+          },
+          {
+            "pageid": 56237288,
+            "ns": 0,
+            "title": "Sub-probability measure"
+          },
+          {
+            "pageid": 58559351,
+            "ns": 0,
+            "title": "Brown measure"
+          },
+          {
+            "pageid": 62914800,
+            "ns": 0,
+            "title": "Chelsea Publishing Company"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Measure theory",
+            "to": "Measure (mathematics)"
+          },
+          {
+            "from": "Carathéodory",
+            "to": "Constantin Carathéodory"
+          },
+          {
+            "from": "Outer regular measure",
+            "to": "Radon measure",
+            "tofragment": "Definitions"
+          },
+          {
+            "from": "Spectral measure",
+            "to": "Projection-valued measure"
+          },
+          {
+            "from": "Infimum",
+            "to": "Infimum and supremum"
+          },
+          {
+            "from": "Sigma additivity",
+            "to": "Sigma-additive set function"
+          },
+          {
+            "from": "Jordan decomposition theorem",
+            "to": "Hahn decomposition theorem",
+            "tofragment": "Jordan decomposition theorem"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 840,
+            "ns": 0,
+            "title": "Axiom of choice"
+          },
+          {
+            "pageid": 4322,
+            "ns": 0,
+            "title": "Borel measure"
+          },
+          {
+            "pageid": 9566,
+            "ns": 0,
+            "title": "Empty set"
+          },
+          {
+            "pageid": 14294,
+            "ns": 0,
+            "title": "Hausdorff dimension"
+          },
+          {
+            "pageid": 18831,
+            "ns": 0,
+            "title": "Mathematics"
+          },
+          {
+            "pageid": 19873,
+            "ns": 0,
+            "title": "Measure (mathematics)"
+          },
+          {
+            "pageid": 27553,
+            "ns": 0,
+            "title": "Set theory"
+          },
+          {
+            "pageid": 39382,
+            "ns": 0,
+            "title": "Infimum and supremum"
+          },
+          {
+            "pageid": 43327,
+            "ns": 0,
+            "title": "Borel set"
+          },
+          {
+            "pageid": 146263,
+            "ns": 0,
+            "title": "Monotone convergence theorem"
+          },
+          {
+            "pageid": 326182,
+            "ns": 0,
+            "title": "Isoperimetric inequality"
+          },
+          {
+            "pageid": 338746,
+            "ns": 0,
+            "title": "Radon–Nikodym theorem"
+          },
+          {
+            "pageid": 470625,
+            "ns": 0,
+            "title": "Constantin Carathéodory"
+          },
+          {
+            "pageid": 504109,
+            "ns": 0,
+            "title": "Hausdorff measure"
+          },
+          {
+            "pageid": 521933,
+            "ns": 0,
+            "title": "Radon measure"
+          },
+          {
+            "pageid": 1046155,
+            "ns": 0,
+            "title": "Projection-valued measure"
+          },
+          {
+            "pageid": 1073567,
+            "ns": 0,
+            "title": "Sigma-additive set function"
+          },
+          {
+            "pageid": 1767634,
+            "ns": 0,
+            "title": "Egorov's theorem"
+          },
+          {
+            "pageid": 2749048,
+            "ns": 0,
+            "title": "Quasi-invariant measure"
+          },
+          {
+            "pageid": 2946366,
+            "ns": 0,
+            "title": "Saturated measure"
+          },
+          {
+            "pageid": 2985858,
+            "ns": 0,
+            "title": "Hahn decomposition theorem"
+          },
+          {
+            "pageid": 3057532,
+            "ns": 0,
+            "title": "Complex measure"
+          },
+          {
+            "pageid": 3237201,
+            "ns": 0,
+            "title": "Convex analysis"
+          },
+          {
+            "pageid": 3390453,
+            "ns": 0,
+            "title": "Regular measure"
+          },
+          {
+            "pageid": 3976202,
+            "ns": 0,
+            "title": "Baire set"
+          },
+          {
+            "pageid": 4026968,
+            "ns": 0,
+            "title": "Carathéodory's extension theorem"
+          },
+          {
+            "pageid": 4258134,
+            "ns": 0,
+            "title": "Lebesgue's density theorem"
+          },
+          {
+            "pageid": 4316174,
+            "ns": 0,
+            "title": "Σ-finite measure"
+          },
+          {
+            "pageid": 6553354,
+            "ns": 0,
+            "title": "Tightness of measures"
+          },
+          {
+            "pageid": 6572909,
+            "ns": 0,
+            "title": "Gaussian measure"
+          },
+          {
+            "pageid": 6621919,
+            "ns": 0,
+            "title": "Locally finite measure"
+          },
+          {
+            "pageid": 6845737,
+            "ns": 0,
+            "title": "Disintegration theorem"
+          },
+          {
+            "pageid": 8912350,
+            "ns": 0,
+            "title": "Discrete measure"
+          },
+          {
+            "pageid": 9399072,
+            "ns": 0,
+            "title": "Vector measure"
+          },
+          {
+            "pageid": 9412979,
+            "ns": 0,
+            "title": "Pushforward measure"
+          },
+          {
+            "pageid": 10570298,
+            "ns": 0,
+            "title": "Prékopa–Leindler inequality"
+          },
+          {
+            "pageid": 11329698,
+            "ns": 0,
+            "title": "Vitale's random Brunn–Minkowski inequality"
+          },
+          {
+            "pageid": 12141074,
+            "ns": 0,
+            "title": "Harmonic measure"
+          },
+          {
+            "pageid": 12169694,
+            "ns": 0,
+            "title": "Geometric measure theory"
+          },
+          {
+            "pageid": 13197969,
+            "ns": 0,
+            "title": "Vitali convergence theorem"
+          },
+          {
+            "pageid": 13520509,
+            "ns": 0,
+            "title": "Baire measure"
+          },
+          {
+            "pageid": 13856372,
+            "ns": 0,
+            "title": "Pre-measure"
+          },
+          {
+            "pageid": 14502271,
+            "ns": 0,
+            "title": "Weakly measurable function"
+          },
+          {
+            "pageid": 16629890,
+            "ns": 0,
+            "title": "S-finite measure"
+          },
+          {
+            "pageid": 21236657,
+            "ns": 0,
+            "title": "Cylindrical σ-algebra"
+          },
+          {
+            "pageid": 25956787,
+            "ns": 0,
+            "title": "Lifting theory"
+          },
+          {
+            "pageid": 27908179,
+            "ns": 0,
+            "title": "Strongly measurable function"
+          },
+          {
+            "pageid": 29819325,
+            "ns": 0,
+            "title": "Standard Borel space"
+          },
+          {
+            "pageid": 56214154,
+            "ns": 0,
+            "title": "Intensity measure"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Measurable set",
+            "to": "Measure (mathematics)"
+          },
+          {
+            "from": "Addison Wesley",
+            "to": "Addison-Wesley"
+          },
+          {
+            "from": "Sigma additive",
+            "to": "Sigma-additive set function"
+          },
+          {
+            "from": "Inner regular measure",
+            "to": "Regular measure",
+            "tofragment": "Definition"
+          },
+          {
+            "from": "Borel algebra",
+            "to": "Borel set"
+          },
+          {
+            "from": "ISBN (identifier)",
+            "to": "ISBN"
+          },
+          {
+            "from": "Fubini–Tonelli theorem",
+            "to": "Fubini's theorem",
+            "tofragment": "Fubini–Tonelli theorem"
+          },
+          {
+            "from": "Locally measurable set",
+            "to": "Saturated measure",
+            "tofragment": "locally measurable set"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 10989,
+            "ns": 0,
+            "title": "Felix Hausdorff"
+          },
+          {
+            "pageid": 14919,
+            "ns": 0,
+            "title": "ISBN"
+          },
+          {
+            "pageid": 18902,
+            "ns": 0,
+            "title": "Mathematician"
+          },
+          {
+            "pageid": 19873,
+            "ns": 0,
+            "title": "Measure (mathematics)"
+          },
+          {
+            "pageid": 20018,
+            "ns": 0,
+            "title": "Metric space"
+          },
+          {
+            "pageid": 23799,
+            "ns": 0,
+            "title": "Power set"
+          },
+          {
+            "pageid": 25685,
+            "ns": 0,
+            "title": "Random variable"
+          },
+          {
+            "pageid": 26478,
+            "ns": 0,
+            "title": "Real analysis"
+          },
+          {
+            "pageid": 26691,
+            "ns": 0,
+            "title": "Set (mathematics)"
+          },
+          {
+            "pageid": 27838,
+            "ns": 0,
+            "title": "Sequence"
+          },
+          {
+            "pageid": 29586,
+            "ns": 0,
+            "title": "Σ-algebra"
+          },
+          {
+            "pageid": 43327,
+            "ns": 0,
+            "title": "Borel set"
+          },
+          {
+            "pageid": 44055,
+            "ns": 0,
+            "title": "Measurable function"
+          },
+          {
+            "pageid": 44688,
+            "ns": 0,
+            "title": "Almost everywhere"
+          },
+          {
+            "pageid": 44775,
+            "ns": 0,
+            "title": "Complete measure"
+          },
+          {
+            "pageid": 45194,
+            "ns": 0,
+            "title": "Lp space"
+          },
+          {
+            "pageid": 45437,
+            "ns": 0,
+            "title": "Probability measure"
+          },
+          {
+            "pageid": 54347,
+            "ns": 0,
+            "title": "Complement (set theory)"
+          },
+          {
+            "pageid": 91161,
+            "ns": 0,
+            "title": "Andrey Kolmogorov"
+          },
+          {
+            "pageid": 191538,
+            "ns": 0,
+            "title": "Hölder's inequality"
+          },
+          {
+            "pageid": 255245,
+            "ns": 0,
+            "title": "Fubini's theorem"
+          },
+          {
+            "pageid": 620134,
+            "ns": 0,
+            "title": "Non-measurable set"
+          },
+          {
+            "pageid": 807056,
+            "ns": 0,
+            "title": "Dover Publications"
+          },
+          {
+            "pageid": 1019002,
+            "ns": 0,
+            "title": "Dirac measure"
+          },
+          {
+            "pageid": 1073567,
+            "ns": 0,
+            "title": "Sigma-additive set function"
+          },
+          {
+            "pageid": 1075379,
+            "ns": 0,
+            "title": "Vitali–Hahn–Saks theorem"
+          },
+          {
+            "pageid": 1180080,
+            "ns": 0,
+            "title": "Addison-Wesley"
+          },
+          {
+            "pageid": 1339598,
+            "ns": 0,
+            "title": "Banach measure"
+          },
+          {
+            "pageid": 2946366,
+            "ns": 0,
+            "title": "Saturated measure"
+          },
+          {
+            "pageid": 3017297,
+            "ns": 0,
+            "title": "Sergei Fomin"
+          },
+          {
+            "pageid": 3058373,
+            "ns": 0,
+            "title": "Atom (measure theory)"
+          },
+          {
+            "pageid": 3390453,
+            "ns": 0,
+            "title": "Regular measure"
+          },
+          {
+            "pageid": 3535995,
+            "ns": 0,
+            "title": "Essential infimum and essential supremum"
+          },
+          {
+            "pageid": 4050532,
+            "ns": 0,
+            "title": "Pi-system"
+          },
+          {
+            "pageid": 5215393,
+            "ns": 0,
+            "title": "Random element"
+          },
+          {
+            "pageid": 5798355,
+            "ns": 0,
+            "title": "Inner measure"
+          },
+          {
+            "pageid": 6607484,
+            "ns": 0,
+            "title": "Infinite-dimensional Lebesgue measure"
+          },
+          {
+            "pageid": 6612667,
+            "ns": 0,
+            "title": "Equivalence (measure theory)"
+          },
+          {
+            "pageid": 9368110,
+            "ns": 0,
+            "title": "Logarithmically concave measure"
+          },
+          {
+            "pageid": 10040846,
+            "ns": 0,
+            "title": "Random measure"
+          },
+          {
+            "pageid": 11337263,
+            "ns": 0,
+            "title": "Milman's reverse Brunn–Minkowski inequality"
+          },
+          {
+            "pageid": 16696644,
+            "ns": 0,
+            "title": "Carathéodory's criterion"
+          },
+          {
+            "pageid": 18759825,
+            "ns": 0,
+            "title": "Maharam's theorem"
+          },
+          {
+            "pageid": 22905952,
+            "ns": 0,
+            "title": "Spherical measure"
+          },
+          {
+            "pageid": 27908226,
+            "ns": 0,
+            "title": "Bochner measurable function"
+          },
+          {
+            "pageid": 48500538,
+            "ns": 0,
+            "title": "Besov measure"
+          },
+          {
+            "pageid": 54523294,
+            "ns": 0,
+            "title": "Convex measure"
+          },
+          {
+            "pageid": 56899835,
+            "ns": 0,
+            "title": "Projection (measure theory)"
+          },
+          {
+            "pageid": 57857677,
+            "ns": 0,
+            "title": "Euler measure"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Convergence in distribution",
+            "to": "Convergence of random variables",
+            "tofragment": "Convergence in distribution"
+          },
+          {
+            "from": "Convergence in probability",
+            "to": "Convergence of random variables",
+            "tofragment": "Convergence in probability"
+          },
+          {
+            "from": "Springer Verlag",
+            "to": "Springer Science+Business Media"
+          },
+          {
+            "from": "Carathéodory-measurable set",
+            "to": "Carathéodory's criterion"
+          },
+          {
+            "from": "Lebesgue integration",
+            "to": "Lebesgue integral"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 40645,
+            "ns": 0,
+            "title": "Haar measure"
+          },
+          {
+            "pageid": 43333,
+            "ns": 0,
+            "title": "Measurable space"
+          },
+          {
+            "pageid": 47895,
+            "ns": 0,
+            "title": "Stochastic process"
+          },
+          {
+            "pageid": 50723,
+            "ns": 0,
+            "title": "Convergence of random variables"
+          },
+          {
+            "pageid": 185427,
+            "ns": 0,
+            "title": "Function (mathematics)"
+          },
+          {
+            "pageid": 470625,
+            "ns": 0,
+            "title": "Constantin Carathéodory"
+          },
+          {
+            "pageid": 506713,
+            "ns": 0,
+            "title": "Spectral theory"
+          },
+          {
+            "pageid": 914901,
+            "ns": 0,
+            "title": "Sard's theorem"
+          },
+          {
+            "pageid": 1126638,
+            "ns": 0,
+            "title": "Invariant (mathematics)"
+          },
+          {
+            "pageid": 1418949,
+            "ns": 0,
+            "title": "Springer Science+Business Media"
+          },
+          {
+            "pageid": 2231292,
+            "ns": 0,
+            "title": "Universally measurable set"
+          },
+          {
+            "pageid": 2549191,
+            "ns": 0,
+            "title": "Dynkin system"
+          },
+          {
+            "pageid": 2985811,
+            "ns": 0,
+            "title": "Signed measure"
+          },
+          {
+            "pageid": 4316185,
+            "ns": 0,
+            "title": "Finite measure"
+          },
+          {
+            "pageid": 6591796,
+            "ns": 0,
+            "title": "Support (measure theory)"
+          },
+          {
+            "pageid": 7500545,
+            "ns": 0,
+            "title": "Brunn–Minkowski theorem"
+          },
+          {
+            "pageid": 7996261,
+            "ns": 0,
+            "title": "Convergence in measure"
+          },
+          {
+            "pageid": 9999200,
+            "ns": 0,
+            "title": "Content (measure theory)"
+          },
+          {
+            "pageid": 11655832,
+            "ns": 0,
+            "title": "Transverse measure"
+          },
+          {
+            "pageid": 16696644,
+            "ns": 0,
+            "title": "Carathéodory's criterion"
+          },
+          {
+            "pageid": 18380182,
+            "ns": 0,
+            "title": "Essential range"
+          },
+          {
+            "pageid": 26064288,
+            "ns": 0,
+            "title": "Lebesgue integral"
+          },
+          {
+            "pageid": 38948504,
+            "ns": 0,
+            "title": "Riesz–Markov–Kakutani representation theorem"
+          },
+          {
+            "pageid": 47172571,
+            "ns": 0,
+            "title": "Positive real numbers"
+          }
+        ]
+      }
+    }
+  ],
+  "redirect_cache": {
+    "Disjoint set": {
+      "to": "Disjoint sets",
+      "tofragment": ""
+    },
+    "Countable additivity": {
+      "to": "Sigma-additive set function",
+      "tofragment": ""
+    },
+    "Extended real line": {
+      "to": "Extended real number line",
+      "tofragment": ""
+    },
+    "Atomic measure": {
+      "to": "Atom (measure theory)",
+      "tofragment": "Atomic measures"
+    },
+    "Chelsea Publishing": {
+      "to": "Chelsea Publishing Company",
+      "tofragment": ""
+    },
+    "Absolute continuity (measure theory)": {
+      "to": "Absolute continuity",
+      "tofragment": "Absolutely continuous measure"
+    },
+    "Convergence almost everywhere": {
+      "to": "Convergence of random variables",
+      "tofragment": "Almost sure convergence"
+    },
+    "Set function": {
+      "to": "Set function",
+      "tofragment": ""
+    },
+    "Product measure": {
+      "to": "Product measure",
+      "tofragment": ""
+    },
+    "Projection-valued measure": {
+      "to": "Projection-valued measure",
+      "tofragment": ""
+    },
+    "Sub-probability measure": {
+      "to": "Sub-probability measure",
+      "tofragment": ""
+    },
+    "Lebesgue differentiation theorem": {
+      "to": "Lebesgue differentiation theorem",
+      "tofragment": ""
+    },
+    "Lebesgue measure": {
+      "to": "Lebesgue measure",
+      "tofragment": ""
+    },
+    "Lawrence C. Evans": {
+      "to": "Lawrence C. Evans",
+      "tofragment": ""
+    },
+    "Perfect measure": {
+      "to": "Perfect measure",
+      "tofragment": ""
+    },
+    "Young measure": {
+      "to": "Young measure",
+      "tofragment": ""
+    },
+    "Metric outer measure": {
+      "to": "Metric outer measure",
+      "tofragment": ""
+    },
+    "Fubini's theorem": {
+      "to": "Fubini's theorem",
+      "tofragment": ""
+    },
+    "Descriptive set theory": {
+      "to": "Descriptive set theory",
+      "tofragment": ""
+    },
+    "Brown measure": {
+      "to": "Brown measure",
+      "tofragment": ""
+    },
+    "Probability theory": {
+      "to": "Probability theory",
+      "tofragment": ""
+    },
+    "Measure space": {
+      "to": "Measure space",
+      "tofragment": ""
+    },
+    "Cylinder set measure": {
+      "to": "Cylinder set measure",
+      "tofragment": ""
+    },
+    "Dominated convergence theorem": {
+      "to": "Dominated convergence theorem",
+      "tofragment": ""
+    },
+    "Borel regular measure": {
+      "to": "Borel regular measure",
+      "tofragment": ""
+    },
+    "Trivial measure": {
+      "to": "Trivial measure",
+      "tofragment": ""
+    },
+    "Maximising measure": {
+      "to": "Maximising measure",
+      "tofragment": ""
+    },
+    "Probability space": {
+      "to": "Probability space",
+      "tofragment": ""
+    },
+    "Decomposable measure": {
+      "to": "Decomposable measure",
+      "tofragment": ""
+    },
+    "Multivariate random variable": {
+      "to": "Multivariate random variable",
+      "tofragment": ""
+    },
+    "Borel equivalence relation": {
+      "to": "Borel equivalence relation",
+      "tofragment": ""
+    },
+    "Fatou's lemma": {
+      "to": "Fatou's lemma",
+      "tofragment": ""
+    },
+    "Absolute continuity": {
+      "to": "Absolute continuity",
+      "tofragment": ""
+    },
+    "Counting measure": {
+      "to": "Counting measure",
+      "tofragment": ""
+    },
+    "Convergence of measures": {
+      "to": "Convergence of measures",
+      "tofragment": ""
+    },
+    "Singular measure": {
+      "to": "Singular measure",
+      "tofragment": ""
+    },
+    "Vitali set": {
+      "to": "Vitali set",
+      "tofragment": ""
+    },
+    "Null set": {
+      "to": "Null set",
+      "tofragment": ""
+    },
+    "Random compact set": {
+      "to": "Random compact set",
+      "tofragment": ""
+    },
+    "Herbert Federer": {
+      "to": "Herbert Federer",
+      "tofragment": ""
+    },
+    "Strictly positive measure": {
+      "to": "Strictly positive measure",
+      "tofragment": ""
+    },
+    "Minkowski–Steiner formula": {
+      "to": "Minkowski–Steiner formula",
+      "tofragment": ""
+    },
+    "Minkowski inequality": {
+      "to": "Minkowski inequality",
+      "tofragment": ""
+    },
+    "Radon measure": {
+      "to": "Radon measure",
+      "tofragment": ""
+    },
+    "Paul Halmos": {
+      "to": "Paul Halmos",
+      "tofragment": ""
+    },
+    "Tangent measure": {
+      "to": "Tangent measure",
+      "tofragment": ""
+    },
+    "Valuation (measure theory)": {
+      "to": "Valuation (measure theory)",
+      "tofragment": ""
+    },
+    "Cylinder set": {
+      "to": "Cylinder set",
+      "tofragment": ""
+    },
+    "Area": {
+      "to": "Area",
+      "tofragment": ""
+    },
+    "Invariant measure": {
+      "to": "Invariant measure",
+      "tofragment": ""
+    },
+    "Measure theory": {
+      "to": "Measure (mathematics)",
+      "tofragment": ""
+    },
+    "Carathéodory": {
+      "to": "Constantin Carathéodory",
+      "tofragment": ""
+    },
+    "Outer regular measure": {
+      "to": "Radon measure",
+      "tofragment": "Definitions"
+    },
+    "Spectral measure": {
+      "to": "Projection-valued measure",
+      "tofragment": ""
+    },
+    "Infimum": {
+      "to": "Infimum and supremum",
+      "tofragment": ""
+    },
+    "Sigma additivity": {
+      "to": "Sigma-additive set function",
+      "tofragment": ""
+    },
+    "Jordan decomposition theorem": {
+      "to": "Hahn decomposition theorem",
+      "tofragment": "Jordan decomposition theorem"
+    },
+    "Complex measure": {
+      "to": "Complex measure",
+      "tofragment": ""
+    },
+    "Carathéodory's extension theorem": {
+      "to": "Carathéodory's extension theorem",
+      "tofragment": ""
+    },
+    "Σ-finite measure": {
+      "to": "Σ-finite measure",
+      "tofragment": ""
+    },
+    "Weakly measurable function": {
+      "to": "Weakly measurable function",
+      "tofragment": ""
+    },
+    "Geometric measure theory": {
+      "to": "Geometric measure theory",
+      "tofragment": ""
+    },
+    "Vitale's random Brunn–Minkowski inequality": {
+      "to": "Vitale's random Brunn–Minkowski inequality",
+      "tofragment": ""
+    },
+    "Isoperimetric inequality": {
+      "to": "Isoperimetric inequality",
+      "tofragment": ""
+    },
+    "Vector measure": {
+      "to": "Vector measure",
+      "tofragment": ""
+    },
+    "Mathematics": {
+      "to": "Mathematics",
+      "tofragment": ""
+    },
+    "Cylindrical σ-algebra": {
+      "to": "Cylindrical σ-algebra",
+      "tofragment": ""
+    },
+    "Regular measure": {
+      "to": "Regular measure",
+      "tofragment": ""
+    },
+    "Hausdorff measure": {
+      "to": "Hausdorff measure",
+      "tofragment": ""
+    },
+    "Convex analysis": {
+      "to": "Convex analysis",
+      "tofragment": ""
+    },
+    "Pre-measure": {
+      "to": "Pre-measure",
+      "tofragment": ""
+    },
+    "Empty set": {
+      "to": "Empty set",
+      "tofragment": ""
+    },
+    "Borel set": {
+      "to": "Borel set",
+      "tofragment": ""
+    },
+    "Saturated measure": {
+      "to": "Saturated measure",
+      "tofragment": ""
+    },
+    "Harmonic measure": {
+      "to": "Harmonic measure",
+      "tofragment": ""
+    },
+    "Hahn decomposition theorem": {
+      "to": "Hahn decomposition theorem",
+      "tofragment": ""
+    },
+    "Monotone convergence theorem": {
+      "to": "Monotone convergence theorem",
+      "tofragment": ""
+    },
+    "Axiom of choice": {
+      "to": "Axiom of choice",
+      "tofragment": ""
+    },
+    "Radon–Nikodym theorem": {
+      "to": "Radon–Nikodym theorem",
+      "tofragment": ""
+    },
+    "Set theory": {
+      "to": "Set theory",
+      "tofragment": ""
+    },
+    "Hausdorff dimension": {
+      "to": "Hausdorff dimension",
+      "tofragment": ""
+    },
+    "Standard Borel space": {
+      "to": "Standard Borel space",
+      "tofragment": ""
+    },
+    "Baire measure": {
+      "to": "Baire measure",
+      "tofragment": ""
+    },
+    "Pushforward measure": {
+      "to": "Pushforward measure",
+      "tofragment": ""
+    },
+    "Tightness of measures": {
+      "to": "Tightness of measures",
+      "tofragment": ""
+    },
+    "S-finite measure": {
+      "to": "S-finite measure",
+      "tofragment": ""
+    },
+    "Egorov's theorem": {
+      "to": "Egorov's theorem",
+      "tofragment": ""
+    },
+    "Quasi-invariant measure": {
+      "to": "Quasi-invariant measure",
+      "tofragment": ""
+    },
+    "Prékopa–Leindler inequality": {
+      "to": "Prékopa–Leindler inequality",
+      "tofragment": ""
+    },
+    "Discrete measure": {
+      "to": "Discrete measure",
+      "tofragment": ""
+    },
+    "Gaussian measure": {
+      "to": "Gaussian measure",
+      "tofragment": ""
+    },
+    "Strongly measurable function": {
+      "to": "Strongly measurable function",
+      "tofragment": ""
+    },
+    "Lifting theory": {
+      "to": "Lifting theory",
+      "tofragment": ""
+    },
+    "Baire set": {
+      "to": "Baire set",
+      "tofragment": ""
+    },
+    "Locally finite measure": {
+      "to": "Locally finite measure",
+      "tofragment": ""
+    },
+    "Disintegration theorem": {
+      "to": "Disintegration theorem",
+      "tofragment": ""
+    },
+    "Lebesgue's density theorem": {
+      "to": "Lebesgue's density theorem",
+      "tofragment": ""
+    },
+    "Borel measure": {
+      "to": "Borel measure",
+      "tofragment": ""
+    },
+    "Vitali convergence theorem": {
+      "to": "Vitali convergence theorem",
+      "tofragment": ""
+    },
+    "Intensity measure": {
+      "to": "Intensity measure",
+      "tofragment": ""
+    },
+    "Measurable set": {
+      "to": "Measure (mathematics)",
+      "tofragment": ""
+    },
+    "Addison Wesley": {
+      "to": "Addison-Wesley",
+      "tofragment": ""
+    },
+    "Sigma additive": {
+      "to": "Sigma-additive set function",
+      "tofragment": ""
+    },
+    "Inner regular measure": {
+      "to": "Regular measure",
+      "tofragment": "Definition"
+    },
+    "Borel algebra": {
+      "to": "Borel set",
+      "tofragment": ""
+    },
+    "ISBN (identifier)": {
+      "to": "ISBN",
+      "tofragment": ""
+    },
+    "Fubini–Tonelli theorem": {
+      "to": "Fubini's theorem",
+      "tofragment": "Fubini–Tonelli theorem"
+    },
+    "Locally measurable set": {
+      "to": "Saturated measure",
+      "tofragment": "locally measurable set"
+    },
+    "Non-measurable set": {
+      "to": "Non-measurable set",
+      "tofragment": ""
+    },
+    "Sequence": {
+      "to": "Sequence",
+      "tofragment": ""
+    },
+    "Sergei Fomin": {
+      "to": "Sergei Fomin",
+      "tofragment": ""
+    },
+    "Probability measure": {
+      "to": "Probability measure",
+      "tofragment": ""
+    },
+    "Almost everywhere": {
+      "to": "Almost everywhere",
+      "tofragment": ""
+    },
+    "Complete measure": {
+      "to": "Complete measure",
+      "tofragment": ""
+    },
+    "Random measure": {
+      "to": "Random measure",
+      "tofragment": ""
+    },
+    "Measure (mathematics)": {
+      "to": "Measure (mathematics)",
+      "tofragment": ""
+    },
+    "Complement (set theory)": {
+      "to": "Complement (set theory)",
+      "tofragment": ""
+    },
+    "Projection (measure theory)": {
+      "to": "Projection (measure theory)",
+      "tofragment": ""
+    },
+    "Besov measure": {
+      "to": "Besov measure",
+      "tofragment": ""
+    },
+    "Dirac measure": {
+      "to": "Dirac measure",
+      "tofragment": ""
+    },
+    "Measurable function": {
+      "to": "Measurable function",
+      "tofragment": ""
+    },
+    "Bochner measurable function": {
+      "to": "Bochner measurable function",
+      "tofragment": ""
+    },
+    "Mathematician": {
+      "to": "Mathematician",
+      "tofragment": ""
+    },
+    "Euler measure": {
+      "to": "Euler measure",
+      "tofragment": ""
+    },
+    "Felix Hausdorff": {
+      "to": "Felix Hausdorff",
+      "tofragment": ""
+    },
+    "Random variable": {
+      "to": "Random variable",
+      "tofragment": ""
+    },
+    "Real analysis": {
+      "to": "Real analysis",
+      "tofragment": ""
+    },
+    "Logarithmically concave measure": {
+      "to": "Logarithmically concave measure",
+      "tofragment": ""
+    },
+    "Lp space": {
+      "to": "Lp space",
+      "tofragment": ""
+    },
+    "Hölder's inequality": {
+      "to": "Hölder's inequality",
+      "tofragment": ""
+    },
+    "Set (mathematics)": {
+      "to": "Set (mathematics)",
+      "tofragment": ""
+    },
+    "Atom (measure theory)": {
+      "to": "Atom (measure theory)",
+      "tofragment": ""
+    },
+    "Carathéodory's criterion": {
+      "to": "Carathéodory's criterion",
+      "tofragment": ""
+    },
+    "Andrey Kolmogorov": {
+      "to": "Andrey Kolmogorov",
+      "tofragment": ""
+    },
+    "Milman's reverse Brunn–Minkowski inequality": {
+      "to": "Milman's reverse Brunn–Minkowski inequality",
+      "tofragment": ""
+    },
+    "Maharam's theorem": {
+      "to": "Maharam's theorem",
+      "tofragment": ""
+    },
+    "Pi-system": {
+      "to": "Pi-system",
+      "tofragment": ""
+    },
+    "Convex measure": {
+      "to": "Convex measure",
+      "tofragment": ""
+    },
+    "Banach measure": {
+      "to": "Banach measure",
+      "tofragment": ""
+    },
+    "Metric space": {
+      "to": "Metric space",
+      "tofragment": ""
+    },
+    "Dover Publications": {
+      "to": "Dover Publications",
+      "tofragment": ""
+    },
+    "Inner measure": {
+      "to": "Inner measure",
+      "tofragment": ""
+    },
+    "Spherical measure": {
+      "to": "Spherical measure",
+      "tofragment": ""
+    },
+    "Equivalence (measure theory)": {
+      "to": "Equivalence (measure theory)",
+      "tofragment": ""
+    },
+    "Vitali–Hahn–Saks theorem": {
+      "to": "Vitali–Hahn–Saks theorem",
+      "tofragment": ""
+    },
+    "Random element": {
+      "to": "Random element",
+      "tofragment": ""
+    },
+    "Infinite-dimensional Lebesgue measure": {
+      "to": "Infinite-dimensional Lebesgue measure",
+      "tofragment": ""
+    },
+    "Σ-algebra": {
+      "to": "Σ-algebra",
+      "tofragment": ""
+    },
+    "Essential infimum and essential supremum": {
+      "to": "Essential infimum and essential supremum",
+      "tofragment": ""
+    },
+    "Power set": {
+      "to": "Power set",
+      "tofragment": ""
+    },
+    "Convergence in distribution": {
+      "to": "Convergence of random variables",
+      "tofragment": "Convergence in distribution"
+    },
+    "Convergence in probability": {
+      "to": "Convergence of random variables",
+      "tofragment": "Convergence in probability"
+    },
+    "Springer Verlag": {
+      "to": "Springer Science+Business Media",
+      "tofragment": ""
+    },
+    "Carathéodory-measurable set": {
+      "to": "Carathéodory's criterion",
+      "tofragment": ""
+    },
+    "Lebesgue integration": {
+      "to": "Lebesgue integral",
+      "tofragment": ""
+    },
+    "Spectral theory": {
+      "to": "Spectral theory",
+      "tofragment": ""
+    },
+    "Stochastic process": {
+      "to": "Stochastic process",
+      "tofragment": ""
+    },
+    "Invariant (mathematics)": {
+      "to": "Invariant (mathematics)",
+      "tofragment": ""
+    },
+    "Finite measure": {
+      "to": "Finite measure",
+      "tofragment": ""
+    },
+    "Positive real numbers": {
+      "to": "Positive real numbers",
+      "tofragment": ""
+    },
+    "Brunn–Minkowski theorem": {
+      "to": "Brunn–Minkowski theorem",
+      "tofragment": ""
+    },
+    "Transverse measure": {
+      "to": "Transverse measure",
+      "tofragment": ""
+    },
+    "Support (measure theory)": {
+      "to": "Support (measure theory)",
+      "tofragment": ""
+    },
+    "Riesz–Markov–Kakutani representation theorem": {
+      "to": "Riesz–Markov–Kakutani representation theorem",
+      "tofragment": ""
+    },
+    "Constantin Carathéodory": {
+      "to": "Constantin Carathéodory",
+      "tofragment": ""
+    },
+    "Essential range": {
+      "to": "Essential range",
+      "tofragment": ""
+    },
+    "Content (measure theory)": {
+      "to": "Content (measure theory)",
+      "tofragment": ""
+    },
+    "Haar measure": {
+      "to": "Haar measure",
+      "tofragment": ""
+    },
+    "Sard's theorem": {
+      "to": "Sard's theorem",
+      "tofragment": ""
+    },
+    "Signed measure": {
+      "to": "Signed measure",
+      "tofragment": ""
+    },
+    "Measurable space": {
+      "to": "Measurable space",
+      "tofragment": ""
+    },
+    "Convergence of random variables": {
+      "to": "Convergence of random variables",
+      "tofragment": ""
+    },
+    "Universally measurable set": {
+      "to": "Universally measurable set",
+      "tofragment": ""
+    },
+    "Dynkin system": {
+      "to": "Dynkin system",
+      "tofragment": ""
+    },
+    "Function (mathematics)": {
+      "to": "Function (mathematics)",
+      "tofragment": ""
+    },
+    "Convergence in measure": {
+      "to": "Convergence in measure",
+      "tofragment": ""
+    }
+  },
+  "image_metadata": {
+    "File:Wiki letter w.svg": "Puzzle piece with the letter W from the Wikipedia logo.",
+    "File:Text document with red question mark.svg": "A text document icon with a red question mark overlaid. This icon is intended to be used in e.g. \"unverified content\" templates on Wikipedia."
+  },
+  "name_map_overrides": {}
+}

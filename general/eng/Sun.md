@@ -27,7 +27,7 @@ From the outside to inside, significant structures of the Sun are: {@{[solar win
 
 - see: ::@:: [solar core](solar%20core.md) <!--SR:!2027-05-24,422,385!2027-05-18,417,385-->
 
-{@{The core of the Sun}@} extends {@{from the center to about 20–25% of the [solar radius](solar%20radius.md)}@}. It has {@{a [density](density.md)}@} of {@{up to 150 g/cm<sup>3</sup> (about 150 times the density of [water](water.md))}@} and {@{a temperature}@} of {@{close to 15.7 million [kelvin](Kelvin.md) (K)}@}. <!--SR:!2028-07-19,1120,340!fsrs,2032-12-30T00:00:00.000Z,2280,2279.76879435,1,2,10,0,0,2026-10-03T00:00:00.000Z!2028-01-14,909,300!2027-05-11,411,385!2027-05-22,420,385!2027-06-15,440,385-->
+{@{The core of the Sun}@} extends {@{from the center to about 20–25% of the [solar radius](solar%20radius.md)}@}. It has {@{a [density](density.md)}@} of {@{up to 150 g/cm<sup>3</sup> (about 150 times the density of [water](water.md))}@} and {@{a temperature}@} of {@{close to 15.7 million [kelvin](kelvin.md) (K)}@}. <!--SR:!2028-07-19,1120,340!fsrs,2032-12-30T00:00:00.000Z,2280,2279.76879435,1,2,10,0,0,2026-10-03T00:00:00.000Z!2028-01-14,909,300!2027-05-11,411,385!2027-05-22,420,385!2027-06-15,440,385-->
 
 {@{The core}@} is {@{the only region of the Sun}@} that produces {@{an appreciable amount of [thermal energy](thermal%20energy.md) through [nuclear fusion](nuclear%20fusion.md)}@}; {@{99% of the power}@} is {@{generated within 24% of the Sun's radius}@}, and by {@{30% of the radius}@}, fusion has {@{stopped nearly entirely}@}. Through {@{most of the Sun's life}@}, energy has been produced by {@{nuclear fusion in the core region through the [proton–proton chain](proton–proton%20chain.md)}@}; this process {@{converts [hydrogen](hydrogen.md) into [helium](helium.md)}@}. Currently, {@{only about 0.8% of the energy generated}@} in the Sun comes from {@{another sequence of fusion reactions called the [CNO cycle](CNO%20cycle.md)}@}, though this proportion is {@{expected to increase as the Sun becomes older and more luminous}@}. <!--SR:!2027-10-24,915,340!2026-12-25,651,320!2028-08-31,1002,300!fsrs,2031-06-15T00:00:00.000Z,1788,1787.91084335,1.48000044,2,10,0,0,2026-07-23T00:00:00.000Z!2027-05-24,422,385!2027-05-18,417,385!2027-05-24,422,385!2027-05-24,422,385!2027-05-18,417,385!2027-06-17,442,385!2027-05-12,412,385!2027-05-11,410,385!2027-05-17,416,385-->
 
@@ -37,13 +37,13 @@ From the outside to inside, significant structures of the Sun are: {@{[solar win
 
 - see: [radiation zone](radiation%20zone.md)
 
-The radiative zone is the thickest layer of the [Sun](sun.md), {@{at 0.45 [solar radii](solar%20radius.md), extending from the core (0.25 solar radii) out to about 0.7 solar radii}@}. {@{[Thermal radiation](thermal%20radiation.md)}@} is the primary means of energy transfer. The temperature drops from approximately 7 million to 1.5 million kelvins with increasing distance from the core. <!--SR:!2027-03-31,702,300!2030-03-31,1630,360-->
+The radiative zone is the thickest layer of the [Sun](Sun.md), {@{at 0.45 [solar radii](solar%20radius.md), extending from the core (0.25 solar radii) out to about 0.7 solar radii}@}. {@{[Thermal radiation](thermal%20radiation.md)}@} is the primary means of energy transfer. The temperature drops from approximately 7 million to 1.5 million kelvins with increasing distance from the core. <!--SR:!2027-03-31,702,300!2030-03-31,1630,360-->
 
 ## convective zone
 
 - see: [convection zone](convection%20zone.md)
 
-The Sun's convection zone extends {@{from 0.7 [solar radii](solar%20radius.md) (500&nbsp;000 km) to near the surface}@}. The temperature drops {@{from approximately 1.5 million to 5700 [kelvins](Kelvin.md) with increasing distance from the [core](#core)}@}. In this layer, the solar plasma is {@{not dense or hot enough to transfer the heat energy of the interior outward via [radiation](thermal%20radiation.md)}@}. Instead, the density of the plasma is {@{low enough to allow convective currents to develop and move the Sun's energy outward towards its surface}@}. <!--SR:!2028-07-12,1087,320!2027-05-08,753,320!2028-12-10,1180,320!2028-04-10,1042,340-->
+The Sun's convection zone extends {@{from 0.7 [solar radii](solar%20radius.md) (500&nbsp;000 km) to near the surface}@}. The temperature drops {@{from approximately 1.5 million to 5700 [kelvins](kelvin.md) with increasing distance from the [core](#core)}@}. In this layer, the solar plasma is {@{not dense or hot enough to transfer the heat energy of the interior outward via [radiation](thermal%20radiation.md)}@}. Instead, the density of the plasma is {@{low enough to allow convective currents to develop and move the Sun's energy outward towards its surface}@}. <!--SR:!2028-07-12,1087,320!2027-05-08,753,320!2028-12-10,1180,320!2028-04-10,1042,340-->
 
 ## photosphere
 

@@ -14,7 +14,7 @@ The privileged tetradic formalism also appears in the _[dimensional deconstructi
 
 ## mathematical formulation
 
-The tetrad formulation is a special case of a more general formulation, known as the vielbein or n-bein formulation, with n=4. Vielbein is spelled with an "l", not an "r": in German, "viel" means "many", not to be confused with "vier", meaning "four".
+The tetrad formulation is a special case of a more general formulation, known as the vielbein or _n_-bein formulation, with _n_=4. Vielbein is spelled with an "l", not an "r": in German, "viel" means "many", not to be confused with "vier", meaning "four".
 
 In the vielbein formalism,<sup>[\[6\]](#^ref-6)</sup> an [open cover](open%20cover.md#open%20cover) of the [spacetime](spacetime.md) manifold $M$ and a local basis for each of those open sets is chosen: a set of $n$ independent [vector fields](vector%20field.md)
 
@@ -30,7 +30,7 @@ $$e^{a}(e_{b})=e^{a}{}_{\mu }e_{b}{}^{\mu }=\delta _{b}^{a},$$
 
 where $\delta _{b}^{a}$ is the [Kronecker delta](Kronecker%20delta.md). A vielbein is usually specified by its coefficients $e^{\mu }{}_{a}$ with respect to a coordinate basis, despite the choice of a set of \(local\) coordinates $x^{\mu }$ being unnecessary for the specification of a tetrad. Each covector is a [solder form](solder%20form.md).
 
-From the point of view of the [differential geometry](differential%20geometry.md) of [fiber bundles](fiber%20bundles.md), the n vector fields $\{e_{a}\}_{a=1\dots n}$ define a section of the [frame bundle](frame%20bundle.md) _i.e._ a [parallelization](parallelization%20(mathematics).md) of $U\subset M$ which is equivalent to an isomorphism $TU\cong U\times {\mathbb {R} ^{n} }$. Since not every manifold is parallelizable, a vielbein can generally only be chosen locally \(_i.e._ only on a [coordinate chart](coordinate%20chart.md#coordinate%20charts) $U$ and not all of $M$.\)
+From the point of view of the [differential geometry](differential%20geometry.md) of [fiber bundles](fiber%20bundles.md), the _n_ vector fields $\{e_{a}\}_{a=1\dots n}$ define a section of the [frame bundle](frame%20bundle.md) _i.e._ a [parallelization](parallelization%20(mathematics).md) of $U\subset M$ which is equivalent to an isomorphism $TU\cong U\times {\mathbb {R} ^{n} }$. Since not every manifold is parallelizable, a vielbein can generally only be chosen locally \(_i.e._ only on a [coordinate chart](coordinate%20chart.md#coordinate%20charts) $U$ and not all of $M$.\)
 
 All tensors of the theory can be expressed in the vector and covector basis, by expressing them as linear combinations of members of the \(co\)vielbein. For example, the spacetime metric tensor can be transformed from a coordinate basis to the [tetrad](tetrad%20(general%20relativity).md) [basis](basis%20(mathematics).md).
 
@@ -70,11 +70,7 @@ which shows that $g_{ab}=g_{\mu \nu }e^{\mu }{}_{a}e^{\nu }{}_{b}$.
 
 The manipulation with tetrad coefficients shows that abstract index formulas can, in principle, be obtained from tensor formulas with respect to a coordinate tetrad by "replacing greek by latin indices". However care must be taken that a coordinate tetrad formula defines a genuine tensor when differentiation is involved. Since the coordinate vector fields have vanishing [Lie bracket](Lie%20bracket%20of%20vector%20fields.md) \(i.e. commute: $\partial _{\mu }\partial _{\nu }=\partial _{\nu }\partial _{\mu }$\), naive substitutions of formulas that correctly compute tensor coefficients with respect to a coordinate tetrad may not correctly define a tensor with respect to a general tetrad because the Lie bracket is non-vanishing: $[e_{a},e_{b}]\neq 0$. Thus, it is sometimes said that tetrad coordinates provide a [non-holonomic basis](holonomic%20basis.md).
 
-For example, the [Riemann curvature tensor](Riemann%20curvature%20tensor.md) is defined for general vector fields $X,Y$ by
-
-$$R(X,Y)=\left(\nabla _{X}\nabla _{Y}-\nabla _{Y}\nabla _{X}-\nabla _{[X,Y]}\right)\,.$$
-
-In a coordinate tetrad this gives tensor coefficients
+For example, the [Riemann curvature tensor](Riemann%20curvature%20tensor.md) is defined for general vector fields $X,Y$ by <p> &nbsp;&nbsp;&nbsp;&nbsp; $$R(X,Y)=\left(\nabla _{X}\nabla _{Y}-\nabla _{Y}\nabla _{X}-\nabla _{[X,Y]}\right)\,.$$ <p> In a coordinate tetrad this gives tensor coefficients
 
 $$R_{\ \nu \sigma \tau }^{\mu }=dx^{\mu }\left((\nabla _{\sigma }\nabla _{\tau }-\nabla _{\tau }\nabla _{\sigma })\partial _{\nu }\right).$$
 

@@ -24,8 +24,8 @@ from scripts.convert_wiki.pipeline import _preprocess_html, run_pipeline
 from scripts.convert_wiki.table import TableConverter, _reformat_table
 from scripts.convert_wiki.types import _RedirectInfo
 from scripts.convert_wiki.utils import (
-    _fix_filename,
     _fix_name_maybe,
+    _fix_stem,
 )
 
 """Public API of this test module (empty: no symbols are exported)."""
@@ -114,10 +114,10 @@ async def _assert_redirect_symlinks(
             info.to.startswith(prefix) for prefix in config._PRESERVED_PAGE_PREFIXES
         ):
             continue
-        from_name = _fix_filename(
+        from_name = _fix_stem(
             _fix_name_maybe(title, replace_underscores=True, names_map=names_map)
         )
-        to_name = _fix_filename(
+        to_name = _fix_stem(
             _fix_name_maybe(info.to, replace_underscores=True, names_map=names_map)
         )
         if from_name != to_name:
@@ -245,6 +245,32 @@ class TestWikiHtmlToPlaintextSnapshot:
             link_titles=link_titles,
             names_map=names_map,
         )
+
+
+class TestSnapshotDisplayMathSpacing:
+    """Every snapshot must space display math from its neighbours.
+
+    A ``$$…$$`` span written against a word is a span the spacing pass
+    skipped, and most Markdown renderers do not render it as math.  Math
+    wrapped in a link or sitting on a table-cell edge keeps a bracket or a
+    pipe next to it, so those neighbours stay legal.
+    """
+
+    def test_no_glued_display_math(self) -> None:
+        """No ``$$…$$`` span abuts text in any expected output."""
+        glued: list[str] = []
+        for path in sorted(_SNAPSHOT_DIR.glob("*.expected.md")):
+            text = path.read_text(encoding="UTF-8")
+            for match in re.finditer(r"\$\$(.+?)\$\$", text, re.DOTALL):
+                before = text[match.start() - 1] if match.start() else "\n"
+                after = text[match.end()] if match.end() < len(text) else "\n"
+                if (before.isspace() or before in "[|(") and (
+                    after.isspace() or after in "]|)"
+                ):
+                    continue
+                context = text[max(0, match.start() - 30) : match.end() + 30]
+                glued.append(f"{path.name}: {context!r}")
+        assert not glued, "\n".join(glued)
 
 
 class TestFormattingAgnostic:
@@ -774,6 +800,25 @@ class TestBlockMathClassification:
         assert isinstance(math_ele, Tag)
         assert WikiHtmlConverter._is_inline_math(math_ele) is True
 
+    def test_inline_marker_on_math_element_returns_true(self) -> None:
+        """Inline marker on the ``<math>`` itself (clipboard shape) stays inline.
+
+        Safari/clipboard HTML puts ``mwe-math-element-inline`` on the
+        ``<math>`` element and wraps it in a bare ``mwe-math-mathml-a11y``
+        span (see ``snapshots/cyclomatic complexity.input.html``); that
+        single-child a11y wrapper must not force block classification.
+        """
+        html = BeautifulSoup(
+            "<p>A set "
+            '<span class="mwe-math-mathml-a11y">'
+            '<math class="mwe-math-element mwe-math-element-inline"'
+            ' display="inline"></math></span> of paths</p>',
+            "html.parser",
+        )
+        math_ele = html.find("math")
+        assert isinstance(math_ele, Tag)
+        assert WikiHtmlConverter._is_inline_math(math_ele) is True
+
     def test_new_parsoid_block_marker_on_outer_span_returns_false(self) -> None:
         """Newer Parsoid markup marks block math on the outer wrapper span."""
         html = BeautifulSoup(
@@ -1178,6 +1223,146 @@ class TestPreprocessTemplateQuote:
         assert quote is not None
         assert quote.find("div", class_="templatequotecite") is not None
         assert quote.find_next_sibling() is None
+
+
+class TestPreprocessTitleBoxTables:
+    """Tests for the ``_preprocess_html`` title-box table rewrite.
+
+    ``{{math proof}}`` boxes arrive as a header-less single-column
+    ``wikitable`` whose first row holds the bold title alone.  The rewrite
+    turns one into a ``blockquote`` so the box renderer emits the title on
+    its own quoted line and the body as quoted paragraphs.
+    """
+
+    def test_title_row_becomes_blockquote(self) -> None:
+        """The title leaves the table and leads the blockquote."""
+        html = BeautifulSoup(
+            '<table class="wikitable mw-collapsible"><tbody>'
+            "<tr><td><b>Proof of equivalence.</b></td></tr>"
+            "<tr><td>Suppose that it holds.</td></tr>"
+            "</tbody></table>",
+            "html.parser",
+        )
+        _preprocess_html(html)
+        assert html.find("table") is None
+        quote = html.find("blockquote")
+        assert quote is not None
+        assert "math_proof" in quote.get_attribute_list("class")
+        title = quote.find(["b", "strong"])
+        assert title is not None
+        assert quote.contents[0] is title
+        assert title.get_text(strip=True) == "Proof of equivalence."
+        paragraph = quote.find("p")
+        assert paragraph is not None
+        assert paragraph.get_text(strip=True) == "Suppose that it holds."
+
+    def test_body_rows_become_paragraphs(self) -> None:
+        """Each body row becomes its own paragraph."""
+        html = BeautifulSoup(
+            '<table class="wikitable"><tbody>'
+            "<tr><td><b>Title</b></td></tr>"
+            "<tr><td>First.</td></tr>"
+            "<tr><td>Second.</td></tr>"
+            "</tbody></table>",
+            "html.parser",
+        )
+        _preprocess_html(html)
+        quote = html.find("blockquote")
+        assert quote is not None
+        paragraphs = quote.find_all("p", recursive=False)
+        assert [p.get_text(strip=True) for p in paragraphs] == ["First.", "Second."]
+
+    def test_loose_run_and_paragraph_keep_order(self) -> None:
+        """A loose inline run before a block child stays ahead of it."""
+        html = BeautifulSoup(
+            '<table class="wikitable"><tbody>'
+            "<tr><td><b>Title</b></td></tr>"
+            "<tr><td>Loose run<p>Own paragraph.</p>Tail</td></tr>"
+            "</tbody></table>",
+            "html.parser",
+        )
+        _preprocess_html(html)
+        quote = html.find("blockquote")
+        assert quote is not None
+        paragraphs = quote.find_all("p", recursive=False)
+        assert [p.get_text(strip=True) for p in paragraphs] == [
+            "Loose run",
+            "Own paragraph.",
+            "Tail",
+        ]
+
+    def test_table_with_header_untouched(self) -> None:
+        """A table with a real header row keeps its table form."""
+        html = BeautifulSoup(
+            '<table class="wikitable"><tbody>'
+            "<tr><th>Header</th></tr><tr><td>Cell</td></tr>"
+            "</tbody></table>",
+            "html.parser",
+        )
+        _preprocess_html(html)
+        assert html.find("blockquote") is None
+        assert html.find("table") is not None
+
+    def test_captioned_table_untouched(self) -> None:
+        """A caption makes the table a captioned table, not a title box."""
+        html = BeautifulSoup(
+            '<table class="wikitable"><caption>Cap</caption><tbody>'
+            "<tr><td><b>Title</b></td></tr><tr><td>Body</td></tr>"
+            "</tbody></table>",
+            "html.parser",
+        )
+        _preprocess_html(html)
+        assert html.find("blockquote") is None
+        assert html.find("table") is not None
+
+    def test_title_with_trailing_text_untouched(self) -> None:
+        """A first cell that is not purely bold is not a box title."""
+        html = BeautifulSoup(
+            '<table class="wikitable"><tbody>'
+            "<tr><td><b>Title</b> extra</td></tr><tr><td>Body</td></tr>"
+            "</tbody></table>",
+            "html.parser",
+        )
+        _preprocess_html(html)
+        assert html.find("blockquote") is None
+        assert html.find("table") is not None
+
+    def test_single_column_table_without_title_untouched(self) -> None:
+        """A single-column table with no bold title is left alone."""
+        html = BeautifulSoup(
+            '<table class="wikitable"><tbody>'
+            "<tr><td>Alpha</td></tr><tr><td>Beta</td></tr>"
+            "</tbody></table>",
+            "html.parser",
+        )
+        _preprocess_html(html)
+        assert html.find("blockquote") is None
+        assert html.find("table") is not None
+
+    def test_two_cell_first_row_untouched(self) -> None:
+        """A two-cell box (e.g. an ambox) is not a title box."""
+        html = BeautifulSoup(
+            '<table class="wikitable"><tbody>'
+            "<tr><td><b>Title</b></td><td>Other</td></tr>"
+            "<tr><td>Body</td></tr>"
+            "</tbody></table>",
+            "html.parser",
+        )
+        _preprocess_html(html)
+        assert html.find("blockquote") is None
+        assert html.find("table") is not None
+
+    def test_nested_title_box_untouched(self) -> None:
+        """A box nested inside another table keeps its table form."""
+        html = BeautifulSoup(
+            '<table class="wikitable"><tbody><tr><td>'
+            '<table class="wikitable"><tbody>'
+            "<tr><td><b>Title</b></td></tr><tr><td>Body</td></tr>"
+            "</tbody></table></td></tr></tbody></table>",
+            "html.parser",
+        )
+        _preprocess_html(html)
+        assert html.find("blockquote") is None
 
 
 class TestFilterTableCells:

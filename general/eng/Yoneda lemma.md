@@ -124,7 +124,7 @@ This text incorporates [content](https://en.wikipedia.org/wiki/Yoneda_lemma) fro
 
 ## external links
 
-- [Mizar system](mizar%20system.md) proof: <a id="CITEREFWojciechowski1997"></a> Wojciechowski, M. \(1997\). "Yoneda Embedding". _Formalized Mathematics Journal_. __6__ \(3\): 377–380. [CiteSeerX](CiteSeerX%20(identifier).md) [10.1.1.73.7127](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.73.7127).
+- [Mizar system](Mizar%20system.md) proof: <a id="CITEREFWojciechowski1997"></a> Wojciechowski, M. \(1997\). "Yoneda Embedding". _Formalized Mathematics Journal_. __6__ \(3\): 377–380. [CiteSeerX](CiteSeerX%20(identifier).md) [10.1.1.73.7127](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.73.7127).
 - <a id="CITEREFBeurierPastor2019"></a> Beurier, Erwan; Pastor, Dominique \(July 2019\). ["A crash course on Category Theory"](https://hal.science/hal-02190027).
 
 > <!-- hide <p> - [v](https://en.wikipedia.org/wiki/Template:Category%20theory) <br/> - [t](https://en.wikipedia.org/wiki/Template%20talk:Category%20theory) <br/> - [e](https://en.wikipedia.org/wiki/Special:EditPage/Template%3ACategory%20theory) <p>  <p>  <br/> -->

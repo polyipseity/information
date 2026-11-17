@@ -255,3 +255,31 @@ class TestMain:
         link_path = general_dir / "Fourier transform.md"
         assert await link_path.is_symlink()
         assert await link_path.readlink() == Path("eng/Fourier transform.md")
+
+    @pytest.mark.anyio
+    async def test_colon_name_uses_the_sanitised_stem(
+        self, monkeypatch: pytest.MonkeyPatch, tmp_path: PathLike[str]
+    ) -> None:
+        """A Windows-unsafe character is replaced in the filename only.
+
+        The converter links to the sanitised stem (``A: b`` -> ``A_ b``), so
+        the scaffold must create the note and its mirror under that stem.
+        """
+        tmp = Path(tmp_path)
+        general_dir = tmp / "general"
+        eng_dir = general_dir / "eng"
+        await eng_dir.mkdir(parents=True)
+
+        monkeypatch.setattr("scripts.new_wiki_page._REPO_ROOT", tmp_path)
+        monkeypatch.setattr("builtins.input", self._fake_input(["", "A: b"]))
+
+        await _mod.main()
+
+        note_path = eng_dir / "A_ b.md"
+        assert await note_path.is_file()
+        content = await note_path.read_text(encoding="utf-8")
+        assert "aliases:\n  - A: b" in content
+        assert "# A: b" in content
+        link_path = general_dir / "A_ b.md"
+        assert await link_path.is_symlink()
+        assert await link_path.readlink() == Path("eng/A_ b.md")

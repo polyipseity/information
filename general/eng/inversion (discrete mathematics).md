@@ -130,7 +130,7 @@ It can be seen that {@{$v$ and $l$ always have the same digits}@}, and that {@{$
 
 {@{The set of permutations on _n_ items}@} can be {@{given the structure of a [partial order](partially%20ordered%20set.md#partial%20order)}@}, called {@{the __weak order of permutations__}@}, which {@{forms a [lattice](lattice%20(order).md)}@}. <!--SR:!2027-03-13,496,397!2027-03-14,497,397!2027-03-10,492,397!2027-03-13,494,397-->
 
-{@{The [Hasse diagram](hasse%20diagram.md)}@} of {@{the inversion sets ordered by the [subset](subset.md) relation}@} forms {@{the [skeleton](n-skeleton.md) of a [permutohedron](permutohedron.md)}@}. <!--SR:!2027-03-07,490,397!2027-02-05,465,397!2027-03-06,488,397-->
+{@{The [Hasse diagram](Hasse%20diagram.md)}@} of {@{the inversion sets ordered by the [subset](subset.md) relation}@} forms {@{the [skeleton](n-skeleton.md) of a [permutohedron](permutohedron.md)}@}. <!--SR:!2027-03-07,490,397!2027-02-05,465,397!2027-03-06,488,397-->
 
 If {@{a permutation is assigned to each inversion set using the place-based definition}@}, the resulting order of permutations is {@{that of the permutohedron}@}, where {@{an edge corresponds to the swapping of two elements with consecutive values}@}. This is {@{the weak order of permutations}@}. {@{The identity is its minimum}@}, and {@{the permutation formed by reversing the identity is its maximum}@}. <!--SR:!2027-02-04,464,397!2027-03-09,491,397!2028-01-23,724,357!2027-03-08,490,397!2027-02-03,463,397!2027-01-30,461,397-->
 

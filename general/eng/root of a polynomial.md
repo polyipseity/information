@@ -1,0 +1,1 @@
+zero of a function.md

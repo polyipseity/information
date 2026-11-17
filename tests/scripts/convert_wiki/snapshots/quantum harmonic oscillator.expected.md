@@ -191,7 +191,7 @@ The two-dimensional Cartesian harmonic oscillator and the two-dimensional isotro
 
 ## _N_-dimensional isotropic harmonic oscillator
 
-The one-dimensional harmonic oscillator is readily generalizable to _N_ dimensions, where _N_ = 1, 2, 3, .... In one dimension, the position of the particle was specified by a single [coordinate](coordinate%20system.md), _x_. In _N_ dimensions, this is replaced by _N_ position coordinates, which we label _x_<sub>1</sub>, ..., _x_<sub>_N_</sub>. Corresponding to each position coordinate is a momentum; we label these _p_<sub>1</sub>, ..., _p_<sub>_N_</sub>. The [canonical commutation relations](canonical%20commutation%20relations.md) between these operators are $${\begin{aligned}{[}x_{i},p_{j}{]}&=i\hbar \delta _{i,j}\\{[}x_{i},x_{j}{]}&=0\\{[}p_{i},p_{j}{]}&=0\end{aligned} }$$
+<a id="n-dimensional harmonic oscillator"></a> The one-dimensional harmonic oscillator is readily generalizable to _N_ dimensions, where _N_ = 1, 2, 3, .... In one dimension, the position of the particle was specified by a single [coordinate](coordinate%20system.md), _x_. In _N_ dimensions, this is replaced by _N_ position coordinates, which we label _x_<sub>1</sub>, ..., _x_<sub>_N_</sub>. Corresponding to each position coordinate is a momentum; we label these _p_<sub>1</sub>, ..., _p_<sub>_N_</sub>. The [canonical commutation relations](canonical%20commutation%20relations.md) between these operators are $${\begin{aligned}{[}x_{i},p_{j}{]}&=i\hbar \delta _{i,j}\\{[}x_{i},x_{j}{]}&=0\\{[}p_{i},p_{j}{]}&=0\end{aligned} }$$
 
 The Hamiltonian for this system is $$H=\sum _{i=1}^{N}\left({p_{i}^{2} \over 2m}+{1 \over 2}m\omega ^{2}x_{i}^{2}\right).$$
 
@@ -359,7 +359,7 @@ The consideration of the harmonic oscillator e.g. from the energy $E={\mathbf {p
 ## bibliography
 
 - <a id="CITEREFGriffiths2004"></a> [Griffiths, David J.](David%20Griffiths%20(physicist).md) \(2004\). _Introduction to Quantum Mechanics_ \(2nd ed.\). Prentice Hall. [ISBN](ISBN%20(identifier).md) [978-0-13-805326-0](https://en.wikipedia.org/wiki/Special:BookSources/978-0-13-805326-0).
-- <a id="CITEREFLiboff2002"></a> [Liboff, Richard L.](Liboff,%20Richard%20L.md) \(2002\). _Introductory Quantum Mechanics_. Addison–Wesley. [ISBN](ISBN%20(identifier).md) [978-0-8053-8714-8](https://en.wikipedia.org/wiki/Special:BookSources/978-0-8053-8714-8).
+- <a id="CITEREFLiboff2002"></a> [Liboff, Richard L.](Liboff,%20Richard%20L..md) \(2002\). _Introductory Quantum Mechanics_. Addison–Wesley. [ISBN](ISBN%20(identifier).md) [978-0-8053-8714-8](https://en.wikipedia.org/wiki/Special:BookSources/978-0-8053-8714-8).
 - <a id="CITEREFMüller-Kirsten2012"></a> [Müller-Kirsten, Harald J.W.](Harald%20J.W.%20Müller-Kirsten.md) \(2012\). _Introduction to Quantum Mechanics: Schrödinger Equation and Path Integral_ \(2nd ed.\). World Scientific. [ISBN](ISBN%20(identifier).md) [978-0-9810-4397-5](https://en.wikipedia.org/wiki/Special:BookSources/978-0-9810-4397-5).
 - <a id="CITEREFZwiebach2022"></a> [Zwiebach, Barton](Barton%20Zwiebach.md) \(2022\). _Mastering Quantum Mechanics: Essentials, Theory, and Applications_. MIT Press. [ISBN](ISBN%20(identifier).md) [978-0-262-04613-8](https://en.wikipedia.org/wiki/Special:BookSources/978-0-262-04613-8).
 

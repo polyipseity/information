@@ -45,7 +45,7 @@ External transactions are {@{any business transactions that involve more than on
 
 - [financial transaction tax](financial%20transaction%20tax.md)
 - [teeming and lading](teeming%20and%20lading.md)
-- [e-commerce](e-commerce.md)
+- [e-commerce](E-commerce.md)
 
 ## references
 

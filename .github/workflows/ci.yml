@@ -60,7 +60,7 @@ jobs:
     steps:
       # https://github.com/orgs/community/discussions/25516#discussioncomment-7888021
       - name: Get token from GitHub App
-        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1
+        uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510
         id: checkout-app-token
         continue-on-error: true # continue even if private repo access fails
         with:
@@ -127,7 +127,7 @@ jobs:
         uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6
 
       - name: Setup uv
-        uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d
+        uses: astral-sh/setup-uv@07a047e608db84b3d8c06cd9a7c7dcc9c355c18e
         with:
           resolution-strategy: "lowest"
 

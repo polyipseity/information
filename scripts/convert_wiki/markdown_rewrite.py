@@ -3,19 +3,43 @@
 import difflib
 import re
 from collections.abc import Mapping, Sequence
+from dataclasses import dataclass
 from typing import Any
-from urllib.parse import unquote
+from unicodedata import normalize as _normalize_unicode
+from urllib.parse import quote, unquote
 
+from country_converter import convert
+
+from . import config as _cfg
 from .ast_utils import (
     _MISTUNE_PARSER,
     _collect_md_link_urls,
     _find_link_destination_ranges,
     _walk_tokens,
 )
-from .utils import _encode_fragment, _fix_filename, _fix_name_maybe, _plain_fragment
+from .stems import _UNUSABLE_STEMS, _stem_for_title
+from .utils import (
+    _encode_fragment,
+    _fix_stem,
+    _markdown_fragment,
+    _plain_fragment,
+)
 
 """Exported names from this module."""
 __all__ = ()
+
+
+def _fold(text: str) -> str:
+    """Fold the first character's case for the recovery layers.
+
+    The ingestion fallback only ever lowercased a name's first character, so
+    a stored name can differ from its key there and nowhere else.  Folding
+    the whole text would also pull an intentionally all-caps name
+    (``KELVIN``) into the map, which is a rewrite nobody asked for.
+    """
+    text = _normalize_unicode("NFC", text)
+    return text[:1].casefold() + text[1:]
+
 
 """Regex matching ATX heading lines (``#`` through ``######``)."""
 _ATX_HEADING_RE = re.compile(r"^(#{1,6})\s+(?P<inner>\S.*?)(?:\s*#+\s*)?$")
@@ -23,7 +47,7 @@ _ATX_HEADING_RE = re.compile(r"^(#{1,6})\s+(?P<inner>\S.*?)(?:\s*#+\s*)?$")
 
 def _encode_stem(stem: str) -> str:
     """Encode a filename stem for a markdown link target."""
-    return _fix_filename(stem).replace(" ", "%20").replace("_", "%5F")
+    return _fix_stem(stem).replace(" ", "%20").replace("_", "%5F")
 
 
 def _decode_link_stem(target: str) -> tuple[str, str]:
@@ -44,24 +68,145 @@ def _decode_link_stem(target: str) -> tuple[str, str]:
     return stem, fragment
 
 
-def _resolve_plain_rewrite(
+@dataclass(frozen=True)
+class _LinkIndex:
+    """Map-spelled lookups for link stems, link fragments, and headings.
+
+    The name map is keyed by Wikipedia titles and valued by the local title
+    text, which doubles as the filename stem before sanitisation. A link
+    written under an older map, and an anchor that lost a character the
+    encoding drops, both fail to spell a key, so every layer here projects
+    the map into the space the markdown actually stores:
+
+    - ``plain_*`` hold keys and values themselves, for headings;
+    - ``anchor_*`` hold them in ``_encode_fragment`` form, so a fragment
+      that lost its ``:`` still matches the key that produced it;
+    - ``stem_*`` map the sanitised stem the *base* map produced to the one
+      the *effective* map produces, so a case-only or punctuation-only
+      mapping still reaches its links;
+    - each ``*_fold`` layer answers when no exact spelling matches, which
+      recovers a fragment the ingestion fallback already lowercased.
+
+    Two titles that project onto one key with different values make the map
+    unusable: the answer would be a guess, so building the index raises.
+    """
+
+    plain_exact: Mapping[str, str]
+    plain_fold: Mapping[str, str]
+    anchor_exact: Mapping[str, str]
+    anchor_fold: Mapping[str, str]
+    stem_old: Mapping[str, str]
+    stem_old_fold: Mapping[str, str]
+
+
+def _index_add(
+    index: dict[str, str],
+    *,
+    layer: str,
+    key: str,
+    value: str,
+    title: str,
+) -> None:
+    """Add ``key -> value``, refusing a key two titles claim differently.
+
+    A collision cannot be resolved without guessing which title the stored
+    name means, so it stops the run before anything is written.
+    """
+    if (existing := index.get(key)) is None:
+        index[key] = value
+        return
+    if existing != value:
+        msg = (
+            f"name map collision in the {layer} lookup: {key!r} would be both "
+            f"{existing!r} and {value!r} (from {title!r}); "
+            f"the name map cannot be applied unambiguously"
+        )
+        raise ValueError(msg)
+
+
+def _build_link_index(
+    base_map: Mapping[str, str],
+    effective_map: Mapping[str, str],
+) -> _LinkIndex:
+    """Build the lookup layers for _effective_map_, migrating from _base_map_."""
+    plain_exact: dict[str, str] = {}
+    plain_fold: dict[str, str] = {}
+    anchor_exact: dict[str, str] = {}
+    anchor_fold: dict[str, str] = {}
+    stem_old: dict[str, str] = {}
+    stem_old_fold: dict[str, str] = {}
+    for title, text in effective_map.items():
+        anchor = _encode_fragment(title)
+        old_stem = _stem_for_title(title, base_map)
+        new_stem = _fix_stem(text)
+        if new_stem in _UNUSABLE_STEMS:
+            msg = (
+                f"name map value {text!r} (from {title!r}) has no usable filename stem"
+            )
+            raise ValueError(msg)
+        for layer, lookup, key, value in (
+            ("plain", plain_exact, title, text),
+            ("plain fold", plain_fold, _fold(title), text),
+            ("anchor", anchor_exact, anchor, text),
+            ("anchor fold", anchor_fold, _fold(anchor), text),
+            ("stem", stem_old, old_stem, new_stem),
+            ("stem fold", stem_old_fold, _fold(old_stem), new_stem),
+        ):
+            _index_add(lookup, layer=layer, key=key, value=value, title=title)
+    return _LinkIndex(
+        plain_exact=plain_exact,
+        plain_fold=plain_fold,
+        anchor_exact=anchor_exact,
+        anchor_fold=anchor_fold,
+        stem_old=stem_old,
+        stem_old_fold=stem_old_fold,
+    )
+
+
+def _resolve_plain(
     plain: str,
     *,
-    names_map: Mapping[str, str],
-    migrations: Mapping[str, str] | None = None,
-    replace_underscores: bool = False,
-    lowercase_fallback: bool = True,
+    index: _LinkIndex,
+    replace_underscores: bool,
 ) -> str:
-    """Resolve a plain-text span via the name map, then stem migrations."""
-    new_plain = _fix_name_maybe(
-        plain,
-        replace_underscores=replace_underscores,
-        names_map=names_map,
-        lowercase_fallback=lowercase_fallback,
-    )
-    if migrations is not None:
-        new_plain = migrations.get(new_plain, new_plain)
-    return new_plain
+    """Resolve plain text to the title text the map spells for it.
+
+    The layers run from most to least specific: the text itself, its anchor
+    form, then the same two folded. A link fragment is looked up with
+    ``replace_underscores=True`` because a Wikipedia URL encodes spaces as
+    underscores; a heading is looked up as written, since an underscore in
+    a heading is a literal underscore.
+    """
+    variants = (plain,)
+    if replace_underscores and "_" in plain:
+        variants = (plain, plain.replace("_", " "))
+    for variant in variants:
+        if variant in index.plain_exact:
+            return index.plain_exact[variant]
+    for variant in variants:
+        if (hit := index.anchor_exact.get(_encode_fragment(variant))) is not None:
+            return hit
+    for variant in variants:
+        if (hit := index.plain_fold.get(_fold(variant))) is not None:
+            return hit
+    for variant in variants:
+        anchor = _fold(_encode_fragment(variant))
+        if (hit := index.anchor_fold.get(anchor)) is not None:
+            return hit
+    return plain
+
+
+def _resolve_stem(
+    stem: str,
+    index: _LinkIndex,
+    migrations: Mapping[str, str],
+) -> str:
+    """Resolve a link stem to the stem the effective map spells for it."""
+    if (migrated := migrations.get(stem)) is not None:
+        return migrated
+    if (exact := index.stem_old.get(stem)) is not None:
+        return exact
+    return index.stem_old_fold.get(_fold(stem), stem)
 
 
 def _align_plain_to_raw(raw: str, plain: str) -> list[int] | None:
@@ -103,57 +248,108 @@ def _rewrite_plain_span(raw: str, plain: str, new_plain: str) -> str:
     return rewritten
 
 
+"""Characters no Windows filename may contain anywhere."""
+_ILLEGAL_NAME_CHARACTERS = frozenset('<>:"/\\|?*')
+
+
+def _names_a_legal_file(stem: str) -> bool:
+    """Return whether the stem's final component can name a file.
+
+    A relative path keeps its directories, so only the name after the last
+    separator is tested; ``/`` itself is a separator, not a character.
+    """
+    name = stem.rpartition("/")[2]
+    return not any(
+        character in _ILLEGAL_NAME_CHARACTERS or character < " " for character in name
+    )
+
+
+def _repair_impossible_destination(stem: str, plain_fragment: str) -> str:
+    """Re-emit a destination whose name no filesystem can hold.
+
+    Mirrors the converter's own branches so a repaired link reads exactly as
+    a fresh ingestion of the same page would write it: a preserved namespace
+    becomes its external URL, a language interwiki becomes the language
+    directory's note, and anything else is the sanitised stem.
+    """
+    directory, separator, name = stem.rpartition("/")
+    if separator:
+        target = f"{_encode_stem(_fix_stem(name))}.md"
+        return (
+            f"{quote(directory, safe='/')}/{target}{_markdown_fragment(plain_fragment)}"
+        )
+    for prefix, url_format in _cfg._PRESERVED_PAGE_PREFIXES.items():
+        if stem.startswith(prefix):
+            remainder = quote(stem.removeprefix(prefix))
+            anchor = f"#{quote(plain_fragment, safe='')}" if plain_fragment else ""
+            return f"{url_format.format(remainder)}{anchor}"
+    head, separator, page = stem.partition(":")
+    if separator and page:
+        iso3 = str(convert(head, to="ISO3"))
+        if len(iso3) == 3 and iso3.isalpha():
+            target = f"{_encode_stem(_fix_stem(page))}.md"
+            return f"../{iso3.casefold()}/{target}{_markdown_fragment(plain_fragment)}"
+    return f"{_encode_stem(_fix_stem(stem))}.md{_markdown_fragment(plain_fragment)}"
+
+
 def _rewrite_link_target(
     target: str,
     migrations: Mapping[str, str],
     *,
     names_map: Mapping[str, str] | None = None,
+    index: _LinkIndex | None = None,
+    repair_illegal: bool = False,
 ) -> str:
-    """Rewrite a single markdown link target using stem migrations.
+    """Rewrite a single markdown link target through the name map.
 
     Handles page links (``Page.md#frag``) and same-article fragment links
-    (``#frag``) alike: the stem is migrated when there is one, and the
-    fragment is re-cased through *names_map* either way, so anchors stay
-    in step with heading rewriting.  A fragment the map does not know is
-    left as it stands; a footnote anchor such as ``#^ref-13`` survives by
-    the same rule.
+    (``#frag``) alike: the stem resolves through the stem layer, and the
+    fragment through the plain and anchor layers, so anchors stay in step
+    with heading rewriting.  A fragment the map does not know is left as
+    it stands; a footnote anchor such as ``#^ref-13`` survives by the same
+    rule.  Resolving a stem covers a mapping that only re-cases the title
+    or only changes a character the filename transform sanitises, which
+    produces no stem migration at all.
 
-    When no migration exists for a stem (e.g. the mapping already existed
-    in the base name_map before this reprocess run), the *names_map* is
-    used as a fallback to correct the link stem.
+    A destination nothing here resolves is returned exactly as written:
+    re-encoding it would repoint a link the map has no opinion about.  The
+    legacy ``Page#anchor.md`` shape is the one exception, since re-emitting
+    it would keep writing an extension before the anchor.
     """
+    if index is None:
+        index = _build_link_index(names_map or {}, names_map or {})
     page = target.partition("#")[0]
+    legacy = False
     if not page:
         fragment = target.removeprefix("#")
         # A bare "#" carries no fragment; leave it as written.
         if not fragment:
             return target
-        base = ""
+        stem = ""
+        new_stem = stem
     else:
         stem, fragment = _decode_link_stem(target)
-        new_stem = migrations.get(stem, stem)
-        # Fallback: when no migration exists (mapping already in base name_map),
-        # still apply names_map to correct link stems that have wrong casing.
-        # Only apply when the stem (or its underscore variant) is actually
-        # present in names_map — do not apply _fix_name_maybe's lowercase
-        # fallback, which would incorrectly change stems that are absent.
-        if new_stem == stem and names_map is not None:
-            lookup = stem.replace("_", " ") if "_" in stem else stem
-            if lookup in names_map:
-                new_stem = _fix_filename(names_map[lookup])
-        base = f"{_encode_stem(new_stem)}.md"
-    if fragment and names_map is not None:
-        plain_fragment = _plain_fragment(fragment)
-        new_fragment = _resolve_plain_rewrite(
+        legacy = not page.endswith(".md")
+        new_stem = _resolve_stem(stem, index, migrations)
+    plain_fragment = _plain_fragment(fragment) if fragment else ""
+    new_plain = (
+        _resolve_plain(
             plain_fragment,
-            names_map=names_map,
+            index=index,
             replace_underscores=True,
         )
-        if new_fragment != plain_fragment:
-            fragment = _encode_fragment(new_fragment)
-    if not fragment:
-        return base
-    return f"{base}#{fragment}" if base else f"#{fragment}"
+        if plain_fragment
+        else ""
+    )
+    if new_stem == stem and new_plain == plain_fragment and not legacy:
+        if repair_illegal and page and not _names_a_legal_file(stem):
+            return _repair_impossible_destination(stem, plain_fragment)
+        return target
+    page_text = f"{_encode_stem(new_stem)}.md" if page else ""
+    encoded = _encode_fragment(new_plain) if new_plain != plain_fragment else fragment
+    if not encoded:
+        return page_text
+    return f"{page_text}#{encoded}" if page_text else f"#{encoded}"
 
 
 def _is_rewritable_target(url: str) -> bool:
@@ -172,14 +368,20 @@ def _rewrite_markdown_links(
     migrations: Mapping[str, str],
     *,
     names_map: Mapping[str, str] | None = None,
+    index: _LinkIndex | None = None,
+    repair_illegal: bool = False,
 ) -> str:
     """Rewrite markdown ``.md`` link targets according to _migrations_.
 
-    When *names_map* is provided, link fragments (section anchors) are
-    also re-cased through the name map, mirroring heading rewriting.
+    Link stems are resolved through *index*'s stem layer as well, and link
+    fragments (section anchors) through its plain and anchor layers, so a
+    mapping reaches every link that names it.  Build *index* once per run
+    and pass it in; a run over a single file may omit it.
     """
-    if not migrations and not names_map:
+    if index is None and not migrations and not names_map and not repair_illegal:
         return text
+    if index is None:
+        index = _build_link_index(names_map or {}, names_map or {})
 
     parse_result, _state = _MISTUNE_PARSER.parse(text)
     del _state
@@ -215,6 +417,8 @@ def _rewrite_markdown_links(
             expected_url,
             migrations,
             names_map=names_map,
+            index=index,
+            repair_illegal=repair_illegal,
         )
         if unquote(new_url) != unquote(destination):
             edits.append((dest_start, dest_end, new_url))
@@ -246,21 +450,24 @@ def _rewrite_markdown_headings(
     text: str,
     names_map: Mapping[str, str],
     migrations: Mapping[str, str] | None = None,
+    *,
+    index: _LinkIndex | None = None,
 ) -> str:
     """Fix heading-text casing at all levels (``#``-``######``).
 
-    Re-applies the ingestion heuristic ``_fix_name_maybe`` (with
-    ``replace_underscores=False`` and no lowercase-first-char fallback) to
-    the plain text of every top-level ATX heading, using *names_map*, then
-    applies stem *migrations* on top so renamed or re-cased stems propagate
-    to headings at every level. A heading is prose, so a name the map does
-    not hold is left alone rather than guessed at: the fallback would
+    Resolves the plain text of every top-level ATX heading through *index*
+    (built from *names_map* when omitted) and applies stem *migrations* on
+    top, so renamed or re-cased titles propagate to headings at every
+    level. A heading is prose, so a name the map does not hold is left
+    alone rather than guessed at: the lowercase-first-char fallback would
     lowercase ``Hubble's law`` and ``Python implementation``.
     YAML frontmatter and fenced code blocks are excluded. Idempotent on
     already-canonical headings.
     """
-    if not names_map:
+    if not names_map and index is None:
         return text
+    if index is None:
+        index = _build_link_index(names_map, names_map)
 
     parse_result, _state = _MISTUNE_PARSER.parse(text)
     del _state
@@ -324,13 +531,13 @@ def _rewrite_markdown_headings(
         plain = _heading_plain_text(children) if isinstance(children, list) else ""
         if not plain:
             continue
-        new_plain = _resolve_plain_rewrite(
+        new_plain = _resolve_plain(
             plain,
-            names_map=names_map,
-            migrations=migrations,
+            index=index,
             replace_underscores=False,
-            lowercase_fallback=False,
         )
+        if migrations is not None:
+            new_plain = migrations.get(new_plain, new_plain)
         if new_plain == plain:
             continue
         inner_start = line_start + match.start("inner")

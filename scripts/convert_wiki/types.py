@@ -185,12 +185,14 @@ class _ReprocessRequest:
     wiki_dir: PathLike[str] | None = None
     cache_path: PathLike[str] | None = None
     name_map_path: PathLike[str] | None = None
+    repair_illegal_names: bool = False
 
 
 @dataclass(frozen=True)
 class _ReprocessPlan:
     """Immutable plan produced before any mutations."""
 
+    base_map: Mapping[str, str]
     effective_map: Mapping[str, str]
     new_mapping_keys: tuple[str, ...]
     stem_migrations: tuple[_StemMigration, ...]
@@ -201,6 +203,7 @@ class _ReprocessPlan:
     wiki_dir: PathLike[str]
     cache_path: PathLike[str]
     name_map_path: PathLike[str]
+    repair_illegal_names: bool = False
 
 
 @dataclass(frozen=True)
@@ -216,3 +219,5 @@ class _ReprocessReport:
     links_updated_corpus: int
     dry_run: bool
     changed: tuple[str, ...]
+    symlinks_skipped: int = 0
+    names_repaired: int = 0

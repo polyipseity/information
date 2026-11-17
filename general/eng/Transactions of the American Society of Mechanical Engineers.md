@@ -1,0 +1,1 @@
+list of American Society of Mechanical Engineers academic journals.md

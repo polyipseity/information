@@ -35,6 +35,7 @@ Related modules
 - ``pipeline``: orchestration (preprocess → convert → postprocess).
 """
 
+import html
 import re
 import unicodedata
 from collections.abc import Iterable, Mapping, MutableSet
@@ -54,8 +55,8 @@ from . import config as _cfg
 from .inline_context import (
     _dl_follows_p,
     _in_inline_context,
+    _is_display_formula_dl,
     _is_display_math_only,
-    _is_display_math_only_dl,
 )
 from .latex import LatexConverter
 from .table import (
@@ -78,9 +79,10 @@ from .template_config import (
 from .types import _HandlerConfig, _RedirectInfo
 from .utils import (
     _balance_brackets,
+    _data_mw_payload,
     _encode_fragment,
-    _fix_filename,
     _fix_name_maybe,
+    _fix_stem,
     _get_image_filename,
     _markdown_fragment,
     _markdown_link_target,
@@ -102,6 +104,8 @@ _LIST_TAGS = frozenset({"ol", "ul"})
 _BOLD_FONT_STYLE_REGEX = re.compile(r"\bfont-weight\s*:\s*bold\b", re.IGNORECASE)
 """Italic font-style detector."""
 _ITALIC_FONT_STYLE_REGEX = re.compile(r"\bfont-style\s*:\s*italic\b", re.IGNORECASE)
+"""Classes that render italic from a stylesheet instead of an inline style."""
+_ITALIC_CLASSES = frozenset({"mvar"})
 """Collapse runs of empty blockquote lines."""
 _COLLAPSE_EMPTY_BLOCKQUOTE_RE = re.compile(r">\n(?:>\n)+")
 """Collapse consecutive spaces."""
@@ -186,6 +190,59 @@ def _collect_anchor_fragments(ele: PageElement) -> frozenset[str]:
         fragments.add(identifier)
         fragments.add(identifier.replace("_", " "))
     return frozenset(fragments)
+
+
+def _syntaxhighlight_source(ele: Tag) -> tuple[str, str] | None:
+    """Return ``(lang, source)`` for a ``syntaxhighlight`` extension wrapper.
+
+    Parsoid serialises the extension invocation as JSON in ``data-mw`` and
+    renders the highlighted source into a ``<pre>`` whose ``<span>`` fragments
+    keep the styling but not the line breaks, so the original code has to be
+    read from the payload rather than from the children.  A missing, malformed,
+    or unrelated payload yields ``None`` so the element falls back to its
+    generic handling.
+
+    The language is ``"text"`` when the payload carries none: a fence without
+    an info string is a bare ``` run, which fails markdownlint MD040.  Wikipedia
+    writes ``<syntaxhighlight>`` without ``lang`` for plain blocks, and
+    ``text`` is what the notes already use for such blocks.
+    """
+    raw = ele.get("data-mw")
+    if not raw:
+        return None
+    raw_source = str(raw)
+    # Most ``<div>`` elements on a page carry another template's payload, so
+    # discard those before paying for a JSON parse.
+    if "syntaxhighlight" not in raw_source:
+        return None
+    payload = _data_mw_payload(ele, "syntaxhighlight")
+    if payload is None:
+        return None
+    source = payload.body.get("extsrc")
+    if not isinstance(source, str):
+        return None
+    lang = payload.attrs.get("lang")
+    return (lang if isinstance(lang, str) and lang else "text"), source
+
+
+def _table_cell_code(source: str) -> str:
+    """Render extension source as inline code for a table cell.
+
+    ``TableConverter.process_table_cell`` collapses every newline in a cell
+    into a ``<br/>``, which would mangle a fenced block into one cell line and
+    break the table around it.  A single ``<code>`` element carries the code
+    inline instead: the lines keep their order because the breaks are
+    explicit ``<br/>`` tags, the indentation survives as entities because the
+    cell pass only expands *leading* whitespace, ``|`` is encoded so the
+    source can never read as a pipe-table delimiter, and ``$`` is encoded so a
+    dollar in the source stays text instead of opening inline math.
+    """
+    lines: list[str] = []
+    for line in html.escape(source.strip("\n"), quote=False).split("\n"):
+        indent = line[: len(line) - len(line.lstrip(" \t"))]
+        body = line[len(indent) :].replace("|", "&#124;").replace("$", "&#36;")
+        lines.append(indent.replace(" ", "&nbsp;").replace("\t", "&emsp;") + body)
+    return f"<code>{'<br/>'.join(lines)}</code>"
 
 
 def _needs_marker(character: str) -> bool:
@@ -589,6 +646,10 @@ class WikiHtmlConverter:
         # each end with \n (their suffix), so even after stripping one \n
         # from strings, the list suffix must also be reduced to avoid
         # re-creating the blank line.
+        #
+        # A continuation ``<dl><dd>`` immediately after the list belongs to
+        # the last list item.  Strip the list's trailing newline and suffix
+        # so the ``<dl>`` continuation prefix can join that item inline.
         if ele.name in _LIST_TAGS and config.suffix == "\n\n":
             nxt = self._effective_sibling_skipping(
                 ele, following=True, skip_whitespace=True, refs=refs
@@ -596,6 +657,11 @@ class WikiHtmlConverter:
             if isinstance(nxt, Tag) and nxt.name == "p" and _is_display_math_only(nxt):
                 strings = strings.rstrip("\n")
                 config.suffix = ""
+            elif isinstance(nxt, Tag) and nxt.name == "dl":
+                prev_of_dl = self._content_sibling(nxt, following=False)
+                if prev_of_dl is ele:
+                    strings = strings.rstrip("\n")
+                    config.suffix = ""
         # When a <p> is followed by a display-math-only <dl>, strip the
         # trailing \n\n from the <p> output so the <dl> content (with its
         # " <p> " prefix) joins inline on the same line.
@@ -603,7 +669,7 @@ class WikiHtmlConverter:
             nxt = self._effective_sibling_skipping(
                 ele, following=True, skip_whitespace=True, refs=refs
             )
-            if isinstance(nxt, Tag) and _is_display_math_only_dl(nxt):
+            if isinstance(nxt, Tag) and _is_display_formula_dl(nxt):
                 strings = strings.rstrip("\n")
                 config.suffix = ""
         if config.full_result:
@@ -716,7 +782,15 @@ class WikiHtmlConverter:
     # --- Tag handlers ---
 
     def _handle_br(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig | None:
-        """Render a <br> tag as a newline."""
+        """Render a <br> tag as a newline, except Safari's interchange marker.
+
+        Safari's clipboard HTML opens a copied element with
+        ``<br class="Apple-interchange-newline">``.  That marker records a
+        selection boundary, not a line break, so a newline there would split
+        the enclosing emphasis span into the literal ``__ text__``.
+        """
+        if "Apple-interchange-newline" in classes:
+            return None
 
         def process(strings: str) -> str:
             """Append newline to strings."""
@@ -736,13 +810,42 @@ class WikiHtmlConverter:
         suffix = "\n\n"
 
         def process(strings: str) -> str:
-            """Fix name casing in heading text; suppress MD024 on repeats."""
-            text = _fix_name_maybe(strings.strip(), names_map=self._names_map)
+            """Fix name casing in heading text; suppress MD024 on repeats.
+
+            Anchors in front of or behind the heading text move onto their
+            own lines so the heading itself stays plain.
+            """
+            s = strings
+            leading: list[str] = []
+            trailing: list[str] = []
+            while True:
+                m = re.match(r'\s*<a id="[^"]*"></a>\s*', s)
+                if m:
+                    leading.append(m.group(0).strip())
+                    s = s[m.end() :]
+                else:
+                    break
+            while True:
+                m = re.search(r'\s*<a id="[^"]*"></a>\s*$', s)
+                if m:
+                    trailing.insert(0, m.group(0).strip())
+                    s = s[: m.start()]
+                else:
+                    break
+            text = _fix_name_maybe(s.strip(), names_map=self._names_map)
             key = text.casefold()
+            heading = f"{prefix}{text}"
             if key in seen_heading_texts:
-                return f"<!-- markdownlint-disable-next-line MD024 -->\n{prefix}{text}"
-            seen_heading_texts.add(key)
-            return f"{prefix}{text}"
+                heading = f"<!-- markdownlint-disable-next-line MD024 -->\n{heading}"
+            else:
+                seen_heading_texts.add(key)
+            parts: list[str] = []
+            if leading:
+                parts.append("\n".join(leading))
+            parts.append(heading)
+            if trailing:
+                parts.append("\n".join(trailing))
+            return "\n\n".join(parts)
 
         return _HandlerConfig(prefix="", suffix=suffix, process_strings=process)
 
@@ -794,8 +897,7 @@ class WikiHtmlConverter:
         # current page, so it renders as a fragment even when the caller
         # did not supply ``page_name`` (e.g. clipboard conversion).
         same_page = "mw-selflink-fragment" in classes or bool(
-            normalized_page
-            and _fix_filename(to_filename) == _fix_filename(normalized_page)
+            normalized_page and _fix_stem(to_filename) == _fix_stem(normalized_page)
         )
         if same_page:
             target = (
@@ -1028,6 +1130,7 @@ class WikiHtmlConverter:
             ele.name in _BOLD_OR_ITALIC
             or _BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
             or _ITALIC_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
+            or _ITALIC_CLASSES.intersection(ele.get_attribute_list("class"))
         )
 
     @classmethod
@@ -1329,8 +1432,10 @@ class WikiHtmlConverter:
             or _BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
             and "mw-heading" not in classes
         )
-        italic = ele.name in {"em", "i"} or _ITALIC_FONT_STYLE_REGEX.search(
-            str(ele.get("style", ""))
+        italic = (
+            ele.name in {"em", "i"}
+            or _ITALIC_FONT_STYLE_REGEX.search(str(ele.get("style", "")))
+            or _ITALIC_CLASSES.intersection(classes)
         )
         if bold and self._is_list_only(ele):
             # A bolded list is rendered by bolding each item, not by wrapping
@@ -1485,6 +1590,21 @@ class WikiHtmlConverter:
 
     def _handle_span(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig | None:
         """Handle <span> elements: transparent spans render nothing of their own."""
+        # Template anchors (e.g. {{anchor|...}}) are empty spans carrying
+        # ``class="anchor"`` and an ``id``.  Emit a matching ``<a id>``
+        # definition so in-document fragment links resolve.
+        if "anchor" in classes and ele.get("id"):
+            anchor_id = _fix_name_maybe(
+                str(ele.get("id")),
+                replace_underscores=True,
+                names_map=self._names_map,
+            )
+            return _HandlerConfig(
+                full_result=True,
+                prefix="",
+                suffix="",
+                process_strings=lambda _: f'<a id="{anchor_id}"></a> ',
+            )
         return None
 
     @staticmethod
@@ -1522,6 +1642,7 @@ class WikiHtmlConverter:
             return bool(
                 _BOLD_FONT_STYLE_REGEX.search(style)
                 or _ITALIC_FONT_STYLE_REGEX.search(style)
+                or _ITALIC_CLASSES.intersection(ele.get_attribute_list("class"))
             )
         return False
 
@@ -1553,10 +1674,91 @@ class WikiHtmlConverter:
         return prev if isinstance(prev, Tag) else None
 
     @staticmethod
+    def _next_significant_sibling_tag(
+        ele: PageElement, *, following: bool
+    ) -> Tag | None:
+        """Return the next significant sibling tag.
+
+        Skips whitespace-only text nodes and ``<link>``/``<style>`` tags,
+        matching the content-sibling logic used for structural decisions.
+        """
+        sib = ele.next_sibling if following else ele.previous_sibling
+        while sib is not None:
+            if isinstance(sib, NavigableString):
+                if not sib.strip():
+                    sib = sib.next_sibling if following else sib.previous_sibling
+                    continue
+                return None
+            if isinstance(sib, Tag):
+                if sib.name in {"link", "style"}:
+                    sib = sib.next_sibling if following else sib.previous_sibling
+                    continue
+                return sib
+            return None
+        return None
+
+    @staticmethod
+    def _tag_starts_with_heading_block(tag: Tag) -> bool:
+        """Return True when *tag* is or begins with a heading block.
+
+        A heading block is an ``h1``–``h6`` element or a ``div`` carrying the
+        ``mw-heading`` class.  A ``<section>`` counts when one of its direct
+        children is such a heading block (not nested deeper), matching the
+        section-wrapped heading rule.
+        """
+        if _HEADER_REGEX.match(tag.name):
+            return True
+        classes = frozenset(tag.get_attribute_list("class"))
+        if "mw-heading" in classes:
+            return True
+        if tag.name == "section":
+            for child in tag.children:
+                if not isinstance(child, Tag):
+                    continue
+                if _HEADER_REGEX.match(child.name):
+                    return True
+                if "mw-heading" in frozenset(child.get_attribute_list("class")):
+                    return True
+            return False
+        return False
+
+    @staticmethod
+    def _logical_next_starts_with_heading(ele: Tag) -> bool:
+        """Return True if the next logical block starts with a heading.
+
+        Considers direct significant siblings and, when *ele* is the last
+        content element of enclosing ``<section>`` containers, the next
+        sibling ``<section>`` that begins with a heading block.
+        """
+        nxt = WikiHtmlConverter._next_significant_sibling_tag(ele, following=True)
+        if nxt is not None:
+            return WikiHtmlConverter._tag_starts_with_heading_block(nxt)
+
+        node: PageElement = ele
+        while True:
+            parent = node.parent
+            if not isinstance(parent, Tag) or parent.name != "section":
+                return False
+            if (
+                WikiHtmlConverter._next_significant_sibling_tag(node, following=True)
+                is not None
+            ):
+                return False
+            sect_nxt = WikiHtmlConverter._next_significant_sibling_tag(
+                parent, following=True
+            )
+            if sect_nxt is None:
+                node = parent
+                continue
+            return sect_nxt.name == "section" and (
+                WikiHtmlConverter._tag_starts_with_heading_block(sect_nxt)
+            )
+
+    @staticmethod
     def _next_is_display_math_dl(ele: Tag) -> bool:
         """Return True if *ele*'s next content sibling is a display-math-only <dl>."""
         nxt = WikiHtmlConverter._content_sibling(ele, following=True)
-        return nxt is not None and _is_display_math_only_dl(nxt)
+        return nxt is not None and _is_display_formula_dl(nxt)
 
     def _handle_block_level(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Handle block-level elements with spacing suffix."""
@@ -1564,7 +1766,40 @@ class WikiHtmlConverter:
         return _HandlerConfig(suffix=suffix)
 
     def _handle_div(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig | None:
-        """Handle <div> elements, with special handling for equation-box divs."""
+        """Handle <div> elements.
+
+        ``syntaxhighlight`` extension wrappers become fenced code blocks read
+        from their ``data-mw`` payload outside table cells, and one inline
+        ``<code>`` element inside a cell, where a fence would break the table;
+        ``equation-box`` divs are delegated to :class:`TableConverter`;
+        remaining classes get their own spacing and wrapper (see the branches
+        below), and everything else is block-level.
+        """
+        if (syntaxhighlight := _syntaxhighlight_source(ele)) is not None:
+            lang, source = syntaxhighlight
+            if self._in_table_cell(ele):
+
+                def _cell_code(strings: str) -> str:
+                    """Render the extension source as inline code in a cell."""
+                    # ``strings`` holds the highlighted ``<span>`` text, whose
+                    # line breaks are gone, so the payload is the only source.
+                    return _table_cell_code(source)
+
+                return _HandlerConfig(full_result=True, process_strings=_cell_code)
+
+            def _fence(strings: str) -> str:
+                """Render the extension source as a fenced code block."""
+                # The children of a highlighted block carry no line structure,
+                # so ``strings`` is dropped in favour of the original source.
+                # The fence outgrows any backtick run in the code so a literal
+                # backtick sequence cannot close it early.
+                delimiter = "```"
+                while delimiter in source:
+                    delimiter += "`"
+                code = source.strip("\n")
+                return f"{delimiter}{lang}\n{code}\n{delimiter}\n\n"
+
+            return _HandlerConfig(full_result=True, process_strings=_fence)
         if "shortdescription" in classes:
             return _HandlerConfig(suffix="\n\n")
         if "theader" in classes:
@@ -1653,11 +1888,42 @@ class WikiHtmlConverter:
                 suffix = " <p>"
             else:
                 suffix = " <p> "
-            # When a display-math-only <dl> is inside a list item, indent the
-            # formula with ``<p> &nbsp;&nbsp;&nbsp;&nbsp;`` so it visually
-            # joins the preceding text on the same line.
-            if _is_display_math_only_dl(ele):
+            # Drop the trailing separator when no content follows inside the
+            # list item.
+            sib = ele.next_sibling
+            has_following_content = False
+            while sib is not None:
+                if isinstance(sib, NavigableString):
+                    if sib.strip():
+                        has_following_content = True
+                        break
+                elif isinstance(sib, Tag):
+                    if sib.name not in {"link", "style"}:
+                        has_following_content = True
+                        break
+                sib = sib.next_sibling
+            if not has_following_content:
+                suffix = ""
+            # A continuation <dl> after content in the same list item must be
+            # separated from that content (e.g. flattened leaf items render
+            # "text. <p> continuation").  Display-math-only <dl> keeps its
+            # indented block-math prefix.
+            if _is_display_formula_dl(ele):
                 prefix = f" <p> {_MATH_DL_INDENT}"
+            else:
+                sib = ele.previous_sibling
+                while sib is not None:
+                    if isinstance(sib, NavigableString):
+                        if sib.strip():
+                            prefix = " <p> "
+                            break
+                    elif isinstance(sib, Tag):
+                        if sib.name not in {"link", "style"}:
+                            prefix = " <p> "
+                            break
+                    sib = sib.previous_sibling
+                else:
+                    prefix = ""
         else:
             suffix = "\n\n"
             # When a <dl> follows a </li> or </ul>/</ol>, the preceding content
@@ -1668,9 +1934,22 @@ class WikiHtmlConverter:
                 joiner = " <p> "
                 prefix = " <p> "
                 suffix = " "
+                # A display-formula continuation after a list stays with the
+                # last list item, so keep the indented block-math formatting
+                # used for display formulas inside list items.
+                if _is_display_formula_dl(ele):
+                    nxt = ele.next_sibling
+                    if (
+                        isinstance(nxt, NavigableString)
+                        and str(nxt)[:1] in " \t\n\r\x0b\x0c"
+                    ):
+                        suffix = " <p>"
+                    else:
+                        suffix = " <p> "
+                    prefix = f" <p> {_MATH_DL_INDENT}"
             # When a display-math-only <dl> follows a <p>, join inline
             # with <p> separator instead of creating a block break.
-            elif _is_display_math_only_dl(ele):
+            elif _is_display_formula_dl(ele):
                 prev = self._content_sibling(ele, following=False)
                 if prev is not None and prev.name == "p":
                     prefix = f" <p> {_MATH_DL_INDENT} "
@@ -1679,19 +1958,11 @@ class WikiHtmlConverter:
                     # "\n" joiner collapse them into one soft-wrapped line.
                     if len(ele.find_all("dd", recursive=False)) > 1:
                         joiner = _MATH_DL_ROW_SEPARATOR
-                    # Check if next sibling is a heading — headings should
-                    # be on separate lines, not joined with <p>.
-                    # Headings may be wrapped in div.mw-heading.
-                    nxt = self._content_sibling(ele, following=True)
-                    is_heading = isinstance(nxt, Tag) and (
-                        nxt.name in _HEADING_TAGS
-                        or (
-                            nxt.name == "div"
-                            and "mw-heading"
-                            in frozenset(nxt.get_attribute_list("class"))
-                        )
-                    )
-                    if is_heading:
+                    # Check if the next logical block starts with a heading —
+                    # headings must be separated by a blank line, not joined
+                    # inline with <p>.  This includes headings that begin the
+                    # next sibling <section>.
+                    if self._logical_next_starts_with_heading(ele):
                         suffix = "\n\n"
                     else:
                         suffix = " <p> "
@@ -1736,19 +2007,10 @@ class WikiHtmlConverter:
             prev = self._content_sibling(ele, following=False)
             if (
                 prev is not None
-                and _is_display_math_only_dl(prev)
+                and _is_display_formula_dl(prev)
                 and _dl_follows_p(prev)
             ):
-                nxt_of_dl = self._content_sibling(prev, following=True)
-                is_heading = isinstance(nxt_of_dl, Tag) and (
-                    nxt_of_dl.name in _HEADING_TAGS
-                    or (
-                        nxt_of_dl.name == "div"
-                        and "mw-heading"
-                        in frozenset(nxt_of_dl.get_attribute_list("class"))
-                    )
-                )
-                if not is_heading:
+                if not self._logical_next_starts_with_heading(prev):
                     prefix = ""
 
         # When a <p> is followed by a display-math-only <dl>, suppress the
@@ -1775,7 +2037,11 @@ class WikiHtmlConverter:
 
     @staticmethod
     def _math_outer_span(math_ele: Tag) -> Tag | None:
-        """Return the ``mwe-math-element`` wrapper around a ``<math>`` tag."""
+        """Return the ``mwe-math-element`` wrapper around a ``<math>`` tag.
+
+        Newer Parsoid markup puts that class on the ``<math>`` element itself,
+        in which case the ``<math>`` is its own wrapper.
+        """
         parent: PageElement | None = math_ele
         while parent is not None:
             if isinstance(parent, Tag):
@@ -1833,6 +2099,12 @@ class WikiHtmlConverter:
             return False
         if container.name in _DISPLAY_MATH_CONTAINERS:
             return True
+        if (
+            container.name == "dd"
+            and isinstance(container.parent, Tag)
+            and _is_display_formula_dl(container.parent)
+        ):
+            return True
         return WikiHtmlConverter._contains_display_environment(alt_text)
 
     @staticmethod
@@ -1854,8 +2126,16 @@ class WikiHtmlConverter:
         """Return the element whose substantive children drive inline/block classification."""
         outer_span = WikiHtmlConverter._math_outer_span(math_ele)
         if outer_span is not None:
-            parent = outer_span.parent
-            return parent if isinstance(parent, Tag) else None
+            container: PageElement | None = outer_span.parent
+            # Newer Parsoid markup puts ``mwe-math-element`` on the ``<math>``
+            # itself, inside a bare ``mwe-math-mathml-a11y`` span.  That span
+            # is a rendering artifact around the math, not a prose container,
+            # so classify by its parent instead.
+            while isinstance(container, Tag) and (
+                "mwe-math-mathml-a11y" in container.get_attribute_list("class")
+            ):
+                container = container.parent
+            return container if isinstance(container, Tag) else None
         parent: PageElement | None = math_ele.parent
         if not isinstance(parent, Tag):
             return None
@@ -1874,8 +2154,9 @@ class WikiHtmlConverter:
         (``mwe-math-mathml-inline`` / ``mwe-math-mathml-display``), while
         newer Parsoid markup tags the outer ``mwe-math-element`` wrapper
         (``mwe-math-element-inline`` / ``mwe-math-element-block``) and leaves
-        the parent span as ``mwe-math-mathml-a11y``.  Consult both, treating
-        an explicit outer block marker as decisive.
+        the parent span as ``mwe-math-mathml-a11y``.  Clipboard/Safari markup
+        puts the outer class on the ``<math>`` element itself.  Consult all
+        three, treating an explicit outer block marker as decisive.
         """
         parent = ele.parent
         outer_span = WikiHtmlConverter._math_outer_span(ele)
@@ -1944,7 +2225,10 @@ class WikiHtmlConverter:
             if "mwe-math-element" not in class_str:
                 continue
             outer_span = child
-            math = outer_span.find("math")
+            if outer_span.name == "math":
+                math = outer_span
+            else:
+                math = outer_span.find("math")
             if not isinstance(math, Tag):
                 continue
             raw_alttext = math.get("alttext")
@@ -1962,6 +2246,13 @@ class WikiHtmlConverter:
                 alt_text, punct
             )
             WikiHtmlConverter._decompose_punctuation_sibling(outer_span)
+            if (
+                container.name == "dd"
+                and isinstance(container.parent, Tag)
+                and container.parent.name == "dl"
+                and _dl_follows_p(container.parent)
+            ):
+                container.parent["data-dl-display-math-join"] = ""
 
     @staticmethod
     def _escape_flashcard_delimiters(text: str) -> str:
@@ -2529,8 +2820,8 @@ class WikiHtmlConverter:
             process_strings=_process_link_text,
         )
         from_filename, to_filename = (
-            _fix_filename(from_filename),
-            _fix_filename(to_filename),
+            _fix_stem(from_filename),
+            _fix_stem(to_filename),
         )
         if from_filename != to_filename:
             self._pending_redirects.append((from_filename, to_filename))
@@ -2565,9 +2856,7 @@ class WikiHtmlConverter:
             if self._page_name
             else None
         )
-        if normalized_page and _fix_filename(stem_name) == _fix_filename(
-            normalized_page
-        ):
+        if normalized_page and _fix_stem(stem_name) == _fix_stem(normalized_page):
             return f"#{_encode_fragment(new_frag)}" if new_frag else ""
         return (
             _markdown_link_target(stem_name, new_frag)
