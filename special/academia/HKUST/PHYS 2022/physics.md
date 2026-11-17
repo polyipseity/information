@@ -31,7 +31,7 @@ Flashcards for this section are as follows:
 
 ## physical properties
 
-A balloon can be described physically by properties such as its color, volume, shape, mass, smoothness, temperature, density, pressure, conductivity, chemical composition, reactivity, reflectivity, and hardness. Physicists do three things with such a list. They find the relationships between different properties. They describe those relationships quantitatively using mathematical equations. They explain the underlying physics of the equations.
+A balloon can be described physically by properties such as its colour, volume, mass, temperature, density, and pressure. Physicists do three things with such a list. They find the relationships between different properties. They describe those relationships quantitatively using mathematical equations. They explain the underlying physics of the equations.
 
 ---
 
@@ -54,7 +54,7 @@ Flashcards for this section are as follows:
 
 ## methodology of physics
 
-Physics proceeds in a cycle. An observation finds an interesting phenomenon; an experiment measures it quantitatively and systematically; reasoning explains the experiment using a model, or hypothesis; a theory describes that model with mathematical equations; and a prediction tests the theory by new experiments. A prediction that works sends the theory into the textbook. One that fails sends the work back to the experiment. Every failure advances knowledge.
+Physics proceeds in a cycle. An observation finds an interesting phenomenon. An experiment measures it quantitatively and systematically. Reasoning explains the experiment using a model, or hypothesis. A theory describes that model with mathematical equations. A prediction tests the theory by new experiments. A prediction that works sends the theory into the textbook. One that fails sends the work back to the experiment. Every failure advances knowledge.
 
 ---
 

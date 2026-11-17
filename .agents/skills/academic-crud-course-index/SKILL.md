@@ -130,11 +130,11 @@ Each session type occurs on a fixed weekly pattern: 3 lectures per week means `#
 
 __Rules:__
 
-1. _Consistent types across weeks._ If week 1 has 2 lectures + 1 lab + 1 tutorial, every later week has the same set (unless marked `status: no class`).
+1. _Consistent types across weeks._ If week 1 has 2 lectures + 1 lab + 1 tutorial, every later week has the same set (unless marked `status: unscheduled`).
 2. _An ordinal on every session, counted within its own week._ With N sessions of one type in a week, use `## week N lecture 1`, `## week N lecture 2`, ..., `## week N lecture N`. The count restarts every week and is never carried over, so a course with two lectures a week heads its week-2 pair `lecture 1` and `lecture 2`, never `lecture 3` and `lecture 4`. A session is never left unnumbered.
 3. _Strictly increasing `datetime:` in file order._ Read top to bottom: each session heading's `datetime:` must be later than the previous one, which the `session_datetime_order` rule enforces. Within a week that means day/time order, so the earliest session comes first regardless of type. The rule compares the values as written, so a session carrying another section's slot still passes it; the weekday and venue still have to be right on their own account.
 4. _Strict chronological order across weeks._ Week 2 sessions come after week 1 sessions. Never interleave weeks; `## week 1 lecture 1` → `## week 2 lecture 1` → `## week 3 lab 1` is wrong if week 1 also has a lab.
-5. _Gap sessions._ If a type does not meet in a week, mark it `status: no class` or `status: public holiday: <name>` instead of omitting the heading.
+5. _Gap sessions._ If a type does not meet in a week, mark it `status: unscheduled; <reason>` instead of omitting the heading, with the reason the schedule gives: `unscheduled; no class`, `unscheduled; public holiday: <name>`, `unscheduled; <exam name>`.
 
 __Example for a course with 2 lectures + 1 lab per week:__
 
@@ -198,9 +198,34 @@ A recurrent course runs every term instead of once. It carries `- status: recurr
 - __Week numbers__ count from the term's first teaching week, so the count starts on that week's Monday.
 - __Every session is optional.__ A recurrent course's lectures, labs, and tutorials all carry `- status: optional`, and none is assumed to be attended. Keep `datetime:`, `venue:`, and `topic:`, because the term's schedule is still what the entry records.
 - __A session entry normally carries no note or section links__: an unattended session covered nothing. Add them only for a session that was actually attended and written up.
-- __Only attested sessions.__ Record the sessions a source names. Never invent `status: no class` or `status: unscheduled` weeks to complete a weekly pattern for a past term whose full schedule is unknown.
+- __Only attested sessions.__ Record the sessions a source names. Never invent `status: unscheduled` weeks to complete a weekly pattern for a past term whose full schedule is unknown.
 - __The linter enforces the shape.__ `academic-lint` reads `- status: recurrent` from the identity block, then requires: the level-3 semester-carrying headings (`session_heading_format`); a matching `## <YYYY term>` header above each session (`session_semester_match`); `status: optional` or a gap marker on each session (`session_optional_status`); chronological semester headers (`index_semester_order`); and week counting that restarts each term (`week_monotonic`, `session_duplicate_heading`).
 - Everything else in "Session ordering" applies unchanged: `datetime:` strictly increasing in file order (which keeps the semesters chronological), one heading per meeting, an ordinal on every session inside a week, and `lecture`/`lab`/`tutorial` as the only types. A seminar series or training stream is recorded under whichever of those three it matches, never as a fourth type.
+
+## Which session gets which material
+
+The schedule is a source of its own, and it outranks the handouts. Ingesting a class's handout tells you what that class could have covered; the course's module list tells you what each dated class was assigned. The two disagree often enough that the order matters: a handout posted on one date is frequently taught across the next two or three classes.
+
+__Read the module list before writing any session entry.__ A Canvas Modules page lists one module per class with its date, the files it posts, and usually an instructor sub-header naming what the class covers:
+
+```text
+Class 7: Sept 22, 2026      → posts Class05_2026_handout.pdf
+Class 8: Sept 24, 2026      → posts Class06_2026_handout.pdf
+Class 9: Sept 29, 2026      → "Cover notes #5 and #6"
+Class 10: Oct 6, 2026       → "Cover note #6"
+```
+
+That list says note 5 runs across Sept 22 and Sept 29, and note 6 across Sept 29 and Oct 6. Crediting each note to the class that posted its file would put all of note 6 on Sept 24, where the list says it was taught on Sept 29 and Oct 6.
+
+The module list fixes __where ingested content is recorded__, so it does not authorise a session entry by itself: a session still needs its own material (see "create only what the source warrants" in `academic-ingest`).
+
+Rules, in order of authority:
+
+1. __A class's content comes from the module list entry for that date__, which is the date the class actually met, not from the position of its handout in a folder and not from the file's own number. Class numbering skips cancelled dates, so `Class 7` can fall three weeks after `Class 5`, and `Class05_2026_handout.pdf` can belong to the seventh meeting.
+2. __Posting is not teaching.__ A handout puts its note in play from that date; the module list's sub-headers say where the teaching of it actually sits. A note that several classes carry is listed again under each of them, with the sections that class reached.
+3. __Split a note at its own structural boundary.__ When the module list says a note continues into a later class without saying how far the first class got, break at a part heading the note already has, and never claim a page or slide boundary the source does not state.
+4. __A note's classes are all written up, not only the posting class.__ When a class's material is ingested, the note is listed under every class the module list gives it. A session whose content sits only in a topic line, with no note and section links, is unfinished: either its material was not written up, in which case report it, or the content was credited to another session, in which case move it.
+5. __A topic line names concepts, never source units.__ `- topic: class note 5 (trade, traders, and data issues)` and `- topic: lecture 3; chapter 7` narrate the material instead of the subject, which is the same defect the notes forbid. Write what the class taught: `- topic: the exchange as a system: gateways, matches, sequencing; settlement, clearing, and delivery`. The `session_topic_source_unit` rule rejects the material-naming forms.
 
 ## Session outline content: sections, not files
 
@@ -221,7 +246,7 @@ A session entry records what the session taught. After the metadata, list each n
 ```
 
 - __A file link alone is never enough.__ Link the sections too.
-- __List only the sections the session's material created or expanded.__ A note spanning several sessions is linked under each of them, and each entry lists only its own sections.
+- __The class that reached a section writes it, not the class that posted the note.__ "Which session gets which material" above fixes the mapping; list a note's sections under every class that taught them, each with its own portion.
 - __Link the deepest heading the session's material created or expanded.__ A `###` the session created nests one level (8 spaces) under its `##` bullet; link the `##` alone only when the session created the whole section.
 - __Anchor format__: the heading lowercased, spaces as `%20`, colons removed (`## Main memory` → `#main%20memory`). A fragment must name an anchor of the file it targets, either a heading or an HTML `id` that file carries, and the `link_anchor_slug` rule enforces it: a dash-slug of a spaced heading is rejected (`#main-memory`), while a dash the heading itself contains stays (`## self-plagiarism` → `#self-plagiarism`). A target the rule cannot read is reported with the fragment it holds.
 - __A re-levelled section must be re-linked in the same task.__ When the section levelling pass renames, moves, or folds a heading, update every session entry and appendix link pointing at its old anchor. A stale anchor is a broken link, not a cosmetic one (see "Section levelling pass" in `academic-crud-topic-note`).
@@ -240,7 +265,7 @@ A course `index.md` has a fixed shape, and most of what follows is filling it in
 - Session metadata: `datetime:`, `topic:`, `status:`, `assignment:`, `quiz:`.
     - `quiz:` links to the tutorial quiz page when a quiz was administered: `[tutorial <N>](tutorials/tutorial%20<N>/index.md)`, with the grade appended if known (`(grade: 2/2)`).
     - Assignment links go in the last lecture entry on or before the due date, as an `ELEC 1100` child (e.g. `- ELEC 1100 / [assignment name](assignments/<name>/index.md)`).
-- A session that did not meet, or that was optional, or that hosted an exam says so in `status:` rather than going missing: `status: no class`, `status: public holiday: <name>`, `status: optional` (every session of a recurrent course), and `status: unscheduled; <exam name>` under a continuous week heading.
+- A session that did not meet, or that was optional, or that hosted an exam says so in `status:` rather than going missing. The house form names the reason after `unscheduled;`: `status: unscheduled; no class`, `status: unscheduled; public holiday: <name>`, `status: unscheduled; <exam name>`, `status: unscheduled; midterm break`. `status: optional` marks a recurrent course's own sessions. Older entries carry the bare reasons (`status: no class`, `status: public holiday: <name>`) and the linter accepts them, but a session written now carries `unscheduled` and its reason, so a reader can tell a slot that never happened from one that happened and taught nothing.
 - Session free text: optional content after the `---` separator following the metadata, used for verbatim Canvas announcements as blockquotes (see "Announcement preservation").
 
 ## Exam handling
@@ -396,7 +421,7 @@ Format each announcement as a blockquote with the title bolded, preserving the o
 
 - datetime: ...
 - venue: ...
-- status: no class
+- status: unscheduled; no class
 
 ---
 

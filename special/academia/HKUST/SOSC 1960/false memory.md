@@ -10,15 +10,15 @@ tags:
 
 # false memory
 
-False recognition phenomena suggest recoding during encoding: a stimulus semantically or perceptually similar or related to previously encountered stimuli feels as if it was met before. One well-known case is the DRM effect, named for Deese, Roediger, and McDermott. Participants study a list built from one theme word, and many later recognize that theme word as if it had been shown. A list of fifteen sweet-related words ran candy, sour, sugar, bitter, good, taste, tooth, nice, honey, soda, chocolate, heart, cake, eat, pie. Taste is on the list. Sweet is not on it, so a reader who feels that sweet was there is recognizing a word only related to the list.
+False recognition phenomena suggest recoding during encoding: a stimulus semantically or perceptually similar or related to previously encountered stimuli feels as if it was met before. One well-known case is the DRM (Deese, Roediger, and McDermott) effect. Participants study a list built from one theme word, and many later recognize that theme word as if it had been shown. A list of fifteen sweet-related words ran candy, sour, sugar, bitter, good, taste, tooth, nice, honey, soda, chocolate, heart, cake, eat, pie. Taste is on the list. Sweet is not on it, so a reader who feels that sweet was there is recognizing a word only related to the list.
 
 ---
 
 Flashcards for this section are as follows:
 
 - what DRM stands for ::@:: Deese, Roediger, and McDermott, the researchers whose names give the paradigm its name.
-- what the DRM paradigm is ::@:: A procedure in which people study a list built from one theme word and later recognize the theme word as if it had been shown, although it never appeared.
-- what false recognition phenomena suggest about encoding ::@:: That recoding happens during encoding: a semantically or perceptually similar or related stimulus feels already encountered, as in the DRM effect.
+- what the DRM (Deese, Roediger, and McDermott) paradigm is ::@:: A procedure in which people study a list built from one theme word and later recognize the theme word as if it had been shown, although it never appeared.
+- what false recognition phenomena suggest about encoding ::@:: That recoding happens during encoding: a semantically or perceptually similar or related stimulus feels already encountered, as in the DRM (Deese, Roediger, and McDermott) effect.
 - where taste and sweet sit in a fifteen-word list of sweet-related words ::@:: Taste is on the list and sweet is absent from it, so recognizing sweet as a list word is false recognition.
 
 ## pragmatic inference

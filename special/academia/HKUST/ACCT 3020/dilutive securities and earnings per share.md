@@ -72,7 +72,9 @@ Representative examples:
 > | {@{Share capital — ordinary}@} | | {@{500&nbsp;000}@} |
 > | {@{Share premium — ordinary}@} | | {@{1&nbsp;694&nbsp;374}@} |
 >
-> _Explanation._ There is {@{no gain or loss on conversion}@}. The transaction is treated as a capital reclassification, not a settlement gain.
+> ---
+>
+> - explanation: {@{There is no gain or loss on conversion. The transaction is treated as a capital reclassification, not a settlement gain.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -89,7 +91,9 @@ Representative examples:
 > | {@{Share premium — conversion equity}@} | {@{20&nbsp;000}@} | |
 > | {@{Cash}@} | | {@{990&nbsp;000}@} |
 >
-> _Explanation._ The liability piece is settled as debt, so the company compares {@{liability fair value €970&nbsp;000}@} with {@{liability carrying amount €950&nbsp;000}@} and recognizes a {@{€20&nbsp;000 loss because the liability fair value exceeds its carrying amount}@}. The residual {@{€20&nbsp;000 repurchase amount attributable to the equity component}@} reduces the equity component directly.
+> ---
+>
+> - explanation: The liability piece is settled as debt, so the company compares {@{liability fair value €970&nbsp;000}@} with {@{liability carrying amount €950&nbsp;000}@} and recognizes a {@{€20&nbsp;000 loss because the liability fair value exceeds its carrying amount}@}. The residual {@{€20&nbsp;000 repurchase amount attributable to the equity component}@} reduces the equity component directly.
 
 <!-- markdownlint MD028 -->
 
@@ -102,7 +106,9 @@ Representative examples:
 > | {@{Share capital — ordinary}@} | | {@{100&nbsp;000}@} |
 > | {@{Share premium — ordinary}@} | | {@{870&nbsp;000}@} |
 >
-> _Explanation._ This is the contrast the exam likes: a {@{cash repurchase can create a gain or loss because debt is being extinguished for consideration}@}, but a {@{conversion is only a reclassification within equity and therefore creates no gain or loss}@}.
+> ---
+>
+> - explanation: This is the contrast the exam likes: a {@{cash repurchase can create a gain or loss because debt is being extinguished for consideration}@}, but a {@{conversion is only a reclassification within equity and therefore creates no gain or loss}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -117,7 +123,9 @@ Representative examples:
 > | {@{Share capital — ordinary}@} | | {@{40&nbsp;000}@} |
 > | {@{Share premium — ordinary}@} | | {@{472&nbsp;000}@} |
 >
-> _Explanation._ The {@{sweetener is an expense of the current period}@}. The rest of the entry still follows ordinary conversion accounting, with {@{no gain or loss on conversion itself}@}.
+> ---
+>
+> - explanation: The {@{sweetener is an expense of the current period}@}. The rest of the entry still follows ordinary conversion accounting, with {@{no gain or loss on conversion itself}@}.
 
 ---
 
@@ -161,7 +169,9 @@ A __convertible preference share__ in this course is therefore treated as equity
 > | {@{Share capital — ordinary}@} | | {@{40&nbsp;000}@} |
 > | {@{Share premium — ordinary}@} | | {@{80&nbsp;000}@} |
 >
-> _Explanation._ The total {@{book value of the preference shares stays inside equity}@}. The conversion only reallocates that book value between _ordinary share capital_ and _ordinary share premium_.
+> ---
+>
+> - explanation: The total {@{book value of the preference shares stays inside equity}@}. The conversion only {@{reallocates that book value between ordinary share capital and ordinary share premium}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -174,7 +184,9 @@ A __convertible preference share__ in this course is therefore treated as equity
 > | {@{Retained earnings}@} | {@{30&nbsp;000}@} | |
 > | {@{Cash}@} | | {@{150&nbsp;000}@} |
 >
-> _Explanation._ Because the shares are already {@{equity instruments rather than liabilities}@}, the excess of repurchase price over book value is charged to {@{retained earnings rather than profit or loss}@}.
+> ---
+>
+> - explanation: Because the shares are already {@{equity instruments rather than liabilities}@}, {@{the excess of repurchase price over book value is charged to retained earnings rather than profit or loss}@}.
 
 ---
 
@@ -240,7 +252,9 @@ The lecture also distinguishes __warrants__ from the shorter-term __options__ us
 > | {@{Share premium — share warrants}@} | {@{98&nbsp;430}@} | |
 > | {@{Share premium — expired share warrants}@} | | {@{98&nbsp;430}@} |
 >
-> _Explanation._ The original warrant balance does {@{not all move into ordinary share premium just because some warrants were exercised}@}. The exercised and expired portions are {@{tracked separately and proportionally}@}.
+> ---
+>
+> - explanation: The original warrant balance does {@{not all move into ordinary share premium just because some warrants were exercised}@}. The exercised and expired portions are {@{tracked separately and proportionally}@}.
 
 ---
 
@@ -281,7 +295,9 @@ For a __share option plan__:
 > | {@{Compensation expense}@} | {@{11&nbsp;000&nbsp;000}@} | |
 > | {@{Share premium — share options}@} | | {@{11&nbsp;000&nbsp;000}@} |
 >
-> _Explanation._ The total grant-date fair value does {@{not change}@}; what changes is the {@{timing of expense recognition}@}. Acceleration creates a nasty one-period hit because the remaining compensation can no longer be spread over future service years.
+> ---
+>
+> - explanation: The total grant-date fair value does {@{not change}@}; what changes is the {@{timing of expense recognition}@}. {@{Acceleration creates a nasty one-period hit}@} because {@{the remaining compensation can no longer be spread over future service years}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -292,7 +308,9 @@ For a __share option plan__:
 > | {@{Compensation expense}@} | {@{40&nbsp;000}@} | |
 > | {@{Share premium — share options}@} | | {@{40&nbsp;000}@} |
 >
-> _Explanation._ The charge each year combines the {@{original annual amount (€80&nbsp;000 ÷ 4 = €20&nbsp;000)}@} and the {@{incremental annual amount (€40&nbsp;000 ÷ 2 = €20&nbsp;000)}@} for a total of {@{€40&nbsp;000 per year}@}. Under {@{IFRS 2}@}, {@{any modification that increases the fair value of an equity-settled award}@} must be {@{recognized in addition to the original grant-date fair value}@}; {@{a modification that reduces fair value}@} is {@{ignored and the original grant-date compensation continues unchanged}@}.
+> ---
+>
+> - explanation: The charge each year combines the {@{original annual amount (€80&nbsp;000 ÷ 4 = €20&nbsp;000)}@} and the {@{incremental annual amount (€40&nbsp;000 ÷ 2 = €20&nbsp;000)}@} for a total of {@{€40&nbsp;000 per year}@}. Under {@{IFRS 2}@}, {@{any modification that increases the fair value of an equity-settled award}@} must be {@{recognized in addition to the original grant-date fair value}@}; {@{a modification that reduces fair value}@} is {@{ignored and the original grant-date compensation continues unchanged}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -305,7 +323,9 @@ For a __share option plan__:
 > | {@{Share capital — ordinary}@} | | {@{150&nbsp;000}@} |
 > | {@{Share premium — ordinary}@} | | {@{8&nbsp;850&nbsp;000}@} |
 >
-> _Explanation._ Only the portion of {@{Share premium — share options related to the exercised 1&nbsp;500 options}@} is transferred on exercise.
+> ---
+>
+> - explanation: {@{Only the portion of Share premium — share options related to the exercised 1&nbsp;500 options is transferred on exercise.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -316,7 +336,9 @@ For a __share option plan__:
 > | {@{Share premium — share options}@} | {@{9&nbsp;000&nbsp;000}@} | |
 > | {@{Share premium — expired share options}@} | | {@{9&nbsp;000&nbsp;000}@} |
 >
-> _Explanation._ The expired-option balance does {@{not stay indefinitely in Share premium — share options}@}; it is reclassified to a separate equity account for expired awards.
+> ---
+>
+> - explanation: The expired-option balance does {@{not stay indefinitely in Share premium — share options}@}; it is {@{reclassified to a separate equity account for expired awards}@}.
 
 ---
 
@@ -363,7 +385,9 @@ For a __restricted share plan__:
 > | {@{Compensation expense}@} | | {@{6&nbsp;000}@} |
 > | {@{Unearned compensation}@} | | {@{9&nbsp;000}@} |
 >
-> _Explanation._ The company reverses both the {@{equity initially issued at grant}@} and the {@{compensation amounts recognized so far}@}.
+> ---
+>
+> - explanation: {@{The company reverses both the equity initially issued at grant and the compensation amounts recognized so far.}@}
 
 ---
 
@@ -386,7 +410,9 @@ An __employee share-purchase plan__ is also compensatory when employees buy shar
 > | {@{Share capital — ordinary}@} | | {@{30&nbsp;000}@} |
 > | {@{Share premium — ordinary}@} | | {@{1&nbsp;170&nbsp;000}@} |
 >
-> _Explanation._ Compensation expense equals {@{(€40 − €32) × 30&nbsp;000 = €240&nbsp;000}@}. The discount is treated as compensation, not ignored as a mere pricing choice.
+> ---
+>
+> - explanation: {@{Compensation expense equals (€40 − €32) × 30&nbsp;000 = €240&nbsp;000. The discount is treated as compensation, not ignored as a mere pricing choice.}@}
 
 ---
 
@@ -434,7 +460,9 @@ Flashcards for this section are as follows:
 > | {@{Compensation expense}@} | {@{15&nbsp;000}@} | |
 > | {@{Liability under share-appreciation plan}@} | | {@{15&nbsp;000}@} |
 >
-> _Explanation._ The liability keeps changing afterward because the eventual settlement is in cash, not in shares.
+> ---
+>
+> - explanation: {@{The liability keeps changing afterward because the eventual settlement is in cash, not in shares.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -445,7 +473,9 @@ Flashcards for this section are as follows:
 > | {@{Liability under share-appreciation plan}@} | {@{5&nbsp;000}@} | |
 > | {@{Compensation expense}@} | | {@{5&nbsp;000}@} |
 >
-> _Explanation._ Liability-settled SARs are {@{remeasured each reporting period}@}, so compensation expense can move {@{up or down}@} before settlement.
+> ---
+>
+> - explanation: {@{Liability-settled SARs are remeasured each reporting period, so compensation expense can move up or down before settlement.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -471,7 +501,9 @@ Flashcards for this section are as follows:
 > | {@{Compensation expense}@} | {@{2&nbsp;000}@} | |
 > | {@{Cash}@} | | {@{26&nbsp;000}@} |
 >
-> _Explanation._ Cash-settled SARs are settled against the {@{carrying amount of the rights actually extinguished}@}. If cash paid is higher than that carrying amount, the excess is {@{current-period compensation expense rather than an equity reclassification}@}.
+> ---
+>
+> - explanation: Cash-settled SARs are settled against the {@{carrying amount of the rights actually extinguished}@}. If cash paid is higher than that carrying amount, the excess is {@{current-period compensation expense rather than an equity reclassification}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -482,7 +514,9 @@ Flashcards for this section are as follows:
 > | {@{Liability under share-appreciation plan}@} | {@{6&nbsp;000}@} | |
 > | {@{Compensation expense}@} | | {@{6&nbsp;000}@} |
 >
-> _Explanation._ For a liability award, expected forfeitures change the {@{required liability balance immediately}@}. The company therefore records a {@{catch-up reduction of both the liability and cumulative compensation cost}@}.
+> ---
+>
+> - explanation: For a liability award, expected forfeitures change the {@{required liability balance immediately}@}. The company therefore records a {@{catch-up reduction of both the liability and cumulative compensation cost}@}.
 
 ---
 
@@ -513,7 +547,9 @@ Flashcards for this section are as follows:
 > | {@{Share capital — ordinary}@} | | {@{10&nbsp;000}@} |
 > | {@{Share premium — ordinary}@} | | {@{40&nbsp;000}@} |
 >
-> _Explanation._ This is the key fork from the cash-settled SAR example: once the award is clearly {@{equity-settled}@}, the company keeps the amount in {@{equity rather than a remeasured liability}@}.
+> ---
+>
+> - explanation: This is {@{the key fork from the cash-settled SAR example}@}: once the award is clearly {@{equity-settled}@}, the company {@{keeps the amount in equity rather than a remeasured liability}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -524,7 +560,9 @@ Flashcards for this section are as follows:
 > | {@{Compensation expense}@} | {@{25&nbsp;000}@} | |
 > | {@{Share premium — share-settled SARs}@} | | {@{25&nbsp;000}@} |
 >
-> _Explanation._ The tricky point is that an equity award is {@{locked to grant-date fair value for expense measurement}@}. Later share-price changes may affect intuition, but they do {@{not create a new remeasurement entry}@}.
+> ---
+>
+> - explanation: {@{The tricky point is that an equity award is locked to grant-date fair value}@} for {@{expense measurement}@}. Later share-price changes {@{may affect intuition}@}, but they do {@{not create a new remeasurement entry}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -536,7 +574,9 @@ Flashcards for this section are as follows:
 > | {@{Share capital — ordinary}@} | | {@{2&nbsp;000}@} |
 > | {@{Share premium — ordinary}@} | | {@{18&nbsp;000}@} |
 >
-> _Explanation._ Equity-award SAR settlement uses a {@{pure equity reclassification for only the portion actually settled}@}. The unsatisfied SAR balance {@{stays in Share premium — share-settled SARs until those rights settle or lapse}@}.
+> ---
+>
+> - explanation: Equity-award SAR settlement uses a {@{pure equity reclassification for only the portion actually settled}@}. The unsatisfied SAR balance {@{stays in Share premium — share-settled SARs until those rights settle or lapse}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -547,7 +587,9 @@ Flashcards for this section are as follows:
 > | {@{Share premium — share-settled SARs}@} | {@{10&nbsp;000}@} | |
 > | {@{Compensation expense}@} | | {@{10&nbsp;000}@} |
 >
-> _Explanation._ Even though equity awards are {@{not remeasured for later share-price changes}@}, they are still adjusted for {@{changes in the number of rights expected to vest}@}. That is why a forfeiture estimate creates a {@{catch-up reversal of cumulative expense and equity}@}.
+> ---
+>
+> - explanation: Even though equity awards are {@{not remeasured for later share-price changes}@}, they are still adjusted for {@{changes in the number of rights expected to vest}@}. That is why a forfeiture estimate creates a {@{catch-up reversal of cumulative expense and equity}@}.
 
 ---
 
@@ -599,7 +641,9 @@ Two practical EPS traps deserve explicit emphasis.
 >
 > _Calculation._ Restate the pre-dividend period using the dividend factor only for the {@{450&nbsp;000 outstanding ordinary shares that actually receive the 10% dividend}@}. {@{January to June: 450&nbsp;000 × 1.10 × 6/12 = 247&nbsp;500}@}. {@{July to September: 495&nbsp;000 × 3/12 = 123&nbsp;750}@}. {@{October to December: 535&nbsp;000 × 3/12 = 133&nbsp;750}@}. Weighted-average ordinary shares = {@{505&nbsp;000}@}.
 >
-> _Explanation._ The tricky point is that EPS restatement follows the {@{ordinary shares actually affected by the share dividend}@}, not every issued share figure sitting somewhere in equity.
+> ---
+>
+> - explanation: {@{EPS restatement follows the ordinary shares the share dividend affected, not every issued share figure sitting somewhere in equity}@}
 
 <!-- markdownlint MD028 -->
 
@@ -607,7 +651,9 @@ Two practical EPS traps deserve explicit emphasis.
 >
 > _Calculation._ Pre-July share counts must be multiplied by {@{1.20 × 1.50 = 1.80}@}. {@{January to February: 300&nbsp;000 × 1.80 × 2/12 = 90&nbsp;000}@}. {@{March to June: 360&nbsp;000 × 1.80 × 4/12 = 216&nbsp;000}@}. {@{July to October: 432&nbsp;000 × 1.50 × 4/12 = 216&nbsp;000}@}. {@{November to December: 648&nbsp;000 × 2/12 = 108&nbsp;000}@}. Weighted-average ordinary shares = {@{630&nbsp;000}@}.
 >
-> _Explanation._ The restatement is __chained__: each earlier block is multiplied by {@{every later share-restatement event that affects it}@}, not by only the next event in isolation.
+> ---
+>
+> - explanation: The restatement is __chained__: each earlier block is {@{multiplied by every later share-restatement event that affects it}@}, {@{not by only the next event in isolation}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -621,7 +667,9 @@ Two practical EPS traps deserve explicit emphasis.
 >
 > _Calculation._ Continuing-operations EPS = {@{(R&#36;900&nbsp;000 − R&#36;100&nbsp;000) ÷ 250&nbsp;000 = R&#36;3.20 per share}@}. Net-income EPS = {@{(R&#36;900&nbsp;000 − R&#36;150&nbsp;000 − R&#36;100&nbsp;000) ÷ 250&nbsp;000 = R&#36;2.60 per share}@}. If the discontinued-operations amount is shown separately, it is {@{−R&#36;150&nbsp;000 ÷ 250&nbsp;000 = −R&#36;0.60 per share}@}.
 >
-> _Explanation._ The EPS numerator uses the {@{net-of-tax discontinued-operations gain or loss}@}. The pretax discontinued amount and its tax effect are useful analysis, but they are {@{not the numerator actually used in EPS}@}.
+> ---
+>
+> - explanation: The EPS numerator uses the {@{net-of-tax discontinued-operations gain or loss}@}. {@{The pretax discontinued amount and its tax effect are useful analysis}@}, but they are {@{not the numerator actually used in EPS}@}.
 
 When discontinued operations exist, the company must disclose EPS for:
 
@@ -792,7 +840,9 @@ If continuing operations and discontinued operations are both present, the EPS p
 >
 > _Calculation._ Basic continuing-operations EPS = {@{(€360&nbsp;000 − €60&nbsp;000) ÷ 120&nbsp;000 = €2.50}@}. Basic net-income EPS = {@{(€360&nbsp;000 + €120&nbsp;000 − €60&nbsp;000) ÷ 120&nbsp;000 = €3.50}@}. If the discontinued-operations amount is shown separately, basic discontinued-operations EPS = {@{€120&nbsp;000 ÷ 120&nbsp;000 = €1.00}@}. Diluted continuing-operations EPS = {@{€360&nbsp;000 ÷ 150&nbsp;000 = €2.40}@}. Diluted net-income EPS = {@{€480&nbsp;000 ÷ 150&nbsp;000 = €3.20}@}. If shown separately, diluted discontinued-operations EPS = {@{€120&nbsp;000 ÷ 150&nbsp;000 = €0.80}@}.
 >
-> _Explanation._ The minimum face presentation is the {@{four figures for continuing operations and total net income under both basic and diluted EPS}@}. When the discontinued-operations component is also shown explicitly, the set expands to {@{six figures in total}@}.
+> ---
+>
+> - explanation: The minimum face presentation is the {@{four figures for continuing operations and total net income under both basic and diluted EPS}@}. When the discontinued-operations component is also shown explicitly, the set expands to {@{six figures in total}@}.
 
 <!-- markdownlint MD028 -->
 

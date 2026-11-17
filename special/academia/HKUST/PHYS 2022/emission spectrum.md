@@ -46,7 +46,7 @@ Flashcards for this section are as follows:
 - the flame colour of iron ::@:: Orange.
 - what the spectrometer does to the light from a flame ::@:: It collimates the light into a beam, spreads it by wavelength, and turns a colour into a set of measured positions, each of which converts to a wavelength.
 
-## how a grating separates the lines
+## grating dispersion
 
 A diffraction grating is a flat surface ruled with thousands of parallel lines per centimetre. The spacing $d$ between neighbouring rulings characterises it. Collimated light from a flame falls on the grating, and each wavelength leaves at its own angle $\theta$, set by $d\sin\theta = n\lambda$ with $n$ an integer.
 
@@ -67,7 +67,7 @@ Flashcards for this section are as follows:
 - why iron has so many lines where hydrogen has four ::@:: Iron has far more electronic transitions available to it, and each can emit, so its spectrum approaches continuity without reaching it.
 - what a line spectrum identifies an element by ::@:: The set of wavelengths it emits, not the colour a person sees in a flame.
 
-## why the lines are discrete
+## quantised energy levels
 
 The classical account of a glowing gas was that charged atoms and molecules are in motion and that an accelerating charge radiates a wave, so a continuum of frequencies of motion would radiate a continuum of frequencies of light. A classical gas ought then to glow with a smooth spread of colour, the way a hot filament does. The spectra show the opposite: separated lines with nothing at all in the gaps. Hydrogen is the clearest case, since its four visible lines are the ones the [Balmer series](Balmer%20series.md) writes a formula for.
 

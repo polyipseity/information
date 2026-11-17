@@ -29,11 +29,6 @@ Flashcards for this section are as follows:
 
 A consequence can be described two ways. What it does to the behaviour that came before it decides whether it is a __reinforcer__ or a __punisher__. Whether a stimulus is added or taken away makes it __positive__ or __negative__.
 
-- toys put away, then a cookie: a stimulus is added and the behaviour increases, positive reinforcement;
-- no snack unless the toys are put away: the unpleasant condition ends once the child complies, so the behaviour increases, negative reinforcement;
-- mean to a sibling, then be made to do extra housework: a stimulus is added and the behaviour decreases, positive punishment;
-- the same child loses a favourite toy for the same act: a stimulus is taken away and the behaviour decreases, negative punishment.
-
 A positive reinforcer and a negative reinforcer differ only in whether a stimulus is added or taken away. Both of them increase the behaviour.
 
 None of the four words says whether a consequence was good or bad. The same object can be a positive reinforcer and a positive punisher at different times.
@@ -48,14 +43,32 @@ Flashcards for this section are as follows:
 - reinforcer ::@:: A consequence that increases the behaviour it follows.
 - punisher ::@:: A consequence that decreases the behaviour it follows.
 - what positive and negative mean ::@:: That a stimulus was added or taken away.
-- a child who puts her toys away and is given a cookie ::@:: Positive reinforcement: a stimulus is added and the behaviour increases.
-- a child who will get no snack unless the toys are put away ::@:: Negative reinforcement: the unpleasant condition ends once the child complies, so the behaviour increases.
-- a child who is mean to a sibling and is given extra housework ::@:: Positive punishment: a stimulus is added and the behaviour decreases.
-- a child who is mean to a sibling and loses a favourite toy ::@:: Negative punishment: a stimulus is taken away and the behaviour decreases.
 - what a positive and a negative reinforcer differ in ::@:: Only whether a stimulus is added or taken away, since both increase the behaviour.
 - whether the four words say a consequence was good or bad ::@:: None of them does. The same object can be a positive reinforcer at one time and a positive punisher at another.
 - reinforcement and punishment tree: ![a tree of operant conditioning. Reinforcement increases behaviour, punishment decreases it, and each branch divides into positive and negative, marked by adding or removing a stimulus, with a worked example under each of the four. The negative reinforcement branch splits again into escape and active avoidance](attachments/Operant%20conditioning%20diagram%20rev.svg) ::@:: Reinforcement on one side and punishment on the other, each splitting into a positive and a negative branch marked by adding or removing a stimulus.
 - draw the tree of reinforcement and punishment ::@:: A first split into reinforcement and punishment, each splitting again into positive and negative, with a worked example under each of the four branches. <p> ![a tree of operant conditioning. Reinforcement increases behaviour, punishment decreases it, and each branch divides into positive and negative, marked by adding or removing a stimulus, with a worked example under each of the four. The negative reinforcement branch splits again into escape and active avoidance](attachments/Operant%20conditioning%20diagram%20rev.svg)
+
+### reinforcement
+
+A child who puts her toys away and is then given a cookie has a stimulus added, and the behaviour increases: positive reinforcement. A child who gets no snack unless the toys are put away has an unpleasant condition end once she complies, and the behaviour also increases: negative reinforcement.
+
+---
+
+Flashcards for this section are as follows:
+
+- a child who puts her toys away and is given a cookie ::@:: Positive reinforcement: a stimulus is added and the behaviour increases.
+- a child who will get no snack unless the toys are put away ::@:: Negative reinforcement: the unpleasant condition ends once the child complies, so the behaviour increases.
+
+### punishment
+
+A child who is mean to a sibling and is then made to do extra housework has a stimulus added, and the behaviour decreases: positive punishment. The same child who loses a favourite toy for the same act has a stimulus taken away, and the behaviour decreases: negative punishment.
+
+---
+
+Flashcards for this section are as follows:
+
+- a child who is mean to a sibling and is given extra housework ::@:: Positive punishment: a stimulus is added and the behaviour decreases.
+- a child who is mean to a sibling and loses a favourite toy ::@:: Negative punishment: a stimulus is taken away and the behaviour decreases.
 
 ## choice between behaviours
 

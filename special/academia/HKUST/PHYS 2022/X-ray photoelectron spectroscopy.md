@@ -16,9 +16,9 @@ X-ray photoelectron spectroscopy (XPS) is the type of [photoemission spectroscop
 Flashcards for this section are as follows:
 
 - overview: what X-ray photoelectron spectroscopy does ::@:: It irradiates a material with X-rays, frees electrons by the photoelectric effect, and measures their kinetic energies, reading core-level binding energies from them.
-- the type of photoemission spectroscopy XPS is ::@:: The X-ray type, whose photons reach the tightly bound core levels.
-- what identifies the elements in an XPS spectrum ::@:: The core-level binding energies: each element's set of core levels places its peaks where no other element puts them.
-- the two elements XPS cannot read, and why ::@:: Hydrogen and helium, since neither has an inner shell below its outermost electrons for a peak to come from.
+- the type of photoemission spectroscopy X-ray photoelectron spectroscopy (XPS) is ::@:: The X-ray type, whose photons reach the tightly bound core levels.
+- what identifies the elements in an X-ray photoelectron spectroscopy (XPS) spectrum ::@:: The core-level binding energies: each element's set of core levels places its peaks where no other element puts them.
+- the two elements X-ray photoelectron spectroscopy (XPS) cannot read, and why ::@:: Hydrogen and helium, since neither has an inner shell below its outermost electrons for a peak to come from.
 - how deep an XPS reading of a surface reaches ::@:: The top 5–10 nm.
 
 ## chemical shift
@@ -29,5 +29,5 @@ A core level does not sit at exactly one binding energy: the atom's chemical sta
 
 Flashcards for this section are as follows:
 
-- overview: what a chemical shift is in an XPS spectrum ::@:: The slide of a core-level peak caused by the chemical state of the atom the electron came from.
+- overview: what a chemical shift is in an X-ray photoelectron spectroscopy (XPS) spectrum ::@:: The slide of a core-level peak caused by the chemical state of the atom the electron came from.
 - which way an electronegative neighbour moves a core-level peak, and what the size of the move gives ::@:: To higher binding energy; the size of the move says what the element is bonded to.

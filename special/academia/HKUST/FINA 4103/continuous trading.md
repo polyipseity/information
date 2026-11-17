@@ -13,7 +13,7 @@ tags:
 
 # continuous trading
 
-In a _continuous market_ each incoming order is handled when it arrives, so an order that arrives at a moment is dealt with at that moment, up to latency, instead of waiting for a batch. The alternative is discrete trading, which collects orders over an interval and executes them together. Continuous trading is the mechanism that runs on the limit-order book of most modern exchanges.
+In a _continuous market_ each order is handled when it arrives, up to latency, instead of waiting for a batch. The alternative is discrete trading, which collects orders over an interval and executes them together. Most modern exchanges run continuous trading on a limit-order book.
 
 ---
 
@@ -24,7 +24,7 @@ Flashcards for this section are as follows:
 
 ## price-time priority
 
-Continuous trading runs on the limit-order book under price-time priority: orders with better prices are executed first, and among orders offering the same price the first to arrive is served first. The trades the market produces are still discrete in the data, because they are recorded one at a time even though orders are accepted continuously.
+Continuous trading runs on the limit-order book under price-time priority. Orders with better prices are executed first. Among orders at the same price, the first to arrive is served first. The trades the market produces are still discrete in the data, because they are recorded one at a time even though orders are accepted continuously.
 
 ---
 
@@ -59,7 +59,11 @@ Flashcards for this section are as follows:
 
 ## advantages and drawbacks
 
-The case for continuous trading rests on price efficiency, because the market reflects new information promptly, and on liquidity, because market makers provide it continuously and investors can fill a trading need immediately; its effect on the bid-ask spread is ambiguous. The case against continuous trading is that it adds speed as a dimension on which information can be acquired: how fast information is acquired, processed, and reacted to becomes worth investing in, which drives the arms race in high-frequency trading and the phantom liquidity that comes with it. Two rivals receive the same news at the same time, and the one that can trade on it faster wins, so the link between Chicago and New York keeps being rebuilt to shave milliseconds. The fiber route built in 2010 to shave three milliseconds off the trip is estimated to have cost 300 million dollars. Spending of that kind is special-purpose investment, and it can be wasteful.
+Two arguments favour continuous trading. It is price efficient, because the market reflects new information promptly. It is liquid, because market makers provide liquidity continuously and investors can fill a trading need immediately. Its effect on the bid-ask spread is ambiguous.
+
+The case against it is that speed becomes another dimension on which information can be acquired. How fast information is acquired, processed, and acted on becomes worth investing in. That drives the arms race in high-frequency trading, and the phantom liquidity that comes with it.
+
+Two rivals receive the same news at the same time, and the one that can trade on it faster wins. That is why the link between Chicago and New York keeps being rebuilt to shave milliseconds. The fiber route built in 2010 to shave three milliseconds off the trip is estimated to have cost 300 million dollars. Spending of that kind is special-purpose investment, and it can be wasteful.
 
 ---
 

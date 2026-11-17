@@ -13,7 +13,7 @@ tags:
 
 _Positron emission tomography_ images where a [positron](positron.md) was made inside a living body, without surgery. A radioactive tracer carries that positron to the tissue of interest. Every [annihilation](annihilation.md) of the positron with a neighbouring electron fires two gamma ray photons of $511\ \text{keV}$ in exactly opposite directions. The machine never sees the positron or the tracer, only photon pairs, and each pair tells it where the tracer went.
 
-An X-ray records tissue density. A PET scan records the chemistry of the tissue that took up the tracer, giving an image of metabolism rather than anatomy. A region that takes up a lot of tracer shows up brightly. What the brightness means depends on which tracer was used.
+An X-ray records tissue density. A positron emission tomography (PET) scan records the chemistry of the tissue that took up the tracer, giving an image of metabolism rather than anatomy. A region that takes up a lot of tracer shows up brightly. What the brightness means depends on which tracer was used.
 
 ---
 
@@ -54,9 +54,9 @@ Flashcards for this section are as follows:
 - why step 3 is the step that gives the image its meaning ::@:: A tracer that failed to bind would make the image bright wherever the isotope happened to end up, which is nowhere in particular.
 - step 6 in one phrase: what it adds that the other five steps do not ::@:: It is the only step that produces data rather than physics, turning a shower of unrelated events into a position.
 
-## what each tracer targets
+## tracer targets
 
-Each tracer binds to one thing. That molecule is what makes the image specific. F-18 and Ga-68 are isotopes, named by element symbol and mass number. FDG, DOTA, and PSMA are the molecules those isotopes are attached to. Both isotopes are positron emitters with short half-lives. Each molecule was chosen for its chemistry rather than for its radioactivity.
+Each tracer binds to one thing. That molecule is what makes the image specific. F-18 and Ga-68 are isotopes, named by element symbol and mass number. Fluorodeoxyglucose (FDG), DOTA, and prostate-specific membrane antigen (PSMA) are the molecules those isotopes are attached to. Both isotopes are positron emitters with short half-lives. Each molecule was chosen for its chemistry rather than for its radioactivity.
 
 | tracer | isotope | what it attaches to |
 | --- | --- | --- |
@@ -71,16 +71,16 @@ FDG does not bind to cancer. It is a glucose analogue, and any tissue metabolisi
 Flashcards for this section are as follows:
 
 - what makes an image specific: the molecule or the isotope ::@:: The molecule, since each tracer binds to one target and the molecule was chosen for its chemistry rather than for its radioactivity.
-- FDG: what it attaches to, and the three kinds of tissue that follow from that ::@:: Altered glucose metabolism, which covers cancers, infections, and areas of inflammation.
+- fluorodeoxyglucose (FDG): what it attaches to, and the three kinds of tissue that follow from that ::@:: Altered glucose metabolism, which covers cancers, infections, and areas of inflammation.
 - DOTA: what it attaches to ::@:: Neuroendocrine tumours.
-- PSMA: what it attaches to ::@:: The prostate-specific membrane of prostate cancer.
-- what the element symbol and the number in a name like F-18 or Ga-68 give you ::@:: The element and its mass number; FDG, DOTA, and PSMA are the molecules the isotopes are attached to.
+- prostate-specific membrane antigen (PSMA): what it attaches to ::@:: The prostate-specific membrane of prostate cancer.
+- what the element symbol and the number in a name like F-18 or Ga-68 give you ::@:: The element and its mass number; fluorodeoxyglucose (FDG), DOTA, and prostate-specific membrane antigen (PSMA) are the molecules the isotopes are attached to.
 - what kind of isotopes F-18 and Ga-68 are, and what decided the molecule each one carries ::@:: Both are positron emitters with short half-lives, and each molecule was chosen for its chemistry rather than for its radioactivity.
-- what kind of molecule FDG is, and why that decides what it binds ::@:: A glucose analogue, so it is taken up wherever glucose is being metabolised rather than by cancer specifically.
-- a counterexample: a bright spot on an FDG scan ::@:: A statement about metabolic activity rather than a diagnosis on its own, since inflammation and infection take up the tracer too.
-- how DOTA and PSMA compare in reach with FDG ::@:: They are narrower: DOTA reaches neuroendocrine tumours, and PSMA reaches a membrane found on prostate cancer cells.
+- what kind of molecule fluorodeoxyglucose (FDG) is, and why that decides what it binds ::@:: A glucose analogue, so it is taken up wherever glucose is being metabolised rather than by cancer specifically.
+- a counterexample: a bright spot on a fluorodeoxyglucose (FDG) scan ::@:: A statement about metabolic activity rather than a diagnosis on its own, since inflammation and infection take up the tracer too.
+- how DOTA and prostate-specific membrane antigen (PSMA) compare in reach with fluorodeoxyglucose (FDG) ::@:: They are narrower: DOTA reaches neuroendocrine tumours, and PSMA reaches a membrane found on prostate cancer cells.
 
-## why the geometry makes the image possible
+## coincidence detection
 
 The detector surrounds the patient with a ring. A real event fires one photon into one side of the ring and the other into the opposite side. The two leave back to back, so the two detector hits and the annihilation point lie on one straight line. The line is the data. The machine collects many of them, each from a different annihilation, and intersects them to recover a position. A single pair would give a line and nothing more. A single photon gives no line at all, so the two have to be counted together.
 

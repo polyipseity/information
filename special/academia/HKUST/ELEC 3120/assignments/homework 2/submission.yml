@@ -1,0 +1,73 @@
+assignment:
+  grade:
+    entered: 30
+    possible: 30
+  id: 8790744
+  questions:
+    - answer: 1. Both
+      index: "1.1"
+      points: 2
+      score: 2
+    - answer: 3. TCP
+      index: "1.2"
+      points: 2
+      score: 2
+    - answer:
+        2. This procedure uses a field in the packet header to encode an upper
+        bound on the window size.
+      index: "1.3"
+      points: 2
+      score: 2
+    - answer: 1. Interoperability
+      index: "1.4"
+      points: 2
+      score: 2
+    - answer: 2. Slow Start
+      index: "1.5"
+      points: 2
+      score: 2
+    - answer: 3. $\frac{C}{\sqrt{p}} \times \frac{MSS}{RTT}$
+      index: "1.6"
+      points: 2
+      score: 2
+    - answer:
+        3. Queues are empty and senders are transmitting at the rate of the bottleneck
+        link bandwidth
+      index: "1.7"
+      points: 2
+      score: 2
+    - answer:
+        4. the sender with the shorter RTT will get more bandwidth than the sender
+        with the longer RTT
+      index: "1.8"
+      points: 2
+      score: 2
+    - answer: 3. A = 7.5Mbps, B = 7.5Mbps, C = 5Mbps
+      index: "1.9"
+      points: 2
+      score: 2
+    - answer: "1.875"
+      index: "2.1"
+      points: 3
+      score: 3
+    - answer: "2.8"
+      index: "2.2"
+      points: 3
+      score: 3
+    - answer: "140625"
+      index: "2.3"
+      points: 3
+      score: 3
+    - answer: "4"
+      index: "2.4"
+      points: 3
+      score: 3
+  status: graded
+  submissions:
+    - id: 436096084
+  title: Homework 2
+course:
+  code: ELEC 3120
+  id: 1384476
+  name: Computer Networks
+type: submission/Gradescope/www.gradescope.com

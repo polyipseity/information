@@ -35,7 +35,7 @@ Flashcards for this section are as follows:
 - in the idealised MBR picture where the client knows its capacity $N$, which send rate $C$ does it select from a quality ladder? ::@:: The largest $C$ on offer such that $C < N$
 - what breaks the idealised selection rule in which the client picks the largest send rate $C$ below its capacity $N$? ::@:: The client cannot measure $N$
 
-## what the algorithm sees
+## algorithm inputs
 
 Write the algorithm as a function producing a bitrate, $$\mathit{bitrate} = f(x, y, z\ldots)$$. The obvious arguments are five: the average of past network capacity, the loss rate, the network latency, the change in network latency, and the bandwidth variance. ABR has a wide literature and no settled answer about which arguments are the right ones.
 
@@ -48,7 +48,7 @@ Flashcards for this section are as follows:
 - in $\mathit{bitrate} = f(x, y, z\ldots)$, which five arguments are the obvious ones? ::@:: The average of past network capacity, the loss rate, the network latency, the change in network latency, and the bandwidth variance
 - the five obvious arguments to $f$ are all unmeasurable; what single quantity does the client read instead? ::@:: The occupancy of its own buffer, which a rule turns into a bitrate
 
-## what the algorithm chooses
+## algorithm output
 
 The output of the algorithm is the rate $C[t]$ at which the client requests the next chunk. With a ladder of quality levels in place, the expectation is that the playback rate $R$ now equals $C$. That does not hold, because the link delivers at whatever rate it can. The level off the ladder bounds $R$ from above instead of pinning it down.
 
@@ -59,7 +59,7 @@ Flashcards for this section are as follows:
 - what is the output of an ABR algorithm? ::@:: The rate $C[t]$ at which the client requests the next chunk <!-- check: ignore-line[two_sided_calc_warning]: conceptual, the card names a rate rather than computing one -->
 - with a ladder of quality levels on offer, does choosing a level pin the playback rate $R$ to the chosen send rate $C$? ::@:: No. It bounds $R$ from above without pinning it to a value
 
-## where the decisions run
+## placement in the pipeline
 
 The ABR logic sits on the client, beside the buffer and the playhead, and not on the server. The request runs through four steps:
 

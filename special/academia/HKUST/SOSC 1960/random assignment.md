@@ -21,7 +21,7 @@ Flashcards for this section are as follows:
 - why that one difference matters ::@:: Any difference in the outcome has to come from the independent variable.
 - what chance leaves unbalanced once there are enough people ::@:: Nothing systematic: every other influence comes out about the same on both sides.
 
-## the two basketball teams
+## team-picking analogy
 
 A captain who picks first takes the tallest and the most athletic. His team beats the rest. The gap came from his choice, not from chance.
 
@@ -37,7 +37,7 @@ Flashcards for this section are as follows:
 - what drawing names does not improve ::@:: Neither team; it only makes the comparison fair.
 - what letting people choose their own condition costs ::@:: The even split between the conditions, before the study starts.
 
-## when chance assignment is impossible
+## limits of random assignment
 
 Some conditions cannot be handed out. Nobody can be assigned to marry, become a professional musician, suffer a brain injury, or grow up in a war. A study that pretends otherwise is not an experiment. Researchers use the groups that already exist, treating their membership as the variable. A [quasi-experiment](quasi-experiment.md) supports a causal claim only as strong as its comparison allows.
 

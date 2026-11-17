@@ -41,12 +41,12 @@ Flashcards for this section are as follows:
 
 ## from a project to a rulebook
 
-The national market system was not itself a rulebook. In June 2005 the SEC adopted [Regulation NMS](Regulation%20NMS.md). It carries the same aim of consolidated execution services and states that aim as four numbered rules. The privilege that lets any venue trade any listed stock, and so keeps the venues comparable in what they can trade, is recorded in [Unlisted Trading Privileges](Unlisted%20Trading%20Privileges.md).
+The national market system was not itself a rulebook. In June 2005 the Securities and Exchange Commission (SEC) adopted [Regulation NMS](Regulation%20NMS.md). It carries the same aim of consolidated execution services and states that aim as four numbered rules. The privilege that lets any venue trade any listed stock, and so keeps the venues comparable in what they can trade, is recorded in [Unlisted Trading Privileges](Unlisted%20Trading%20Privileges.md).
 
 ---
 
 Flashcards for this section are as follows:
 
 - what the national market system was, as an instrument ::@:: A project rather than a rulebook.
-- what replaced it in June 2005 ::@:: Regulation NMS, which states the same aim as four numbered rules.
+- what replaced it in June 2005 ::@:: Regulation National Market System (NMS), which states the same aim as four numbered rules.
 - privilege that keeps venues comparable in what they can trade ::@:: Unlisted trading privileges.

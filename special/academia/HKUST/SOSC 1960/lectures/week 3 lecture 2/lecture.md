@@ -51,7 +51,7 @@ A [survey](../../survey%20(human%20research).md) is only a way of collecting dat
 
 In an experiment the same survey becomes the instrument rather than the design. In the humorous-video study, students are randomly assigned a humorous video or a neutral video of the same length, and both groups fill in the same mood questionnaire before and after. The independent variable is the type of video and the dependent variable is the change in mood score. A larger improvement in the humorous group supports a short-term effect on self-reported mood. A survey can also expose a bias to design around, such as participants who would attribute their feelings to one cause and not to any other.
 
-Brain imaging fits a correlational design for the same reason, with an [MRI](../../magnetic%20resonance%20imaging.md) scan measuring the size of the hippocampus and a memory test measuring performance, so correlating the two shows whether bigger goes with better. Causal brain studies are very hard to run, so the correlation is what the design yields.
+Brain imaging fits a correlational design for the same reason, with a [magnetic resonance imaging (MRI)](../../magnetic%20resonance%20imaging.md) scan measuring the size of the hippocampus and a memory test measuring performance, so correlating the two shows whether bigger goes with better. Causal brain studies are very hard to run, so the correlation is what the design yields.
 
 ---
 
@@ -108,7 +108,7 @@ Flashcards for this section are as follows:
 - what imaging can never show about a region ::@:: Sufficiency, because the activity seen may be a consequence of the perception or of a metabolic process that follows it.
 - what shows necessity instead ::@:: Lesions and transcranial magnetic stimulation: damage or interference with a region shows it is necessary for a function, as in prosopagnosia.
 - the conclusion that is safe on short sleep ::@:: Students who sleep less tend to report more depression.
-- two series that rose together with nothing connecting them ::@:: US spending on science, space, and technology, and suicides by hanging, strangulation, and suffocation, both climbing across 1999 to 2009.
+- two series that rose together with nothing connecting them ::@:: United States spending on science, space, and technology, and suicides by hanging, strangulation, and suffocation, both climbing across 1999 to 2009.
 - bomber planes and armor placement ::@:: Bullet holes clustered in the wings, tail, and fuselage, but only surviving planes were examined, so the armor belonged where the holes were not.
 
 ## designing an exercise-and-mood study
@@ -133,9 +133,9 @@ Flashcards for this section are as follows:
 
 The study starts from an observation about one person: every time after exercise a feeling of happiness follows, and a study is wanted on the relationship between exercise and mood.
 
-The instruments are set out in [mood measurement](../../mood%20measurement.md): a single rating, a validated questionnaire such as PANAS or POMS, experience sampling, and the physiological routes. PANAS was the one the designs below use, and two limits carry into them: physiological arousal tracks more than happiness, and the living brain is correlational at best, not proof that a region is the mood.
+The instruments are set out in [mood measurement](../../mood%20measurement.md): a single rating, a validated questionnaire such as the Positive and Negative Affect Schedule (PANAS) or the Profile of Mood States (POMS), experience sampling, and the physiological routes. PANAS was the one the designs below use, and two limits carry into them: physiological arousal tracks more than happiness, and the living brain is correlational at best, not proof that a region is the mood.
 
-The experimental design puts around 80 to 90 students at random into 30 minutes of exercise or a 30-minute lecture or nature video control. One design used three arms, no exercise against moderate walking against vigorous running, so the dose could be compared as well. Mood is measured with a validated affect scale, PANAS in most versions, immediately before and immediately after, and the change scores are compared between groups with a one-way ANOVA.
+The experimental design puts around 80 to 90 students at random into 30 minutes of exercise or a 30-minute lecture or nature video control. One design used three arms, no exercise against moderate walking against vigorous running, so the dose could be compared as well. Mood is measured with a validated affect scale, PANAS in most versions, immediately before and immediately after, and the change scores are compared between groups with a one-way analysis of variance (ANOVA).
 
 Around 100 students in the correlational design report their total exercise minutes and their average mood over the same past seven days, with mood on a scale from 1 to 10. Pearson's $r$ gives the direction and strength of the linear relationship, a positive value being the prediction. A correlation does not establish causation: happier students may exercise more, or a third variable such as academic stress may drive both. Self-report and recall bias sit on top of either.
 
@@ -149,7 +149,7 @@ Flashcards for this section are as follows:
 
 - the observation the study starts from ::@:: Every time after exercise a feeling of happiness follows, and a study is wanted on the relationship between exercise and mood.
 - experimental design for exercise and mood ::@:: Randomly assign about 80 to 90 students to 30 minutes of exercise against a 30-minute lecture or nature video control.
-- how the experiment measures and compares mood ::@:: With PANAS or another validated affect scale immediately before and immediately after, comparing the change scores with a one-way ANOVA.
+- how the experiment measures and compares mood ::@:: With the Positive and Negative Affect Schedule (PANAS) or another validated affect scale immediately before and immediately after, comparing the change scores with a one-way analysis of variance (ANOVA).
 - correlational design for exercise and mood ::@:: About 100 students report total exercise minutes and average mood over the same past seven days, with nobody's routine changed or assigned.
 - quasi-experimental design for exercise and mood ::@:: Split students who already exercise into two groups and compare their mood scores, with no random assignment.
 - longitudinal design for exercise and mood ::@:: Fifty people, 25 exercisers and 25 controls, tracked over a year with mood surveyed monthly or at the start and a year later.
@@ -177,11 +177,11 @@ Flashcards for this section are as follows:
 
 Which region is active is a question about space, answered by a picture of where the activity sits. How fast the processing happens is a question about time, answered by timing accurate to the millisecond. Whether a region is needed at all is a question about interruption, answered only by disrupting the region.
 
-[fMRI](../../functional%20magnetic%20resonance%20imaging.md) answers the first. It records while the student is actually reading a passage, so the region and the behaviour are measured in the same run. The crux is the word uniquely: contrasting real words against a control dataset isolates the region tied to reading rather than to vision or attention in general. Its poor temporal resolution costs nothing here, because only the area is needed, not the moment.
+[functional magnetic resonance imaging (fMRI)](../../functional%20magnetic%20resonance%20imaging.md) answers the first. It records while the student is actually reading a passage, so the region and the behaviour are measured in the same run. The crux is the word uniquely: contrasting real words against a control dataset isolates the region tied to reading rather than to vision or attention in general. Its poor temporal resolution costs nothing here, because only the area is needed, not the moment.
 
-[EEG](../../electroencephalography.md) answers the second, and specifically the event-related potentials derived from it, which date the response to the millisecond. ERP components such as the N170 or the P100 mark where expression decoding falls against identity decoding. Backward masking and face-evoked potentials paradigms are the ways to run it. [MEG](../../magnetoencephalography.md) was added as an alternative with good temporal and good spatial resolution.
+[electroencephalography (EEG)](../../electroencephalography.md) answers the second, and specifically the event-related potentials derived from it, which date the response to the millisecond. ERP components such as the N170 or the P100 mark where expression decoding falls against identity decoding. Backward masking and face-evoked potentials paradigms are the ways to run it. [magnetoencephalography (MEG)](../../magnetoencephalography.md) was added as an alternative with good temporal and good spatial resolution.
 
-[TMS](../../transcranial%20magnetic%20stimulation.md) answers the third, and it leaves a virtual lesion with no permanent damage. The procedure stimulates the parietal cortex while participants perform a selective attention task, and reaction time and accuracy are measured before, during, and after. The vertex is the control, a site not related to attention, and it rules out the nonspecific effects of stimulation such as the noise and the scalp sensation. A drop in parietal performance but not vertex performance makes the region necessary for selective attention, which is cause and effect rather than correlation. The alternatives fall short, since fMRI shows only correlation and lesion studies in patients involve permanent, uncontrolled damage. Lesion-symptom mapping and tDCS were named alongside it.
+[transcranial magnetic stimulation (TMS)](../../transcranial%20magnetic%20stimulation.md) answers the third, and it leaves a virtual lesion with no permanent damage. The procedure stimulates the parietal cortex while participants perform a selective attention task, and reaction time and accuracy are measured before, during, and after. The vertex is the control, a site not related to attention, and it rules out the nonspecific effects of stimulation such as the noise and the scalp sensation. A drop in parietal performance but not vertex performance makes the region necessary for selective attention, which is cause and effect rather than correlation. The alternatives fall short, since fMRI shows only correlation and lesion studies in patients involve permanent, uncontrolled damage. Lesion-symptom mapping and transcranial direct-current stimulation (tDCS) were named alongside it.
 
 A single lesion case licenses only the hypothesis that the damaged region may be involved in face recognition, as [cognitive neuropsychology](../../cognitive%20neuropsychology.md) holds. The comparison is between different people, not a before-and-after on the same person, and there is no baseline for him, so he may have been worse at face recognition before the accident. The damage may also act through other regions, and the fusiform face area was named as a candidate region.
 
@@ -191,8 +191,8 @@ The intact model scores 90% on both Asian and Caucasian faces, and damaging the 
 
 Flashcards for this section are as follows:
 
-- method for finding the region tied to word reading ::@:: fMRI, for its spatial resolution.
-- method for timing the processing of a face's expression against its identity ::@:: EEG, and specifically the event-related potentials derived from it.
+- method for finding the region tied to word reading ::@:: Functional magnetic resonance imaging (fMRI), for its spatial resolution.
+- method for timing the processing of a face's expression against its identity ::@:: Electroencephalography (EEG), and specifically the event-related potentials derived from it.
 - method for testing whether the parietal region is necessary for selective attention ::@:: Transcranial magnetic stimulation, applied over the parietal cortex during a selective attention task.
 - what a drop in parietal-but-not-vertex performance shows ::@:: That the region is necessary for selective attention, a cause-and-effect result rather than a correlation.
 - what a single lesion case licenses ::@:: Only the hypothesis that the damaged region may be involved in face recognition.

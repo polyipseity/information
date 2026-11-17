@@ -43,7 +43,7 @@ tags:
 > How long on average does it take for a patient to get their testing result?
 >
 > - solution: {@{80&nbsp;minutes}@}
-> - explanation: {@{This is asking for the _flow time_. We also assume the process is _stable_. Thus, simply add up the activity time: 5+15+60 = 80&nbsp;minutes.}@}
+> - explanation: This is {@{asking for the _flow time_}@}. We also {@{assume the process is _stable_}@}. Thus, simply {@{add up the activity time: 5+15+60 = 80&nbsp;minutes}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -75,7 +75,7 @@ tags:
 > At process capacity, what is the utilization of the testing machines?
 >
 > - solution: {@{60%}@}
-> - explanation: {@{The process capacity is calculated above as 12 units per hour. In testing, each unit takes 60/20 = 3&nbsp;minutes. The capacity is thus 60/3 = 20 units per hour. Thus, utilization is 12/20 = 60%.}@}
+> - explanation: The process capacity is {@{calculated above as 12 units per hour}@}. In testing, each {@{unit takes 60/20 = 3&nbsp;minutes}@}. The capacity is thus {@{60/3 = 20 units per hour}@}. Thus, {@{utilization is 12/20 = 60%}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -95,7 +95,7 @@ tags:
 > What is the process capacity?
 >
 > - solution: {@{3 units per hour}@}
-> - explanation: {@{For people, each unit takes 5+15 = 20&nbsp;minutes. Its capacity is 3 units per hour. For transporter, each unit takes 15&nbsp;minutes. Its capacity is 4\*3 = 12 units per hour. For machine, each unit takes 60&nbsp;minutes. Its capacity is 1\*20 = 20 units per hour. So people is the bottleneck resource, thus its capacity is the process capacity.}@}
+> - explanation: For people, each {@{unit takes 5+15 = 20&nbsp;minutes}@}. Its capacity is {@{3 units per hour}@}. For transporter, each {@{unit takes 15&nbsp;minutes}@}. Its capacity is {@{4\*3 = 12 units per hour}@}. For machine, each {@{unit takes 60&nbsp;minutes}@}. Its capacity is {@{1\*20 = 20 units per hour}@}. So {@{people is the bottleneck resource}@}, thus its {@{capacity is the process capacity}@}.
 > - annotation: {@{The person resource is explicitly set to 1 person to simplify the calculations.}@}
 
 <!-- markdownlint MD028 -->
@@ -121,7 +121,7 @@ tags:
 > You manage a theater. The theater can hold 4 shows at a time. You expect to start at most 3 shows in an hour. What should be the maximum show duration? Assume the process is _stable_.
 >
 > - solution: {@{80 minutes}@}
-> - explanation: {@{The required average inventory is 4 shows. The required arrival rate is 3 shows per hour. By Little's law, required flow time = 4/3&nbsp;hours = 80&nbsp;minutes.}@}
+> - explanation: {@{The required average inventory}@} is {@{4 shows}@}. {@{The required arrival rate}@} is {@{3 shows per hour}@}. By {@{Little's law}@}, {@{required flow time = 4/3&nbsp;hours = 80&nbsp;minutes}@}.
 
 <!-- markdownlint MD028 -->
 

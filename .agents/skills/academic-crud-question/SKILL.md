@@ -13,9 +13,9 @@ Problems and exercises from any source (lectures, labs, tutorials, problem sets,
 
 For multi-page question sets: `questions/<name>/index.md` with child pages.
 
-A question page for non-in-class material — a take-home problem set, an iPR set — is written to the private tree: `private/special/academia/<INSTITUTION>/<COURSE>/questions/<name>.md`, with its `attachments/` mirrored beside it. In-class exercise and quiz pages stay public. The public `questions/index.md` links a private page with the ordinary colocated path (see "Public and private trees" in `academic-ingest`).
+A question page for non-in-class material — a take-home problem set, an iPR set — is written to the private tree: `private/special/academia/<INSTITUTION>/<COURSE>/questions/<name>.md`, with its `attachments/` mirrored beside it. In-class exercise and quiz pages stay public, while their `attachments/` still write to the private mirror. The public `questions/index.md` links a private page with the ordinary colocated path (see "Public and private trees" in `academic-ingest`).
 
-The `##` sections inside a question page group questions by concept or question type, not by the source's layout or ordering (see "Grouping: concepts, not source layout" in `academic-crud-topic-note`).
+The `##` sections inside a question page group questions by concept or question type, not by the source's layout or ordering (see "Grouping: concepts, not source layout" in `academic-crud-topic-note`). A single quiz set that arrived as one ordered sequence is the exception: it stays one section, headed `## quiz`, in the order the quiz asked its questions, with each item answered by a question block, because that order is the material and the reader met the items in it.
 
 ## CRUD operations
 
@@ -32,7 +32,7 @@ The `##` sections inside a question page group questions by concept or question 
 aliases:
   - <INSTITUTION> <COURSE> <name>
 tags:
-  - flashcard/active/special/academia/<INSTITUTION>/<COURSE>/questions/<name>
+  - flashcard/inactive/special/academia/<INSTITUTION>/<COURSE>/questions/<name>
   - language/in/English
 ---
 
@@ -49,18 +49,20 @@ tags:
 
 > **Problem 1.** <problem statement>
 >
-> **Solution:**
-> <solution with cloze flashcards>
+> ---
+>
+> - solution: {@{<the answer>}@}
 
 <!-- markdownlint MD028 -->
 
 > **Problem 2.** <problem statement>
 >
-> **Solution:**
-> <solution>
+> ---
+>
+> - solution: {@{<the answer>}@}
 ```
 
-1. __Add cloze flashcards__ to the solutions. A question page uses `{@{ }@}`, never QA format, and the clozes go on the `- solution:` and `- explanation:` lines rather than on the question text or the choices. Splitting prose from an equation, clozeing a technique name such as `{@{Swap sum order}@}`, and the per-line coverage target are in `create-flashcards`; the block layout is in "Cloze flashcards in question blocks" in `academic-ingest`.
+1. __Add cloze flashcards__ to the solutions. A question page uses `{@{ }@}`, never QA format, and the clozes go on the `- solution:`, `- explanation:` and `- annotation:` lines rather than on the question text or its choices. Splitting prose from an equation, clozeing a technique name such as `{@{Swap sum order}@}`, and the per-line coverage target are in `create-flashcards`; the solution names each option's number and text where the question lists choices, and the block shape is in "Question blocks" in `academic-ingest`.
 2. __Create `questions/index.md`__ via `academic-crud-index` if this is the first question page.
 3. __Reconcile the topic notes.__ A problem set names far more than it develops. Start from the concepts whose solutions actually turn on, then extend, prune, or create them, or record that they are covered (see "Topic-note reconciliation (mandatory)" in `academic-ingest`). A question page is not the home of a durable concept, and a concept it only names needs no note.
 
@@ -70,7 +72,7 @@ List the question pages, search them by topic, and show flashcard coverage.
 
 ### Update
 
-Add questions and work on their solutions. Every solution needs a cloze, every explanation needs several, and a question that shares a concept with a topic note points back at it as `(from Problem N)`.
+Add questions and work on their solutions. A solution carries one cloze holding the answer, with the number and text of every option it names where the question lists choices; an explanation appears only where the answer takes a step, or where one fact covers a set of options. A question that shares a concept with a topic note points back at it as `(from Problem 2.b.)`.
 
 ### Delete
 
@@ -83,14 +85,16 @@ Use `\[missing\]` for absent values, such as a problem with no solution yet or a
 ## Blockquote formatting
 
 - Official problems in blockquotes (`>`)
-- `> Solution:` on its own line within each blockquote
+- A question in parts opens each part on its label, `> 5.a. ...`, and restates the premises that part needs, because a block is read without its siblings
+- `> - solution:` on its own line within each blockquote, below the `> ---` rule. It takes the shape the question needs: one option, `{@{3. (c)}@}`; several options in the one cloze, `{@{2. 115 dollars and 3. 114 dollars}@}`, each name written `<number>. <choice text>` and joined by `and`, a comma, `&` or a semicolon; a free-response answer where the source lists no choices, `{@{<the answer>}@}`; or the result of a worked answer, whose steps sit on `- explanation:` below it
+- One item per slot in a block. A step the item still has to take continues on the line below it, that line indented four spaces past the quote space with `<br/>` ending the line above; a blank `>` line opens a new paragraph inside the same item
 - `<!-- markdownlint MD028 -->` between adjacent blockquotes
 - Blank blockquote lines (`>`) between display math and prose:
 
 ```markdown
 > $$f_X(x) = \lambda e^{-\lambda x}$$
 >
-> The CDF is obtained by integrating.
+> The cumulative distribution function (CDF) is obtained by integrating.
 ```
 
 Every line inside a blockquote must begin with `>`, blank lines included.
@@ -99,7 +103,7 @@ Every line inside a blockquote must begin with `>`, blank lines included.
 
 - Decompose → apply bound/theorem → evaluate → conclude
 - Show intermediate steps (antiderivative, geometric-series closed form, factorial-ratio simplification)
-- Cross-reference: `(from Problem 2(b))`
+- Cross-reference: `(from Problem 2.b.)`
 - True/false: `__False.__` with a counterexample; `__True.__` with a theorem reference
 - Alternative solutions: `__Alternative (method name):__` bold header
 - Cloze as logical implication: visible premise → hidden conclusion
@@ -137,6 +141,7 @@ This pairing is the one case that keeps two pages; the default routing rule live
 - `{@{ }@}` must never appear inside `$…$` or `$$…$$`; wrap from outside
 - Place `}@}` before trailing punctuation
 - Progressive difficulty: simple case first, then extend
+- Solutions and explanations are authored text: every acronym, abbreviation, or personal name on a cloze line carries its full form on that same line (see "Full forms on every card" in `create-flashcards`); the quoted question text is verbatim and exempt
 - __Humanizer pass__: sweep solution and explanation prose after inserting clozes, keeping the hint words that make each deletion answerable. Quoted question text stays verbatim (see "Humanizer pass" in `academic-ingest`).
 
 ## References

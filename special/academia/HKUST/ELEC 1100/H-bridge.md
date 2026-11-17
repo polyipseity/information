@@ -59,9 +59,9 @@ Flashcards for this section are as follows:
 - why saturation for H-bridge transistors ::@:: Brushed motors need high current; saturation (fully on) gives maximum collector current.
 - course H-bridge layout ::@:: Top side (supply to motor): both PNP. Bottom side (motor to ground): both NPN. Each leg has one PNP and one NPN.
 - why both NPN and PNP ::@:: The top row PNPs switch the positive rail; the bottom row NPNs switch to ground. One current path goes supply → PNP → motor → NPN → ground.
-- NPN in H-bridge ::@:: Three terminals C, B, E; emitter arrow out. Base HIGH turns it on; current flows C → E. Both bottom-side transistors are NPN. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- PNP in H-bridge ::@:: Three terminals C, B, E; emitter arrow in. Base LOW turns it on; current flows E → C. Both top-side transistors are PNP. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- one-diagonal current path ::@:: Supply → PNP (top) → motor → NPN (bottom) → ground. One diagonal is on; the other is off. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- NPN in H-bridge ::@:: Three terminals C, B, E; emitter arrow out. Base HIGH turns it on; current flows C → E. Both bottom-side transistors are NPN.
+- PNP in H-bridge ::@:: Three terminals C, B, E; emitter arrow in. Base LOW turns it on; current flows E → C. Both top-side transistors are PNP.
+- one-diagonal current path ::@:: Supply → PNP (top) → motor → NPN (bottom) → ground. One diagonal is on; the other is off.
 
 ### base voltage pattern
 
@@ -72,7 +72,7 @@ The control voltages at the bases (Va, Vb, Vc, Vd) are set as follows: for one d
 Flashcards for this section are as follows:
 
 - base voltage pattern ::@:: One direction: Va, Vd HIGH; Vb, Vc LOW. Opposite: Vb, Vc HIGH; Va, Vd LOW.
-- complementary pairs ::@:: Two complementary signal pairs steer one diagonal on and the other off. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- complementary pairs ::@:: Two complementary signal pairs steer one diagonal on and the other off.
 
 ## single direction (DIR) signal and the need for an inverter
 
@@ -86,7 +86,7 @@ Flashcards for this section are as follows:
 
 - why an inverter is needed ::@:: One DIR signal drives one diagonal; the other diagonal needs the opposite level. An inverter produces that complementary level from the same DIR.
 - DIR signal meaning ::@:: DIR = $5\text{ V}$ selects one direction; DIR = $0\text{ V}$ selects the opposite.
-- inverter output ::@:: Feeds the opposite diagonal's bases, so both logic levels are available from one DIR line. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- inverter output ::@:: Feeds the opposite diagonal's bases, so both logic levels are available from one DIR line.
 
 ## 74HC14 hex inverter
 
@@ -98,8 +98,8 @@ The course uses the __74HC14__ integrated circuit, a hex inverter: it contains s
 
 Flashcards for this section are as follows:
 
-- 74HC14 identity ::@:: Hex inverter IC: six independent inverters in one package; each inverts its input. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- 74HC14 logic ::@:: INPUT LOW → OUTPUT HIGH; INPUT HIGH → OUTPUT LOW. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- 74HC14 identity ::@:: Hex inverter IC: six independent inverters in one package; each inverts its input.
+- 74HC14 logic ::@:: INPUT LOW → OUTPUT HIGH; INPUT HIGH → OUTPUT LOW.
 - inverters needed for two motors ::@:: Two (one per motor); four remain unused.
 
 ### power and pinout
@@ -110,7 +110,7 @@ The IC does not generate power: __VCC__ (pin 14 for the standard 14-pin package)
 
 Flashcards for this section are as follows:
 
-- 74HC14 pinout <p> ![74HC14 pinout](attachments/74hc14_pinout.svg) ::@:: 14-pin DIP; pin 7 = GND, pin 14 = VCC; pins 1A/1Y, 2A/2Y, etc. for the six inverters. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
+- 74HC14 pinout <p> ![74HC14 pinout](attachments/74hc14_pinout.svg) ::@:: 14-pin DIP; pin 7 = GND, pin 14 = VCC; pins 1A/1Y, 2A/2Y, etc. for the six inverters.
 - 74HC14 power ::@:: VCC connects to the positive supply (5 V in the course); GND to ground. The IC does not generate its own power.
 - 74HC14 pin numbering ::@:: Identify the top notch; pin 1 is top left; pins run down the left (1–7) and up the right (8–14).
 

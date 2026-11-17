@@ -97,7 +97,7 @@ Flashcards for this section are as follows:
 
 - the factors that produce a flashbulb memory ::@:: Strong emotion, personal consequence, and surprise during encoding, reinforced by rehearsal straight afterwards.
 - what recoding does to information ::@:: It converts the material into a form that makes sense to you, such as an acronym, a category, or a chunk.
-- what a DRM word list exploits ::@:: The brain stores the meaning shared by the items, so an unstudied word carrying that meaning feels studied.
+- what a DRM (Deese–Roediger–McDermott) word list exploits ::@:: The brain stores the meaning shared by the items, so an unstudied word carrying that meaning feels studied.
 - how pragmatic inference produces false recognition ::@:: The inference added while listening is stored with the words, so the implied version is later recognised as the one heard.
 - what separates the spacing effect from the generation effect ::@:: Spacing spreads the same study time over days; generation has the learner produce the answer instead of reading it.
 - why spacing and generation are desirable difficulties ::@:: The delay and the effort make learning feel worse at the time and produce stronger long-term retention.

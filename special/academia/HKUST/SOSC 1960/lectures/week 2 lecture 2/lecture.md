@@ -32,7 +32,7 @@ Google Scholar came up most often, then APA PsycInfo, EBSCO, PubMed, Scopus, Pro
 
 Flashcards for this section are as follows:
 
-- AI tool offered among the answers ::@:: Perplexity.
+- artificial intelligence (AI) tool offered among the answers ::@:: Perplexity.
 - databases the class named ::@:: Google Scholar most often, then APA PsycInfo, EBSCO, PubMed, Scopus, ProQuest, JSTOR, IEEE Xplore, ScienceDirect, and arXiv.
 
 ## reading a study for a question

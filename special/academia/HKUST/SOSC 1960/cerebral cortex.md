@@ -42,7 +42,7 @@ Flashcards for this section are as follows:
 - the two sulci marked on the photograph: ![A photograph of the left side of a brain, its ridges and grooves visible, with a blue line marking the central sulcus, a blue line along the lateral sulcus, and numbers pointing at the frontal, parietal, temporal and occipital lobes and at the frontal, temporal and occipital poles](attachments/Human%20brain%20lateral%20view%20description.JPG) ::@:: A blue line running from near the top edge of the hemisphere down its outer surface for the central sulcus, a second blue line along the lateral sulcus, and numbers pointing at the four lobes and the three poles.
 - draw the photograph's numbering: which three numbers sit at the ends of the hemisphere? ::@:: 9 at the frontal pole, 10 at the occipital pole, and 11 at the temporal pole. <p> ![A photograph of the left side of a brain, its ridges and grooves visible, with a blue line marking the central sulcus, a blue line along the lateral sulcus, and numbers pointing at the frontal, parietal, temporal and occipital lobes and at the frontal, temporal and occipital poles](attachments/Human%20brain%20lateral%20view%20description.JPG)
 
-## the four lobes
+## four lobes
 
 The frontal lobe sits in front of the central sulcus and carries reasoning, planning, speech, movement, emotion, and problem solving. It holds the motor cortex, the strip of cortex lying immediately in front of the central sulcus, which drives voluntary movement.
 

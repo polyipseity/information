@@ -16,8 +16,8 @@ Flashcards for this section are as follows:
 
 - what does classical physics name ::@:: The physical theory that predates quantum mechanics and relativity; in historical discussions, physics before 1900.
 - the three parts of classical physics at the end of the 19th century ::@:: Mechanics, electromagnetism, and thermodynamics.
-- Michelson's 1894 remark: what he said remained for future discovery ::@:: Discoveries "must be looked for in the sixth place of decimals".
-- Comte's remark on what is necessary to understand a science ::@:: That it is necessary to know its history.
+- Albert A. Michelson's 1894 remark: what he said remained for future discovery ::@:: Discoveries "must be looked for in the sixth place of decimals".
+- Auguste Comte's remark on what is necessary to understand a science ::@:: That it is necessary to know its history.
 
 ## mechanics
 
@@ -27,8 +27,8 @@ Mechanics was given its experimental foundations by Galileo (1564–1642) and it
 
 Flashcards for this section are as follows:
 
-- the founders of mechanics ::@:: Galileo established its experimental foundations, and Newton supplied its laws of motion and gravitation.
-- what Newton's unification joined ::@:: Planetary motion and motion on Earth: the planets about the Sun follow the same laws as apples falling or balls flying.
+- the founders of mechanics ::@:: Galileo Galilei established its experimental foundations, and Isaac Newton supplied its laws of motion and gravitation.
+- what Isaac Newton's unification joined ::@:: Planetary motion and motion on Earth: the planets about the Sun follow the same laws as apples falling or balls flying.
 
 ### laws of motion
 
@@ -61,8 +61,8 @@ Electromagnetism was built up by Coulomb (1736–1806), Young (1773–1829), Amp
 
 Flashcards for this section are as follows:
 
-- the people behind electromagnetism: the five born before 1790 ::@:: Coulomb (1736–1806), Young (1773–1829), Ampère (1775–1836), Ørsted (1777–1851), and Gauss (1777–1855).
-- the people behind electromagnetism: the four born after 1790 ::@:: Faraday (1791–1867), Henry (1797–1878), Maxwell (1831–1879), and Hertz (1857–1894).
+- the people behind electromagnetism: the five born before 1790 ::@:: Charles-Augustin de Coulomb (1736–1806), Thomas Young (1773–1829), André-Marie Ampère (1775–1836), Hans Christian Ørsted (1777–1851), and Carl Friedrich Gauss (1777–1855).
+- the people behind electromagnetism: the four born after 1790 ::@:: Michael Faraday (1791–1867), Joseph Henry (1797–1878), James Clerk Maxwell (1831–1879), and Heinrich Hertz (1857–1894).
 
 <!-- check: ignore-next-line[header_style]: Maxwell is a proper noun -->
 ### Maxwell's equations
@@ -86,8 +86,8 @@ Thermodynamics was developed by Benjamin Thompson (1753–1814), Avogadro (1776�
 
 Flashcards for this section are as follows:
 
-- the people behind thermodynamics: the four born before 1820 ::@:: Benjamin Thompson (1753–1814), Avogadro (1776–1856), Carnot (1796–1832), and Joule (1818–1889).
-- the people behind thermodynamics: the four born after 1820 ::@:: Clausius (1822–1888), William Thomson, later Lord Kelvin (1824–1907), Maxwell (1831–1879), and Boltzmann (1844–1906).
+- the people behind thermodynamics: the four born before 1820 ::@:: Benjamin Thompson (1753–1814), Amedeo Avogadro (1776–1856), Sadi Carnot (1796–1832), and James Prescott Joule (1818–1889).
+- the people behind thermodynamics: the four born after 1820 ::@:: Rudolf Clausius (1822–1888), William Thomson, later Lord Kelvin (1824–1907), James Clerk Maxwell (1831–1879), and Ludwig Boltzmann (1844–1906).
 
 ### first and second laws
 

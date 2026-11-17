@@ -18,8 +18,9 @@ tags:
 
 - title: Homework #2: Transport Layer
 - due: 2026-10-16T23:59:59+08:00
-- points: \[missing\]
-- submitting: \[missing\]
+- points: 30
+- grade: 30/30
+- submitting: an online quiz
 
 ---
 
@@ -40,8 +41,14 @@ __Late Policy__:
 
 ## submission
 
-- submission
+- submission: [assignment](assignment.md)
+    - metadata: [`submission.yml`](submission.yml)
+    - source: [`submission_436096084.pdf`](submission/submission_436096084.pdf)
 
 ## solution
 
 - \[missing\]
+
+## children
+
+- [assignment](assignment.md)

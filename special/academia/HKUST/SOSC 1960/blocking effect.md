@@ -21,7 +21,7 @@ Flashcards for this section are as follows:
 - what blocking is ::@:: A cue that turns up before an event every time still acquires no association when something else already predicts the event.
 - how blocking differs from interference ::@:: Blocking stops the new association from forming. Interference is a prior association disrupting one that was learned.
 
-## the three phases
+## three phases
 
 A blocking experiment runs in three phases. In the first, a cue is paired with the outcome until the organism responds to it alone, making it a genuine predictor. In the second, that cue still pairs with the outcome. A second, previously neutral cue is presented on its own, just before that pairing. In the third, the test, the second cue is presented alone.
 
@@ -47,7 +47,13 @@ A conditioned stimulus acquires an association only when the outcome might have 
 
 The learner takes in the most valid predictors of significant events and ignores the rest. "Valid" means predictive, not merely frequent. A redundant cue earns nothing for turning up.
 
-Attention is a condition on learning, not a faculty the learner either has or lacks. It decides which cue an association attaches to, in proportion to the surprise that cue generates. [Preparededness](preparedness%20(learning).md) is the boundary case: an association forms on a cue that raises no surprise.
+Attention is a condition on learning, not a faculty the learner either has or lacks. It decides which cue an association attaches to, in proportion to the surprise that cue generates. [Preparedness](preparedness%20(learning).md) is the boundary case: an association forms on a cue that raises no surprise.
+
+A new manager makes this concrete.
+
+Jim, a new manager, must tell his staff the company is making pay cuts. The announcement is the unconditioned stimulus, and the staff's displeasure is the unconditioned response. Jim is a neutral cue. Steve has given many unpopular announcements, so staff are upset when they see him. He already predicts the announcement and carries the displeasure. Jim is the second cue, arriving together with Steve.
+
+Pairing the announcement with Jim predicts nothing new. Jim acquires no association, and the staff stay calm at the sight of him. An announcement Jim makes while Steve is absent is a surprise, because nothing in the room predicted it. The displeasure attaches to Jim. Blocking is a claim about which cue is present when the event arrives, not which manager is more senior.
 
 ---
 
@@ -60,16 +66,6 @@ Flashcards for this section are as follows:
 - what a redundant cue earns ::@:: Nothing, for turning up.
 - how attention is allocated across cues ::@:: In proportion to the surprise each cue generates.
 - what shows attention is a condition on learning rather than something the learner has or lacks ::@:: Preparedness, where an association forms on a cue that raises no surprise at all.
-
-## a new manager's first announcement
-
-Jim, a new manager, must tell his staff the company is making pay cuts. The announcement is the unconditioned stimulus, and the staff's displeasure is the unconditioned response. Jim is a neutral cue. Steve has given many unpopular announcements, so staff are upset when they see him. He already predicts the announcement and carries the displeasure. Jim is the second cue, arriving together with Steve.
-
-Pairing the announcement with Jim predicts nothing new. Jim acquires no association, and the staff stay calm at the sight of him. An announcement Jim makes while Steve is absent is a surprise, because nothing in the room predicted it. The displeasure attaches to Jim. Blocking is a claim about which cue is present when the event arrives, not which manager is more senior.
-
----
-
-Flashcards for this section are as follows:
 
 - how the staff react when the new manager appears ::@:: Steve already predicts the pay-cut announcement, so pairing it with Jim blocks any association to Jim. The staff stay calm at the sight of the new manager.
 - the unconditioned stimulus in the new-manager example ::@:: The announcement that the company is making pay cuts.

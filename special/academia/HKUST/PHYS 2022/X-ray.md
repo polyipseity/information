@@ -27,8 +27,8 @@ Röntgen found them while studying cathode rays passing through various material
 Flashcards for this section are as follows:
 
 - the discovery of X-rays: the date, discoverer, and Nobel year ::@:: 8 November 1895, by Wilhelm Röntgen; Nobel Prize in Physics 1901.
-- Röntgen's key observation: what told him the rays were not cathode rays ::@:: They were unaffected by magnetic fields (not charged) and penetrated materials more than cathode rays.
-- the three properties of X-rays as Röntgen found them ::@:: They penetrate materials further than cathode rays, they make many materials fluoresce, and they darken photographic film.
+- Wilhelm Röntgen's key observation: what told him the rays were not cathode rays ::@:: They were unaffected by magnetic fields (not charged) and penetrated materials more than cathode rays.
+- the three properties of X-rays as Wilhelm Röntgen found them ::@:: They penetrate materials further than cathode rays, they make many materials fluoresce, and they darken photographic film.
 
 ## bremsstrahlung
 
@@ -100,10 +100,10 @@ Scattering from matter is elastic at these energies. An incident X-ray photon ma
 
 Flashcards for this section are as follows:
 
-- what Barkla's measurements of the early 1900s showed about X-rays ::@:: Each element emits X-rays of its own characteristic wavelengths, and X-rays show polarisation, so they are electromagnetic waves.
+- what Charles Barkla's measurements of the early 1900s showed about X-rays ::@:: Each element emits X-rays of its own characteristic wavelengths, and X-rays show polarisation, so they are electromagnetic waves.
 - why X-rays resisted the diffraction that visible light showed ::@:: A grating diffracts strongly only when its spacing approaches the wavelength, and X-ray wavelengths were suspected to be far shorter than those of visible light.
 - the X-ray wavelength range $\lambda$ that Wilhelm Wien and Arnold Sommerfeld estimated ::@:: Between $10^{-10}$ and $10^{-11}\ \text{m}$.
-- what Laue's 1912 crystal diffraction established about X-rays, and the wavelength scale $\lambda$ it showed ::@:: X-rays are electromagnetic waves of very short wavelength near $10^{-10}\ \text{m}$, with diffraction maxima only along specific directions.
+- what Max von Laue's 1912 crystal diffraction established about X-rays, and the wavelength scale $\lambda$ it showed ::@:: X-rays are electromagnetic waves of very short wavelength near $10^{-10}\ \text{m}$, with diffraction maxima only along specific directions.
 - why the scattering of an X-ray photon by an atom is elastic ::@:: Because the photon drives the atom's electrons to oscillate and is re-emitted with the same energy in a different direction, with no energy transfer, no ionisation, and no electron ejection.
 
 ## synchrotron radiation

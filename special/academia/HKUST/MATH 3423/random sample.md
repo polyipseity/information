@@ -21,7 +21,7 @@ Flashcards for this section are as follows:
 - what makes the copies $X_1, \ldots, X_n$ of a random variable $X$ a random sample ::@:: They are independent of one another and identically distributed with the law of $X$, which is assumed unless stated otherwise.
 - which value of $X_i$ is meant by $x_i$ ::@:: The actual value taken by the $i$-th copy $X_i$ of $X$.
 
-## the i.i.d. assumption
+## i.i.d. assumption
 
 Independence says no copy of $X$ carries information about any other. Probabilities for the sample then multiply, and $\operatorname{Var}(X_1 + \cdots + X_n) = \operatorname{Var}(X_1) + \cdots + \operatorname{Var}(X_n)$.
 

@@ -25,13 +25,13 @@ Flashcards for this section are as follows:
 
 ## electromagnetic spectrum
 
-Waves are classified by wavelength. The spectrum runs from $10\ \text{m}$ down to $10^{-13}\ \text{m}$, and its frequencies $f = c/\lambda$ from about $3 \times 10^{7}\ \text{Hz}$ to $3 \times 10^{21}\ \text{Hz}$. The bands, in order of decreasing wavelength: radio and TV, microwave, infrared, visible light, ultraviolet, X-rays, gamma rays. Nearly all the [thermal radiation](thermal%20radiation.md) from an ordinary object lands in the [infrared band](infrared.md), immediately beyond red.
+Waves are classified by wavelength. The spectrum runs from $10\ \text{m}$ down to $10^{-13}\ \text{m}$, and its frequencies $f = c/\lambda$ from about $3 \times 10^{7}\ \text{Hz}$ to $3 \times 10^{21}\ \text{Hz}$. The bands, in order of decreasing wavelength: radio and television (TV), microwave, infrared, visible light, ultraviolet, X-rays, gamma rays. Nearly all the [thermal radiation](thermal%20radiation.md) from an ordinary object lands in the [infrared band](infrared.md), immediately beyond red.
 
 ---
 
 Flashcards for this section are as follows:
 
-- the electromagnetic spectrum: the bands in order of decreasing wavelength ::@:: Radio and TV, microwave, infrared, visible light, ultraviolet, X-rays, and gamma rays.
+- the electromagnetic spectrum: the bands in order of decreasing wavelength ::@:: Radio and television (TV), microwave, infrared, visible light, ultraviolet, X-rays, and gamma rays.
 - the electromagnetic spectrum: the wavelength range $\lambda$ and frequency range $f$ it spans ::@:: $\lambda$ from $10\ \text{m}$ to $10^{-13}\ \text{m}$, and $f = c/\lambda$ from about $3 \times 10^{7}\ \text{Hz}$ to $3 \times 10^{21}\ \text{Hz}$.
 - the band just beyond red, and where nearly all of an ordinary object's thermal radiation lands ::@:: Infrared.
 
@@ -80,9 +80,9 @@ A receiving antenna detects the wave: its electric field exerts a force $\vec{F}
 Flashcards for this section are as follows:
 
 - a receiving antenna: what makes it respond to the wave ::@:: The wave's electric field exerts a force $\vec{F} = -e\vec{E}$ on free electrons, driving a current at the same frequency. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
-- the confirmation of Maxwell's prediction: who detected the waves, when, and at what distance $d$ ::@:: Hertz, in 1886, at $d = 15\ \text{m}$.
-- the wavelength $\lambda$ of the electromagnetic waves Hertz generated and detected against the visible range ::@:: Far outside the visible range, of order $\lambda \approx 5\ \text{m}$.
-- Hertz on the practical use of his discovery ::@:: He called the waves "of no use whatsoever", and when asked about their applications, "Nothing, I guess."
+- the confirmation of James Clerk Maxwell's prediction: who detected the waves, when, and at what distance $d$ ::@:: Heinrich Hertz, in 1886, at $d = 15\ \text{m}$.
+- the wavelength $\lambda$ of the electromagnetic waves Heinrich Hertz generated and detected against the visible range ::@:: Far outside the visible range, of order $\lambda \approx 5\ \text{m}$.
+- Heinrich Hertz on the practical use of his discovery ::@:: He called the waves "of no use whatsoever", and when asked about their applications, "Nothing, I guess."
 
 ## wireless communication
 
@@ -92,6 +92,6 @@ Guglielmo Marconi (1874–1937) turned the waves Hertz dismissed into a radiotel
 
 Flashcards for this section are as follows:
 
-- Marconi's system, built from the waves Hertz had dismissed, and the date the first radio message crossed the Atlantic ::@:: A radiotelegraph system; 17 December 1902.
+- Guglielmo Marconi's system, built from the waves Heinrich Hertz had dismissed, and the date the first radio message crossed the Atlantic ::@:: A radiotelegraph system; 17 December 1902.
 - the first radio message to cross the Atlantic: the points it was sent from and received at ::@:: Glace Bay in Nova Scotia, and Poldhu in Cornwall.
-- the year Marconi received the Nobel Prize in Physics ::@:: 1909.
+- the year Guglielmo Marconi received the Nobel Prize in Physics ::@:: 1909.

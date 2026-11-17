@@ -13,14 +13,18 @@ from main_mods.models import AstNode, Frontmatter, Severity, ValidationContext
 from main_mods.rules import (
     RULE_REGISTRY,
     _mirror_base,
+    _split_answer_label,
     agents_no_flashcard_markup,
     agents_title,
     aliases_sorted,
+    answer_formula_alone,
+    answer_visible_calculation,
     assignment_index_heading,
     assignment_index_metadata,
     assignment_index_sections,
     cloze_article_before,
     cloze_excessive_coverage,
+    cloze_glue,
     cloze_insufficient_coverage,
     cloze_no_hint_words,
     cloze_no_nested,
@@ -32,6 +36,7 @@ from main_mods.rules import (
     cloze_wrong_token,
     content_sentence_too_long,
     find_math_spans,
+    flashcard_tag_state,
     flashcard_tag_unique,
     folder_link_trailing_slash,
     header_deep_nesting,
@@ -94,6 +99,7 @@ from main_mods.rules import (
     session_missing_topic,
     session_optional_status,
     session_semester_match,
+    session_topic_source_unit,
     session_unscheduled_with_topic,
     tag_index_function,
     tag_language,
@@ -900,6 +906,40 @@ def test_tag_path_flash_private_file_uses_public_tag():
     assert not tag_path_flash(make_ctx(txt, path=public))
 
 
+def test_flashcard_tag_state_follows_the_tree():
+    """A private file tags inactive; a public file tags active."""
+
+    public = Path("/repo/special/academia/HKUST/TEST/note.md")
+    private = Path("/repo/private/special/academia/HKUST/TEST/note.md")
+    active = "---\naliases: [a]\ntags: [flashcard/active/special/academia/HKUST/TEST/note]\n---\n"
+    inactive = "---\naliases: [a]\ntags: [flashcard/inactive/special/academia/HKUST/TEST/note]\n---\n"
+
+    assert not flashcard_tag_state(make_ctx(active, path=public))
+    assert not flashcard_tag_state(make_ctx(inactive, path=private))
+
+    public_msg = flashcard_tag_state(make_ctx(inactive, path=public))
+    assert public_msg and public_msg[0].rule_id == "flashcard_tag_state"
+    assert public_msg[0].severity is Severity.ERROR
+    assert "public tree" in public_msg[0].msg
+
+    private_msg = flashcard_tag_state(make_ctx(active, path=private))
+    assert private_msg and private_msg[0].severity is Severity.ERROR
+    assert "private tree" in private_msg[0].msg
+
+    # an untagged file is metadata_flash_tag's business, not this rule's
+    assert not flashcard_tag_state(
+        make_ctx("---\naliases: [a]\ntags: [language/in/English]\n---\n", path=private)
+    )
+
+
+def test_tag_path_flash_hashes_to_underscore():
+    """A `#` in a path segment becomes an underscore, like a space."""
+
+    path = Path("/repo/special/academia/HKUST/TEST/assignments/assignment #2/index.md")
+    txt = "---\ntags: [flashcard/inactive/special/academia/HKUST/TEST/assignments/assignment_2/index]\n---\n"
+    assert not tag_path_flash(make_ctx(txt, path=path))
+
+
 def test_mirror_base_toggles_private_segment():
     """The mirror of a base toggles the `private` segment before `special`."""
     assert _mirror_base(Path("special/academia/HKUST/TEST")) == Path(
@@ -987,6 +1027,19 @@ def test_header_flashcard_presence_applies_to_all_levels():
     txt2 = "# Topic\nSome text\n\nTerm ::@:: Definition\n"
     ctx2 = make_ctx(txt2, path=Path("/tmp/file.md"))
     assert not header_flashcard_presence(ctx2)
+
+
+def test_header_flashcard_presence_ignores_a_suppression_comment():
+    """A comment is not content, so a heading holding only one owns nothing."""
+    txt = (
+        "# Topic\n\n"
+        "<!-- check: ignore-next-line[header_style]: proper noun -->\n"
+        "## Carroll's pyramid\n\nA claim sits here.\n\n"
+        "---\n\nFlashcards for this section are as follows:\n\n"
+        "- a claim ::@:: an answer\n"
+    )
+    ctx = make_ctx(txt, path=Path("/tmp/file.md"))
+    assert not header_flashcard_presence(ctx)
 
     # question pages under questions/ are exempt even if they lack per-section flashcard blocks
     txt3 = "# week 2 tutorial\n\n## official material\n\n> quoted question\n"
@@ -1577,6 +1630,45 @@ def test_session_topic_rules():
         assert not session_missing_topic(ctx_nc), (
             "no-class / public holiday sessions may omit topic"
         )
+
+
+def test_session_topic_source_unit():
+    """A topic naming the material is flagged; a topic naming the subject is not."""
+
+    def topic_ctx(topic: str):
+        """Build a course index whose one session carries *topic* as its topic."""
+        return make_ctx(
+            "## week 1 lecture 1\n"
+            "- datetime: 2023-01-01T10:00\n"
+            "- venue: Room 1\n"
+            f"- topic: {topic}\n"
+        )
+
+    for bad in (
+        "class note 5 (trade, traders, and data issues)",
+        "class notes #5 and #6",
+        "notes #5 and #6",
+        "class note 9, remaining material",
+        "the handout and its slides",
+    ):
+        msgs = session_topic_source_unit(topic_ctx(bad))
+        assert msgs and msgs[0].rule_id == "session_topic_source_unit", (
+            f"expected a source-unit error for {bad!r}"
+        )
+
+    for good in (
+        "orders and quotes; limit and market orders",
+        "the exchange as a system: gateways, matches, sequencing",
+        "policy notes on market quality",
+    ):
+        assert not session_topic_source_unit(topic_ctx(good)), (
+            f"unexpected source-unit error for {good!r}"
+        )
+
+    # A session without a topic line is another rule's business.
+    assert not session_topic_source_unit(
+        make_ctx("## week 1 lecture 1\n- datetime: 2023-01-01T10:00\n- venue: Room 1\n")
+    )
 
 
 def test_parse_session_headers_recurrent():
@@ -2258,7 +2350,7 @@ def test_cloze_wrong_token_dollar_typos():
 
 
 def test_cloze_insufficient_coverage_rule():
-    """Cloze coverage should be flagged when below 80%."""
+    """Cloze coverage should be flagged when below 85%."""
 
     # Paragraph with ~50% coverage — insufficient warning
     bad = make_ctx(
@@ -2266,7 +2358,7 @@ def test_cloze_insufficient_coverage_rule():
     )
     msgs = cloze_insufficient_coverage(bad)
     assert msgs and any(
-        "cloze coverage is" in m.msg and "target is ≥80%" in m.msg for m in msgs
+        "cloze coverage is" in m.msg and "target is ≥85%" in m.msg for m in msgs
     )
 
     # Paragraph with ~90% coverage — no warning
@@ -2313,6 +2405,29 @@ def test_cloze_insufficient_coverage_rule():
         "> Solution: {@{the series current}@} is {@{$I = 2.5\\text{ mA}$}@}.\n"
     )
     assert not cloze_insufficient_coverage(plain_solution)
+
+
+def test_cloze_insufficient_coverage_silent_on_an_annotation_block():
+    """An annotation is an answer line, so its paragraph is not measured."""
+    front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+    measured = make_ctx(
+        front
+        + "> Why is the flat so cheap?\n"
+        + ">\n"
+        + "> - remark: {@{the previous owner died there}@} and the price reflects it.\n"
+    )
+    assert [m.rule_id for m in cloze_insufficient_coverage(measured)] == [
+        "cloze_insufficient_coverage"
+    ]
+
+    annotation = make_ctx(
+        front
+        + "> Why is the flat so cheap?\n"
+        + ">\n"
+        + "> - annotation: {@{the previous owner died there}@} and the price reflects it.\n"
+    )
+    assert not cloze_insufficient_coverage(annotation)
+    assert not cloze_excessive_coverage(annotation)
 
 
 def test_cloze_excessive_coverage_rule():
@@ -2688,12 +2803,12 @@ def test_cloze_no_hint_words_rule():
     no_tag = make_ctx("---\ntags: []\n---\nText {@{cloze}@} here.\n")
     assert not cloze_no_hint_words(no_tag)
 
-    # Regression: an indented blockquote solution line carrying four
-    # equation-only clozes must stay silent — the clozes pair up, and the
-    # whole-line offsets once shifted the reported line.
+    # Regression: an indented line carrying four equation-only clozes must
+    # stay silent — the clozes pair up, and the whole-line offsets once
+    # shifted the reported line.
     indented = (
         "---\ntags: [flashcard/active/special/academia/test]\n---\n"
-        "> - explanation: (b) {@{$\\operatorname{E}[X_i] = 5(0.2) = 1$}@} and "
+        "> {@{$\\operatorname{E}[X_i] = 5(0.2) = 1$}@} and "
         "{@{$\\operatorname{Var}(X_i) = 5(0.2)(0.8) = 0.8$}@}, so "
         "{@{$\\operatorname{E}[\\bar X] = 1$}@} and "
         "{@{$\\operatorname{Var}(\\bar X) = \\frac{0.8}{10} = 0.08$}@}.\n"
@@ -2716,6 +2831,263 @@ def test_cloze_no_hint_words_rule():
     msgs = cloze_no_hint_words(make_ctx(multiline))
     assert len(msgs) == 1
     assert msgs[0].line == 7
+
+
+def test_cloze_no_hint_words_message_asks_for_a_fix():
+    """The warning stays advisory and says when a suppression is warranted."""
+    ctx = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "{@{entire sentence clozed}@}\n"
+    )
+    msgs = cloze_no_hint_words(ctx)
+    assert msgs
+    assert msgs[0].msg.startswith("cloze flashcard clause has no visible hint words")
+    assert "fix the line" in msgs[0].msg
+    assert "<!-- check: ignore-line[cloze_no_hint_words]: why -->" in msgs[0].msg
+    assert "genuinely needed" in msgs[0].msg
+    assert all(m.severity is Severity.WARNING for m in msgs)
+
+
+def test_cloze_no_hint_words_ignores_answer_lines():
+    """A labelled answer line is measured by the answer rules, not this one."""
+    front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+
+    # The label is markup rather than a hint word, so a labelled line is out
+    # of scope however little it leaves visible; the long line is the case the
+    # retired 85% coverage escape used to clear.
+    for line in (
+        "> - solution: {@{3. (c)}@}",
+        "> - explanation: {@{the price rises}@} often.",
+        "> - annotation: {@{mind the spread}@} today.",
+        "> - explanation: {@{the price rises with demand}@}",
+        "> - explanation: The {@{sell takes the shares bid at the top of the "
+        "book and the remainder rests at the price the buy order named, so the "
+        "traded price never leaves the range}@}.",
+    ):
+        assert not cloze_no_hint_words(make_ctx(f"{front}{line}\n")), line
+
+    # The same lone cloze without a label still owes a visible hint.
+    prose = make_ctx(f"{front}{{@{{entire sentence clozed}}@}}\n")
+    msgs = cloze_no_hint_words(prose)
+    assert len(msgs) == 1
+    assert "no visible hint words" in msgs[0].msg
+
+
+def test_cloze_glue_rule():
+    """A cloze hiding only a connective leaves the reader nothing to recall."""
+    front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+
+    # A conjunction, a coordinating conjunction, and a linking pair each
+    # report: the card would show a connective and ask for it back.
+    for body in ("so", "and", "which is"):
+        msgs = cloze_glue(make_ctx(f"{front}The price {{@{{{body}}}@}} rises.\n"))
+        assert [m.rule_id for m in msgs] == ["cloze_glue"], body
+
+    # A digit, a formula and a code span are content: the card asks for a
+    # value or a call, not for the grammar joining them.  The legacy ``\(``
+    # pair is mathematics too, and older notes still write it that way.
+    for body in ("3 or 10", "$\\frac{a}{b}$", "\\(x\\)", "`wait(X)` and `signal(X)`"):
+        ctx = make_ctx(f"{front}Either {{@{{{body}}}@}} applies.\n")
+        assert not cloze_glue(ctx), body
+
+    # A content word is what a cloze is for.
+    assert not cloze_glue(make_ctx(f"{front}The {{@{{bridge resistor}}@}} heats.\n"))
+
+    # A single letter or a bare symbol names a choice, a variable or a table
+    # cell, which is exactly what a card should ask for.
+    for body in ("C", "a", "_k_", "-", "+"):
+        ctx = make_ctx(f"{front}The one in {{@{{{body}}}@}} applies.\n")
+        assert not cloze_glue(ctx), body
+
+    # A cloze holding the whole hidden side is the answer itself, not glue.
+    for line in (
+        "Is the two-phase protocol equivalent? ::@:: {@{No}@}",
+        "> - solution: {@{No}@}",
+        "> - solution: {@{Both}@}.",
+        "{@{No}@}",
+    ):
+        ctx = make_ctx(f"{front}{line}\n")
+        assert not cloze_glue(ctx), line
+
+    # Inside a sentence that same connective still leaves nothing to recall.
+    msgs = cloze_glue(make_ctx(f"{front}It is {{@{{not always}}@}} true.\n"))
+    assert [m.rule_id for m in msgs] == ["cloze_glue"]
+
+    # One message per offending cloze, on its own line and column.
+    both = make_ctx(f"{front}Either {{@{{and}}@}} {{@{{or}}@}} applies.\n")
+    msgs = cloze_glue(both)
+    assert len(msgs) == 2
+    assert {m.line for m in msgs} == {4}
+    assert msgs[0].col < msgs[1].col
+
+    # No flashcard tag, no rule.
+    assert not cloze_glue(make_ctx("---\ntags: []\n---\nThe price {@{so}@} rises.\n"))
+
+
+def test_cloze_glue_exempts_a_whole_side_in_either_direction():
+    """A two-sided card is asked both ways, so either whole side is the answer."""
+    front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+
+    for line in (
+        "{@{not always}@} ::@:: {@{the peg}@}",
+        "{@{the peg}@} ::@:: {@{not always}@}",
+    ):
+        assert not cloze_glue(make_ctx(front + line + "\n")), line
+
+    # Inside a sentence on either side the same connective still reports.
+    left = cloze_glue(make_ctx(front + "It is {@{not always}@} ::@:: {@{the peg}@}\n"))
+    assert [m.rule_id for m in left] == ["cloze_glue"]
+    right = cloze_glue(
+        make_ctx(front + "{@{the peg}@} ::@:: it is {@{not always}@} true\n")
+    )
+    assert [m.rule_id for m in right] == ["cloze_glue"]
+
+
+def test_cloze_glue_message_teaches_the_shape():
+    """The error says what a cloze is for and what this one hid instead."""
+    ctx = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "The price {@{so}@} rises.\n"
+    )
+    msgs = cloze_glue(ctx)
+    assert len(msgs) == 1
+    assert msgs[0].severity is Severity.ERROR
+    assert msgs[0].line == 4
+    assert msgs[0].msg.startswith("a cloze hides what carries the fact")
+    assert "hides only a connective" in msgs[0].msg
+    assert "nothing to recall" in msgs[0].msg
+    assert "merge the connective into the cloze beside it" in msgs[0].msg
+    for shape in ("but not always", "but not both", "not only for the DC term"):
+        assert shape in msgs[0].msg
+
+
+def test_answer_formula_alone_reaches_a_continued_line():
+    """A formula hidden alone on a continued line is judged with its item."""
+    front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+    ctx = make_ctx(
+        front
+        + "> - explanation: The density is {@{the mass over the volume}@}. <br/>\n"
+        ">     For a uniform body it reads {@{$\\frac{m}{V}$}@}.\n"
+    )
+    assert [m.rule_id for m in answer_formula_alone(ctx)] == ["answer_formula_alone"]
+
+
+def test_answer_visible_calculation_reaches_a_continued_line():
+    """A calculation shown on a continued line is the answer the card asks for."""
+    front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+    ctx = make_ctx(
+        front + "> - explanation: The planet is {@{in prograde motion}@}. <br/>\n"
+        ">     Hence the year is $6 - 1 = 5\\text{ solar days}$ long, "
+        "which {@{the card asks for}@}.\n"
+    )
+    msgs = answer_visible_calculation(ctx)
+    assert [m.rule_id for m in msgs] == ["answer_visible_calculation"]
+    assert "6 - 1 = 5" in msgs[0].msg
+
+
+def test_answer_formula_alone_rule():
+    """A formula hidden alone beside visible prose asks for a symbol string."""
+    front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+
+    # A formula-only cloze on an explanation, with prose beside it, reports.
+    alone = make_ctx(
+        front + "> - explanation: The density is {@{$\\frac{m}{V}$}@} for a uniform "
+        "body.\n"
+    )
+    msgs = answer_formula_alone(alone)
+    assert [m.rule_id for m in msgs] == ["answer_formula_alone"]
+
+    # An annotation line follows the same rule.
+    annotated = make_ctx(
+        front + "> - annotation: Check the sign of {@{$\\Delta V$}@} here.\n"
+    )
+    msgs = answer_formula_alone(annotated)
+    assert [m.rule_id for m in msgs] == ["answer_formula_alone"]
+
+    # The same formula folded into a cloze holding its words passes.
+    with_words = make_ctx(
+        front
+        + "> - explanation: {@{the density of a uniform body is $\\frac{m}{V}$}@}.\n"
+    )
+    assert not answer_formula_alone(with_words)
+
+    # A solution names an option, and that option may be a bare formula.
+    solution = make_ctx(
+        front + "> - solution: {@{$\\frac{4\\delta}{1 + 3\\delta}$}@}\n"
+    )
+    assert not answer_formula_alone(solution)
+
+    # A line whose only prose sits inside the cloze shows the reader nothing:
+    # the sibling cloze hides it, so the formula is all the card shows.
+    inside = make_ctx(
+        front + "> - explanation: {@{$E = mc^2$}@} {@{relates mass and energy}@}.\n"
+    )
+    assert not answer_formula_alone(inside)
+
+
+def test_answer_formula_alone_message_asks_for_a_fix():
+    """The warning stays advisory and names the fix."""
+    ctx = make_ctx(
+        "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+        "> - explanation: The ratio is {@{$\\frac{a}{b}$}@}.\n"
+    )
+    msgs = answer_formula_alone(ctx)
+    assert len(msgs) == 1
+    assert msgs[0].severity is Severity.WARNING
+    assert msgs[0].line == 4
+    assert (
+        "hide the formula inside a cloze that also holds the words giving it "
+        "meaning" in msgs[0].msg
+    )
+    assert "named statement" in msgs[0].msg
+    assert "warns instead of failing the line" in msgs[0].msg
+    assert "check: ignore-line[answer_formula_alone]" in msgs[0].msg
+
+
+def test_answer_visible_calculation_rule():
+    """A calculation outside every cloze shows the reader the answer."""
+    front = "---\ntags: [flashcard/active/special/academia/test]\n---\n"
+
+    # The real line: the numbers the card asks for are printed beside it.
+    visible = make_ctx(
+        front + "> - explanation: The planet is {@{in prograde motion}@}. "
+        "Hence, {@{the number of solar days per orbital period}@} is "
+        "$6 - 1 = 5\\text{ solar days}$. Thus {@{each solar day}@} is "
+        "$\\frac {1 / 5} {1 / 6} = \\frac 6 5\\text{ sidereal days}$.\n"
+    )
+    msgs = answer_visible_calculation(visible)
+    assert [m.rule_id for m in msgs] == ["answer_visible_calculation"]
+    assert msgs[0].severity is Severity.ERROR
+    assert "6 - 1 = 5" in msgs[0].msg
+
+    # A derivation that hides its arithmetic already carries the numbers.
+    hidden = make_ctx(
+        front + "> - explanation: Consider {@{the marginal (opportunity) costs "
+        "for Albert if he specializes in meat: $$16 / 24 = 2 / 3~\\mathrm{"
+        "potato/meat}\\,.$$}@} Also consider that if he {@{specializes in "
+        "potato: $$24 / 16 = 1.5~\\mathrm{meat/potato}\\,.$$}@} If {@{the "
+        "marginal cost is lower than the marginal benefit}@}, then {@{Albert "
+        "will exchange}@}.\n"
+    )
+    assert not answer_visible_calculation(hidden)
+
+    # A symbolic left side states a premise rather than doing arithmetic.
+    symbolic = make_ctx(
+        front + "> - annotation: ρ=1 corresponds to {@{the blue line}@}, and "
+        "{@{ρ=0 to the red one}@}.\n"
+    )
+    assert not answer_visible_calculation(symbolic)
+
+    # A solution names an option, which may be a bare calculation.
+    solution = make_ctx(front + "> - solution: {@{3. 6 - 1 = 5 days}@}\n")
+    assert not answer_visible_calculation(solution)
+
+    # A visible run with no operator is a value, not a calculation.
+    value = make_ctx(
+        front + "> - explanation: The pegged price is 113 {@{behind the 120 "
+        "displayed shares}@}.\n"
+    )
+    assert not answer_visible_calculation(value)
 
 
 def test_qa_block_missing_solution_rule():
@@ -3118,6 +3490,18 @@ def test_no_soft_wrap_list():
     ctx = make_ctx(txt)
     msgs = no_soft_wrap_list(ctx)
     assert len(msgs) == 2
+
+
+def test_no_soft_wrap_list_exempts_a_written_break():
+    """A break written as `<br/>` is the author's own, not a soft wrap."""
+    text = "- item part1 {@{x}@} <br/>\n    part2 {@{y}@}\n"
+    assert not no_soft_wrap_list(make_ctx(text))
+
+
+def test_no_soft_wrap_list_exempts_a_tag_the_first_words_hide():
+    """The item's own words appear earlier, and its one break is written anyway."""
+    text = "check the list below.\n\n- check <br/>\n    the second line\n"
+    assert not no_soft_wrap_list(make_ctx(text))
 
 
 def test_no_soft_wrap_list_yaml_frontmatter():
@@ -4819,3 +5203,25 @@ async def test_content_sentence_too_long_suppressed(tmp_path: PathLike[str]):
     await file.write_text(text)
     msgs = list(await check_markdown_file(file))
     assert not msgs, "the suppression comment should silence the only message"
+
+
+def test_split_answer_label_reads_the_house_items():
+    """The house item labels are read by slot."""
+    assert _split_answer_label("> - solution: {@{x}@}")[0] == "solution"
+    assert _split_answer_label("> - explanation: words")[0] == "explanation"
+    assert _split_answer_label("> - annotation: note")[0] == "annotation"
+    assert _split_answer_label("> plain quote")[0] is None
+
+
+def test_split_answer_label_reads_the_legacy_lead_ins():
+    """A lead-in left in a note answers to the rules of its slot."""
+    assert _split_answer_label("> Solution: words") == ("solution", " words")
+    assert _split_answer_label("> Explanation: words") == ("explanation", " words")
+    assert _split_answer_label("> Answer: words") == ("solution", " words")
+    assert _split_answer_label("> _Explanation._ words") == ("explanation", " words")
+
+
+def test_split_answer_label_leaves_prose_alone():
+    """Prose that mentions an answer is not a labelled item."""
+    assert _split_answer_label("> Solutions are tested here")[0] is None
+    assert _split_answer_label("> The answer: 4")[0] is None

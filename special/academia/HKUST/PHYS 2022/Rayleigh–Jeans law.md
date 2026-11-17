@@ -54,7 +54,7 @@ Flashcards for this section are as follows:
 - what the temperature $T$ does to the shape of the predicted curve ::@:: Nothing; $T$ enters as a linear factor, so raising it scales the curve at every wavelength by the same proportion.
 - why the shape of the curve is fixed by $1/\lambda^4$ alone ::@:: The mode density $8\pi/\lambda^4$ carries all the wavelength dependence, and it comes from the geometry of the box rather than from the temperature.
 
-## where it fits and where it breaks
+## validity range
 
 The law's accuracy depends on the mean energy. The mode count is correct throughout. Equipartition's $k_BT$ is the right answer only if the steps between neighbouring energy levels are small compared with $k_BT$. A mode of frequency $f$ has steps of size $hf$ in a quantum treatment, so equipartition holds while $hf \ll k_BT$. With $f = c/\lambda$ the condition becomes one on the wavelength: $\lambda \gg hc/(k_BT) = 1.4388 \times 10^{-2}\ \text{m}\cdot\text{K}/T$. At $300\ \text{K}$ that puts the crossover at about $48\ \mu\text{m}$. A millimetre is already well beyond that, so the law is accurate by the far infrared and fails only as the wavelength approaches the peak.
 

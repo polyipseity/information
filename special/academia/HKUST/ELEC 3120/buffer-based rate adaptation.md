@@ -37,7 +37,7 @@ Flashcards for this section are as follows:
 - what do independent studies say about BBA as of 2022? ::@:: That it keeps outperforming every other known algorithm, including ones that are much more complicated
 - is the buffer occupancy used here as a guarantee or as a measurement? ::@:: A measurement, read when the next request is made and turned into a bitrate
 
-## the rule
+## rate curve
 
 The rule is a curve. Buffer occupancy runs along the horizontal axis, marked at $b_{\max}$. The bitrate to choose runs up the vertical axis, marked at $R_{\min}$ and $R_{\max}$. A full buffer means the highest possible bitrate, and an empty buffer means the lowest. The obvious shape joining the two is a straight line from the $R_{\min}$ point on the vertical axis up to the top of the plot.
 
@@ -59,7 +59,7 @@ Flashcards for this section are as follows:
 - which of $R_{\min}$ and $R_{\max}$ is chosen in the lower reservoir, in the cushion, and in the upper reservoir? ::@:: $R_{\min}$ through the lower reservoir, rising across the cushion, and $R_{\max}$ through the upper reservoir
 - draw the bitrate selection curve for a buffer holding at most $b_{\max}$, with a reservoir of size $r$ and a cushion of size $cu$: what shape does it have against buffer occupancy, and what does each part mean? ::@:: A flat piece at $R_{\min}$ up to $r$, a straight ramp across the cushion of size $cu$, then a flat piece at $R_{\max}$ running on to $b_{\max}$.
 
-## what the rule leaves open
+### reservoirs
 
 A region is not a measurement. What it protects is the client's freedom to change rate, and the rule holds at every occupancy inside the region. A region's width comes from analysis, not from the occupancy at the moment of reading.
 
@@ -74,7 +74,7 @@ Flashcards for this section are as follows:
 - how far does the upper reservoir extend in the notation? ::@:: It has no symbol. The brace is drawn, but the extent is never named
 - why is the corner where the cushion meets the upper reservoir drawn as a curve? ::@:: Because a sharp corner there would mean one extra second of buffer buys an arbitrary jump in bitrate, and nothing in the curve supports that
 
-## discrete rates
+### discrete rates
 
 The available bitrates are a discrete ladder, $R_{\min}$, $R_1$, $R_2$, $R_3$, $R_{\max}$. By default the client stays at the current bitrate, and switches only when the rule crosses above or below the boundary for a neighbouring bitrate. $f$ is the bitrate selection curve above: it maps the buffer occupancy to the rate the rule would choose. The whole selection is:
 
@@ -108,7 +108,8 @@ Flashcards for this section are as follows:
 - when is the rate above the current one set to $R_{\max}$? ::@:: When the current rate is already $R_{\max}$. Otherwise it is the smallest available rate above the current one
 - what three extensions does the full BBA add to the BBA-0 selection? ::@:: A startup phase analogous to slow start, handling of variable bitrate encoding, and analysis of how large to make the reservoirs
 
-## how BBA performed in the 2020 Puffer study
+<!-- check: ignore-next-line[header_style]: Puffer is a proper noun -->
+## Puffer study results
 
 The Stanford Puffer Project gives people TV for free, so its researchers can test rate adaptation algorithms on live traffic.
 

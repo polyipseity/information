@@ -54,7 +54,7 @@ Flashcards for this section are as follows:
 - worked split: a $6\text{ A}$ source feeds $R_1 = 2\ \Omega$ and $R_2 = 4\ \Omega$ in parallel; find $I_{R1}$ and $I_{R2}$. ::@:: $I_{R1} = 6\text{ A} \times \frac{4}{2+4} = 4\text{ A}$ and $I_{R2} = 6\text{ A} \times \frac{2}{2+4} = 2\text{ A}$.
 - worked split with two sources: sources of $8\text{ A}$ and $4\text{ A}$ feed a parallel pair of a $4\ \Omega$ resistor and a $2\ \Omega$ resistor; what current does each branch carry? ::@:: The $4\ \Omega$ branch carries $12\text{ A} \times \frac{2}{2+4} = 4\text{ A}$ and the $2\ \Omega$ branch carries $12\text{ A} - 4\text{ A} = 8\text{ A}$.
 
-## which branch takes more current
+## branch sharing
 
 $I_{R1}$ is proportional to $R_2$ and $I_{R2}$ to $R_1$, so the smaller resistor draws the larger current.
 

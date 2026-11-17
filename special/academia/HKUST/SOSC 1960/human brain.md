@@ -19,7 +19,7 @@ Flashcards for this section are as follows:
 - the second naming scheme for the same structures ::@:: Telencephalon through myelencephalon, the names the structures carry as they form from the embryonic neural tube.
 - where the complexity of brain structure shows ::@:: In one body carrying two naming schemes, with a third grouping that draws from both.
 
-## the three major parts
+## three major parts
 
 The forebrain carries cognitive and motor processing. It holds the cerebral hemispheres and, tucked underneath them, the thalamus and hypothalamus. The midbrain sits between the forebrain and the hindbrain and serves vision, hearing, and the control of eye and body movement. The hindbrain carries the automatic work of keeping the body running.
 
@@ -41,7 +41,7 @@ Flashcards for this section are as follows:
 - draw the three naming schemes: which structures does each functional bracket span? ::@:: Forebrain, the cerebral hemispheres with the thalamus and hypothalamus; midbrain, the midbrain alone; hindbrain, the pons, cerebellum and medulla. <p> ![The mammalian brain named three ways: each structure box carries its embryological name, the forebrain bracket spans cerebral hemispheres with thalamus and hypothalamus, the midbrain bracket spans only the midbrain, and the hindbrain bracket spans pons, cerebellum and medulla, with a dashed outline over the thalamus, hypothalamus, midbrain, pons and medulla marked brain stem](attachments/brain_division_naming.svg)
 - what all five embryological names in the figure end in ::@:: Encephalon, preceded by tel-, di-, mesen-, meten- or myelen-.
 
-## brain stem
+### brain stem
 
 The brain stem runs from the midbrain at the top, down through the pons, to the medulla at the bottom where it becomes the spinal cord. The medulla sets heart rate, breathing, and digestion, all of it without any instruction from us. The pons is a major relay between the cortex and the cerebellum, and it is also involved in sleep and dreaming. The midbrain takes visual and auditory information in.
 
@@ -62,7 +62,7 @@ Flashcards for this section are as follows:
 - what a stroke that reaches the medulla stops ::@:: Breathing.
 - what damage in the brain stem looks like ::@:: A function that stops rather than one that goes missing.
 
-## cerebellum
+### cerebellum
 
 The cerebellum sits underneath the back of the cerebral hemispheres and is called the little brain because it looks like a smaller copy of the cerebrum. It coordinates fine movement, posture, and balance, estimates time, and keeps speech smooth. It holds about seventy percent of the brain's neurons, far more than its size would suggest.
 

@@ -22,7 +22,7 @@ Flashcards for this section are as follows:
 - which rule a smart order router exists to discharge ::@:: The order protection rule, Rule 611.
 - why a large order needs routing at all ::@:: It runs out of size at the best price, and the remainder must go somewhere at a worse price.
 
-## how a routed order is split
+## order splitting
 
 Once an order has to be spread over several venues, the routing algorithm decides how much goes where. Three patterns are used, and a pro-rata allocation is the most popular of them: it sends a share of the order to each venue in proportion to the liquidity each one shows. A time-priority rule sends the whole remainder to one venue at a time, in the order the venues are ranked. A round robin sends it to each venue in turn.
 

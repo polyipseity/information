@@ -199,7 +199,9 @@ Flashcards for this section are as follows:
 > | {@{Lease liability}@} | {@{21&nbsp;854}@} | |
 > | {@{Cash}@} | | {@{21&nbsp;854}@} |
 >
-> _Explanation._ Pembury uses {@{only the annuity payments in the PV calculation}@}. The £12&nbsp;000 unguaranteed residual is NOT in Pembury's lease liability because Pembury bears {@{no obligation to make any payment related to the residual value}@}. As a result, Pembury's LL is £61&nbsp;930, {@{smaller than the £72&nbsp;000 fair value of the asset}@}.
+> ---
+>
+> - explanation: Pembury uses {@{only the annuity payments in the PV calculation}@}. The £12&nbsp;000 unguaranteed residual is NOT in Pembury's lease liability because Pembury bears {@{no obligation to make any payment related to the residual value}@}. As a result, Pembury's LL is £61&nbsp;930, {@{smaller than the £72&nbsp;000 fair value of the asset}@}.
 
 ---
 

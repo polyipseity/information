@@ -47,7 +47,9 @@ The transcript repeatedly links this classification to a practical investor ques
 > | {@{Debt investments}@} | {@{92&nbsp;000}@} | |
 > | {@{Cash}@} | | {@{92&nbsp;000}@} |
 >
-> _Explanation._ The initial purchase entry does {@{not by itself reveal the later category}@}. The category comes from the documented business purpose: {@{collect}@}, {@{collect and sell}@}, or {@{trade}@}.
+> ---
+>
+> - explanation: The initial purchase entry does {@{not by itself reveal the later category}@}. The category comes from the documented business purpose: {@{collect}@}, {@{collect and sell}@}, or {@{trade}@}.
 
 ---
 
@@ -92,7 +94,9 @@ The difference between them is the amortization of discount or premium.
 > | {@{Interest receivable}@} | {@{2&nbsp;000}@} | |
 > | {@{Cash}@} | | {@{94&nbsp;278}@} |
 >
-> _Explanation._ The buyer pays for both the {@{bond itself at its 92&nbsp;278 carrying amount}@} and the {@{seller's already-earned coupon period up to the purchase date}@}. The accrued-interest piece is {@{not part of the bond's carrying amount}@}.
+> ---
+>
+> - explanation: The buyer pays for both the {@{bond itself at its 92&nbsp;278 carrying amount}@} and the {@{seller's already-earned coupon period up to the purchase date}@}. The accrued-interest piece is {@{not part of the bond's carrying amount}@}.
 >
 > _At the next coupon date (3 months later)._ The investor receives the full {@{€4&nbsp;000 semiannual coupon}@}. Of that amount, {@{€2&nbsp;000 clears the Interest receivable recorded at purchase}@}. The remaining {@{3 months belong to the new investor}@}, so current-period interest revenue is {@{€92&nbsp;278 × 10% × 3/12 ≈ €2&nbsp;307}@}. Discount amortization for the 3-month holding period is therefore {@{€2&nbsp;307 − €2&nbsp;000 = €307}@}.
 >
@@ -122,7 +126,9 @@ The difference between them is the amortization of discount or premium.
 > | {@{Debt investments}@} | | {@{96&nbsp;200}@} |
 > | {@{Gain on sale of investments}@} | | {@{3&nbsp;400}@} |
 >
-> _Explanation._ The sale-date entry combines the {@{collection of the already-accrued interest receivable}@} and the {@{realized gain on disposal versus carrying amount}@}. That is why the cash figure is larger than the clean bond price alone.
+> ---
+>
+> - explanation: The sale-date entry {@{combines the collection of the already-accrued interest receivable}@} {@{and the realized gain on disposal versus carrying amount}@}. That is why {@{the cash figure is larger than the clean bond price alone}@}.
 
 If a held-for-collection investment is sold before maturity, the company must first update amortized cost through the sale date and then compare sale proceeds with carrying amount to compute the realized gain or loss.
 
@@ -174,7 +180,9 @@ Debt investments held for both collection and possible sale follow the same inte
 > | {@{Unrealized holding gain or loss — equity (OCI)}@} | {@{1&nbsp;732}@} | |
 > | {@{Fair value adjustment}@} | | {@{1&nbsp;732}@} |
 >
-> _Explanation._ The bond is still shown at fair value on the statement of financial position, but the unrealized decline is kept out of current net income. Using the endpoint method, the required ending {@{Fair value adjustment credit balance is £1&nbsp;732 because fair value £105&nbsp;000 is £1&nbsp;732 below amortized carrying amount £106&nbsp;732}@}. If no earlier fair value adjustment balance exists, the full {@{£1&nbsp;732}@} is recorded now.
+> ---
+>
+> - explanation: The bond is still {@{shown at fair value on the statement of financial position}@}, but {@{the unrealized decline is kept out of current net income}@}. Using the endpoint method, the required ending {@{Fair value adjustment credit balance is £1&nbsp;732}@} because {@{fair value £105&nbsp;000 sits £1&nbsp;732 below carrying amount £106&nbsp;732}@}. If no earlier fair value adjustment balance exists, {@{the full £1&nbsp;732 is recorded now}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -185,7 +193,9 @@ Debt investments held for both collection and possible sale follow the same inte
 > | {@{Unrealized holding gain or loss — equity (OCI)}@} | {@{9&nbsp;500}@} | |
 > | {@{Fair value adjustment}@} | | {@{9&nbsp;500}@} |
 >
-> _Explanation._ This is the same endpoint method at the portfolio level: the required ending {@{Fair value adjustment credit balance is €9&nbsp;500}@}, so the entry simply moves the account to that balance.
+> ---
+>
+> - explanation: This is the same endpoint method at the portfolio level: the required ending {@{Fair value adjustment credit balance is €9&nbsp;500}@}, so {@{the entry simply moves the account to that balance}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -204,7 +214,9 @@ Debt investments held for both collection and possible sale follow the same inte
 > | {@{Loss on sale of investments}@} | {@{4&nbsp;200}@} | |
 > | {@{Debt investments}@} | | {@{94&nbsp;200}@} |
 >
-> _Explanation._ If this bond carries {@{no accumulated OCI / AOCI balance at the sale date}@}, there is {@{no OCI layer left to clear}@}; the disposal entry simply compares sale proceeds with the bond's {@{amortized cost at the sale date}@}. That is also why __trading debt investments__ never need an OCI-clearing step on sale: their fair-value changes were already recognized in {@{net income rather than OCI}@}.
+> ---
+>
+> - explanation: If this bond carries {@{no accumulated OCI / AOCI balance at the sale date}@}, {@{no OCI layer is left to clear}@}; the disposal entry {@{compares sale proceeds with the bond's amortized cost at the sale date}@}. {@{That is also why trading debt investments never need an OCI-clearing step on sale}@}: their fair-value changes were {@{already recognized in net income rather than OCI}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -250,7 +262,9 @@ The fair-value adjustment for trading securities is usually done at the __portfo
 > | {@{Fair value adjustment}@} | {@{3&nbsp;750}@} | |
 > | {@{Unrealized holding gain or loss — income}@} | | {@{3&nbsp;750}@} |
 >
-> _Explanation._ The endpoint method works here too: the required ending {@{Fair value adjustment debit balance is 3&nbsp;750 because fair value exceeds carrying amount by that amount}@}. If the account already had a balance, only the difference needed to reach the required ending balance would be recorded.
+> ---
+>
+> - explanation: The endpoint method works here too: the required ending {@{Fair value adjustment debit balance is 3&nbsp;750}@}, {@{because fair value exceeds carrying amount by that amount}@}. If the account already had a balance, {@{only the difference needed to reach the required ending balance would be recorded}@}.
 
 ---
 
@@ -300,7 +314,9 @@ Cash dividends received are recognized as __dividend revenue__.
 > | {@{Unrealized holding gain or loss — income}@} | {@{36&nbsp;000}@} | |
 > | {@{Fair value adjustment}@} | | {@{36&nbsp;000}@} |
 >
-> _Explanation._ The endpoint method works here as well: the required ending {@{Fair value adjustment credit balance is €36&nbsp;000 because fair value is €36&nbsp;000 below carrying amount}@}. If the account already had a balance, only the amount needed to move it to that ending balance would be recorded.
+> ---
+>
+> - explanation: The endpoint method works here as well: the required ending {@{Fair value adjustment credit balance is €36&nbsp;000}@}, {@{because fair value is €36&nbsp;000 below carrying amount}@}. If the account already had a balance, {@{only the amount needed to move it to that ending balance would be recorded}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -312,7 +328,9 @@ Cash dividends received are recognized as __dividend revenue__.
 > | {@{Equity investments}@} | | {@{260&nbsp;000}@} |
 > | {@{Gain on sale of investments}@} | | {@{27&nbsp;000}@} |
 >
-> _Explanation._ No separate {@{AOCI or OCI reclassification entry is needed for the sale of a trading equity investment}@} because the investment's earlier unrealized fair-value changes were already recognized in {@{net income rather than OCI}@}. The sale entry therefore just removes the adjusted carrying amount and records the realized gain or loss.
+> ---
+>
+> - explanation: No separate {@{AOCI or OCI reclassification entry}@} is needed for {@{the sale of a trading equity investment}@} because {@{the earlier unrealized fair-value changes were already recognized in net income rather than OCI}@}. The sale entry therefore {@{just removes the adjusted carrying amount and records the realized gain or loss}@}.
 
 ---
 
@@ -422,7 +440,9 @@ Under IAS 28, the investor eliminates its proportionate share of any __unrealize
 > | {@{Investment income}@} | {@{5&nbsp;000}@} | |
 > | {@{Equity investment}@} | | {@{5&nbsp;000}@} |
 >
-> _Explanation._ The entry reduces both {@{investment income}@} and the {@{equity investment carrying amount}@}. Once Company B later sells that inventory to a third party, the profit becomes realized and the investor reverses the elimination entry by {@{debiting Equity investment and crediting Investment income for the same €5&nbsp;000}@}. The same mechanics apply to upstream transactions using the investee's mark-up and the investor's ownership percentage.
+> ---
+>
+> - explanation: The entry reduces both {@{investment income}@} and the {@{equity investment carrying amount}@}. Once Company B later {@{sells that inventory to a third party}@}, {@{the profit becomes realized}@} and the investor {@{reverses the elimination entry by debiting Equity investment and crediting Investment income for the same €5&nbsp;000}@}. The same mechanics {@{apply to upstream transactions using the investee's mark-up and the investor's ownership percentage}@}.
 
 ---
 
@@ -449,7 +469,9 @@ The main exception is when the investor has gone beyond passive ownership and ha
 > | {@{Loss from equity-method investment}@} | {@{30&nbsp;000}@} | |
 > | {@{Equity investment}@} | | {@{30&nbsp;000}@} |
 >
-> _Explanation._ The remaining {@{€20&nbsp;000 share of loss is not recorded by making Equity investment negative}@}. Instead it becomes an {@{unrecognized loss tracked off-book for future equity-method profit recognition}@}.
+> ---
+>
+> - explanation: The remaining {@{€20&nbsp;000 share of loss is not recorded by making Equity investment negative}@}. Instead it becomes an {@{unrecognized loss tracked off-book for future equity-method profit recognition}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -460,7 +482,9 @@ The main exception is when the investor has gone beyond passive ownership and ha
 > | {@{Loss from equity-method investment}@} | {@{8&nbsp;000}@} | |
 > | {@{Liability related to associate support}@} | | {@{8&nbsp;000}@} |
 >
-> _Explanation._ The extra loss is recognized only because the investor has {@{gone beyond ordinary ownership and now has an obligation tied to the associate}@}. The accounting still does {@{not create a negative Equity investment asset}@}.
+> ---
+>
+> - explanation: The extra loss is recognized only because the investor has {@{gone beyond ordinary ownership and now has an obligation tied to the associate}@}. The accounting still does {@{not create a negative Equity investment asset}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -471,7 +495,9 @@ The main exception is when the investor has gone beyond passive ownership and ha
 > | {@{Equity investment}@} | {@{5&nbsp;000}@} | |
 > | {@{Investment income}@} | | {@{5&nbsp;000}@} |
 >
-> _Explanation._ The first {@{€20&nbsp;000 of the new profit merely reverses the previously unrecognized loss memorandum amount economically}@}. Only the excess {@{€5&nbsp;000}@} becomes current-period recognized investment income.
+> ---
+>
+> - explanation: The first {@{€20&nbsp;000 of the new profit merely reverses the previously unrecognized loss memorandum amount economically}@}. Only the excess {@{€5&nbsp;000}@} becomes current-period recognized investment income.
 
 ---
 
@@ -493,7 +519,9 @@ Even before the carrying amount reaches zero, the investor must assess at each r
 > | {@{Loss on impairment of equity investment}@} | {@{60&nbsp;000}@} | |
 > | {@{Equity investment}@} | | {@{60&nbsp;000}@} |
 >
-> _Explanation._ This test is separate from the loss-limitation rule. {@{Loss limitation}@} applies when accumulated equity-method losses reduce the carrying amount toward zero. {@{Impairment}@} applies when the carrying amount still has positive value but exceeds the recoverable amount. If conditions later improve, the impairment loss may be reversed up to the carrying amount that would have existed (including normal equity-method adjustments) if no impairment had been recognized.
+> ---
+>
+> - explanation: This test is {@{separate from the loss-limitation rule}@}. {@{Loss limitation}@} applies when {@{accumulated equity-method losses reduce the carrying amount toward zero}@}. {@{Impairment}@} applies when {@{the carrying amount still has positive value but exceeds the recoverable amount}@}. If conditions later improve, {@{the impairment loss may be reversed}@} up to {@{the carrying amount that would have existed without the impairment}@}, {@{including normal equity-method adjustments}@}.
 
 ---
 
@@ -557,7 +585,9 @@ So the stage transition entry is usually an __incremental top-up or reversal__, 
 > | {@{Loss on impairment}@} | {@{2&nbsp;500}@} | |
 > | {@{Allowance for impaired debt investments}@} | | {@{2&nbsp;500}@} |
 >
-> _Explanation._ Stage 2 does {@{not mean record a whole new €6&nbsp;500 loss on top of the existing €1&nbsp;200 without comparison}@}; it means the allowance must end at {@{€6&nbsp;500 total, so only the extra €5&nbsp;300 is recorded}@}. The same logic applies again in {@{stage 3}@}: if the required allowance becomes {@{€9&nbsp;000 total}@}, only the additional {@{€2&nbsp;500 top-up}@} is recognized at that date.
+> ---
+>
+> - explanation: Stage 2 does {@{not mean record a whole new €6&nbsp;500 loss on top of the existing €1&nbsp;200 without comparison}@}; it means the allowance must end at {@{€6&nbsp;500 total, so only the extra €5&nbsp;300 is recorded}@}. The same logic applies again in {@{stage 3}@}: if the required allowance becomes {@{€9&nbsp;000 total}@}, only the additional {@{€2&nbsp;500 top-up}@} is recognized at that date.
 
 <!-- markdownlint MD028 -->
 
@@ -568,7 +598,9 @@ So the stage transition entry is usually an __incremental top-up or reversal__, 
 > | {@{Allowance for impaired debt investments}@} | {@{5&nbsp;000}@} | |
 > | {@{Recovery of impairment loss}@} | | {@{5&nbsp;000}@} |
 >
-> _Explanation._ The entry is still driven by the same endpoint logic for the allowance: the account currently stands at {@{€9&nbsp;000}@}, but only {@{€4&nbsp;000 is still required}@}, so the excess {@{€5&nbsp;000}@} is reversed.
+> ---
+>
+> - explanation: The entry is still {@{driven by the same endpoint logic for the allowance}@}: the account {@{currently stands at €9&nbsp;000}@}, but {@{only €4&nbsp;000 is still required}@}, so {@{the excess €5&nbsp;000 is reversed}@}.
 
 ---
 
@@ -606,7 +638,9 @@ For amortized-cost debt investments, the company evaluates at each reporting dat
 > | {@{Loss on impairment}@} | {@{9&nbsp;044}@} | |
 > | {@{Allowance for impaired debt investments}@} | | {@{9&nbsp;044}@} |
 >
-> _Explanation._ The ECL shortfall arises entirely from {@{lower expected cash flows — ¥16&nbsp;000 instead of ¥20&nbsp;000 — not from any change in market interest rates}@}. A rise in market rates can reduce the bond's fair value but does not by itself create an ECL shortfall if contractual principal and interest are still expected to be paid in full.
+> ---
+>
+> - explanation: The ECL shortfall arises entirely from {@{lower expected cash flows — ¥16&nbsp;000 instead of ¥20&nbsp;000 — not from any change in market interest rates}@}. {@{A rise in market rates can reduce the bond's fair value but does not by itself create an ECL shortfall}@} if {@{contractual principal and interest are still expected to be paid in full}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -626,7 +660,9 @@ For amortized-cost debt investments, the company evaluates at each reporting dat
 > | {@{Allowance for impaired debt investments}@} | {@{7&nbsp;000}@} | |
 > | {@{Recovery of impairment loss}@} | | {@{7&nbsp;000}@} |
 >
-> _Explanation._ The recovery stops at the {@{carrying amount actually supported by the new expected cash flows}@}. Students often over-recover here by jumping straight back to the no-impairment amount.
+> ---
+>
+> - explanation: The recovery stops at {@{the carrying amount actually supported by the new expected cash flows}@}. {@{Students often over-recover here}@} by {@{jumping straight back to the no-impairment amount}@}.
 
 If credit conditions later improve, part or all of the impairment loss may be reversed, but the carrying amount after reversal cannot exceed the amortized cost that would have existed if no impairment had ever been recognized.
 
@@ -657,7 +693,9 @@ That second ceiling is the point of the allowance rule: you may reverse a loss, 
 > | {@{Allowance for impaired debt investments}@} | {@{9&nbsp;000}@} | |
 > | {@{Recovery of impairment loss}@} | | {@{9&nbsp;000}@} |
 >
-> _Explanation._ The ceiling is the {@{€97&nbsp;000 amortized cost that would have existed without prior impairment}@}, not the more optimistic {@{€101&nbsp;000 updated estimate}@}. The extra {@{€4&nbsp;000}@} is {@{not recoverable through the reversal entry because it would push the carrying amount above the no-impairment path}@}.
+> ---
+>
+> - explanation: The ceiling is the {@{€97&nbsp;000 amortized cost that would have existed without prior impairment}@}, not the more optimistic {@{€101&nbsp;000 updated estimate}@}. The extra {@{€4&nbsp;000}@} is {@{not recoverable through the reversal entry because it would push the carrying amount above the no-impairment path}@}.
 
 ---
 
@@ -697,7 +735,9 @@ The slide logic is to separate cause before deciding the journal-entry destinati
 > | {@{Loss on impairment}@} | {@{5&nbsp;000}@} | |
 > | {@{Allowance for impaired debt investments}@} | | {@{5&nbsp;000}@} |
 >
-> _Explanation._ The same total decline is split by {@{cause}@}: the {@{market-rate component stays in OCI}@}, while the {@{credit-loss component goes to income as impairment}@}.
+> ---
+>
+> - explanation: The same total decline is split by {@{cause}@}: the {@{market-rate component stays in OCI}@}, while the {@{credit-loss component goes to income as impairment}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -712,7 +752,9 @@ The slide logic is to separate cause before deciding the journal-entry destinati
 > | {@{Debt investments}@} | | {@{1&nbsp;000&nbsp;000}@} |
 > | {@{Accumulated comprehensive income}@} | | {@{10&nbsp;000}@} |
 >
-> _Explanation._ The sale removes the {@{cost basis, allowance, and fair value adjustment together}@}. The separate credit-loss allowance and market-rate OCI component do not vanish magically; they must be cleared as part of the disposal accounting.
+> ---
+>
+> - explanation: The sale {@{removes the cost basis, allowance, and fair value adjustment together}@}. {@{The separate credit-loss allowance and market-rate OCI component do not vanish magically}@}; they must be {@{cleared as part of the disposal accounting}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -804,7 +846,9 @@ A __futures contract__ differs from an option in one crucial way: the holder is 
 > | {@{Unrealized holding gain or loss — income}@} | {@{300}@} | |
 > | {@{Call option}@} | | {@{300}@} |
 >
-> _Explanation._ Both the gain from intrinsic value and the loss from time-value decay hit income immediately because the option is being accounted for as a speculative derivative.
+> ---
+>
+> - explanation: Both {@{the gain from intrinsic value}@} and {@{the loss from time-value decay}@} hit income immediately because the option is {@{accounted for as a speculative derivative}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -956,7 +1000,9 @@ One common accounting path for a cash flow hedge of a forecast purchase of a __n
 > | {@{Cost of goods sold}@} | {@{1&nbsp;550&nbsp;000}@} | |
 > | {@{Inventory}@} | | {@{1&nbsp;550&nbsp;000}@} |
 >
-> _Explanation._ The hedge gain first sits in {@{OCI because the forecast purchase has not yet affected earnings}@}. Once the inventory is recognized, the accumulated OCI is {@{taken out of equity and used to reduce Inventory from ¥1&nbsp;582&nbsp;000 to the hedged effective amount of ¥1&nbsp;550&nbsp;000}@}. The hedge effect then reaches income naturally through later {@{Cost of goods sold}@}.
+> ---
+>
+> - explanation: The hedge gain first sits in {@{OCI because the forecast purchase has not yet affected earnings}@}. Once the inventory is recognized, the accumulated OCI is {@{taken out of equity and used to reduce Inventory from ¥1&nbsp;582&nbsp;000 to the hedged effective amount of ¥1&nbsp;550&nbsp;000}@}. The hedge effect then reaches income naturally through later {@{Cost of goods sold}@}.
 
 ---
 
@@ -991,7 +1037,9 @@ Cash flow hedge accounting is also common when a company wants to turn __floatin
 > | {@{Interest expense}@} | {@{8&nbsp;000}@} | |
 > | {@{Unrealized holding gain or loss — equity (OCI)}@} | | {@{8&nbsp;000}@} |
 >
-> _Explanation._ The floating-rate debt itself creates {@{€52&nbsp;000 of ordinary interest expense}@}. The swap's effective loss is first parked in {@{OCI}@}, then reclassified into {@{Interest expense}@} so that total reported borrowing cost becomes {@{€60&nbsp;000 fixed-like cost}@} for the period.
+> ---
+>
+> - explanation: The floating-rate debt itself creates {@{€52&nbsp;000 of ordinary interest expense}@}. The swap's effective loss is {@{first parked in OCI}@}, then {@{reclassified into Interest expense}@} so that total {@{reported borrowing cost becomes €60&nbsp;000 fixed-like cost}@} for the period.
 
 ---
 
@@ -1028,7 +1076,9 @@ The classroom motivation is duration and interest-rate-risk management. A compan
 > | {@{Unrealized holding gain or loss — income}@} | {@{40&nbsp;000}@} | |
 > | {@{Bonds payable}@} | | {@{40&nbsp;000}@} |
 >
-> _Explanation._ In a fair value hedge, the {@{derivative gain and hedged-item loss go to the same income location}@}, so the accounting visibly shows the offset.
+> ---
+>
+> - explanation: In a fair value hedge, the {@{derivative gain and hedged-item loss go to the same income location}@}, so the accounting visibly shows the offset.
 
 To qualify for hedge accounting, the hedge relationship must be properly:
 

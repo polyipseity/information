@@ -18,8 +18,20 @@ Flashcards for this section are as follows:
 - overview: what Bragg's law states for a wave of wavelength $\lambda$ on planes spaced $d$ at glancing angle $\theta$ ::@:: The wave reflects strongly only where $n\lambda = 2d \sin\theta$, with $n$ a positive integer.
 - the four quantities Bragg's law $n\lambda = 2d \sin\theta$ relates ::@:: The order $n$, the wavelength $\lambda$, the plane spacing $d$, and the glancing angle $\theta$.
 
+## derivation
+
+Two pictures fix the same glancing-angle condition. In the first the crystal is a three-dimensional grating, and in the second each set of lattice planes is a mirror.
+
+---
+
+Flashcards for this section are as follows:
+
+- the two pictures that give the glancing-angle condition $n\lambda = 2d \sin\theta$ ::@:: A crystal treated as a three-dimensional grating of atoms, and each set of lattice planes treated as a mirror that reflects at the glancing angle.
+
+---
+
 <!-- check: ignore-next-line[header_style]: proper noun (eponym) -->
-## Laue diffraction
+### Laue diffraction
 
 X-rays resisted diffraction: their wavelengths sit far below the spacing of any grating available. Wilhelm Wien and Arnold Sommerfeld estimated those wavelengths at between $10^{-10}$ and $10^{-11}\ \text{m}$, and a grating diffracts a wave strongly only when its spacing is comparable to the wavelength. Laue's 1912 proposal turned the obstacle into the tool: a crystal's atoms sit in a regular lattice about $10^{-10}\ \text{m}$ apart, so the crystal itself acts as a three-dimensional grating at exactly the right scale. X-rays passed through crystals produced diffraction patterns with maxima only along specific directions, and Laue's analysis of those patterns matched the measurements, establishing X-rays as electromagnetic waves of very short wavelength. Each spot around the central beam is the reflection of the beam from one particular set of lattice planes, so every dot in the pattern carries a different plane family.
 
@@ -29,11 +41,11 @@ Flashcards for this section are as follows:
 
 - why X-rays of wavelength $\lambda$ could not be diffracted as easily as visible light ::@:: A grating diffracts strongly only when its spacing approaches the wavelength, and the estimated X-ray wavelengths of $10^{-10}$ to $10^{-11}\ \text{m}$ are far below any grating made for visible light.
 - the X-ray wavelength range $\lambda$ that Wilhelm Wien and Arnold Sommerfeld estimated ::@:: Between $10^{-10}$ and $10^{-11}\ \text{m}$.
-- Laue's 1912 proposal for diffracting X-rays of wavelength $\lambda$ near $10^{-10}\ \text{m}$ ::@:: Use a crystal: its regularly spaced atoms, about $10^{-10}\ \text{m}$ apart, form a three-dimensional grating at the X-ray wavelength scale.
-- what Laue's X-ray diffraction patterns of 1912 proved about the wavelength $\lambda$ of X-rays ::@:: X-rays are electromagnetic waves of very short wavelength, near $10^{-10}\ \text{m}$, with maxima only along specific directions.
+- Max von Laue's 1912 proposal for diffracting X-rays of wavelength $\lambda$ near $10^{-10}\ \text{m}$ ::@:: Use a crystal: its regularly spaced atoms, about $10^{-10}\ \text{m}$ apart, form a three-dimensional grating at the X-ray wavelength scale.
+- what Max von Laue's X-ray diffraction patterns of 1912 proved about the wavelength $\lambda$ of X-rays ::@:: X-rays are electromagnetic waves of very short wavelength, near $10^{-10}\ \text{m}$, with maxima only along specific directions.
 - what each spot in a Laue diffraction pattern corresponds to ::@:: One set of lattice planes: each dot around the central beam is the reflection from a unique plane family, so the pattern lists the families the crystal presents.
 
-## reflection picture
+### reflection picture
 
 The waves themselves come from reradiation. The oscillating field of the incident wave polarizes each atom, pulling the positive nucleus and the negative electrons in opposite directions. The resulting oscillating dipole reradiates spherical waves at the incident frequency, and the beam that leaves the crystal is the sum of those waves from every atom.
 
@@ -49,7 +61,9 @@ Flashcards for this section are as follows:
 - how is the reflection geometry behind Bragg's law, with plane spacing $d$ and glancing angle $\theta$, drawn? ::@:: Two atom rows spaced $d$; a ray meets the upper row at glancing angle $\theta$ and reflects at the same angle; a parallel ray meets the atom directly below; perpendiculars from the upper reflection point mark two extra segments of $d \sin\theta$ each, totalling $2d \sin\theta$. <p> ![Bragg reflection geometry: two horizontal rows of atoms spaced a distance d apart, an incoming ray striking an atom a on the upper row at glancing angle theta and reflecting at the same angle, a second ray striking atom b on the lower row directly below a, dashed perpendiculars marking the extra d sin theta on each side of b, and a brace under b labelling the total path difference 2d sin theta](attachments/bragg_reflection_geometry.svg)
 - what the incident wave does to each atom of a crystal plane, and what the outgoing beam is ::@:: Its oscillating field polarizes the atom into an oscillating dipole, which reradiates spherical waves at the incident frequency; the outgoing beam is the sum of those waves over the whole crystal.
 
-## powder diffraction
+## powder diffraction and indexing
+
+### powder diffraction
 
 A single crystal presents one orientation to the beam, so each set of planes meets its Bragg angle only when the crystal or the detector is turned. A powder of many small randomly oriented crystallites presents every orientation at once, and each family of planes finds its angle somewhere in the sample. A Bragg spectrometer uses this: rotating the sample and the detector, it records the intensity of the diffracted beam as a function of the scattering angle, and each plane family leaves a peak where $n\lambda = 2d \sin\theta$ is met. The peak positions give the $d$-spacings, hence the lattice parameters.
 
@@ -69,7 +83,7 @@ Flashcards for this section are as follows:
 - where the direct beam lands on a transmission powder detector plate ::@:: The undeflected beam passes through the sample and strikes the plate's centre, leaving an undeflected spot there.
 
 <!-- check: ignore-next-line[header_style]: proper noun -->
-## Miller indices and d-spacings
+### Miller indices and d-spacings
 
 The peaks of a powder pattern carry labels, and the labels are plane families. In a cubic crystal the family $(hkl)$ is the set of parallel lattice planes that cut the three cell axes at $a/h$, $a/k$, and $a/l$, with $a$ the unit-cell edge length; these integers are the Miller indices, and they fix both the orientation of the family and the spacing between its planes. The intercepts carry the geometric meaning: the indices count the planes the family packs into one cell, so higher indices slice more planes into the same cell and pack them more tightly. The easy case is a family $(h00)$, whose planes sit exactly $a/h$ apart: $(200)$ is twice the planes of $(100)$ in the same cell, so it sits at half the spacing. The general spacing is $$d_{hkl} = \frac{a}{\sqrt{h^2 + k^2 + l^2}},$$ which returns $a/h$ for a family $(h00)$ when $k$ and $l$ vanish. A family with unit index on each axis, $(111)$, slices the cube diagonally from corner to corner, and its planes sit $a/\sqrt{3}$ apart, one third of the body diagonal $a\sqrt{3}$. So the $(200)$ family sits $a/2$ apart, $(220)$ sits $a/\sqrt{8}$ apart, and $(400)$ sits $a/4$ apart; the larger the indices, the tighter the planes, and at a fixed wavelength a tighter $d$ needs a larger $\sin\theta$. Reading a pattern runs the calculation backwards. A peak at a measured $2\theta$ gives its $d$ through Bragg's law, an assignment of $(hkl)$ then predicts $a = d_{hkl}\sqrt{h^2+k^2+l^2}$, and the assignment holds when every peak of the pattern returns the same $a$. The four NaCl peaks above are one such set: $d_{200} = a/2$, $d_{220} = a/\sqrt{8}$, $d_{222} = a/\sqrt{12}$, and $d_{400} = a/4$, all returning $a \approx 5.64\ \text{Å}$. Angles themselves belong to the measurement rather than to the family: change the wavelength and every peak moves to a new $2\theta$ solving $n\lambda = 2d\sin\theta$, while each family's $d$ stays put. Patterns are therefore indexed by $d$-spacings, and so by $(hkl)$, not by the angles at which one particular source happened to drop them. Which families appear at all depends on the arrangement of atoms inside the cell, not on the lattice alone.
 
@@ -89,6 +103,35 @@ Flashcards for this section are as follows:
 - what the $(111)$ planes of a cubic cell look like relative to its axes ::@:: The family with unit index on each axis slices the cube diagonally from corner to corner.
 - the spacing of the $(111)$ planes of a cubic cell with edge $a$ ::@:: $d_{111} = a/\sqrt{3}$, one third of the body diagonal $a\sqrt{3}$.
 - how the $(h00)$ easy case, planes $a/h$ apart, builds the general spacing $d_{hkl} = a/\sqrt{h^2+k^2+l^2}$ ::@:: For $(h00)$ the planes sit $a/h$ apart, and $d_{hkl}$ returns that value when $k$ and $l$ vanish.
+
+## peak width
+
+An ideal crystal, infinite in every direction, reflects only at the exact Bragg angle: its peak is a line with no width at all. A measured peak spreads over a small range of the scattering angle $2\theta$ instead, and that spread is quoted as the full width at half maximum $\beta$. Three things widen it: the finite size of the crystallites, the strain inside them, and the instrument.
+
+Finite size widens a peak because the cancellation that sharpens a reflection needs depth. Many parallel planes fall progressively out of step away from the exact Bragg angle and cancel each other, which is what confines an extended crystal's reflection to a narrow range of angles. A crystallite of thickness $D$ measured across the reflecting planes holds only about $D/d$ planes of a family with spacing $d$, too few to cancel the waves a little off the angle, so those waves survive and the peak spreads. The Scherrer relation turns the spread back into that thickness: $\beta\cos\theta = K\lambda/D$, with $\beta$ in radians and $K$ a shape factor near 1. Thin crystallites give wide peaks; large ones give peaks narrow enough that whatever width remains belongs to something else.
+
+Comparing materials takes the repeat unit into account, because what sets the width is how many repeat units the crystallite holds. In a molecular crystal that unit is the whole molecule; in an ionic crystal it is the whole cell. The rock-salt cell of sodium chloride spans $5.64\ \text{Å}$ and that of potassium chloride $6.29\ \text{Å}$, so a stack of the same number of cells is thicker in potassium chloride, and its peak is narrower. Widths are compared at equal domain thickness $D$, never at equal repeat-unit counts.
+
+Microstrain widens a peak by a different route. Parts of a real lattice sit stretched or compressed, so one family of planes holds a spread of spacings about $d$ rather than a single value. Each spacing has its own Bragg angle, and the peak widens to hold them all at once.
+
+Size and strain widen a peak differently as the angle grows: size broadening follows $1/\cos\theta$, strain broadening follows $\tan\theta$. The measured width is the sum of the two, and no single peak can separate them. Multiplying the sum by $\cos\theta$ removes the angle dependence from the size term, leaving $K\lambda/D$, and turns the strain term into $4\varepsilon\sin\theta$, because $\tan\theta\cos\theta = \sin\theta$. A plot of $\beta\cos\theta$ against $\sin\theta$ is then a straight line, so fitting one line through the widths of many peaks puts the size in the intercept and the strain in the slope. The Scherrer relation is trustworthy only on a strain-free sample, since strain broadening would otherwise be read as a smaller crystallite.
+
+The remaining width belongs to the apparatus. The beam has a finite divergence and the slits a finite width, the detector has its own resolution, and the $K\alpha$ line is a doublet of two wavelengths, so every powder peak is a pair of lines that overlap into one wider bump at small $2\theta$ and split into two as $2\theta$ grows. A large strain-free standard run on the same instrument measures that instrumental width, and a sample's own broadening is whatever exceeds the standard.
+
+A peak reports two things at once: its position gives the plane spacing $d$ through Bragg's law, and its width gives the size of the crystallites and the strain inside them.
+
+---
+
+Flashcards for this section are as follows:
+
+- what the full width at half maximum $\beta$ of an X-ray powder peak carries, beyond what its position gives ::@:: The crystallite size and the strain inside the crystallites, where the position gives only the plane spacing $d$ through Bragg's law.
+- why a crystallite of thickness $D$ across the reflecting planes, with planes of spacing $d$, gives a broader Bragg peak than an extended crystal ::@:: A sharp reflection needs many planes to cancel the waves a little off the exact angle; $D/d$ planes are too few, so those waves survive and the peak spreads.
+- the Scherrer relation between peak width $\beta$ in radians, Bragg angle $\theta$, wavelength $\lambda$, and crystallite thickness $D$ across the reflecting planes ::@:: $\beta\cos\theta = K\lambda/D$, with $K$ a shape factor near 1; thin crystallites give wide peaks.
+- how the size of the repeat unit, taking the $5.64\ \text{Å}$ sodium chloride cell against the $6.29\ \text{Å}$ potassium chloride cell, enters a powder peak's width ::@:: A stack of the same number of repeat units is thicker in the material with the larger unit, so its peak is narrower; widths are compared at equal domain thickness $D$, not at equal unit counts.
+- how microstrain $\varepsilon$ broadens a Bragg peak ::@:: Parts of the lattice sit stretched or compressed, so one family of planes holds a spread of spacings about $d$; each spacing has its own Bragg angle, and the peak widens to hold them all.
+- why multiplying the measured peak width $\beta$ by $\cos\theta$ gives a Williamson–Hall plot that separates size broadening from strain $\varepsilon$ ::@:: The width sums a size term proportional to $1/\cos\theta$ and a strain term proportional to $\tan\theta$; multiplying by $\cos\theta$ leaves the size term constant at $K\lambda/D$ and turns the strain term into $4\varepsilon\sin\theta$, since $\tan\theta\cos\theta = \sin\theta$, so a plot of $\beta\cos\theta$ against $\sin\theta$ is a straight line with intercept $K\lambda/D$ and slope $4\varepsilon$.
+- why the $K\alpha$ doublet widens every X-ray powder peak ::@:: The $K\alpha$ line is a doublet of two wavelengths, so each peak is a pair of lines; the pair overlaps into one wider bump at small $2\theta$ and splits into two lines at large $2\theta$.
+- what a powder diffractometer adds to peak width, including the $K\alpha$ doublet, and how that instrumental width is measured ::@:: Beam divergence, finite slit widths, detector resolution, and the $K\alpha$ doublet; a large strain-free standard run on the same instrument measures the width, and a sample's broadening is whatever exceeds the standard.
 
 <!-- check: ignore-next-line[header_style]: proper noun (acronym + eponym) -->
 ## X-ray crystallography

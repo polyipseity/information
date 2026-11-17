@@ -20,7 +20,7 @@ Flashcards for this section are as follows:
 - what each design buys ::@:: A different claim, at a different price.
 - what settles the choice of design ::@:: The question and the resources, not a ranking of the designs.
 
-## what each design can establish
+## designs and their evidence
 
 | Design | Assignment | What it can support |
 | --- | --- | --- |
@@ -49,7 +49,7 @@ Flashcards for this section are as follows:
 - what a longitudinal study buys and what it costs ::@:: Change in the same people and the order in which cause and effect occurred, paid for in years.
 - what a longitudinal design supports that a cross-sectional one does not ::@:: Change in the same people, and the order in which cause and effect occurred.
 
-## the constraints that choose a design
+## constraints
 
 Resources come first: the time and money a study can commit. A senior project cannot start a twenty-year study. Exploratory work runs the cheap design.
 

@@ -33,7 +33,7 @@ Flashcards for this section are as follows:
 - what the trading exchanges carry ::@:: The trading, and the stock reaches them without any act of listing.
 - how a single-listed stock reaches venues that never listed it ::@:: Through unlisted trading privileges joining the listing exchange to every other venue.
 
-## what the privileges do to listing
+## effect on listing
 
 Because a stock listed anywhere can be traded anywhere, cross-listed companies are rare in the United States. What decides the listing exchange is the brand the listing carries and the cost of obtaining it.
 
@@ -48,7 +48,7 @@ Flashcards for this section are as follows:
 - what happens to the differences between exchanges under the privileges ::@:: They stop showing up in what each venue's users can trade.
 - two examples of exchanges that grew without a listing service ::@:: BATS and Direct Edge.
 
-## where the trading happens
+## venue volume breakdown
 
 The table gives one month of 2016, attributed to BATS, and breaks the volume down by venue for three stocks. Each stock is named for its listing venue: stock A on the New York Stock Exchange, stock B on NYSE Arca, and stock C on Nasdaq.
 
@@ -68,12 +68,12 @@ The table gives one month of 2016, attributed to BATS, and breaks the volume dow
 | TRF and ADF | 23,105,465,569 | 6,771,742,571 | 16,688,471,430 | 46,565,679,570 |
 | Total | 63,478,328,141 | 17,790,316,162 | 40,276,519,085 | 121,545,163,388 |
 
-One row is off-exchange volume: trade reports filed through FINRA's trade reporting facility and the alternative trading facility. That row is the largest line for every stock. For every stock, the listing exchange trades a smaller share of it than the off-exchange row does. [Market structure (finance)](market%20structure%20(finance).md) records the same market split by venue type rather than by stock. It also has the shares each venue group held in 1998 and in 2015.
+One row is off-exchange volume: trade reports filed through the Financial Industry Regulatory Authority (FINRA) trade reporting facility and the Alternative Display Facility (ADF). That row is the largest line for every stock. For every stock, the listing exchange trades a smaller share of it than the off-exchange row does. [Market structure (finance)](market%20structure%20(finance).md) records the same market split by venue type rather than by stock. It also has the shares each venue group held in 1998 and in 2015.
 
 ---
 
 Flashcards for this section are as follows:
 
-- 2016 monthly share volume of the NYSE-listed stock that traded off-exchange ::@:: 23.1 billion of 63.5 billion shares, through the TRF and the ADF.
+- 2016 monthly share volume of the NYSE-listed stock that traded off-exchange ::@:: 23.1 billion of 63.5 billion shares, through the trade reporting facility (TRF) and the Alternative Display Facility (ADF).
 - 2016 monthly share volume of the Nasdaq-listed stock traded on Nasdaq ::@:: 11.0 billion of 40.3 billion shares.
 - whether a listing exchange trades the largest share of its own listed stock ::@:: No; the off-exchange row is larger for every stock in the breakdown, including the stock each venue lists.

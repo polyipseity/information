@@ -26,7 +26,9 @@ Flashcards for this section are as follows:
 - the mode density $n(\lambda) = 8\pi/\lambda^4$ both laws share, and the one quantity in which they differ ::@:: Modes per unit volume per unit wavelength, common to both laws; the mean energy of a mode is what differs.
 - the scientist behind both this law and the displacement law, and when each result appeared ::@:: Wilhelm Wien, who derived the displacement law in $1893$ and this distribution in $1896$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## single-quantum assumption
+## derivation
+
+### single-quantum assumption
 
 That a mode holds either nothing or a single quantum $\epsilon = hf = hc/\lambda$, with nothing in between, is already a claim that energy comes in quanta of size $hf$ rather than continuously. The calculation has not earned it.
 
@@ -43,7 +45,7 @@ Flashcards for this section are as follows:
 - the mean energy $E(f)$ that Boltzmann factor gives ::@:: $E(f) = \epsilon e^{-\epsilon/(k_BT)}$, with $\epsilon = hf = hc/\lambda$.
 - the two mean energies set side by side, and how each behaves in $f$ ::@:: Equipartition gives $k_BT$, constant and independent of $f$; the Wien approximation gives $hf\,e^{-hf/(k_BT)}$, which falls as $e^{-f}$ for high $f$.
 
-## two-state average
+### two-state average
 
 The same expression reads the other way, as a truncation. The thermal average over a genuine quantum oscillator sums over all occupancies $n = 0, 1, 2, 3, \ldots$, each weighted by $e^{-nhf/(k_BT)}$. Keep the two lowest states and drop every term with $n \ge 2$, and what survives is a two-state average: $E = \dfrac{1\cdot hf\,e^{-hf/(k_BT)}}{1 + e^{-hf/(k_BT)}} = \dfrac{hf}{e^{hf/(k_BT)} + 1}$.
 
@@ -58,7 +60,7 @@ Flashcards for this section are as follows:
 - why the truncation is harmless at high frequency ::@:: When $hf \gg k_BT$ the terms with $n \ge 2$ carry weights $e^{-2hf/(k_BT)}$ and smaller, so they are negligible. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - where the truncation stops being harmless, against $hf \gg k_BT$ ::@:: For $hf \ll k_BT$ those terms dominate the sum, so dropping them is not an approximation.
 
-## law
+### law
 
 Every black-body spectrum runs through three quantities, whichever law supplies the mean energy. Multiply the mode density $n(\lambda) = 8\pi/\lambda^4$ by the mean energy of one mode, $\overline{E}$, and the result is the energy density $u_\lambda$, the energy per unit volume per unit wavelength. A quarter of $c$ times that gives the flux $I_\lambda$, the power a surface radiates per unit area per unit wavelength.
 
@@ -76,7 +78,9 @@ Flashcards for this section are as follows:
 - the units the spectral radiance $B_\lambda$ is expressed in, and what they mean ::@:: $\text{W}\,\text{m}^{-3}\,\text{sr}^{-1}$, watts per square metre per steradian per metre of wavelength.
 - the ratio $x$ that decides whether the approximation is good, and the temperature at which $x = 1$ ::@:: $x = \frac{hc}{\lambda k_BT}$, the ratio of a quantum of energy to the thermal energy, with $x = 1$ at $T = 1.439 \times 10^{-2}/\lambda$.
 
-## where it holds
+## validity and peak
+
+### validity range
 
 $\lambda$ enters the law twice, in the $1/\lambda^5$ prefactor and inside the exponential. The exponential falls faster than any power of $\lambda$, so the radiance falls exponentially in $1/\lambda$.
 
@@ -95,7 +99,7 @@ Flashcards for this section are as follows:
 - the accuracy of the law at $300\ \text{K}$ at four wavelengths ::@:: Agreement to better than five figures at $1\ \mu\text{m}$, within $1\%$ at $10\ \mu\text{m}$, short by a factor of $21$ at $1\ \text{mm}$, and short by a factor of $209$ at $1\ \text{cm}$.
 - the radiance predicted at $300\ \text{K}$ and $\lambda = 10^{-2}\ \text{m}$, against the true value ::@:: $\dfrac{1.19 \times 10^{-16}}{10^{-10}} e^{-0.0048} \approx 1.19 \times 10^{-6}\ \text{W}\,\text{m}^{-3}\,\text{sr}^{-1}$, against $2.48 \times 10^{-4}\ \text{W}\,\text{m}^{-3}\,\text{sr}^{-1}$ from the true spectrum, so the law is short by a factor of $209$.
 
-## peak
+### peak
 
 Take the logarithm, turning a product into a sum: $\ln B_\lambda = \ln(2hc^2) - 5\ln\lambda - \frac{hc}{\lambda k_BT}$. Differentiate term by term: $d\ln B_\lambda/d\lambda = -\frac{5}{\lambda} + \frac{hc}{\lambda^2 k_BT}$, where the second term is positive because $\frac{hc}{\lambda k_BT}$ grows as $\lambda$ shrinks. Set that sum to zero, $\frac{hc}{\lambda^2 k_BT} = \frac{5}{\lambda}$, and one power of $\lambda$ cancels, leaving $\lambda_{\max} = \frac{hc}{5k_BT}$.
 
@@ -113,7 +117,7 @@ Flashcards for this section are as follows:
 - the total radiated power this law predicts, against the true total $180/(2\pi^4)$ ::@:: $0.924$ of the true power, so about $7.6$ percent low over all wavelengths.
 - why the peak position and the total power agree so well while the law is badly wrong elsewhere ::@:: Neither can see the long-wavelength tail: the peak sits where $x = \frac{hc}{\lambda k_BT} = 5$ and the total is dominated by the peak. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## opposite failure
+### opposite failure
 
 The exponential is well behaved at every wavelength, so this law has no divergence. Its curve falls to zero far faster than the measured one, leaving it orders of magnitude too small at long wavelengths, where [Rayleigh–Jeans](Rayleigh%E2%80%93Jeans%20law.md) predicts a rising curve. That other failure is the [ultraviolet catastrophe](ultraviolet%20catastrophe.md).
 

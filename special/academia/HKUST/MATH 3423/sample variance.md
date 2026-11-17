@@ -20,7 +20,7 @@ Flashcards for this section are as follows:
 - what distinguishes the two sample variances $S_n^2$ and $S_{n-1}^2$ ::@:: They differ only in the denominator, which is $n$ in the first and $n - 1$ in the second.
 - why the sample variance squares $X_i - \bar X$ rather than $X_i - \mu$ ::@:: Because $\bar X$ can be computed from the data, while $\mu$ is an unknown parameter of the model.
 
-## the two sample variances
+## two sample variances
 
 The denominator is $n$ in $S_n^2 = \frac{1}{n} \sum_{i=1}^{n} (X_i - \bar X)^2$ and $n - 1$ in $S_{n-1}^2 = \frac{1}{n-1} \sum_{i=1}^{n} (X_i - \bar X)^2$. The two forms satisfy $\frac{(n-1) S_{n-1}^2}{\sigma^2} = \frac{n S_n^2}{\sigma^2}$, so one is recovered from the other by a single factor. Both are statistics, since every quantity they mention is read off the data.
 

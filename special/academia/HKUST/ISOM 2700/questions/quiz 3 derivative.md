@@ -82,7 +82,7 @@ tags:
 > ---
 >
 > - solution: {@{200}@}
-> - explanation: {@{$$Q^* = \sqrt{\frac {2DS} {H} } = \sqrt{\frac {2 \cdot 100 \cdot 200} {1} } = 200 \,.$$ <p> The purchasing cost discount does not affect the result. It does not change the optimal order quantity. Increasing the number of order quantity must be suboptimal. Decreasing the number of order quantity must also be suboptimal, and losing the purchasing cost discount makes it even more suboptimal.}@}
+> - explanation: $$Q^* = \sqrt{\frac {2DS} {H} } = \sqrt{\frac {2 \cdot 100 \cdot 200} {1} } = 200 \,.$$ <p> The purchasing cost discount {@{does not affect the result}@}. It {@{does not change the optimal order quantity}@}. Increasing the number of order quantity {@{must be suboptimal}@}. Decreasing the number of order quantity must also be suboptimal, and {@{losing the purchasing cost discount makes it even more suboptimal}@}.
 
 ---
 
@@ -95,7 +95,7 @@ tags:
 > ---
 >
 > - solution: {@{\$255&nbsp;675}@}
-> - explanation: {@{From above, the optimal order quantity is 200. Thus the purchasing cost discount applies. <p> Calculate the daily cost: $$C_{\text{daily} } = \sqrt{2DSH} = \sqrt{2 \cdot 100 \cdot 200 \cdot 1} + 100 \cdot (10 - 5) = \$700 \,.$$ Calculate the cost in a year: $$C = 700 \cdot 365.25 = \$255\,675 \,.$$}@}
+> - explanation: From above, {@{the optimal order quantity is 200}@}. Thus {@{the purchasing cost discount applies}@}. <p> Calculate {@{the daily cost: $$C_{\text{daily} } = \sqrt{2DSH} = \sqrt{2 \cdot 100 \cdot 200 \cdot 1} + 100 \cdot (10 - 5) = \$700 \,.$$}@} Calculate the cost in a year: $$C = 700 \cdot 365.25 = \$255\,675 \,.$$
 
 ---
 

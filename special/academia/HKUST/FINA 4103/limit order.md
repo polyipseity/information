@@ -54,7 +54,7 @@ When multiple limit orders compete for execution, _price-time priority_ decides 
 
 Once the liquidity at a price has been consumed, the orders queued behind it are served next. Whoever refills that price first takes the front of the queue, so a maker is racing the orders already waiting there.
 
-Li, Ye, and Zheng (2022, _Journal of Financial Economics_) measure that race as a contest for front queue position. They count a non-marketable limit order as a _first responder_ when it refills the price where liquidity was consumed, within 0.1 seconds of the order that took it. Their sample averages 495 first responders a day against 1,652 trades, and 75.6% of them are [do-not-ship](do-not-ship%20order.md) limit orders against 24.4% day limit orders.
+Li, Ye, and Zheng (2022, _Journal of Financial Economics_ (JFE)) measure that race as a contest for front queue position. They count a non-marketable limit order as a _first responder_ when it refills the price where liquidity was consumed, within 0.1 seconds of the order that took it. Their sample averages 495 first responders a day against 1,652 trades, about one contested refill for every three trades, so the race for front position is routine. 75.6% of those first responders are [do-not-ship](do-not-ship%20order.md) limit orders against 24.4% day limit orders, so the race is fought mostly in the do-not-ship form.
 
 ---
 
@@ -63,8 +63,9 @@ Flashcards for this section are as follows:
 - what price-time priority means ::@:: Better prices execute first, and among same-price orders, first come first served.
 - why a speed race follows a liquidity consumption ::@:: The orders queued behind the price are served next, so the first to refill it takes the front of the queue.
 - what a first responder is ::@:: A non-marketable limit order that refills the price where liquidity was consumed, within 0.1 seconds of the order that took it.
-- average first responders per day against average trades per day ::@:: 495 against 1,652.
-- share of first responders that are do-not-ship limit orders ::@:: 75.6%, against 24.4% day limit orders.
+- average first responders per day against average trades per day ::@:: 495 against 1,652, about one contested refill for every three trades.
+- share of first responders that are do-not-ship limit orders ::@:: 75.6%, against 24.4% day limit orders, so the race is fought mostly in the do-not-ship form.
+- which study counts the race for front queue position through first responders, a non-marketable limit order refilling a consumed price within 0.1 seconds? ::@:: Sida Li, Mao Ye and Miles Zheng, 2022, Journal of Financial Economics (JFE), "Refusing the best price?".
 
 ## execution quality
 

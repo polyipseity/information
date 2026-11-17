@@ -143,7 +143,9 @@ Flashcards for this section are as follows:
 > | {@{Interest expense}@}                                                    | {@{720}@}    |              |
 > | {@{Cash}@}                                                                |              | {@{73 920}@} |
 >
-> _Explanation._ The final settlement uses only the {@{remaining 45-day interest}@}, because the first {@{75 days were already accumulated in Interest payable at year-end}@}.
+> ---
+>
+> - explanation: The final settlement uses only the {@{remaining 45-day interest}@}, because the first {@{75 days were already accumulated in Interest payable at year-end}@}.
 
 ---
 
@@ -238,7 +240,9 @@ Representative example (presentation only):
 > | {@{Current liabilities — current portion of long-term debt}@} | {@{60&nbsp;000}@} |
 > | {@{Non-current liabilities — long-term mortgage}@} | {@{840&nbsp;000}@} |
 >
-> _Explanation._ The {@{60&nbsp;000}@} maturing within 12 months is presented as current; the remaining {@{840&nbsp;000}@} is non-current. {@{No reclassification journal entry is needed}@}; this is a presentation split made at the reporting date.
+> ---
+>
+> - explanation: The {@{60&nbsp;000}@} maturing within 12 months is {@{presented as current}@}; the remaining {@{840&nbsp;000 is non-current}@}. {@{No reclassification journal entry is needed}@}; this is {@{a presentation split made at the reporting date}@}.
 
 ---
 
@@ -322,7 +326,9 @@ Representative journal entry examples:
 > | {@{Salaries and wages expense}@}                        | {@{1 680}@}  |              |
 > | {@{Cash}@}                                              |              | {@{14 160}@} |
 >
-> _Explanation._ The liability is settled at the rate originally accrued {@{(24 weeks × 520 = 12 480)}@}. When cash is paid at the higher current rate {@{(24 weeks × 590 = 14 160)}@}, the extra {@{1 680 is current-period salaries and wages expense caused by the higher payment-date wage rate}@}.
+> ---
+>
+> - explanation: The liability is settled {@{at the rate originally accrued (24 weeks × 520 = 12&nbsp;480)}@}. When cash is paid at {@{the higher current rate (24 weeks × 590 = 14&nbsp;160)}@, the extra {@{1&nbsp;680 is a current-period salaries and wages expense}@} caused by {@{the higher payment-date wage rate}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -334,7 +340,9 @@ Representative journal entry examples:
 > | {@{Cash}@}                                                                                 |              | {@{11 280}@} |
 > | {@{Salaries and wages expense}@}                                                           |              | {@{1 200}@}  |
 >
-> _Explanation._ This deliberately produces a {@{credit to current-period salaries and wages expense}@} because the liability had been recorded using a {@{higher earned wage rate than the later payment rate}@}.
+> ---
+>
+> - explanation: This deliberately produces a {@{credit to current-period salaries and wages expense}@} because the liability had been recorded using a {@{higher earned wage rate than the later payment rate}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -345,7 +353,9 @@ Representative journal entry examples:
 > | {@{Salaries and wages expense}@}                                        | {@{14 280}@} |              |
 > | {@{Wages payable}@}                                                     |              | {@{14 280}@} |
 >
-> _Explanation._ The non-vested employees do {@{not yet have an unconditional right to the benefit}@}, so they are {@{excluded from the year-end liability measurement}@}.
+> ---
+>
+> - explanation: The non-vested employees do {@{not yet have an unconditional right to the benefit}@}, so they are {@{excluded from the year-end liability measurement}@}.
 
 ---
 
@@ -377,7 +387,9 @@ If employees do __not__ use all of the vacation already accrued, the company doe
 > | {@{Salaries and wages expense}@} | {@{560}@} | |
 > | {@{Wages payable}@} | | {@{560}@} |
 >
-> _Explanation._ The entity keeps the liability for the unused vested vacation and updates it to the amount expected to be paid. That is the missing step when a question says the vacation was {@{earned but not yet fully used}@} by year-end.
+> ---
+>
+> - explanation: The entity {@{keeps the liability for the unused vested vacation}@} and {@{updates it to the amount expected to be paid}@}. {@{That is the missing step}@} when a question says the vacation was {@{earned but not yet fully used}@} by year-end.
 
 <!-- markdownlint MD028 -->
 
@@ -388,7 +400,9 @@ If employees do __not__ use all of the vacation already accrued, the company doe
 > | {@{Wages payable}@} | {@{160}@} | |
 > | {@{Salaries and wages expense}@} | | {@{160}@} |
 >
-> _Explanation._ Under {@{IAS 19 short-term employee benefits}@}, unused vested accumulating leave is measured at {@{the undiscounted amount expected to be paid}@}. A lower expected settlement amount reduces both {@{Wages payable and current-period Salaries and wages expense (credit to expense)}@}.
+> ---
+>
+> - explanation: Under {@{IAS 19 short-term employee benefits}@}, unused vested accumulating leave is measured at {@{the undiscounted amount expected to be paid}@}. A lower expected settlement amount reduces both {@{Wages payable and current-period Salaries and wages expense (credit to expense)}@}.
 
 ---
 

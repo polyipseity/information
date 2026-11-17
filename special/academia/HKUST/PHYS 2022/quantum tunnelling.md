@@ -20,7 +20,9 @@ Flashcards for this section are as follows:
 - overview: what quantum tunnelling is for a barrier with $E < V_0$ ::@:: The transmission of a particle through a barrier with $E < V_0$, possible because its wave function decays exponentially inside the barrier yet stays nonzero on the far side.
 - the classical verdict on a barrier with $E < V_0$ ::@:: Total reflection — the particle never crosses; tunnelling is the quantum correction to that verdict.
 
-## wave function inside the barrier
+## rectangular barrier
+
+### wave function inside the barrier
 
 For a rectangular barrier of height $V_0$ and width $L$, region II ($0 < x < L$) carries $V = V_0$, so the time-independent Schrödinger equation reads $-\frac{\hbar^2}{2m}\frac{d^2\psi}{dx^2} + V_0\psi = E\psi$ there and rearranges to $\frac{d^2\psi}{dx^2} = \frac{2m(V_0 - E)}{\hbar^2}\psi$. A trial exponential $\psi = e^{\lambda x}$ satisfies that equation only when $\lambda^2 = 2m(V_0 - E)/\hbar^2$, so $\lambda = \pm\kappa$ with $\kappa = \sqrt{2m(V_0 - E)}/\hbar$, and the general solution is $\psi_{\mathrm{II}} = Ce^{\kappa x} + De^{-\kappa x}$: for $E < V_0$ these are decaying and growing exponentials rather than the oscillations of an allowed region. Outside, in regions I and III, $\psi$ is sinusoidal again. The wave function is thus exponentially damped, not killed, inside a classically forbidden region, the same leakage that binds states in the [finite potential well](finite%20potential%20well.md), now carrying flux from one side to the other.
 
@@ -36,7 +38,7 @@ Flashcards for this section are as follows:
 - what the trial $\psi = e^{\lambda x}$ requires inside a barrier ::@:: Substitution into $\psi'' = 2m(V_0 - E)\psi/\hbar^2$ forces $\lambda^2 = 2m(V_0 - E)/\hbar^2$, giving $\lambda = \pm\kappa$ with $\kappa = \sqrt{2m(V_0 - E)}/\hbar$.
 - the minimum kinetic energy the uncertainty principle allows inside a barrier, at $\Delta x = 1/\kappa$ ::@:: With the particle confined to $\Delta x = 1/\kappa$ the spread is $\Delta p \gtrsim \hbar\kappa$, so $K_{\min} = (\hbar\kappa)^2/2m = V_0 - E$, the energy deficit the barrier represents.
 
-## transmission probability
+### transmission probability
 
 Take a rectangular barrier of height $V_0$ and width $L$. The potential is zero for $x < 0$, jumps to $V_0$ across the barrier $0 < x < L$, and drops back to zero for $x > L$. A particle arrives from the left with energy $E < V_0$. Region I is the approach side, where the particle moves freely. There the particle both travels toward the barrier and gets reflected off it. Region II is the classically forbidden interior of the barrier. The particle's energy lies below the barrier height there, so no real oscillation is possible and only exponential decay or growth can appear. Region III is the far side, free again at the same potential as region I. Nothing travels back from region III, because no wave is incident from the right. Only the transmitted wave remains there.
 
@@ -69,7 +71,7 @@ Flashcards for this section are as follows:
 - why the transmitted probability carries $e^{-2\kappa L}$ rather than $e^{-\kappa L}$ ::@:: Probability is the amplitude squared, so the amplitude factor $e^{-\kappa L}$ becomes the probability factor $e^{-2\kappa L}$.
 - whether barrier width or barrier height suppresses tunnelling through $e^{-2\kappa L}$ more strongly, and why ::@:: Width: $L$ sits in $e^{-2\kappa L}$ directly while the height enters only through $\kappa \propto \sqrt{V_0 - E}$, so widening the barrier suppresses $T$ faster than raising it.
 
-## energy above the barrier
+### energy above the barrier
 
 With $E > V_0$ nothing is forbidden: the wave number inside, $k_{\mathrm{II}} = \sqrt{2m(E - V_0)}/\hbar$, is real, so the wave function oscillates through the barrier instead of decaying. The incoming wave $Ae^{ik_{\mathrm I}x}$ partly reflects as $Be^{-ik_{\mathrm I}x}$ and partly crosses the barrier to emerge as $Fe^{ik_{\mathrm I}x}$ on the far side; region III carries no leftward wave because nothing is incident from the right. The two probabilities are $R = |B|^2/|A|^2$ and $T = |F|^2/|A|^2$, and every particle is either reflected or transmitted, so $R + T = 1$.
 
@@ -97,7 +99,9 @@ Flashcards for this section are as follows:
 
 - what makes a potential well of width $L$ almost transparent at particular wavelengths ::@:: The wavelength inside is shorter than outside; when $L$ holds a whole or half number of interior wavelengths the far-edge reflection returns out of step with the near-edge one, the reflections cancel, and $T$ approaches 1.
 
-## macroscopic and microscopic estimates
+## applications
+
+### macroscopic and microscopic estimates
 
 The exponential is ruthless. A 500 kg lion facing a half-metre barrier has $V_0 = mgH$ at five metres and $E = mgh$ at three metres, so the height difference is $H - h = 2\ \mathrm{m}$. The barrier exceeds the lion's energy by $$V_0 - E = mg(H - h) = 500\ \mathrm{kg} \times 9.8\ \mathrm{m/s^2} \times 2\ \mathrm{m} \approx 10^4\ \mathrm{J}.$$ The decay constant inside the barrier follows as $$\kappa = \frac{\sqrt{2m(V_0 - E)}}{\hbar} \approx \frac{\sqrt{2 \times 500 \times 10^4}}{1.055 \times 10^{-34}} \approx 3 \times 10^{37}\ \mathrm{m^{-1}}.$$ With $L = 0.5\ \mathrm{m}$ the exponent reaches $\kappa L \approx 1.5 \times 10^{37}$, and $e^{-2\kappa L}$ underflows any scale, so $T$ rounds to zero in any finite decimal representation. Zoos need no tunnelling insurance.
 
@@ -112,7 +116,7 @@ Flashcards for this section are as follows:
 - why a lion cannot tunnel, given $\kappa \propto \sqrt{m}$ and $T \propto e^{-2\kappa L}$ ::@:: $\kappa$ grows as $\sqrt{m}$, so for a 500 kg mass and a half-metre barrier the exponent $2\kappa L$ is of order $10^{38}$ and $e^{-2\kappa L}$ is effectively zero.
 - why an electron with $m \approx 10^{-30}$ kg crosses a nanometre barrier readily ::@:: With $m \approx 10^{-30}$ kg and $L \approx 1$ nm, $\kappa L$ stays small enough that $T$ remains appreciable.
 
-## alpha decay
+### alpha decay
 
 A heavy nucleus holds an alpha particle in a square well and walls it in with a Coulomb barrier. Inside the nuclear radius $r_N$ the strong force dominates the Coulomb repulsion; outside, the Coulomb energy climbs as $1/r$ to a peak several times the alpha particle's few MeV of kinetic energy, so classically no path leads out. Quantum mechanics opens a path: the alpha's wave function decays through the barrier and emerges nonzero on the far side.
 
@@ -129,7 +133,7 @@ Flashcards for this section are as follows:
 - the barrier a 4.2 MeV alpha in uranium-238 must cross, with nuclear radius $r_N = 7$ fm ::@:: The Coulomb energy at $r_N = 7$ fm is 38 MeV and the alpha's energy matches it at 63 fm, so the barrier runs from 7 fm to 63 fm, about 56 fm wide under a 38 MeV peak.
 - how a transmission probability near $10^{-41}$ gives a billion-year half-life ::@:: The alpha crosses the nucleus in $10^{-21}$ s, making $10^{21}$ attempts a second, so it escapes in about $10^{20}$ s against the measured $4.5 \times 10^9$ year (about $10^{17}$ s) half-life of uranium-238.
 
-## tunnel diode
+### tunnel diode
 
 Tunnelling also carries current in a tunnel diode, a semiconductor junction only about 10 nm wide. A bias voltage adjusts the junction barrier and lets electrons tunnel through it in either direction. An ordinary junction depends on electrons and holes diffusing across it, a slow process; a tunnel diode's carriers cross by tunnelling instead, and the bias itself can be varied rapidly, so the device switches extremely fast. Leo Esaki discovered it in 1957; it went into switching circuits and high-frequency oscillators, and today it serves mainly in space electronics, valued for its longevity and resistance to radiation.
 

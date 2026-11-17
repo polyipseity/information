@@ -127,7 +127,9 @@ The Chelsea accounts-receivable sequence is the course's basic model for a defer
 > | {@{Income taxes payable}@} | | {@{16&nbsp;000}@} |
 > | {@{Deferred tax liability}@} | | {@{12&nbsp;000}@} |
 >
-> _Explanation._ The current payable is based on the year's taxable income, but the receivable difference means Chelsea will pay more tax later when those receivables are collected. That future tax effect is recognized now as a deferred tax liability.
+> ---
+>
+> - explanation: The current payable is based on {@{the year's taxable income}@}, but {@{the receivable difference means Chelsea will pay more tax later}@} when {@{those receivables are collected}@}. That future tax effect is {@{recognized now as a deferred tax liability}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -139,7 +141,9 @@ The Chelsea accounts-receivable sequence is the course's basic model for a defer
 > | {@{Deferred tax liability}@} | {@{8&nbsp;000}@} | |
 > | {@{Income taxes payable}@} | | {@{36&nbsp;000}@} |
 >
-> _Explanation._ The debit to {@{Deferred tax liability}@} shows that part of the future tax burden recognized in 2025 is now being {@{used up as the receivables are collected and taxed}@}.
+> ---
+>
+> - explanation: The debit to {@{Deferred tax liability}@} shows that {@{part of the future tax burden recognized in 2025 is now being used up}@} as {@{the receivables are collected and taxed}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -151,7 +155,9 @@ The Chelsea accounts-receivable sequence is the course's basic model for a defer
 > | {@{Deferred tax liability}@} | {@{4&nbsp;000}@} | |
 > | {@{Income taxes payable}@} | | {@{32&nbsp;000}@} |
 >
-> _Explanation._ The temporary difference is now {@{fully reversed, so the deferred tax liability falls to zero}@}.
+> ---
+>
+> - explanation: {@{The temporary difference is now fully reversed, so the deferred tax liability falls to zero.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -162,7 +168,9 @@ The Chelsea accounts-receivable sequence is the course's basic model for a defer
 > | {@{Deferred tax liability}@} | {@{500}@} | |
 > | {@{Income tax expense}@} | | {@{500}@} |
 >
-> _Explanation._ The liability falls because the same remaining future taxable amount of {@{10&nbsp;000}@} will now be taxed at only {@{35% rather than 40%}@}. The adjustment is recorded {@{immediately in the period when the tax-rate change becomes enacted}@}.
+> ---
+>
+> - explanation: The liability falls because {@{the same remaining future taxable amount of 10&nbsp;000}@} will now be taxed at only {@{35% rather than 40%}@}. The adjustment is recorded {@{immediately in the period when the tax-rate change becomes enacted}@}.
 
 As the receivables are later collected and taxed, the difference reverses and the deferred tax liability falls.
 
@@ -220,7 +228,9 @@ The warranty-liability example is the standard pattern.
 > | {@{Deferred tax asset}@} | {@{200&nbsp;000}@} | |
 > | {@{Income taxes payable}@} | | {@{800&nbsp;000}@} |
 >
-> _Explanation._ The company has already recognized the warranty expense for IFRS, but tax law will only allow the deduction when cash is paid later. That future deduction creates a deferred tax asset of {@{200&nbsp;000}@}.
+> ---
+>
+> - explanation: The company has {@{already recognized the warranty expense for IFRS}@}, but {@{tax law will only allow the deduction when cash is paid later}@}. {@{That future deduction}@} creates {@{a deferred tax asset of 200&nbsp;000}@}.
 
 A litigation accrual works the same way: if IFRS records the expense now but tax only deducts it when paid, the company has a deductible temporary difference and therefore a deferred tax asset.
 
@@ -261,7 +271,9 @@ That means a deferred tax asset is not automatic forever. The company must ask w
 > | {@{Income tax expense}@} | {@{100&nbsp;000}@} | |
 > | {@{Deferred tax asset}@} | | {@{100&nbsp;000}@} |
 >
-> _Explanation._ Students often jump straight to the write-down entry and forget the sequence. The cleaner exam logic is: {@{recognize the full tax effect of the deductible temporary difference first}@}, then {@{write down the part that is not probable of realization}@}.
+> ---
+>
+> - explanation: Students often {@{jump straight to the write-down entry and forget the sequence}@}. The cleaner exam logic is: {@{recognize the full tax effect of the deductible temporary difference first}@}, then {@{write down the part that is not probable of realization}@}.
 
 If expectations later improve, part of that earlier reduction can be reversed.
 
@@ -274,7 +286,9 @@ If expectations later improve, part of that earlier reduction can be reversed.
 > | {@{Deferred tax asset}@} | {@{50&nbsp;000}@} | |
 > | {@{Income tax expense}@} | | {@{50&nbsp;000}@} |
 >
-> _Explanation._ Reversing part of the earlier non-recognition {@{reduces current-period income tax expense}@} because more of the future tax benefit is now expected to be realized.
+> ---
+>
+> - explanation: Reversing part of the earlier non-recognition {@{reduces current-period income tax expense}@} because {@{more of the future tax benefit is now expected to be realized}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -286,7 +300,9 @@ If expectations later improve, part of that earlier reduction can be reversed.
 > | {@{Deferred tax asset}@} | | {@{20&nbsp;000}@} |
 > | {@{Income taxes payable}@} | | {@{180&nbsp;000}@} |
 >
-> _Explanation._ The deferred tax asset disappears because the tax deduction has now {@{actually been used on the tax return}@}.
+> ---
+>
+> - explanation: {@{The deferred tax asset disappears because the tax deduction has now actually been used on the tax return.}@}
 
 ---
 
@@ -321,7 +337,9 @@ This is why a mixed deferred-tax question often contains two different-looking a
 > | {@{Deferred tax asset}@} | {@{36&nbsp;000}@} | |
 > | {@{Income taxes payable}@} | | {@{351&nbsp;000}@} |
 >
-> _Explanation._ The {@{fine is a permanent difference}@}, so it changes only current taxable income. The {@{warranty accrual is a deductible temporary difference}@}, so it creates a deferred tax asset. Total income tax expense is {@{€351&nbsp;000 − €36&nbsp;000 = €315&nbsp;000}@}.
+> ---
+>
+> - explanation: The {@{fine is a permanent difference}@}, so {@{it changes only current taxable income}@}. The {@{warranty accrual is a deductible temporary difference}@}, so {@{it creates a deferred tax asset}@}. Total income tax expense is {@{€351&nbsp;000 − €36&nbsp;000 = €315&nbsp;000}@}.
 
 ---
 
@@ -373,7 +391,9 @@ That is why the course keeps returning to the phrase __current plus deferred__. 
 > | {@{Deferred tax liability}@} | | {@{25&nbsp;000}@} |
 > | {@{Income taxes payable}@} | | {@{185&nbsp;000}@} |
 >
-> _Explanation._ The {@{government bond interest is permanent}@}, so it never enters deferred tax. The {@{warranty accrual lowers future taxes}@}, so it creates a deferred tax asset, while the {@{installment-sale difference increases future taxes}@}, so it creates a deferred tax liability.
+> ---
+>
+> - explanation: The {@{government bond interest is permanent}@}, so {@{it never enters deferred tax}@}. The {@{warranty accrual lowers future taxes}@}, so {@{it creates a deferred tax asset}@}, while the {@{installment-sale difference increases future taxes}@}, so {@{it creates a deferred tax liability}@}.
 
 ---
 
@@ -403,7 +423,9 @@ Two rules matter.
 > | {@{Deferred tax liability}@} | {@{100&nbsp;000}@} | |
 > | {@{Income tax expense}@} | | {@{100&nbsp;000}@} |
 >
-> _Explanation._ Lower future tax rates mean a smaller future tax burden, so the deferred tax liability falls and current-period income tax expense is reduced.
+> ---
+>
+> - explanation: Lower future tax rates {@{mean a smaller future tax burden}@}, so {@{the deferred tax liability falls and current-period income tax expense is reduced}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -414,7 +436,9 @@ Two rules matter.
 > | {@{Deferred tax asset}@} | {@{60&nbsp;000}@} | |
 > | {@{Income tax expense}@} | | {@{60&nbsp;000}@} |
 >
-> _Explanation._ A higher enacted future tax rate makes future deductions {@{more valuable}@}, so the deferred tax asset increases and income tax expense falls.
+> ---
+>
+> - explanation: A higher enacted future tax rate {@{makes future deductions more valuable}@}, so {@{the deferred tax asset increases and income tax expense falls}@}.
 
 ---
 
@@ -463,7 +487,9 @@ When the company later earns taxable income and uses the carryforward, the defer
 > | {@{Deferred tax asset}@} | | {@{40&nbsp;000}@} |
 > | {@{Income taxes payable}@} | | {@{10&nbsp;000}@} |
 >
-> _Explanation._ The deferred tax asset is {@{used up in the profitable year}@}; the tax benefit was recognized earlier, so only the reversal appears now.
+> ---
+>
+> - explanation: The deferred tax asset is {@{used up in the profitable year}@}; {@{the tax benefit was recognized earlier}@}, so {@{only the reversal appears now}@}.
 
 ---
 
@@ -498,7 +524,9 @@ The course appendix example uses the following ordering rule:
 > | {@{Income tax expense (loss carryback)}@} | | {@{65&nbsp;000}@} |
 > | {@{Income tax expense (loss carryforward)}@} | | {@{50&nbsp;000}@} |
 >
-> _Explanation._ One loss year can create both an {@{immediately realizable refund asset}@} and a {@{future tax-benefit asset}@}.
+> ---
+>
+> - explanation: {@{One loss year can create both an immediately realizable refund asset and a future tax-benefit asset.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -515,7 +543,9 @@ The course appendix example uses the following ordering rule:
 > | {@{Deferred tax asset}@} | | {@{40&nbsp;000}@} |
 > | {@{Income taxes payable}@} | | {@{10&nbsp;000}@} |
 >
-> _Explanation._ The first entry is a {@{catch-up recognition of the deferred tax asset}@}; the second entry is the normal profitable-year reversal of that same asset.
+> ---
+>
+> - explanation: The first entry is {@{a catch-up recognition of the deferred tax asset}@}; the second entry is {@{the normal profitable-year reversal of that same asset}@}.
 
 If part of the loss is still available for future years and realization is probable, the company also records a deferred tax asset for the carryforward portion.
 
@@ -572,7 +602,9 @@ A good way to read a comprehensive tax question is:
 > | {@{Income taxes payable}@} | | {@{50&nbsp;000}@} |
 > | {@{Deferred tax liability}@} | | {@{186&nbsp;400}@} |
 >
-> _Explanation._ This single entry bundles the topic's main workflow: {@{current tax payable plus net deferred tax expense after separating temporary and permanent differences}@}.
+> ---
+>
+> - explanation: This single entry bundles the topic's main workflow: {@{current tax payable plus net deferred tax expense after separating temporary and permanent differences}@}.
 
 ---
 

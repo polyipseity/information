@@ -35,7 +35,7 @@ Flashcards for this section are as follows:
 - what the usual explanation is called ::@:: Perceptual expertise.
 - how settled that explanation is ::@:: Not settled, since no one model covers the whole effect.
 
-## why the effect is awkward
+## practical stakes
 
 The effect matters wherever a face is read under pressure: eyewitness testimony, law enforcement, and the design of face recognition technology.
 

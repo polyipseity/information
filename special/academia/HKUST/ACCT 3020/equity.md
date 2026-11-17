@@ -56,7 +56,9 @@ Representative journal entry examples:
 > | {@{Share capital — ordinary (10 000 × 10)}@}                  |               | {@{100 000}@} |
 > | {@{Share premium — ordinary}@}                                |               | {@{25 000}@}  |
 >
-> _Explanation._ In each case, the asset is recorded at its measured fair value and equity is credited for the same amount (par plus premium); only the measurement basis (shares, patent, or discounted cash flows) changes.
+> ---
+>
+> - explanation: In each case, {@{the asset is recorded at its measured fair value}@} and {@{equity is credited for the same amount (par plus premium)}@}; only {@{the measurement basis (shares, patent, or discounted cash flows)}@} changes.
 
 <!-- markdownlint MD028 -->
 
@@ -68,7 +70,9 @@ Representative journal entry examples:
 > | {@{Share premium — ordinary (shortfall/discount)}@}                           | {@{15 000}@}  |               |
 > | {@{Share capital — ordinary (10 000 × 10)}@}                                  |               | {@{100 000}@} |
 >
-> _Explanation._ _Share capital_ is credited at the full par amount of {@{100 000 for the 10 000 ordinary shares issued}@}. The asset is recorded at its fair value of {@{85 000 for the patent received}@}. The balancing debit of {@{15 000 falls on Share premium — ordinary}@}, giving it a {@{debit (negative) balance instead of the usual credit premium balance}@}. Under IFRS this is permissible but unusual.
+> ---
+>
+> - explanation: _Share capital_ is {@{credited at the full par amount of 100 000 for the 10 000 ordinary shares issued}@}. The asset is {@{recorded at its fair value of 85 000 for the patent received}@}. The balancing debit of {@{15 000 falls on Share premium — ordinary}@}, giving it a {@{debit (negative) balance instead of the usual credit premium balance}@}. Under IFRS {@{this is permissible but unusual}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -80,7 +84,9 @@ Representative journal entry examples:
 > | {@{Share capital — ordinary}@} | | {@{50 000}@} |
 > | {@{Share premium — ordinary}@} | | {@{10 000}@} |
 >
-> _Explanation._ The new positive premium does {@{not erase the earlier debit balance automatically}@}; it simply reduces the running {@{debit balance in Share premium — ordinary from 15 000 to 5 000}@}.
+> ---
+>
+> - explanation: The new positive premium does {@{not erase the earlier debit balance automatically}@}; it simply reduces the running {@{debit balance in Share premium — ordinary from 15 000 to 5 000}@}.
 
 ---
 
@@ -127,7 +133,9 @@ Representative journal entry examples:
 > | {@{Share capital — ordinary (300 000 × 1)}@}                     |               | {@{300 000}@} |
 > | {@{Share premium — ordinary}@}                                   |               | {@{580 000}@} |
 >
-> _Explanation._ Gross proceeds are {@{900 000 (300 000 × 3)}@}; underwriting costs of {@{20 000}@} reduce the amount credited to equity, so only {@{880 000}@} is recorded in Cash and Share premium is {@{580 000}@} instead of {@{600 000}@}.
+> ---
+>
+> - explanation: {@{Underwriting costs of 20 000 reduce the amount credited to equity, so Cash records 880 000 and Share premium absorbs the 20 000.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -138,7 +146,9 @@ Representative journal entry examples:
 > | {@{Cash}@}                                                                    | {@{150 000}@} |               |
 > | {@{Share capital — ordinary (net: 200 000 − 50 000 excess costs)}@}           |               | {@{150 000}@} |
 >
-> _Explanation._ Gross proceeds are {@{300 000 (200 000 × 1.50)}@}; premium before costs is {@{100 000}@}. Direct costs of {@{150 000}@} first exhaust the {@{100 000 premium, reducing Share premium to zero}@}, and the remaining {@{50 000 reduces Share capital from 200 000 to 150 000}@}. _Share premium_ ends at {@{zero rather than a negative balance}@}; the excess is borne by _Share capital_, not carried as a debit balance on _Share premium_.
+> ---
+>
+> - explanation: {@{Direct costs of 150 000 first exhaust the 100 000 premium, and the remaining 50 000 reduces Share capital from 200 000 to 150 000.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -149,7 +159,9 @@ Representative journal entry examples:
 > | {@{Cash}@} | {@{196 000}@} | |
 > | {@{Share capital — preference (net after excess direct costs)}@} | | {@{196 000}@} |
 >
-> _Explanation._ Gross proceeds are {@{208 000 (40 000 × 5.20)}@}. Preference premium before costs is only {@{8 000}@}. Direct costs of {@{12 000}@} first eliminate that {@{8 000 preference premium}@}, and the remaining {@{4 000}@} reduces {@{Share capital — preference from 200 000 to 196 000}@}. The same exhaustion logic applies class by class: ordinary issue costs use {@{ordinary premium first}@}, while preference issue costs use {@{preference premium first}@}.
+> ---
+>
+> - explanation: {@{Gross proceeds are 208 000 (40 000 × 5.20)}@}, so {@{preference premium before costs is only 8 000}@}. {@{Direct costs of 12 000}@} first eliminate that {@{8 000 preference premium}@}, and {@{the remaining 4 000 reduces Share capital — preference from 200 000 to 196 000}@}. The same exhaustion logic applies class by class: {@{ordinary issue costs use ordinary premium first}@}, while {@{preference issue costs use preference premium first}@}.
 
 ---
 
@@ -274,7 +286,9 @@ That means both issuance entries and dividend-allocation calculations are usuall
 > | {@{Share capital — preference, Series B}@} | | {@{80 000}@} |
 > | {@{Share premium — preference, Series B}@} | | {@{8 000}@} |
 >
-> _Explanation._ The company does {@{not lump the two classes into one preference-share-capital figure before computing par and premium}@}. Each class keeps its own par-value and premium logic.
+> ---
+>
+> - explanation: The company does {@{not lump the two classes into one preference-share-capital figure before computing par and premium}@}. Each class {@{keeps its own par-value and premium logic}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -291,7 +305,9 @@ That means both issuance entries and dividend-allocation calculations are usuall
 > | {@{Dividends payable — preference, Series B}@} | | {@{4 800}@} |
 > | {@{Dividends payable — ordinary}@} | | {@{16 200}@} |
 >
-> _Explanation._ Different par values matter because the fixed preference dividend for each class is based on that class's own {@{par amount and stated rate}@}, not on a blended shortcut.
+> ---
+>
+> - explanation: Different par values matter because {@{the fixed preference dividend for each class is based on that class's own par amount and stated rate}@}, not on {@{a blended shortcut}@}.
 
 Representative journal entry example at issuance:
 
@@ -355,7 +371,9 @@ Representative journal entry examples:
 > | {@{Retained earnings (remaining shortfall: 20 000 − 8 000)}@}                      | {@{12 000}@} |              |
 > | {@{Treasury shares (at cost)}@}                                                    |              | {@{50 000}@} |
 >
-> _Explanation._ Shortfall = {@{50 000 − 30 000 = 20 000}@}. The first {@{8 000}@} comes from _Share premium — treasury_ (exhausting it). The remaining {@{12 000}@} is debited to _Retained earnings_. If _Retained earnings_ was, say, only {@{5 000}@} before this entry, it would fall to {@{−7 000}@} — an accumulated deficit. The loss is absorbed by equity, not reported in profit or loss.
+> ---
+>
+> - explanation: The shortfall {@{comes to 50 000 − 30 000 = 20 000}@}. {@{The first 8 000 comes from}@} _Share premium — treasury_, {@{exhausting it}@}. {@{The remaining 12 000 is debited}@} {@{A debit of 12 000 is then made}@} to _Retained earnings_. {@{If that account held only 5 000 before the entry}@}, it would fall to {@{a balance of −7 000}@}, {@{an accumulated deficit}@}. {@{The loss is absorbed by equity}@}, not reported in profit or loss.
 
 ---
 
@@ -442,7 +460,9 @@ __Summary__: The most common equity account that can be negative is _Retained ea
 > | {@{Share premium — ordinary}@} | {@{1&nbsp;500}@} | |
 > | {@{Share capital — ordinary}@} | | {@{10&nbsp;000}@} |
 >
-> _Explanation._ This is the rare IFRS case in this course where {@{Share premium — ordinary carries a debit balance}@}.
+> ---
+>
+> - explanation: {@{This is the rare IFRS case in this course where Share premium — ordinary carries a debit balance.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -454,7 +474,9 @@ __Summary__: The most common equity account that can be negative is _Retained ea
 > | {@{Retained earnings}@} | {@{20&nbsp;000}@} | |
 > | {@{Treasury shares}@} | | {@{50&nbsp;000}@} |
 >
-> _Explanation._ If retained earnings had only {@{€12&nbsp;000}@} before the entry, it would fall to {@{a negative balance of €8&nbsp;000}@}, creating an accumulated deficit.
+> ---
+>
+> - explanation: If retained earnings had only {@{€12&nbsp;000 before the entry}@}, it would {@{fall to a negative balance of €8&nbsp;000}@}, {@{creating an accumulated deficit}@}.
 
 ---
 
@@ -544,7 +566,9 @@ Representative journal entry examples:
 > | {@{Income tax expense}@} | {@{187 500}@} | |
 > | {@{Income taxes payable}@} | | {@{187 500}@} |
 >
-> _Explanation._ The property dividend can therefore trigger both a {@{distribution of assets}@} and a {@{current tax charge on the remeasurement gain}@}.
+> ---
+>
+> - explanation: {@{The property dividend can therefore trigger both a distribution of assets and a current tax charge on the remeasurement gain.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -600,7 +624,9 @@ Representative journal entry examples:
 > | {@{Ordinary share dividend distributable}@} | {@{40 000}@} | |
 > | {@{Share capital — ordinary}@} | | {@{40 000}@} |
 >
-> _Explanation._ The exam trap is to think the later market price rewrites the dividend accounting. It does {@{not rewrite the already-fixed declaration-date measurement}@}. The relevant amount is already fixed when the dividend is {@{declared}@}; IFRS stays at {@{par value}@}, and even the US-GAAP comparison would keep the {@{declaration-date fair-value measurement}@} rather than remeasuring again before distribution.
+> ---
+>
+> - explanation: The exam trap is {@{to think the later market price rewrites the dividend accounting}@}. It does {@{not rewrite the already-fixed declaration-date measurement}@}. The relevant amount is already fixed when the dividend is {@{declared}@}; IFRS stays at {@{par value}@}, and even the US-GAAP comparison would {@{keep the declaration-date fair-value measurement rather than remeasuring again before distribution}@}.
 
 <!-- markdownlint MD028 -->
 
@@ -710,7 +736,9 @@ Finally, some transactions interact with share dividends before the distribution
 > | {@{Dividends payable}@} | {@{10&nbsp;000}@} | |
 > | {@{Retained earnings}@} | | {@{10&nbsp;000}@} |
 >
-> _Explanation._ Because the error is found {@{after declaration but before payment}@}, the correction simply reverses part of the original declaration entry.
+> ---
+>
+> - explanation: {@{Because the error is found after declaration but before payment, the correction simply reverses part of the original declaration entry.}@}
 
 <!-- markdownlint MD028 -->
 
@@ -721,7 +749,9 @@ Finally, some transactions interact with share dividends before the distribution
 > | {@{Retained earnings}@} | {@{47&nbsp;500}@} | |
 > | {@{Dividends payable — ordinary}@} | | {@{47&nbsp;500}@} |
 >
-> _Explanation._ Treasury shares are {@{not treated as outstanding for dividend entitlement}@}, so they are excluded from the dividend calculation.
+> ---
+>
+> - explanation: {@{Treasury shares are not treated as outstanding for dividend entitlement, so they are excluded from the dividend calculation.}@}
 
 ---
 

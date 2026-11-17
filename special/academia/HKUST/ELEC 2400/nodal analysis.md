@@ -33,7 +33,9 @@ Only the first step is a choice; everything after it is forced by the circuit.
 
 A two-node circuit with a $2\text{ A}$ source entering node $V_a$, a $1\text{ A}$ source leaving node $V_b$, resistors of $3\ \Omega$ and $2\ \Omega$ about $V_a$, and $1\ \Omega$ about $V_b$ gives $2 = \frac{V_a}{3} + \frac{V_a - V_b}{2}$, that is $5V_a - 3V_b = 12$, and $\frac{V_a - V_b}{2} = \frac{V_b}{1} + 1$, that is $V_a - 3V_b = 2$. Subtracting the second from the first leaves $4V_a = 10$, so $V_a = \frac{5}{2}\text{ V}$ and $V_b = \frac{1}{6}\text{ V}$, with $I_1 = \frac{1}{6}\text{ A}$, $I_2 = \frac{7}{6}\text{ A}$, and $I_3 = \frac{5}{6}\text{ A}$.
 
-`(GND)─[2A↑]─(Va)─[3Ω]─(GND) │ (Va)─[2Ω]─(Vb)─[1Ω]─(GND) │ (Vb)─[1A↓]─(GND)`
+Circuit lines in these notes follow one notation: `(X)` names a node, with `(GND)` the zero-volt ground node; `[...]` holds one element, its value and marks spelled out in words; `—` is a wire joining consecutive items; and `A ∥ B` puts two elements in parallel between the same pair of nodes. The line `(A) — [2 Ω] — (B)` reads node $A$ feeding a $2\ \Omega$ resistor that reaches node $B$.
+
+`(GND) — [2 A source, up] — (Va) — [3 Ω] — (GND)`, `(Va) — [2 Ω] — (Vb) — [1 Ω] — (GND)`, and `(Vb) — [1 A source, down] — (GND)`
 
 ---
 
@@ -46,8 +48,11 @@ Flashcards for this section are as follows:
 - non-listed step: how much of the procedure is a matter of choice? ::@:: Only the choice of reference node; the remaining equations are dictated by the circuit.
 - two-node solve: a $2\text{ A}$ source enters node $V_a$, a $3\ \Omega$ resistor joins $V_a$ to ground, a $2\ \Omega$ resistor joins $V_a$ to node $V_b$, a $1\ \Omega$ resistor joins $V_b$ to ground, and a $1\text{ A}$ source leaves $V_b$; write the two node equations. ::@:: $2 = \frac{V_a}{3} + \frac{V_a - V_b}{2}$, giving $5V_a - 3V_b = 12$, and $\frac{V_a - V_b}{2} = \frac{V_b}{1} + 1$, giving $V_a - 3V_b = 2$.
 - two-node solution: the equations $5V_a - 3V_b = 12$ and $V_a - 3V_b = 2$ come from a two-node circuit whose $3\ \Omega$ resistor joins $V_a$ to ground, whose $2\ \Omega$ resistor joins $V_a$ to $V_b$, and whose $1\ \Omega$ resistor joins $V_b$ to ground; find the node voltages and the current in each of those three resistors. ::@:: Subtracting the equations gives $4V_a = 10$, so $V_a = \frac{5}{2}\text{ V}$ and $V_b = \frac{1}{6}\text{ V}$, with $I_1 = \frac{1}{6}\text{ A}$ through the $1\ \Omega$, $I_2 = \frac{7}{6}\text{ A}$ through the $2\ \Omega$, and $I_3 = \frac{5}{6}\text{ A}$ through the $3\ \Omega$.
+- reading a circuit line: in the notation `(X) — [elements] — (Y)`, what do the parentheses, the brackets, the dash, and `∥` mean? ::@:: `(X)` names a node, with `(GND)` the zero-volt ground node; `[...]` holds one element with its value and marks spelled out; `—` is a wire joining consecutive items; and `A ∥ B` puts A and B in parallel between the same pair of nodes.
 
-## reference node
+## node and source handling
+
+### reference node
 
 The reference node is called ground and set to $0\text{ V}$. It is commonly the node of lowest voltage, which makes the remaining node voltages positive and the arithmetic easier.
 
@@ -60,7 +65,7 @@ Flashcards for this section are as follows:
 - the reference node: what value is it set to, and which node is usually chosen for it? ::@:: One node is chosen as ground, set to $0\text{ V}$, and commonly taken as the node of lowest voltage so that the other node voltages come out positive. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - freedom of choice: does moving the ground node change the circuit? ::@:: No: it renumbers the node voltages, since each is measured from the new reference, leaving every voltage difference unchanged.
 
-## voltage sources in the nodal method
+### voltage sources in the nodal method
 
 A voltage source connected to ground is no trouble: the node on its far side has a known voltage, so it drops out of the unknowns and one equation disappears.
 
@@ -77,13 +82,13 @@ Flashcards for this section are as follows:
 - grounded source: a voltage source sits between ground and one other node; what does that do to the unknowns and the equations? ::@:: The node takes the source's voltage as a known quantity, so the unknowns fall by one and one equation is dropped.
 - one-node solve: a $2\text{ A}$ source injects at node $V_a$, which carries a $4\ \Omega$ resistor to ground and a $4\ \Omega$ resistor to a $4\text{ V}$ source; write the current-law equation and solve. ::@:: $2 = \frac{V_a}{4} + \frac{V_a - 4}{4}$, so $2V_a - 4 = 8$, $V_a = 6\text{ V}$, and the branch current is $I_1 = 1.5\text{ A}$.
 
-## supernode
+### supernode
 
 A supernode is the region formed by grouping the two terminals of a voltage source into one node. The current law is applied to the whole region, summing the currents entering and leaving it, while the source supplies one equation, the difference between the two node voltages it joins.
 
 In a circuit of a $6\text{ V}$ source, a $2\text{ k}\Omega$ resistor, a $12\text{ V}$ source, a second $2\text{ k}\Omega$ resistor, and a $-4\text{ V}$ source, with $1\text{ k}\Omega$ and $2\text{ k}\Omega$ resistors to ground, the current $I_x$ through the $12\text{ V}$ source cannot be written in terms of $V_a$ and $V_b$. Grouping the source's terminals gives $I_1 = I_2 + I_x = I_2 + I_o + I_3$ and hence $\frac{6 - V_a}{2\text{ k}} = \frac{V_a}{1\text{ k}} + \frac{V_a + 12}{2\text{ k}} + \frac{V_a + 12 - (-4)}{2\text{ k}}$, so $V_a = -\frac{22}{5}\text{ V}$ and $I_o = \frac{V_a + 12}{2\text{ k}} = 3.8\text{ mA}$.
 
-`(GND)─[6V+↑]─[2kΩ]─(Va)─[1kΩ]─(GND) │ (Va)─[12V with + at (Vb)]─(Vb)─[2kΩ]─(GND) │ (Vb)─[−4V+@Vb]─[2kΩ]─(GND)`
+`(GND) — [6 V source, + up] — [2 kΩ] — (Va) — [1 kΩ] — (GND)`, `(Va) — [12 V source, + at (Vb)] — (Vb) — [2 kΩ] — (GND)`, and `(Vb) — [−4 V source, + at (Vb)] — [2 kΩ] — (GND)`
 
 ---
 
@@ -92,7 +97,7 @@ Flashcards for this section are as follows:
 - supernode: what is it, and how is the current law applied to it? ::@:: A supernode is the region enclosing a voltage source's two terminals, treated as one node for the current law while the source itself supplies the relation between the two node voltages.
 - why a supernode: what problem does grouping a voltage source's terminals solve? ::@:: The current through the floating source is unknown, so the current law is applied to the enclosing region instead, where every remaining current is a resistor current expressible in node voltages.
 - supernode equation: what equation does the voltage source still contribute once its terminals form a supernode? ::@:: The difference between the two node voltages, fixed by the source's value.
-- worked supernode: `(GND)─[6V+↑]─[2kΩ]─(Va)─[1kΩ]─(GND) │ (Va)─[12V with + at (Vb)]─(Vb)─[2kΩ]─(GND) │ (Vb)─[−4V+@Vb]─[2kΩ]─(GND)`, with $I_o$ the current down the $2\text{ k}\Omega$ resistor from $V_b$ to ground; what is $V_a$ and what is $I_o$? ::@:: $\frac{6 - V_a}{2\text{ k}} = \frac{V_a}{1\text{ k}} + \frac{V_a + 12}{2\text{ k}} + \frac{V_a + 12 - (-4)}{2\text{ k}}$ gives $V_a = -\frac{22}{5}\text{ V}$ and $I_o = \frac{V_a + 12}{2\text{ k}\Omega} = 3.8\text{ mA}$.
+- worked supernode: `(GND) — [6 V source, + up] — [2 kΩ] — (Va) — [1 kΩ] — (GND)`, `(Va) — [12 V source, + at (Vb)] — (Vb) — [2 kΩ] — (GND)`, and `(Vb) — [−4 V source, + at (Vb)] — [2 kΩ] — (GND)`, with $I_o$ the current down the $2\text{ k}\Omega$ resistor from $V_b$ to ground; what is $V_a$ and what is $I_o$? ::@:: $\frac{6 - V_a}{2\text{ k}} = \frac{V_a}{1\text{ k}} + \frac{V_a + 12}{2\text{ k}} + \frac{V_a + 12 - (-4)}{2\text{ k}}$ gives $V_a = -\frac{22}{5}\text{ V}$ and $I_o = \frac{V_a + 12}{2\text{ k}\Omega} = 3.8\text{ mA}$.
 
 ## dependent sources
 
@@ -100,7 +105,7 @@ A dependent source adds no new difficulty, since the current law is still writte
 
 In the circuit of a $10\text{ V}$ source feeding a $2\ \Omega$ resistor that carries $I_1$ to node $V_a$, where a $3\text{ A}$ source injects, a $1\ \Omega$ resistor returns to ground, and a dependent source $2I_1$ sits in the returning branch, the current law at the node reads $I_1 + 3 = \frac{V_a - 2I_1}{1}$. Substituting $I_1 = \frac{10 - V_a}{2}$ gives $10 - V_a + 6 = 4V_a - 20$, so $V_a = 7.2\text{ V}$ and $I_1 = 1.4\text{ A}$.
 
-`(10V+↑)─[2Ω carrying I₁]─(Va) │ (Va)─[3A↑]─(GND) │ (Va)─[1Ω]─(node held at 2I₁ by a dependent voltage source)─(GND)`
+`[10 V source, + up] — [2 Ω carrying I₁] — (Va)`, `(Va) — [3 A source, up] — (GND)`, and `(Va) — [1 Ω] — (node held at 2I₁ by a dependent voltage source) — (GND)`
 
 ---
 
@@ -108,9 +113,11 @@ Flashcards for this section are as follows:
 
 - dependent source: what does it add to the node equations? ::@:: A dependent source enters the node equations as an extra unknown that must be rewritten in node voltages, after which the system solves as before.
 - controlling quantity first: why must the controlling quantity of a dependent source be written in node voltages before solving? ::@:: The controlling quantity is itself a function of the node voltages, so the equations hold more unknowns than they can determine until it is expressed that way.
-- dependent source in a node equation: `(10V+↑)─[2Ω carrying I₁]─(Va) │ (Va)─[3A↑]─(GND) │ (Va)─[1Ω]─(node held at 2I₁ by a dependent voltage source)─(GND)`; with $I_1$ the current through the $2\ \Omega$ resistor and the dependent source holding its far node at $2I_1$, write the current law and solve. ::@:: $I_1 + 3 = \frac{V_a - 2I_1}{1}$ with $I_1 = \frac{10 - V_a}{2}$ gives $10 - V_a + 6 = 4V_a - 20$, so $V_a = 7.2\text{ V}$ and $I_1 = 1.4\text{ A}$.
+- dependent source in a node equation: `[10 V source, + up] — [2 Ω carrying I₁] — (Va)`, `(Va) — [3 A source, up] — (GND)`, and `(Va) — [1 Ω] — (node held at 2I₁ by a dependent voltage source) — (GND)`; with $I_1$ the current through the $2\ \Omega$ resistor and the dependent source holding its far node at $2I_1$, write the current law and solve. ::@:: $I_1 + 3 = \frac{V_a - 2I_1}{1}$ with $I_1 = \frac{10 - V_a}{2}$ gives $10 - V_a + 6 = 4V_a - 20$, so $V_a = 7.2\text{ V}$ and $I_1 = 1.4\text{ A}$.
 
-## counting the equations
+## equation count and simulation
+
+### counting the equations
 
 With the current-variable remedy the count is $N - 1 + K$: one equation per node, one extra unknown per voltage source, and one equation per source expressing a node-voltage difference. With the supernode remedy it is $N - 1 - K$: each source merges two nodes and removes one equation, adding no unknown.
 
@@ -125,7 +132,7 @@ Flashcards for this section are as follows:
 - equation count with supernodes: a circuit of $N = 5$ nodes holds $K = 2$ voltage sources; how many equations does the supernode route give? ::@:: $N - 1 - K = 5 - 1 - 2 = 2$: each source merges two nodes and removes an equation, adding no unknown.
 - choosing between the routes: which route is shorter when a circuit holds many voltage sources? ::@:: The supernode route, which drops one equation per source instead of adding an unknown and an equation.
 
-## nodal analysis in circuit simulation
+### nodal analysis in circuit simulation
 
 SPICE, the Simulation Program with Integrated Circuit Emphasis, performs its simulations by nodal analysis. It was written in 1973 at the University of California, Berkeley by Laurence Nagel under Donald Pederson, and it computes node voltages, branch currents, and power for circuits of resistors, capacitors, inductors, operational amplifiers, diodes, and transistors.
 
@@ -137,6 +144,6 @@ Flashcards for this section are as follows:
 
 - SPICE: which quantities does a simulation compute, and what does that let an engineer avoid? ::@:: SPICE, the Simulation Program with Integrated Circuit Emphasis, simulates circuits by nodal analysis, computing node voltages, branch currents, and power without the circuit being built.
 - acronym: what does SPICE stand for? ::@:: Simulation Program with Integrated Circuit Emphasis.
-- origin: where, when, and by whom was SPICE developed? ::@:: In 1973 at the University of California, Berkeley by Laurence Nagel with his research advisor Donald Pederson.
-- method inside SPICE: which analysis technique do SPICE simulations use? ::@:: Nodal analysis.
-- commercial variant: which commercial descendant of SPICE is used in laboratory work? ::@:: PSPICE, from Cadence Design Systems.
+- origin: where, when, and by whom was the Simulation Program with Integrated Circuit Emphasis (SPICE) developed? ::@:: In 1973 at the University of California, Berkeley by Laurence Nagel with his research advisor Donald Pederson.
+- method inside the Simulation Program with Integrated Circuit Emphasis (SPICE): which analysis technique do SPICE simulations use? ::@:: Nodal analysis.
+- commercial variant: which commercial descendant of the Simulation Program with Integrated Circuit Emphasis (SPICE) is used in laboratory work? ::@:: PSPICE, from Cadence Design Systems.

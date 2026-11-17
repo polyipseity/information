@@ -30,9 +30,9 @@ The electron has to escape to be counted. One born deeper than a few nanometres 
 
 Flashcards for this section are as follows:
 
-- overview: how a photoemission spectrum of a solid is built ::@:: Counts of emitted electrons plotted against binding energy, one peak per electronic level, so the peaks name the elements present.
+- how a photoemission spectrum of a solid is built ::@:: Counts of emitted electrons against binding energy. Each electronic level gives one peak, so the peaks name the elements present.
 - the binding energy $E_b$ of a level, from photon energy $hf$ and measured kinetic energy $K$ ::@:: $E_b = hf - K$, with the work-function offset between sample and spectrometer calibrated out against a known line.
-- why only the near-surface layers contribute clean photoemission peaks ::@:: Electrons born deeper than a few nanometres scatter on the way out and arrive with less energy, so their peaks shift or they never arrive.
+- why only the near-surface layers give clean peaks ::@:: Electrons born deeper than a few nanometres scatter on the way out and lose energy. Their peaks shift, or they never arrive.
 
 ## photon sources
 
@@ -42,6 +42,6 @@ The source decides which levels are reachable. Ultraviolet light frees valence e
 
 Flashcards for this section are as follows:
 
-- overview: what the photon source decides in photoemission spectroscopy ::@:: Which levels are reachable: ultraviolet light frees valence electrons, while X-rays reach the tightly bound core levels.
+- what the photon source decides ::@:: Which levels are reachable. Ultraviolet light frees valence electrons. X-rays reach the tightly bound core levels.
 - what ultraviolet photoelectron spectroscopy reads ::@:: The valence bands of a material, from the electrons ultraviolet light frees.
 - which photoemission type reads the tightly bound core levels ::@:: X-ray photoelectron spectroscopy (XPS), which irradiates the material with X-ray photons.

@@ -21,7 +21,7 @@ its decorator.  The functions are pure: they accept a
 
 import re
 import unicodedata
-from collections.abc import Iterator
+from collections.abc import Iterator, Sequence
 from pathlib import PurePosixPath
 from string import punctuation
 from typing import cast
@@ -49,6 +49,7 @@ from .utils import (
     has_flash_tag,
     html_cpt,
     is_recurrent_index,
+    is_topic_note,
     iter_ast,
     iter_inline_links,
     iter_malformed_links,
@@ -321,6 +322,34 @@ def metadata_flash_tag(ctx: ValidationContext) -> list[ValidationMessage]:
 
 
 @RULE_REGISTRY.register()
+def flashcard_tag_state(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Require an inactive flash tag under the private tree and an active one elsewhere.
+
+    Private content is not published, so its cards stay out of the review queue
+    until the file moves to the public tree, where the tag flips back.
+    """
+    errors: list[ValidationMessage] = []
+    parts = ctx.path.parts
+    private = (
+        "special" in parts
+        and parts.index("special") > 0
+        and (parts[parts.index("special") - 1] == "private")
+    )
+    wanted = "flashcard/inactive" if private else "flashcard/active"
+    rejected = "flashcard/active" if private else "flashcard/inactive"
+    tree = "private tree" if private else "public tree"
+    for tag in ctx.data.tags or []:
+        if tag.startswith(rejected):
+            errors.append(
+                ValidationMessage(
+                    "flashcard_tag_state",
+                    f"a file in the {tree} carries '{wanted}/...', not '{tag}'",
+                )
+            )
+    return errors
+
+
+@RULE_REGISTRY.register()
 def flashcard_tag_unique(ctx: ValidationContext) -> list[ValidationMessage]:
     """Enforce that at most one flashcard activation tag exists.
 
@@ -412,8 +441,8 @@ def tag_path_flash(ctx: ValidationContext) -> list[ValidationMessage]:
 
             # convert spaces, single quotes, and double quotes to underscores
             def _clean(part: str) -> str:
-                """Normalize a path segment: spaces/quotes to underscores, collapse/trim."""
-                s = re.sub(r"[ \"']+", "_", part)
+                """Normalize a path segment: spaces, quotes and `#` to underscores, collapse/trim."""
+                s = re.sub(r"[ \"'#]+", "_", part)
                 s = re.sub(r"_+", "_", s)
                 return s.strip("_")
 
@@ -1503,6 +1532,58 @@ def session_missing_topic(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
+"""Phrases that name the material a class used rather than what it taught.
+
+A ``- topic:`` records the subject of a session. ``class note 5``, ``notes #5
+and #6``, ``handout``, ``slides``, and ``the remaining material`` all narrate
+the source instead, which is the defect the notes forbid, and a topic written
+that way usually hides a session whose content was never mapped onto notes.
+"""
+_TOPIC_SOURCE_UNIT_RE = re.compile(
+    r"class\s*notes?"
+    r"|notes?\s*#"
+    r"|remaining\s+material"
+    r"|\bhandouts?\b"
+    r"|\bslides?\b"
+    r"|\blecture\s+deck\b"
+    r"|\blecture\s+recording\b",
+    re.IGNORECASE,
+)
+
+
+@RULE_REGISTRY.register()
+def session_topic_source_unit(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Flag a topic that names the source material instead of the subject.
+
+    The course ``index.md`` records what each class taught. Naming the unit
+    that carried the material states where the knowledge came from, and a
+    session described only that way usually lists no notes or sections either,
+    which is how a note's content ends up credited to a single class.
+    """
+    errors: list[ValidationMessage] = []
+    text = ctx.text
+    for header in ctx.session_headers:
+        end = _get_section_end(text, header.pos, header.heading, ctx.ast)
+        section = text[header.pos : end]
+        m = re.search(r"^(\s*-\s*topic:\s*)(.+?)\s*$", section, re.MULTILINE)
+        if m is None or not _TOPIC_SOURCE_UNIT_RE.search(m.group(2)):
+            continue
+        line, col, col_end = locate_range(
+            ctx.text, header.pos + m.start(2), len(m.group(2))
+        )
+        errors.append(
+            ValidationMessage(
+                "session_topic_source_unit",
+                f"session {header.heading!r} names the source material in its "
+                "topic; state what the class taught",
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return errors
+
+
 @RULE_REGISTRY.register()
 def session_unscheduled_with_topic(ctx: ValidationContext) -> list[ValidationMessage]:
     """Detect sessions marked unscheduled that nevertheless declare a topic.
@@ -1694,15 +1775,37 @@ def _flashcard_rule_exempt(path: Path) -> bool:
     )
 
 
-"""A blockquote list item labelled solution or explanation, the QA answer slot."""
+"""A blockquote list item labelled solution, explanation or annotation, the QA answer slot.
+
+`re.MULTILINE` lets a caller search a whole paragraph for such a line, which
+is how a question block is recognized; a caller matching one line gets the
+same result with or without it.
+"""
 _SOLUTION_LABEL_RE = re.compile(
-    r"^[ \t]*>[ \t]*(?:-[ \t]*)?(?:solution|explanation)[ \t]*:",
-    re.IGNORECASE,
+    r"^[ \t]*>[ \t]*(?:-[ \t]*)?_?"
+    r"(?P<label>solution|explanation|annotation|answer)"
+    r"(?:\._|[ \t]*:)(?=[ \t]|$)",
+    re.IGNORECASE | re.MULTILINE,
 )
 """A blockquote opening display math or an aligned environment, not a question."""
 _DISPLAY_MATH_BLOCK_RE = re.compile(
     r"^[ \t]*>[ \t]*(?:\$\$|\\\[|\\begin\{(?:aligned|align|gathered|split)\})"
 )
+
+"""An HTML comment inside a line, which states nothing to the reader."""
+_HTML_COMMENT_RE = re.compile(r"<!--.*?-->")
+
+
+def _mask_html_comments(text: str) -> str:
+    """Return *text* with each HTML comment blanked to spaces of its own length.
+
+    A comment on an answer line is a suppression directive or a Markdown
+    separator, and a card never shows it, so no rule that measures the line's
+    prose may read it.  The replacement keeps the text's length, since a cloze
+    span and a reported column are measured against the whole line and would
+    shift if the comment were cut out.
+    """
+    return _HTML_COMMENT_RE.sub(lambda match: " " * len(match.group(0)), text)
 
 
 def _iter_blockquote_blocks(text: str) -> Iterator[tuple[int, str]]:
@@ -1729,6 +1832,168 @@ def _iter_blockquote_blocks(text: str) -> Iterator[tuple[int, str]]:
 def _block_has_solution(block_text: str) -> bool:
     """Return whether a blockquote block carries a solution or explanation item."""
     return any(_SOLUTION_LABEL_RE.match(line) for line in block_text.splitlines())
+
+
+def _split_answer_label(line: str) -> tuple[str | None, str]:
+    """Split a blockquoted answer line into its label and its own words.
+
+    A question block's answer line opens with ``- solution:``,
+    ``- explanation:`` or ``- annotation:``. That label, with the quote marker
+    and the list marker around it, names the answer slot and hides nothing, so
+    it is markup rather than content. Returns ``(label, text)``: *label* is the
+    lowercased slot name when the line carries one, and *text* is what follows
+    its colon, with any HTML comment in it blanked. A line without a label
+    comes back unchanged, with ``None``.
+
+    The older shapes are judged in the same slot: ``> Solution:`` and
+    ``> Answer:`` are the solution, and ``> Explanation:`` or
+    ``> _Explanation._`` is the explanation, so a lead-in left in a note
+    answers to the rules that shape its slot.
+    """
+    match = _SOLUTION_LABEL_RE.match(line)
+    if match is None:
+        return None, line
+    label = match.group("label").lower()
+    if label == "answer":
+        label = "solution"
+    return label, _mask_html_comments(line[match.end() :])
+
+
+"""A line indented past the quote marker, which continues the item above it."""
+_ANSWER_CONTINUATION_RE = re.compile(r"^>(?P<gap>[ \t]{2,})(?P<content>\S.*)$")
+
+"""A blockquoted list item of any label, such as ``- note:``.
+
+Only three labels are answer slots, but a block may carry other labelled items
+beside them, and one of those starts a new item rather than continuing the one
+above it.
+"""
+_ANY_LABEL_RE = re.compile(r"^[ \t]*>[ \t]*(?:-[ \t]*)?[A-Za-z][\w /-]*[ \t]*:")
+
+"""A line break inside an answer item, written as the tag itself."""
+_BR_TAG_RE = re.compile(r"<br\s*/?>", re.IGNORECASE)
+
+
+"""One line of an answer item.
+
+Its offset, its raw line, the text it contributes, that text's column in the raw
+line, and whether a blank quote line precedes it.
+"""
+AnswerLine = tuple[int, str, str, int, bool]
+
+
+def _answer_item_records(
+    lines: Sequence[tuple[int, str]],
+) -> Iterator[tuple[str, list[AnswerLine]]]:
+    """Yield ``(label, records)`` for each answer item of a blockquote block.
+
+    *records* holds the item's own line and every continuation line below it.
+    A continuation is a line indented past the quote marker, or a blank quote
+    line that an indented line follows; a line at the marker's own margin
+    carries no label and states nothing about the item, so the item ends there.
+    Only the labelled line and its continuations are one item, which is why a
+    step never needs a second ``- explanation:``.
+    """
+    index = 0
+    while index < len(lines):
+        offset, line = lines[index]
+        label, text = _split_answer_label(line)
+        if label is None:
+            index += 1
+            continue
+        records: list[AnswerLine] = [(offset, line, text, len(line) - len(text), False)]
+        index += 1
+        blank = False
+        while index < len(lines):
+            offset, line = lines[index]
+            if _split_answer_label(line)[0] is not None or _ANY_LABEL_RE.match(line):
+                break
+            match = _ANSWER_CONTINUATION_RE.match(line)
+            if match is None:
+                if line.strip() == ">":
+                    blank = True
+                    index += 1
+                    continue
+                break
+            content = match.group("content")
+            records.append(
+                (
+                    offset,
+                    line,
+                    _mask_html_comments(content),
+                    line.index(content),
+                    blank,
+                )
+            )
+            blank = False
+            index += 1
+        yield label, records
+
+
+def _answer_items(
+    lines: Sequence[tuple[int, str]],
+) -> Iterator[tuple[int, str, str, int]]:
+    """Yield ``(offset, label, text, line_count)`` for each answer item.
+
+    *text* joins the item's lines with one space, the way a reader sees them,
+    with each ``<br/>`` dropped since it is the break rather than a word of
+    it.  *line_count* counts the item's content lines, so a caller can tell a
+    single-line answer from one written across lines; a paragraph break does
+    not make a line of its own.
+    """
+    for label, records in _answer_item_records(lines):
+        pieces = [_BR_TAG_RE.sub(" ", text).strip() for _, _, text, _, _ in records]
+        pieces = [piece for piece in pieces if piece]
+        yield records[0][0], label, " ".join(pieces), len(pieces)
+
+
+def _answer_line_labels(text: str) -> dict[int, tuple[str, str, int]]:
+    """Return ``line_no -> (label, text, text_start)`` for every answer item line.
+
+    A continuation line carries no label of its own, so a rule reporting on a
+    line needs the label of the item it belongs to.  *text* is the line's own
+    text after its label or its indent, and *text_start* is that text's
+    column, which keeps a reported column on the line it belongs to.
+    """
+    labelled: dict[int, tuple[str, str, int]] = {}
+    block: list[tuple[int, str]] = []
+    for index, raw in enumerate(text.splitlines(), start=1):
+        if raw.startswith(">"):
+            block.append((index, raw))
+            continue
+        if block:
+            _collect_answer_lines(block, labelled)
+            block = []
+    if block:
+        _collect_answer_lines(block, labelled)
+    return labelled
+
+
+def _collect_answer_lines(
+    block: list[tuple[int, str]], labelled: dict[int, tuple[str, str, int]]
+) -> None:
+    """Fill *labelled* with the answer lines of one blockquote block.
+
+    *block* pairs each line with its own line number, which is the key the
+    records carry, so a continuation line is labelled under the number it
+    actually sits on.
+    """
+    for _label, records in _answer_item_records(block):
+        for line_no, _raw, line_text, text_start, _blank in records:
+            labelled[line_no] = (_label, line_text, text_start)
+
+
+def _clozes_answer_whole(line: str, text: str) -> bool:
+    """Return whether one cloze holds *text* whole, punctuation and all.
+
+    *line* is the whole line and *text* the words after an answer's label, so
+    the cloze's span is measured against the line.  Only whitespace may sit
+    around the cloze: the item is then one card with nothing visible to prompt
+    it.  A line with text outside the cloze, a visible lead-in or a trailing
+    word, leaves that text for the reader to recall without a blank.
+    """
+    _, spans, _, _, _ = _scan_cloze_tokens(line)
+    return len(spans) == 1 and text.strip() == line[spans[0][0] : spans[0][1] + 3]
 
 
 def _block_is_display_math(block_text: str) -> bool:
@@ -1862,6 +2127,369 @@ def header_style(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
+# Heading structure ---------------------------------------------------------
+#
+# The three hierarchy rules share one metric.  ``width`` is the largest number
+# of sibling sections that a reader must scan at one level with none of them
+# opening a subsection: seven is comfortable, nine is the limit, and ten means
+# the note has grown a list where it needed a structure.
+
+"""Articles that turn a section name into a phrase pointing elsewhere."""
+_HEADING_ARTICLES = (
+    "the",
+    "a",
+    "an",
+    "this",
+    "that",
+    "these",
+    "those",
+    "its",
+    "their",
+)
+
+"""Question words that make a section name ask rather than name."""
+_HEADING_QUESTION_WORDS = (
+    "what",
+    "why",
+    "how",
+    "when",
+    "where",
+    "which",
+    "who",
+    "whom",
+    "whose",
+    "is",
+    "are",
+    "was",
+    "were",
+    "do",
+    "does",
+    "did",
+    "can",
+    "could",
+    "should",
+    "would",
+    "will",
+)
+
+"""Finite verbs whose presence turns a section name into a clause.
+
+The list holds the auxiliaries plus the common lexical verbs that show up in
+headings written as sentences.  It grows only when a real heading carries a
+clause that the auxiliaries alone do not catch.
+"""
+_HEADING_FINITE_VERB_RE = re.compile(
+    r"\b(?:is|are|was|were|has|have|had|does|do|did|can|could|will|would|should|"
+    r"must|may|might|keeps|underlies|predicts|applies|depends|comes|goes|makes|"
+    r"gives|shows|means|becomes|remains)\b",
+    re.IGNORECASE,
+)
+
+"""Sections a reader scans before reaching the next level, comfortably."""
+_COMFORTABLE_WIDTH = 7
+
+"""Widest section run a note may keep without nesting anything."""
+_MAXIMUM_WIDTH = 9
+
+
+def _heading_entries(
+    ctx: ValidationContext,
+) -> list[tuple[int, str, re.Match[str]]]:
+    """Return ``(level, title, match)`` for every H2..H6 heading.
+
+    Inline ``<!-- ... -->`` comments are dropped from *title* so a suppression
+    comment cannot make a heading look like a sentence.
+    """
+    entries: list[tuple[int, str, re.Match[str]]] = []
+    for match in _iter_regex_headings_filtered_by_ast(ctx.text, ctx.ast, min_level=2):
+        title = re.sub(r"<!--.*?-->", "", match.group(2)).strip()
+        entries.append((len(match.group(1)), title, match))
+    return entries
+
+
+def _first_word(title: str) -> str | None:
+    """Return the heading's first word, or ``None`` when it opens on code.
+
+    A heading that begins with a code span, such as `` `Do` ``, names a token
+    rather than describing anything, so the article and question tests skip it.
+    """
+    words = title.split()
+    if not words or words[0].startswith("`"):
+        return None
+    return words[0].strip(punctuation)
+
+
+def _terminal_flags(entries: list[tuple[int, str, re.Match[str]]]) -> list[bool]:
+    """Mark each heading that carries no subsection of its own."""
+    return [
+        not (index + 1 < len(entries) and entries[index + 1][0] > level)
+        for index, (level, _, _) in enumerate(entries)
+    ]
+
+
+def _widest_terminal_block(
+    entries: list[tuple[int, str, re.Match[str]]],
+) -> tuple[int, int | None]:
+    """Return ``(width, owner)`` for the widest run of section-less siblings.
+
+    *owner* is the index of the parent heading, or ``None`` for the note's top
+    level.  A heading's direct children are the members of its child block that
+    sit at the block's shallowest level.
+    """
+    if not entries:
+        return (0, None)
+    flags = _terminal_flags(entries)
+    shallowest = min(level for level, _, _ in entries)
+    widest, owner = 0, None
+    blocks: list[tuple[int | None, list[int]]] = [
+        (
+            None,
+            [
+                index
+                for index, (level, _, _) in enumerate(entries)
+                if level == shallowest
+            ],
+        )
+    ]
+    for index, (level, _, _) in enumerate(entries):
+        depth: list[int] = []
+        for member in range(index + 1, len(entries)):
+            if entries[member][0] <= level:
+                break
+            depth.append(member)
+        if not depth:
+            continue
+        child_level = min(entries[member][0] for member in depth)
+        blocks.append(
+            (index, [member for member in depth if entries[member][0] == child_level])
+        )
+    for block_owner, members in blocks:
+        width = sum(1 for member in members if flags[member])
+        if width > widest:
+            widest, owner = width, block_owner
+    return (widest, owner)
+
+
+def _hierarchy_message(
+    ctx: ValidationContext,
+    rule_id: str,
+    severity: Severity,
+    entries: list[tuple[int, str, re.Match[str]]],
+    width: int,
+    owner: int | None,
+    advice: str,
+) -> list[ValidationMessage]:
+    """Build the one message the hierarchy rules report."""
+    if owner is None:
+        where = "the note's top level"
+        anchor = entries[0][2] if entries else None
+    else:
+        where = f"'{entries[owner][1]}'"
+        anchor = entries[owner][2]
+    if anchor is None:  # pragma: no cover - guarded by the width thresholds
+        return []
+    line, col, col_end = locate_range(ctx.text, anchor.start(), len(anchor.group(0)))
+    msg = (
+        f"{width} of the sections under {where} carry no subsection "
+        f"(flatness {width / _COMFORTABLE_WIDTH:.2f}; {_COMFORTABLE_WIDTH} is comfortable, "
+        f"{_MAXIMUM_WIDTH} is the limit). {advice}"
+    )
+    return [
+        ValidationMessage(
+            rule_id=rule_id,
+            msg=msg,
+            severity=severity,
+            line=line,
+            col=col,
+            col_end=col_end,
+        )
+    ]
+
+
+@RULE_REGISTRY.register()
+def header_hierarchy_flat(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Error when a note lists more than nine section-less siblings."""
+    if not is_topic_note(ctx):
+        return []
+    entries = _heading_entries(ctx)
+    width, owner = _widest_terminal_block(entries)
+    if width <= _MAXIMUM_WIDTH:
+        return []
+    return _hierarchy_message(
+        ctx,
+        "header_hierarchy_flat",
+        Severity.ERROR,
+        entries,
+        width,
+        owner,
+        (
+            "Group these sections under a few headings that name real parts of "
+            "the concept, demote the members to '###', or merge the ones that "
+            "say the same thing."
+        ),
+    )
+
+
+@RULE_REGISTRY.register()
+def header_hierarchy_thin(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when a note sits at the edge of the section-width limit."""
+    if not is_topic_note(ctx):
+        return []
+    entries = _heading_entries(ctx)
+    width, owner = _widest_terminal_block(entries)
+    if not _COMFORTABLE_WIDTH <= width <= _MAXIMUM_WIDTH:
+        return []
+    return _hierarchy_message(
+        ctx,
+        "header_hierarchy_thin",
+        Severity.WARNING,
+        entries,
+        width,
+        owner,
+        (
+            "Nest the related entries under one grouping section before adding "
+            "another, so the reader scans fewer things at once."
+        ),
+    )
+
+
+@RULE_REGISTRY.register()
+def header_hierarchy_shallow(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when a long note never uses a third heading level."""
+    if not is_topic_note(ctx):
+        return []
+    entries = _heading_entries(ctx)
+    if any(level >= 3 for level, _, _ in entries):
+        return []
+    lines = ctx.text.count("\n") + 1
+    if lines < 120:
+        return []
+    width, owner = _widest_terminal_block(entries)
+    if not 5 <= width <= 6:
+        return []
+    return _hierarchy_message(
+        ctx,
+        "header_hierarchy_shallow",
+        Severity.WARNING,
+        entries,
+        width,
+        owner,
+        (
+            f"The note runs {lines} lines and never uses '###', so nothing below "
+            "the top level exists. Give the sections that carry sub-concepts "
+            "their own third-level headings."
+        ),
+    )
+
+
+@RULE_REGISTRY.register()
+def header_generic_article(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Error when a section name opens on an article or demonstrative."""
+    if not is_topic_note(ctx):
+        return []
+    messages: list[ValidationMessage] = []
+    for _, title, match in _heading_entries(ctx):
+        first = _first_word(title)
+        if first is None or first.lower() not in _HEADING_ARTICLES:
+            continue
+        line, col, col_end = locate_range(ctx.text, match.start(), len(match.group(0)))
+        messages.append(
+            ValidationMessage(
+                rule_id="header_generic_article",
+                msg=(
+                    f"section name opens on '{first}', which points at "
+                    "something the reader is assumed to hold. A section name is a "
+                    "term: drop the article, and when a clause follows, rename it "
+                    "to the concept ('the state it keeps' becomes 'hysteresis')."
+                ),
+                severity=Severity.ERROR,
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return messages
+
+
+@RULE_REGISTRY.register()
+def header_question_form(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when a section name asks a question instead of naming a topic.
+
+    A single word is a term even when it is spelled like a question word: a
+    section named ``Do`` or ``Will`` names a keyword, so the question-word
+    branch needs at least two words.  A question mark is decisive on its own.
+    """
+    if not is_topic_note(ctx):
+        return []
+    messages: list[ValidationMessage] = []
+    for _, title, match in _heading_entries(ctx):
+        first = _first_word(title)
+        asks = title.rstrip().endswith("?") or (
+            len(title.split()) >= 2
+            and first is not None
+            and first.lower() in _HEADING_QUESTION_WORDS
+        )
+        if not asks:
+            continue
+        line, col, col_end = locate_range(ctx.text, match.start(), len(match.group(0)))
+        messages.append(
+            ValidationMessage(
+                rule_id="header_question_form",
+                msg=(
+                    "section name is a question. Name the concept the answer "
+                    "delivers: 'why the amplitude falls' becomes 'amplitude "
+                    "falloff', and the sentence that answers it stays in the "
+                    "paragraph below."
+                ),
+                severity=Severity.WARNING,
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return messages
+
+
+@RULE_REGISTRY.register()
+def header_sentence_like(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn when a section name reads as a sentence rather than as a term."""
+    if not is_topic_note(ctx):
+        return []
+    messages: list[ValidationMessage] = []
+    for _, title, match in _heading_entries(ctx):
+        words = title.split()
+        if not words:
+            continue
+        remainder = " ".join(words[1:])
+        reads_as_sentence = (
+            title.rstrip().endswith(".")
+            or len(words) > 9
+            or (
+                len(words) >= 6
+                and _HEADING_FINITE_VERB_RE.search(remainder) is not None
+            )
+        )
+        if not reads_as_sentence:
+            continue
+        line, col, col_end = locate_range(ctx.text, match.start(), len(match.group(0)))
+        messages.append(
+            ValidationMessage(
+                rule_id="header_sentence_like",
+                msg=(
+                    f"section name has {len(words)} words and reads as a "
+                    "sentence. Name the concept instead ('a stimulus that "
+                    "predicts a temperature change' becomes 'conditioned "
+                    "stimulus'), and keep the clause in the paragraph."
+                ),
+                severity=Severity.WARNING,
+                line=line,
+                col=col,
+                col_end=col_end,
+            )
+        )
+    return messages
+
+
 @RULE_REGISTRY.register()
 def agents_title(ctx: ValidationContext) -> list[ValidationMessage]:
     """Require AGENTS.md to begin with '# <course code> agent instructions'."""
@@ -1934,8 +2562,9 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
     next heading of any level. Cards written under a child heading do not
     satisfy the parent, whatever the two levels are. A heading whose own body is
     blank is a grouping heading that owns nothing to card, so it is exempt, and
-    so is one holding only a submission note's metadata block, for the same
-    reason. Index and questions pages are exempt, and so is a level-2 references
+    so is one holding only a submission note's metadata block or a suppression
+    comment, for the same reason: a comment is not read and cannot be carded.
+    Index and questions pages are exempt, and so is a level-2 references
     header, which cites sources instead of stating cards.
 
     A section of question blocks passes without a flashcard block of its own,
@@ -1954,7 +2583,8 @@ def header_flashcard_presence(ctx: ValidationContext) -> list[ValidationMessage]
         hdr_end = h.end()
         end = _own_body_end(headers, i, len(ctx.text))
         section = ctx.text[hdr_end:end]
-        if not section.strip():
+        visible = re.sub(r"<!--.*?-->", "", section, flags=re.DOTALL)
+        if not visible.strip():
             continue
         if _section_is_metadata_only(section):
             continue
@@ -4380,27 +5010,26 @@ def _compute_cloze_coverage(paragraph_text: str) -> float | None:
     return cloze_chars / total_visible
 
 
-"""A `- solution:` / `- explanation:` line inside a blockquote belongs to a
-question block: the line states the answer to the question above it.
+"""A `- solution:`, `- explanation:` or `- annotation:` marker outside a blockquote.
+
+The same three labels are answer lines inside a blockquote (see
+:data:`_SOLUTION_LABEL_RE`), so a bare label is an answer line away from the
+question it answers.
 """
-_BLOCKQUOTED_SOLUTION_RE = re.compile(
-    r"^[ \t]*>[ \t]*(?:-[ \t]*)?(?:solution|explanation)[ \t]*:",
-    re.IGNORECASE | re.MULTILINE,
-)
-"""The same marker outside a blockquote has no question to answer."""
-_BARE_SOLUTION_RE = re.compile(
-    r"^[ \t]*(?:-[ \t]*)?(?:solution|explanation)[ \t]*:",
+_BARE_ANSWER_RE = re.compile(
+    r"^[ \t]*(?:-[ \t]*)?(?:solution|explanation|annotation)[ \t]*:",
     re.IGNORECASE | re.MULTILINE,
 )
 
 
 @RULE_REGISTRY.register()
 def cloze_solution_outside_question(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Disallow cloze ``- solution:`` / ``- explanation:`` lines outside a question block.
+    """Disallow cloze ``- solution:``, ``- explanation:`` and ``- annotation:`` lines
+    outside a question block.
 
     Those lines are question-format markup: their cloze hides the answer to the
     blockquote question above them. Material that is not a question is recorded
-    as prose with its own cards instead, so a cloze solution line with no
+    as prose with its own cards instead, so a cloze answer line with no
     question block around it is a question-format line in a section that should
     not use one; see "Flashcard style per section" in `academic-ingest`.
     """
@@ -4415,7 +5044,7 @@ def cloze_solution_outside_question(ctx: ValidationContext) -> list[ValidationMe
     ):
         return errors
 
-    for m in _BARE_SOLUTION_RE.finditer(ctx.text):
+    for m in _BARE_ANSWER_RE.finditer(ctx.text):
         line_start = m.start()
         line_end = ctx.text.find("\n", line_start)
         if line_end == -1:
@@ -4428,8 +5057,8 @@ def cloze_solution_outside_question(ctx: ValidationContext) -> list[ValidationMe
             ValidationMessage(
                 rule_id="cloze_solution_outside_question",
                 msg=(
-                    "cloze solution/explanation line outside a question block: these "
-                    "lines answer the blockquote question above them, so use "
+                    "cloze answer line outside a question block: these labels "
+                    "answer the blockquote question above them, so use "
                     "'> - solution: ...' inside that blockquote, or record the "
                     "material as prose with its own cards."
                 ),
@@ -4443,7 +5072,7 @@ def cloze_solution_outside_question(ctx: ValidationContext) -> list[ValidationMe
 
 @RULE_REGISTRY.register()
 def cloze_insufficient_coverage(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Warn when cloze coverage is below 80% in a paragraph."""
+    """Warn when cloze coverage is below 85% in a paragraph."""
     errors: list[ValidationMessage] = []
     if not has_flash_tag(ctx.front):
         return errors
@@ -4458,16 +5087,16 @@ def cloze_insufficient_coverage(ctx: ValidationContext) -> list[ValidationMessag
     for para_text, para_start, para_end in paragraphs:
         # A question block mixes its visible question text with the clozed answer
         # lines by design, so its coverage is not measured.
-        if _BLOCKQUOTED_SOLUTION_RE.search(body[para_start:para_end]):
+        if _SOLUTION_LABEL_RE.search(body[para_start:para_end]):
             continue
         coverage = _compute_cloze_coverage(para_text)
-        if coverage is not None and coverage < 0.80:
+        if coverage is not None and coverage < 0.85:
             # Find the line number for the start of this paragraph
             line_no, col_no = locate(ctx.text, body_start + para_start)
             errors.append(
                 ValidationMessage(
                     rule_id="cloze_insufficient_coverage",
-                    msg=f"cloze coverage is {coverage:.0%} in this paragraph; target is ≥80%",
+                    msg=f"cloze coverage is {coverage:.0%} in this paragraph; target is ≥85%",
                     line=line_no,
                     col=col_no,
                 )
@@ -4493,7 +5122,7 @@ def cloze_excessive_coverage(ctx: ValidationContext) -> list[ValidationMessage]:
     for para_text, para_start, para_end in paragraphs:
         # A question block mixes its visible question text with the clozed answer
         # lines by design, so its coverage is not measured.
-        if _BLOCKQUOTED_SOLUTION_RE.search(body[para_start:para_end]):
+        if _SOLUTION_LABEL_RE.search(body[para_start:para_end]):
             continue
         coverage = _compute_cloze_coverage(para_text)
         if coverage is not None and coverage > 0.98:
@@ -4513,7 +5142,7 @@ def cloze_excessive_coverage(ctx: ValidationContext) -> list[ValidationMessage]:
 
 @RULE_REGISTRY.register()
 def cloze_no_hint_words(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Warn when a line carries a lone cloze with no visible hint words.
+    """Warn when a prose line carries a lone cloze with no visible hint words.
 
     A hint is any alphabetic character outside cloze bodies on the same
     line; list markers, quote markers, whitespace, and punctuation are not
@@ -4521,6 +5150,13 @@ def cloze_no_hint_words(ctx: ValidationContext) -> list[ValidationMessage]:
     sample}@}``) shows its hint in the sibling cloze, so only a line with
     exactly one cloze can lack one. Clozes holding only LaTeX math remain
     acceptable recall targets.
+
+    A question block's answer lines are out of scope. Their label names the
+    answer slot and is markup rather than text (see `_split_answer_label`),
+    their own rules already fix the frame and the band they may hide, and an
+    answer is measured in prose words by `_answer_coverage`. Counting
+    characters here as well gave one line a second, disagreeing measure, so
+    this rule now speaks only about prose and card lines.
     """
     errors: list[ValidationMessage] = []
     if not has_flash_tag(ctx.front):
@@ -4534,23 +5170,32 @@ def cloze_no_hint_words(ctx: ValidationContext) -> list[ValidationMessage]:
     for line_idx, line in enumerate(ctx.text.splitlines(), start=1):
         _, spans, _, _, _ = _scan_cloze_tokens(line)
         line_start_next = line_start + len(line) + 1
-        if len(spans) == 1:
+        label, _ = _split_answer_label(line)
+        if label is None and len(spans) == 1:
             span_start, span_end = spans[0]
             visible_text = line[:span_start] + line[span_end:]
-            has_hint_word = bool(re.search(r"[a-zA-Z]", visible_text))
+            hint_words = [
+                word for word in visible_text.split() if re.search(r"[a-zA-Z]", word)
+            ]
             # An empty or LaTeX-only body carries no prose a reader could
             # be quizzed on instead, so it is not a hint-word deficit.
             cloze_body = line[span_start + 3 : span_end].strip()
             equation_only = not cloze_body or bool(
                 re.match(r"^\$.*\$$|^\$\$.*\$\$$", cloze_body, re.DOTALL)
             )
-            if not has_hint_word and not equation_only:
+            if not hint_words and not equation_only:
                 abs_pos = line_start + span_start
                 _line, col_no = locate(ctx.text, abs_pos)
                 errors.append(
                     ValidationMessage(
                         rule_id="cloze_no_hint_words",
-                        msg="cloze flashcard clause has no visible hint words",
+                        msg=(
+                            "cloze flashcard clause has no visible hint words; "
+                            "fix the line, and suppress with "
+                            "'<!-- check: ignore-line[cloze_no_hint_words]: "
+                            "why -->' only when the hint word is genuinely "
+                            "needed"
+                        ),
                         severity=Severity.WARNING,
                         line=line_idx,
                         col=col_no,
@@ -4558,6 +5203,268 @@ def cloze_no_hint_words(ctx: ValidationContext) -> list[ValidationMessage]:
                 )
         line_start = line_start_next
 
+    return errors
+
+
+"""Math delimited by dollar signs, which is a formula rather than a word."""
+_FORMULA_MATH_RE = re.compile(r"\$\$.+?\$\$|\$[^$\n]+\$", re.DOTALL)
+
+"""A word of prose: two letters or more, so digits and symbols are no words."""
+_PROSE_WORD_RE = re.compile(r"[A-Za-z]{2,}")
+
+"""A calculation a reader can see: a number, an operator, ``=``, and a result.
+
+A symbolic left side is no calculation: ``ρ=1`` states a premise rather than
+doing arithmetic, so it never matches.  The run stays inside one line and
+stops short of a second ``=``, so two equations side by side do not merge
+into a false one.
+"""
+_VISIBLE_CALC_RE = re.compile(r"\d[^=\n]{0,24}?[-+*/^][^=\n]{0,24}?=\s*-?[\d.]+")
+
+"""A cloze body holding a step's numbers: a digit, or the math written around it."""
+_CLOZE_NUMBER_OR_MATH_RE = re.compile(r"\d|[$`]|\\")
+
+
+def _has_prose_word(text: str) -> bool:
+    """Return whether *text* holds a word of prose once its math is gone.
+
+    A digit run, a formula and punctuation are no word, so a cloze body made
+    of them alone hides a symbol string rather than something to recall.
+    """
+    return _PROSE_WORD_RE.search(_FORMULA_MATH_RE.sub(" ", text)) is not None
+
+
+@RULE_REGISTRY.register()
+def answer_formula_alone(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Warn about an answer cloze hidden with a formula and nothing else.
+
+    A formula is recalled together with the words that give it meaning, so a
+    cloze holding a formula alone asks for a symbol string instead of a fact.
+    The line reports when one of its clozes holds no word of prose while other
+    prose still sits on the line for the reader to see, since that prose is
+    the context the cloze should have carried.  A formula alone is right where
+    the surrounding text says nothing, and a formula clozed together with its
+    words carries them already, so neither reports.
+
+    A ``- solution:`` line is out of scope: a solution names the option it
+    answers, and that option may be a bare formula.  One message per line, at
+    its first formula-only cloze.
+    """
+    errors: list[ValidationMessage] = []
+    labelled = _answer_line_labels(ctx.text)
+    for line_no, (label, text, text_start) in sorted(labelled.items()):
+        if label not in {"explanation", "annotation"}:
+            continue
+        _, spans, _, _, _ = _scan_cloze_tokens(text)
+        visible: list[str] = []
+        formula_spans: list[int] = []
+        cursor = 0
+        for start, end in sorted(spans):
+            if start < cursor:
+                # A cloze nested inside one already removed.
+                continue
+            if not _has_prose_word(text[start + 3 : end]):
+                formula_spans.append(start)
+            visible.append(text[cursor:start])
+            cursor = end + 3
+        visible.append(text[cursor:])
+        if not formula_spans or not _has_prose_word("".join(visible)):
+            continue
+        errors.append(
+            ValidationMessage(
+                rule_id="answer_formula_alone",
+                msg=(
+                    "a cloze holding a formula alone asks for a symbol "
+                    "string; hide the formula inside a cloze that also holds "
+                    "the words giving it meaning, and leave a formula alone "
+                    "only where the surrounding text says nothing or the "
+                    "formula is a named statement.  Keeping the formula alone "
+                    "is the author's call, so the rule warns instead of "
+                    "failing the line: one that keeps it carries its own "
+                    "suppression, "
+                    + html_cpt("check: ignore-line[answer_formula_alone]: <reason>")
+                ),
+                severity=Severity.WARNING,
+                line=line_no,
+                col=text_start + formula_spans[0] + 1,
+            )
+        )
+    return errors
+
+
+@RULE_REGISTRY.register()
+def answer_visible_calculation(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Reject an answer line that shows the calculation its clozes ask for.
+
+    A card asks for what its cloze hides.  A calculation written outside every
+    cloze is read rather than recalled, so ``is $6 - 1 = 5\\text{ solar
+    days}$`` beside clozes hiding only words shows the reader the answer the
+    card is meant to ask for.  The line reports only when no cloze on it holds
+    a number or the math around one: a derivation that hides its arithmetic,
+    as ``is {@{$$\\frac{16}{24} = \\tfrac{2}{3}$$}@}`` does, reports nothing,
+    because the calculation is already the cloze's own content.
+
+    The calculation is a number, an operator, an ``=`` and a numeric result,
+    all outside the clozes.  A symbolic left side such as ``\u03c1=1`` is a premise
+    rather than arithmetic, so it never matches.  A ``- solution:`` line is out
+    of scope, as it is for `answer_formula_alone`.  One message per line, at
+    its first visible calculation.
+    """
+    rule = "answer_visible_calculation"
+    errors: list[ValidationMessage] = []
+    labelled = _answer_line_labels(ctx.text)
+    for line_no, (label, text, text_start) in sorted(labelled.items()):
+        if label not in {"explanation", "annotation"}:
+            continue
+        _, spans, _, _, _ = _scan_cloze_tokens(text)
+        masked = list(text)
+        bodies: list[str] = []
+        cursor = 0
+        for start, end in sorted(spans):
+            if start < cursor:
+                # A cloze nested inside one already masked.
+                continue
+            masked[start : end + 3] = " " * (end + 3 - start)
+            bodies.append(text[start + 3 : end])
+            cursor = end + 3
+        if any(_CLOZE_NUMBER_OR_MATH_RE.search(body) for body in bodies):
+            continue
+        match = _VISIBLE_CALC_RE.search("".join(masked))
+        if match is None:
+            continue
+        errors.append(
+            ValidationMessage(
+                rule_id=rule,
+                msg=(
+                    f"the calculation '{match.group(0)}' sits outside every "
+                    "cloze, and no cloze on the line hides a number, so the "
+                    "card reads the result it asks for; move the arithmetic "
+                    "into the cloze that states what it computes"
+                ),
+                line=line_no,
+                col=text_start + match.start() + 1,
+            )
+        )
+    return errors
+
+
+"""Function words and connectives: the grammar joining facts, never a fact.
+
+`cloze_glue` reports a body made only of these, since a card displaying ``so``
+or ``which is`` asks the reader to recall a conjunction; see "Never cloze a
+connective, a transition, or a word the reader needs as a hint" in
+`create-flashcards`.
+"""
+_GLUE_WORDS = frozenset(
+    """
+    the a an this that these those some any each every both either neither
+    another other such all own same
+    and or but nor so yet then than as if when while because since though
+    although unless until whether whereas whilst once which
+    of in on at to for from by with without within into onto upon about above
+    below under over between among through during before after against across
+    along around behind beyond near off out up down per via
+    is are was were be been being am do does did can could may might must
+    shall should will would have has had
+    it its i you we they he she him her us them their our your my mine yours
+    theirs whose who whom what where why how there here
+    also only not no thus hence therefore however moreover furthermore
+    nevertheless nonetheless otherwise meanwhile likewise instead still even
+    just very too perhaps rather already always never often sometimes usually
+    """.split()
+)
+
+"""A digit, a stretch of mathematics, or a code span: something a card can ask for.
+
+The math delimiters are both the KaTeX ``$`` pair and the legacy ``\\(`` and
+``\\[`` that older notes still carry.
+"""
+_CLOZE_CONTENT_RE = re.compile(r"\d|[$`]|\\[([\[]")
+
+
+def _cloze_body_is_glue(body: str) -> bool:
+    """Return whether a cloze body is only the grammar joining a fact.
+
+    A digit, a piece of mathematics and a code span name a value or a call, so
+    ``3 or 10`` and ``wait(X)`` are content.  Strip what is neither letter nor
+    digit and a lone letter is left — a choice or a variable, which a card is
+    meant to ask for — while a body left with no letter at all is a symbol or a
+    table cell, also content.  Only a body whose every word comes from
+    `_GLUE_WORDS`, with at least two letters to a word, asks for a connective.
+    """
+    if _CLOZE_CONTENT_RE.search(body):
+        return False
+    words = re.sub(r"[^A-Za-z]+", " ", body).split()
+    if max(map(len, words), default=0) < 2:
+        return False
+    return all(word.casefold() in _GLUE_WORDS for word in words)
+
+
+def _cloze_is_whole_hidden_side(line: str, start: int, end: int) -> bool:
+    """Return whether the cloze at *start*..*end* is all of what the card hides.
+
+    A card is asked in both directions, so either side of a ``::@::`` line is
+    an answer: the left side is recalled from the right and the right from the
+    left.  A cloze holding a whole side — the rest of the line once the answer
+    label and the markup around it are gone, or one whole side of a ``::@::``
+    pair — is therefore the answer itself: ``{@{No}@}`` naming an option is the
+    fact being recalled, not a connective the sentence could lose.
+    """
+    separator = "::@::"
+    before = line.rfind(separator, 0, start)
+    after = line.find(separator, end + 3)
+    side_start = before + len(separator) if before >= 0 else 0
+    side_end = after if after >= 0 else len(line)
+    outside = line[side_start:start] + line[end + 3 : side_end]
+    if before < 0:
+        # The opening side may carry the label of a labelled answer line.
+        _, outside = _split_answer_label(outside)
+    return re.search(r"[A-Za-z0-9]", outside) is None
+
+
+@RULE_REGISTRY.register()
+def cloze_glue(ctx: ValidationContext) -> list[ValidationMessage]:
+    """Reject a cloze that hides only a connective inside a sentence.
+
+    A cloze hides the fact the card asks for, so a body such as ``{@{so}@}`` or
+    ``{@{which is}@}`` inside a sentence hides the grammar that joins facts and
+    leaves the reader nothing to recall.  A digit, a piece of mathematics, a
+    code span, a lone letter and a bare symbol are content, so ``{@{3 or 10}@}``,
+    ``{@{C}@}`` and ``{@{-}@}`` pass.  So does a cloze that is the whole hidden
+    side on its own: a card showing ``{@{No}@}`` as its answer asks for the fact
+    itself.  One message per offending cloze.
+    """
+    errors: list[ValidationMessage] = []
+    if not has_flash_tag(ctx.front):
+        return errors
+
+    for line_no, line in enumerate(ctx.text.splitlines(), start=1):
+        _, spans, _, _, _ = _scan_cloze_tokens(line)
+        cursor = 0
+        for start, end in sorted(spans):
+            if start < cursor:
+                # A cloze nested inside one already reported.
+                continue
+            cursor = end + 3
+            if not _cloze_body_is_glue(line[start + 3 : end]):
+                continue
+            if _cloze_is_whole_hidden_side(line, start, end):
+                continue
+            errors.append(
+                ValidationMessage(
+                    rule_id="cloze_glue",
+                    msg=(
+                        "a cloze hides what carries the fact, so this one "
+                        "hides only a connective and leaves the reader nothing "
+                        "to recall; merge the connective into the cloze beside "
+                        "it, so one cloze hides the fact and the words joining "
+                        "it — 'but not always', 'but not both', 'not only for "
+                        "the DC term' — rather than the connective alone"
+                    ),
+                    line=line_no,
+                    col=start + 1,
+                )
+            )
     return errors
 
 
@@ -4876,6 +5783,35 @@ def no_soft_wrap_paragraph(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
+def _every_softbreak_is_explicit(nodes: list[AstNode]) -> bool:
+    """Return whether each softbreak in *nodes* follows an explicit break.
+
+    A written ``<br/>`` is the author's own line break, and the parser leaves a
+    ``softbreak`` node after the tag; a backslash break leaves a ``linebreak``
+    node instead, so it never reaches here.  Such an item is not soft-wrapped
+    and is not the shape this rule reports.  Walking siblings rather than
+    searching the text for the item's first words keeps the two apart, since
+    the words an item opens with are not unique to it.
+    """
+    for node in nodes:
+        children = node.get("children")
+        if not isinstance(children, list):
+            continue
+        for index, child in enumerate(children):
+            if child.get("type") != "softbreak" or not index:
+                continue
+            previous = children[index - 1]
+            raw = str(previous.get("raw") or "").rstrip()
+            if previous.get("type") == "inline_html" and raw.lower().startswith("<br"):
+                continue
+            if raw.endswith("\\"):
+                continue
+            return False
+        if not _every_softbreak_is_explicit(children):
+            return False
+    return True
+
+
 @RULE_REGISTRY.register()
 def no_soft_wrap_list(ctx: ValidationContext) -> list[ValidationMessage]:
     """Flag soft-wrapped list items (list line continued without a blank line).
@@ -4901,6 +5837,8 @@ def no_soft_wrap_list(ctx: ValidationContext) -> list[ValidationMessage]:
             c.get("type") == "softbreak" for c in iter_ast(item_children)
         )
         if not has_softbreak:
+            continue
+        if _every_softbreak_is_explicit(item_children):
             continue
 
         # Find the first text child for position detection.

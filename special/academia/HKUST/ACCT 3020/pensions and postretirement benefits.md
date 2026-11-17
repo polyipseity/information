@@ -127,7 +127,9 @@ Flashcards for this section are as follows:
 > | {@{Cash}@} | | {@{9&nbsp;600}@} |
 > | {@{Net defined benefit liability}@} | | {@{1&nbsp;400}@} |
 >
-> _Explanation._ Because the plan is fully funded at the start, the {@{net interest component is zero}@}. Pension expense equals current service cost only. The employer's contribution of €9&nbsp;600 is less than the expense of €11&nbsp;000, so the funded status worsens by {@{€1&nbsp;400}@}, creating a net liability on the balance sheet.
+> ---
+>
+> - explanation: Because the plan is fully funded at the start, {@{the net interest component is zero}@}. Pension expense {@{equals current service cost only}@}. The employer's contribution of {@{€9&nbsp;600}@} is less than the expense of {@{€11&nbsp;000}@}, so {@{the funded status worsens by €1&nbsp;400}@}, creating {@{a net liability on the balance sheet}@}.
 
 ---
 
@@ -209,7 +211,9 @@ Under IAS 19, both types of remeasurement go to __other comprehensive income (OC
 > | {@{Net defined benefit liability}@} | {@{2&nbsp;400}@} | |
 > | {@{OCI — remeasurement gain (pension)}@} | | {@{2&nbsp;400}@} |
 >
-> _Explanation._ The €2&nbsp;400 excess of actual return over expected return is {@{not recognized in profit or loss; it is a credit to OCI}@} because IAS 19 classifies all remeasurements as OCI items that accumulate permanently in equity.
+> ---
+>
+> - explanation: The €2&nbsp;400 excess of actual return over expected return is {@{not recognized in profit or loss; it is a credit to OCI}@} because {@{IAS 19 classifies all remeasurements as OCI items that accumulate permanently in equity}@}.
 
 ---
 

@@ -28,6 +28,8 @@ The aggregate arrives in two forms. The _consolidated quotation_ is the limit-or
 
 Aggregating the best bid and the best offer across all the venues produces the National Best Bid and Offer. A fragmented market is quoted against that aggregate rather than against any one venue's book. The spread, and the aggregate that produces it, are described in [bid-ask spread](bid-ask%20spread.md).
 
+Some markets report trades of both the buy side and the sell side, and even the broker-dealers, to the consolidated tape. When a buy order and a sell order match, each side's broker reports the volume, so the data counts the same trade twice. Double counting like this contaminates the information the tape carries about trading volume.
+
 ---
 
 Flashcards for this section are as follows:
@@ -36,6 +38,7 @@ Flashcards for this section are as follows:
 - what the consolidated quotation carries ::@:: The limit-order book data: what orders and quotes are available anywhere.
 - what the consolidated tape carries ::@:: The executed trades, with price and quantity.
 - what a fragmented market is quoted against ::@:: The National Best Bid and Offer, not any single venue's book.
+- what double counting on the consolidated tape is ::@:: A trade whose buy-side broker and sell-side broker each report the volume, so the data counts it twice and contaminates the information about trading volume.
 
 ## direct data feeds
 

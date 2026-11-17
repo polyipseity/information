@@ -57,7 +57,7 @@ Flashcards for this section are as follows:
 - the Rydberg equation for the hydrogen series, and how a series is named in it ::@:: $1/\lambda = R_{\mathrm H}\!\left(\tfrac{1}{n^2} - \tfrac{1}{k^2}\right)$ with $k > n$: each integer $n$ names a series, and the Balmer series is the case $n = 2$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - can the position of a Balmer line be moved once the formula is fixed ::@:: No, because each $k$ is a whole number and the formula returns one fixed wavelength per line. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## where the lines fall
+## line positions
 
 Taking $k$ in turn gives the lines in order of decreasing wavelength. $k = 3$ gives $656.3\ \text{nm}$ in the red, $k = 4$ gives $486.1\ \text{nm}$ in the blue-green, and $k = 5$ and $k = 6$ give $434.0\ \text{nm}$ and $410.2\ \text{nm}$ in the violet. Those four are the ones the eye sees. $k = 7$ gives $397.0\ \text{nm}$ as the series runs into the ultraviolet. The lines carry on towards the limit, with $365.0\ \text{nm}$ among them. Past the visible the lines are measured on a plate or a detector. Reading those positions is [emission spectroscopy](emission%20spectrum.md), the technique that works from the wavelengths a source gives off.
 
@@ -75,7 +75,7 @@ Flashcards for this section are as follows:
 - why infinitely many lines can lie above the series limit at $364.56\ \text{nm}$ ::@:: $k$ runs over the integers without end, and the lines keep shortening towards the limit without crossing it.
 - what the edge in a hydrogen spectrum marks ::@:: The wavelength at which the Balmer lines stop, $364.56\ \text{nm}$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-## why the formula is a puzzle
+## origin of the constant
 
 Nothing in the physics of the time picked out $656.3\ \text{nm}$. Classical theory puts the electron in orbit, and an orbit radiates a continuous spread of frequencies, so it predicts a smear where the measurement finds four separated lines. Discrete levels account for the separation: the available energies are discrete, and the wavelengths are fixed by the differences between them. What discrete levels do not explain is why the values come out at exactly those numbers. The levels themselves are drawn in [emission spectrum](emission%20spectrum.md).
 

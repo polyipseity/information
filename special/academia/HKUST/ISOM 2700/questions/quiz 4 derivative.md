@@ -111,7 +111,7 @@ tags:
 > ---
 >
 > - solution: {@{200: 98, 150: 48, 100: 0, 50: 0}@}
-> - explanation: {@{Critical fractile and its corresponding z-score: $$\frac {C_u} {C_u + C_o} = \frac {4000 - (2000 - 200)} {(4000 - (2000 - 200)) + (2000 - 200)} = 0.55 \implies z^* \approx 0.13 \,.$$ Optimal protection level: $$Q^* = 100 + 10 \cdot 0.13 = 101.3 \approx 102 \,.$$ <p> If the capacity is less than the optimal protection level, then the entire capacity should be reserved for _expensive_ tickets, i.e. no _cheap_ tickets.}@}
+> - explanation: Critical fractile {@{and its corresponding z-score: $$\frac {C_u} {C_u + C_o} = \frac {4000 - (2000 - 200)} {(4000 - (2000 - 200)) + (2000 - 200)} = 0.55 \implies z^* \approx 0.13 \,.$$}@} {@{Optimal protection level: $$Q^* = 100 + 10 \cdot 0.13 = 101.3 \approx 102 \,.$$}@} <p> If the capacity is less than the optimal protection level, then {@{the entire capacity should be reserved for _expensive_ tickets, i.e. no _cheap_ tickets}@}.
 
 ---
 

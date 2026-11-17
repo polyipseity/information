@@ -28,7 +28,9 @@ Flashcards for this section are as follows:
 - black-body spectrum against line emission ::@:: A black body radiates a smooth continuous spectrum with a single peak, while excited atoms radiate discrete lines at wavelengths that identify the element.
 - the three problems of 1895: the one black-body radiation belongs to ::@:: The failure of classical physics to explain black-body radiation, alongside the ether and the speed of light.
 
-## cavity realisation
+## realisation and curve
+
+### cavity realisation
 
 No real surface is a perfect black body, so a cavity stands in for one: an enclosure of opaque, highly absorbing material, heated and read through a small hole. Radiation entering the hole meets the walls and is absorbed. What comes back out is the cavity's own radiation, with the spectrum of an ideal black body at the cavity's temperature.
 
@@ -47,7 +49,7 @@ Flashcards for this section are as follows:
 - a small hole as a thermometer ::@:: A cavity absorbs well and a small hole emits well, so the brightness of the hole at a given wavelength reads the cavity's temperature directly.
 - an infrared thermometer against the cavity arrangement ::@:: It reproduces the arrangement well enough to compare a body's radiation against that of a black body.
 
-## shape of the curve
+### shape of the curve
 
 Plot the power radiated per unit area per unit wavelength against wavelength at a fixed temperature: a single smooth hump. It is zero at both ends, with one maximum, rising slowly on the long-wavelength side and falling steeply on the short-wavelength side.
 
@@ -108,7 +110,9 @@ Flashcards for this section are as follows:
 - what the two classical laws agree on ::@:: They count the cavity modes the same way, and that count is sound.
 - Planck's law taken to the limits $hc/\lambda \ll k_BT$ and $hc/\lambda \gg k_BT$: which classical law does it reduce to in each ::@:: Rayleigh–Jeans in the long-wavelength limit and the Wien approximation in the short-wavelength limit.
 
-## reading a temperature off the peak
+## temperature from the peak
+
+### reading a temperature off the peak
 
 Write $\lambda_{\max}$ for the wavelength at the peak of the curve. A measured $\lambda_{\max}$ gives a temperature with no contact at all, on the same scale for every material. The product $\lambda_{\max}T$ is a fixed constant, $\lambda_{\max}T = 2.898\times10^{-3}\ \text{m}\cdot\text{K}$, and [Wien's displacement law](Wien's%20displacement%20law.md) is its name.
 
@@ -128,7 +132,7 @@ Flashcards for this section are as follows:
 - can a star appear green, and why not ::@:: No. No black-body curve concentrates its emission in one narrow part of the visible, which is what a green star would need; the colours stars show run red, orange, yellow, white, then blue-white.
 - the red star and the blue star in Orion: which is cooler ::@:: Betelgeuse, the red one, since a redder black body peaks at a longer wavelength.
 
-## cosmic microwave background
+### cosmic microwave background
 
 The cosmic microwave background is the relic radiation of the hot early universe, a body nobody can build. It has been measured with microwave receivers and fitted to a black-body curve, and the fit holds to the limit of the measurement with no free parameter left over to absorb a mismatch.
 

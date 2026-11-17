@@ -45,6 +45,8 @@ The output voltage cannot drive a load. If a network $N$ across $R_2$ draws $I''
 
 A drawing load must therefore be treated as a third branch of the network and the circuit re-analyzed.
 
+An instrument brought to the output lands exactly there: its input resistance stands in parallel with the lower resistor, pulling the node below the unloaded ratio. The pull is severe when the divider's own resistances stand comparable to that input resistance and barely visible when they lie far below it, so one instrument loads a $1\ \text{M}\Omega$ divider heavily and a $1\ \text{k}\Omega$ one almost not at all.
+
 ---
 
 Flashcards for this section are as follows:
@@ -53,3 +55,5 @@ Flashcards for this section are as follows:
 - loading condition: when is the divider ratio exact? ::@:: Only while both resistors carry one common current, which fails as soon as the output draws any current.
 - loaded divider: a network $N$ across the output draws $I''$; why does the ratio fail? ::@:: The upper resistor now carries $I' = I - I''$, unequal to the lower one, so the two no longer share $I$ and $V_{R2} \ne V_s\frac{R_2}{R_1+R_2}$.
 - treating a load: a divider feeds a drawing load; how is it handled? ::@:: The load becomes another branch of the network and the circuit is re-analyzed without the unloaded ratio.
+- instrument at the output: an instrument's input resistance lands across the lower resistor of a divider; what does it do to the reading? ::@:: In parallel with that resistor it pulls the combination down, so the node reads below the unloaded ratio.
+- which divider loads: an instrument with a fixed input resistance reads two dividers, one of $1\ \text{M}\Omega$ resistors and one of $1\ \text{k}\Omega$ resistors; where does it load most? ::@:: On the $1\ \text{M}\Omega$ divider, whose resistances stand comparable to the input resistance, while the $1\ \text{k}\Omega$ resistances lie far below it and barely move.

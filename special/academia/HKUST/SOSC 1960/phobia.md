@@ -25,7 +25,7 @@ Flashcards for this section are as follows:
 - how long a phobia persists ::@:: More than six months.
 - how many people with a phobia have more than one ::@:: Most of them, around three quarters.
 
-## how a phobia forms
+## acquisition
 
 A neutral stimulus is paired again and again with one that already produces fear, until it alone produces fear. That is fear conditioning: ordinary conditioning with an aversive outcome. Fear of loud noises is one of the few things a child is born with. A loud noise is an efficient unconditioned stimulus, so the pairing takes fewer trials. A second stimulus the child does not fear needs more pairings.
 
@@ -49,7 +49,7 @@ Flashcards for this section are as follows:
 - how a neutral cue comes to produce fear on its own ::@:: A neutral cue paired again and again with a startling noise comes to produce fear on its own.
 - the age of the child in the 1920 conditioning study ::@:: Nine months old.
 - the stimuli presented before any noise was used ::@:: A rat, a dog, a rabbit, a monkey, and furry or plain masks, none of which disturbed the child.
-- what Watson did as the child was about to touch the rat ::@:: Watson made a loud noise, and the child was startled and cried.
+- what John B. Watson did as the child was about to touch the rat ::@:: Watson made a loud noise, and the child was startled and cried.
 - what happened when the rat appeared again after the pairings ::@:: The child was frightened of the rat and cried, with no noise.
 - what the 1920 study demonstrates ::@:: That a child can be conditioned to fear something harmless.
 - the ethical criticism of the 1920 study ::@:: No independent review, repeated distress on purpose, and no assessment or follow-up of the risk to the child.
@@ -67,7 +67,7 @@ Flashcards for this section are as follows:
 - what the 1920 study found under stimulus generalisation ::@:: The child showed distress at a rabbit, a dog, and a Santa Claus mask, none of which had been paired with the noise.
 - why stimulus generalisation hides a phobia's cause ::@:: The cue stands for a whole class, so memory of one event does not identify the class.
 
-## why the fear lasts
+## persistence
 
 The feared object turns up again and again, and nothing bad follows. The association weakens, and the fear fades. This is extinction, and it is why most frightened children never develop a phobia.
 

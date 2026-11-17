@@ -74,7 +74,7 @@ The `scripts/` directory contains all helper scripts and utilities:
 
 ### Academic course organization
 
-1. Convert LMS export: `uv run -m scripts.special.convert_canvas_submission` (tools-special)
+1. Convert LMS export: `uv run -m scripts.special.convert_canvas_submission`, or `uv run -m scripts.special.convert_gradescope_submission` for a Gradescope page (tools-special)
 2. Update index: Edit `special/academia/<Institution>/index.md`
 3. Add pytextgen fences; regeneration is handled by the build system and
    should not be invoked manually.

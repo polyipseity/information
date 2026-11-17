@@ -32,7 +32,7 @@ Electric power is the rate of doing work, equivalently the rate of change of ene
 
 At $t = 3\text{ s}$ the readings $v(3) = 12\text{ V}$ and $i(3) = 4\text{ A}$ give the instantaneous power $p(3) = v(3)\,i(3) = 12\text{ V}\times4\text{ A} = 48\text{ W}$.
 
-A time-varying element needs an average instead of a single value. If $p(t) = v(t)\,i(t)$ repeats with period $T$, the average power is $P_\text{ave} = \frac{1}{T}\int_0^T p(t)\,dt = \frac{1}{T}\int_0^T v(t)\,i(t)\,dt$.
+A time-varying element needs an average instead of a single value. If $p(t) = v(t)\,i(t)$ repeats with period $T$, the average power is $P_\text{ave} = \frac{1}{T}\int_0^T p(t)\,dt = \frac{1}{T}\int_0^T v(t)\,i(t)\,dt$. For a sinusoidal voltage and current that average takes a closed form, which [AC power](AC%20power.md) develops alongside the matching quantities for alternating current.
 
 ---
 
@@ -63,7 +63,7 @@ Flashcards for this section are as follows:
 - fixed current against fixed voltage: the larger resistance $R$ of a pair, first with the two carrying the same current $I$ and then with the same voltage $V$ across each ::@:: At the same current the larger $R$ dissipates more, $P = I^2R$; at the same voltage it dissipates less, $P = V^2/R$.
 - sign of the product: a resistor with the current arrow entering the terminal marked $+$ and leaving the terminal marked $-$, and $V$ across it ::@:: $P = VI$ comes out positive and is the power the resistor absorbs and dissipates.
 
-### a single resistor across a source
+### single resistor across a source
 
 A resistor of $R = 2\ \Omega$ sits across a $4\text{ V}$ source, so the voltage across it is $V = 4\text{ V}$. Its power follows from the voltage and the resistance alone, $P = V^2/R = (4\text{ V})^2/2\ \Omega = 8\text{ W}$. The current is $I = V/R = 4\text{ V}/2\ \Omega = 2\text{ A}$, and $P = VI = 4\text{ V}\times2\text{ A} = 8\text{ W}$ returns the same power. Sustained for $t = 2\text{ s}$, the resistor consumes $W = Pt = 8\text{ W}\times2\text{ s} = 16\text{ J}$.
 
@@ -102,13 +102,13 @@ Flashcards for this section are as follows:
 
 ### resistance that varies with temperature
 
-A filament bulb heats as it runs, so it does not hold one resistance: its rating describes the hot steady state rather than the first moment after switch-on. A bulb that draws $4\text{ A}$ from a $120\text{ V}$ DC source when cold and dissipates $60\text{ W}$ in the steady state has $R_\text{cold} = 120\text{ V}/4\text{ A} = 30\ \Omega$ against $R_\text{hot} = (120\text{ V})^2/60\text{ W} = 240\ \Omega$, an eightfold change. The cold bulb dissipates $P_\text{cold} = 120\text{ V}\times4\text{ A} = 480\text{ W}$, eight times its $60\text{ W}$ steady-state dissipation.
+A filament bulb heats as it runs, so it does not hold one resistance: its rating describes the hot steady state rather than the first moment after switch-on. A bulb that draws $4\text{ A}$ from a $120\text{ V}$ direct current (DC) source when cold and dissipates $60\text{ W}$ in the steady state has $R_\text{cold} = 120\text{ V}/4\text{ A} = 30\ \Omega$ against $R_\text{hot} = (120\text{ V})^2/60\text{ W} = 240\ \Omega$, an eightfold change. The cold bulb dissipates $P_\text{cold} = 120\text{ V}\times4\text{ A} = 480\text{ W}$, eight times its $60\text{ W}$ steady-state dissipation.
 
 ---
 
 Flashcards for this section are as follows:
 
-- resistance that varies with temperature / cold resistance of a bulb that draws $4\text{ A}$ from a $120\text{ V}$ DC source at start-up ::@:: $R_\text{cold} = 120\text{ V}/4\text{ A} = 30\ \Omega$.
+- resistance that varies with temperature / cold resistance of a bulb that draws $4\text{ A}$ from a $120\text{ V}$ direct current (DC) source at start-up ::@:: $R_\text{cold} = 120\text{ V}/4\text{ A} = 30\ \Omega$.
 - resistance that varies with temperature / hot resistance of a bulb that dissipates $60\text{ W}$ in the steady state under a $120\text{ V}$ source ::@:: $R_\text{hot} = (120\text{ V})^2/60\text{ W} = 240\ \Omega$.
 - resistance that varies with temperature / power dissipated at start-up, with $4\text{ A}$ flowing from the $120\text{ V}$ source into the $30\ \Omega$ cold filament ::@:: $P_\text{cold} = 120\text{ V}\times4\text{ A} = 480\text{ W}$.
 - resistance that varies with temperature / inference from the $480\text{ W}$ cold power against the $60\text{ W}$ hot power of the same bulb ::@:: The cold filament dissipates eight times the power of the hot one.
@@ -153,14 +153,17 @@ Flashcards for this section are as follows:
 
 A flashlight bulb modelled as a $3\ \Omega$ resistor carries $I_\text{bulb} = +2\text{ A}$ with $V_\text{bulb} = 6\text{ V}$ across it, so $P_\text{bulb} = V_\text{bulb}\times I_\text{bulb} = 6\text{ V}\times2\text{ A} = +12\text{ W}$, which the bulb dissipates. The battery of the same loop is measured on its own reference direction, giving $I_\text{bat} = -2\text{ A}$ against $V_\text{bat} = 6\text{ V}$, so $P_\text{bat} = V_\text{bat}\times I_\text{bat} = 6\text{ V}\times(-2\text{ A}) = -12\text{ W}$. The battery is an active element: it generates exactly the $12\text{ W}$ the bulb dissipates.
 
+Circuit lines in these notes follow one notation: `(X)` names a node, with `(GND)` the zero-volt ground node; `[...]` holds one element, its value and marks spelled out in words; `—` is a wire joining consecutive items; and `A ∥ B` puts two elements in parallel between the same pair of nodes. The line `(A) — [2 Ω] — (B)` reads node $A$ feeding a $2\ \Omega$ resistor that reaches node $B$
+
 ---
 
 Flashcards for this section are as follows:
 
-- flashlight bulb and battery / power of the bulb: the loop is `[battery: V_bat = 6 V, I_bat = −2 A on its own reference direction] ─ [bulb: 3 Ω, V_bulb = 6 V, I_bulb = +2 A]`; the bulb is modelled as a resistor with $V_\text{bulb} = 6\text{ V}$ across it and $I_\text{bulb} = +2\text{ A}$ through it; what power does it dissipate? ::@:: $P_\text{bulb} = V_\text{bulb}\times I_\text{bulb} = 6\text{ V}\times2\text{ A} = +12\text{ W}$, a positive power that the bulb dissipates.
-- flashlight bulb and battery / power of the battery: the loop is `[battery: V_bat = 6 V, I_bat = −2 A on its own reference direction] ─ [bulb: 3 Ω, V_bulb = 6 V, I_bulb = +2 A]`; the battery has $V_\text{bat} = 6\text{ V}$ and $I_\text{bat} = -2\text{ A}$ on its own reference direction; what is its power, and what does that make it? ::@:: $P_\text{bat} = V_\text{bat}\times I_\text{bat} = 6\text{ V}\times(-2\text{ A}) = -12\text{ W}$, so the battery is an active element whose generation covers the $12\text{ W}$ dissipated by the bulb.
+- flashlight bulb and battery / power of the bulb: the loop is `[battery: V_bat = 6 V, I_bat = −2 A on its own reference direction] — [bulb: 3 Ω, V_bulb = 6 V, I_bulb = +2 A]`; the bulb is modelled as a resistor with $V_\text{bulb} = 6\text{ V}$ across it and $I_\text{bulb} = +2\text{ A}$ through it; what power does it dissipate? ::@:: $P_\text{bulb} = V_\text{bulb}\times I_\text{bulb} = 6\text{ V}\times2\text{ A} = +12\text{ W}$, a positive power that the bulb dissipates.
+- flashlight bulb and battery / power of the battery: the loop is `[battery: V_bat = 6 V, I_bat = −2 A on its own reference direction] — [bulb: 3 Ω, V_bulb = 6 V, I_bulb = +2 A]`; the battery has $V_\text{bat} = 6\text{ V}$ and $I_\text{bat} = -2\text{ A}$ on its own reference direction; what is its power, and what does that make it? ::@:: $P_\text{bat} = V_\text{bat}\times I_\text{bat} = 6\text{ V}\times(-2\text{ A}) = -12\text{ W}$, so the battery is an active element whose generation covers the $12\text{ W}$ dissipated by the bulb.
+- reading a circuit line: in the notation `(X) — [elements] — (Y)`, what do the parentheses, the brackets, the dash, and `∥` mean? ::@:: `(X)` names a node, with `(GND)` the zero-volt ground node; `[...]` holds one element with its value and marks spelled out; `—` is a wire joining consecutive items; and `A ∥ B` puts A and B in parallel between the same pair of nodes.
 
-## why the reference direction matters
+## sign convention
 
 With the reference direction drawn, the familiar forms $V = IR$ and $P = VI$ hold as written. Without it a minus sign has to be inserted in each, giving $V = -IR$ and $P = -VI$. Mechanics runs the same way: $F = ma$ holds along the chosen positive direction, and the opposite choice demands $F = -ma$.
 

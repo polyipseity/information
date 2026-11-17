@@ -50,7 +50,7 @@ Flashcards for this section are as follows:
 
 A study swaps the single item for a validated questionnaire when it needs scores it can compare across people. A question written for the occasion cannot be set beside another study's results; a published score can.
 
-The usual one is the Positive and Negative Affect Schedule, PANAS. A participant rates current positive affect, such as feeling enthusiastic, alert, or inspired, apart from current negative affect, such as feeling distressed, upset, or nervous. The two are scored apart, so a participant high on one and low on the other does not average out to neutral. A second validated instrument is POMS.
+The usual one is the Positive and Negative Affect Schedule, PANAS. A participant rates current positive affect, such as feeling enthusiastic, alert, or inspired, apart from current negative affect, such as feeling distressed, upset, or nervous. The two are scored apart, so a participant high on one and low on the other does not average out to neutral. A second validated instrument is the Profile of Mood States (POMS).
 
 The scoring comes published, so everyone who administers a validated instrument scores it the same way.
 
@@ -60,9 +60,9 @@ Flashcards for this section are as follows:
 
 - when a study swaps the single item for a questionnaire ::@:: A study swaps the single item for a questionnaire with established scoring when it needs scores it can compare across people.
 - the usual choice ::@:: The Positive and Negative Affect Schedule, PANAS.
-- what PANAS does that a single item does not ::@:: PANAS scores current positive affect and current negative affect separately.
-- positive affect items on PANAS ::@:: Feeling enthusiastic, alert, or inspired.
-- negative affect items on PANAS ::@:: Feeling distressed, upset, or nervous.
+- what the Positive and Negative Affect Schedule (PANAS) does that a single item does not ::@:: PANAS scores current positive affect and current negative affect separately.
+- positive affect items on the Positive and Negative Affect Schedule (PANAS) ::@:: Feeling enthusiastic, alert, or inspired.
+- negative affect items on the Positive and Negative Affect Schedule (PANAS) ::@:: Feeling distressed, upset, or nervous.
 - what separate scoring prevents ::@:: A participant high on positive affect and low on negative affect does not average out to a neutral score.
 - why a validated instrument is preferred ::@:: Published scoring can be set beside other studies' results and samples, and a question written for the occasion cannot.
 - what a published scale also gives ::@:: Everyone who administers a validated instrument scores it the same way.
@@ -85,7 +85,7 @@ Flashcards for this section are as follows:
 
 ## behavioural measures
 
-A behavioural measure reads what a participant produces while doing something else. A coder reads the face: a smile counts whether or not the participant decides to smile. Facial EMG reads the muscle activity underneath, instead of the movement that may hide it. Neither is easy to produce on purpose.
+A behavioural measure reads what a participant produces while doing something else. A coder reads the face: a smile counts whether or not the participant decides to smile. Facial electromyography (EMG) reads the muscle activity underneath, instead of the movement that may hide it. Neither is easy to produce on purpose.
 
 A reaction time resists faking better than a rating. Someone who wants to feel better can just say so, but speeding up a lexical decision takes more than the intention to look better. A participant who classifies happy words faster against sad ones after exercise counts as being in a better mood.
 
@@ -96,7 +96,7 @@ Every measure here carries its own noise. A coded smile settles nothing outside 
 Flashcards for this section are as follows:
 
 - what a behavioural measure reads ::@:: A behavioural measure reads what a participant produces while doing something else.
-- the facial measures ::@:: A coder reads the face, and facial EMG reads the muscle activity underneath.
+- the facial measures ::@:: A coder reads the face, and facial electromyography (EMG) reads the muscle activity underneath.
 - why facial measures are preferred to asking ::@:: A smile counts whether or not the participant decides to smile.
 - why a reaction time is trusted more than a rating ::@:: It is harder to produce on demand.
 - how easily a rating can be faked ::@:: Someone who wants to report feeling better can simply say so.
