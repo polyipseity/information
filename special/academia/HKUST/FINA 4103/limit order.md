@@ -85,7 +85,7 @@ A limit order does not guarantee execution: the market may never reach the speci
 Flashcards for this section are as follows:
 
 - what execution risk a limit order carries ::@:: It may not fill at all, or may fill only partially. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- how a market order compares on execution risk ::@:: It executes immediately upon submission, so its need is almost always fulfilled. <!--SR:!fsrs,2026-12-19T00:00:00.000Z,39,38.90515015,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- how a market order compares on execution risk ::@:: It executes immediately upon submission, so its need is almost always fulfilled. <!--SR:!fsrs,2027-08-29T00:00:00.000Z,253,252.59352738,1,2,3,0,0,2026-12-19T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - what a partial fill leaves behind ::@:: A smaller order still resting on the book. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ### execution price

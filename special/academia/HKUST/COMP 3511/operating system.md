@@ -146,7 +146,7 @@ Flashcards for this section are as follows:
 - loader ::@:: Brings an executable from secondary storage into memory for execution. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - relocation ::@:: Assigns final addresses to program parts and adjusts code and data to match. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - dynamically linked libraries ::@:: Libraries loaded at runtime and shared by all programs using the same version, rather than statically linked into each executable. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- relocatable object file ::@:: A compiled file designed to be loaded at any physical memory location, before the linker combines it with others into an executable. <!--SR:!fsrs,2026-12-19T00:00:00.000Z,39,38.90515015,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- relocatable object file ::@:: A compiled file designed to be loaded at any physical memory location, before the linker combines it with others into an executable. <!--SR:!fsrs,2027-08-29T00:00:00.000Z,253,252.59352738,1,2,3,0,0,2026-12-19T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ## design and implementation
 

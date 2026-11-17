@@ -19,7 +19,7 @@ A __black dwarf__ is {@{a theoretical [stellar remnant](compact%20object.md)}@},
 
 - see: [event horizon](event%20horizon.md)
 
-The defining feature of a black hole is {@{the appearance of an event horizon—a boundary in [spacetime](spacetime.md) through which matter and light can pass only inward towards the mass of the black hole}@}. {@{Nothing, not even light}@}, can {@{escape from inside the event horizon}@}. The event horizon is referred to as such because {@{if an event occurs within the boundary, information from that event cannot reach an outside observer, making it impossible to determine whether such an event occurred}@}. <!--SR:!2026-12-19,641,320!2028-08-16,1155,360!2029-07-28,1430,360!2027-11-25,925,340-->
+The defining feature of a black hole is {@{the appearance of an event horizon—a boundary in [spacetime](spacetime.md) through which matter and light can pass only inward towards the mass of the black hole}@}. {@{Nothing, not even light}@}, can {@{escape from inside the event horizon}@}. The event horizon is referred to as such because {@{if an event occurs within the boundary, information from that event cannot reach an outside observer, making it impossible to determine whether such an event occurred}@}. <!--SR:!fsrs,2033-08-17T00:00:00.000Z,2433,2433.48686766,1,2,10,0,0,2026-12-19T00:00:00.000Z!2028-08-16,1155,360!2029-07-28,1430,360!2027-11-25,925,340-->
 
 ### singularity
 

@@ -70,7 +70,7 @@ Prototype is {@{making your idea physical}@}. In early stages, {@{keep the proto
 
 ### test
 
-Test is {@{testing your idea, gather feedback, and reiterate your design}@}. It is different from prototype that {@{prototype finds success in your design while test finds failure}@}. <!--SR:!2027-01-20,781,330!2026-12-19,664,290-->
+Test is {@{testing your idea, gather feedback, and reiterate your design}@}. It is different from prototype that {@{prototype finds success in your design while test finds failure}@}. <!--SR:!2027-01-20,781,330!fsrs,2033-02-19T00:00:00.000Z,2254,2254.27892414,1.98030797,2,10,0,0,2026-12-19T00:00:00.000Z-->
 
 ## methods and tools
 

@@ -13,7 +13,7 @@ tags:
 
 > {@{![visual representation of the model](../../archives/Wikimedia%20Commons/McKinsey%207S%20framework.svg)}@}
 >
-> {@{visual representation of the model}@} <!--SR:!2028-05-13,978,270!2026-12-19,695,330-->
+> {@{visual representation of the model}@} <!--SR:!2028-05-13,978,270!fsrs,2031-10-20T00:00:00.000Z,1766,1765.96197182,2.49272837,2,10,0,0,2026-12-19T00:00:00.000Z-->
 
 ## objective
 

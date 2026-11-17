@@ -90,7 +90,7 @@ tags:
 > ```
 <!--SR:!fsrs,2029-10-30T00:00:00.000Z,1076,1076.22532725,1,2,9,0,0,2026-11-19T00:00:00.000Z!fsrs,2029-10-15T00:00:00.000Z,1065,1064.62815785,1,2,9,0,0,2026-11-15T00:00:00.000Z-->
 
-{@{Instances of `BankAccountProxy`}@} are {@{stateful}@} because they expose {@{the mutable behaviour of the wrapped account}@}, showing that {@{statefulness is _infectious_}@}. <!--SR:!fsrs,2030-01-30T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-12-15T00:00:00.000Z!2026-12-20,263,330!2026-12-25,267,330!2026-12-19,261,330-->
+{@{Instances of `BankAccountProxy`}@} are {@{stateful}@} because they expose {@{the mutable behaviour of the wrapped account}@}, showing that {@{statefulness is _infectious_}@}. <!--SR:!fsrs,2030-01-30T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-12-15T00:00:00.000Z!2026-12-20,263,330!2026-12-25,267,330!fsrs,2030-02-10T00:00:00.000Z,1149,1149.27403969,1,2,9,0,0,2026-12-19T00:00:00.000Z-->
 
 Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on the function inputs}@}. For example, {@{a lazy list built with a mutable field to cache the `tail`}@} is either {@{stateless or stateful}@} depending if {@{the `tail` expression `tl` is stateful}@}: <!--SR:!2026-12-29,270,330!fsrs,2029-10-10T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-14T00:00:00.000Z!fsrs,2030-01-09T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-12-10T00:00:00.000Z!fsrs,2029-10-10T00:00:00.000Z,1061,1060.7584061,1,2,9,0,0,2026-11-14T00:00:00.000Z!fsrs,2029-12-14T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-29T00:00:00.000Z-->
 
@@ -140,7 +140,7 @@ Sometimes, {@{a function}@} may be either {@{stateless or stateful depending on 
 > // S':  x.deposit(30); x.withdraw(20)
 > ```
 >
-> If we define {@{`val y = x`}@}, {@{no test can distinguish them}@}; they are {@{operationally the same}@}. <!--SR:!fsrs,2030-01-03T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-12-04T00:00:00.000Z!fsrs,2029-09-29T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-11T00:00:00.000Z!2026-12-19,262,330!2027-01-03,274,330!fsrs,2030-01-31T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-12-16T00:00:00.000Z!fsrs,2029-12-14T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-29T00:00:00.000Z-->
+> If we define {@{`val y = x`}@}, {@{no test can distinguish them}@}; they are {@{operationally the same}@}. <!--SR:!fsrs,2030-01-03T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-12-04T00:00:00.000Z!fsrs,2029-09-29T00:00:00.000Z,1053,1053.01305103,1,2,9,0,0,2026-11-11T00:00:00.000Z!fsrs,2030-02-14T00:00:00.000Z,1153,1153.10014712,1,2,9,0,0,2026-12-19T00:00:00.000Z!2027-01-03,274,330!fsrs,2030-01-31T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-12-16T00:00:00.000Z!fsrs,2029-12-14T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-29T00:00:00.000Z-->
 
 {@{The λ‑calculus substitution model}@} replaces {@{a variable by its defining expression}@}. It works for {@{immutable values but fails when mutable state is involved}@}, because replacing {@{a reference with another object changes behaviour}@}. <!--SR:!fsrs,2029-10-05T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-13T00:00:00.000Z!fsrs,2029-10-05T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-13T00:00:00.000Z!fsrs,2029-10-19T00:00:00.000Z,1068,1068.495917,1,2,9,0,0,2026-11-16T00:00:00.000Z!fsrs,2029-10-04T00:00:00.000Z,1057,1056.88673602,1,2,9,0,0,2026-11-12T00:00:00.000Z-->
 

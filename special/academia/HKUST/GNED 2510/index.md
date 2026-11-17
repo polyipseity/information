@@ -117,7 +117,7 @@ The content is in teaching order.
 - networking
     - networking advantages ::@:: know more people, fact checking, tapping into the hidden job market <!--SR:!fsrs,2032-02-28T00:00:00.000Z,1983,1982.94099656,1,2,10,0,0,2026-09-24T00:00:00.000Z!2028-10-12,1151,350-->
 - Where should you sit when you are waiting for an interview? ::@:: as front as possible <!--SR:!2028-11-22,1183,350!2028-08-28,1115,350-->
-- Where should you sit when you are in the interview room? ::@:: seats that are neither too special nor too seclusive <!--SR:!2028-09-13,1128,350!2026-12-19,621,330-->
+- Where should you sit when you are in the interview room? ::@:: seats that are neither too special nor too seclusive <!--SR:!2028-09-13,1128,350!fsrs,2033-08-31T00:00:00.000Z,2447,2447.39272062,1,2,10,0,0,2026-12-19T00:00:00.000Z-->
 - If your boss takes you and the team for lunch... ::@:: ... balance the food order with what everyone else is choosing. (But it can depend on the boss's style.) <!--SR:!2028-12-24,1209,350!2028-02-23,972,350-->
 - Emails should be replied within \_ hours, and phone calls should be returned within \_ hours ::@:: as soon as possible <!--SR:!2028-12-27,1210,350!2028-05-15,1034,350-->
 - If you order coffee/tea and it's too hot. What should you do? ::@:: Let it cool in the cup. <!--SR:!2027-06-09,738,330!2029-01-07,1221,350-->

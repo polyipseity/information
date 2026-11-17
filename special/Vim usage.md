@@ -39,7 +39,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 ## write and quit
 
-- quit current buffer ::@:: :q\[uit\]\<Enter\> <!--SR:!2026-12-19,1018,333!2032-12-20,2707,333-->
+- quit current buffer ::@:: :q\[uit\]\<Enter\> <!--SR:!fsrs,2037-05-26T00:00:00.000Z,3811,3810.57166458,1,2,11,0,0,2026-12-19T00:00:00.000Z!2032-12-20,2707,333-->
 - quit current buffer, discard changes ::@:: :q\[uit\]!\<Enter\> <!--SR:!2028-03-29,1469,353!2034-02-13,3074,333-->
 - write \[range=%\] to \[file=(current)\] ::@:: :\[range\]w\[rite\]\[!\] \[file\]\<Enter\> <!--SR:!2028-07-26,1327,293!2029-05-13,1812,368-->
 - write to \[file=(current)\] and quit ::@:: :wq[!] \[file\]\<Enter\> <!--SR:!2027-03-14,1081,333!2028-03-09,1367,348-->
@@ -48,7 +48,7 @@ See also [Vim help files](https://vimhelp.org/).
 
 - quit insert mode ::@:: \<Esc\> <!--SR:!2028-08-28,1591,353!2028-05-13,1504,353-->
 - insert before cursor ::@:: \[[repeat N](#^repeatN)\]i <!--SR:!2034-05-25,3149,333!fsrs,2035-12-25T00:00:00.000Z,3411,3411.32573735,1,2,11,0,0,2026-08-23T00:00:00.000Z-->
-- insert after cursor ::@:: \[[repeat N](#^repeatN)\]a <!--SR:!2026-12-19,1073,333!2035-11-03,3584,348-->
+- insert after cursor ::@:: \[[repeat N](#^repeatN)\]a <!--SR:!fsrs,2037-11-22T00:00:00.000Z,3991,3990.65216004,1,2,11,0,0,2026-12-19T00:00:00.000Z!2035-11-03,3584,348-->
 - insert after end of line ::@:: \[[repeat N](#^repeatN)\]A <!--SR:!2032-06-08,2438,293!2027-06-24,1158,333-->
 - change text from cursor to ([motion](#motion)) ::@:: c([motion](#motion)) <!--SR:!2033-08-15,2945,333!2033-03-07,2805,333-->
 - insert lines below cursor ::@:: \[[repeat N](#^repeatN)\]o <!--SR:!2034-04-30,2919,293!2027-08-23,1220,313-->

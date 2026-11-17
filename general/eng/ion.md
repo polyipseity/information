@@ -337,7 +337,7 @@ return chain.from_iterable([r.value for r in results])
 - lead(II) ion:@:colorless <!--SR:!2029-01-17,1506,253-->
 - iron(II) ion:@:<span style="color: green;">green</span> <!--SR:!2027-07-17,1228,254-->
 - nickel(II) ion:@:<span style="color: green;">green</span> <!--SR:!2027-08-19,876,207-->
-- copper(II) ion:@:<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> <!--SR:!2026-12-19,220,150-->
+- copper(II) ion:@:<span style="color: blue; background-color: white;">blue</span>, <span style="color: green;">green</span> <!--SR:!fsrs,2028-01-02T00:00:00.000Z,379,378.68410163,8.98461332,2,9,0,0,2026-12-19T00:00:00.000Z-->
 - zinc ion:@:colorless <!--SR:!2030-07-03,2322,334-->
 - manganese(II) ion:@:<span style="color: lightPink;">very pale pink</span> <!--SR:!fsrs,2031-11-20T00:00:00.000Z,1938,1938.14864816,5.48972837,2,11,0,0,2026-07-31T00:00:00.000Z-->
 - mercury(II) ion:@:_(n/a)_ <!--SR:!2028-01-30,1312,276-->

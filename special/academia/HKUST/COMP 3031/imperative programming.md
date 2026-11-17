@@ -36,7 +36,7 @@ Scala lets programmers write code that {@{looks like traditional _imperative_ la
 >   r
 > ```
 >
-> In Scala, {@{every expression}@} evaluates {@{to a value}@}. For {@{a `while` loop}@}, it always evaluates to {@{the `Unit` value `()`}@}. <!--SR:!2027-01-04,281,330!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!fsrs,2030-01-23T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-12-08T00:00:00.000Z!fsrs,2029-12-13T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-28T00:00:00.000Z!2026-12-19,268,330-->
+> In Scala, {@{every expression}@} evaluates {@{to a value}@}. For {@{a `while` loop}@}, it always evaluates to {@{the `Unit` value `()`}@}. <!--SR:!2027-01-04,281,330!fsrs,2029-12-27T00:00:00.000Z,1126,1126.27892251,1,2,9,0,0,2026-11-27T00:00:00.000Z!fsrs,2030-01-23T00:00:00.000Z,1142,1141.61620684,1,2,9,0,0,2026-12-08T00:00:00.000Z!fsrs,2029-12-13T00:00:00.000Z,1111,1110.91195779,1,2,9,0,0,2026-11-28T00:00:00.000Z!fsrs,2030-03-09T00:00:00.000Z,1176,1176.0199518,1,2,9,0,0,2026-12-19T00:00:00.000Z-->
 
 {@{The `while` loop}@} can be implemented as {@{a function that receives the condition and the body, both by name}@}, so they are {@{re‑evaluated each iteration}@}. This function is {@{tail‑recursive and uses constant stack space}@}. <!--SR:!fsrs,2029-09-08T00:00:00.000Z,1041,1041.37962848,1,2,9,0,0,2026-11-02T00:00:00.000Z!2026-12-29,276,330!fsrs,2029-10-28T00:00:00.000Z,1080,1080.08717202,1,2,9,0,0,2026-11-13T00:00:00.000Z!2026-12-20,268,330-->
 

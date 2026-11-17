@@ -29,7 +29,7 @@ Flashcards for this section are as follows:
 
 - Ethics versus morals ::@:: Ethics are external rules that vary between contexts; morals are personal principles that travel with you. Both concern right or wrong conduct. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 - Ethics ::@:: Accepted procedures, customs, or habits governing a group. Externally imposed; context-dependent. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
-- Morals ::@:: Personal principles rooted in individual character. Internalised; stable across contexts. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2026-12-19T00:00:00.000Z,39,38.90515015,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
+- Morals ::@:: Personal principles rooted in individual character. Internalised; stable across contexts. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-08-29T00:00:00.000Z,253,252.59352738,1,2,3,0,0,2026-12-19T00:00:00.000Z-->
 - Where dilemmas arise ::@:: At the intersection of ethics (external rules) and morals (personal principles) — when what the group demands clashes with what the individual believes. <!--SR:!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z!fsrs,2027-01-15T00:00:00.000Z,66,65.62422648,1,2,2,0,0,2026-11-10T00:00:00.000Z-->
 
 ## moral compass spectrum
