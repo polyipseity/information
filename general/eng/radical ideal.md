@@ -1,0 +1,1 @@
+radical of an ideal.md
