@@ -1882,13 +1882,24 @@ class TestBoldItalicHandling:
         assert "- See __also__" in result
 
 
-class TestLetterDashEmphasis:
-    """Tests for dropping italic around single-letter math followed by dash.
+class TestMathOnlyEmphasis:
+    """Tests for dropping emphasis that wraps only math and optional dash.
 
-    LaTeX math cannot be inside Markdown emphasis.  The converter already
-    normalizes ``_$n$_-`` / ``_$n$_–``; this covers the ``n-space``/``n-th``
-    variant where Wikipedia puts the hyphen or en dash inside the italic.
+    Math cannot sit inside Markdown emphasis.  The wrapper is removed when all
+    non-math text is whitespace or a bare dash; classification also steps past
+    such wrappers so inline math stays inline.
     """
+
+    @pytest.mark.anyio
+    async def test_math_only_italic_in_prose(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Math-only italic in prose should render as inline math."""
+        html = f"<p>affine <i>{_inline_math_span(r'{\displaystyle K^n}')}</i> space</p>"
+        result = await _convert(converter, html)
+        assert "affine $K^n$ space" in result
+        assert "_$K^n$" not in result
+        assert "$$K^n$$" not in result
 
     @pytest.mark.anyio
     async def test_hyphen_renders_as_math_dash_space(
@@ -1913,11 +1924,15 @@ class TestLetterDashEmphasis:
         assert "<!-- markdown separator -->" not in result
 
     @pytest.mark.anyio
-    async def test_two_letters_unchanged(self, converter: WikiHtmlConverter) -> None:
-        """Two-letter math should keep the italic wrapper."""
+    async def test_two_letters_plus_hyphen_unwrapped(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Two-letter math plus hyphen should drop the wrapper."""
         html = f"<p><i>{_inline_math_span(r'{\displaystyle ab}')}-</i>space</p>"
         result = await _convert(converter, html)
-        assert "_$ab$-_<!-- markdown separator -->space" in result
+        assert "$ab$-space" in result
+        assert "_$ab$" not in result
+        assert "<!-- markdown separator -->" not in result
 
     @pytest.mark.anyio
     async def test_dash_plus_trailing_words_unchanged(
@@ -1937,13 +1952,24 @@ class TestLetterDashEmphasis:
         assert "_n_-space" in result
 
     @pytest.mark.anyio
-    async def test_block_math_inside_i_unchanged(
+    async def test_block_math_inside_i_unwrapped(
         self, converter: WikiHtmlConverter
     ) -> None:
-        """Block math inside italic should keep the italic wrapper."""
+        """Block math inside italic should drop emphasis and keep block math."""
         html = f"<p><i>{_block_math_span(r'{\displaystyle n}')}-</i>space</p>"
         result = await _convert(converter, html)
-        assert "_$$n$$-_" in result
+        assert "$$n$$-space" in result
+        assert "_$$n$$" not in result
+        assert "$$n$$-_" not in result
+
+    @pytest.mark.anyio
+    async def test_i_containing_math_plus_word_unchanged(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Italic containing math plus a word should keep the wrapper."""
+        html = f"<p><i>{_inline_math_span(r'{\displaystyle n}')} space</i></p>"
+        result = await _convert(converter, html)
+        assert "_$n$ space_" in result
 
 
 # ---------------------------------------------------------------------------

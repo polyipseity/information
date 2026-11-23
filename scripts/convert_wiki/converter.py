@@ -1434,48 +1434,48 @@ class WikiHtmlConverter:
         return prefix
 
     @staticmethod
-    def _is_letter_dash_emphasis(ele: Tag) -> bool:
-        """Whether *ele* is italic around single-letter math and a trailing dash.
+    def _is_math_only_emphasis(ele: Tag) -> bool:
+        """Whether *ele* is emphasis that wraps only math and optional dash.
 
-        Math cannot sit inside Markdown emphasis, so the converter already
-        normalizes ``_$n$_-`` / ``_$n$_–`` (dash outside the italic).  Wikipedia
-        also emits ``_$n$-_`` / ``_$n$–_``, with the hyphen or en dash inside the
-        same ``<i>`` wrapper, as in ``n-space`` or ``n-th``.  Dropping that
-        narrow wrapper leaves ``$n$-`` / ``$n$–`` as plain inline math plus text.
+        Math cannot sit inside Markdown emphasis.  A narrow case (single-letter
+        math plus hyphen/en dash) was previously unwrapped; this generalizes to
+        any emphasis whose non-math text is only whitespace or a bare dash.
+        ``_math_sibling_container`` steps past such wrappers so inline/block
+        classification sees the real prose container.
         """
         if ele.name not in {"em", "i"}:
             return False
-        significant = [
-            child
-            for child in ele.children
-            if not (
-                isinstance(child, PreformattedString)
-                or (isinstance(child, NavigableString) and not str(child).strip())
-            )
-        ]
-        if len(significant) != 2:
+        if ele.find("math") is None:
             return False
-        math_child, dash_child = significant
-        if not isinstance(math_child, Tag):
-            return False
-        math = math_child if math_child.name == "math" else math_child.find("math")
-        if not isinstance(math, Tag):
-            return False
-        raw_alttext = math.get("alttext")
-        if not raw_alttext:
-            return False
-        alt_text = WikiHtmlConverter._prepare_math_alttext(str(raw_alttext))
-        if not re.fullmatch(r"[A-Za-z]", alt_text):
-            return False
-        if not WikiHtmlConverter._is_inline_math(math, alt_text=alt_text):
-            return False
-        if isinstance(dash_child, NavigableString):
-            dash_text = str(dash_child)
-        elif isinstance(dash_child, Tag):
-            dash_text = dash_child.get_text()
-        else:
-            return False
-        return dash_text.strip() in {"-", "–"}
+        for string in ele.find_all(string=True):
+            text = str(string).strip()
+            if not text:
+                continue
+            parent = string.parent
+            if isinstance(parent, Tag):
+                if parent.find_parent("math"):
+                    continue
+                if parent.find_parent(
+                    class_=lambda classes: (
+                        bool(classes)
+                        and any(
+                            token in " ".join(classes).lower()
+                            for token in (
+                                "mwe-math",
+                                "texhtml",
+                                "mjx",
+                                "katex",
+                                "mathjax",
+                            )
+                        )
+                    )
+                ):
+                    continue
+                if parent.name in {"annotation", "script", "style"}:
+                    continue
+            if text not in {"-", "–", "—"}:
+                return False
+        return True
 
     def _handle_bold_italic(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render bold/italic text with Markdown emphasis markers.
@@ -1486,7 +1486,7 @@ class WikiHtmlConverter:
         presenter-synthesised ``<b>``), which would otherwise render as the
         meaningless ``____text____``.
         """
-        if self._is_letter_dash_emphasis(ele):
+        if self._is_math_only_emphasis(ele):
             return _HandlerConfig()
         bold = (
             ele.name in {"b", "strong"}
@@ -2193,6 +2193,10 @@ class WikiHtmlConverter:
                 "mwe-math-mathml-a11y" in container.get_attribute_list("class")
             ):
                 container = container.parent
+            while isinstance(
+                container, Tag
+            ) and WikiHtmlConverter._is_math_only_emphasis(container):
+                container = container.parent
             return container if isinstance(container, Tag) else None
         parent: PageElement | None = math_ele.parent
         if not isinstance(parent, Tag):
@@ -2201,6 +2205,10 @@ class WikiHtmlConverter:
             parent = parent.parent
             if not isinstance(parent, Tag):
                 return None
+        while isinstance(parent, Tag) and WikiHtmlConverter._is_math_only_emphasis(
+            parent
+        ):
+            parent = parent.parent
         return parent
 
     @staticmethod
