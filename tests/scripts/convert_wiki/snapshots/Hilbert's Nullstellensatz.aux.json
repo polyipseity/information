@@ -1,0 +1,1344 @@
+{
+  "api_titles": [
+    "Linear combination",
+    "Michael Atiyah",
+    "Grete Hermann",
+    "Characteristic (algebra)",
+    "Ann. of Math.",
+    "Closure operator",
+    "Algebraic set",
+    "Prime ideal",
+    "Real radical",
+    "Robin Hartshorne",
+    "Zariski's lemma",
+    "Ian G. Macdonald",
+    "K-algebra",
+    "Monomial ordering",
+    "Germ (mathematics)",
+    "Principal ideal",
+    "Quasi-finite morphism",
+    "Holomorphic function",
+    "Bruno Buchberger",
+    "Serge Lang",
+    "Quasi-separated morphism",
+    "Monomial",
+    "Sheaf (mathematics)",
+    "Ideal (ring theory)",
+    "JSTOR (identifier)",
+    "Advances in Applied Mathematics",
+    "Differential Nullstellensatz",
+    "Radical ideal",
+    "Smooth morphism",
+    "Univariate polynomial",
+    "Hilbert's basis theorem",
+    "Radical of an ideal",
+    "Galois connection",
+    "David Eisenbud",
+    "Glossary of algebraic geometry",
+    "System of linear equations",
+    "Reduced Gröbner basis",
+    "Algebraic geometry",
+    "Spectrum of a ring",
+    "Natural number",
+    "Quasi-compact morphism",
+    "Field extension",
+    "Irreducible space",
+    "Faithfully flat morphism",
+    "Restricted power series",
+    "Journal of the American Mathematical Society",
+    "Transcendence degree",
+    "Computational geometry",
+    "Scheme (mathematics)",
+    "Constructive proof",
+    "János Kollár",
+    "Proc. Am. Math. Soc.",
+    "Weierstrass Nullstellensatz",
+    "Graduate Texts in Mathematics",
+    "Algebra",
+    "Jacobson ring",
+    "Local ring",
+    "Introduction to Commutative Algebra",
+    "David Hilbert",
+    "Lemma (mathematics)",
+    "Rational number",
+    "Finitely generated algebra",
+    "Multivariate polynomial",
+    "S2CID (identifier)",
+    "Pierre Samuel",
+    "MR (identifier)",
+    "Doi (identifier)",
+    "Rabinowitsch trick",
+    "Infinite cardinal",
+    "Resultant",
+    "W. Dale Brownawell",
+    "Éléments de géométrie algébrique",
+    "Lexicographic order",
+    "ISBN (identifier)",
+    "Field (mathematics)",
+    "Finite field extension",
+    "Associative algebra",
+    "Prime subfield",
+    "Invariant theory",
+    "Noetherian ring",
+    "ArXiv (identifier)",
+    "Gröbner basis",
+    "Fundamental theorem of algebra",
+    "John B. Little (mathematician)",
+    "Geometry",
+    "Maximal ideal",
+    "Monic polynomial",
+    "Zariski closure",
+    "Corollary",
+    "David A. Cox",
+    "R-algebra",
+    "Zariski topology",
+    "Vector space",
+    "If and only if",
+    "Linear algebra",
+    "Oscar Zariski",
+    "Equivalence class",
+    "Daniel Huybrechts",
+    "Étale morphism",
+    "Irrelevant ideal",
+    "Commutative ring",
+    "Algebraic Geometry (book)",
+    "System of polynomial equations",
+    "Complex number",
+    "Shigeru Mukai",
+    "Artin–Tate lemma",
+    "Algorithm",
+    "Unique factorization domain",
+    "Section (category theory)",
+    "Combinatorial Nullstellensatz",
+    "Bijective",
+    "Mathematische Annalen",
+    "Polynomial ring",
+    "Base change (scheme theory)",
+    "Algebraically closed field",
+    "Stalk (sheaf)",
+    "Rend. Semin. Mat. Univ. Politec. Torino",
+    "Donal O'Shea",
+    "Krivine–Stengle Positivstellensatz",
+    "Mathematics"
+  ],
+  "api_responses": [
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "K-algebra",
+            "to": "Algebra over a field"
+          },
+          {
+            "from": "Radical ideal",
+            "to": "Radical of an ideal"
+          },
+          {
+            "from": "Algebraic set",
+            "to": "Algebraic variety"
+          },
+          {
+            "from": "Irreducible space",
+            "to": "Hyperconnected space"
+          },
+          {
+            "from": "Ann. of Math.",
+            "to": "Annals of Mathematics"
+          },
+          {
+            "from": "Differential Nullstellensatz",
+            "to": "Differentially closed field",
+            "tofragment": "Differential Nullstellensatz"
+          },
+          {
+            "from": "Monomial ordering",
+            "to": "Monomial order"
+          },
+          {
+            "from": "Faithfully flat morphism",
+            "to": "Flat morphism"
+          },
+          {
+            "from": "Univariate polynomial",
+            "to": "Polynomial",
+            "tofragment": "univariate"
+          },
+          {
+            "from": "JSTOR (identifier)",
+            "to": "JSTOR",
+            "tofragment": "Content"
+          },
+          {
+            "from": "Reduced Gröbner basis",
+            "to": "Gröbner basis",
+            "tofragment": "reduced"
+          },
+          {
+            "from": "Transcendence degree",
+            "to": "Transcendental extension"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 1997,
+            "ns": 0,
+            "title": "Algebraic geometry"
+          },
+          {
+            "pageid": 2785,
+            "ns": 0,
+            "title": "Annals of Mathematics"
+          },
+          {
+            "pageid": 11634,
+            "ns": 0,
+            "title": "Field extension"
+          },
+          {
+            "pageid": 13733,
+            "ns": 0,
+            "title": "Hilbert's basis theorem"
+          },
+          {
+            "pageid": 14110,
+            "ns": 0,
+            "title": "Holomorphic function"
+          },
+          {
+            "pageid": 20698,
+            "ns": 0,
+            "title": "Michael Atiyah"
+          },
+          {
+            "pageid": 21474,
+            "ns": 0,
+            "title": "Natural number"
+          },
+          {
+            "pageid": 23000,
+            "ns": 0,
+            "title": "Polynomial"
+          },
+          {
+            "pageid": 24928,
+            "ns": 0,
+            "title": "Prime ideal"
+          },
+          {
+            "pageid": 25977,
+            "ns": 0,
+            "title": "Ideal (ring theory)"
+          },
+          {
+            "pageid": 37291,
+            "ns": 0,
+            "title": "Spectrum of a ring"
+          },
+          {
+            "pageid": 55632,
+            "ns": 0,
+            "title": "Linear combination"
+          },
+          {
+            "pageid": 113087,
+            "ns": 0,
+            "title": "System of linear equations"
+          },
+          {
+            "pageid": 145126,
+            "ns": 0,
+            "title": "Principal ideal"
+          },
+          {
+            "pageid": 156411,
+            "ns": 0,
+            "title": "Galois connection"
+          },
+          {
+            "pageid": 176927,
+            "ns": 0,
+            "title": "Computational geometry"
+          },
+          {
+            "pageid": 191788,
+            "ns": 0,
+            "title": "Algebra over a field"
+          },
+          {
+            "pageid": 216262,
+            "ns": 0,
+            "title": "JSTOR"
+          },
+          {
+            "pageid": 245466,
+            "ns": 0,
+            "title": "Sheaf (mathematics)"
+          },
+          {
+            "pageid": 248808,
+            "ns": 0,
+            "title": "Algebraic variety"
+          },
+          {
+            "pageid": 252009,
+            "ns": 0,
+            "title": "Radical of an ideal"
+          },
+          {
+            "pageid": 287364,
+            "ns": 0,
+            "title": "Transcendental extension"
+          },
+          {
+            "pageid": 352714,
+            "ns": 0,
+            "title": "Germ (mathematics)"
+          },
+          {
+            "pageid": 357328,
+            "ns": 0,
+            "title": "Gröbner basis"
+          },
+          {
+            "pageid": 357416,
+            "ns": 0,
+            "title": "Monomial"
+          },
+          {
+            "pageid": 360113,
+            "ns": 0,
+            "title": "Constructive proof"
+          },
+          {
+            "pageid": 364754,
+            "ns": 0,
+            "title": "Scheme (mathematics)"
+          },
+          {
+            "pageid": 483120,
+            "ns": 0,
+            "title": "Closure operator"
+          },
+          {
+            "pageid": 542520,
+            "ns": 0,
+            "title": "Flat morphism"
+          },
+          {
+            "pageid": 696408,
+            "ns": 0,
+            "title": "Monomial order"
+          },
+          {
+            "pageid": 872991,
+            "ns": 0,
+            "title": "Serge Lang"
+          },
+          {
+            "pageid": 1066621,
+            "ns": 0,
+            "title": "Characteristic (algebra)"
+          },
+          {
+            "pageid": 1208377,
+            "ns": 0,
+            "title": "Grete Hermann"
+          },
+          {
+            "pageid": 1924233,
+            "ns": 0,
+            "title": "Bruno Buchberger"
+          },
+          {
+            "pageid": 2143056,
+            "ns": 0,
+            "title": "Quasi-finite morphism"
+          },
+          {
+            "pageid": 3100378,
+            "ns": 0,
+            "title": "Ian G. Macdonald"
+          },
+          {
+            "pageid": 3504440,
+            "ns": 0,
+            "title": "Journal of the American Mathematical Society"
+          },
+          {
+            "pageid": 3649845,
+            "ns": 0,
+            "title": "David Eisenbud"
+          },
+          {
+            "pageid": 5693379,
+            "ns": 0,
+            "title": "Robin Hartshorne"
+          },
+          {
+            "pageid": 7556651,
+            "ns": 0,
+            "title": "Hyperconnected space"
+          },
+          {
+            "pageid": 7837041,
+            "ns": 0,
+            "title": "Smooth morphism"
+          },
+          {
+            "pageid": 10470883,
+            "ns": 0,
+            "title": "Differentially closed field"
+          },
+          {
+            "pageid": 12410777,
+            "ns": 0,
+            "title": "Quasi-compact morphism"
+          },
+          {
+            "pageid": 28281191,
+            "ns": 0,
+            "title": "Quasi-separated morphism"
+          },
+          {
+            "pageid": 30498353,
+            "ns": 0,
+            "title": "Advances in Applied Mathematics"
+          },
+          {
+            "pageid": 35457783,
+            "ns": 0,
+            "title": "Glossary of algebraic geometry"
+          },
+          {
+            "pageid": 37279342,
+            "ns": 0,
+            "title": "Zariski's lemma"
+          },
+          {
+            "pageid": 58735072,
+            "ns": 0,
+            "title": "Real radical"
+          },
+          {
+            "pageid": 63731291,
+            "ns": 0,
+            "title": "Restricted power series"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Zariski closure",
+            "to": "Zariski topology"
+          },
+          {
+            "from": "R-algebra",
+            "to": "Associative algebra"
+          },
+          {
+            "from": "Finite field extension",
+            "to": "Degree of a field extension",
+            "tofragment": "Definition and notation"
+          },
+          {
+            "from": "Prime subfield",
+            "to": "Characteristic (algebra)",
+            "tofragment": "Case of fields"
+          },
+          {
+            "from": "Multivariate polynomial",
+            "to": "Polynomial",
+            "tofragment": "Multivariate polynomial"
+          },
+          {
+            "from": "Infinite cardinal",
+            "to": "Transfinite number"
+          },
+          {
+            "from": "Proc. Am. Math. Soc.",
+            "to": "Proceedings of the American Mathematical Society"
+          },
+          {
+            "from": "ISBN (identifier)",
+            "to": "ISBN"
+          },
+          {
+            "from": "S2CID (identifier)",
+            "to": "Semantic Scholar",
+            "tofragment": "S2CID"
+          },
+          {
+            "from": "ArXiv (identifier)",
+            "to": "ArXiv"
+          },
+          {
+            "from": "Doi (identifier)",
+            "to": "Digital object identifier"
+          },
+          {
+            "from": "MR (identifier)",
+            "to": "Mathematical Reviews"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 2112,
+            "ns": 0,
+            "title": "Associative algebra"
+          },
+          {
+            "pageid": 8302,
+            "ns": 0,
+            "title": "David Hilbert"
+          },
+          {
+            "pageid": 9260,
+            "ns": 0,
+            "title": "Equivalence class"
+          },
+          {
+            "pageid": 10603,
+            "ns": 0,
+            "title": "Field (mathematics)"
+          },
+          {
+            "pageid": 14919,
+            "ns": 0,
+            "title": "ISBN"
+          },
+          {
+            "pageid": 14922,
+            "ns": 0,
+            "title": "If and only if"
+          },
+          {
+            "pageid": 18422,
+            "ns": 0,
+            "title": "Linear algebra"
+          },
+          {
+            "pageid": 18634,
+            "ns": 0,
+            "title": "Lemma (mathematics)"
+          },
+          {
+            "pageid": 23000,
+            "ns": 0,
+            "title": "Polynomial"
+          },
+          {
+            "pageid": 32370,
+            "ns": 0,
+            "title": "Vector space"
+          },
+          {
+            "pageid": 38751,
+            "ns": 0,
+            "title": "ArXiv"
+          },
+          {
+            "pageid": 48164,
+            "ns": 0,
+            "title": "Maximal ideal"
+          },
+          {
+            "pageid": 51414,
+            "ns": 0,
+            "title": "Fundamental theorem of algebra"
+          },
+          {
+            "pageid": 56129,
+            "ns": 0,
+            "title": "Noetherian ring"
+          },
+          {
+            "pageid": 153391,
+            "ns": 0,
+            "title": "Local ring"
+          },
+          {
+            "pageid": 168865,
+            "ns": 0,
+            "title": "Corollary"
+          },
+          {
+            "pageid": 189734,
+            "ns": 0,
+            "title": "Transfinite number"
+          },
+          {
+            "pageid": 241744,
+            "ns": 0,
+            "title": "Zariski topology"
+          },
+          {
+            "pageid": 314730,
+            "ns": 0,
+            "title": "Monic polynomial"
+          },
+          {
+            "pageid": 357328,
+            "ns": 0,
+            "title": "Gröbner basis"
+          },
+          {
+            "pageid": 359352,
+            "ns": 0,
+            "title": "Oscar Zariski"
+          },
+          {
+            "pageid": 363762,
+            "ns": 0,
+            "title": "Invariant theory"
+          },
+          {
+            "pageid": 422994,
+            "ns": 0,
+            "title": "Digital object identifier"
+          },
+          {
+            "pageid": 471387,
+            "ns": 0,
+            "title": "Éléments de géométrie algébrique"
+          },
+          {
+            "pageid": 567667,
+            "ns": 0,
+            "title": "Lexicographic order"
+          },
+          {
+            "pageid": 1066621,
+            "ns": 0,
+            "title": "Characteristic (algebra)"
+          },
+          {
+            "pageid": 1485646,
+            "ns": 0,
+            "title": "Mathematical Reviews"
+          },
+          {
+            "pageid": 2195020,
+            "ns": 0,
+            "title": "Resultant"
+          },
+          {
+            "pageid": 2604194,
+            "ns": 0,
+            "title": "Pierre Samuel"
+          },
+          {
+            "pageid": 3022771,
+            "ns": 0,
+            "title": "Étale morphism"
+          },
+          {
+            "pageid": 4382697,
+            "ns": 0,
+            "title": "Degree of a field extension"
+          },
+          {
+            "pageid": 4607512,
+            "ns": 0,
+            "title": "Jacobson ring"
+          },
+          {
+            "pageid": 4977374,
+            "ns": 0,
+            "title": "Proceedings of the American Mathematical Society"
+          },
+          {
+            "pageid": 7392980,
+            "ns": 0,
+            "title": "Graduate Texts in Mathematics"
+          },
+          {
+            "pageid": 8122079,
+            "ns": 0,
+            "title": "Introduction to Commutative Algebra"
+          },
+          {
+            "pageid": 11985661,
+            "ns": 0,
+            "title": "Finitely generated algebra"
+          },
+          {
+            "pageid": 14975781,
+            "ns": 0,
+            "title": "Rabinowitsch trick"
+          },
+          {
+            "pageid": 18716923,
+            "ns": 0,
+            "title": "Algebra"
+          },
+          {
+            "pageid": 18973446,
+            "ns": 0,
+            "title": "Geometry"
+          },
+          {
+            "pageid": 19727024,
+            "ns": 0,
+            "title": "Rational number"
+          },
+          {
+            "pageid": 22314201,
+            "ns": 0,
+            "title": "János Kollár"
+          },
+          {
+            "pageid": 24621384,
+            "ns": 0,
+            "title": "Irrelevant ideal"
+          },
+          {
+            "pageid": 41248158,
+            "ns": 0,
+            "title": "David A. Cox"
+          },
+          {
+            "pageid": 45211789,
+            "ns": 0,
+            "title": "W. Dale Brownawell"
+          },
+          {
+            "pageid": 48322758,
+            "ns": 0,
+            "title": "Daniel Huybrechts"
+          },
+          {
+            "pageid": 48455863,
+            "ns": 0,
+            "title": "Semantic Scholar"
+          },
+          {
+            "pageid": 76433401,
+            "ns": 0,
+            "title": "John B. Little (mathematician)"
+          },
+          {
+            "pageid": 78515890,
+            "ns": 0,
+            "title": "Weierstrass Nullstellensatz"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Bijective",
+            "to": "Bijection"
+          },
+          {
+            "from": "Combinatorial Nullstellensatz",
+            "to": "Restricted sumset",
+            "tofragment": "Combinatorial Nullstellensatz"
+          },
+          {
+            "from": "Base change (scheme theory)",
+            "to": "Fiber product of schemes",
+            "tofragment": "Base change and descent"
+          },
+          {
+            "from": "Rend. Semin. Mat. Univ. Politec. Torino",
+            "to": "Rendiconti del Seminario Matematico Università e Politecnico di Torino"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 775,
+            "ns": 0,
+            "title": "Algorithm"
+          },
+          {
+            "pageid": 1018,
+            "ns": 0,
+            "title": "Algebraically closed field"
+          },
+          {
+            "pageid": 3942,
+            "ns": 0,
+            "title": "Bijection"
+          },
+          {
+            "pageid": 5826,
+            "ns": 0,
+            "title": "Complex number"
+          },
+          {
+            "pageid": 18831,
+            "ns": 0,
+            "title": "Mathematics"
+          },
+          {
+            "pageid": 60546,
+            "ns": 0,
+            "title": "Unique factorization domain"
+          },
+          {
+            "pageid": 61346,
+            "ns": 0,
+            "title": "Commutative ring"
+          },
+          {
+            "pageid": 373065,
+            "ns": 0,
+            "title": "Polynomial ring"
+          },
+          {
+            "pageid": 1423381,
+            "ns": 0,
+            "title": "Mathematische Annalen"
+          },
+          {
+            "pageid": 6921017,
+            "ns": 0,
+            "title": "Algebraic Geometry (book)"
+          },
+          {
+            "pageid": 7960510,
+            "ns": 0,
+            "title": "Restricted sumset"
+          },
+          {
+            "pageid": 10630303,
+            "ns": 0,
+            "title": "Section (category theory)"
+          },
+          {
+            "pageid": 13260616,
+            "ns": 0,
+            "title": "Krivine–Stengle Positivstellensatz"
+          },
+          {
+            "pageid": 15879621,
+            "ns": 0,
+            "title": "Stalk (sheaf)"
+          },
+          {
+            "pageid": 26749169,
+            "ns": 0,
+            "title": "Rendiconti del Seminario Matematico Università e Politecnico di Torino"
+          },
+          {
+            "pageid": 27420015,
+            "ns": 0,
+            "title": "System of polynomial equations"
+          },
+          {
+            "pageid": 37801794,
+            "ns": 0,
+            "title": "Shigeru Mukai"
+          },
+          {
+            "pageid": 45586929,
+            "ns": 0,
+            "title": "Artin–Tate lemma"
+          },
+          {
+            "pageid": 52266169,
+            "ns": 0,
+            "title": "Donal O'Shea"
+          },
+          {
+            "pageid": 56444110,
+            "ns": 0,
+            "title": "Fiber product of schemes"
+          }
+        ]
+      }
+    }
+  ],
+  "redirect_cache": {
+    "K-algebra": {
+      "to": "Algebra over a field",
+      "tofragment": ""
+    },
+    "Radical ideal": {
+      "to": "Radical of an ideal",
+      "tofragment": ""
+    },
+    "Algebraic set": {
+      "to": "Algebraic variety",
+      "tofragment": ""
+    },
+    "Irreducible space": {
+      "to": "Hyperconnected space",
+      "tofragment": ""
+    },
+    "Ann. of Math.": {
+      "to": "Annals of Mathematics",
+      "tofragment": ""
+    },
+    "Differential Nullstellensatz": {
+      "to": "Differentially closed field",
+      "tofragment": "Differential Nullstellensatz"
+    },
+    "Monomial ordering": {
+      "to": "Monomial order",
+      "tofragment": ""
+    },
+    "Faithfully flat morphism": {
+      "to": "Flat morphism",
+      "tofragment": ""
+    },
+    "Univariate polynomial": {
+      "to": "Polynomial",
+      "tofragment": "univariate"
+    },
+    "JSTOR (identifier)": {
+      "to": "JSTOR",
+      "tofragment": "Content"
+    },
+    "Reduced Gröbner basis": {
+      "to": "Gröbner basis",
+      "tofragment": "reduced"
+    },
+    "Transcendence degree": {
+      "to": "Transcendental extension",
+      "tofragment": ""
+    },
+    "Linear combination": {
+      "to": "Linear combination",
+      "tofragment": ""
+    },
+    "Michael Atiyah": {
+      "to": "Michael Atiyah",
+      "tofragment": ""
+    },
+    "Grete Hermann": {
+      "to": "Grete Hermann",
+      "tofragment": ""
+    },
+    "Characteristic (algebra)": {
+      "to": "Characteristic (algebra)",
+      "tofragment": ""
+    },
+    "Closure operator": {
+      "to": "Closure operator",
+      "tofragment": ""
+    },
+    "Prime ideal": {
+      "to": "Prime ideal",
+      "tofragment": ""
+    },
+    "Real radical": {
+      "to": "Real radical",
+      "tofragment": ""
+    },
+    "Robin Hartshorne": {
+      "to": "Robin Hartshorne",
+      "tofragment": ""
+    },
+    "Zariski's lemma": {
+      "to": "Zariski's lemma",
+      "tofragment": ""
+    },
+    "Ian G. Macdonald": {
+      "to": "Ian G. Macdonald",
+      "tofragment": ""
+    },
+    "Germ (mathematics)": {
+      "to": "Germ (mathematics)",
+      "tofragment": ""
+    },
+    "Principal ideal": {
+      "to": "Principal ideal",
+      "tofragment": ""
+    },
+    "Quasi-finite morphism": {
+      "to": "Quasi-finite morphism",
+      "tofragment": ""
+    },
+    "Holomorphic function": {
+      "to": "Holomorphic function",
+      "tofragment": ""
+    },
+    "Bruno Buchberger": {
+      "to": "Bruno Buchberger",
+      "tofragment": ""
+    },
+    "Serge Lang": {
+      "to": "Serge Lang",
+      "tofragment": ""
+    },
+    "Quasi-separated morphism": {
+      "to": "Quasi-separated morphism",
+      "tofragment": ""
+    },
+    "Monomial": {
+      "to": "Monomial",
+      "tofragment": ""
+    },
+    "Sheaf (mathematics)": {
+      "to": "Sheaf (mathematics)",
+      "tofragment": ""
+    },
+    "Ideal (ring theory)": {
+      "to": "Ideal (ring theory)",
+      "tofragment": ""
+    },
+    "Advances in Applied Mathematics": {
+      "to": "Advances in Applied Mathematics",
+      "tofragment": ""
+    },
+    "Smooth morphism": {
+      "to": "Smooth morphism",
+      "tofragment": ""
+    },
+    "Hilbert's basis theorem": {
+      "to": "Hilbert's basis theorem",
+      "tofragment": ""
+    },
+    "Radical of an ideal": {
+      "to": "Radical of an ideal",
+      "tofragment": ""
+    },
+    "Galois connection": {
+      "to": "Galois connection",
+      "tofragment": ""
+    },
+    "David Eisenbud": {
+      "to": "David Eisenbud",
+      "tofragment": ""
+    },
+    "Glossary of algebraic geometry": {
+      "to": "Glossary of algebraic geometry",
+      "tofragment": ""
+    },
+    "System of linear equations": {
+      "to": "System of linear equations",
+      "tofragment": ""
+    },
+    "Algebraic geometry": {
+      "to": "Algebraic geometry",
+      "tofragment": ""
+    },
+    "Spectrum of a ring": {
+      "to": "Spectrum of a ring",
+      "tofragment": ""
+    },
+    "Natural number": {
+      "to": "Natural number",
+      "tofragment": ""
+    },
+    "Quasi-compact morphism": {
+      "to": "Quasi-compact morphism",
+      "tofragment": ""
+    },
+    "Field extension": {
+      "to": "Field extension",
+      "tofragment": ""
+    },
+    "Restricted power series": {
+      "to": "Restricted power series",
+      "tofragment": ""
+    },
+    "Journal of the American Mathematical Society": {
+      "to": "Journal of the American Mathematical Society",
+      "tofragment": ""
+    },
+    "Computational geometry": {
+      "to": "Computational geometry",
+      "tofragment": ""
+    },
+    "Scheme (mathematics)": {
+      "to": "Scheme (mathematics)",
+      "tofragment": ""
+    },
+    "Constructive proof": {
+      "to": "Constructive proof",
+      "tofragment": ""
+    },
+    "Zariski closure": {
+      "to": "Zariski topology",
+      "tofragment": ""
+    },
+    "R-algebra": {
+      "to": "Associative algebra",
+      "tofragment": ""
+    },
+    "Finite field extension": {
+      "to": "Degree of a field extension",
+      "tofragment": "Definition and notation"
+    },
+    "Prime subfield": {
+      "to": "Characteristic (algebra)",
+      "tofragment": "Case of fields"
+    },
+    "Multivariate polynomial": {
+      "to": "Polynomial",
+      "tofragment": "Multivariate polynomial"
+    },
+    "Infinite cardinal": {
+      "to": "Transfinite number",
+      "tofragment": ""
+    },
+    "Proc. Am. Math. Soc.": {
+      "to": "Proceedings of the American Mathematical Society",
+      "tofragment": ""
+    },
+    "ISBN (identifier)": {
+      "to": "ISBN",
+      "tofragment": ""
+    },
+    "S2CID (identifier)": {
+      "to": "Semantic Scholar",
+      "tofragment": "S2CID"
+    },
+    "ArXiv (identifier)": {
+      "to": "ArXiv",
+      "tofragment": ""
+    },
+    "Doi (identifier)": {
+      "to": "Digital object identifier",
+      "tofragment": ""
+    },
+    "MR (identifier)": {
+      "to": "Mathematical Reviews",
+      "tofragment": ""
+    },
+    "János Kollár": {
+      "to": "János Kollár",
+      "tofragment": ""
+    },
+    "Weierstrass Nullstellensatz": {
+      "to": "Weierstrass Nullstellensatz",
+      "tofragment": ""
+    },
+    "Graduate Texts in Mathematics": {
+      "to": "Graduate Texts in Mathematics",
+      "tofragment": ""
+    },
+    "Algebra": {
+      "to": "Algebra",
+      "tofragment": ""
+    },
+    "Jacobson ring": {
+      "to": "Jacobson ring",
+      "tofragment": ""
+    },
+    "Local ring": {
+      "to": "Local ring",
+      "tofragment": ""
+    },
+    "Introduction to Commutative Algebra": {
+      "to": "Introduction to Commutative Algebra",
+      "tofragment": ""
+    },
+    "David Hilbert": {
+      "to": "David Hilbert",
+      "tofragment": ""
+    },
+    "Lemma (mathematics)": {
+      "to": "Lemma (mathematics)",
+      "tofragment": ""
+    },
+    "Rational number": {
+      "to": "Rational number",
+      "tofragment": ""
+    },
+    "Finitely generated algebra": {
+      "to": "Finitely generated algebra",
+      "tofragment": ""
+    },
+    "Pierre Samuel": {
+      "to": "Pierre Samuel",
+      "tofragment": ""
+    },
+    "Rabinowitsch trick": {
+      "to": "Rabinowitsch trick",
+      "tofragment": ""
+    },
+    "Resultant": {
+      "to": "Resultant",
+      "tofragment": ""
+    },
+    "W. Dale Brownawell": {
+      "to": "W. Dale Brownawell",
+      "tofragment": ""
+    },
+    "Éléments de géométrie algébrique": {
+      "to": "Éléments de géométrie algébrique",
+      "tofragment": ""
+    },
+    "Lexicographic order": {
+      "to": "Lexicographic order",
+      "tofragment": ""
+    },
+    "Field (mathematics)": {
+      "to": "Field (mathematics)",
+      "tofragment": ""
+    },
+    "Associative algebra": {
+      "to": "Associative algebra",
+      "tofragment": ""
+    },
+    "Invariant theory": {
+      "to": "Invariant theory",
+      "tofragment": ""
+    },
+    "Noetherian ring": {
+      "to": "Noetherian ring",
+      "tofragment": ""
+    },
+    "Gröbner basis": {
+      "to": "Gröbner basis",
+      "tofragment": ""
+    },
+    "Fundamental theorem of algebra": {
+      "to": "Fundamental theorem of algebra",
+      "tofragment": ""
+    },
+    "John B. Little (mathematician)": {
+      "to": "John B. Little (mathematician)",
+      "tofragment": ""
+    },
+    "Geometry": {
+      "to": "Geometry",
+      "tofragment": ""
+    },
+    "Maximal ideal": {
+      "to": "Maximal ideal",
+      "tofragment": ""
+    },
+    "Monic polynomial": {
+      "to": "Monic polynomial",
+      "tofragment": ""
+    },
+    "Corollary": {
+      "to": "Corollary",
+      "tofragment": ""
+    },
+    "David A. Cox": {
+      "to": "David A. Cox",
+      "tofragment": ""
+    },
+    "Zariski topology": {
+      "to": "Zariski topology",
+      "tofragment": ""
+    },
+    "Vector space": {
+      "to": "Vector space",
+      "tofragment": ""
+    },
+    "If and only if": {
+      "to": "If and only if",
+      "tofragment": ""
+    },
+    "Linear algebra": {
+      "to": "Linear algebra",
+      "tofragment": ""
+    },
+    "Oscar Zariski": {
+      "to": "Oscar Zariski",
+      "tofragment": ""
+    },
+    "Equivalence class": {
+      "to": "Equivalence class",
+      "tofragment": ""
+    },
+    "Daniel Huybrechts": {
+      "to": "Daniel Huybrechts",
+      "tofragment": ""
+    },
+    "Étale morphism": {
+      "to": "Étale morphism",
+      "tofragment": ""
+    },
+    "Irrelevant ideal": {
+      "to": "Irrelevant ideal",
+      "tofragment": ""
+    },
+    "Bijective": {
+      "to": "Bijection",
+      "tofragment": ""
+    },
+    "Combinatorial Nullstellensatz": {
+      "to": "Restricted sumset",
+      "tofragment": "Combinatorial Nullstellensatz"
+    },
+    "Base change (scheme theory)": {
+      "to": "Fiber product of schemes",
+      "tofragment": "Base change and descent"
+    },
+    "Rend. Semin. Mat. Univ. Politec. Torino": {
+      "to": "Rendiconti del Seminario Matematico Università e Politecnico di Torino",
+      "tofragment": ""
+    },
+    "Commutative ring": {
+      "to": "Commutative ring",
+      "tofragment": ""
+    },
+    "Algebraic Geometry (book)": {
+      "to": "Algebraic Geometry (book)",
+      "tofragment": ""
+    },
+    "System of polynomial equations": {
+      "to": "System of polynomial equations",
+      "tofragment": ""
+    },
+    "Complex number": {
+      "to": "Complex number",
+      "tofragment": ""
+    },
+    "Shigeru Mukai": {
+      "to": "Shigeru Mukai",
+      "tofragment": ""
+    },
+    "Artin–Tate lemma": {
+      "to": "Artin–Tate lemma",
+      "tofragment": ""
+    },
+    "Algorithm": {
+      "to": "Algorithm",
+      "tofragment": ""
+    },
+    "Unique factorization domain": {
+      "to": "Unique factorization domain",
+      "tofragment": ""
+    },
+    "Section (category theory)": {
+      "to": "Section (category theory)",
+      "tofragment": ""
+    },
+    "Mathematische Annalen": {
+      "to": "Mathematische Annalen",
+      "tofragment": ""
+    },
+    "Polynomial ring": {
+      "to": "Polynomial ring",
+      "tofragment": ""
+    },
+    "Algebraically closed field": {
+      "to": "Algebraically closed field",
+      "tofragment": ""
+    },
+    "Stalk (sheaf)": {
+      "to": "Stalk (sheaf)",
+      "tofragment": ""
+    },
+    "Donal O'Shea": {
+      "to": "Donal O'Shea",
+      "tofragment": ""
+    },
+    "Krivine–Stengle Positivstellensatz": {
+      "to": "Krivine–Stengle Positivstellensatz",
+      "tofragment": ""
+    },
+    "Mathematics": {
+      "to": "Mathematics",
+      "tofragment": ""
+    }
+  },
+  "image_metadata": {},
+  "name_map_overrides": {}
+}
