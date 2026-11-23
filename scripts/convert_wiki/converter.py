@@ -1435,12 +1435,13 @@ class WikiHtmlConverter:
 
     @staticmethod
     def _is_letter_dash_emphasis(ele: Tag) -> bool:
-        """Whether *ele* is italic around a single-letter math variable and dash.
+        """Whether *ele* is italic around single-letter math and a trailing dash.
 
-        Wikipedia wraps an inline math variable and a trailing hyphen/en dash in
-        ``<i>`` (for example ``<i>$n$-</i>space``).  Dropping that wrapper keeps
-        the math inline and lets the dash separate naturally, without emitting
-        emphasis markers around a math fragment.
+        Math cannot sit inside Markdown emphasis, so the converter already
+        normalizes ``_$n$_-`` / ``_$n$_–`` (dash outside the italic).  Wikipedia
+        also emits ``_$n$-_`` / ``_$n$–_``, with the hyphen or en dash inside the
+        same ``<i>`` wrapper, as in ``n-space`` or ``n-th``.  Dropping that
+        narrow wrapper leaves ``$n$-`` / ``$n$–`` as plain inline math plus text.
         """
         if ele.name not in {"em", "i"}:
             return False

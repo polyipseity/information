@@ -1883,7 +1883,12 @@ class TestBoldItalicHandling:
 
 
 class TestLetterDashEmphasis:
-    """Tests for dropping italic around single-letter math followed by dash."""
+    """Tests for dropping italic around single-letter math followed by dash.
+
+    LaTeX math cannot be inside Markdown emphasis.  The converter already
+    normalizes ``_$n$_-`` / ``_$n$_–``; this covers the ``n-space``/``n-th``
+    variant where Wikipedia puts the hyphen or en dash inside the italic.
+    """
 
     @pytest.mark.anyio
     async def test_hyphen_renders_as_math_dash_space(
