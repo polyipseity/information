@@ -151,6 +151,91 @@ def _is_display_formula_dl(ele: Tag) -> bool:
     return len(dd_children) >= 2
 
 
+def _is_sole_formula_dd_row(row: Tag) -> bool:
+    """Return True if *row* has no meaningful non-math text content.
+
+    Sole-formula rows inside non-display ``<dl>``s are left to the
+    block-math path and must not be indented as prose definition rows.
+    """
+    for string in row.find_all(string=True):
+        text = str(string).strip()
+        if not text:
+            continue
+        parent = string.parent
+        if isinstance(parent, Tag):
+            if parent.find_parent("math"):
+                continue
+            if parent.find_parent(
+                class_=lambda classes: (
+                    bool(classes)
+                    and any(
+                        token in " ".join(classes).lower()
+                        for token in (
+                            "mwe-math",
+                            "texhtml",
+                            "mjx",
+                            "katex",
+                            "mathjax",
+                        )
+                    )
+                )
+            ):
+                continue
+            if parent.name in {"annotation", "script", "style"}:
+                continue
+        if text.strip(" \t\n\r\f\v.,;:"):
+            return False
+    return True
+
+
+def _is_indented_dd_row(row: Tag) -> bool:
+    """Return True if *row* is a prose ``<dd>`` that should be indented.
+
+    True when all hold: ``row.name == "dd"``; parent is a ``<dl>``; parent
+    is not a display-formula ``<dl>``; the row has text; the row has
+    meaningful non-math text content (sole-formula rows inside
+    non-display ``<dl>``s are left to the block-math path); the row
+    contains no ``ul``, ``ol``, or ``table`` descendant.
+
+    Known quirks (T10): (1) A prose ``<dd>`` wrapping a nested prose
+    ``<dl>`` gets two indents inline (``&nbsp;... outer&nbsp;... inner``).
+    Base output already glues the rows; no fixture has the shape.
+    (2) A ``<dt>`` in a prose ``<dl>`` stays unindented -- correct, since
+    Wikipedia renders the term flush and the description indented.
+    """
+    if row.name != "dd":
+        return False
+    parent = row.parent
+    if not isinstance(parent, Tag) or parent.name != "dl":
+        return False
+    if _is_display_formula_dl(parent):
+        return False
+    if row.find_parent(["td", "th"]) is not None:
+        return False
+    if row.find_parent("li") is not None:
+        return False
+    # Post-list continuation: <dl> directly after <li>/<ul>/<ol> uses the
+    # " <p> " joiner and must not be indented as a prose definition row.
+    prev = parent.previous_sibling
+    while prev is not None:
+        if isinstance(prev, NavigableString):
+            if prev.strip():
+                break
+        elif isinstance(prev, Tag):
+            if prev.name not in {"link", "style"}:
+                if prev.name in {"li", "ul", "ol"}:
+                    return False
+                break
+        prev = prev.previous_sibling
+    if not row.get_text(strip=True):
+        return False
+    if _is_sole_formula_dd_row(row):
+        return False
+    if row.find(["ul", "ol", "table"]) is not None:
+        return False
+    return True
+
+
 def _dl_follows_p(ele: Tag) -> bool:
     """Return True if *ele* is a <dl> whose previous sibling is a <p>."""
     prev = ele.find_previous_sibling()
