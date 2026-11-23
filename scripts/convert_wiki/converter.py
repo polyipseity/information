@@ -1433,6 +1433,49 @@ class WikiHtmlConverter:
             self._wrap_bare_integer_number(ele)
         return prefix
 
+    @staticmethod
+    def _is_letter_dash_emphasis(ele: Tag) -> bool:
+        """Whether *ele* is italic around a single-letter math variable and dash.
+
+        Wikipedia wraps an inline math variable and a trailing hyphen/en dash in
+        ``<i>`` (for example ``<i>$n$-</i>space``).  Dropping that wrapper keeps
+        the math inline and lets the dash separate naturally, without emitting
+        emphasis markers around a math fragment.
+        """
+        if ele.name not in {"em", "i"}:
+            return False
+        significant = [
+            child
+            for child in ele.children
+            if not (
+                isinstance(child, PreformattedString)
+                or (isinstance(child, NavigableString) and not str(child).strip())
+            )
+        ]
+        if len(significant) != 2:
+            return False
+        math_child, dash_child = significant
+        if not isinstance(math_child, Tag):
+            return False
+        math = math_child if math_child.name == "math" else math_child.find("math")
+        if not isinstance(math, Tag):
+            return False
+        raw_alttext = math.get("alttext")
+        if not raw_alttext:
+            return False
+        alt_text = WikiHtmlConverter._prepare_math_alttext(str(raw_alttext))
+        if not re.fullmatch(r"[A-Za-z]", alt_text):
+            return False
+        if not WikiHtmlConverter._is_inline_math(math, alt_text=alt_text):
+            return False
+        if isinstance(dash_child, NavigableString):
+            dash_text = str(dash_child)
+        elif isinstance(dash_child, Tag):
+            dash_text = dash_child.get_text()
+        else:
+            return False
+        return dash_text.strip() in {"-", "–"}
+
     def _handle_bold_italic(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render bold/italic text with Markdown emphasis markers.
 
@@ -1442,6 +1485,8 @@ class WikiHtmlConverter:
         presenter-synthesised ``<b>``), which would otherwise render as the
         meaningless ``____text____``.
         """
+        if self._is_letter_dash_emphasis(ele):
+            return _HandlerConfig()
         bold = (
             ele.name in {"b", "strong"}
             or _BOLD_FONT_STYLE_REGEX.search(str(ele.get("style", "")))

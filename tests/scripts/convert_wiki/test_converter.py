@@ -1882,6 +1882,65 @@ class TestBoldItalicHandling:
         assert "- See __also__" in result
 
 
+class TestLetterDashEmphasis:
+    """Tests for dropping italic around single-letter math followed by dash."""
+
+    @pytest.mark.anyio
+    async def test_hyphen_renders_as_math_dash_space(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Italic single-letter math plus hyphen should drop the wrapper."""
+        html = f"<p>affine <i>{_inline_math_span(r'{\displaystyle n}')}-</i>space</p>"
+        result = await _convert(converter, html)
+        assert "affine $n$-space" in result
+        assert "_$n$_" not in result
+        assert "<!-- markdown separator -->" not in result
+
+    @pytest.mark.anyio
+    async def test_en_dash_renders_as_math_dash_space(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Italic single-letter math plus en dash should drop the wrapper."""
+        html = f"<p>affine <i>{_inline_math_span(r'{\displaystyle n}')}–</i>space</p>"
+        result = await _convert(converter, html)
+        assert "affine $n$–space" in result
+        assert "_$n$_" not in result
+        assert "<!-- markdown separator -->" not in result
+
+    @pytest.mark.anyio
+    async def test_two_letters_unchanged(self, converter: WikiHtmlConverter) -> None:
+        """Two-letter math should keep the italic wrapper."""
+        html = f"<p><i>{_inline_math_span(r'{\displaystyle ab}')}-</i>space</p>"
+        result = await _convert(converter, html)
+        assert "_$ab$-_<!-- markdown separator -->space" in result
+
+    @pytest.mark.anyio
+    async def test_dash_plus_trailing_words_unchanged(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Dash followed by trailing words should keep the italic wrapper."""
+        html = (
+            f"<p><i>{_inline_math_span(r'{\displaystyle n}')}-tuple of things</i></p>"
+        )
+        result = await _convert(converter, html)
+        assert "_$n$-tuple of things_" in result
+
+    @pytest.mark.anyio
+    async def test_plain_i_n_unchanged(self, converter: WikiHtmlConverter) -> None:
+        """Plain italic text should keep the italic wrapper."""
+        result = await _convert(converter, "<p><i>n</i>-space</p>")
+        assert "_n_-space" in result
+
+    @pytest.mark.anyio
+    async def test_block_math_inside_i_unchanged(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """Block math inside italic should keep the italic wrapper."""
+        html = f"<p><i>{_block_math_span(r'{\displaystyle n}')}-</i>space</p>"
+        result = await _convert(converter, html)
+        assert "_$$n$$-_" in result
+
+
 # ---------------------------------------------------------------------------
 
 # Inline formatting handlers
