@@ -164,6 +164,7 @@ def _discover_snapshot_cases() -> list[str]:
         "path-integral formulation",
         "hydrogen atom",
         "Zeeman effect",
+        "Hilbert's Nullstellensatz",
     }
     return [c for c in all_cases if c not in slow]
 
