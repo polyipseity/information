@@ -123,15 +123,15 @@ _BARE_URL_REGEX = re.compile(r"(?:https?://|www\.)[^\s<>]+")
 _SIDEBAR_TIGHT_WRAPPING_RE = re.compile(r"[ \t]+", re.MULTILINE)
 """Heading tag names (``h1`` through ``h6``)."""
 _HEADING_TAGS = frozenset({"h1", "h2", "h3", "h4", "h5", "h6"})
-"""Non-breaking-space indent applied to display-math ``<dl>`` rows."""
-_MATH_DL_INDENT = "&nbsp;&nbsp;&nbsp;&nbsp;"
+"""Non-breaking-space indent applied to ``<dl>`` rows."""
+_DL_INDENT = "&nbsp;&nbsp;&nbsp;&nbsp;"
 """Separator joining the rows of a display-math ``<dl>`` onto one line."""
-_MATH_DL_ROW_SEPARATOR = f" <br/> {_MATH_DL_INDENT} "
+_MATH_DL_ROW_SEPARATOR = f" <br/> {_DL_INDENT} "
 
 
 def _indent_dd_lines(strings: str) -> str:
     """Indent non-empty ``<dd>`` row lines by one definition-list level."""
-    indent = f"{_MATH_DL_INDENT} "
+    indent = f"{_DL_INDENT} "
     return "\n".join(
         f"{indent}{line}" if line.strip() else line for line in strings.split("\n")
     )
@@ -1906,9 +1906,6 @@ class WikiHtmlConverter:
         """Render ``<figcaption>`` as block-level caption content."""
         return _HandlerConfig(suffix="" if self._in_table_cell(ele) else "\n\n")
 
-    _handle_dd = _handle_block_level
-    _handle_dt = _handle_block_level
-
     def _handle_dl(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig:
         """Render <dl> definition lists, one row per line."""
         # Join sibling rows with "\n" instead of the default "" so that each
@@ -1969,7 +1966,7 @@ class WikiHtmlConverter:
             # "text. <p> continuation").  Display-math-only <dl> keeps its
             # indented block-math prefix.
             if _is_display_formula_dl(ele):
-                prefix = f" <p> {_MATH_DL_INDENT}"
+                prefix = f" <p> {_DL_INDENT}"
             else:
                 sib = ele.previous_sibling
                 while sib is not None:
@@ -2006,13 +2003,13 @@ class WikiHtmlConverter:
                         suffix = " <p>"
                     else:
                         suffix = " <p> "
-                    prefix = f" <p> {_MATH_DL_INDENT}"
+                    prefix = f" <p> {_DL_INDENT}"
             # When a display-math-only <dl> follows a <p>, join inline
             # with <p> separator instead of creating a block break.
             elif _is_display_formula_dl(ele):
                 prev = self._content_sibling(ele, following=False)
                 if prev is not None and prev.name == "p":
-                    prefix = f" <p> {_MATH_DL_INDENT} "
+                    prefix = f" <p> {_DL_INDENT} "
                     # Each <dd> row of a multi-row <dl> is its own equation,
                     # so keep them on separate lines rather than letting the
                     # "\n" joiner collapse them into one soft-wrapped line.
