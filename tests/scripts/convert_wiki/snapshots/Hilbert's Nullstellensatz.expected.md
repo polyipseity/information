@@ -89,15 +89,15 @@ A [Gröbner basis](Gröbner%20basis.md) is an algorithmic concept that was intro
 
 The Nullstellensatz is subsumed by a systematic development of the theory of [Jacobson rings](Jacobson%20ring.md), which are those rings in which every radical ideal is an intersection of maximal ideals. Given Zariski's lemma, proving the Nullstellensatz amounts to showing that if _k_ is a field, then every finitely generated [_k_-algebra](K-algebra.md) _R_ \(necessarily of the form $R = k[t_1,\cdots,t_n]/I$\) is Jacobson. More generally, one has the following theorem:
 
-Let $R$ be a Jacobson ring. If $S$ is a finitely generated [_R_-algebra](R-algebra.md), then $S$ is a Jacobson ring. Furthermore, if $\mathfrak{n}\subseteq S$ is a maximal ideal, then $\mathfrak{m} := \mathfrak{n} \cap R$ is a maximal ideal of $R$, and $S/\mathfrak{n}$ is a finite extension of $R/\mathfrak{m}$.<sup>[\[8\]](#^ref-8)</sup>
+&nbsp;&nbsp;&nbsp;&nbsp; Let $R$ be a Jacobson ring. If $S$ is a finitely generated [_R_-algebra](R-algebra.md), then $S$ is a Jacobson ring. Furthermore, if $\mathfrak{n}\subseteq S$ is a maximal ideal, then $\mathfrak{m} := \mathfrak{n} \cap R$ is a maximal ideal of $R$, and $S/\mathfrak{n}$ is a finite extension of $R/\mathfrak{m}$.<sup>[\[8\]](#^ref-8)</sup>
 
 Other generalizations proceed from viewing the Nullstellensatz in [scheme-theoretic](scheme%20(mathematics).md) terms as saying that for any field _k_ and nonzero finitely generated _k_-algebra _R_, the morphism $\mathrm{Spec} \, R \to \mathrm{Spec} \, k$ admits a [section](section%20(category%20theory).md) étale-locally \(equivalently, after [base change](base%20change%20(scheme%20theory).md#base%20change%20and%20descent) along $\mathrm{Spec} \, L \to \mathrm{Spec} \, k$ for some finite field extension $L/k$\). In this vein, one has the following theorem:
 
-Any [faithfully flat](faithfully%20flat%20morphism.md) morphism of schemes $f: Y \to X$ [locally of finite presentation](glossary%20of%20algebraic%20geometry.md#finite%20presentation) admits a _quasi-section_, in the sense that there exists a faithfully flat and locally [quasi-finite](quasi-finite%20morphism.md) morphism $g: X' \to X$ locally of finite presentation such that the base change $f': Y \times_X X' \to X'$ of $f$ along $g$ admits a section.<sup>[\[9\]](#^ref-9)</sup> Moreover, if $X$ is [quasi-compact](quasi-compact%20morphism.md) \(resp. quasi-compact and [quasi-separated](quasi-separated%20morphism.md)\), then one may take $X'$ to be affine \(resp. $X'$ affine and $g$ quasi-finite\), and if $f$ is [smooth](smooth%20morphism.md) surjective, then one may take $g$ to be [étale](étale%20morphism.md).<sup>[\[10\]](#^ref-10)</sup>
+&nbsp;&nbsp;&nbsp;&nbsp; Any [faithfully flat](faithfully%20flat%20morphism.md) morphism of schemes $f: Y \to X$ [locally of finite presentation](glossary%20of%20algebraic%20geometry.md#finite%20presentation) admits a _quasi-section_, in the sense that there exists a faithfully flat and locally [quasi-finite](quasi-finite%20morphism.md) morphism $g: X' \to X$ locally of finite presentation such that the base change $f': Y \times_X X' \to X'$ of $f$ along $g$ admits a section.<sup>[\[9\]](#^ref-9)</sup> Moreover, if $X$ is [quasi-compact](quasi-compact%20morphism.md) \(resp. quasi-compact and [quasi-separated](quasi-separated%20morphism.md)\), then one may take $X'$ to be affine \(resp. $X'$ affine and $g$ quasi-finite\), and if $f$ is [smooth](smooth%20morphism.md) surjective, then one may take $g$ to be [étale](étale%20morphism.md).<sup>[\[10\]](#^ref-10)</sup>
 
 [Serge Lang](Serge%20Lang.md) gave an extension of the Nullstellensatz to the case of infinitely many generators:
 
-Let $\kappa$ be an [infinite cardinal](infinite%20cardinal.md) and let $K$ be an algebraically closed field whose [transcendence degree](transcendence%20degree.md) over its [prime subfield](prime%20subfield.md#case%20of%20fields) is strictly greater than $\kappa$. Then for any set $S$ of cardinality $\kappa$, the polynomial ring $A = K[x_i]_{i \in S}$ satisfies the Nullstellensatz, i.e., for any ideal $J \sub A$ we have that $\sqrt{J} = \hbox{I} (\hbox{V} (J))$.<sup>[\[11\]](#^ref-11)</sup>
+&nbsp;&nbsp;&nbsp;&nbsp; Let $\kappa$ be an [infinite cardinal](infinite%20cardinal.md) and let $K$ be an algebraically closed field whose [transcendence degree](transcendence%20degree.md) over its [prime subfield](prime%20subfield.md#case%20of%20fields) is strictly greater than $\kappa$. Then for any set $S$ of cardinality $\kappa$, the polynomial ring $A = K[x_i]_{i \in S}$ satisfies the Nullstellensatz, i.e., for any ideal $J \sub A$ we have that $\sqrt{J} = \hbox{I} (\hbox{V} (J))$.<sup>[\[11\]](#^ref-11)</sup>
 
 ## effective Nullstellensatz
 
@@ -113,9 +113,9 @@ Since most mathematicians at the time assumed the effective Nullstellensatz was 
 
 In the case of the weak Nullstellensatz, Kollár's bound is the following:<sup>[\[13\]](#^ref-13)</sup>
 
-Let _f_<sub>1</sub>, ..., _f<sub>s</sub>_ be polynomials in _n_ ≥ 2 variables, of total degree _d_<sub>1</sub> ≥ ... ≥ _d<sub>s</sub>_. If there exist polynomials _g<sub>i</sub>_ such that _f_<sub>1</sub>_g_<sub>1</sub> + ... + _f<sub>s</sub>g<sub>s</sub>_ = 1, then they can be chosen such that $$\deg(f_ig_i) \le \max(d_s,3)\prod_{j=1}^{\min(n,s)-1}\max(d_j,3).$$
+&nbsp;&nbsp;&nbsp;&nbsp; Let _f_<sub>1</sub>, ..., _f<sub>s</sub>_ be polynomials in _n_ ≥ 2 variables, of total degree _d_<sub>1</sub> ≥ ... ≥ _d<sub>s</sub>_. If there exist polynomials _g<sub>i</sub>_ such that _f_<sub>1</sub>_g_<sub>1</sub> + ... + _f<sub>s</sub>g<sub>s</sub>_ = 1, then they can be chosen such that $$\deg(f_ig_i) \le \max(d_s,3)\prod_{j=1}^{\min(n,s)-1}\max(d_j,3).$$
 
-This bound is optimal if all the degrees are greater than 2.
+&nbsp;&nbsp;&nbsp;&nbsp; This bound is optimal if all the degrees are greater than 2.
 
 If _d_ is the maximum of the degrees of the _f<sub>i</sub>_, this bound may be simplified to
 
@@ -143,7 +143,7 @@ $$\sqrt{I} = \operatorname{I}_{\mathbb{P}^n}(\operatorname{V}_{\mathbb{P}^n}(I))
 
 and so, like in the affine case, we have:<sup>[\[15\]](#^ref-15)</sup>
 
-There exists an order-reversing one-to-one correspondence between proper homogeneous radical ideals of $R$ and subsets of $\mathbb{P}^n$ of the form $\operatorname{V}_{\mathbb{P}^n}(I)$. The correspondence is given by $\operatorname{I}_{\mathbb{P}^n}$ and $\operatorname{V}_{\mathbb{P}^n}$.
+&nbsp;&nbsp;&nbsp;&nbsp; There exists an order-reversing one-to-one correspondence between proper homogeneous radical ideals of $R$ and subsets of $\mathbb{P}^n$ of the form $\operatorname{V}_{\mathbb{P}^n}(I)$. The correspondence is given by $\operatorname{I}_{\mathbb{P}^n}$ and $\operatorname{V}_{\mathbb{P}^n}$.
 
 ## Analytic Nullstellensatz \(Rückert’s Nullstellensatz\)
 

@@ -2975,7 +2975,10 @@ class TestTextNormalization:
             # At a block boundary nothing renders beside the run, so it goes.
             ("<div>\n      Text here\n    </div>", "Text here"),
             ("<div>text here\n   </div>", "text here"),
-            ("<dl><dd>\n  Text here\n</dd></dl>", "Text here\n\n"),
+            (
+                "<dl><dd>\n  Text here\n</dd></dl>",
+                "&nbsp;&nbsp;&nbsp;&nbsp; Text here\n\n",
+            ),
             # Between two inline tokens the run is the separation they need.
             ("<div><b>x</b>\n     text here\n</div>", "__x__ text here"),
             ("<div>one\n   two</div>", "one two"),
@@ -3814,6 +3817,101 @@ async def test_selflink_fragment_without_page_name(
     )
     result = await _convert(converter, html)
     assert "[linearity](#properties)" in result
+
+
+class TestIndentedDefinitionRows:
+    """Prose ``<dd>`` rows in non-display-formula ``<dl>`` blocks are indented."""
+
+    @pytest.mark.anyio
+    async def test_two_prose_rows(self, converter: WikiHtmlConverter) -> None:
+        """Two prose rows produce two indented lines."""
+        result = await _convert(
+            converter, "<dl><dd>first row</dd><dd>second row</dd></dl>"
+        )
+        assert (
+            result
+            == "&nbsp;&nbsp;&nbsp;&nbsp; first row\n&nbsp;&nbsp;&nbsp;&nbsp; second row\n\n"
+        )
+
+    @pytest.mark.anyio
+    async def test_dt_dd_mix(self, converter: WikiHtmlConverter) -> None:
+        """A ``<dt>`` stays unindented while its ``<dd>`` is indented."""
+        result = await _convert(converter, "<dl><dt>Term</dt><dd>definition</dd></dl>")
+        assert result == "Term\n&nbsp;&nbsp;&nbsp;&nbsp; definition\n\n"
+
+    @pytest.mark.anyio
+    async def test_p_wrapped_row(self, converter: WikiHtmlConverter) -> None:
+        """Both paragraph lines in a ``<p>``-wrapped row are indented."""
+        result = await _convert(
+            converter, "<dl><dd><p>first</p><p>second</p></dd></dl>"
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; first" in result
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; second" in result
+        assert result.lstrip("\n").startswith("&nbsp;&nbsp;&nbsp;&nbsp; first")
+
+    @pytest.mark.anyio
+    async def test_nested_ul_not_indented(self, converter: WikiHtmlConverter) -> None:
+        """A row carrying a nested ``<ul>`` is not indented."""
+        result = await _convert(
+            converter, "<dl><dd>text<ul><li>item</li></ul></dd></dl>"
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; text" not in result
+        assert "text" in result
+        assert "- item" in result
+
+    @pytest.mark.anyio
+    async def test_row_inside_li_not_indented(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A row inside ``<li>`` is not indented."""
+        result = await _convert(converter, "<ul><li><dl><dd>text</dd></dl></li></ul>")
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; text" not in result
+        assert "- text" in result
+
+    @pytest.mark.anyio
+    async def test_row_inside_td_not_indented(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A row inside ``<td>`` is not indented."""
+        result = await _convert(
+            converter, "<table><tr><td><dl><dd>text</dd></dl></td></tr></table>"
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; text" not in result
+        assert "text" in result
+
+    @pytest.mark.anyio
+    async def test_dl_after_ul_post_list_continuation(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A ``<dl>`` directly after ``<ul>`` stays a post-list continuation."""
+        result = await _convert(
+            converter, "<ul><li>item</li></ul><dl><dd>continuation</dd></dl>"
+        )
+        assert "- item <p> continuation" in result
+        assert "\n&nbsp;&nbsp;&nbsp;&nbsp; continuation" not in result
+
+    @pytest.mark.anyio
+    async def test_sole_block_math_row_not_indented(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A sole block-math row yields ``$$x$$`` with no indent."""
+        result = await _convert(converter, f"<dl><dd>{_block_math_span('x')}</dd></dl>")
+        assert "$$x$$" in result
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; $$x$$" not in result
+
+    @pytest.mark.anyio
+    async def test_italic_styled_row_indent_outside_markers(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """An italic row keeps the indent outside emphasis markers."""
+        result = await _convert(converter, "<dl><dd><i>italic row</i></dd></dl>")
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; _italic row_" in result
+
+    @pytest.mark.anyio
+    async def test_empty_dd(self, converter: WikiHtmlConverter) -> None:
+        """An empty ``<dd>`` produces empty output."""
+        result = await _convert(converter, "<dl><dd></dd></dl>")
+        assert result == ""
 
 
 class TestPostListDlContinuation:

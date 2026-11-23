@@ -57,6 +57,7 @@ from .inline_context import (
     _in_inline_context,
     _is_display_formula_dl,
     _is_display_math_only,
+    _is_indented_dd_row,
 )
 from .latex import LatexConverter
 from .table import (
@@ -126,6 +127,16 @@ _HEADING_TAGS = frozenset({"h1", "h2", "h3", "h4", "h5", "h6"})
 _MATH_DL_INDENT = "&nbsp;&nbsp;&nbsp;&nbsp;"
 """Separator joining the rows of a display-math ``<dl>`` onto one line."""
 _MATH_DL_ROW_SEPARATOR = f" <br/> {_MATH_DL_INDENT} "
+
+
+def _indent_dd_lines(strings: str) -> str:
+    """Indent non-empty ``<dd>`` row lines by one definition-list level."""
+    indent = f"{_MATH_DL_INDENT} "
+    return "\n".join(
+        f"{indent}{line}" if line.strip() else line for line in strings.split("\n")
+    )
+
+
 """
 Classes whose entire subtree ``convert`` discards before dispatch.
 
@@ -500,6 +511,8 @@ class WikiHtmlConverter:
         if config is None:
             config = _HandlerConfig()
 
+        indent_dd = ele.name == "dd" and _is_indented_dd_row(ele)
+
         # Ensure a single blank line separates a single-newline block from a
         # following heading (markdownlint MD022/MD032). Blocks already ending
         # in "\n\n" are left untouched to avoid double blank lines.
@@ -675,6 +688,8 @@ class WikiHtmlConverter:
         if config.full_result:
             return process_strings(strings) or ""
         strings = process_strings(strings)
+        if indent_dd and strings:
+            strings = _indent_dd_lines(strings)
         return strings and f"{config.prefix}{strings}{config.suffix}"
 
     async def _dispatch(
