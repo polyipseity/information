@@ -47,7 +47,6 @@ Flashcards for this section are as follows:
 - idempotence and involution ::@:: $X+X=X$, $X\cdot X=X$, $(X')'=X$. <!-- check: ignore-line[two_sided_calc_warning]: formula flashcard -->
 - DeMorgan's laws ::@:: Convert complemented AND to OR and complemented OR to AND, useful for simplification and gate substitution.
 
-<!-- check: ignore-next-line[header_style]: acronym -->
 ## NAND and NOR gates
 
 NAND and NOR are the complemented versions of AND and OR. Their formulas are $(X\cdot Y)'$ and $(X+Y)'$. Each is a universal gate: an entire Boolean circuit can be built from only NAND or only NOR gates.
@@ -72,7 +71,6 @@ Flashcards for this section are as follows:
 - Boolean logic significance ::@:: One of the foundations of modern computer science.
 - Claude Shannon ::@:: Connected Boolean algebra to electronic switching circuits in his 1937 MIT thesis, establishing binary digital electronics.
 
-<!-- check: ignore-next-line[header_style]: acronym -->
 ## XOR, XNOR, and simplification
 
 XOR reports inequality: it is 1 when two inputs differ. XNOR reports equality: it is 1 when two inputs match. Their standard formulas are $X\oplus Y=X'Y+XY'$ and $X\odot Y=XY+X'Y'=(X\oplus Y)'$. Some behaviors are easier to express as relationships between inputs than as long sums of minterms. Simplification rewrites a logically equivalent expression with fewer gates or cleaner structure. For example, $(A'B'+A'B)'=(A'(B'+B))'=(A'\cdot1)'=(A')'=A$.

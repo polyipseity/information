@@ -157,7 +157,6 @@ Flashcards for this section are as follows:
 - how athletes show self-serving bias ::@:: A win goes to hard work and mental toughness, a loss to unfair calls or bad weather.
 - how the workplace shows self-serving bias ::@:: Internal factors explain being hired, and external factors explain being fired.
 
-<!-- check: ignore-next-line[header_style]: proper noun -->
 ### Dunning-Kruger effect
 
 People with low ability at a task overestimate their competence at it: a novice may believe they understand a subject better than the experts do. That overestimate brings overconfidence, poor decisions, and resistance to feedback.

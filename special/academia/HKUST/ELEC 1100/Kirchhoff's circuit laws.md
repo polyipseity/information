@@ -31,7 +31,7 @@ Flashcards for this section are as follows:
 - complex network ::@:: A circuit with interconnections that are neither purely series nor purely parallel.
 - applicability ::@:: Kirchhoff's laws apply to any network by writing equations for nodes and closed loops.
 
-## Kirchhoff's current law <!-- check: ignore-line[header_style]: proper noun -->
+## Kirchhoff's current law
 
 Also known as the _junction rule_, Kirchhoff's current law (KCL) states that at any node in a circuit the algebraic sum of currents is zero. <p> ![KCL](attachments/kcl.svg)
 
@@ -48,7 +48,7 @@ Flashcards for this section are as follows:
 - KCL sign convention ::@:: Leaving currents may be taken as negative so one summation suffices.
 - KCL rationale ::@:: Follows from charge conservation; no net charge accumulates at a point.
 
-## Kirchhoff's voltage law <!-- check: ignore-line[header_style]: proper noun -->
+## Kirchhoff's voltage law
 
 The _loop rule_ or Kirchhoff's voltage law (KVL) asserts that the algebraic sum of potential differences around any closed path is zero. <p> ![KVL](attachments/kvl.svg)
 

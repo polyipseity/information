@@ -19,7 +19,6 @@ Flashcards for this section are as follows:
 - what a system call is ::@:: The interface through which a running program asks the kernel for a service, switching between user mode and kernel mode.
 - what user mode and kernel mode each allow ::@:: User mode restricts a program to non-privileged instructions; kernel mode grants full access to hardware and system resources, and a system call moves between the two.
 
-<!-- check: ignore-next-line[header_style]: API is an acronym -->
 ## API (Application Program Interface)
 
 An application program interface (API) lists the functions an application programmer may call, with their parameters and return values. Each one invokes the real system call: Windows `CreateProcess()`, for instance, invokes `NTCreateProcess()` in the kernel.

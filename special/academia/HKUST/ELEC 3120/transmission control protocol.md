@@ -224,7 +224,6 @@ Flashcards for this section are as follows:
 - the first data byte: a client's initial sequence number is $1000$; which number does its first data byte carry? ::@:: $1000 + 1 = 1001$, because the `SYN` has already consumed $1000$.
 - worked handshake: with $x = 1000$ and $y = 5000$, which three segments does the handshake carry? ::@:: `seq=1000`, then `seq=5000 ack=1001`, then `seq=1001 ack=5001`.
 
-<!-- check: ignore-next-line[header_style]: SYN is an acronym -->
 ### SYN loss
 
 A lost `SYN` produces no answer, so the client waits on a timer and retransmits. That timer cannot be estimated from a round-trip time the client has not measured yet, so the standard fixes a default of 3 seconds, with some implementations using 6. The delay is long enough that a user may reload the page; that aborts the pending connection and sends a new `SYN` at once. Each further retransmission of a `SYN` waits longer than the last, so a client that keeps trying backs off, and a client that gives up after three attempts spends $3 + 6 + 12 = 21$ seconds before it reports the failure.

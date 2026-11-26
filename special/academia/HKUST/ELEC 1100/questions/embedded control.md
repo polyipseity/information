@@ -17,7 +17,6 @@ These practice problems are derived from the Arduino-oriented exercise sets, but
 
 - topics: Arduino pin configuration; conditional logic; sensor state; millis timing; PWM motor control.
 
-<!-- check: ignore-next-line[header_style]: proper noun -->
 ## Arduino control-flow and code reasoning
 
 > An Arduino sketch defines `const int ledPin = 6;` and `const int sensorPin = A2;`. What should `setup()` contain so the LED is driven and the sensor is read correctly?

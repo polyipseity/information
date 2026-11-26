@@ -85,7 +85,6 @@ Flashcards for this section are as follows:
 - Why should a reconstructed cosine sum be evaluated on the same sample grid `t_idx = (0:N-1) ./ fs` as the recorded waveform before the two are compared? ::@:: Because the point-by-point comparison is only meaningful if the reconstructed cosine sum and the original sample record are placed on exactly the same time grid.
 - What does a point-by-point comparison between the original samples and the reconstructed cosine sum actually check? ::@:: It checks that the spectral peak reading, harmonic identification, and phase extraction have been converted back into a time-domain model without a scaling or alignment mistake.
 
-<!-- check: ignore-next-line[header_style]: Butterworth is a proper noun -->
 ## Butterworth band-pass cutoffs chosen from the spectrum
 
 Part II asks for a Butterworth band-pass filter that completely removes the lowest and highest visible tones while preserving the middle one.  Since the three detected spectral lines are at $400\,\text{Hz}$, $5000\,\text{Hz}$, and $16000\,\text{Hz}$, one reasonable choice is $f_{\mathrm{low}} = 2700\,\text{Hz}$ and $f_{\mathrm{high}} = 10500\,\text{Hz}$, which puts $400\,\text{Hz}$ well below the passband, $16000\,\text{Hz}$ well above it, and $5000\,\text{Hz}$ inside it.

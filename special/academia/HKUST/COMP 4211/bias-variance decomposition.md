@@ -248,7 +248,6 @@ Flashcards for this section are as follows:
 - interpretation of the whole more-data picture ::@:: More data usually make the learner less able to memorize quirks of one sample and more able to capture repeatable structure, so training fit may look a bit worse while future performance improves and the train-test gap narrows.
 - what cross-validation does and does not do ::@:: Cross-validation does not itself change bias or variance; it estimates which model complexity or regularization strength gives the best expected trade-off on held-out data.
 
-<!-- check: ignore-next-line[header_style]: PAC is a standard acronym -->
 ### PAC learning viewpoint
 
 PAC stands for _probably approximately correct_. The central idea is to replace a decomposition identity by a finite-sample guarantee. Instead of asking how expected error splits into noise, bias, and variance, PAC learning asks whether, after observing enough training examples, the learner will _probably_ output a hypothesis whose generalization error is _approximately_ small.

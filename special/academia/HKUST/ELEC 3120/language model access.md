@@ -37,7 +37,6 @@ Flashcards for this section are as follows:
 - what does GitHub Copilot cost a student, and what limits it? ::@:: Nothing, and it is stable and safe, but usage is limited on the free plan.
 - when were the pros and cons in this table true, and what changes? ::@:: September 2026. The pricing and the access rules behind them move.
 
-<!-- check: ignore-next-line[header_style]: GitHub is a proper noun -->
 ## GitHub and the Student Developer Pack
 
 GitHub stores, shares and collaborates on software projects, and it is where the commits made while [vibe coding](vibe%20coding.md) end up. Real-world tools are cost-prohibitive for most students, so GitHub built the GitHub Student Developer Pack with partners and friends to give them hands-on experience. It puts tools that would otherwise cost money within reach.

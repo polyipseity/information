@@ -64,7 +64,6 @@ Flashcards for this section are as follows:
 - why the cases $B_1, \ldots, B_N$ must be mutually exclusive and cover every event in $\operatorname{Pr}(A) = \sum_{i=1}^{N}\operatorname{Pr}(A\mid B_i)\operatorname{Pr}(B_i)$ ::@:: Disjoint cases make the pieces $A\cap B_i$ disjoint, so they add without double counting, and covering everything makes them add up to all of $A$; each case then contributes the part of $A$ inside it, weighted by how likely that case is.
 - in the law of total probability $\operatorname{Pr}(B) = \sum_{i=1}^{N}\operatorname{Pr}(B\mid B_i)\operatorname{Pr}(B_i)$ used as the denominator of a Bayes update, what a total of one says about the news $B$ ::@:: The news was certain whichever case held, so it separates no case from another and the posterior equals the prior.
 
-<!-- check: ignore-next-line[header_style]: proper noun -->
 ## Bayes' rule
 
 Bayes' rule inverts a conditional probability by combining the definition of conditional probability with the multiplicative rule: $\operatorname{Pr}(A\mid B) = \frac{\operatorname{Pr}(A\cap B)}{\operatorname{Pr}(B)} = \frac{\operatorname{Pr}(B\mid A)\operatorname{Pr}(A)}{\operatorname{Pr}(B)}$. The numerator is the joint probability that the state is $A$ and the news arrives, and dividing by $\operatorname{Pr}(B)$ keeps only the cases where it did arrive, so what is left is a probability over the states given the news.

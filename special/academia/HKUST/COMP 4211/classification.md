@@ -388,7 +388,6 @@ Flashcards for this section are as follows:
 - why discriminative versus generative matters ::@:: Discriminative models focus capacity on the decision boundary (often simpler and more accurate), while generative models require structural assumptions but can be more data-efficient and interpretable.
 - discriminative models in this note ::@:: In this note, both probabilistic classification (for example logistic regression) and optimization-based surrogate-loss methods are discriminative because they learn a direct feature-to-label mapping without modeling the full data-generation process.
 
-<!-- check: ignore-next-line[header_style]: Bayes is a proper noun -->
 ### Bayes-rule classification from a generative model
 
 A generative classifier has two learned components: the class prior $P(y=c)$, which quantifies how likely class $c$ is before seeing any features, and the class-conditional density $P(x\mid y=c)$, which describes how feature vectors are distributed inside class $c$. Given a new input $x$, the posterior probability of class $c$ follows from Bayes' rule, $P(y=c\mid x)=\frac{P(y=c)\,P(x\mid y=c)}{P(x)}$.
@@ -510,7 +509,6 @@ Flashcards for this section are as follows:
 - conditional-feature estimate in Naive Bayes with derivation ::@:: The conditional-feature MLE is $\hat\mu_{jck}=\frac{n_{jck}}{n_c}$, where $n_{jck}=\sum_{i=1}^N\mathbf{1}(y_i=c)\mathbf{1}(x_{ij}=k)$. This is the fraction of class-$c$ examples whose feature $j$ takes value $k$ — a within-class relative frequency.
 - why Naive Bayes training reduces to counting ::@:: Under conditional independence, Naive Bayes parameter estimation is purely a counting problem: count class sizes $n_c$, count within-class feature-value frequencies $n_{jck}$, and divide. There is no iterative optimization to solve.
 
-<!-- check: ignore-next-line[header_style]: Laplace is a proper noun -->
 ### Laplace smoothing and zero-frequency handling
 
 Pure frequency estimates can fail catastrophically when a feature value never appears in one class during training. If $n_{jck}=0$ for some feature-class pair, then $\hat\mu_{jck}=\frac{n_{jck}}{n_c}=0$. This means the entire likelihood product for that class becomes zero: $P(y=c)\prod_j P(x_j\mid y=c)=0$ whenever the test sample contains that feature value, regardless of how informative all other features are.

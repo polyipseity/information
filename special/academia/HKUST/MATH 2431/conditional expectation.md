@@ -51,7 +51,6 @@ Flashcards for this section are as follows:
 - conditional density: If $(X,Y)$ has a joint density and $f_Y(y)>0$, what is $f_{X\mid Y=y}(x)$? ::@:: $f_{X\mid Y=y}(x)=\frac{f_{X,Y}(x,y)}{f_Y(y)}$. Derivation: take the limit $P[X\in dx\mid Y\in[y,y+\Delta y)] = \frac{f_{X,Y}(x,y)\,dx\,\Delta y}{f_Y(y)\,\Delta y}$ as $\Delta y\to 0$, giving $f_{X,Y}(x,y)/f_Y(y)$.
 - recovery via total probability (continuous): How does $f_X(x)$ relate to the conditional density $f_{X\mid Y=y}(x)$? ::@:: $f_X(x)=\int_{-\infty}^{\infty}f_{X\mid Y=y}(x)\,f_Y(y)\,dy$. Derivation: $f_X(x)=\int_{-\infty}^{\infty} f_{X,Y}(x,y)\,dy = \int_{-\infty}^{\infty} f_{X\mid Y=y}(x)\,f_Y(y)\,dy$.
 
-<!-- check: ignore-next-line[header_style]: Poisson is a proper noun -->
 ### Poisson splitting
 
 A classic example exploits independence of Poisson random variables. Let $X\sim\mathrm{Pois}(\lambda)$ and $Y\sim\mathrm{Pois}(\mu)$ be independent. Their sum is Poisson, $$X+Y\sim\mathrm{Pois}(\lambda+\mu),$$

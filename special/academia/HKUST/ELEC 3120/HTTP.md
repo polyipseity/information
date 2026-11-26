@@ -117,7 +117,6 @@ Flashcards for this section are as follows:
 - pipelining / round trips: $n$ requests are pipelined on one connection. How many round trips? ::@:: One, for the whole batch, not one per request
 - what goes wrong with pipelining? ::@:: Responses keep request order, so a slow object holds up the ready ones behind it
 
-<!-- check: ignore-next-line[header_style]: HTTP is a proper noun -->
 ## HTTP/2
 
 HTTP/2 keeps the persistent connection and swaps the text messages for binary frames. Every frame names the stream it belongs to, and many streams share the one TCP connection. Because a frame names its own stream, a later response can go out before an earlier one is ready, so a fast object arrives while a slow one is still being made. That is what kills application-layer (Layer 7) head-of-line blocking.
@@ -136,7 +135,6 @@ Flashcards for this section are as follows:
 - how does HTTP/2 shrink the header cost? ::@:: HPACK compresses the repeated header block that HTTP 1.1 sent on every request
 - what is still wrong with HTTP/2? ::@:: It runs on TCP, which hands bytes over in order, so one lost packet blocks every stream at Layer 4
 
-<!-- check: ignore-next-line[header_style]: HTTP is a proper noun -->
 ## HTTP/3
 
 HTTP/3 runs on QUIC (Quick UDP Internet Connections) over UDP instead of TCP. QUIC became RFC 9000 in 2021. Each of its streams is reliable on its own, so a lost packet is retransmitted for that stream alone and the others keep moving. The application reads a stream as soon as that stream is complete, whatever the others are doing.

@@ -37,7 +37,6 @@ Flashcards for this section are as follows:
 - lumen ::@:: Luminous flux; total light emitted.
 - lux ::@:: Illuminance; total light falling on a surface.
 
-<!-- check: ignore-next-line[header_style]: acronym -->
 ## LDR, photodiode, phototransistor, and thresholding
 
 Common light-sensing devices include the LDR, photodiode, and phototransistor. An LDR (photoresistor) has high resistance in darkness (~$10\text{ M}\Omega$) and low resistance in bright light (~$100\Omega$). Photodiodes and phototransistors use semiconductor junctions to respond to light. Thresholding converts a changing sensor voltage into a clean digital LOW or HIGH.
@@ -68,7 +67,6 @@ Flashcards for this section are as follows:
 
 The course then narrows to the reflective IR hardware the robot uses for line following.
 
-<!-- check: ignore-next-line[header_style]: acronym -->
 ### IR discovery and history
 
 William Herschel discovered infrared radiation accidentally in 1800. He separated visible light with a prism, placed thermometers in the different colors, and observed that the temperature increased from blue toward red; he then found an even warmer reading just beyond the red end of the visible spectrum. Anything giving off heat emits infrared radiation, even though human eyes cannot see it.
@@ -81,7 +79,6 @@ Flashcards for this section are as follows:
 - key observation ::@:: Temperature rose toward red and was even warmer beyond the red end.
 - IR and heat ::@:: Anything giving off heat emits infrared, invisible to human eyes.
 
-<!-- check: ignore-next-line[header_style]: acronym -->
 ### IR line sensor module and calibration
 
 The project hardware uses a reflective IR sensor module. An IR emitter sends light toward the floor; the receiver responds to the reflected amount. A variable resistor tunes the switching threshold for sensor height and white-vs-black contrast. The tuned module outputs ~$0\text{ V}$ on white, ~$5\text{ V}$ on black.

@@ -26,7 +26,6 @@ Flashcards for this section are as follows:
 - the stages the fixed filter order passes through ::@:: The organization's written rules, the law, shared values, and the decision maker's own conscience.
 - what ethical decision-making is ::@:: Settling a choice by checks that can be stated to others, so the reason for it survives being questioned.
 
-<!-- check: ignore-next-line[header_style]: acronym -->
 ## PLUS model
 
 The model is a checklist for a decision that will have to be explained. Written out in advance, each test forces a conclusion reached on instinct to survive four questions in turn. The same work is due diligence before a deal, where risks and assumptions are examined while the commitment can still be avoided.

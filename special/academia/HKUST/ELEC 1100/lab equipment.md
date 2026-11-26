@@ -127,7 +127,7 @@ Flashcards for this section are as follows:
 - DSO units reminder ::@:: Check on-screen units for vertical (V/mV) and horizontal (s/ms/μs) before reading $V_{\text{pp}}$, period, or frequency.
 - DSO probe connection ::@:: Connect probe clip (negative) to GND in the schematic; touch probe tip to component lead bottoms, not breadboard holes.
 
-## LED <!-- check: ignore-line[header_style]: proper noun -->
+## LED
 
 An LED must be used with a series resistor (typically about $1\text{ k}\Omega$ at $5\text{ V}$) to limit current and avoid damage; see [simple diode circuit analysis and safety](diode.md#simple%20diode%20circuit%20analysis%20and%20safety) in the diode topic. Resistor values are read from the [resistor colour code](#resistor%20colour%20code); the DSO is used as in [reading the DSO](#reading%20the%20DSO).
 

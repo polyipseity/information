@@ -232,7 +232,6 @@ Flashcards for this section are as follows:
 - WLLN assumption remark (i): essential condition ::@:: The theorem only needs $\operatorname{Var}(\overline X_n)\to0$. This holds, for example, if the $X_j$ are pairwise uncorrelated with uniformly bounded variance, but $\operatorname{Var}(\overline X_n)\to0$ can also hold under other forms of sufficiently weak dependence — pairwise uncorrelated is only one sufficient condition, not the only case. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - WLLN assumption remark (ii): infinite variance ::@:: If $E[|X_1|]<\infty$ but $\operatorname{Var}(X_1)=\infty$, a truncation argument (capping extreme values at a growing threshold $b_n$, applying Chebyshev to the bounded truncated variables, showing the tails' contribution is negligible) still yields $\overline X_n\to\mu$ in probability. If $E[|X_1|]=\infty$, the WLLN can fail. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-<!-- check: ignore-next-line[header_style]: proper noun -->
 ### Khinchin's weak law
 
 If $X_1,X_2,\dots$ are iid with finite mean $\mu$ (no variance assumption), then $\overline X_n\to\mu$ in probability.
@@ -251,7 +250,6 @@ Flashcards for this section are as follows:
 - convergence in distribution to a constant implies convergence in probability ::@:: If $Z_n\xrightarrow{d}\delta_c$, then $P(|Z_n-c|>\varepsilon)\to0$ for every $\varepsilon>0$, which means $Z_n\to c$ in probability. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - Khinchin vs Chebyshev WLLN ::@:: Chebyshev requires finite variance; Khinchin only requires finite mean (via CF expansion instead of Chebyshev inequality). Both give $\overline X_n\to\mu$ in probability, but Khinchin's proof is more powerful. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-<!-- check: ignore-next-line[header_style]: proper noun -->
 ### Feller's necessary and sufficient condition
 
 A necessary and sufficient condition for a weak law to hold (with suitable centering constants $a_n$) is Feller's condition: $$\lim_{x\to\infty} x\,P(|X_1|>x)=0.$$ When this holds, one can take $a_n=E[X_1\mathbb I_{|X_1|\le n}]$ and obtain $\overline X_n-a_n\to0$ in probability.
@@ -267,7 +265,6 @@ Flashcards for this section are as follows:
 - centering constant in Feller's WLLN ::@:: $a_n=E[X_1\mathbb I_{|X_1|\le n}]$ corrects for the truncated mean; when $E[X_1]=\mu$ is finite, $a_n\to\mu$ and the classical WLLN is recovered. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - Feller's condition: necessity direction ::@:: If $\overline X_n-a_n\to0$ in probability for some $a_n$, then $xP(|X_1|>x)\to0$ must hold. So Feller's condition is not just sufficient but also necessary for a WLLN with centering. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-<!-- check: ignore-next-line[header_style]: proper noun -->
 ### Cauchy counterexample
 
 Let $X_1,X_2,\dots$ be iid Cauchy $(0,1)$ with density $f(x)=1/(\pi(1+x^2))$. Then $P(|X_1|>x)\sim 1/(\pi x)$, so $xP(|X_1|>x)\to 1/\pi\neq0$, violating Feller's condition. The sample mean is again Cauchy $(0,1)$ — stable under averaging — so $\overline X_n$ has the same distribution as $X_1$ and does not concentrate. There is no finite limit $\mu$ or centering $a_n$ such that $\overline X_n-a_n\to0$ in probability.
@@ -283,7 +280,6 @@ Flashcards for this section are as follows:
 - Cauchy: tail-decay rate ::@:: Density $f(x)=1/(\pi(1+x^2))$ gives $P(|X_1|>x)\sim 1/(\pi x)$, so $xP(|X_1|>x)\to 1/\pi$, violating Feller's condition. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - Cauchy: no centering helps ::@:: Because $\overline X_n$ has the same Cauchy(0,1) distribution for every $n$, no centering sequence $a_n$ can make $\overline X_n-a_n\to0$ in probability — the distribution does not concentrate at all. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-<!-- check: ignore-next-line[header_style]: proper noun -->
 ### WLLN vs SLLN comparison
 
 | Aspect                        | WLLN                                                                         | SLLN                                                                                                      |
@@ -315,7 +311,6 @@ The condition $E[|X_1|]<\infty$ is necessary as well as sufficient for the SLLN 
 
 The route taken in the course passes through the Borel-Cantelli lemmas and a truncation argument.
 
-<!-- check: ignore-next-line[header_style]: Borel-Cantelli is a proper noun (eponymous) -->
 ### Borel-Cantelli lemmas
 
 The Borel-Cantelli lemmas are the fundamental tools for converting probability estimates into almost-sure statements. They answer a basic question: given a sequence of events $A_n$, when can we be sure that infinitely many of them happen (or don't)?
@@ -393,7 +388,6 @@ Flashcards for this section are as follows:
 - subsequence criterion for a.s. convergence ::@:: $Z_n\to Z$ a.s. iff every subsequence contains a further sub-subsequence converging a.s. to $Z$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - SLLN: non-iid variant exists ::@:: For independent (not necessarily i.i.d.) $X_j$ with $E[X_j^2]<\infty$ and $\sum_{k=1}^\infty\frac1{k^2}\operatorname{Var}[X_k]<\infty$, $\overline X_n-E[\overline X_n]\xrightarrow{\text{a.s.}}0$. The identical-distribution assumption is not essential — only moment control is. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-<!-- check: ignore-next-line[header_style]: proper noun -->
 ### Kolmogorov's SLLN (non-identically distributed)
 
 If the $X_j$ are independent but no longer identically distributed, Kolmogorov's strong law can still be stated under a second-moment condition. Let $X_1,X_2,\dots$ be independent with $E[X_j^2]<\infty$ for all $j$ and
@@ -460,7 +454,6 @@ Flashcards for this section are as follows:
 - central limit theorem for sums: If $X_1,X_2,\dots$ are iid with mean $\mu$ and variance $\sigma^2>0$, what is the limiting law of $\frac{\sum_{j=1}^n X_j-n\mu}{\sigma\sqrt n}$? ::@:: The normalized sum converges in distribution to $N(0,1)$.
 - central limit theorem for the sample mean: Under the CLT hypotheses, what is the limiting law of $\sqrt n\,\frac{\overline X_n-\mu}{\sigma}$? ::@:: The normalized sample mean converges in distribution to $N(0,1)$.
 
-<!-- check: ignore-next-line[header_style]: MGF is an acronym -->
 ### MGF convergence and convergence in distribution
 
 If the MGFs of a sequence of random variables converge pointwise to the MGF of a limit in a neighborhood of $0$, convergence in distribution follows. This is the engine behind the CLT proof when MGFs exist.
@@ -560,7 +553,6 @@ Flashcards for this section are as follows:
 - empirical variance: asymptotic distribution ::@:: $\sqrt n(S_n^2-\sigma^2)\xrightarrow{d} N(0,E[(X_1-\mu)^4]-\sigma^4)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - empirical variance: proof idea ::@:: Write $S_n^2-\sigma^2=(\overline Y_n-\sigma^2)+(\mu^2-\overline X_n^2)$ where $Y_i=(X_i-\mu)^2$; CLT handles the first term, SLLN+Slutsky eliminates the second. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-<!-- check: ignore-next-line[header_style]: Slutsky is a proper noun (eponymous) -->
 ## Slutsky's theorem and vanishing perturbation
 
 These results let one "clean up" a weak-convergence limit by discarding asymptotically negligible perturbations. They formalize the idea that if two sequences are asymptotically indistinguishable — their difference vanishes in probability — they must share the same limiting distribution, and that constants in the limit can absorb many operations cleanly.
@@ -582,7 +574,6 @@ Flashcards for this subsection are as follows:
 - proof: sandwich argument ::@:: Bound $F_{Y_n}(x)\le F_{X_n}(x+\varepsilon)+P(|X_n-Y_n|\ge\varepsilon)$ and $F_{Y_n}(x)\ge F_{X_n}(x-\varepsilon)-P(|X_n-Y_n|\ge\varepsilon)$; take $\limsup/\liminf$, then $\varepsilon\downarrow0$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - why "vanishing perturbation" ::@:: The difference $X_n-Y_n$ is a perturbation that vanishes in probability; it is too small to affect the limiting distribution. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-<!-- check: ignore-next-line[header_style]: Slutsky is a proper noun (eponymous) -->
 ### Slutsky's theorem
 
 _Intuition._ When one operand converges to a constant, joint limiting behavior simplifies dramatically — the constant passes through addition, multiplication, and division as if it were deterministic. This is why we can normalize a sample mean by an estimated standard deviation and still obtain a standard normal limit.
@@ -717,7 +708,6 @@ Flashcards for this section are as follows:
 - why the weak law matters for large $n$ ::@:: It explains why empirical averages stabilize and become reliable approximations to the true mean for large $n$.
 - transformed-observation average $\frac1n\sum_{j=1}^n e^{-X_j/2}$ in the weak law: What kind of average is still covered when the transformed variables are iid with finite variance? ::@:: An average such as $\frac1n\sum_{j=1}^n e^{-X_j/2}$ is still covered.
 
-<!-- check: ignore-next-line[header_style]: proper noun -->
 ### Monte Carlo integration
 
 A direct application of the strong law (or weak law) is Monte Carlo estimation. For a piecewise continuous function $h:[0,1]\to\mathbb R$ with $\int_0^1 h^2(x)\,dx<\infty$, one can approximate the integral $I=\int_0^1 h(x)\,dx$ by $$\widehat I_n=\frac1n\sum_{i=1}^n h(U_i),$$ where $U_1,\dots,U_n$ are i.i.d. $\operatorname{Uniform}(0,1)$. The SLLN gives $\widehat I_n\to I$ almost surely.

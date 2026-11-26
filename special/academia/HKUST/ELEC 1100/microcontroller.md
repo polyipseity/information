@@ -12,7 +12,6 @@ tags:
 
 A microcontroller is a small computer embedded inside a device that runs one control program. In this robot platform, it replaces a large fixed gate network and acts as the logic, memory, timing, and I/O hub between sensors and actuators.
 
-<!-- check: ignore-next-line[header_style]: acronym -->
 ## MCU role and integrated architecture
 
 A microcontroller unit (MCU) integrates the central processing unit (CPU), memory, timer resources, and input/output (I/O) ports on one integrated circuit. It reads inputs, evaluates logic, stores state, and drives outputs using less space and power than a general-purpose computer. This suits battery-powered embedded systems that repeat the same control task.

@@ -25,7 +25,6 @@ Flashcards for this section are as follows:
 - why a common form is needed: what does an internetwork need before its member networks can exchange packets? ::@:: An address for each host that means the same thing on every network.
 - what the address does not say: which part of a host does an Internet Protocol (IP) address not identify? ::@:: The application process; the port number identifies that.
 
-<!-- check: ignore-next-line[header_style]: IPv4 is a protocol name -->
 ## IPv4
 
 The fourth version of the protocol numbers hosts with a 32-bit address, written as four decimal octets separated by dots, such as `128.2.42.10`. Each octet holds 8 bits, so its decimal runs from 0 to 255, and the whole space holds $2^{32} = 4{,}294{,}967{,}296$ addresses, a little over four billion.
@@ -90,7 +89,6 @@ Flashcards for this section are as follows:
 - binary mask: how is the $/26$ mask written as four binary octets, and which dotted decimal is that? ::@:: `11111111.11111111.11111111.11000000`, which is 255.255.255.192.
 - point-to-point and single host: how many usable ends do a $/31$ and a $/32$ offer? ::@:: A $/31$ on a point-to-point link has two usable ends, and a $/32$ is a single host.
 
-<!-- check: ignore-next-line[header_style]: IPv6 is a protocol name -->
 ## IPv6
 
 The sixth version uses 128 bits, written as eight groups of four hexadecimal digits separated by colons, such as `2001:0db8:85a3:0000:0000:8a2e:0370:7334`. Each group is 16 bits and each hex digit is 4. The space holds $2^{128} \approx 3.4 \times 10^{38}$ addresses, which is $2^{96}$ times the Internet Protocol version 4 space.

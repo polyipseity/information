@@ -204,7 +204,6 @@ Flashcards for this section are as follows:
 - PGF why one-sided limit only: For the PGF $G_X(s)=\sum_{k\ge 0}P[X=k]s^k$, why is only a left-hand limit needed to recover $E[X]$? ::@:: The PGF is defined on $|s|\le 1$, which is the natural domain of its power series. For $s>1$ the series may diverge — unless the distribution has finite support or light-enough tails to extend the radius. So there is no right-hand side to take a limit from; a two-sided derivative at $1$ is not meaningful in general.
 - PGF left-hand limit convergence justification: What theorems justify $\lim_{s\uparrow 1}G_X'(s)=E[X]$? ::@:: (1) Monotone convergence: $G_X'(s)=\sum kP[X=k]s^{k-1}$ is monotone in $s$ (nondecreasing for $s\ge0$) and the limit as $s\uparrow 1$ equals $\sum kP[X=k]=E[X]$. (2) Abel's theorem for power series: if $\sum a_k$ converges, then $\lim_{s\uparrow 1}\sum a_k s^k=\sum a_k$; applied to $kP[X=k]$ as coefficients.
 
-<!-- check: ignore-next-line[header_style]: proper noun (Chernoff is a person's name) -->
 ## Chernoff bounds and transform methods
 
 MGFs turn Markov's inequality into exponential tail bounds. For $t>0$, one has $P[X\ge a]=P[e^{tX}\ge e^{ta}]\le e^{-ta}M_X(t)$.

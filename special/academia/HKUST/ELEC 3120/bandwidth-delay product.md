@@ -109,7 +109,6 @@ Flashcards for this section are as follows:
 - slow start growth: starting from one $1460$-byte segment and doubling the window every round trip, how much data does the sender have in flight after six round trips? ::@:: $1460 \times 2^6 = 93{,}440$ bytes, enough for the $62.5$ KB the $10\text{ Mbps}$ path needs.
 - slow start time: on a path with a $50\text{ ms}$ round trip, how long do six doubling round trips take, and what does the link do meanwhile? ::@:: $6 \times 50\text{ ms} = 300$ ms, so the link stays partly idle for the first third of a second.
 
-<!-- check: ignore-next-line[header_style]: ACK is an acronym -->
 ## ACK clocking
 
 With the window set to the bandwidth-delay product, acknowledgements return spaced as the segments went out. Each arrival frees room for one more segment, so the sender keeps transmitting at the link's rate. The acknowledgements, not a timer, set that rate, which is why the effect is called ACK clocking.

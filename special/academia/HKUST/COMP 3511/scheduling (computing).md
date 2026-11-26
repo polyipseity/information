@@ -29,7 +29,6 @@ Flashcards for this section are as follows:
 
 ## scheduling basics
 
-<!-- check: ignore-next-line[header_style]: CPU and I/O are acronyms -->
 ### CPU and I/O bursts
 
 A process alternates between a CPU burst, a stretch of execution on the processor, and an input/output (I/O) burst, a stretch of waiting for a device request to finish.

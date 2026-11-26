@@ -37,7 +37,6 @@ Flashcards for this section are as follows:
 - PWM with $V_L=0$: what does $V_{\text{eq}}$ reduce to? ::@:: $V_{\text{eq}}=\sqrt{D}\,V_H$ when the LOW level is $0\text{ V}$.
 - average vs equivalent voltage: why distinguish $V_{\text{ave}}$ from $V_{\text{eq}}$? ::@:: Equal arithmetic mean does not always mean equal delivered power; $V_{\text{eq}}$ is needed when comparing heating or brightness in a resistive load.
 
-<!-- check: ignore-next-line[header_style]: acronym -->
 ## PWM in motor control
 
 In the robot car, direction and speed are separated. The H-bridge direction inputs decide whether current flows forward or backward through the motor, while the enable/PWM input decides how much average motor voltage is applied. The Arduino therefore sends one signal such as `DIR` for direction and a second PWM signal for speed. The final pin map is: `D9` and `D11` generate left/right PWM, and `D10` and `D12` provide left/right direction.
@@ -57,7 +56,6 @@ Flashcards for this section are as follows:
 - Arduino DIR pins in ELEC 1100: which pins control left and right direction? ::@:: `D10` is `L_DIR` and `D12` is `R_DIR`.
 - Arduino `analogWrite(pin, value)`: what does the `value` range mean? ::@:: The value ranges from 0 to 255, where 0 is always LOW, 255 is always HIGH, and intermediate values set the duty cycle.
 
-<!-- check: ignore-next-line[header_style]: acronym -->
 ## PWM generation methods
 
 There are two physical ways to generate pulses. A pulse can be generated mechanically by pressing a switch so the circuit alternates between ON and OFF states. It can also be generated electrically by an oscillator, which produces a continuous, repeated AC waveform. In the robot car, the Arduino produces pulses digitally, changing the pulse width in software to set the required duty cycle.

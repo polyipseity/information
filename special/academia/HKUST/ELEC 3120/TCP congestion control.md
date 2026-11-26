@@ -108,7 +108,6 @@ Flashcards for this section are as follows:
 - a sawtooth runs between $W/2$ and $W$; what is the average window, and what is the average rate when the only loss is the path overflowing? ::@:: $3W/4$, so three quarters of the peak, $\frac{3}{4} \cdot W/RTT$.
 - how does a queue change the peak window, and what then caps the average rate? ::@:: A deeper buffer lets the window climb past the bandwidth-delay product, so the peak grows with the queue, while the bottleneck serves no faster and caps the average rate.
 
-<!-- check: ignore-next-line[header_style]: AIMD is an acronym -->
 ### AIMD convergence
 
 Additive increase is cautious on the way up, multiplicative decrease abrupt on the way down. Each flow gives back a share proportional to what it held, so a heavy flow yields the most room.
@@ -165,7 +164,6 @@ Flashcards for this section are as follows:
 - on a path with $1460$-byte segments and a $100\text{ ms}$ round trip, what loss rate does the Mathis equation need for a throughput of $10\text{ Mbit/s}$? ::@:: $1460\text{ bytes} / 0.1\text{ s} = 14{,}600$ B/s, and $10\text{ Mbit/s} = 1.25\text{ MB/s}$, so $1.25\text{ MB/s} / 14{,}600\text{ B/s} \approx 86$ and $\sqrt{p} = 1.22 / 86$ gives $p \approx 1/5{,}000$.
 - a path of $50\text{ Mbit/s}$ with a $200\text{ ms}$ round trip has a bandwidth-delay product of $1.25$ MB; what does a window of exactly that size do to the queue? ::@:: It fills the path and queues nothing.
 
-<!-- check: ignore-next-line[header_style]: Reno is a proper noun -->
 ## Reno state machine
 
 The transitions below also depend on the duplicate-acknowledgement counter and the slow-start threshold.

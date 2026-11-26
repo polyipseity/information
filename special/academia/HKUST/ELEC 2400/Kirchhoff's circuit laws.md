@@ -27,7 +27,6 @@ Flashcards for this section are as follows:
 - the two laws: what does Kirchhoff's current law constrain, and what does the voltage law constrain? ::@:: Kirchhoff's circuit laws are the two instantaneous equalities of the lumped-element model: the current law constrains the currents at a node and the voltage law constrains the voltages round a loop.
 - namesake ::@:: Gustav Robert Kirchhoff, who lived from 1824 to 1887.
 
-<!-- check: ignore-next-line[header_style]: Kirchhoff is a proper noun -->
 ## Kirchhoff's current law
 
 Kirchhoff's current law states that at any instant the algebraic sum of the currents entering a node is zero, $\sum i = 0$, a current leaving the node counting with the opposite sign. It reads more conveniently as current in equals current out, $\sum I_{\text{in}} = \sum I_{\text{out}}$.
@@ -58,7 +57,6 @@ Flashcards for this section are as follows:
 - all arrows drawn inward: four branch currents $i_1$ to $i_4$ all have their arrows drawn into the node, with values $3\text{ A}$, $2\text{ A}$, $-4\text{ A}$, and $-1\text{ A}$; what does the law give? ::@:: $i_1 + i_2 + i_3 + i_4 = 0$, satisfied as $(+3) + (+2) + (-4) + (-1) = 0$ and as $(-3) + (-2) + (+4) + (+1) = 0$.
 - why some values must be negative: four branch currents all have their arrows drawn into one node; why must some of the values come out negative? ::@:: Currents that all run inward can sum to zero only if some of them in fact run outward, against their arrows.
 
-<!-- check: ignore-next-line[header_style]: Kirchhoff is a proper noun -->
 ## Kirchhoff's voltage law
 
 Kirchhoff's voltage law states that at any instant the algebraic sum of the branch voltages around a loop is zero, $\sum v_i = 0$, a voltage rise counting positive and a drop negative.

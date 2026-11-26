@@ -68,7 +68,6 @@ Flashcards for this section are as follows:
 - which critical-section requirement is the fairness one, and what it stops ::@:: Bounded waiting; it stops one thread starving while the rest keep circulating.
 - why progress alone does not stop starvation ::@:: It asks only that some waiter gets in, which one thread can satisfy every time, leaving another waiting.
 
-<!-- check: ignore-next-line[header_style]: Peterson is a proper noun -->
 ## Peterson's algorithm
 
 Peterson's algorithm is a software-only protocol for the critical-section problem with two processes. Both alternate between a critical section and a remainder section, and the protocol asks of the machine only a load and a store.

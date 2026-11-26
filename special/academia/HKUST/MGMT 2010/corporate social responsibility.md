@@ -10,7 +10,6 @@ tags:
 
 # corporate social responsibility
 
-<!-- check: ignore-next-line[header_style]: proper noun -->
 ## Carroll's pyramid (Carroll, 1991)
 
 Corporate social responsibility is the obligation a firm owes the stakeholders it affects and depends on.

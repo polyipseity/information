@@ -35,7 +35,6 @@ Flashcards for this section are as follows:
 - loading through a probe: how does a ×10 probe change the input resistance a channel brings to its node? ::@:: It raises the oscilloscope's input resistance tenfold above the ×1-probe value, so the channel draws less current from the node.
 - direct probe: which channel loads its node more, one behind a ×1 probe or one behind a ×10 probe with the matching oscilloscope setting? ::@:: The ×1-probe channel, whose input resistance is a tenth of the ×10 probe's.
 
-<!-- check: ignore-next-line[header_style]: established display mode -->
 ## X-Y display
 
 An X-Y display drops the shared time axis and lets two channels position one dot: channel A's voltage sets the horizontal coordinate and channel B's voltage the vertical one. Two sinusoids of equal frequency separated by a phase offset trace an ellipse as the dot travels.

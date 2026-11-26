@@ -11,7 +11,6 @@ tags:
 
 This note summarises the ESG (environmental, social, and governance) reporting material in ACCT 3020, focusing on Hong Kong listed companies and the course's exam emphasis.
 
-<!-- check: ignore-next-line[header_style]: proper noun -->
 ## ESG overview
 
 ESG stands for __environmental__, __social__, and __governance__. It grew out of broader sustainability initiatives (e.g. United Nations sustainable development goals) and is now embedded in capital markets: investors, regulators, and other stakeholders expect companies to report how they manage key ESG issues alongside traditional financial information.
@@ -93,7 +92,6 @@ Flashcards for this section are as follows:
 - ESG risk: physical risk ::@:: Risk that climate‑related events such as storms, flooding, or heatwaves physically damage assets or disrupt operations.
 - ESG risk: transition risk ::@:: Risk that, as regulation and markets move towards low‑carbon and sustainable models, certain assets or technologies lose value (e.g. become impaired or stranded).
 
-<!-- check: ignore-next-line[header_style]: proper noun -->
 ## ESG reporting in hong kong: framework
 
 In Hong Kong, listed companies must follow the stock exchange's ESG reporting requirements. There are two broad categories of requirements:

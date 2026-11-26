@@ -25,7 +25,6 @@ Flashcards for this section are as follows:
 - usual measure for bandwidth: which fairness measure is the usual one for comparing allocations of network bandwidth? ::@:: Jain's fairness index.
 - inputs needed: what does Jain's fairness index need in order to score an allocation? ::@:: Only the shares the flows receive and the number of flows.
 
-<!-- check: ignore-next-line[header_style]: Jain's is a proper name -->
 ## Jain's fairness index
 
 For shares $x_1, \ldots, x_n$ the index is $F(x) = \left(\sum_i x_i\right)^2 / \left(n \sum_j x_j^2\right)$: the square of the summed shares, over $n$ times the sum of their squares.

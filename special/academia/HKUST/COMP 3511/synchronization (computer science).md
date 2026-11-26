@@ -77,7 +77,6 @@ Flashcards for this section are as follows:
 
 ## software and hardware support
 
-<!-- check: ignore-next-line[header_style]: Peterson is a proper noun -->
 ### Peterson's solution
 
 Peterson's solution is a software protocol for two processes that alternate between critical sections and remainder sections. They share `flag[2]`, two booleans where `flag[i]` true means process $i$ wants in, and `turn`, an integer holding 0 or 1 that names whose turn it is.

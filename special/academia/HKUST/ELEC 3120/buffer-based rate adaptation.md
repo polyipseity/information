@@ -108,7 +108,6 @@ Flashcards for this section are as follows:
 - when is the rate above the current one set to $R_{\max}$? ::@:: When the current rate is already $R_{\max}$. Otherwise it is the smallest available rate above the current one
 - what three extensions does the full BBA add to the BBA-0 selection? ::@:: A startup phase analogous to slow start, handling of variable bitrate encoding, and analysis of how large to make the reservoirs
 
-<!-- check: ignore-next-line[header_style]: Puffer is a proper noun -->
 ## Puffer study results
 
 The Stanford Puffer Project gives people TV for free, so its researchers can test rate adaptation algorithms on live traffic.

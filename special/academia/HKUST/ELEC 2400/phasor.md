@@ -108,7 +108,6 @@ Flashcards for this section are as follows:
 - phasor analysis / fourth step: how does a phasor answer return to the time domain? ::@:: The phasor $V_s\angle\theta$ at angular frequency $\omega$ writes back as $v(t) = V_s\cos(\omega t + \theta)$. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - phasor analysis / one frequency per circuit: why is a phasor equivalent circuit tied to a single frequency? ::@:: The impedances $1/j\omega C$ and $j\omega L$ carry $\omega$ inside them, so an equivalent built at one frequency does not hold at another. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 
-<!-- check: ignore-next-line[header_style]: Kirchhoff is a proper noun -->
 ### Kirchhoff's laws in the phasor domain
 
 Kirchhoff's laws hold at every instant, and a phasor carries every instant at once. So the laws hold on the phasors themselves: the currents into a node sum to zero, $\sum\mathbf{I} = 0$, and the voltages around a loop sum to zero, $\sum\mathbf{V} = 0$, both as complex sums.

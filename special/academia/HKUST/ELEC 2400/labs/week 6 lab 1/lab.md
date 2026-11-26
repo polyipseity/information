@@ -48,7 +48,6 @@ Flashcards for this section are as follows:
 - voltage-law loop: which elements sit in series around the single loop of the voltage-law circuit? ::@:: A $4\ \Omega$ resistor and a 2 V source up the left branch, a 3 V source and a $10\ \Omega$ resistor across the top, and a 5 V source down the right branch, closed by the bottom wire at ground. <!-- check: ignore-line[two_sided_calc_warning]: conceptual -->
 - what the check compares: the simulation returns branch currents and node voltages at the DC operating point; what do they verify? ::@:: They let the currents at a node be summed against Kirchhoff's current law and the voltages round the loop against Kirchhoff's voltage law.
 
-<!-- check: ignore-next-line[header_style]: proper noun -->
 ## Thévenin equivalent by simulation
 
 The circuit at the terminal pair $ab$ carries five elements. On the left a 4 A current source points down through a $2\ \Omega$ resistor to ground, and an $8\ \Omega$ resistor crosses the top to a central node. A central branch holds a $4\ \Omega$ resistor above a 4 V source with its plus mark up. A $4\ \Omega$ resistor lies on the bottom wire back to the grounded left corner, and a $3\ \Omega$ resistor runs from the central node to terminal $a$. The $2\ \Omega$ load runs from $a$ down to $b$ on the bottom wire, with $I_o$ defined downward through it, and [Thévenin's theorem](../../Th%C3%A9venin%27s%20theorem.md) predicts that this whole network collapses to one source and one resistance at that pair.

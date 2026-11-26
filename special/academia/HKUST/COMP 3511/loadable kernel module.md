@@ -33,7 +33,6 @@ Flashcards for this section are as follows:
 - modular approach versus microkernel ::@:: Both keep a small core with loadable extensions, but modules call each other by direct function call, which performs better than message passing.
 - loading a kernel module at runtime ::@:: A device driver module loads when a new device appears, such as a USB device just plugged in, and unloads when it is no longer needed, without a reboot.
 
-<!-- check: ignore-next-line[header_style]: Linux is a proper noun, LKM is an acronym -->
 ## Linux and LKMs
 
 Linux loads modules mostly for device drivers and file systems, inserting and removing them at runtime. The kernel stays monolithic and fast, and still covers a wide range of hardware without a rebuild.

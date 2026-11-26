@@ -127,7 +127,6 @@ Flashcards for this subsection are as follows:
 - thinning: how to prove that $N_t^{(A)}$ is a Poisson process with rate $\lambda p$? ::@:: In any interval $(s,t]$, let $N=N_t-N_s\sim\operatorname{Pois}(\lambda(t-s))$ be the total count and $A$ the type-A count. Bernoulli splitting gives $A\mid N=n\sim\operatorname{Bin}(n,p)$, so $P(A=k)=E[\binom{N}{k}p^k(1-p)^{N-k}]$. Evaluating: $\sum_{n=k}^\infty \binom{n}{k}p^k(1-p)^{n-k}\,e^{-\lambda(t-s)}(\lambda(t-s))^n/n! = e^{-\lambda p(t-s)}(\lambda p(t-s))^k/k!$, hence $A\sim\operatorname{Pois}(\lambda p(t-s))$. Independence across intervals follows from the independent-increments property of $(N_t)$.
 - thinning: a Poisson particle source ($\lambda=10$/s) hits a detector that registers each particle with prob $p=0.3$ — what are the rates of registered and missed particles? ::@:: A Poisson particle source with $\lambda=10$/s hits a detector that registers each particle with probability $p=0.3$. Registered particles form a Poisson process with rate $3$/s; missed particles form an independent Poisson process with rate $7$/s. This is exact, not approximate, because of the thinning property.
 
-<!-- check: ignore-next-line[header_style]: PASTA is an acronym for Poisson Arrivals See Time Averages -->
 ### PASTA property
 
 PASTA stands for _Poisson Arrivals See Time Averages_. In a queuing system where arrivals follow a Poisson process, the fraction of arrivals that find the system in a given state equals the time-average fraction of time the system spends in that state (in steady state).

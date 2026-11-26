@@ -68,7 +68,6 @@ Flashcards for this section are as follows:
 - probit alternative ::@:: Probit classification uses $p=\Phi(w^\top x)$, where $\Phi$ is the standard normal cumulative distribution function.
 - complementary-log-log alternative ::@:: Complementary log-log uses $p=1-e^{-e^{w^\top x}}$, which is asymmetric compared with the sigmoid link.
 
-<!-- check: ignore-next-line[header_style]: Bernoulli is a proper noun -->
 ### Bernoulli output model, odds, and logit
 
 The model can be written compactly as $p(y\mid x,w)=\operatorname{Bernoulli}(y\mid \sigma(w^\top x))$. Equivalently, for a single input $x$ with positive-class probability $p$, the Bernoulli law says $p(y\mid x,w)=p^y(1-p)^{1-y}$ with $p=\sigma(w^\top x)$. This compact expression is useful when deriving likelihood and cross entropy, because the cases $y=1$ and $y=0$ are handled at once.
@@ -106,7 +105,6 @@ Flashcards for this section are as follows:
 - worked sigmoid-logit example: If $z=1.386$, what are $p=\sigma(z)$, the odds, and the log-odds? ::@:: $p\approx 0.8$, odds $=\frac{0.8}{0.2}=4$, and log-odds $=\log 4\approx 1.386$.
 - score-sign flip effect ::@:: Replacing $z$ by $-z$ replaces $p$ by $1-p$ and inverts the odds, so a score-sign flip swaps class preference.
 
-<!-- check: ignore-next-line[header_style]: Bayes is a proper noun -->
 ### Bayes decision rule and thresholding
 
 Once the conditional distribution is available, classification is done by point estimation: choose the action with the smallest conditional risk, or under zero-one loss equivalently choose the most probable label. The rule is $\hat y = \arg\max_y p(y\mid x,w)$. For the binary case, this means predicting class $1$ when $P(y=1\mid x,w) > P(y=0\mid x,w)$ and class $0$ otherwise. Because $P(y=1\mid x,w)=\sigma(w^\top x)$, this reduces to the threshold rule $\sigma(w^\top x) > 0.5$ in the equal-cost case.

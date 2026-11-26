@@ -51,7 +51,6 @@ Flashcards for this section are as follows:
 - microkernel performance drawback ::@:: Talking across user space and kernel space is costly. Messages are copied between separate address spaces.
 - Windows NT migration ::@:: Windows NT started with a layered microkernel and ran worse than Windows 95. Later versions moved functions into the kernel, closer to a monolithic design.
 
-<!-- check: ignore-next-line[header_style]: proper nouns -->
 ## Mach and Darwin
 
 Carnegie Mellon University (CMU) built Mach, an early microkernel, in the mid-1980s. Darwin, the hybrid XNU kernel of Mac OS X and iOS, is the best-known microkernel system. It pairs Mach with the BSD UNIX kernel.

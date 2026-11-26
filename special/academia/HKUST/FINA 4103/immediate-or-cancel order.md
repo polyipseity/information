@@ -19,7 +19,6 @@ Flashcards for this section are as follows:
 - what an immediate-or-cancel (IOC) order requires ::@:: Immediate execution or cancellation.
 - what "immediate" means in immediate-or-cancel (IOC) ::@:: Filled at submission against available liquidity; any remainder is cancelled.
 
-<!-- check: ignore-next-line[header_style]: IOC is an acronym -->
 ## IOC and phantom liquidity
 
 High-frequency traders use IOC orders to probe the book without committing. Two equally fast rivals want to buy 100 units at \$115 immediately, but \$116 is too expensive, and neither wants to commit to a standing limit order due to price risk. A market order commits at an uncertain price; a standing limit order can be picked off; an IOC takes what is available and disappears. The share of IOC orders has grown since the 2000s (Cao et al., 2022, _Journal of Financial Economics_).
