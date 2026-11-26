@@ -12,7 +12,6 @@ from main_mods.models import AstNode, Frontmatter, Severity, ValidationContext
 from main_mods.rules import (
     header_generic_article,
     header_hierarchy_flat,
-    header_hierarchy_shallow,
     header_hierarchy_thin,
     header_question_form,
     header_sentence_like,
@@ -62,43 +61,49 @@ def section_note(count: int, filler: int = 0) -> str:
     return "".join(parts)
 
 
-def test_flat_fires_above_nine():
-    """Eleven section-less siblings are one too many."""
-    msgs = header_hierarchy_flat(make_ctx(section_note(11)))
-    assert len(msgs) == 1
-    assert msgs[0].severity is Severity.ERROR
-    assert "11 of the sections" in msgs[0].msg
-    assert "1.57" in msgs[0].msg
+def test_flat_reports_the_flatness_ratio():
+    """The message carries the measured ratio against the comfortable width."""
+    msgs = header_hierarchy_flat(make_ctx(section_note(9)))
+    assert "9 of the sections" in msgs[0].msg
+    assert "3.00" in msgs[0].msg
 
 
-def test_flat_silent_at_nine():
-    """Nine section-less siblings are still inside the limit."""
-    assert header_hierarchy_flat(make_ctx(section_note(9))) == []
+def test_flat_silent_at_six():
+    """Six section-less siblings stop at a warning."""
+    assert header_hierarchy_flat(make_ctx(section_note(6))) == []
 
 
-def test_thin_fires_in_the_edge_band():
-    """Eight section-less siblings sit at the edge of the limit."""
-    msgs = header_hierarchy_thin(make_ctx(section_note(8)))
+def test_thin_fires_from_four():
+    """Four section-less siblings are worth one grouping section."""
+    msgs = header_hierarchy_thin(make_ctx(section_note(4)))
     assert len(msgs) == 1
     assert msgs[0].severity is Severity.WARNING
 
 
-def test_thin_silent_below_seven():
-    """Six section-less siblings are comfortable."""
-    assert header_hierarchy_thin(make_ctx(section_note(6))) == []
+def test_thin_fires_through_six():
+    """Six section-less siblings still sit inside the warning band."""
+    assert len(header_hierarchy_thin(make_ctx(section_note(6)))) == 1
 
 
-def test_shallow_fires_on_a_long_unnested_note():
-    """A long note with no ``###`` and five top sections never nests."""
-    msgs = header_hierarchy_shallow(make_ctx(section_note(5, filler=30)))
+def test_flat_fires_at_seven():
+    """Seven section-less siblings cross into an error."""
+    msgs = header_hierarchy_flat(make_ctx(section_note(7)))
     assert len(msgs) == 1
-    assert "never uses '###'" in msgs[0].msg
+    assert msgs[0].severity is Severity.ERROR
+    assert "7 of the sections" in msgs[0].msg
 
 
-def test_shallow_silent_when_a_third_level_exists():
-    """One ``###`` proves the note knows how to nest."""
-    text = _FRONT + "".join(f"## section {i}\n##### deep\n" for i in range(5))
-    assert header_hierarchy_shallow(make_ctx(text + "filler\n" * 200)) == []
+def test_three_is_comfortable():
+    """Three sections need no grouping."""
+    assert header_hierarchy_thin(make_ctx(section_note(3))) == []
+    assert header_hierarchy_flat(make_ctx(section_note(3))) == []
+
+
+def test_nesting_clears_a_wide_note():
+    """Subsections take the width back under the limit."""
+
+    text = _FRONT + "".join(f"## section {i}\n### part\n" for i in range(8))
+    assert header_hierarchy_flat(make_ctx(text)) == []
 
 
 def test_article_fires_on_generic_lead():
@@ -165,7 +170,6 @@ def test_container_and_non_topic_files_are_skipped():
     for rule in (
         header_hierarchy_flat,
         header_hierarchy_thin,
-        header_hierarchy_shallow,
         header_generic_article,
         header_question_form,
         header_sentence_like,

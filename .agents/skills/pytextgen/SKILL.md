@@ -17,7 +17,7 @@ Use this skill when working with pytextgen-powered content generation, including
 
 ## What pytextgen does
 
-pytextgen is a Python library (git submodule in `scripts/pytextgen/`) that generates content programmatically in Markdown files:
+pytextgen is a Python library, declared in `pyproject.toml` and locked in `uv.lock`, that generates content programmatically in Markdown files:
 
 - __Flashcard generation__: Creates spaced-repetition cards from cloze markup (`{@{ }@}`, `::@::`, `:@:`)
 - __Sequence exports__: Exports data structures as Markdown lists, tables, or custom formats
@@ -63,7 +63,7 @@ Clears generated content blocks without regenerating. Useful for:
 - Resolving merge conflicts in generated regions
 - Debugging generation issues by starting fresh
 
-__Other ClearType values__ (see `scripts/pytextgen/io.py`):
+__Other clear types__ (list them with `uv run -m init clear --help`):
 
 - `CONTENT`: Clear generated text only
 - Additional types available in pytextgen documentation
@@ -179,12 +179,12 @@ grep -n "# pytextgen generate" path/to/file.md
 - __Cache management__: Use `-C` when unsure if cache is stale
 - __Incremental regeneration__: Pass specific paths to regenerate only changed files
 - __Flashcard initialization__: Use `--init-flashcards` when creating new flashcard-enabled notes
-- __Submodule updates__: If pytextgen behavior changes, check for submodule updates (`git submodule update --remote scripts/pytextgen`)
+- __Version__: A behavior change comes from bumping the dependency in `pyproject.toml`, never from updating a submodule
 
 ## When to ask for help
 
-- If fence syntax seems correct but generation fails, ask user to check pytextgen submodule version
-- If editing is required in `scripts/pytextgen/**`, ask user for permission (it's a submodule)
+- If fence syntax seems correct but generation fails, ask user for the installed pytextgen version (`uv pip show pytextgen`)
+- If the library itself seems at fault, report the bug upstream; never patch the installed package in place
 - If cache behavior is unexpected, clarify with user before deleting cache files
 
 ## Integration with other workflows

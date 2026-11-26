@@ -92,7 +92,7 @@ File and section boundaries come from the concepts, never from the shape of the 
 - The sections must partition the concept: each answers one question, along parallel axes, with no catch-all section left over.
 - Order sections by the concept's own logic (definition, then mechanism, then variants, limits, and examples). Coinciding with the source's order is fine; the source's order is never the justification.
 - A section name is a term, not a phrase that points at something the reader is assumed to hold: no leading `the`, `a`, `an`, or demonstrative, no question, no finite verb, and no terminal punctuation. `time constant`, not `the time constant`; `hysteresis`, not `the state it keeps`; `amplitude falloff`, not `why does the amplitude fall`. The linter holds all four as `header_generic_article` (error), `header_question_form`, and `header_sentence_like`.
-- A name is lower case except for a proper noun or an acronym, which takes a suppression rather than a lowercase (see "Style conventions" below).
+- A name is lower case except for a proper noun or an acronym, which keeps its capital. The linter accepts one by evidence (`header_style`): an all-caps initialism, a word with an internal capital or digit, or a word the note never writes lowercase in prose and does capitalize mid-sentence. Every other capitalized title is reported, so a name that also appears lowercase in prose takes a suppression rather than a lowercase.
 
 ### Prose and cards are organized by the note
 
@@ -117,16 +117,16 @@ Decide nesting explicitly while planning the note, and do not inherit the source
 - `#####` and deeper are unsanctioned: they mean the file boundary is wrong, so split the note instead.
 - Every heading a non-index note carries gets its own `---` separator and its own `Flashcards for this section are as follows:` block, recursively. That block belongs to the text between the heading and the next one: cards under a child heading never answer for its parent. A heading with no text of its own is a grouping heading and asks for nothing. `cloze_insufficient_coverage` wants the block's paragraph at 85% or more. A heading is therefore a promise of content. A concept the parent's prose absorbs costs nothing; one that earns a heading costs a card block and the clozing it implies, so ask whether the concept asks the question before adding it.
 
-The linter measures the widest run of sibling sections that open nothing of their own: above 9 is `header_hierarchy_flat` (error), 7 to 9 is `header_hierarchy_thin`. Ten flat sections have to be grouped even when every entry is a short one.
+The linter measures the widest run of sibling sections that open nothing of their own: three is comfortable, 4 to 6 is `header_hierarchy_thin` (warning), 7 or more is `header_hierarchy_flat` (error). Four flat sections have to be grouped even when every entry is a short one, so a note under that limit is flat by accident, not by permission.
 
 ### Section levelling pass
 
-Nesting is planned before the note is written and reviewed after it. The pass runs over every section the ingestion created or touched, and it is the only place a heading may change: the humanizer pass treats heading text as frozen, because session entries link to its anchor. It clears the structure rules too: `header_hierarchy_flat`, `header_hierarchy_thin`, `header_hierarchy_shallow`, `header_generic_article`, `header_question_form`, `header_sentence_like`.
+Nesting is planned before the note is written and reviewed after it. The pass runs over every section the ingestion created or touched, and it is the only place a heading may change: the humanizer pass treats heading text as frozen, because session entries link to its anchor. It clears the structure rules too: `header_hierarchy_flat`, `header_hierarchy_thin`, `header_generic_article`, `header_question_form`, `header_sentence_like`.
 
 - __Promote.__ Give a sub-concept its own `###` when it earned one under the tiebreaker, including a second nameable sub-concept sitting inside a section that also carries another.
 - __Fold.__ Drop a section that restates the note's own H1, a lone `###` that is its parent's whole content, and a section the note's concept does not contain. Material whose owning concept lives in another note is moved to that note.
 - __Re-level.__ Move a heading up or down rather than leaving it at the level the source showed; depth follows the concept's own structure, never the source's.
-- __Group.__ When the width is above 9, introduce two to four grouping sections that name real parts of the concept and demote their members to `###`. A grouping section carries no prose of its own and so no card block. Never invent a grouping the concept does not have.
+- __Group.__ From a width of 4, introduce one to three grouping sections that name real parts of the concept and demote their members to `###`. A grouping section may carry one short sentence introducing the group and no card block, or no prose at all. Never invent a grouping the concept does not have.
 - __Re-home the prose with the heading.__ A heading that moves takes its prose and its card block; a heading that folds merges them into the parent's. The validator requires a card block under every heading, so no block is left without one or split across two.
 - __Refresh the links.__ Renaming, moving, or removing a heading invalidates every session-entry and appendix anchor that pointed at it. Fix them in the same task (see "Session outline content: sections, not files" in `academic-crud-course-index`).
 
@@ -254,7 +254,7 @@ Use `\[missing\]` for absent values, such as a topic with no cross-references or
 
 Register, heading grammar, and section order come from Wikipedia's Manual of Style (`../academic-writing/SKILL.md`); this section holds only the repository's additions.
 
-- Lowercase headings except proper nouns (use `<!-- check: ignore-next-line[header_style]: proper noun -->`).
+- Lowercase headings, except a proper noun or an acronym, which keeps its capital. `header_style` reads the note's own prose to tell a name from a title, and leans toward reporting: `## Turing's question` and `## IPv4` pass with no comment, while a title-case heading is reported unless the note never writes the word lowercase and capitalizes it mid-sentence.
 - A `##` heading must not repeat the note's own H1 title (MD024). Merge that section's prose and flashcards into the unheaded intro under the H1 instead of renaming the heading.
 - `_italic_` and `__bold__`, not `*`/`**`.
 - Keep KaTeX `$...$` (inline) and `$$...$$` (block) intact on one source line. A `$$...$$` block must share its line with the surrounding prose, never stand alone (`latex_not_standalone`).

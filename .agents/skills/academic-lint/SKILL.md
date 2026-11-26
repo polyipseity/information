@@ -76,18 +76,27 @@ These warnings cannot be suppressed; a directive naming one is reported as `supp
 
 ## Structure rules
 
-Sections nest. A note's _width_ is the largest number of sibling sections that open no subsection of their own, and `flatness = width / 7`.
+Sections nest. A note's _width_ is the largest number of sibling sections that open no subsection of their own, and `flatness = width / 3`.
 
 | Rule | Severity | Fires when |
 | --- | --- | --- |
-| `header_hierarchy_flat` | error | width above 9 |
-| `header_hierarchy_thin` | warning | width 7 to 9 |
-| `header_hierarchy_shallow` | warning | no `###` at all, 120+ lines, width 5 or 6 |
+| `header_hierarchy_thin` | warning | width 4 to 6 |
+| `header_hierarchy_flat` | error | width 7 or more |
+| `header_deep_nesting` | warning | a heading sits four or more levels below the title |
 | `header_generic_article` | error | a section name opens on `the`, `a`, `an`, or a demonstrative |
 | `header_question_form` | warning | a section name is a question |
 | `header_sentence_like` | warning | a section name ends in `.`, runs past nine words, or carries a finite verb |
 
 A section name is a term: `time constant`, not `the time constant`; `hysteresis`, not `the state it keeps`. Renaming a heading breaks every `§` anchor pointing at it, so re-link the course `index.md` in the same edit, or `link_anchor_slug` reports the miss.
+
+A fourth level is not a defect by itself. A `###` that carries sub-concepts of its own should keep them, and the depth then states its reason on the line above the heading:
+
+```markdown
+<!-- check: ignore-next-line[header_deep_nesting]: the questions ask what the unreadable pipeline demands of an explanation -->
+#### four questions
+```
+
+Unjustified depth usually means the file boundary is wrong, so split the note instead of stacking headings.
 
 ## Readability rules
 

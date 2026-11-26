@@ -2087,10 +2087,50 @@ def section_example_heading(ctx: ValidationContext) -> list[ValidationMessage]:
     return errors
 
 
+_NOT_A_NAME_PRECEDERS = frozenset(".!?:;»”'\")]*_-|")
+
+_HEADING_WORD = re.compile(r"[^\W\d_][\w'\u2019-]*", re.UNICODE)
+
+
+def _opens_with_capital_that_is_not_a_name(word: str, text: str) -> bool:
+    """True when a heading's first word is an ordinary word in capitals.
+
+    An acronym or initialism (``PWM``, ``AI``) is capitalized by nature, and a
+    word built with an internal capital or digit (``IPv4``, ``ExifTool``) is a
+    name by construction, so both are accepted.  Any other capitalized first
+    word has to earn it: the note must never write the word lowercase in plain
+    prose, and it must capitalize it somewhere other than a line's or a
+    sentence's start.  Anything short of that is reported, because a warning an
+    author suppresses is cheaper than a title-case heading that slips through.
+    """
+    if len(word) >= 2 and word.isupper():
+        return False
+    if re.search(r"[A-Z0-9]", word[1:]):
+        return False
+    base = re.sub(r"['\u2019]s$", "", word.split("-")[0])
+    if not base or not base[0].isupper():
+        return False
+    prose = "\n".join(line for line in text.splitlines() if not line.startswith("#"))
+    # Code spans, link destinations, and bare URLs hold identifiers rather than
+    # prose: ``numpy`` inside backticks is a package name, not a lowercase use.
+    prose = re.sub(r"`[^`]*`", " ", prose)
+    prose = re.sub(r"\]\([^)]*\)", " ", prose)
+    prose = re.sub(r"<?https?://\S+>?", " ", prose)
+    if re.search(rf"(?<![\w'\u2019]){re.escape(base.lower())}(?![\w])", prose):
+        return True
+    for m in re.finditer(rf"(?<![\w'\u2019]){re.escape(base)}(?![\w])", prose):
+        before = prose[: m.start()].rstrip()
+        if before and before[-1] not in _NOT_A_NAME_PRECEDERS:
+            return False
+    return True
+
+
 @RULE_REGISTRY.register()
 def header_style(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Warn when non-index headers start with an uppercase Latin letter.
-    Non-cased scripts (CJK, etc.) are exempt.
+    """Warn when a non-index header opens on an ordinary capitalized word.
+
+    Proper nouns and acronyms keep their capital, so they pass; non-cased
+    scripts (CJK, etc.) are exempt.
     """
     errors: list[ValidationMessage] = []
     if ctx.path.name.lower() == "index.md":
@@ -2107,8 +2147,11 @@ def header_style(ctx: ValidationContext) -> list[ValidationMessage]:
             # Only apply the rule to cased letters (uppercase/lowercase distinction)
             # Skip if it's a digit, or a non-cased letter (CJK, etc.)
             if char_category in ("Lu", "Ll"):
-                # For cased letters, warn if uppercase
-                if first_char.isupper():
+                word = _HEADING_WORD.match(hdr_text)
+                if first_char.isupper() and (
+                    word is None
+                    or _opens_with_capital_that_is_not_a_name(word.group(0), ctx.text)
+                ):
                     start = m.start()
                     hdr_text_full = m.group(0)
                     line, col, col_end = locate_range(
@@ -2117,7 +2160,7 @@ def header_style(ctx: ValidationContext) -> list[ValidationMessage]:
                     errors.append(
                         ValidationMessage(
                             rule_id="header_style",
-                            msg="header normally start lowercase. Preserve proper nouns and acronyms that genuinely require capitalization (for example PWM, LDR, IR, XOR, and XNOR); suppress this rule for those cases instead of lowercasing them. Do **not** suppress it for ordinary section titles.",
+                            msg="header normally starts lowercase; proper nouns and acronyms keep their capital and need no suppression. Write an ordinary title in lowercase.",
                             severity=Severity.WARNING,
                             line=line,
                             col=col,
@@ -2185,11 +2228,14 @@ _HEADING_FINITE_VERB_RE = re.compile(
     re.IGNORECASE,
 )
 
-"""Sections a reader scans before reaching the next level, comfortably."""
-_COMFORTABLE_WIDTH = 7
+"""Sections a reader takes in before reaching the next level, comfortably."""
+_COMFORTABLE_WIDTH = 3
+
+"""Fewest section-less siblings worth one grouping section."""
+_MINIMUM_WIDTH = 4
 
 """Widest section run a note may keep without nesting anything."""
-_MAXIMUM_WIDTH = 9
+_MAXIMUM_WIDTH = 6
 
 
 def _heading_entries(
@@ -2308,7 +2354,7 @@ def _hierarchy_message(
 
 @RULE_REGISTRY.register()
 def header_hierarchy_flat(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Error when a note lists more than nine section-less siblings."""
+    """Error when a note lists seven or more section-less siblings."""
     if not is_topic_note(ctx):
         return []
     entries = _heading_entries(ctx)
@@ -2323,21 +2369,20 @@ def header_hierarchy_flat(ctx: ValidationContext) -> list[ValidationMessage]:
         width,
         owner,
         (
-            "Group these sections under a few headings that name real parts of "
-            "the concept, demote the members to '###', or merge the ones that "
-            "say the same thing."
+            "Group these sections under headings that name real parts of the "
+            "concept, or demote the members to '###'."
         ),
     )
 
 
 @RULE_REGISTRY.register()
 def header_hierarchy_thin(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Warn when a note sits at the edge of the section-width limit."""
+    """Warn when four to six section-less siblings sit side by side."""
     if not is_topic_note(ctx):
         return []
     entries = _heading_entries(ctx)
     width, owner = _widest_terminal_block(entries)
-    if not _COMFORTABLE_WIDTH <= width <= _MAXIMUM_WIDTH:
+    if not _MINIMUM_WIDTH <= width <= _MAXIMUM_WIDTH:
         return []
     return _hierarchy_message(
         ctx,
@@ -2347,37 +2392,8 @@ def header_hierarchy_thin(ctx: ValidationContext) -> list[ValidationMessage]:
         width,
         owner,
         (
-            "Nest the related entries under one grouping section before adding "
-            "another, so the reader scans fewer things at once."
-        ),
-    )
-
-
-@RULE_REGISTRY.register()
-def header_hierarchy_shallow(ctx: ValidationContext) -> list[ValidationMessage]:
-    """Warn when a long note never uses a third heading level."""
-    if not is_topic_note(ctx):
-        return []
-    entries = _heading_entries(ctx)
-    if any(level >= 3 for level, _, _ in entries):
-        return []
-    lines = ctx.text.count("\n") + 1
-    if lines < 120:
-        return []
-    width, owner = _widest_terminal_block(entries)
-    if not 5 <= width <= 6:
-        return []
-    return _hierarchy_message(
-        ctx,
-        "header_hierarchy_shallow",
-        Severity.WARNING,
-        entries,
-        width,
-        owner,
-        (
-            f"The note runs {lines} lines and never uses '###', so nothing below "
-            "the top level exists. Give the sections that carry sub-concepts "
-            "their own third-level headings."
+            "Nest the related entries under one grouping section, so the reader "
+            "scans fewer things at once."
         ),
     )
 

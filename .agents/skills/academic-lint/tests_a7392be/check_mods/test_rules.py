@@ -996,20 +996,76 @@ async def test_index_children_missing_index(tmp_path):
 
 
 def test_header_style_generic():
-    """header_style_rule should emit a warning and clarify suppression.
+    """An ordinary title in capitals is reported, and the message says why."""
 
-    Capitalization is not a mere style preference; proper nouns only may be
-    exempted.  The message should mention "proper noun" to guide authors."""
-
-    txt = "## BadHeader\n"
+    txt = "# topic\n\nThe topic is ordinary here.\n\n## Overview\n\nText.\n"
     ctx = make_ctx(txt, path=Path("/tmp/file.md"))
     msgs = header_style(ctx)
     assert msgs
     assert msgs[0].severity == Severity.WARNING
     assert "lowercase" in msgs[0].msg
     assert "proper nouns" in msgs[0].msg
-    assert "suppress" in msgs[0].msg
-    assert "PWM" in msgs[0].msg
+
+
+def test_header_style_accepts_a_proper_noun():
+    """A name keeps its capital, and needs no suppression comment."""
+
+    txt = (
+        "# artificial intelligence\n\n"
+        "Alan Turing's 1950 paper asked whether machines can think.\n\n"
+        "## Turing's question\n\nThe paper asked it.\n"
+    )
+    ctx = make_ctx(txt, path=Path("/tmp/file.md"))
+    assert not header_style(ctx)
+
+
+def test_header_style_accepts_an_acronym():
+    """An initialism is capitalised by nature."""
+
+    txt = "# index\n\nThe PWM drives the motor.\n\n## PWM\n\nDuty cycle.\n"
+    ctx = make_ctx(txt, path=Path("/tmp/topic.md"))
+    assert not header_style(ctx)
+
+
+def test_header_style_reports_a_name_the_note_also_writes_lowercase():
+    """A word the note writes lowercase in prose is an ordinary title.
+
+    The rule prefers a report it turns out not to need over a title-case
+    heading that slips through, so a lowercase prose use outweighs a
+    capitalized one.
+    """
+
+    txt = (
+        "# prolog\n\n"
+        "Prolog matches rules against facts, and a prolog program is short.\n\n"
+        "## Prolog\n\nRules and facts.\n"
+    )
+    ctx = make_ctx(txt, path=Path("/tmp/topic.md"))
+    assert header_style(ctx)
+
+
+def test_header_style_keeps_an_acronym_used_lowercase_as_a_word():
+    """`PLUS` stays an acronym even when `plus` is an ordinary word beside it."""
+
+    txt = "# index\n\nTwo plus two, and the PLUS model of ethics.\n\n## PLUS model\n\nFour checks.\n"
+    ctx = make_ctx(txt, path=Path("/tmp/topic.md"))
+    assert not header_style(ctx)
+
+
+def test_header_style_ignores_an_identifier_inside_a_code_span():
+    """A package name in backticks is not a lowercase prose use of it."""
+
+    txt = "# numpy\n\nRun `numpy` to start.\n\n## NumPy\n\nArrays.\n"
+    ctx = make_ctx(txt, path=Path("/tmp/topic.md"))
+    assert not header_style(ctx)
+
+
+def test_header_style_reports_a_word_the_note_only_opens_sentences_with():
+    """A capitalised common word is still a title, even mid-note."""
+
+    txt = "# topic\n\nMeasurement follows.\n\n## Measurement\n\nText.\n"
+    ctx = make_ctx(txt, path=Path("/tmp/topic.md"))
+    assert header_style(ctx)
 
 
 def test_header_flashcard_presence_applies_to_all_levels():
