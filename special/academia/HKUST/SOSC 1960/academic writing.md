@@ -19,7 +19,9 @@ Flashcards for this section are as follows:
 - what marks coursework besides being right ::@:: The work is the writer's own, the ideas are understood well enough to use, and the argument is one the reader can follow.
 - what a fact in the wrong shape gets ::@:: It loses the marks.
 
-## originality
+## own work and ideas
+
+### originality
 
 An essay has to sound like the person who wrote it: their own voice, structure, logic, and ideas. Anything borrowed from elsewhere gets a citation. The opposite failure is leaning on the source so hard that the writer re-tells, re-orders, or reviews it rather than arguing with it.
 
@@ -31,7 +33,7 @@ Flashcards for this section are as follows:
 - what happens to anything borrowed ::@:: It gets a citation.
 - what originality rules out ::@:: Leaning on the source so hard that the writer re-tells, re-orders, or reviews it instead of arguing with it.
 
-## integration of ideas
+### integration of ideas
 
 The essay names the theories and concepts it uses, then works them into examples. An example is not decoration. It carries the reasoning and shows how the finding applies.
 
@@ -42,7 +44,9 @@ Flashcards for this section are as follows:
 - what an essay does with the theories and concepts it uses ::@:: It names them, then works them into examples.
 - why an example is not decoration ::@:: It carries the reasoning and shows how the finding applies.
 
-## paragraphing
+## shape of the answer
+
+### paragraphing
 
 One paragraph carries one step of the argument. Set the story as one block, then break it up. Only the break positions change. A reader can follow the broken version, not the unbroken one.
 
@@ -54,7 +58,7 @@ Flashcards for this section are as follows:
 - what changes when the same story is paragraphed ::@:: Only the positions of the breaks.
 - which version a reader can follow ::@:: The version split into paragraphs.
 
-## clarity and simplicity
+### clarity and simplicity
 
 Answer the question and nothing else. Name the theory or concept you apply. Cut whatever does not serve the question. Do not spell out a definition the reader already has. Restating what experimental research or the scientific method is spends words the answer never gets back. Check who wrote a source before repeating it. A careers blog listing the benefits of listening to music while studying is not a study. It answers few essay questions.
 
@@ -69,7 +73,7 @@ Flashcards for this section are as follows:
 - what is checked before a source is repeated ::@:: Who wrote it.
 - an irrelevant and unreliable source ::@:: A careers blog listing the benefits of listening to music while studying, which answers few essay questions and is not a study.
 
-## tables and figures
+### tables and figures
 
 A graph, chart, or table shows an abstract idea prose handles badly. Put the picture where the description would have gone. A yoga photograph says at a glance what words need a sentence for: leg raised, head back, feet drawn towards the head, hands holding the body up.
 

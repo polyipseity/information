@@ -22,11 +22,13 @@ Flashcards for this section are as follows:
 - what the test measured ::@:: Albert Bandura measured what a child learns by watching another person.
 - the behaviour chosen ::@:: Albert Bandura chose aggression as the behaviour to test.
 - the prevailing belief ::@:: Most people believed watching violence works off the urge to commit it and leaves the viewer calmer.
-- the result ::@:: Children in a 1961 experiment hit a doll after watching an adult hit it, the opposite of what almost everyone expected.
+- the result ::@:: Children in a 1961 experiment hit a doll after watching an adult hit it, the opposite of what almost everyone expected, and the study is still read for that.
 - observational learning ::@:: A child copying an act the child has only seen.
 - why it became the standard research ethics case ::@:: The children were too young to consent.
 
-## procedure
+## design and replications
+
+### procedure
 
 Children aged three to five sat in a room with an adult and a pile of toys, including a large inflatable Bobo doll. A minute in, the adult attacked the doll for roughly ten minutes: mallet blows, kicks, nonstop shouting. The child was left alone with the same toys.
 
@@ -49,7 +51,7 @@ Flashcards for this section are as follows:
 - what was never part of the arrangement ::@:: Nobody rewarded a child for imitating, so reinforcement cannot explain the copying.
 - the contrast group ::@:: Children who watched an adult play gently played calmly and showed no aggression.
 
-## vicarious reinforcement
+### vicarious reinforcement
 
 In the follow-up, children who saw the model punished for its aggression were less aggressive afterwards. The consequence landed on the model, not on the learner, and the learner changed anyway. Seeing who took the punishment and what it cost was enough. A consequence the learner never receives still changes the learner's behaviour, which is __vicarious reinforcement__.
 
@@ -71,7 +73,9 @@ Flashcards for this section are as follows:
 - what is still argued over ::@:: Researchers still argue over what the finding means for media and behaviour.
 - what the study opened ::@:: Nobody disputes that the study opened the area.
 
-## criticism
+## criticism and legacy
+
+### criticism
 
 Critics said the study trained children toward aggression: it showed children a behaviour at length, then measured how much they picked up. The ethical objection has two parts: what happens to participants who cannot consent for themselves, and who reviews a study before it runs. Both appear under [ethical guidelines](research%20ethics.md).
 
@@ -85,8 +89,9 @@ Flashcards for this section are as follows:
 - the specific criticism ::@:: The study showed children a behaviour at length and then measured how much of it they had picked up.
 - the general ethical question ::@:: Two questions follow: what happens to participants who cannot consent for themselves, and who reviews a study before it runs.
 - what came of the criticism ::@:: A study showing an adult model harm a child now faces review before it begins, not after its data.
+- what the criticism did not do ::@:: It did not remove the study from the field.
 
-## theoretical impact
+### theoretical impact
 
 Copying what a child has watched needs no stimulus and no habit. The child remembers, decides it is acceptable, and acts on a representation. Learning of that shape happens inside a person, not between a stimulus and a reflex. That was the first shift, from pure behaviorism to cognitive psychology.
 

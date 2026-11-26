@@ -60,7 +60,9 @@ Flashcards for this section are as follows:
 - how many bad experiences a fear of heights needs ::@:: One.
 - what a phobia built on an ancestral threat is ::@:: The same phenomenon as an aversion built on a bad meal.
 
-## evolutionary argument
+## competing accounts
+
+### evolutionary argument
 
 An organism that feared faster than its neighbours survived and reproduced more often. The predisposition that sped the learning was inherited, not acquired.
 
@@ -86,7 +88,7 @@ Flashcards for this section are as follows:
 - how far the argument reaches ::@:: The past, not the present.
 - what makes it checkable rather than only a story ::@:: It predicts where fears should be common, and that can be tested against the fears people actually have.
 
-## equipotentiality and the alternatives
+### equipotentiality and the alternatives
 
 Equipotentiality is the behaviourist assumption that the same principles of learning and conditioning apply to every stimulus and every response. A tuning fork and a mushroom are both learned the same way. Preparedness denies it: some associations form more easily than the assumption allows, for reasons inside the organism.
 

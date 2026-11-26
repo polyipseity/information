@@ -1,0 +1,36 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 620' width='1000' height='620'>
+<rect width='1000' height='620' fill='#ffffff'/>
+<text x='196' y='32' font-family='Helvetica, Arial, sans-serif' font-size='12' font-style='normal' font-weight='normal' text-anchor='start' fill='#1a1a1a'>left visual field</text>
+<text x='804' y='32' font-family='Helvetica, Arial, sans-serif' font-size='12' font-style='normal' font-weight='normal' text-anchor='end' fill='#1a1a1a'>right visual field</text>
+<rect x='190' y='44' width='620' height='72' rx='4' fill='#e8eef7' stroke='#1f3864' stroke-width='2'/>
+<text x='300' y='88' font-family='Helvetica, Arial, sans-serif' font-size='28' font-style='normal' font-weight='bold' text-anchor='middle' fill='#1f3864'>HAT</text>
+<text x='700' y='88' font-family='Helvetica, Arial, sans-serif' font-size='28' font-style='normal' font-weight='bold' text-anchor='middle' fill='#1f3864'>BAND</text>
+<line x1='500' y1='64' x2='500' y2='96' stroke='#1f3864' stroke-width='2.4'/><line x1='480' y1='80' x2='520' y2='80' stroke='#1f3864' stroke-width='2.4'/>
+<path d='M 722 206 L 688 284 L 722 246 Z' fill='#ffffff' stroke='#1f3864' stroke-width='2'/>
+<rect x='720' y='170' width='255' height='80' rx='14' fill='#ffffff' stroke='#1f3864' stroke-width='2'/>
+<text x='847' y='222' font-family='Helvetica, Arial, sans-serif' font-size='26' font-style='normal' font-weight='bold' text-anchor='middle' fill='#1f3864'>BAND</text>
+<text x='847' y='276' font-family='Helvetica, Arial, sans-serif' font-size='13' font-style='normal' font-weight='normal' text-anchor='middle' fill='#5a5a5a'>spoken aloud</text>
+<line x1='368' y1='492' x2='205' y2='355' stroke='#1f3864' stroke-width='24' stroke-linecap='round'/>
+<line x1='368' y1='492' x2='205' y2='355' stroke='#ffffff' stroke-width='19' stroke-linecap='round'/>
+<rect x='320' y='468' width='360' height='62' rx='26' fill='#ffffff' stroke='#1f3864' stroke-width='2'/>
+<text x='500' y='506' font-family='Helvetica, Arial, sans-serif' font-size='12' font-style='normal' font-weight='normal' text-anchor='middle' fill='#5a5a5a'>patient, from above</text>
+<circle cx='205' cy='355' r='14' fill='#ffffff' stroke='#1f3864' stroke-width='2'/>
+<ellipse cx='500' cy='300' rx='190' ry='168' fill='#ffffff' stroke='#1f3864' stroke-width='2'/>
+<ellipse cx='416' cy='300' rx='84' ry='128' fill='#e8eef7' stroke='#1f3864' stroke-width='2'/>
+<text x='416' y='296' font-family='Helvetica, Arial, sans-serif' font-size='13' font-style='normal' font-weight='bold' text-anchor='middle' fill='#1a1a1a'>left hemisphere</text>
+<text x='416' y='318' font-family='Helvetica, Arial, sans-serif' font-size='12' font-style='normal' font-weight='normal' text-anchor='middle' fill='#5a5a5a'>speaks</text>
+<ellipse cx='584' cy='300' rx='84' ry='128' fill='#e8eef7' stroke='#1f3864' stroke-width='2'/>
+<text x='584' y='296' font-family='Helvetica, Arial, sans-serif' font-size='13' font-style='normal' font-weight='bold' text-anchor='middle' fill='#1a1a1a'>right hemisphere</text>
+<text x='584' y='318' font-family='Helvetica, Arial, sans-serif' font-size='12' font-style='normal' font-weight='normal' text-anchor='middle' fill='#5a5a5a'>does not speak</text>
+<line x1='500' y1='232' x2='500' y2='284' stroke='#1f3864' stroke-width='12' stroke-linecap='round'/><line x1='500' y1='316' x2='500' y2='368' stroke='#1f3864' stroke-width='12' stroke-linecap='round'/>
+<line x1='487' y1='286' x2='513' y2='314' stroke='#c2410c' stroke-width='3.5'/><line x1='513' y1='286' x2='487' y2='314' stroke='#c2410c' stroke-width='3.5'/>
+<text x='500' y='450' font-family='Helvetica, Arial, sans-serif' font-size='12' font-style='italic' font-weight='normal' text-anchor='middle' fill='#c2410c'>corpus callosum, cut</text>
+<defs><marker id='field' viewBox='0 0 10 10' refX='9' refY='5' markerWidth='4' markerHeight='4' orient='auto-start-reverse'><path d='M 0 0 L 10 5 L 0 10 z' fill='#5a5a5a'/></marker></defs>
+<path d='M 320 120 L 556 180' fill='none' stroke='#5a5a5a' stroke-width='1.6' stroke-dasharray='6 5' marker-end='url(#field)'/>
+<path d='M 680 120 L 444 180' fill='none' stroke='#5a5a5a' stroke-width='1.6' stroke-dasharray='6 5' marker-end='url(#field)'/>
+<text x='178' y='350' font-family='Helvetica, Arial, sans-serif' font-size='14' font-style='normal' font-weight='bold' text-anchor='end' fill='#1a1a1a'>left hand</text>
+<text x='178' y='370' font-family='Helvetica, Arial, sans-serif' font-size='12' font-style='normal' font-weight='normal' text-anchor='end' fill='#5a5a5a'>points to HAT</text>
+<path d='M 205 339 L 285 128' fill='none' stroke='#5a5a5a' stroke-width='1.6' stroke-dasharray='6 5' marker-end='url(#field)'/>
+<text x='500' y='570' font-family='Helvetica, Arial, sans-serif' font-size='14' font-style='normal' font-weight='normal' text-anchor='middle' fill='#1f3864'>the left field reaches the right hemisphere, which cannot speak but moves the left hand,</text>
+<text x='500' y='594' font-family='Helvetica, Arial, sans-serif' font-size='14' font-style='normal' font-weight='normal' text-anchor='middle' fill='#1f3864'>and the right field reaches the left hemisphere, which speaks</text>
+</svg>

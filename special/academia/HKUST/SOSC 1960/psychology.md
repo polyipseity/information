@@ -50,6 +50,8 @@ Flashcards for this section are as follows:
 - who founded psychoanalysis ::@:: Sigmund Freud.
 - what psychoanalysis is ::@:: A clinical method that treats mental health conditions by exploring the unconscious mind.
 
+## behaviorism and the cognitive revolution
+
 ### behaviorism
 
 From the early 1900s until the mid-twentieth century, behaviorism dominated psychology. Behaviorists were reacting against depth psychology, which often made predictions that no experiment could test. Only observable behavior could be measured. They dropped thoughts and other internal processes as explanations. The mind became a black box. Its workings were inferred from the input and the output.
@@ -103,7 +105,9 @@ Flashcards for this section are as follows:
 - the field that emerged from the cognitive revolution ::@:: Cognitive science grew out of that interdisciplinary movement.
 - the practical outcome of the cognitive revolution for the rest of psychology ::@:: The field now uses experiments that infer a process from behavior, and imaging that watches the process itself.
 
-## psychology as a science
+## scope of psychology
+
+### psychology as a science
 
 Many people remain skeptical that psychology is really a science. Depression, intelligence, and prejudice are not directly observable the way ocean tides or the speed of light are. Researchers work from behavior instead, as they have from the beginning. A friendly, outgoing person is read as one kind of person, and a shy, withdrawn one as another. Behavioral measures and rating scales turn thoughts and feelings into something measurable. Personality and other mental attributes are inferred from them. Educators use the same approach for academic performance. Economists use it for quality of life.
 
@@ -148,7 +152,7 @@ Flashcards for this section are as follows:
 - parts of a scientific approach to psychology that cover collecting evidence ::@:: Research methods, measuring mind and behavior, and recruiting subjects and collecting data.
 - parts of a scientific approach to psychology that cover interpreting evidence ::@:: Statistical analysis, and critical thinking and argumentation.
 
-## subfields of psychology
+### subfields of psychology
 
 Traditionally each subfield studies a different cognitive capacity. All of them use much the same methods. Researchers group them into five sets. _Biological_ psychology covers biopsychology and neuroscience, sensation, and consciousness. _Cognitive_ psychology covers perception, thinking, intelligence, and memory. _Developmental_ psychology covers learning and lifespan development. _Social and personality_ psychology covers social behavior, personality, emotion, and motivation. _Mental and physical health_ covers abnormal psychology, therapies, and stress, lifestyle, and health.
 
@@ -164,7 +168,7 @@ Flashcards for this section are as follows:
 - subfields of social and personality psychology ::@:: Social and personality psychology covers social behavior, personality, emotion, and motivation.
 - subfields of mental and physical health ::@:: Mental and physical health covers abnormal psychology, therapies, and stress, lifestyle, and health.
 
-## levels of organization
+### levels of organization
 
 A newer approach studies different cognitive capacities at several levels of organization at once. The levels run from group and individual behavior down to brain systems and neural networks. The nervous system runs through those levels as molecules, synapses, neurons, circuits, maps, systems, and the brain as a whole. Gene and protein networks sit at the level of molecules. Synaptic networks sit at the level of synapses. Neuronal networks cover neurons, circuits, and maps. Whole-brain networks cover systems and the brain.
 
@@ -198,7 +202,9 @@ Flashcards for this section are as follows:
 - the scale of social networks ::@:: Above a metre, over minutes to years.
 - why the level-of-organization approach requires interdisciplinary effort ::@:: No single level has a method that reaches the others.
 
-## measurement and modeling tools
+## research methods
+
+### measurement and modeling tools
 
 No single measurement settles a question. Psychological science therefore aims at [converging evidence](converging%20evidence.md) from multiple methodologies. Psychological work runs on four routes. They are measuring behavior, looking at the living brain, looking at the deficits that follow brain damage, and building computational models. That note sets out the spatial and temporal trade-off in each.
 
@@ -223,7 +229,7 @@ Flashcards for this section are as follows:
 - how the face recognition model scores each region ::@:: A Gaussian mask confines attention to the region, and a shared classifier scores it.
 - how many fixations the face recognition model scores ::@:: Three fixations, whose losses are combined by their maximum into a multi-task loss.
 
-## research process
+### research process
 
 A study begins with an idea and a design. Researchers submit the design to the institutional review board (IRB) before they collect any data. They collect the data and analyze it. Other researchers assess the results through peer review before the work appears.
 
@@ -237,7 +243,9 @@ Flashcards for this section are as follows:
 - the two steps that produce the results of a study ::@:: Researchers collect the data and then analyze it.
 - what follows data analysis ::@:: Peer review, where other researchers assess the work before it appears.
 
-## applications of psychological science
+## applied psychology
+
+### applications of psychological science
 
 Psychological science produces interventions that help people live better lives. A growing body of research separates the therapies that work from those that do not. Cognitive behavioral therapy works for depression and anxiety disorders. Other kinds of therapy turn out to be harmful on average.
 
@@ -339,6 +347,8 @@ Flashcards for this section are as follows:
 - women's share of new psychology doctorates and of early-career psychologists ::@:: 76 percent and 74 percent.
 - women's share of the psychology workforce ::@:: 53 percent.
 - how the share of psychology PhDs awarded to men changed between 1975 and 2008 ::@:: It fell from nearly 70 percent to less than 30 percent.
+
+## applied topics
 
 ### aging and dementia
 

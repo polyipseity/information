@@ -18,7 +18,7 @@ Four question sets: the case for studying the brain, the cerebral hemispheres, s
 
 Flashcards for this section are as follows:
 
-- the four question sets the session worked through ::@:: The case for studying the brain, the cerebral hemispheres, split-brain patients, and neuroimaging.
+- the four question sets on the brain ::@:: The case for studying the brain, the cerebral hemispheres, split-brain patients, and neuroimaging.
 
 ## why the brain
 
@@ -58,16 +58,20 @@ The last pair is not about position. Ipsilateral names two things on the same si
 
 Flashcards for this section are as follows:
 
-- what the cognitive revolution was ::@:: The shift from about 1956 in which psychology put internal processes back into its explanations after half a century of ruling them out.
-- the approach the cognitive revolution took ::@:: Understanding the mind in terms of internal representations and information processing.
+- what the cognitive revolution was ::@:: The shift from about 1956 in which psychology put internal processes back into its explanations after half a century of ruling them out, and took the mind to be internal representations and information processing.
 - the approaches the cognitive revolution developed ::@:: Information-processing accounts, computational models, psycholinguistics after Noam Chomsky, and artificial intelligence after Herbert Simon and Allen Newell.
-- how cognitive neuroscience came out of the two ::@:: The cognitive revolution put the mind back as information processing but said nothing about where the work happened, and imaging made mental activity watchable instead of only inferable.
+- how behaviorism had treated the mind ::@:: It had removed the mind from the body.
+- how cognitive neuroscience came out of behaviorism and the cognitive revolution ::@:: The revolution put the mind back as information processing but said nothing about where the work happened, and imaging made mental activity watchable instead of only inferable, so which brain part does what became askable.
 - what the structure-process trade-off is ::@:: Two different kinds of information processing can produce the same result, so the result alone cannot say which one produced it.
 - why the trade-off brought cognitive neuroscience into being ::@:: The deciding evidence has to come from outside the behaviour, and knowledge of the brain supplies it.
 - the three major parts of the mammalian brain ::@:: The forebrain, the midbrain, and the hindbrain.
-- what makes those three parts complex ::@:: The same structures also carry embryological names, and a third grouping, the brain stem, cuts across both.
+- why naming the forebrain, midbrain, and hindbrain is complex ::@:: The same structures also carry embryological names, telencephalon through myelencephalon, and a third grouping, the brain stem, cuts across both by claiming the midbrain, the pons, and the medulla.
 - the three standard anatomical planes ::@:: Sagittal dividing left from right, coronal dividing front from back, and transverse dividing top from bottom.
-- what medial and contralateral name ::@:: Medial names the middle of the body and contralateral the opposite side. The left hemisphere controls the right side of the body.
+- what medial, lateral, and contralateral name ::@:: Medial names the middle of the body, lateral the side, and contralateral two things on opposite sides.
+- what anterior and posterior name ::@:: The head end and the tail end.
+- what superior and inferior name ::@:: The head end and the feet end.
+- what ipsilateral names ::@:: Two things on the same side of the body.
+- why almost everything crossing is described as contralateral ::@:: The left hemisphere controls the right side of the body.
 
 ## the cerebral hemispheres
 
@@ -103,17 +107,18 @@ The [visual pathway](../../split-brain.md#visual%20pathway) runs from the retina
 
 Flashcards for this section are as follows:
 
-- what gray matter contains ::@:: The cell bodies and dendrites, the parts that receive and integrate.
+- what gray matter contains, and where it sits ::@:: Cell bodies and dendrites, the parts that receive and integrate, on the outside of the brain.
 - what white matter consists of ::@:: Mostly axons, which are white because they are wrapped in myelin.
 - whether the connections between the hemispheres are white or gray matter ::@:: White matter, since the corpus callosum is a bundle of myelinated axons.
-- what subcortical structures are ::@:: Structures that lie beneath the cerebral cortex and above the brain stem.
+- what subcortical structures are ::@:: Structures that lie beneath the cerebral cortex and above the brain stem; the cerebellum is one, and it belongs in the hindbrain as well.
 - what the thalamus does ::@:: It is the switching station every sense but smell passes through on the way to the cortex.
 - what the hippocampus does ::@:: It takes new memories in and moves them to long-term storage.
 - what the amygdala does ::@:: It processes and recognises emotion, fear first among them.
 - the work the basal ganglia carry ::@:: Voluntary motor control, habit formation, emotion, and reward processing.
-- the four parts of the cerebral cortex ::@:: The frontal, parietal, occipital, and temporal lobes.
+- the four lobes of the cerebral cortex and their work ::@:: The frontal lobe carries reasoning, planning, speech, movement, emotion, and problem solving, and holds the motor cortex; the parietal lobe carries visuospatial attention, body sensations, perception, and orientation, and holds the somatosensory cortex; the occipital lobe carries visual processing; the temporal lobe carries auditory processing, speech, visual recognition, and memory.
 - what phrenology claimed ::@:: That the shape of the skull reports the size of the brain tissue beneath it, and so the strength of the faculty there.
-- phrenology's lasting contribution ::@:: The doctrine of cerebral localisation, that different regions do different jobs.
+- phrenology's lasting contribution ::@:: The doctrine of cerebral localisation, that different regions do different jobs, tested since on the brain tissue rather than on the bone above it.
+- which structures the visual pathway runs through before the optic chiasm ::@:: The retina and the optic nerve.
 - where the optic chiasm puts the two halves of each retina ::@:: The nasal half, the half nearer the nose, crosses to the far side, and the temporal half, the half nearer the temple, stays on its own side.
 - where the visual pathway ends ::@:: The primary visual cortex in the occipital lobe, after the lateral geniculate nucleus, a relay station of the thalamus, and the optic radiations.
 
@@ -151,15 +156,16 @@ An Arcimboldo image is a picture built out of fruits and vegetables that reads a
 
 Flashcards for this section are as follows:
 
-- the medical reason for split-brain surgery ::@:: Drug-resistant epilepsy, since cutting the corpus callosum stops the epileptic discharge from spreading between hemispheres.
+- the medical reason for split-brain surgery, and what it left unchanged ::@:: Drug-resistant epilepsy, since cutting the corpus callosum stops the epileptic discharge from spreading between hemispheres, with personality and intelligence unchanged.
+- why a seizure spreads through the brain ::@:: A healthy brain keeps the timing of activity in different regions out of step, and a seizure puts it into step.
 - how a stimulus is sent to one hemisphere alone ::@:: The patient fixes on a point, and the image is flashed briefly on one side of it, for less time than an eye movement takes.
 - why a stimulus flashed left of fixation reaches only the right hemisphere ::@:: The optic chiasm partially crosses, so the left visual field lands on the right hemisphere, and the cut callosum keeps it there.
 - how the two hemispheres differ in language ::@:: The language areas are lateralised to the left, so the right hemisphere acts on what it is shown without being able to say what it was.
-- what the left hand does while the left hemisphere gives its answer ::@:: It points at or reaches for the object that matches what it was shown, as the patient says something else aloud.
-- how the left hemisphere explains an act the right hemisphere initiated ::@:: It builds a story after the fact, such as the claw going with the chicken and a shovel being needed for the shed.
-- what the patient's hand does, and what the patient says, in the claw and shovel trial ::@:: The hand points to a shovel and the patient says chicken.
+- what the left hand does while the left hemisphere gives its spoken answer ::@:: It points at or reaches for the object that matches what was shown, as the patient says something else aloud; in the claw and shovel trial the hand points to the shovel and the patient says chicken.
+- how the left hemisphere explains an act the right hemisphere initiated ::@:: With a claw in one visual field and a snow scene in the other, it builds a story after the fact, the claw going with the chicken and a shovel needed for the shed, and offers it without any sign that it is a guess.
 - what an Arcimboldo image is ::@:: A picture built out of fruits and vegetables that reads as a face.
 - what each hemisphere reports about an Arcimboldo image ::@:: The right hemisphere reports a face and the left reports the fruits.
+- whether one hemisphere of a split-brain patient can be told what the other saw ::@:: No; neither can be told what the other saw.
 
 ## neuroimaging
 
@@ -195,14 +201,16 @@ Flashcards for this section are as follows:
 
 Flashcards for this section are as follows:
 
-- the difference between electroencephalography and functional magnetic resonance imaging ::@:: Electroencephalography has a great temporal and a poor spatial resolution, and functional magnetic resonance imaging has a great spatial and a poor temporal resolution.
-- what makes electroencephalography's spatial resolution poor ::@:: It reads a voltage that started elsewhere and reached the scalp.
-- what makes functional magnetic resonance imaging's temporal resolution poor ::@:: It reads the oxygen in the blood, and blood takes seconds to arrive.
-- what magnetic resonance imaging records ::@:: The structure of the brain, the tissue itself, so it shows what is there.
-- the other structure method taught alongside magnetic resonance imaging ::@:: Computerized axial tomography.
-- what functional magnetic resonance imaging records ::@:: Changes in oxygen levels in blood flowing to the brain during a task, so it shows what was working.
+- how the resolutions of electroencephalography and functional magnetic resonance imaging differ, and why ::@:: Electroencephalography has a great temporal and a poor spatial resolution because it reads a voltage that started elsewhere and reached the scalp; functional magnetic resonance imaging has a great spatial and a poor temporal resolution because it reads the oxygen in the blood, and blood takes seconds to arrive.
+- how magnetic resonance imaging and functional magnetic resonance imaging differ ::@:: They use the same machine; magnetic resonance imaging records the structure of the brain, the tissue itself, so it shows what is there, and functional magnetic resonance imaging records changes in oxygen levels in blood flowing to the brain during a task, so it shows what was working.
+- the structure method besides magnetic resonance imaging ::@:: Computerized axial tomography.
 - what diffuse optical imaging does ::@:: It directs infrared light into the brain and measures the light that comes back out.
+- what makes the light in diffuse optical imaging change on its way through the brain ::@:: Oxygenated blood and active neurons.
 - how deep diffuse optical imaging reaches ::@:: One to three centimetres from the scalp, so only the superficial layers of the cortex.
-- what transcranial magnetic stimulation applies ::@:: A brief magnetic pulse to the head that induces a weak electrical current in the brain.
+- the temporal resolution of diffuse optical imaging set up to read blood oxygenation ::@:: Low, comparable to functional magnetic resonance imaging and positron emission tomography.
+- the resolution of diffuse optical imaging set up to detect active neurons directly ::@:: Both a high spatial and a high temporal resolution.
+- what transcranial magnetic stimulation applies, and what it does ::@:: A brief magnetic pulse to the head that induces a weak electrical current in the brain and interferes with how neurons communicate.
 - how transcranial magnetic stimulation is used in research ::@:: It interrupts a region at a chosen moment and the researcher reads what the person can no longer do.
-- how transcranial direct-current stimulation differs from transcranial magnetic stimulation ::@:: It uses the electrical current directly rather than inducing it with magnetic pulses, at a low strength for longer than a pulse lasts.
+- the temporal resolution of transcranial magnetic stimulation ::@:: Good, because a pulse interrupts a region at a chosen moment.
+- how deep transcranial magnetic stimulation reaches ::@:: Only the surface of the cortex.
+- how transcranial direct-current stimulation differs from transcranial magnetic stimulation ::@:: It passes the electrical current directly through small electrodes on the skull rather than inducing it with magnetic pulses; the current is no stronger than an AA battery and lasts longer than a pulse.

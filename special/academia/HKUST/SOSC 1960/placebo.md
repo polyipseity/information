@@ -25,8 +25,9 @@ Flashcards for this section are as follows:
 - when doctors used inert treatments ::@:: From the 1700s, when nothing better was available or a patient was thought ill.
 - why the effect complicates testing a real treatment ::@:: Because it is measurable and partly explicable.
 
-<!-- check: ignore-next-line[header_style]: Trivaricaine is a proper noun -->
-## Trivaricaine study
+## evidence and mechanism
+
+### Trivaricaine study
 
 In 1996, 56 volunteers tested a painkiller called Trivaricaine, which was a placebo: it contained nothing that eases pain. Each person had it spread on one index finger and left the other untouched. Both fingers went into painful clamps. The treated finger hurt less, which should not have happened. The treatment looked and felt real, so the relief it produced was the placebo effect.
 
@@ -41,7 +42,7 @@ Flashcards for this section are as follows:
 - the result the participants reported ::@:: The finger covered with the fake painkiller hurt less.
 - what made the treatment convincing ::@:: It looked and felt real.
 
-## proposed mechanisms
+### proposed mechanisms
 
 One account denies the effect is real. It reads the relief as one of several other factors, such as [participant demand](blinded%20experiment.md): participants falsely reporting improvement to please the experimenter. The competing account believes expecting to recover sets off physiological changes that improve symptoms.
 
@@ -59,7 +60,9 @@ Flashcards for this section are as follows:
 - the stress hormone a placebo may lower ::@:: Adrenaline, which slows the harm an ailment does.
 - the state of the question ::@:: Still open: nobody knows which account is right.
 
-## placebo as control
+## use in research
+
+### placebo as control
 
 A placebo has to be convincing to work as a treatment. The same property makes it a good control. One group gets the real pill, the other an identical-looking placebo. A benefit over the placebo counts as evidence the drug works, and only because the placebo exerts an influence of its own. By the 1950s this was standard in clinical trials.
 
@@ -77,7 +80,7 @@ Flashcards for this section are as follows:
 - why placebo controls are used less often now ::@:: Ethical concerns about giving a seriously ill patient no treatment.
 - what is preferred to a placebo control ::@:: A comparison against an existing drug rather than no treatment at all.
 
-## costs
+### costs
 
 The costs fall on the patient and on the research.
 

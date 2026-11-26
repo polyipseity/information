@@ -48,7 +48,9 @@ Flashcards for this section are as follows:
 - the shape of the extinction curve ::@:: The acquisition curve in reverse. The reversal is gradual.
 - ![extinction of a conditioned response: three rows take a bell conditioned to salivation from salivating to nothing as the meat is withheld](attachments/classical_conditioning_extinction.svg) ::@:: The bell alone at the start of extinction, still producing salivation. The same bell trial after trial, producing salivation that fades. Later still, producing nothing.
 
-## spontaneous recovery
+## evidence of competing learning
+
+### spontaneous recovery
 
 A rest with no exposure after extinction is enough to bring the response back. The cue is presented again, with no new pairing and no unconditioned stimulus. Every recovery is real and partial, and a second rest brings it back weaker still.
 
@@ -64,7 +66,7 @@ Flashcards for this section are as follows:
 - what the pattern of spontaneous recovery rules out ::@:: Erasure of the association, since nothing was presented to undo the learning.
 - what spontaneous recovery shows was removed instead ::@:: The cue's power to produce the response, not the association that gave the cue its meaning.
 
-## renewal of an extinguished response
+### renewal of an extinguished response
 
 Change of context is a second route back. An extinguished response can come back when the cue turns up somewhere else. A different room is enough. This is renewal.
 
@@ -79,7 +81,7 @@ Flashcards for this section are as follows:
 - what a change of context does to an extinguished response ::@:: An extinguished conditioned response can return when the cue is presented in a context other than the one in which it was extinguished.
 - the contexts in which renewal is observed ::@:: Any context other than the one in which extinction occurred. A different room is the obvious case.
 - what a renewal establishes about the scope of extinction ::@:: That it is bound to the context in which it occurred, not general. The context carries the inhibition, so a change of context leaves it behind.
-- what extinction in one context amounts to ::@:: Learning that the cue no longer predicts the event here.
+- what extinction in one context amounts to ::@:: Learning that the cue no longer predicts the event in that context.
 - the practical consequence of renewal for a treated phobia ::@:: A phobia treated by exposure in a clinic can return in a setting the treatment never covered.
 
 ## references

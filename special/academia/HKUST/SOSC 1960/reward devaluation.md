@@ -38,7 +38,9 @@ Flashcards for this section are as follows:
 - why a compelling consequence settles nothing ::@:: Once alternatives are equally available, a consequence that is compelling on its own settles nothing.
 - how the choice between acts is settled ::@:: By comparing their consequences, as operant conditioning sets out.
 
-## goal-directed action
+## devaluation test
+
+### goal-directed action
 
 Someone performs a goal-directed action because it still produces something they want, and stops when that outcome is devalued.
 
@@ -48,7 +50,7 @@ Flashcards for this section are as follows:
 
 - goal-directed action ::@:: Someone performs a goal-directed action because it still produces something they want, and stops when that outcome is devalued.
 
-## habit
+### habit
 
 Repeat an action often enough under stable conditions and it becomes a __habit__. The person then runs it without the goal in mind, and the route is the same whatever the outcome is worth.
 

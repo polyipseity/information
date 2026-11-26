@@ -14,6 +14,8 @@ Nothing inside a skull is directly observable. No instrument measures a brain pr
 
 You choose a method because it bears on the question. You do not choose it because it is correct. The question also asks what the other methods say about the same claim.
 
+Each of the four routes into brain and cognition fails in its own way.
+
 ---
 
 Flashcards for this section are as follows:
@@ -25,18 +27,11 @@ Flashcards for this section are as follows:
 - what a finding reported by several methods using different instruments is worth ::@:: It is worth more than the same finding reported twice with one instrument.
 - the question a researcher asks of a method ::@:: Which method bears on the question being asked.
 - what a research question also covers ::@:: What the other methods say about the same claim.
-
-## four routes into brain and cognition
-
-Each of the four routes fails in its own way.
-
----
-
-Flashcards for this section are as follows:
-
 - the routes into brain and cognition ::@:: Measuring behaviour, imaging the living brain, studying deficits after brain damage, and running computational models.
 - how many routes into brain and cognition there are ::@:: There are four.
 - the reason the four routes are worth using together ::@:: Each route fails in a different way, so their agreement carries more weight than any single route.
+
+## observation of an intact participant
 
 ### measuring behaviour
 
@@ -75,6 +70,8 @@ Flashcards for this section are as follows:
 - what imaging gives rather than shows ::@:: A measurement, not a demonstration.
 - what activating a region during a task licenses ::@:: That the region's activity is associated with the task, not that the region produces it.
 - what decides which method to use ::@:: The resolution, invasiveness, and cost that suit the question.
+
+## damage to a component
 
 ### deficits after brain damage
 

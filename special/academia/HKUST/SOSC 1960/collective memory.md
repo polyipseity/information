@@ -9,15 +9,16 @@ tags:
 
 # collective memory
 
-Collective memory is the kind of memory people in a group share, whether family, community, schoolmates, or citizens of a state or a country. World War II is the standard example. Emotion holds such memories together. A shared disaster leaves a whole region feeling shock, sadness, and vulnerability, and the emotionally charged version is the one encoded and handed down.
+Collective memory is memory a group shares: a family, a community, schoolmates, or the citizens of a country. World War II is a memory shared at the scale of a country. A disaster reaches further down: a person who grew up in New Orleans and lived through Hurricane Katrina shares that memory with their family, their community, and their city. Emotion keeps such memories alive: the version of an event that carries feeling is the one encoded and handed down.
 
 ---
 
 Flashcards for this section are as follows:
 
-- what collective memory is ::@:: The kind of memory people in a group share, whether family, community, schoolmates, or citizens of a state or a country.
-- an example of collective memory ::@:: World War II.
-- what keeps a collective memory alive ::@:: Shared emotion: the emotionally charged version of an event is the one encoded and handed down.
+- what collective memory is ::@:: Memory shared by a group: a family, a community, schoolmates, or the citizens of a country.
+- an example of collective memory at the scale of a country ::@:: World War II.
+- who shares the memory of a disaster such as Hurricane Katrina ::@:: The person who lived it, their family, their community, and their city.
+- what keeps a collective memory alive ::@:: Emotion: the version of an event that carries feeling is the one encoded and handed down.
 
 ## references
 

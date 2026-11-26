@@ -53,8 +53,8 @@ arrow that ``operant conditioning.md`` asks a reader to find in the figure.
 The course's rule is that prose is not bent to fit a substitute image, so
 the figure is generated instead.
 
-Two figures were added when the brain unit came through, and both record
-the same kind of empty search:
+The figures added when the brain unit came through record the same kind of
+empty search:
 
 - ``brain_division_naming.svg`` — the nesting of the five embryological
   subdivisions against forebrain, midbrain, and hindbrain, with the brain
@@ -69,6 +69,60 @@ the same kind of empty search:
   a paper on moral judgement and historical surgery PDFs. The only diagram
   of the setup found belongs to the lecture slides, which are course
   material and cannot be reused as a figure.
+- ``split_brain_word_display.svg``: two words, one to each visual field, and
+  the two responses they allow, the left hand pointing out HAT and the word
+  BAND spoken aloud. Searching Commons for "split brain", "split brain
+  experiment", "split brain patient diagram", "split brain hat band",
+  "corpus callosum severed experiment", "hemispheres word hat band", and
+  "word flashed visual field patient" returns scanned journal volumes and
+  unrelated papers, and nothing drawn from this experiment. The one title
+  that matches the name, ``File:Split-Brain Beispiel.svg`` (CC BY-SA 4.0,
+  Tourar), is a computer-cluster diagram: two groups of nodes around a
+  failed node and two schedulers, not a brain, so it is not a match.
+  ``SplitBrainExperiments.jpg``, archived here, draws the patient at the
+  table and leaves the two words out.
+
+A figure added with the artificial intelligence unit, and the four searches behind
+it: ``face_trait_space.svg`` places one schematic face three times in the space
+the two primary trait dimensions span, trustworthiness across and dominance up,
+so that a single trait moves between neighbouring placements. It is generated
+because no drawing of that space exists on Commons. The searches for "Oosterhof
+Todorov face", "face trait dimensions", "trustworthiness dominance face", and
+"social perception face space" return papers on attractiveness, age estimation
+and body perception, plus scanned books, and none of them draws the axes.
+
+``autonomic_nervous_system.svg`` carries the stress unit's paired organ effects.
+Searching Commons for "autonomic nervous system sympathetic parasympathetic"
+returns diagrams of the same subject, among them ``File:Parasympathetic and
+sympathetic.png`` and the German ``File:Das vegetative Nervensystem.png``. The
+note needs one thing from them, the five pairs of opposing effects stated as
+labels, so the figure here states exactly those pairs and nothing else: each
+organ in a box, the sympathetic effect on its left, the parasympathetic effect
+on its right.
+
+The figure for the disciplines closes a search that found only substitutes:
+
+- ``cognitive_science_hexagon.svg`` — the six disciplines at a hexagon's
+  corners, the five hybrid fields inside it, and a ring on psychology and on
+  artificial intelligence. Searching Commons for "cognitive science hexagon"
+  returns ``File:Cognitive Science Hexagon.svg`` and its translations, which
+  draw a picture at each corner beside its name and leave the interior empty, so
+  none of them carries the hybrid fields or the two rings this note needs.
+
+One figure closes a search that found only partly labelled substitutes:
+
+- ``eye_section.svg`` — a horizontal section of the eye with every part the note
+  names labelled, and two rays crossing at the lens to show the inverted image.
+  Searching Commons for "human eye cross section labelled", "eye anatomy diagram",
+  and "eye cross section cornea lens retina" returns
+  ``File:Schematic diagram of the human eye en.svg`` (archived here) and its
+  multilingual siblings, whose left-hand labels are clipped
+  ("Suspensory ligaments of lens", "Ciliary body") and whose cornea, pupil,
+  aqueous humour and iris are unnamed; ``File:Eye-diagram.svg``, which numbers
+  thirty parts with no names; ``File:Three Internal chambers of the Eye.svg``,
+  which names only the vitreous chamber; and ``File:Simple diagram of human eye
+  multilingual.svg``, which numbers every part and names none. None of them
+  labels the parts the note's cards ask about, so the figure is generated.
 
 The helpers are namespaced by their source script (``_c_``, ``_i_``, ``_r_``)
 rather than unified, because the three sets differ in ways that are visible
@@ -103,6 +157,7 @@ STAGE = "#fbd3a6"  # something the organism receives
 OUTCOME = "#e8eef7"  # what the organism does
 ABSENT = "#f2f2f2"  # a stimulus withdrawn, marked with a minus sign
 MARK = "#c2410c"  # the arrow or label that names the relation
+PROTECT = "#1a7f5a"  # the arrow that marks a protective direction
 NODE_FILL = STAGE  # a filled box in a causal diagram
 FONT = "font-family='Helvetica, Arial, sans-serif'"
 
@@ -538,7 +593,7 @@ def _b_text(
     x: float,
     y: float,
     body: str,
-    size: int = 16,
+    size: float = 16,
     anchor: str = "middle",
     fill: str = LABEL,
     style: str = "normal",
@@ -860,7 +915,576 @@ def split_brain_setup() -> str:
     return "\n".join(parts) + "\n"
 
 
+# --- one word to each visual field ----------------------------------------
+
+
+def split_brain_word_display() -> str:
+    """Two words, one to each field, and the two responses they allow: the left
+    hand points out HAT, which only the silent right hemisphere saw, and speech
+    names BAND, which only the left hemisphere saw, because the cut corpus
+    callosum stops either word crossing the midline."""
+    width, height = 1000, 620
+    parts = _b_head(width, height)
+
+    # The field labels sit above the screen, so nothing crowds the space the two
+    # leads and the arm's own lead run through.
+    parts.append(_b_text(196, 32, "left visual field", 12, anchor="start"))
+    parts.append(_b_text(804, 32, "right visual field", 12, anchor="end"))
+    parts.append(
+        f"<rect x='190' y='44' width='620' height='72' rx='4' fill='{OUTCOME}' "
+        f"stroke='{INK}' stroke-width='2'/>"
+    )
+    parts.append(_b_text(300, 88, "HAT", 28, fill=INK, weight="bold"))
+    parts.append(_b_text(700, 88, "BAND", 28, fill=INK, weight="bold"))
+    parts.append(
+        f"<line x1='500' y1='64' x2='500' y2='96' stroke='{INK}' stroke-width='2.4'/>"
+        f"<line x1='480' y1='80' x2='520' y2='80' stroke='{INK}' stroke-width='2.4'/>"
+    )
+
+    # The spoken response, in a bubble whose tail reaches the head from behind.
+    # The tail is drawn before the head, which closes it off.
+    parts.append(
+        f"<path d='M 722 206 L 688 284 L 722 246 Z' fill='#ffffff' "
+        f"stroke='{INK}' stroke-width='2'/>"
+    )
+    parts.append(
+        f"<rect x='720' y='170' width='255' height='80' rx='14' fill='#ffffff' "
+        f"stroke='{INK}' stroke-width='2'/>"
+    )
+    parts.append(_b_text(847, 222, "BAND", 26, fill=INK, weight="bold"))
+    parts.append(_b_text(847, 276, "spoken aloud", 13, fill=MUTED))
+
+    # The patient, seen from above and facing the screen: a torso, the left arm
+    # raised, and the head around the brain.  The arm is an outlined tube, so the
+    # hand reads as its end rather than as a separate mark.
+    parts.append(
+        f"<line x1='368' y1='492' x2='205' y2='355' stroke='{INK}' "
+        "stroke-width='24' stroke-linecap='round'/>"
+    )
+    parts.append(
+        "<line x1='368' y1='492' x2='205' y2='355' stroke='#ffffff' "
+        "stroke-width='19' stroke-linecap='round'/>"
+    )
+    parts.append(
+        f"<rect x='320' y='468' width='360' height='62' rx='26' fill='#ffffff' "
+        f"stroke='{INK}' stroke-width='2'/>"
+    )
+    parts.append(_b_text(500, 506, "patient, from above", 12, fill=MUTED))
+    parts.append(
+        f"<circle cx='205' cy='355' r='14' fill='#ffffff' stroke='{INK}' stroke-width='2'/>"
+    )
+    parts.append(
+        f"<ellipse cx='500' cy='300' rx='190' ry='168' fill='#ffffff' "
+        f"stroke='{INK}' stroke-width='2'/>"
+    )
+
+    # The brain from above: two hemispheres meeting at the midline, with the
+    # callosum running along it and cut through, marked the way the setup figure
+    # marks it.
+    for cx, body, note in (
+        (416, "left hemisphere", "speaks"),
+        (584, "right hemisphere", "does not speak"),
+    ):
+        parts.append(
+            f"<ellipse cx='{cx}' cy='300' rx='84' ry='128' fill='{OUTCOME}' "
+            f"stroke='{INK}' stroke-width='2'/>"
+        )
+        parts.append(_b_text(cx, 296, body, 13, weight="bold"))
+        parts.append(_b_text(cx, 318, note, 12, fill=MUTED))
+    parts.append(
+        f"<line x1='500' y1='232' x2='500' y2='284' stroke='{INK}' "
+        "stroke-width='12' stroke-linecap='round'/>"
+        f"<line x1='500' y1='316' x2='500' y2='368' stroke='{INK}' "
+        "stroke-width='12' stroke-linecap='round'/>"
+    )
+    parts.append(
+        f"<line x1='487' y1='286' x2='513' y2='314' stroke='{RIGHT_HEMI}' stroke-width='3.5'/>"
+        f"<line x1='513' y1='286' x2='487' y2='314' stroke='{RIGHT_HEMI}' stroke-width='3.5'/>"
+    )
+    parts.append(
+        _b_text(500, 450, "corpus callosum, cut", 12, fill=MARK, style="italic")
+    )
+
+    # Each word crosses to the hemisphere opposite the field that showed it, the
+    # crossing being the point the two responses turn on.
+    parts.append(
+        "<defs><marker id='field' viewBox='0 0 10 10' refX='9' refY='5' "
+        "markerWidth='4' markerHeight='4' orient='auto-start-reverse'>"
+        f"<path d='M 0 0 L 10 5 L 0 10 z' fill='{MUTED}'/></marker></defs>"
+    )
+    for d in ("M 320 120 L 556 180", "M 680 120 L 444 180"):
+        parts.append(
+            f"<path d='{d}' fill='none' stroke='{MUTED}' stroke-width='1.6' "
+            "stroke-dasharray='6 5' marker-end='url(#field)'/>"
+        )
+
+    # The manual response: the raised hand's lead stops just under the word the
+    # eye of that field saw.
+    parts.append(_b_text(178, 350, "left hand", 14, anchor="end", weight="bold"))
+    parts.append(_b_text(178, 370, "points to HAT", 12, anchor="end", fill=MUTED))
+    parts.append(
+        f"<path d='M 205 339 L 285 128' fill='none' stroke='{MUTED}' stroke-width='1.6' "
+        "stroke-dasharray='6 5' marker-end='url(#field)'/>"
+    )
+
+    parts.append(
+        _b_text(
+            width / 2,
+            570,
+            "the left field reaches the right hemisphere, which cannot speak but moves the left hand,",
+            14,
+            fill=INK,
+        )
+    )
+    parts.append(
+        _b_text(
+            width / 2,
+            594,
+            "and the right field reaches the left hemisphere, which speaks",
+            14,
+            fill=INK,
+        )
+    )
+    parts.append("</svg>")
+    return "\n".join(parts) + "\n"
+
+
+def face_trait_space() -> str:
+    """The space a first impression of a face is read in: trustworthiness across,
+    dominance up, and one face placed three times so that only one of the two
+    traits moves between neighbouring placements."""
+
+    def face(cx: float, cy: float, brow: int, mouth: int) -> str:
+        """A schematic head at ``(cx, cy)``. ``brow`` lowers the inner eyebrow ends
+        by that many pixels, which is what makes a face read as dominant, and
+        ``mouth`` curves the mouth upward."""
+        return "".join(
+            [
+                f"<circle cx='{cx:g}' cy='{cy:g}' r='34' fill='#ffffff'/>",
+                f"<circle cx='{cx:g}' cy='{cy:g}' r='29' fill='{OUTCOME}' "
+                f"stroke='{INK}' stroke-width='1.8'/>",
+                f"<circle cx='{cx - 10:g}' cy='{cy - 4:g}' r='2.8' fill='{INK}'/>",
+                f"<circle cx='{cx + 10:g}' cy='{cy - 4:g}' r='2.8' fill='{INK}'/>",
+                f"<line x1='{cx - 16:g}' y1='{cy - 16:g}' x2='{cx - 5:g}' "
+                f"y2='{cy - 15 + brow:g}' stroke='{INK}' stroke-width='2'/>",
+                f"<line x1='{cx + 5:g}' y1='{cy - 15 + brow:g}' x2='{cx + 16:g}' "
+                f"y2='{cy - 16:g}' stroke='{INK}' stroke-width='2'/>",
+                f"<path d='M {cx - 11:g} {cy + 11:g} Q {cx:g} {cy + 11 + mouth:g} "
+                f"{cx + 11:g} {cy + 11:g}' fill='none' stroke='{INK}' "
+                f"stroke-width='2' stroke-linecap='round'/>",
+            ]
+        )
+
+    width, height = 780, 540
+    parts = _b_head(width, height)
+    parts.append(
+        _b_text(
+            width / 2,
+            32,
+            "Two trait dimensions of a first impression",
+            17,
+            weight="bold",
+        )
+    )
+
+    origin_x, origin_y = 360.0, 300.0
+
+    # The two axes. Drawn first and thin, so the three heads and their white
+    # haloes sit on top of them rather than beside them.
+    parts.append(
+        f"<line x1='110' y1='{origin_y:g}' x2='680' y2='{origin_y:g}' "
+        f"stroke='{MUTED}' stroke-width='1.4'/>"
+        f"<line x1='{origin_x:g}' y1='470' x2='{origin_x:g}' y2='100' "
+        f"stroke='{MUTED}' stroke-width='1.4'/>"
+    )
+    parts.append(
+        f"<path d='M 680 {origin_y:g} l -12 -5 l 0 10 Z' fill='{MUTED}'/>"
+        f"<path d='M {origin_x:g} 100 l -5 12 l 10 0 Z' fill='{MUTED}'/>"
+    )
+    parts.append(_b_text(112, origin_y - 12, "untrustworthy", 12, anchor="start"))
+    parts.append(_b_text(676, origin_y - 12, "trustworthy", 12, anchor="end"))
+    parts.append(_b_text(origin_x + 12, 106, "dominant", 12, anchor="start"))
+    parts.append(_b_text(origin_x + 12, 462, "submissive", 12, anchor="start"))
+
+    # Three placements of one head: the middle one, one raised on dominance,
+    # one moved toward trustworthy. The brows and the mouth are the only
+    # difference, and the second raised brow pair is what dominance looks like.
+    parts.append(face(origin_x, origin_y, 0, 1))
+    parts.append(face(origin_x, 176.0, 4, 1))
+    parts.append(face(548.0, origin_y, 0, 7))
+    parts.append(
+        _b_text(
+            origin_x + 62,
+            240,
+            "more dominant",
+            12,
+            anchor="start",
+            fill=INK,
+            weight="bold",
+        )
+    )
+    parts.append(
+        _b_text(548, origin_y + 60, "more trustworthy", 12, fill=INK, weight="bold")
+    )
+
+    # The two moves, each drawn from the middle head toward one neighbour.
+    parts.append(
+        f"<path d='M {origin_x:g} 254 L {origin_x:g} 218' fill='none' "
+        f"stroke='{MARK}' stroke-width='2' stroke-dasharray='5 4'/>"
+        f"<path d='M {origin_x:g} 218 l -5 9 l 10 0 Z' fill='{MARK}'/>"
+        f"<path d='M 418 {origin_y:g} L 506 {origin_y:g}' fill='none' "
+        f"stroke='{MARK}' stroke-width='2' stroke-dasharray='5 4'/>"
+        f"<path d='M 506 {origin_y:g} l -9 -5 l 0 10 Z' fill='{MARK}'/>"
+    )
+    parts.append(
+        _b_text(
+            width / 2,
+            500,
+            "One trait moves at each step, and the identity stays fixed.",
+            12.5,
+        )
+    )
+
+    parts.append("</svg>")
+    return "".join(parts)
+
+
+def _autonomic_lines(
+    x: float,
+    centre: float,
+    lines: tuple[str, ...],
+    anchor: str,
+    weight: str = "normal",
+    fill: str = LABEL,
+    size: int = 14,
+) -> list[str]:
+    """Stack one to three label lines around ``centre`` and return the text elements."""
+    step = size + 3
+    first = centre - (len(lines) - 1) * step / 2 + 5
+    return [
+        _i_text(x, first + index * step, line, size, anchor, weight=weight, fill=fill)
+        for index, line in enumerate(lines)
+    ]
+
+
+def autonomic_pairs() -> str:
+    """Each organ of the body between the two branches, with each branch's effect and its reason.
+
+    No arrows join a branch to an organ. Both branches reach every organ, and the
+    only thing an arrowhead could add is a direction that differs between the two
+    columns for no reason: the effects are written on the side of the branch that
+    has them. Each effect carries the purpose it serves, set under it in the
+    muted colour, so the figure answers why as well as what.
+    """
+    organs_x, organ_w = 365.0, 170.0
+    parts = [
+        _i_text(170, 40, "sympathetic branch", 18, fill=INK, weight="bold"),
+        _i_text(170, 62, "prepares the body for action", 13, fill=MUTED),
+        _i_text(730, 40, "parasympathetic branch", 18, fill=INK, weight="bold"),
+        _i_text(730, 62, "restores and holds equilibrium at rest", 13, fill=MUTED),
+        _i_text(450, 74, "organ", 15, fill=MUTED),
+    ]
+    rows = (
+        (
+            ("eyes",),
+            (("Dilates pupil",), "more light to see by"),
+            (("Contracts pupil",), "less light, finer detail"),
+        ),
+        (
+            ("lungs",),
+            (("Relaxes bronchi",), "more air per breath"),
+            (("Constricts bronchi",), "resting air flow"),
+        ),
+        (
+            ("heart",),
+            (("Accelerates and", "strengthens heartbeat"), "blood to the muscles"),
+            (("Slows heartbeat",), "energy saved"),
+        ),
+        (
+            ("stomach and", "intestines"),
+            (("Inhibits activity",), "blood sent elsewhere"),
+            (("Stimulates activity",), "food digested"),
+        ),
+        (
+            ("blood vessels of", "the internal organs"),
+            (("Contracts vessels",), "blood pushed to muscle"),
+            (("Dilates vessels",), "organs run normally"),
+        ),
+    )
+    for index, (organ, sympathetic, parasympathetic) in enumerate(rows):
+        centre = 152 + index * 96
+        parts.append(_i_box(organs_x, centre - 23, organ_w, 46, "#ffffff", rx=6))
+        parts += _autonomic_lines(
+            organs_x + organ_w / 2, centre, organ, "middle", "bold"
+        )
+        for side, (effect, reason) in enumerate((sympathetic, parasympathetic)):
+            anchor = "end" if side == 0 else "start"
+            x = 348 if side == 0 else 552
+            parts += _autonomic_lines(x, centre - 9, effect, anchor)
+            parts += _autonomic_lines(
+                x, centre + 22, (reason,), anchor, fill=MUTED, size=12
+            )
+    parts.append(
+        _i_text(
+            450,
+            606,
+            "each branch acts on the same organs, in opposite directions",
+            15,
+            fill=MARK,
+            style="italic",
+        )
+    )
+    return _c_canvas(900, 630, "".join(parts))
+
+
+def _s_box(x: float, y: float, w: float, h: float, label: str) -> list[str]:
+    """One named box of the stress chain, its label centred inside it."""
+    return [
+        _i_box(x, y, w, h, OUTCOME),
+        _i_text(x + w / 2, y + h / 2 + 6, label, 17, fill=LABEL, weight="bold"),
+    ]
+
+
+def _s_marker(x: float, y1: float, y2: float, fill: str) -> str:
+    """A heavy arrow beside a box, pointing up for protection or down for risk."""
+    return _i_arrow(x, y1, x, y2, fill=fill, width=7, head=20)
+
+
+def stress_chain() -> str:
+    """Positive affect into stress, then the behavioural and the activation route into disease."""
+    protect, risk = PROTECT, MARK
+    parts: list[str] = []
+    parts += _s_box(190, 50, 230, 70, "positive affect")
+    parts += _s_box(190, 175, 230, 70, "stress")
+    parts += _s_box(60, 305, 250, 70, "healthy behaviour")
+    parts += _s_box(340, 305, 250, 70, "psychological activation")
+    parts += _s_box(205, 440, 200, 70, "disease")
+    parts.append(_i_arrow(305, 124, 305, 175, fill=INK, width=2.5, head=13))
+    parts.append(_i_arrow(255, 245, 200, 305, fill=INK, width=2.5, head=13))
+    parts.append(_i_arrow(355, 245, 430, 305, fill=INK, width=2.5, head=13))
+    parts.append(_i_arrow(225, 375, 270, 440, fill=INK, width=2.5, head=13))
+    parts.append(_i_arrow(430, 375, 340, 440, fill=INK, width=2.5, head=13))
+    parts.append(_s_marker(125, 122, 52, protect))
+    parts.append(_s_marker(490, 173, 243, risk))
+    parts.append(_s_marker(28, 377, 307, protect))
+    parts.append(_s_marker(622, 303, 373, risk))
+    parts.append(_s_marker(452, 438, 508, risk))
+    parts.append(_i_text(240, 552, "upward arrow: protection", 14, fill=protect))
+    parts.append(_i_text(520, 552, "downward arrow: risk", 14, fill=risk))
+    return _c_canvas(700, 580, "".join(parts))
+
+
+# Helvetica advance widths, in units of 1000 em, for the lowercase letters and
+# the space. A ring is sized and centred from its own label's measured width,
+# because a count of characters puts the ring off by most of a letter.
+_HELVETICA_ADVANCE = {
+    " ": 278,
+    "a": 556,
+    "b": 556,
+    "c": 500,
+    "d": 556,
+    "e": 556,
+    "f": 278,
+    "g": 556,
+    "h": 556,
+    "i": 222,
+    "j": 222,
+    "k": 500,
+    "l": 222,
+    "m": 833,
+    "n": 556,
+    "o": 556,
+    "p": 556,
+    "q": 556,
+    "r": 333,
+    "s": 500,
+    "t": 278,
+    "u": 556,
+    "v": 500,
+    "w": 722,
+    "x": 500,
+    "y": 500,
+    "z": 500,
+}
+
+
+def _helvetica_width(text: str, size: float) -> float:
+    """The width ``text`` takes at ``size``, from Helvetica's advance widths."""
+    return sum(_HELVETICA_ADVANCE[char] for char in text) * size / 1000
+
+
+def cognitive_science_hexagon() -> str:
+    """The six disciplines at a hexagon's corners, joined by the chords their hybrids sit on.
+
+    Every corner is joined to two others by an interior chord, and each hybrid is
+    written along the chord joining the two disciplines that form it, so the
+    drawing shows which pair of fields produces which subject instead of stating
+    the relations only in the prose.
+    """
+    cx, cy, r = 430.0, 350.0, 230.0
+    corners = (
+        ("philosophy", -90.0),
+        ("linguistics", -30.0),
+        ("anthropology", 30.0),
+        ("neuroscience", 90.0),
+        ("artificial intelligence", 150.0),
+        ("psychology", 210.0),
+    )
+    at = {
+        name: (cx + r * math.cos(math.radians(a)), cy + r * math.sin(math.radians(a)))
+        for name, a in corners
+    }
+    size = 17
+    parts: list[str] = []
+    ring = "".join(f"{x:g},{y:g} " for x, y in at.values()).strip()
+    parts.append(
+        f"<polygon points='{ring}' fill='#fbfcf0' stroke='#9fc3a8' stroke-width='2.4'/>"
+    )
+    # Each hybrid lies on the chord between the two disciplines that form it,
+    # set a little off the line so the two that cross at the centre stay apart.
+    links = (
+        ("psycholinguistics", "psychology", "linguistics", 0.50, -7.0),
+        ("cognitive psychology", "psychology", "artificial intelligence", 0.50, 8.0),
+        (
+            "computational linguistics",
+            "linguistics",
+            "artificial intelligence",
+            0.68,
+            9.0,
+        ),
+        ("cognitive neuroscience", "neuroscience", "psychology", 0.26, -9.0),
+        (
+            "computational neuroscience",
+            "artificial intelligence",
+            "neuroscience",
+            0.50,
+            9.0,
+        ),
+    )
+    for label, first, second, along, off in links:
+        (x1, y1), (x2, y2) = at[first], at[second]
+        parts.append(
+            f"<line x1='{x1:g}' y1='{y1:g}' x2='{x2:g}' y2='{y2:g}' "
+            f"stroke='#9fc3a8' stroke-width='1.6'/>"
+        )
+        mx, my = x1 + (x2 - x1) * along, y1 + (y2 - y1) * along
+        length = math.hypot(x2 - x1, y2 - y1)
+        mx += -(y2 - y1) / length * off
+        my += (x2 - x1) / length * off
+        angle = math.degrees(math.atan2(y2 - y1, x2 - x1))
+        if angle > 90 or angle <= -90:
+            angle += 180
+        parts.append(
+            f"<g transform='translate({mx:g},{my:g}) rotate({angle:g})'>"
+            + _i_text(0, 5, label, 15, fill=MUTED)
+            + "</g>"
+        )
+    # The six disciplines are written outside their own corner, the two side
+    # ones pushed clear of the edges they sit on.
+    outside = (
+        ("philosophy", 0.0, -20.0, "middle"),
+        ("linguistics", 16.0, 6.0, "start"),
+        ("anthropology", 16.0, 6.0, "start"),
+        ("neuroscience", 0.0, 30.0, "middle"),
+        ("artificial intelligence", -16.0, 6.0, "end"),
+        ("psychology", -16.0, 6.0, "end"),
+    )
+    for name, dx, dy, anchor in outside:
+        x, y = at[name]
+        if " " in name:
+            first, second = name.split(" ", 1)
+            parts.append(
+                _i_text(x + dx, y + dy - 9, first, size, anchor=anchor, fill=INK)
+            )
+            parts.append(
+                _i_text(x + dx, y + dy + 11, second, size, anchor=anchor, fill=INK)
+            )
+        else:
+            parts.append(_i_text(x + dx, y + dy, name, size, anchor=anchor, fill=INK))
+    return _c_canvas(790, 645, "".join(parts))
+
+
+def _e_text(
+    x: float, y: float, body: str, size: int = 15, anchor: str = "start"
+) -> str:
+    """One label of the eye section, in the shared label colour."""
+    return _i_text(x, y, body, size, anchor=anchor, fill=LABEL)
+
+
+def _e_lead(x1: float, y1: float, x2: float, y2: float) -> str:
+    """A leader from a label to the part it names, ending in a dot on that part."""
+    return (
+        f"<line x1='{x1:g}' y1='{y1:g}' x2='{x2:g}' y2='{y2:g}' stroke='{MUTED}' stroke-width='1.2'/>"
+        f"<circle cx='{x2:g}' cy='{y2:g}' r='3' fill='{MUTED}'/>"
+    )
+
+
+def eye_section() -> str:
+    """A horizontal section of the right eye, light entering from the left.
+
+    The parts are drawn in the order light meets them, so the drawing carries
+    the sequence the prose states. Two rays leave one point above the axis,
+    bend at the lens, and meet again below the axis on the retina, which is
+    what makes the image inverted.
+    """
+    cx, cy, r = 420.0, 330.0, 170.0
+    parts: list[str] = []
+    parts.append(
+        f"<circle cx='{cx:g}' cy='{cy:g}' r='{r:g}' fill='#fbe6cf' stroke='{INK}' stroke-width='2'/>"
+    )
+    parts.append(
+        "<path d='M 499,193 A 158,158 0 0 1 499,467' fill='none' stroke='#d97706' stroke-width='9'/>"
+    )
+    parts.append(
+        "<path d='M 311,200 C 175,240 175,420 311,460' fill='none' stroke='#a8c8e8' stroke-width='16'/>"
+    )
+    for y in (200.0, 344.0):
+        parts.append(
+            f"<rect x='318' y='{y:g}' width='38' height='86' fill='#8b5a2b' stroke='{INK}' stroke-width='1.4'/>"
+        )
+    parts.append(
+        f"<ellipse cx='390' cy='330' rx='34' ry='74' fill='#cfe3f5' stroke='{INK}' stroke-width='1.8'/>"
+    )
+    parts.append(
+        "<polygon points='536,449 556,410 716,486 690,528' fill='#f6e3b0' stroke='#1f3864' stroke-width='1.4'/>"
+    )
+    parts.append(
+        f"<ellipse cx='550' cy='416' rx='13' ry='21' transform='rotate(34 550 416)' fill='#c8c8c8' stroke='{INK}' stroke-width='1.2'/>"
+    )
+    parts.append(f"<circle cx='572' cy='330' r='6' fill='{MARK}'/>")
+    for path in (
+        "M 30,250 L 390,314 L 580,373",
+        "M 30,318 L 390,338 L 580,373",
+    ):
+        parts.append(
+            f"<path d='{path}' fill='none' stroke='{MARK}' stroke-width='1.6'/>"
+        )
+    parts.append(_e_text(18, 150, "cornea"))
+    parts.append(_e_lead(100, 155, 246, 268))
+    parts.append(_e_text(300, 118, "pupil", anchor="middle"))
+    parts.append(_e_lead(312, 128, 337, 302))
+    parts.append(_e_text(505, 150, "iris"))
+    parts.append(_e_lead(500, 158, 356, 218))
+    parts.append(_e_text(18, 560, "aqueous humour"))
+    parts.append(_e_lead(160, 552, 287, 404))
+    parts.append(_e_text(438, 96, "lens", anchor="middle"))
+    parts.append(_e_lead(438, 106, 396, 258))
+    parts.append(_e_text(400, 470, "vitreous humour", anchor="middle"))
+    parts.append(_e_text(700, 230, "retina"))
+    parts.append(_e_lead(690, 236, 559, 256))
+    parts.append(_e_text(700, 310, "fovea"))
+    parts.append(_e_lead(690, 316, 572, 330))
+    parts.append(_e_text(700, 390, "blind spot"))
+    parts.append(_e_lead(690, 396, 553, 412))
+    parts.append(_e_text(620, 615, "optic nerve", anchor="middle"))
+    parts.append(_e_lead(640, 600, 668, 512))
+    return _c_canvas(790, 640, "".join(parts))
+
+
 FIGURES = {
+    "eye_section.svg": eye_section,
+    "autonomic_nervous_system.svg": autonomic_pairs,
+    "stress_to_disease.svg": stress_chain,
     "classical_conditioning_extinction.svg": extinction_sequence,
     "classical_conditioning_blocking.svg": blocking_phases,
     "conditioning_relations.svg": relations,
@@ -868,6 +1492,9 @@ FIGURES = {
     "correlation_causal_directions.svg": causal_directions,
     "brain_division_naming.svg": division_naming,
     "split_brain_test_setup.svg": split_brain_setup,
+    "split_brain_word_display.svg": split_brain_word_display,
+    "face_trait_space.svg": face_trait_space,
+    "cognitive_science_hexagon.svg": cognitive_science_hexagon,
 }
 
 

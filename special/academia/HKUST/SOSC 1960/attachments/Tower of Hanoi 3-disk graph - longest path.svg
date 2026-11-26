@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Tower of Hanoi Longest-path solution.  R. A. Nonenmacher 22-Jun-2008  -->
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+
+<svg version="1.1"
+     id="Layer_1"
+     xmlns="&ns_svg;"
+     xmlns:xlink="&ns_xlink;"
+     width="660"
+     height="560"
+     viewBox="0 0 660 560"
+	   overflow="visible"
+	   enable-background="new 0 0 660 560"
+	   xml:space="preserve">
+
+<circle fill="#AABBEE" stroke="#000000" cx="26.9"  cy="528.1" r="25"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="69.7"  cy="456.5" r="25"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="112.9" cy="528.1" r="25"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="113.3" cy="384.5" r="25"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="156.1" cy="312.5" r="25"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="199.3" cy="240.5" r="25"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="199.7" cy="384.5" r="25"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="199.7" cy="528.1" r="25"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="242.5" cy="168.1" r="25"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="242.5" cy="456.1" r="25"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="285.7" cy="240.1" r="25"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="285.7" cy="528.1" r="25"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="285.9" cy="96.3"  r="25"/>
+<circle fill="#AABBEE" stroke="#000000" cx="329.3" cy="25.1"  r="25"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="372.5" cy="240.1" r="25"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="372.5" cy="528.1" r="25"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="372.5" cy="96.1"  r="25"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="415.3" cy="456.1" r="25"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="415.7" cy="168.5" r="25"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="458.9" cy="240.1" r="25"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="458.9" cy="384.5" r="25"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="458.9" cy="528.1" r="25"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="502.1" cy="312.1" r="25"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="544.9" cy="384.5" r="25"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="544.9" cy="528.1" r="25"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="588.1" cy="456.1" r="25"/>
+<circle fill="#AABBEE" stroke="#000000" cx="631.3" cy="528.1" r="25"/>
+
+<text transform="matrix(1 0 0 1 8.7   535.5)" font-family="'LucidaConsole'" font-size="21">bbb</text>
+<text transform="matrix(1 0 0 1 51.9  463.5)" font-family="'LucidaConsole'" font-size="21">abb</text>
+<text transform="matrix(1 0 0 1 95.1  391.5)" font-family="'LucidaConsole'" font-size="21">acb</text>
+<text transform="matrix(1 0 0 1 95.1  535.5)" font-family="'LucidaConsole'" font-size="21">cbb</text>
+<text transform="matrix(1 0 0 1 138.3 319.5)" font-family="'LucidaConsole'" font-size="21">ccb</text>
+<text transform="matrix(1 0 0 1 181.5 247.5)" font-family="'LucidaConsole'" font-size="21">cca</text>
+<text transform="matrix(1 0 0 1 181.5 391.5)" font-family="'LucidaConsole'" font-size="21">bcb</text>
+<text transform="matrix(1 0 0 1 181.5 535.5)" font-family="'LucidaConsole'" font-size="21">cab</text>
+<text transform="matrix(1 0 0 1 224.7 175.5)" font-family="'LucidaConsole'" font-size="21">bca</text>
+<text transform="matrix(1 0 0 1 224.7 463.5)" font-family="'LucidaConsole'" font-size="21">bab</text>
+<text transform="matrix(1 0 0 1 267.9 103.5)" font-family="'LucidaConsole'" font-size="21">baa</text>
+<text transform="matrix(1 0 0 1 267.9 247.5)" font-family="'LucidaConsole'" font-size="21">aca</text>
+<text transform="matrix(1 0 0 1 267.9 535.5)" font-family="'LucidaConsole'" font-size="21">aab</text>
+<text transform="matrix(1 0 0 1 311.1 31.5)"  font-family="'LucidaConsole'" font-size="21">aaa</text>
+<text transform="matrix(1 0 0 1 354.3 103.5)" font-family="'LucidaConsole'" font-size="21">caa</text>
+<text transform="matrix(1 0 0 1 354.3 247.5)" font-family="'LucidaConsole'" font-size="21">aba</text>
+<text transform="matrix(1 0 0 1 354.3 535.5)" font-family="'LucidaConsole'" font-size="21">aac</text>
+<text transform="matrix(1 0 0 1 397.5 175.5)" font-family="'LucidaConsole'" font-size="21">cba</text>
+<text transform="matrix(1 0 0 1 397.5 463.5)" font-family="'LucidaConsole'" font-size="21">cac</text>
+<text transform="matrix(1 0 0 1 440.7 247.5)" font-family="'LucidaConsole'" font-size="21">bba</text>
+<text transform="matrix(1 0 0 1 440.7 391.5)" font-family="'LucidaConsole'" font-size="21">cbc</text>
+<text transform="matrix(1 0 0 1 440.7 535.5)" font-family="'LucidaConsole'" font-size="21">bac</text>
+<text transform="matrix(1 0 0 1 483.9 319.5)" font-family="'LucidaConsole'" font-size="21">bbc</text>
+<text transform="matrix(1 0 0 1 527.1 391.5)" font-family="'LucidaConsole'" font-size="21">abc</text>
+<text transform="matrix(1 0 0 1 527.1 535.5)" font-family="'LucidaConsole'" font-size="21">bcc</text>
+<text transform="matrix(1 0 0 1 570.3 463.5)" font-family="'LucidaConsole'" font-size="21">acc</text>
+<text transform="matrix(1 0 0 1 613.5 535.5)" font-family="'LucidaConsole'" font-size="21">ccc</text>
+
+<line fill="none" stroke="#000000" stroke-width="3" x1="82.9"  y1="478.3" x2="99.8"  y2="506.4"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="87.7"  y1="528.3" x2="52.4"  y2="528.3"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="99.5"  y1="406.3" x2="82.3"  y2="434"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="142.8" y1="334.3" x2="125.6" y2="362.3"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="186"   y1="363.5" x2="168.3" y2="334.5"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="212.8" y1="506"   x2="229.5" y2="478"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="224.7" y1="240.3" x2="260.3" y2="240.3"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="229.3" y1="434.3" x2="212"   y2="406.3"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="230.2" y1="188.1" x2="212.6" y2="218.8"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="260.7" y1="528.1" x2="224.7" y2="528.1"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="272.5" y1="117.8" x2="254.5" y2="146.5"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="310.7" y1="240.1" x2="347.5" y2="240.1"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="340.3" y1="46.5"  x2="358.3" y2="74.3"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="347.5" y1="528.1" x2="310.7" y2="528.1"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="347.5" y1="95.9"  x2="311.5" y2="95.9"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="385.2" y1="218.5" x2="402.5" y2="189.2"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="402.2" y1="477.5" x2="385.5" y2="505.8"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="427.8" y1="189.2" x2="445.2" y2="218.5"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="445.2" y1="506.5" x2="428.5" y2="477.2"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="471.2" y1="261.2" x2="488.5" y2="290.5"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="483.9" y1="384.5" x2="519.9" y2="384.5"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="489.2" y1="333.2" x2="471.8" y2="362.5"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="519.9" y1="528.1" x2="483.9" y2="528.1"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="557.8" y1="405.2" x2="575.2" y2="434.5"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="600.8" y1="477.2" x2="617.8" y2="506.2"/>
+<line fill="none" stroke="#000000" stroke-width="3" x1="606.3" y1="528.1" x2="569.9" y2="528.1"/>
+</svg>

@@ -19,7 +19,9 @@ Flashcards for this section are as follows:
 - why the direction of cause is undetermined ::@:: Several causal structures produce the same pattern, and no coefficient tells them apart.
 - what turns an association into a causal finding ::@:: A design that rules the other structures out.
 
-## three explanations of one association
+## from association to cause
+
+### three explanations of one association
 
 Facebook use and depression travel together. Three causal structures produce that same pattern. Facebook use might cause depression. Depression might cause more Facebook use. Having no friends might cause both. The first two name a cause and an effect between the two variables. The third brings in a variable outside them. <p> ![three rows of boxes: Facebook pointing to depression, depression pointing to Facebook, and no friends pointing to both](attachments/correlation_causal_directions.svg)
 
@@ -38,7 +40,7 @@ Flashcards for this section are as follows:
 - ![three rows of boxes: Facebook pointing to depression, depression pointing to Facebook, and no friends pointing to both](attachments/correlation_causal_directions.svg) ::@:: One correlation is compatible with all three of these structures.
 - draw the three structures a correlation is compatible with ::@:: Two boxes joined by a rightward arrow. The same pair with the arrow reversed. One box with two arrows leaving it, one to each of two other boxes. <p> ![three rows of boxes: Facebook pointing to depression, depression pointing to Facebook, and no friends pointing to both](attachments/correlation_causal_directions.svg)
 
-## three requirements for causation
+### three requirements for causation
 
 A causal claim has to meet three requirements, whichever of the three structures it proposes.
 

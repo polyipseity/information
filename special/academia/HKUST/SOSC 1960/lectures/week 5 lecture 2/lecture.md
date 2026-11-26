@@ -55,11 +55,14 @@ The three systems run one loop. New information arrives in working memory, is [e
 Flashcards for this section are as follows:
 
 - what working memory holds and for how long ::@:: A task's information in use right now, about three to five chunks, gone as soon as attention moves on.
+- an example of working memory and an example of episodic memory ::@:: Holding an order number while the ticket screen updates is working memory; recalling the afternoon a friend dropped a full tray is episodic memory.
+- how long episodic memory holds an event ::@:: Years, and it replays the scene: the room, what was said, and how it felt.
 - the difference between semantic and episodic memory ::@:: Semantic memory holds facts and concepts with no time and place attached; episodic memory holds your own events with when, where, and how they felt.
 - an episodic memory that has faded into semantic memory ::@:: Knowing that you learned to ride a bike at age four while the ride itself is gone.
-- what strong emotion does to an episodic memory ::@:: It deepens the encoding and the confidence in recall, without improving the accuracy of the peripheral details.
-- what collective memory belongs to ::@:: The group's shared identity, so members who never lived through an event still carry it with its stories.
-- the route information takes through the three memory systems ::@:: It enters working memory, is encoded into episodic and semantic long-term memory, and is retrieved back into working memory when a task needs it.
+- what emotion does to an episodic memory ::@:: Emotion deepens the encoding and the confidence in recall without improving the accuracy of the peripheral details. Emotion also leaves an internal state behind that becomes the cue which brings back material learned in fear or delight.
+- what collective memory is and what it belongs to ::@:: The memory a family, a community, or a nation holds in common. Collective memory belongs to the group's shared identity rather than to any member, so people who never lived through an event still carry it with its stories.
+- how emotion keeps a collective memory going ::@:: A shared disaster leaves a region feeling shock, sadness, and vulnerability, and the emotionally charged version is the one encoded and passed down.
+- how information moves through the three memory systems, and what repetition does to it ::@:: New information arrives in working memory, is encoded into episodic and semantic long-term memory, and returns to working memory when a task needs it. Repetition moves it the other way, from a dated episode to a fact stated without remembering when it was learned.
 
 ## encoding
 
@@ -95,12 +98,14 @@ How practice is arranged changes what sticks. [The spacing effect](../../spacing
 
 Flashcards for this section are as follows:
 
-- the factors that produce a flashbulb memory ::@:: Strong emotion, personal consequence, and surprise during encoding, reinforced by rehearsal straight afterwards.
+- what a flashbulb memory is and what produces one ::@:: A flashbulb memory is the detailed snapshot of where you were and what you were doing when shocking news arrived. Strong emotion, personal consequence, and surprise during encoding produce one, reinforced by rehearsal straight afterwards.
 - what recoding does to information ::@:: It converts the material into a form that makes sense to you, such as an acronym, a category, or a chunk.
-- what a DRM (Deese–Roediger–McDermott) word list exploits ::@:: The brain stores the meaning shared by the items, so an unstudied word carrying that meaning feels studied.
+- the seven characteristics of living things recoded as the acronym MRS GREN ::@:: Movement, respiration, sensitivity, growth, reproduction, excretion, and nutrition.
+- why a recoded trace can hold an error the material did not have ::@:: A code interprets what was presented instead of copying it.
+- the two routes to false recognition ::@:: A DRM (Deese–Roediger–McDermott) word list works through meaning: the trace keeps what the items share, so an unstudied word carrying that meaning feels studied. Perceptual overlap works through appearance: words that look alike share a trace, so fable feels old after the list cable, table, and stable.
 - how pragmatic inference produces false recognition ::@:: The inference added while listening is stored with the words, so the implied version is later recognised as the one heard.
-- what separates the spacing effect from the generation effect ::@:: Spacing spreads the same study time over days; generation has the learner produce the answer instead of reading it.
-- why spacing and generation are desirable difficulties ::@:: The delay and the effort make learning feel worse at the time and produce stronger long-term retention.
+- what a reader supplies from "a friend left dinner early with a headache" ::@:: That she went home to bed, though the sentence said only the headache.
+- how the spacing effect and the generation effect differ, and why both are desirable difficulties ::@:: Spacing spreads the same study time over days; generation has the learner produce the answer instead of reading it. Both are desirable difficulties: the delay and the effort make learning feel worse at the time and produce stronger long-term retention.
 
 ## storage and interference
 
@@ -137,12 +142,15 @@ Retrieval itself edits [storage](../../memory.md). Recall rebuilds the trace fro
 Flashcards for this section are as follows:
 
 - which interference blocks old material with new, and which blocks new with old ::@:: Retroactive interference runs new to old; proactive interference runs old to new.
-- what makes an interference effect strongest ::@:: Similarity: the closer the old and new material, the more they compete for the same cue.
+- what makes interference strongest, and what counteracts it ::@:: Similarity decides it: the closer the old and new material, the more the two sets compete for the same cue. Reviewing the old material keeps its trace alive.
 - what the misinformation effect does to a memory ::@:: Information arriving after the event merges into the reconstructed trace, so a later suggestion is stored as part of the event and changes what a person reports having seen.
 - why a witness may report glass that was never there ::@:: The word "smashed" is encoded with the crash and later read back as part of it, so the glass it implies is reported as seen.
-- the difference between availability and accessibility ::@:: Availability is information still stored; accessibility is information retrievable at this moment.
-- what a tip-of-the-tongue moment shows ::@:: The memory is stored but cannot be reached right now.
+- why a witness stays confident after a leading question has changed the memory ::@:: Source misattribution: the suggested detail is stored as part of the event, so the memory drifts while confidence holds.
+- what holds the misinformation effect down ::@:: Neutral questions, witnesses kept apart, and statements taken at once.
+- the difference between availability and accessibility, and whether an available memory is always accessible ::@:: Availability is information still stored; accessibility is information retrievable now. A tip-of-the-tongue moment shows the split: the name is stored but cannot be reached. Availability is necessary for access but does not guarantee it.
+- what can keep an available memory out of reach ::@:: Weak cues, interference, stress, or a changed context.
 - what retrieval does to the memory it brings back ::@:: It rebuilds and restores the trace, so each recall updates the stored representation.
+- what rehearsing a story does to a mistake inside it ::@:: Strengthens the mistake, because practice strengthens whatever it reaches.
 
 ## retrieval and improvement
 
@@ -178,11 +186,11 @@ The [memory palace](../../mnemonic.md), or method of loci, turns a familiar rout
 
 Flashcards for this section are as follows:
 
-- what the encoding specificity principle says about a cue ::@:: A cue works to the extent that it matches what was stored with the memory at encoding.
+- what the encoding specificity principle says about a cue, and what forgetting is under it ::@:: A cue works to the extent that it matches what was stored with the memory at encoding. Forgetting is a failed match between the cue and the trace, not an erased trace.
 - the four recall rates from the diving word study ::@:: Learned underwater: 32% recalled underwater against 23% on land. Learned on land: 38% on land against 24% underwater.
 - what makes a state-dependent memory return ::@:: The internal state during recall matches the state present during learning, because that state was encoded as a cue.
 - what cue overload means ::@:: A cue tied to many memories identifies none of them, so it retrieves its target less accurately.
 - what retrieval practice does to the item recalled ::@:: It strengthens that item, so it is easier to retrieve again next time.
 - what retrieval-induced forgetting does to the items left alone ::@:: Recalling one item weakens the related items that share its cues but were never practised.
-- how a memory palace is built ::@:: Fix a familiar route, turn each item into a vivid image, place one image at each stop, and walk the route to recall.
-- why a memory palace works ::@:: Places outlast lists, images encode more deeply than words, and the route supplies stable cues in a fixed order.
+- what happens to orange and grape when apple and banana are retrieved from a list of four fruits ::@:: Orange and grape come back worse than if nothing had been practised, because they share the list's cues with the practised items.
+- how a memory palace is built and why it works ::@:: Fix a familiar route, turn each item into a vivid image, place one image at each stop, and walk the route to recall. Places outlast lists, images encode more deeply than words, and the route supplies stable cues in a fixed order.

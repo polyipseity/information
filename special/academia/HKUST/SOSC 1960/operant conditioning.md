@@ -70,7 +70,9 @@ Flashcards for this section are as follows:
 - a child who is mean to a sibling and is given extra housework ::@:: Positive punishment: a stimulus is added and the behaviour decreases.
 - a child who is mean to a sibling and loses a favourite toy ::@:: Negative punishment: a stimulus is taken away and the behaviour decreases.
 
-## choice between behaviours
+## pattern and value of reinforcement
+
+### choice between behaviours
 
 Given a choice between two behaviours, the one with the better consequences is the one that happens. The comparison is with the other behaviour, not with how good a consequence is on its own.
 
@@ -90,7 +92,7 @@ Flashcards for this section are as follows:
 - what is left for a free act of will once the consequences explain a behaviour ::@:: Less than before, since the comparison has already explained the choice.
 - whether the feeling of free choice is a separate reason the behaviour happened ::@:: No. It describes the comparison of consequences that produced it.
 
-## schedules of reinforcement
+### schedules of reinforcement
 
 A __schedule of reinforcement__ is how often reinforcement is offered: after every act, after every tenth act, once a minute. Each schedule has its own effect.
 

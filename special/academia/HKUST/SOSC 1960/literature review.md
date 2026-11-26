@@ -94,7 +94,6 @@ Flashcards for this section are as follows:
 - what natural language searching accepts ::@:: Everyday language in place of specialised terms or codes.
 - how many phrasings of one question to try ::@:: A few, rather than one.
 
-<!-- check: ignore-next-line[header_style]: AI is an acronym -->
 ## AI tools for literature search
 
 The first search tools went through printed books and index cards by hand. Keyword search engines later searched lists of webpages. The scholarly databases Web of Science and Scopus came next, then the open databases Semantic Scholar and OpenAlex. Language-model tools answer for the meaning of a question rather than its keywords. Deep research agents have returned an article with its citations since 2024.

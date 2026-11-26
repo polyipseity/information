@@ -79,7 +79,9 @@ Flashcards for this section are as follows:
 - what cerebellar damage reaches besides movement ::@:: Language, and problems that call for planning.
 - which disorders carry cognitive symptoms alongside their motor ones through the cerebellum ::@:: Parkinson's disease and multiple sclerosis.
 
-## gray and white matter
+## internal structure
+
+### gray and white matter
 
 Grey matter contains the cell bodies and dendrites, the parts of a neuron that receive and integrate. White matter consists mostly of axons, and it is white because those axons are wrapped in myelin, the fatty sheath that speeds a signal along. The two interleave through the whole brain: the cortex is grey, the white matter tracts running under it are white, and wherever a tract ends it turns grey again.
 
@@ -92,7 +94,7 @@ Flashcards for this section are as follows:
 - why white matter is white ::@:: Its axons are wrapped in myelin, a fatty sheath.
 - how grey and white matter are arranged through the brain ::@:: They interleave: grey cortex over white tracts, and a tract turns grey again wherever it ends.
 
-## subcortical structures
+### subcortical structures
 
 Subcortical structures lie beneath the cerebral cortex and above the brain stem. They handle work the cortex does not do itself. The thalamus is the switching station between sensory input and cortex: every sense but smell passes through it on the way. The hippocampus takes new memories in and transfers them to long-term storage. Damage to it leaves old memory standing and new memory unrecoverable. The amygdala processes and recognises emotion, fear first among them.
 
@@ -110,7 +112,7 @@ Flashcards for this section are as follows:
 - the work the basal ganglia carry ::@:: Voluntary motor control, habit formation, emotion, and reward processing.
 - why the cerebellum is counted among subcortical structures as well as the hindbrain ::@:: It lies underneath the cortex whichever scheme you use.
 
-## cerebral hemispheres
+### cerebral hemispheres
 
 The two cerebral hemispheres are separated by a deep groove, the longitudinal fissure, and joined at the bottom of that groove by the corpus callosum, a band of white matter tracts carrying signals between them. The connections between them are white matter, so the corpus callosum reads as white wherever it is cut. Each hemisphere is layered from the outside in: grey matter on the surface, white matter under it, and the subcortical structures under that.
 

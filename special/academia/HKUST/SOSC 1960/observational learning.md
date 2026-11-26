@@ -14,18 +14,6 @@ A learner watches someone act, then copies it. The person being watched is the s
 
 Four stages sit between watching and repeating: attention, retention, initiation, and motivation. Each can break on its own. A learner who cannot do an observed act has failed at one of the four, and each point calls for a different remedy.
 
----
-
-Flashcards for this section are as follows:
-
-- what the learner watches, and where the consequences land ::@:: A learner watches what other people do, and the consequences can fall on someone else or not appear at all.
-- other name for observational learning ::@:: Social learning theory, in Albert Bandura's 1977 account.
-- what the two conditionings require ::@:: The behaviour reinforced has to be the learner's own.
-- social model ::@:: An authority a learner watches and tries to copy.
-- what the four stages being separate buys ::@:: Each stage can break on its own, and each one calls for a different remedy.
-
-## four stages
-
 Copying a classmate's notes runs through all four. Attention holds while the classmate is similar or a credible high-achieving student. Retention needs the learner to see the notes as help for a quiz. Initiation needs access to the notes. Motivation comes from vicarious reinforcement, a good grade without punishment, or its opposite, a teacher's warning.
 
 The four stages run in order, each one a step closer to repeating what the model did.
@@ -36,6 +24,11 @@ The four stages run in order, each one a step closer to repeating what the model
 
 Flashcards for this section are as follows:
 
+- what the learner watches, and where the consequences land ::@:: A learner watches what other people do, and the consequences can fall on someone else or not appear at all.
+- other name for observational learning ::@:: Social learning theory, in Albert Bandura's 1977 account.
+- what the two conditionings require ::@:: The behaviour reinforced has to be the learner's own.
+- social model ::@:: An authority a learner watches and tries to copy.
+- what the four stages being separate buys ::@:: Each stage can break on its own, and each one calls for a different remedy.
 - what separates the four stages from one another ::@:: Four stages run in order, each one a step closer to repeating what the model did.
 - observational learning stages: ![Four stages in order: attention, the learner watches the model; retention, the behaviour is kept in memory; initiation, the learner performs it; motivation, the learner repeats it.](attachments/observational_learning_stages.svg) ::@:: The learner watches the model, keeps the behaviour in memory, performs it, and repeats it.
 - draw the four stages of learning from a model: in what order do they run? ::@:: Attention, then retention, then initiation, then motivation. <p> ![Four stages in order: attention, the learner watches the model; retention, the behaviour is kept in memory; initiation, the learner performs it; motivation, the learner repeats it.](attachments/observational_learning_stages.svg)
@@ -43,6 +36,8 @@ Flashcards for this section are as follows:
 - retention in the shared-notes example ::@:: It needs the learner to register that the shared notes will help with a quiz. It lapses when nothing links the notes to a quiz.
 - initiation in the shared-notes example ::@:: It needs access to the notes. It lapses when there is none.
 - motivation in the shared-notes example ::@:: It comes from vicarious reinforcement, a good grade without punishment, or its opposite, a teacher's warning.
+
+## watching and remembering
 
 ### attention
 
@@ -67,6 +62,8 @@ Flashcards for this section are as follows:
 - what retention does after the watching stops ::@:: Keeping the behaviour in memory after the watching stops.
 - what retention keeps ::@:: The detail, not the gist.
 - retention of a cooking demonstration ::@:: The demonstrator's hand placement, rather than the fact that someone cooked.
+
+## performing and repeating
 
 ### initiation
 

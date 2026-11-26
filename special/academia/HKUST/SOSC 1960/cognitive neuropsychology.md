@@ -24,7 +24,9 @@ Flashcards for this section are as follows:
 - why the lesions cannot be assigned ::@:: Nobody can be signed up for a stroke.
 - what a case study assumes about the brain before the injury ::@:: The brain was already itself.
 
-## limits of a lesion study
+## evidence from damage
+
+### limits of a lesion study
 
 A patient sees faces badly after damage to one region and sees everything else normally. The region contributes to face recognition. The evidence does not show it doing the job alone. The region may be one station in a chain, and the damage may knock out the chain rather than the station.
 
@@ -45,7 +47,7 @@ Flashcards for this section are as follows:
 - what an impairment on faces that is not about faces would be attributed to ::@:: Visual acuity, attention, or the language needed to attempt the task.
 - the second limit on a lesion inference ::@:: The task has to isolate the capacity from those three.
 
-## cautions
+### cautions
 
 The first caution asks whether the patients were typical before the damage. A group already below average before the injury will have post-injury scores that say little about what the injury cost. Record the pre-damage level where a record survives, compare against a matched control group, or state which comparison was available.
 
