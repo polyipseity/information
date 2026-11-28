@@ -16,6 +16,7 @@ from scripts.convert_wiki.converter import WikiHtmlConverter, _discards_subtree
 from scripts.convert_wiki.inline_context import (
     _in_inline_context,
     _is_display_formula_dl,
+    _is_indented_box_blockquote,
 )
 from scripts.convert_wiki.latex import LatexConverter
 from scripts.convert_wiki.markdown_rewrite import _rewrite_link_target
@@ -4242,3 +4243,325 @@ class TestInListDlContinuation:
         assert "nested" in result
         # Nested list item must remain rendered as a nested list item.
         assert "    - nested" in result or "\n  - nested" in result
+
+
+"""Borderless blockquote HTML used by indented-box tests."""
+_BORDERLESS_BOX_HTML = (
+    '<blockquote style="border-left-style: none; padding: 8px 32px;">'
+    "<p>Consequence.</p></blockquote>"
+)
+
+
+def _first_blockquote(html: str) -> Tag:
+    """Parse *html* and return its first ``<blockquote>`` element."""
+    soup = BeautifulSoup(html, "html.parser")
+    element = soup.find("blockquote")
+    assert isinstance(element, Tag)
+    return element
+
+
+class TestIsIndentedBoxBlockquote:
+    """``_is_indented_box_blockquote`` recognises borderless box quotes only."""
+
+    def test_borderless_classless_box(self) -> None:
+        """A classless blockquote with a suppressed left border is a box."""
+        assert _is_indented_box_blockquote(_first_blockquote(_BORDERLESS_BOX_HTML))
+
+    def test_style_without_spaces(self) -> None:
+        """The border declaration matches without spaces around the colon."""
+        assert _is_indented_box_blockquote(
+            _first_blockquote(
+                '<blockquote style="border-left-style:none"><p>x</p></blockquote>'
+            )
+        )
+
+    def test_style_case_insensitive(self) -> None:
+        """The border declaration matches in upper case."""
+        assert _is_indented_box_blockquote(
+            _first_blockquote(
+                '<blockquote style="BORDER-LEFT-STYLE: NONE"><p>x</p></blockquote>'
+            )
+        )
+
+    def test_drawn_border_is_not_a_box(self) -> None:
+        """A blockquote whose left border is drawn is a quotation."""
+        assert not _is_indented_box_blockquote(
+            _first_blockquote(
+                '<blockquote style="border-left-style: solid"><p>x</p></blockquote>'
+            )
+        )
+
+    def test_missing_style_is_not_a_box(self) -> None:
+        """A blockquote with no inline style is not provably a box."""
+        assert not _is_indented_box_blockquote(
+            _first_blockquote("<blockquote><p>x</p></blockquote>")
+        )
+
+    def test_classed_box_is_excluded(self) -> None:
+        """A boxed class renders with the ``>`` prefix instead."""
+        assert not _is_indented_box_blockquote(
+            _first_blockquote(
+                '<blockquote class="templatequote" '
+                'style="border-left-style: none"><p>x</p></blockquote>'
+            )
+        )
+
+    def test_inside_list_item_is_excluded(self) -> None:
+        """A box nested in a list item keeps the list layout."""
+        assert not _is_indented_box_blockquote(
+            _first_blockquote(
+                '<ul><li><blockquote style="border-left-style: none"><p>x</p>'
+                "</blockquote></li></ul>"
+            )
+        )
+
+    def test_inside_table_cell_is_excluded(self) -> None:
+        """A box nested in a table cell keeps the cell layout."""
+        assert not _is_indented_box_blockquote(
+            _first_blockquote(
+                '<table><tr><td><blockquote style="border-left-style: none"><p>x</p>'
+                "</blockquote></td></tr></table>"
+            )
+        )
+
+    def test_nested_list_is_excluded(self) -> None:
+        """A box carrying a nested list is left to the list renderer."""
+        assert not _is_indented_box_blockquote(
+            _first_blockquote(
+                '<blockquote style="border-left-style: none"><p>Intro.</p>'
+                "<ul><li>a</li></ul></blockquote>"
+            )
+        )
+
+    def test_nested_table_is_excluded(self) -> None:
+        """A box carrying a nested table is left to the table renderer."""
+        assert not _is_indented_box_blockquote(
+            _first_blockquote(
+                '<blockquote style="border-left-style: none">'
+                "<table><tr><td>c</td></tr></table></blockquote>"
+            )
+        )
+
+    def test_nested_blockquote_is_excluded(self) -> None:
+        """A box carrying a blockquote descendant keeps quote markup intact."""
+        assert not _is_indented_box_blockquote(
+            _first_blockquote(
+                '<blockquote style="border-left-style: none"><p>Alpha.</p>'
+                '<blockquote class="templatequote"><p>Quoted.</p></blockquote>'
+                "</blockquote>"
+            )
+        )
+
+    def test_nested_pre_is_excluded(self) -> None:
+        """A box carrying preformatted text keeps line-start markup intact."""
+        assert not _is_indented_box_blockquote(
+            _first_blockquote(
+                '<blockquote style="border-left-style: none"><p>Alpha.</p>'
+                "<pre>code\nline2</pre></blockquote>"
+            )
+        )
+
+    def test_inside_dd_is_excluded(self) -> None:
+        """A box inside a definition description is indented by the dd row."""
+        assert not _is_indented_box_blockquote(
+            _first_blockquote(
+                '<dl><dd><blockquote style="border-left-style: none"><p>x</p>'
+                "</blockquote></dd></dl>"
+            )
+        )
+
+    def test_inside_dt_is_excluded(self) -> None:
+        """A box inside a definition term stays out of the box handler."""
+        assert not _is_indented_box_blockquote(
+            _first_blockquote(
+                '<dl><dt><blockquote style="border-left-style: none"><p>x</p>'
+                "</blockquote></dt></dl>"
+            )
+        )
+
+    def test_empty_box_is_excluded(self) -> None:
+        """An empty box has nothing to indent."""
+        assert not _is_indented_box_blockquote(
+            _first_blockquote(
+                '<blockquote style="border-left-style: none"></blockquote>'
+            )
+        )
+
+    def test_non_blockquote_tag_is_excluded(self) -> None:
+        """Any other tag name is not a box."""
+        soup = BeautifulSoup(
+            '<div style="border-left-style: none">x</div>', "html.parser"
+        )
+        element = soup.find("div")
+        assert isinstance(element, Tag)
+        assert not _is_indented_box_blockquote(element)
+
+
+"""Inline style for borderless box blockquote tests."""
+_BOX_STYLE = 'style="border-left-style: none; margin: 1em 0px; padding: 8px 32px;"'
+
+
+class TestIndentedBoxBlockquote:
+    """A borderless box blockquote indents each of its lines once."""
+
+    @pytest.mark.anyio
+    async def test_two_paragraphs(self, converter: WikiHtmlConverter) -> None:
+        """Both paragraph lines carry one indent."""
+        result = await _convert(
+            converter,
+            f"<blockquote {_BOX_STYLE}><p>Alpha.</p><p>Beta.</p></blockquote>",
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; Alpha." in result
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; Beta." in result
+
+    @pytest.mark.anyio
+    async def test_bare_text_child(self, converter: WikiHtmlConverter) -> None:
+        """A text-only box is indented too."""
+        result = await _convert(
+            converter, f"<blockquote {_BOX_STYLE}>Alpha.</blockquote>"
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; Alpha." in result
+
+    @pytest.mark.anyio
+    async def test_inline_markup_preserved(self, converter: WikiHtmlConverter) -> None:
+        """The indent lands outside the inline Markdown markers."""
+        result = await _convert(
+            converter,
+            f"<blockquote {_BOX_STYLE}><p><i>Statement.</i></p></blockquote>",
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; _Statement._" in result
+
+    @pytest.mark.anyio
+    async def test_display_math_row_indented(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A display-math row inside a box is indented with the rest."""
+        result = await _convert(
+            converter,
+            f"<blockquote {_BOX_STYLE}><p>Alpha.</p>"
+            f"<p>{_block_math_span('x')}</p></blockquote>",
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; Alpha." in result
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; $$x$$" in result
+
+    @pytest.mark.anyio
+    async def test_classed_box_keeps_quote_prefix(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A boxed class still renders with the ``>`` prefix."""
+        result = await _convert(
+            converter,
+            '<blockquote class="templatequote" '
+            'style="border-left-style: none"><p>Quote.</p></blockquote>',
+        )
+        assert result.startswith("> ")
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; Quote." not in result
+
+    @pytest.mark.anyio
+    async def test_drawn_border_stays_plain(self, converter: WikiHtmlConverter) -> None:
+        """A blockquote with a drawn border is not indented."""
+        result = await _convert(
+            converter,
+            '<blockquote style="border-left-style: solid"><p>Quote.</p></blockquote>',
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp;" not in result
+        assert "Quote." in result
+
+    @pytest.mark.anyio
+    async def test_box_inside_list_item(self, converter: WikiHtmlConverter) -> None:
+        """A box inside a list item keeps the list layout."""
+        result = await _convert(
+            converter,
+            f"<ul><li><blockquote {_BOX_STYLE}><p>Boxed.</p></blockquote></li></ul>",
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp;" not in result
+        assert "Boxed." in result
+
+    @pytest.mark.anyio
+    async def test_box_inside_table_cell(self, converter: WikiHtmlConverter) -> None:
+        """A box inside a table cell keeps the cell layout."""
+        result = await _convert(
+            converter,
+            f"<table><tr><td><blockquote {_BOX_STYLE}><p>Boxed.</p>"
+            "</blockquote></td></tr></table>",
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp;" not in result
+        assert "Boxed." in result
+
+    @pytest.mark.anyio
+    async def test_box_with_nested_list_not_indented(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A box carrying a nested list is left alone."""
+        result = await _convert(
+            converter,
+            f"<blockquote {_BOX_STYLE}><p>Intro.</p><ul><li>a</li></ul></blockquote>",
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp;" not in result
+        assert "- a" in result
+
+    @pytest.mark.anyio
+    async def test_box_with_nested_blockquote_not_indented(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A box carrying a blockquote keeps the quote line-start intact."""
+        result = await _convert(
+            converter,
+            f"<blockquote {_BOX_STYLE}><p>Alpha.</p>"
+            '<blockquote class="templatequote"><p>Quoted.</p></blockquote>'
+            "</blockquote>",
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; > Quoted." not in result
+        assert "> Quoted." in result
+
+    @pytest.mark.anyio
+    async def test_box_with_nested_pre_not_indented(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A box carrying preformatted text keeps its line starts intact."""
+        result = await _convert(
+            converter,
+            f"<blockquote {_BOX_STYLE}><p>Alpha.</p><pre>code line\nline2</pre>"
+            "</blockquote>",
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; code line" not in result
+        assert "code line" in result
+        assert "line2" in result
+
+    @pytest.mark.anyio
+    async def test_empty_box_yields_nothing(self, converter: WikiHtmlConverter) -> None:
+        """An empty box produces empty output."""
+        result = await _convert(converter, f"<blockquote {_BOX_STYLE}></blockquote>")
+        assert result == ""
+
+    @pytest.mark.anyio
+    async def test_box_inside_dd_not_double_indented(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A box inside a dd row is indented by the row, not the handler."""
+        result = await _convert(
+            converter,
+            f"<dl><dd><blockquote {_BOX_STYLE}><p>Boxed.</p></blockquote></dd></dl>",
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; Boxed." in result
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Boxed." not in result
+
+    @pytest.mark.anyio
+    async def test_box_inside_dt_not_handler_indented(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A box inside a dt stays out of the box handler's indent path."""
+        result = await _convert(
+            converter,
+            f"<dl><dt><blockquote {_BOX_STYLE}><p>Boxed.</p></blockquote></dt></dl>",
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; Boxed." not in result
+        assert "Boxed." in result
+
+    @pytest.mark.anyio
+    async def test_definition_row_indent_unchanged(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """The renamed helper keeps ``<dd>`` row output identical."""
+        result = await _convert(converter, "<dl><dd>first row</dd></dl>")
+        assert result == "&nbsp;&nbsp;&nbsp;&nbsp; first row\n\n"
