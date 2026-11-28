@@ -1,0 +1,794 @@
+{
+  "api_titles": [
+    "Fractional matching",
+    "Norman L. Biggs",
+    "U. S. R. Murty",
+    "Perfect graph",
+    "König's theorem (disambiguation)",
+    "Chromatic index",
+    "Weighted graph",
+    "ArXiv (identifier)",
+    "Flow network",
+    "J. A. Bondy",
+    "Projective configuration",
+    "Acta Mathematica Hungarica",
+    "S2CID (identifier)",
+    "Constructive proof",
+    "Umlaut (diacritic)",
+    "Tibor Gallai",
+    "Doi (identifier)",
+    "Polynomial time",
+    "William J. Cook",
+    "Hopcroft–Karp algorithm",
+    "MR (identifier)",
+    "Vertex cover problem",
+    "Michael D. Plummer",
+    "Discrete Mathematics (journal)",
+    "Matching (graph theory)",
+    "Maximum flow problem",
+    "Ernst Steinitz",
+    "Induced subgraph",
+    "ISBN (identifier)",
+    "Jenő Egerváry",
+    "Vertex cover",
+    "Dual linear program",
+    "Minimum vertex cover",
+    "Robin Wilson (mathematician)",
+    "Integer",
+    "Clique (graph theory)",
+    "Regular graph",
+    "Matching polytope",
+    "Graph Theory, 1736–1936",
+    "William R. Pulleyblank",
+    "Dilworth's theorem",
+    "Cardinality",
+    "Maximum matching",
+    "Dénes Kőnig",
+    "Independent set (graph theory)",
+    "Nicolò Cesa-Bianchi",
+    "Mathematics",
+    "Bipartite graph",
+    "Combinatorics",
+    "Perfect graph theorem",
+    "Approximation algorithm",
+    "Degree (graph theory)",
+    "Alexander Schrijver",
+    "Hall's marriage theorem",
+    "Gyula Kőnig",
+    "Chromatic number",
+    "International Congress of Mathematicians",
+    "Linear program",
+    "Kőnig's lemma",
+    "Max-flow min-cut theorem",
+    "NP-complete",
+    "László Lovász",
+    "Incidence matrix",
+    "Matching in hypergraphs",
+    "Minimum cut",
+    "Graph theory",
+    "Perfect matching",
+    "Distributed algorithm",
+    "Double acute accent",
+    "Line graph"
+  ],
+  "api_responses": [
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Polynomial time",
+            "to": "Time complexity",
+            "tofragment": "Polynomial time"
+          },
+          {
+            "from": "Vertex cover problem",
+            "to": "Vertex cover"
+          },
+          {
+            "from": "Weighted graph",
+            "to": "Glossary of graph theory",
+            "tofragment": "weighted graph"
+          },
+          {
+            "from": "Chromatic index",
+            "to": "Edge coloring",
+            "tofragment": "Definitions"
+          },
+          {
+            "from": "Maximum matching",
+            "to": "Maximum-cardinality matching"
+          },
+          {
+            "from": "Minimum vertex cover",
+            "to": "Vertex cover"
+          },
+          {
+            "from": "König's theorem (disambiguation)",
+            "to": "König's theorem"
+          },
+          {
+            "from": "Projective configuration",
+            "to": "Configuration (geometry)"
+          },
+          {
+            "from": "J. A. Bondy",
+            "to": "John Adrian Bondy"
+          },
+          {
+            "from": "ISBN (identifier)",
+            "to": "ISBN"
+          },
+          {
+            "from": "S2CID (identifier)",
+            "to": "Semantic Scholar",
+            "tofragment": "S2CID"
+          },
+          {
+            "from": "ArXiv (identifier)",
+            "to": "ArXiv"
+          },
+          {
+            "from": "Doi (identifier)",
+            "to": "Digital object identifier"
+          },
+          {
+            "from": "MR (identifier)",
+            "to": "Mathematical Reviews"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 5170,
+            "ns": 0,
+            "title": "Combinatorics"
+          },
+          {
+            "pageid": 6174,
+            "ns": 0,
+            "title": "Cardinality"
+          },
+          {
+            "pageid": 14563,
+            "ns": 0,
+            "title": "Integer"
+          },
+          {
+            "pageid": 14919,
+            "ns": 0,
+            "title": "ISBN"
+          },
+          {
+            "pageid": 18831,
+            "ns": 0,
+            "title": "Mathematics"
+          },
+          {
+            "pageid": 38751,
+            "ns": 0,
+            "title": "ArXiv"
+          },
+          {
+            "pageid": 85821,
+            "ns": 0,
+            "title": "Regular graph"
+          },
+          {
+            "pageid": 244431,
+            "ns": 0,
+            "title": "Bipartite graph"
+          },
+          {
+            "pageid": 325802,
+            "ns": 0,
+            "title": "Glossary of graph theory"
+          },
+          {
+            "pageid": 360113,
+            "ns": 0,
+            "title": "Constructive proof"
+          },
+          {
+            "pageid": 403165,
+            "ns": 0,
+            "title": "Maximum flow problem"
+          },
+          {
+            "pageid": 405944,
+            "ns": 0,
+            "title": "Time complexity"
+          },
+          {
+            "pageid": 422994,
+            "ns": 0,
+            "title": "Digital object identifier"
+          },
+          {
+            "pageid": 524466,
+            "ns": 0,
+            "title": "Clique (graph theory)"
+          },
+          {
+            "pageid": 524501,
+            "ns": 0,
+            "title": "Independent set (graph theory)"
+          },
+          {
+            "pageid": 562782,
+            "ns": 0,
+            "title": "Vertex cover"
+          },
+          {
+            "pageid": 581797,
+            "ns": 0,
+            "title": "Matching (graph theory)"
+          },
+          {
+            "pageid": 645676,
+            "ns": 0,
+            "title": "Flow network"
+          },
+          {
+            "pageid": 670531,
+            "ns": 0,
+            "title": "Perfect graph"
+          },
+          {
+            "pageid": 670602,
+            "ns": 0,
+            "title": "Perfect graph theorem"
+          },
+          {
+            "pageid": 690647,
+            "ns": 0,
+            "title": "Edge coloring"
+          },
+          {
+            "pageid": 749033,
+            "ns": 0,
+            "title": "Dilworth's theorem"
+          },
+          {
+            "pageid": 1327120,
+            "ns": 0,
+            "title": "Dénes Kőnig"
+          },
+          {
+            "pageid": 1485646,
+            "ns": 0,
+            "title": "Mathematical Reviews"
+          },
+          {
+            "pageid": 1651618,
+            "ns": 0,
+            "title": "Tibor Gallai"
+          },
+          {
+            "pageid": 1655188,
+            "ns": 0,
+            "title": "Induced subgraph"
+          },
+          {
+            "pageid": 2715277,
+            "ns": 0,
+            "title": "Robin Wilson (mathematician)"
+          },
+          {
+            "pageid": 3966685,
+            "ns": 0,
+            "title": "Ernst Steinitz"
+          },
+          {
+            "pageid": 5465075,
+            "ns": 0,
+            "title": "König's theorem"
+          },
+          {
+            "pageid": 5944391,
+            "ns": 0,
+            "title": "Hopcroft–Karp algorithm"
+          },
+          {
+            "pageid": 5989592,
+            "ns": 0,
+            "title": "Maximum-cardinality matching"
+          },
+          {
+            "pageid": 7200539,
+            "ns": 0,
+            "title": "Configuration (geometry)"
+          },
+          {
+            "pageid": 15772894,
+            "ns": 0,
+            "title": "Dual linear program"
+          },
+          {
+            "pageid": 21988115,
+            "ns": 0,
+            "title": "Discrete Mathematics (journal)"
+          },
+          {
+            "pageid": 22930177,
+            "ns": 0,
+            "title": "John Adrian Bondy"
+          },
+          {
+            "pageid": 22930508,
+            "ns": 0,
+            "title": "U. S. R. Murty"
+          },
+          {
+            "pageid": 24687007,
+            "ns": 0,
+            "title": "Jenő Egerváry"
+          },
+          {
+            "pageid": 25220329,
+            "ns": 0,
+            "title": "Nicolò Cesa-Bianchi"
+          },
+          {
+            "pageid": 26991095,
+            "ns": 0,
+            "title": "Norman L. Biggs"
+          },
+          {
+            "pageid": 30625626,
+            "ns": 0,
+            "title": "Acta Mathematica Hungarica"
+          },
+          {
+            "pageid": 30966133,
+            "ns": 0,
+            "title": "Umlaut (diacritic)"
+          },
+          {
+            "pageid": 38308915,
+            "ns": 0,
+            "title": "William J. Cook"
+          },
+          {
+            "pageid": 39179076,
+            "ns": 0,
+            "title": "Michael D. Plummer"
+          },
+          {
+            "pageid": 44657757,
+            "ns": 0,
+            "title": "William R. Pulleyblank"
+          },
+          {
+            "pageid": 48455863,
+            "ns": 0,
+            "title": "Semantic Scholar"
+          },
+          {
+            "pageid": 64410778,
+            "ns": 0,
+            "title": "Fractional matching"
+          },
+          {
+            "pageid": 64572404,
+            "ns": 0,
+            "title": "Matching polytope"
+          },
+          {
+            "pageid": 64756030,
+            "ns": 0,
+            "title": "Graph Theory, 1736–1936"
+          }
+        ]
+      }
+    },
+    {
+      "batchcomplete": true,
+      "query": {
+        "redirects": [
+          {
+            "from": "Linear program",
+            "to": "Linear programming"
+          },
+          {
+            "from": "Chromatic number",
+            "to": "Graph coloring",
+            "tofragment": "Chromatic number"
+          },
+          {
+            "from": "NP-complete",
+            "to": "NP-completeness"
+          }
+        ],
+        "pages": [
+          {
+            "pageid": 12401,
+            "ns": 0,
+            "title": "Graph theory"
+          },
+          {
+            "pageid": 43730,
+            "ns": 0,
+            "title": "Linear programming"
+          },
+          {
+            "pageid": 44031,
+            "ns": 0,
+            "title": "Perfect matching"
+          },
+          {
+            "pageid": 78130,
+            "ns": 0,
+            "title": "Max-flow min-cut theorem"
+          },
+          {
+            "pageid": 153788,
+            "ns": 0,
+            "title": "Kőnig's lemma"
+          },
+          {
+            "pageid": 167201,
+            "ns": 0,
+            "title": "Double acute accent"
+          },
+          {
+            "pageid": 186969,
+            "ns": 0,
+            "title": "Hall's marriage theorem"
+          },
+          {
+            "pageid": 420919,
+            "ns": 0,
+            "title": "Incidence matrix"
+          },
+          {
+            "pageid": 426743,
+            "ns": 0,
+            "title": "Graph coloring"
+          },
+          {
+            "pageid": 563105,
+            "ns": 0,
+            "title": "Approximation algorithm"
+          },
+          {
+            "pageid": 627842,
+            "ns": 0,
+            "title": "International Congress of Mathematicians"
+          },
+          {
+            "pageid": 675231,
+            "ns": 0,
+            "title": "Line graph"
+          },
+          {
+            "pageid": 1374448,
+            "ns": 0,
+            "title": "Degree (graph theory)"
+          },
+          {
+            "pageid": 1623938,
+            "ns": 0,
+            "title": "László Lovász"
+          },
+          {
+            "pageid": 1641156,
+            "ns": 0,
+            "title": "Gyula Kőnig"
+          },
+          {
+            "pageid": 3367202,
+            "ns": 0,
+            "title": "Distributed algorithm"
+          },
+          {
+            "pageid": 3562453,
+            "ns": 0,
+            "title": "Minimum cut"
+          },
+          {
+            "pageid": 23385892,
+            "ns": 0,
+            "title": "NP-completeness"
+          },
+          {
+            "pageid": 35280549,
+            "ns": 0,
+            "title": "Alexander Schrijver"
+          },
+          {
+            "pageid": 63030703,
+            "ns": 0,
+            "title": "Matching in hypergraphs"
+          }
+        ]
+      }
+    }
+  ],
+  "redirect_cache": {
+    "Polynomial time": {
+      "to": "Time complexity",
+      "tofragment": "Polynomial time"
+    },
+    "Vertex cover problem": {
+      "to": "Vertex cover",
+      "tofragment": ""
+    },
+    "Weighted graph": {
+      "to": "Glossary of graph theory",
+      "tofragment": "weighted graph"
+    },
+    "Chromatic index": {
+      "to": "Edge coloring",
+      "tofragment": "Definitions"
+    },
+    "Maximum matching": {
+      "to": "Maximum-cardinality matching",
+      "tofragment": ""
+    },
+    "Minimum vertex cover": {
+      "to": "Vertex cover",
+      "tofragment": ""
+    },
+    "König's theorem (disambiguation)": {
+      "to": "König's theorem",
+      "tofragment": ""
+    },
+    "Projective configuration": {
+      "to": "Configuration (geometry)",
+      "tofragment": ""
+    },
+    "J. A. Bondy": {
+      "to": "John Adrian Bondy",
+      "tofragment": ""
+    },
+    "ISBN (identifier)": {
+      "to": "ISBN",
+      "tofragment": ""
+    },
+    "S2CID (identifier)": {
+      "to": "Semantic Scholar",
+      "tofragment": "S2CID"
+    },
+    "ArXiv (identifier)": {
+      "to": "ArXiv",
+      "tofragment": ""
+    },
+    "Doi (identifier)": {
+      "to": "Digital object identifier",
+      "tofragment": ""
+    },
+    "MR (identifier)": {
+      "to": "Mathematical Reviews",
+      "tofragment": ""
+    },
+    "Fractional matching": {
+      "to": "Fractional matching",
+      "tofragment": ""
+    },
+    "Norman L. Biggs": {
+      "to": "Norman L. Biggs",
+      "tofragment": ""
+    },
+    "U. S. R. Murty": {
+      "to": "U. S. R. Murty",
+      "tofragment": ""
+    },
+    "Perfect graph": {
+      "to": "Perfect graph",
+      "tofragment": ""
+    },
+    "Flow network": {
+      "to": "Flow network",
+      "tofragment": ""
+    },
+    "Acta Mathematica Hungarica": {
+      "to": "Acta Mathematica Hungarica",
+      "tofragment": ""
+    },
+    "Constructive proof": {
+      "to": "Constructive proof",
+      "tofragment": ""
+    },
+    "Umlaut (diacritic)": {
+      "to": "Umlaut (diacritic)",
+      "tofragment": ""
+    },
+    "Tibor Gallai": {
+      "to": "Tibor Gallai",
+      "tofragment": ""
+    },
+    "William J. Cook": {
+      "to": "William J. Cook",
+      "tofragment": ""
+    },
+    "Hopcroft–Karp algorithm": {
+      "to": "Hopcroft–Karp algorithm",
+      "tofragment": ""
+    },
+    "Michael D. Plummer": {
+      "to": "Michael D. Plummer",
+      "tofragment": ""
+    },
+    "Discrete Mathematics (journal)": {
+      "to": "Discrete Mathematics (journal)",
+      "tofragment": ""
+    },
+    "Matching (graph theory)": {
+      "to": "Matching (graph theory)",
+      "tofragment": ""
+    },
+    "Maximum flow problem": {
+      "to": "Maximum flow problem",
+      "tofragment": ""
+    },
+    "Ernst Steinitz": {
+      "to": "Ernst Steinitz",
+      "tofragment": ""
+    },
+    "Induced subgraph": {
+      "to": "Induced subgraph",
+      "tofragment": ""
+    },
+    "Jenő Egerváry": {
+      "to": "Jenő Egerváry",
+      "tofragment": ""
+    },
+    "Vertex cover": {
+      "to": "Vertex cover",
+      "tofragment": ""
+    },
+    "Dual linear program": {
+      "to": "Dual linear program",
+      "tofragment": ""
+    },
+    "Robin Wilson (mathematician)": {
+      "to": "Robin Wilson (mathematician)",
+      "tofragment": ""
+    },
+    "Integer": {
+      "to": "Integer",
+      "tofragment": ""
+    },
+    "Clique (graph theory)": {
+      "to": "Clique (graph theory)",
+      "tofragment": ""
+    },
+    "Regular graph": {
+      "to": "Regular graph",
+      "tofragment": ""
+    },
+    "Matching polytope": {
+      "to": "Matching polytope",
+      "tofragment": ""
+    },
+    "Graph Theory, 1736–1936": {
+      "to": "Graph Theory, 1736–1936",
+      "tofragment": ""
+    },
+    "William R. Pulleyblank": {
+      "to": "William R. Pulleyblank",
+      "tofragment": ""
+    },
+    "Dilworth's theorem": {
+      "to": "Dilworth's theorem",
+      "tofragment": ""
+    },
+    "Cardinality": {
+      "to": "Cardinality",
+      "tofragment": ""
+    },
+    "Dénes Kőnig": {
+      "to": "Dénes Kőnig",
+      "tofragment": ""
+    },
+    "Independent set (graph theory)": {
+      "to": "Independent set (graph theory)",
+      "tofragment": ""
+    },
+    "Nicolò Cesa-Bianchi": {
+      "to": "Nicolò Cesa-Bianchi",
+      "tofragment": ""
+    },
+    "Mathematics": {
+      "to": "Mathematics",
+      "tofragment": ""
+    },
+    "Bipartite graph": {
+      "to": "Bipartite graph",
+      "tofragment": ""
+    },
+    "Combinatorics": {
+      "to": "Combinatorics",
+      "tofragment": ""
+    },
+    "Perfect graph theorem": {
+      "to": "Perfect graph theorem",
+      "tofragment": ""
+    },
+    "Linear program": {
+      "to": "Linear programming",
+      "tofragment": ""
+    },
+    "Chromatic number": {
+      "to": "Graph coloring",
+      "tofragment": "Chromatic number"
+    },
+    "NP-complete": {
+      "to": "NP-completeness",
+      "tofragment": ""
+    },
+    "Approximation algorithm": {
+      "to": "Approximation algorithm",
+      "tofragment": ""
+    },
+    "Degree (graph theory)": {
+      "to": "Degree (graph theory)",
+      "tofragment": ""
+    },
+    "Alexander Schrijver": {
+      "to": "Alexander Schrijver",
+      "tofragment": ""
+    },
+    "Hall's marriage theorem": {
+      "to": "Hall's marriage theorem",
+      "tofragment": ""
+    },
+    "Gyula Kőnig": {
+      "to": "Gyula Kőnig",
+      "tofragment": ""
+    },
+    "International Congress of Mathematicians": {
+      "to": "International Congress of Mathematicians",
+      "tofragment": ""
+    },
+    "Kőnig's lemma": {
+      "to": "Kőnig's lemma",
+      "tofragment": ""
+    },
+    "Max-flow min-cut theorem": {
+      "to": "Max-flow min-cut theorem",
+      "tofragment": ""
+    },
+    "László Lovász": {
+      "to": "László Lovász",
+      "tofragment": ""
+    },
+    "Incidence matrix": {
+      "to": "Incidence matrix",
+      "tofragment": ""
+    },
+    "Matching in hypergraphs": {
+      "to": "Matching in hypergraphs",
+      "tofragment": ""
+    },
+    "Minimum cut": {
+      "to": "Minimum cut",
+      "tofragment": ""
+    },
+    "Graph theory": {
+      "to": "Graph theory",
+      "tofragment": ""
+    },
+    "Perfect matching": {
+      "to": "Perfect matching",
+      "tofragment": ""
+    },
+    "Distributed algorithm": {
+      "to": "Distributed algorithm",
+      "tofragment": ""
+    },
+    "Double acute accent": {
+      "to": "Double acute accent",
+      "tofragment": ""
+    },
+    "Line graph": {
+      "to": "Line graph",
+      "tofragment": ""
+    }
+  },
+  "image_metadata": {
+    "File:Koenigs-theorem-graph.svg": "Graph illustrating König's theorem",
+    "File:Minimum cut in a bipartite graph.svg": "Illustration to how maximum flow/minimum cut looks in bipartite graphs"
+  },
+  "name_map_overrides": {}
+}
