@@ -1,4 +1,4 @@
-"""Structural queries on the HTML tree for inline/display-math context.
+"""Structural queries on the HTML tree for inline/display-math and box context.
 
 These pure functions inspect the tree to determine whether an element is
 in an inline context, contains display-math-only content, or is adjacent
@@ -8,7 +8,16 @@ prefix/suffix spacing without duplicating the same tree walks.
 
 from __future__ import annotations
 
+import re
+
 from bs4 import NavigableString, PageElement, Tag
+
+from .template_config import _BOXED_CLASSES
+
+"""Matches a suppressed left border in an inline ``style`` attribute."""
+_BORDERLESS_STYLE_RE = re.compile(r"\bborder-left-style\s*:\s*none\b", re.IGNORECASE)
+"""Ancestors whose layout a box indent would break."""
+_BOX_HOST_TAGS = ("li", "td", "th")
 
 """Exported names from this module."""
 __all__ = ()
@@ -234,6 +243,34 @@ def _is_indented_dd_row(row: Tag) -> bool:
     if row.find(["ul", "ol", "table"]) is not None:
         return False
     return True
+
+
+def _is_indented_box_blockquote(ele: Tag) -> bool:
+    """Return True if *ele* is a borderless ``<blockquote>`` box to indent.
+
+    Wikipedia draws a theorem or linear-programme box as a ``<blockquote>``
+    whose inline style suppresses the quote border
+    (``border-left-style: none``).  The box is set off by indentation in the
+    source article, so it is indented here as one block level.
+
+    True when all hold: ``ele.name == "blockquote"``; no class is in
+    ``_BOXED_CLASSES`` (those render with a ``>`` prefix, which already
+    indents); the inline style suppresses the left border; no ``li``,
+    ``td``, or ``th`` ancestor; the element has text; and the element
+    contains no ``ul``, ``ol``, or ``table`` descendant, since a nested list
+    or table carries its own layout and must not be prefixed.
+    """
+    if ele.name != "blockquote":
+        return False
+    if _BOXED_CLASSES & frozenset(ele.get_attribute_list("class")):
+        return False
+    if not _BORDERLESS_STYLE_RE.search(str(ele.get("style", ""))):
+        return False
+    if ele.find_parent(_BOX_HOST_TAGS) is not None:
+        return False
+    if not ele.get_text(strip=True):
+        return False
+    return ele.find(["ul", "ol", "table"]) is None
 
 
 def _dl_follows_p(ele: Tag) -> bool:

@@ -16,6 +16,7 @@ from scripts.convert_wiki.converter import WikiHtmlConverter, _discards_subtree
 from scripts.convert_wiki.inline_context import (
     _in_inline_context,
     _is_display_formula_dl,
+    _is_indented_box_blockquote,
 )
 from scripts.convert_wiki.latex import LatexConverter
 from scripts.convert_wiki.markdown_rewrite import _rewrite_link_target
@@ -4242,3 +4243,117 @@ class TestInListDlContinuation:
         assert "nested" in result
         # Nested list item must remain rendered as a nested list item.
         assert "    - nested" in result or "\n  - nested" in result
+
+
+_BORDERLESS_BOX_HTML = (
+    '<blockquote style="border-left-style: none; padding: 8px 32px;">'
+    "<p>Consequence.</p></blockquote>"
+)
+
+
+def _first_blockquote(html: str) -> Tag:
+    """Parse *html* and return its first ``<blockquote>`` element."""
+    soup = BeautifulSoup(html, "html.parser")
+    element = soup.find("blockquote")
+    assert isinstance(element, Tag)
+    return element
+
+
+class TestIsIndentedBoxBlockquote:
+    """``_is_indented_box_blockquote`` recognises borderless box quotes only."""
+
+    def test_borderless_classless_box(self) -> None:
+        """A classless blockquote with a suppressed left border is a box."""
+        assert _is_indented_box_blockquote(_first_blockquote(_BORDERLESS_BOX_HTML))
+
+    def test_style_without_spaces(self) -> None:
+        """The border declaration matches without spaces around the colon."""
+        assert _is_indented_box_blockquote(
+            _first_blockquote(
+                '<blockquote style="border-left-style:none"><p>x</p></blockquote>'
+            )
+        )
+
+    def test_style_case_insensitive(self) -> None:
+        """The border declaration matches in upper case."""
+        assert _is_indented_box_blockquote(
+            _first_blockquote(
+                '<blockquote style="BORDER-LEFT-STYLE: NONE"><p>x</p></blockquote>'
+            )
+        )
+
+    def test_drawn_border_is_not_a_box(self) -> None:
+        """A blockquote whose left border is drawn is a quotation."""
+        assert not _is_indented_box_blockquote(
+            _first_blockquote(
+                '<blockquote style="border-left-style: solid"><p>x</p></blockquote>'
+            )
+        )
+
+    def test_missing_style_is_not_a_box(self) -> None:
+        """A blockquote with no inline style is not provably a box."""
+        assert not _is_indented_box_blockquote(
+            _first_blockquote("<blockquote><p>x</p></blockquote>")
+        )
+
+    def test_classed_box_is_excluded(self) -> None:
+        """A boxed class renders with the ``>`` prefix instead."""
+        assert not _is_indented_box_blockquote(
+            _first_blockquote(
+                '<blockquote class="templatequote" '
+                'style="border-left-style: none"><p>x</p></blockquote>'
+            )
+        )
+
+    def test_inside_list_item_is_excluded(self) -> None:
+        """A box nested in a list item keeps the list layout."""
+        assert not _is_indented_box_blockquote(
+            _first_blockquote(
+                '<ul><li><blockquote style="border-left-style: none"><p>x</p>'
+                "</blockquote></li></ul>"
+            )
+        )
+
+    def test_inside_table_cell_is_excluded(self) -> None:
+        """A box nested in a table cell keeps the cell layout."""
+        assert not _is_indented_box_blockquote(
+            _first_blockquote(
+                '<table><tr><td><blockquote style="border-left-style: none"><p>x</p>'
+                "</blockquote></td></tr></table>"
+            )
+        )
+
+    def test_nested_list_is_excluded(self) -> None:
+        """A box carrying a nested list is left to the list renderer."""
+        assert not _is_indented_box_blockquote(
+            _first_blockquote(
+                '<blockquote style="border-left-style: none"><p>Intro.</p>'
+                "<ul><li>a</li></ul></blockquote>"
+            )
+        )
+
+    def test_nested_table_is_excluded(self) -> None:
+        """A box carrying a nested table is left to the table renderer."""
+        assert not _is_indented_box_blockquote(
+            _first_blockquote(
+                '<blockquote style="border-left-style: none">'
+                "<table><tr><td>c</td></tr></table></blockquote>"
+            )
+        )
+
+    def test_empty_box_is_excluded(self) -> None:
+        """An empty box has nothing to indent."""
+        assert not _is_indented_box_blockquote(
+            _first_blockquote(
+                '<blockquote style="border-left-style: none"></blockquote>'
+            )
+        )
+
+    def test_non_blockquote_tag_is_excluded(self) -> None:
+        """Any other tag name is not a box."""
+        soup = BeautifulSoup(
+            '<div style="border-left-style: none">x</div>', "html.parser"
+        )
+        element = soup.find("div")
+        assert isinstance(element, Tag)
+        assert not _is_indented_box_blockquote(element)
