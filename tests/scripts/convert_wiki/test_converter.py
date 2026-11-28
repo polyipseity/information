@@ -4245,6 +4245,7 @@ class TestInListDlContinuation:
         assert "    - nested" in result or "\n  - nested" in result
 
 
+"""Borderless blockquote HTML used by indented-box tests."""
 _BORDERLESS_BOX_HTML = (
     '<blockquote style="border-left-style: none; padding: 8px 32px;">'
     "<p>Consequence.</p></blockquote>"
@@ -4359,6 +4360,7 @@ class TestIsIndentedBoxBlockquote:
         assert not _is_indented_box_blockquote(element)
 
 
+"""Inline style for borderless box blockquote tests."""
 _BOX_STYLE = 'style="border-left-style: none; margin: 1em 0px; padding: 8px 32px;"'
 
 
