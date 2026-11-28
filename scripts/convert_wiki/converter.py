@@ -18,7 +18,7 @@ Dispatch is split into three tiers:
    these depend on CSS classes, not tag names.
 2. **Parameterized** (need extra args): header (``seen_heading_texts``),
    ol/ul/li (``list_stack``), anchor (async).
-3. **Simple tag registry** (``_SIMPLE_TAG_HANDLERS``): 21 tags mapped to
+3. **Simple tag registry** (``_SIMPLE_TAG_HANDLERS``): 22 tags mapped to
    handler method names via a class-level dict lookup.
 
 The converter must not mutate the HTML tree — all mutations belong in
@@ -57,6 +57,7 @@ from .inline_context import (
     _in_inline_context,
     _is_display_formula_dl,
     _is_display_math_only,
+    _is_indented_box_blockquote,
     _is_indented_dd_row,
 )
 from .latex import LatexConverter
@@ -123,14 +124,14 @@ _BARE_URL_REGEX = re.compile(r"(?:https?://|www\.)[^\s<>]+")
 _SIDEBAR_TIGHT_WRAPPING_RE = re.compile(r"[ \t]+", re.MULTILINE)
 """Heading tag names (``h1`` through ``h6``)."""
 _HEADING_TAGS = frozenset({"h1", "h2", "h3", "h4", "h5", "h6"})
-"""Non-breaking-space indent applied to ``<dl>`` rows."""
+"""Non-breaking-space indent applied to indented block rows."""
 _DL_INDENT = "&nbsp;&nbsp;&nbsp;&nbsp;"
 """Separator joining the rows of a display-math ``<dl>`` onto one line."""
 _MATH_DL_ROW_SEPARATOR = f" <br/> {_DL_INDENT} "
 
 
-def _indent_dd_lines(strings: str) -> str:
-    """Indent non-empty ``<dd>`` row lines by one definition-list level."""
+def _indent_block_lines(strings: str) -> str:
+    """Indent every non-empty line by one definition-list level."""
     indent = f"{_DL_INDENT} "
     return "\n".join(
         f"{indent}{line}" if line.strip() else line for line in strings.split("\n")
@@ -315,6 +316,7 @@ class WikiHtmlConverter:
     """
     _SIMPLE_TAG_HANDLERS: dict[str, str] = {
         "big": "_handle_big",
+        "blockquote": "_handle_blockquote",
         "br": "_handle_br",
         "cite": "_handle_cite",
         "code": "_handle_code",
@@ -689,7 +691,7 @@ class WikiHtmlConverter:
             return process_strings(strings) or ""
         strings = process_strings(strings)
         if indent_dd and strings:
-            strings = _indent_dd_lines(strings)
+            strings = _indent_block_lines(strings)
         return strings and f"{config.prefix}{strings}{config.suffix}"
 
     async def _dispatch(
@@ -795,6 +797,21 @@ class WikiHtmlConverter:
         return soon_values, list_stack
 
     # --- Tag handlers ---
+
+    def _handle_blockquote(
+        self, ele: Tag, classes: frozenset[str]
+    ) -> _HandlerConfig | None:
+        """Indent a borderless box blockquote; leave other quotes alone.
+
+        A classless ``<blockquote>`` whose inline style suppresses the left
+        border is how Wikipedia draws a theorem or linear-programme box, so
+        its content sits one indentation level in from the surrounding
+        prose.  A classed box keeps the ``>`` prefix, which already indents,
+        and a plain blockquote falls through to generic block handling.
+        """
+        if not _is_indented_box_blockquote(ele):
+            return None
+        return _HandlerConfig(suffix="\n\n", process_strings=_indent_block_lines)
 
     def _handle_br(self, ele: Tag, classes: frozenset[str]) -> _HandlerConfig | None:
         """Render a <br> tag as a newline, except Safari's interchange marker.

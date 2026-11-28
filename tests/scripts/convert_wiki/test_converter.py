@@ -4357,3 +4357,120 @@ class TestIsIndentedBoxBlockquote:
         element = soup.find("div")
         assert isinstance(element, Tag)
         assert not _is_indented_box_blockquote(element)
+
+
+_BOX_STYLE = 'style="border-left-style: none; margin: 1em 0px; padding: 8px 32px;"'
+
+
+class TestIndentedBoxBlockquote:
+    """A borderless box blockquote indents each of its lines once."""
+
+    @pytest.mark.anyio
+    async def test_two_paragraphs(self, converter: WikiHtmlConverter) -> None:
+        """Both paragraph lines carry one indent."""
+        result = await _convert(
+            converter,
+            f"<blockquote {_BOX_STYLE}><p>Alpha.</p><p>Beta.</p></blockquote>",
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; Alpha." in result
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; Beta." in result
+
+    @pytest.mark.anyio
+    async def test_bare_text_child(self, converter: WikiHtmlConverter) -> None:
+        """A text-only box is indented too."""
+        result = await _convert(
+            converter, f"<blockquote {_BOX_STYLE}>Alpha.</blockquote>"
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; Alpha." in result
+
+    @pytest.mark.anyio
+    async def test_inline_markup_preserved(self, converter: WikiHtmlConverter) -> None:
+        """The indent lands outside the inline Markdown markers."""
+        result = await _convert(
+            converter,
+            f"<blockquote {_BOX_STYLE}><p><i>Statement.</i></p></blockquote>",
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; _Statement._" in result
+
+    @pytest.mark.anyio
+    async def test_display_math_row_indented(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A display-math row inside a box is indented with the rest."""
+        result = await _convert(
+            converter,
+            f"<blockquote {_BOX_STYLE}><p>Alpha.</p>"
+            f"<p>{_block_math_span('x')}</p></blockquote>",
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; Alpha." in result
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; $$x$$" in result
+
+    @pytest.mark.anyio
+    async def test_classed_box_keeps_quote_prefix(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A boxed class still renders with the ``>`` prefix."""
+        result = await _convert(
+            converter,
+            '<blockquote class="templatequote" '
+            'style="border-left-style: none"><p>Quote.</p></blockquote>',
+        )
+        assert result.startswith("> ")
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; Quote." not in result
+
+    @pytest.mark.anyio
+    async def test_drawn_border_stays_plain(self, converter: WikiHtmlConverter) -> None:
+        """A blockquote with a drawn border is not indented."""
+        result = await _convert(
+            converter,
+            '<blockquote style="border-left-style: solid"><p>Quote.</p></blockquote>',
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp;" not in result
+        assert "Quote." in result
+
+    @pytest.mark.anyio
+    async def test_box_inside_list_item(self, converter: WikiHtmlConverter) -> None:
+        """A box inside a list item keeps the list layout."""
+        result = await _convert(
+            converter,
+            f"<ul><li><blockquote {_BOX_STYLE}><p>Boxed.</p></blockquote></li></ul>",
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp;" not in result
+        assert "Boxed." in result
+
+    @pytest.mark.anyio
+    async def test_box_inside_table_cell(self, converter: WikiHtmlConverter) -> None:
+        """A box inside a table cell keeps the cell layout."""
+        result = await _convert(
+            converter,
+            f"<table><tr><td><blockquote {_BOX_STYLE}><p>Boxed.</p>"
+            "</blockquote></td></tr></table>",
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp;" not in result
+        assert "Boxed." in result
+
+    @pytest.mark.anyio
+    async def test_box_with_nested_list_not_indented(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A box carrying a nested list is left alone."""
+        result = await _convert(
+            converter,
+            f"<blockquote {_BOX_STYLE}><p>Intro.</p><ul><li>a</li></ul></blockquote>",
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp;" not in result
+        assert "- a" in result
+
+    @pytest.mark.anyio
+    async def test_empty_box_yields_nothing(self, converter: WikiHtmlConverter) -> None:
+        """An empty box produces empty output."""
+        result = await _convert(converter, f"<blockquote {_BOX_STYLE}></blockquote>")
+        assert result == ""
+
+    @pytest.mark.anyio
+    async def test_definition_row_indent_unchanged(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """The renamed helper keeps ``<dd>`` row output identical."""
+        result = await _convert(converter, "<dl><dd>first row</dd></dl>")
+        assert result == "&nbsp;&nbsp;&nbsp;&nbsp; first row\n\n"
