@@ -17,7 +17,7 @@ from .template_config import _BOXED_CLASSES
 """Matches a suppressed left border in an inline ``style`` attribute."""
 _BORDERLESS_STYLE_RE = re.compile(r"\bborder-left-style\s*:\s*none\b", re.IGNORECASE)
 """Ancestors whose layout a box indent would break."""
-_BOX_HOST_TAGS = ("li", "td", "th")
+_BOX_HOST_TAGS = ("li", "td", "th", "dd", "dt")
 
 """Exported names from this module."""
 __all__ = ()
@@ -256,9 +256,10 @@ def _is_indented_box_blockquote(ele: Tag) -> bool:
     True when all hold: ``ele.name == "blockquote"``; no class is in
     ``_BOXED_CLASSES`` (those render with a ``>`` prefix, which already
     indents); the inline style suppresses the left border; no ``li``,
-    ``td``, or ``th`` ancestor; the element has text; and the element
-    contains no ``ul``, ``ol``, or ``table`` descendant, since a nested list
-    or table carries its own layout and must not be prefixed.
+    ``td``, ``th``, ``dd``, or ``dt`` ancestor; the element has text; and the
+    element contains no ``ul``, ``ol``, ``table``, ``blockquote``, or ``pre``
+    descendant, since those carry line-start-sensitive or own-layout markup
+    that must not be prefixed.
     """
     if ele.name != "blockquote":
         return False
@@ -270,7 +271,7 @@ def _is_indented_box_blockquote(ele: Tag) -> bool:
         return False
     if not ele.get_text(strip=True):
         return False
-    return ele.find(["ul", "ol", "table"]) is None
+    return ele.find(["ul", "ol", "table", "blockquote", "pre"]) is None
 
 
 def _dl_follows_p(ele: Tag) -> bool:

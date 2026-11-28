@@ -4342,6 +4342,43 @@ class TestIsIndentedBoxBlockquote:
             )
         )
 
+    def test_nested_blockquote_is_excluded(self) -> None:
+        """A box carrying a blockquote descendant keeps quote markup intact."""
+        assert not _is_indented_box_blockquote(
+            _first_blockquote(
+                '<blockquote style="border-left-style: none"><p>Alpha.</p>'
+                '<blockquote class="templatequote"><p>Quoted.</p></blockquote>'
+                "</blockquote>"
+            )
+        )
+
+    def test_nested_pre_is_excluded(self) -> None:
+        """A box carrying preformatted text keeps line-start markup intact."""
+        assert not _is_indented_box_blockquote(
+            _first_blockquote(
+                '<blockquote style="border-left-style: none"><p>Alpha.</p>'
+                "<pre>code\nline2</pre></blockquote>"
+            )
+        )
+
+    def test_inside_dd_is_excluded(self) -> None:
+        """A box inside a definition description is indented by the dd row."""
+        assert not _is_indented_box_blockquote(
+            _first_blockquote(
+                '<dl><dd><blockquote style="border-left-style: none"><p>x</p>'
+                "</blockquote></dd></dl>"
+            )
+        )
+
+    def test_inside_dt_is_excluded(self) -> None:
+        """A box inside a definition term stays out of the box handler."""
+        assert not _is_indented_box_blockquote(
+            _first_blockquote(
+                '<dl><dt><blockquote style="border-left-style: none"><p>x</p>'
+                "</blockquote></dt></dl>"
+            )
+        )
+
     def test_empty_box_is_excluded(self) -> None:
         """An empty box has nothing to indent."""
         assert not _is_indented_box_blockquote(
@@ -4464,10 +4501,62 @@ class TestIndentedBoxBlockquote:
         assert "- a" in result
 
     @pytest.mark.anyio
+    async def test_box_with_nested_blockquote_not_indented(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A box carrying a blockquote keeps the quote line-start intact."""
+        result = await _convert(
+            converter,
+            f"<blockquote {_BOX_STYLE}><p>Alpha.</p>"
+            '<blockquote class="templatequote"><p>Quoted.</p></blockquote>'
+            "</blockquote>",
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; > Quoted." not in result
+        assert "> Quoted." in result
+
+    @pytest.mark.anyio
+    async def test_box_with_nested_pre_not_indented(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A box carrying preformatted text keeps its line starts intact."""
+        result = await _convert(
+            converter,
+            f"<blockquote {_BOX_STYLE}><p>Alpha.</p><pre>code line\nline2</pre>"
+            "</blockquote>",
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; code line" not in result
+        assert "code line" in result
+        assert "line2" in result
+
+    @pytest.mark.anyio
     async def test_empty_box_yields_nothing(self, converter: WikiHtmlConverter) -> None:
         """An empty box produces empty output."""
         result = await _convert(converter, f"<blockquote {_BOX_STYLE}></blockquote>")
         assert result == ""
+
+    @pytest.mark.anyio
+    async def test_box_inside_dd_not_double_indented(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A box inside a dd row is indented by the row, not the handler."""
+        result = await _convert(
+            converter,
+            f"<dl><dd><blockquote {_BOX_STYLE}><p>Boxed.</p></blockquote></dd></dl>",
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; Boxed." in result
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Boxed." not in result
+
+    @pytest.mark.anyio
+    async def test_box_inside_dt_not_handler_indented(
+        self, converter: WikiHtmlConverter
+    ) -> None:
+        """A box inside a dt stays out of the box handler's indent path."""
+        result = await _convert(
+            converter,
+            f"<dl><dt><blockquote {_BOX_STYLE}><p>Boxed.</p></blockquote></dt></dl>",
+        )
+        assert "&nbsp;&nbsp;&nbsp;&nbsp; Boxed." not in result
+        assert "Boxed." in result
 
     @pytest.mark.anyio
     async def test_definition_row_indent_unchanged(
