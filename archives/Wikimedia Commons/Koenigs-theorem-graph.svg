@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="450" height="306" viewBox="0 0 450 306"
+	 overflow="visible" enable-background="new 0 0 450 306" xml:space="preserve">
+<rect fill="#FFFFFF" width="450" height="306"/>
+<line fill="none" stroke="#000000" stroke-width="0.75" x1="296.995" y1="297" x2="153" y2="9"/>
+<line fill="none" stroke="#000000" stroke-width="0.75" x1="8.995" y1="297" x2="153" y2="9"/>
+<line fill="none" stroke="#000000" stroke-width="0.75" x1="8.995" y1="9" x2="369" y2="297"/>
+<polyline fill="none" stroke="#000000" stroke-width="0.75" points="80.995,9 81,297 296.995,9 225,297 369,9 296.995,297 "/>
+<polyline fill="none" stroke="#000000" stroke-width="0.75" points="440.995,9 369,297 369,9 152.995,297 225,9 8.995,297 "/>
+<line fill="none" stroke="#0000FF" stroke-width="3" x1="369" y1="9" x2="440.995" y2="297"/>
+<line fill="none" stroke="#0000FF" stroke-width="3" x1="369" y1="297" x2="296.995" y2="9"/>
+<line fill="none" stroke="#0000FF" stroke-width="3" x1="225" y1="9" x2="296.995" y2="297"/>
+<line fill="none" stroke="#0000FF" stroke-width="3" x1="225" y1="297" x2="80.995" y2="9"/>
+<line fill="none" stroke="#0000FF" stroke-width="3" x1="153" y1="9" x2="152.995" y2="297"/>
+<line fill="none" stroke="#0000FF" stroke-width="3" x1="8.995" y1="9" x2="81" y2="297"/>
+<circle fill="#FF0000" stroke="#000000" cx="153" cy="9" r="6"/>
+<circle fill="#FF0000" stroke="#000000" cx="225" cy="9" r="6"/>
+<circle fill="#FF0000" stroke="#000000" cx="369" cy="9" r="6"/>
+<circle fill="#FF0000" stroke="#000000" cx="225" cy="297" r="6"/>
+<circle fill="#FF0000" stroke="#000000" cx="81" cy="297" r="6"/>
+<circle fill="#FF0000" stroke="#000000" cx="369" cy="297" r="6"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="81" cy="9" r="4"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="9" cy="9" r="4"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="9" cy="297" r="4"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="153" cy="297" r="4"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="297" cy="9" r="4"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="297" cy="297" r="4"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="441" cy="9" r="4"/>
+<circle fill="#FFFFFF" stroke="#000000" cx="441" cy="297" r="4"/>
+</svg>
