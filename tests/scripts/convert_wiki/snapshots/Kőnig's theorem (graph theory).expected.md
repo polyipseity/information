@@ -14,7 +14,7 @@ It is obvious from the definition that any vertex-cover set must be at least as 
 
 ## statement of the theorem
 
-_In any [bipartite graph](bipartite%20graph.md), the number of edges in a [maximum matching](maximum%20matching.md) equals the number of vertices in a [minimum vertex cover](minimum%20vertex%20cover.md).<sup>[\[3\]](#^ref-3)</sup>_
+&nbsp;&nbsp;&nbsp;&nbsp; _In any [bipartite graph](bipartite%20graph.md), the number of edges in a [maximum matching](maximum%20matching.md) equals the number of vertices in a [minimum vertex cover](minimum%20vertex%20cover.md).<sup>[\[3\]](#^ref-3)</sup>_
 
 ### example
 
@@ -58,27 +58,27 @@ To explain this proof, we first have to extend the notion of a matching to that 
 
 The maximum fractional matching size in a graph $G=(V,E)$ is the solution of the following [linear program](linear%20program.md):
 
-Maximize __1__<sub>_E_</sub> _·_ __x__
+&nbsp;&nbsp;&nbsp;&nbsp; Maximize __1__<sub>_E_</sub> _·_ __x__
 
-Subject to: __x__ ≥ __0__<!-- markdown separator -->_<sub>E</sub>_
+&nbsp;&nbsp;&nbsp;&nbsp; Subject to: __x__ ≥ __0__<!-- markdown separator -->_<sub>E</sub>_
 
-\_\_\_\_\_\_\_\_\_\_ __A__<sub>_G_</sub> · __x__ _≤ __1__<sub>V</sub>._
+&nbsp;&nbsp;&nbsp;&nbsp; \_\_\_\_\_\_\_\_\_\_ __A__<sub>_G_</sub> · __x__ _≤ __1__<sub>V</sub>._
 
 where __x__ is a vector of size \|_E_\| in which each element represents the weight of an edge in the fractional matching. __1__<sub>E</sub> is a vector of \|_E_\| ones, so the first line indicates the size of the matching. __0__<!-- markdown separator -->_<sub>E</sub>_ is a vector of \|_E_\| zeros, so the second line indicates the constraint that the weights are non-negative. __1__<sub>V</sub> is a vector of \|_V_\| ones and __A__<sub>_G_</sub> is the [incidence matrix](incidence%20matrix.md) of _G,_ so the third line indicates the constraint that the sum of weights near each vertex is at most 1. Similarly, the minimum fractional vertex-cover size in $G=(V,E)$ is the solution of the following LP:
 
-Minimize __1__<sub>_V_</sub> _·_ __y__
+&nbsp;&nbsp;&nbsp;&nbsp; Minimize __1__<sub>_V_</sub> _·_ __y__
 
-Subject to: __y__ ≥ __0__<!-- markdown separator -->_<sub>V</sub>_
+&nbsp;&nbsp;&nbsp;&nbsp; Subject to: __y__ ≥ __0__<!-- markdown separator -->_<sub>V</sub>_
 
-\_\_\_\_\_\_\_\_\_\_ __A__<sub>_G_</sub><sup>T</sup> · __y__ ≥ ___1__<sub>E</sub>._
+&nbsp;&nbsp;&nbsp;&nbsp; \_\_\_\_\_\_\_\_\_\_ __A__<sub>_G_</sub><sup>T</sup> · __y__ ≥ ___1__<sub>E</sub>._
 
 where __y__ is a vector of size \|V\| in which each element represents the weight of a vertex in the fractional cover. Here, the first line is the size of the cover, the second line represents the non-negativity of the weights, and the third line represents the requirement that the sum of weights near each edge must be at least 1. Now, the minimum fractional cover LP is exactly the [dual linear program](dual%20linear%20program.md) of the maximum fractional matching LP. Therefore, by the LP duality theorem, both programs have the same solution. This fact is true not only in bipartite graphs but in arbitrary graphs:
 
-_In any graph, the largest size of a fractional matching equals the smallest size of a fractional vertex cover._
+&nbsp;&nbsp;&nbsp;&nbsp; _In any graph, the largest size of a fractional matching equals the smallest size of a fractional vertex cover._
 
 What makes bipartite graphs special is that, in bipartite graphs, both these linear programs have optimal solutions in which all variable values are integers. This follows from the fact that in the [fractional matching polytope](matching%20polytope.md) of a bipartite graph, all extreme points have only [integer](integer.md) coordinates, and the same is true for the fractional vertex-cover polytope. Therefore, the above theorem implies:<sup>[\[7\]](#^ref-7)</sup>
 
-_In any bipartite graph, the largest size of a matching equals the smallest size of a vertex cover._
+&nbsp;&nbsp;&nbsp;&nbsp; _In any bipartite graph, the largest size of a matching equals the smallest size of a vertex cover._
 
 ## algorithm
 
@@ -125,23 +125,23 @@ Konig's theorem can be extended to [weighted graphs](weighted%20graph.md#weighte
 
 [Jenő Egerváry](Jenő%20Egerváry.md) \(1931\) considered graphs in which each edge _e_ has a non-negative integer weight _w<sub>e</sub>_. The weight vector is denoted by __w__. The __w-__<!-- markdown separator -->_weight of a matching_ is the sum of weights of the edges participating in the matching. A ___w-__<!-- markdown separator -->vertex-cover_ is a multiset of vertices \("multiset" means that each vertex may appear several times\), in which each edge _e_ is adjacent to at least _w<sub>e</sub>_ vertices. [Egerváry](Jenő%20Egerváry.md)'s theorem says:
 
-_In any edge-weighted bipartite graph, the maximum __w-__<!-- markdown separator -->weight of a matching equals the smallest number of vertices in a __w-__<!-- markdown separator -->vertex-cover._
+&nbsp;&nbsp;&nbsp;&nbsp; _In any edge-weighted bipartite graph, the maximum __w-__<!-- markdown separator -->weight of a matching equals the smallest number of vertices in a __w-__<!-- markdown separator -->vertex-cover._
 
 The maximum ___w-___<!-- markdown separator -->weight of a fractional matching is given by the LP:<sup>[\[18\]](#^ref-18)</sup>
 
-Maximize ___w___ _·_ __x__
+&nbsp;&nbsp;&nbsp;&nbsp; Maximize ___w___ _·_ __x__
 
-Subject to: __x__ ≥ __0__<!-- markdown separator -->_<sub>E</sub>_
+&nbsp;&nbsp;&nbsp;&nbsp; Subject to: __x__ ≥ __0__<!-- markdown separator -->_<sub>E</sub>_
 
-\_\_\_\_\_\_\_\_\_\_ __A__<sub>_G_</sub> · __x__ _≤ __1__<sub>V</sub>._
+&nbsp;&nbsp;&nbsp;&nbsp; \_\_\_\_\_\_\_\_\_\_ __A__<sub>_G_</sub> · __x__ _≤ __1__<sub>V</sub>._
 
 And the minimum number of vertices in a fractional ___w-___<!-- markdown separator -->vertex-cover is given by the dual LP:
 
-Minimize __1__<sub>_V_</sub> _·_ __y__
+&nbsp;&nbsp;&nbsp;&nbsp; Minimize __1__<sub>_V_</sub> _·_ __y__
 
-Subject to: __y__ ≥ __0__<!-- markdown separator -->_<sub>V</sub>_
+&nbsp;&nbsp;&nbsp;&nbsp; Subject to: __y__ ≥ __0__<!-- markdown separator -->_<sub>V</sub>_
 
-\_\_\_\_\_\_\_\_\_\_ __A__<sub>_G_</sub><sup>T</sup> · __y__ ≥ ___w__._
+&nbsp;&nbsp;&nbsp;&nbsp; \_\_\_\_\_\_\_\_\_\_ __A__<sub>_G_</sub><sup>T</sup> · __y__ ≥ ___w__._
 
 As in the proof of Konig's theorem, the LP duality theorem implies that the optimal values are equal \(for any graph\), and the fact that the graph is bipartite implies that these programs have optimal solutions in which all values are integers.
 
@@ -149,7 +149,7 @@ As in the proof of Konig's theorem, the LP duality theorem implies that the opti
 
 One can consider a graph in which each vertex _v_ has a non-negative integer weight _b<sub>v</sub>_. The weight vector is denoted by __b__. The ___b__-weight_ of a vertex-cover is the sum of _b<sub>v</sub>_ for all _v_ in the cover. A ___b__-matching_ is an assignment of a non-negative integral weight to each edge, such that the sum of weights of edges adjacent to any vertex _v_ is at most _b<sub>v</sub>_. Egerváry's theorem can be extended, using a similar argument, to graphs that have both edge-weights __w__ and vertex-weights __b__:<sup>[\[18\]](#^ref-18)</sup>
 
-_In any edge-weighted vertex-weighted bipartite graph, the maximum __w-__<!-- markdown separator -->weight of a __b__-matching equals the minimum __b__-weight of vertices in a __w-__<!-- markdown separator -->vertex-cover._
+&nbsp;&nbsp;&nbsp;&nbsp; _In any edge-weighted vertex-weighted bipartite graph, the maximum __w-__<!-- markdown separator -->weight of a __b__-matching equals the minimum __b__-weight of vertices in a __w-__<!-- markdown separator -->vertex-cover._
 
 ## see also
 
